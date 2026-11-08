@@ -81,11 +81,19 @@ router.post("/tracks/:slug/publish", ...editor, run(async (req, res) => {
 const courseTrackInput = z.object({ trackSlug: z.string().min(1), position: z.number().int().positive(), required: z.boolean().default(true) });
 router.post("/courses/:courseId/tracks", ...editor, run(async (req, res) => {
   const input = courseTrackInput.parse(req.body);
-  const course = await prisma.course.findUnique({ where: { id: param(req, "courseId") } });
-  if (!course) throw new NotFoundError("Course not found");
-  const track = await prisma.academyCurriculumTrack.findUnique({ where: { slug: input.trackSlug } });
-  if (!track || track.status !== "PUBLISHED") throw new ForbiddenError("Track must be published");
-  const placement = await prisma.academyCourseTrack.create({ data: { courseId: course.id, trackId: track.id, position: input.position, required: input.required } });
+  const actor = req.user!;
+  const courseId = param(req, "courseId");
+  // The ownership check and the attachment share one transaction, so the course cannot change owner or be
+  // soft-deleted between the check and the write. Rules match assertCourseOwnership in courses/course.service.ts:
+  // soft-deleted courses are not found, and only ADMIN or the course's teacher may attach a track.
+  const placement = await prisma.$transaction(async (tx) => {
+    const course = await tx.course.findUnique({ where: { id: courseId, deletedAt: null } });
+    if (!course) throw new NotFoundError("Course not found");
+    if (actor.role !== "ADMIN" && course.teacherId !== actor.userId) throw new ForbiddenError("You do not own this course");
+    const track = await tx.academyCurriculumTrack.findUnique({ where: { slug: input.trackSlug } });
+    if (!track || track.status !== "PUBLISHED") throw new ForbiddenError("Track must be published");
+    return tx.academyCourseTrack.create({ data: { courseId: course.id, trackId: track.id, position: input.position, required: input.required } });
+  });
   sendSuccess(res, placement, "Track attached", 201);
 }));
 router.get("/courses/:courseId/outline", authenticate, run(async (req, res) => {
