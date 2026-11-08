@@ -39,8 +39,8 @@ export default function CreditsPage() {
           code, as the MIT licence requires.
         </p>
         <p className="text-neutral-300">
-          Some inherited modules remain in the code where Titan Academy uses them. Their behaviour is
-          not verified for Titan Academy.
+          Some inherited modules remain in the SkilledAt.Work codebase for compatibility. Their behaviour
+          requires separate verification; retaining the original attribution does not certify them.
         </p>
       </section>
 
