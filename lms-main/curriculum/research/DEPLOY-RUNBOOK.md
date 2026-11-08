@@ -12,7 +12,7 @@ Conventions:
 - The existing PostgreSQL 13 server on port 5432. Academy uses its own PostgreSQL 16 instance on port 5433.
 - The Titan Field and Titan Desk services, their databases, containers, processes and Apache virtual hosts.
 - `docker-compose.local-dev.yml`. It publishes 5432, uses weak development credentials and must not run on the server (`docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md`).
-- `1-init.sh` and `2-setup.sh`. Both now exit with an error on purpose. Their archived originals in `docs/legacy-bootstrap/` overwrite package manifests.
+- `docs/legacy-bootstrap/1-init.stub.sh` and `docs/legacy-bootstrap/2-setup.stub.sh`. Both exit with an error on purpose. Their archived originals in `docs/legacy-bootstrap/` overwrite package manifests.
 
 ## 1. PostgreSQL 16 on port 5433
 

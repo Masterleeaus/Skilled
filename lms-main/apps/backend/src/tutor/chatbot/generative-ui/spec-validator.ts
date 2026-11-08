@@ -44,6 +44,15 @@ const SUPPORTED_VERSIONS = ["1.0", "1.1"] as const;
 const SUPPORTED_SURFACES = ["chat", "builder", "page", "canvas", "mobile", "preview"] as const;
 const UNSAFE_PROP_KEYS = ["html", "rawHtml", "innerHTML", "dangerouslySetInnerHTML", "script", "javascript"] as const;
 
+/** True when the string holds a C0 control character or DEL. Checked by code point, so no control characters appear in a regex. */
+function hasControlCharacter(value: string): boolean {
+  for (const ch of value) {
+    const code = ch.codePointAt(0) ?? 0;
+    if (code <= 0x1f || code === 0x7f) return true;
+  }
+  return false;
+}
+
 /** Element keys: letters, digits, underscore and hyphen, 1 to 100 characters. */
 export function isSafeKey(key: string): boolean {
   return /^[A-Za-z0-9_-]{1,100}$/.test(key);
@@ -56,7 +65,7 @@ export function isSafePointer(path: unknown): boolean {
     (path === "/" || path.startsWith("/")) &&
     byteLength(path) <= MAX_POINTER_BYTES &&
     !path.includes("..") &&
-    !/[\x00-\x1F\x7F]/.test(path)
+    !hasControlCharacter(path)
   );
 }
 
@@ -195,7 +204,8 @@ export function validateSpec(input: Obj, registry: BuilderRegistry): SpecValidat
   const surfaceHint = readKey(input, "surface");
   const spec = normaliseSpec(input, typeof surfaceHint === "string" ? surfaceHint : "chat");
   const issues = new IssueList();
-  const root = spec.root;
+  // Typed as string for the checks below; the typeof guard further down still rejects non-strings.
+  const root = spec.root as string;
   const elements = spec.elements;
 
   const authority = readKey(input, "authority") ?? "presentation-only";
@@ -205,7 +215,7 @@ export function validateSpec(input: Obj, registry: BuilderRegistry): SpecValidat
   if (issetKey(input, "version") && !(SUPPORTED_VERSIONS as readonly string[]).includes(phpStringCast(readKey(input, "version")))) {
     issues.error("/version", "Unsupported specification version.");
   }
-  if (!(SUPPORTED_SURFACES as readonly string[]).includes(spec.surface)) {
+  if (!(SUPPORTED_SURFACES as readonly string[]).includes(spec.surface as string)) {
     issues.error("/surface", "Unsupported rendering surface.");
   }
   if (typeof root !== "string" || root === "" || !isSafeKey(root)) {

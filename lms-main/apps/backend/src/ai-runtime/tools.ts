@@ -184,7 +184,7 @@ export class ToolExecutor {
 
     // 3. Permission
     if (this.permissionCheck) {
-      let permitted = false;
+      let permitted: boolean;
       try {
         permitted = (await this.permissionCheck(toolName, ctx)) === true;
       } catch {

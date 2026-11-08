@@ -22,7 +22,13 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 
-type Row = Record<string, any>;
+type Row = Record<string, unknown>;
+
+/** Untyped fake: any property read or call yields another FakeNode. Stands in for the Prisma client in tests. */
+interface FakeNode {
+  (...args: unknown[]): FakeNode;
+  [key: string]: FakeNode;
+}
 type Relation = { model: string; fk: string; many?: boolean };
 type Unique = { fields: string[]; where?: Row };
 type ForeignKey = {
@@ -518,9 +524,9 @@ function deferred<T>(work: () => T): Promise<T> {
   let started: Promise<T> | undefined;
   const run = (): Promise<T> => (started ??= new Promise<T>((resolve) => resolve(work())));
   const thenable = {
-    then: (onFulfilled?: any, onRejected?: any) => run().then(onFulfilled, onRejected),
-    catch: (onRejected?: any) => run().catch(onRejected),
-    finally: (onFinally?: any) => run().finally(onFinally),
+    then: (onFulfilled?: ((value: T) => unknown) | null, onRejected?: ((reason: unknown) => unknown) | null) => run().then(onFulfilled, onRejected),
+    catch: (onRejected?: ((reason: unknown) => unknown) | null) => run().catch(onRejected),
+    finally: (onFinally?: (() => void) | null) => run().finally(onFinally),
     [Symbol.toStringTag]: "Promise",
   };
   return thenable as unknown as Promise<T>;
@@ -622,7 +628,7 @@ async function transaction(arg: unknown): Promise<unknown> {
 
 const apis = new Map<string, ReturnType<typeof modelApi>>();
 
-export const fakePrisma: Record<string, any> = new Proxy(
+export const fakePrisma: FakeNode = new Proxy(
   {},
   {
     get(_target, property) {

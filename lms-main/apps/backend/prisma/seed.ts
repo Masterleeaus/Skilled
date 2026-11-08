@@ -1,5 +1,55 @@
+import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcrypt";
+
+/*
+ * SAFETY GUARDS. Read before running this script.
+ *
+ * This script deletes every row in every table (wipeDatabase) before it seeds demo data.
+ * It exits with status 1, before a database connection is opened, unless all of these hold:
+ *   1. NODE_ENV is not "production". This is refused outright. There is no override.
+ *   2. The run is confirmed with the flag --confirm-wipe, or with SEED_CONFIRM_WIPE=1.
+ * Before the wipe starts, the script prints the host, port and database name from DATABASE_URL.
+ * Check that line. The password is never printed.
+ *
+ * Example (throwaway local database only):
+ *   pnpm -C apps/backend exec tsx prisma/seed.ts --confirm-wipe
+ */
+const CONFIRM_FLAG = "--confirm-wipe";
+const CONFIRM_ENV = "SEED_CONFIRM_WIPE";
+
+function refuse(message: string): never {
+  console.error(`seed refused: ${message}`);
+  process.exit(1);
+}
+
+function describeTarget(databaseUrl: string | undefined): { host: string; name: string } {
+  if (!databaseUrl) refuse("DATABASE_URL is not set, so the target database cannot be identified.");
+  let url: URL;
+  try {
+    url = new URL(databaseUrl);
+  } catch {
+    refuse("DATABASE_URL is not a valid URL. Its value is not printed.");
+  }
+  const host = url.port ? `${url.hostname}:${url.port}` : url.hostname;
+  const name = decodeURIComponent(url.pathname.replace(/^\//, ""));
+  if (!name) refuse("DATABASE_URL has no database name.");
+  return { host, name };
+}
+
+if (process.env.NODE_ENV === "production") {
+  refuse("NODE_ENV is production. This script wipes the database and must never run against production.");
+}
+
+if (!process.argv.includes(CONFIRM_FLAG) && process.env[CONFIRM_ENV] !== "1") {
+  refuse(
+    `this script deletes all data. Confirm with ${CONFIRM_FLAG} (for example: ` +
+      `pnpm -C apps/backend exec tsx prisma/seed.ts ${CONFIRM_FLAG}) or set ${CONFIRM_ENV}=1.`,
+  );
+}
+
+const target = describeTarget(process.env.DATABASE_URL);
+console.log(`Target database: host=${target.host} name=${target.name}`);
 
 const prisma = new PrismaClient();
 

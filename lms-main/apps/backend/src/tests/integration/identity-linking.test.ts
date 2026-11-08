@@ -1,6 +1,6 @@
 // ACA-028: an external identity links to one Academy learner in one organisation, a second link is refused,
 // and unlinking works. Provisioning runs through the trusted operator module's exported provision() function.
-import { describe, it, expect, beforeAll, afterAll } from "vitest";
+import { it, expect, beforeAll, afterAll } from "vitest";
 import type express from "express";
 import {
   configureTestEnvironment, describeWithServices, createFixtures, cleanupFixtures, buildServiceApp, callSkills,

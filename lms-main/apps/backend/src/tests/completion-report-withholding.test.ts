@@ -21,7 +21,7 @@ import { NotFoundError } from "../utils/AppError";
 const COURSE_TWO = "course-2";
 const TRACK_TWO = "tr-2";
 
-const lessonOf = (report: { courses: Array<{ lessons: Array<{ lessonId: string }> }> }, lessonId: string): any =>
+const lessonOf = (report: { courses: Array<{ lessons: Array<{ lessonId: string }> }> }, lessonId: string) =>
   report.courses[0].lessons.find((lesson) => lesson.lessonId === lessonId);
 
 async function assignFromOtherCompany(courseId: string): Promise<void> {

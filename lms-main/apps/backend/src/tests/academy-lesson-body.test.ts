@@ -27,12 +27,15 @@ vi.mock("../config/env", () => ({
 vi.mock("../config/prisma", async () => ({ prisma: (await import("./support/fake-prisma")).fakePrisma }));
 
 import { env } from "../config/env";
-import { fakePrisma as prisma, resetFakeDb, seed } from "./support/fake-prisma";
+import { resetFakeDb, seed } from "./support/fake-prisma";
 import { KNOWLEDGE_CHECK, ids, publishFileBodies, seedAcademyFixture, token } from "./support/academy-fixtures";
 import { app } from "../app";
 import { resetFileLessonIndexForTests } from "../modules/curriculum/file-lesson-loader";
 import { knowledgeChecksAgree } from "../modules/curriculum/curriculum.routes";
 import { CourseLevelMap, setCourseLevelMapForTests } from "../modules/levels/level-rules";
+
+type Placement = { lesson: { sourceId: string }; [key: string]: unknown };
+type TrackEntry = { track: { placements: Placement[] } };
 
 const BODY = (lessonId: string, courseId = ids.course) => `/api/academy/curriculum/courses/${courseId}/lessons/${lessonId}/body`;
 const OUTLINE = (courseId = ids.course) => `/api/academy/curriculum/courses/${courseId}/outline`;
@@ -156,8 +159,8 @@ describe("lesson body endpoint", () => {
   it("keeps the outline listing a placed lesson that has no revision, with no body and no lock", async () => {
     const res = await request(app).get(OUTLINE()).set(auth(ids.learner1));
     expect(res.status).toBe(200);
-    const placements = res.body.data.tracks.flatMap((t: any) => t.track.placements);
-    const lessonC = placements.find((p: any) => p.lesson.sourceId === "TST-C");
+    const placements: Placement[] = res.body.data.tracks.flatMap((t: TrackEntry) => t.track.placements);
+    const lessonC = placements.find((p) => p.lesson.sourceId === "TST-C");
     expect(lessonC).toBeDefined();
     expect(lessonC.revision).toBeNull();
     expect(lessonC.levelLock ?? null).toBeNull();
@@ -165,7 +168,7 @@ describe("lesson body endpoint", () => {
 
   it("shows the outline lock with no body for a locked lesson", async () => {
     const res = await request(app).get(OUTLINE()).set(auth(ids.learner1));
-    const lessonB = res.body.data.tracks.flatMap((t: any) => t.track.placements).find((p: any) => p.lesson.sourceId === "TST-B");
+    const lessonB = res.body.data.tracks.flatMap((t: TrackEntry) => t.track.placements).find((p: Placement) => p.lesson.sourceId === "TST-B");
     expect(lessonB.levelLock).toMatchObject({ level: "group", waitingOn: "base" });
     expect(lessonB.revision).not.toHaveProperty("body");
   });

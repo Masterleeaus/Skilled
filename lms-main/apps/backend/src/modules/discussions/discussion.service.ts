@@ -1,6 +1,6 @@
 import { Role } from "@prisma/client";
 import { prisma } from "../../config/prisma";
-import { AppError, ForbiddenError, NotFoundError } from "../../utils/AppError";
+import { ForbiddenError, NotFoundError } from "../../utils/AppError";
 import { isEnrolled } from "../enrollment/enrollment.service";
 import type { CreateThreadInput } from "./discussion.validators";
 

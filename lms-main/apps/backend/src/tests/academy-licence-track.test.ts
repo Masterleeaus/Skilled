@@ -34,6 +34,10 @@ import { resetFileLessonIndexForTests } from "../modules/curriculum/file-lesson-
 import { CourseLevelMap, setCourseLevelMapForTests } from "../modules/levels/level-rules";
 import { LICENCE_EXCLUDED_MESSAGE, filterLessonsForTrack, filterModulesForTrack, parseLicenceFile, parseLicenceTrack, resetLicenceIndexForTests, summariseLicenceTracks, licenceNoticeOf } from "../modules/curriculum/licence-track";
 
+type Placement = { lesson: { sourceId: string }; [key: string]: unknown };
+type TrackEntry = { track: { placements: Placement[] } };
+type TrackBody = { data: { tracks: TrackEntry[] } };
+
 const OUTLINE = (track?: string) => `/api/academy/curriculum/courses/${ids.course}/outline${track === undefined ? "" : `?track=${track}`}`;
 const BODY = (lessonId: string, track?: string) => `/api/academy/curriculum/courses/${ids.course}/lessons/${lessonId}/body${track === undefined ? "" : `?track=${track}`}`;
 const PROGRESS = (track?: string) => `/api/academy/curriculum/courses/${ids.course}/progress/me${track === undefined ? "" : `?track=${track}`}`;
@@ -101,8 +105,8 @@ beforeEach(async () => {
   await prisma.enrollment.update({ where: { studentId_courseId: { studentId: ids.learner2, courseId: ids.course } }, data: { licenceTrack: "licensed" } });
 });
 
-const placementsOf = (body: any) => body.data.tracks.flatMap((t: any) => t.track.placements);
-const sourceIdsOf = (body: any) => placementsOf(body).map((p: any) => p.lesson.sourceId).sort();
+const placementsOf = (body: TrackBody): Placement[] => body.data.tracks.flatMap((t) => t.track.placements);
+const sourceIdsOf = (body: TrackBody) => placementsOf(body).map((p) => p.lesson.sourceId).sort();
 
 describe("licence track choice", () => {
   it("defaults to the non-licensed track when no track is sent", () => {
@@ -124,7 +128,7 @@ describe("licence track choice", () => {
 
   it("non-licensed outline includes a threshold lesson with its limit text and no licence note", async () => {
     const res = await request(app).get(OUTLINE("non-licensed")).set(auth(ids.learner1));
-    const lessonA = placementsOf(res.body).find((p: any) => p.lesson.sourceId === "TST-A");
+    const lessonA = placementsOf(res.body).find((p) => p.lesson.sourceId === "TST-A");
     expect(lessonA.licence).toEqual({ status: "threshold", limit: "Work up to 3 metres high", reason: "Work over this height needs a licence." });
     expect(JSON.stringify(res.body)).not.toContain("internal reviewer note");
   });
@@ -133,7 +137,7 @@ describe("licence track choice", () => {
     for (const track of ["non-licensed", "licensed"]) {
       const res = await request(app).get(OUTLINE(track)).set(auth(ids.learner1));
       expect(sourceIdsOf(res.body)).toContain("TST-D");
-      const lessonD = placementsOf(res.body).find((p: any) => p.lesson.sourceId === "TST-D");
+      const lessonD = placementsOf(res.body).find((p) => p.lesson.sourceId === "TST-D");
       expect(lessonD.licence).toBeNull();
     }
   });
@@ -142,7 +146,7 @@ describe("licence track choice", () => {
     const res = await request(app).get(OUTLINE()).set(auth(ids.learner2));
     expect(res.body.data.licenceTrack).toBe("licensed");
     expect(sourceIdsOf(res.body)).toEqual(["TST-A", "TST-B", "TST-D"]);
-    const lessonB = placementsOf(res.body).find((p: any) => p.lesson.sourceId === "TST-B");
+    const lessonB = placementsOf(res.body).find((p) => p.lesson.sourceId === "TST-B");
     expect(lessonB.licence).toEqual({ status: "required", limit: null, reason: "Gas fitting of any value needs a licensed gasfitter." });
     expect(JSON.stringify(res.body)).not.toContain("WebFetch");
     expect(JSON.stringify(res.body)).not.toContain("Reviewer remark");
@@ -191,7 +195,7 @@ describe("licence track choice", () => {
   it("counts progress on the saved track, so excluded lessons are not counted, and a ?track= does not change the count", async () => {
     const nonLicensed = await request(app).get(PROGRESS("non-licensed")).set(auth(ids.learner1));
     expect(nonLicensed.body.data.lessonCount).toBe(2);
-    expect(nonLicensed.body.data.lessons.map((l: any) => l.sourceId).sort()).toEqual(["TST-A", "TST-D"]);
+    expect(nonLicensed.body.data.lessons.map((l: { sourceId: string }) => l.sourceId).sort()).toEqual(["TST-A", "TST-D"]);
     const withLicensedQuery = await request(app).get(PROGRESS("licensed")).set(auth(ids.learner1));
     expect(withLicensedQuery.body.data.lessonCount).toBe(2);
     const licensed = await request(app).get(PROGRESS()).set(auth(ids.learner2));
@@ -321,7 +325,8 @@ describe("GET /api/courses/:slug lists legacy modules for the chosen licence tra
     ]);
   });
 
-  const legacyTitles = (body: any) => body.data.modules.map((m: any) => ({ title: m.title, lessons: m.lessons.map((l: any) => l.title) }));
+  type LegacyBody = { data: { modules: Array<{ title: string; lessons: Array<{ title: string }> }> } };
+  const legacyTitles = (body: LegacyBody) => body.data.modules.map((m) => ({ title: m.title, lessons: m.lessons.map((l) => l.title) }));
 
   it("defaults to non-licensed: the required lessons and any module left empty are not listed", async () => {
     const res = await request(app).get(COURSE);

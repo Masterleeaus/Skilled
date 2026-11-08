@@ -1,5 +1,5 @@
 // ACA-016: deactivated, soft-deleted or unenrolled learners must receive no integration skills, and the refusal is audited.
-import { describe, it, expect, beforeAll, afterAll } from "vitest";
+import { it, expect, beforeAll, afterAll } from "vitest";
 import type express from "express";
 import {
   configureTestEnvironment, describeWithServices, createFixtures, cleanupFixtures, buildServiceApp, callSkills,

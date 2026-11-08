@@ -7,7 +7,6 @@ import { authenticate } from "../../middleware/authenticate";
 import { requirePermission, requireRole } from "../../middleware/permission";
 import {
   createQuizSchema,
-  updateQuizSchema,
   questionSchema,
   submitAttemptSchema,
 } from "./quiz.validators";

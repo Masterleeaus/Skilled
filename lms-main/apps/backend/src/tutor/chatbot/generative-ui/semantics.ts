@@ -8,11 +8,12 @@
  * Every helper here is pure.
  */
 
-export type Obj = Record<string, any>;
+export type Obj = Record<string, unknown>;
 
 const OWN = Object.prototype.hasOwnProperty;
 const INTEGER_KEY = /^(0|-?[1-9][0-9]*)$/;
-const PHP_TRIM_CHARS = /^[ \t\n\r\0\x0B]+|[ \t\n\r\0\x0B]+$/g;
+// PHP trim() default set: space, \t, \n, \r, NUL, \x0B. Checked by code, not regex, so no control characters appear in a pattern.
+const PHP_TRIM_SET = new Set([" ", "\t", "\n", "\r", "\0", "\x0B"]);
 
 /** A non-array object decoded from JSON. */
 export function isPlainObject(value: unknown): value is Obj {
@@ -20,7 +21,7 @@ export function isPlainObject(value: unknown): value is Obj {
 }
 
 /** PHP is_array(): JSON lists and JSON objects both count. */
-export function isPhpArray(value: unknown): boolean {
+export function isPhpArray(value: unknown): value is Obj {
   return typeof value === "object" && value !== null;
 }
 
@@ -35,7 +36,7 @@ export function isPhpList(value: unknown): boolean {
 }
 
 /** Own-property read. Returns undefined for missing keys and for non-object containers. */
-export function readKey(container: unknown, key: string): any {
+export function readKey(container: unknown, key: string): unknown {
   return isPlainObject(container) && OWN.call(container, key) ? container[key] : undefined;
 }
 
@@ -64,7 +65,11 @@ export function isPhpStringKey(key: string): boolean {
 
 /** PHP trim() with its default character set. */
 export function phpTrim(value: string): string {
-  return value.replace(PHP_TRIM_CHARS, "");
+  let start = 0;
+  let end = value.length;
+  while (start < end && PHP_TRIM_SET.has(value[start])) start++;
+  while (end > start && PHP_TRIM_SET.has(value[end - 1])) end--;
+  return value.slice(start, end);
 }
 
 /** PHP `$a ?: $b`: an empty string or "0" is falsy. */

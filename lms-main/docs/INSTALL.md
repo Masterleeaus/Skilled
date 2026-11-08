@@ -34,7 +34,7 @@ Run from the repository root:
 pnpm install --frozen-lockfile
 ```
 
-`--frozen-lockfile` stops the install if it would change `pnpm-lock.yaml`. Do not run the legacy scripts `1-init.sh` or `2-setup.sh`. Both exit with an error on purpose.
+`--frozen-lockfile` stops the install if it would change `pnpm-lock.yaml`. Do not run the legacy scripts. They are kept as `docs/legacy-bootstrap/1-init.stub.sh` and `docs/legacy-bootstrap/2-setup.stub.sh`, and both exit with an error on purpose.
 
 ## 3. Configure the environment
 

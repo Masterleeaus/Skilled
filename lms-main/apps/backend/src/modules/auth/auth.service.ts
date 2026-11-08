@@ -1,6 +1,5 @@
 import bcrypt from "bcrypt";
 import { prisma } from "../../config/prisma";
-import { redis } from "../../config/redis";
 import { AppError, UnauthorizedError, NotFoundError } from "../../utils/AppError";
 import {
   signAccessToken,
