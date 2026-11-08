@@ -216,3 +216,13 @@ node scripts/audit-course-art-manifest.mjs --strict --report build/course-art-ma
 ```
 
 The check does not prove every generated image responds over HTTP after deployment, whether the art meets accessibility/licensing requirements, or that every active course slug has a branded manifest key. These still need deployment and content review. It does prevent stale or unsafe paths in the existing manifest from silently shipping.
+
+## Public versus authenticated shared header (pass 18)
+
+The shared `apps/frontend/src/components/Topbar.tsx` is also used by public `/courses` browsing routes. Previously, its role fallback mapped **missing authentication** to `/student` and rendered a blank account button, sending guests to a protected route.
+
+The canonical `apps/frontend/src/lib/dashboard-link.ts` now resolves role-specific destinations only when an authenticated role is present; null or unknown user state returns `null`. Topbar uses the public homepage as its logo destination and shows `Log in` / `Create account` to guests instead of `Dashboard`, `My Profile` and `Log out`. Signed-in users retain the correct `/admin`, `/teacher` or `/student` dashboard and profile/logout controls. The account dropdown now exposes accessible expanded state and menu-item semantics, and closes on Escape as well as an outside click.
+
+`scripts/test-public-topbar-navigation.mjs` adds read-only source-contract checks for the public browsing route, guest links, role mapping and keyboard dismissal, wired into `skilled-account-flow-brand.yml`.
+
+**Scope:** This fixes guest links in source without changing sessions, middleware or access policies. The source-contract tests do not simulate browser hydration or prove runtime navigation; browser/device validation is still required.
