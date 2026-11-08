@@ -1,10 +1,10 @@
 // ACA-017: credential rotation, revocation and expiry. Operations run through the real operator CLI.
 // Tokens are held in memory only and are never printed or asserted in messages.
-import { describe, it, expect, beforeAll, afterAll } from "vitest";
+import { it, expect, beforeAll, afterAll } from "vitest";
 import type express from "express";
 import {
   configureTestEnvironment, describeWithServices, createFixtures, cleanupFixtures, buildServiceApp, callSkills,
-  createCredentialViaCli, insertCredential, runCredentialCli, countAudit, sha256Hex, type Db, type Fixtures,
+  insertCredential, runCredentialCli, countAudit, sha256Hex, type Db, type Fixtures,
 } from "./harness";
 
 configureTestEnvironment();

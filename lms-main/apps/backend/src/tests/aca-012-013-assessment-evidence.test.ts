@@ -13,7 +13,7 @@ vi.mock("../config/env", () => ({
 }));
 vi.mock("../config/prisma", async () => ({ prisma: (await import("./support/fake-prisma")).fakePrisma }));
 
-import { fakePrisma as prisma, resetFakeDb, rows, seed } from "./support/fake-prisma";
+import { resetFakeDb, rows, seed } from "./support/fake-prisma";
 import { ids, seedAcademyFixture, token } from "./support/academy-fixtures";
 import curriculumRoutes from "../modules/curriculum/curriculum.routes";
 import { errorHandler } from "../middleware/errorHandler";

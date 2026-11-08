@@ -21,7 +21,7 @@ vi.mock("../config/prisma", async () => ({ prisma: (await import("./support/fake
 
 import express from "express";
 import request from "supertest";
-import { fakePrisma as prisma, resetFakeDb, rows, seed } from "./support/fake-prisma";
+import { resetFakeDb, rows, seed } from "./support/fake-prisma";
 import { signAccessToken } from "../modules/auth/token.utils";
 import curriculumRoutes from "../modules/curriculum/curriculum.routes";
 import {
@@ -109,7 +109,7 @@ async function approve(revisionId: string, contentHash: string, reviewerId = ADM
   return recordReview({ revisionId, reviewerId, decision: "APPROVED", contentHash });
 }
 
-function revisionRow(id: string): Record<string, any> {
+function revisionRow(id: string): Record<string, unknown> {
   const row = rows("academyLessonRevision").find((r) => r.id === id);
   if (!row) throw new Error(`no revision ${id}`);
   return row;

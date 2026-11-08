@@ -12,7 +12,7 @@ vi.mock("../config/env", () => ({
 }));
 vi.mock("../config/prisma", async () => ({ prisma: (await import("./support/fake-prisma")).fakePrisma }));
 
-import { fakePrisma as prisma, resetFakeDb, seed } from "./support/fake-prisma";
+import { resetFakeDb, seed } from "./support/fake-prisma";
 import { ids, seedAcademyFixture } from "./support/academy-fixtures";
 import { buildLearnerCompletionReport } from "../modules/curriculum/completion-report.service";
 
@@ -35,7 +35,7 @@ async function seedCourseTwoWithRevisionBOnly(): Promise<void> {
   await seed("academyCourseTrack", [{ courseId: COURSE_TWO, trackId: TRACK_TWO, position: 1, required: true }]);
 }
 
-const lessonA = (report: { courses: Array<{ lessons: Array<any> }> }) =>
+const lessonA = (report: { courses: Array<{ lessons: Array<{ lessonId: string }> }> }) =>
   report.courses[0].lessons.find((lesson) => lesson.lessonId === ids.lessonA);
 
 beforeEach(async () => {

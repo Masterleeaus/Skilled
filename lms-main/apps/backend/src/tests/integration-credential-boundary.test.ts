@@ -21,7 +21,7 @@ vi.mock("../modules/levels/level.service", () => ({
   filterToFinishedLevels: async <T>(_learnerId: string, items: T[]) => items,
 }));
 
-import { fakePrisma as prisma, resetFakeDb, rows, seed } from "./support/fake-prisma";
+import { resetFakeDb, rows, seed } from "./support/fake-prisma";
 import { integrationRoutes } from "../modules/curriculum/integration.routes";
 
 const PREFIX = "/api/titan/integration";

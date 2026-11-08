@@ -2,7 +2,7 @@
 // Transport is an in-process supertest client against the real router. No external service is contacted.
 // Shapes are taken from PASS13/14/15/17/18 and the router source. The partner-side contract is NOT written down
 // in this repository, so these tests pin the current API shape and do not invent partner expectations.
-import { describe, it, expect, beforeAll, afterAll } from "vitest";
+import { it, expect, beforeAll, afterAll } from "vitest";
 import type express from "express";
 import request from "supertest";
 import {

@@ -23,7 +23,7 @@ This is **source preparation**, not a completed server deployment. Do not assume
 
 ## Prior to running any live commands
 
-1. Verify the repository ZIP and its SHA-256 manifest; extract into a new staging directory under the `admin` account. Do not invoke `1-init.sh`, `2-setup.sh`, or `docker compose up` without `-f`.
+1. Verify the repository ZIP and its SHA-256 manifest; extract into a new staging directory under the `admin` account. Do not invoke `docs/legacy-bootstrap/1-init.stub.sh`, `docs/legacy-bootstrap/2-setup.stub.sh`, or `docker compose up` without `-f`.
 2. Recheck `ss -lntp`, `docker ps`, existing services and free memory. Identify who owns port 3002; keep 3000 and 3001 untouched.
 3. Confirm `psql -Atqc 'SHOW server_version'` using approved database credentials; verify PostgreSQL major compatibility with Prisma 6 and this migration chain. **Do not upgrade the shared PostgreSQL installation** without a backup and approved rollback plan.
 4. Create a dedicated `titan_academy` database and least-privilege role only after explicit authorisation. Keep `DATABASE_URL` private; do not share terminal output containing secrets.

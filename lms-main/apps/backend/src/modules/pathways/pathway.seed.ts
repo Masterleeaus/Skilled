@@ -49,9 +49,33 @@ export const BASE_MODULE_UNITS: Record<string, string> = {
 export const MODULE_KEY_PREFIX = "module:";
 export const SERVICE_ITEM_KEY = "service:learner-chosen";
 
+interface PathwayRecord {
+  id: string;
+  title: string;
+  description: string;
+  status: string;
+}
+
+interface PathwayCourseRecord {
+  id: string;
+  courseSlug: string;
+  required: boolean;
+  position: number;
+}
+
+/** The Prisma delegates this seed uses. Structural, so tests can pass a fake client. */
 export interface PathwaySeedClient {
-  academyCurriculumPathway: any;
-  academyPathwayCourse: any;
+  academyCurriculumPathway: {
+    findUnique(args: { where: { code: string } }): Promise<PathwayRecord | null>;
+    create(args: { data: Record<string, unknown> }): Promise<PathwayRecord>;
+    update(args: { where: { id: string }; data: Record<string, unknown> }): Promise<PathwayRecord>;
+  };
+  academyPathwayCourse: {
+    findMany(args: { where: { pathwayId: string }; orderBy: { position: "asc" } }): Promise<PathwayCourseRecord[]>;
+    create(args: { data: Record<string, unknown> }): Promise<unknown>;
+    update(args: { where: { id: string }; data: Record<string, unknown> }): Promise<unknown>;
+    delete(args: { where: { id: string } }): Promise<unknown>;
+  };
 }
 
 export interface PathwaySeedReport {
@@ -117,7 +141,7 @@ async function syncItems(client: PathwaySeedClient, pathwayId: string, wanted: D
   }
 
   const keep = new Set(wanted.map((item) => item.courseSlug));
-  const existingRows: Array<{ id: string; courseSlug: string; required: boolean; position: number }> =
+  const existingRows: PathwayCourseRecord[] =
     await client.academyPathwayCourse.findMany({ where: { pathwayId }, orderBy: { position: "asc" } });
 
   for (const row of existingRows) {

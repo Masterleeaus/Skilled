@@ -96,8 +96,8 @@ export function repairSpec(
   const componentIds = new Set(registry.componentIds());
   const actionIds = new Set(registry.actionIds());
 
-  let elements: Obj = base.elements;
-  let root: string = base.root;
+  let elements: Obj = base.elements as Obj;
+  let root: string = base.root as string;
 
   const entries = Object.entries(elements);
   if (entries.length > MAX_ELEMENTS) {
@@ -178,7 +178,7 @@ export function repairSpec(
           (binding): binding is Obj =>
             isPhpArray(binding) &&
             typeof readKey(binding, "action") === "string" &&
-            actionIds.has(readKey(binding, "action")),
+            actionIds.has(readKey(binding, "action") as string),
         );
         if (safe.length === 0) {
           changes.push({

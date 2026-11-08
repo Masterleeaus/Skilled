@@ -66,7 +66,7 @@ export function createPublishedLessonStore(lessons: readonly PublishedLessonInpu
       continue;
     }
 
-    let parsed: ReturnType<typeof parseLesson> = null;
+    let parsed: ReturnType<typeof parseLesson>;
     try {
       parsed = parseLesson(lesson.body, `published:${lesson.sourceId}`);
     } catch {

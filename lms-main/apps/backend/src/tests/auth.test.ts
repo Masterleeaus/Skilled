@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeAll } from "vitest";
+import { it, expect, beforeAll } from "vitest";
 import request from "supertest";
 import { app } from "../app";
 import { prisma } from "../config/prisma";

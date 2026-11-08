@@ -12,7 +12,7 @@ import path from "node:path";
 vi.mock("../config/env", () => ({ env: { CURRICULUM_DIR: "", NODE_ENV: "test" } }));
 vi.mock("../config/prisma", async () => ({ prisma: (await import("./support/fake-prisma")).fakePrisma }));
 
-import { fakePrisma as prisma, resetFakeDb, rows, seed } from "./support/fake-prisma";
+import { resetFakeDb, rows, seed } from "./support/fake-prisma";
 import { buildFileLessonIndex } from "../modules/curriculum/file-lesson-loader";
 import {
   findAnswerKeyField,

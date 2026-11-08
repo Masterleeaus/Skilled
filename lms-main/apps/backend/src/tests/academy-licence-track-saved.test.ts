@@ -49,6 +49,10 @@ import { resetFileLessonIndexForTests } from "../modules/curriculum/file-lesson-
 import { CourseLevelMap, setCourseLevelMapForTests } from "../modules/levels/level-rules";
 import { LICENCE_EXCLUDED_MESSAGE, resetLicenceIndexForTests } from "../modules/curriculum/licence-track";
 
+type Placement = { lesson: { sourceId: string }; [key: string]: unknown };
+type TrackEntry = { track: { placements: Placement[] } };
+type TrackBody = { data: { tracks: TrackEntry[] } };
+
 // Course IDs must be cuid-shaped: the enrolment and checkout validators require it.
 const FREE_COURSE = "cjld2cyuq0001t3rmniod1foz";
 const PAID_COURSE = "cjld2cyuq0002t3rmniod1foa";
@@ -79,7 +83,7 @@ function writeFile(base: string, relative: string, record: unknown): void {
   writeFileSync(file, JSON.stringify(record));
 }
 
-const sourceIdsOf = (body: any) => body.data.tracks.flatMap((t: any) => t.track.placements).map((p: any) => p.lesson.sourceId).sort();
+const sourceIdsOf = (body: TrackBody) => body.data.tracks.flatMap((t) => t.track.placements).map((p) => p.lesson.sourceId).sort();
 
 beforeAll(() => {
   root = mkdtempSync(path.join(tmpdir(), "licence-track-saved-"));
@@ -192,7 +196,7 @@ describe("saved track is used when no ?track= is sent", () => {
     expect(licensed.body.data.lessonCount).toBe(3);
     const nonLicensed = await request(app).get(PROGRESS()).set(auth(ids.learner1));
     expect(nonLicensed.body.data.lessonCount).toBe(2);
-    expect(nonLicensed.body.data.lessons.map((l: any) => l.sourceId).sort()).toEqual(["TST-A", "TST-D"]);
+    expect(nonLicensed.body.data.lessons.map((l: { sourceId: string }) => l.sourceId).sort()).toEqual(["TST-A", "TST-D"]);
   });
 });
 

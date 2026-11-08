@@ -30,6 +30,10 @@ import { ids, seedAcademyFixture, token } from "./support/academy-fixtures";
 import { app } from "../app";
 import { CourseLevelMap, setCourseLevelMapForTests } from "../modules/levels/level-rules";
 
+type Placement = { lesson: { sourceId: string }; [key: string]: unknown };
+type TrackEntry = { track: { placements: Placement[] } };
+type TrackBody = { data: { tracks: TrackEntry[] } };
+
 const SELECTION = (courseId = ids.course) => `/api/academy/course-selection/courses/${courseId}/lesson-selection`;
 const POOL = (courseId = ids.course) => `/api/academy/course-selection/courses/${courseId}/lesson-pool`;
 const OUTLINE = (courseId = ids.course) => `/api/academy/curriculum/courses/${courseId}/outline`;
@@ -46,7 +50,7 @@ const MAP: CourseLevelMap = { "field-safety": { "TST-A": "base", "TST-B": "group
 
 const auth = (userId: string, role: string) => ({ Authorization: `Bearer ${token(userId, role)}` });
 const savedIds = () => rows("academyCourseLessonSelection").filter((row) => row.courseId === ids.course).map((row) => row.sourceId).sort();
-const outlineSourceIds = (body: any): string[] => body.data.tracks.flatMap((t: any) => t.track.placements.map((p: any) => p.lesson.sourceId)).sort();
+const outlineSourceIds = (body: TrackBody): string[] => body.data.tracks.flatMap((t) => t.track.placements.map((p) => p.lesson.sourceId)).sort();
 
 beforeEach(async () => {
   resetFakeDb();
