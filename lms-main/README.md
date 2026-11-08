@@ -1,10 +1,10 @@
-# Titan Academy
+# SkilledAt.Work
 
-> **Titan Academy production safety (Pass 43):** This repository contains a separately staged, unverified production candidate. **Do not run** `docker compose up` or inherited bootstrap scripts on an existing DirectAdmin server. The original developer Compose configuration is saved as `docker-compose.local-dev.yml` and is not suitable for production. See [Academy production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md).
+> **SkilledAt.Work production safety (historical Pass 43):** This repository contains a separately staged, unverified production candidate. **Do not run** `docker compose up` or inherited bootstrap scripts on an existing DirectAdmin server. The original developer Compose configuration is saved as `docker-compose.local-dev.yml` and is not suitable for production. See [Academy production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md).
 
-Titan Academy is a training platform for field and home-service businesses. It combines a course and learner base with curriculum composition, knowledge checks, practical evidence and assessor review, organisation-scoped training, and business-specific lesson context with immutable presentation snapshots.
+SkilledAt.Work is a training platform for field and home-service businesses. It combines a course and learner base with curriculum composition, knowledge checks, practical evidence and assessor review, organisation-scoped training, and business-specific lesson context with immutable presentation snapshots.
 
-The codebase was started from an inherited full-stack LMS (see [Origin and licence](#origin-and-licence)). Inherited modules are kept where Titan Academy still uses them. Their behaviour is not re-verified for Titan Academy. Verification status for every open item is tracked in [`TITAN-ACADEMY-MASTER-IMPROVEMENT-REGISTER.md`](TITAN-ACADEMY-MASTER-IMPROVEMENT-REGISTER.md).
+The codebase was started from an inherited full-stack LMS (see [Origin and licence](#origin-and-licence)). Inherited modules are kept where SkilledAt.Work still uses them. Their behaviour is not fully re-verified for SkilledAt.Work. Verification status for every open item is tracked in [`TITAN-ACADEMY-MASTER-IMPROVEMENT-REGISTER.md`](TITAN-ACADEMY-MASTER-IMPROVEMENT-REGISTER.md).
 
 > **Status (2026-11-08): not production-verified.** The fresh install check verified:
 > - Frozen-lockfile install passes (`pnpm install --frozen-lockfile`).
@@ -15,6 +15,8 @@ The codebase was started from an inherited full-stack LMS (see [Origin and licen
 > - Repository source verification passes 26/26.
 >
 > Not verified: the full stack with MinIO, the browser suite, and live API flows. See the register (ACA-001 to ACA-004, ACA-018).
+
+> **Canonical source and assets:** [Skilled source-of-truth map and generated public assets](docs/SKILLED-CANONICAL-SOURCE-AND-ASSETS.md). This project remains under consolidation (issue #72); historical pass records retain their original labels for provenance.
 
 ![Node](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
@@ -41,7 +43,7 @@ The codebase was started from an inherited full-stack LMS (see [Origin and licen
 
 ## Overview
 
-Titan Academy delivers training that a business can configure without changing the canonical lesson content:
+SkilledAt.Work delivers training that a business can configure without changing the canonical lesson content:
 
 - **Canonical lessons and revisions.** Lesson content is versioned. Only published revisions reach learners. Curriculum drafts stay in review until a human approves them.
 - **Tracks and course composition.** Published tracks are attached to courses. Each placement is marked required or optional.
