@@ -26,10 +26,12 @@ interface Props {
   summary: LicenceTrackSummary | undefined;
   isLoading: boolean;
   isError: boolean;
+  /** Shown instead of the summary counts when the page lists the legacy lessons (the academy has none for this course). */
+  countFallback?: number;
 }
 
 /** Choose the licence track for a course. Shows each track's lesson count and the lessons that need a licence. */
-export function LicenceTrackChooser({ track, onChange, summary, isLoading, isError }: Props) {
+export function LicenceTrackChooser({ track, onChange, summary, isLoading, isError, countFallback }: Props) {
   const excludedInTrack = track === "non-licensed" ? "Left out of this track" : "Included in this track";
   return (
     <section aria-labelledby="licence-track-heading" className="mt-6 rounded-lg border border-neutral-800 bg-neutral-900 p-4">
@@ -39,7 +41,7 @@ export function LicenceTrackChooser({ track, onChange, summary, isLoading, isErr
       <div role="radiogroup" aria-labelledby="licence-track-heading" className="mt-3 grid gap-3 md:grid-cols-2">
         {OPTIONS.map(({ value, title, explain, Icon }) => {
           const selected = track === value;
-          const count = summary?.counts[value];
+          const count = countFallback ?? summary?.counts[value];
           return (
             <label
               key={value}
