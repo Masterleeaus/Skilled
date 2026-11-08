@@ -2,7 +2,11 @@ name: skilled-public-brand
 on:
   pull_request:
     paths:
-      - "lms-main/apps/frontend/src/app/layout.tsx"
+      - "lms-main/apps/frontend/src/app/**"
+      - "lms-main/apps/frontend/src/components/**"
+      - "lms-main/apps/backend/src/jobs/account-email-content.ts"
+      - "lms-main/scripts/audit-public-product-identity.mjs"
+      - "lms-main/scripts/test-audit-public-product-identity.mjs"
       - "lms-main/scripts/test-skilled-public-brand.mjs"
       - "lms-main/scripts/prepare-public-assets.mjs"
       - "lms-main/scripts/test-prepare-public-assets.mjs"
@@ -12,7 +16,11 @@ on:
     branches:
       - main
     paths:
-      - "lms-main/apps/frontend/src/app/layout.tsx"
+      - "lms-main/apps/frontend/src/app/**"
+      - "lms-main/apps/frontend/src/components/**"
+      - "lms-main/apps/backend/src/jobs/account-email-content.ts"
+      - "lms-main/scripts/audit-public-product-identity.mjs"
+      - "lms-main/scripts/test-audit-public-product-identity.mjs"
       - "lms-main/scripts/test-skilled-public-brand.mjs"
       - ".github/workflows/skilled-public-brand.yml"
 permissions:
@@ -38,3 +46,17 @@ jobs:
       - name: Validate public product metadata contract
         working-directory: lms-main
         run: node --test scripts/test-skilled-public-brand.mjs
+
+      - name: Verify current product naming across active UI and account email
+        working-directory: lms-main
+        run: |
+          node --test scripts/test-audit-public-product-identity.mjs
+          node scripts/audit-public-product-identity.mjs --strict --report build/public-identity-audit.json
+
+      - name: Upload active public identity audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: skilled-public-identity-audit
+          path: lms-main/build/public-identity-audit.json
+          if-no-files-found: warn
