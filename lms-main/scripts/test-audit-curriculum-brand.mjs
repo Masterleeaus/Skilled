@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { scanValue, classify } from './audit-curriculum-brand.mjs';
+import { scanValue, classify, matchSourceLines } from './audit-curriculum-brand.mjs';
 
 test('finds legacy names in learner-facing nested curriculum text', () => {
   const findings = scanValue({
@@ -36,4 +36,17 @@ test('handles arrays, repeated matches and JSON pointer escapes', () => {
 
 test('does not match unrelated Titan or Academy references', () => {
   assert.deepEqual(scanValue({ body: 'Titan system and Academy lesson' }), []);
+});
+
+test('maps semantic matches to physical lines only when counts agree', () => {
+  const raw = '{\n  "body": "Titan Academy",\n  "summary": "Titan Academy"\n}';
+  const matches = scanValue(JSON.parse(raw));
+  const located = matchSourceLines(raw, matches);
+  assert.deepEqual(located.map(hit => hit.sourceLine), [2, 3]);
+  assert.ok(located.every(hit => hit.sourceLineVerified));
+  const ambiguous = matchSourceLines('"Titan Academy"', []);
+  assert.deepEqual(ambiguous, []);
+  const mismatch = matchSourceLines('{"body":"Titan Academy"}', [matches[0], matches[1]]);
+  assert.deepEqual(mismatch.map(hit => hit.sourceLine), [null, null]);
+  assert.ok(mismatch.every(hit => !hit.sourceLineVerified));
 });
