@@ -1,7 +1,8 @@
 import { Role } from "@prisma/client";
 import { prisma } from "../../config/prisma";
-import { NotFoundError } from "../../utils/AppError";
+import { AppError, NotFoundError } from "../../utils/AppError";
 import { assertCourseOwnership } from "./course.service";
+import { assertCompleteOrder } from "./module.service";
 import type { CreateLessonInput } from "./module.validators";
 
 async function getModuleOrThrow(moduleId: string) {
@@ -55,10 +56,21 @@ export async function reorderLessons(
   const module = await getModuleOrThrow(moduleId);
   await assertCourseOwnership(module.courseId, userId, role);
 
+  // Same policy as reorderModules: a complete permutation of this module's lessons, scoped writes, one transaction.
   await prisma.$transaction(
-    order.map((lessonId, index) =>
-      prisma.lesson.update({ where: { id: lessonId }, data: { orderIndex: index } }),
-    ),
+    async (tx) => {
+      const existing = await tx.lesson.findMany({ where: { moduleId }, select: { id: true } });
+      assertCompleteOrder(order, existing.map((lesson) => lesson.id), "Lesson");
+
+      for (const [index, lessonId] of order.entries()) {
+        const { count } = await tx.lesson.updateMany({
+          where: { id: lessonId, moduleId },
+          data: { orderIndex: index },
+        });
+        if (count !== 1) throw new AppError("Lesson reorder failed; no changes were saved", 400);
+      }
+    },
+    { isolationLevel: "Serializable" },
   );
 }
 
