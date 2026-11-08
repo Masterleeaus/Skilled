@@ -29,6 +29,24 @@ jobs:
       - name: Report historical import manifest freshness (read-only)
         working-directory: lms-main
         run: node scripts/audit-canonical-import-manifest.mjs --report build/legacy-import-manifest-audit.json
+      - name: Surface stale import snapshot status
+        if: always()
+        working-directory: lms-main
+        run: |
+          if [ -f build/legacy-import-manifest-audit.json ]; then
+            node --input-type=module -e '
+              import fs from "node:fs";
+              const a=JSON.parse(fs.readFileSync("build/legacy-import-manifest-audit.json","utf8"));
+              const report=["### Historical import manifest audit", "", 
+                "| Measure | Result |", "|---|---:|",
+                "| Entries | "+a.entries+" |", "| Fully matching | "+a.matches+" |",
+                "| Stale hashes | "+a.stale+" |", "| Missing files | "+a.missing+" |",
+                "| Safe to import | "+a.importSafe+" |",
+                "", "This is read-only provenance validation; no import or approval runs."].join("\\n");
+              fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,report+"\\n");
+              if (!a.importSafe) console.log("::warning::Historical import manifest is stale; do not import from it.");
+            '
+          fi
       - name: Upload report even if the scanner fails
         if: always()
         uses: actions/upload-artifact@v4
