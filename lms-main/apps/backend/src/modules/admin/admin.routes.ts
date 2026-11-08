@@ -53,8 +53,9 @@ router.patch("/users/:id/active", async (req: Request, res: Response, next: Next
 
 router.delete("/users/:id", async (req: Request, res: Response, next: NextFunction) => {
   try {
-    await adminService.deleteUser(param(req, "id"), req.user!.userId);
-    return sendSuccess(res, null, "User deleted");
+    // Soft deletion: the account is deactivated and its history is kept. See adminService.deleteUser.
+    const result = await adminService.deleteUser(param(req, "id"), req.user!.userId);
+    return sendSuccess(res, result, "User soft-deleted; history retained");
   } catch (err) {
     next(err);
   }
