@@ -78,7 +78,7 @@ check("explicit theme colour for light and dark", () => {
 
 check("title, description and application name", () => {
   assert.match(html, /<title>SkilledAt\.Work<\/title>/);
-  assert.equal(meta("name", "description"), "SkilledAt.Work learning system: Titan Academy training for field and home-service businesses");
+  assert.equal(meta("name", "description"), "SkilledAt.Work — practical training, assessment and skills development for field and home-service businesses");
   assert.equal(meta("name", "application-name"), "SkilledAt.Work");
 });
 
