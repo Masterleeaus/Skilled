@@ -64,7 +64,7 @@ export function parseCentralAccessDecision(
       typeof input.organisationRef !== "string" || !ID.test(input.organisationRef) ||
       typeof input.localUserId !== "string" || !ID.test(input.localUserId) ||
       typeof input.companyId !== "string" || !ID.test(input.companyId) ||
-      !roles.has(input.memberRole) ||
+      typeof input.memberRole !== "string" || !roles.has(input.memberRole) ||
       !REVISION(input.membershipRevision) || !REVISION(input.linkRevision)) {
     return reject("unsupported_response");
   }
