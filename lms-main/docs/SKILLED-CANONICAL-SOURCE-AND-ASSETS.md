@@ -49,3 +49,21 @@ Run after cloning a full checkout that includes `brand/` and `library/`. Deploy 
 - Dedicated CI workflow `skilled-source-consolidation.yml` tests these contracts and validates backend/frontend TypeScript with a generated Prisma client. Production behavior and full browser flows still require separate verification.
 
 **Not collapsed:** inherited quizzes versus Academy assessments, inherited certificates versus evidenced completions, and the two tutor stores. These are different active or persisted concepts, not demonstrated duplicate implementations; deleting one would risk functionality or data.
+
+## Curriculum ingestion boundary (issue #72)
+
+The repository retains **two non-interchangeable paths**:
+
+1. `apps/backend/prisma/import-titan-curriculum.ts` imports **planning briefs** from `apps/backend/prisma/curriculum/titan-three-layer-lessons.json`. It writes `AcademyContentLesson` metadata and `DRAFT` revisions under the separate inventory marker `titan-three-layer-lessons`; it cannot publish a course, track or revision. The historical filename and marker remain for compatibility.
+2. `apps/backend/src/modules/curriculum/file-lesson-loader.ts` indexes canonical authored lessons under `curriculum/courses/*/*.json` and `curriculum/shared/**/*.json`. Learner body routes still require authentication, enrolment, an eligible published course/track/placement/revision, matching knowledge checks and the revision content hash. A file alone grants no learner access.
+
+**Safe database-free import preflight** (from `lms-main/`):
+
+```sh
+pnpm -C apps/backend exec tsx prisma/import-titan-curriculum.ts --validate-only
+pnpm -C apps/backend exec tsx prisma/import-titan-curriculum.ts --validate-only --source path/to/other-inventory.json
+```
+
+Preflight checks inventory IDs and mandatory fields and prints counts per layer, with `databaseConnected:false`, `writes:0` and `publicationApproved:false`. This is **not** a database diff or approval workflow. Invoking the same CLI **without** `--validate-only` retains the existing transactional draft-import behaviour; do not run it against a production database without an approved change plan. Unknown flags are rejected.
+
+The protected publication and evidence models remain separate. No database schema, migration or existing approvals were modified by this consolidation step.
