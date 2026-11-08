@@ -7,14 +7,13 @@ import { useAuthStore } from "@/store/auth.store";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 const features = [
-  { icon: "🎓", title: "Structured Courses", text: "Modules, lessons, and video content organized for real learning." },
-  { icon: "📝", title: "Quizzes & Assignments", text: "Auto-graded quizzes and file-based assignments with teacher feedback." },
-  { icon: "📅", title: "Live Classes", text: "Schedule sessions, track attendance, and share recordings." },
-  { icon: "🏆", title: "Certificates", text: "Auto-issued certificates the moment a course is completed." },
-  { icon: "💬", title: "Discussions", text: "Per-course Q&A where teachers can pin the best answers." },
-  { icon: "📊", title: "Progress Tracking", text: "Students and teachers both see real-time progress." },
+  { icon: "🎓", title: "Curriculum lessons", text: "Lessons are versioned. Only published revisions reach learners, and drafts stay in review until a person approves them." },
+  { icon: "📝", title: "Knowledge checks", text: "Questions are graded on the server with an 80% pass mark. Answer keys are never sent to learners." },
+  { icon: "🛠️", title: "Practical evidence", text: "Learners submit evidence and an assessor in the organisation approves or rejects it. Approval creates a competency that can expire. Acknowledging a lesson never creates one." },
+  { icon: "🏢", title: "Organisation training", text: "Managers assign courses to members of their organisation and follow their progress." },
+  { icon: "🧭", title: "Business-specific context", text: "Managers set field values for their business. Only approved values appear in lessons, saved as immutable snapshots with integrity checks." },
+  { icon: "📊", title: "Completion reports", text: "Completion reports for a learner or an organisation, based on recorded lesson, check and competency evidence." },
 ];
-
 export default function HomePage() {
   const router = useRouter();
   const { user } = useAuthStore();
@@ -51,18 +50,18 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-3xl px-6 py-24 text-center">
         <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-          Learn, teach, and track progress — all in one place
+          Practical training for field and home-service teams
         </h1>
         <p className="mx-auto mt-4 max-w-xl text-neutral-400">
-          A complete learning management platform with courses, quizzes, assignments, live
-          classes, and certificates — built for students and teachers alike.
+          Titan Academy combines curriculum lessons, knowledge checks, practical evidence reviewed by
+          an assessor, and business-specific context. Managers assign training to their organisation.
         </p>
         <div className="mt-8 flex justify-center gap-3">
           <Link
             href="/register"
             className="rounded-lg bg-white px-6 py-2.5 text-sm font-medium text-neutral-900 hover:bg-neutral-200"
           >
-            Create free account
+            Create account
           </Link>
           <Link
             href="/courses"

@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "SkilledAt.Work",
-  description: "SkilledAt.Work training platform for field and home-service businesses",
+  description: "SkilledAt.Work learning system: Titan Academy training for field and home-service businesses",
 };
 
 const noFlashScript = `

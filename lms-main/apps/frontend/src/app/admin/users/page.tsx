@@ -53,7 +53,7 @@ function UserRow({ u }: { u: AdminUser }) {
           onChange={(e) => roleMutation.mutate(e.target.value as AdminUser["role"])}
           className="rounded-lg border border-neutral-800 bg-neutral-950 px-2 py-1 text-sm disabled:opacity-50"
         >
-          <option value="STUDENT">Student</option>
+          <option value="STUDENT">Learner</option>
           <option value="TEACHER">Teacher</option>
           {u.role === "ADMIN" && <option value="ADMIN">Admin</option>}
         </select>
