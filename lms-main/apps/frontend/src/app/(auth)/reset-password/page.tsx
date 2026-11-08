@@ -2,6 +2,7 @@
 
 import { useEffect, useState, type FormEvent } from "react";
 import Link from "next/link";
+import { AuthBrand } from "@/components/AuthBrand";
 import { resetPassword } from "@/lib/auth.api";
 
 export default function ResetPasswordPage() {
@@ -36,6 +37,7 @@ export default function ResetPasswordPage() {
   return (
     <main className="flex min-h-screen items-center justify-center px-4">
       <section className="w-full max-w-sm space-y-5">
+        <AuthBrand />
         <h1 className="text-2xl font-semibold">Choose a new password</h1>
         {complete ? (
           <p role="status">Your password has been reset. Sign in with your new password.</p>
