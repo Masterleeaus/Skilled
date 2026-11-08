@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { AuthBrand } from "@/components/AuthBrand";
 import { verifyEmail } from "@/lib/auth.api";
 
 type Status = "checking" | "ready" | "working" | "verified" | "error";
@@ -37,6 +38,7 @@ export default function VerifyEmailPage() {
   return (
     <main className="flex min-h-screen items-center justify-center px-4">
       <section className="w-full max-w-sm space-y-5 text-center">
+        <AuthBrand />
         <h1 className="text-2xl font-semibold">Verify your email</h1>
         {status === "checking" && <p role="status">Checking link...</p>}
         {status === "ready" && <button onClick={submit} className="w-full rounded-lg bg-white p-3 text-neutral-900">Verify my email</button>}
