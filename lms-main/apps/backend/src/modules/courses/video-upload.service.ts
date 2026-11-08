@@ -10,6 +10,7 @@ import type { NextFunction, Request, Response } from "express";
 import { minioClient, MINIO_BUCKET, buildObjectKey, STORAGE_FOLDERS } from "../../config/minio";
 import { env } from "../../config/env";
 import { logger } from "../../config/logger";
+import { prisma } from "../../config/prisma";
 import { AppError } from "../../utils/AppError";
 
 const ALLOWED_VIDEO_MIME = new Set(["video/mp4", "video/webm", "video/quicktime"]);
@@ -235,35 +236,102 @@ export async function uploadLessonVideo(file: Express.Multer.File): Promise<stri
 }
 
 const MANAGED_VIDEO_KEY = /^videos\/[a-f0-9]{32}(\.[a-z0-9]{1,8})?$/i;
-const VIDEO_REMOVE_ATTEMPTS = 4;
+const DRAIN_BATCH_SIZE = 50;
 
 /** True only for keys this service writes. External URLs and other folders are never removed. */
 export function isManagedVideoKey(key: string | null | undefined): key is string {
   return typeof key === "string" && MANAGED_VIDEO_KEY.test(key);
 }
 
-async function attemptVideoRemoval(key: string, attempt: number): Promise<void> {
-  try {
-    await minioClient.removeObject(MINIO_BUCKET, key);
-  } catch (error) {
-    const reason = error instanceof Error ? error.message : String(error);
-    if (attempt >= VIDEO_REMOVE_ATTEMPTS) {
-      logger.error(`Orphaned lesson video object "${key}" could not be removed after ${attempt} attempts (${reason}). Manual cleanup required.`);
-      return;
-    }
-    logger.warn(`Lesson video object "${key}" removal failed (attempt ${attempt}): ${reason}. Retrying.`);
-    const timer = setTimeout(() => void attemptVideoRemoval(key, attempt + 1), 1000 * 2 ** attempt);
-    timer.unref();
-  }
+function errorReason(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
 }
 
 /**
- * Removes a lesson video object. Call it only after the database change that made the object unreferenced
- * has committed. It never rejects: the first failure is retried in the background with backoff, then logged.
+ * Removes lesson video objects. Call it only after the database change that made them unreferenced has committed.
+ * Keys outside the managed prefix are ignored and duplicates are removed once. It never rejects.
+ * Each object that fails is written to the VideoObjectCleanup table, so the worker drain retries it later.
  */
+export async function removeVideoObjects(keys: ReadonlyArray<string | null | undefined>): Promise<void> {
+  const failures: Array<{ objectKey: string; lastError: string }> = [];
+  for (const key of new Set(keys.filter(isManagedVideoKey))) {
+    try {
+      await minioClient.removeObject(MINIO_BUCKET, key);
+    } catch (error) {
+      const reason = errorReason(error);
+      logger.warn(`Lesson video object "${key}" removal failed: ${reason}. Queued for retry.`);
+      failures.push({ objectKey: key, lastError: reason });
+    }
+  }
+  if (failures.length === 0) return;
+  try {
+    // attempts starts at 1 because the immediate removal above was the first attempt.
+    await prisma.videoObjectCleanup.createMany({
+      data: failures.map((failure) => ({ ...failure, attempts: 1 })),
+      skipDuplicates: true,
+    });
+  } catch (error) {
+    logger.error(`Lesson video objects ${failures.map((f) => `"${f.objectKey}"`).join(", ")} could not be queued for removal (${errorReason(error)}). Manual cleanup required.`);
+  }
+}
+
+/** Single-key form of removeVideoObjects. */
 export async function removeVideoObject(key: string | null | undefined): Promise<void> {
-  if (!isManagedVideoKey(key)) return;
-  await attemptVideoRemoval(key, 1);
+  await removeVideoObjects([key]);
+}
+
+export interface VideoObjectCleanupDrainResult {
+  completed: number;
+  failed: number;
+  rejected: number;
+}
+
+/**
+ * Retries pending rows from VideoObjectCleanup. Safe to run repeatedly and from overlapping workers:
+ * a row is marked complete only by the update that matches it while it is still pending, and an object that is
+ * already gone counts as removed. A key outside the managed prefix is never deleted. Its row is closed as rejected.
+ * Rows are taken oldest-first, fewest attempts first, in batches of DRAIN_BATCH_SIZE.
+ */
+export async function drainVideoObjectCleanup(): Promise<VideoObjectCleanupDrainResult> {
+  const rows = await prisma.videoObjectCleanup.findMany({
+    where: { completedAt: null },
+    orderBy: [{ attempts: "asc" }, { createdAt: "asc" }],
+    take: DRAIN_BATCH_SIZE,
+    select: { id: true, objectKey: true },
+  });
+  const result: VideoObjectCleanupDrainResult = { completed: 0, failed: 0, rejected: 0 };
+
+  for (const row of rows) {
+    if (!isManagedVideoKey(row.objectKey)) {
+      await prisma.videoObjectCleanup.updateMany({
+        where: { id: row.id, completedAt: null },
+        data: { completedAt: new Date(), lastError: "Rejected: key is outside the managed video prefix; nothing was deleted" },
+      });
+      logger.error(`Video cleanup row "${row.id}" has a key outside the managed prefix. It was closed without deleting anything.`);
+      result.rejected++;
+      continue;
+    }
+
+    try {
+      await minioClient.removeObject(MINIO_BUCKET, row.objectKey);
+    } catch (error) {
+      const reason = errorReason(error);
+      await prisma.videoObjectCleanup.updateMany({
+        where: { id: row.id, completedAt: null },
+        data: { attempts: { increment: 1 }, lastError: reason },
+      });
+      logger.warn(`Pending lesson video object "${row.objectKey}" is still not removed: ${reason}. Will retry.`);
+      result.failed++;
+      continue;
+    }
+
+    await prisma.videoObjectCleanup.updateMany({
+      where: { id: row.id, completedAt: null },
+      data: { attempts: { increment: 1 }, lastError: null, completedAt: new Date() },
+    });
+    result.completed++;
+  }
+  return result;
 }
 
 /** Cleanup for worker/process crashes. Never delete non-Academy files or symlinks. */

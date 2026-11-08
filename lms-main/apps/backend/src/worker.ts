@@ -6,12 +6,38 @@ import { prisma } from "./config/prisma";
 import { redis, bullConnection } from "./config/redis";
 import { env } from "./config/env";
 import { logger } from "./config/logger";
+import { drainVideoObjectCleanup } from "./modules/courses/video-upload.service";
+
+// Failed lesson video removals are retried from the VideoObjectCleanup table.
+const VIDEO_CLEANUP_INTERVAL_MS = 60 * 1000;
+
+let videoCleanupRun: Promise<void> | null = null;
+
+/** Runs one drain pass. Overlapping ticks are skipped, so a slow pass never runs twice at once. */
+function runVideoCleanupDrain(): Promise<void> {
+  if (videoCleanupRun) return videoCleanupRun;
+  videoCleanupRun = (async () => {
+    try {
+      const result = await drainVideoObjectCleanup();
+      if (result.completed || result.failed || result.rejected) {
+        logger.info(`Lesson video cleanup: ${result.completed} removed, ${result.failed} still failing, ${result.rejected} rejected`);
+      }
+    } catch (error) {
+      logger.error("Lesson video cleanup drain failed", error);
+    } finally {
+      videoCleanupRun = null;
+    }
+  })();
+  return videoCleanupRun;
+}
 
 async function start() {
   await prisma.$queryRaw`SELECT 1`;
   if (await redis.ping() !== "PONG") throw new Error("Redis readiness check failed");
   const email = startEmailWorker();
   const certificate = startCertificateWorker();
+  const videoCleanupTimer = setInterval(() => { void runVideoCleanupDrain(); }, VIDEO_CLEANUP_INTERVAL_MS);
+  void runVideoCleanupDrain();
   logger.info(`Titan Academy workers started [${env.NODE_ENV}]`);
 
   let closing = false;
@@ -20,6 +46,8 @@ async function start() {
     closing = true;
     logger.info("Stopping Titan Academy workers");
     try {
+      clearInterval(videoCleanupTimer);
+      await videoCleanupRun;
       await Promise.all([email.close(), certificate.close()]);
       await Promise.all([emailQueue.close(), certificateQueue.close()]);
       await Promise.all([prisma.$disconnect(), redis.quit(), bullConnection.connection.quit()]);

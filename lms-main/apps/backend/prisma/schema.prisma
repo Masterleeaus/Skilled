@@ -240,6 +240,20 @@ model Lesson {
   @@map("lessons")
 }
 
+// Durable queue of lesson video objects that still need to be removed from object storage.
+// A row is written when an immediate removal fails, and is cleared (completedAt set) once the object is gone.
+model VideoObjectCleanup {
+  id          String    @id @default(cuid())
+  objectKey   String    @unique
+  attempts    Int       @default(0)
+  lastError   String?
+  createdAt   DateTime  @default(now())
+  completedAt DateTime?
+
+  @@index([completedAt, createdAt])
+  @@map("video_object_cleanup")
+}
+
 // ==========================================================
 // ENROLLMENT / PROGRESS
 // ==========================================================
