@@ -10,9 +10,9 @@ import { AuthBrand } from "@/components/AuthBrand";
 import { register as registerUser } from "@/lib/auth.api";
 
 const registerSchema = z.object({
-  fullName: z.string().min(2, "Name is too short"),
+  fullName: z.string().min(2, "Name is too short").max(100, "Name must be 100 characters or fewer"),
   email: z.string().email("Enter a valid email"),
-  password: z.string().min(8, "At least 8 characters"),
+  password: z.string().min(8, "At least 8 characters").max(72, "Password must be 72 characters or fewer"),
 });
 
 type RegisterForm = z.infer<typeof registerSchema>;
@@ -74,11 +74,14 @@ export default function RegisterPage() {
             <label htmlFor="register-full-name" className="mb-1 block text-sm text-neutral-300">Full name</label>
             <input
               id="register-full-name"
+              maxLength={100}
               {...register("fullName")}
+              aria-invalid={errors.fullName ? true : undefined}
+              aria-describedby={errors.fullName ? "register-full-name-error" : undefined}
               autoComplete="name"
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             />
-            {errors.fullName && <p className="mt-1 text-xs text-red-400">{errors.fullName.message}</p>}
+            {errors.fullName && <p id="register-full-name-error" className="mt-1 text-xs text-red-400">{errors.fullName.message}</p>}
           </div>
 
           <div>
@@ -86,23 +89,29 @@ export default function RegisterPage() {
             <input
               id="register-email"
               {...register("email")}
+              aria-invalid={errors.email ? true : undefined}
+              aria-describedby={errors.email ? "register-email-error" : undefined}
               type="email"
               autoComplete="email"
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             />
-            {errors.email && <p className="mt-1 text-xs text-red-400">{errors.email.message}</p>}
+            {errors.email && <p id="register-email-error" className="mt-1 text-xs text-red-400">{errors.email.message}</p>}
           </div>
 
           <div>
             <label htmlFor="register-password" className="mb-1 block text-sm text-neutral-300">Password</label>
             <input
               id="register-password"
+              minLength={8}
+              maxLength={72}
               {...register("password")}
+              aria-invalid={errors.password ? true : undefined}
+              aria-describedby={errors.password ? "register-password-error" : undefined}
               type="password"
               autoComplete="new-password"
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             />
-            {errors.password && <p className="mt-1 text-xs text-red-400">{errors.password.message}</p>}
+            {errors.password && <p id="register-password-error" className="mt-1 text-xs text-red-400">{errors.password.message}</p>}
           </div>
 
           {serverError && <p role="alert" className="text-sm text-red-400">{serverError}</p>}
