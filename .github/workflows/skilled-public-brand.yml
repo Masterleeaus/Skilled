@@ -1,0 +1,27 @@
+name: skilled-public-brand
+on:
+  pull_request:
+    paths:
+      - "lms-main/apps/frontend/src/app/layout.tsx"
+      - "lms-main/scripts/test-skilled-public-brand.mjs"
+      - ".github/workflows/skilled-public-brand.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "lms-main/apps/frontend/src/app/layout.tsx"
+      - "lms-main/scripts/test-skilled-public-brand.mjs"
+      - ".github/workflows/skilled-public-brand.yml"
+permissions:
+  contents: read
+jobs:
+  public-brand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate public product metadata contract
+        working-directory: lms-main
+        run: node --test scripts/test-skilled-public-brand.mjs
