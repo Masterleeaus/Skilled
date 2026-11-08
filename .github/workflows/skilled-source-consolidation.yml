@@ -1,0 +1,47 @@
+name: skilled-source-consolidation
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/frontend/src/components/DiscussionThreadDetail.tsx'
+      - 'lms-main/apps/frontend/src/app/student/courses/**'
+      - 'lms-main/apps/frontend/src/app/teacher/courses/**'
+      - 'lms-main/apps/backend/src/utils/token.ts'
+      - 'lms-main/apps/backend/src/modules/auth/token.utils.ts'
+      - 'lms-main/apps/backend/tests/permissions.ts'
+      - 'lms-main/scripts/test-active-source-consolidation.mjs'
+      - '.github/workflows/skilled-source-consolidation.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'lms-main/scripts/test-active-source-consolidation.mjs'
+      - 'lms-main/apps/frontend/src/components/DiscussionThreadDetail.tsx'
+      - '.github/workflows/skilled-source-consolidation.yml'
+permissions:
+  contents: read
+jobs:
+  source-consolidation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - name: Install frozen dependencies
+        working-directory: lms-main
+        run: pnpm install --frozen-lockfile
+      - name: Source consolidation contract
+        working-directory: lms-main
+        run: node --test scripts/test-active-source-consolidation.mjs
+      - name: Backend typecheck
+        working-directory: lms-main
+        run: pnpm -C apps/backend exec tsc --noEmit
+      - name: Frontend typecheck
+        working-directory: lms-main
+        run: pnpm -C apps/frontend exec tsc --noEmit
