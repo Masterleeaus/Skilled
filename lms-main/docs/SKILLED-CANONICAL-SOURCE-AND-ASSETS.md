@@ -241,3 +241,18 @@ Central's `Masterleeaus/Central` product registry currently assigns LMS/Skilled 
 The `central-identity-resolver.test.ts` suite covers issuer/audience/entitlement denials, cross-company denial, unscoped and ambiguous links, account deactivation, missing membership and valid role mapping. It runs in the source-consolidation CI with no database connection.
 
 **Explicit blockers before activation:** Central must provide a stable verifier and signed callback protocol; issuer/audience/expiry/revocation must be cryptographically verified; Central's tenant entitlements, local-link revocations and company identity backfill need agreed storage under #68; atomic Skilled session issuance, expiry, logout and rollback must be added and integration-tested in a disposable two-company PostgreSQL environment. A caller may not substitute its own unverified `VerifiedCentralIdentity` payload for that process. No production or staging sign-in through Central is claimed.
+
+## Central linked-session revalidation contract (pass 20; issue #71)
+
+`apps/backend/src/modules/auth/central-session-revalidation.ts` adds a **server-only, fail-closed lifecycle boundary** for a future Central-linked Skilled session. It does **not** install an authentication route, mint a token, or alter existing local logins. The future caller must inject a *fresh*, trusted server-to-server Central access check and a correctly scoped database store. The current draft Central integration does not yet supply this transport.
+
+The contract requires the persisted session binding to retain the verified Central subject, issuer, LMS audience, organisation reference, Skilled-local user/company, member role and Central membership/link revisions. On each invoked check it:
+
+- Rejects an absent or malformed binding and missing checker before any database read.
+- Rechecks Central authorisation, verified issuer/audience/subject/organisation, and requires **exact membership and link revision equality**. Revocation, demotion/relink or a changed grant requires a new verified login.
+- Re-resolves the current Skilled organisation-scoped external identity, user eligibility and membership; refuses a missing/unscoped/moved identity, deactivated/deleted account, changed local role or company mismatch.
+- Returns only a boolean. Any Central outage, malformed decision, thrown transport exception or failed database lookup results in denial.
+
+`apps/backend/src/tests/central-session-revalidation.test.ts` uses fixtures, tests cross-product and cross-company denial, revocation/revisions, role demotion, identity transfer, account deletion and checker outage. The source-consolidation workflow runs it alongside the original Central resolver tests. No live identity provider, Central server or PostgreSQL connection was exercised.
+
+**Important integration blockers:** The future Central service must supply authenticated fresh access decisions and stable membership/link revisions; a revocation-aware local session middleware must actually call this recheck; revision consistency and denial on logout need transactional tests; and two-tenant end-to-end staging validation plus rollback must pass. This library alone does **not** implement revocation enforcement on existing Skilled sessions, and is not an SSO launch claim.
