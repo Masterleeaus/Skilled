@@ -8,7 +8,7 @@ import { resolve, relative, join, dirname, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 
-const workspace = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
+const workspace = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const repoRoot = resolve(workspace, '..');
 const destinations = ['brand', 'library'];
 const publicRoot = resolve(workspace, 'apps/frontend/public/academy');
