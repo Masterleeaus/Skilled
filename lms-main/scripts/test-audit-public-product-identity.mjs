@@ -51,10 +51,17 @@ test('only the exact historical credits statement is exempted', () => temporary(
 
 test('lost authenticated header identity or transactional email identity fails the audit', () => temporary(target => {
   const p = resolve(target,'apps/frontend/src/components/Topbar.tsx');
-  writeFileSync(p,readFileSync(p,'utf8').replace('aria-label="SkilledAt.Work dashboard"','aria-label="Dashboard"'));
+  writeFileSync(p,readFileSync(p,'utf8').replace('aria-label={homeHref ? "SkilledAt.Work dashboard" : "SkilledAt.Work home"}','aria-label="Dashboard"'));
   const email = resolve(target,'apps/backend/src/jobs/account-email-content.ts');
   writeFileSync(email,readFileSync(email,'utf8').replace('SKILLED_PRODUCT_NAME = "SkilledAt.Work"','SKILLED_PRODUCT_NAME = "OldName"'));
   const report = auditPublicIdentity({sourceRoot:target});
   assert.ok(report.issues.some(x=>x.kind==='topbar-brand-missing'));
   assert.ok(report.issues.some(x=>x.kind==='account-email-brand-missing'));
+}));
+
+test('guest home fallback is required even when dashboard identity exists', () => temporary(target => {
+  const p = resolve(target,'apps/frontend/src/components/Topbar.tsx');
+  writeFileSync(p,readFileSync(p,'utf8').replace('href={homeHref ?? "/"}','href="/student"'));
+  const report = auditPublicIdentity({sourceRoot:target});
+  assert.ok(report.issues.some(x=>x.kind==='topbar-brand-missing'));
 }));
