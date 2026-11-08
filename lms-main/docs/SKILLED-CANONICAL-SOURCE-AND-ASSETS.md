@@ -39,3 +39,13 @@ Run after cloning a full checkout that includes `brand/` and `library/`. Deploy 
 - Tutor chatbot, certificates and runbooks have potential overlapping implementations: see inventory sections 6–9. Their behavior must be compared before deduplication.
 - Curriculum publication gates, identity scoping, assessor approvals and evidence records are not affected by this asset copy change.
 - A successful asset unit test is **not** proof of image availability on a production server. Verify deployment artifacts separately.
+
+## Active-code consolidation pass
+
+- Canonical discussion thread UI: `apps/frontend/src/components/DiscussionThreadDetail.tsx`. Both `student/courses/[slug]/discussions/[threadId]/page.tsx` and `teacher/courses/[slug]/discussions/[threadId]/page.tsx` now wrap the same component, preserving both routes and their role-dependent pin UI.
+- Canonical token signing and validation: `apps/backend/src/modules/auth/token.utils.ts`. The unreferenced `src/utils/token.ts` copy was removed; no public auth route or token algorithm was changed.
+- Canonical permissions test: `apps/backend/src/tests/permissions.test.ts`. The byte-identical inactive `apps/backend/tests/permissions.ts` was removed.
+- A source consolidation test (`scripts/test-active-source-consolidation.mjs`) verifies the remaining paths and shared discussion operations.
+- Dedicated CI workflow `skilled-source-consolidation.yml` tests these contracts and validates backend/frontend TypeScript with a generated Prisma client. Production behavior and full browser flows still require separate verification.
+
+**Not collapsed:** inherited quizzes versus Academy assessments, inherited certificates versus evidenced completions, and the two tutor stores. These are different active or persisted concepts, not demonstrated duplicate implementations; deleting one would risk functionality or data.
