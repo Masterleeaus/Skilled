@@ -1,0 +1,204 @@
+{
+  "id": "NEW-POND-09",
+  "title": "Pond records and handover",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Quality, evidence and handover",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 40,
+  "audience": "Pond maintenance workers who keep the visit log for a pond and hand the pond over to the owner or the next technician",
+  "prerequisites": [
+    "F09-L03",
+    "F01-L04",
+    "pond-cleaning-L03"
+  ],
+  "learningOutcomes": [
+    "Keep a pond log that records each visit in metric units, with the readings, the equipment status and the work done",
+    "Correct a record without overwriting it, and explain why a consistent log shows trends that a single reading does not",
+    "Prepare a handover note that lists open issues, hazards, referrals and the things that must not be done to the pond",
+    "Protect client and site information in records and handovers, and share it only with the people the business's policy names"
+  ],
+  "instruction": [
+    {
+      "heading": "Why a pond log matters",
+      "body": "A pond changes slowly, and a single reading can mislead. A consistent log shows the trend in temperature, clarity, oxygen, pH, hardness, water level, pump running and the amount of debris removed. The trend is what tells you that a problem is starting, and that the routine needs to change. A log is also evidence of the care given, of the decisions made under the owner's plan, and of the referrals made. The idea of keeping a simple running log for a pond is common practice among pond keepers, and this lesson takes only that idea. It does not use the text of any example log."
+    },
+    {
+      "heading": "What to record at each visit",
+      "body": "At each visit, record the date and time, the weather, the air temperature and the water temperature in degrees Celsius. Record the readings from the water-quality lesson with their units, and the clarity and the observations. Record the state of each piece of equipment, including whether the pump and aeration were running, the UV unit if fitted, and the filter sections cleaned. Record debris and sludge removed by volume, the plants trimmed, and any water added or removed with its volume, source, conditioner used and the approval. Record any feeding as the owner's plan describes it, the wildlife observed without any handling, the netting check, any mortality or disease, and any referral. Keep the entries in the order of the visit, so that the record can be read from start to finish."
+    },
+    {
+      "heading": "Keeping the record clean",
+      "body": "Use metric units throughout, with Celsius for temperature, millimetres for level changes and litres for volumes. Record one unit for each parameter, and state the unit on the form. Never back-fill a reading for a time when no test was done, and never estimate a value so that it looks like a pass. Corrections follow the rule in the sampling lesson: one line through the original, the correct value beside it, the initials, the date and the reason. Keep a simple site plan with the positions of the inlet, outlet, overflow, filter and pump, and the depth reference point, so that a new technician can find them. Note the equipment make and model as the owner's records show, and keep a reference to the manufacturer's manual. Do not recommend a product through the log."
+    },
+    {
+      "heading": "Handover to the owner or the next technician",
+      "body": "A handover note is written at the end of each visit where the pond will be left with someone else, and at the end of a service period. It should state the current condition of the pond in plain terms, the open issues and their owners, the referrals made and their status, the electrical hazards found and whether they are isolated, the wildlife present and any netting that needs checking, and the things that must not be done to the pond. The list of things that must not be done includes adding pool chemicals, releasing or moving fish or sludge, and discharging water without a confirmed route. Add the next visit date and the contact details from the business's approved fields. Record who received the handover and when, and keep a copy in the log."
+    },
+    {
+      "heading": "Privacy and sharing",
+      "body": "The log describes a client's property, its layout and the people who use it, so it is confidential. Share it only with the client, the responsible person in the business, and the people the business's policy names. Locations of nests, eggs or protected animals should be recorded for the wildlife authority's guidance only, and should not be shared publicly or put on a shared page. The privacy and confidentiality rules in the shared lessons apply to every entry (“Privacy, security and customer property”)."
+    },
+    {
+      "heading": "Reviewing the log",
+      "body": "Review the log at least once a month, or at the interval the owner's plan sets. Look for repeated top-ups, a steady fall in clarity, repeated pump faults, a rising debris load and any run of out-of-range readings. Each pattern is a reason to change the routine, to refer the problem, or to explain the cost to the owner. A pattern caught early usually costs less to fix than a failure that becomes a call-out. The review and any change it leads to are recorded in the log."
+    }
+  ],
+  "procedure": [
+    "Record the date, time, weather, air temperature and water temperature in Celsius before any other entry.",
+    "Enter each reading with its unit, depth, instrument and any observation, following the sampling lesson.",
+    "Record the state of each piece of equipment, the debris and sludge removed by volume, and any water added or removed with its approval.",
+    "Record the wildlife observed, the netting check, any mortality or disease, and the referrals made.",
+    "Correct any error with a single line, the correct value, the initials, the date and the reason.",
+    "Write the handover note with open issues, hazards, referrals, what must not be done, and the next visit date.",
+    "Confirm the recipient, the date and the time of the handover, and file the copy in the log."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A technician realises that a dissolved oxygen reading entered yesterday was written in the wrong row, and the value belongs to the next day.",
+      "decisionPrompt": "How is the record corrected?",
+      "reasoning": "Draw a single line through the entry in the wrong row, leaving it readable. Write the correct value in the right row beside it, with the initials, the date of the correction and the reason, which is a wrong-row entry. Do not delete the entry, and do not copy the value into a new row without the correction note, because that would make the record show a reading that was never taken on that date."
+    },
+    {
+      "situation": "A fish loss has happened on a pond since the last visit, and the technician is handing over to a colleague who will visit next week.",
+      "decisionPrompt": "What must the handover note include?",
+      "reasoning": "The note states the fish loss with the date and the readings before it, the referral to the owner and its status, the pump and aeration status, and what must not be done, such as adding a pool product or moving fish. It lists the next visit date and the contact details, and records the handover recipient and the time. The colleague can then start from the facts rather than from memory."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Visit log or system with fields for unit, depth and instrument",
+    "Site plan with the inlet, outlet, overflow, filter, pump and reference point marked",
+    "Handover note template",
+    "Correction rules from the sampling lesson, available on the form",
+    "PPE as set by {{business:safety.required_ppe}} for any site visit"
+  ],
+  "commonErrors": [
+    {
+      "error": "Overwriting or deleting an entry to correct it.",
+      "prevention": "Use a single line, the correct value beside it, the initials, the date and the reason."
+    },
+    {
+      "error": "Recording a value without its unit or depth.",
+      "prevention": "Record the unit, depth and instrument with every reading."
+    },
+    {
+      "error": "Handing over without the list of things that must not be done.",
+      "prevention": "Use the handover template, and include pool chemicals, releases, sludge movement and discharge."
+    },
+    {
+      "error": "Sharing nest or protected-animal locations publicly or on a shared page.",
+      "prevention": "Share these only with the owner, the responsible person and the wildlife authority where its guidance requires it."
+    },
+    {
+      "error": "Reviewing the log only after a failure.",
+      "prevention": "Review the log monthly, or at the interval the plan sets, and record the review."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A handover must warn the next person of live electrical hazards, damaged cords and any isolated equipment that must not be switched on until it is checked.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Records of protected wildlife or nests are kept for the wildlife authority's guidance.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, certificate or authority. Completing the record and handover training does not give any authority to do regulated work.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each visit has a complete entry with units, times, depths and the equipment state",
+    "Corrections follow the rule for corrections, and no entry is overwritten or deleted",
+    "Each handover has open issues, hazards, referrals, the list of things not to do, and a named recipient"
+  ],
+  "documentationEvidence": [
+    "Visit log with the readings, equipment state, work done and water movements",
+    "Correction entries with initials, date and reason",
+    "Handover note with the recipient, the date and the time, and the next visit date"
+  ],
+  "summary": [
+    "A consistent log shows trends that a single reading cannot, so record the same things in the same units each visit.",
+    "Correct a record by a single line and a reason, never by overwriting.",
+    "A handover names the open issues, the hazards, the referrals and what must not be done to the pond.",
+    "Client and site information is confidential, and protected-animal locations go only to the people who need them."
+  ],
+  "businessFields": [
+    "{{business:jobs.signoff_procedure}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-POND-09-K01",
+      "question": "A pond result was entered wrongly. How should the correction be recorded?",
+      "options": [
+        "Delete the entry so it is not confusing for the next person who reads the log book at the site",
+        "Draw a single line through it, write the correct value beside it, then initial, date and give the reason",
+        "Overwrite the entry with the correct value so the log looks neat and tidy for the owner",
+        "Write the correct value in a separate notebook only, so the old log stays clean and tidy"
+      ]
+    },
+    {
+      "id": "NEW-POND-09-K02",
+      "question": "What should a handover note always include?",
+      "options": [
+        "Only the invoice total for the job, with the payment date and the amount paid",
+        "Only the weather for the day and the temperature at the site this morning",
+        "Only the names of the fish and their colour and size in the pond",
+        "Open issues, hazards, referrals made, and what must not be done to the pond"
+      ]
+    },
+    {
+      "id": "NEW-POND-09-K03",
+      "question": "Why is a consistent pond log valuable?",
+      "options": [
+        "It replaces the need for any testing, since the log holds all of the results",
+        "It shows trends across visits, so changes are noticed early and decisions have evidence",
+        "It is required by pond law in every state and every council area of Australia",
+        "It lowers the water temperature in the pond over the summer season and helps the fish"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Protected species (native animals)",
+      "url": "https://www.environment.nsw.gov.au/topics/animals-and-plants/native-animals/protected-species",
+      "pageDate": "Updated 7 September 2026",
+      "checked": "2026-11-03",
+      "covers": "Search environment.nsw.gov.au for 'protected species native animals' and read the protected groups and licensing sections. Publisher: NSW Government (environment website)."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: NSW Government environment website, Protected species (native animals) (updated 7 September 2026).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-U6 Example koi pond log (uploaded file ae19026f), mostly unrelated web text. Used only for the general idea of keeping a running pond log. No text from that file is used. The file is treated as not relied on for content.",
+    "pond-cleaning-L03 in this course, checked 2026-11-02: the rules for valid results, missed tests and corrections.",
+    "research/topics/pond.md section 2, checked 2026-11-02: the list of records for a pond service (service date, parts replaced, readings and client decisions) is a technique point with no source checked in that pass.",
+    "F01-L02 and F09-L03 in the shared base pool, referenced for privacy and evidence integrity; these are the course's own shared lessons and are not re-checked in this pass.",
+    "UNCONFIRMED: state and territory rules on recording and sharing protected-animal locations; whether any state requires a pond log for a pond service.",
+    "Official references in officialReferences were read on 2026-11-03 (R1 to R1). The SRC entries above remain as the earlier source trail."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Check the current rule for each point on the official pages listed above: NSW Government environment website, Protected species (native animals) (updated 7 September 2026).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-02.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-03.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    }
+  ]
+}

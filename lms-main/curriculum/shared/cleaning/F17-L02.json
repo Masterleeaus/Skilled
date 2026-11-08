@@ -1,0 +1,139 @@
+{
+  "id": "F17-L02",
+  "title": "Vacuum systems",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "carpet",
+    "hardfloor"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Equipment and materials",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners choosing and using vacuum systems in residential, commercial, carpet and hard-floor settings.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Match the vacuum's rating, filtration and attachments to the job.",
+    "Inspect the cord, hose, bag, filter and seals before use.",
+    "Stop and escalate when the dust or material is unknown or the vacuum is not rated for it."
+  ],
+  "instruction": [
+    {
+      "heading": "Matching the machine to the job",
+      "body": "Vacuum systems are not interchangeable. Identify whether a machine is a dry vacuum, a wet-capable vacuum or a specialist machine, and read its manufacturer rating. Never assume that a dry vacuum can collect liquid or hazardous dust. Match the filtration, the floor head and the power supply to the job, and check the capacity for the amount of material you expect to pick up."
+    },
+    {
+      "heading": "Inspecting before use",
+      "body": "Inspect the cord, the hose, the bag or container, the filter, the seals and the attachments before you plug the machine in. A damaged power cord is not used. Replace the component, or remove the machine from service and report it, rather than taping it up and continuing. Check the bag or container is seated and that the filter is clean enough for the job."
+    },
+    {
+      "heading": "Unknown dust and hazardous material",
+      "body": "When you encounter unknown fine dust, such as renovation dust, stop. A household vacuum is not suitable for dust that may be hazardous, because its filtration may let fine particles back into the air. Follow the site's procedure for dust containment and filter changes, and escalate the material for identification before continuing. Do not guess what the dust is."
+    },
+    {
+      "heading": "Handling bags and filters",
+      "body": "Handle a full bag or container so that dust is not released. Follow the site procedure for emptying, and for disposing of the bag or filter. Record any filter change and any escalation of suspect material."
+    }
+  ],
+  "procedure": [
+    "Identify the machine type and its manufacturer rating before use.",
+    "Inspect cord, hose, bag, filter, seals and attachments before plugging in.",
+    "Select the floor head and attachment for each surface.",
+    "Stop and escalate any unknown or hazardous dust, and do not use a household vacuum on it.",
+    "Handle full bags and filters to contain dust, and dispose of them as the procedure directs.",
+    "Record filter changes and escalations."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker encounters unknown fine renovation dust on a floor.",
+      "decisionPrompt": "Do you vacuum it with the household machine?",
+      "reasoning": "No. Pause, protect the area, and escalate the material for identification under the site's procedure. A household vacuum may release fine particles back into the air."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Vacuum rated for the material, with the correct filter and bag or container.",
+    "Attachments for each surface.",
+    "Respiratory and eye protection where the site's dust assessment requires it."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a dry vacuum to pick up liquid.",
+      "prevention": "Check the rating and use a wet-capable machine for liquids."
+    },
+    {
+      "error": "Continuing to use a vacuum with a damaged cord.",
+      "prevention": "Remove it from service and report it."
+    },
+    {
+      "error": "Using a household vacuum on unknown renovation dust.",
+      "prevention": "Stop and escalate the material for identification."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Dust exposure is a work health and safety matter. The site risk assessment governs.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Electrical equipment must be inspected and maintained as the manufacturer and the site procedure require. This lesson does not authorise repair of the machine's electrical parts.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Machine rating and filtration matched to the job in the practical.",
+    "Pre-use inspection completed, with any defect removed from service.",
+    "Unknown dust stopped and escalated, not vacuumed."
+  ],
+  "documentationEvidence": [
+    "Pre-use inspection record.",
+    "Escalation record for any unknown material, and filter change record."
+  ],
+  "summary": [
+    "Match the machine rating and filtration to the material.",
+    "Inspect before use and remove damaged equipment from service.",
+    "Stop and escalate unknown or hazardous dust.",
+    "Contain dust when emptying and record filter changes."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.assigned_items}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F17-L02-K01",
+      "question": "A worker finds unknown fine renovation dust. What is the right action?",
+      "options": [
+        "Stop, protect the area, and escalate the material for identification",
+        "Vacuum it with the household machine and then check the room",
+        "Sweep it into the bin and move on to the next room quickly today"
+      ]
+    },
+    {
+      "id": "F17-L02-K02",
+      "question": "What should happen to a vacuum with a damaged power cord?",
+      "options": [
+        "Tape the cord and keep using it",
+        "Remove it from service and report it",
+        "Use it only on dry floors"
+      ]
+    },
+    {
+      "id": "F17-L02-K03",
+      "question": "Can a dry vacuum be used to collect liquid?",
+      "options": [
+        "Yes, if it is switched off first and the cord is checked",
+        "Yes, if the bag is changed afterwards at once",
+        "Only if it is rated for liquid, and not otherwise"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/F17-L02.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory exposure limits for specific dust types.",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

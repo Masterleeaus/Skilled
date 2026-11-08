@@ -1,0 +1,165 @@
+{
+  "id": "HBM-02",
+  "title": "Owner time and admin workload before the first job",
+  "courseSlugs": [
+    "handyman",
+    "deck",
+    "flatpack",
+    "locksmith",
+    "painting",
+    "plastering",
+    "tiling"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners of small property trade businesses who will carry the admin for their own jobs in the first year",
+  "prerequisites": [
+    "HBM-01"
+  ],
+  "learningOutcomes": [
+    "Estimate the weekly hours of admin a small trade business creates, task by task, using measured examples.",
+    "Compare available working hours with the admin and job hours, and identify any shortfall.",
+    "Set up one simple record system for bookings, quotes, invoices and receipts that share a reference number."
+  ],
+  "instruction": [
+    {
+      "heading": "Admin is part of the work",
+      "body": "Clients see the site visit and the finished job. They do not see the quote drafted at the kitchen table, the message answered late at night, the receipt photographed in a hardware car park, or the invoice sent a week after the work finished. Those tasks take real time, and new owners usually underestimate them. List every admin task the business will carry: enquiries and bookings, site visit notes, quotes, scope confirmations, invoices, payment follow-up, receipts, supplier orders, tool and vehicle records, insurance and licence renewals, website updates, marketing and tax records. Put a rough time against each task for each job or each week. Do not rely on memory alone. Time three or four real tasks, and use those results instead of guesses."
+    },
+    {
+      "heading": "Checking the hours against the week",
+      "body": "Add the admin hours to the hours of on-site work and travel. Compare the total with the hours you can realistically give the business each week. If admin takes most of the week, replies will be slow, and slow replies lose jobs. Avoid planning admin for the evening after a full day on site unless you have decided that pattern is sustainable. Schedule admin in blocks during the working week, such as one morning for quotes and one block for invoices and receipts. Blocks reduce the constant switching between tasks that makes admin feel endless."
+    },
+    {
+      "heading": "Setting up simple systems first",
+      "body": "Choose one place for each type of record: a booking list, a quote register, an invoice register and a receipt folder. Use the same reference number on the quote, the job sheet, the invoice and the receipt, so that any job can be traced across all four. Use one business phone number and one email inbox, so enquiries do not get lost between devices. Keep templates for quotes, scope confirmations and invoices. If you use software, check that the invoices it produces contain what an Australian tax invoice must show, and check whether your registration requires you to issue them. Confirm the required content with the ATO before relying on any template. A system that is not kept up to date is worse than paper, so choose the simplest tool you will actually maintain."
+    },
+    {
+      "heading": "Deciding what to change when the numbers do not fit",
+      "body": "If the total hours exceed what you can give, there are three choices: delay the start date, bring in help for admin, or narrow the services so each job needs less paperwork. Choose the option that protects your response time and your record keeping. After the first month, replace the estimates with the measured figures and repeat the comparison."
+    }
+  ],
+  "procedure": [
+    "List every admin task the business will carry, grouped as enquiries, quoting, job records, money and compliance.",
+    "Time three real examples of each task, or estimate from a source you can name, and record the weekly total.",
+    "Add the on-site and travel hours, and compare the total with the hours you can commit each week.",
+    "Set one fixed block each week for quotes and one for invoices, receipts and records.",
+    "Create a booking list, a quote register, an invoice register and a receipt folder, each linked by one reference number.",
+    "Note any shortfall, and choose one response: delay the start, delegate admin, or narrow the offer."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An owner expects to spend about twelve hours a week on admin, but has only ten hours free after the site work is scheduled.",
+      "decisionPrompt": "What should the owner change before taking more bookings?",
+      "reasoning": "The two-hour gap means replies will slip or invoices will fall behind. The owner should first measure the admin tasks, then choose between delaying bookings, narrowing the service list so each job needs less paperwork, or paying for admin help. Taking on more bookings before closing the gap increases the risk of missed quotes and late invoices."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Shared calendar or diary for bookings and fixed admin blocks",
+    "Quote, invoice and receipt templates",
+    "Secure storage for receipts and client records, on paper or in a password-protected digital folder"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating admin as an evening task, which leads to burnout and slow replies.",
+      "prevention": "Schedule admin in fixed weekday blocks, and measure the real time each task takes."
+    },
+    {
+      "error": "Keeping receipts and job records in different places, so they cannot be matched at tax time.",
+      "prevention": "Use one reference number across the quote, job sheet, invoice and receipts."
+    },
+    {
+      "error": "Choosing software before deciding what records the business needs.",
+      "prevention": "List the records first, then choose the simplest tool that keeps them."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Customer records contain personal information. Keep them secure, limit who can see them, and check whether the Privacy Act 1988 applies to the business.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Tax invoice content and the period for keeping records are set by Australian tax law.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Admin hours are estimated from measured examples, and the weekly total is compared with the hours available.",
+    "Every job has one reference number that links the quote, job record, invoice and receipts.",
+    "The learner names one specific response to any shortfall."
+  ],
+  "documentationEvidence": [
+    "Weekly admin time estimate with the measured examples",
+    "Layout of the booking list, quote register, invoice register and receipt folder",
+    "Written response to any shortfall, with the date"
+  ],
+  "summary": [
+    "Admin is a real part of the work and needs its own time in the week.",
+    "Fixed admin blocks and one reference number stop records from drifting apart.",
+    "When the hours do not fit, delay, delegate or narrow the offer."
+  ],
+  "businessFields": [
+    "{{business:jobs.scheduling_method}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-02-K01",
+      "question": "An owner's admin and site hours add up to more than the hours available each week. What is the best first step?",
+      "options": [
+        "Take more bookings to cover the cost of the admin and work longer hours each week",
+        "Measure the admin tasks, then choose a response: delay, delegate or narrow the offer",
+        "Stop keeping receipts until the business is busier and skip the tax records",
+        "Do the admin every evening so the working day is not interrupted and the weekend too"
+      ]
+    },
+    {
+      "id": "HBM-02-K02",
+      "question": "Why should a quote, a job sheet, an invoice and a receipt share one reference number?",
+      "options": [
+        "So the customer can use the number to claim a discount",
+        "So each job can be traced across all of its records",
+        "So the tax office accepts the records without checking them",
+        "So the owner does not need a separate bank account"
+      ]
+    },
+    {
+      "id": "HBM-02-K03",
+      "question": "Which approach best reduces constant switching between tasks?",
+      "options": [
+        "Answering messages whenever they arrive from every client",
+        "Scheduling admin in fixed blocks during the working week",
+        "Doing all the admin after midnight every single night",
+        "Keeping admin in mind without scheduling it for the whole week"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Starting a Handyman Business guide (dca133d1-Starting-a-Handyman-Business.pdf), Question 3 (p. 7) on hidden daily tasks; rights: user-held; reworded (no copying)",
+    "Cross-checked against SOL-07 (documenting and automating repetitive work); overlap recorded, not repeated",
+    "Privacy Act 1988 applicability and tax invoice rules: UNCONFIRMED (not checked against a current official source in this draft)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Tax invoices (Australian Taxation Office)",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/tax-invoices",
+      "pageDate": "Last updated 18 September 2026; no published or reviewed date shown",
+      "checked": "2026-11-03",
+      "covers": "Read via summary fetch. For taxable sales under $1,000 the invoice must show that it is a tax invoice, the seller's name and ABN, the issue date, what was sold and its price, the GST amount or a statement that the total includes GST, and the taxable amount of each sale. For sales of $1,000 or more the buyer's name or ABN is also required. If a customer asks for a tax invoice, one must be provided within 28 days, except for sales of $82.50 (including GST) or less. The page does not state a general retention period for tax invoices; the retention period is not yet confirmed."
+    },
+    {
+      "id": "R2",
+      "title": "Small business (Office of the Australian Information Commissioner)",
+      "url": "https://www.oaic.gov.au/privacy/privacy-for-organisations/small-business",
+      "pageDate": "Published 10 March 2023; last modified 5 September 2024",
+      "checked": "2026-11-03",
+      "covers": "Read via summary fetch. The page states most small businesses are not covered by the Privacy Act, with the threshold given as annual turnover of $3 million or less. Exceptions apply regardless of turnover, including health service providers, businesses trading in personal information, credit reporting bodies, related businesses and businesses that have opted in. The page does not name the currency of the threshold. It recommends protecting personal information as good practice. Whether the Act applies to a particular business is not confirmed by this entry and should be checked with the OAIC."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

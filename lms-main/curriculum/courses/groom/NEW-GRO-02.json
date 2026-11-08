@@ -1,0 +1,181 @@
+{
+  "id": "NEW-GRO-02",
+  "title": "Coat and skin checks; refer abnormal findings",
+  "courseSlugs": [
+    "groom"
+  ],
+  "moduleTitle": "Quality, evidence and handover",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Pet groomers who check an animal's coat and skin during a groom, record what they find, and tell the owner when a vet should see the animal",
+  "prerequisites": [
+    "F09-L02",
+    "F09-L03",
+    "F01-L04"
+  ],
+  "referencesAtStart": "Official source: Agriculture Victoria, Domestic animal businesses (list of business types) (no date shown), for the list position on pet grooming only.",
+  "learningOutcomes": [
+    "Carry out a systematic coat and skin check on each animal at the start and end of a groom",
+    "Describe what was seen without naming a diagnosis, and identify the findings that need a vet referral",
+    "Record the findings and the owner notification with the date and time"
+  ],
+  "instruction": [
+    {
+      "heading": "A systematic check, every time",
+      "body": "A coat and skin check is part of the groom, not an extra. Check the animal at the start, before the bath or clip, and again at the end. Work in a set order, such as head, ears, eyes, mouth, neck, body, legs, paws, nails, tail and underside, so that no area is missed. Look at the coat for matting, dullness, bald patches, dry skin, flaking, lumps and parasites. Check the skin for redness, heat, sores, scabs, swelling, wounds and any odour. Check the ears for smell, discharge and redness. Record what you see in plain terms, using the business's approved check sheet, which is held in {{business:quality.inspection_checklist}}. Do not diagnose the cause of a finding. The purpose of the check is to see what is there and to refer it."
+    },
+    {
+      "heading": "What to refer, and what not to do",
+      "body": "A groomer must not diagnose or treat a skin or ear condition, must not lance a lump, must not remove a tick or other parasite in a way that could injure the animal unless the owner has agreed, and must not give any medicine or product as a treatment. Refer the owner to a vet for any finding that is open, bleeding, swollen, hot, painful, has discharge, has a lump that is new or growing, or where the animal shows pain or sensitivity when touched. Refer the owner for any finding the groomer is unsure about. Describe the finding factually, such as 'a raised red area about two centimetres across on the left flank', and do not say what it is. The owner decides whether to see a vet, and the groomer should advise that a vet visit is recommended before the next groom."
+    },
+    {
+      "heading": "Record, notify and keep the evidence",
+      "body": "Record each finding on the job record with a description, the location on the body, the size, the time, the photo where the owner has consented, and the owner notified. Tell the owner at the time of the groom, or at the end of the groom if the animal is stressed, and record the time the owner was told and the response. If the owner cannot be reached, record the attempts. Photos can help the owner and a vet see a finding, but they must be taken and stored only under the owner's written consent, and the business's photo rule applies. The business's evidence requirements are held in {{business:quality.evidence_requirements}}, and the defect reporting method is in {{business:quality.defect_reporting}}."
+    }
+  ],
+  "procedure": [
+    "Carry out the systematic check at the start of the groom, in the set order, and record the findings",
+    "Repeat the check at the end of the groom, and compare with the start",
+    "Describe each finding factually, with its location, size and appearance, and do not name a diagnosis",
+    "Refer the owner to a vet for any open, bleeding, swollen, hot, painful, discharging or new lump finding, and for any finding the groomer is unsure about",
+    "Record the owner notification, with the time and the response, and make any attempts to contact the owner",
+    "Store any photo only with the owner's written consent, and delete it at the end of the agreed period"
+  ],
+  "workedExamples": [
+    {
+      "situation": "During a bath, a groomer finds a small, hot, swollen area on a dog's ear flap with a discharge that smells strong. The dog shakes its head when touched.",
+      "decisionPrompt": "What should the groomer record and do?",
+      "reasoning": "The finding is hot, swollen, discharging, has an odour, and the dog shows pain when touched. These are referral signs. The groomer should not clean the ear with a product or try to remove material. The groomer should describe the finding factually, notify the owner, and recommend a vet visit before the next groom. The groomer should record the time, the description, the owner's response, and the advice given."
+    },
+    {
+      "situation": "A groomer sees a few small dark specks in a cat's coat and is not sure whether they are dirt or parasites.",
+      "decisionPrompt": "Should the groomer remove them and treat the cat?",
+      "reasoning": "The groomer is unsure what the specks are, and the business does not treat or diagnose parasites. The groomer should describe the specks factually, note their location and number, and advise the owner to ask a vet. The groomer should not apply a product to treat the cat, and should record the advice given."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved coat and skin check sheet, held with the job record",
+    "Torch for checking the skin and ears",
+    "Gloves for handling and checking",
+    "Camera or phone for photos, used only under the owner's written consent"
+  ],
+  "commonErrors": [
+    {
+      "error": "Naming a skin condition or parasite from the appearance.",
+      "prevention": "Describe the finding factually. Refer it to a vet for any diagnosis."
+    },
+    {
+      "error": "Cleaning a hot, swollen or discharging ear with a product.",
+      "prevention": "Do not treat. Notify the owner and recommend a vet visit."
+    },
+    {
+      "error": "Writing a check sheet from memory at the end of the day.",
+      "prevention": "Complete the check at the start and at the end of each groom, on the sheet."
+    },
+    {
+      "error": "Taking a photo of a finding without the owner's consent.",
+      "prevention": "Take photos only under the owner's written consent, and store them securely."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pet grooming is not among the business types on Agriculture Victoria's list. No Victorian council registration for groomers was confirmed.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Referral of findings to a vet is good practice. The groomer does not diagnose or treat, and the owner decides on veterinary care.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The privacy rules for photos of an animal and a home were not researched. The business's privacy approach in “Privacy, security and customer property” applies.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every groom has a check at the start and at the end, recorded on the sheet",
+    "Every finding is described factually, with location and size, and no diagnosis is recorded",
+    "Every referral finding has the owner notified, with the time and response recorded",
+    "Every photo has written owner consent on file"
+  ],
+  "documentationEvidence": [
+    "Start-and-end check sheet for each groom",
+    "Finding record with description, location, size and time",
+    "Owner notification record, with the response or the attempts made",
+    "Written owner consent for any photo, with the agreed use and period"
+  ],
+  "summary": [
+    "Check the coat and skin systematically at the start and end of each groom",
+    "Describe findings factually; do not diagnose or treat",
+    "Refer open, bleeding, swollen, hot, painful or new-lump findings to a vet, and record the owner notice",
+    "Completing this lesson grants no registration and no authority to treat"
+  ],
+  "referencesAtEnd": "Official source, as listed at the start: Agriculture Victoria, Domestic animal businesses (list of business types) (no date shown).",
+  "businessFields": [
+    "{{business:quality.inspection_checklist}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-GRO-02-K01",
+      "question": "A dog's ear is hot, swollen, discharging, and painful when touched. What should the groomer do?",
+      "options": [
+        "Clean the ear with a product and continue the groom, since the ear looks clean after a wipe",
+        "Remove the discharge with a cotton bud and say nothing to the owner about it at pickup",
+        "Describe the finding factually, notify the owner, and recommend a vet visit, without treating"
+      ]
+    },
+    {
+      "id": "NEW-GRO-02-K02",
+      "question": "The groomer sees dark specks in a cat's coat and is not sure what they are. What is the correct action?",
+      "options": [
+        "Describe the specks factually and advise the owner to ask a vet",
+        "Name them as parasites and treat the cat with a product from the shop",
+        "Remove the specks and record nothing, since they are gone now"
+      ]
+    },
+    {
+      "id": "NEW-GRO-02-K03",
+      "question": "When should the coat and skin check be carried out, to meet the standard in this lesson?",
+      "options": [
+        "Only at the end of the groom, when dry",
+        "At the start and at the end of each groom",
+        "Only when the owner asks for it at pickup"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (GROOM-VIC-02 council registration UNCONFIRMED; GROOM-VIC-05 home visit UNCONFIRMED)",
+    "Shared lesson references: F09-L02 (inspect systematically), F09-L03 (evidence integrity and privacy), F01-L04 (job handover and escalation), within curriculum/lessons/ready",
+    "Cross-reference: NEW-GRO-01 and NEW-DOG-05 for handling and emergency response"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Domestic animal businesses (list of business types)",
+      "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/domestic-animal-businesses",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read the list; mobile pet grooming is not named. This is a list position only. Publisher: Agriculture Victoria."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-03.jpg",
+      "alt": "Pet grooming illustration",
+      "kind": "photo",
+      "origin": "groom"
+    },
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-04.jpg",
+      "alt": "Pet grooming illustration",
+      "kind": "photo",
+      "origin": "groom"
+    }
+  ]
+}

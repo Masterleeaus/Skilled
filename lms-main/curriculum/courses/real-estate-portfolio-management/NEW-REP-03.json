@@ -1,0 +1,191 @@
+{
+  "id": "NEW-REP-03",
+  "title": "Compliance calendar: safety certificates (refer to licensed trades)",
+  "courseSlugs": [
+    "portfolio"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Home-based property managers who track the dates of safety certificates and inspections for their properties",
+  "prerequisites": [
+    "C19-L05",
+    "property-maintenance-L10"
+  ],
+  "learningOutcomes": [
+    "Build a calendar of safety certificate and inspection due dates for each property.",
+    "Refer each certificate or inspection to the licensed or authorised person who issues it.",
+    "Identify the certificate requirements that are confirmed for the state, and set the rest aside."
+  ],
+  "instruction": [
+    {
+      "heading": "A calendar records dates and owners, not compliance",
+      "body": "A compliance calendar records when each certificate or inspection falls due, who issues it, and who arranges it. It does not show that the property is compliant. The calendar is a tool for making sure a licensed or authorised person does the work at the right time. Build it from the asset register and the owner's documents, and set a reminder period before each due date so that there is time to refer the work."
+    },
+    {
+      "heading": "Requirements and their sources",
+      "body": "Record each requirement with its source, and do not invent a due date for a requirement you have not sourced."
+    }
+  ],
+  "procedure": [
+    "List each certificate or inspection that applies to each property, from the owner's documents and the confirmed requirements.",
+    "Record each entry with its source.",
+    "Record the due date, the issuing person and the person responsible for arranging it.",
+    "Set a reminder before each due date and refer the work to the licensed or authorised person.",
+    "Record each certificate received and file it against the property.",
+    "Review the calendar with the owner each quarter."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A property in New South Wales has a pool, and the owner asks whether the pool certificate is current.",
+      "decisionPrompt": "How should the calendar answer the question?",
+      "reasoning": "Check the pool register and any certificate on file, and state the date of each. If the certificate is due, refer the inspection and any certificate work to a licensed or authorised person. Do not state that the pool is compliant without the certificate on file."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Compliance calendar template",
+    "Certificate file for each property",
+    "Reminder system"
+  ],
+  "commonErrors": [
+    {
+      "error": "Stating that a property is compliant because the calendar is up to date.",
+      "prevention": "The calendar records dates. Compliance is shown by the certificate."
+    },
+    {
+      "error": "Inventing due dates for requirements that have no source.",
+      "prevention": "Record the requirement with its source, and check it with the authority."
+    },
+    {
+      "error": "Arranging a certificate yourself where only a licensed person can issue it.",
+      "prevention": "Refer the work to the licensed or authorised person."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "New South Wales pool certificates: a sale needs the register certificate plus one of three certificate types, and a rental needs a compliance or occupation-type certificate; a non-compliance certificate cannot support letting (page last updated 16 March 2026). A certifier may carry out minor barrier repairs up to $1,000, materials and labour included, but must hold an endorsed contractor licence or a qualified supervisor certificate.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Victoria pool barrier compliance certificates (Form 23) are issued by inspectors listed as registered building surveyors, building inspectors or pool inspectors. The page does not list pool service providers as issuers (last updated 30 June 2026).",
+      "licenceNotice": true
+    },
+    {
+      "point": "New South Wales smoke alarm duties for landlords: working alarms, a faulty alarm fixed or replaced inside two working days, a yearly check, and replacement within ten years of manufacture (page last modified 24 May 2024). Hard-wired units need a licensed electrician to repair or replace them.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Confirm them with the relevant authority before any due date is recorded as a legal requirement.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not give any licence, certificate or authority to issue or arrange a regulated certificate.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each calendar entry has its source recorded.",
+    "Each due date has an issuing person and a person responsible for arranging it.",
+    "No certificate is recorded as current without the document on file."
+  ],
+  "documentationEvidence": [
+    "Compliance calendar with status and source for each entry",
+    "Certificate file for each property",
+    "Referral record for each certificate arranged"
+  ],
+  "summary": [
+    "A calendar records dates and owners, not compliance.",
+    "Record the source for each requirement, and do not invent due dates.",
+    "Refer each certificate to the licensed or authorised person and file the document."
+  ],
+  "businessFields": [
+    "{{business:compliance.licence_requirements}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-REP-03-K01",
+      "question": "The compliance calendar is up to date. What does this show?",
+      "options": [
+        "That the due dates are recorded, and compliance depends on the certificates on file",
+        "That the property is compliant with every rule and every inspection in the state",
+        "That no inspections are needed at the property for the whole year ahead at all",
+        "That the owner has paid for all certificates and the paperwork is complete for the file"
+      ]
+    },
+    {
+      "id": "NEW-REP-03-K02",
+      "question": "A certificate requirement has not been researched. How should it be entered?",
+      "options": [
+        "With an invented due date that is set by the agent",
+        "As open, with a note to check with the relevant authority",
+        "As not required, since it has not been checked",
+        "Left out of the calendar until the owner asks for it"
+      ]
+    },
+    {
+      "id": "NEW-REP-03-K03",
+      "question": "What does a compliance calendar record, according to the lesson?",
+      "options": [
+        "Whether the property is compliant",
+        "When each certificate or inspection falls due, who issues it, and who arranges it",
+        "The owner's bank details",
+        "Only the inspection fees"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Swimming pool owner obligations",
+      "url": "https://www.nsw.gov.au/housing-and-construction/building-or-renovating-a-home/pools-and-pool-safety/owner-obligations",
+      "pageDate": "Last updated 16 March 2026; published 27 June 2025",
+      "checked": "2026-11-03",
+      "covers": "Register, sale, lease and minor barrier repair sections. Publisher: NSW Government (NSW Fair Trading)."
+    },
+    {
+      "id": "R2",
+      "title": "Pool and spa safety barrier inspections",
+      "url": "https://www.bpc.vic.gov.au/surveyors/audits-and-inspections/pool-and-spa-safety-barrier-inspections",
+      "pageDate": "Last updated 30 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Form 23 section: the list of inspectors who may issue the certificate. Publisher: Building Practitioners Board (Victoria)."
+    },
+    {
+      "id": "R3",
+      "title": "Smoke alarms in a rental property",
+      "url": "https://www.nsw.gov.au/housing-and-construction/rules/smoke-alarms-a-rental-property",
+      "pageDate": "Published 17 January 2024; last modified 24 May 2024",
+      "checked": "2026-11-03",
+      "covers": "Landlord duties section: placement, repair deadlines, annual check and replacement age. Publisher: NSW Government (NSW Fair Trading)."
+    }
+  ],
+  "referencesAtStart": "Official sources: NSW Government, Swimming pool owner obligations (last updated 16 March 2026; published 27 June 2025); Building Practitioners Board (Victoria), Pool and spa safety barrier inspections (last updated 30 June 2026); NSW Government, Smoke alarms in a rental property (published 17 January 2024; last modified 24 May 2024).",
+  "referencesAtEnd": "Official sources to check the current rule: Swimming pool owner obligations, NSW Government (NSW Fair Trading) (last updated 16 March 2026; published 27 June 2025); Pool and spa safety barrier inspections, Building Practitioners Board (Victoria) (last updated 30 June 2026); Smoke alarms in a rental property, NSW Government (NSW Fair Trading) (published 17 January 2024; last modified 24 May 2024).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "CATALOGUE-V2 row NEW-REP-03 (new lesson; licensed-certificate notice; checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX-NSW-QLD.csv NSW-12, NSW-13 (checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX.csv VIC-15 (checked 2026-11-02)",
+    "https://www.nsw.gov.au/housing-and-construction/building-or-renovating-a-home/pools-and-pool-safety/owner-obligations (checked 2026-11-02)",
+    "https://www.bpc.vic.gov.au/surveyors/audits-and-inspections/pool-and-spa-safety-barrier-inspections (checked 2026-11-02)",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. currency stated in AUD; thresholds and sources unchanged"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/property/portfolio-photo-0c292bc1-15.jpg",
+      "alt": "Real estate portfolio management illustration",
+      "kind": "photo",
+      "origin": "portfolio"
+    },
+    {
+      "src": "/academy/library/photos/property/portfolio-photo-0c292bc1-01.jpg",
+      "alt": "Real estate portfolio management illustration",
+      "kind": "photo",
+      "origin": "portfolio"
+    }
+  ]
+}

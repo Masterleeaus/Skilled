@@ -1,0 +1,182 @@
+{
+  "id": "NEW-FUR-07",
+  "title": "Joint, veneer and surface repair",
+  "referencesAtStart": "Official references for this lesson: Safe Work Australia, Using safety data sheets (no date shown); Safe Work Australia, Hazardous manual tasks (model code of practice) (no date shown). Only part of the hazardous manual tasks code has been confirmed.",
+  "courseSlugs": [
+    "furniture"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 30,
+  "audience": "Furniture restorers who repair loose joints, lifted veneer and surface damage on timber pieces.",
+  "prerequisites": [
+    "NEW-FUR-06"
+  ],
+  "learningOutcomes": [
+    "Assess a joint or veneer fault and record its condition before repair.",
+    "Stabilise a joint or veneer with adhesive, clamping or pressing, and allow the stated cure time.",
+    "Explain why a higher-skill repair is priced on assessment and stages, not on area alone."
+  ],
+  "instruction": [
+    {
+      "heading": "Assess before repair",
+      "body": "Check whether a joint is loose, cracked or missing glue, and whether veneer is lifted, bubbled or chipped. Feel for movement by gently rocking the joint, and look for old glue lines and gaps. The aim of the repair is to stabilise the piece, not to hide the fault. Record the condition with photographs before any repair. A filled joint that still moves has not been repaired."
+    },
+    {
+      "heading": "Adhesive, clamping and cure",
+      "body": "Choose an adhesive suited to the joint and the timber, and follow the product data sheet for mixing, open time and cure. Remove old glue and dust where the approved method requires it, because adhesive does not bond well to old residue. Clamp evenly, check that the frame is square, and wipe off squeeze-out before it sets. Allow the full cure time before putting load on the joint."
+    },
+    {
+      "heading": "Veneer lifts and bubbles",
+      "body": "Lift veneer only as far as needed to get adhesive under it. Apply glue under controlled pressure, using a press, cauls or evenly spread clamps. Heavy weights can crush the veneer or crack the surface. Test heat on a hidden area first if the approved method calls for heat to soften old adhesive, and keep the heat away from edges. Check the surface flat before finishing."
+    },
+    {
+      "heading": "Filling and levelling",
+      "body": "Use fillers that suit the finish method, and fill only what is needed. Fill the surface defect, not the structural gap. Colour matching is taught in “Staining, sealing and finish application”. Level the repair only after the filler has cured, so that the surface is not dug into."
+    }
+  ],
+  "procedure": [
+    "Assess and record the joint or veneer condition, with photographs.",
+    "Confirm the screening result for the finish in “Screen for lead and asbestos: test, stop and refer” before any disturbing work.",
+    "Prepare the joint or veneer area, removing old glue and dust as the approved method requires.",
+    "Apply adhesive as the product data sheet sets out.",
+    "Clamp or press evenly, and check that the frame is square.",
+    "Allow the full cure time before putting load on the repair.",
+    "Fill and level only the surface defect, once the filler has cured.",
+    "Check the repair and record the product used and the cure time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A timber dining chair has a loose rear leg joint. The client wants it fixed in one day so the chair can be used at a dinner that evening.",
+      "decisionPrompt": "What do you assess, and what do you tell the client?",
+      "reasoning": "The joint needs assessment and probably disassembly, re-gluing and clamping. The cure time means the chair cannot take load the same evening, so the timeline must change. Quote the repair in stages, tell the client the chair will not be safe to sit on until the stated cure time, and record the condition and the agreed timeline."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Adhesive suited to the joint and timber, as set out in the product data sheet",
+    "Clamps, cauls and a press as the approved method requires",
+    "Business PPE as set out in {{business:safety.required_ppe}}",
+    "Square and straightedge for checking the frame"
+  ],
+  "commonErrors": [
+    {
+      "error": "Gluing over old dust and finish residue.",
+      "prevention": "Remove old glue and dust where the approved method requires it, before re-gluing."
+    },
+    {
+      "error": "Over-clamping, which crushes veneer.",
+      "prevention": "Clamp or press evenly and within the limits of the veneer."
+    },
+    {
+      "error": "Filling a structural crack so that it looks solid.",
+      "prevention": "Assess movement first. Repair the joint, and fill only the surface."
+    },
+    {
+      "error": "Putting load on a joint before the cure time is complete.",
+      "prevention": "Allow the full cure time as stated on the product data sheet."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Follow the adhesive product data sheet and SDS for ventilation, PPE and cure time.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Heat used to free a joint or soften adhesive is subject to the heat controls in “Stripping timber furniture: choosing and controlling the method” and must be tested on a hidden area first.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Safe Work Australia hazardous manual tasks code requires manual tasks to be assessed and managed, but it sets no lifting weight for furniture (no page date shown). Apply the business's handling procedure.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The joint is stable and does not move under the load test in the approved method.",
+    "The veneer is flat, with no bubbles or lifted edges.",
+    "The repair and its cure time are recorded."
+  ],
+  "documentationEvidence": [
+    "Condition record before repair, with photographs",
+    "Adhesive and filler used, with cure time",
+    "Post-repair check record"
+  ],
+  "summary": [
+    "Assess movement before choosing a repair. Stabilise the joint, do not hide it.",
+    "Allow the full cure time before the piece takes load.",
+    "Price repairs on assessment and stages, not on area alone."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:quality.inspection_checklist}}",
+    "{{business:materials.approved_products}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FUR-07-K01",
+      "question": "A chair joint is loose, and a thick filler is used so it looks solid. What is the problem?",
+      "options": [
+        "None, it is a standard fix that the shop uses on every chair",
+        "The filler hides movement, so the joint has not been stabilised",
+        "Filler is only for surface marks and cracks in the finish"
+      ]
+    },
+    {
+      "id": "NEW-FUR-07-K02",
+      "question": "Why must the cure time be allowed before the repair takes load?",
+      "options": [
+        "To give the client time to pay the invoice before the piece is returned",
+        "Cure time only matters for paint and not for glue joints in the chair",
+        "So the adhesive reaches its designed strength before stress is applied"
+      ]
+    },
+    {
+      "id": "NEW-FUR-07-K03",
+      "question": "Which is the safer approach to lifted veneer?",
+      "options": [
+        "Apply glue and pressure evenly with a press or cauls, lifting only where needed",
+        "Press it hard with a weight to flatten it quickly, so the veneer stays down for good",
+        "Pull the veneer off and replace it with plywood without assessment"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: the two sources listed at the start. Only part of the hazardous manual tasks code has been confirmed.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets (checked 2026-11-02; SDS access duty)",
+    "UNCONFIRMED: adhesive types, cure times and load-test method for furniture joints; manual handling specifics. Research brief: /home/claude/work/team/research-topics/furniture.md, sections 2 and 9."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Using safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Workplace duty to keep SDS in the hazardous chemical register, and to make them easy to access for the people named on the page. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Hazardous manual tasks (model code of practice)",
+      "url": "https://safeworkaustralia.gov.au/doc/model-code-practice-hazardous-manual-tasks",
+      "pageDate": "No date shown (publication date field blank)",
+      "checked": "2026-11-03",
+      "covers": "Duty to assess and manage manual tasks. The page gives no weight, posture or lifting limits. Publisher: Safe Work Australia."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-13.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-14.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    }
+  ]
+}

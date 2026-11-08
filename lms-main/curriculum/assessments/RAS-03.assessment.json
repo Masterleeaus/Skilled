@@ -1,0 +1,39 @@
+{
+  "lessonId": "RAS-03",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-03-K01",
+      "correctIndex": 0,
+      "rationale": "Substitution with a product that does not need mixing removes the mixing hazard at source. PPE is the lowest-ranked option and a written procedure is administrative."
+    },
+    {
+      "id": "RAS-03-K02",
+      "correctIndex": 1,
+      "rationale": "A residual score that counts a control assumes the control works. A control the crew has never seen is not in place, so it must not be counted."
+    },
+    {
+      "id": "RAS-03-K03",
+      "correctIndex": 2,
+      "rationale": "A residual score that does not improve shows the controls have not worked. The task waits until the controls are redefined and re-assessed."
+    }
+  ],
+  "practicalCriteria": [
+    "Lists at least three candidate controls for a named hazard before choosing",
+    "Ranks the candidates and labels each by type",
+    "Writes each chosen control as an action with an owner",
+    "Re-scores residual risk and gives a reason tied to a verified control"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "control list with ranks",
+    "residual score record",
+    "verification record",
+    "assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "A safety feature is removed or bypassed to speed up work",
+    "The learner lowers a residual score for a control that has not been checked"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,142 @@
+{
+  "id": "RAS-08",
+  "title": "Electrical hazards: fixed wiring and portable equipment",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaning operatives and supervisors who use portable electrical equipment and who work around fixed wiring in client buildings.",
+  "prerequisites": [
+    "F17-L04",
+    "SOP-02"
+  ],
+  "learningOutcomes": [
+    "Separate fixed electrical systems, which crew never touch, from portable equipment, which crew inspect and use.",
+    "Carry out a pre-use inspection of a portable machine and withdraw it when it is defective.",
+    "Keep liquids and cords clear of electrical outlets and equipment during work.",
+    "Explain why fixed wiring work is not part of the cleaning task."
+  ],
+  "instruction": [
+    {
+      "heading": "Fixed wiring is not a cleaning task",
+      "body": "Fixed wiring, permanent systems and fixtures are installed, tested and maintained by the building's duty holder and by the people who are licensed or authorised to do that work. The cleaning register tells crew not to touch, alter or interfere with wiring, cables or electrical systems, and to report damage, defects and failures to the supervisor and building facilities team straight away. The reason is that a cleaner who opens a fitting, moves a cable or wets a switch can cause a shock or a fire, and a visual check cannot show whether a system is safe to touch. WARNING: Do not open a switchboard, a power point, a light fitting or a data cabinet, and do not move a cable that appears to be live or damaged. Stop, keep others away and report it. Licence notice: fixed electrical work is licensed or authorised work in many places, and this lesson does not grant any electrical licence or authority to do it."
+    },
+    {
+      "heading": "Portable equipment: test, inspect and use",
+      "body": "Portable equipment brought to site is tested before it arrives, using the formal testing process the business uses for portable equipment, which the register refers to as PAT testing and which is commonly called test and tagging in Australia. Before each use, the operative inspects the machine: the cord, the plug, the casing, the guards and the tag. A defective machine is not used. It is tagged as not fit for use, withdrawn and reported to the supervisor. Crew are trained in the safe use of each machine and follow the manufacturer's instructions. Equipment is never used in a way that the manufacturer does not allow, and sockets and leads are never overloaded."
+    },
+    {
+      "heading": "Liquids, leads and the working area",
+      "body": "Liquids are kept well away from electrical outlets and equipment. The mop bucket, the spray bottle and the wet cloth are placed where a spill cannot reach a power point or a cord. Leads are routed so that people cannot trip over them or drag them through water. Where a lead must cross a walkway, it is secured and marked, as “Slips, trips and falls on floors and walkways” describes. WARNING: Stop and isolate a machine if the cord is damaged, if it gets hot, if it trips the circuit, or if you feel any tingle from it. Do not handle a machine or a plug with wet hands, and do not reach into water to free a cord."
+    }
+  ],
+  "procedure": [
+    "Confirm the machine has a current test record and a visible tag before it is used on site.",
+    "Inspect the cord, plug, casing, guards and tag before every use.",
+    "Withdraw, label and report any machine that is defective, and do not use it until it has been repaired and retested.",
+    "Place liquids away from outlets and equipment, and route the lead so it cannot be tripped over.",
+    "Do not open, move or tamper with any fixed wiring, switchboard or fitting. Report damage to the supervisor and building facilities team immediately.",
+    "Isolate and report any machine that becomes hot, trips a circuit or gives a tingle."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew member plugs a backpack vacuum into a power board that sits beside a mop bucket, and the lead runs across a doorway.",
+      "decisionPrompt": "Identify each hazard in the set-up, and state the actions before the vacuum is switched on.",
+      "reasoning": "The power board beside a bucket puts liquid close to the electrical connection, and the lead across the doorway is a trip hazard and can be damaged. Before switching on, the crew moves the bucket and the board away from each other, routes the lead along the wall or secures it, and checks the vacuum's cord, plug and tag. The power board is checked for overloading against the vacuum's rating and the manufacturer's instructions."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Portable equipment with a current test record and a visible tag",
+    "{{business:safety.required_ppe}} including gloves suited to the task",
+    "Cable covers or routing clips and a labelled defect tag",
+    "Power board rated for the equipment, with the rating checked before use"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a machine with a damaged cord because it still works.",
+      "prevention": "Inspect before every use and withdraw any machine that is damaged, labelled and reported."
+    },
+    {
+      "error": "Plugging several machines into one power board beside a wet bucket.",
+      "prevention": "Check the rating, keep the board away from liquid and do not overload it."
+    },
+    {
+      "error": "Trying to fix a fitting or move a cable to get the job done.",
+      "prevention": "Stop, keep others away and report any fixed wiring problem to the building facilities team."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Stop and isolate any machine that is damaged, gets hot, trips a circuit or gives a tingle. Do not handle a plug or machine with wet hands.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: fixed wiring and electrical installation work are licensed or authorised work in many states and territories. This lesson does not grant an electrical licence, a test authority or any other authority, and cleaners must not do fixed wiring work. Confirm the work health and safety duties on this point with the regulator in the state or territory where the work is done.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Check the Australian standard, testing interval and any tag and record requirements for portable equipment testing. The register uses the term PAT testing and names no Australian standard.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each portable machine has a current test record and visible tag before use.",
+    "Every machine is inspected before use, and defective machines are withdrawn, labelled and reported.",
+    "No fixed wiring is touched, and every electrical fault is reported the same shift."
+  ],
+  "documentationEvidence": [
+    "Portable equipment register with test dates and tag numbers",
+    "Pre-use inspection record and defect report"
+  ],
+  "summary": [
+    "Fixed wiring is not cleaned, moved or opened by crew; faults are reported.",
+    "Portable machines are tested, inspected before use and withdrawn when defective.",
+    "Keep liquid well clear of outlets and never overload a power board.",
+    "Stop and isolate any machine that heats, trips or tingles."
+  ],
+  "businessFields": [
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-08-K01",
+      "question": "A power point in a corridor has a cracked cover and a loose wire is visible. What should the cleaner do?",
+      "options": [
+        "Put a cable tie around the wire to hold it in and then carry on with the cleaning in that area",
+        "Continue cleaning on the far side of the corridor and keep an eye on the socket as you clean the far side",
+        "Keep others away, do not touch it, and report it to the supervisor and building facilities team straight away."
+      ]
+    },
+    {
+      "id": "RAS-08-K02",
+      "question": "A portable vacuum has a cut in its cord. What is the correct response?",
+      "options": [
+        "Withdraw it, label it as unfit and report it, so it is not used until repaired and retested.",
+        "Use it carefully for the small area left and tape the cut for the rest of the job",
+        "Tape the cut and keep working and use it for the whole of the next day after that"
+      ]
+    },
+    {
+      "id": "RAS-08-K03",
+      "question": "Why is the mop bucket kept away from the power board?",
+      "options": [
+        "Because buckets are heavy and they can slip on the wet tiles",
+        "Because liquid near an outlet or equipment creates an electrical hazard.",
+        "Because the board needs air to stay cool and the cleaner needs to keep it in view"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard rows 8 and 9 (fixed wiring, permanent systems and fixtures; portable equipment brought to site); rights: user-held",
+    "UNCONFIRMED: Australian electrical installation and licensing requirements by state and territory, and the testing standard and interval for portable equipment; not checked in this pass.",
+    "Cross-check: existing lesson F17-L04 in shared/safety covers electrical pre-start; SOP-02 in shared/cleaning covers the safe use of electrical machines."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

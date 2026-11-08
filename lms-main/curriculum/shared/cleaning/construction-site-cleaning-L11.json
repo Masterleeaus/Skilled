@@ -1,0 +1,156 @@
+{
+  "id": "construction-site-cleaning-L11",
+  "title": "Client handover and quality evidence",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Workload and cost",
+  "layer": "group",
+  "lessonType": "W",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and supervisors handing over construction and post-construction cleans to clients.",
+  "prerequisites": [
+    "construction-site-cleaning-L01"
+  ],
+  "learningOutcomes": [
+    "Agree measurable acceptance criteria before the work starts.",
+    "Record exceptions, defects and unresolved exclusions explicitly.",
+    "Decline certification claims that a cleaning walkthrough cannot support."
+  ],
+  "instruction": [
+    {
+      "heading": "Agree the criteria first",
+      "body": "Before work starts, agree measurable acceptance criteria with the client. These cover the rooms in scope, the accessible surfaces, the documented defects, the waste clearance, and any hygiene or contamination verification that qualified parties will carry out. A criterion that is not measurable cannot be checked, so write each one so that someone else can verify it."
+    },
+    {
+      "heading": "Evidence and privacy",
+      "body": "Photograph only where authorised. Do not photograph personal records, security plans or people without permission. Keep a defects register that records each defect, its location and its status. Record exceptions explicitly, so that the handover shows what was not done."
+    },
+    {
+      "heading": "What a cleaning completion is not",
+      "body": "Final cleaning completion is not a laboratory clearance certificate, an asbestos clearance or a regulatory sign-off. A visual walkthrough does not show that a space is free of silica dust or other contamination. Clearance comes from the qualified and authorised professional who performs the test. If the client asks you to sign a silica-free certificate after a visual walkthrough, decline that certification. Provide the contracted cleaning checklist, and refer any exposure clearance to the authorised competent professional."
+    },
+    {
+      "heading": "The mock final walkthrough",
+      "body": "In a final walkthrough, check each room against the agreed list, log the defects, and record the unresolved exclusions. Mark the work complete only against the approved scope, and state clearly what is outside that scope."
+    }
+  ],
+  "procedure": [
+    "Agree measurable acceptance criteria, rooms in scope and verification responsibilities before work starts.",
+    "Carry out the walkthrough against the agreed checklist.",
+    "Record defects in the register, with location and status.",
+    "Photograph only where authorised, and protect personal information.",
+    "Record exceptions and unresolved exclusions explicitly.",
+    "Decline any certification the cleaning walkthrough cannot support, and refer clearance to the authorised professional."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The client asks you to sign a silica-free certificate after a visual walkthrough.",
+      "decisionPrompt": "How do you respond?",
+      "reasoning": "Decline the certificate, because a visual walkthrough cannot establish that silica is absent. Provide the contracted cleaning checklist showing what was done, and refer exposure clearance to the authorised competent professional. Record the request and the response."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Agreed checklist and defect register.",
+    "Camera or device for authorised photographs."
+  ],
+  "commonErrors": [
+    {
+      "error": "Signing a clearance or certificate after a visual walkthrough.",
+      "prevention": "Decline and refer clearance to the authorised professional."
+    },
+    {
+      "error": "Leaving exclusions out of the handover.",
+      "prevention": "Record every exclusion and the reason."
+    },
+    {
+      "error": "Photographing personal documents or people.",
+      "prevention": "Photograph only the authorised surfaces."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A cleaning completion is not a clearance for asbestos, lead or silica, and it is not a regulatory sign-off. Clearance is carried out by qualified and authorised professionals. This lesson does not grant any clearance or certification authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Asbestos removal needs an asbestos removal licence. Victoria has Class A and Class B licences, and a small unlicensed allowance for non-friable asbestos only (an area of not more than 10 square metres in total, and a total time of not more than 1 hour in any period of 7 days which is cumulative across all employees). Friable asbestos has no such allowance. Removal above either limit needs a licence. Queensland licences Class A and Class B, with no licence needed for 10 square metres or less of non-friable asbestos. This lesson does not grant any asbestos licence, and a cleaner must not remove, sweep up or clean up suspected asbestos.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Acceptance criteria agreed in writing before the simulated work.",
+    "Defect register and exclusions recorded at the simulated final walkthrough.",
+    "Certification request declined and referred in the role-play."
+  ],
+  "documentationEvidence": [
+    "Agreed acceptance criteria.",
+    "Defect register, exclusions list and handover acceptance by the client's representative."
+  ],
+  "summary": [
+    "Agree measurable criteria before the work starts.",
+    "Record defects and exclusions explicitly.",
+    "A visual walkthrough is not a clearance.",
+    "Decline certificates the work cannot support, and refer them."
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:procedures.completion_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L11-K01",
+      "question": "The client asks you to sign a silica-free certificate after a visual walkthrough. What is the right response?",
+      "options": [
+        "Sign it, since you cleaned the room and the client has paid for the full clean",
+        "Decline, provide the cleaning checklist, and refer clearance to the authorised professional",
+        "Sign it with a note saying it is only visual and the date and time of the walkthrough"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L11-K02",
+      "question": "What does a final cleaning completion mean?",
+      "options": [
+        "Laboratory clearance of the air, measured by the cleaning contractor",
+        "Regulatory sign-off by the local council, for the whole site",
+        "The agreed cleaning scope has been completed and recorded"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L11-K03",
+      "question": "How should an excluded item be handled at handover?",
+      "options": [
+        "Recorded explicitly with the reason",
+        "Left out of the record at handover",
+        "Mentioned only verbally to the client"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L11.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "https://www.safework.nsw.gov.au/licences-and-registrations/licences (checked 2026-11-02 via LICENCE-MATRIX.csv row NSW-15; asbestos thresholds UNCONFIRMED)",
+    "https://www.asbestos.vic.gov.au/builders-and-trades/asbestos-removalists/unlicensed-asbestos-removal (checked 2026-11-02 via LICENCE-MATRIX.csv row VIC-32)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Asbestos Victoria: Unlicensed asbestos removal",
+      "url": "https://www.asbestos.vic.gov.au/builders-and-trades/asbestos-removalists/unlicensed-asbestos-removal",
+      "pageDate": "Shows an 'Updated' label with no date",
+      "checked": "2026-11-03",
+      "covers": "Victorian asbestos page: an employer or self-employed person can conduct a limited amount of asbestos removal work without a licence. The removal of non-friable asbestos-containing material is covered if the area of asbestos-containing material to be removed does not exceed 10 square metres in total, and the total time asbestos removal work is performed in any period of seven days does not exceed one hour (this period is the cumulative total time the asbestos removal work is carried out by all employees over a period of seven days). Shows an 'Updated' label with no date. Publisher: Asbestos Victoria (Victorian Government)."
+    },
+    {
+      "id": "R2",
+      "title": "Class B asbestos removal licence",
+      "url": "https://www.safework.nsw.gov.au/licences-and-registrations/licences/class-b-asbestos-removal-licence",
+      "pageDate": "Published 12 November 2025; last modified 12 March 2026",
+      "checked": "2026-11-03",
+      "covers": "Check when a Class B licence is needed for non-friable asbestos. Publisher: SafeWork NSW."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

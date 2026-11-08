@@ -1,0 +1,49 @@
+{
+  "lessonId": "solar-panel-cleaning-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "solar-panel-cleaning-L01-K01",
+      "correctIndex": 1,
+      "rationale": "Permission for roof or ground access must come in writing from the people who control the property and the system. A sales team, a call centre or the absence of a complaint does not give it."
+    },
+    {
+      "id": "solar-panel-cleaning-L01-K02",
+      "correctIndex": 2,
+      "rationale": "Ownership may differ from occupancy, for example where a finance company, body corporate or energy services provider owns the array. The owner's permission is confirmed before work."
+    },
+    {
+      "id": "solar-panel-cleaning-L01-K03",
+      "correctIndex": 3,
+      "rationale": "The manufacturer's instructions and any warranty conditions for the model are checked before a method is approved."
+    },
+    {
+      "id": "solar-panel-cleaning-L01-K04",
+      "correctIndex": 0,
+      "rationale": "This course grants no electrical licence. Cleaning licence rules must be checked for the state where the work is done."
+    },
+    {
+      "id": "solar-panel-cleaning-L01-K05",
+      "correctIndex": 1,
+      "rationale": "Electrical, warranty and defect questions are recorded and referred. A worker does not quote electrical repairs or state compliance on the spot."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner names the property owner, the person who controls roof or ground access, and the array owner, and records each approval in writing.",
+    "The learner checks the manufacturer instructions for a supplied model and records the source and date.",
+    "The learner holds a booking where an approval, ownership detail or warranty instruction is missing, and states the outstanding item.",
+    "The learner refers an electrical or warranty question in writing and does not give a verbal assurance."
+  ],
+  "passRule": "Knowledge checks: 80% correct (4 of 5). Practical sign-off is assessed separately on a booking scenario. A knowledge pass does not verify booking practice in the field.",
+  "evidenceRequired": [
+    "Booking record with the owner, roof controller and array owner named",
+    "Written approval for roof or ground access",
+    "Model reference and manufacturer instruction record",
+    "Hold or referral record"
+  ],
+  "stopWorkCriteria": [
+    "Roof or ground access is scheduled on a verbal approval only.",
+    "The learner accepts an ownership claim without checking it and books the job.",
+    "The learner quotes an electrical repair or states that the array is compliant.",
+    "The learner proceeds with a method the manufacturer instructions do not allow."
+  ]
+}

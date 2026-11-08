@@ -1,0 +1,34 @@
+{
+  "lessonId": "additional-specialist-services-L12",
+  "knowledgeAnswers": [
+    {
+      "id": "additional-specialist-services-L12-K01",
+      "correctIndex": 1,
+      "rationale": "Model answer from source: Identify task-specific unknown hazards, qualifications, permissions and controls; place work on hold until verified."
+    },
+    {
+      "id": "additional-specialist-services-L12-K02",
+      "correctIndex": 2,
+      "rationale": "Model answer from source: No. Relevant licences, employer/site authorisation and independent competence verification remain required."
+    },
+    {
+      "id": "additional-specialist-services-L12-K03",
+      "correctIndex": 3,
+      "rationale": "The check competency section says a training certificate is evidence of training, not proof of current competence for a specific method."
+    }
+  ],
+  "practicalCriteria": [
+    "type: supervised tabletop simulation; task: Prepare a restricted sign-off, exclusions and competency referral record.; deliverable: Draft accurate handover language with limitations and referrals.; criteria: Specific work and exclusions correctly identified; Unknown hazards and regulated boundaries escalated; Controls and approver recorded; Customer communication contains no unsupported assurance"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Draft accurate handover language with limitations and referrals.",
+    "Signed task scope, controls and excluded activities",
+    "Reviewer identity, role, date, evidence references and location"
+  ],
+  "stopWorkCriteria": [
+    "Performs work without required site or legal authorisation",
+    "Treats unidentified hazards or regulated activities as routine cleaning",
+    "Falsifies approvals, inspection findings or customer assurances"
+  ]
+}

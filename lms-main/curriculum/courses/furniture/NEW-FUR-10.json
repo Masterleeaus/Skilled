@@ -1,0 +1,187 @@
+{
+  "id": "NEW-FUR-10",
+  "title": "Quoting restoration work from a condition assessment",
+  "referencesAtStart": "Official references for this lesson: ACCC, Consumer rights and guarantees (business) (no date in page body; page metadata shows published and modified 2026-07-17); WorkSafe Queensland, Asbestos removal and licensing (no date shown); Safe Work Australia, Inorganic lead: WHS duties (no date shown).",
+  "courseSlugs": [
+    "furniture"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 25,
+  "audience": "Furniture restorers and staff who write quotes for restoration work.",
+  "prerequisites": [
+    "NEW-FUR-01",
+    "NEW-FUR-02"
+  ],
+  "learningOutcomes": [
+    "Separate the assessment, screening and restoration stages in a quote.",
+    "Write the scope, assumptions, exclusions and price-changing conditions on a quote.",
+    "Present hazard findings as stops or conditions, not as upsells."
+  ],
+  "instruction": [
+    {
+      "heading": "Price the assessment and the work",
+      "body": "A restoration quote has three parts: the assessment, the restoration work, and the items that could change the price. Charge for assessment time, including screening, even if the client does not go ahead. Price the restoration by the stages the method requires, such as strip, repair, finish and cure. Price on the condition of the piece as found, not only on its size or number of pieces. The business's approved pricing method is {{business:pricing.pricing_method}}, and the minimum charge is {{business:pricing.minimum_charge}}."
+    },
+    {
+      "heading": "Scope, assumptions and exclusions",
+      "body": "Write what is included, the assumptions the price depends on, and what is excluded. Typical exclusions are asbestos or lead removal, structural repair beyond the agreed scope, and colour matching to an item the business has not seen. Write what changes the price, such as a positive screening result, hidden damage found during strip-back, or a change of finish. A quote that depends on a screening result says so."
+    },
+    {
+      "heading": "Options and hazard findings",
+      "body": "Offer a standard finish and a more durable finish where both are real options, and explain the difference. Do not present a higher price as the fix for a hazard. A positive or unknown screening result is a stop and a referral. It is not an upsell. Show it on the quote as a condition, and say what happens next."
+    },
+    {
+      "heading": "Approval before sending",
+      "body": "Send the quote only after the business's quoting approval step is complete. The approval step is {{business:pricing.quoting_approval}}. Record the approval with the quote. A quote without a recorded approval is not sent."
+    }
+  ],
+  "procedure": [
+    "Record the intake and identification from “Scope, intake and the boundary with carpet and upholstery” and “Identify timber, finish and fabric before any work”.",
+    "Complete the screening, or write the screening as a condition of the quote.",
+    "Estimate each stage of the restoration, including cure time.",
+    "Write the scope, assumptions, exclusions and price-changing conditions.",
+    "Show any real options, with the difference between them.",
+    "Complete the approval step, and record the approval.",
+    "Send the quote, and record the date sent and the client's response."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client wants a fixed price to restore a timber dining table, but the finish is unknown and no screening has been done.",
+      "decisionPrompt": "What is the quote?",
+      "reasoning": "Quote the screening and assessment as a stage with its own price. Make the restoration price conditional on the results, and say so on the quote. Do not give a fixed restoration price for a finish that has not been screened, because the result could stop the work or change the method."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote template from the business's approved set",
+    "Intake, identification and screening records",
+    "Business PPE as set out in {{business:safety.required_ppe}}, for the assessment visit if needed"
+  ],
+  "commonErrors": [
+    {
+      "error": "Giving a fixed restoration price before screening.",
+      "prevention": "Quote the screening and assessment, and make the restoration price conditional."
+    },
+    {
+      "error": "Pricing only on the number of pieces or area.",
+      "prevention": "Price on the condition found and on the stages the method requires."
+    },
+    {
+      "error": "Showing a hazard finding as an optional upsell.",
+      "prevention": "Show it as a stop or condition, with the next step."
+    },
+    {
+      "error": "Sending a quote before approval.",
+      "prevention": "Complete and record the approval step first."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A quote must not promise removal of asbestos or lead by the business unless the business holds the licence the work requires and the scope is confirmed. Queensland requires a Class A licence even for small amounts of friable asbestos. Lead work carries its own duties, including biological monitoring. Licence positions are recorded at {{business:compliance.licence_requirements}}. This lesson does not grant any licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Restoration services carry three automatic guarantees under Australian Consumer Law: competent care and skill, a result suited to the client's stated purpose, and completion within a reasonable period when no timeframe is agreed (page metadata dated 17 July 2026). Where the customer is a business, the guarantees apply to a service priced under $100,000 including GST.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every quote lists its assumptions, exclusions and price-changing conditions.",
+    "Every quote carries a recorded approval before it is sent.",
+    "Screening results are reflected in the quote, not left out."
+  ],
+  "documentationEvidence": [
+    "Quote with stages, assumptions, exclusions and conditions",
+    "Assessment and screening record linked to the quote",
+    "Approval record and date sent"
+  ],
+  "summary": [
+    "Quote the assessment and the screening as their own stage.",
+    "Make the price conditional where a screening result could change the work.",
+    "Show hazard findings as stops and conditions, and get approval before sending."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FUR-10-K01",
+      "question": "A client wants a fixed restoration price before screening. What is correct?",
+      "options": [
+        "Give the fixed price to win the job before any screening or assessment starts on the day",
+        "Quote the screening and assessment, with the restoration price conditional on the results",
+        "Give a price per piece with no conditions attached to the work or the results of any test"
+      ]
+    },
+    {
+      "id": "NEW-FUR-10-K02",
+      "question": "A screening result is positive for suspect material. How is it shown on the quote?",
+      "options": [
+        "As an optional upsell that the client can accept or decline at the counter during the quote",
+        "As a discount on the restoration price, since the finding shows the work is simpler than first thought",
+        "As a stop or condition, with removal outside the scope unless the business holds the required licence"
+      ]
+    },
+    {
+      "id": "NEW-FUR-10-K03",
+      "question": "What must be in place before a quote is sent?",
+      "options": [
+        "The business's quoting approval step, recorded",
+        "Nothing, send it first and check later",
+        "A signed contract from the client for the job"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: ACCC, Consumer rights and guarantees (business) (no date in page body; page metadata shows published and modified 2026-07-17); WorkSafe Queensland, Asbestos removal and licensing (no date shown); Safe Work Australia, Inorganic lead: WHS duties (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/inorganic-lead/whs-duties (checked 2026-11-02; lead process names)",
+    "https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/asbestos (checked 2026-11-02; no page date; licence thresholds)",
+    "UNCONFIRMED: consumer law and ACCC restoration pricing and claim rules. Research brief: /home/claude/work/team/research-topics/furniture.md, sections 4 and 10."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Consumer rights and guarantees (business)",
+      "url": "https://www.accc.gov.au/business/selling-products-and-services/consumer-rights-and-guarantees",
+      "pageDate": "No date in page body; page metadata shows published and modified 2026-07-17",
+      "checked": "2026-11-03",
+      "covers": "Service guarantees (care and skill, suitability, reasonable time), warranties sitting on top of guarantees, and the business-use price threshold. Publisher: Australian Competition and Consumer Commission."
+    },
+    {
+      "id": "R2",
+      "title": "Asbestos removal and licensing",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/asbestos",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Queensland only: Class A and Class B thresholds, and the ten square metre limit for non-friable asbestos with no licence needed at or below it. Publisher: WorkSafe Queensland (Queensland Government)."
+    },
+    {
+      "id": "R3",
+      "title": "Inorganic lead: WHS duties",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/inorganic-lead/whs-duties",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Lead process list, lead risk work, biological monitoring and removal duties. Furniture and heat stripping are not named. Publisher: Safe Work Australia."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/bond-photo-54facd4a-04.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/bond-photo-54facd4a-05.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    }
+  ]
+}

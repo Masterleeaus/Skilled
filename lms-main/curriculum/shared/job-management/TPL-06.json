@@ -1,0 +1,348 @@
+{
+  "id": "TPL-06",
+  "title": "Job checklist and sign-off (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Crew members, supervisors and office staff who run or record jobs on site",
+  "prerequisites": [
+    "TPL-05"
+  ],
+  "learningOutcomes": [
+    "Complete the pre-start, during-job and completion checks with an observation behind each tick",
+    "Record a scope change and agree it before extra work starts",
+    "Record the customer's inspection and sign-off, or the reason it was not given"
+  ],
+  "instruction": [
+    {
+      "heading": "What a job checklist protects",
+      "body": "A job checklist is a record that the job was checked at the points where things usually go wrong: before work starts, during the work, and at completion. It also records the customer's confirmation that the work matches what was agreed. Without a checklist, a job can be finished and still not match the quote, and a problem can be found by the customer rather than by the crew. The checklist should be short enough to complete on site and specific enough to show what was done. It does not replace the SOP for the task. It confirms that the SOP was followed and that the site was ready."
+    },
+    {
+      "heading": "Pre-start, during and completion",
+      "body": "Before work starts, confirm the job reference and scope, the access instructions, the hazards visible on arrival, and the equipment needed. If a hazard cannot be controlled, record it and do not start the affected task until it is controlled or a decision has been recorded by the person the business names. During the job, record the checks that matter for quality and safety, such as surface protection, chemical contact time or the position of a ladder, and record any change in scope when it happens. At completion, record the work done against the scope, take the agreed photos, leave the area clean, remove equipment and waste, and tell the customer what was done and what was not."
+    },
+    {
+      "heading": "Customer sign-off",
+      "body": "Customer sign-off confirms that the customer has inspected the work and agrees that it matches the agreed scope. Use the sign-off method the business has set. Make sure the customer knows what they are confirming, and do not ask for a signature before the work has been inspected. If the customer disagrees, record the concern in their words and the action agreed. Do not mark the job complete until the concern is resolved or escalated under the complaints procedure."
+    }
+  ],
+  "procedure": [
+    "Record the job reference, the site, the scheduled time and the arrival details.",
+    "Complete the pre-start check: scope, access, hazards and equipment.",
+    "Record any hazard that cannot be controlled, and do not start the affected task until it is controlled or a decision is recorded.",
+    "During the job, record the checks listed and any change in scope.",
+    "At completion, record the work done against scope, the photos taken and the condition of the area.",
+    "Record what was not done, and why.",
+    "Walk the customer through the completed work and ask them to inspect it.",
+    "Record the sign-off, or the customer's reason for not signing.",
+    "Save the completed checklist and send the copy the business procedure requires."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew arrives for a deck clean and finds that the customer has added a second deck section that is not on the quote. The pre-start check was ticked as scope confirmed.",
+      "decisionPrompt": "What should the crew record, and when should the second section be done?",
+      "reasoning": "The crew should record the difference on the checklist with photos, and note that it is outside the confirmed scope. They should contact the person named in the business procedure before starting the extra section. A scope-change record and a priced variation should be agreed first. Doing the extra section because it looked similar would make the job record inaccurate and would leave the customer with an unpriced expectation. Sign-off should cover only the agreed scope and any agreed variation."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote and scope sheet for the job",
+    "Pre-start checklist from the business procedure",
+    "Device for agreed photos",
+    "PPE: as set by the task SOP and the job's hazard assessment"
+  ],
+  "commonErrors": [
+    {
+      "error": "Ticking pre-start items without checking them.",
+      "prevention": "Each tick needs an observation the person can describe."
+    },
+    {
+      "error": "Doing extra work without recording it as a scope change.",
+      "prevention": "Stop, record the change, and agree it before doing the work."
+    },
+    {
+      "error": "Asking for sign-off before the customer has inspected the work.",
+      "prevention": "Walk the customer through the completed work first."
+    },
+    {
+      "error": "Marking the job complete when items were left undone.",
+      "prevention": "Record each item not done and the reason it was not done."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pre-start hazard checks are a control, not paperwork. If a hazard cannot be managed, the affected task does not start.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Some tasks on a job may be licensed or authorised work. The checklist records that the person was authorised.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Pre-start, during-job and completion checks each have observable entries",
+    "Scope changes are recorded and agreed before extra work starts",
+    "Photos and sign-off follow the business's stated requirements",
+    "Items not done are recorded with a reason"
+  ],
+  "documentationEvidence": [
+    "Completed job checklist with job reference, times and staff names",
+    "Photo record as set by the business",
+    "Customer sign-off, or the recorded reason it was not given"
+  ],
+  "summary": [
+    "A checklist shows the job was checked where things usually go wrong.",
+    "A hazard that cannot be controlled stops the affected task.",
+    "Scope changes are recorded and agreed before extra work.",
+    "Sign-off confirms that the customer inspected the agreed work."
+  ],
+  "businessFields": [
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:procedures.completion_checklist}}",
+    "{{business:jobs.arrival_procedure}}",
+    "{{business:jobs.photo_requirements}}",
+    "{{business:jobs.signoff_procedure}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "TPL-06-T01",
+      "title": "Job checklist and sign-off",
+      "purpose": "Records the pre-start, during-job and completion checks for one job, the scope changes, and the customer's inspection and sign-off.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Job reference and site",
+          "type": "text",
+          "prompt": "Enter the job reference and the site address.",
+          "guidance": "The reference matches the quote.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Scheduled, arrival and departure times",
+          "type": "text",
+          "prompt": "Enter the scheduled start, the arrival time and the departure time.",
+          "guidance": "Times follow the business time-tracking method.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Staff on the job",
+          "type": "text",
+          "prompt": "Enter the name of each person on the job.",
+          "guidance": "Each person named is authorised for the tasks they performed.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Pre-start checks",
+          "type": "checklist",
+          "prompt": "Tick each item after observing it.",
+          "guidance": "Scope matches the confirmed quote; access confirmed; hazards on arrival observed and recorded; equipment checked; PPE worn; authorisation for any licensed task recorded.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Hazards found and how they are controlled",
+          "type": "table",
+          "prompt": "One row per hazard. Columns: hazard, control, person who decided, time.",
+          "guidance": "A hazard that cannot be controlled has a recorded decision before the affected task starts.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "During-job checks",
+          "type": "checklist",
+          "prompt": "Tick each check at the point the job SOP sets for it.",
+          "guidance": "Checks are completed at their stated points, and any scope change is recorded.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Scope changes",
+          "type": "longtext",
+          "prompt": "Describe each change, the photo reference, who was contacted and the decision agreed.",
+          "guidance": "Each change shows an agreed decision before the extra work began.",
+          "required": false
+        },
+        {
+          "fieldId": "f8",
+          "label": "Completion checks",
+          "type": "checklist",
+          "prompt": "Tick each item when complete.",
+          "guidance": "Work completed against scope; area left clean; equipment and waste removed; photos taken; items not done recorded.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Items not completed and the reason",
+          "type": "longtext",
+          "prompt": "List each item not done, and the reason.",
+          "guidance": "Write nothing outstanding if every item was done.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Photos taken",
+          "type": "text",
+          "prompt": "Enter the number and location of the before and after photos, as the business requires.",
+          "guidance": "Photo count and location match the photo requirement.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Customer inspection and sign-off",
+          "type": "text",
+          "prompt": "Enter the name of the person who inspected the work, the sign-off method and the date. If not signed, leave blank and record the reason in the next field.",
+          "guidance": "Sign-off is given after inspection, using the business's method.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Customer comments",
+          "type": "longtext",
+          "prompt": "Record the customer's words, including any concern.",
+          "guidance": "Recorded in the customer's words, not paraphrased into a conclusion.",
+          "required": true
+        },
+        {
+          "fieldId": "f13",
+          "label": "Staff sign-off",
+          "type": "text",
+          "prompt": "Enter the name of the person completing the checklist and the time.",
+          "guidance": "Name and time are present.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Checks have observable entries",
+      "levels": {
+        "meets": "Each pre-start, during-job and completion tick is backed by an observation the person can describe.",
+        "does_not_meet": "Ticks are entered without observation, or the checklist is blank for a required check."
+      }
+    },
+    {
+      "criterion": "Hazards are controlled or stopped",
+      "levels": {
+        "meets": "Each hazard has a control, and any uncontrolled hazard has a recorded decision before the task starts.",
+        "does_not_meet": "A hazard is recorded with no control, or the task started before a decision was recorded."
+      }
+    },
+    {
+      "criterion": "Scope changes are recorded and agreed",
+      "levels": {
+        "meets": "Each change is recorded, with a photo reference and an agreed decision made before the extra work.",
+        "does_not_meet": "Extra work is done without a recorded change, or the change is recorded after the work."
+      }
+    },
+    {
+      "criterion": "Sign-off follows inspection",
+      "levels": {
+        "meets": "Sign-off is recorded after the customer inspects the work, or the reason for no sign-off is recorded.",
+        "does_not_meet": "Sign-off is recorded before inspection, or the job is marked complete with open issues."
+      }
+    }
+  ],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} job checklist and sign-off",
+    "format": "form",
+    "sections": [
+      {
+        "heading": "Job details and staffing",
+        "fieldIds": [
+          "f1",
+          "f2",
+          "f3"
+        ]
+      },
+      {
+        "heading": "Pre-start and hazards",
+        "fieldIds": [
+          "f4",
+          "f5"
+        ]
+      },
+      {
+        "heading": "During and after the job",
+        "fieldIds": [
+          "f6",
+          "f7",
+          "f8",
+          "f9",
+          "f10"
+        ]
+      },
+      {
+        "heading": "Customer sign-off",
+        "fieldIds": [
+          "f11",
+          "f12"
+        ]
+      },
+      {
+        "heading": "Staff sign-off",
+        "fieldIds": [
+          "f13"
+        ]
+      }
+    ],
+    "footer": "Keep with the job record. Sign-off procedure: {{business:jobs.signoff_procedure}}."
+  },
+  "knowledgeChecks": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Team brief for template lessons TPL-01 to TPL-11, item 6 (Job checklist and sign-off); no external source used; rights: reworded (no copying)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

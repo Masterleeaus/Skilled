@@ -1,0 +1,44 @@
+{
+ "lessonId": "laboratory-cleaning-L06",
+ "knowledgeAnswers": [
+  {
+   "id": "laboratory-cleaning-L06-K01",
+   "correctIndex": 2,
+   "rationale": "Cabinet interiors are reassigned to trained personnel under the equipment manager's method. Wiping the outside and reporting the inside as done is a false record."
+  },
+  {
+   "id": "laboratory-cleaning-L06-K02",
+   "correctIndex": 1,
+   "rationale": "Ambiguity is an exclusion. The equipment manager classifies the surface in writing before any cleaning."
+  },
+  {
+   "id": "laboratory-cleaning-L06-K03",
+   "correctIndex": 1,
+   "rationale": "The out-of-scope log records the time, requester, reason and reassigned person, so the request and the decision can be traced."
+  },
+  {
+   "id": "laboratory-cleaning-L06-K04",
+   "correctIndex": 1,
+   "rationale": "An unlisted product with no safety data sheet is not used. It is recorded and its register entry is requested. Mixing products is never acceptable."
+  }
+ ],
+ "practicalCriteria": [
+  "Classifies fictional surfaces against a fictional approved inventory, recording ambiguous surfaces as excluded.",
+  "Declines and reassigns a simulated request to clean a cabinet interior, without wiping the outside and recording the inside as done.",
+  "Logs the simulated request as out of scope with time, requester, reason and reassigned person.",
+  "Identifies a fictional unlisted product and states that it is not used until its register entry and safety data sheet are checked."
+ ],
+ "passRule": "Surfaces classified correctly with ambiguous surfaces excluded, request declined, reassigned and logged with all fields, and the unlisted product not used. Observed by an assessor in a supervised desk exercise. A knowledge check result alone is not a practical pass.",
+ "evidenceRequired": [
+  "Fictional surface classification sheet with inventory version date",
+  "Fictional out-of-scope request log",
+  "Fictional register and safety data sheet check record for the product",
+  "Assessor observation note"
+ ],
+ "stopWorkCriteria": [
+  "Cabinet interior cleaned by the cleaner, or reported as cleaned when it was not",
+  "Ambiguous surface cleaned without a written classification",
+  "Unlisted product used, or products mixed",
+  "No-touch margin entered to reach a surface the inventory excludes"
+ ]
+}

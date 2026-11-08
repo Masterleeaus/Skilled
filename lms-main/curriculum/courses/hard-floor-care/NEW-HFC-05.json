@@ -1,0 +1,176 @@
+{
+  "id": "NEW-HFC-05",
+  "title": "Floor polishing and buffing",
+  "courseSlugs": [
+    "hardfloor"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and floor-care operators who polish or buffer hard floors as a paid service.",
+  "prerequisites": [
+    "NEW-HFC-01",
+    "NEW-HFC-02",
+    "NEW-HFC-03"
+  ],
+  "learningOutcomes": [
+    "Explain what polishing and buffing change on a floor, and when they are outside routine cleaning.",
+    "Select a compatible polish and machine, and test the result on an inconspicuous area.",
+    "Control dust, slip and equipment hazards during buffing."
+  ],
+  "instruction": [
+    {
+      "heading": "What polishing changes",
+      "body": "Polishing and buffing add or change a finish on the floor. They change the surface, so they are a different service from cleaning, and they must be priced and agreed as such. Check whether the floor is sealed, and whether the polish is compatible with the existing finish. A polish that is not compatible can cloud or lift."
+    },
+    {
+      "heading": "Equipment and test",
+      "body": "Select a buffer and pad suited to the floor and the polish, and check the machine's cord and guard before use. Test the polish and the machine on an inconspicuous area, and let the test dry before judging it. Keep the cord clear of the path of the machine, and control dust from the buffing."
+    },
+    {
+      "heading": "Slip and the record",
+      "body": "Polished floors are slippery until they cure, and that slip risk falls under the slip duty (page date: no date shown), so set signs and barriers and tell the client how long the floor should be kept clear. Record the product, the machine, the test result, the cure time and the client's agreement. Do not promise a finish that the floor cannot take."
+    }
+  ],
+  "procedure": [
+    "Confirm that polishing is agreed and priced as a separate service.",
+    "Check the existing finish and the compatibility of the polish.",
+    "Test the polish and machine on an inconspicuous area, and let it dry.",
+    "Check the machine's cord and guard, and keep the cord clear of the path.",
+    "Set signs and barriers, and record the product, test, cure time and agreement."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client asks you to polish a floor that already has a sealed finish, without testing.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Explain that polishing changes the surface and needs a test on an inconspicuous area first. Confirm the polish is compatible with the existing finish, price the service separately, and record the agreement before work starts."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Buffer and pads suited to the floor, with cord and guard checked.",
+    "Compatible polish with label and SDS.",
+    "Dust control and eye protection as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Polishing without a test on the existing finish.",
+      "prevention": "Test first and let it dry before judging."
+    },
+    {
+      "error": "Letting the buffer cord cross the path of the machine.",
+      "prevention": "Keep the cord clear and check it before use."
+    },
+    {
+      "error": "Promising a finish the floor cannot take.",
+      "prevention": "Agree the result and its limits in writing."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chemicals must be managed under the label and the SDS. A register of hazardous chemicals used at work is required, with limited exclusions such as some consumer products and unopened chemicals in transit. The register must be kept current, hold the current SDS for each hazardous chemical, and sit on site where workers can reach it (Safe Work Australia register page; page date: no date shown). Workers must also be able to get each SDS easily (Safe Work Australia SDS page; page date: no date shown).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Treat it as good practice until it is checked.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Polishing agreed and priced as a separate service in the case study.",
+    "Test on an inconspicuous area completed and dried before the main work.",
+    "Cure time and agreement recorded."
+  ],
+  "documentationEvidence": [
+    "Polish and machine record with test result and cure time.",
+    "Client agreement for the finish and its limits."
+  ],
+  "summary": [
+    "Polishing changes the surface and is priced separately.",
+    "Test the polish and machine before the main work.",
+    "Record the cure time and agreement."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-HFC-05-K01",
+      "question": "Is polishing part of a routine clean?",
+      "options": [
+        "No, it changes the surface and is priced separately",
+        "Yes, always, as part of every clean on the day",
+        "Yes, if it is quick and the client asks for it"
+      ]
+    },
+    {
+      "id": "NEW-HFC-05-K02",
+      "question": "What must happen before polishing the whole floor?",
+      "options": [
+        "Nothing, since the floor is ready to polish",
+        "A test on an inconspicuous area, allowed to dry",
+        "A second coat of the polish, applied straight away"
+      ]
+    },
+    {
+      "id": "NEW-HFC-05-K03",
+      "question": "What is the main hazard during buffing besides the finish?",
+      "options": [
+        "None, since buffing is not a hazard",
+        "The colour of the polish and its smell",
+        "A loose or damaged cord and slippery floor"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/NEW-HFC-05.json (draft pass, not technically reviewed)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)",
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemicals register",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the register duty and the list of exclusions. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Using safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the duty to keep SDS and make them easy for workers to access. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R3",
+      "title": "Slips, trips and falls",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/slips-trips-and-falls",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the duty and the listed controls; signs and barriers are not named on the page. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources: Safe Work Australia, Hazardous chemicals register (no date shown); Safe Work Australia, Using safety data sheets (no date shown); Safe Work Australia, Slips, trips and falls (no date shown).",
+  "referencesAtEnd": "Check the current rule on each official page: Safe Work Australia, Hazardous chemicals register (no date shown): https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register; Safe Work Australia, Using safety data sheets (no date shown): https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets; Safe Work Australia, Slips, trips and falls (no date shown): https://www.safeworkaustralia.gov.au/safety-topic/hazards/slips-trips-and-falls.",
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-09.jpg",
+      "alt": "Hard floor care illustration",
+      "kind": "photo",
+      "origin": "hardfloor"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-10.jpg",
+      "alt": "Hard floor care illustration",
+      "kind": "photo",
+      "origin": "hardfloor"
+    }
+  ]
+}

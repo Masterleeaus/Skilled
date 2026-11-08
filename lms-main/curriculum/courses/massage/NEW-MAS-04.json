@@ -1,0 +1,192 @@
+{
+  "id": "NEW-MAS-04",
+  "title": "In-home safety, lone-work and room setup",
+  "courseSlugs": [
+    "massage"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Mobile massage therapists who work alone in clients' homes and set up a treatment room in a space they do not control",
+  "prerequisites": [
+    "S14-L04",
+    "S14-L07",
+    "F14-L04"
+  ],
+  "learningOutcomes": [
+    "Set up a treatment room that is stable, clear of trip hazards and safe for the therapist and the client",
+    "Apply a lone-worker check-in routine and an escalation step for threats or unsafe conditions",
+    "Explain the self-employed WHS duty as it applies in a client's home."
+  ],
+  "referencesAtStart": "Official references for this lesson: WorkSafe Victoria, Health and safety responsibilities (reviewed 3 April 2025); Victorian Government, Who requires a Working with Children Check (updated 12 October 2026).",
+  "instruction": [
+    {
+      "heading": "The duty that applies in a client's home",
+      "body": "WorkSafe Victoria states that a self-employed person's work must not expose others to risk, within what is reasonably practicable, and that employers must do the same for customers and the public (reviewed 03/04/2025). The safe approach is to treat the client's home as a workplace for the purpose of set-up and safety, and to record the set-up check each visit. The business's home-visit procedure is recorded in {{business:procedures.approved_sop}}, and the access instructions for each client are held in {{business:customers.access_instructions}}."
+    },
+    {
+      "heading": "Room setup for a stable and safe treatment",
+      "body": "Choose a room that is quiet, warm, and has enough space to move around the table on all sides. Place the table on a firm, level floor, away from doors and windows where a draught or a person could disturb the treatment. Clear the path between the door and the table of cables, rugs and furniture. If you use a heater, keep it away from the table, the linen and the cables, and check that its cord is not under the client's weight. Keep your products within reach and on a surface that will not tip. Do not work in a room where the client has to stand on an uneven surface, and check the step at the entrance before the client walks in. Where the room has a water source, keep electrical equipment dry, as “Mobile setup, power and wet-area safety” explains for mobile beauty work."
+    },
+    {
+      "heading": "Lone work, check-ins and threats",
+      "body": "A mobile therapist often works alone in a home they have not visited before. Use the lone-worker check-in method in “Lone-worker safety and check-ins” at arrival and departure, and record the times. Before entering, confirm the address and the access details against the booking. If the client's conduct, the household or the environment appears unsafe, the therapist should leave, and contact {{business:safety.escalation_contact}}, rather than stay to finish the session. The threats and unsafe-environment steps are set out in “Threats, unsafe environments and escalation”, and the decision to stop work is the therapist's to make. Children and pets in the home are a separate matter. The Victorian Working with Children Check list (updated 12 October 2026) names commercial gyms and play venues aimed at children, coaching for children, and sport, recreation and culture clubs that deal with children. It does not name massage."
+    }
+  ],
+  "procedure": [
+    "Confirm the address, the access instructions and the booked services before entering",
+    "Check in with the lone-worker method on arrival, and record the time",
+    "Inspect the room for trip hazards, unstable furniture, heater placement and electrical cables, and fix or refuse the room if unsafe",
+    "Set the table and products within reach, on a firm and level surface",
+    "Watch for unsafe conditions during the session, and leave and escalate if a threat appears",
+    "Check out on departure using the lone-worker method, and record the time"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A therapist arrives at a flat for a session. The only room is a small bedroom, the table cannot be placed away from the heater cord, and the client's dog is loose in the room.",
+      "decisionPrompt": "Should the session start in this room?",
+      "reasoning": "The heater cord creates a trip and electrical hazard near the table, and the loose dog creates a risk of injury to the therapist or the client. The therapist should ask the client to secure the dog, move the heater, and clear the path before starting. If the room cannot be made safe, the therapist should postpone the session and record the reason. The therapist should not start the session in an unsafe room."
+    },
+    {
+      "situation": "Partway through a home visit, a household member becomes aggressive and raises his voice at the therapist.",
+      "decisionPrompt": "What should the therapist do?",
+      "reasoning": "The therapist's first duty is to their own safety. The therapist should stop the session, leave the premises if it is safe to do so, contact the escalation contact, and record the incident. Completing the session is not a reason to stay. The steps for threats are in “Threats, unsafe environments and escalation”, and the decision to stop work is the therapist's."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Lone-worker check-in method, with the escalation contact available",
+    "Mobile phone, charged, for check-in and emergency calls",
+    "Firm, level portable table with stable legs",
+    "Heater and cords checked and kept clear of the treatment area",
+    "Torch or lighting for rooms with poor light"
+  ],
+  "commonErrors": [
+    {
+      "error": "Staying in a home where a threat has appeared because the session is nearly finished.",
+      "prevention": "Stop, leave if safe, escalate and record. The session is not worth the risk."
+    },
+    {
+      "error": "Setting up the table with a cable or rug in the path.",
+      "prevention": "Inspect the room before setup, and clear or move each trip hazard."
+    },
+    {
+      "error": "Skipping the check-in because the client is known.",
+      "prevention": "Check in at every visit, including repeat clients, and record the times."
+    },
+    {
+      "error": "Stating that a Working with Children Check is not needed in every home with children.",
+      "prevention": "Check the children's-check position with the regulator before relying on it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WorkSafe Victoria states that self-employed people's work must not expose others to risk, within what is reasonably practicable (reviewed 03/04/2025). This is confirmed for Victoria.",
+      "licenceNotice": false
+    },
+    {
+      "point": "WorkSafe does not say this directly.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Victorian Working with Children Check list names gyms and play venues aimed at children, coaching for children and sport and recreation clubs for children.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every visit has an arrival and departure check-in recorded",
+    "The room is inspected and made safe before the session starts, or the session is postponed",
+    "Every threat or unsafe condition is recorded, with the escalation and the action taken",
+    "The home-visit set-up checklist is completed each visit"
+  ],
+  "documentationEvidence": [
+    "Check-in and check-out times for each visit",
+    "Room set-up checklist for each visit",
+    "Incident record for any threat or unsafe condition",
+    "Record of the Working with Children Check position checked, if children are present"
+  ],
+  "summary": [
+    "Treat the client's home as a workplace for set-up and safety, and record the check",
+    "Check the room, clear the path and keep heaters and cords away from the table",
+    "Check in at every visit; leave and escalate when a threat appears"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:customers.access_instructions}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.site_hazards}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-MAS-04-K01",
+      "question": "A client's household member becomes aggressive during a home session. What is the correct first action?",
+      "options": [
+        "Finish the session quickly to reduce the risk",
+        "Ask the household member to calm down and continue",
+        "Stop, leave if safe, escalate and record the incident"
+      ]
+    },
+    {
+      "id": "NEW-MAS-04-K02",
+      "question": "Which set-up choice is safest for a treatment table in a home?",
+      "options": [
+        "A firm, level table with a clear path and heater cords kept away from it",
+        "A table placed where the heater cord crosses the floor, to keep the room warm",
+        "A table in a doorway so the client can leave quickly"
+      ]
+    },
+    {
+      "id": "NEW-MAS-04-K03",
+      "question": "Under the WHS duty the lesson describes, how far must a self-employed person's work avoid exposing others to risk?",
+      "options": [
+        "Not at all, because the home is private",
+        "Within what is reasonably practicable",
+        "Only for employees",
+        "Only where the client pays extra"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: Health and safety responsibilities (reviewed 3 April 2025): https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities; Who requires a Working with Children Check (updated 12 October 2026): https://www.vic.gov.au/who-requires-WWC-clearance.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Health and safety responsibilities",
+      "url": "https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities",
+      "pageDate": "Reviewed 03/04/2025",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; duties of employers and self-employed people to others. The page does not say whether a client's home is a workplace. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Who requires a Working with Children Check",
+      "url": "https://www.vic.gov.au/who-requires-WWC-clearance",
+      "pageDate": "Updated 12 October 2026",
+      "checked": "2026-11-03",
+      "covers": "vic.gov.au page; category list with numbers. Self-employed status and direct contact are not stated on this page. Publisher: Victorian Government (vic.gov.au)."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WorkSafe Victoria, Health and safety responsibilities, https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities, reviewed 03/04/2025, checked 2026-11-02 (ALL-VIC-01, MASS-VIC-06)",
+    "vic.gov.au, Who requires a Working with Children Check, https://www.vic.gov.au/who-requires-WWC-clearance, updated 12 Oct 2026, checked 2026-11-02 (PT-VIC-05, categories 28, 32, 42)",
+    "Shared lesson references: S14-L04 (lone-worker safety and check-ins), S14-L07 (threats, unsafe environments and escalation), F14-L04 (falls, access and mobility awareness), within curriculum/lessons/ready",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (home-as-workplace UNCONFIRMED)",
+    "Checked 2026-11-03: official references R1, R2 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-07.jpg",
+      "alt": "Mobile massage illustration",
+      "kind": "photo",
+      "origin": "massage"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-08.jpg",
+      "alt": "Mobile massage illustration",
+      "kind": "photo",
+      "origin": "massage"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "SFS-12",
+  "title": "Crews: working as a group",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-11"
+  ],
+  "learningOutcomes": [
+    "Describe when a visit should go to a crew rather than to individual workers.",
+    "Explain the membership date rules for crew members.",
+    "Set a minimum headcount on a job template."
+  ],
+  "instruction": [
+    {
+      "heading": "Why use a crew",
+      "body": "A crew is a team that attends a visit together, such as a three-person tree removal or a two-person heavy lift. The crew appears as one record in the schedule, but it is made up of individual workers, each with their own availability. A visit given to a team receives the team record and each member who is active at that time. Use a crew only where the job needs several people. Otherwise assign individuals, so the scheduler has more options."
+    },
+    {
+      "heading": "Membership and minimum size",
+      "body": "Crew membership has its own date range. A worker can join more than one crew only when those date ranges do not overlap. A member must be an active worker of the right type and must already belong to the crew's area for the same time. The crew needs a leader, and the leader's position is the one followed. Job templates may state how many people are needed at minimum and how many are ideal, and the scheduler uses these figures to check the visit is staffed properly. If all members leave a crew, its crew record is switched off."
+    }
+  ],
+  "procedure": [
+    "Decide which job templates need a team, and set the minimum and ideal head count.",
+    "Create the crew and name its leader.",
+    "Add members with from and to dates that sit inside their own area membership.",
+    "Check that no member has overlapping dates on two crews.",
+    "Attach the team to the visit and confirm each member is active at that time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A landscaping job needs three people for a full day to remove a large tree. Two of the three are also booked on a smaller job the same week.",
+      "decisionPrompt": "Do you create a crew, and how do you handle the two shared workers?",
+      "reasoning": "Create a crew with the three-person minimum. Check the two shared workers' crew dates so no memberships overlap. If the smaller job needs them that day, move that job rather than double-book them."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assigning a crew to a visit that needs only one person.",
+      "prevention": "Assign individuals to single-person work."
+    },
+    {
+      "error": "Adding a member whose crew dates run past their area membership.",
+      "prevention": "Check the membership dates before adding the member."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each crew has a named leader and a minimum size.",
+    "No member has overlapping dates on two crews."
+  ],
+  "documentationEvidence": [
+    "Crew list with leader and members",
+    "Membership date record"
+  ],
+  "summary": [
+    "Crews suit work that needs several people together.",
+    "Membership dates must not overlap and must sit inside the worker's area membership.",
+    "A minimum headcount protects a visit from being under-staffed."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-12-K01",
+      "question": "A worker is already a member of a crew for March. Can they join a second crew for an overlapping period in March?",
+      "options": [
+        "No, membership dates must not overlap",
+        "Yes, if another manager booked it",
+        "Only if the first crew has no leader"
+      ]
+    },
+    {
+      "id": "SFS-12-K02",
+      "question": "Whose position is followed for a crew?",
+      "options": [
+        "The position of its leader",
+        "The junior member's position",
+        "The office address only"
+      ]
+    },
+    {
+      "id": "SFS-12-K03",
+      "question": "What does the minimum headcount on a job template do?",
+      "options": [
+        "Lets the scheduler check the visit has enough people",
+        "Sets the crew's pay for the week and the job",
+        "Blocks the job from ever being scheduled again"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 48-49 (crew considerations); pp. 110-114 (crews); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: crew; crew membership; crew leader; job template minimum crew size (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

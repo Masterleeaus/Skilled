@@ -1,0 +1,152 @@
+{
+  "id": "DIP-02",
+  "title": "Dental laboratory items and equipment sent for repair",
+  "courseSlugs": [
+    "healthcare",
+    "medequip"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Dental cleaners and assistants who pack items for the laboratory or for equipment repair.",
+  "prerequisites": [
+    "HCG-14",
+    "HCG-16"
+  ],
+  "learningOutcomes": [
+    "Prepare an impression or appliance for laboratory transport so it is safe to handle.",
+    "Explain the decontamination record needed before equipment leaves for repair.",
+    "Refuse to send an item that has no decontamination record and report it."
+  ],
+  "instruction": [
+    {
+      "heading": "Items that leave and come back",
+      "body": "Impressions, bite records, prostheses and orthodontic appliances can carry blood and saliva, so they are a route by which infection can pass between the surgery and the laboratory. Before they leave the surgery, they are rinsed to clear visible blood and grit, then disinfected. They travel in sealed containers or bags. Gloves are worn when handling them and when pouring models, and personal protection stays on until disinfection is complete."
+    },
+    {
+      "heading": "Coming back from the laboratory",
+      "body": "Laboratory items return to the surgery cleaned and disinfected. Items that will be used in surgery are heat sterilised where practical, and chemically sterilised where heat cannot be used. Laboratory tools that become contaminated, such as burs, polishing points and rag wheels, are cleaned, then disinfected or sterilised per the maker's directions. Where the maker's directions are not available, heat-tolerant items are cleaned and heat sterilised, and other items are cleaned and disinfected to the level the source sets. The practice protocol confirms that level."
+    },
+    {
+      "heading": "Equipment sent for repair",
+      "body": "Instruments from both the clinic and the laboratory are decontaminated before they leave for repair, to the level each item needs. The decontamination is recorded, so the repairer and the practice both know the item is safe to handle. An item that arrives back from repair is checked for any sharps that are still in it, and those are handled through the sharps route in “Burs, handpieces and sharps at the chairside”."
+    },
+    {
+      "heading": "Your part",
+      "body": "A cleaner packs and labels items for transport, checks that the decontamination step has been recorded, and never sends an item that has not been cleaned or whose status is unknown. Any item without a record is held back and reported to the practice manager."
+    }
+  ],
+  "procedure": [
+    "Confirm that rinsing and disinfection have been done, and that the record shows this.",
+    "Pack the item in a sealed, labelled laboratory container or bag.",
+    "Wear gloves and protective clothing until disinfection is complete.",
+    "Check that any sharp, such as a bur or polishing point, is in a secure and labelled container for the laboratory.",
+    "For equipment going to repair, confirm the decontamination record before it leaves the practice.",
+    "Hold back any item without a record and tell the practice manager."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A set of impressions with visible saliva is ready to go to the laboratory with a courier.",
+      "decisionPrompt": "What must happen first?",
+      "reasoning": "Rinse off visible saliva and debris, disinfect the impressions to the level the protocol sets, and record it. Then pack them in a sealed, labelled box, and hand them over."
+    },
+    {
+      "situation": "A handpiece returns from repair with an old bur still in its head.",
+      "decisionPrompt": "What is the response?",
+      "reasoning": "Do not handle the bur with bare hands. Use the sharps route in “Burs, handpieces and sharps at the chairside” and tell the nurse. Check the item's record and the repairer's instructions before it goes back into use."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Gloves and protective clothing for handling",
+    "Sealed, labelled laboratory containers or bags",
+    "Disinfectant at the level set by the protocol and the item's instructions",
+    "Decontamination record sheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Sending impressions unrinsed to save time.",
+      "prevention": "Rinse and disinfect before every transfer."
+    },
+    {
+      "error": "Assuming the laboratory or the repairer will decontaminate the item.",
+      "prevention": "Decontaminate and record the item before it leaves the practice."
+    },
+    {
+      "error": "Using the same level of disinfectant for every item.",
+      "prevention": "Follow the item's instructions and the protocol."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Disinfectants are chemicals. Follow the label, the safety data sheet and the PPE listed for them.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Disinfection levels differ by item and are set by the protocol and the manufacturer. The source's wording on levels is not adopted without the Australian reference in “Choosing approved products and prohibited chemicals” and “Reprocessing steps and storage: awareness and limits”.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Reprocessing of instruments belongs to trained staff, not to cleaners, in this lesson.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The source cites Malaysian statutes, which are not used here.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "No item leaves the practice without a decontamination record.",
+    "Sharps in transit are sealed and labelled."
+  ],
+  "documentationEvidence": [
+    "Decontamination record for each item sent out",
+    "Laboratory transfer log"
+  ],
+  "summary": [
+    "Rinse and disinfect items before they leave the surgery, and pack them sealed and labelled.",
+    "Items returning from the laboratory and equipment returning from repair are checked against the record.",
+    "Hold back any item without a record and report it."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "DIP-02-K01",
+      "question": "A set of impressions with visible blood is ready to leave the practice. What must happen first?",
+      "options": [
+        "Send it as it is, because the laboratory will rinse it and the lab staff will check it.",
+        "Rinse off visible blood and grit, disinfect it, and record it before it leaves.",
+        "Place it in the laboratory's cupboard and leave it there until the next delivery.",
+        "Wrap it in a sharps box and label the box for the lab courier today."
+      ]
+    },
+    {
+      "id": "DIP-02-K02",
+      "question": "Equipment needs repair. What is required before it goes out?",
+      "options": [
+        "Nothing, because repairers handle contamination and the repairer is always paid extra for it.",
+        "Decontamination to the level the item needs, recorded so the repairer and the practice know it is safe.",
+        "Wiping only the outside surface and leaving the inside as it is for the repairer to see.",
+        "Leaving it in direct sunlight to dry and then packing it in a bag for the repairer today."
+      ]
+    },
+    {
+      "id": "DIP-02-K03",
+      "question": "Which treatment does a laboratory item need before it is used in surgery?",
+      "options": [
+        "A quick wipe with a damp cloth and a little detergent and then leave it to air-dry on the bench",
+        "Heat sterilisation where possible, or chemical sterilisation where heat cannot be used.",
+        "Nothing, if they look clean and no further check is needed at all today",
+        "A rinse in the basin used for hand washing and then a quick dry with a towel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Guidelines on Infection Control in Dental Practice, 3rd ed. (Malaysian Dental Council, February 2017; text taken by OCR from the uploaded PDF), section 9 (handling of laboratory materials and equipment for repair: 9.1 dental laboratory materials and 9.2 equipment for repair); rights: user-held; reworded (no copying)",
+    "Cross-checked against HCG-14 (reprocessing awareness and limits) and ADA Guidelines for Infection Control section F.5 (dental laboratory) headings. The disinfection-level wording is not adopted without the Australian reference. Source priority: the Australian NHMRC guideline, as summarised in HCG-01 to HCG-20, and the Australian dental source (ADA) govern where they conflict with this source.",
+    "Read 2026-11-02 from the uploaded PDF by OCR. The OCR text was not checked against the page images, so figures and wording should be verified. The source is Malaysian and no Australian currency check was run; applicability to Australia is UNCONFIRMED.",
+    "The source cites Malaysian statutes, which are not used here. Australian legal requirements are UNCONFIRMED in this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

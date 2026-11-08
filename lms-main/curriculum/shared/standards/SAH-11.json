@@ -1,0 +1,122 @@
+{
+  "id": "SAH-11",
+  "title": "Special circumstances: sensitivities, co-located aged care and kitchenette products",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners, supervisors and unit managers in SA healthcare facilities, including those with aged care beds on the same site",
+  "prerequisites": [
+    "SAH-04"
+  ],
+  "learningOutcomes": [
+    "Identify when the standard schedule might have to be adjusted",
+    "Name who must agree a change to the schedule or product",
+    "Select products that meet the kitchenette requirement in a clinical setting"
+  ],
+  "instruction": [
+    {
+      "heading": "Adjusting for a patient's condition",
+      "body": "The standard allows the schedule to deviate where a patient's medical condition calls for it. One example is a patient with multiple chemical sensitivities, who may react to routine cleaning products. The facility can then plan a different product or method for that area. Any such change is agreed with clinical management and the infection prevention service. The SA policy guideline on idiopathic environmental intolerance and multiple chemical sensitivity (2016) covers the wider context; its text is not reproduced here."
+    },
+    {
+      "heading": "Aged care beside acute beds",
+      "body": "Some facilities, particularly in rural areas, have aged care residents in the same building as acute patients. In those settings the cadence of cleaning and spot cleaning in shared areas might need to rise to match the risk of body fluid contamination. Raise the gap with clinical management and the infection prevention team, and record the agreed change."
+    },
+    {
+      "heading": "Kitchenettes in clinical areas",
+      "body": "Where food is handled in a clinical or ward setting, such as a kitchenette, every detergent and sanitiser used there needs food-grade status and no perfume. This rule is separate from the disinfectants used on patient surfaces. A fragranced general spray is not acceptable in a kitchenette, whatever it is used for elsewhere in the building."
+    }
+  ],
+  "procedure": [
+    "Check the patient's care notes or the ward record for any sensitivity flag.",
+    "If a sensitivity is recorded, ask the unit manager which product and method to use.",
+    "In a kitchenette, check that each product is food grade and free of perfume before use.",
+    "In a site with aged care beds, check the schedule for shared common areas and raise any gap.",
+    "Record any change and the person who approved it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A ward kitchenette is cleaned with a fragranced general spray. A patient on the ward has a documented sensitivity to fragrance.",
+      "decisionPrompt": "What is the immediate step?",
+      "reasoning": "Stop using the fragranced product in that area and ask the unit manager for a fragrance-free option. The kitchenette rule means the fragranced spray is not acceptable there in any case, so the product should be replaced whether or not the sensitivity existed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Product SDS",
+    "Approved product list",
+    "Care note or ward record for sensitivity flags"
+  ],
+  "commonErrors": [
+    {
+      "error": "Changing a product because a staff member has a hunch about a patient",
+      "prevention": "Changes are agreed with the unit manager and the infection prevention team."
+    },
+    {
+      "error": "Using a general cleaner in a kitchenette",
+      "prevention": "Check the label for food grade status and the absence of perfume."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Patient sensitivity information is private health information. Share it only with staff who need it for the task.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The 2016 policy guideline is named only.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner names one circumstance that can change the schedule",
+    "The learner states the kitchenette product rule"
+  ],
+  "documentationEvidence": [
+    "Record of any agreed product or method change, with the approver and date"
+  ],
+  "summary": [
+    "A documented patient sensitivity can change the product or method, once agreed",
+    "Kitchenette products need food-grade status and no perfume",
+    "Aged care beside acute beds may need more frequent common-area cleaning"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SAH-11-K01",
+      "question": "A patient has a documented chemical sensitivity. Who agrees a change to the cleaning product?",
+      "options": [
+        "The cleaner alone, on the day, with no one else",
+        "Clinical management, with the infection prevention service",
+        "The patient's family only and the visitors who come on the day"
+      ]
+    },
+    {
+      "id": "SAH-11-K02",
+      "question": "What must detergent and sanitiser in a clinical kitchenette be?",
+      "options": [
+        "Fragranced for a fresh smell",
+        "Food grade and free of perfume",
+        "Any product from the storeroom"
+      ]
+    },
+    {
+      "id": "SAH-11-K03",
+      "question": "When may common-area cleaning in co-located aged care need to increase?",
+      "options": [
+        "Only at weekends, when visitors are few and the staff are light",
+        "When the risk of body fluid contamination makes it necessary",
+        "Only when a visitor reports a spill in the lounge area"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Standard for South Australian Healthcare Facilities (SA Health, 2014, updated 2017), section 5.4 (special circumstances, including the kitchenette note at its end); rights: user-held; reworded (no copying); source priority: the SA state standard overrides informal or conflicting cleaning advice where this lesson relies on it; figures dated 2014 (updated 2017) are historical; URL www.sahealth.sa.gov.au/infectionprevention; date checked 2026-11-02",
+    "cross-checked against C04-L01 (food-contact cleaning) and F07-L01 (food-contact safety)",
+    "2016 IEI/MCS guideline: UNCONFIRMED content"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

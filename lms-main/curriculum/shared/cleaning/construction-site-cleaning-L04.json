@@ -1,0 +1,138 @@
+{
+  "id": "construction-site-cleaning-L04",
+  "title": "Silica dust exposure fundamentals",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners on construction and post-construction sites where silica-containing materials are cut, ground or demolished.",
+  "prerequisites": [
+    "construction-site-cleaning-L03"
+  ],
+  "learningOutcomes": [
+    "Explain how silica dust is created and why it is a respiratory hazard.",
+    "Identify the dust-control approach set by the site's risk assessment.",
+    "Stop and escalate when dust control is absent or not verified."
+  ],
+  "instruction": [
+    {
+      "heading": "Where silica comes from",
+      "body": "Crystalline silica is found in many common building materials, including concrete, masonry, stone, tile and some grouts and renders. Cutting, grinding, drilling and sweeping dry material can release fine respirable silica dust into the air. Fine dust is the concern because it can reach the deep parts of the lungs and it may not be visible. Dusty cut masonry is a warning sign."
+    },
+    {
+      "heading": "Controls before cleaning",
+      "body": "Dust is controlled at its source first. The site's documented risk assessment sets the control, such as wet methods, dust extraction on the cutting tool, or enclosure. Cleaning must not create dust. Dry sweeping and the use of compressed air disturb settled dust and put it back into the air. A cleaner works to the controls that the site has verified, not to a general belief that a method is safe."
+    },
+    {
+      "heading": "When controls are not verified",
+      "body": "Stop when dust control is absent, when the site cannot show the controls in place, or when the dust source is unknown. Keep others away, and report to the site controller. Do not clean up silica dust with a household vacuum, because its filtration is not designed for fine respirable dust."
+    },
+    {
+      "heading": "Exposure limits and monitoring",
+      "body": "Exposure is managed against the workplace exposure limits that apply. The exposure list that applies is changing in Victoria on 1 December 2026, so current limits must be checked before they are cited. Air monitoring and health surveillance may be needed, and the site determines whether they are required."
+    }
+  ],
+  "procedure": [
+    "Confirm the dust-control method in the site risk assessment before starting.",
+    "Check that the controls, such as wet methods or extraction, are in place.",
+    "Do not dry sweep or use compressed air on settled dust.",
+    "Stop and report if controls are absent, not verified, or the source is unknown.",
+    "Confirm the exposure limit and monitoring arrangements with the site controller."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Concrete is being cut on site, and a cleaner is asked to dry sweep the settled dust.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Do not dry sweep, because it puts respirable dust back into the air. Confirm the dust-control method is in place, and ask for a wet method or an approved extraction method from the site controller before cleaning."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Respiratory protection as the site risk assessment requires, with a fit check.",
+    "Wet cleaning equipment or site-approved extraction equipment.",
+    "Eye protection and gloves as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Dry sweeping settled silica dust.",
+      "prevention": "Use the approved wet or extraction method."
+    },
+    {
+      "error": "Using compressed air to clear dust.",
+      "prevention": "Never use compressed air on settled dust."
+    },
+    {
+      "error": "Assuming dust is controlled because a sign is posted.",
+      "prevention": "Confirm the control is in place and verified."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Silica exposure is subject to work health and safety duties and workplace exposure limits.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Respirators are a last-resort control in the hierarchy. The site determines the control and the respirator type. This lesson does not authorise a cleaner to select or fit a respirator for a hazard without training.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Dust-control method confirmed before cleaning begins.",
+    "Dry sweeping and compressed air avoided in the simulated task.",
+    "Stop-and-report demonstrated when a control is absent."
+  ],
+  "documentationEvidence": [
+    "Confirmation of the site dust-control method.",
+    "Stop and report record for any control that is absent or unverified."
+  ],
+  "summary": [
+    "Silica dust is fine and can be invisible, so control it at the source.",
+    "Do not dry sweep or use compressed air.",
+    "Confirm controls are in place before cleaning.",
+    "Stop and report when controls are absent."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L04-K01",
+      "question": "Why should you avoid dry sweeping settled silica dust?",
+      "options": [
+        "It puts fine respirable dust back into the air",
+        "It makes the floor slippery and it tires the cleaner",
+        "It damages the broom and wastes the cleaning time"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L04-K02",
+      "question": "What is the first control for silica dust?",
+      "options": [
+        "A respirator for everyone on the site from the first day",
+        "Controlling dust at the source, as the site risk assessment sets",
+        "A household vacuum with a paper bag, used on the dust directly"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L04-K03",
+      "question": "When should you stop work on dust?",
+      "options": [
+        "Only if someone coughs or the air looks dusty and thick",
+        "Once the first sheet is wiped and the area is swept, work may continue",
+        "When controls are absent, unverified or the dust source is unknown"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L04.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "https://www.worksafe.vic.gov.au/hazardous-substances (exposure list change; checked 2026-11-02 via ALL-VIC-02)",
+    "UNCONFIRMED: specific silica exposure limits and monitoring triggers by state and territory."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

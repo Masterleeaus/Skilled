@@ -1,0 +1,39 @@
+{
+ "lessonId": "POM-01",
+ "knowledgeAnswers": [
+  {
+   "id": "POM-01-K01",
+   "correctIndex": 3,
+   "rationale": "The textbook states that a water level that is low draws air into the closed loop, which stops the system from circulating."
+  },
+  {
+   "id": "POM-01-K02",
+   "correctIndex": 0,
+   "rationale": "The textbook warning is that the pump must be turned off first, because the suction at the skimmer can injure fingers."
+  },
+  {
+   "id": "POM-01-K03",
+   "correctIndex": 1,
+   "rationale": "The gauge shows the operating pressure, and the reading taken when the unit is clean is the reference."
+  }
+ ],
+ "practicalCriteria": [
+  "Each listed component is identified on site or on the layout, and any missing item is recorded",
+  "Water path is traced correctly from the pool towards the return",
+  "Pump is observed to be off before a vacuum line is attached to a skimmer",
+  "Water level is observed at the operating height before the pump is started"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Layout check record for one site",
+  "Assessor observation sign-off",
+  "Photo of the skimmer and drain layout where the owner agrees"
+ ],
+ "stopWorkCriteria": [
+  "Vacuum hose connected to a running pump at a skimmer",
+  "Pump started with the water level low",
+  "Skimmer or drain used with a missing or damaged cover or basket"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

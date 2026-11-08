@@ -1,0 +1,153 @@
+{
+  "id": "BPX-05",
+  "title": "Business ratios from the plan: margin, liquidity and how fast clients pay",
+  "courseSlugs": [
+    "handyman",
+    "deck",
+    "flatpack",
+    "locksmith",
+    "painting",
+    "plastering",
+    "tiling"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 40,
+  "audience": "Owners and planners of handyman and property trade businesses who already have a profit and loss and a balance sheet for the same period",
+  "prerequisites": [
+    "BPX-01",
+    "BPX-02"
+  ],
+  "learningOutcomes": [
+    "Work out gross margin, the margin left after all costs, current ratio, debt to equity and receivable days from one profit and loss and one balance sheet",
+    "Explain what each ratio compares, and what a change in it would suggest about prices, costs, cash or client payment",
+    "Choose a first action from a ratio result, and explain why a rule-of-thumb threshold is not a legal test"
+  ],
+  "instruction": [
+    {
+      "heading": "Ratios turn figures into comparisons",
+      "body": "A single figure, such as a net profit of $22,100, says little about the business on its own. A ratio divides one figure by another so that businesses of different sizes can be compared, and so that the same business can be tracked over time. Every ratio needs two things stated: the numerator, which is the item on top, and the denominator, which is the base it is compared against. A ratio without its base is not a finding. Calculate ratios from the statements built in “Reading a profit and loss forecast” and “Reading a projected balance sheet” for the same date or period, and state the period beside each result. Ratios from different periods or different statement bases should not be compared directly."
+    },
+    {
+      "heading": "Margin, liquidity and debt",
+      "body": "Gross margin and net profit margin both use sales as the denominator. A falling gross margin usually means the direct cost of each job has risen, or prices have been reduced or discounted; it is the first place to look when profit falls. Net profit margin shows how much of each sales dollar the business keeps after overheads, interest and tax. The current ratio divides current assets by current liabilities. A result above one means current assets exceed current liabilities on paper, but it depends on how quickly receivables are paid and how much of the cash is committed. Debt to equity divides total liabilities by equity. The thresholds used in some sources, such as a current ratio of two, are rules of thumb that prompt a question. They are not legal tests."
+    },
+    {
+      "heading": "How fast clients pay",
+      "body": "Receivable days estimate how long, on average, clients take to pay. Divide receivables by sales for the period and multiply by the number of days in the period, usually 365 for a year. A result close to the payment terms on the invoice is a healthy sign. A result much higher means money is being held by clients, which strains cash even when profit is good. The cause is usually invoicing delay, missing deposits, unclear payment terms or a client dispute. The fix is a process change, such as invoicing on completion and following up at a set day. A lower price is rarely the right first response, because it reduces margin and does nothing about the timing."
+    }
+  ],
+  "procedure": [
+    "Take the sales figure, gross profit and net profit from the profit and loss, and the period it covers.",
+    "Take the current assets, current liabilities, total liabilities, equity and receivables from the balance sheet, and confirm they are for the same period.",
+    "Calculate gross margin as gross profit divided by sales, and net profit margin as net profit divided by sales.",
+    "Calculate the current ratio as current assets divided by current liabilities.",
+    "Calculate debt to equity as total liabilities divided by equity, and state the definition used.",
+    "Calculate receivable days as receivables divided by sales, multiplied by the number of days in the period.",
+    "For each ratio, write one sentence on what it means for this business, and one question it raises. Do not state a conclusion beyond what the figures show."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Hypothetical figures, not market data, taken from the examples in “Reading a profit and loss forecast” and “Reading a projected balance sheet”: annual sales of $240,000, gross profit of $168,000, net profit before tax of $22,100, current assets of $13,200, current liabilities of $5,900, total liabilities of $17,900, equity of $19,800 and receivables of $9,000.",
+      "decisionPrompt": "Calculate the five ratios. If receivable days were 60 instead of about 14, what would be the first action?",
+      "reasoning": "Gross margin is 70 percent and net profit margin before tax is about 9.2 percent. The current ratio is about 2.2, debt to equity is about 0.9, and receivable days are about 14. These are on different bases in part, because the balance sheet is at a date and the profit and loss covers a year, so the owner should state that in the write-up. If receivable days were 60, the first action is a process review of invoicing on completion, deposits and payment terms and a set follow-up day. Cutting prices would lower margin and would not shorten the time clients take to pay."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet with the profit and loss and balance sheet from “Reading a profit and loss forecast” and “Reading a projected balance sheet”",
+    "Calculator or spreadsheet formulas, with the formulas written in a visible column",
+    "No physical PPE is required for this lesson"
+  ],
+  "commonErrors": [
+    {
+      "error": "Comparing a balance sheet at one date with a full-year profit without stating that the bases differ.",
+      "prevention": "Write the period or date beside every ratio and state the basis used for the comparison."
+    },
+    {
+      "error": "Treating a rule-of-thumb threshold as a legal requirement or a guaranteed benchmark.",
+      "prevention": "Describe thresholds as prompts for a question."
+    },
+    {
+      "error": "Responding to slow payment by lowering prices.",
+      "prevention": "Check invoicing timing, deposits and payment terms first, and only then review pricing if margin also falls."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Do not use a threshold from a sample plan or another country as a benchmark.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Confirm the treatment with a registered tax agent before using the ratios for lending or investment decisions.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not give financial advice, and completing it does not qualify the learner to advise on credit, lending or investment.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each ratio states its numerator, denominator, period and formula",
+    "Every ratio is calculated from the same statements, with the bases compared openly",
+    "Each result has one sentence of meaning and one question, with no conclusion beyond the figures",
+    "No threshold is presented as a legal test or an Australian benchmark unless it has been checked and cited"
+  ],
+  "documentationEvidence": [
+    "A ratio table with numerator, denominator, period and result for each ratio",
+    "A short note on the first action proposed for the weakest ratio, with the reasoning",
+    "A list of the figures and thresholds still to be checked"
+  ],
+  "summary": [
+    "A ratio is only meaningful when its numerator, denominator and period are stated",
+    "Margin ratios show how well prices cover costs and how much is kept, and falling gross margin points first to direct costs or discounts",
+    "Liquidity and debt ratios show a snapshot, and their thresholds are prompts rather than tests",
+    "Slow payment is usually a process problem and is addressed before prices are cut"
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:assessment.business_question_set}}",
+    "{{business:business.name}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BPX-05-K01",
+      "question": "A business has current assets of $40,000 and current liabilities of $20,000. What is its current ratio?",
+      "options": [
+        "2.0",
+        "0.5",
+        "6.0",
+        "4.0"
+      ]
+    },
+    {
+      "id": "BPX-05-K02",
+      "question": "Gross margin falls from 60 percent to 45 percent while sales stay the same. What is the most useful first question?",
+      "options": [
+        "Should the owner buy a larger van for the job this season and the rest of the year's work too",
+        "Have material or subcontractor costs risen, or have prices been reduced or discounted?",
+        "Has the owner changed the logo recently on the site, the cards, the signs, the van and the website",
+        "Is the bank about to change its rate on the loan and the account at the branch?"
+      ]
+    },
+    {
+      "id": "BPX-05-K03",
+      "question": "Which description of a ratio threshold is correct?",
+      "options": [
+        "A legal minimum set by the Australian Taxation Office for all trade businesses",
+        "A figure that every Australian trade business must reach each year to stay open",
+        "A rule of thumb that prompts a question, not a legal test or a guaranteed benchmark",
+        "A fixed legal limit that the business must reach each quarter of the year"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Handyman business plan sample (0db29e53-657849233-handyman-business-plan.txt), sections Business ratios and percentage-of-sales figures; rights: not held by user (vendor sample, vendor watermark present); reworded (no copying). The sample's ratio values are not used.",
+    "Cleaning company business plan sample (7886acdc-603394611-cleaning-company-business-plan.txt), section Business ratios (percent of total assets, percent of sales, activity, debt and liquidity groups); rights: not held by user (vendor sample); reworded (no copying). Structure only.",
+    "BPX-01 and BPX-02 worked figures (hypothetical), reused for the calculations in this lesson.",
+    "Industry ratio benchmarks for Australian trade businesses and the tax treatment of GST in ratios: UNCONFIRMED (not checked against a current source in this draft)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

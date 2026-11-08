@@ -1,0 +1,190 @@
+{
+  "id": "SHR-FIN-04",
+  "title": "From source document to journal and ledger",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Business operations and finance",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners and office staff of small service businesses in Australia who record transactions themselves or check a bookkeeper's entries.",
+  "referencesAtStart": "Official source used: Australian Taxation Office (ATO), Record keeping tips (last updated 25 October 2022), for the separate GST ledger point only. Accounting cycle concepts are general teaching. No figures from the uploads are used.",
+  "prerequisites": [
+    "SHR-FIN-01"
+  ],
+  "learningOutcomes": [
+    "Name the steps of the accounting cycle from source document to closing, in order.",
+    "Write a balanced journal entry for a transaction, with the correct account on the debit side and the credit side.",
+    "Post journal entries to ledger accounts, and find the balance of each account."
+  ],
+  "instruction": [
+    {
+      "heading": "The accounting cycle in order",
+      "body": "The accounting cycle is the repeating set of steps that turns everyday transactions into financial statements. It begins with a source document, such as an invoice, a receipt, a bank statement or a payroll summary, which shows what happened and when. The transaction is then analysed to decide which accounts change and by how much. It is recorded in the journal, posted to the ledger, checked through a trial balance, adjusted for items that belong to the period but are not yet in the books, closed at the end of the period, and reported in the income statement and balance sheet. The steps are the same for a small service business as for a large one. Keeping them in this order lets someone else trace each figure back to its source."
+    },
+    {
+      "heading": "Journal entries and the debit and credit rule",
+      "body": "A journal entry is the first written record of a transaction. Each entry has a date, a description, at least one account to debit and at least one to credit, and amounts whose debit total equals its credit total. Which side an amount goes on depends on the type of account. Asset and expense accounts increase on the debit side and decrease on the credit side. Liability, equity and income accounts increase on the credit side and decrease on the debit side. A debit is not good and a credit is not bad; they are simply the two sides of every account. An entry that does not balance must be found and corrected before it is posted, because an unbalanced entry makes every later total unreliable."
+    },
+    {
+      "heading": "Posting to the ledger and checking the balances",
+      "body": "The ledger holds one account for each item in the chart. Posting copies each journal line to the matching ledger account, on the side named in the entry. An account that normally carries a debit balance, such as cash or an expense, has its balance worked out as the debits less the credits; an account that normally carries a credit balance, such as a liability or income, has its balance worked out as the credits less the debits. Keep the ledger in account-number order, and record the source document reference beside each posting, so the trail can be followed. Where GST credits are claimed, the ATO's record-keeping guidance says to keep the GST in a separate ledger account, so the GST element is posted there rather than to the expense or asset account. The ledger balances are the input to the trial balance, which is covered in “Trial balance, adjusting entries and closing the books”."
+    }
+  ],
+  "procedure": [
+    "Gather the source documents for the period, and sort them by type: sales, purchases, cash, payroll and other.",
+    "For each source document, name the accounts affected and whether each one is debited or credited.",
+    "Write the journal entry with the date, the description, the debit and credit lines, and the document reference.",
+    "Check that the total debits equal the total credits before posting.",
+    "Post each journal line to its ledger account, and record the new balance.",
+    "At the end of each period, prepare the trial balance and compare it with the ledger balances, as set out in “Trial balance, adjusting entries and closing the books”."
+  ],
+  "workedExamples": [
+    {
+      "situation": "In an example, a window cleaning service buys $400 of cleaning products on account from a supplier, and pays the supplier in full a fortnight later from the business bank account. The business and the amounts are invented for this example. GST is left out for simplicity; where it applies, the GST element is posted to the GST ledger account.",
+      "decisionPrompt": "What are the two journal entries, and what is the balance in accounts payable and cash after both are posted?",
+      "reasoning": "On purchase, debit consumables stock for $400, because the business now holds stock it will use on jobs, and credit accounts payable for $400, because it owes the supplier. On payment, debit accounts payable for $400 to clear the amount owed, and credit cash at bank for $400, because money has left the bank. After both entries, accounts payable is nil, cash has fallen by $400, and consumables stock holds $400 until the products are used on a job, when the cost moves to cost of sales."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Accounting software or spreadsheet with the chart of accounts from “Chart of accounts for a service business”.",
+    "Source documents: invoices, receipts, bank statements and payroll summaries.",
+    "No personal protective equipment is needed for this desk-based lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Posting a transaction with no source document behind it.",
+      "prevention": "Attach or reference the invoice, receipt or statement before posting the entry."
+    },
+    {
+      "error": "Reversing the debit and credit sides for an account type.",
+      "prevention": "Use the rule for the account type, and check the side before the entry is posted."
+    },
+    {
+      "error": "Posting an entry that does not balance, or forcing it to balance with a temporary figure that is never cleared.",
+      "prevention": "Find and correct the difference before posting, and clear every temporary account at the end of the period."
+    },
+    {
+      "error": "Recording a payment of a bill as a new expense when the bill was already recorded when it arrived.",
+      "prevention": "Check whether the bill is already in accounts payable, and debit the liability to clear it when the payment is made."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson is general accounting teaching and is not tax advice. Where GST credits are claimed, the ATO's record-keeping guidance says to keep GST in a separate ledger account. Confirm GST treatment with a registered tax agent.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The worked example figures are invented for this lesson and are not prices, rates or benchmarks.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every journal entry has a date, a description, a source reference, and debits equal to credits.",
+    "Each posting is on the side the account type requires, and every ledger account balance can be traced to its entries.",
+    "No entry is posted with an unexplained difference, and no temporary account is left open at period end."
+  ],
+  "documentationEvidence": [
+    "Journal with date, description, source reference and both sides of each entry.",
+    "Ledger report with running balances for each account."
+  ],
+  "summary": [
+    "The accounting cycle runs from source document to journal, ledger, trial balance, adjustments and closing, in that order.",
+    "Each journal entry balances, and the side used depends on the type of account.",
+    "Posting copies journal lines to the ledger, and each ledger balance traces back to its source document."
+  ],
+  "businessFields": [
+    "{{business:compliance.policy_reference}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "SHR-FIN-04-K01",
+      "question": "Which step comes first in the accounting cycle?",
+      "options": [
+        "Preparing the income statement for the owner and the bank at the year end date",
+        "Collecting the source document, such as an invoice, receipt or bank statement",
+        "Closing the income accounts at the year end date and the period close for the year"
+      ]
+    },
+    {
+      "id": "SHR-FIN-04-K02",
+      "question": "In a journal entry, which side does an increase in an asset account sit on?",
+      "options": [
+        "The credit side, because assets reduce the balance",
+        "The debit side, because an asset increases on that side",
+        "Whichever side makes the entry balance"
+      ]
+    },
+    {
+      "id": "SHR-FIN-04-K03",
+      "question": "In an example, a journal entry has total debits of $400 and total credits of $350. What should happen?",
+      "options": [
+        "Post it to the ledger, because the entry is complete and ready to use today",
+        "Find and correct the error before posting, because the entry does not balance",
+        "Record the $50 difference as an expense in the books of the business"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Record keeping tips",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/preparing-lodging-and-paying/record-keeping-for-business/detailed-business-record-keeping-requirements/record-keeping-tips",
+      "pageDate": "Last updated 25 October 2022",
+      "checked": "2026-11-03",
+      "covers": "ATO website: Record keeping for business. Check the current page before relying on the GST ledger point. Publisher: Australian Taxation Office (ATO)."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: Record keeping tips (last updated 25 October 2022). GST treatment of individual transactions has not yet been confirmed.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Accounting cycle chapter (upload 92f31f65-522093213-SOL-MAN-CHAPTER-9-ACCTG-CYCLE-OF-A-SERVICE-BUSINESS.txt), concepts only: the order of the cycle, the journal, the ledger and the balancing rule. No problem text, worked figures or solutions are reproduced; the worked example is new and invented. rights: user-held upload; concepts only, reworded (the solutions manual is copyrighted)",
+    "[R1] https://www.ato.gov.au/businesses-and-organisations/preparing-lodging-and-paying/record-keeping-for-business/detailed-business-record-keeping-requirements/record-keeping-tips (page last updated 25 October 2022; checked 2026-11-03)",
+    "UNCONFIRMED: GST treatment of individual transactions in the business's own books."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

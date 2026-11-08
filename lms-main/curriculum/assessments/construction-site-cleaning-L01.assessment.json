@@ -1,0 +1,36 @@
+{
+ "lessonId": "construction-site-cleaning-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "construction-site-cleaning-L01-K01",
+   "correctIndex": 0,
+   "rationale": "The final-clean label does not override active trade work. Access is confirmed first."
+  },
+  {
+   "id": "construction-site-cleaning-L01-K02",
+   "correctIndex": 1,
+   "rationale": "Rough cleaning removes authorised larger debris during the works."
+  },
+  {
+   "id": "construction-site-cleaning-L01-K03",
+   "correctIndex": 2,
+   "rationale": "Appearance does not show that the room is safe or free of contamination."
+  }
+ ],
+ "practicalCriteria": [
+  "Marks the authorising contact, allowed zones, active-trade exclusions and handover criteria on a sample work order.",
+  "Records the stage, scope, exclusions and authorised zone before entering a simulated area.",
+  "Stops and withdraws when a simulated active trade enters, and records the revised access window."
+ ],
+ "passRule": "All three practical criteria observed, with stop-work applied when active trade work is simulated. Observed by an assessor.",
+ "evidenceRequired": [
+  "Marked sample work order",
+  "Pre-entry record",
+  "Stop-work and access-window record"
+ ],
+ "stopWorkCriteria": [
+  "Entry without a confirmed access permit",
+  "Active trade work in the area",
+  "Photograph of an unfinished room presented as complete"
+ ]
+}

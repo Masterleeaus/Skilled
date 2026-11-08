@@ -1,0 +1,220 @@
+{
+  "id": "pond-cleaning-L03",
+  "title": "Water sampling and record integrity for ponds",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 35,
+  "audience": "Pond maintenance workers and technicians who take water samples and record test results for pond and water-feature clients",
+  "prerequisites": [
+    "F03-L01",
+    "NEW-POND-01"
+  ],
+  "learningOutcomes": [
+    "Choose and use a consistent sampling point for a pond, using the client plan or the previous service record",
+    "Handle, label and test a pond sample so that the reading describes the pond rather than the container, the reagent or the sampling spot",
+    "Record each pond result with time, location, method, reagent details and tester",
+    "Correct a record without overwriting it, and identify a test that is invalid and must not be recorded as a result"
+  ],
+  "instruction": [
+    {
+      "heading": "Why a pond result depends on the sample",
+      "body": "A pond test is only as good as the sample and the record behind it. A reading taken from the wrong place, with an out-of-date reagent, from a container that has held cleaning product, or several hours after a feed, does not describe the pond. It can look plausible and still lead to the wrong action. The record is also evidence. It shows what was tested, where, when, by whom and what was done in response, so that the next visit can see a trend rather than a single number. A pond changes slowly and can be misread, so a consistent method matters more than any one dramatic result. Good sampling and good records also reduce repeat call-outs, which is a workload saving for the business as well as a quality measure."
+    },
+    {
+      "heading": "Choosing the sampling point",
+      "body": "Take the sample from the point that the client plan or the previous service record names. If no point is named, choose one, record it, and use the same point on later visits so that results can be compared. Avoid the filter outlet, the return or waterfall, the skimmer throat and the area directly under a feeding spot, because each can give a reading that is not typical of the pond as a whole. No target depth is set in this draft. Note any change of point, and the reason for it, in the record."
+    },
+    {
+      "heading": "Taking and handling the sample",
+      "body": "Use a clean container that is kept only for pond sampling. Do not use a container that has held cleaning product, pool chemical or fertiliser. Rinse the container with pond water only where the test-kit instructions allow it, and avoid touching the inside of the container or the cap. Fill it at the planned point, then label it with the date, time, location and tester before you leave that point. Test it promptly. While it waits, keep the sample out of direct sun and away from heat, as the kit instructions direct. Never use the same sampling equipment for two ponds without cleaning it between them, and never move pond water from one site to another. Moving water, sludge, plants or fish can spread pest species and disease, so check the biosecurity rules for your state before any movement."
+    },
+    {
+      "heading": "Test kits and reagents",
+      "body": "Use the test kit or meter the way its manufacturer directs, and wait for the reaction time the instructions give. Before each round of tests, check the expiry date of every reagent, the calibration of any meter and the condition of the colour chart or cell. Reagents are chemicals in their own right. Store them according to their safety data sheet, keep oxidisers apart from flammable chemicals, which the Safe Work Australia guide describes as incompatible, keep acids apart as each safety data sheet directs because that guide does not address acids, and never keep them in a food or drink container. Dispose of used reagents as the safety data sheet and the site waste procedure direct. Where the kit shows a batch number, record it, so that a faulty batch can be traced later."
+    },
+    {
+      "heading": "Recording, correcting and out-of-range results",
+      "body": "Write each result with its value, its unit, the time, the location, the method, the reagent details, the tester and any observation about the water, such as clarity, odour, surface film or fish behaviour. A test that was not completed is recorded as not completed, with the reason. Do not back-fill a result for a time when no test was done, and do not estimate a reading so that it looks like a pass. Never overwrite an original entry. To correct an error, draw a single line through it, write the correct value beside it, then initial and date the correction and give the reason. In an electronic system, use the amendment function that keeps the original. If a result is outside the range the client plan sets, follow the plan's action, inform the responsible person and leave the record as it was measured."
+    }
+  ],
+  "procedure": [
+    "Read the client plan or the previous service record for the sampling point, method and test frequency.",
+    "Check each test reagent for expiry, and check any meter for calibration, before you start.",
+    "Rinse the clean pond-only container as the method allows, then collect the sample at the planned point.",
+    "Label the sample with date, time, location and tester before you leave the point.",
+    "Run the test in the manufacturer's sequence and wait for the stated reaction time.",
+    "Record each value with unit, time, location, method, reagent batch and any observation.",
+    "If a value is outside the plan's range, follow the plan's action and inform the responsible person. Do not adjust the record.",
+    "Store and dispose of reagents as the safety data sheet directs, and file the record before you leave the site."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The client says the pond is green and asks you to test the water as it leaves the filter outlet, because that is where the pump is. The client plan names the open water at mid-depth as the routine sampling point.",
+      "decisionPrompt": "Where do you sample, and what do you record?",
+      "reasoning": "Sample at the planned open-water point, not the outlet. Outlet water has passed through the filter and does not describe the pond as a whole. If the client also wants an outlet reading, take it as a separate, labelled sample and record both. Record the point used for each sample, the reason for it and the time, so that the two readings are not confused on later visits."
+    },
+    {
+      "situation": "A tester finds that the ammonia reagent is past its expiry date, but the colour seems to match the chart. The tester has already written the result in the record.",
+      "decisionPrompt": "Is the result valid, and what should the record show?",
+      "reasoning": "No. An expired reagent can give an unreliable reading, so the colour is not a valid result. Replace the reagent, take a fresh sample and retest. Record the replacement and the reason, and tell the responsible person that the first entry was not valid. Do not delete the first entry; correct it with a single line, initials, date and reason."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Pond test kit or meter, with reagents in date",
+    "Clean sampling container kept for pond use only",
+    "Labels and a waterproof marker",
+    "Record form or system for pond results",
+    "Gloves and eye protection as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Sampling from the filter outlet or waterfall when the client plan names open water.",
+      "prevention": "Use the planned point. If you must sample somewhere else, record the point and the reason."
+    },
+    {
+      "error": "Using a reagent after its expiry date because the colour looks right.",
+      "prevention": "Check expiry before each session. Replace the reagent, take a fresh sample and retest."
+    },
+    {
+      "error": "Writing a result for a test that was not completed.",
+      "prevention": "Record the test as not completed, with the reason."
+    },
+    {
+      "error": "Overwriting an entry to correct it.",
+      "prevention": "Use a single line, initials, date and reason, or the system's amendment function."
+    },
+    {
+      "error": "Testing straight after a feed or a dose without recording it.",
+      "prevention": "Record feeding and dosing times with the reading, because both change what the test shows."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Test reagents and any pond products are chemicals. Read the safety data sheet and the label before use. Product-specific storage comes from the safety data sheet.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Numeric target values for pond water are not given in this lesson. Use the client plan or a qualified aquatic specialist to set the target and the response.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Biosecurity: moving water, sludge, plants or fish between ponds can spread pest species. Queensland expects sightings of prohibited noxious fish, and of sight-only restricted species, to be notified to the state biosecurity agency with a 24-hour time limit. In NSW, possessing, buying, selling or moving listed prohibited and notifiable fish is illegal, and releasing fish into public waters needs a stocking permit.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not authorise any fish movement, release, stocking or medication. Where a state requires a permit for these, the permit is separate from this lesson, and completing the lesson does not grant it.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every result has a time, location, method, unit and tester.",
+    "No record is overwritten, and every correction is initialled, dated and explained.",
+    "Missed or invalid tests are recorded as such, with the reason."
+  ],
+  "documentationEvidence": [
+    "Sample record with time, location, method and tester",
+    "Reagent batch and expiry check for each session",
+    "Correction log where a record was amended",
+    "Notice to the responsible person for any out-of-range result"
+  ],
+  "summary": [
+    "A valid pond result depends on the planned point, a clean sample, an in-date reagent and an honest record.",
+    "Never back-fill a test or overwrite an entry.",
+    "Keep reagents apart from incompatible chemicals, and follow the safety data sheet.",
+    "The client plan decides the response to an out-of-range result, and the record should show that the plan was followed."
+  ],
+  "businessFields": [
+    "{{business:materials.sds_links}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:procedures.task_steps}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pond-cleaning-L03-K01",
+      "question": "A pond test reagent has passed its expiry date, but the colour seems to match the chart. What should the tester do?",
+      "options": [
+        "Replace the reagent, take a fresh sample, retest and record the replacement",
+        "Use it, because the colour matches the chart and the reading looks right",
+        "Record the result as valid with a note about the expiry date on the bottle",
+        "Skip the record and test at the next visit, since the reagent might be fine"
+      ]
+    },
+    {
+      "id": "pond-cleaning-L03-K02",
+      "question": "A planned afternoon test was not completed. How should the record be made?",
+      "options": [
+        "Copy the morning result into the afternoon row",
+        "Record the test as not completed, with the reason",
+        "Estimate the value from the last visit",
+        "Leave the row blank with no explanation"
+      ]
+    },
+    {
+      "id": "pond-cleaning-L03-K03",
+      "question": "Where should the routine sample be taken?",
+      "options": [
+        "Directly beside the filter outlet every time, since that is where the water is moving most",
+        "From the surface film every time, since the film shows the true state of the whole pond water",
+        "At the point the client plan names, kept the same on each visit and away from the return and feeding area",
+        "Wherever is easiest to reach from the edge of the pond on the day of the visit and the job"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Managing risks of storing chemicals in the workplace (PDF)",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1902/managing-risks-of-storing-chemicals-in-the-workplace_0.pdf",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Open Safe Work Australia's guide on managing risks of storing chemicals in the workplace and read the section on incompatible chemicals and separation methods. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Your legal obligation for invasive freshwater animals",
+      "url": "https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations",
+      "pageDate": "Last updated 28 May 2026; last reviewed 27 April 2026",
+      "checked": "2026-11-03",
+      "covers": "Search qld.gov.au for 'invasive fish legal obligations' and read the sighting-report and restricted-fish sections. Publisher: Queensland Government."
+    },
+    {
+      "id": "R3",
+      "title": "Aquarium owners and trade",
+      "url": "https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Search dpi.nsw.gov.au for 'aquarium owners and trade' and read the release, dumping and prohibited-species sections. Publisher: NSW Department of Primary Industries."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Managing risks of storing chemicals in the workplace (PDF) (no date shown); Queensland Government, Your legal obligation for invasive freshwater animals (last updated 28 May 2026; last reviewed 27 April 2026); NSW Department of Primary Industries, Aquarium owners and trade (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-P1 Safe Work Australia, Managing risks of storing chemicals in the workplace (PDF), https://www.safeworkaustralia.gov.au/system/files/documents/1902/managing-risks-of-storing-chemicals-in-the-workplace_0.pdf, checked 2026-11-02, no edition date shown. Used for the principle that flammable and oxidising chemicals are incompatible and should be separated.",
+    "SRC-P2 Queensland Government, Your legal obligation for invasive freshwater animals, https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations, checked 2026-11-02, page last updated 28 May 2026. Used for the biosecurity note on restricted and prohibited fish.",
+    "SRC-P3 NSW Department of Primary Industries, Aquarium owners and trade, https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade, checked 2026-11-02, no page date shown. Used for the biosecurity note on possessing and moving prohibited and notifiable species.",
+    "research/topics/pond.md sections 2 and 7, checked 2026-11-02: sampling and water-check methods are technique points with no source checked in that pass.",
+    "UNCONFIRMED: numeric pond water-quality targets; sampling depth; biosecurity rules for states other than Queensland and New South Wales.",
+    "Official references in officialReferences were read on 2026-11-03 (R1 to R3). The SRC entries above remain as the earlier source trail."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Check the current rule for each point on the official pages listed above: Safe Work Australia, Managing risks of storing chemicals in the workplace (PDF) (no date shown); Queensland Government, Your legal obligation for invasive freshwater animals (last updated 28 May 2026; last reviewed 27 April 2026); NSW Department of Primary Industries, Aquarium owners and trade (no date shown).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-04.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-05.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    }
+  ]
+}

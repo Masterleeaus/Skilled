@@ -1,0 +1,111 @@
+{
+  "id": "SFS-13",
+  "title": "Time sheets, absences and daily routes",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "RH",
+  "estimatedMinutes": 30,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-11"
+  ],
+  "learningOutcomes": [
+    "Explain how a time sheet moves from entry to submission and approval.",
+    "Record an absence so the schedule avoids that time.",
+    "Compare a worker's planned route with the actual route for a day."
+  ],
+  "instruction": [
+    {
+      "heading": "Time sheets",
+      "body": "A time sheet records the hours a worker spent on the job. Workers can log time from their phone or tablet, and the office approves it. Sending a time sheet starts the approval process, so approval has to be configured before workers can send entries. Keep the fields simple, because the mobile view shows only a few of them. This should be tested in the field before workers rely on offline time sheets."
+    },
+    {
+      "heading": "Absences and routes",
+      "body": "An absence logs a block of days when a worker cannot take jobs, such as leave, training or sickness. Recording it stops the scheduler offering visits in that time, and the office can see gaps early. A daily route shows where a worker travelled. The planned route is what the scheduler expected, and the actual route is what the device recorded. Comparing the two helps the office spot unrealistic travel times. Tell workers about any location tracking before it starts."
+    }
+  ],
+  "procedure": [
+    "Configure the approval step for time sheets before workers begin sending them.",
+    "Set the time sheet fields visible to the field worker.",
+    "Ask each worker to submit at the agreed interval, daily or weekly.",
+    "Log absences once they are known, with the correct type.",
+    "Compare the expected path with the recorded path when travel times look wrong."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker is on a two-day training course on Tuesday and Wednesday next week.",
+      "decisionPrompt": "What record do you create, and when?",
+      "reasoning": "Create an absence of type training covering both dates once the course is confirmed. The scheduler then works around those days, and the worker's time sheet shows no field hours for them."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Logging an absence after the day has passed.",
+      "prevention": "Enter absences as soon as they are known."
+    },
+    {
+      "error": "Expecting time sheets to go through before approval is configured.",
+      "prevention": "Configure approval first and test one entry."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every absence has a type and dates.",
+    "Every submitted time sheet has a recorded approval decision."
+  ],
+  "documentationEvidence": [
+    "Approved time sheets",
+    "Absence register"
+  ],
+  "summary": [
+    "Time sheets need an approval step in place before entries can go through.",
+    "Absences keep the schedule accurate.",
+    "Compare expected and recorded routes to check travel times."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-13-K01",
+      "question": "What starts the approval process for a time sheet?",
+      "options": [
+        "The worker submitting it",
+        "The customer paying the invoice",
+        "The app being installed"
+      ]
+    },
+    {
+      "id": "SFS-13-K02",
+      "question": "Why should an absence be recorded early?",
+      "options": [
+        "So the scheduler does not offer visits in that time",
+        "So the worker's pay is doubled for the week",
+        "So the route is deleted from the system today"
+      ]
+    },
+    {
+      "id": "SFS-13-K03",
+      "question": "What does an expected route show, set against a recorded one?",
+      "options": [
+        "What the scheduler expected, compared with what the device recorded",
+        "The customer's address compared with the office address",
+        "The price of each visit on the invoice, the quote, the bill and the total"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 102-109 (time sheets, absences, routes and calendars); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: time sheet; absence; daily route (planned and actual); worker calendar (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,167 @@
+{
+  "id": "F11-L04",
+  "title": "Job planning and scheduling",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "W",
+  "estimatedMinutes": 30,
+  "audience": "Any owner, supervisor or worker who plans the day, the route and the time for jobs in any Titan Academy business.",
+  "prerequisites": [
+    "F19-L01",
+    "F05-L01"
+  ],
+  "learningOutcomes": [
+    "Estimate the time for a job using the scope, the site size and the method.",
+    "Plan a day's route so that travel, access windows and breaks are built in.",
+    "Re-plan when a job runs over, a customer changes the time or access fails."
+  ],
+  "instruction": [
+    {
+      "heading": "Estimate time from the scope",
+      "body": "Estimate time from the scope, not from the price. Count the rooms, the surfaces, the methods and the drying time. Add time for set-up, the site induction, the pre-start checks, the clean-up and the handover. Record the estimate and the basis for it, so that the next estimate can be improved from actual times. An estimate that is too short leads to rushed work, while an estimate that is too long wastes capacity."
+    },
+    {
+      "heading": "Plan the route and the day",
+      "body": "Plan the day in the order that reduces travel, respects access windows and fits the team's breaks. Keep a buffer for delay between jobs, particularly where traffic or parking is unpredictable. Group jobs in the same area where possible. Check the access times and the customer's preferred windows before confirming the order. Record the planned times so that the team and the customer have the same information."
+    },
+    {
+      "heading": "Re-plan when conditions change",
+      "body": "When a job runs over or a customer changes the time, tell the next customer as early as possible with a revised time. Do not promise a time that the team cannot meet. If access fails, record it and move the job to another slot where possible. Use the record of actual times to adjust the next estimate."
+    }
+  ],
+  "procedure": [
+    "Estimate the time from the scope, counting rooms, surfaces, methods, drying and set-up.",
+    "Record the estimate and the basis for it.",
+    "Plan the route and order of jobs, grouping by area and checking access windows.",
+    "Add a buffer for delay between jobs, and confirm times with customers.",
+    "Notify the customer and the team of any change to the planned time as early as possible.",
+    "Record the actual times and use them to improve the next estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A two-bedroom bond clean is booked at 10am, but the previous job is still running at 9.45am.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Tell the bond clean customer the revised arrival time as soon as the delay is known, and give the reason. Do not promise a time the team cannot meet. Record the revised time and adjust the route for the rest of the day."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Job schedule or booking system",
+    "Phone for customer communication"
+  ],
+  "commonErrors": [
+    {
+      "error": "Estimating time from the price rather than the scope.",
+      "prevention": "Estimate from the scope, the site size and the method."
+    },
+    {
+      "error": "Planning every job back to back with no buffer.",
+      "prevention": "Add a buffer for delay between jobs."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Time pressure is a hazard. A plan that requires shortened drying, contact or set-up times must be re-planned, because rushed work increases the risk of slips, product misuse and incomplete checks.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each job has a recorded time estimate and its basis.",
+    "The route includes travel, access windows and buffer time.",
+    "Every change is communicated to the customer and the team and recorded."
+  ],
+  "documentationEvidence": [
+    "Schedule record with estimates, planned times and actual times.",
+    "Record of any change to a planned time and the reason."
+  ],
+  "summary": [
+    "Estimate time from the scope and record the basis.",
+    "Plan the route with access windows and buffer time.",
+    "Re-plan early when conditions change, and use actual times to improve."
+  ],
+  "businessFields": [
+    "{{business:jobs.scheduling_method}}",
+    "{{business:jobs.arrival_procedure}}",
+    "{{business:jobs.time_tracking}}",
+    "{{business:customers.communication_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F11-L04-K01",
+      "question": "What should a time estimate be based on?",
+      "options": [
+        "The price of the job and the budget.",
+        "The scope, the site size and the method.",
+        "The worker's mood that day and the weather."
+      ]
+    },
+    {
+      "id": "F11-L04-K02",
+      "question": "A job runs over. What is the correct action?",
+      "options": [
+        "Say nothing and rush the next job and hope the client does not notice",
+        "Promise the next customer the original time anyway today",
+        "Tell the next customer early with a revised time they can rely on."
+      ]
+    },
+    {
+      "id": "F11-L04-K03",
+      "question": "What does the lesson say a day's plan should keep between jobs?",
+      "options": [
+        "No time at all, to finish sooner",
+        "Only the travel time to the next job",
+        "A buffer for delay between jobs",
+        "A surprise visit to a new client"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Titan Academy base source draft F11-L04 is not in the ready set; written from the catalogue description. No external regulatory claim made."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

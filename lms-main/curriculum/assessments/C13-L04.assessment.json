@@ -1,0 +1,42 @@
+{
+  "lessonId": "C13-L04",
+  "knowledgeAnswers": [
+    {
+      "id": "C13-L04-K01",
+      "correctIndex": 2,
+      "rationale": "An inconspicuous area protects the visible surface if the product reacts. The middle or the most visible spot is the wrong place for a test."
+    },
+    {
+      "id": "C13-L04-K02",
+      "correctIndex": 1,
+      "rationale": "A wet test can look different from a dry one, so the result is judged after the area has dried fully."
+    },
+    {
+      "id": "C13-L04-K03",
+      "correctIndex": 1,
+      "rationale": "Bleed means the product is not used on the main area. The result is recorded and a different approved method is tested."
+    },
+    {
+      "id": "C13-L04-K04",
+      "correctIndex": 1,
+      "rationale": "Products are not mixed, because the result cannot be predicted. The request is refused and recorded."
+    }
+  ],
+  "practicalCriteria": [
+    "Tests the planned product on an inconspicuous area of a sample upholstery panel, using the same dilution and method planned for the main area.",
+    "Judges the test only after the area has dried fully, and identifies a simulated bleed on a white cloth.",
+    "Records the product, dilution, test area, drying time and result, and does not use the product on the main area after the simulated bleed.",
+    "Refuses a simulated request to mix two products, and records the refusal."
+  ],
+  "passRule": "Test done on the correct area, judged after drying, simulated bleed identified and the product rejected, mixing refused, and the record complete. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Test record with product, dilution, area, drying time and result",
+    "Photographs of the test area before and after drying, taken with permission",
+    "Assessor observation sheet"
+  ],
+  "stopWorkCriteria": [
+    "Product used on the main area after a failed test",
+    "Products mixed",
+    "A product used with no label or no current safety data sheet on file"
+  ]
+}

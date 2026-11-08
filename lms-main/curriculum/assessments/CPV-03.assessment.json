@@ -1,0 +1,33 @@
+{
+  "lessonId": "CPV-03",
+  "knowledgeAnswers": [
+    {
+      "id": "CPV-03-K01",
+      "correctIndex": 1,
+      "rationale": "A worst-case selection tests the hardest realistic situation, so that a method that passes it is expected to pass the easier ones."
+    },
+    {
+      "id": "CPV-03-K02",
+      "correctIndex": 2,
+      "rationale": "These areas are awkward to clean, and the guide wants them swabbed with a stated reason."
+    },
+    {
+      "id": "CPV-03-K03",
+      "correctIndex": 3,
+      "rationale": "With one product, there are fewer carry-over products to assess, although a cleaning procedure is still needed."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner names the worst-case product for a two-product item and gives the reason (pass: choice and reason recorded).",
+    "Learner names three awkward areas and justifies each (pass: three areas with reasons)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Worst-case selection note for one item",
+    "Hard-to-clean area list with reasons"
+  ],
+  "stopWorkCriteria": [
+    "A product is potent or toxic and the handling controls are not known.",
+    "A configuration cannot be inspected or sampled safely."
+  ]
+}

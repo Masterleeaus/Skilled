@@ -1,0 +1,140 @@
+{
+  "id": "HCG-04",
+  "title": "Detergent first: physical cleaning before any disinfectant",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaning staff who apply disinfectants to surfaces in healthcare settings.",
+  "prerequisites": [
+    "HCG-02",
+    "HCG-03"
+  ],
+  "learningOutcomes": [
+    "Explain why hands-on or machine cleaning must come before any disinfectant.",
+    "Choose between a two-step and a two-in-one clean for a given surface.",
+    "Identify the situations in which a disinfectant is needed."
+  ],
+  "instruction": [
+    {
+      "heading": "Physical cleaning comes first",
+      "body": "The guideline regards physical cleaning as the single most important step. Surfaces are wiped or scrubbed with a detergent mix before any disinfectant goes on. A disinfectant used alone, without the physical clean, is not recommended, because it does not lift the soil that can shelter organisms, and a treated-looking surface can still be carrying them."
+    },
+    {
+      "heading": "When a disinfectant is needed",
+      "body": "In acute wards, a disinfectant goes on when it is uncertain whether a stain is blood or plain dust, or when a multi-resistant organism, Clostridium difficile or an infection needing extra precautions is present or suspected. In offices and quieter settings such as long-term care, the facility judges the need for disinfectant from the odds of contamination, the way the bug travels and the danger to other people."
+    },
+    {
+      "heading": "Two accepted methods",
+      "body": "A two-step clean runs a detergent pass, then a disinfectant pass. A two-in-one clean uses one blended detergent and disinfectant product, such as a combined wipe or liquid, but only when real wiping action is applied rather than spraying alone. Any disinfectant must be on the Therapeutic Goods Administration register and carry label claims for the microbe in question."
+    },
+    {
+      "heading": "Chemical hazards during this work",
+      "body": "Disinfectants are chemicals. Read the label and the safety data sheet before use, wear the protective equipment they call for, ventilate as the label directs, and do not combine products unless the label allows it. This lesson gives no mixing ratios or contact times. Use the label and the facility's approved instruction for each product."
+    }
+  ],
+  "procedure": [
+    "Check whether the area is acute or non-acute and whether an organism alert applies.",
+    "Clean the surface physically with a detergent mix first, using friction and a clean cloth.",
+    "Rinse or wipe away residue as the product directs, where the method requires it.",
+    "Apply the disinfectant the facility has approved for the organism, observing the wet contact time on the label.",
+    "Let the surface dry. Do not wipe the disinfectant off early unless the label says to.",
+    "Log the product name, the method (two-step or two-in-one) and the area."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A treatment room trolley handle has a smear of blood. The area is an acute ward and no organism alert applies.",
+      "decisionPrompt": "Which method should you use, and what comes first?",
+      "reasoning": "Begin by scrubbing away the visible dirt with detergent. Next, apply the facility-approved disinfectant as the label describes. Since the soil here is blood, the scrubbing is what lifts the organic material."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Disposable gloves, chosen from the product safety data sheet",
+    "Eye protection where splashing is possible",
+    "Clean cloths and a detergent mix",
+    "Labelled, TGA-listed disinfectant approved by the facility"
+  ],
+  "commonErrors": [
+    {
+      "error": "Spraying a disinfectant on and walking away.",
+      "prevention": "Always clean physically first. Wipe with contact, then apply the disinfectant and leave it for the label's wet contact time."
+    },
+    {
+      "error": "Treating every mark as a disinfection job.",
+      "prevention": "Follow the facility's rule for when a disinfectant is needed; do not add one for routine dust."
+    },
+    {
+      "error": "Using a disinfectant wipe and assuming it lifts all the soil.",
+      "prevention": "A combined wipe counts only with real mechanical action, and only on the surfaces the label covers."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Work with the ventilation the facility provides and follow the label for the room, the gloves and the eye protection.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Never combine two cleaning or disinfecting chemicals, because mixing can release hazardous fumes. Confirm the precautions against each safety data sheet.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Learner shows physical cleaning before any disinfectant on each surface.",
+    "Learner states the reason a disinfectant is or is not required for the area.",
+    "Product name and method are logged for each disinfected surface."
+  ],
+  "documentationEvidence": [
+    "Log entry naming the product, the method (two-step or two-in-one) and the area",
+    "Record of any unclear soil and the decision made about it"
+  ],
+  "summary": [
+    "Physical cleaning with detergent is done before any disinfectant, every time.",
+    "Disinfectant use depends on the setting, the soil and the organism concerned.",
+    "Two-step and two-in-one methods are both valid, but two-in-one requires real mechanical action."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HCG-04-K01",
+      "question": "Why must a surface be physically cleaned before a disinfectant is applied?",
+      "options": [
+        "Because the disinfectant works better on a dry surface and it dries faster on bare benches",
+        "Because physical cleaning removes soil, and a disinfectant alone is not a substitute for it.",
+        "Because the label requires a second person to be present and a supervisor must sign the form",
+        "Because detergent makes the disinfectant safer to handle and it makes the bench look neater"
+      ]
+    },
+    {
+      "id": "HCG-04-K02",
+      "question": "Which is a valid two-in-one clean?",
+      "options": [
+        "Spraying a disinfectant over dusty shelves and leaving it to dry.",
+        "Wiping a surface with a combined detergent and disinfectant wipe, using mechanical action.",
+        "Pouring disinfectant into a bucket and placing a mop in it without wringing it.",
+        "Using a disinfectant on a surface that was rinsed with water only."
+      ]
+    },
+    {
+      "id": "HCG-04-K03",
+      "question": "In an office-based or long-term care area, how is the need for a disinfectant decided?",
+      "options": [
+        "It is required each day by default, with no assessment needed and it is recorded on the sheet",
+        "It is required only inside an acute hospital, by default and never in offices or clinics at all",
+        "The facility weighs the chance of contamination, the spread route and the danger to others before choosing.",
+        "The cleaner decides by smell and the colour of the surface, the time of day and the staff rota"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, B1.4.2, B2.1.3, Table B1.11; rights: not held by user; reworded (no copying)",
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, B1.4.3 (disinfectant use in spills); rights: not held by user; reworded (no copying)",
+    "Source priority: the NHMRC guideline is an official Australian source. Where it conflicts with informal or in-house cleaning advice, the guideline governs the points this lesson relies on.",
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, edition note: the 2019 edition is the current edition (NHMRC, https://www.safetyandquality.gov.au/sites/default/files/2026-05/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf; CONFIRMED in the figures register, checked 2026-11-02); the uploaded copy read on 2026-11-02 is the 2010 edition, so points taken from it are UNCONFIRMED against the 2019 text. The existing aged-care and medical-equipment lessons cite the 2019 edition.",
+    "UNCONFIRMED: TGA listing details of individual disinfectant products and the current status of the named Therapeutic Goods Order. Not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

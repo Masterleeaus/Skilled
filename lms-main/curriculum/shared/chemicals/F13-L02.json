@@ -1,0 +1,196 @@
+{
+  "id": "F13-L02",
+  "title": "Product selection and evidence",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Any owner, supervisor or worker who chooses products for a business that wants lower environmental impact in any Titan Academy business.",
+  "prerequisites": [
+    "F16-L01",
+    "F03-L01"
+  ],
+  "learningOutcomes": [
+    "Compare products on the evidence the label, SDS and supplier provide, rather than on marketing claims.",
+    "Identify the information that supports a sustainability claim and what it does not prove.",
+    "Record the product choice and the evidence used to make it."
+  ],
+  "instruction": [
+    {
+      "heading": "Environmental claims need evidence",
+      "body": "Many products carry claims such as biodegradable, low toxicity, plant-based, recyclable or certified. A claim is useful only when it can be checked. Ask what the claim refers to, what standard or test supports it, who verified it and whether it applies to the product as sold. A biodegradable claim may refer to a single ingredient, under specific conditions, and not to the whole product. Treat a claim without a source as unverified."
+    },
+    {
+      "heading": "What the label and SDS tell you",
+      "body": "The label and SDS give the hazards, the handling information, the disposal advice and the ecological information where it is provided. The ecological section of an SDS may give information about aquatic toxicity and persistence. Compare the hazard statements, the signal words and the disposal guidance between products. A product with fewer hazards and simpler disposal may be a better choice, provided it still does the job. Check the supplier's data and the date of the information."
+    },
+    {
+      "heading": "Record the choice",
+      "body": "Record the product, the reason for choosing it, the evidence used and the date. This creates a record the business can review, and it helps when a product is changed or a customer asks why a product was used. Keep a short list of approved products with their evidence, and review the list when a new product or a new claim is presented."
+    }
+  ],
+  "procedure": [
+    "Identify the claim and ask what it refers to, the standard or test behind it, and who verified it.",
+    "Read the label and SDS for hazard statements, signal word, handling and disposal guidance.",
+    "Read the ecological information in the SDS where it is provided.",
+    "Compare the product with the approved list and with the job requirement.",
+    "Record the product, the reason, the evidence and the date.",
+    "Review the approved list when a new product or claim is presented."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supplier says a product is 'fully biodegradable'. The label has a hazard statement about eye damage and the SDS has no ecological data.",
+      "decisionPrompt": "Can you approve the product on the strength of the claim?",
+      "reasoning": "No. The claim does not say what it refers to, the hazard remains, and there is no ecological evidence in the SDS. Ask the supplier for the test standard and the ecological data. Do not approve the product until the evidence is received, and continue to use the eye protection the label requires."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Current labels and SDS for each product",
+    "Approved product list with evidence",
+    "Records system for product choices"
+  ],
+  "commonErrors": [
+    {
+      "error": "Approving a product because the marketing says it is green.",
+      "prevention": "Ask for the evidence behind each claim and check the SDS and label."
+    },
+    {
+      "error": "Assuming a low-hazard product also has low environmental impact.",
+      "prevention": "Read the ecological information in the SDS and consider disposal and dosing."
+    },
+    {
+      "error": "Changing products without recording the reason.",
+      "prevention": "Record the product, the reason, the evidence and the date for each change."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Labels and SDS are the primary source for a product's hazards. Safe Work Australia's hazardous chemicals register page says the register must include the current safety data sheet (SDS) for each chemical listed, and that the register's information must be kept up to date. WorkSafe Victoria's hazardous substances page tells employers to obtain material safety data sheets (MSDS) for all dangerous goods and hazardous chemicals at the workplace and to ensure employees have access to them. That page uses the term MSDS and does not say the sheet must be current, so the current-SDS duty comes from the Safe Work Australia page.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Environmental and waste rules for products, including trade waste and water discharge limits, depend on the local council and water authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every product on the approved list has a current label and SDS on file.",
+    "Each environmental claim is recorded with the evidence, or recorded as unverified.",
+    "Product changes are recorded with the reason and date."
+  ],
+  "documentationEvidence": [
+    "Approved product list with the evidence for each claim and the review date.",
+    "Record of each product choice and the reason."
+  ],
+  "summary": [
+    "Ask what each environmental claim refers to, and what evidence supports it.",
+    "Use the label and SDS, including ecological data where provided, to compare products.",
+    "Record the choice and the evidence, and review when claims change."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:procedures.approved_sop}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F13-L02-K01",
+      "question": "A supplier says a product is biodegradable. What should you ask first?",
+      "options": [
+        "Whether it smells nice in use and in the room for the crew today",
+        "Whether the product smells pleasant and looks clean in use.",
+        "What the claim refers to, the test standard and who verified it."
+      ]
+    },
+    {
+      "id": "F13-L02-K02",
+      "question": "What should be recorded when a product is chosen?",
+      "options": [
+        "The product, the reason, the evidence and the date.",
+        "Nothing, unless a customer asks.",
+        "The price, the supplier's sales pitch and the brand on the label."
+      ]
+    },
+    {
+      "id": "F13-L02-K03",
+      "question": "What may a biodegradable claim refer to, according to the lesson?",
+      "options": [
+        "The whole product in every condition",
+        "A single ingredient, under specific conditions",
+        "The packaging only",
+        "The price of the product"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (Safe Work Australia, no page date shown; checked 2026-11-02; SDS duty)",
+    "https://www.worksafe.vic.gov.au/hazardous-substances (WorkSafe Victoria, reviewed 19/05/2026; checked 2026-11-02; SDS duty)",
+    "Environmental labelling standards and certification schemes are UNCONFIRMED in this lesson. Trade waste and water discharge rules are UNCONFIRMED."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemicals register (Safe Work Australia)",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read directly on 2026-11-03 (no last-updated date is shown on the page; the only date is the 2011 model WHS laws reference, which is not a page update). Says the hazardous chemicals register must include the current safety data sheet (SDS) for each chemical listed, that the information in the register must be kept up to date, and that it must be kept where people can easily reach it. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Hazardous substances (WorkSafe Victoria)",
+      "url": "https://www.worksafe.vic.gov.au/hazardous-substances",
+      "pageDate": "Reviewed on 19/05/2026 (the page was last updated on 19 May 2026, the only update date shown)",
+      "checked": "2026-11-03",
+      "covers": "Says employers must obtain material safety data sheets (MSDS) for all dangerous goods and hazardous chemicals at the workplace and make them available to employees. The page uses the term MSDS and does not say that the sheet must be kept current, so the current-SDS wording in this lesson is not supported by this page alone. Publisher: WorkSafe Victoria. Read through a summary fetch in this pass, not checked against the page text directly."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

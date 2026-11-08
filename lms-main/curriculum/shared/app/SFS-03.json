@@ -1,0 +1,111 @@
+{
+  "id": "SFS-03",
+  "title": "Opening hours, blocks and shifts",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-02"
+  ],
+  "learningOutcomes": [
+    "Set working hours for a worker or an area, including time slots.",
+    "Choose between regular working hours and a shift for a given pattern of cover.",
+    "Explain how a shift's status changes what the scheduler uses."
+  ],
+  "instruction": [
+    {
+      "heading": "Opening hours and time blocks",
+      "body": "Working hours tell the scheduler when a worker or an area can take a visit. This same record type can also capture a customer's arrival window or time preference, which makes it useful in several ways. A time slot carves out a block inside those hours, such as a morning block set aside for one type of job. Hours can be set for an area, and a worker's own hours can override them. Keep hours realistic, because the scheduler treats them as fixed until someone changes them."
+    },
+    {
+      "heading": "Shifts for irregular cover",
+      "body": "A shift suits work that does not follow a fixed weekly pattern, such as on-call duty, overtime or a contractor who works an agreed set of days. A shift runs from a beginning to a finish in the area's time zone, and it may name an area, a worker and a status. A tentative shift is still being planned. A published shift is ready to hand to the worker. A confirmed shift has a named worker, and the scheduler takes confirmed shifts into account. A shift can also be marked as extended time, meaning it falls outside normal working hours."
+    }
+  ],
+  "procedure": [
+    "Set the normal working hours for each area, and for each worker whose hours differ from the area.",
+    "Add time slots where a type of job needs a fixed block, such as an early start.",
+    "Create shifts only for dates where cover is irregular.",
+    "Set each shift to tentative, published or confirmed according to what the worker has agreed.",
+    "Check that every confirmed shift names a worker, and that the worker belongs to the shift's area if one is set."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A carpet cleaner works Tuesday and Friday as usual, but covers an on-call Saturday every fourth week.",
+      "decisionPrompt": "Do you change the regular hours or add a shift?",
+      "reasoning": "Regular hours describe the usual pattern. The Saturday cover is irregular, so it belongs in a shift. Confirm it only once the worker has agreed to it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting a shift to confirmed before any worker is named.",
+      "prevention": "Only confirm a shift after a worker is attached to it."
+    },
+    {
+      "error": "Setting a worker's hours to differ from their area without a reason.",
+      "prevention": "Add a short note explaining why the hours differ."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each worker has their own hours or inherits the area hours.",
+    "No confirmed shift is missing a worker."
+  ],
+  "documentationEvidence": [
+    "Working hours record per area and per worker",
+    "Shift list with status and assigned worker"
+  ],
+  "summary": [
+    "Working hours set what the scheduler is allowed to use.",
+    "Shifts cover irregular times and each needs a status.",
+    "A confirmed shift with a named worker is the one the scheduler counts."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-03-K01",
+      "question": "Which shift status does the scheduler take into account?",
+      "options": [
+        "Tentative",
+        "Confirmed",
+        "Published"
+      ]
+    },
+    {
+      "id": "SFS-03-K02",
+      "question": "A worker is on call for irregular weekend cover. Which record fits best?",
+      "options": [
+        "A shift",
+        "Standard",
+        "Template"
+      ]
+    },
+    {
+      "id": "SFS-03-K03",
+      "question": "What does a time slot do?",
+      "options": [
+        "Sets the price of a visit for the client, the crew and the day",
+        "Marks a block of time inside working hours for a type of work",
+        "Records when a worker clocks in and clocks out each day"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 22-28 (working hours); pp. 96-101 (shifts); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: working hours (operating hours); time slot; shift; worker availability (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,178 @@
+{
+  "id": "PHM-09",
+  "title": "Home pool troubleshooting and liner repair",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 50,
+  "audience": "Pool service technicians who diagnose common faults on home pools and carry out basic liner repairs",
+  "prerequisites": [
+    "pool-cleaning-L10"
+  ],
+  "learningOutcomes": [
+    "Diagnose low and high filter pressure, air bubbles, cloudy water and slippery surfaces using the checks in the handbook",
+    "Separate the faults a service worker may check from faults that need a licensed electrical, gas or heater person",
+    "Carry out a basic patch repair to a vinyl liner using the method and the precautions described",
+    "Record each fault, the checks made, the result and any referral"
+  ],
+  "instruction": [
+    {
+      "heading": "A set order for diagnosis",
+      "body": "Most faults on a home pool have a simple cause. Work through the checks in a fixed order: water level, flow to the pump, baskets and strainer, valves, the filter gauge, then the chemistry. Most faults show up in the first three. The UK handbook lists likely causes for each symptom, and that list is a useful reference, but it is a guide to thinking rather than a sequence of fixes to apply without judgment. Record each check, its result and any change you make. Electrical, gas and heater faults fall under the licence rules in “Home pool heating systems: operation and safe limits”, and electrical checks on the pump are covered in “Electrical connection, bonding and motor safety for a pool pump”."
+    },
+    {
+      "heading": "Pressure, flow and air",
+      "body": "A low gauge reading usually points to a shut valve, a full basket or a falling water level. A high reading usually points to a dirty filter or a closed return valve. If the gauge has risen, backwash as “Sand filter backwash, rinse and return to filter” describes. If the reading does not come down after a correct backwash, refer it. Air bubbles entering through an inlet just after the pump starts, or after a backwash, are normal for a short time and should clear once the flow settles. If they continue, check the water depth and the seal on the strainer lid. A persistent air leak on the intake side needs referral, because it may point to a defective joint or valve."
+    },
+    {
+      "heading": "Cloudy water and slippery surfaces",
+      "body": "Cloudy water means the usual sanitiser reading cannot be relied on until the water clears. Check pH and sanitiser first. The handbook suggests a heavy shock dose may be needed, which is an operator decision under the plan. Keep the filter running until the water clears, and use a flocculant only where the plan allows. A slippery floor or wall usually means algae is starting. Check pH and sanitiser, then follow the algae treatment on the product label. Do not use a product the plan does not include."
+    },
+    {
+      "heading": "Patching a vinyl liner",
+      "body": "The handbook describes a patch that can be fitted while the pool has water in it. Cut a patch a little wider than the opening, then ease off its corners, and spread the adhesive named by the liner maker onto it. Place the patch across the hole and smooth it outwards from the centre to push the water out, so that water pressure helps hold it in place. Keep the patch dry while the adhesive cures, for the time the instructions give. Sharp objects are a common cause of liner damage, so ask the owner to keep sharp toys above the waterline. Large tears, seams and any liner replacement go to the liner maker or a qualified installer."
+    },
+    {
+      "heading": "Electrical, gas and heater faults",
+      "body": "The UK handbook says that if an electric motor refuses to start, the fuse should be checked, and that a humming motor may have a jammed impeller. In that case, cut the power and refer the fault. The handbook also notes that a heater can trip after a power interruption, after low flow, or because the thermostat is at below the pool temperature. Reset the time clock and check the flow before anything else. Gas, electrical and oil faults need a licensed person, and this lesson grants no licence for them. Do not open an electrical enclosure or gas control to look for a fault."
+    }
+  ],
+  "procedure": [
+    "Record the symptom, the time and the readings at the beginning of the visit.",
+    "Confirm the water level, the water flow to the pump together with the baskets and strainer, in that order.",
+    "Check the valve positions, then the filter gauge against the clean-running reading.",
+    "Check pH and sanitiser, and record the readings with time and method.",
+    "If the symptom remains, carry out only the checks in this lesson and the cross-referenced lessons.",
+    "For any electrical, gas or heater fault, turn off the electrical supply where it is safe to do so, and refer the fault.",
+    "For a liner patch, use the adhesive and method named by the liner maker, and keep the patch dry while it sets.",
+    "Record the fault, the checks made, the change made and the referral with its time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The pump cannot start. The owner says the motor hums when the switch is pressed.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "Do not open the motor or the electrical enclosure. Check the fuse only if it is safe and the supply is isolated, and record the reading. A humming motor can mean a jammed impeller. Turn off the electrical supply and refer the fault to a licensed electrician or the maintenance company."
+    },
+    {
+      "situation": "The water looks cloudy and the plan's disinfectant range is met. The owner asks you to add a flocculant from the shed.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Test the pH and sanitiser first, since cloudy water changes which readings apply. Keep the filter running continuously. Do not add a product that the plan does not include or that you cannot identify from its label. Record the cloudiness, the readings and the advice given, and refer the flocculant choice to the operator."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Test kit for sanitiser and pH, with reagents within date",
+    "Gauge reference for the filter",
+    "Liner patch kit as specified by the liner maker, with adhesive and cutting tools",
+    "Gloves and eye protection for chemical or adhesive work",
+    "Torch and record sheet for the fault and checks"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating every fault as a chemical problem",
+      "prevention": "Work through the level, flow, baskets and valves first."
+    },
+    {
+      "error": "Repeating a reset without checking the cause",
+      "prevention": "Check the flow and cause first. Refer any repeated trip."
+    },
+    {
+      "error": "Adding a product from the shed to fix cloudy water",
+      "prevention": "Only use products named in the plan, with their label and safety data sheet."
+    },
+    {
+      "error": "Working inside an electrical enclosure or gas control",
+      "prevention": "Refer electrical and gas faults to the licensed person."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Turn off the electrical supply before any inspection of the pump or motor, and refer any fault where the motor fails to start or hums.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do avoid harsh domestic cleaners, concentrated acids, steel wool or a metal-bristle brush on a liner, as they damage the finish.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not exceed the water temperature limit given by the liner maker.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Avoid using the pool while the water is too cloudy to see the bottom, and do not treat cloudy water as safe on the strength of a test reading.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Electrical, gas and heater repairs are restricted to licensed persons. This lesson does not grant that licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Adhesives and pool chemicals are hazardous products. Read the label and the safety data sheet, and wear the protective equipment they require.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each fault is recorded with the symptom, the checks made in order, the result and the change made.",
+    "No electrical, gas or heater component is opened or adjusted by an unlicensed person.",
+    "A liner patch is made with the maker's adhesive and method, and the result is recorded."
+  ],
+  "documentationEvidence": [
+    "Fault record with symptom, check results and changes",
+    "Test readings with time and method",
+    "Liner patch record with location, size and adhesive used",
+    "Referral note for electrical, gas, heater or large liner repairs"
+  ],
+  "summary": [
+    "Check level, flow, baskets, valves and gauge in that order before anything else.",
+    "Cloudy water and slippery surfaces both start with the pH and sanitiser checks.",
+    "Electrical, gas and heater faults are referred to the licensed person, every time."
+  ],
+  "businessFields": [
+    "{{business:procedures.task_steps}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PHM-09-K01",
+      "question": "A pump will not start and the motor hums. What is the correct action?",
+      "options": [
+        "Cut the power and refer the fault, since a seized rotor is possible",
+        "Run the pump on a test cord for a longer period to free the impeller",
+        "Remove the fuse and leave the pump off until the next visit",
+        "Open the motor housing and clear the impeller"
+      ]
+    },
+    {
+      "id": "PHM-09-K02",
+      "question": "Water is cloudy and the disinfectant reading is within the plan. What should be checked first?",
+      "options": [
+        "Whether a flocculant can be added from the shed and how much to add",
+        "The pH and sanitiser reading, since cloudy water changes which readings apply",
+        "Whether the owner wants the pool to look clear for guests and how many guests are coming",
+        "Whether the pump can run at reduced speed and the filter can be left alone"
+      ]
+    },
+    {
+      "id": "PHM-09-K03",
+      "question": "What is the correct method for a basic patch repair to a vinyl liner?",
+      "options": [
+        "Press from the outside edge inward and leave the patch unsealed and then fill the hole with water and wait a full day",
+        "Use any household adhesive that is available on the day and press the patch on hard for a long time while it is still wet",
+        "Cut a patch a bit wider than the opening, then ease off its corners, apply the maker's adhesive, and smooth it outwards from the centre",
+        "Cut the patch to match the hole exactly and leave the water out and the pool is then refilled at once with cold water"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), section 10 Troubleshooting (pump priming, general faults, heater faults, cloudy water, slippery surfaces and liner holes), section 6 on pH and sanitiser, and section 5 on backwashing; rights: user-held; reworded (no copying); checked 2026-11-02. UK handbook; not an Australian source.",
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section J Trouble Shooting (heading only in the source text) and section D Component Care (inspection of components); rights: user-held; reworded (no copying); checked 2026-11-02. The manual's troubleshooting section has no content in the source text; only the component inspection points are used.",
+    "Swimming Pool Operations and Management (textbook), section Water Chemistry (chlorine and pH interaction, which is why one correction can disturb another); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "UNCONFIRMED: Australian licensing for electrical, gas and heater repairs and the rules for liner repair. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

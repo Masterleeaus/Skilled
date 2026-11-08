@@ -1,0 +1,321 @@
+{
+  "id": "TPL-09",
+  "title": "Staff performance review (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Growing and managing a team",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 60,
+  "audience": "Owners and supervisors who review the work of people in their team",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Rate each chosen standard against dated, sourced evidence",
+    "Record the staff member's own evidence and comments before the rating is final",
+    "Write an improvement plan with actions, support, a measure and a due date"
+  ],
+  "instruction": [
+    {
+      "heading": "Start from written standards",
+      "body": "A performance review compares what a person did with the standards the business has written for their role. If standards are not written down, the review becomes a judgement about personality, which is unfair and hard to defend. Before the review, collect the role description, the standards in the induction record, and any procedures the person must follow. Choose the standards that matter for this period, usually a handful, rather than every item in the role. Each standard should be something that can be observed, such as following the job checklist, completing records on time, or handling a customer concern under the complaints procedure."
+    },
+    {
+      "heading": "Evidence, rating and fairness",
+      "body": "For each standard, record the evidence you have, its type, its date and its source. Evidence might be a completed checklist, an entry in the complaint log, an observation made on site, or a customer comment. Rate each standard on the scale the business has defined, and write a comment that links the rating to the evidence. Give the person a chance to add their own evidence and comments before the review is finished. Do not rate on evidence you have not seen. If a single incident is used, say so and give its date, rather than letting it stand for the whole period."
+    },
+    {
+      "heading": "Improvement plans and the next review",
+      "body": "Where a standard is not met, write a plan with one or two actions the person can take, the support the business will provide, a measure that shows improvement, and a due date. Agree the plan with the person rather than handing it to them. Set the next review date. If a performance concern is serious or repeated, the business disciplinary procedure and the employment obligations that apply must be followed."
+    }
+  ],
+  "procedure": [
+    "Collect the role description and written standards for the review period.",
+    "Choose the standards to review, and list them in the table.",
+    "For each standard, record the evidence, its type, date and source.",
+    "Rate each standard on the business scale and write a comment that links the rating to the evidence.",
+    "Record strengths, each with its evidence.",
+    "Record areas for improvement, each with its evidence.",
+    "Agree an improvement plan with actions, support, a measure and a due date for each.",
+    "Give the staff member the opportunity to comment and add evidence, and record their response.",
+    "Set the next review date and record both signatures."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew member is rated as not meeting the standard for completing records. The supervisor has one customer complaint about a missed sign-off, but has not yet reviewed the records for the period.",
+      "decisionPrompt": "What evidence should be gathered before the rating is recorded, and how should the complaint be used?",
+      "reasoning": "The rating should rest on the records for the whole period, sampled and dated, rather than on one complaint. The complaint can be recorded as one piece of evidence, labelled with its date and source. The supervisor should check whether the sign-off was actually missed or whether the customer was not present when the work was inspected. The crew member should see the evidence and be invited to respond before the rating is final. The improvement plan should target the record-completion process, with a measure that can be checked at the next review."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Role description and written standards",
+    "Job checklists, complaint log entries and other evidence for the period",
+    "The business rating scale",
+    "PPE: not applicable"
+  ],
+  "commonErrors": [
+    {
+      "error": "Rating a person on personality or on a single event.",
+      "prevention": "Rate each written standard against dated evidence for the whole period."
+    },
+    {
+      "error": "Using evidence the staff member has not seen.",
+      "prevention": "Share the evidence and invite comment before the rating is final."
+    },
+    {
+      "error": "Writing an improvement plan with no measure or no date.",
+      "prevention": "Each action has a measure, a support item and a due date."
+    },
+    {
+      "error": "Skipping the staff member's comments.",
+      "prevention": "Record their comments in their own words, or record that they declined to comment."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Performance management, disciplinary steps and records kept about employees are governed by employment obligations that vary. Check the current obligations before any formal step.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Where the role includes licensed or authorised tasks, the review should check that the person still holds the required authorisation. This template does not confirm or grant any licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each rated standard is written down and can be observed",
+    "Each rating is linked to dated, sourced evidence",
+    "The staff member's response is recorded",
+    "The improvement plan has actions, support, measures and due dates"
+  ],
+  "documentationEvidence": [
+    "Completed review with the evidence list and its dates",
+    "Signed improvement plan, if one is set",
+    "Record of the staff member's comments and both signatures"
+  ],
+  "summary": [
+    "Rate against written standards, not personality.",
+    "Link every rating to dated evidence.",
+    "The staff member sees the evidence and can respond.",
+    "Plans need actions, support, measures and dates."
+  ],
+  "businessFields": [
+    "{{business:staff.role}}",
+    "{{business:staff.supervisor_contact}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:quality.inspection_checklist}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "TPL-09-T01",
+      "title": "Staff performance review",
+      "purpose": "Rates the chosen written standards against dated evidence, records the staff member's response, and sets an improvement plan where needed.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Staff member, role and reviewer",
+          "type": "text",
+          "prompt": "Enter the staff member's name, role and the reviewer's name.",
+          "guidance": "Reviewer has the authority to review this role.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Review period start",
+          "type": "date",
+          "prompt": "Enter the first day of the period under review.",
+          "guidance": "The period is stated, and not longer than the business review cycle.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Review period end",
+          "type": "date",
+          "prompt": "Enter the last day of the period under review.",
+          "guidance": "Matches the start of the period and the evidence used.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Standards reviewed",
+          "type": "table",
+          "prompt": "One row per standard. Columns: standard (from the role description), evidence used, evidence date and source, rating on the business scale, comment linking the rating to the evidence.",
+          "guidance": "Every standard comes from the written role description or procedures.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Strengths with evidence",
+          "type": "longtext",
+          "prompt": "Describe each strength and the evidence for it.",
+          "guidance": "Each strength is tied to a dated item in the standards table.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Areas for improvement with evidence",
+          "type": "longtext",
+          "prompt": "Describe each area for improvement and the evidence for it.",
+          "guidance": "Each area is tied to a dated item and a standard.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Improvement plan",
+          "type": "table",
+          "prompt": "One row per action. Columns: action, support the business will provide, measure of improvement, due date.",
+          "guidance": "Each action has all four columns completed.",
+          "required": false
+        },
+        {
+          "fieldId": "f8",
+          "label": "Staff member's comments and additional evidence",
+          "type": "longtext",
+          "prompt": "Record the staff member's comments and any evidence they provided, in their own words.",
+          "guidance": "Recorded even if the staff member declined to comment, with that statement.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Overall summary",
+          "type": "longtext",
+          "prompt": "Write a short summary that refers only to the standards rated above.",
+          "guidance": "Introduces no new standard or evidence.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Next review date",
+          "type": "date",
+          "prompt": "Enter the date of the next review.",
+          "guidance": "A date that allows the improvement measures to be checked.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Signatures",
+          "type": "text",
+          "prompt": "Enter the reviewer's name and date, and the staff member's name and date. If the staff member did not sign, record the reason.",
+          "guidance": "Both signatures or the recorded reason.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Standards come from written sources",
+      "levels": {
+        "meets": "Each rated standard can be traced to the role description or a written procedure.",
+        "does_not_meet": "A standard is invented for the review, or cannot be traced to a written source."
+      }
+    },
+    {
+      "criterion": "Ratings link to dated evidence",
+      "levels": {
+        "meets": "Each rating shows its evidence, date and source, and the comment explains the link.",
+        "does_not_meet": "A rating has no evidence, or the evidence has no date or source."
+      }
+    },
+    {
+      "criterion": "Staff member can respond",
+      "levels": {
+        "meets": "The staff member's comments are recorded, or a statement that they declined to comment is recorded.",
+        "does_not_meet": "The review is finalised without recording the staff member's response."
+      }
+    },
+    {
+      "criterion": "Improvement plan is measurable",
+      "levels": {
+        "meets": "Each action has a support item, a measure and a due date.",
+        "does_not_meet": "An action has no measure, no support item or no due date."
+      }
+    }
+  ],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} staff performance review",
+    "format": "form",
+    "sections": [
+      {
+        "heading": "Review details",
+        "fieldIds": [
+          "f1",
+          "f2",
+          "f3",
+          "f4"
+        ]
+      },
+      {
+        "heading": "Evidence of performance",
+        "fieldIds": [
+          "f5",
+          "f6",
+          "f8"
+        ]
+      },
+      {
+        "heading": "Improvement plan and summary",
+        "fieldIds": [
+          "f7",
+          "f9"
+        ]
+      },
+      {
+        "heading": "Next review and signatures",
+        "fieldIds": [
+          "f10",
+          "f11"
+        ]
+      }
+    ],
+    "footer": "Confidential personnel record. Contact {{business:business.support_email}}."
+  },
+  "knowledgeChecks": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Team brief for template lessons TPL-01 to TPL-11, item 9 (Staff performance review); no external source used; rights: reworded (no copying)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

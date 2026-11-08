@@ -1,0 +1,40 @@
+{
+ "lessonId": "PFM-03",
+ "knowledgeAnswers": [
+  {
+   "id": "PFM-03-K01",
+   "correctIndex": 0,
+   "rationale": "The manual warns against running the pump dry, which damages the seals and housing and can cause leakage and flooding."
+  },
+  {
+   "id": "PFM-03-K02",
+   "correctIndex": 1,
+   "rationale": "The bleeder is opened before the start and closed once water flows steadily, which shows the air has cleared."
+  },
+  {
+   "id": "PFM-03-K03",
+   "correctIndex": 2,
+   "rationale": "The handbook describes checking for air leaks, confirming the pool has water in it, and retrying in order. Running it empty and forcing it with every valve open both cause damage."
+  }
+ ],
+ "practicalCriteria": [
+  "Start-up order is followed and each valve change is observed with the pump off",
+  "Air bleeder is opened before the start, the observer is clear, and the bleeder is closed at a steady stream",
+  "Pump pot is confirmed full before the pump runs, and no dry running occurs",
+  "Clean operating pressure is recorded as the reference"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Start-up record from one supervised start-up",
+  "Assessor observation sign-off on bleed and valve sequence",
+  "Priming attempt log where a priming problem arose"
+ ],
+ "stopWorkCriteria": [
+  "Pump run dry or with an empty pot",
+  "Bleeder closed before a steady stream, or the pump run with the observer standing in the line of the filter",
+  "Test cord used as a permanent supply",
+  "Filter pressurised with air or gas"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

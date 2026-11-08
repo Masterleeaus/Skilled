@@ -1,0 +1,18 @@
+import { readFileSync } from 'node:fs';
+import assert from 'node:assert/strict';
+const base = new URL('./', import.meta.url);
+const read = path => readFileSync(new URL(path, base), 'utf8');
+const payload = JSON.parse(read('curriculum/titan-three-layer-lessons.json'));
+const lessons = payload.lessons;
+assert.equal(lessons.length, 221);
+assert.equal(new Set(lessons.map(x => x.id)).size, 221);
+const counts = Object.groupBy(lessons, x => x.layer);
+assert.equal(Object.values(counts).reduce((n, v) => n + v.length, 0), 221);
+const schema = read('schema.prisma');
+for (const model of ['AcademyContentLesson','AcademyLessonRevision','AcademyCurriculumTrack','AcademyLessonPlacement']) assert.match(schema, new RegExp(`model ${model} \{`));
+for (const constraint of ['@@unique([lessonId, version])','@@unique([trackId, lessonId])','@@unique([trackId, position])']) assert.ok(schema.includes(constraint));
+const migration = read('migrations/20261102000200_titan_academy_curriculum_composition/migration.sql');
+assert.equal((migration.match(/CREATE TABLE/g)||[]).length, 3);
+assert.equal((migration.match(/FOREIGN KEY/g)||[]).length, 4);
+assert.ok(!/DROP TABLE|DROP COLUMN|DELETE FROM/i.test(migration));
+console.log(JSON.stringify({passed: true, inventory: lessons.length, layers: Object.fromEntries(Object.entries(counts).map(([k,v])=>[k,v.length])), newTables: 3, foreignKeys: 4}));

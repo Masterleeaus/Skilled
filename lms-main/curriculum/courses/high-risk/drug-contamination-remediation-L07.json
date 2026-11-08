@@ -1,0 +1,183 @@
+{
+  "id": "drug-contamination-remediation-L07",
+  "title": "Containment and cross-contamination",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Coordinators, supervisors and trained workers who may triage, refer, document or hand over work connected with suspected drug use, storage or manufacturing contamination. This lesson does not grant authority to enter, investigate, sample, decontaminate, transport, dispose of material or issue any clearance.",
+  "prerequisites": [
+    "drug-contamination-remediation-L06"
+  ],
+  "learningOutcomes": [
+    "Define supervised zones and handoff points on a fictional diagram.",
+    "Explain why a route through occupied or shared space is assessed before items move.",
+    "State the triggers that require the containment boundary to be reassessed."
+  ],
+  "instruction": [
+    {
+      "heading": "Containment and cross-contamination",
+      "body": "Containment protects the people who are not doing the work as well as the worker. A crew that plans to carry items through an occupied corridor creates a route that can spread contamination, so the route is assessed before anything is moved. Define the supervised zones and the handoff points on a diagram, and keep clean and possibly contaminated areas apart. Do not move contents through shared spaces or into vehicles until the containment plan is approved. Stop if public access, migration outside the zone or uncontrolled movement is observed, and reassess the boundary."
+    }
+  ],
+  "procedure": [
+    "Assess the route before anything moves.",
+    "Define the supervised zones and the handoff points on a diagram.",
+    "Keep clean and possibly contaminated areas apart.",
+    "Obtain approval of the containment plan before items move.",
+    "Stop if public access or migration outside the zone is observed.",
+    "Reassess the boundary and record the reassessment."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew plans to carry items through an occupied corridor and into a vehicle.",
+      "decisionPrompt": "What must happen before any item moves?",
+      "reasoning": "The route is assessed, supervised zones and handoff points are drawn, and the containment plan is approved. Items do not move through shared space until then."
+    },
+    {
+      "situation": "During a move, a neighbour walks into the marked corridor.",
+      "decisionPrompt": "What is the response?",
+      "reasoning": "The move stops. Uncontrolled public access is a trigger for reassessment. The boundary is reviewed and the supervisor is notified."
+    }
+  ],
+  "equipmentAndPpe": [
+    "PPE for each zone as set by the assessment.",
+    "Zone markers and barriers as the approved plan specifies.",
+    "Training-only fictional zone diagram."
+  ],
+  "commonErrors": [
+    {
+      "error": "Moving items through a shared corridor without assessment.",
+      "prevention": "Assess and approve the route first."
+    },
+    {
+      "error": "Letting public access into the work zone.",
+      "prevention": "Stop and reassess when public access occurs."
+    },
+    {
+      "error": "Keeping clean and possibly contaminated areas together.",
+      "prevention": "Separate them on the diagram."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Containment decisions are made by a competent person under an approved plan. Completing this lesson gives no authority to set a containment boundary for any site.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Migration outside an approved zone is a trigger for stopping and reassessing the boundary.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Vehicles are not loaded with contents until the containment plan is approved.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every zone and handoff point is on an approved diagram before work starts.",
+    "Every boundary breach is recorded and reassessed."
+  ],
+  "documentationEvidence": [
+    "Zone and handoff diagram with approval status.",
+    "Boundary reassessment log."
+  ],
+  "summary": [
+    "Plan the route before anything moves.",
+    "Keep clean and contaminated areas apart.",
+    "Stop and reassess on any breach."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "drug-contamination-remediation-L07-K01",
+      "question": "A crew plans to carry items through an occupied corridor to a van. What must happen first?",
+      "options": [
+        "Assess the route and get the containment plan approved before anything moves.",
+        "Move the items quickly before anyone notices.",
+        "Load the van and then decide the route."
+      ]
+    },
+    {
+      "id": "drug-contamination-remediation-L07-K02",
+      "question": "What is a trigger for reassessing the containment boundary?",
+      "options": [
+        "The end of the day.",
+        "Migration outside the approved zone.",
+        "Good weather."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "drug-contamination-remediation-lesson-01 to -12 instruction and research files and drug-contamination-remediation-assessments-pass72 (premium-07, passes 70 to 72); editorial drafts, not approved. Source notes state that no worker is authorised for clandestine-laboratory remediation on the basis of this material; rights: reworded (no copying).",
+    "HR03-drug-contamination-remediation.json, course bundle instruction sections 1 to 12 (read this pass); rights: reworded (no copying).",
+    "UNCONFIRMED: state and territory licensing, environmental, waste, tenancy and privacy requirements for drug-contamination work. Not checked for each state and territory in this pass.",
+    "UNCONFIRMED: police and emergency-services referral arrangements in each state and territory, beyond the WA Police reporting route on the WA page.",
+    "UNCONFIRMED: numerical contamination thresholds for any premises type in any jurisdiction. No value is given in the learner text, and the WA page refers to health investigation levels without stating values in the text read.",
+    "Reference only, not Australian rules: US EPA voluntary guidance for methamphetamine and fentanyl laboratory cleanup; New Zealand tenancy rules and NZS 8510 (under revision); New Zealand Ministry of Housing and Urban Development and Kainga Ora material. These were not read in this pass, and no Australian equivalent is confirmed (UNCONFIRMED).",
+    "UNCONFIRMED: general technical principles on contamination routes, cross-transfer and sample representativeness. These follow the source bundle and are not confirmed against an official page in this pass.",
+    "drug-contamination-remediation-lesson-07 and HR03 section 7; checked 2026-11-03."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Testing and remediation of methylamphetamine and illicit drug residues",
+      "url": "https://www.health.wa.gov.au/Articles/S_T/Testing-and-remediation-of-meth-and-illicit-drug-residues",
+      "pageDate": "Last reviewed 21-05-2026 (no published or updated date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Describes a best-practice sequence: preparation, screening and detailed sample testing, a remediation action plan, clean-up, validation testing, and sample, clean-up and validation reports. Aim: residue below levels posing a risk to health and below the relevant health investigation level for the drug. Recommends that the company validating contamination differs from the clean-up company. Says testing and remediation companies need the necessary competencies and ethical standards. The page does not mention a licence or insurance requirement. Publisher: WA Department of Health."
+    },
+    {
+      "id": "R2",
+      "title": "Clandestine drug laboratories and cleaning contamination",
+      "url": "https://www.health.wa.gov.au/articles/a_e/clandestine-drug-laboratories-and-cleaning-contamination",
+      "pageDate": "Last reviewed 22-05-2026 (no published or updated date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, at this health.wa.gov.au address. Says manufacturing sites are the highest-risk type; occupants and the public should not enter or attempt cleaning themselves; use qualified environmental professionals, and a testing and validation company separate from the clean-up company; test, remediate where residues exceed health investigation levels, then re-test and validate; keep records; check home insurance before arranging cleaning; report suspected drug manufacturing to WA Police. Publisher: WA Department of Health. Western Australian guidance only."
+    },
+    {
+      "id": "R1-2",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. The PCBU must protect workers and others so far as reasonably practicable; hazards are eliminated where possible and otherwise minimised; for certain hazards a hierarchy of control applies (the page does not list its levels); duties cannot be contracted out. The page does not cover trauma cleaning, waste or PPE rules. Publisher: Safe Work Australia. The state or territory regulator confirms the adopted law."
+    },
+    {
+      "id": "R2-2",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019)",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "publication date May 2019 (front matter); copyright 2019",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, first 100,000 of 133,773 characters only. Read: section 2.2 (standard precautions apply to all people), section 3.1.2 recommendations 7 and 8 (sharps handled minimally, never recapped, bent or broken, disposed of at point of use in an approved container not filled past its maximum fill line), section 3.1.3 recommendation 12 (spill response with gloves and protective equipment, containment, absorbent removal, detergent cleaning). Healthcare-setting guidance, applied here by analogy. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R4",
+      "title": "Managing exposures to blood and body fluids or substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-exposures-to-blood-and-body-fluids-or-substances",
+      "pageDate": "Updated 8 October 2015",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. First response: remove contaminated clothing, wash with soap and water, flush mucous membranes, rinse eyes gently, report immediately; remove from duty and carry out a risk assessment; medical evaluation with post-exposure prophylaxis where appropriate; document date, time, type and circumstances. Victorian guidance only. The page shows its last update as 2015."
+    },
+    {
+      "id": "R5",
+      "title": "Cleaning and waste disposal procedures for infection control",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/cleaning-and-waste-disposal-procedures-infection-control",
+      "pageDate": "Updated 14 December 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Three waste groups (general, clinical, pharmaceutical); clinical waste in biohazard bags shown as yellow; sharps into containers that meet the Australian and New Zealand standards named on the page; clinical and pharmaceutical waste collected by waste companies licensed by the EPA and taken to EPA-licensed facilities. Victorian guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a property, investigate it, collect or test any sample, carry out decontamination or remediation, transport or dispose of waste, or issue any clearance, certificate or statement that a property is free of contamination. Completing this lesson does not give a licence, certificate, approval or authority. Investigation, sampling, remediation and clearance are restricted work for suitably qualified and, where required, licensed professionals acting under a written plan. Police, regulatory and other official authority may control a site, and their release must be obtained in writing where it applies. Owner, manager, tenant or insurer permission does not replace it. In every case, stop and refer if the authority, the hazard or the qualification is uncertain."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever any of these is true: the authority or written release is missing or unclear; the hazard is unknown; a suspected laboratory or manufacturing activity is evident; anyone may have been exposed; a sample, test or result has no documented plan or custody; the PPE has not been approved; a waste route is unlicensed; a party asks for a clearance, a zero-contamination statement or disclosure of personal information; or the applicable jurisdiction is unknown. Stopping is a correct professional decision. Record it, and restart only when the authority has confirmed the scope in writing."
+  }
+}

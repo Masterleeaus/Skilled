@@ -1,0 +1,239 @@
+{
+  "id": "pond-cleaning-L07",
+  "title": "Filtration and circulation diagnostics for ponds",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 50,
+  "audience": "Pond maintenance workers who diagnose low flow, poor filtration and pump faults in pond and water-feature circulation systems",
+  "prerequisites": [
+    "F04-L01",
+    "pond-cleaning-L03"
+  ],
+  "learningOutcomes": [
+    "Describe the order of a pond circulation loop, from intake through pump, filter and UV unit to the return",
+    "Diagnose low flow and poor filtration using observation, the pre-filter and strainer, and any gauge the system has",
+    "Isolate a pond pump and filter safely before opening any part of it",
+    "Price, record and refer diagnostic work according to the business's approved method and the scope in this lesson"
+  ],
+  "instruction": [
+    {
+      "heading": "The pond circulation loop",
+      "body": "Pond water is drawn in through a skimmer, a pre-filter or a pump intake, pushed by a pump through a biological filter and, where fitted, a UV clarifier, and returned through a waterfall, stream or return outlet. The pump moves water through the filter, so that solids are caught and the bacteria in the filter can break down ammonia and nitrite. A fault at any point reduces flow and can change the water quality. Diagnose the loop in the order the water travels: intake, pump, pre-filter, biological filter, UV unit, return. This keeps the inspection logical and avoids opening equipment that does not need attention. Record the layout you find before you change anything, because many pond systems are installed differently. The order of the filter and the UV unit depends on the purpose of the system, so do not change it without instruction (“Pumps, UV clarifiers and filters”)."
+    },
+    {
+      "heading": "Reading the signs of a fault",
+      "body": "Weak flow at the waterfall, a noisy pump, a pump that loses prime, air in the pre-filter, a sump that gurgles, and a filter that stops cleaning well are common signs. A pre-filter full of leaves or sludge is the most frequent cause of low flow, and it is also the cheapest to fix. Air leaks on the suction side, a blocked intake screen, a partly closed valve or a worn impeller can produce similar symptoms. Record the flow you see and the state of the pre-filter and strainer before you clean them, and record them again after the work. A reading means little without a reference, so if the client or the manufacturer gives a normal clean-filter reading or flow figure, record it against the system."
+    },
+    {
+      "heading": "Isolating before you inspect",
+      "body": "Switch off the pump at its isolator or the circuit breaker before you open a pre-filter, touch the pump or work on any electrical connection. Confirm the pump is off before you put your hands in the water. Relieve pressure before you open a filter lid, as the manufacturer directs, and do not open a pressurised filter. Record the position of each valve before you move it, so that it can be restored. Keep the pump area dry, never use a damaged cord, and keep cords and extension leads out of the water. Queensland's electrical safety office says submersible pumps need an earthed design or a 12-volt supply, and that equipment should run through a safety switch with cords out of the water. UV clarifiers contain lamps that can cause eye and skin harm, so switch the unit off and isolate it before you open it, and do not look at a lit lamp."
+    },
+    {
+      "heading": "What is in scope, and what is referred",
+      "body": "Clearing a pre-filter, cleaning a skimmer basket, rinsing biological media in pond water (not tap water) and checking flow are generally within the scope of pond maintenance work. Replacing a pump, changing a pump's wiring, altering a fixed electrical connection, and changing outlet pipework or pipe joins are not general maintenance and are referred. In New South Wales, wiring work is licensed or certified work at any price, and the page treats putting in, fixing, changing, taking out or extending an electrical installation as wiring work. In New South Wales, plumbing, draining and gasfitting work must be done by a licensed or certified person whatever the price, and that page does not mention ponds or water features. In Queensland, the QBCC's licensing page sets no dollar cut-off for plumbing or drainage work, so the licence applies at every price, and the page does not list ponds or water features. Refer any such work to the person the rules name."
+    },
+    {
+      "heading": "Pricing and documenting diagnostic work",
+      "body": "Diagnostic time is real work and should be priced under the business's approved method, not absorbed as free time. Record the symptoms the client described, the flow and readings you took, the checks you made, the action you took, the parts or work you referred, and the time spent. A diagnostic record that says the system is working is only valid if the readings and checks support it. Where the diagnosis finds a fault outside your scope, write a short referral note that describes the symptoms and readings, so that the licensed person can start from the facts."
+    }
+  ],
+  "procedure": [
+    "Confirm the scope in the work order and the layout of the pond system.",
+    "Record the symptoms, the flow and any gauge reading before you start.",
+    "Check the skimmer, pre-filter, strainer and intake screen for blockage and debris.",
+    "Isolate the pump at its isolator before you open any lid or touch the motor, and prove it off.",
+    "Relieve pressure as the manufacturer directs before opening any filter, and record valve positions before changing them.",
+    "Clean the components that are within scope, rinsing biological media in pond water, and wear the PPE set by {{business:safety.required_ppe}}.",
+    "Restore power, check the flow and record the readings after the work.",
+    "Refer any fault outside scope with a written description of the symptoms and readings.",
+    "Price and record the diagnostic time under {{business:pricing.pricing_method}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pond waterfall has weak flow. The pre-filter basket is full of leaves, and the pump lid shows a visible air leak at the seal.",
+      "decisionPrompt": "What should the technician do first, and what should be recorded?",
+      "reasoning": "Isolate the pump before opening anything, then clear the pre-filter basket, since the leaves are the most likely cause and the cheapest to fix. Record the flow before and after. Note the air leak at the pump lid seal, and refer the seal replacement if it is beyond the technician's scope or the manufacturer's instructions. Price the diagnostic time and the basket clean under the approved method."
+    },
+    {
+      "situation": "A client asks you to replace the submersible pump on site, and to rewire it into the existing outlet because the new pump has a different plug.",
+      "decisionPrompt": "Is the replacement and rewiring within scope?",
+      "reasoning": "No. Replacing the pump and rewiring it into a fixed connection are electrical and possibly plumbing work, and they are not general maintenance. Do not change the wiring. Record the symptoms and the request, write a referral to a licensed electrician, and explain that the work needs that person. Whether the wiring work is licensed in the client's state must be confirmed before anyone does it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Isolator or circuit breaker access and a proving test",
+    "Pre-filter basket and strainer tools for the system",
+    "Pond-water container for rinsing biological media",
+    "Gloves, eye protection and footwear with grip as set by {{business:safety.required_ppe}}",
+    "Diagnostic record form or system with flow and pressure fields"
+  ],
+  "commonErrors": [
+    {
+      "error": "Opening a pump housing or filter lid while the pump is still connected to power.",
+      "prevention": "Isolate and prove the pump off, then open the housing. Do not rely on the switch."
+    },
+    {
+      "error": "Rinsing biological media in tap water.",
+      "prevention": "Rinse in pond water so the beneficial bacteria are kept."
+    },
+    {
+      "error": "Changing valve positions without recording the original positions.",
+      "prevention": "Record every valve position before the change and restore it at the end."
+    },
+    {
+      "error": "Absorbing diagnostic time as free work.",
+      "prevention": "Price and record diagnostic time under the approved method."
+    },
+    {
+      "error": "Replacing a pump or changing its wiring on the spot because the client asked.",
+      "prevention": "Refer the replacement to the licensed person, and record the symptoms and the request."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electricity and water: isolate pump power before inspection, keep the pump area dry and do not use a damaged cord. Queensland guidance says submersible pumps need an earthed design or a 12-volt supply, and equipment should run through a safety switch. Check the manufacturer's instructions for the pump.",
+      "licenceNotice": false
+    },
+    {
+      "point": "In New South Wales, wiring work is licensed or certified work at any price. This lesson does not grant any electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "In New South Wales, plumbing, draining and gasfitting work must be done by a licensed or certified person whatever the price; in Queensland, the QBCC sets no dollar cut-off for plumbing or drainage licensing. This lesson does not grant any plumbing licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Backwashing or draining a pond filter can discharge water. One council treats putting stormwater into its sewer as an offence, which does not settle the route for pond water. See the water conservation lesson before discharging.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Flow and pressure readings are recorded before and after work.",
+    "Isolation is confirmed before any lid, housing or electrical part is opened.",
+    "Work outside scope is referred with a written description of the symptoms and readings.",
+    "Diagnostic time is priced under the approved method and recorded."
+  ],
+  "documentationEvidence": [
+    "Pre- and post-work flow and pressure readings",
+    "Pre-filter, strainer and valve record",
+    "Diagnostic time and price under the approved method",
+    "Referral note for any fault outside scope"
+  ],
+  "summary": [
+    "Diagnose the loop in the order the water travels: intake, pump, pre-filter, biological filter, UV unit, return.",
+    "Isolate and prove the pump off, relieve pressure and record valve positions before opening anything.",
+    "Price diagnostic time, and record the readings that support every conclusion.",
+    "Refer pump replacement, wiring and pipework changes to the person the licence rules name."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pond-cleaning-L07-K01",
+      "question": "A pond pump has weak flow and the pre-filter is full of leaves. What is the correct first step?",
+      "options": [
+        "Isolate the pump power, then inspect and clear the pre-filter and strainer",
+        "Open the pump housing while the pump is running, so the flow can be checked",
+        "Replace the pump straight away, since the old one is probably worn out",
+        "Add a water conditioner to the pond to improve the flow and clarity"
+      ]
+    },
+    {
+      "id": "pond-cleaning-L07-K02",
+      "question": "Why should biological filter media be rinsed in pond water rather than tap water?",
+      "options": [
+        "Tap water is illegal to use around ponds in every state and council area",
+        "Chlorine and chloramine in tap water can harm the bacteria the filter relies on",
+        "Pond water is cheaper and always easier to get on the site at any time",
+        "Media dries faster in pond water, so the rinse is shorter overall and quicker"
+      ]
+    },
+    {
+      "id": "pond-cleaning-L07-K03",
+      "question": "A client asks for the outlet pipework to be changed to improve flow. What should the technician do?",
+      "options": [
+        "Make the change, because it is only plastic pipe and the job is quick to do on site while the pond is drained and the water is low",
+        "Cut and join the pipe quickly while the pond is drained, since the pipe is easy to work with and the job is small",
+        "Refer the pipework change to the person the plumbing rules name, and record the request without cutting or joining the pipe",
+        "Ignore the request because flow is not the technician's concern, and the client can ask the plumber later"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electricity around water",
+      "url": "https://electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Search electricalsafety.qld.gov.au for 'electricity around water' and read the pumps, safety switch and cords sections. Publisher: Electrical Safety Office Queensland."
+    },
+    {
+      "id": "R2",
+      "title": "Electrical licences and certificates",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Search nsw.gov.au for 'electrical licences and certificates' and read the wiring work definition and licence requirement. Publisher: NSW Government."
+    },
+    {
+      "id": "R3",
+      "title": "Plumbing, draining and gasfitting",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+      "pageDate": "Last updated 31 July 2026",
+      "checked": "2026-11-03",
+      "covers": "Search nsw.gov.au for 'plumbing, draining and gasfitting' and read the licence requirement section. Publisher: NSW Government."
+    },
+    {
+      "id": "R4",
+      "title": "Plumbing, drainage and gasfitting",
+      "url": "https://www.qbcc.qld.gov.au/my/node/7081",
+      "pageDate": "Last reviewed 16 April 2026; last published 16 April 2026",
+      "checked": "2026-11-03",
+      "covers": "Search qbcc.qld.gov.au for 'plumbing, drainage and gasfitting' and read the licence requirements for plumbing and drainage. Publisher: Queensland Building and Construction Commission."
+    },
+    {
+      "id": "R5",
+      "title": "Storm Water factsheet",
+      "url": "https://www.gisc.nsw.gov.au/files/assets/public/environmental-services/documents/stormwater-advisory-handout_1.pdf",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the Glen Innes Severn Council stormwater factsheet from its website and read the section on discharge to the council sewer. Publisher: Glen Innes Severn Council (NSW)."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Electrical Safety Office Queensland, Electricity around water (no date shown); NSW Government, Electrical licences and certificates (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting (last updated 31 July 2026); Queensland Building and Construction Commission, Plumbing, drainage and gasfitting (last reviewed and published 16 April 2026); Glen Innes Severn Council, Storm Water factsheet (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-P4 Electrical Safety Office Queensland, Electricity around water, https://electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water, checked 2026-11-02, page shows no date. Used for the earthed-or-12-volt rule for submersible pumps and the safety switch and cords-out-of-water points. The licensed-electrician sentence on that page is in the pool section and is not applied to ponds.",
+    "SRC-P8 NSW Government, Electrical licences and certificates (electrical wiring work), https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical, checked 2026-11-02, last updated 23 June 2026. Used for the licence or certificate rule for wiring work regardless of cost, and the definition of wiring work. The page does not mention ponds or maintenance.",
+    "SRC-P9 NSW Government, Plumbing, draining and gasfitting, https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting, checked 2026-11-02, last updated 31 July 2026. Used for the licence or certificate rule for plumbing, draining or gasfitting work regardless of cost. The page does not mention ponds or water features.",
+    "SRC-P10 Queensland Building and Construction Commission, Plumbing, drainage and gasfitting, https://www.qbcc.qld.gov.au/my/node/7081, checked 2026-11-02, reviewed 16 April 2026. Used for the licence for plumbing or drainage work of any value. The page does not list ponds, water features, pools or irrigation as licensing triggers.",
+    "research/topics/pond.md section 5, checked 2026-11-02: the matrix rows used for the licence statements have been re-checked against the pages above.",
+    "UNCONFIRMED: whether pond pump tasks are wiring work in each state; whether pond pipework is water plumbing or drainage; the discharge rule for pond filter water; the pump and UV manufacturer ratings for any specific system.",
+    "Official references in officialReferences were read on 2026-11-03 (R1 to R5). The SRC entries above remain as the earlier source trail."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Check the current rule for each point on the official pages listed at the start of this lesson, because these rules change.",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-08.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-09.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    }
+  ]
+}

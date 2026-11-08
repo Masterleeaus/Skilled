@@ -1,0 +1,183 @@
+{
+  "id": "NEW-PCC-01",
+  "title": "Post-construction final clean sequence (dust-to-finish)",
+  "courseSlugs": [
+    "postcon"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 55,
+  "audience": "Cleaners who carry out the final clean after building or renovation work is complete.",
+  "prerequisites": [
+    "construction-site-cleaning-L01",
+    "construction-site-cleaning-L05"
+  ],
+  "learningOutcomes": [
+    "Confirm that the area is released by the site and that trades have finished before cleaning.",
+    "Sequence the final clean from dust removal to finish cleaning, high to low.",
+    "Control dust during the clean, and check the finish before handover."
+  ],
+  "instruction": [
+    {
+      "heading": "Release first",
+      "body": "A final clean starts only when the site has released the area and the trades have finished in it. Confirm the release in writing, and check the access, the hazards and the exclusions. A final clean is not permission to enter a space where trades are still working, and presentation cleanliness is not contamination clearance."
+    },
+    {
+      "heading": "The sequence",
+      "body": "Remove the dust first, from high surfaces to low, using controlled methods: dust extraction on the tools and wet-wiping where the surface allows it, rather than dry sweeping. Then clean the wet work, the windows, the fixtures and the finishes, and finish with the floors. Keep dust from the wet work away from finished surfaces, and cover what you have finished."
+    },
+    {
+      "heading": "Dust control and the finish",
+      "body": "Control dust at its source and avoid dry sweeping, because settled dust becomes airborne when disturbed. WorkSafe Victoria advises that cleaning should not rely on pressurised air, sweeping that is dry, or high-pressure water, and it favours wet methods or extraction vacuums (page reviewed 11 March 2025). The exposure standard for crystalline silica dust is 0.05 mg/m³ averaged over 8 hours (same page, reviewed 11 March 2025). The current exposure standards list is being replaced by an exposure limits list starting 1 December 2026, so confirm the figure against the list in force (WorkSafe Victoria hazardous substances page; reviewed 19 May 2026). Check each finished surface under good light, and do not use a method on a new finish that the finish schedule does not allow."
+    }
+  ],
+  "procedure": [
+    "Confirm the site release and that trades have finished, in writing.",
+    "Remove dust from high surfaces to low, using controlled methods and not dry sweeping.",
+    "Clean the wet work, windows, fixtures and finishes, with floors last.",
+    "Keep dust away from finished surfaces, and cover what is finished.",
+    "Check each surface under good light before handover."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor asks for the final clean to start while the electricians are still working in one room.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not start in that room. Confirm the release for each area in writing, and clean only the areas released. Record the room that is not released and the reason."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Dust extraction for tools, with the filter checked.",
+    "Respiratory protection as the site assessment requires, with a fit check.",
+    "Approved products for the finish, with label and SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Starting the final clean before trades have finished.",
+      "prevention": "Confirm the release in writing for each area."
+    },
+    {
+      "error": "Dry sweeping settled dust.",
+      "prevention": "Use controlled methods."
+    },
+    {
+      "error": "Cleaning floors before the overhead dust is removed.",
+      "prevention": "Clean high to low, with floors last."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The silica exposure figure above comes from WorkSafe Victoria, and the list change comes from WorkSafe Victoria. The site's risk assessment and the construction-site lessons govern.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals must be managed under the label and the SDS. A register of hazardous chemicals used at work is required, with limited exclusions such as some consumer products and unopened chemicals in transit. The register must be kept current, hold the current SDS for each hazardous chemical, and sit on site where workers can reach it (Safe Work Australia register page; page date: no date shown). Workers must also be able to get each SDS easily (Safe Work Australia SDS page; page date: no date shown).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Release confirmed in writing for each area in the simulated job.",
+    "Dust removed from high to low without dry sweeping.",
+    "Finished surfaces checked under good light."
+  ],
+  "documentationEvidence": [
+    "Release record for each area.",
+    "Finish check record and any limitation."
+  ],
+  "summary": [
+    "Final clean starts only with written site release.",
+    "Remove dust high to low, and never dry sweep.",
+    "Check the finish; presentation is not clearance."
+  ],
+  "businessFields": [
+    "{{business:procedures.task_steps}}",
+    "{{business:procedures.completion_checklist}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-PCC-01-K01",
+      "question": "What must happen before a final clean starts?",
+      "options": [
+        "The cleaner arrives early on the site each morning and starts work",
+        "The site releases the area in writing and trades have finished",
+        "The client takes a photo of every room in the house before it starts"
+      ]
+    },
+    {
+      "id": "NEW-PCC-01-K02",
+      "question": "Why avoid dry sweeping settled dust?",
+      "options": [
+        "It is slow and tiring to do",
+        "It scratches the floor",
+        "It makes the dust airborne"
+      ]
+    },
+    {
+      "id": "NEW-PCC-01-K03",
+      "question": "Where does the final clean sequence end?",
+      "options": [
+        "With the floors, after the higher work",
+        "At the windows, after the walls are done",
+        "At the door, once the job is finished"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use.",
+    "UNCONFIRMED: state and territory exposure limits and controls for construction dust were not sourced for this lesson. The site's risk assessment and the construction-site lessons govern.",
+    "https://www.worksafe.vic.gov.au/hazardous-substances (exposure list change; checked 2026-11-02 via ALL-VIC-02)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous substances: exposure standards list change",
+      "url": "https://www.worksafe.vic.gov.au/hazardous-substances",
+      "pageDate": "Reviewed on 19/05/2026",
+      "checked": "2026-11-03",
+      "covers": "Check the replacement of the exposure standards list from 1 December 2026. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Preventing exposure to crystalline silica dust",
+      "url": "https://www.worksafe.vic.gov.au/preventing-exposure-crystalline-silica-dust",
+      "pageDate": "Reviewed on 11/03/2025",
+      "checked": "2026-11-03",
+      "covers": "Check the cleaning methods to avoid and the 8-hour silica figure. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R3",
+      "title": "Hazardous chemicals register",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the register duty and the list of exclusions. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R4",
+      "title": "Using safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the duty to keep SDS and make them easy for workers to access. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources: WorkSafe Victoria, Hazardous substances: exposure standards list change (reviewed 19/05/2026); WorkSafe Victoria, Preventing exposure to crystalline silica dust (reviewed 11/03/2025); Safe Work Australia, Hazardous chemicals register (no date shown); Safe Work Australia, Using safety data sheets (no date shown).",
+  "referencesAtEnd": "Check the current rule on each official page: WorkSafe Victoria, Hazardous substances: exposure standards list change (reviewed 19/05/2026): https://www.worksafe.vic.gov.au/hazardous-substances; WorkSafe Victoria, Preventing exposure to crystalline silica dust (reviewed 11/03/2025): https://www.worksafe.vic.gov.au/preventing-exposure-crystalline-silica-dust; Safe Work Australia, Hazardous chemicals register (no date shown): https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register; Safe Work Australia, Using safety data sheets (no date shown): https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets.",
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-01.jpg",
+      "alt": "Post-construction clean illustration",
+      "kind": "photo",
+      "origin": "postcon"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-02.jpg",
+      "alt": "Post-construction clean illustration",
+      "kind": "photo",
+      "origin": "postcon"
+    }
+  ]
+}

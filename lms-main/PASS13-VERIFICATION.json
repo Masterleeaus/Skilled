@@ -1,0 +1,20 @@
+{
+  "pass": 13,
+  "base": "Titan-Academy-TypeScript-Upgrade-Pass12-Cumulative.zip",
+  "added": [
+    "lms-main/PASS13-INTEGRATION.md",
+    "lms-main/apps/backend/src/modules/curriculum/integration.routes.ts"
+  ],
+  "modified": [
+    "lms-main/apps/backend/src/app.ts"
+  ],
+  "removed": [],
+  "modified_diff": [
+    [
+      "lms-main/apps/backend/src/app.ts",
+      2,
+      0
+    ]
+  ],
+  "runtime_tested": false
+}

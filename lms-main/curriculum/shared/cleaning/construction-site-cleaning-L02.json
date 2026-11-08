@@ -1,0 +1,161 @@
+{
+  "id": "construction-site-cleaning-L02",
+  "title": "Construction induction and simultaneous operations",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners entering construction sites where other trades and plant are operating at the same time.",
+  "prerequisites": [
+    "construction-site-cleaning-L01"
+  ],
+  "learningOutcomes": [
+    "Confirm the site induction, pedestrian and vehicle segregation, permits and emergency routes.",
+    "Stay out of plant routes and never remove a barrier to shorten travel.",
+    "Withdraw and escalate when a plant route crosses the cleaning area."
+  ],
+  "instruction": [
+    {
+      "heading": "What the induction covers",
+      "body": "A site induction tells you the local hazards, the emergency assembly point, the incident procedure, the restricted zones, the vehicle routes and who the site controller is. It does not, on its own, certify that you are competent for every task on the site. Treat the induction as the start of the controls, not the end of them."
+    },
+    {
+      "heading": "Simultaneous operations change the picture",
+      "body": "Trades, deliveries and temporary barriers move during the day, so the controls are checked at each shift start. Stay out of plant routes. Do not remove or step around a barrier to save time. If a forklift route crosses the corridor that you were assigned, do not work around moving plant. Withdraw to the designated safe location and request an approved revised pedestrian route from the site controller."
+    },
+    {
+      "heading": "Reporting a changed hazard",
+      "body": "Keep a written channel for reporting a newly opened hazardous zone, and use it. A changed condition is reported as soon as it is seen, with the location and the time. The report is what allows the site to close the gap."
+    },
+    {
+      "heading": "Walking the plan",
+      "body": "Use the supplied site plan to trace the permitted access route and the evacuation route, and locate the exclusion boundaries. Practise the escalation when a simultaneous operation changes the route, so that the response is automatic under pressure."
+    }
+  ],
+  "procedure": [
+    "Confirm the induction, the site controller, the permits and the emergency assembly point.",
+    "Check the controls at each shift start, because trades and barriers change.",
+    "Stay out of plant routes and do not remove or move barriers.",
+    "Withdraw to the safe location when a plant route crosses your area.",
+    "Request an approved revised pedestrian route in writing or through the site channel.",
+    "Report newly opened hazardous zones with location and time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A forklift route now crosses the corridor assigned for cleaning.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not work around the moving plant. Withdraw to the designated safe location, tell the site controller, and request an approved revised pedestrian route before returning to the corridor."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Site induction card or record.",
+    "High-visibility clothing and safety footwear as the site requires.",
+    "Site plan showing routes and exclusions."
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating the induction as certification for every task.",
+      "prevention": "Confirm the controls for each task with the site controller."
+    },
+    {
+      "error": "Removing a barrier to shorten the route.",
+      "prevention": "Use the approved route. Never remove or move a barrier."
+    },
+    {
+      "error": "Reporting a hazard verbally and not recording it.",
+      "prevention": "Use the written channel with location and time."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Boom-type platform threshold: in New South Wales and Queensland, a boom-type elevating work platform needs a high risk work licence where the boom is 11 metres or more; platforms under 11 metres are not covered in those states. Victoria's WP class has no boom-length threshold, so the licence is not limited by length there. Work above the threshold needs the licence. This lesson does not grant it.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Pedestrian and plant segregation on construction sites is a work health and safety control set by the principal contractor and the site traffic plan.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Operating plant such as forklifts or elevated platforms requires a licence or authority that this lesson does not grant.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Permitted access and evacuation route traced on the site plan.",
+    "Withdrawal and revised-route request demonstrated in the role-play.",
+    "Changed hazard reported in writing with location and time."
+  ],
+  "documentationEvidence": [
+    "Induction record and the controls confirmed at shift start.",
+    "Report of any changed hazard or route, with location and time."
+  ],
+  "summary": [
+    "An induction starts the controls; it does not certify every task.",
+    "Keep out of plant routes and never move a barrier.",
+    "Withdraw and request a revised route when plant crosses your area.",
+    "Report changed hazards in writing."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L02-K01",
+      "question": "A forklift route crosses the corridor you were assigned. What do you do?",
+      "options": [
+        "Work around the forklift quickly and keep the corridor clear for it",
+        "Withdraw to the safe location and request an approved revised route",
+        "Move the barrier so that you can pass and close it again after"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L02-K02",
+      "question": "Does a site induction certify competence for every task?",
+      "options": [
+        "Yes, once it is signed and the card is kept on the site file",
+        "Yes, for the whole project and every task on the programme",
+        "No, it communicates hazards and controls but does not certify each task"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L02-K03",
+      "question": "How should a newly opened hazardous zone be reported?",
+      "options": [
+        "Through the written channel, with location and time",
+        "Mention it at the end of the shift to the crew leader",
+        "Only if someone is injured or the hazard is serious"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L02.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "UNCONFIRMED: state and territory traffic-management requirements for construction sites.",
+    "UNCONFIRMED: state and territory licence requirements for operating plant such as forklifts and elevated platforms; see research/trades/LICENCE-MATRIX.csv for the height-work rows only."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Boom type elevating work platform (WP)",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/work-health-and-safety-licences/what-licence-do-i-need/cranes-and-hoists/boom-type-elevating-work-platform",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the 11 metre length rule for the WP licence. Publisher: WorkSafe Queensland."
+    },
+    {
+      "id": "R2",
+      "title": "High risk work licence",
+      "url": "https://www.worksafe.vic.gov.au/high-risk-work-licence",
+      "pageDate": "Reviewed 30 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Check the WP class and the statement on scissor lifts. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,182 @@
+{
+  "id": "car-detailing-L03",
+  "title": "Product selection and SDS",
+  "courseSlugs": [
+    "cardetail"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Car detailers who select, store and use cleaning and protection products.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Quarantine any unidentified chemical and refuse to use it.",
+    "Match each product to the surface and task using the label and the SDS.",
+    "Reject an unlabelled product and never reuse food containers."
+  ],
+  "instruction": [
+    {
+      "heading": "What the label and the SDS each tell you",
+      "body": "A product label and its safety data sheet (SDS) answer different questions, and both are needed. The label is the supplier's instruction for use: the surfaces the product is intended for, the dilution, the dwell time, the ventilation and the general precautions. The SDS is the longer technical document. Safe Work Australia guidance says an SDS covers the chemical's hazards and safe handling, including storage and disposal, along with physical and chemical properties and emergency measures. In practice, look in the SDS for the hazard identification section, the first-aid section, the handling and storage section, and the exposure controls and personal protection section. Those tell you which gloves and eye protection to use, what to do after a splash, and how to keep the product stable. A label alone does not show the full hazard picture, and an SDS does not set the strength of a dilution. Read both before first use, and check the review date on the SDS, because the sheet shows when it was last reviewed."
+    },
+    {
+      "heading": "Matching product to surface and task",
+      "body": "Match each product to the surface and the task. The guides in the source set repeat one rule: check that the product is safe for the surface before using it. Wheel cleaners are the clearest example. The Auto-Detailing guide advises a pH-neutral wheel cleaner for most wheels, because acidic cleaners can oxidise or tarnish polished and sensitive finishes and suit only factory wheels with a thick clear coat. Interior products follow the same logic. The guide says products designed only for cleaning or only for protection usually work better than combined products, so a serious interior clean uses a cleaner and then a separate protectant. Glass cleaners should not contain ammonia on tinted windows, and protectants should not go onto moving belts or fans. A degreaser can remove sealant or wax, so a degreaser used before a wash strips protection that must then be reapplied. To compare two labelled products, ask the same questions of each: which surfaces are listed, what the label says about dilution and dwell, what the SDS says about PPE and ventilation, and whether the product conflicts with anything already on the vehicle. Where the label and a general practice disagree, the label governs."
+    },
+    {
+      "heading": "Quarantine, the register and storage",
+      "body": "An unidentified product is not used on any vehicle. Keep it out of use, away from cabin and detailing products, label it as quarantined, and report it to the person who keeps the register. Do not test it, identify it by smell, or pour it into another container to see what it does. Safe Work Australia guidance says a workplace that uses hazardous chemicals must keep a register of them, kept up to date, with the current SDS for each listed chemical, and easily reached by workers and emergency services. Keep products in their original labelled containers. Do not decant into drink bottles or food containers. Decanting into a food or drink container is a common cause of accidental swallowing, and this is working practice rather than a stated legal rule. Separate incompatible products, keep the storage area away from food, and record each product with its label, its SDS location and the surfaces it is approved for. Remove any product that is no longer on the register."
+    }
+  ],
+  "procedure": [
+    "Check the product label for the surfaces it is intended for, the dilution, the dwell time, the ventilation and the precautions.",
+    "Open the SDS and read the hazard identification, first-aid, handling and storage, and exposure controls and PPE sections.",
+    "Confirm the product is on the register and the SDS is current. Reject the product if either check fails.",
+    "Quarantine any unlabelled or unidentified product and report it.",
+    "Store products in original labelled containers, separated from food and from cabin products.",
+    "Record the product, its approved surfaces, and any rejection."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A technician finds an unlabelled concentrate on the bench, next to the spray bottle used for cabin cleaning.",
+      "decisionPrompt": "What do you do with the concentrate, and what do you report?",
+      "reasoning": "Quarantine it: take it off the bench, store it away from cabin products, and label it as quarantined. Do not test it, smell it or decant it. Report the find to the supervisor so the register and the storage area can be checked. Check the cabin spray bottle as well, in case it was filled from the unlabelled container, and record the rejection."
+    },
+    {
+      "situation": "A black vinyl dashboard looks dull and faded. Two labelled products are on the shelf: a cleaner, and a protectant whose label lists interior trim and UV protection.",
+      "decisionPrompt": "Which product do you use first, and what checks come before use?",
+      "reasoning": "Choose by surface and task, not appearance. A dirty dashboard needs cleaning before protection, so use the cleaner first and the protectant second, provided the protectant's label lists vinyl and plastic. Confirm the dilution and dwell on each label, and check the SDS for PPE and ventilation. Avoid a greasy or glossy finish on a surface the driver touches, because the guides warn against it for interior surfaces. Record both products, their surfaces and the reason for each."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Product register listing each product's label, SDS location and approved surfaces.",
+    "SDS for each product, held in a form every worker can reach.",
+    "Labelled spray bottles and original containers only.",
+    "Gloves and eye protection of the type the SDS names.",
+    "Quarantine bin or labelled quarantine area."
+  ],
+  "commonErrors": [
+    {
+      "error": "Identifying a product by smell or colour.",
+      "prevention": "Quarantine it and report it. Do not test it."
+    },
+    {
+      "error": "Decanting into drink or food containers.",
+      "prevention": "Use only the original labelled container."
+    },
+    {
+      "error": "Reading the front label but not the SDS.",
+      "prevention": "Read the hazard, PPE and first-aid sections before first use."
+    },
+    {
+      "error": "Using one product on every surface.",
+      "prevention": "Match the product to the surfaces its label lists."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A hazardous chemicals register kept at the workplace must list each chemical with its current SDS, be kept up to date, and be readily accessible to workers and emergency services (Safe Work Australia, model WHS framework; the page refers to 2011).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Product-specific dilution, dwell time, PPE and ventilation come from each product's label and SDS, and are not stated in this lesson. Follow the label for every product.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every product on the bench is on the register with a current SDS and is approved for the surface it is used on.",
+    "No unidentified product is used, and the quarantine is recorded.",
+    "Products are in original labelled containers, stored away from food and cabin products."
+  ],
+  "documentationEvidence": [
+    "Product-use register with label, SDS location and approved surfaces.",
+    "Quarantine and rejection record for any product that failed the check."
+  ],
+  "summary": [
+    "Read the label and the SDS before the first use of any product.",
+    "Match each product to the surface and the task, not to the appearance you want.",
+    "Quarantine unidentified products, and never decant into food or drink containers."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.storage_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "car-detailing-L03-K01",
+      "question": "A concentrate with no label is found next to the cabin spray bottle. What do you do first?",
+      "options": [
+        "Test a few drops on a hidden panel to see what it does",
+        "Quarantine it, keep it out of use and report it",
+        "Decant it into a labelled bottle and use it lightly",
+        "Smell it to decide whether it is safe"
+      ]
+    },
+    {
+      "id": "car-detailing-L03-K02",
+      "question": "Two labelled products are both sold as cleaners. What is the best basis for choosing one for a black vinyl dashboard?",
+      "options": [
+        "Which one smells stronger, since a strong smell means a better product",
+        "Which bottle has the bigger picture on the front of the label",
+        "Which one the last detailer used on this dashboard in the car",
+        "Whether the label and the SDS approve it for that surface and task"
+      ]
+    },
+    {
+      "id": "car-detailing-L03-K03",
+      "question": "A worker wants to store a diluted product in an empty drink bottle. What is correct?",
+      "options": [
+        "Allowed if the bottle is rinsed well and the label is written on the lid in marker pen",
+        "Not allowed. Keep the product in its labelled container and never reuse a food or drink container",
+        "Allowed if the bottle is labelled clearly with the product name and the date of use",
+        "Allowed for short jobs only, as long as the bottle is kept out of reach of the children"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemicals register (Safe Work Australia)",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "No date in body; the page refers to the model WHS laws created in 2011",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia, hazardous chemicals; then the state or territory WHS regulator where the work is done. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Preparing safety data sheets (Safe Work Australia)",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/preparing-safety-data-sheets",
+      "pageDate": "No specific date; the page refers to the model WHS laws created in 2011",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia, safety data sheets; check the SDS supplied with each product for its own review date. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources: Safe Work Australia, Hazardous chemicals register (no date in body; refers to the model WHS laws created in 2011); Safe Work Australia, Preparing safety data sheets (no specific date; refers to the model WHS laws created in 2011).",
+  "referencesAtEnd": "Recheck before use: Safe Work Australia, Hazardous chemicals register (no date in body); Safe Work Australia, Preparing safety data sheets (no specific date). Product-specific dilution, dwell time and PPE come from each label and SDS.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Auto-Detailing Guide (uploaded guide; wash, clay, polish, sealant, wax, microfibre, wheel, trim, glass, interior and engine bay sections); rights: user-held; reworded (no copying)",
+    "Car-Detailing-Guide (uploaded longer edition; iron removers, decontamination pads, coatings, pad types, glossary); rights: user-held; reworded (no copying)",
+    "R1 https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (checked 2026-11-03; no date in body)",
+    "R2 https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/preparing-safety-data-sheets (checked 2026-11-03; no specific date)",
+    "Unlabelled-product quarantine, food-container rule: working practice (no source text); not a regulatory requirement.",
+    "Prior draft replaced in this pass (draft, not technically reviewed). UNCONFIRMED: product-specific dilution, dwell and PPE are not sourced here and must come from each label and SDS."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-12.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    },
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-13.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    }
+  ]
+}

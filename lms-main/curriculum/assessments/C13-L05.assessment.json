@@ -1,0 +1,35 @@
+{
+ "lessonId": "C13-L05",
+ "knowledgeAnswers": [
+  {
+   "id": "C13-L05-K01",
+   "correctIndex": 0,
+   "rationale": "Excess water causes damage and mould."
+  },
+  {
+   "id": "C13-L05-K02",
+   "correctIndex": 1,
+   "rationale": "Warm cords are stopped and reported."
+  },
+  {
+   "id": "C13-L05-K03",
+   "correctIndex": 2,
+   "rationale": "The pre-use check covers the safety and recovery parts."
+  }
+ ],
+ "practicalCriteria": [
+  "Completes a pre-use check on a sample extraction machine.",
+  "Extracts a sample item with controlled moisture.",
+  "Stops and disconnects the machine at a simulated electrical fault, and reports it."
+ ],
+ "passRule": "Pre-use check complete, moisture controlled, and electrical fault stopped and reported. Observed by an assessor. Not an electrical licence.",
+ "evidenceRequired": [
+  "Pre-use check record",
+  "Fault report"
+ ],
+ "stopWorkCriteria": [
+  "Machine with a damaged cord or cracked hose used",
+  "Item left over-wet",
+  "Electrical fault continued through"
+ ]
+}

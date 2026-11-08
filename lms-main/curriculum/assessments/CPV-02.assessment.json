@@ -1,0 +1,33 @@
+{
+  "lessonId": "CPV-02",
+  "knowledgeAnswers": [
+    {
+      "id": "CPV-02-K01",
+      "correctIndex": 0,
+      "rationale": "The guide asks that the test methods be proven before the cleaning study starts. The remaining options are unrelated or wrong."
+    },
+    {
+      "id": "CPV-02-K02",
+      "correctIndex": 1,
+      "rationale": "Consecutive successful runs show the method is reliable. A single run could succeed by chance."
+    },
+    {
+      "id": "CPV-02-K03",
+      "correctIndex": 2,
+      "rationale": "Sampling procedure, locations and the reason for the method are all expected in the protocol."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner drafts the protocol headings for one item and fills in each element from the lesson (pass: all listed elements present).",
+    "Learner identifies the step that must happen before the study is run (pass: approval and validated methods named)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Draft protocol outline for one item",
+    "Written identification of pre-study steps"
+  ],
+  "stopWorkCriteria": [
+    "The learner is asked to run a study before the protocol is approved.",
+    "The test methods cannot be shown to perform."
+  ]
+}

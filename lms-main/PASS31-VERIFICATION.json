@@ -1,0 +1,14 @@
+{
+  "pass": 31,
+  "checks": 10,
+  "testType": "source-contract; database runtime not tested",
+  "addedFiles": [
+    "apps/backend/scripts/verify-course-progress.mjs",
+    "PASS31-VERIFICATION.json"
+  ],
+  "modifiedFiles": [
+    "apps/backend/src/modules/curriculum/curriculum.routes.ts"
+  ],
+  "addedLinesToExisting": 43,
+  "removedLinesFromExisting": 0
+}

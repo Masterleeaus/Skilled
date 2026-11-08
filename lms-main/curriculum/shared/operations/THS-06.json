@@ -1,0 +1,131 @@
+{
+  "id": "THS-06",
+  "title": "Checking measuring and mixing equipment",
+  "courseSlugs": [
+    "commercial",
+    "shortstay"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Supervisors, chemical handlers and store staff who measure and mix cleaning products.",
+  "prerequisites": [
+    "THS-04"
+  ],
+  "learningOutcomes": [
+    "Describe how hand-held measures and mixing flasks are checked and recorded.",
+    "Identify a mixing or storage practice that introduces a hazard.",
+    "Describe the corrective action when a check is missed."
+  ],
+  "instruction": [
+    {
+      "heading": "Why measures must be checked",
+      "body": "Dilution and mixing depend on measuring equipment that reads true. The sample firm checks and calibrates handheld gauges and mixing flasks at a fixed interval, and records each check in the records diary. The interval the sample uses is the firm's own rule. Check whether a six-monthly interval suits any particular product or site. Set the interval from the manufacturer's instructions and the product's directions."
+    },
+    {
+      "heading": "Following the maker's method",
+      "body": "Follow the manufacturer's instructions strictly when calibrating an instrument. Keep heavy-duty cleaning concentrates away from glass tools kept in the mixing room, because the combination can introduce a hazard. Check that the equipment is suitable for the product before use, and keep the product's own safety information with the mixing station."
+    },
+    {
+      "heading": "Corrective action when a check is missed",
+      "body": "The sample describes what to do once a check has been skipped. The operations manager decides whether any chemical use could have been compromised and logs it. The staff member is retrained and re-signs the training record. The cause is investigated, the calibration procedure reviewed if needed, and the event recorded on the improvement report."
+    }
+  ],
+  "procedure": [
+    "Check the calibration record for each measure and flask against the set interval.",
+    "Calibrate each instrument following the manufacturer's instructions, and record the result.",
+    "Confirm that the instrument is suitable for the product before mixing.",
+    "Check that no glass instrument is being used with a product it is not suited to.",
+    "If a check is missed, record the chemical uses that may be affected and retrain the staff member.",
+    "Investigate the cause and record it on the improvement report."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor finds that a mixing flask in the store has no calibration entry for the last check interval, and a glass measure is kept next to a strong cleaning product.",
+      "decisionPrompt": "What should be recorded and changed?",
+      "reasoning": "The supervisor records the missed check, looks at which mixes used the flask in the period, and reports them. The glass measure is moved away from the product and the staff member is retrained. The cause is recorded on the improvement report."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Hand-held measures, mixing flasks, calibration record and the manufacturer's instructions. Standard PPE for handling chemicals."
+  ],
+  "commonErrors": [
+    {
+      "error": "Calibrating a measure once and never recording it again.",
+      "prevention": "Keep a dated calibration record for each instrument."
+    },
+    {
+      "error": "Using glass instruments with industrial chemicals.",
+      "prevention": "Check the product and the instrument are compatible before mixing."
+    },
+    {
+      "error": "Treating a missed check as a paperwork problem only.",
+      "prevention": "Check what was mixed during the missed period and record the impact."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Product mixing must follow the product's safety information and the business's chemical procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Training on chemical handling does not grant any licence. Where a task needs an authority, check it separately.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every measure and flask has a dated calibration entry within the set interval.",
+    "A missed check is recorded with the mixes it may have affected and the corrective action taken."
+  ],
+  "documentationEvidence": [
+    "Calibration record for each instrument.",
+    "Improvement report for any missed check."
+  ],
+  "summary": [
+    "Check and record each measure and flask at the set interval.",
+    "Follow the maker's instructions and keep incompatible equipment and products apart.",
+    "A missed check needs a record of affected mixes, retraining and a cause."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "THS-06-K01",
+      "question": "What should a missed calibration check trigger first?",
+      "options": [
+        "A log of any chemical use that could have been compromised",
+        "Nothing, if the product still works and the crew is happy",
+        "A new supplier chosen from the list of approved vendors",
+        "A change to the client's contract and a new price list"
+      ]
+    },
+    {
+      "id": "THS-06-K02",
+      "question": "Which practice introduces a hazard?",
+      "options": [
+        "Following the manufacturer's calibration method",
+        "Using heavy-duty concentrates in glass instruments",
+        "Recording each check in the diary",
+        "Keeping the product's safety information at the mixing station"
+      ]
+    },
+    {
+      "id": "THS-06-K03",
+      "question": "Where should the calibration interval come from?",
+      "options": [
+        "The crew's own memory of past jobs and the notes from the last visit to the client",
+        "The client's wish list, the whole site, the garden shed and the pump room they asked about",
+        "The manufacturer's instructions and the product's directions, checked against the business's own rule",
+        "A guess from last year and a note from the last supplier's rep on the phone about the job"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Total-Cleaning-and-Housekeeping-Services.txt, section 13.1 and 13.2 (purpose and procedure); rights: user-held; reworded (no copying)",
+    "Total-Cleaning-and-Housekeeping-Services.txt, subsection 13.2.1 (measuring and mixing equipment); rights: user-held; reworded (no copying)",
+    "Total-Cleaning-and-Housekeeping-Services.txt, subsection 13.4 (corrective action); rights: user-held; reworded (no copying)",
+    "UNCONFIRMED: the six-monthly interval is the sample's own rule and is not confirmed as a legal or product requirement. UNCONFIRMED: the sample dates from 2012 and was written for a non-Australian operation; its figures and retention periods are not current Australian facts."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

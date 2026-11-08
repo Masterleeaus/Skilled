@@ -1,0 +1,34 @@
+{
+ "lessonId": "industrial-degreasing-L03",
+ "knowledgeAnswers": [
+  {
+   "id": "industrial-degreasing-L03-K01",
+   "correctIndex": 1,
+   "rationale": "A switch is not isolation; verification is required."
+  },
+  {
+   "id": "industrial-degreasing-L03-K02",
+   "correctIndex": 2,
+   "rationale": "Stored energy can remain after switch-off."
+  },
+  {
+   "id": "industrial-degreasing-L03-K03",
+   "correctIndex": 0,
+   "rationale": "Isolation is the authorised person's task."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies energy sources on a sample plant diagram.",
+  "Refuses entry in a simulated case where the machine is only switched off.",
+  "Records the isolation status and the referral."
+ ],
+ "passRule": "Energy sources identified, entry refused without verification, and status recorded. Observed in a desk exercise. Not an isolation authority.",
+ "evidenceRequired": [
+  "Annotated plant diagram",
+  "Isolation status record"
+ ],
+ "stopWorkCriteria": [
+  "Plant entered on a switch-off only",
+  "Isolation attempted by the cleaner"
+ ]
+}

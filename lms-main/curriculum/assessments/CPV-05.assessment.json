@@ -1,0 +1,34 @@
+{
+  "lessonId": "CPV-05",
+  "knowledgeAnswers": [
+    {
+      "id": "CPV-05-K01",
+      "correctIndex": 3,
+      "rationale": "If the method cannot see the limit, the result cannot show the limit was met."
+    },
+    {
+      "id": "CPV-05-K02",
+      "correctIndex": 0,
+      "rationale": "The source asks for the strictest of its listed criteria to be applied, so the limit is protective under every basis."
+    },
+    {
+      "id": "CPV-05-K03",
+      "correctIndex": 1,
+      "rationale": "Detergent residue can contaminate the next product and can interfere with testing, so it is limited and tested."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner writes a limit basis for one named residue and states which test method will check it (pass: basis and method present).",
+    "Learner compares a limit with a stated detection limit and says whether the limit is measurable (pass: correct comparison)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Written limit basis for one residue",
+    "Comparison of limit and detection limit"
+  ],
+  "stopWorkCriteria": [
+    "A limit is proposed with no written basis.",
+    "A limit is below what the test method can detect.",
+    "An allergenic or potent residue is on a shared line without a sign-off."
+  ]
+}

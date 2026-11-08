@@ -1,0 +1,192 @@
+{
+  "id": "NEW-PLS-04",
+  "title": "Plastering quotes and scope boundaries",
+  "courseSlugs": [
+    "plastering"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RV",
+  "estimatedMinutes": 35,
+  "audience": "Plasterers who quote for plaster repairs and coats, and manage the boundary with painting and other trades",
+  "prerequisites": [
+    "NEW-PLS-02",
+    "NEW-PNT-05"
+  ],
+  "learningOutcomes": [
+    "Write a plastering quote that states the scope, the coats, the preparation and the exclusions.",
+    "Identify the boundary between plastering, painting and other trades, and state it in the quote.",
+    "Check the licence threshold for the job value and the type of plaster work before quoting."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and exclusions in the quote",
+      "body": "A plastering quote should state the surfaces, the number of coats, the preparation included, the finish standard, and the exclusions. Common exclusions are damp repairs, structural cracking, older plaster assessment, lead or asbestos assessment, and making good after other trades. A quote that says plaster the walls leaves the client to guess what is included. Write the finish standard in terms the client can check, such as a flat finish under raking light, and attach the exclusions to the quote."
+    },
+    {
+      "heading": "The boundary with painting and other trades",
+      "body": "Plastering and painting overlap at the finish. The quote should say whether the plaster is finished ready for paint, and whether painting is included or by another trade. A plasterer who skims a wall to a finish that is not ready for paint, without saying so, creates a dispute. Where a repair involves damp, structural movement or wiring, refer it and exclude it from the quote. Record each variation in writing and obtain approval before it is performed. Consumer Victoria states: “You must register with the BPC if you are using a combination of skills (such as plastering and painting) to complete a job.” A combined quote must address that before it is issued (Consumer Victoria page, last updated 9 July 2025)."
+    }
+  ],
+  "procedure": [
+    "Inspect the surfaces and record the scope, preparation and finish standard.",
+    "State the number of coats and the exclusions in writing.",
+    "State whether painting is included or by another trade.",
+    "Check the licence threshold for the job value and the type of plaster work (New South Wales dry or wet plastering above $5,000 of labour and materials, GST included; Victoria: check whether the job combines trades).",
+    "Send the quote for written approval, and record each variation with its approval.",
+    "File the signed quote and the variations with the job record."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client asks for a quote to skim three walls. The walls have a damp patch at the base of one wall and a crack near a window.",
+      "decisionPrompt": "What should the quote say about the damp and the crack?",
+      "reasoning": "State that the damp and the crack are excluded from the skim quote until their cause is assessed and referred. Quote the skim on the sound walls, and state the finish standard and the coats. Do not skim over the damp or the crack, and record the referral."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote template with scope, exclusions and finish standard",
+    "Variation form",
+    "Licence threshold reference for the state"
+  ],
+  "commonErrors": [
+    {
+      "error": "Quoting a plaster job without stating the exclusions.",
+      "prevention": "State exclusions in writing, including damp, structural cracking and assessments."
+    },
+    {
+      "error": "Leaving the boundary with painting unclear.",
+      "prevention": "State whether painting is included or by another trade."
+    },
+    {
+      "error": "Quoting a job without checking the state threshold.",
+      "prevention": "Check the threshold for the state and the type of plaster work before issuing the quote."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "New South Wales: dry plastering and wet plastering each need a contractor licence above $5,000 of labour and materials, GST included (NSW Government pages, last updated 23 June 2026).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Victoria: plastering-only jobs need no registration (Consumer Victoria page, last updated 9 July 2025).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not give a plastering licence or authority to quote regulated building work.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The quote states the scope, coats, preparation, finish standard and exclusions.",
+    "The boundary with painting and other trades is stated.",
+    "The licence threshold for the job is checked before the quote is issued."
+  ],
+  "documentationEvidence": [
+    "Signed plastering quote with scope and exclusions",
+    "Variation records with client approval",
+    "Licence threshold check record"
+  ],
+  "summary": [
+    "Quote the coats, preparation, finish standard and exclusions in writing.",
+    "State the boundary with painting and other trades.",
+    "Check the state threshold before quoting."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-PLS-04-K01",
+      "question": "A quote is for skimming three walls, and one has a damp patch and a crack. What should happen?",
+      "options": [
+        "State the damp and crack as excluded until assessed, and quote the sound walls",
+        "Skim over the damp and the crack, so the wall looks finished for the client",
+        "Quote the whole job without mention of the damp or the crack at all",
+        "Refuse the whole job without a quote, since the damp makes the wall unsafe"
+      ]
+    },
+    {
+      "id": "NEW-PLS-04-K02",
+      "question": "Why should the quote state whether painting is included?",
+      "options": [
+        "It makes the quote longer and more detailed for the client to read through",
+        "A finish that is not ready for paint can create a dispute if the boundary is not stated",
+        "Painting is never included in a plastering quote, since it is a separate trade",
+        "The client does not care about painting at all, so it can be left off the quote"
+      ]
+    },
+    {
+      "id": "NEW-PLS-04-K03",
+      "question": "Which of these does the lesson list as a common exclusion in a plastering quote?",
+      "options": [
+        "Damp repairs",
+        "Preparation included in the price",
+        "The number of coats",
+        "The finish standard"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "CATALOGUE-V2 row NEW-PLS-04 (new lesson; no source lesson; checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX-NSW-QLD.csv NSW-02 (checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX.csv VIC-03, VIC-04 (checked 2026-11-02)",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. currency stated in AUD; thresholds and sources unchanged",
+    "Official [R1]: Dry plastering work (contractor licence), NSW Government, https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/dry-plastering-work, page date: Last updated 23 June 2026 (first published 30 September 2024); checked 2026-11-03; status CONFIRMED",
+    "Official [R2]: Wet plastering work (contractor licence), NSW Government, https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/wet-plastering-work, page date: Last updated 23 June 2026 (first published 2 October 2024); checked 2026-11-03; status PARTIAL",
+    "Official [R3]: Becoming a registered building practitioner (Do you need to register?), Consumer Victoria (Victorian Government), https://consumer.vic.gov.au/licensing-and-registration/builders-and-tradespeople/becoming-a-registered-building-practitioner, page date: Last updated 9 July 2025; checked 2026-11-03; status CONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Dry plastering work (contractor licence)",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/dry-plastering-work",
+      "pageDate": "Last updated 23 June 2026 (first published 30 September 2024)",
+      "checked": "2026-11-03",
+      "covers": "NSW Government dry plastering page: check the threshold and the scope (sheeting, cornices, ceilings). Publisher: NSW Government. The page was last updated on 23 June 2026."
+    },
+    {
+      "id": "R2",
+      "title": "Wet plastering work (contractor licence)",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/wet-plastering-work",
+      "pageDate": "Last updated 23 June 2026 (first published 2 October 2024)",
+      "checked": "2026-11-03",
+      "covers": "NSW Government wet plastering page: threshold confirmed; rendering is not named on the page. Publisher: NSW Government. The page was last updated on 23 June 2026."
+    },
+    {
+      "id": "R3",
+      "title": "Becoming a registered building practitioner (Do you need to register?)",
+      "url": "https://consumer.vic.gov.au/licensing-and-registration/builders-and-tradespeople/becoming-a-registered-building-practitioner",
+      "pageDate": "Last updated 9 July 2025",
+      "checked": "2026-11-03",
+      "covers": "Consumer Victoria registration page: single-trade exemptions and the rule for combined trades; check with the Building and Plumbing Commission. Publisher: Consumer Victoria (Victorian Government). Read through a summary tool (WebFetch) on 2026-11-03. The page was last updated on 9 July 2025."
+    },
+    {
+      "id": "R4",
+      "title": "Plastering solid (QBCC licence class)",
+      "url": "https://www.qbcc.qld.gov.au/prs/node/1011",
+      "pageDate": "Last reviewed 31 Aug 2021; last published 31 Aug 2021",
+      "checked": "2026-11-03",
+      "covers": "QBCC class page: confirm scope; the $3,300 figure on the page is for incidental work only. Publisher: Queensland Building and Construction Commission (QBCC)."
+    }
+  ],
+  "referencesAtStart": "Official references at the start: NSW Government, Dry plastering work (contractor licence) (last updated 23 June 2026; first published 30 September 2024); NSW Government, Wet plastering work (contractor licence) (last updated 23 June 2026; first published 2 October 2024), which has only been partly confirmed; Consumer Victoria, Becoming a registered building practitioner (Do you need to register?) (last updated 9 July 2025).",
+  "referencesAtEnd": "Official references at the end, to recheck the current rule before use: Dry plastering work: https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/dry-plastering-work; Wet plastering work: https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/wet-plastering-work; Becoming a registered building practitioner: https://consumer.vic.gov.au/licensing-and-registration/builders-and-tradespeople/becoming-a-registered-building-practitioner.",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-07.jpg",
+      "alt": "Plastering illustration",
+      "kind": "photo",
+      "origin": "plastering"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-08.jpg",
+      "alt": "Plastering illustration",
+      "kind": "photo",
+      "origin": "plastering"
+    }
+  ]
+}

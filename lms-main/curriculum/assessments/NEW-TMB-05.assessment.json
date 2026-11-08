@@ -1,0 +1,48 @@
+{
+  "lessonId": "NEW-TMB-05",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-TMB-05-K01",
+      "correctIndex": 0,
+      "rationale": "WorkSafe Victoria recommends on-tool extraction connected to a dust collector, with a minimum recommendation of Dust Class M. A dust bag alone does not capture fine dust efficiently."
+    },
+    {
+      "id": "NEW-TMB-05-K02",
+      "correctIndex": 1,
+      "rationale": "WorkSafe Victoria lists dry sweeping as an activity that generates airborne wood dust, and does not present it as acceptable."
+    },
+    {
+      "id": "NEW-TMB-05-K03",
+      "correctIndex": 2,
+      "rationale": "A HEPA vacuum is the recommended method for clothing. Compressed air re-suspends dust and can cause serious harm on skin."
+    },
+    {
+      "id": "NEW-TMB-05-K04",
+      "correctIndex": 3,
+      "rationale": "WorkSafe Victoria and SafeWork NSW both recommend damping down the surface before sweeping."
+    },
+    {
+      "id": "NEW-TMB-05-K05",
+      "correctIndex": 0,
+      "rationale": "Local exhaust ventilation captures dust close to each source and is inspected regularly, including checks for leaks in ducts."
+    }
+  ],
+  "practicalCriteria": [
+    "Candidate connects on-tool extraction to a dust collector and HEPA vacuum, and records the check before the first pass.",
+    "Candidate seals the work area and closes doors to adjoining rooms before sanding starts.",
+    "Candidate performs clean-up using damp methods and a HEPA vacuum, with no dry sweeping and no compressed air used at any stage.",
+    "Candidate bags and labels dust and waste according to the approved procedure, and records the controls used."
+  ],
+  "passRule": "Knowledge checks: at least 80% correct (4 of 5). Practical sign-off is separate. A knowledge pass does not establish practical competence, and the practical criteria must be observed and recorded by an assessor.",
+  "evidenceRequired": [
+    "Extraction and vacuum check record",
+    "Dust control record for the room",
+    "Waste disposal record",
+    "Assessor observation of clean-up"
+  ],
+  "stopWorkCriteria": [
+    "Sanding started with extraction not connected or not working",
+    "Dry sweeping or compressed air used on the floor, a bench, skin or clothing",
+    "Occupants present in the sanding area"
+  ]
+}

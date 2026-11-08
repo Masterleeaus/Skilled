@@ -1,0 +1,36 @@
+{
+  "status": "DRAFT",
+  "canonical": "The short slugs in COURSES-MODULES.json are canonical for courseSlugs in every lesson file.",
+  "folderToCanonical": {
+    "bond-and-end-of-lease-cleaning": "bond",
+    "carpet-and-upholstery-cleaning": "carpet",
+    "commercial-and-office-cleaning": "commercial",
+    "residential-cleaning": "residential",
+    "short-stay-turnover": "shortstay",
+    "hard-floor-care": "hardfloor",
+    "post-construction-clean": "postcon",
+    "strata-and-common-area-cleaning": "strata",
+    "car-detailing": "cardetail",
+    "medical-equipment-cleaning": "medequip",
+    "healthcare-cleaning": "healthcare",
+    "window-cleaning-all-heights": "window",
+    "pressure-cleaning-all-heights": "pressure",
+    "roof-soft-washing": "roof",
+    "solar-panel-cleaning": "solar",
+    "lawn-and-turf-care": "lawn",
+    "garden-maintenance-and-clean-ups": "garden",
+    "irrigation-servicing": "irrigation",
+    "locksmith-and-door-installation": "locksmith",
+    "deck-and-fence-maintenance": "deck",
+    "flat-pack-and-fixture-installation": "flatpack",
+    "real-estate-portfolio-management": "portfolio"
+  },
+  "aliasesToCanonical": {
+    "construction-site-clean-up": "construction",
+    "construction-site-cleaning": "construction"
+  },
+  "notes": [
+    "The course folder construction does not exist yet. Its lessons remain under the canonical slug construction.",
+    "high-risk is a layer, not a course. It is kept as a folder only."
+  ]
+}

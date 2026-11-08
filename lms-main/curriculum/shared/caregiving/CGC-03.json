@@ -1,0 +1,132 @@
+{
+  "id": "CGC-03",
+  "title": "Personal protective equipment and personal hygiene at work",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Caregiving: infection control (no course slug assigned)",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Support workers and caregivers who handle body fluids, equipment and personal items",
+  "prerequisites": [
+    "CGC-02"
+  ],
+  "learningOutcomes": [
+    "Select gloves, gown, eye protection or mask for a task using the expected exposure",
+    "Put on and remove gloves so that you do not contaminate yourself",
+    "Apply personal hygiene and food-handling controls that limit spread"
+  ],
+  "instruction": [
+    {
+      "heading": "Choose protective equipment for the expected exposure",
+      "body": "Personal protective equipment is a set of barriers used singly or in combination, that protects skin, clothing and mucous membranes. Gloves, masks, eye protection, gowns and face shields are chosen for the exposure you expect. Gloves are needed when you handle fluids from the body, or equipment that carries them, touch broken skin or mucous membranes, or carry out an invasive task. Change gloves between clients and never reuse them."
+    },
+    {
+      "heading": "Keep your own skin and personal items separate",
+      "body": "Unbroken skin blocks most microbes. Seal any cut or scrape under a waterproof dressing before work. Keep your towels and clothing, your razors and toothbrushes, and similar belongings to yourself, never with clients. Clean your hands regularly, especially after using the toilet, before handling food, and after contact with clients or equipment."
+    },
+    {
+      "heading": "Food and drink in a care setting",
+      "body": "When food is prepared in a care setting, clean your hands at the start and finish of food preparation, keep your fingers off your hair and face, and keep hot items hot and chilled items cold. Store cooked and uncooked food apart, use separate utensils and boards, and wash utensils and surfaces after use."
+    }
+  ],
+  "procedure": [
+    "Assess the expected exposure for the task before starting.",
+    "Select the barrier items the exposure requires.",
+    "Put on protective equipment before contact, after cleaning your hands.",
+    "Remove gloves without touching their outer surface, then clean your hands.",
+    "Dispose of single-use items into the correct waste stream for the setting."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A carer assists a client with bathing. The client has a small cut on one hand, and the carer wears a standard uniform.",
+      "decisionPrompt": "What protective items and hygiene steps apply?",
+      "reasoning": "Gloves are needed because the carer may contact body fluids and the client's skin is broken. Cover any cut on the carer's own hands before starting. Change gloves between tasks and clean hands after removing them. Eye protection and a gown depend on the expected splashes and are chosen after assessment."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Single-use gloves in the correct size",
+    "Gown or plastic apron",
+    "Goggles or a face shield where splashing is expected",
+    "Mask as the task requires",
+    "Waterproof dressings"
+  ],
+  "commonErrors": [
+    {
+      "error": "Wearing one pair of gloves across several clients",
+      "prevention": "Change gloves between clients and between tasks."
+    },
+    {
+      "error": "Touching the face or a phone while wearing gloves",
+      "prevention": "Keep gloved hands on the task and clean hands after removal."
+    },
+    {
+      "error": "Sharing personal items with a client",
+      "prevention": "Keep personal items separate and labelled."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Respirator and mask standards named in the source are not used in this lesson.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any certificate or competency.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The PPE chosen matches the exposure assessed for the task",
+    "Gloves are changed between clients and tasks",
+    "No personal item is shared with a client"
+  ],
+  "documentationEvidence": [
+    "Task exposure assessment",
+    "PPE use record for each visit where required"
+  ],
+  "summary": [
+    "Choose PPE for the exposure.",
+    "Change gloves between clients and tasks.",
+    "Protect your own skin and keep personal items separate."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:materials.waste_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "CGC-03-K01",
+      "question": "Gloves should be worn when:",
+      "options": [
+        "Every time you speak with a person in the home or the room today",
+        "Handling fluids from the body, or touching broken skin or mucous membranes",
+        "Only once a shift is over and the bins are all out for the day"
+      ]
+    },
+    {
+      "id": "CGC-03-K02",
+      "question": "Between clients, the lesson recommends:",
+      "options": [
+        "Keeping the same gloves on for the whole visit",
+        "Cleaning hands and using fresh gloves where necessary",
+        "Rinsing the gloves only with the water tap and the soap"
+      ]
+    },
+    {
+      "id": "CGC-03-K03",
+      "question": "Which personal item should never be shared with a client?",
+      "options": [
+        "Care notes",
+        "A toothbrush",
+        "A clipboard"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Common competency caregiving learner guide (57359f07-706996033-common-competency-caregiving.txt), Philippine TESDA-style CBLM, Quality Care Training Center, Sorsogon City; not an Australian national unit; practice content only, Workplace Safety and Infection Control (information sheet 1.2-1, personal hygiene and food preparation sections) and glossary entries for PPE; rights: user-held; reworded (no copying)",
+    "Respirator standards and food-safety rules: UNCONFIRMED; not checked on 2026-11-02"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

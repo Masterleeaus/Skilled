@@ -1,0 +1,33 @@
+{
+  "lessonId": "HLT-14",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-14-K01",
+      "correctIndex": 1,
+      "rationale": "Elimination takes away what creates the danger and ranks first. The other options are lower on the hierarchy."
+    },
+    {
+      "id": "HLT-14-K02",
+      "correctIndex": 2,
+      "rationale": "Protective equipment is at the bottom of the hierarchy. Isolation, substitution and engineering controls are higher."
+    },
+    {
+      "id": "HLT-14-K03",
+      "correctIndex": 1,
+      "rationale": "A likely and severe risk needs escalation and controls under the organisation procedure. The other options avoid the assessment or misrate the risk."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a sample risk, the learner selects the likelihood and consequence categories and reads the rating from the organisation matrix.",
+    "Given three control options, the learner ranks them on the hierarchy and selects the highest control that suits the hazard."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed risk rating record for a simulated risk",
+    "Assessor record of the control ranking"
+  ],
+  "stopWorkCriteria": [
+    "A risk is rated high or extreme under the organisation matrix: stop, escalate to the supervisor, and do not continue until the procedure is followed.",
+    "The only control available is protective equipment for a hazard that a higher control could remove: stop and refer for a higher control."
+  ]
+}

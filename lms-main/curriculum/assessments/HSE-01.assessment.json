@@ -1,0 +1,36 @@
+{
+  "lessonId": "HSE-01",
+  "knowledgeAnswers": [
+    {
+      "id": "HSE-01-K01",
+      "correctIndex": 1,
+      "rationale": "An element specification sets the outcome the item must reach on completion, which makes it checkable."
+    },
+    {
+      "id": "HSE-01-K02",
+      "correctIndex": 1,
+      "rationale": "An acceptable element scores 1 and an unacceptable element scores 0. Room percentages are calculated from these scores later."
+    },
+    {
+      "id": "HSE-01-K03",
+      "correctIndex": 1,
+      "rationale": "A measurable pass condition lets two auditors agree, and the recorded reason supports the corrective action."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner writes an outcome statement for one named element with a pass and a fail condition, and the assessor confirms each is measurable",
+    "Learner scores three sample elements as 1 or 0 against the written outcome, with all three scores agreed by the assessor"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge-check result (not practical competence)",
+    "Written element statement signed by the assessor",
+    "Completed sample score sheet"
+  ],
+  "stopWorkCriteria": [
+    "An element statement cannot be checked by a second person",
+    "Scoring would expose a person to a hazard that the element itself creates"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "F06-L04",
+  "title": "Sanitary cleaning sequence",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "strata"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners performing full bathroom cleans in residential, commercial, bond, short-stay and strata settings.",
+  "prerequisites": [
+    "F06-L01",
+    "F06-L02",
+    "F06-L03"
+  ],
+  "learningOutcomes": [
+    "Apply a fixed fixture-by-fixture sequence for a full bathroom clean.",
+    "Follow product contact time and rinsing instructions rather than guessing them.",
+    "Control splashing and wet-floor hazards during and after the clean."
+  ],
+  "instruction": [
+    {
+      "heading": "Set up before you start",
+      "body": "Prepare the room before the first product is opened. Ventilate as the site allows, set out a warning sign if occupants could enter, and lay out clean tools in the order you will use them. Remove rubbish and loose debris, but do not disturb sharps you cannot identify. Once the room is ready, the sequence begins. Skipping set-up leads to cross-contamination and slips later in the clean."
+    },
+    {
+      "heading": "Work from top and clean toward dirty",
+      "body": "Clean higher and cleaner surfaces first so that drips and splashes fall onto areas you have not yet cleaned. Start with mirrors and accessible touchpoints, then move to the basin and taps, the shower screen and fittings, and finally the toilet exterior and interior. Use the separate sanitary tools for each stage. Finish with the floor, moving toward the exit so you do not walk over finished surfaces. Leave slip-prone floors dry or controlled until they are safe to walk on."
+    },
+    {
+      "heading": "Products, contact time and rinsing",
+      "body": "Use the product label for dilution, contact time, rinsing and disposal. A common error is assuming that a disinfectant works immediately or that one contact time applies to every product. Contact time is set by the product, so the cleaner must wait for the stated time before wiping, rinsing or moving on. Where a product is not labelled as a disinfectant, do not describe the surface as disinfected. Keep product use within the label and within the site procedure."
+    },
+    {
+      "heading": "Finishing and checking",
+      "body": "After the floor is finished, walk the room and check for residue, streaks and wet spots. Confirm that toilet tools are back in their zone and that the bin is emptied as the procedure requires. A clean that looks finished is not automatically verified. Record the checks you completed and any limitations, and leave the room in the state the site procedure requires for handover."
+    }
+  ],
+  "procedure": [
+    "Set out warning signage if occupants could enter, ventilate as allowed, and prepare clean tools.",
+    "Remove rubbish and loose debris without disturbing unknown sharps.",
+    "Clean mirrors and touchpoints, then basin and taps, then shower screens and fittings.",
+    "Clean the toilet exterior and interior with separate sanitary tools.",
+    "Follow the label for dilution, contact time and rinsing; do not assume a universal contact time.",
+    "Clean the floor last, progressing toward the exit, and manage wet-floor hazards.",
+    "Walk the room to check for residue and wet spots, and record the checks made."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker disinfects a visibly dirty tap handle without removing the soil first.",
+      "decisionPrompt": "What should the supervisor say, and why?",
+      "reasoning": "Soil can protect germs from the product and reduce effectiveness, so the surface should be cleaned first unless the product label directs a one-step method. The supervisor should correct the sequence and confirm the approved method."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Warning signage and wet-floor signs.",
+    "Separate sanitary tools for the basin, shower and toilet.",
+    "Gloves and eye protection as set by the product SDS.",
+    "Approved bathroom product, with label and SDS available."
+  ],
+  "commonErrors": [
+    {
+      "error": "Cleaning the floor first and then splashing the walls and fittings.",
+      "prevention": "Work from top to bottom, and finish with the floor."
+    },
+    {
+      "error": "Using toilet tools on the basin.",
+      "prevention": "Keep toilet tools in their zone and use separate tools for each stage."
+    },
+    {
+      "error": "Wiping off a disinfectant before its contact time has passed.",
+      "prevention": "Follow the label contact time and wait before wiping or rinsing."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Disinfectant claims must match the product registration and label. A cleaner should not describe a product as disinfectant unless its label says so.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemical use follows the label and SDS, and the workplace's hazardous chemicals register where one applies.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Full sequence followed in a timed simulated bathroom clean, from set-up to floor finish.",
+    "Contact time observed for at least one product, as stated on its label.",
+    "No wet-floor slip hazard left uncontrolled at the end of the clean."
+  ],
+  "documentationEvidence": [
+    "Completed checklist showing sequence and product used.",
+    "Record of final walk-through checks and any limitations."
+  ],
+  "summary": [
+    "Set up, then work from top to bottom and finish with the floor.",
+    "Use separate tools for each stage and keep toilet tools in their zone.",
+    "Follow label contact time and rinsing directions.",
+    "Verify by walking the room, then record what was done."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:procedures.completion_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F06-L04-K01",
+      "question": "Why is the floor cleaned last in a bathroom?",
+      "options": [
+        "Because the floor is the surface most people look at last and it is the most visible in the room",
+        "So that drips and splashes from higher surfaces land on areas you have not yet cleaned",
+        "Because floor products must be used before any others in the whole room today"
+      ]
+    },
+    {
+      "id": "F06-L04-K02",
+      "question": "A product label gives a contact time. What should you do?",
+      "options": [
+        "Wipe immediately because the product works at once",
+        "Rinse at once, because the product label is only a rough guide",
+        "Use the label contact time and wait before wiping or rinsing"
+      ]
+    },
+    {
+      "id": "F06-L04-K03",
+      "question": "What does a clean-looking surface prove?",
+      "options": [
+        "Nothing by itself: a clean that looks finished is not automatically verified, and it does not show that the surface is sanitised",
+        "That it has been disinfected to the approved standard and the product was applied correctly across the whole surface",
+        "That the product was applied correctly across the whole surface and the cloth was clean throughout the task today"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/F06-L04.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory regulatory status of disinfectant claims for cleaning products.",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

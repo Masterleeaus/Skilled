@@ -1,0 +1,141 @@
+{
+  "id": "flood-water-restoration-L07",
+  "title": "Water removal planning and equipment limitations",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and water-removal work after a flood or water event. Not a qualification or authority to enter a flood-affected building, energise its systems, or certify it as dry, safe or habitable.",
+  "prerequisites": [
+    "flood-water-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Select water-removal equipment by contamination, location, electrical supply and operator training, not by capacity alone."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how to select and authorise water-removal equipment by contamination, location, supply and operator training. It does not authorise connecting equipment to a water-affected supply, or operating it without a verified supply. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "Water removal planning and equipment limitations",
+      "body": "Water-removal equipment must be suitable for the contamination and the location. Its use depends on a safe electrical supply and on trained operators. Capacity alone is not a selection criterion, because a machine that is large enough but unsuitable for the contamination or the power supply creates new hazards. Before any work, create an equipment suitability and authorisation matrix. Confirm that the utilities are safe, that the operators are trained and that the equipment suits the contamination before the work starts."
+    }
+  ],
+  "procedure": [
+    "Create an equipment suitability and authorisation matrix before any work.",
+    "Record the contamination status, as uncertain or as classified by the competent person, and match the equipment to it.",
+    "Confirm that the electrical supply has been verified safe by the responsible professional before any connection.",
+    "Confirm that each operator is trained on the equipment.",
+    "Do not select equipment by capacity alone.",
+    "Record the matrix and the authorisation, and stop if any element is missing."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contractor proposes the largest extractor from a van and connects it to an outlet on a water-affected circuit.",
+      "decisionPrompt": "What is correct?",
+      "reasoning": "Refuse until the supply is verified by the responsible professional. Match the equipment to the contamination and the location, not to its capacity."
+    },
+    {
+      "situation": "A trained operator asks to use a machine that the matrix does not list for the contamination found.",
+      "decisionPrompt": "What should happen?",
+      "reasoning": "Stop. Update the matrix, obtain the authorisation and confirm the machine suits the contamination before use."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Equipment and PPE matched to the matrix, operated by trained people.",
+    "Equipment suitability and authorisation matrix."
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing equipment because it has enough capacity.",
+      "prevention": "Select by contamination, location, supply and training."
+    },
+    {
+      "error": "Connecting equipment to a supply that nobody has verified.",
+      "prevention": "Refer the supply for clearance before any connection."
+    },
+    {
+      "error": "Operating equipment without training on it.",
+      "prevention": "Only trained operators use the equipment."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not authorise connecting or operating equipment on a water-affected supply. Completing it does not give a licence, certificate or approval.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Comcare's flood clean-up guidance says electricity clearance must be given before anyone attempts to use the electricity.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A machine that is large enough but unsuitable for the contamination or the power supply creates new hazards.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner selects equipment by contamination, location, supply and training, and not by capacity.",
+    "The learner refuses connection to an unverified supply."
+  ],
+  "documentationEvidence": [
+    "Equipment suitability and authorisation matrix.",
+    "Operator training record for each machine."
+  ],
+  "summary": [
+    "Capacity is not a selection test.",
+    "Verify the supply before any connection.",
+    "Train operators before use."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "flood-water-restoration-L07-K01",
+      "question": "A company proposes equipment because it has the largest capacity. What is the right selection test?",
+      "options": [
+        "Choose the largest capacity, because it works fastest and gets the drying finished sooner on site",
+        "Choose by contamination, location, electrical supply and operator training, and record the matrix.",
+        "Choose the cheapest option available on the day, since the budget is limited for the whole job"
+      ]
+    },
+    {
+      "id": "flood-water-restoration-L07-K02",
+      "question": "According to Comcare's flood clean-up duties, what must be confirmed before electricity is used?",
+      "options": [
+        "Electricity clearance has been given",
+        "The owner has switched the power on",
+        "The equipment is the largest available"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR06-flood-water-restoration.json, instruction section 7 and learning outcome 7; first knowledge check HR06-K06. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: flood-water-restoration-lesson-07-instruction-pass68.json; flood-water-restoration-lesson-07-research-pass67.json; flood-water-restoration-lesson-07-assessment-pass69.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: equipment standards and manufacturer limits for flood-water removal equipment. No equipment standard is named in this lesson.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Floods (extreme weather)",
+      "url": "https://www.comcare.gov.au/safe-healthy-work/prevent-harm/extreme-weather/floods",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Flood clean-up dangers include asbestos, flooded sewerage, toxic chemicals, bacteria and pollutants. Clean-up duties: electricity clearance has been given before attempting to use the electricity; any hazardous chemicals or likely asbestos-containing materials are identified; everyone involved is briefed on hazards and precautions, including PPE; first aid, clean drinking water and hand hygiene measures are available. Clean-up PPE listed: rubber-soled shoes, gloves, hats, sunscreen, sun protective clothing and high visibility vests. Commonwealth (Comcare) guidance."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a flood-affected building, to carry out regulated flood restoration, to energise or isolate electrical, gas or solar systems, to remove sewage or contaminated water, to dispose of waste, or to certify that a property is dry, hygienic, structurally sound or safe to occupy. Completing this lesson does not give a licence, certificate or approval. Some of the work described is restricted to licensed, authorised or specially trained people, including electrical and gas work, structural assessment, sewage handling and some disposal. The site controller, the owner, the insurer and the competent professionals each hold separate decisions, and none of them replaces the others. Where the controlling authority or the competent professional is not identified, stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever any of these is true: permission to enter or written safety clearance is missing; the contamination is unknown; a structural hazard, a slip or a confined space has not been cleared; an electrical, gas or solar system is water-exposed or has not been licensed for re-energisation; an exposure has occurred or controls are not in place; the equipment or operators are not suitable; porous material is in question; hidden microbial contamination is suspected; a waste route is not yet known; or a party asks for a dry, hygienic or occupancy statement. A stop-work decision is correct. Record it, and restart only after the competent party has confirmed the scope in writing."
+  }
+}

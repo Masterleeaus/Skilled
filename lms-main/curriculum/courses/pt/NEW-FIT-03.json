@@ -1,0 +1,212 @@
+{
+  "id": "NEW-FIT-03",
+  "title": "Supervision, emergency and first-aid response",
+  "courseSlugs": [
+    "pt"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Personal trainers and group fitness coaches who supervise sessions and respond to emergencies at a gym, a client's home or a public space",
+  "prerequisites": [
+    "F02-L03",
+    "S14-L05",
+    "S14-L08"
+  ],
+  "learningOutcomes": [
+    "Describe the supervision a session needs, including the maximum group size the business sets and the permit limit where one applies",
+    "Carry out the first response to a collapse or serious symptom, and state the limit of what the trainer may do",
+    "Record the incident and the emergency contact details for each session"
+  ],
+  "referencesAtStart": "Official references for this lesson: City of Stonnington, Permit for sports or personal training on public land or council facilities (no explicit date; listing metadata 13 September 2017); Hornsby Shire Council, Commercial group fitness and personal training (no date shown); Holdfast Bay, Personal training permit terms and conditions 2024 (no date in document; titled 2024); WorkSafe Victoria, Health and safety responsibilities (reviewed 3 April 2025).",
+  "instruction": [
+    {
+      "heading": "Supervision: who is in charge and how many",
+      "body": "Each session needs a named person in charge, and that person must be able to see every participant. The business sets a maximum group size and a supervision ratio. Where the session is on public land, the council permit may set a limit that the business must not exceed. Hornsby Shire Council in New South Wales caps a group at 18 for the permitted personal training it covers (no date shown). Stonnington in Victoria caps participants at 15 per session under its permit (listing shows no explicit date; confirm with the council). Those are council-specific limits for those councils. The business's group size and ratio are held in the session procedure, {{business:procedures.approved_sop}}, and the supervisor is named in {{business:staff.supervisor_contact}}. The trainer must check the permit for the place and the time before the session starts, and must not let a group grow beyond the limit."
+    },
+    {
+      "heading": "First response to a collapse or serious symptom",
+      "body": "If a participant collapses, becomes unresponsive, has chest pain, struggles to breathe, or shows signs of a serious injury, the first step is to make the area safe and call emergency services. Stay with the participant, keep them safe, and follow the first-aid training the trainer holds. Stonnington's permit listing asks for a Level 2 first aid certificate, kept current, from a workplace course; Hornsby asks for senior first aid, kept current; Holdfast Bay requires current first aid and CPR. Those are council conditions that apply on that council's land. This course does not treat a first-aid certificate as clinical authority, and it is not a state licence. The trainer must not diagnose, must not give medication, and must not tell the family what the cause is. Record the time of the incident, what was seen, what was done, and who was called. The escalation and emergency contacts are held in {{business:safety.emergency_contact}} and {{business:safety.escalation_contact}}."
+    },
+    {
+      "heading": "Records and the incident after the session",
+      "body": "After any emergency, the trainer must complete an incident record while the details are fresh. The record should include the participant's name, the time, the location, the session type, the group size, the first aid given, the people called, and any witnesses. The record must be kept under the business's privacy approach, and the client's medical information must be shared only as the business procedure allows. Where the event involves a child, the business must also follow its child-safety procedure. The trainer should not discuss the incident on social media or with other clients. The business should review the incident and record the change it has made."
+    }
+  ],
+  "procedure": [
+    "Check the group size, the supervision ratio and the permit limit before the session starts",
+    "Confirm the name of the person in charge and the emergency contacts for the session",
+    "Check the first-aid kit and the phone signal before the session, and record the check",
+    "At any collapse or serious symptom, make the area safe, call emergency services, and stay with the participant",
+    "Keep the participant safe and follow your first-aid training, without diagnosing or giving medication",
+    "Complete the incident record within the same working day, and notify the escalation contact"
+  ],
+  "workedExamples": [
+    {
+      "situation": "During an outdoor group session in a park, a participant collapses and does not respond to his name. Other participants are watching and some are filming on their phones.",
+      "decisionPrompt": "What is the first action, and what should happen to the phones?",
+      "reasoning": "The first action is to make the area safe, call emergency services, and check the participant's breathing as the first-aid training requires. The trainer should ask one participant to call and another to clear the area. Participants should not film the incident. The trainer should record the time, what was seen and done, and the people called. The business should follow its privacy approach for any images taken during the incident."
+    },
+    {
+      "situation": "A trainer is running a park session for 16 participants. The permit for the park lists a maximum of 15 participants per session.",
+      "decisionPrompt": "Can the session run as planned?",
+      "reasoning": "The permit condition sets a maximum of 15 for that council, so 16 participants exceed the permit. The trainer must not run the session with 16. The trainer should reduce the group to 15 or split it into two sessions within the permit, and record the change. The permit limit is a council condition for that land, and the trainer must follow it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "First-aid kit checked before each session and recorded",
+    "Working phone with signal and the emergency contact list",
+    "Incident record form, paper or digital",
+    "Participant list for the session, held by the person in charge"
+  ],
+  "commonErrors": [
+    {
+      "error": "Allowing the group to grow beyond the permit or business limit.",
+      "prevention": "Check the limit before the session and split the group where needed."
+    },
+    {
+      "error": "Treating a first-aid certificate as a licence to diagnose or give medicine.",
+      "prevention": "A certificate allows first response only. Do not diagnose or give medication."
+    },
+    {
+      "error": "Filming an incident and sharing it with other clients.",
+      "prevention": "Do not film or share. Follow the privacy approach and the business procedure."
+    },
+    {
+      "error": "Leaving the incident record until the next week.",
+      "prevention": "Complete the incident record the same working day while the details are clear."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Stonnington's permit listing (Victoria) caps participants at 15 per session and asks for a Level 2 first aid certificate, kept current, from a workplace course. This is council-specific, and the listing shows no explicit date.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Hornsby Shire Council (NSW) caps a group at 18 and asks for senior first aid, kept current for permitted personal training. This is council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "A first-aid certificate is not a state licence and gives no clinical authority under this course. This lesson does not grant one.",
+      "licenceNotice": true
+    },
+    {
+      "point": "WorkSafe Victoria states that a self-employed person's work must not expose others to risk, within what is reasonably practicable (page reviewed 03/04/2025). How that applies to a particular park session is for the trainer to apply, and no separate rule for park sessions was confirmed.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every session has a named person in charge and a group size within the business and permit limits",
+    "Every emergency is answered with the first response and a call to emergency services",
+    "Every incident is recorded the same working day, with the time, actions and people called",
+    "The first-aid kit and phone check is recorded before each session"
+  ],
+  "documentationEvidence": [
+    "Session record with the person in charge, group size and permit limit checked",
+    "First-aid kit check record",
+    "Incident record for each emergency, with actions and contacts",
+    "First-aid certificate held by each trainer who runs sessions"
+  ],
+  "summary": [
+    "Check the group size and permit limit before every session",
+    "Make the area safe, call emergency services and stay with the participant",
+    "First-aid certificates are council conditions in some places, not state licences",
+    "Completing this lesson does not grant a first-aid certificate or clinical authority"
+  ],
+  "businessFields": [
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:staff.supervisor_contact}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:procedures.prestart_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FIT-03-K01",
+      "question": "A participant collapses and does not respond during a park session. What is the first action?",
+      "options": [
+        "Make the area safe, call emergency services, and stay with the participant",
+        "Carry on the session and check on the participant at the end",
+        "Ask the participant to rest and take a drink of water before they continue"
+      ]
+    },
+    {
+      "id": "NEW-FIT-03-K02",
+      "question": "A park permit caps a session at 15 participants. The group has 16. What should the trainer do?",
+      "options": [
+        "Run the session with 16, since one extra is not a breach",
+        "Reduce the group to 15 or split the session, and record the change",
+        "Ask the council for a verbal agreement on the day"
+      ]
+    },
+    {
+      "id": "NEW-FIT-03-K03",
+      "question": "What does a first-aid certificate give the trainer, in the terms of this course?",
+      "options": [
+        "A state licence to diagnose conditions in the park setting",
+        "The ability to give medication to participants during the session",
+        "A first response for emergencies, with no clinical authority"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: Permit for sports or personal training on public land or council facilities (City of Stonnington) (no explicit date; listing metadata 13 September 2017): https://ablis.business.gov.au/service/vic/permit-for-sports-or-personal-training-on-public-land-or-council-facilities-city-of-stonnington/27569; Commercial group fitness and personal training (no date shown): https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training; Personal training permit terms and conditions 2024 (no date in document; titled 2024): https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf; Health and safety responsibilities (reviewed 3 April 2025): https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Permit for sports or personal training on public land or council facilities (City of Stonnington)",
+      "url": "https://ablis.business.gov.au/service/vic/permit-for-sports-or-personal-training-on-public-land-or-council-facilities-city-of-stonnington/27569",
+      "pageDate": "No explicit date (listing metadata 13 Sep 2017)",
+      "checked": "2026-11-03",
+      "covers": "Listing copy of the council permit; confirm current conditions with Stonnington's Recreation Services Unit before relying on it. Publisher: City of Stonnington via business.gov.au (ABLIS)."
+    },
+    {
+      "id": "R2",
+      "title": "Commercial group fitness and personal training",
+      "url": "https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Council page; group cap, designated areas, activities named, insurance and qualifications. Council only. Publisher: Hornsby Shire Council."
+    },
+    {
+      "id": "R3",
+      "title": "Personal training permit terms and conditions 2024",
+      "url": "https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf",
+      "pageDate": "No date in document (titled 2024)",
+      "checked": "2026-11-03",
+      "covers": "Council PDF; hours, sites, qualifications and insurance minimums. Council only. Publisher: City of Holdfast Bay."
+    },
+    {
+      "id": "R4",
+      "title": "Health and safety responsibilities",
+      "url": "https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities",
+      "pageDate": "Reviewed 03/04/2025",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; duties of employers and self-employed people to others. The page does not say whether a client's home is a workplace. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Stonnington City Council, Permit for sports or personal training on public land (ablis), https://ablis.business.gov.au/service/vic/permit-for-sports-or-personal-training-on-public-land-or-council-facilities-city-of-stonnington/27569, checked 2026-11-02 (PT-VIC-02, COUNCIL-SPECIFIC)",
+    "Hornsby Shire Council, Commercial group fitness and personal training, https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training, checked 2026-11-02 (NAT-PT-NSW-01, COUNCIL-SPECIFIC)",
+    "Holdfast Bay City Council, Personal training permit terms and conditions 2024, https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf, checked 2026-11-02 (NAT-PT-SA-01, COUNCIL-SPECIFIC)",
+    "WorkSafe Victoria, Health and safety responsibilities, https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities, reviewed 03/04/2025, checked 2026-11-02 (ALL-VIC-01)",
+    "Shared lesson references: F02-L03 (incident response and reporting), S14-L05 (emergency procedures and evacuation), S14-L08 (practical emergency and escalation scenarios), within curriculum/lessons/ready",
+    "Checked 2026-11-03: official references R1, R2, R3, R4 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-05.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-06.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "RAS-09",
+  "title": "Sharps, body fluids and waste areas",
+  "courseSlugs": [
+    "commercial",
+    "strata",
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaning operatives and supervisors who work in washrooms, waste areas, stairwells and public spaces where sharps or body fluids may be found.",
+  "prerequisites": [
+    "F08-L02",
+    "SOP-23"
+  ],
+  "learningOutcomes": [
+    "Identify sharps and body fluids as hazards in public and waste areas, and separate routine clean-up from specialist work.",
+    "Respond to a discovered needle or sharp without touching it, and get the right people involved.",
+    "Clean a small body fluid spill with the controls in the register, and clean before disinfecting.",
+    "Dispose of contaminated materials under the procedure and local rules."
+  ],
+  "instruction": [
+    {
+      "heading": "Sharps in public and waste areas",
+      "body": "Sharps and drug paraphernalia are found in public toilets, stairwells, car parks, bins and general waste areas. The register treats a needle or sharp as a hazard for anyone nearby, including the crew, occupants and the public. The risk comes from a puncture, and the outcome can be a serious infection. The first rule is that no one picks up a needle by hand. If one is seen, the operative stops, keeps others away, and notifies reception and the building facilities team straight away, then informs the operations supervisor. Only trained and competent people who are wearing the protective equipment in the register may remove a sharp, using a sharps kit. The sharp is then disposed of in a sharps container under the company's procedure and the local authority's requirements. WARNING: Never reach into a bin, bag or gap by hand to look for a sharp."
+    },
+    {
+      "heading": "Body fluids and human waste",
+      "body": "Contact with human waste or bodily fluids is a biological hazard. It can spread infection through the mouth, nose, eyes or a cut. The register allows routine crew to clean up small amounts after training, using personal protective equipment and a segregated area. The steps are to keep occupants away from the area, to scrape residues into a closable container, to clean the surface with detergent first, and only then to disinfect. Wash the hands and forearms with warm water and soap, and dry them with disposable towels or a hot-air dryer, after removing the protective equipment. Do not eat, drink or smoke in the area. A cut or graze is covered with a waterproof dressing and washed at once with soap and running water."
+    },
+    {
+      "heading": "Scope limits and specialist response",
+      "body": "Routine clean-up of a small, known spill is the limit of the crew's scope under this lesson. Large spills, unknown material, decomposed remains, trauma scenes, and any clean-up involving a hazard the crew cannot name are specialist work. The high-risk course in this platform covers specialist biohazard work and is not authorised by this lesson. When the scope is exceeded, the operative stops, secures the area as far as possible, keeps people away, and escalates to the supervisor and the client. The register does not allow the crew to improvise a response that is outside their training."
+    }
+  ],
+  "procedure": [
+    "If a sharp is seen, stop, keep people away and do not touch it. Notify reception, building facilities team and the operations supervisor straight away.",
+    "Allow only trained, competent people wearing the register's protective equipment to remove a sharp, using the sharps kit.",
+    "For a small body fluid spill, put on the protective equipment, keep occupants away and segregate the area.",
+    "Scrape residues into a closable container, clean with detergent first, then disinfect.",
+    "Bag contaminated cloths, PPE and any heavily soiled item for disposal under the procedure and local rules.",
+    "Wash the hands and forearms, cover any cut with a waterproof dressing, and report the event."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner finds a used sharp in a bin liner in a ground-floor waste store while emptying the bin.",
+      "decisionPrompt": "State what is done first, who is told, and who may remove the sharp.",
+      "reasoning": "The first action is to stop emptying the bin and not reach into the liner. The cleaner keeps others away, notifies the building facilities team and reception, and informs the operations supervisor. The sharp is removed only by a trained and competent person using the sharps kit and the protective equipment in the register. Disposal follows the procedure and the local authority rules, which are checked before any change is made."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Sharps kit and sharps container, used only by trained and competent people",
+    "{{business:safety.required_ppe}} including gloves suited to body fluids and eye protection",
+    "Disposable towels, closable containers and clinical waste bags for contaminated items",
+    "Detergent and disinfectant as approved in the register, and waterproof dressings"
+  ],
+  "commonErrors": [
+    {
+      "error": "Reaching into a bin or a bag to find a sharp.",
+      "prevention": "Never reach in by hand. Stop, keep people away and notify."
+    },
+    {
+      "error": "Disinfecting a soiled surface without cleaning it first.",
+      "prevention": "Clean with detergent first, then disinfect the clean surface."
+    },
+    {
+      "error": "Continuing a body fluid clean-up after it has grown beyond routine.",
+      "prevention": "Stop, secure the area, keep people away and escalate to the supervisor."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Do not pick up a needle or sharp yourself. Only trained and competent people who are wearing the protective equipment and using a sharps kit may remove one.",
+      "licenceNotice": false
+    },
+    {
+      "point": "WARNING: Large, unknown or complex body fluid and trauma scenes are specialist work. This lesson does not authorise that work.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the Australian requirements for clinical waste classification, sharps disposal and reporting a needle-stick or exposure under state and territory law.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "No sharp was touched by an untrained person, and each sighting was notified straight away.",
+    "Body fluid clean-up followed the order: protect, segregate, scrape, clean, then disinfect.",
+    "Contaminated waste was sealed in bags and sent for disposal under the procedure, and the hands were washed afterwards."
+  ],
+  "documentationEvidence": [
+    "Sharp sighting record with location, time and who was notified",
+    "Body fluid clean-up record with the protective equipment used and the disposal route",
+    "Exposure or injury report, where any exposure happened"
+  ],
+  "summary": [
+    "Do not touch a sharp. Stop, keep people away, and notify straight away.",
+    "Only trained and competent people remove sharps, with a sharps kit and protective equipment.",
+    "For small body fluid spills, clean with detergent first, then disinfect.",
+    "Specialist and large clean-ups are escalated and are outside this lesson."
+  ],
+  "businessFields": [
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-09-K01",
+      "question": "A needle is seen on the floor of a public toilet. What is the correct first action?",
+      "options": [
+        "Stop, keep people away, do not touch it, and notify reception and building facilities team.",
+        "Pick it up with a tissue and place it in the bin and check the bin is clear",
+        "Mark it with a sign and leave it for the next cleaner and tell the next cleaner about it"
+      ]
+    },
+    {
+      "id": "RAS-09-K02",
+      "question": "Which order is correct for a small body fluid spill?",
+      "options": [
+        "Disinfect first, then clean and mop the floor after that to dry",
+        "Protect, segregate, scrape residue, clean with detergent, then disinfect.",
+        "Wipe the spill with a dry cloth, then mop and leave the floor to dry"
+      ]
+    },
+    {
+      "id": "RAS-09-K03",
+      "question": "A body fluid spill in a stairwell is far larger than a routine clean and contains an item the crew cannot identify. What should happen?",
+      "options": [
+        "The crew finishes it, since they are already there.",
+        "The crew covers the spill with paper towels and leaves.",
+        "The crew stops, secures the area, keeps people away and escalates."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard rows 10 and 11 (needle stick injuries, sharps and drug paraphernalia; biological hazards from human waste and bodily fluids); rights: user-held",
+    "UNCONFIRMED: Australian clinical waste classification, sharps disposal, exposure reporting and state and territory biological hazard rules; not checked in this pass.",
+    "Cross-check: existing lesson SOP-23 in shared/cleaning covers body fluid and sharps clean-up for trained workers only; the high-risk module covers specialist biohazard work."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

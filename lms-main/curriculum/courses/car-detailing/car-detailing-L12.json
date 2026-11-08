@@ -1,0 +1,169 @@
+{
+  "id": "car-detailing-L12",
+  "title": "Quality assurance and handover",
+  "courseSlugs": [
+    "cardetail"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 25,
+  "audience": "Car detailers completing the final check and the handover of a vehicle to the customer.",
+  "referencesAtStart": "Official sources: ACCC, Consumer rights and guarantees (no date in body; page metadata shows 17 July 2026); ACCC, False or misleading claims (no date in body; page metadata shows 28 June 2026).",
+  "prerequisites": [
+    "car-detailing-L02",
+    "car-detailing-L07"
+  ],
+  "learningOutcomes": [
+    "Complete an end-to-end checklist in adequate light and record remaining limitations.",
+    "Check that glass, mirrors and controls are safe and unobstructed, and that no slippery residue remains on pedals or controls.",
+    "Explain rectification, seek approval for extra work, and keep traceable evidence."
+  ],
+  "instruction": [
+    {
+      "heading": "The final check",
+      "body": "Carry out the end-to-end checklist in adequate lighting, comparing the finish with the condition photographs taken at the start. Check that the glass and mirrors are clean and unobstructed, and that the vehicle controls work freely. Make sure that no slippery residue is left on the pedals or controls, because residue there is a driving hazard. Record any limitation that remains, such as a defect that was present before the work."
+    },
+    {
+      "heading": "Explaining the result",
+      "body": "Explain the result to the customer in plain terms: what was done, what was not done, what remains as found, and what was rectified. Where further work would help, seek approval for it and price it before doing it. If no completion date was agreed, the work must still be delivered in a timely way, judged by the nature of the job and the availability of parts (ACCC, consumer rights and guarantees, metadata 17 July 2026). Never describe a pre-existing defect as caused or repaired by the detailing, because a false or misleading statement about the result of a service is prohibited (ACCC, false or misleading claims, metadata 28 June 2026)."
+    },
+    {
+      "heading": "Handover evidence",
+      "body": "Keep the traceable evidence: the start and end photographs, the checklist, the customer's sign-off and the record of any disputed defect. A disputed defect is handled with an escalation record, not with a verbal argument at the kerb."
+    }
+  ],
+  "procedure": [
+    "Complete the end-to-end checklist in good light and compare with the start photographs.",
+    "Check glass, mirrors and controls, and remove any slippery residue from pedals and controls.",
+    "Record remaining limitations and pre-existing defects.",
+    "Explain the result, seek approval for extra work and price it before doing it.",
+    "Keep start and end photographs, the checklist, the sign-off and any disputed-defect record."
+  ],
+  "workedExamples": [
+    {
+      "situation": "After collection, a customer reports a streak on the glass and suspects a scratch.",
+      "decisionPrompt": "What do you check and record?",
+      "reasoning": "Compare the glass with the start photographs and the final checklist. Record what is known and what is uncertain. If a scratch is suspected, log it as a disputed defect, agree how it will be assessed, and do not promise a fix until it has been assessed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Start and end condition photographs.",
+    "Inspection light and final checklist.",
+    "Sign-off form and disputed-defect record."
+  ],
+  "commonErrors": [
+    {
+      "error": "Leaving residue on pedals or controls.",
+      "prevention": "Check controls and pedals as part of the final walk-around."
+    },
+    {
+      "error": "Claiming a defect was caused by the detailing.",
+      "prevention": "Compare with the start photographs and record it as found."
+    },
+    {
+      "error": "Doing extra work without approval.",
+      "prevention": "Price and approve before starting."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A driving hazard, such as slippery residue on pedals, is a safety matter, not a cosmetic one.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Content is general cleaning practice and needs subject-matter and regulator review before use.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Final checklist completed in good light against the start photographs.",
+    "Pedals and controls confirmed free of slippery residue in the practical.",
+    "Disputed defect logged with an agreed assessment step."
+  ],
+  "documentationEvidence": [
+    "Start and end photographs, the final checklist and the customer's sign-off.",
+    "Disputed-defect escalation record."
+  ],
+  "summary": [
+    "Check the finish, glass, controls and pedals before handover.",
+    "Explain the result and separate pre-existing defects from work done.",
+    "Keep traceable evidence, and log disputes rather than argue them."
+  ],
+  "businessFields": [
+    "{{business:quality.inspection_checklist}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:customers.complaint_escalation}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "car-detailing-L12-K01",
+      "question": "What must be checked on the pedals before handover?",
+      "options": [
+        "Their colour and finish after the clean",
+        "That no slippery residue is left on them",
+        "Their brand and the age of the vehicle"
+      ]
+    },
+    {
+      "id": "car-detailing-L12-K02",
+      "question": "A customer suspects a scratch after collection. What is correct?",
+      "options": [
+        "Promise to polish it out, since the scratch will be gone by the time of pickup",
+        "Blame the customer for the scratch, since they were not careful with it at the car park",
+        "Compare with the start photographs, log it as disputed, and agree an assessment"
+      ]
+    },
+    {
+      "id": "car-detailing-L12-K03",
+      "question": "Extra work is suggested at handover. What comes first?",
+      "options": [
+        "Pricing it and getting approval",
+        "Doing it while the customer is there",
+        "Adding it to the invoice"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Consumer rights and guarantees",
+      "url": "https://www.accc.gov.au/business/selling-products-and-services/consumer-rights-and-guarantees",
+      "pageDate": "No date in body; page metadata 17 July 2026",
+      "checked": "2026-11-03",
+      "covers": "ACCC website: Selling products and services, consumer rights and guarantees (services section). Publisher: Australian Competition and Consumer Commission (ACCC)."
+    },
+    {
+      "id": "R2",
+      "title": "False or misleading claims",
+      "url": "https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims",
+      "pageDate": "No date in body; page metadata 28 June 2026",
+      "checked": "2026-11-03",
+      "covers": "ACCC website: Advertising and promotions, false or misleading claims. Publisher: Australian Competition and Consumer Commission (ACCC)."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: Consumer rights and guarantees; False or misleading claims.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/car-detailing-L12.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use.",
+    "Conditions vary by state, territory and country, and the local rules and the manufacturer's instructions govern. This lesson does not substitute for them.",
+    "R1 https://www.accc.gov.au/business/selling-products-and-services/consumer-rights-and-guarantees (page date: No date in body; page metadata 17 July 2026; checked 2026-11-03)",
+    "R2 https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims (page date: No date in body; page metadata 28 June 2026; checked 2026-11-03)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-09.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    },
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-10.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    }
+  ]
+}

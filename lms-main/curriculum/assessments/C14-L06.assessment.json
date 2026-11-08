@@ -1,0 +1,35 @@
+{
+ "lessonId": "C14-L06",
+ "knowledgeAnswers": [
+  {
+   "id": "C14-L06-K01",
+   "correctIndex": 2,
+   "rationale": "Functional testing is not a cleaning claim, and it is done by the authorised person."
+  },
+  {
+   "id": "C14-L06-K02",
+   "correctIndex": 0,
+   "rationale": "A known defect is held and recorded."
+  },
+  {
+   "id": "C14-L06-K03",
+   "correctIndex": 1,
+   "rationale": "The record states the work done and the exclusions."
+  }
+ ],
+ "practicalCriteria": [
+  "Completes a handover check of a sample appliance for cleanliness, dryness, reassembly and left-behind items.",
+  "Holds and records a simulated defective appliance.",
+  "Describes the handover without claiming untested function."
+ ],
+ "passRule": "Handover checks complete, defect held and recorded, and no function claim made. Observed by an assessor. Not an electrical or gas licence.",
+ "evidenceRequired": [
+  "Handover checklist",
+  "Defect hold record"
+ ],
+ "stopWorkCriteria": [
+  "Appliance handed over with a known defect",
+  "Cleaner tests gas or electrical function",
+  "Left-behind item not removed before handover"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "lessonId": "PROC-02",
+ "knowledgeAnswers": [
+  {
+   "id": "PROC-02-K01",
+   "correctIndex": 0,
+   "rationale": "The technician's hours can be traced to one job, so the cost is direct. Paying through payroll does not decide the classification, and a rate fixed in advance does not make a cost overhead."
+  },
+  {
+   "id": "PROC-02-K02",
+   "correctIndex": 1,
+   "rationale": "Rent does not change in total with the number of jobs over the month, so it is fixed for that period. It cannot be direct to each job, because it is not traced to one job."
+  },
+  {
+   "id": "PROC-02-K03",
+   "correctIndex": 1,
+   "rationale": "Zero-based budgeting requires each line to be justified again from nil at each cycle. Incremental budgeting starts from the prior period, and rolling budgeting extends the budget forward each period."
+  },
+  {
+   "id": "PROC-02-K04",
+   "correctIndex": 2,
+   "rationale": "An actual below budget on a cost line is a favourable variance. The reason should still be checked, because a low result can hide missed purchases or a timing shift. Money left over does not roll into next period as extra budget."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner labels every cost line in a one-month sheet as direct or indirect, and states the allocation basis for every indirect line. Pass: every line carries a label, and every indirect line carries a basis.",
+  "Learner calculates one variance and splits it into a volume effect and a price or usage effect. Pass: the two effects add to the total variance, and the assessor's check reproduces the same figures.",
+  "Learner states the period and activity range for each fixed, variable or mixed label. Pass: no label is given without both."
+ ],
+ "passRule": "80% on knowledge checks. A quiz pass is not verified practical competence; the assessor signs off the practical criteria separately.",
+ "evidenceRequired": [
+  "Monthly budget sheet with period, activity range, method, assumptions and sources",
+  "Variance calculation showing the volume and price split and the total",
+  "Assessor record of knowledge check result",
+  "Assessor sign-off against the three practical criteria"
+ ],
+ "stopWorkCriteria": [
+  "Learner treats a GST, depreciation or superannuation treatment as settled without checking it (see SHR-FIN-01)",
+  "Learner reads a variance by its sign alone and takes no action on a large unexplained variance",
+  "Learner allocates an indirect cost without a recorded basis"
+ ]
+}

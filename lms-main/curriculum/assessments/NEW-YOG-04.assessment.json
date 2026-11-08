@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-YOG-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-YOG-04-K01",
+      "correctIndex": 2,
+      "rationale": "The check category for the class and state is confirmed and recorded before the first children's class. Adding the class before the check is not safe."
+    },
+    {
+      "id": "NEW-YOG-04-K02",
+      "correctIndex": 0,
+      "rationale": "The advertisement describes style, level and time. A condition claim is removed because the business cannot support it from the sources."
+    },
+    {
+      "id": "NEW-YOG-04-K03",
+      "correctIndex": 1,
+      "rationale": "Code 28 covers private tutoring and coaching aimed directly at children, as the vic.gov.au categories list."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor checks a sample class schedule for venue, participant limit and permit reference on each entry",
+    "Assessor checks a children's class record for a recorded Working with Children Check position, dated before the first session",
+    "Assessor checks a sample advertisement and confirms it contains no health outcome claim"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Sample class schedule with the required fields",
+    "Working with Children Check position record for the sample children's class",
+    "Reviewed advertisement with the claim removed, dated"
+  ],
+  "stopWorkCriteria": [
+    "A children's class runs before its check position is recorded",
+    "A membership is sold with no written terms",
+    "An advertisement makes a health outcome claim and is published"
+  ]
+}

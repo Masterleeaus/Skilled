@@ -1,0 +1,217 @@
+{
+  "id": "medical-equipment-cleaning-L04",
+  "title": "PPE, hand hygiene and exposure prevention",
+  "courseSlugs": [
+    "medequip",
+    "healthcare"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and cleaning supervisors working on medical equipment or in healthcare settings anywhere in Australia. This is an adapted lesson: the same content serves medical equipment cleaning and healthcare cleaning, and the facility's procedure governs the detail.",
+  "referencesAtStart": "Official sources for this lesson: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019) (no page date shown; document dated 2019); NDIS Practice Standards and Quality Indicators, Version 4, Core Module (cover date November 2021; no page date shown); Safe Work Australia, Duties of a person conducting a business or undertaking (PCBU) (no date shown).",
+  "prerequisites": [
+    "F02-L01",
+    "F15-L03",
+    "medical-equipment-cleaning-L01"
+  ],
+  "learningOutcomes": [
+    "Describe the standard precautions that apply to every cleaning task in a healthcare setting, including hand hygiene at the correct points.",
+    "Select the personal protective equipment for a named task from the product safety data sheet and the facility assessment, and explain why it is task-specific.",
+    "Demonstrate the donning and doffing sequence in a supervised setting, and describe the exposure response for a splash or needlestick.",
+    "State when the cleaner must stop, withdraw and report instead of continuing."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson: external cleaning only",
+      "body": "This lesson covers external cleaning only. It explains the protection a cleaner needs when cleaning the outside of medical equipment and healthcare environments. Reprocessing, disinfection for reusable devices and sterilisation are outside this course. They are authorised only by the manufacturer's instructions and the facility's written procedure. Protection rules in this lesson do not authorise any reprocessing task."
+    },
+    {
+      "heading": "Standard precautions as the baseline",
+      "body": "The NHMRC Australian Guidelines for the Prevention and Control of Infection in Healthcare treat hand hygiene and the use of personal protective equipment as core parts of routine infection prevention. The NDIS Practice Standards and Quality Indicators, Version 4 of November 2021, require that infection prevention and control standard precautions are implemented throughout all settings where supports are provided, and that each worker is trained, with refresher training, in standard precautions, hand hygiene, respiratory hygiene and cough etiquette. A cleaner should treat every surface and item as potentially contaminated, perform hand hygiene at the transitions the facility specifies, and not wait for a visible soil before protecting themselves."
+    },
+    {
+      "heading": "Choosing personal protective equipment for the task",
+      "body": "Protective equipment is task-specific. Gloves suitable for a dilute detergent may not resist a stronger product, and a gown that is right for a splash-prone task may be excessive for a dry dust wipe. Select the equipment from three sources: the product safety data sheet for the chemical you are using, the facility's risk assessment for the area, and the task itself. Where the task involves a splash risk, body fluids or a sharps hazard, the facility's specific requirements apply and may be stricter than general guidance. Check the equipment before use, and replace it when it is torn, contaminated or past its date. The facility supplies the approved equipment, and the NDIS Practice Standards require that personal protective equipment is available to each worker who needs it."
+    },
+    {
+      "heading": "Donning, doffing and hand hygiene",
+      "body": "Put equipment on in an order that protects the clean parts of your body: hand hygiene first, then gown or apron, mask or eye protection if required, then gloves last so that they cover the cuffs. Remove equipment in the reverse order and in a way that keeps the outside of each item away from your skin and clothing. Perform hand hygiene immediately after removing gloves, and before touching clean stock, a trolley handle or your face. A common failure is touching a shared handle with contaminated gloves and then handling clean supplies. Stop, remove the gloves, perform hand hygiene, put on new gloves, and continue. Do not wash gloves to reuse them unless the facility procedure allows it."
+    },
+    {
+      "heading": "Exposure, stop and report",
+      "body": "If you are splashed on broken skin or the mucous membranes of the eyes, nose or mouth, or you are stuck by a sharp, stop the task. Remove yourself from the immediate area, follow the facility's exposure procedure, and report the event to your supervisor the same shift. Do not handle sharps with your hands. The exposure response is set by the facility and may include immediate first aid, medical assessment and recording, and it is not a decision for the cleaner to make alone. Record the exposure, the time, the source if known, the first aid given and the person notified. Stop work whenever the protection you need is not available, damaged, or not the type the task requires."
+    }
+  ],
+  "procedure": [
+    "Read the product safety data sheet and the facility task assessment, and select the protective equipment for this task.",
+    "Check each item of protective equipment for damage, contamination and the correct size before use.",
+    "Perform hand hygiene, then put on protective equipment in the facility's order.",
+    "Carry out the approved task, keeping clean stock and used items separate and avoiding touching your face or clean supplies with gloved hands.",
+    "Perform hand hygiene at each transition the facility specifies, and after any suspected contamination.",
+    "Remove protective equipment in the reverse order, then perform hand hygiene.",
+    "If an exposure or sharps injury occurs, stop, follow the exposure procedure, and report to the supervisor the same shift.",
+    "Record the equipment used, any exposure, any replacement made, and any missing equipment that stopped the task."
+  ],
+  "workedExamples": [
+    {
+      "situation": "During a cleaning round, you wipe a shared trolley handle and then reach into a clean supply drawer while still wearing the same gloves.",
+      "decisionPrompt": "What must you do, and what should be recorded?",
+      "reasoning": "The gloves are now contaminated and have touched clean stock. Stop the step, remove the gloves, perform hand hygiene, and put on new gloves before continuing. If the clean stock was touched, the supervisor decides whether it is set aside under the facility procedure. Record the event as a contamination near-miss so the pattern can be reviewed."
+    },
+    {
+      "situation": "You are asked to clean a surface treated with a product whose safety data sheet recommends eye protection and chemical-resistant gloves. Your standard issue gloves are thin vinyl and there are no eye protectors on the trolley.",
+      "decisionPrompt": "Can you start the task?",
+      "reasoning": "No. The required protection is not available and the standard issue gloves do not match the safety data sheet. Stop, do not substitute the protection, and ask the supervisor for the correct equipment. Record the stop and the reason. The task resumes only when the required protection is in place."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Gloves of the type specified on the product safety data sheet and the facility assessment",
+    "Eye and face protection where a splash risk is identified",
+    "Gowns, aprons or masks as required by the task and the facility procedure",
+    "Hand hygiene products provided by the facility: {{business:safety.required_ppe}}",
+    "Product safety data sheets: {{business:materials.sds_links}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Wearing one pair of gloves for the entire round, including after touching shared surfaces and clean stock.",
+      "prevention": "Change gloves and perform hand hygiene at each transition the facility specifies, and after any doubtful contact."
+    },
+    {
+      "error": "Choosing protective equipment from habit rather than from the safety data sheet and task assessment.",
+      "prevention": "Read the safety data sheet for each product and the facility assessment for the task before selecting equipment."
+    },
+    {
+      "error": "Handling a sharp with the hands or leaving an exposure unreported to avoid paperwork.",
+      "prevention": "Never handle sharps by hand. Report every exposure the same shift, however minor it seems."
+    },
+    {
+      "error": "Reusing disposable gloves after washing them.",
+      "prevention": "Disposable gloves are single-use unless the facility procedure states otherwise for a specific glove type."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the facility procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The NDIS Practice Standards and Quality Indicators, Version 4 of November 2021, Core Module, require standard precautions to be implemented in settings where supports are provided. They also require training and refresher training in standard precautions, hand hygiene, respiratory hygiene and cough etiquette, and training in PPE use for each worker who provides direct support.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Under the NDIS Practice Standards, PPE must be available to each worker who needs it. Where the facility is an NDIS provider, the facility's obligation applies; the cleaner's obligation is to use the equipment supplied and to report shortfalls.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Under the model WHS framework, a PCBU must minimise risks that cannot be eliminated, and the Safe Work Australia page refers to the hierarchy of control.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Completing this lesson does not grant any authority to handle clinical waste, sharps or regulated medical waste. Those tasks are outside this course and require the facility's authorisation and any state or territory licence that applies.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner names the hand hygiene points the facility requires for a given task, with no missing transitions.",
+    "The learner selects protective equipment for three supplied tasks from the safety data sheets, with a reason for each choice.",
+    "The learner demonstrates donning and doffing in a supervised setting without contaminating the clean side.",
+    "The learner describes the exposure response in order and names the person to notify."
+  ],
+  "documentationEvidence": [
+    "Protective equipment used for the task, and any substitution or shortfall",
+    "Any exposure event, with time, first aid given, source where known, and person notified",
+    "Any stop-work decision caused by missing or unsuitable protection"
+  ],
+  "summary": [
+    "Standard precautions apply to every task: treat surfaces as potentially contaminated and perform hand hygiene at each transition.",
+    "Protective equipment is chosen for the task from the safety data sheet and the facility assessment.",
+    "After any exposure, stop, follow the facility procedure, and report the same shift.",
+    "Stop work when the required protection is missing or unsuitable, and record why."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:materials.sds_links}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-equipment-cleaning-L04-K01",
+      "question": "When must hand hygiene be performed during a cleaning round in a healthcare setting?",
+      "options": [
+        "Only at the start of the shift, once the cleaner has arrived and the trolley is loaded for the day",
+        "Only when hands are visibly dirty, since clean hands need no extra washing during the round at all",
+        "At the transitions the facility specifies, including after removing gloves and before touching clean stock."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L04-K02",
+      "question": "How should protective equipment be selected for a cleaning task?",
+      "options": [
+        "From the product safety data sheet and the facility task assessment.",
+        "The same equipment as the previous task, to keep the trolley simple.",
+        "Whichever equipment is at the top of the trolley."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L04-K03",
+      "question": "You are splashed on broken skin during a task. What is the first step?",
+      "options": [
+        "Finish the task so the area is clean before you report, since the splash is only a small amount",
+        "Stop the task, follow the facility exposure procedure, and report to the supervisor the same shift.",
+        "Wash the skin and carry on, because it is minor and the splash is not likely to cause harm"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "no page date shown; document dated 2019 (CD34)",
+      "checked": "2026-11-03",
+      "covers": "Read: sections on environmental cleaning, spills, hand hygiene, standard precautions and sharps. Not read: section 3.1.4 (reprocessing), 3.1.7 (waste), 4.1.2 (roles) and Appendix 6.1 (frequencies). Check those in the full PDF. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R2",
+      "title": "NDIS Practice Standards and Quality Indicators, Version 4 (November 2021), Core Module",
+      "url": "https://ndiscommission.gov.au/sites/default/files/2024-10/ndis-practice-standards-and-quality-indicators.pdf",
+      "pageDate": "cover date November 2021 (Version 4); no page date shown",
+      "checked": "2026-11-03",
+      "covers": "Read: Provision of Supports environment, Safe environment, Management of Waste, Risk Management and Human Resource Management indicators. The last 12,026 characters of the PDF were not read. Check indicator numbers in the PDF. Publisher: NDIS Quality and Safeguards Commission."
+    },
+    {
+      "id": "R3",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Confirms the PCBU duty to workers and others so far as reasonably practicable, and refers to the hierarchy of control. It does not say PPE is a last resort. Check your state or territory WHS regulator for the adopted law. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page listed above before use: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019) (no page date shown; document dated 2019); NDIS Practice Standards and Quality Indicators, Version 4, Core Module (cover date November 2021; no page date shown); Safe Work Australia, Duties of a person conducting a business or undertaking (PCBU) (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34, Recommendation 12 on spills and PPE. https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf (checked 2026-11-02; hosted copy of the 2019 edition)",
+    "NDIS Practice Standards and Quality Indicators, Version 4, November 2021, Core Module. https://ndiscommission.gov.au/sites/default/files/2024-10/ndis-practice-standards-and-quality-indicators.pdf (checked 2026-11-02)",
+    "Safe Work Australia, Duties of a PCBU. https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu (checked 2026-11-02; page undated, does not state PPE as a last resort)",
+    "UNCONFIRMED: the state-by-state text of the model WHS regulations on PPE and the hierarchy of control. Not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-07.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-08.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    }
+  ]
+}

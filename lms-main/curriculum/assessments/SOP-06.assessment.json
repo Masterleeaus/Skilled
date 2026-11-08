@@ -1,0 +1,39 @@
+{
+ "lessonId": "SOP-06",
+ "knowledgeAnswers": [
+  {
+   "id": "SOP-06-K01",
+   "correctIndex": 1,
+   "rationale": "Pads are selected by colour against the manufacturer's guide and the job specification. Feel and proximity are not selection criteria."
+  },
+  {
+   "id": "SOP-06-K02",
+   "correctIndex": 2,
+   "rationale": "The machine is stopped, unplugged and the pad checked halfway through the task. Stopping only at the end, or never, leaves a dirty or worn pad in use."
+  },
+  {
+   "id": "SOP-06-K03",
+   "correctIndex": 0,
+   "rationale": "The buffer is stored upright with the pad and base plate removed. Storing it with the pad fitted, or on the floor under the cable, is ruled out."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a supplied buffer, the learner completes the electrical pre-use check and the pad check, and records the test label date.",
+  "Given a supplied set of pads and the manufacturer colour guide, the learner selects the pad for a stated task and explains the choice.",
+  "On a supplied floor section, the learner buffs edges first, then the middle, with the cable behind them throughout, observed by the assessor.",
+  "The learner stops the supplied buffer halfway through, unplugs it, checks the pad and turns or replaces it, then stores the buffer upright with the pad off."
+ ],
+ "passRule": "80% on knowledge checks (three questions, so all three must be correct to reach 80%; flagged for review). Practical sign-off is separate: the assessor signs off each practical criterion as observed, and only a trained operator may be signed off to operate the machine.",
+ "evidenceRequired": [
+  "Completed knowledge checks",
+  "Assessor observation record for each practical criterion",
+  "Electrical pre-use check record",
+  "Operator training record, where the business requires one"
+ ],
+ "stopWorkCriteria": [
+  "Learner operates the buffer without completing the electrical check",
+  "Learner plugs in or unplugs with the socket switched on",
+  "Learner continues with a worn or dirty pad",
+  "Learner runs the cable under the pad"
+ ]
+}

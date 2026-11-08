@@ -1,0 +1,200 @@
+{
+  "id": "medical-equipment-cleaning-L06",
+  "title": "Disinfectant compatibility and contact conditions",
+  "courseSlugs": [
+    "medequip",
+    "healthcare"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Cleaners and cleaning supervisors who use approved products on the external surfaces of authorised medical equipment, in any Australian state or territory. This course covers external cleaning only.",
+  "referencesAtStart": "Official sources for this lesson: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34 (no page date shown; document dated 2019). Only part of this source has been confirmed.",
+  "prerequisites": [
+    "medical-equipment-cleaning-L03",
+    "F03-L01",
+    "F03-L02"
+  ],
+  "learningOutcomes": [
+    "Read a product label and manufacturer instruction and identify the approved use, dilution, wet contact condition and material limits.",
+    "Explain why the wet contact condition is a requirement, and what happens when the surface dries before the time is reached.",
+    "Identify when two products or a product and a surface are incompatible, and stop before applying either.",
+    "Record product, lot, dilution and contact condition, and mark a task incomplete when the condition was not achieved."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson: external cleaning only",
+      "body": "This lesson covers external cleaning only. A disinfectant label can describe approved uses for surfaces, and a manufacturer instruction can describe approved uses for a device. This lesson teaches you to follow the label and the instruction for an approved external clean. It does not teach disinfection for reusable devices for return to clinical use, reprocessing or sterilisation. Those are outside this course and are authorised only by the manufacturer's instructions and the facility's written procedure."
+    },
+    {
+      "heading": "Reading the label and the instruction",
+      "body": "Before you open any product, read four things. The first is the approved use: some products are approved for environmental surfaces and not for medical devices, and a product approved for one does not carry over to the other. The second is the dilution or form, which must be exactly as stated. The third is the wet contact condition, which is the time the product must remain visibly wet on the surface. The fourth is the list of materials and surfaces the product must not be used on. If any of these is unclear, or the product is not on the facility's approved list, do not use it. Never make a stronger mix to save time, and never add one product to another."
+    },
+    {
+      "heading": "Wet contact condition is a requirement",
+      "body": "The NHMRC Australian Guidelines for the Prevention and Control of Infection in Healthcare treat cleaning with detergent as the first step, and disinfection as an adjunct where indicated. A disinfectant only works as the label says if the surface remains wet for the stated time. If you wipe a surface and it dries before the wet contact condition is reached, the surface has not been treated as required, even if it looks clean. Apply enough product to keep the surface wet, avoid saturating electronics and openings, and time the condition from the moment the surface is wet. When the condition cannot be achieved, mark the task incomplete and escalate. Do not reapply in a way that breaks the instruction."
+    },
+    {
+      "heading": "Compatibility between products and surfaces",
+      "body": "Compatibility has two parts: the product with the material, and the product with other products. Some plastics and display films discolour, craze or lose clarity after contact with certain alcohols, solvents or strong oxidisers. Electronics may need to stay dry even when a label permits a liquid. Never mix products, and never rinse one product into a container of another. Where a product label and a manufacturer instruction disagree on a surface, stop and refer the conflict. Keep a clear record of which product went on which surface, so any later discolouration can be traced."
+    },
+    {
+      "heading": "Worked case: a delicate housing",
+      "body": "A cleaner plans to use a strong product on the housing of a sensor that the manufacturer says must not be exposed to solvents. The label approves the product for hard environmental surfaces only. The correct decision is to stop before any product touches the sensor, check the manufacturer instruction for an approved method, and ask the supervisor or the device owner for the approved product. Record the request, the decision and the time. If the sensor has already been wiped with the wrong product, stop further application, leave it as found, and report it immediately, so that the damage and product can be recorded."
+    }
+  ],
+  "procedure": [
+    "Confirm the item is authorised and the instruction for its model is current.",
+    "Read the product label: approved use, dilution or form, wet contact condition, and prohibited materials.",
+    "Check that the product is on the approved list and that the surface is not on its prohibited list.",
+    "Prepare the dilution exactly as stated, using the measuring equipment provided, and label the container.",
+    "Apply the product so the surface stays visibly wet for the full contact condition, keeping dry areas dry.",
+    "Time the contact condition from the moment the surface is wet. If the surface dries early, mark the task incomplete and reapply only if the label allows it.",
+    "Remove residue as the label and instruction direct, and inspect the surface against the approved standard.",
+    "Record the product, lot, dilution, contact condition achieved, surface, and any incomplete or incompatible result."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A label requires a wet contact condition of several minutes. You wipe a bedside monitor casing, and the surface dries after about a minute on a warm ward.",
+      "decisionPrompt": "Can you record the surface as treated?",
+      "reasoning": "No. The surface did not stay visibly wet for the required time, so the condition was not achieved. Mark the task incomplete. Reapply only if the label permits it and the instruction allows wetting that surface; otherwise escalate. Record the actual contact time, the product and the lot, and tell the supervisor the condition could not be met."
+    },
+    {
+      "situation": "Your trolley contains two products. One is an approved detergent and the other is an approved disinfectant. A colleague suggests mixing a little of each in a bottle to save a trip.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Do not mix. Mixing products can create hazards and can change the approved effect of either product. Apply each product separately as its label directs, following the approved sequence in the facility procedure. Report the colleague's suggestion to the supervisor so the team is briefed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved products for external cleaning: {{business:materials.approved_products}}",
+    "Safety data sheets for each product: {{business:materials.sds_links}}",
+    "Measuring and dilution equipment, labelled and dedicated to each product",
+    "Protective equipment as stated on the safety data sheet: {{business:safety.required_ppe}}",
+    "Timer or watch for the wet contact condition"
+  ],
+  "commonErrors": [
+    {
+      "error": "Starting the contact timer when the product is applied, rather than when the surface is wet.",
+      "prevention": "Time from the moment the surface is visibly wet, and keep it wet for the full condition."
+    },
+    {
+      "error": "Using a stronger concentration because the surface looks dirty.",
+      "prevention": "Use only the stated dilution. Dirty surfaces need the approved clean first, then the approved product."
+    },
+    {
+      "error": "Applying a product to electronics, displays or openings because the label mentions liquid.",
+      "prevention": "Check the manufacturer instruction for keep-dry areas and apply the product only where it is permitted."
+    },
+    {
+      "error": "Mixing products in one container to save time.",
+      "prevention": "Never mix products. Apply each one separately as the label directs."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the facility procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The NHMRC Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019) recommend cleaning with detergent as routine, disinfecting shared clinical equipment where indicated, and using sodium hypochlorite disinfection as an adjunct to standard cleaning in healthcare facilities.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Product labels and manufacturer instructions set the dilution, contact condition and material limits. The cleaner must follow them exactly. Specific contact times for any named product are not stated in this draft and must be taken from the current label.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemical hazards: each product's safety data sheet sets the handling, storage and first aid requirements. Mixing products can create hazards and must not be done.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Using an approved product under a label does not confer any licence to formulate, mix, repackage or reprocess products or devices. Product formulation and repackaging are regulated and are outside this lesson.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner states the approved use, dilution, contact condition and prohibited materials from a supplied label without error.",
+    "The learner identifies three incompatible or unsafe actions in a supplied scenario and states the correct response to each.",
+    "The learner records an achieved contact condition accurately, and marks a task incomplete where the surface dried early.",
+    "The learner does not mix products or vary a stated dilution in any demonstration."
+  ],
+  "documentationEvidence": [
+    "Product name, lot or batch number, dilution used and the label version checked",
+    "Surface treated, the contact condition achieved, and any incomplete result with reason",
+    "Any incompatible product or surface identified, the action taken and the person told"
+  ],
+  "summary": [
+    "The label and the manufacturer instruction set the approved use, dilution, contact condition and material limits.",
+    "A surface must stay visibly wet for the full contact condition. If it dries early, the condition was not achieved.",
+    "Never mix products, vary a dilution, or apply a product to a keep-dry area.",
+    "Record the product, dilution and contact condition achieved, and mark incomplete results honestly."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.handling_procedure}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-equipment-cleaning-L06-K01",
+      "question": "When does the wet contact condition start for a product on a surface?",
+      "options": [
+        "When the product is first poured or sprayed into the container.",
+        "From the moment the surface is visibly wet with the product.",
+        "When the cleaner has finished the rest of the room."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L06-K02",
+      "question": "A surface dries before the label's wet contact condition is reached. What is the correct record?",
+      "options": [
+        "Treated, because the surface looks clean.",
+        "Treated, because the product was applied correctly at the start.",
+        "Incomplete, with the actual time recorded and the supervisor told."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L06-K03",
+      "question": "A colleague suggests mixing two approved products in one bottle to save a trip. What should you do?",
+      "options": [
+        "Do not mix. Apply each product separately as its label directs and report the suggestion.",
+        "Mix a small amount, because both are approved and the mixture will be stronger for the job",
+        "Mix them only if the surface is heavily soiled, since the mixture cleans more strongly"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "no page date shown; document dated 2019 (CD34)",
+      "checked": "2026-11-03",
+      "covers": "Read: sections on environmental cleaning, spills, hand hygiene, standard precautions and sharps. Not read: section 3.1.4 (reprocessing), 3.1.7 (waste), 4.1.2 (roles) and Appendix 6.1 (frequencies). Check those in the full PDF. Publisher: National Health and Medical Research Council (NHMRC)."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34 (no page date shown; document dated 2019). Only part of this source has been confirmed, so check it on the official site before use.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34, Recommendations 9, 10 and 14. https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf (checked 2026-11-02; hosted copy of the 2019 edition)",
+    "UNCONFIRMED: specific contact times, dilutions and material compatibility for any named product. These must be taken from the product label and manufacturer instruction in use, and were not checked in this pass.",
+    "UNCONFIRMED: the Therapeutic Goods Administration status of any named product as a medical device disinfectant. Not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-09.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-10.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    }
+  ]
+}

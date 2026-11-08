@@ -1,0 +1,166 @@
+{
+  "id": "PSA-12",
+  "title": "Filtration, turnover and automatic dosing requirements",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Pool service technicians and operators who check filtration and automatic dosing at public pools in SA. Electrical work on pumps, controllers and dosing equipment is licensed where it applies. Figures apply under the state standard.",
+  "prerequisites": [
+    "PSA-03",
+    "PSA-04",
+    "pool-cleaning-L07"
+  ],
+  "learningOutcomes": [
+    "State the turnover limits for each pool type in the South Australian standard.",
+    "Calculate the flow needed to meet a turnover limit for a given pool volume.",
+    "Explain what auto-dosing and sensing must do, and what a worker must still check manually."
+  ],
+  "instruction": [
+    {
+      "heading": "Continuous circulation through the filter",
+      "body": "Each public pool and spa needs a filter system that keeps water moving through it non-stop. Enough water has to run through the filter to keep it clean and clear. That is measured as turnover: the time needed to cycle a volume equal to the entire basin through the filter media. Turnover is a condition for every pool type the standard covers, not an optional extra."
+    },
+    {
+      "heading": "Turnover limits by pool type",
+      "body": "A swimming pool needs its whole volume filtered no less often than every six hours. A wading pool needs it no less often than every two hours. A waterslide pool needs it no less often than hourly. A spa needs its volume cycled at least every half hour. Hydrotherapy water needs its volume cycled no less often than every two hours, with under an hour suggested for busy pools, for example ones running fitness classes. Where requirements vary, a separate filter is recommended."
+    },
+    {
+      "heading": "Filter types and hydrotherapy pools",
+      "body": "The standard calls a sand filter one that uses sand and gravel media. For hydrotherapy pools it says a dedicated filtration system is ideal, and it does not recommend cartridge units or diatomaceous earth types for them. Backwashing reverses water flow to clean the filter, and it removes water and disinfectant, so follow the operator plan for timing and for managing the discharge."
+    },
+    {
+      "heading": "Auto-dosing and sensing",
+      "body": "Each pool must have auto-dosing and sensing equipment that watches and corrects the pH and sanitiser level around the clock, keeping them in the ranges set by the standard's tables. The equipment does not remove the need to test. Check its readings against a manual test, know what its alarms mean, and escalate any fault. Repair, wiring and controller work is licensed where a licence applies."
+    },
+    {
+      "heading": "Working out the flow needed",
+      "body": "To check turnover, divide the pool volume in litres by the minutes allowed for turnover to get the minimum flow in L/min. For example, a 300,000 litre swimming pool with a six-hour limit needs about 830 L/min through the filter. Verify that the pump, filter and pipework can deliver that flow, and that the flow is not reduced by a dirty filter."
+    }
+  ],
+  "procedure": [
+    "Confirm the pool type and its turnover limit from the standard's rules.",
+    "Measure or read the pump flow and filter pressure, and calculate the turnover achieved.",
+    "Compare the achieved turnover with the limit and record the result.",
+    "Test pH and disinfectant manually, and compare them with the automatic dosing readings.",
+    "Isolate electrical supply before any inspection of pumps or controllers, and escalate any fault to a licensed electrician where required."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A public pool holds 300,000 litres. The pump reads 600 L/min.",
+      "decisionPrompt": "Does the pool meet the swimming pool turnover limit?",
+      "reasoning": "At 600 L/min, 300,000 litres takes 500 minutes, which is about 8.3 hours. The swimming pool limit is six hours, so the turnover is too slow. Escalate to the operator, check the filter for blockage and the pump for wear, and do not treat the pool as compliant until the flow is increased."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Flow meter or pump data sheet",
+    "Pressure gauge reading for the filter",
+    "Calibrated pH and disinfectant test kit",
+    "Insulated tools and lock-out device for electrical isolation"
+  ],
+  "commonErrors": [
+    {
+      "error": "Trusting the dosing controller and skipping the manual test.",
+      "prevention": "Check the controller reading against a manual test, and record both."
+    },
+    {
+      "error": "Reducing pump speed to save power and breaking the turnover limit.",
+      "prevention": "Check the turnover after any change to pump speed."
+    },
+    {
+      "error": "Ignoring a dirty filter that slows flow.",
+      "prevention": "Check the pressure reading, and clean or service the filter as the plan sets."
+    },
+    {
+      "error": "Opening electrical enclosures without isolating the supply.",
+      "prevention": "Isolate and lock out before any electrical work, and leave repairs to licensed electricians."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electricity and water are a fatal combination. Isolate supply before inspection, keep the pump area dry, and do not work on live equipment.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Repair, wiring and controller work on pool dosing and filtration equipment is licensed where a licence applies. This lesson does not grant a licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Backwash water and anything discharged from the pool may fall under rules set by the water authority or council. Check before discharge.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Figures are South Australian standard values (revised 2013). Confirm the current regulation text.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Achieved turnover is recorded and compared against the limit for the pool type.",
+    "Automatic dosing readings are verified against a manual test at each check.",
+    "Electrical isolation is recorded before any inspection of pumps or controllers."
+  ],
+  "documentationEvidence": [
+    "Turnover calculation record with volume, flow, time and result",
+    "Automatic dosing verification record with manual test comparison",
+    "Electrical isolation record and licensed-repair referral where needed"
+  ],
+  "summary": [
+    "Turnover limits: swimming pool 6 hours, wading 2 hours, waterslide 1 hour, spa 30 minutes, hydrotherapy 2 hours (under 1 hour recommended for heavy use).",
+    "Automatic dosing must run continuously, and manual tests still verify it.",
+    "Isolate electrical supply, and leave wiring and controller repairs to licensed people."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PSA-12-K01",
+      "question": "What is the turnover limit for a public pool under the standard?",
+      "options": [
+        "Once every 30 minutes",
+        "Once every six hours",
+        "Once every 24 hours",
+        "Once a week"
+      ]
+    },
+    {
+      "id": "PSA-12-K02",
+      "question": "A 300,000 litre swimming pool must meet its six-hour turnover limit. Roughly what flow is needed?",
+      "options": [
+        "About 200 L/min",
+        "About 830 L/min",
+        "About 5,000 L/min",
+        "About 50 L/min"
+      ]
+    },
+    {
+      "id": "PSA-12-K03",
+      "question": "Which filter types does the standard say are not recommended for hydrotherapy pools?",
+      "options": [
+        "Sand filters only",
+        "Cartridge units and DE filters",
+        "Filters with automatic backwash",
+        "Any filter with a glass housing"
+      ]
+    },
+    {
+      "id": "PSA-12-K04",
+      "question": "Does auto-dosing and sensing equipment remove the need to test, according to the lesson?",
+      "options": [
+        "Yes, once it is installed",
+        "Yes, if the equipment is new",
+        "Only for hydrotherapy pools",
+        "No, it does not remove the need to test"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 7.1 Public swimming pools, section 7.3 Hydrotherapy pools, section 2 Definitions (sand filter, turnover rate), table 8; rights: user-held; reworded (no copying)",
+    "Priority: official South Australian source. It overrides informal, foreign or generic pool advice that conflicts with it. Figures are dated (standard revised 2013); checked against the uploaded copy 2026-11-02; current regulation text UNCONFIRMED.",
+    "Cross-checked against pool-cleaning-L07 for diagnostic method. Numeric turnover limits come from the South Australian standard alone.",
+    "UNCONFIRMED: electrical licensing for pool pumps, controllers and dosing equipment in each state or territory."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

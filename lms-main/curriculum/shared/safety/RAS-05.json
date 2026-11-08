@@ -1,0 +1,132 @@
+{
+  "id": "RAS-05",
+  "title": "Slips, trips and falls on floors and walkways",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Cleaning operatives and supervisors working in occupied buildings where floors are wet, cluttered or in use.",
+  "prerequisites": [
+    "F15-L02",
+    "F02-L02"
+  ],
+  "learningOutcomes": [
+    "Identify the slip hazard from liquid on a floor and the trip hazard from clutter or cables in a walkway.",
+    "Set up a barrier and signage that keeps occupants off a wet floor.",
+    "Keep walkways clear of equipment, waste and stock while work is in progress.",
+    "Report a floor or lighting defect so it is fixed or the area is closed."
+  ],
+  "instruction": [
+    {
+      "heading": "Two different floor hazards",
+      "body": "Slips from liquid happen when a floor is made wet by cleaning, spills or rain, and a person's footing has less grip than the task needs. Trips from the floor happen when something at foot level is not seen, such as a cable, a bag of waste, a trolley, a mat that has rucked up or an uneven joint. The two hazards are controlled differently. Liquid is controlled by keeping the water in the work area, by drying it and by keeping people off it. Trips are controlled by keeping routes clear and visible. A register entry should name which hazard it describes, because a control that suits one can make the other worse. A wet floor with a cable across it, for example, presents both at once."
+    },
+    {
+      "heading": "Barriers, signage and sequence",
+      "body": "A wet floor is kept out of traffic routes wherever possible. Work is sequenced so that the crew cleans away from the route, moves in one direction and leaves a dry route behind. A barrier closes the wet section, and signage is placed at both ends so people can see it from either side. WARNING: A sign on its own is not a barrier. A sign with no barrier does not stop someone walking in, so the barrier comes first. Non-essential people are kept out of the section while it is wet. The drying time is written into the sequence so that the floor is not reopened too early. Where a route cannot be closed, the work is moved to a quieter time, and the route is kept clear before the crew arrives."
+    },
+    {
+      "heading": "Clutter, cables, lighting and reporting",
+      "body": "Walkways are kept free of trolleys, cable runs, equipment, stock and waste while work is in progress. Trolleys and buckets are parked off the route, not left beside a door or a corner. Cables are routed along walls or secured where they cross a walkway. Mats are checked for curling edges and corrected or removed. Each planned route is checked before the work starts, because the building may have changed since the last visit. Lighting along routes is checked, and a dark route is not used until it has been reported and lit or closed. Defects, such as an uneven joint, a loose mat or a damaged floor surface, are reported on the same day to the supervisor, and the facilities team is told too. The area stays closed until it is dealt with. Footwear with good grip is a further layer of protection and is not a substitute for barriers or a clear route."
+    }
+  ],
+  "procedure": [
+    "Check the route you will use and the floor condition before starting, and note any defect.",
+    "Place a barrier and signage at both ends of any wet section before mopping or wiping begins.",
+    "Work in one direction, away from the route, and keep the wet section closed until it has dried.",
+    "Park trolleys, buckets and equipment off the route, and secure cables where they cross it.",
+    "Check the lighting along the route, and do not use a route that is not safely lit.",
+    "Report every defect to the supervisor, with the building facilities team informed, and keep the area closed until it is fixed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A foyer is being mopped at 8 am, and a courier with a parcel is walking towards the lift through the section that is still wet.",
+      "decisionPrompt": "Name the first action, the second action and what is recorded before the mopping continues.",
+      "reasoning": "The first action is to stop the mopping and step between the courier and the wet section, then offer a dry route. The second action is to place a barrier across the wet section and signage at both ends, then restart the sequence from the far side. The record notes the time, the barrier used and the route given to the courier, and the supervisor is told if the courier's route was unsafe. Mopping resumes only when the barrier is in place."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Wet-floor barriers and signage visible from both approaches",
+    "Trolleys and buckets that can be parked off the route",
+    "Cable covers or routing clips where cables cross walkways",
+    "{{business:safety.required_ppe}} including footwear with good grip, as the last layer"
+  ],
+  "commonErrors": [
+    {
+      "error": "Relying on a sign without a barrier.",
+      "prevention": "Place a barrier first, then the sign, at both ends of the wet section."
+    },
+    {
+      "error": "Leaving a trolley or cable across a walkway while the crew is at another part of the floor.",
+      "prevention": "Park equipment off the route and check the route each time the crew moves."
+    },
+    {
+      "error": "Reopening a route before the floor has dried.",
+      "prevention": "Write the drying time into the sequence and keep the area closed until that time has passed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Do not leave a wet floor open in a traffic route. Where a route cannot be closed, stop the work and move it to a time when the route is quiet.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each wet section has a barrier and signage at both ends before work starts.",
+    "Walkways are clear of equipment and cables while work is in progress.",
+    "Each floor or lighting defect is reported the same day and the area is closed until it is fixed."
+  ],
+  "documentationEvidence": [
+    "Route check record with date, time and any defect found",
+    "Defect report with the building facilities team's response"
+  ],
+  "summary": [
+    "Separate slip hazards from trip hazards and control each one.",
+    "Barrier first, sign second, and work away from the route in one direction.",
+    "Keep walkways clear of equipment, cables and waste while work is in progress.",
+    "Report defects the same day and keep the area closed until they are fixed."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:equipment.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-05-K01",
+      "question": "A wet section of a corridor is marked only by a sign. What is the problem?",
+      "options": [
+        "A sign is enough on a quiet corridor for the crew at the time",
+        "Signs are only needed outside the building and never on a wet floor",
+        "A sign is not a barrier, so people can still walk onto the wet floor."
+      ]
+    },
+    {
+      "id": "RAS-05-K02",
+      "question": "Which hazard does a cable running across a walkway create on a wet floor?",
+      "options": [
+        "A trip hazard as well as a slip hazard.",
+        "Only a slip hazard on the floor here",
+        "No hazard, because the cable is covered."
+      ]
+    },
+    {
+      "id": "RAS-05-K03",
+      "question": "A route is still damp after mopping. What should happen?",
+      "options": [
+        "Reopen it, since the crew has finished and the floor looks dry from here",
+        "Keep the area closed until the drying time in the sequence has passed.",
+        "Let people walk through it carefully while the crew is still around"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard rows 4 and 5 (slips and trips from liquid spillage and from the same level) and the walkway controls; rights: user-held",
+    "Cross-check: existing lesson F15-L02 in shared/safety covers footwear and grip; this lesson keeps footwear as a further layer only."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

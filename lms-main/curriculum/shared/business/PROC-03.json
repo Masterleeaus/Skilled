@@ -1,0 +1,226 @@
+{
+  "id": "PROC-03",
+  "title": "Market analysis and buying contexts",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Business operations and finance",
+  "moduleNote": "High-risk cleaning is excluded from this module on purpose (owner decision, option B, recorded 2026-11-04 in research/OWNER-DECISIONS.md). The high-risk course does not receive PROC-01 to PROC-04. The construction slug was also removed from this module on 2026-11-04 because it has no course folder and is not in passed.json.",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners, managers and staff in a service business who choose suppliers, renew contracts or add new services, and who need to match the effort of a purchase to how much is new to the business.",
+  "referencesAtStart": "Official source used: Commonwealth Procurement Rules 2025, paragraphs 5.1 (competition) and 7.1 (accountability and transparency) (cover and commencement date 17 November 2025). General concepts from non-official sources: Porter's five forces (secondary source) and the three buying situations (secondary source). Porter's five forces has not yet been confirmed against the primary text. Porter's model and the buying situations are not official definitions.",
+  "prerequisites": [
+    "PROC-01"
+  ],
+  "learningOutcomes": [
+    "Separate the macro environment from the micro market when reading a supply market, and name a source for each.",
+    "Explain the five forces that shape a market, and name the force that matters most for a given purchase.",
+    "Compare a price with a like-for-like comparator, and state the difference between price analysis and benchmarking.",
+    "Classify a purchase as a straight re-buy, a modified re-buy or a new task, and set the effort to match."
+  ],
+  "instruction": [
+    {
+      "heading": "Reading the market before buying",
+      "body": "Before a buyer commits to a supplier, it helps to understand the market that supplier operates in. Some pressures sit outside both the buyer and the supplier: political decisions, economic conditions, social trends, technology, legal requirements and environmental pressures. These are the macro environment, and they are usually read from external sources such as government statistics, trade publications and reputable news reports. The micro environment is closer to the purchase: the suppliers able to meet the need, the customers and other buyers competing for the same capacity, and the firms that might enter the market. A supplier's financial reports help show whether it is stable enough to hold a long contract. A code of ethics sets how buyer and supplier should behave. The purpose of this reading is practical. It tells the buyer how many suppliers can meet the need, how much each one can shape price and terms, and how much risk the buyer carries if one of them fails."
+    },
+    {
+      "heading": "Porter's five forces",
+      "body": "Michael Porter's five forces model describes the pressures that limit the profit available in a market. Rivalry among existing competitors is stronger when there are many firms of similar size, growth is slow, fixed costs are high and products are hard to tell apart. The threat of new entrants depends on barriers to entry: set-up and capital costs, economies of scale, customer switching costs, access to distribution and the expectation that incumbents will respond hard to a newcomer. Where barriers are low, new firms are more likely to enter and push prices down. The threat of substitutes is high when customers can meet the same need another way at a comparable cost, because that limits what a supplier can charge. The bargaining power of suppliers rises when a few suppliers dominate, when substitute inputs are scarce, when the buyer is a small customer for the supplier and when switching away is costly. The bargaining power of buyers rises when there are many alternatives, large volumes, standard products and low switching costs. In most purchases, the supplier-power force decides how much room the buyer has to negotiate."
+    },
+    {
+      "heading": "Market structures and what they mean for the buyer",
+      "body": "A monopoly exists where one seller supplies a market and entry is blocked by high barriers. In that case the seller usually holds the stronger position, because the buyer has no real alternative to switch to. A buyer facing a monopoly can reduce its need for the item, look for substitutes, change the specification so that other suppliers can offer a compliant alternative, shape contract terms that allow for future competition, or decide whether to make the item in-house. Where many sellers compete, the buyer has more leverage, although that leverage depends on how similar the offers are. Some manufacturing industries need large investment and skilled labour, which raises barriers to entry and fixed costs. When demand falls, those fixed costs can make rivalry intense. No structure is good or bad in itself. The point is that the buyer should identify which structure applies before setting its negotiating approach and contract terms."
+    },
+    {
+      "heading": "Price analysis, benchmarking and buying contexts",
+      "body": "Price analysis compares the price paid with a comparator that is like for like. Useful comparators include the previous price for the same item and specification, a published index or catalogue price, a competing quote for the same scope, and a should-cost estimate built from the materials, labour and overheads the supplier must cover. Comparing a service with a different scope, volume or delivery term produces a misleading result. Benchmarking reaches wider. It compares performance, unit cost, service levels or process steps with a reference group, so the buyer can see what good practice looks like and whether a supplier is out of line. Its purpose is learning and improvement. A buyer must not use benchmarking to pressure a supplier with another supplier's confidential terms, and must not pass one supplier's confidential price to another. The buying context sets the effort. A straight re-buy is a routine repeat from the same supplier, to the same specification, with little search and little negotiation. A modified re-buy is a familiar purchase where something has changed, such as the specification, supplier, price, volume or terms, so it needs a review and usually more people. A new task is a purchase the business has never made before. It is the highest-risk context, because there is no experience to rely on, so it calls for wide information search and a larger decision group. Extending an existing contract with new services is a common trap. The label on the old contract does not settle the context. Each new service is judged by how new it is to the buyer."
+    }
+  ],
+  "procedure": [
+    "Write the purchase in one sentence, and state what has changed from the last purchase, if anything.",
+    "Identify the buying context as a straight re-buy, a modified re-buy or a new task, and record which parts of the scope are new.",
+    "Read the market for the item: count the suppliers able to meet the need, and name the force that most affects price and terms.",
+    "Choose the comparator for price analysis and confirm it is like for like in scope, volume and terms.",
+    "Set the effort to the context, including who must be involved and how much information search is needed.",
+    "Record the buying context, the market reading and the comparator source in the purchase file, with the reasons."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Invented example, not a real business or market price: a cleaning business re-buys its usual cleaning chemicals every month from the same supplier, to the same product specification, at the agreed price.",
+      "decisionPrompt": "Which buying context applies, and what effort is proportionate?",
+      "reasoning": "This is a straight re-buy. A short check of the price against the previous invoice, and a note in the purchase file, is proportionate. Running a full competitive process for a routine repeat wastes staff time, unless a condition changes, such as a sharp price rise or doubt about the supplier's stability."
+    },
+    {
+      "situation": "Invented example, not a real business: an office cleaning contract is due for renewal. The buyer wants to keep the core cleaning, and to add carpet cleaning and window cleaning, which the business has never bought from a contractor before.",
+      "decisionPrompt": "How should the buyer classify the core cleaning scope and the two added services?",
+      "reasoning": "The core cleaning is a straight re-buy if nothing has changed, or a modified re-buy if the specification, price or volume has changed. Carpet cleaning and window cleaning are new tasks for this buyer, so they need a wider information search, comparator checks and a larger decision group. Separating the two keeps the familiar scope from being held back by the unfamiliar one."
+    },
+    {
+      "situation": "Invented example, not a real business: a business needs a specialist pump seal that only one supplier in the region makes, and no alternative meets the same specification.",
+      "decisionPrompt": "Which force gives the supplier the most leverage here, and what responses are worth considering?",
+      "reasoning": "The bargaining power of suppliers is the force that matters most, because the supplier is the only source and no substitute exists. The buyer cannot remove that power quickly. Responses to consider include testing whether the specification can be changed so another maker can comply, holding extra stock to reduce the cost of a supply failure, agreeing in advance how contract terms would apply if prices rose, and checking the supplier's stability. Each response has a cost, and the buyer should weigh that cost against the cost of a stopped job."
+    }
+  ],
+  "equipmentAndPpe": [
+    "The purchase file, with fields for the buying context, the market reading and the comparator.",
+    "Two or three supplier offers or catalogue prices for the item, where they exist.",
+    "No personal protective equipment is needed for this desk-based lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Running a full tender for every purchase.",
+      "prevention": "Match the effort to the buying context, and record the reason for the level chosen."
+    },
+    {
+      "error": "Treating a re-buy as routine when its scope has changed.",
+      "prevention": "Check what has changed in scope, specification, price, volume or supplier before choosing the context."
+    },
+    {
+      "error": "Comparing prices for different scopes, volumes or delivery terms.",
+      "prevention": "Put every price on the same scope, volume and terms before comparing them."
+    },
+    {
+      "error": "Ignoring supplier power when only one source exists.",
+      "prevention": "Name the force that matters and plan a response before negotiating."
+    },
+    {
+      "error": "Passing one supplier's confidential price to another during benchmarking.",
+      "prevention": "Use published or anonymised comparators. Never disclose confidential terms."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson gives general information about markets and buying. It is not legal or competition-law advice. Where a buyer is a Commonwealth official, the Commonwealth Procurement Rules set expectations on competition and accountability: paragraph 5.1 says competition is a key element of the Australian Government's procurement framework, and paragraph 7.1 says the Australian Government is committed to ensuring accountability and transparency in its procurement activities (re-read 2026-11-06, cover and commencement 17 November 2025). Source:.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Take advice before sharing pricing between suppliers.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not confer any authority to negotiate or award regulated contracts.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The buying context is named, with a reason and the parts of the scope that are new to the buyer.",
+    "At least one force from Porter's model is named, with the reason it affects the purchase.",
+    "Every price comparison states its comparator and confirms that the comparator is like for like.",
+    "No supplier's confidential information is used or disclosed in any comparison."
+  ],
+  "documentationEvidence": [
+    "Purchase file recording the buying context, the market reading and the comparator source.",
+    "Record of any benchmarking, with its source and a note on whether the comparator is anonymised."
+  ],
+  "summary": [
+    "Straight re-buy, modified re-buy and new task differ by how much is new to the buyer, and the effort should follow that.",
+    "Porter's five forces show where leverage sits. Supplier power and entry barriers matter most when supply is narrow.",
+    "Price analysis needs a like-for-like comparator, and benchmarking must never disclose confidential terms."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PROC-03-K01",
+      "question": "A single supplier is the only source of a critical input, and no alternative meets the specification. Which of Porter's forces most directly describes the buyer's position?",
+      "options": [
+        "Bargaining power of suppliers",
+        "Threat of new entrants here",
+        "Threat of substitutes here"
+      ]
+    },
+    {
+      "id": "PROC-03-K02",
+      "question": "Which condition makes it harder for a new firm to enter a market?",
+      "options": [
+        "Low set-up and capital costs for the new firm entering the market today",
+        "High customer switching costs for buyers who already use an established supplier",
+        "Many substitute products available at a comparable cost to buyers and users"
+      ]
+    },
+    {
+      "id": "PROC-03-K03",
+      "question": "A business adds a new service to an existing contract that it has never bought before. How should the new service be classed?",
+      "options": [
+        "Straight re-buy, because the existing contract is already in place",
+        "New task, because the buyer has no prior buying experience for that service",
+        "Benchmarking exercise, because no supplier is being chosen"
+      ]
+    },
+    {
+      "id": "PROC-03-K04",
+      "question": "What must a price analysis have before its result means anything?",
+      "options": [
+        "The supplier's profit margin on the item",
+        "The lowest price found in a single online listing last week",
+        "A like-for-like comparator in scope, volume and terms"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Commonwealth Procurement Rules 2025",
+      "url": "https://www.finance.gov.au/sites/default/files/2025-10/Commonwealth-Procurement-Rules-2025.pdf",
+      "pageDate": "Cover and commencement date: 17 November 2025",
+      "checked": "2026-11-04",
+      "covers": "The Commonwealth Procurement Rules 2025 PDF (commenced 17 November 2025) has a foreword stating that it commences on 17 November 2025 and that the 1 July 2024 edition is repealed when it does (re-read 2026-11-06). Not confirmed by an official source: the 'current version' wording was not re-checked, and the finance.gov.au landing page shows 14 December 2020 (see PROC-01 and PROC-04)."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: Commonwealth Procurement Rules 2025 (cover and commencement date 17 November 2025). Porter's five forces and the buying situations are general concepts from non-official sources, and both have not yet been confirmed against primary texts.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Defining business needs exam-style question set (upload d36859cc-462230744-Defining-business-needs-Exams.txt), topics only: market analysis (Porter's five forces), buying contexts (straight re-buy, modified re-buy, new buy), price analysis and benchmarking, macro environment sources; rights: user-held; reworded (no copying). No question, option or answer from the source is reproduced. The source has no answer key, so every answer and rationale is the drafter's own.",
+    "[R1] Commonwealth Procurement Rules 2025, paragraphs 5.1 and 7.1: https://www.finance.gov.au/sites/default/files/2025-10/Commonwealth-Procurement-Rules-2025.pdf (cover and commencement 17 November 2025; checked 2026-11-03).",
+    "Porter's five forces, secondary source: Wikipedia article 'Porter's five forces analysis' as mirrored at https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Porter's_five_forces_analysis (last edited 2021-01-28 as shown; checked 2026-11-03). A mirror, not the primary text. UNCONFIRMED against Porter's original article.",
+    "Buying situations (straight re-buy, modified re-buy, new task), secondary source: https://slm.mba/mmpm-001/different-organisational-buying-situations-explained (last updated 22 February 2026 as shown; checked 2026-11-03). Non-official; UNCONFIRMED against a primary text.",
+    "Macro and micro environment, price analysis and benchmarking definitions: general concepts, no source fetched in this draft. UNCONFIRMED as cited definitions.",
+    "Worked examples use invented scenarios, labelled as examples."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

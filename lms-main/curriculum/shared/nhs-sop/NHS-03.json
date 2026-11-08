@@ -1,0 +1,157 @@
+{
+  "id": "NHS-03",
+  "title": "Letting a contractor onto a live site: plan, sign-in and sign-off",
+  "courseSlugs": [
+    "healthcare",
+    "commercial"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Supervisors, team leads and cleaners who receive or supervise outside contractors doing specialist cleaning or enhanced work on a site that stays in use.",
+  "prerequisites": [
+    "NHS-02",
+    "F02-L04"
+  ],
+  "learningOutcomes": [
+    "Explain what a method statement and a risk assessment must show before a contractor starts.",
+    "Apply a sign-in and site-briefing step for a contractor working on a shared site.",
+    "Describe how supervision and the signed completion record keep specialist work accountable."
+  ],
+  "instruction": [
+    {
+      "heading": "Why a contractor needs a written plan first",
+      "body": "Specialist work carries risks that routine cleaning does not, and the people using the site are entitled to know how the work will be done. Before a contractor starts, the site needs a written method statement that sets out the steps, the equipment and the products, and a risk assessment that names each hazard and the control for it. The site manager checks both documents before entry is allowed. A verbal explanation does not replace either document."
+    },
+    {
+      "heading": "Sign-in and a site briefing",
+      "body": "Contractors report to the agreed point, usually the facilities or estates contact, before they enter. The site records each person's name, company, arrival time and the staff member who signed them in. The contractor is then briefed on the occupied areas, the access times, the barriers, the emergency and incident route, and the rules for noise, closure and escort. The same reasons that apply to inducting the site's own staff apply to outside workers."
+    },
+    {
+      "heading": "Keeping disruption and risk low while work is underway",
+      "body": "The contractor's plan should show the sequence, the barriers and signs, and the times when noise or strong products are allowed. The routine cleaning or housekeeping team should watch the work at the agreed checkpoints. They must not assume the plan is being followed. If the contractor wants to change the method, the change goes to the site lead for review before the work continues, and the decision is recorded."
+    },
+    {
+      "heading": "The completion record as an audit trail",
+      "body": "When the work is complete, the outside worker and the area manager (for example the ward, department or housekeeping manager) each sign the completion record. The record shows the work that was planned, the work that was done, any approved variation and any defect left in place. That signed record is the audit trail that lets the site show later that the work was done as agreed."
+    }
+  ],
+  "procedure": [
+    "Request the contractor's method statement and risk assessment, and do not allow entry until both are on file and have been checked.",
+    "Check that the method covers the full scope, the equipment, the products and the safety data sheet for every product the contractor will bring.",
+    "Have the contractor sign in at the agreed point, and record the name, company, arrival time and the staff member who signed them in.",
+    "Brief the contractor on the occupied areas, access times, barriers, the emergency and incident route, and any closure.",
+    "Confirm the signs, barriers and sequence with the site lead before the first task starts.",
+    "Monitor the work at agreed checkpoints. Record any variation or unsafe act, and stop the work if conditions change.",
+    "At completion, check the work against the agreed scope and record any defect that remains.",
+    "Collect signatures from the outside worker and from the area manager on the completion record, then file it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A specialist contractor arrives to clean ceiling vents in a ward corridor. They have a risk assessment but no written method statement and say the method is standard for them.",
+      "decisionPrompt": "Do they start?",
+      "reasoning": "No. The site needs both documents before entry. Ask for the written method, check that it covers the vents, the products and the access arrangements, and hold the start until both are received and checked. Record the delay and the reason for it."
+    },
+    {
+      "situation": "Halfway through a job, the contractor wants to switch to a stronger product in an area where a resident is resting.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Stop the change. The product was not in the approved method. Ask the site lead to review it, move the work away from the resident or pause it, and record the variation and the decision before the work resumes."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Sign-in register or site access log",
+    "Copies of the contractor's method statement and risk assessment",
+    "Safety data sheets for each product the contractor will bring on site",
+    "Barriers, signs and wet floor signs for the work zone",
+    "Completion record form with spaces for both signatures"
+  ],
+  "commonErrors": [
+    {
+      "error": "Accepting a verbal method in place of a written method statement.",
+      "prevention": "Hold entry until the written method and the risk assessment are on file and checked."
+    },
+    {
+      "error": "Letting a contractor in before they have signed in or been briefed.",
+      "prevention": "Every contractor signs in at the agreed point and is briefed before any work starts."
+    },
+    {
+      "error": "Assuming the contractor is following the plan without checking.",
+      "prevention": "Monitor at the agreed checkpoints and record any change or unsafe act."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The WHS duties that apply to the business, the principal contractor and the contractor are set out in the general duties lesson (shared/team/“WHS duties and consultation”, checked 2026-11-02 as recorded there).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Some specialist tasks, such as work at height on powered platforms or work with certain hazardous materials, may need a licence or authorisation in some states and territories. This lesson does not grant or confirm any licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Any contractor entry into a healthcare or care setting must also follow the provider's infection-control procedure. See “A clean look is not the same as a controlled risk” and the existing aged-care infection-control lessons.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The written method statement and risk assessment are received and checked before entry.",
+    "Every contractor is signed in and briefed before work starts.",
+    "Each variation is approved and recorded before the changed work continues.",
+    "Two signatures appear on the completion record: the outside worker's and the area manager's."
+  ],
+  "documentationEvidence": [
+    "Method statement and risk assessment on file",
+    "Sign-in log with names, company, times and the staff member who signed the contractor in",
+    "Variation and stop-work records",
+    "Signed completion record"
+  ],
+  "summary": [
+    "A contractor starts only after a written method and a risk assessment are checked.",
+    "Sign-in and a site briefing come before any work.",
+    "The signed completion record is the audit trail for the work."
+  ],
+  "businessFields": [
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:jobs.signoff_procedure}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NHS-03-K01",
+      "question": "A contractor gives you a verbal description of their method. What is the correct response?",
+      "options": [
+        "Accept it and let them start, because they are experienced and the verbal method is clear enough",
+        "Hold entry until the written method statement and risk assessment are received and checked.",
+        "Allow entry on the condition that the contractor writes the method down later."
+      ]
+    },
+    {
+      "id": "NHS-03-K02",
+      "question": "During specialist work, a contractor wants to switch to a stronger product that was not in the approved method. What should happen?",
+      "options": [
+        "Allow the change, because the product is more effective and the contractor has used it before",
+        "Pause the change, have the site lead review it, and record the decision before the work resumes.",
+        "Let the contractor decide, and tell the manager at the end of the day and no record is kept"
+      ]
+    },
+    {
+      "id": "NHS-03-K03",
+      "question": "What does the signed completion record provide?",
+      "options": [
+        "It replaces the sign-in at the next visit and the contractor no longer signs in",
+        "It is an audit trail showing the work was done as planned and that any variation was approved.",
+        "It certifies the contractor for any future work of any type and it lasts for the whole contract"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning of the Environment: Standard Operating Procedure, v1.0 (approved 18/02/2016), section 9 Modern Matron and managerial involvement (Deep Cleaning, contractor provisions); rights: user-held; reworded (no copying). Read for this lesson on 2026-11-02.",
+    "Safe Work Australia, duties under WHS laws: cited via shared/team/F12-L03.json (URL https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws, checked 2026-11-02 as recorded in that file). State-specific contractor duties UNCONFIRMED.",
+    "Infection-control context: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019 edition), cited via courses/healthcare-cleaning/aged-care-infection-control-L02.json. Clause not re-read; UNCONFIRMED for the specific point.",
+    "UK-only item not applied: the UK-specific sign-in and contractor practice described in the source. Australian equivalents UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

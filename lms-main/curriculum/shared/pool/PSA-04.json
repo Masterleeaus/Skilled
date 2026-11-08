@@ -1,0 +1,161 @@
+{
+  "id": "PSA-04",
+  "title": "Chlorine disinfection and the 10 mg/L closure rule",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Pool and spa service workers who test or dose chlorine at public pools in SA. Figures come from the South Australian standard and its regulations.",
+  "prerequisites": [
+    "PSA-03",
+    "pool-cleaning-L04"
+  ],
+  "learningOutcomes": [
+    "Explain how chlorine disinfects pool water through hypochlorous acid.",
+    "Distinguish free chlorine from total chlorine, and state the South Australian minimum free chlorine levels.",
+    "Apply the immediate-closure rule when total chlorine exceeds the regulated threshold."
+  ],
+  "instruction": [
+    {
+      "heading": "How chlorine disinfects",
+      "body": "Chlorine gas and chlorine compounds both yield hypochlorous acid on contact with water, and that acid is what kills organisms. The acid is small and carries no charge, so it can cross bacterial cell walls and disable the enzymes inside. The hypochlorite ion that forms as pH rises is far less effective, because its negative charge keeps it out of the cell. Your pH reading therefore indicates how much active disinfectant is on hand. Other compounds that behave the same way in water, like sodium and calcium hypochlorite, work the same way."
+    },
+    {
+      "heading": "Free and total chlorine",
+      "body": "Free chlorine is the uncombined portion that remains available to kill organisms and break down organic contaminants. Combined chlorine forms when chlorine reacts with ammonia or nitrogen compounds from bathers, and it is far less useful as a disinfectant. Total chlorine is the free portion plus the combined portion. A pool can show a healthy-looking free reading while its combined chlorine is climbing, so measure both."
+    },
+    {
+      "heading": "Minimum free chlorine levels",
+      "body": "Unstabilised public pools need 1.0 mg/L of free chlorine at 26 degrees Celsius or cooler, and 2.0 mg/L above that temperature. Spa pools need at least 4.0 mg/L of free chlorine. Hydrotherapy pools need at least 2.0 mg/L, and a suggested 4.0 mg/L applies when such a pool runs near its upper temperature under heavy loads. The total chlorine reading may exceed the free reading by no more than 1.0 mg/L. Stabilised pools have their own rules, covered in “Stabilised chlorine and cyanuric acid limits”."
+    },
+    {
+      "heading": "The immediate-closure threshold",
+      "body": "Under regulation 8(4) of the South Australian Public Health (General) Regulations 2013, a public swimming pool must immediately be closed to the public when the total chlorine concentration exceeds 10 mg/L, and regulation 9(6) applies the same rule to spa pools. That is an emergency control, not an advisory limit. Close the pool, keep people out of the water, tell the operator, and do not reopen until the operator has brought the chlorine within limits and a retest confirms it. Reopening on an estimate is not something this lesson allows."
+    },
+    {
+      "heading": "Handling chlorine products",
+      "body": "Chlorine gas is toxic, and concentrated chlorine compounds are oxidisers and corrosives. Store them away from acids and from other incompatible products, follow the safety data sheet, and never work in an enclosure where you suspect a gas leak. If you smell chlorine strongly in an enclosed plant room, leave, raise the alarm, and follow the site emergency procedure."
+    }
+  ],
+  "procedure": [
+    "Test free and total chlorine from the position the operator plan specifies.",
+    "If total chlorine is above 10 mg/L, close the pool to the public immediately and notify the operator.",
+    "If free chlorine is below the minimum for the pool type and temperature, follow the operator plan to raise it.",
+    "Retest after each dose, and confirm both readings are within the required range before reopening.",
+    "Record free and total chlorine, temperature, the dose and the retest result."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A public pool at 28 degrees Celsius reads free chlorine 1.5 mg/L and total chlorine 1.8 mg/L. The pool is about to open.",
+      "decisionPrompt": "Can the pool open, and what must happen first?",
+      "reasoning": "At 28 degrees the minimum free chlorine for an unstabilised pool is 2.0 mg/L, so 1.5 mg/L is below the minimum. Keep the pool closed. Follow the operator plan to raise free chlorine, retest, and only reopen once the readings are in range."
+    },
+    {
+      "situation": "During a routine check, total chlorine reads 11 mg/L at a public spa.",
+      "decisionPrompt": "What is the first action?",
+      "reasoning": "A total chlorine reading above 10 mg/L triggers immediate closure under the regulations. Clear the spa, stop any further dosing, notify the operator, and record the time. Do not reopen until the operator has corrected the reading and a retest confirms it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Calibrated free and total chlorine test kit or meter, in date",
+    "Chemical-resistant gloves and eye protection",
+    "Safety data sheet for each chlorine product on site",
+    "Thermometer for pool water temperature"
+  ],
+  "commonErrors": [
+    {
+      "error": "Reading total chlorine as free chlorine.",
+      "prevention": "Test both. Free chlorine is the available disinfectant; total includes the combined portion."
+    },
+    {
+      "error": "Treating 11 mg/L total chlorine as a minor issue and keeping the pool open.",
+      "prevention": "Above 10 mg/L total chlorine the pool closes immediately."
+    },
+    {
+      "error": "Dosing again without retesting.",
+      "prevention": "Retest after every dose and before reopening."
+    },
+    {
+      "error": "Applying the 26-degree rule to the wrong temperature reading.",
+      "prevention": "Record the water temperature alongside the chlorine reading."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chlorine gas and concentrated chlorine compounds are hazardous. A licence or authorisation may apply to handling or storing them in your state or territory; this lesson does not grant one.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Total chlorine above 10 mg/L at a public pool or spa requires immediate closure under the 2013 regulations.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not enter an enclosure where a chlorine gas leak is suspected. Follow the site emergency procedure.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Figures are South Australian public-pool values from the 2013 standard. Confirm the current regulation text.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Free and total chlorine are both measured and recorded at each test.",
+    "Any total chlorine above 10 mg/L results in immediate closure and escalation.",
+    "The pool does not reopen on a free chlorine reading below the minimum for its type and temperature."
+  ],
+  "documentationEvidence": [
+    "Chlorine test record with free, total, temperature, time and result",
+    "Closure record with time, reason and notification to the operator",
+    "Retest record confirming compliance before reopening"
+  ],
+  "summary": [
+    "Chlorine kills through hypochlorous acid, so pH controls how well it works.",
+    "Free chlorine is the working disinfectant. Total chlorine above 10 mg/L closes a public pool immediately.",
+    "Minimum free chlorine depends on pool type and temperature. Retest before reopening."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PSA-04-K01",
+      "question": "A public pool shows total chlorine of 11 mg/L. Under the 2013 regulations, what must happen?",
+      "options": [
+        "Keep it open and dose more chlorine",
+        "Close it to the public immediately",
+        "Wait until the next scheduled test",
+        "Reduce the pH and keep it open"
+      ]
+    },
+    {
+      "id": "PSA-04-K02",
+      "question": "Which form of chlorine is the working disinfectant measured as free chlorine?",
+      "options": [
+        "Combined chlorine, which is the part that still kills germs",
+        "Chloramines, which are measured as the total chlorine reading",
+        "The uncombined portion that can still act on organisms",
+        "Total chlorine minus the pH value"
+      ]
+    },
+    {
+      "id": "PSA-04-K03",
+      "question": "At 28 degrees Celsius, what is the minimum free chlorine for an unstabilised public swimming pool under the standard?",
+      "options": [
+        "1.0 mg/L",
+        "2.0 mg/L",
+        "4.0 mg/L",
+        "10.0 mg/L"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 6.1 Chlorine, table 1, section 2 Definitions; rights: user-held; reworded (no copying)",
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 6.2 and section 8.1 for the free and combined chlorine concepts; rights: user-held; reworded (no copying)",
+    "Priority: official South Australian source. It overrides informal, foreign or generic pool advice that conflicts with it. Figures are dated (standard revised 2013); checked against the uploaded copy 2026-11-02; current regulation text UNCONFIRMED.",
+    "Regulation references (regulations 8(4) and 9(6)) as cited in the standard; current regulation text UNCONFIRMED.",
+    "Cross-checked against pool-cleaning-L04 for chemical separation only."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

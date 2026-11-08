@@ -1,0 +1,28 @@
+{
+  "lessonId": "drug-contamination-remediation-L10",
+  "knowledgeAnswers": [
+    {
+      "id": "drug-contamination-remediation-L10-K01",
+      "correctIndex": 0,
+      "rationale": "Rules from another jurisdiction are not transferred. The current local rule is needed."
+    },
+    {
+      "id": "drug-contamination-remediation-L10-K02",
+      "correctIndex": 1,
+      "rationale": "The publishing authority is the source of the current value and its scope."
+    }
+  ],
+  "practicalCriteria": [
+    "For a fictional rental, the learner writes the jurisdiction, the rule source and the premises type to be checked. Pass: all three are recorded and none is assumed.",
+    "The learner flags an unresolved threshold in a fictional job record and writes the referral. Pass: the flag and the referral are both present."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Jurisdiction and rule-source record (fictional)",
+    "Open-question register (fictional)"
+  ],
+  "stopWorkCriteria": [
+    "The jurisdiction is unknown.",
+    "A value or rule is proposed from another place or premises type."
+  ]
+}

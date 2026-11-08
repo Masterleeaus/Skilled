@@ -1,0 +1,145 @@
+{
+  "id": "RAS-11",
+  "title": "Hand tools, blades and powered floor machines",
+  "courseSlugs": [
+    "commercial",
+    "strata",
+    "hardfloor"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaning operatives who use hand tools, scrapers and blades, and who run powered floor machines, vacuums and pressurised-water equipment.",
+  "prerequisites": [
+    "SOP-02",
+    "SOP-06",
+    "F15-L03"
+  ],
+  "learningOutcomes": [
+    "Identify the injury paths from hand tools, blades, scrapers and brooms, and the controls for each.",
+    "Identify the injury paths from powered floor machines, pressurised water and vacuum cleaners.",
+    "Inspect a machine before use and withdraw it when it is defective.",
+    "Keep people out of the working area of a running machine."
+  ],
+  "instruction": [
+    {
+      "heading": "Hand tools, blades and scrapers",
+      "body": "Hand tools cause cuts, puncture wounds, bruises and impact injuries. The risk rises when a blade is used in a way that puts the hand in the path of cut, when a scraper is pushed toward the body, when a tool is left on a floor or ledge, or when a broom handle or brush head is swung without looking. The register requires that only competent people use tools, that only the equipment the business supplies is used, and that the crew wears eye protection, gloves, footwear with good grip and work clothing. Blades are retracted or covered when not in use and are changed with the tool switched off or the blade fully withdrawn. A scraper is worked away from the body and the hand is kept behind the cutting edge. A damaged or blunt tool is replaced rather than forced."
+    },
+    {
+      "heading": "Powered floor machines and pressurised water",
+      "body": "Powered floor machines, such as rotary and scrubbing machines, can cause impact, entanglement and crush injuries, and their cords and hoses can cause trips. Pressurised water and steam equipment can cause burns, eye injury and skin puncture from a high-pressure jet. A jet can penetrate skin even when it looks harmless, and a hose can whip if the connection fails. Vacuum cleaners can cause entanglement with cords and hoses, and their motors and cables can overheat. The register's controls include battery equipment where possible, a test record for each electrical machine, inspection before every use, guards and protective features kept in place as the manufacturer requires, a service schedule, and a defect procedure that withdraws a machine and labels it unfit."
+    },
+    {
+      "heading": "Access, the running machine and the defect",
+      "body": "Non-essential people are kept out of the work area of any running machine, and the area is closed off by barriers and signage. A machine is never reached into while it is running, and a blockage is cleared only after the machine has been switched off and isolated. The cord is kept clear of the machine's path and out of the operative's feet. Before each use, the crew checks the machine's guard, the cord, the handle, the brushes or pads, the hose and its connections, and the emergency stop. A defect is reported, and the machine is withdrawn from use and tagged as not fit for use until it is repaired and checked. WARNING: Never operate a pressure lance, nozzle or hose that is not fully connected, and never point a jet at a person, at an electrical outlet or at yourself to test it."
+    }
+  ],
+  "procedure": [
+    "Check each hand tool and blade for damage, and replace any blunt or cracked item.",
+    "Use blades with the blade retracted or covered when not cutting, and keep the hand behind the cutting edge.",
+    "Inspect each powered machine before use: guard, cord, handle, pads or brushes, hose and emergency stop.",
+    "Cordon off the work area and keep non-essential people away from a running machine.",
+    "Switch off and isolate the machine before clearing any blockage or changing a pad.",
+    "Withdraw and label any defective machine and report the defect to the supervisor."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An operator starts a rotary machine on a corridor floor and notices the cord has a cut in its outer sheath near the plug.",
+      "decisionPrompt": "State the action before the machine is switched on again, and what is recorded.",
+      "reasoning": "The machine is switched off and disconnected, the cord is not used, and the machine is withdrawn and tagged as not fit for use. The defect is reported to the supervisor and recorded with the date and the machine's identifier. The corridor is kept clear, and the operator does not attempt a field repair with tape. The machine returns to use only after repair and a recorded check."
+    }
+  ],
+  "equipmentAndPpe": [
+    "{{business:safety.required_ppe}} including eye protection, gloves to the standard named in the register, and grip-soled safety footwear",
+    "Scrapers and blades with covers or retractable guards, and a replacement stock",
+    "Powered machine with a current test record and a guard in place",
+    "Barriers, warning signs and a label for defective equipment"
+  ],
+  "commonErrors": [
+    {
+      "error": "Clearing a blockage while the machine is still plugged in or running.",
+      "prevention": "Switch off, isolate and unplug before any clearing, and wait for moving parts to stop."
+    },
+    {
+      "error": "Using a blunt scraper and forcing it, which causes the blade to slip.",
+      "prevention": "Replace blunt or damaged tools and never use force to make a tool cut."
+    },
+    {
+      "error": "Running a machine with a guard removed to save time.",
+      "prevention": "Keep the guard fitted. A machine with a missing guard is withdrawn and reported."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Never reach into a running machine, and never clear a blockage without switching off and isolating it first.",
+      "licenceNotice": false
+    },
+    {
+      "point": "WARNING: Do not operate a pressure nozzle or hose that is not fully connected, and do not aim a jet at a person, an outlet or your own body.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check Australian standards and any licensing rules for pressure water equipment and powered floor machines, and the eye protection standard.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each tool and machine is inspected before use, and the inspection is recorded.",
+    "No guard, safety feature or emergency stop is removed or bypassed.",
+    "Every defect is labelled, withdrawn and reported before the machine is used again."
+  ],
+  "documentationEvidence": [
+    "Pre-use inspection record for each powered machine",
+    "Defect report and the withdrawal label, with the repair and retest record"
+  ],
+  "summary": [
+    "Use tools and blades so the hand stays behind the cutting edge.",
+    "Inspect every machine before use, and never run one with a guard removed.",
+    "Switch off and isolate before clearing a blockage or changing a pad.",
+    "Withdraw, label and report any defective machine."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-11-K01",
+      "question": "An operator needs to clear a blockage in a rotary machine's brush head. What must happen first?",
+      "options": [
+        "Clear it quickly while the brush is turning slowly.",
+        "Clear it with a hand while the cord is still connected.",
+        "Switch off, isolate and unplug the machine, and wait for it to stop."
+      ]
+    },
+    {
+      "id": "RAS-11-K02",
+      "question": "A scraper blade has become blunt and the operative is pushing hard to make it cut. What is the correct response?",
+      "options": [
+        "Replace the blunt blade and never force a tool to cut.",
+        "Keep pushing, since the job must be done today",
+        "Sharpen it on the spot with a file and then keep using it"
+      ]
+    },
+    {
+      "id": "RAS-11-K03",
+      "question": "A pressure nozzle is not fully connected to the hose. What should the operative do?",
+      "options": [
+        "Use it briefly while it is connected at the other end.",
+        "Do not operate it, and make sure the connection is complete before any use.",
+        "Point it at the floor and use it, since the floor is not a person."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard rows 18 and 19 (small hand tools, blades, scrapers, brooms and brushes; operating floor cleaning equipment including pressurised water, steam and vacuum cleaners); rights: user-held",
+    "UNCONFIRMED: Australian standards and licensing rules for pressure water equipment and powered floor machines, and state or territory requirements; not checked in this pass.",
+    "Cross-check: existing lessons SOP-02 (electrical machines), SOP-06 (floor buffing) and F15-L03 (PPE is task-specific) cover the machine and PPE basics; this lesson adds the register link.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. European (EN) product standards named in the register kept as reference only; Australian equivalent is the AS/NZS standard for the same product type, number UNCONFIRMED; no European figure is used"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

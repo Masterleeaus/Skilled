@@ -1,0 +1,165 @@
+{
+  "id": "PBP-06",
+  "title": "Financial plan structure, assumptions and break-even for pool service work",
+  "courseSlugs": [
+    "pool",
+    "residential",
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 55,
+  "audience": "Owners who prepare the financial section of a pool service plan",
+  "prerequisites": [
+    "BP-06",
+    "BPX-01"
+  ],
+  "learningOutcomes": [
+    "Describe the parts of a financial plan for pool service work: forecast, profit and loss, cash flow, balance sheet and break-even",
+    "Write an assumptions register that links volume, price and cost for each forecast line",
+    "Work out a break-even point in words and with the business's own inputs",
+    "Identify the financing needs and state each one with its basis"
+  ],
+  "instruction": [
+    {
+      "heading": "The parts of the finance section",
+      "body": "A financial plan for pool service work usually contains a sales forecast, a income and expense statement, a cash flow statement, a balance sheet, a break-even analysis and a statement of financing needs. The sample plan has all of these as blank tables with zero entries, so it shows the structure only. The business's numbers must come from its own volumes, prices and costs, with the assumptions written down."
+    },
+    {
+      "heading": "The assumptions register",
+      "body": "Every forecast line rests on an assumption. For a pool business the main ones are the number of visits per week, the number of clients on each service, the average price per visit, the chemical and supply cost per visit, the travel time and cost, the labour cost, the insurance cost, the vehicle and equipment cost, the overheads and the owner's pay. Write each assumption, its value, its basis and its date. The method is taught in “Writing the assumptions register behind a projection”."
+    },
+    {
+      "heading": "Profit, cash and the balance sheet",
+      "body": "The income and expense statement shows the income and costs over a period. The cash flow statement shows when money comes in and goes out, which can differ widely, because clients pay later than the visit and some costs fall before any income. The balance sheet shows what the business owns and owes at a date. Read these together with “Reading a profit and loss forecast” and “Reading a projected balance sheet”, and check that a profit does not hide a cash shortfall."
+    },
+    {
+      "heading": "Break-even",
+      "body": "The break-even point is the level of activity at which income equals costs. In words: divide the fixed costs for the period by the margin each visit contributes after its direct costs, and that gives the number of visits needed to break even. Use only the business's own fixed costs, margin and assumptions. “Break-even and sales forecast by stage” describes the method for a stage-by-stage break-even. Avoid using a sample plan's break-even table, because its figures are placeholders."
+    },
+    {
+      "heading": "Financing needs",
+      "body": "State the financing needs in two parts: the start-up costs, such as equipment, vehicle, initial supplies and registration fees, and the working capital needed to cover the time before cash comes in. For each need, state the amount it is built from, the source of the funds and the date needed."
+    }
+  ],
+  "procedure": [
+    "Write the sales forecast from the visit volume and the price for each service.",
+    "Build the profit and loss from the forecast, with each cost line linked to an assumption.",
+    "Build the cash flow, showing the timing of payments in and out.",
+    "Build the balance sheet at the period end, and check it balances.",
+    "Work out the break-even in words and with the business's own inputs.",
+    "State the financing needs with the basis and the timing for each.",
+    "Record every assumption in the register, with its basis and date."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The forecast shows a profit each month, but the cash flow shows the business runs out of money in the third month because clients pay late.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not treat the profit as enough. Add the timing of client payments to the cash flow, and state the working capital needed to bridge the gap. Record the assumption on payment timing and show the financing need it creates."
+    },
+    {
+      "situation": "A break-even figure is copied from the sample plan, which shows a blank table.",
+      "decisionPrompt": "What is the correct approach?",
+      "reasoning": "Avoid using the sample figure. Rebuild the break-even from the business's own fixed costs, margin and visit volume, and record each input in the assumptions register."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet or the financial forecast template",
+    "Assumptions register",
+    "Cost records and supplier invoices",
+    "Break-even worksheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using the sample plan's numbers or blank table values",
+      "prevention": "Build every line from the business's own volumes, prices and costs."
+    },
+    {
+      "error": "Forecasting profit without cash timing",
+      "prevention": "Build a cash flow with the payment timing of clients and suppliers."
+    },
+    {
+      "error": "Leaving assumptions unrecorded",
+      "prevention": "Record each assumption with its value, basis and date."
+    },
+    {
+      "error": "Omitting tax or insurance costs without a check",
+      "prevention": "Leave tax and insurance out until they are checked."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Check tax treatment, including any goods and services tax, insurance costs and financing terms with the relevant regulator before relying on this point.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The sample plan's financial tables are blank placeholders. They are not a source of figures.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson gives no financial advice. A suitable adviser should check the forecast before it is relied on for financing.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each forecast line has a linked assumption with its basis and date.",
+    "The cash flow shows the timing of payments, and the balance sheet balances at each period end.",
+    "The break-even uses only the business's own inputs, and each input is recorded."
+  ],
+  "documentationEvidence": [
+    "Forecast with linked assumptions register",
+    "Cash flow and balance sheet for each period",
+    "Break-even worksheet and financing needs statement"
+  ],
+  "summary": [
+    "Every forecast line rests on a recorded assumption.",
+    "A profit does not prove cash is available. Build the cash flow with payment timing.",
+    "Break-even uses the business's own costs and margin, never a sample table."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:assessment.business_question_set}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PBP-06-K01",
+      "question": "A forecast shows a profit but the cash flow shows a shortfall. What is the most likely cause?",
+      "options": [
+        "The sample plan has blank tables in the back of the file and the appendix",
+        "The balance sheet is wrong about the cash and the debtors at the start",
+        "The timing of client payments and supplier payments differs from the profit",
+        "The break-even point is too low for the business and the area it serves"
+      ]
+    },
+    {
+      "id": "PBP-06-K02",
+      "question": "How should a break-even point be worked out for pool service work?",
+      "options": [
+        "From the competitor's published revenue for the year, the quarter and the month",
+        "By doubling the first month's income for the whole year, the season and the quarter",
+        "From the sample plan's table of figures, notes, the appendix, the totals and the summary",
+        "From the business's own fixed costs and the margin per visit, recorded as assumptions"
+      ]
+    },
+    {
+      "id": "PBP-06-K03",
+      "question": "Which is a required element of a pool business's financing needs statement?",
+      "options": [
+        "Each need with its basis, source of funds and timing",
+        "A promise that the business will be profitable",
+        "The sample plan's loan figures for the new shop",
+        "A list of competitors' funding for the year"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Pool Cleaning Business Plan (sample PDF, 2023 template), section Financial Plan (income and expense statement, cash flow statement, balance sheet, break-even analysis and financing needs), used for structure only; rights: user-held; reworded (no copying); checked 2026-11-02. All sample financial values are zero placeholders and are not used.",
+    "Pool Cleaning Business Plan (sample PDF, 2023 template), section Units Sold v/s Revenue (sample chart data); rights: user-held; reworded (no copying); checked 2026-11-02. Sample figures are hypothetical and are not used.",
+    "UNCONFIRMED: Australian tax, goods and services tax, insurance costs and finance terms for pool service work. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,176 @@
+{
+  "id": "C11-L04",
+  "title": "Occupied-home protection",
+  "courseSlugs": [
+    "residential"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Residential cleaners working in homes where the household is present, including people working from home.",
+  "prerequisites": [
+    "C11-L01"
+  ],
+  "learningOutcomes": [
+    "Protect the household's belongings, pets and privacy while cleaning in an occupied home.",
+    "Control slip, trip and product hazards around people, especially children and pets.",
+    "Leave work areas and documents undisturbed, and stop when the household's needs change the plan."
+  ],
+  "instruction": [
+    {
+      "heading": "Protecting belongings and privacy",
+      "body": "An occupied home has belongings that are personal and important: papers, devices, medicines and keepsakes. Clean around them rather than moving them, unless the client has agreed. Do not read documents, open drawers or look at personal items beyond what the task requires. Keep any photographs to the authorised areas and leave out people and personal papers."
+    },
+    {
+      "heading": "Pets, children and products",
+      "body": "Keep products away from pets and children, and keep pets and children out of the work area as agreed. Store chemicals out of reach while you are working, and do not leave a wet floor unmarked. Where a household member is working from home, plan quiet times and keep the work out of their workspace unless they agree."
+    },
+    {
+      "heading": "When the plan changes",
+      "body": "If a household member arrives, a pet escapes or a child enters the work area, pause the affected task, make the area safe, and agree the next step with the client. Do not continue with the original plan when the people or animals in the home have changed."
+    }
+  ],
+  "procedure": [
+    "Clean around personal belongings, and do not move them without agreement.",
+    "Do not read documents or open drawers beyond the task.",
+    "Keep products and chemicals out of reach of pets and children.",
+    "Mark wet floors and keep the work area clear of people and animals.",
+    "Pause and agree the next step when the household or its animals change the situation."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A child walks into the kitchen while you are using a degreaser near the floor.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Pause the task, move the product out of reach, and make the area safe. Ask the parent to keep the child out of the work area, and resume only when the area is clear and the plan is agreed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Wet-floor signs.",
+    "Storage for products out of reach.",
+    "Gloves as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Leaving a product on the floor when a child is nearby.",
+      "prevention": "Store products out of reach at all times."
+    },
+    {
+      "error": "Moving a personal item to clean under it.",
+      "prevention": "Clean around it unless the client agrees."
+    },
+    {
+      "error": "Continuing when a pet escapes.",
+      "prevention": "Pause and make the area safe first."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chemicals must be managed under the label and the SDS. A register of hazardous chemicals used at work is required, with limited exclusions such as some consumer products and unopened chemicals in transit. The register must be kept current, hold the current SDS for each hazardous chemical, and sit on site where workers can reach it (Safe Work Australia register page; page date: no date shown). Workers must also be able to get each SDS easily (Safe Work Australia SDS page; page date: no date shown).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Content is general cleaning practice and needs subject-matter and regulator review before use.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Personal belongings left undisturbed in the simulated home.",
+    "Products stored out of reach when a child enters the case study.",
+    "Plan paused and agreed when the household changes."
+  ],
+  "documentationEvidence": [
+    "Visit record noting any pause and the agreed next step.",
+    "Incident record for any injury or near-miss."
+  ],
+  "summary": [
+    "Clean around personal belongings and protect privacy.",
+    "Keep products and chemicals out of reach of children and pets.",
+    "Pause and agree the next step when the household changes."
+  ],
+  "businessFields": [
+    "{{business:customers.communication_policy}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C11-L04-K01",
+      "question": "A child enters the work area with a product on the floor. What is correct?",
+      "options": [
+        "Continue quickly with the task while the child is nearby",
+        "Pause, move the product out of reach, and make the area safe",
+        "Ask the child to help you clean up the product from the floor"
+      ]
+    },
+    {
+      "id": "C11-L04-K02",
+      "question": "How should personal papers be handled?",
+      "options": [
+        "Read them to find the cleaning spot",
+        "Move them into the bin with the rubbish",
+        "Clean around them and do not read them"
+      ]
+    },
+    {
+      "id": "C11-L04-K03",
+      "question": "Where are products kept while you work in an occupied home?",
+      "options": [
+        "Out of reach of children and pets",
+        "On the floor by the door, close at hand",
+        "In an open bucket on the bench"
+      ]
+    },
+    {
+      "id": "C11-L04-K04",
+      "question": "When the people or animals in the home have changed, what does the lesson say about the original plan?",
+      "options": [
+        "Continue it, since it was agreed",
+        "Speed up to finish before the change",
+        "Ask the pet to leave the home",
+        "Do not continue it; pause, make the area safe and agree the next step with the client"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/C11-L04.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use.",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemicals register",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the register duty and the list of exclusions. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Using safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the duty to keep SDS and make them easy for workers to access. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources: Safe Work Australia, Hazardous chemicals register (no date shown); Safe Work Australia, Using safety data sheets (no date shown).",
+  "referencesAtEnd": "Check the current rule on each official page: Safe Work Australia, Hazardous chemicals register (no date shown): https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register; Safe Work Australia, Using safety data sheets (no date shown): https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets.",
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-03.jpg",
+      "alt": "Residential cleaning illustration",
+      "kind": "photo",
+      "origin": "residential"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-04.jpg",
+      "alt": "Residential cleaning illustration",
+      "kind": "photo",
+      "origin": "residential"
+    }
+  ]
+}

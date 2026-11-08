@@ -1,0 +1,36 @@
+{
+ "lessonId": "construction-site-cleaning-L05",
+ "knowledgeAnswers": [
+  {
+   "id": "construction-site-cleaning-L05-K01",
+   "correctIndex": 1,
+   "rationale": "A filter alone does not make the equipment approved for the material."
+  },
+  {
+   "id": "construction-site-cleaning-L05-K02",
+   "correctIndex": 2,
+   "rationale": "Wet methods bring runoff, slip and electrical hazards that need planning first."
+  },
+  {
+   "id": "construction-site-cleaning-L05-K03",
+   "correctIndex": 0,
+   "rationale": "Emptying a hazardous-dust collector needs training and an approved method."
+  }
+ ],
+ "practicalCriteria": [
+  "Compares three equipment cards and a runoff route on a floor plan.",
+  "Rejects a household vacuum for a simulated silica task and quarantines it.",
+  "Records the chosen method, the approval and the water protections."
+ ],
+ "passRule": "Household vacuum rejected for silica, runoff route planned, and the method and approval recorded. Observed by an assessor.",
+ "evidenceRequired": [
+  "Equipment comparison record",
+  "Runoff plan",
+  "Quarantine record"
+ ],
+ "stopWorkCriteria": [
+  "Household vacuum used on silica",
+  "Water used without a runoff plan",
+  "Suspected hazardous-dust collector emptied without training"
+ ]
+}

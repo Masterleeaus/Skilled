@@ -1,0 +1,33 @@
+{
+  "lessonId": "HLT-12",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-12-K01",
+      "correctIndex": 1,
+      "rationale": "The guide requires rinsing with tap water or saline with the eyelids held open. Rubbing, waiting or applying alcohol are not the steps."
+    },
+    {
+      "id": "HLT-12-K02",
+      "correctIndex": 1,
+      "rationale": "The guide list includes the type of body fluid and the amount of exposure. The other options are not reporting details for an exposure."
+    },
+    {
+      "id": "HLT-12-K03",
+      "correctIndex": 0,
+      "rationale": "Prompt reporting lets the employer arrange advice, counselling, testing and treatment where needed. The other options are not reasons in the source."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated eye splash, the learner rinses with the eyelids held open, does not rub, and reports to the supervisor in the correct order.",
+    "Given a simulated exposure, the learner completes an incident report with every listed detail."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of the simulated first response",
+    "Completed incident report for the simulated exposure"
+  ],
+  "stopWorkCriteria": [
+    "A body fluid splash reaches the eyes, mouth or broken skin: stop the task and start the first response at once.",
+    "The worker is unsure whether an exposure has happened: stop, treat it as an exposure, and report."
+  ]
+}

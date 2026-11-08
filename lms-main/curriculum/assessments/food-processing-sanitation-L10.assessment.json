@@ -1,0 +1,39 @@
+{
+  "lessonId": "food-processing-sanitation-L10",
+  "knowledgeAnswers": [
+    {
+      "id": "food-processing-sanitation-L10-K01",
+      "correctIndex": 2,
+      "rationale": "A cleaning checklist records cleaning work. Verification, monitoring and release are separate records and decisions, so the checklist alone does not show absence of micro-organisms."
+    },
+    {
+      "id": "food-processing-sanitation-L10-K02",
+      "correctIndex": 0,
+      "rationale": "An unseen step is marked not verified, with the reason. Ticking it or removing it hides a gap in the record."
+    },
+    {
+      "id": "food-processing-sanitation-L10-K03",
+      "correctIndex": 2,
+      "rationale": "A premature restart request is refused, recorded and escalated. Signing with a note still records a false readiness."
+    }
+  ],
+  "practicalCriteria": [
+    "Classifies each line of a fictional sign-off checklist as cleaning, verification, monitoring or release, and states the classification.",
+    "Marks at least one unseen step as not verified, gives the reason, and names a person to verify it.",
+    "Notes which part of a large item was observed and which was not reached, without changing a colleague's entry.",
+    "Refuses a simulated premature restart request, records the requester, time and pending items, and escalates to the mock authorised person.",
+    "Uses no sterility, pathogen-free or allergen-free wording in the completed record."
+  ],
+  "passRule": "All five practical criteria observed as met in an inert tabletop simulation. A knowledge check result is not a practical pass, and no part of this assessment confers release or sanitation clearance.",
+  "evidenceRequired": [
+    "Annotated fictional sign-off checklist",
+    "Refusal and escalation record for the simulated restart request",
+    "Assessor observation note for each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "Restart signed before the simulated results or release decision are recorded",
+    "Unseen step ticked or carried forward",
+    "Repeat testing performed without recording the earlier result",
+    "Record describes the line as sterile, pathogen-free or allergen-free"
+  ]
+}

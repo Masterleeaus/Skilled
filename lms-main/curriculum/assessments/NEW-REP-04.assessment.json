@@ -1,0 +1,30 @@
+{
+  "lessonId": "NEW-REP-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-REP-04-K01",
+      "correctIndex": 1,
+      "rationale": "Leasing and deposit handling are not accepted until the positions are confirmed. The request is recorded and referred."
+    },
+    {
+      "id": "NEW-REP-04-K02",
+      "correctIndex": 2,
+      "rationale": "The leasing licence position differs by state. New South Wales and Queensland have official pages checked in this pass. The state must be checked before leasing work is accepted."
+    },
+    {
+      "id": "NEW-REP-04-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says leasing covers finding and screening tenants, negotiating and signing tenancy agreements, collecting rent and managing bonds and notices."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated leasing request, the worker records and refers it, and does not accept it."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Referral record for the simulated request"
+  ],
+  "stopWorkCriteria": [
+    "The worker is asked to hold a deposit or represent licensed status"
+  ]
+}

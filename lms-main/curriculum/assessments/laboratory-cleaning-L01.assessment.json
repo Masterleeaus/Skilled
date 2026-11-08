@@ -1,0 +1,36 @@
+{
+  "lessonId": "laboratory-cleaning-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "laboratory-cleaning-L01-K01",
+      "correctIndex": 1,
+      "rationale": "A cleaning booking is a request. Entry needs a written release from the named laboratory contact that covers the room, zone and time."
+    },
+    {
+      "id": "laboratory-cleaning-L01-K02",
+      "correctIndex": 1,
+      "rationale": "An active experiment stops entry for that period. The task is deferred and the deferral is recorded. Cleaning around or moving equipment is not permitted."
+    },
+    {
+      "id": "laboratory-cleaning-L01-K03",
+      "correctIndex": 1,
+      "rationale": "The handover records what was cleaned, what was not entered and the state left. A statement that the laboratory is clean, decontaminated or safe is outside the cleaner's authority."
+    }
+  ],
+  "practicalCriteria": [
+    "Declines entry to a simulated room with a restricted-entry sign and an active-experiment status, and records the deferral with time, reason, person told and the requested new window.",
+    "Obtains a simulated written release that names the room, zone, time window, allowed tasks and excluded tasks, and confirms that the cleaning scope matches it before entering.",
+    "Writes a closing handover for a simulated visit that lists the zones cleaned, the zones not entered and the state left, with no safety or decontamination statement."
+  ],
+  "passRule": "All three criteria met with no entry while the sign or experiment applies, and a complete handover. Observed in a supervised desk exercise using simulated records. A pass does not confer any biosafety approval, decontamination authority or licence, and does not make the assessee competent to enter a restricted laboratory.",
+  "evidenceRequired": [
+    "Deferral record for the simulated active-experiment room",
+    "Written release for the simulated permitted visit",
+    "Closing handover for the simulated visit"
+  ],
+  "stopWorkCriteria": [
+    "Entry made to a restricted or active-experiment room on the basis of a booking or verbal release",
+    "Equipment or samples moved, or surfaces wiped, in an area not covered by the written release",
+    "Safety, decontamination or readiness statement written in the handover by the cleaner"
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "NEW-BEA-02",
+  "title": "Hygiene, single-use tools and product sanitation",
+  "courseSlugs": [
+    "beauty"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Mobile beauty therapists who use reusable and single-use tools, and who handle products at a client's location",
+  "prerequisites": [
+    "F08-L02",
+    "F08-L03",
+    "F08-L01"
+  ],
+  "learningOutcomes": [
+    "Choose single-use or reusable tools for each treatment and explain the choice",
+    "Clean and disinfect reusable tools using the product label contact time",
+    "Prevent cross-contamination of products during a treatment, including the rule against returning used product to a container"
+  ],
+  "referencesAtStart": "Official references for this lesson: Victorian Department of Health, Hair, beauty, tattooing and skin penetration industries (updated 26 October 2026); WorkSafe Victoria, Managing hazardous substances and irritants in the hairdressing and beauty industry (reviewed 12 September 2025); WorkSafe Victoria, Safety data sheets (reviewed 30 July 2022); WA Health, Guideline for the hairdressing industry (last reviewed February 2024).",
+  "instruction": [
+    {
+      "heading": "Single-use first, then clean and disinfect",
+      "body": "Infection in beauty work spreads through skin, blood, body fluids and shared products. The first control is to use single-use items wherever a product allows. Disposable applicators, spatulas, wax sticks, cotton items and gloves are discarded after each client. Reusable tools must be cleaned, then disinfected. Cleaning removes visible soil and product. Disinfection kills the organisms that remain, and it works only after the surface is clean and for the contact time stated on the product label. The Victorian Department of Health's page on hair, beauty, tattooing and skin penetration industries (updated 26 October 2026) names the 2019 infection prevention and control guidelines for these industries. The business's approved method is recorded in {{business:procedures.approved_sop}}."
+    },
+    {
+      "heading": "Product sanitation during a treatment",
+      "body": "Products become contaminated during use. A spatula dipped into a jar and then returned to it can carry skin cells and organisms into the whole product. The rule is to decant the amount needed for each client into a clean dish, never return used product to the main container, and discard the dish or clean it after the service. Pumps and lids are kept closed when not in use. Products that are labelled for single use are not reused. Record each product's name, batch and date where the business procedure requires it, and keep products in the approved storage in {{business:materials.storage_procedure}}. WorkSafe Victoria's page on this industry names nail acrylics and dip powders, eyelash glue and chemical peels as sources of hazard. WorkSafe's safety data sheet page requires an up-to-date SDS to be held for every product (reviewed 30/07/2022), so the product's safety data sheet must be checked before use."
+    },
+    {
+      "heading": "Cross-contamination in a mobile setting",
+      "body": "A mobile therapist works in rooms that are not clinics, often without a dedicated sink. Cross-contamination risk rises when a single kit is carried from client to client. Keep a clean and used area apart within the kit, carry used tools in a sealed container, and clean the work surface before and after each client. Wash hands with soap and water, or use an approved hand sanitiser where the business procedure allows it, before and after each client and after touching a used item. Waste from wax, cotton and gloves goes in a sealed bag for disposal. Western Australia's hairdressing guideline (last reviewed February 2024) requires mobile operators to have easily accessible hand-washing with warm water, soap and disposable towels, and to send wastewater into the sewer, not stormwater drains."
+    }
+  ],
+  "procedure": [
+    "Choose a single-use item wherever the product and treatment allow it, and discard it after the client",
+    "Clean every reusable tool with detergent and water, rinse, and then disinfect it for the label contact time",
+    "Decant the amount of product needed for each client into a clean dish, and never return used product to the main container",
+    "Keep product lids closed when not in use, and keep the used area separate from the clean area in the kit",
+    "Wash hands with soap and water before and after each client, or use an approved hand sanitiser where the procedure allows it",
+    "Seal used items and waste in a container for disposal, and record the cleaning and disinfection on the job record"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A therapist uses a metal spatula to take wax from the main pot, then uses the same spatula to take a second client's wax from the same pot without cleaning it.",
+      "decisionPrompt": "What is the risk, and what should the therapist do differently?",
+      "reasoning": "The spatula carries skin cells and organisms from the first client into the product, which then reaches the second client. The therapist should use a single-use spatula for each client, or decant product into a clean dish and discard or clean that dish after the service. The main pot should not be contaminated, and it should be discarded or cleaned if it has been used this way. The event should be recorded in the job record."
+    },
+    {
+      "situation": "A therapist cleans a reusable tool with detergent and then wipes it with a disinfectant, but leaves it wet for five seconds before storing it. The label says the contact time is ten minutes.",
+      "decisionPrompt": "Is the tool ready for the next client?",
+      "reasoning": "The disinfectant has not had its label contact time, so the disinfection step has not been completed. The tool should be left in contact with the disinfectant for the full time on the label, and then rinsed or dried as the label directs. The therapist should record the contact time used. Using a shorter time may leave organisms alive, so the tool should not go to the next client until the full time has passed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Single-use applicators, spatulas, wax sticks and gloves",
+    "Reusable tool kit with a labelled cleaning and disinfection method",
+    "Detergent and disinfectant, each with the label contact time on the bottle",
+    "Sealed bins or bags for used items and waste",
+    "Clean dishes for decanting product",
+    "Hand-washing set-up or an approved hand sanitiser"
+  ],
+  "commonErrors": [
+    {
+      "error": "Returning used product to the main container.",
+      "prevention": "Decant only what is needed for each client into a clean dish, and discard or clean the dish after the service."
+    },
+    {
+      "error": "Storing a tool before the disinfectant contact time has passed.",
+      "prevention": "Time the contact period from the label and keep the tool in the cleaning area until that time is complete."
+    },
+    {
+      "error": "Using a single kit for several clients without a clean and used area.",
+      "prevention": "Keep the used area separate within the kit, and seal used items before the next client."
+    },
+    {
+      "error": "Assuming a mobile setting is exempt from hygiene rules.",
+      "prevention": "The Victorian Department of Health names the 2019 infection prevention guidelines for these industries. Check their content for your state and use the same standard in a mobile setting."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The Victorian Department of Health names the 2019 infection prevention and control guidelines for these industries.",
+      "licenceNotice": false
+    },
+    {
+      "point": "WorkSafe Victoria names nail acrylics, dip powders, eyelash glue and chemical peels as sources of hazard. These hazards are confirmed, and the safety data sheet governs use.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The WA hairdressing guideline requires equipment to be cleaned after each client, and requires mobile operators to send wastewater into the sewer.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not register the business or certify any hygiene standard. Registration is covered in “Mobile beauty scope and skin-treatment boundaries”.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every single-use item is discarded after its client",
+    "Every reusable tool is cleaned, then disinfected for the full label contact time, with the time recorded",
+    "No used product is returned to the main container in any treatment",
+    "Hands are washed or sanitised before and after each client, per the approved procedure"
+  ],
+  "documentationEvidence": [
+    "Cleaning and disinfection record for each reusable tool, with product name and contact time",
+    "Job record showing the single-use items used and the waste disposed",
+    "Product batch or date record where the procedure requires it",
+    "Storage and safety data sheet check for each product"
+  ],
+  "summary": [
+    "Single-use first; clean, then disinfect for the full label time",
+    "Decant product; never return used product to the main container",
+    "Mobile hygiene is a real control.",
+    "Completing this lesson does not certify a hygiene standard or authorise any service"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:materials.approved_products}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:equipment.primary_tool}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-BEA-02-K01",
+      "question": "Why should a therapist never return unused product to the main container after a client treatment?",
+      "options": [
+        "Because skin cells and organisms can contaminate the whole product",
+        "Because the product becomes cheaper to store in the main container",
+        "Because the label says the product expires faster once it has been opened"
+      ]
+    },
+    {
+      "id": "NEW-BEA-02-K02",
+      "question": "A disinfectant label gives a contact time of ten minutes. What is the correct action?",
+      "options": [
+        "Wipe the tool and store it at once, since disinfection is fast and the product works in seconds",
+        "Keep the tool in contact with the disinfectant for the full ten minutes before the next use",
+        "Rinse after two minutes to save product, because the label allows it for most tools"
+      ]
+    },
+    {
+      "id": "NEW-BEA-02-K03",
+      "question": "Which item does this lesson list as discarded after each client?",
+      "options": [
+        "A reusable metal tool that is disinfected between clients",
+        "A disposable spatula",
+        "A product jar kept for the next client",
+        "A pump bottle left open between uses"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: Hair, beauty, tattooing and skin penetration industries (updated 26 October 2026): https://health.vic.gov.au/infectious-diseases/hair-beauty-tattooing-and-skin-penetration-industries; Managing hazardous substances and irritants in the hairdressing and beauty industry (reviewed 12 September 2025): https://www.worksafe.vic.gov.au/managing-hazardous-substances-and-irritants-hairdressing-and-beauty-industry; Safety data sheets (reviewed 30 July 2022): https://www.worksafe.vic.gov.au/safety-data-sheets; Guideline for the hairdressing industry (last reviewed February 2024): https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hair, beauty, tattooing and skin penetration industries",
+      "url": "https://health.vic.gov.au/infectious-diseases/hair-beauty-tattooing-and-skin-penetration-industries",
+      "pageDate": "Updated 26 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Department of Health Victoria page; names the 2019 infection prevention and control guidelines. Guideline text was not read. Publisher: Department of Health Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Managing hazardous substances and irritants in the hairdressing and beauty industry",
+      "url": "https://www.worksafe.vic.gov.au/managing-hazardous-substances-and-irritants-hairdressing-and-beauty-industry",
+      "pageDate": "Reviewed 12/09/2025",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; hazard list for dyes, bleach, aerosols, nail products, lash glue and peels. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R3",
+      "title": "Safety data sheets",
+      "url": "https://www.worksafe.vic.gov.au/safety-data-sheets",
+      "pageDate": "Reviewed 30/07/2022",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; employer duty to obtain an up-to-date SDS for each product and ensure access. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R4",
+      "title": "Guideline for the hairdressing industry",
+      "url": "https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf",
+      "pageDate": "Last reviewed February 2024",
+      "checked": "2026-11-03",
+      "covers": "WA Health PDF; mobile operators (13.1), home-based operators (13.2), open wounds (7.3), disinfection (10 and 11). Publisher: WA Health (Chief Health Officer guideline, Public Health Act 2016)."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Dept of Health Victoria, Hair, beauty, tattooing and skin penetration industries, https://health.vic.gov.au/infectious-diseases/hair-beauty-tattooing-and-skin-penetration-industries, checked 2026-11-02 (MBEAU-VIC-05; 2019 guideline content not read, UNCONFIRMED)",
+    "Dept of Health Victoria, Information for registered premises and EHOs, https://health.vic.gov.au/infectious-diseases/information-for-registered-premises-and-environmental-health-officers, checked 2026-11-02 (MBEAU-VIC-01)",
+    "WorkSafe Victoria, Managing hazardous substances and irritants in the hairdressing and beauty industry, https://www.worksafe.vic.gov.au/managing-hazardous-substances-and-irritants-hairdressing-and-beauty-industry, reviewed 12/09/2025, checked 2026-11-02 (MBEAU-VIC-04)",
+    "WA Health, Guideline for the hairdressing industry, https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf, last reviewed Feb 2024, checked 2026-11-02 (NAT-HAIR-WA-02, NAT-HAIR-WA-04; applied to beauty only as UNCONFIRMED good practice)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02",
+    "Checked 2026-11-03: official references R1, R2, R3, R4 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-03.jpg",
+      "alt": "Mobile beauty illustration",
+      "kind": "photo",
+      "origin": "beauty"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-04.jpg",
+      "alt": "Mobile beauty illustration",
+      "kind": "photo",
+      "origin": "beauty"
+    }
+  ]
+}

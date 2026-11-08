@@ -1,0 +1,223 @@
+{
+  "id": "pool-cleaning-L07",
+  "title": "Filtration and circulation diagnostics",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 50,
+  "audience": "Pool technicians who diagnose flow and pressure problems in pool circulation systems, in any state or territory",
+  "prerequisites": [
+    "pool-cleaning-L01",
+    "F04-L01"
+  ],
+  "learningOutcomes": [
+    "Describe the main components of a pool circulation loop and their order",
+    "Diagnose low flow and high filter pressure using observation and gauge readings",
+    "Isolate equipment safely before opening any pressurised or electrical part",
+    "Price and document diagnostic work according to the business's approved method"
+  ],
+  "instruction": [
+    {
+      "heading": "The circulation loop",
+      "body": "Pool water is drawn from the skimmer and the main drain, passed through a pump and a filter, and returned through return jets. Many systems also include a heater, a chemical feed point, valves and automatic controls. Circulation moves the water through the filter so that particles are removed and the water is mixed with the treatment chemicals. A fault in any part of the loop can reduce circulation. Diagnose the loop in the order the water travels: intake, pump, filter, return. This keeps the inspection logical and avoids opening equipment that does not need attention."
+    },
+    {
+      "heading": "Reading the signs",
+      "body": "Low flow at the returns, a noisy pump, a pump that loses prime, air in the strainer and a filter pressure that rises after cleaning are common signs. A high filter pressure reading compared with the normal clean-filter reading suggests a dirty or blocked filter. Air leaks on the suction side, a blocked skimmer basket or pump strainer, and a partly closed valve can produce similar symptoms. Record the pressure reading and the state of the basket and strainer before and after you clean them. A reading only has meaning if you know the clean-filter reference for that system, so record it from the manufacturer's data or the site record where it is available."
+    },
+    {
+      "heading": "Isolating before you inspect",
+      "body": "Turn off power to the pump at the isolator or circuit breaker before you open the strainer lid, touch the pump motor or work on any electrical connection. Relieve pressure before you open a filter lid, as the manufacturer directs. Do not open a pressurised filter. Close valves only as the system layout and the operator plan indicate, and record valve positions before you change them so that they can be restored. Water near electrical equipment is a shock hazard, so keep the pump area dry and never use a damaged cord."
+    },
+    {
+      "heading": "What is in and out of scope",
+      "body": "Cleaning a skimmer basket, emptying a strainer pot, backwashing or cleaning a filter as the manufacturer directs, and checking gauge readings are generally within a pool cleaning and diagnostic scope. Replacing pump internals, rewiring, changing heater elements, working on the gas side of a heater or altering a controller are outside general contract scope and need competence and authority (see the electrical, mechanical and confined-space boundaries in “Electrical, mechanical and confined-space boundaries”). Water treatment compliance depends on the local operator plan. Backwashing a filter may produce waste water that the discharge rules control (see “Water conservation and environmental release”)."
+    },
+    {
+      "heading": "Pricing and documenting diagnostic work",
+      "body": "Diagnostic time is real work and should be priced under the business's approved method, not absorbed as free time. Under the Australian Consumer Law, a service must be carried out competently, and it must be supplied within a reasonable period where no time was agreed. Record the symptoms observed, the readings taken, the checks made, the action taken, the parts or work referred, and the time spent. A diagnostic record that says the circulation is fine is only valid if the readings and the checks support it."
+    }
+  ],
+  "procedure": [
+    "Confirm the scope in the work order and the site classification.",
+    "Record the symptoms and the gauge reading before starting.",
+    "Check the skimmer basket, pump strainer and skimmer weir for blockage and debris.",
+    "Isolate the pump at the isolator before opening any lid or touching the motor.",
+    "Relieve pressure as the manufacturer directs before opening the filter.",
+    "Clean the components the manufacturer and scope allow; record valve positions before and after.",
+    "Restore power, check the gauge and flow, and record the readings after the work.",
+    "Refer any fault outside scope with a written description of the symptoms and readings.",
+    "Price and record the diagnostic time under {{business:pricing.pricing_method}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pool filter gauge reads high and returns look weak. The skimmer basket is clean and the pump lid has a visible air leak at the seal.",
+      "decisionPrompt": "What should the technician do first and what should be recorded?",
+      "reasoning": "The technician isolates the pump, relieves pressure as directed, cleans the filter as the manufacturer allows, and records the before and after readings. The air leak at the pump lid is recorded and referred or repaired within scope; a high reading that remains after cleaning is recorded and referred for internal filter inspection. The pressurised filter lid is not opened without pressure relief."
+    },
+    {
+      "situation": "A customer says the pump is noisy and asks the technician to replace the motor on the spot.",
+      "decisionPrompt": "Is motor replacement within the technician's scope?",
+      "reasoning": "Motor replacement involves electrical work and possibly a licence requirement that the technician may not hold. The technician records the noise, the symptoms and the readings, isolates the pump, and refers the replacement to a qualified person with the record."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Manufacturer's manual for the filter and pump",
+    "Pressure gauge reading and reference record",
+    "Basket and strainer tools",
+    "Isolator key or circuit breaker access",
+    "PPE as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Opening a pressurised filter or strainer lid.",
+      "prevention": "Isolate the pump and relieve pressure as the manufacturer directs."
+    },
+    {
+      "error": "Working on the pump without isolating the power.",
+      "prevention": "Isolate at the isolator or breaker first, and confirm it is off."
+    },
+    {
+      "error": "Changing valve positions without recording them.",
+      "prevention": "Record each position before and after so the system can be restored."
+    },
+    {
+      "error": "Absorbing diagnostic time as free work.",
+      "prevention": "Price and record diagnostic time under the approved method."
+    },
+    {
+      "error": "Recording the system as fine without readings.",
+      "prevention": "Record the readings and checks that support the conclusion."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electricity and water: isolate pump power before inspection. Keep the pump area dry and do not use damaged cords.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Electrical and mechanical replacement work needs licences or competence this lesson does not grant (see “Electrical, mechanical and confined-space boundaries”). In Queensland, only licensed electricians can carry out electrical work on water equipment, a rule in force from 1 April 2025. The Queensland page defines water equipment as equipment designed for use inside a pool, paddling pool, spa or bath, and does not say whether tanks are covered. Compliance for water treatment depends on the local operator plan.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Backwash and drain water may be subject to discharge rules set by the water authority or council. Unitywater's domestic pool policy is one Queensland example; it accepts maintenance water to sewer only under set flow limits (see “Water conservation and environmental release”).",
+      "licenceNotice": false
+    },
+    {
+      "point": "The course names AS 1926.3 Part 3 (water recirculation) for circulation systems.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Symptoms, readings and checks are recorded before and after work",
+    "Isolation is confirmed before any lid or electrical part is touched",
+    "Work outside scope is referred with a written symptom description"
+  ],
+  "documentationEvidence": [
+    "Pre- and post-work pressure and flow readings",
+    "Basket, strainer and valve record",
+    "Diagnostic time and price under the approved method",
+    "Referral note for any fault outside scope"
+  ],
+  "summary": [
+    "Diagnose the loop in the order the water travels: intake, pump, filter, return.",
+    "Isolate and relieve pressure before opening; record valve positions.",
+    "Diagnostic time is priced work; the record must support any conclusion.",
+    "Replacement and electrical work is referred unless authority and competence are confirmed."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pool-cleaning-L07-K01",
+      "question": "A pool filter pressure gauge reads high and flow is low. What is the correct first step?",
+      "options": [
+        "Open the filter lid while the pump is running, so the flow can be checked",
+        "Isolate the pump, relieve pressure as the manufacturer directs, then inspect",
+        "Replace the pump motor straight away, since it is probably worn out",
+        "Increase the chlorine dose to clear the filter faster and sooner"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L07-K02",
+      "question": "What should be recorded when valve positions are changed during a diagnostic?",
+      "options": [
+        "Nothing, because the positions are obvious to anyone",
+        "Only the final position, since that is all that matters",
+        "The positions before and after, so the system can be restored",
+        "The brand of the valve, its age and its colour on the day"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L07-K03",
+      "question": "A customer asks for a pump motor to be replaced on the spot. What is the correct response?",
+      "options": [
+        "Replace it, because the customer asked for the work to be done today",
+        "Replace it without isolating the power, since the job is quick",
+        "Refuse to record anything, since the job is not yours to do",
+        "Refer the replacement to a qualified person and record the symptoms"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "QLD-ESO: WorkSafe Queensland, eSafe article Strengthening electrical safety in Queensland's pools, spas and baths, checked 2026-11-03 (no date shown; change effective 1 April 2025). Used for the Queensland licensed-electrician rule only. Licence class UNCONFIRMED.",
+    "UNIT-POL: Unitywater, Domestic Swimming Pool Wastewater Disposal Policy OP8130 Rev 10, checked 2026-11-03 (reviewed 16 July 2025; amended 19 March 2026 and 21 April 2026). A Queensland water authority example, not a state-wide rule.",
+    "ACCC-CG: ACCC, Consumer rights and guarantees, checked 2026-11-03 (no date in page text; metadata 28 August 2026). Used for the services guarantee on care, competence and reasonable time. Quotes not covered.",
+    "AS 1926.3 Part 3: named in this course; title and content UNCONFIRMED (Standards Australia store page could not be read in this pass).",
+    "UNCONFIRMED: state and territory electrical licensing for pool, spa, pond and aquarium equipment wiring and repairs, other than the Queensland point above.",
+    "UNCONFIRMED: state, territory and council stormwater and sewer discharge rules for pool water beyond the two examples in this lesson; consumer-law rules on quotes and estimates."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Strengthening electrical safety in Queensland's pools, spas and baths (eSafe, April 2025)",
+      "url": "https://www.worksafe.qld.gov.au/news-and-events/newsletters/esafe-newsletters/esafe-editions/esafe/april-2025/strengthening-electrical-safety-in-queenslands-pools-spas-and-baths",
+      "pageDate": "no date shown on page; change takes effect 1 April 2025 as stated",
+      "checked": "2026-11-03",
+      "covers": "worksafe.qld.gov.au: search the article title; the water equipment guidance note should give the licence class (not read). Publisher: WorkSafe Queensland (Electrical Safety Office)."
+    },
+    {
+      "id": "R2",
+      "title": "Domestic Swimming Pool Wastewater Disposal Policy OP8130, Revision 10",
+      "url": "https://www.unitywater.com/-/media/unitywater/pdf-policies-and-reports/domestic-swimming-pool-wastewater-disposal-policy-op8130.pdf",
+      "pageDate": "last reviewed 16 July 2025; amended 19 March 2026 and 21 April 2026",
+      "checked": "2026-11-03",
+      "covers": "unitywater.com: search 'Domestic swimming pool wastewater disposal policy OP8130'. An example for one authority only. Publisher: Unitywater (South East Queensland water authority)."
+    },
+    {
+      "id": "R3",
+      "title": "Consumer rights and guarantees",
+      "url": "https://www.accc.gov.au/consumers/buying-products-and-services/consumer-rights-and-guarantees",
+      "pageDate": "no date in page text; page metadata shows 28 August 2026",
+      "checked": "2026-11-03",
+      "covers": "accc.gov.au: Consumers, Buying products and services, Consumer rights and guarantees. Quotes and estimates are not covered on that page. Publisher: Australian Competition and Consumer Commission (ACCC)."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: WorkSafe Queensland, Strengthening electrical safety in Queensland's pools, spas and baths (eSafe, April 2025; no date shown on the page, and the change takes effect 1 April 2025); Unitywater, Domestic Swimming Pool Wastewater Disposal Policy OP8130, Revision 10 (last reviewed 16 July 2025; amended 19 March 2026 and 21 April 2026); ACCC, Consumer rights and guarantees (no date in page text; page metadata shows 28 August 2026).",
+  "referencesAtEnd": "Official sources to check at the end of this lesson: WorkSafe Queensland, Strengthening electrical safety in Queensland's pools, spas and baths (eSafe, April 2025; no date shown on the page, and the change takes effect 1 April 2025); Unitywater, Domestic Swimming Pool Wastewater Disposal Policy OP8130, Revision 10 (last reviewed 16 July 2025; amended 19 March 2026 and 21 April 2026); ACCC, Consumer rights and guarantees (no date in page text; page metadata shows 28 August 2026).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-11.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-12.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    }
+  ]
+}

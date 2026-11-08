@@ -1,0 +1,167 @@
+{
+  "id": "RAS-13",
+  "title": "Vehicles, pedestrians and site lighting",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Cleaning operatives who move between buildings, car parks, loading areas and public routes, and who work in areas with variable light.",
+  "prerequisites": [
+    "F02-L02",
+    "F10-L01"
+  ],
+  "learningOutcomes": [
+    "Identify the vehicle and pedestrian hazards on car park and loading routes, and keep to the approved routes.",
+    "Set up exclusion zones and barriers that stop members of the public entering work areas.",
+    "Check lighting before work starts and refuse to work where light is unsafe.",
+    "Choose the right timing for work in relation to daylight and building use."
+  ],
+  "instruction": [
+    {
+      "heading": "Vehicles and car park routes",
+      "body": "Car parks, loading areas and vehicle routes are where crew are most likely to be struck by a moving vehicle that they cannot see or hear. The register tells operatives to keep off roadways and out of the path of vehicle traffic, to stay on the approved walking paths at the site boundary and in the car park, and to follow the directional signs. Where the work is near a vehicle route, the crew wears high-visibility clothing that conforms to the standard the register names; that standard belongs to the AS/NZS 4602.1 series; the Standards Australia store shows AS 4602.1:2024, but its text has not been reviewed for this draft, so its requirements have not yet been confirmed until checked against that edition. Where people and vehicles share a space, barriers separate them, and the work is supervised and monitored. WARNING: Do not cross a vehicle lane to reach a bin or a door, and stay out of a loading area while a vehicle is reversing or manoeuvring."
+    },
+    {
+      "heading": "Public and third-party exclusion",
+      "body": "Members of the public, visitors, residents and contractors can walk into a work area without knowing it is unsafe. The register protects them with barriers and posted warnings where needed, and by planning and coordinating the work so that the public and site staff do not come into contact with the crew's activity. Equipment and materials are kept inside the exclusion zone and are never left unattended. Equipment is removed from the site or stored in the store cupboard overnight, and the site access and entrance are controlled while work is in progress, with the work supervised or monitored throughout. An unattended trolley is a hazard to the public, so the crew does not leave one in a corridor, even for a short time."
+    },
+    {
+      "heading": "Lighting and timing",
+      "body": "Poor light causes misjudged footing, missed hazards and slips. The register asks for daytime work where it is practical, and for sufficient light levels in any area where work is done. Existing building lighting is supplied and kept in repair by the client, and task lighting is brought in where the crew identifies a need. Operatives do not work where the lighting level presents a danger. A route that is dark is reported and is not used until it has been lit or closed. Where work must be done in low light, the crew checks the route beforehand, uses task lights, and works with a second person nearby."
+    }
+  ],
+  "procedure": [
+    "Plan the route to the site of the work, using the approved walking paths approved for the site.",
+    "Put on the high-visibility clothing the register requires whenever the work is near a vehicle route.",
+    "Set up barriers and signage around the work area, and keep equipment inside the exclusion zone.",
+    "Check the lighting along the route and in the work area before starting, and report any dark route.",
+    "Do not leave equipment or materials unattended, and remove or store them at the end of the shift.",
+    "Stop work in any area where the lighting is unsafe, and tell the supervisor."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew member must move a cleaning trolley across a loading dock while a delivery truck is reversing into the bay.",
+      "decisionPrompt": "State what is done before the trolley is moved, and who is told.",
+      "reasoning": "The crew member does not cross the reversing vehicle's path. The trolley waits until the truck has finished manoeuvring, or it is moved by a route that the site has approved and that keeps clear of the vehicle. A barrier or the site contact's instruction is used to stop the vehicle before the trolley moves. The supervisor is told that the loading dock was not safe for the route, and the route is checked before the next shift."
+    }
+  ],
+  "equipmentAndPpe": [
+    "High-visibility clothing meeting the standard named in the register where needed",
+    "Barriers, warning signs and cones for exclusion zones",
+    "Task lights and a torch for low-light areas",
+    "{{business:safety.required_ppe}} and {{business:safety.site_hazards}} checked before the walk"
+  ],
+  "commonErrors": [
+    {
+      "error": "Walking in a car park lane because the pedestrian route is longer.",
+      "prevention": "Keep to the approved pedestrian routes, even when they are longer."
+    },
+    {
+      "error": "Leaving a trolley in a corridor while the crew is in another part of the building.",
+      "prevention": "Keep equipment inside the exclusion zone or remove it from the route."
+    },
+    {
+      "error": "Starting work in a dark stairwell because the crew is in a hurry.",
+      "prevention": "Check the lighting first, report a dark route, and work only where it is safe."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Do not cross a vehicle lane, and stay out of a loading area while a vehicle is reversing or manoeuvring.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the Australian equivalent of the high-visibility clothing standard, and the duty holder's lighting and traffic management obligations under state and territory law.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every route to a work area uses the approved pedestrian routes.",
+    "Barriers and signs are in place before work starts, and equipment is kept inside the zone.",
+    "Lighting is checked, and any unsafe area is closed and reported."
+  ],
+  "documentationEvidence": [
+    "Site route and exclusion zone record for the shift",
+    "Lighting check record and any defect reported to the building facilities team"
+  ],
+  "summary": [
+    "Keep to the approved pedestrian routes and never cross a vehicle lane.",
+    "Use barriers and signs, and keep equipment inside the exclusion zone.",
+    "Check the light before starting, and stop where it is unsafe.",
+    "Do not leave equipment or materials unattended in shared spaces."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:business.service_area}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-13-K01",
+      "question": "A delivery truck is reversing into a loading bay. Where should the crew member be?",
+      "options": [
+        "Crossing behind the truck to reach the bin while it is still moving",
+        "Clear of the vehicle's path, and waiting until the truck has finished manoeuvring.",
+        "Standing beside the truck to guide it in and waving to the driver at the gate"
+      ]
+    },
+    {
+      "id": "RAS-13-K02",
+      "question": "Equipment is left in a corridor for a few minutes while the crew moves to another floor. What is the problem?",
+      "options": [
+        "None, because it is only for a few minutes and it is in a quiet corridor",
+        "The equipment will rust and the floor will be marked and the paint will chip",
+        "The equipment is a hazard to the public, who may enter the area unaware."
+      ]
+    },
+    {
+      "id": "RAS-13-K03",
+      "question": "A stairwell is too dark to see the steps clearly. What should the crew do?",
+      "options": [
+        "Report the dark route, do not start work there, and use task lighting only once the area is safe.",
+        "Work quickly with a torch in one hand and keep the other hand on the rail to steady yourself",
+        "Start at the top and work down before the light fades and the lights will be fixed later"
+      ]
+    },
+    {
+      "id": "RAS-13-K04",
+      "question": "What does the register ask for regarding the timing of work?",
+      "options": [
+        "Night work only",
+        "Work in the dark, to avoid disturbing people",
+        "Timing does not matter",
+        "Daytime work where it is practical"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard rows 15, 17 and 24 (vehicular traffic in car parks and vehicle routes; pedestrians and third parties entering work areas; insufficient lighting); rights: user-held",
+    "UNCONFIRMED: Australian equivalent of the high-visibility clothing standard, and duty holder lighting and traffic management obligations under state and territory law; not checked in this pass.",
+    "Cross-check: existing lesson F10-L01 (site induction and access) covers site access; this lesson adds the register entries.",
+    "PARTIAL: Standards Australia store page for AS 4602.1:2024 (https://store.standards.org.au/product/as-4602-1-2024, checked 2026-11-02); text not reviewed for this draft."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "AS 4602.1:2024 (Standards Australia store page)",
+      "url": "https://store.standards.org.au/product/as-4602-1-2024",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "UNCONFIRMED: fetched on 2026-11-03, but the page returned no readable standard details, so the high-visibility clothing requirements and the Australian equivalent of the standard named in the register are not confirmed. Publisher: Standards Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Lighting and traffic management duties under state and territory work health and safety law",
+      "url": null,
+      "pageDate": "not applicable",
+      "checked": "2026-11-03",
+      "covers": "UNCONFIRMED (not confirmed by an official source): no official page fetched in this pass. Check the state or territory work health and safety regulator for the duty holder's lighting and traffic management obligations."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

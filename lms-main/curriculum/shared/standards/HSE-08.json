@@ -1,0 +1,127 @@
+{
+  "id": "HSE-08",
+  "title": "Scoring tenders on quality and price, and choosing activity or quality specifications",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Contract managers, procurement officers and cleaning business owners who prepare or score tenders for healthcare cleaning",
+  "prerequisites": [
+    "PRO-01"
+  ],
+  "learningOutcomes": [
+    "Explain how quality and price can be scored together in a tender",
+    "Apply a relative price scoring rule to a set of bids",
+    "Distinguish an activity-based specification from a quality-based one"
+  ],
+  "instruction": [
+    {
+      "heading": "Why not the lowest price alone",
+      "body": "The Irish manual argues that choosing the cheapest tender can lower quality, press down wages and conditions, and reduce the service over time. It recommends awarding on best value, which weighs quality as well as price. The contracting team sets the weights before the tenders are opened, so that the scoring is fair and can be defended later."
+    },
+    {
+      "heading": "How a score is built",
+      "body": "A common approach gives each bid a technical score and a price score and adds them. The price score can be relative. The lowest acceptable price gets the full points, and each higher price loses points in proportion to how far above the lowest it sits. With 40 price points available, a bid 10 per cent above the lowest loses 10 per cent of 40 and scores 36. Technical criteria can use a rating scale with a weight for each rating, for example 0 per cent for bad, 50 per cent for medium, 80 per cent for good and 100 per cent for excellent, weighted against the points given to each criterion."
+    },
+    {
+      "heading": "Activity-based and quality-based specifications",
+      "body": "An activity-based specification lists the operations, the surfaces and the frequencies. A quality-based specification states the quality outcome required and leaves the method to the supplier, perhaps with minimum frequencies. Programmed cleaning is an activity-based approach that gives each room a code for its full-clean and spot-check frequencies, and the terms of that code must be defined. An abnormally low bid should be questioned in writing before it is accepted. If the reply does not show that the standard can be met, the bid is eliminated."
+    },
+    {
+      "heading": "References that do not apply here",
+      "body": "The manual cites European procurement law, Irish tax and social insurance certificates and Irish professional registers. These do not apply in Australia. Use Australian procurement rules and state requirements."
+    }
+  ],
+  "procedure": [
+    "Set the criteria and their weights before the tenders are opened.",
+    "Check each bid against the pre-award eligibility tests.",
+    "Score technical merit using the rating scale and weights.",
+    "Score price relative to the lowest acceptable bid.",
+    "Combine the technical points with the price points, and question any abnormally low bid in writing.",
+    "Record the reasons for each score."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Three acceptable bids are received for a contract with 40 price points: $200, $220 and $240.",
+      "decisionPrompt": "What price points does each bid receive?",
+      "reasoning": "The lowest bid gets the full 40 points. The $220 bid is 10 per cent above the lowest, so it loses 10 per cent of 40 and gets 36. The $240 bid is 20 per cent above, so it gets 32. Those figures are then added to the technical scores, so the lowest price does not win automatically."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Tender criteria sheet",
+    "Scoring worksheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Awarding on lowest price with no quality weight",
+      "prevention": "Set the weights before the bids are opened."
+    },
+    {
+      "error": "Accepting an abnormally low bid without written clarification",
+      "prevention": "Ask in writing and test the reply against the standard."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Procurement and tax rules are set by jurisdiction. Confirm the Australian and state requirements before running a tender.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not authorise anyone to make an award.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner scores a set of sample prices with the relative rule correctly",
+    "The learner states the weight that applies to each rating in the sample scale"
+  ],
+  "documentationEvidence": [
+    "Scoring worksheet with weights, technical scores, price scores and reasons",
+    "Written clarification on any abnormally low bid"
+  ],
+  "summary": [
+    "Quality and price can be weighted and scored together",
+    "A higher price loses points in proportion to its gap from the lowest acceptable price",
+    "Activity-based specifications list operations; quality-based ones state the quality required"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HSE-08-K01",
+      "question": "With 40 price points available, how many does a bid 10 per cent above the lowest price score?",
+      "options": [
+        "40",
+        "36",
+        "30"
+      ]
+    },
+    {
+      "id": "HSE-08-K02",
+      "question": "What weight applies to a 'good' rating on the manual's example scale?",
+      "options": [
+        "50 per cent",
+        "80 per cent",
+        "100 per cent"
+      ]
+    },
+    {
+      "id": "HSE-08-K03",
+      "question": "Which statement describes a quality-based specification?",
+      "options": [
+        "It lists every operation and its frequency and the staff who do each one",
+        "It sets out the quality outcome required and leaves the method to the supplier",
+        "It is no different from a lowest-price tender and it is always cheaper"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "HSE National Cleaning Standards Manual (National Hospitals Office, Ireland, Cleaning Manual for Acute Hospitals, 2006), section 6 (guidance on contracting), section 6.2 to 6.4 (best value, award criteria and activity or quality systems), section 6.6 (defining best value); rights: user-held; reworded (no copying); Irish source, not the UK Health and Safety Executive; Irish and UK legal and procurement references are not applicable in Australia and are marked UNCONFIRMED; practice content only; no URL in source; date checked 2026-11-02",
+    "cross-checked against PRO-01 (scope of works for a commercial cleaning site)",
+    "European procurement and tax references: not applicable in Australia, UNCONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

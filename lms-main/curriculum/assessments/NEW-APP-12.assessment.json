@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-APP-12",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-APP-12-K01",
+      "correctIndex": 1,
+      "rationale": "The finish check confirms the agreed cleaning standard. It does not confirm safety, function or compliance."
+    },
+    {
+      "id": "NEW-APP-12-K02",
+      "correctIndex": 2,
+      "rationale": "A moisture line is rechecked and recorded. If it remains, it is photographed and referred. No watertight claim is made."
+    },
+    {
+      "id": "NEW-APP-12-K03",
+      "correctIndex": 3,
+      "rationale": "The person who applied the isolation removes it, after checking the machine is clear, and the removal is recorded."
+    },
+    {
+      "id": "NEW-APP-12-K04",
+      "correctIndex": 0,
+      "rationale": "The statement says what was cleaned, that gas and internal parts were excluded and referred, and it makes no compliance or readiness claim."
+    },
+    {
+      "id": "NEW-APP-12-K05",
+      "correctIndex": 1,
+      "rationale": "Excluded parts and referrals in the record show what was and was not done, and who was told."
+    }
+  ],
+  "practicalCriteria": [
+    "Checks surfaces, seams, labels and seals by eye and by hand against the agreed standard",
+    "Restores all trays, racks, bins, covers and guards to their correct positions",
+    "Writes a handover statement with no safety, function or compliance claim",
+    "Records excluded parts and referrals in the job record before leaving the site"
+  ],
+  "passRule": "Knowledge checks: at least 4 of 5 correct (80%). Practical sign-off is separate: an assessor observes the practical criteria and records the result. A knowledge pass is not practical competence and does not grant any licence or authority.",
+  "evidenceRequired": [
+    "Before and after photographs, with the data plate where required",
+    "Products used with dilution and surface, and exclusions with reasons",
+    "Handover statement, site contact name and time of handover"
+  ],
+  "stopWorkCriteria": [
+    "Handover statement that claims the appliance is safe, working or compliant",
+    "A guard, cover or tray left off",
+    "A moisture line or seal fault not recorded or referred"
+  ]
+}

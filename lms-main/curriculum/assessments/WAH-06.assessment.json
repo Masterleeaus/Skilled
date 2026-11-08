@@ -1,0 +1,42 @@
+{
+  "lessonId": "WAH-06",
+  "knowledgeAnswers": [
+    {
+      "id": "WAH-06-K01",
+      "correctIndex": 1,
+      "rationale": "An out-of-date tag means the scaffold is not cleared for use. A competent individual must check it again."
+    },
+    {
+      "id": "WAH-06-K02",
+      "correctIndex": 0,
+      "rationale": "A missing guardrail on an open edge is a fall control gap. The other options describe a scaffold in good order."
+    },
+    {
+      "id": "WAH-06-K03",
+      "correctIndex": 1,
+      "rationale": "Locked castors stop the tower moving under load. The need does not depend on a tower's height."
+    },
+    {
+      "id": "WAH-06-K04",
+      "correctIndex": 3,
+      "rationale": "The tags and handover section says a scaffold should carry a tag showing whether it can be used safely, who checked it and when."
+    }
+  ],
+  "practicalCriteria": [
+    "Walks a supplied scaffold or tower and reports each planted defect by name",
+    "Checks a mobile tower's castors, brakes, outriggers, boarding and tag before climbing",
+    "Refuses use of a tower with an out-of-date or missing tag, and records the stop"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check record (all three checks)",
+    "Completed check record for a supplied tower",
+    "Assessor observation of the walk-round"
+  ],
+  "stopWorkCriteria": [
+    "A scaffold with a missing guardrail or an out-of-date tag is not used",
+    "A mobile tower with an unlocked castor or an unlevel base is not climbed"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

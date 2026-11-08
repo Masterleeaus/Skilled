@@ -1,0 +1,111 @@
+{
+  "id": "SFS-10",
+  "title": "Dispatch: sending visits to workers",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "RH",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-09"
+  ],
+  "learningOutcomes": [
+    "Explain how scheduling a visit and dispatching it differ.",
+    "Describe how drip-feed dispatch releases visits one at a time.",
+    "Name the steps for telling a worker about a change after dispatch."
+  ],
+  "instruction": [
+    {
+      "heading": "Scheduling and dispatch",
+      "body": "Scheduling decides when a visit happens and who does it. Dispatching sends that visit to the worker's device so they can act on it. Dispatch can be done by hand from the office board, or set to run automatically on a schedule. Automatic dispatch suits stable days. Manual dispatch suits days when plans change often. Each dispatch should name the assigned workers and notify them through the channel the team actually reads."
+    },
+    {
+      "heading": "Drip-feed release",
+      "body": "Drip-feed dispatch sends visits singly. A later visit is held back until the visit in front of it is finished. This stops a worker being handed a long list that is likely to change, and it reduces confusion when the day shifts. Drip-feed takes more setting up than a full dispatch, but it limits the number of changes a worker must absorb."
+    }
+  ],
+  "procedure": [
+    "Confirm each visit is scheduled with a worker and a window.",
+    "Choose manual or automatic dispatch for that day.",
+    "If drip-feed is used, check that each later visit waits on the one before it.",
+    "When a visit changes after dispatch, tell the worker directly as well as updating the app.",
+    "Confirm the worker has seen the change before the visit starts."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Two painters share a job across three days. The office wants each day's visits released only once the previous day is finished.",
+      "decisionPrompt": "Which dispatch mode fits this job?",
+      "reasoning": "Drip-feed fits because each day's visits are released after the day before is complete. A change on day one then does not disturb the plan for day two."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Dispatching a visit before its window and worker are confirmed.",
+      "prevention": "Check the window and the worker first."
+    },
+    {
+      "error": "Changing a visit after dispatch with no message.",
+      "prevention": "Send a direct message after every change."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every dispatched visit has a named worker and a window.",
+    "Every change after dispatch has a record of the message sent."
+  ],
+  "documentationEvidence": [
+    "Dispatch log with time and method",
+    "Change message record"
+  ],
+  "summary": [
+    "Dispatch puts a scheduled visit in the worker's hands.",
+    "Drip-feed releases visits one at a time, after the previous one is complete.",
+    "Changes after dispatch need a direct message as well as an app update."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-10-K01",
+      "question": "How do scheduling and dispatching differ?",
+      "options": [
+        "Scheduling sets when and who; dispatching sends the visit to the worker",
+        "They are the same action in the app, the plan, the day and the job list",
+        "Dispatching sets the customer's price for the visit and the whole job"
+      ]
+    },
+    {
+      "id": "SFS-10-K02",
+      "question": "How does drip-feed dispatch release visits?",
+      "options": [
+        "Singly, each waiting for the earlier visit to be finished",
+        "All at once at midnight each night for the whole week",
+        "Only on the first day of a job booking, the week and the month"
+      ]
+    },
+    {
+      "id": "SFS-10-K03",
+      "question": "A visit changes after the worker has received it. What is the safe step?",
+      "options": [
+        "Send a direct message and confirm the worker has seen it",
+        "Wait until the visit starts before telling them anything",
+        "Delete the original and say nothing to anyone at all about it"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 139-140 (dispatch and drip feed); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: dispatch board; visit assignment notification; drip-feed release (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,216 @@
+{
+  "id": "NEW-LCK-01",
+  "title": "Locksmith licence scope and restricted work",
+  "courseSlugs": [
+    "locksmith"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Workers who install, change or service locks, and door installers who work near locking systems",
+  "prerequisites": [
+    "handyman-work-L01",
+    "handyman-work-L10"
+  ],
+  "learningOutcomes": [
+    "Describe the locksmith licence position recorded for New South Wales, Queensland and Victoria, and what is still unresolved.",
+    "Identify lock work that is restricted or referred under the state position.",
+    "Refuse or refer locksmith work where the licence position is not established for the state."
+  ],
+  "instruction": [
+    {
+      "heading": "The position differs by state",
+      "body": "Locksmith work is licensed differently in each state, so the state position must be checked before any lock work is accepted. In New South Wales, locksmiths must be licensed through the NSW Police Force Security Licensing and Enforcement Directorate (SLED). The SLED locksmith FAQ states that a Class 2C licence applies to locksmiths (page shows no date). In Queensland, the Queensland Government security equipment installer licence page (last updated 21 October 2026) says a locksmith generally needs a licence, and that retail key cutting is exempt. The Security Providers Act 1993 sets the offences for carrying on security work without a licence (version dated 9 December 2016 in the version reviewed, so check the current version). In Victoria, the Victoria Police private security page (last updated 26 October 2026) lists the security equipment installer licence and does not mention locksmiths or key cutting. Refer Victorian locksmith and key-cutting work to the Licensing and Regulation Division before accepting it."
+    },
+    {
+      "heading": "Restricted and referred work",
+      "body": "Treat lock work as restricted until the state position is confirmed for the job. In Queensland, taking out and refitting household locks needs a licence, except where the job forms part of new construction, repairs or renovations to the building. Fitting basic security items, such as household locks, as part of building works is exempt, but that exemption does not cover later upkeep, replacement or removal of those items once the building work is over. Where the position is unclear, refer the work and record why. Do not accept lock work for a company or business until its licence status has been checked with the regulator. In Victoria, do not accept locksmith work until the Licensing and Regulation Division has given a written position."
+    }
+  ],
+  "procedure": [
+    "Identify the state where the job is located and the type of lock work requested.",
+    "Check the state position for that type of work against the official source for that state (see the references at the start of this lesson).",
+    "If the position is confirmed and the worker holds the licence required, record the licence class and the check.",
+    "If the position is not established or the worker does not hold the licence, refuse or refer the work and record the reason.",
+    "Tell the client in writing what was refused or referred and why.",
+    "Keep the check record with the job file."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client in Queensland asks you to remove and reinstall the locks on a house that is occupied and not under renovation.",
+      "decisionPrompt": "Can you accept the job?",
+      "reasoning": "Not unless you hold the licence the work requires. In Queensland, taking out and refitting locks in an occupied house that is not part of building works needs a licence. Refuse or refer the job, record the reason, and tell the client in writing."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Licence matrix for the state",
+    "Licence record for each worker, with class and date checked",
+    "Job file for the lock work"
+  ],
+  "commonErrors": [
+    {
+      "error": "Accepting lock work because the job looks like a simple change.",
+      "prevention": "Check the state position for the work type before accepting."
+    },
+    {
+      "error": "Assuming a company licence exists because the worker holds an individual one.",
+      "prevention": "Check the company or master licence position separately, and refer it where the source is silent."
+    },
+    {
+      "error": "Assuming the Victorian position from another state.",
+      "prevention": "Refer the work to the Licensing and Regulation Division until the position is set."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "New South Wales: locksmiths must hold a SLED licence, and the SLED FAQ gives Class 2C as the class for locksmiths (page shows no date). Licensing body: NSW Police Force, Security Licensing and Enforcement Directorate.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Queensland: a security equipment installer licence is generally needed for work on locks and other security equipment, and retail key cutting is exempt (page last updated 21 October 2026). Licensing body: Queensland Government fair trading security industry licensing. Section 9 of the Act sets offences for carrying out security functions, or engaging someone else to carry them out, without a licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Victoria: the Victoria Police private security page (last updated 26 October 2026) lists the security equipment installer licence and does not name locksmith or key-cutting work. Licensing body: Victoria Police, Licensing and Regulation Division.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not give a locksmith, security installer or any other licence, certificate or authority.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The state position is checked and recorded before each lock job is accepted.",
+    "Any unresolved or restricted work is refused or referred, with the reason recorded.",
+    "The client is told in writing what was refused or referred."
+  ],
+  "documentationEvidence": [
+    "Licence check record with the state, the work type, the class and the date",
+    "Refusal or referral note with the reason",
+    "Written notice to the client"
+  ],
+  "summary": [
+    "The locksmith licence position differs by state, and the Victorian position is unresolved.",
+    "Treat lock work as restricted until the state position is confirmed for the job.",
+    "Refuse or refer and record every restricted or unresolved job."
+  ],
+  "businessFields": [
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-LCK-01-K01",
+      "question": "In Queensland, a client asks for locks to be removed and reinstalled on an occupied house that is not under renovation. What is correct?",
+      "options": [
+        "Do it because the client asked and the house is occupied by them",
+        "Refuse or refer unless the required licence is held, and record the reason",
+        "Do it with a handyman licence, since that covers any lock work",
+        "Do it quickly before the client changes their mind about the work"
+      ]
+    },
+    {
+      "id": "NEW-LCK-01-K02",
+      "question": "What is the status of the Victorian locksmith licence position in this course?",
+      "options": [
+        "Confirmed as not required for any locksmith job in Victoria, so the work can go ahead on the day as planned",
+        "Confirmed as the same as Queensland, so the same licence rules apply to the work in Victoria",
+        "Not established in this course, so refer until the Licensing and Regulation Division sets the position",
+        "Confirmed as the NSW Class 2C licence, which covers all locksmith work across the state borders"
+      ]
+    },
+    {
+      "id": "NEW-LCK-01-K03",
+      "question": "Which NSW licence class does the lesson say applies to locksmiths?",
+      "options": [
+        "Class 2C",
+        "No licence, because locksmiths are exempt",
+        "A handyman licence",
+        "A plumbing licence"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "CATALOGUE-V2 row NEW-LCK-01 (new lesson, licence notice required; checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX-NSW-QLD.csv NSW-10, NSW-11, QLD-04 (checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX.csv VIC-07 (checked 2026-11-02, UNCONFIRMED)",
+    "https://www.police.nsw.gov.au/online_services/sled/security_licences/class_1_licences/frequently_asked_questions/master_licence_faqs_contents/q._we_are_a_locksmith_company._do_we_need_any_qualifications_to_apply_for_a_master_licence (checked 2026-11-02, undated)",
+    "https://www.qld.gov.au/community/fair-trading/regulated-industries-licensing-and-legislation/security-industry (checked 2026-11-02)",
+    "Official: Locksmith licence FAQ (master licence qualifications page), NSW Police Force, Security Licensing and Enforcement Directorate (SLED), https://www.police.nsw.gov.au/online_services/sled/security_licences/class_1_licences/frequently_asked_questions/master_licence_faqs_contents/q._we_are_a_locksmith_company._do_we_need_any_qualifications_to_apply_for_a_master_licence (checked 2026-11-03; page date: no date shown)",
+    "Official: Locksmiths information sheet, NSW Police Force, SLED, https://www.police.nsw.gov.au/__data/assets/pdf_file/0007/277981/LOCKSMITHS_July_18.pdf (checked 2026-11-03; page date: no date shown)",
+    "Official: Master licence eligibility, NSW Police Force, SLED, https://www.police.nsw.gov.au/online_services/sled/security_licences/master_licences/master_licences_contents/am_i_eligible_for_a_master_licence (checked 2026-11-03; page date: no date shown)",
+    "Official: Apply for a security equipment installer licence, Queensland Government, fair trading security industry licensing, https://www.qld.gov.au/community/fair-trading/regulated-industries-licensing-and-legislation/security-industry-regulation/security-technical-licence/apply-for-a-security-equipment-installer-licence (checked 2026-11-03; page date: last updated 21 October 2026)",
+    "Official: Security Providers Act 1993 (Qld), Queensland legislation, https://www.legislation.qld.gov.au/view/whole/html/inforce/2016-12-09/act-1993-083 (checked 2026-11-03; page date: version dated 9 December 2016 (from the version link))",
+    "Official: Private security licence types, Victoria Police, Licensing and Regulation Division, https://www.police.vic.gov.au/private-security (checked 2026-11-03; page date: last updated 26 October 2026)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Locksmith licence FAQ (master licence qualifications page)",
+      "url": "https://www.police.nsw.gov.au/online_services/sled/security_licences/class_1_licences/frequently_asked_questions/master_licence_faqs_contents/q._we_are_a_locksmith_company._do_we_need_any_qualifications_to_apply_for_a_master_licence",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Confirm the Class 2C position on the SLED Public Register before accepting work. Publisher: NSW Police Force, Security Licensing and Enforcement Directorate (SLED)."
+    },
+    {
+      "id": "R2",
+      "title": "Locksmiths information sheet",
+      "url": "https://www.police.nsw.gov.au/__data/assets/pdf_file/0007/277981/LOCKSMITHS_July_18.pdf",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Confirms a SLED licence is required for locksmiths; gives no class. Publisher: NSW Police Force, SLED."
+    },
+    {
+      "id": "R3",
+      "title": "Master licence eligibility",
+      "url": "https://www.police.nsw.gov.au/online_services/sled/security_licences/master_licences/master_licences_contents/am_i_eligible_for_a_master_licence",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Does not address locksmith companies; company licence position stays UNCONFIRMED. Publisher: NSW Police Force, SLED."
+    },
+    {
+      "id": "R4",
+      "title": "Apply for a security equipment installer licence",
+      "url": "https://www.qld.gov.au/community/fair-trading/regulated-industries-licensing-and-legislation/security-industry-regulation/security-technical-licence/apply-for-a-security-equipment-installer-licence",
+      "pageDate": "last updated 21 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Check the retail key cutting and basic security item exemptions before each job. Publisher: Queensland Government, fair trading security industry licensing."
+    },
+    {
+      "id": "R5",
+      "title": "Security Providers Act 1993 (Qld)",
+      "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/2016-12-09/act-1993-083",
+      "pageDate": "version dated 9 December 2016 (from the version link)",
+      "checked": "2026-11-03",
+      "covers": "Check the current in-force version on legislation.qld.gov.au before relying on it. Publisher: Queensland legislation."
+    },
+    {
+      "id": "R6",
+      "title": "Private security licence types",
+      "url": "https://www.police.vic.gov.au/private-security",
+      "pageDate": "last updated 26 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Lists the installer licence only; ask the Licensing and Regulation Division about locksmith and key-cutting work. Publisher: Victoria Police, Licensing and Regulation Division."
+    }
+  ],
+  "referencesAtStart": "Official references: NSW SLED, Locksmith licence FAQ (master licence qualifications page) (no date shown); NSW SLED, Locksmiths information sheet (no date shown); NSW SLED, Master licence eligibility (no date shown); Queensland, Apply for a security equipment installer licence (last updated 21 October 2026); Security Providers Act 1993 (Qld) (version dated 9 December 2016); Victoria Police, Private security licence types (last updated 26 October 2026).",
+  "referencesAtEnd": "Before accepting a job, check Apply for a security equipment installer licence (Queensland, last updated 21 October 2026) for the Queensland exemptions, Locksmith licence FAQ (NSW SLED, no date shown) for the NSW class, and Private security licence types (Victoria Police, last updated 26 October 2026) for the Victorian licence types, and record the date you checked.",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-01.jpg",
+      "alt": "Locksmith and door installation illustration",
+      "kind": "photo",
+      "origin": "locksmith"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-02.jpg",
+      "alt": "Locksmith and door installation illustration",
+      "kind": "photo",
+      "origin": "locksmith"
+    }
+  ]
+}

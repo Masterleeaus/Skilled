@@ -1,0 +1,147 @@
+{
+  "id": "MP-04-pool",
+  "title": "Break-even analysis with a worked calculation for Pool and spa servicing",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Pool and spa servicing operators who set prices or plan monthly revenue, including solo operators with a round of fortnightly accounts.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a pool and spa servicing business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means",
+      "body": "Break-even revenue is the amount of sales that covers all costs exactly, so profit is zero. Below that level the business loses money. Above it, each further dollar of sales adds to profit. For a pool round, the figure tells you how many fortnightly accounts you need before the business covers its costs. It is a planning tool, and its answer is only as good as the costs and percentages that go into it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of accounts in a month. They include the vehicle loan or lease, vehicle registration, insurance, phone and software subscriptions, test-kit calibration and premises. Variable costs move with each visit. They include chemicals used on the round, consumables, replacement parts that are not charged separately, and the card fees on each payment. ANZ defines the two cost types and warns that costs must be covered to avoid running at a loss (21 February 2025, last modified 22 July 2025). Express variable cost as a percentage of sales by dividing the variable cost in a period by the sales in the same period. Check that percentage across at least three periods, because a single unusual month can mislead. Business Victoria advises checking price against total overheads, including card fees and insurance, not only the direct cost of the visit."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. The quantity one minus the variable percentage is the contribution margin: the share of each dollar of sales left to cover fixed costs. Use the variable percentage as a decimal, so 15 percent becomes 0.15. The contribution margin of a 15 percent variable cost is 0.85. Xero Australia states the same formula, and adds that a job count should be rounded up to whole jobs (23 July 2026)."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write the inputs first, each with its source and date. Compute the contribution margin. Divide the fixed costs by it. Then divide the result by the typical revenue of one account, and round up to whole accounts. The worked example below uses illustrative fixed costs and a variable percentage. The account value is the typical Melbourne figure from a vendor cost guide, which is about $220 a month for a fortnightly service with chemicals extra (updated November 2026). Replace every input with your own figure before using the result."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount and not an annual one. Confirm that the variable percentage is a share of sales and not of cost. Confirm that the output is revenue and not profit. Then write down the reconciled figure with its inputs and drop the others. A figure that cannot be checked should not be used to set prices."
+    },
+    {
+      "heading": "Tax on the price",
+      "body": "Once the business is registered for GST, GST should be included in the selling price. The ATO says a business must register when its GST turnover reaches $75,000, and must register within 21 days of reaching it (last updated 14 September 2026). Show the price with GST treated consistently, so the break-even revenue is compared with GST-exclusive or GST-inclusive sales on the same basis. Check the tax treatment of costs with a registered tax agent."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a percentage of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by the typical revenue of one account, and round up to whole accounts.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A two-person pool service business (illustrative figures, invented for this lesson) has fixed costs of $3,000 AUD a month, variable costs of 15% of sales for chemicals, consumables and card fees, and a fortnightly account worth about $220 AUD a month (the typical Melbourne figure from a vendor guide, used here as an input only).",
+      "decisionPrompt": "How many fortnightly accounts must the business keep each month to break even, and what should it check before setting prices?",
+      "reasoning": "The contribution margin is 1 minus 0.15, which is 0.85. Break-even revenue is $3,000 AUD divided by 0.85, which is $3,529.41 AUD a month (illustrative). At $220 AUD an account, that is 16.04 accounts, so the business needs 17 accounts to cover its costs. Before setting prices, check that the 15% includes chemicals and card fees, that the $3,000 AUD is a monthly figure, and that $220 AUD is what clients actually pay after any discount. The vendor figure is not a benchmark for this business."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Copying a break-even figure from a vendor guide or another business without its inputs",
+      "prevention": "Recalculate from your own inputs and record the source and date of each input before using the result."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs and GST with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority. Chemical handling and pool service rules are state-based and are not covered by this calculation.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout the calculation.",
+    "Recalculate from your own inputs. Do not copy another business's break-even figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-K02",
+      "question": "Fixed costs are $3,000 AUD a month (illustrative) and variable costs are 15% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$3,529.41 AUD",
+        "$450.00 AUD",
+        "$3,000.00 AUD",
+        "$20,000.00 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-K03",
+      "question": "Two sources give different break-even figures for the same business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure entirely",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the client today",
+        "Use the price list alone and skip the break-even check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; a job count is rounded up to whole jobs. The glossary's own examples are not used.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs; costs must be covered to avoid operating at a loss. The page gives no break-even method.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Victoria. Supports: check the price against total overheads, including card fees and insurance; review prices about every three months.",
+    "What's The Damage?, 'Weekly vs monthly pool service cost in Melbourne', https://whatsthedamage.com.au/pool-maintenance-cost-melbourne/weekly-vs-monthly-service-cost/, marked updated November 2026, prices verified 1 November 2026. Vendor source. Supports: fortnightly service typically about $220 a month, chemicals extra. Used as an input for the illustration only.",
+    "ATO, 'Registering for GST', https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst, last updated 14 September 2026. Supports: a $75,000 GST turnover threshold; 21 days to register after reaching it.",
+    "Gap: no pool-specific fixed or variable cost data, and no pool break-even figure from a trade or government source, was found. All fixed-cost and variable-percentage figures in the worked example are illustrative."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-equipment-cleaning-L04",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L04-K01",
+   "correctIndex": 2,
+   "rationale": "Hand hygiene is performed at the facility's specified transitions, including after glove removal and before touching clean stock. A single shift-start or visible-dirt rule is not sufficient."
+  },
+  {
+   "id": "medical-equipment-cleaning-L04-K02",
+   "correctIndex": 0,
+   "rationale": "Protection is selected from the product safety data sheet and facility task assessment. Habit or trolley position is not a basis for selection."
+  },
+  {
+   "id": "medical-equipment-cleaning-L04-K03",
+   "correctIndex": 1,
+   "rationale": "The task stops and the facility exposure procedure is followed with a same-shift report. A cleaner does not judge a splash minor and carry on."
+  }
+ ],
+ "practicalCriteria": [
+  "Given three task cards and their safety data sheets, the learner selects protective equipment for each and gives the reason from the data sheet.",
+  "In a supervised setting, the learner removes gloves, performs hand hygiene and puts on new gloves before touching a clean supply, without contaminating clean stock.",
+  "Given a simulated splash on broken skin, the learner stops the task, names the exposure steps in order, and identifies the person to notify."
+ ],
+ "passRule": "Practical competence requires facility-observed assessment against the criteria above. A pass on the knowledge checks is not practical competence.",
+ "evidenceRequired": [
+  "Signed protective equipment selection sheet for three tasks",
+  "Observation record of the donning, doffing and hand hygiene sequence",
+  "Observation note of the simulated exposure response"
+ ],
+ "stopWorkCriteria": [
+  "Learner begins a task without the protection specified on the safety data sheet",
+  "Learner handles a sharp with bare or gloved hands",
+  "Learner continues work after an exposure without following the facility procedure"
+ ]
+}

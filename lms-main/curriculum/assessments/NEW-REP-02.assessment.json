@@ -1,0 +1,30 @@
+{
+  "lessonId": "NEW-REP-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-REP-02-K01",
+      "correctIndex": 3,
+      "rationale": "Quotes are compared on the same scope, and the excluded task is quoted or stated before comparison and approval."
+    },
+    {
+      "id": "NEW-REP-02-K02",
+      "correctIndex": 0,
+      "rationale": "A licence is recorded as held only after the licence or registration and class are checked."
+    },
+    {
+      "id": "NEW-REP-02-K03",
+      "correctIndex": 2,
+      "rationale": "The lesson says to route each quote to the owner for approval and to book work only after written approval is received."
+    }
+  ],
+  "practicalCriteria": [
+    "Given three simulated quotes, the worker compares them on the same scope and identifies any exclusion before routing to approval."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Quote comparison sheet for the simulated job"
+  ],
+  "stopWorkCriteria": [
+    "A contractor is booked before written owner approval"
+  ]
+}

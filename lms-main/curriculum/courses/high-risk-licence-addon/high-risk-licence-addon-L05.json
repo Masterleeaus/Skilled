@@ -1,0 +1,96 @@
+{
+  "id": "high-risk-licence-addon-L05",
+  "title": "Scaffolding and work above 2 metres in New South Wales",
+  "courseSlugs": [
+    "high-risk-licence-addon"
+  ],
+  "moduleTitle": "Optional add-on: high-risk work and platform licences",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Workers and supervisors who may be asked to work at height or on a platform. Optional add-on, taken alongside the main courses.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Apply the NSW scaffold licence threshold of 4 metres.",
+    "Identify the SWMS trigger at 2 metres and the point that is not confirmed."
+  ],
+  "instruction": [
+    {
+      "heading": "Scaffold licence",
+      "body": "SafeWork NSW's work at heights page says a scaffold licence is needed to erect, alter or dismantle a scaffold where the fall or falling-object risk is more than 4 metres (no date shown)."
+    },
+    {
+      "heading": "Safe work method statement",
+      "body": "The same page says a safe work method statement is needed where a person could fall more than 2 metres (no date shown)."
+    },
+    {
+      "heading": "What is not confirmed",
+      "body": "Whether the high-risk work licence rules apply to work over 2 metres is not confirmed by an official source. The page sets out the SWMS and fall-prevention duties at 2 metres, but it does not tie a high-risk licence rule to that height."
+    }
+  ],
+  "procedure": [
+    "Measure the fall height and the falling-object risk.",
+    "Where the fall could exceed 2 metres, prepare a safe work method statement.",
+    "Where the fall or falling-object risk is more than 4 metres for scaffolding, check the scaffold licence rule before work."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew in New South Wales must erect a scaffold where the fall or falling-object risk is about 5 metres.",
+      "decisionPrompt": "Which licence rule in this lesson applies?",
+      "reasoning": "The scaffold licence threshold of more than 4 metres is stated on the SafeWork NSW page, so a licence is needed to erect the scaffold. This add-on grants no licence."
+    }
+  ],
+  "equipmentAndPpe": [
+    "None for this lesson (knowledge only)."
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a high-risk rule starts at 2 metres.",
+      "prevention": "The page states an SWMS trigger at 2 metres; the high-risk rule at that height is not confirmed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A scaffold licence is required above the 4 metre risk threshold in New South Wales. This lesson does not grant that licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Learner states the SWMS trigger and the scaffold licence threshold separately."
+  ],
+  "documentationEvidence": [
+    "Fall height, falling-object risk and the SWMS reference recorded before work."
+  ],
+  "summary": [
+    "NSW scaffold licence threshold: more than 4 metres of fall or falling-object risk.",
+    "SWMS trigger: more than 2 metres of fall.",
+    "High-risk rule at 2 metres is not confirmed."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "high-risk-licence-addon-L05-K01",
+      "question": "At what height does the NSW scaffold licence threshold in this lesson apply?",
+      "options": [
+        "Where the fall or falling-object risk is more than 2 metres",
+        "Where the fall or falling-object risk is more than 4 metres",
+        "Where the scaffold is over 11 metres"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safework.nsw.gov.au/your-industry/construction/work-safely-at-heights-in-construction (No date shown; checked 2026-11-04)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Work safely at heights in construction (SafeWork NSW)",
+      "url": "https://www.safework.nsw.gov.au/your-industry/construction/work-safely-at-heights-in-construction",
+      "pageDate": "No date shown",
+      "checked": "2026-11-04",
+      "covers": "SWMS needed where a person could fall more than 2 metres; scaffold licence where the fall or falling-object risk is more than 4 metres. Does not tie a high-risk rule to 2 metres."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

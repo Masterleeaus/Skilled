@@ -1,0 +1,255 @@
+{
+  "id": "aquarium-cleaning-L10",
+  "title": "Electrical, mechanical and confined-space boundaries for aquariums",
+  "courseSlugs": [
+    "aquarium"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Aquarium maintenance workers who work near tank heaters, lights, controllers, pumps, sumps, cabinets and large glass tanks",
+  "prerequisites": [
+    "F02-L01",
+    "F17-L04",
+    "NEW-AQU-04"
+  ],
+  "learningOutcomes": [
+    "Identify the electrical, mechanical and confined-space hazards around a tank heater, light, controller, pump, sump or cabinet void",
+    "Isolate, secure and prove off the power to aquarium equipment before any inspection that needs it",
+    "Recognise when a cabinet, sump or void may be a confined space, and refuse entry without authority and a procedure",
+    "State where aquarium maintenance scope ends and licensed work begins, without implying that this lesson grants any licence"
+  ],
+  "referencesAtStart": "Official sources for this lesson: Electrical Safety Office Queensland, Electricity around water (no date shown); NSW Government, Electrical licences and certificates (last updated 23 June 2026); WorkSafe Queensland, Testing and tagging electrical equipment (no date shown); Safe Work Australia, Model Code of Practice: Confined spaces (no publication date shown).",
+  "instruction": [
+    {
+      "heading": "Water and electricity around a tank",
+      "body": "Heaters, lights, pumps, controllers and their cords sit in or close to water, and a fault can deliver a shock through the water, through a damaged enclosure or through a wet connection. A residual current device, or safety switch, reduces the risk. The Queensland Electrical Safety Office page recommends using electrical equipment through a safety switch (no date shown). It does not make live work safe and does not give anyone permission to work on the equipment. Treat any aquarium equipment as live until it has been isolated and proven dead by a competent person. Check each heater and cord for cracks, discolouration and damage before use. Take a damaged heater out of service, isolate it, and refer its repair. Keep cords and extension leads out of the water, and never use a damaged lead."
+    },
+    {
+      "heading": "Where electrical work becomes licensed work",
+      "body": "In New South Wales, electrical wiring work is licensed whatever its cost, and the page defines wiring work to include repairing (last updated 23 June 2026). WorkSafe Queensland's page on testing and tagging electrical equipment names AS/NZS 3760 for in-service inspection and testing in industries such as manufacturing, service, office, amusement and rural work (no date shown). The page gives no edition year and does not mention home aquarium equipment, so do not treat it as a rule for this trade without checking. A maintenance worker may isolate equipment, inspect its outside, check a cord for damage and report a fault. Repair, rewiring, a new connection or the opening of a fixed enclosure is for a licensed person. Completing this lesson does not give the authority to do electrical work."
+    },
+    {
+      "heading": "Mechanical hazards and large glass tanks",
+      "body": "Pumps, impellers and skimmers can start again when power returns, and a switch that looks off can still leave the circuit live. Before you reach into a pump, sump or skimmer, isolate the power, check that the isolator is off, and secure it so that it cannot be switched on while you work, as the site procedure directs. Do not reach into a running pump to clear a blockage. A full glass tank is heavy and can fail if it is lifted, moved or knocked. Do not lift, tilt or move a full tank alone, and do not move a tank without the method the owner's plan or the manufacturer gives."
+    },
+    {
+      "heading": "Confined spaces in cabinets, sumps and voids",
+      "body": "A sump, a cabinet void, an under-tank space or an enclosed stand can be a confined space. A confined space has limited openings for entry and exit, is not designed for people to work in continuously, and can hold a hazard such as low oxygen, gas, engulfment, or a hazard from the water or the equipment. Assess the space before any entry. Entry needs a documented procedure, an assessment of the atmosphere and hazards, a standby person and, where the rules require it, a permit. The model Code of Practice from Safe Work Australia says it guides work in a confined space, and that you should check with your regulator whether it has legal effect in your jurisdiction (no publication date shown). Do not crawl into a cabinet or sump alone, and do not enter a space with standing water to inspect it."
+    },
+    {
+      "heading": "The scope boundary",
+      "body": "Aquarium maintenance scope covers cleaning, inspection, reading equipment from the outside, isolating power as the procedure allows, cleaning intakes and baskets, and reporting faults. Replacing or rewiring a heater, light or pump, opening electrical enclosures, entering a confined space, altering a controller, and changing plumbing are outside that scope, unless the client, the work order and the worker's licence and competence all cover them. When a task is outside scope, make the equipment safe as far as the procedure allows, stop, and refer the task in writing with the symptoms and readings."
+    }
+  ],
+  "procedure": [
+    "Confirm that the work order covers the task before you go near the equipment.",
+    "Identify the electrical, mechanical and confined-space hazards around the heater, light, pump, sump or cabinet.",
+    "Isolate the power at the isolator or safety switch, secure it as the site procedure directs, and prove it off where the procedure requires.",
+    "Check each heater, lead and connection for damage, and take a damaged item out of service.",
+    "If the space is a cabinet, sump or void, assess it first. Do not enter without the procedure, a standby person and any permit the rules require.",
+    "Inspect from the outside where the scope allows, and record the readings and any fault you find.",
+    "Refer any electrical, mechanical or confined-space repair to the client and to the licensed or qualified person, wearing the PPE set by {{business:safety.required_ppe}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A tank heater has a cracked housing and a discoloured lead. The client asks you to tape it up and keep it running until the next service.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "Do not tape it up or keep it running. Isolate the heater at the isolator, take it out of service, and tell the client in writing that it is damaged. The repair or replacement of a heater and its lead is for a licensed person where the rules require it. Refer it, and record the referral and the client's decision."
+    },
+    {
+      "situation": "A marine sump has a small access door under the cabinet. The water level is low and a pump needs checking. The technician thinks the cabinet is a safe place to lean into for a quick look.",
+      "decisionPrompt": "Can the technician enter or lean into the space?",
+      "reasoning": "No. Treat the cabinet and sump as a possible confined space. Do not lean in or enter, and do not work in it alone. Isolate the pump at the isolator and prove it off, then assess whether the pump can be checked from outside. If the check needs entry, refer it to someone with the procedure, a standby person and any permit the rules require, and record the decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Isolator or safety switch lock or tag, and a proving test where the procedure requires it",
+    "Insulated tools rated for the work, and a test device if the procedure requires it",
+    "Confined-space procedure, gas test and standby arrangement where a cabinet, sump or void is assessed",
+    "Gloves, eye protection and non-slip footwear as set by {{business:safety.required_ppe}}",
+    "Fault report form or system"
+  ],
+  "commonErrors": [
+    {
+      "error": "Working on a heater or pump without isolating, securing and proving the power off.",
+      "prevention": "Isolate at the isolator, secure it, prove it off where the procedure requires, then start work."
+    },
+    {
+      "error": "Taping up a cracked heater or a damaged lead and leaving it running.",
+      "prevention": "Take the item out of service, isolate it, and refer the repair in writing."
+    },
+    {
+      "error": "Crawling into a cabinet or sump alone.",
+      "prevention": "Treat the space as a possible confined space. Refuse entry without the procedure, a standby person and any required permit."
+    },
+    {
+      "error": "Believing that a residual current device makes live work safe.",
+      "prevention": "A residual current device reduces risk. It does not make live work safe or allowed."
+    },
+    {
+      "error": "Lifting or tilting a full glass tank alone.",
+      "prevention": "Use the method the owner's plan or the manufacturer gives, and get help. Do not move a full tank alone."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In New South Wales, electrical wiring work, repairs included, is licensed whatever its cost (last updated 23 June 2026). That page does not mention cleaning or maintenance.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any electrical licence or any authority to repair, rewire, test or open fixed electrical equipment. Completing it does not give that authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "WorkSafe Queensland guidance names AS/NZS 3760 for in-service inspection and testing in certain industries, gives no edition year, and does not mention home aquarium equipment (no date shown). Do not apply it to aquarium equipment without checking the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Confined-space entry needs a documented procedure, an atmosphere and hazard assessment, a standby person and any permit the rules require.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Isolation is confirmed and secured before any inspection that needs it",
+    "No confined-space entry happens without the procedure and a standby person",
+    "Damaged equipment is taken out of service, and the repair is referred in writing"
+  ],
+  "documentationEvidence": [
+    "Isolation record with time and person",
+    "Confined-space assessment and the reason for any refusal to enter",
+    "Fault report with location, condition and the referral made"
+  ],
+  "summary": [
+    "Treat aquarium electrical equipment as live until it has been isolated, secured and proven off by a competent person.",
+    "A cabinet, sump or void can be a confined space. Do not enter without the procedure, a standby person and any required permit.",
+    "Damaged heaters and leads are taken out of service. Repair and rewiring are for a licensed person, and this lesson does not grant that licence.",
+    "Refer every task outside scope in writing, with the symptoms and readings."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "aquarium-cleaning-L10-K01",
+      "question": "A tank heater has a cracked housing. What is the correct action?",
+      "options": [
+        "Tape the crack and keep the heater running, since the tape should hold it for the time being",
+        "Adjust the inside of the heater while it is plugged in, so the crack is easier to see",
+        "Take it out of service, isolate it, and refer the repair or replacement to a licensed person",
+        "Leave it running and check it at the next service, since the crack is only cosmetic"
+      ]
+    },
+    {
+      "id": "aquarium-cleaning-L10-K02",
+      "question": "Who may repair the wiring of aquarium equipment?",
+      "options": [
+        "Anyone who has a safety switch fitted to the circuit, since the switch makes the work safe enough",
+        "A person authorised for electrical work in the state, and completing this lesson does not grant that authority",
+        "Any trained aquarium maintenance worker who has finished this course and holds a certificate for it",
+        "Whoever the client chooses to do the work, provided they have some experience with pumps and heaters and cables"
+      ]
+    },
+    {
+      "id": "aquarium-cleaning-L10-K03",
+      "question": "A sump needs checking. It is a small space with limited access and standing water. What should you do?",
+      "options": [
+        "Assess it first, treat it as a possible confined space, and do not enter without the procedure, a standby person and any permit",
+        "Enter with the pump switched on, so that the water keeps moving and the air stays fresh inside the sump for the job",
+        "Crawl in alone for a quick look, since a short check does not need a standby person or any permit at all for the sump",
+        "Remove the glass to make access easier, then reinstall it once the sump has been checked and cleaned by hand"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electricity around water",
+      "url": "https://www.electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it is written for pools. It recommends using electrical equipment through a safety switch and keeping cords and appliances out of the water. Publisher: Electrical Safety Office, Queensland."
+    },
+    {
+      "id": "R2",
+      "title": "Electrical licences and certificates",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Open the page under When you will need a licence. It defines electrical wiring work to include repairing, says cost makes no difference, and does not mention cleaning or maintenance. Publisher: NSW Government."
+    },
+    {
+      "id": "R3",
+      "title": "electrical licensing outside NSW and whether a given aquarium task is electrical work",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/electrical-licences/classes-of-licences",
+      "pageDate": "no date shown",
+      "checked": "2026-11-04",
+      "covers": "Queensland: the page says only an electrical contractor can do electrical work in your home, and that doing this work without a licence is unlawful. It does not mention pumps, heaters or aquarium equipment. Other states, and whether a given aquarium task is electrical work, remain UNCONFIRMED. Publisher: WorkSafe Queensland."
+    },
+    {
+      "id": "R4",
+      "title": "Testing and tagging electrical equipment",
+      "url": "https://www.worksafe.qld.gov.au/safety-and-prevention/hazards/electricity/electrical-products-and-equipment/testing-and-tagging-electrical-equipment",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it names AS/NZS 3760 for in-service inspection and testing in industries such as manufacturing, service, office, amusement and rural work. It gives no edition year and does not mention home equipment. Publisher: WorkSafe Queensland."
+    },
+    {
+      "id": "R5",
+      "title": "tank stand and glass load standards, and the application of AS/NZS 3000 to aquarium equipment",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source: no official page fetched in this pass. Check the manufacturer's stand and load guidance, and the Standards Australia text for AS/NZS 3000. Publisher: No official page read in this pass."
+    },
+    {
+      "id": "R6",
+      "title": "Model Code of Practice: Confined spaces",
+      "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-confined-spaces",
+      "pageDate": "No publication date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it says the Code guides work in a confined space and that you should check with your regulator whether it has legal effect in your jurisdiction. The entry requirements are in the full PDF, which was not readable in this pass. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R7",
+      "title": "confined-space entry requirements in each state and territory",
+      "url": "https://safeworkaustralia.gov.au/doc/model-code-practice-confined-spaces",
+      "pageDate": "publication and last-updated fields blank; no date shown",
+      "checked": "2026-11-03",
+      "covers": "Model Code of Practice: Confined spaces (Safe Work Australia). Gives guidance on managing or controlling work in confined spaces. Model status only: state and territory entry requirements not checked. Publisher: Safe Work Australia."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NSW-07 CONFIRMED row, research/trades/LICENCE-MATRIX-NSW-QLD.csv, checked 2026-11-02. Source: https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical. The matrix notes that the page does not name cleaning or maintenance.",
+    "WorkSafe Queensland, Testing and tagging electrical equipment, https://www.worksafe.qld.gov.au/safety-and-prevention/hazards/electricity/electrical-products-and-equipment/testing-and-tagging-electrical-equipment, checked 2026-11-02, no page date shown, as recorded in research/topics/aquarium.md section 3. Used only to show that AS/NZS 3760 is named; its edition is not confirmed.",
+    "Electrical Safety Office Queensland, Electricity around water, https://www.electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water, checked 2026-11-02 as recorded in research/topics/aquarium.md; not re-read in this pass.",
+    "UNCONFIRMED: whether aquarium maintenance tasks are electrical work in each state and territory; confined-space rules by state and territory; tank load and glass standards; the edition and application of AS/NZS 3760 to home aquarium equipment.",
+    "R1: Electricity around water (Electrical Safety Office, Queensland), https://www.electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water; page date: No date shown; read 2026-11-03; status PARTIAL.",
+    "R2: Electrical licences and certificates (NSW Government), https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical; page date: Last updated 23 June 2026; read 2026-11-03; status CONFIRMED.",
+    "R3: Electrical licence classes (WorkSafe Queensland), https://www.worksafe.qld.gov.au/licensing-and-registrations/electrical-licences/classes-of-licences; page date: no date shown; read 2026-11-03; status PARTIAL (Queensland only). Other states, and whether a given aquarium task is electrical work: UNCONFIRMED.",
+    "R4: Testing and tagging electrical equipment (WorkSafe Queensland), https://www.worksafe.qld.gov.au/safety-and-prevention/hazards/electricity/electrical-products-and-equipment/testing-and-tagging-electrical-equipment; page date: No date shown; read 2026-11-03; status PARTIAL.",
+    "R5: UNCONFIRMED, tank stand and glass load standards, and the application of AS/NZS 3000 to aquarium equipment; no official page read in this pass.",
+    "R6: Model Code of Practice: Confined spaces (Safe Work Australia), https://www.safeworkaustralia.gov.au/doc/model-code-practice-confined-spaces; page date: No publication date shown; read 2026-11-03; status PARTIAL.",
+    "R7: Model Code of Practice: Confined spaces (Safe Work Australia), https://safeworkaustralia.gov.au/doc/model-code-practice-confined-spaces; page date: no date shown; read 2026-11-03; status PARTIAL (model status only). State and territory entry requirements: UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-08.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-09.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    }
+  ]
+}

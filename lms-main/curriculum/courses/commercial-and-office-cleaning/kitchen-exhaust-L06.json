@@ -1,0 +1,164 @@
+{
+  "id": "kitchen-exhaust-L06",
+  "title": "Plant shutdown and protected systems",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and supervisors working near commercial kitchen exhaust and protected systems who must recognise the limits of their authority.",
+  "prerequisites": [
+    "kitchen-cleaning-L08"
+  ],
+  "learningOutcomes": [
+    "Identify which parties hold authority over electrical, gas, ventilation and fire-suppression dependencies.",
+    "Separate what is observed from what is assumed when a shutdown is proposed.",
+    "Stop and refer any shutdown, bypass or re-energisation to the site-authorised competent person."
+  ],
+  "instruction": [
+    {
+      "heading": "Dependencies that cannot be assumed",
+      "body": "Exhaust fans, gas supplies, electrical controls and fire-suppression systems depend on one another. Switching one off can leave another unprotected. Routine housekeeping is not inspection, removal or certification of an exhaust system. Before any task that touches the system, identify who holds the authority for each dependency, and get that authority in writing."
+    },
+    {
+      "heading": "A proposed bypass is a stop",
+      "body": "Suppose a kitchen team offers to silence the suppression system temporarily to speed up cleaning. That is an unauthorised bypass, and it is a stop-work trigger. Note what you can observe, what you were told, and what remains unknown. Do not treat a clean-looking surface as evidence that the duct or the system is safe. A missing or conflicting authority is grounds to withhold action."
+    },
+    {
+      "heading": "Standards and local requirements",
+      "body": "Site instructions cite standards and local requirements. Compare the site instruction with its source and its effective edition before relying on it. Treat course references as leads for specialist review, and not as binding site rules. Do not state a legal inspection interval, a safe grease level or a fire compliance result that you have not seen in a verified document."
+    },
+    {
+      "heading": "Boundary and handover",
+      "body": "Refer shutdown and re-energisation to the site-authorised competent personnel. Electrical isolation, fire-suppression interference, live duct access, rooftop work, hot equipment and degreasing are outside a cleaner's scope. Record the site zone, the authorising party, the observations, the excluded access and the referral owner, and escalate at once for live electrical or mechanical plant, or any bypass of suppression or interlocks."
+    }
+  ],
+  "procedure": [
+    "Identify the authority for electrical, gas, ventilation and fire-suppression dependencies, in writing.",
+    "Separate observation from assumption in writing.",
+    "Stop and refer any proposed bypass, shutdown or re-energisation.",
+    "Confirm the site instruction against its source and effective edition.",
+    "Record the site zone, authorising party, observations, excluded access and referral owner.",
+    "Escalate immediately for live plant or any bypass of suppression or interlocks."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A kitchen team offers to silence the suppression system temporarily to speed up cleaning.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Refuse the bypass. It is an unauthorised bypass of suppression, which is a stop-work trigger. Record the offer, the people involved and the time, and escalate to the site-authorised competent person. Do not clean the system while the suppression is bypassed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Services isolation responsibility form and the site permit.",
+    "Incident or referral form."
+  ],
+  "commonErrors": [
+    {
+      "error": "Accepting a verbal bypass to save time.",
+      "prevention": "Refuse, record and escalate. Bypass is never a cleaning decision."
+    },
+    {
+      "error": "Treating a clean surface as evidence the duct is safe.",
+      "prevention": "Record only what was observed, and refer for inspection."
+    },
+    {
+      "error": "Issuing a compliance statement.",
+      "prevention": "Do not certify. Refer to the authorised competent person."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The model code of practice on managing electrical risks says electrical work, whether the circuit is energised or de-energised, must only be carried out by appropriately licensed or registered electrical workers (Safe Work Australia, October 2018). Completing this lesson does not grant any certification or occupational licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Site-specific standards, insurer obligations and fire authority determinations need independent checking.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Observed facts separated from assumptions in the desk exercise.",
+    "Stop-work trigger identified and the bypass refused.",
+    "Handover record includes exclusions and the referral owner."
+  ],
+  "documentationEvidence": [
+    "Dated record with site zone, authorising party, observations and exclusions.",
+    "Escalation or referral record naming the responsible person."
+  ],
+  "summary": [
+    "Dependencies between exhaust, gas, electrical and suppression cannot be assumed.",
+    "A proposed bypass is a stop-work trigger.",
+    "Refer shutdown and re-energisation to the authorised competent person.",
+    "Record observations and exclusions, and do not certify."
+  ],
+  "businessFields": [
+    "{{business:compliance.licence_requirements}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-exhaust-L06-K01",
+      "question": "A kitchen team asks you to silence the suppression system to clean faster. What is the correct response?",
+      "options": [
+        "Refuse, record the request and escalate to the authorised competent person",
+        "Silence it briefly while the kitchen team clears the grills and the pans",
+        "Silence it if the supervisor agrees verbally to the change today"
+      ]
+    },
+    {
+      "id": "kitchen-exhaust-L06-K02",
+      "question": "Does a clean-looking duct show that the system is safe?",
+      "options": [
+        "Yes, appearance proves it for the whole duct run",
+        "No, appearance is not evidence of full duct safety",
+        "Yes, if the fan is off and nothing is running"
+      ]
+    },
+    {
+      "id": "kitchen-exhaust-L06-K03",
+      "question": "Who should carry out shutdown and re-energisation?",
+      "options": [
+        "The cleaner, after reading the manual",
+        "Any kitchen staff",
+        "Site-authorised competent personnel"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Managing electrical risks in the workplace: Code of Practice",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1810/model-cop-managing-electrical-risks-in-the-workplace.pdf",
+      "pageDate": "October 2018 (document date); no last-updated date shown on the Safe Work Australia model code page checked 2026-11-03",
+      "checked": "2026-11-03",
+      "covers": "Section 4 says electrical work, energised or de-energised, must only be carried out by appropriately licensed or registered electrical workers. Section 3.2 says some electrical testing must be done by a licensed electrician or electrical inspector. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Managing electrical risks in the workplace: Code of Practice (October 2018, document date).",
+  "referencesAtEnd": "Check the current rule on this official page: Safe Work Australia, Managing electrical risks in the workplace: Code of Practice (October 2018, document date).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-exhaust-L06.json (editorial or draft pass, not technically reviewed)",
+    "UNCONFIRMED: no source draft or research note specific to this site type. Content is general cleaning practice and needs subject-matter and site review.",
+    "UNCONFIRMED: state and territory licence or authority requirements for commercial exhaust and fire-suppression work.",
+    "Checked 2026-11-03: the Safe Work Australia model code page shows no last-updated date; the PDF at the cited URL is dated October 2018 and its section 4 supports the licensed-worker sentence. The earlier wording about authorised persons for fire-suppression, gas and mechanical plant and the phrase national electrical code had no source and were removed."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/healthcare-photo-15ec060c-08.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/healthcare-photo-15ec060c-09.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

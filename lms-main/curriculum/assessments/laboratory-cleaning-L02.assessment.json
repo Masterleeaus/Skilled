@@ -1,0 +1,43 @@
+{
+ "lessonId": "laboratory-cleaning-L02",
+ "knowledgeAnswers": [
+  {
+   "id": "laboratory-cleaning-L02-K01",
+   "correctIndex": 1,
+   "rationale": "A new sign is a changed condition that is not in the specification. The cleaner stops, records from a distance and asks for a revised boundary. Reading the sign as permission, or walking in to check, are both excluded."
+  },
+  {
+   "id": "laboratory-cleaning-L02-K02",
+   "correctIndex": 2,
+   "rationale": "Work resumes only when the site authority has given an updated scope in writing that names the open areas. A booking, or the cleaner's own judgement, does not replace it."
+  },
+  {
+   "id": "laboratory-cleaning-L02-K03",
+   "correctIndex": 1,
+   "rationale": "The handover covers housekeeping only. A sterility claim is a claim that needs evidence, and the cleaner holds no such evidence. The ACCC page states that claims must be accurate and provable."
+  },
+  {
+   "id": "laboratory-cleaning-L02-K04",
+   "correctIndex": 1,
+   "rationale": "The location is recorded from a safe distance in the corridor, with the door, the sign's position and the time. Looking into the room or photographing through a gap is an approach to the hazard."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies the changed condition on a fictional corridor plan and fictional service specification, and stops before touching any part of the area.",
+  "Records the fictional sign's location, position, time and observer from a marked safe-distance point, without approaching the door.",
+  "Writes a boundary revision request that names the open areas, the closed areas, the decision maker and the time, and does not claim any clearance.",
+  "Explains, in the assessor's presence, why a booking does not override a changed condition."
+ ],
+ "passRule": "Changed condition identified, location recorded from the marked safe distance without approach, and written revision requested with the required content. Observed by an assessor in a supervised desk exercise. A knowledge check result alone is not a practical pass.",
+ "evidenceRequired": [
+  "Fictional deferral record with location, time, observer and people informed",
+  "Written boundary revision request",
+  "Assessor observation note recording the safe-distance point used"
+ ],
+ "stopWorkCriteria": [
+  "Corridor or room entered to read a sign or look through a door",
+  "Work continued on any part of the area after a new sign or marking was seen",
+  "Handover wording claims sterility, decontamination or clearance",
+  "Booking used as the reason to clean without an updated scope"
+ ]
+}

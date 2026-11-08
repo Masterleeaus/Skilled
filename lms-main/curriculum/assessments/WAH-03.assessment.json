@@ -1,0 +1,37 @@
+{
+  "lessonId": "WAH-03",
+  "knowledgeAnswers": [
+    {
+      "id": "WAH-03-K01",
+      "correctIndex": 2,
+      "rationale": "The arrest category accepts a fall and halts it. Restraint prevents the worker reaching the edge."
+    },
+    {
+      "id": "WAH-03-K02",
+      "correctIndex": 1,
+      "rationale": "The clearance is the full distance a worker falls before stopping, plus margin. The lanyard length is only one part of it."
+    },
+    {
+      "id": "WAH-03-K03",
+      "correctIndex": 2,
+      "rationale": "The sources require an anchor rated for the purpose, checked by a competent individual and placed where it limits the fall. Light pipe, conduit and timber rails are named as unsuitable."
+    }
+  ],
+  "practicalCriteria": [
+    "Names the four categories and assigns each to a supplied scenario",
+    "Calculates a fall clearance from supplied figures with each factor shown",
+    "Identifies an anchor the assessor marks as unsuitable, and rejects it with a reason"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check record (all three checks)",
+    "Clearance calculation sheet",
+    "Assessor observation of anchor identification"
+  ],
+  "stopWorkCriteria": [
+    "A clearance calculated from lanyard length alone means the sheet is returned",
+    "Any anchor that is not rated for the purpose is not used"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

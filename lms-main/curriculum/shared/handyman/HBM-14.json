@@ -1,0 +1,187 @@
+{
+  "id": "HBM-14",
+  "title": "Markup, margin and presenting the final quote",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners of small Australian service businesses who convert a cost estimate into a price and a written quote",
+  "prerequisites": [
+    "HBM-13"
+  ],
+  "learningOutcomes": [
+    "Distinguish markup from margin, and calculate the price for each method from the same cost base.",
+    "Check the arithmetic of a quote formula, and identify whether the label matches the calculation.",
+    "Present a quote with inclusions, exclusions, validity, GST treatment and variation terms."
+  ],
+  "instruction": [
+    {
+      "heading": "Markup and margin are different",
+      "body": "A markup is the percentage added to a cost to reach a price. A margin is the share of the price that remains as profit after the cost is paid. The same cost gives different prices depending on which method is used. If a cost is one hundred units and a markup of fifty per cent is added, the price is one hundred and fifty units. If the same cost must produce a margin of fifty per cent, the price is two hundred units, because the cost must be half of the price. The two methods are not interchangeable, so a quote should state which one has been used."
+    },
+    {
+      "heading": "Checking the source's formula before using it",
+      "body": "The guide this lesson draws on divides a total cost by 0.50 and calls the result a markup of fifty per cent. Dividing by 0.50 doubles the cost. That result is a margin of fifty per cent, which is the same as a markup of one hundred per cent on cost. The guide's arithmetic is correct, but its label is not. This lesson does not use that formula as a markup. The correct calculations are: price equals cost multiplied by one plus the markup, or price equals cost divided by one minus the margin. A contractor pricing guide (Contractor+, 23 September 2026) makes the same point: dividing the whole visit cost by one minus the target margin gives the price for that margin, while adding the same percentage to cost gives a lower margin. Its figures are illustrative. This is recorded as a source correction for reviewer confirmation."
+    },
+    {
+      "heading": "Choosing the method and presenting the quote",
+      "body": "Choose markup or margin as the method, apply it consistently to labour and materials, and state how the markup covers overheads and profit. Check that the price covers total overheads, including card fees, insurance and software, and not only the direct costs of the job (Business Victoria guide, undated). Present the quote as separate lines for labour, materials, subcontracts, permits and cleanup, then the total. State whether the price includes GST, and confirm with the ATO how GST must be shown on a quote. The ATO states that a business must register for GST once its GST turnover reaches $75,000 (ATO page last updated 14 September 2026). State the validity period, the inclusions and exclusions, any warranty or guarantee terms, the variation process and the payment terms."
+    },
+    {
+      "heading": "Walking the client through the quote",
+      "body": "Go through the quote with the client in person or by phone, line by line. Explain each assumption and the trigger for any variation. A client who understands the quote is less likely to dispute the final invoice. Keep a copy of what was agreed, and keep any written confirmation of it."
+    }
+  ],
+  "procedure": [
+    "Write down the cost base: labour at the rate from “Setting your hourly rate and minimum charge”, materials, subcontracts, permits, cleanup and travel.",
+    "Choose markup or margin as the method, and record the percentage and the reason for it.",
+    "Calculate the price with the correct formula, and check the result with a second calculation.",
+    "Present the quote with separate lines, GST treatment, validity, inclusions, exclusions and variation terms.",
+    "Go through the quote with the client, and record the agreement in writing.",
+    "After the job, compare the actual cost with the estimate, and record any difference."
+  ],
+  "workedExamples": [
+    {
+      "situation": "For illustration only, a cost base of 1,000 units is used in two quotes. One applies a 50 per cent markup on cost, and the other applies a 50 per cent margin.",
+      "decisionPrompt": "What are the two prices, and which quote labels its method correctly?",
+      "reasoning": "A 50 per cent markup gives 1,500 units, because 1,000 is multiplied by 1.5. A 50 per cent margin gives 2,000 units, because 1,000 is divided by 0.5. Neither figure is a market price. A quote must state which method was used, and the label must match the formula behind the number."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Calculator or spreadsheet with a check column",
+    "Quote template with separate lines",
+    "Copy of the quote for the client"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using the words markup and margin as if they meant the same thing.",
+      "prevention": "Name the method in the quote, and calculate with that method's formula."
+    },
+    {
+      "error": "Dividing a cost by a percentage to reach a price, while calling the result a markup.",
+      "prevention": "Check the result: a markup of fifty per cent on cost gives one and a half times the cost."
+    },
+    {
+      "error": "Leaving out the GST treatment, the validity period or the variation terms.",
+      "prevention": "Use a quote template that includes each term, and check it before sending."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Check them with the ACCC or the ATO before use.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The ATO states that GST registration is required once GST turnover reaches $75,000 or more (ATO page last updated 14 September 2026).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The quote states the method, markup or margin, and the calculation matches the stated method.",
+    "The quote lists inclusions, exclusions, validity, GST treatment, warranty terms and the variation process.",
+    "The source formula is not used as a markup, and the correction is recorded."
+  ],
+  "documentationEvidence": [
+    "Cost base and price calculation, with the method and the second check",
+    "Final quote as sent, with the client's acceptance recorded",
+    "Post-job comparison of actual cost with the estimate"
+  ],
+  "summary": [
+    "Markup adds to cost, and margin is a share of the price. Use the one that is named.",
+    "Check the arithmetic with a second calculation.",
+    "State GST, validity, exclusions and variations in the quote."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-14-K01",
+      "question": "A cost is 1,000 units. What price results from a 50 per cent markup on cost?",
+      "options": [
+        "1,500 units",
+        "2,000 units",
+        "500 units",
+        "1,050 units"
+      ]
+    },
+    {
+      "id": "HBM-14-K02",
+      "question": "A quote calculates a price by dividing cost by 0.50. Which statement is correct?",
+      "options": [
+        "This is a 50 per cent markup on cost and the price is set by the client",
+        "This is a 50 per cent margin, which equals a 100 per cent markup on cost",
+        "This is a 50 per cent markup on cost, the same as a 50 per cent margin",
+        "This gives the same result as multiplying the cost by 0.50"
+      ]
+    },
+    {
+      "id": "HBM-14-K03",
+      "question": "Which set of terms belongs in a quote?",
+      "options": [
+        "Only the total price and the owner's name and phone number",
+        "Inclusions, exclusions, validity, GST treatment and variation terms",
+        "Only the owner's home address and the owner's phone number",
+        "Only the materials list and the total of all the labour hours"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Starting a Handyman Business guide (dca133d1-Starting-a-Handyman-Business.pdf), Chapter Seventeen (pp. 52-53) and Chapter Eighteen (p. 55, the labour and materials formula); rights: user-held; reworded (no copying). The source's formula is corrected in this lesson: its arithmetic yields a 50 per cent margin, not a 50 per cent markup.",
+    "Cross-checked against BP-05 (turning hours into a price); overlap recorded, not repeated",
+    "ATO, GST registration: https://www.ato.gov.au/api/public/content/0-bbbe7313-ba3c-44f8-a106-3b4081584b25 (checked 2026-11-02; $75,000 threshold confirmed)",
+    "Warranty and guarantee terms, price display and GST display on quotes: UNCONFIRMED",
+    "ATO, 'Registering for GST', https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst, last updated 14 September 2026; threshold of $75,000 and 21 days to register. The api/public/content URL above is kept pending reviewer confirmation.",
+    "Tactic (team4 hourly-rate research): minimum or price from full cost with a margin, not cost plus the percentage. Source: Contractor+, 'Minimum Service Call Charge: A Contractor's Pricing Guide', https://contractorplus.app/blog/minimum-service-call-charge, 23 September 2026. Source figures illustrative; not used.",
+    "Tactic (team4 pricing-hours research): check the price covers total overheads, not only direct costs. Source: Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown on page."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

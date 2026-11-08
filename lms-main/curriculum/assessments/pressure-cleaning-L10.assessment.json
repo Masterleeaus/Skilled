@@ -1,0 +1,37 @@
+{
+  "lessonId": "pressure-cleaning-L10",
+  "knowledgeAnswers": [
+    {
+      "id": "pressure-cleaning-L10-K01",
+      "correctIndex": 1,
+      "rationale": "Zones, sequence, spot test, runoff and the pedestrian edge are planned before the first pass, so the controls are in place when the water is used."
+    },
+    {
+      "id": "pressure-cleaning-L10-K02",
+      "correctIndex": 1,
+      "rationale": "Damage found in a spot test is a stop trigger. The test is recorded and the method is changed or referred, rather than widened."
+    },
+    {
+      "id": "pressure-cleaning-L10-K03",
+      "correctIndex": 1,
+      "rationale": "Runoff must be contained or routed, and no wastewater is released to stormwater [VIC-EPA-980]. The local rules are checked first."
+    }
+  ],
+  "practicalCriteria": [
+    "Produces a site plan for a sample building that marks the spray, exclusion, equipment, runoff and access zones, and the surface sequence, checked by the assessor against a checklist.",
+    "Completes a spot-test log for two sample materials, recording location, method, result and time, and states the stop decision for a sample damage result.",
+    "Briefs a sample team, naming the spotter, the stop authority and the runoff route, and the briefing is recorded and signed."
+  ],
+  "passRule": "Assessor review of the site plan, spot-test log and briefing record for the sample site, with all three practical criteria met. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Site plan with the zones and sequence",
+    "Spot-test log for two materials",
+    "Team briefing record with each person's role"
+  ],
+  "stopWorkCriteria": [
+    "A pedestrian enters the exclusion zone and there is no spotter",
+    "Runoff reaches a stormwater drain or waterway without containment",
+    "A spot test shows damage and the wider method continues",
+    "Electrical equipment is in the spray or a cord crosses the water path"
+  ]
+}

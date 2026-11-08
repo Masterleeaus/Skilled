@@ -1,0 +1,33 @@
+{
+  "lessonId": "OTI-05",
+  "knowledgeAnswers": [
+    {
+      "id": "OTI-05-K01",
+      "correctIndex": 0,
+      "rationale": "The theatre document assigns regular audits to the operational managers, with a written record. The other options do not hold that role."
+    },
+    {
+      "id": "OTI-05-K02",
+      "correctIndex": 1,
+      "rationale": "The document prefers alcohol solutions and asks that they dry thoroughly. Preparation is a clinical task, so the cleaning contractor option is wrong."
+    },
+    {
+      "id": "OTI-05-K03",
+      "correctIndex": 1,
+      "rationale": "The reference is UK-style and does not apply in Australia, so state, territory and facility rules govern. The other options are wrong, and waste sorting is never skipped."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a list of theatre tasks, the learner sorts each task into cleaning-contractor work or clinician work and gives a reason for each.",
+    "Given a simulated checklist with a missing signature, the learner records the gap, states the action, and names the person to tell."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed sorting exercise",
+    "Audit or co-ordinator record for the simulated gap"
+  ],
+  "stopWorkCriteria": [
+    "A cleaner is asked to prepare patient skin: refuse and refer to the clinical team.",
+    "A standard is not being met in a theatre in use: stop the affected task and report to the co-ordinator."
+  ]
+}

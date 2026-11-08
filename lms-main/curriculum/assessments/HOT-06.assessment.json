@@ -1,0 +1,22 @@
+{
+  "lessonId": "HOT-06",
+  "knowledgeAnswers": [
+    { "id": "HOT-06-K01", "correctIndex": 0, "rationale": "A list makes every room get the same check, so no item is missed." },
+    { "id": "HOT-06-K02", "correctIndex": 1, "rationale": "A shortfall is recorded and raised. An unapproved substitute or an item borrowed from another room is not used." },
+    { "id": "HOT-06-K03", "correctIndex": 1, "rationale": "A line is ticked only after the item is in place and checked." }
+  ],
+  "practicalCriteria": [
+    "Restocks a simulated room from the list in layout order, checking presence, count, condition and expiry for each item.",
+    "Replaces a seeded expired item with approved stock and records the replacement.",
+    "Records a deliberate shortfall and does not substitute an item that is not on the approved list."
+  ],
+  "passRule": "Knowledge checks: 80 percent pass mark (all three correct). Practical criteria are observed and signed off separately by an assessor. A knowledge pass is not practical competence.",
+  "evidenceRequired": [
+    "Completed restock list for the simulated room",
+    "Shortfall report with the item name and room"
+  ],
+  "stopWorkCriteria": [
+    "Expired or damaged consumable placed in a room",
+    "Item borrowed from another room without a record"
+  ]
+}

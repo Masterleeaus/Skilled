@@ -1,0 +1,33 @@
+{
+  "lessonId": "HLT-02",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-02-K01",
+      "correctIndex": 1,
+      "rationale": "A surface or frequently touched place where microbes persist is a reservoir. The other options describe a body opening, a person at risk, and a factor affecting likelihood."
+    },
+    {
+      "id": "HLT-02-K02",
+      "correctIndex": 1,
+      "rationale": "Hand hygiene and gloves interrupt transfer between surfaces, people and the worker. The other options either spread contamination or leave a risk in place."
+    },
+    {
+      "id": "HLT-02-K03",
+      "correctIndex": 0,
+      "rationale": "The guide says the chain can be broken at any stage and that the sooner it is broken the better. The other options are either false or assign a diagnosis to a cleaner."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a scenario with a named reservoir, the learner identifies the link and selects the control from the facility procedure without help.",
+    "Given a visitor or resident scenario, the learner sets out the sequence of controls in the correct order and reports the link they cannot break."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of a scenario walk-through on a workplace area or simulated room",
+    "Completed log entry showing the link addressed and the control used"
+  ],
+  "stopWorkCriteria": [
+    "A body fluid, sharp or open wound is present and the procedure for it cannot be followed: stop and refer.",
+    "The area contains a link that the worker cannot control: stop and report before continuing."
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "pool-cleaning-L11",
+  "title": "Water conservation and environmental release",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "C",
+  "estimatedMinutes": 40,
+  "audience": "Pool technicians and cleaners who drain, backwash, top up or discharge pool water, in any state or territory",
+  "prerequisites": [
+    "pool-cleaning-L03",
+    "pool-cleaning-L07"
+  ],
+  "learningOutcomes": [
+    "Explain why unplanned loss of pool water raises cost and chemical use",
+    "Identify the discharge options set by the water authority, council and operator plan for drained, backwash and overflow water",
+    "Refuse to release pool water to stormwater or the environment without an approved route",
+    "Record water volumes, discharge routes and approvals"
+  ],
+  "instruction": [
+    {
+      "heading": "Why water loss costs money",
+      "body": "Pool water is expensive to replace. Every litre lost to splash-out, evaporation, leaks, or unnecessary backwashing must be topped up with mains water and re-treated with chemical. Losses also upset the chemical balance, so a top-up can change pH and sanitiser levels. Cost reduction starts with finding the cause of loss rather than topping up. Check whether the loss matches evaporation on a hot still day or whether it suggests a leak or a backwash that is run too often."
+    },
+    {
+      "heading": "Finding leaks and unnecessary backwashing",
+      "body": "A simple bucket test helps separate evaporation from a leak. Place a bucket filled to the same level on the top step, and mark the water level inside and outside the bucket over the same period. If the pool drops more than the bucket, the loss is more likely a leak or an outlet problem, and it should be reported. Backwash only when the filter pressure reading and the operator plan indicate that it is needed, and record the reading that triggered it. Backwashing more often than needed wastes water and chemical and adds to the discharge volume."
+    },
+    {
+      "heading": "Discharge routes are set by the authority",
+      "body": "Where pool water must be removed, the route depends on the local water authority, the council, the state or territory rules, and the operator plan. There is no single national route. Unitywater's domestic pool wastewater policy in South East Queensland is used here as one example. The policy (reviewed 16 July 2025, amended March and April 2026) accepts maintenance water to sewer only as a last option, when garden reuse cannot be done safely or sensibly, and caps that discharge at 0.5 L/s within two windows, 10am to 5pm and 10pm to 5am. It keeps rainwater overflow out of the sewer unless every other option has been ruled out as unsafe or unworkable, and it points to private stormwater drains, garden storage or a seepage option first. A sewer discharge needs written approval from the authority. The Icon Water acceptance guideline for pools in the ACT (version dated August 2016) is a different example: it allows a domestic pool to go to sewer only in limited cases, and says rainwater overflow must stay out of the sewer. Both are examples for one authority each, not state-wide rules."
+    },
+    {
+      "heading": "Chlorine, stormwater and waterways",
+      "body": "Do not assume that chlorine has evaporated or been used up because a reading is low. The discharge route must be confirmed with the operator, the council and the water authority before any water is moved. The Unitywater policy sets no chlorine limit and describes no dechlorination method. The Icon Water guideline sets a total chlorine ceiling of 5 mg/L as Cl and a pH range of 6.5 to 10.0 for the discharges it covers, rules out sodium thiosulfate as a dechlorinating agent, and says rinse water from acid or strong-detergent cleaning must not go to sewer. Do not invent a dechlorination method; use the one the site's authority states."
+    },
+    {
+      "heading": "Recording water movements",
+      "body": "Record the volume drained or backwashed where it is known, the route, the authority or approval relied on, the time, the reason, and the operator who approved the discharge. Where the discharge route is unknown, stop and refer. Water treatment compliance depends on the local operator plan, and the plan may restrict when water can be moved and how it is treated before discharge."
+    }
+  ],
+  "procedure": [
+    "Check the reason for the water loss, including a bucket test where the cause is unclear.",
+    "Record the filter pressure and backwash trigger before any backwash.",
+    "Confirm the discharge route with the operator, the council and the water authority before moving water.",
+    "If the route is approved, drain or backwash within the stated limits and at the stated times.",
+    "Do not discharge to stormwater or waterways without an approved route and written confirmation.",
+    "Record the volume where known, the route, the approval and the operator who approved it.",
+    "Report any leak or unexpected loss to the operator and refer the repair."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A homeowner asks you to drain the pool onto the front lawn and into the kerb drain because the chlorine will evaporate.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "The discharge route must be confirmed before water is moved. The worker does not drain to the kerb drain on the homeowner's assumption. The worker checks the council and the water authority rules, offers the route the authority allows, such as reuse on the garden where that is approved, records the request and the decision, and does not treat the chlorine loss as a reason to discharge."
+    },
+    {
+      "situation": "A pool loses a noticeable amount of water each night while the weather is still and cool.",
+      "decisionPrompt": "What should the technician do first?",
+      "reasoning": "The technician carries out a bucket test and records the drop. The loss is more consistent with a leak or outlet problem than with evaporation on a cool still night. The technician reports the finding to the operator and refers the leak check rather than topping up repeatedly."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Bucket and marker for bucket test",
+    "Filter pressure reference record",
+    "Discharge approval or written route confirmation",
+    "PPE as set by {{business:safety.required_ppe}}",
+    "Water volume record"
+  ],
+  "commonErrors": [
+    {
+      "error": "Draining to stormwater or the kerb without an approved route.",
+      "prevention": "Confirm the route with the operator, council and water authority first."
+    },
+    {
+      "error": "Assuming chlorine evaporates and is safe to discharge.",
+      "prevention": "Do not assume. Confirm the requirement for the site."
+    },
+    {
+      "error": "Backwashing on a timer rather than on the pressure trigger.",
+      "prevention": "Backwash on the recorded trigger and within the plan."
+    },
+    {
+      "error": "Topping up repeatedly without finding a leak.",
+      "prevention": "Run a bucket test and report a suspected leak."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In Queensland, Unitywater's domestic pool policy requires written approval for some discharges to sewer and sets a 0.5 L/s maximum for maintenance water, with set time windows. In the ACT, Icon Water's guideline (August 2016) sets total chlorine and pH limits for the discharges it covers.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Water treatment compliance depends on the local operator plan.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pool water containing chemicals can harm plants, animals and waterways, so do not release it without an approved route.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Discharge route confirmed in writing before water is moved",
+    "Filter pressure trigger and backwash decision recorded",
+    "Volumes and approvals recorded where known"
+  ],
+  "documentationEvidence": [
+    "Bucket test record where loss is investigated",
+    "Discharge route and approval reference",
+    "Water volume and time record"
+  ],
+  "summary": [
+    "Find the cause of water loss before topping up.",
+    "Backwash on the recorded pressure trigger, not on habit.",
+    "Confirm the discharge route with the operator, council and water authority before moving water.",
+    "Do not discharge pool water to stormwater or waterways without an approved route."
+  ],
+  "businessFields": [
+    "{{business:compliance.policy_reference}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:procedures.approved_sop}}",
+    "{{business:staff.supervisor_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pool-cleaning-L11-K01",
+      "question": "A homeowner wants pool water drained into the kerb drain. What must happen first?",
+      "options": [
+        "Drain it quickly before the chlorine is noticed by the neighbours or the council",
+        "Assume chlorine has evaporated, so it is safe to drain it into the kerb drain today",
+        "Confirm the approved discharge route with the operator, council and water authority",
+        "Ask the neighbour whether it is fine to drain it into their own gutter today"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L11-K02",
+      "question": "A pool loses water every night in still, cool weather. What is the best first step?",
+      "options": [
+        "Top it up every night without investigating",
+        "Backwash the filter straight away to fix the loss",
+        "Drain half the pool and refill it with fresh water",
+        "Run a bucket test and report a suspected leak"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L11-K03",
+      "question": "Why is a backwash on a fixed timer not a good practice?",
+      "options": [
+        "It can waste water and chemical when the filter does not need it",
+        "It always uses too little water to clean the filter properly",
+        "It stops the pump working when the filter is full and needs a clean",
+        "It changes the pool colour over the weekend for every swimmer"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNIT-POL: Unitywater, Domestic Swimming Pool Wastewater Disposal Policy OP8130 Rev 10, checked 2026-11-03 (reviewed 16 July 2025; amended 19 March 2026 and 21 April 2026; next review 16 July 2028). A Queensland water authority example, not a state-wide rule.",
+    "ICON-GL7: Icon Water, Acceptance guideline 7: Discharges from pools, checked 2026-11-03 (dated August 2016 as read). An ACT example; the currency of this version is PARTIAL and should be confirmed with Icon Water.",
+    "UNCONFIRMED: numeric pool-water quality targets. No target value is given in this lesson; use the operator plan.",
+    "UNCONFIRMED: state, territory and council stormwater and sewer discharge rules for pool water beyond the two utilities named in this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Domestic Swimming Pool Wastewater Disposal Policy OP8130, Revision 10",
+      "url": "https://www.unitywater.com/-/media/unitywater/pdf-policies-and-reports/domestic-swimming-pool-wastewater-disposal-policy-op8130.pdf",
+      "pageDate": "last reviewed 16 July 2025; amended 19 March 2026 and 21 April 2026",
+      "checked": "2026-11-03",
+      "covers": "unitywater.com: search 'Domestic swimming pool wastewater disposal policy OP8130'. An example for one authority only. Publisher: Unitywater (South East Queensland water authority)."
+    },
+    {
+      "id": "R2",
+      "title": "Acceptance guideline 7: Discharges from pools",
+      "url": "https://iconwater.com.au/sites/default/files/2023-10/IW%20Acceptance%20Guideline%207%20-%20Discharges%20from%20the%20pools.pdf",
+      "pageDate": "August 2016 (version as read)",
+      "checked": "2026-11-03",
+      "covers": "iconwater.com.au: search 'Acceptance guideline 7 discharges from pools' and confirm it is the current version; the copy read is dated 2016. Publisher: Icon Water (ACT)."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Unitywater, Domestic Swimming Pool Wastewater Disposal Policy OP8130, Revision 10 (last reviewed 16 July 2025; amended 19 March 2026 and 21 April 2026); Icon Water, Acceptance guideline 7: Discharges from pools (August 2016).",
+  "referencesAtEnd": "Official sources to check at the end of this lesson: Unitywater, Domestic Swimming Pool Wastewater Disposal Policy OP8130, Revision 10 (last reviewed 16 July 2025; amended 19 March 2026 and 21 April 2026); Icon Water, Acceptance guideline 7: Discharges from pools (August 2016).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-04.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-05.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    }
+  ]
+}

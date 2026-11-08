@@ -1,0 +1,140 @@
+{
+  "id": "CPV-01",
+  "title": "What cleaning validation proves, and what routine checks do not",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Supervisors and quality leads in commercial, food-service and food-processing cleaning who need to judge whether a cleaning method is reliable.",
+  "prerequisites": [
+    "F09-L01",
+    "kitchen-cleaning-L11"
+  ],
+  "learningOutcomes": [
+    "Distinguish a routine check that a clean was done from validation that a method reliably reaches a set standard.",
+    "State the questions a cleaning process must answer before any testing is designed.",
+    "Explain why one passing result is not enough to validate a method.",
+    "Recognise that the formal validation rules in the source are pharmaceutical and are not Australian food-service requirements."
+  ],
+  "instruction": [
+    {
+      "heading": "Routine checks are not validation",
+      "body": "A routine check asks whether a clean took place on a given day. Validation asks a harder question: does the method, carried out as written, bring a surface or an item of equipment to a set level of cleanliness each time, for the soils and surfaces it is meant to handle? The guide treats validation as the proof that contamination between batches and products is held in check. It also argues that a process cannot be confirmed as working until it has been validated, and that the process itself has to be built properly before validation becomes straightforward. Heavy sampling after a clean does not, on its own, show that the clean works."
+    },
+    {
+      "heading": "The questions a process must answer first",
+      "body": "Before a test is designed, the process should be questioned. When does an item reach a state that can be called clean? Is a visual inspection a dependable standard, and what does looks clean actually mean? Does the item need physical scrubbing, or does a solvent rinse do the job, and what is the scrubbing achieving? How much does the outcome of a manual clean wander between runs and between products? Which detergent or solvent suits the soil best? Must each product that touches the equipment have its own method? How many passes of the method does each item need before it is truly clean? The answers reveal whether the method works at all, and they can also point to redundant steps that could be dropped to save time and materials."
+    },
+    {
+      "heading": "One result is not validation",
+      "body": "A single good result shows that the method worked once. Validation needs evidence that the method works consistently, which is why a documented study across several runs is expected rather than one clean that happened to pass. A negative result also needs a check: if a test finds nothing, the question is whether the test could have detected the residue at all. The formal pharmaceutical rules are not food-service requirements in Australia. This lesson takes the reasoning and the questions, and does not set any pharmaceutical standard for a commercial cleaning business."
+    }
+  ],
+  "procedure": [
+    "Describe the item to be cleaned, the soil it carries and the surfaces it touches.",
+    "Work through the questions in the lesson and write the answer to each one.",
+    "Decide which answers are based on observation and which need evidence.",
+    "Decide whether a routine check, a validated method or a verification is needed for the purpose.",
+    "Record the decision and the reason before any sampling is planned."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A commercial kitchen wants to show that a slicer is clean enough before it is used for a different product. The cleaner wipes the blade guard and says it looks clean.",
+      "decisionPrompt": "Does the visual check answer the question about the slicer?",
+      "reasoning": "The visual check is a routine check, not validation. The team asks what visually clean means for this soil, whether hand scrubbing is needed for the hard-to-reach parts, and how variable the result is. Only then can it decide what evidence is needed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Written description of the item and its soils",
+    "Site cleaning procedure",
+    "Gloves and eye protection for the cleaning task"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a clean that looks good as proof that the method works.",
+      "prevention": "Ask the questions in the lesson and find out what evidence the method needs."
+    },
+    {
+      "error": "Taking one passing result as validation.",
+      "prevention": "Plan for consistent results across several runs before calling a method validated."
+    },
+    {
+      "error": "Assuming a negative test means the surface is clean.",
+      "prevention": "Check whether the test could have detected the residue at all."
+    },
+    {
+      "error": "Copying pharmaceutical limits into a food-service business.",
+      "prevention": "Use the reasoning, and check the Australian requirements for the site."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Use the practice content only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not give a licence, certificate or authority for any regulated work. Completing it does not qualify a worker to carry out pharmaceutical validation.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Where a cleaning method involves chemicals, follow the label and SDS. The validation reasoning does not change those controls.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner states the question each step of the process must answer.",
+    "The learner distinguishes a routine check from validation in a written example.",
+    "The learner explains why a single result is not enough."
+  ],
+  "documentationEvidence": [
+    "Written answers to the process questions for one item.",
+    "Decision record: routine check, verification or validation, with reason."
+  ],
+  "summary": [
+    "A routine check shows a clean was done; validation shows the method works reliably.",
+    "Answer the process questions before you design any test.",
+    "One good result, or one negative result, is not proof on its own."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "CPV-01-K01",
+      "question": "What does cleaning validation show, in the guide's framing?",
+      "options": [
+        "That a cleaner has completed training and has passed the test",
+        "That the product is free of all microorganisms after every single use",
+        "That a cleaning product is approved for sale in the local area",
+        "That a cleaning method reliably reaches a set level of cleanliness"
+      ]
+    },
+    {
+      "id": "CPV-01-K02",
+      "question": "Why is a single good result not enough to validate a method?",
+      "options": [
+        "A method must be shown to work consistently, not once",
+        "A single result is wrong whenever the batch is large",
+        "Results are only valid on certain days",
+        "The first result is the worst one, so it is discarded"
+      ]
+    },
+    {
+      "id": "CPV-01-K03",
+      "question": "Which question is a valid starting point when evaluating a cleaning process?",
+      "options": [
+        "How many cleaners are on the payroll this month?",
+        "At which moment is the equipment regarded as clean?",
+        "What colour is the bucket and what brand is it?",
+        "Is the room lit by LED lights and is it warm?"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Processes and Cleaning Validation, Guidance Document SGD-105-CLN Rev. 10 (Validation in Partnership Ltd, 25 May 2007; pharmaceutical and biological CGMP with US and EU references, not Australian), sections: 4 Introduction; 5.5 Cleaning Procedures (evaluation questions, section IV); 6.1 Cleaning Procedures; 6.3.1 General (consecutive runs); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Pharmaceutical scope applies; Australian application UNCONFIRMED. Cross-checked against F09-L01 (acceptance criteria) for the non-validation side."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

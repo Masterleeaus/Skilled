@@ -1,0 +1,190 @@
+{
+  "id": "handyman-work-L04",
+  "title": "Portable power tools and energy isolation",
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Silica (no date shown); NSW Government, Electrical licences and credentials (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting (last updated 31 July 2026; page metadata shows a later modified date).",
+  "courseSlugs": [
+    "handyman",
+    "lawn",
+    "garden",
+    "landscaping",
+    "irrigation"
+  ],
+  "moduleTitle": "Group (Property & trades): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Handyman, garden and outdoor maintenance workers who use portable power tools",
+  "prerequisites": [
+    "handyman-work-L03"
+  ],
+  "learningOutcomes": [
+    "Identify guarding, cord, battery and attachment defects before a power tool is used.",
+    "Describe the main kickback, dust and noise hazards and the controls for each.",
+    "Isolate a portable power tool safely and refuse any tool that cannot be used safely."
+  ],
+  "instruction": [
+    {
+      "heading": "Inspect the tool before the first cut",
+      "body": "Read the manufacturer instructions for the tool and any attachment. Inspect the cord, plug, housing, guards, switches, bits, blades and batteries. Look for cracked housings, damaged cords, missing guards, worn brushes, bent or blunt attachments, and battery damage such as swelling or leaking. A guard that has been removed or taped back is a defect and the tool must not be used with it bypassed. Test the tool's trigger and switch while it is unplugged or the battery is removed."
+    },
+    {
+      "heading": "Hazards: kickback, dust, noise and hidden services",
+      "body": "Kickback happens when a blade or bit binds and the tool is thrown back toward the operator. Keep both hands on the tool, stand clear of the line of the blade, and do not force the cut. Power tools produce fine dust, including silica dust from masonry and wood dust from timber, and noise that can damage hearing. Use extraction where it is provided, and select respiratory and hearing protection from the task. Safe Work Australia's silica guidance (no date shown) names dry cutting of brick, concrete or stone as the higher-risk method and lists wet cutting and dust-collecting tools among the controls. Where respiratory protection is needed, the same guidance cites a half-face respirator with a P2 rating as a minimum. Before drilling or cutting, check for hidden services. A drill that has no side handle or a damaged cord is not safe to use on a surface that may hide cabling, and the surface must be checked by a competent process first."
+    },
+    {
+      "heading": "Isolating energy and refusing unsafe tools",
+      "body": "Isolate the tool before any adjustment, blade or bit change, or cleaning. For corded tools, remove the plug from the supply. For battery tools, remove the battery. Do not rely on a switch alone. If a tool cannot be used safely, refuse it and tell the supervisor, and do not perform a repair that goes beyond the tool's manufacturer instructions or the worker's authority."
+    }
+  ],
+  "procedure": [
+    "Read the manufacturer instructions for the tool and any attachment.",
+    "Inspect the cord or battery, plug, housing, guards, switches, bits and blades.",
+    "Test the trigger and switch with the tool unplugged or the battery removed.",
+    "Check the surface for hidden services before drilling or cutting.",
+    "Select eye, hearing and respiratory protection from the task, and use extraction where provided.",
+    "Isolate the tool before any adjustment, blade change or cleaning.",
+    "Tag out and refuse any tool with a defect that cannot be safely corrected within your authority."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A drill is missing its side handle, and the wall you have been asked to drill may hide cabling.",
+      "decisionPrompt": "Can the drill be used on the wall as it is?",
+      "reasoning": "No. The missing side handle reduces control and raises kickback risk, and the wall may hide cabling. Stop, obtain a suitable tool, and verify where services run by a competent process before any drilling. Do not treat the lack of a visible cable as proof that none is present."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Eye protection rated for the task",
+    "Hearing protection suitable for the noise level",
+    "Respiratory protection suitable for silica or wood dust where the task creates it",
+    "Extraction or dust control where provided",
+    "Tag-out tags and a tag-out record for defective tools"
+  ],
+  "commonErrors": [
+    {
+      "error": "Bypassing or removing a guard to get a cut done.",
+      "prevention": "Treat a removed guard as a defect. Do not use the tool until the guard is correctly fitted."
+    },
+    {
+      "error": "Adjusting a tool with the battery or plug still connected.",
+      "prevention": "Remove the battery or plug before any adjustment, blade or bit change, or cleaning."
+    },
+    {
+      "error": "Drilling a wall without checking for services.",
+      "prevention": "Check and confirm where services run before drilling, and stop if the surface cannot be checked."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Work on fixed electrical installations needs a licence or certificate in New South Wales whatever the price, except for equipment at not more than 50 volts AC or 120 volts ripple-free DC (electrical page, last updated 23 June 2026). Licence positions by state are recorded in “Electrical boundaries and referral”.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Irrigation work that involves plumbing needs a New South Wales plumbing licence or certificate for the correct category (plumbing page, last updated 31 July 2026). That page lists a 'Water plumbing - urban irrigation' category, so confirm the correct category before any irrigation plumbing work.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not give a licence, certificate or authority to do regulated work.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every power tool is inspected and tested before use, and the result is recorded.",
+    "No tool is used with a guard removed or bypassed.",
+    "Isolation is confirmed before any adjustment or blade change."
+  ],
+  "documentationEvidence": [
+    "Pre-use inspection record for each power tool, including any tool refused",
+    "Record of the dust and noise controls selected for the task"
+  ],
+  "summary": [
+    "Inspect each tool, including guards, cords and batteries, before use.",
+    "Control kickback, dust and noise, and check for hidden services before drilling.",
+    "Isolate before adjustment and refuse any tool that cannot be used safely."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:equipment.maintenance_schedule}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "handyman-work-L04-K01",
+      "question": "A worker wants to use a power saw with its guard taped back to see the cut. What is correct?",
+      "options": [
+        "Treat the guard defect as a stop, do not use the saw, and tag it out",
+        "Use it for a short cut only, since the cut will be quick and clean",
+        "Use it if the client agrees to the guard being taped back for the job",
+        "Use it with gloves on to keep the hands clear of the blade"
+      ]
+    },
+    {
+      "id": "handyman-work-L04-K02",
+      "question": "When should a battery-powered drill be isolated?",
+      "options": [
+        "Only at the end of the day when the drill is packed away for the night",
+        "Before any adjustment, bit change or cleaning, with the battery removed",
+        "Only when the trigger is stuck and the drill will not stop running at all",
+        "Never, because batteries are safe to handle during any adjustment at all"
+      ]
+    },
+    {
+      "id": "handyman-work-L04-K03",
+      "question": "Why is dust from masonry or timber cutting a hazard?",
+      "options": [
+        "It only affects the surface finish of the wall and timber, so no mask is needed for the job",
+        "It is only a problem outdoors, where the wind carries it away from the worker and the site",
+        "Fine dust can be inhaled, so suitable respiratory protection and extraction are needed",
+        "It is safe if the worker is not wearing gloves, since the dust does not reach the skin"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official sources, repeated for checking: Safe Work Australia, Silica (no date shown); NSW Government, Electrical licences and credentials (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting (last updated 31 July 2026; page metadata shows a later modified date).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Silica",
+      "url": "https://www.safeworkaustralia.gov.au/duties-tool/construction/hazards-information/dusts/silica",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the dust controls for cutting and drilling masonry. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Electrical licences and credentials",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Check whether a licence or certificate applies to wiring work. The page sets no dollar threshold and does not mention solar or battery systems. Publisher: NSW Government."
+    },
+    {
+      "id": "R3",
+      "title": "Plumbing, draining and gasfitting",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+      "pageDate": "Last updated 31 July 2026 (page metadata shows a later modified date)",
+      "checked": "2026-11-03",
+      "covers": "Check the licence categories and the penalty amounts for unlicensed work. Publisher: NSW Government."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "lessons/ready/handyman-work-L04.json (source draft, hand28-07 as cited; reference not in this workspace, UNCONFIRMED)",
+    "research/trades/NOTES.md and LICENCE-NOTES.md (NSW-06 water plumbing for urban irrigation, checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX-NSW-QLD.csv NSW-06 (checked 2026-11-02)",
+    "Power tool inspection and kickback controls: internal course guidance, UNCONFIRMED against any named standard"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-07.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-08.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "MP-04-roof",
+  "title": "Break-even analysis with a worked calculation for Roof soft washing",
+  "courseSlugs": [
+    "roof"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Roof soft washing operators who set prices or plan monthly revenue, including solo operators.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a roof soft washing business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a roof soft washing business",
+      "body": "Break-even revenue is the amount of sales that covers all costs exactly, so profit is zero. Below it the business loses money; above it, each further job adds to profit. It helps you set prices, decide when to hire a second crew member and check whether a new channel can pay for itself. Its answer is only as good as the costs and percentages behind it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of jobs in a month. For a roof soft washing business they include vehicle registration and loan repayments, insurance, access equipment hire or its share, phone and software subscriptions, and any storage or yard rent. Variable costs move with each job. They include chemicals and water used on a job, rinse and containment consumables, subcontractor fees and the card fee on each payment. Express variable cost as a percentage of sales for the same period. ANZ defines the two cost types and warns that costs must be covered to avoid running at a loss. Check the percentage across at least three months before you rely on it."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. One minus the variable percentage is the contribution margin, the share of each dollar of sales left to cover fixed costs. Use the percentage as a decimal, so 15 per cent becomes 0.15, and the contribution margin is 0.85."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write the inputs first, each with its source and date. Compute the contribution margin. Divide fixed costs by it to get break-even revenue. Divide that by your average job price to get the number of jobs, and round up to whole jobs. The job price in this lesson is a reference point: the lead-generation typical for a single-storey soft wash, which is $480. It is not a price for your business, so replace it with your own average after discounts before you use the result."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount, not an annual one. Confirm that the variable percentage is a share of sales, not of cost. Confirm that the output is revenue, not profit. Write down the reconciled figure with its inputs, and drop the others. A figure that cannot be checked should not be used to set a price."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost of the roof soft washing business and label each one fixed or variable.",
+    "Work out variable cost as a percentage of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your own average job price to get the number of jobs needed each month.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A two-person roof soft washing business (hypothetical figures, invented for this lesson) has fixed costs of $2,200 AUD a month, variable costs of 15% of sales and an average job price of $480 AUD. The $480 is a reference point from the lead-generation typical for a single-storey soft wash, not this business's price.",
+      "decisionPrompt": "How many jobs must the business complete each month to break even, and what should it check before setting prices?",
+      "reasoning": "The contribution margin is 1 minus 0.15, which is 0.85. Break-even revenue is $2,200 AUD divided by 0.85, which is $2,588.24 AUD a month. At $480 AUD a job, that is 5.39 jobs, so the business needs 6 jobs to cover its costs. Each job contributes $408 AUD ($480 AUD multiplied by 0.85) towards fixed costs. Before setting prices, check that the 15% includes every chemical, rinse and containment cost, that the $2,200 AUD is a monthly figure, and that $480 AUD is the average price actually charged after discounts."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, labelled fixed or variable",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Using a lead-generation typical as the job price",
+      "prevention": "Replace the reference price with your own average job price after discounts."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout the calculation.",
+    "Recalculate from your own inputs, and replace the reference job price with your own average."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-roof-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-roof-K02",
+      "question": "A roof soft washing business has fixed costs of $2,200 AUD a month and variable costs of 15% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$2,588.24 AUD",
+        "$330.00 AUD",
+        "$2,200.00 AUD",
+        "$14,666.67 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-roof-K03",
+      "question": "Two sources give different break-even figures for the same roof soft washing business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure entirely",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the client today",
+        "Use the price list alone and skip the break-even check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; job counts round up to whole jobs.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs.",
+    "What's The Damage, 'Pressure washing cost guide', https://whatsthedamage.com.au/pressure-washing-cost/, verified November 2026. Single-storey soft-wash typical ($480) used only as a reference job price.",
+    "Note: the hypothetical figures ($2,200 fixed, 15% variable, $480 job) are invented for this lesson and are not market data."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

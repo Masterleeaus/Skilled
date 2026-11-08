@@ -1,0 +1,130 @@
+{
+  "id": "THS-04",
+  "title": "Approving suppliers and checking goods on receipt",
+  "courseSlugs": [
+    "commercial",
+    "shortstay"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Office staff, supervisors and leads who order consumables and receive deliveries for a cleaning site.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Describe the checks used to approve a supplier and the record kept for it.",
+    "Check a delivery against its order at the point of receipt and record any problem.",
+    "Trace a product back to its source using the receiving record."
+  ],
+  "instruction": [
+    {
+      "heading": "Approving a supplier",
+      "body": "The sample firm approves suppliers by reference to qualifications, any licences held, insurance, track record, experience and references. Every supplier and each approval decision is entered on a register of cleared suppliers. Approval is not a one-time event: the sample reviews every supplier each year, and records any problem on a log. Checking that a supplier holds a licence is a check only. It does not grant or confirm that the supplier may carry out any particular work."
+    },
+    {
+      "heading": "Checking goods on receipt",
+      "body": "Each delivery is inspected on arrival and matched to the purchase order for quantity and specification. Faults go on the receiving record, and the buyer who placed the order judges how much harm each fault caused the business. Where problems recur with one supplier, the operations manager raises them with the supplier first. If the problems continue, the sample says an alternative supplier should be found."
+    },
+    {
+      "heading": "Traceability",
+      "body": "The sample requires every product to be traceable to its source. The receiving record shows what was received, from whom and when, which supports product recall and stock rotation. Keep the record in a form that can be found quickly, and keep the product's own instructions and safety information with the stock."
+    }
+  ],
+  "procedure": [
+    "Collect the supplier's name, products, qualifications, insurance evidence and references before approval.",
+    "Enter the supplier on the register of cleared suppliers, with the reason for approval and the date.",
+    "On delivery, compare quantity and specification with the purchase order.",
+    "Record any shortfall or fault on the receiving record and inform the person who placed the order.",
+    "Review the supplier record once a year and log any recurring problem.",
+    "Keep the receiving record so any item can be followed back to its origin."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A delivery of a cleaning product arrives with two drums fewer than ordered and one drum with a damaged seal.",
+      "decisionPrompt": "What should the receiver record, and who is told?",
+      "reasoning": "The receiver notes the shortfall and the damaged drum on the receiving record, with the date and the delivery note number. The buyer who placed the order is told, and the damaged drum is quarantined from use. If the same supplier has the same problem again, the operations manager raises it with the supplier."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved supplier list, purchase order, receiving record and delivery note. Standard PPE when handling delivered products."
+  ],
+  "commonErrors": [
+    {
+      "error": "Accepting a delivery without checking it against the order.",
+      "prevention": "Check quantity, specification and condition at the point of receipt."
+    },
+    {
+      "error": "Treating a licence check as proof the supplier may do regulated work.",
+      "prevention": "Record the check as held and checked, and confirm any authority separately."
+    },
+    {
+      "error": "Having no record that links a product to its supplier.",
+      "prevention": "Keep the receiving record with the product's delivery details."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Verifying a supplier's licence or insurance is a check, not a grant. A licence or insurance is confirmed by the body that issues it.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Product storage and labelling requirements are set by the product's instructions and the law.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each approved supplier has a recorded reason for approval and an annual review date.",
+    "Each delivery has a receiving record that matches the order or shows the difference."
+  ],
+  "documentationEvidence": [
+    "Approved supplier list entry.",
+    "Receiving record showing quantity, condition, faults and the receiver's name.",
+    "Supplier problem log."
+  ],
+  "summary": [
+    "Approve suppliers on recorded checks and review them each year.",
+    "Check each delivery against the order at receipt and record any difference.",
+    "A licence check is a check, not a grant, and traceability depends on the receiving record."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "THS-04-K01",
+      "question": "What does checking a supplier's licence establish?",
+      "options": [
+        "That the supplier may carry out any regulated work on any site today",
+        "That the supplier's prices are fair for every job on the site",
+        "That the licence was checked and recorded, without granting any authority",
+        "That the supplier will not have a problem with its insurer today"
+      ]
+    },
+    {
+      "id": "THS-04-K02",
+      "question": "A delivery arrives two items short. What should happen first?",
+      "options": [
+        "Accept it and fix the shortage later and chase the supplier by email next week",
+        "Return the whole delivery without a record and ask the supplier to send a credit note",
+        "Pay the supplier and forget it and tell nobody about the shortfall at all",
+        "Record the shortfall on the receiving record and tell the person who placed the order"
+      ]
+    },
+    {
+      "id": "THS-04-K03",
+      "question": "Why does the sample keep a receiving record?",
+      "options": [
+        "To trace a product back to its source for recall and stock rotation",
+        "To track staff hours and to check the holidays taken each year",
+        "To replace the purchase order and to replace the supplier's invoice",
+        "To avoid annual supplier reviews and to skip the stock count"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Total-Cleaning-and-Housekeeping-Services.txt, subsection 7.3.1 (approval basis); rights: user-held; reworded (no copying)",
+    "Total-Cleaning-and-Housekeeping-Services.txt, subsections 7.3.2 and 7.3.3 (monitoring and receiving records); rights: user-held; reworded (no copying)",
+    "Total-Cleaning-and-Housekeeping-Services.txt, subsection 7.3.4 (traceability); rights: user-held; reworded (no copying)",
+    "UNCONFIRMED: Australian licensing and product-storage requirements for suppliers were not checked. UNCONFIRMED: the sample dates from 2012 and was written for a non-Australian operation; its figures and retention periods are not current Australian facts."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

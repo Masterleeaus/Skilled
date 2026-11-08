@@ -1,0 +1,48 @@
+{
+  "lessonId": "NEW-TMB-07",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-TMB-07-K01",
+      "correctIndex": 2,
+      "rationale": "The label and SDS set the ventilation, PPE, storage and disposal requirements, so they are read before opening any product."
+    },
+    {
+      "id": "NEW-TMB-07-K02",
+      "correctIndex": 3,
+      "rationale": "NSW LeadSmart states that open-flame torches create lead fumes, and open flames can ignite vapours."
+    },
+    {
+      "id": "NEW-TMB-07-K03",
+      "correctIndex": 0,
+      "rationale": "SafeWork NSW advises keeping flames and sparks away from areas where dust is generated, which reduces the chance of a dust explosion. The industry-body guide is not an official source and is not used."
+    },
+    {
+      "id": "NEW-TMB-07-K04",
+      "correctIndex": 1,
+      "rationale": "Flammable products are stored per the approved storage procedure and the relevant standard, with AS 1940 listed as the standard to check."
+    },
+    {
+      "id": "NEW-TMB-07-K05",
+      "correctIndex": 2,
+      "rationale": "Products are used only as the SDS and manufacturer approve. Mixing changes the hazard and the result."
+    }
+  ],
+  "practicalCriteria": [
+    "Candidate reads the label and SDS for a sample product and states the ventilation, PPE and disposal controls it requires.",
+    "Candidate identifies and removes an ignition source from a mock-up work area before the product is opened.",
+    "Candidate places used rags in a labelled container and records the disposal route.",
+    "Candidate records the product name, batch, SDS checked and ventilation used on the job record."
+  ],
+  "passRule": "Knowledge checks: at least 80% correct (4 of 5). Practical sign-off is separate. A knowledge pass does not establish practical competence, and the practical criteria must be observed and recorded by an assessor.",
+  "evidenceRequired": [
+    "Product and SDS register for the mock-up job",
+    "Ventilation and ignition source check record",
+    "Waste disposal record for rags"
+  ],
+  "stopWorkCriteria": [
+    "Product opened without reading the SDS",
+    "Open flame used to strip a finish",
+    "Products mixed to change the result",
+    "Ignition source left in the work area with flammable vapour present"
+  ]
+}

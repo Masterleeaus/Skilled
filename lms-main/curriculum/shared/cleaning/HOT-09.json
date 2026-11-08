@@ -1,0 +1,146 @@
+{
+  "id": "HOT-09",
+  "title": "Reporting damage and maintenance faults",
+  "courseSlugs": [
+    "shortstay",
+    "residential",
+    "commercial",
+    "bond",
+    "strata"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Quality, evidence and handover",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Cleaners on short-stay, hotel-style and serviced-apartment turnovers who find damage or faults during a room turnover.",
+  "prerequisites": [
+    "F02-L03",
+    "HOT-08"
+  ],
+  "learningOutcomes": [
+    "Separate faults that cleaning can fix from faults that must be reported.",
+    "Write a report that states what was found, where, how big, whether it is safe, and whether the room can be used.",
+    "Stop work and raise an urgent report when a fault creates a hazard."
+  ],
+  "instruction": [
+    {
+      "heading": "Why report rather than repair",
+      "body": "A cleaner finds things that are not cleaning problems: a stain that will not lift from carpet, a torn mattress protector, a cracked tile, a loose fitting, a tap that drips, a window that will not lock. Unless the job and the cleaner's authority allow it, the task is to report these, not to repair them. Reporting early keeps the room available, protects the guest, and stops a small fault from being blamed on the cleaner later. A report made at the time, with a time stamp, is the record that protects everyone."
+    },
+    {
+      "heading": "What to report, and how",
+      "body": "Report anything the room standard cannot fix with approved cleaning. The report should describe what you found, where it is, how big it is, whether it is safe, and whether the room can be used. Take a photo if the business requires one, and make sure it shows the fault clearly. Include the room number and the time. Use the business's reporting channel, whether that is a system, a form or a message to the coordinator, and keep the wording factual. Do not guess a cause, and do not describe what someone else must have done."
+    },
+    {
+      "heading": "Damage and lost property",
+      "body": "Damage found after a guest has left is recorded in the same way as damage found before. Do not discuss blame or costs with guests or with on-site staff, and send questions about them to the coordinator. Items that appear to belong to a guest are handled under the property's lost property procedure, described in “Damage and lost property”. Cleaners do not keep, sell or dispose of them."
+    },
+    {
+      "heading": "Hazards and stopping work",
+      "body": "If a fault creates a hazard, such as exposed wiring, a leak, broken glass or a loose ceiling fitting, keep others away from it, make the area safe only if this can be done without risk, and report at once. Do not stand on furniture or unstable items to reach a fault. Stop work on the affected item or area, and continue elsewhere only if the hazard does not reach the other work. Follow the business's emergency procedure for anything that is urgent."
+    }
+  ],
+  "procedure": [
+    "Stop work on the affected item, and keep people away from any hazard.",
+    "Note what was found, the room, the time and the position.",
+    "Decide whether the item can be fixed within your task and authority. If not, report it.",
+    "Take a photo where the business requires one, making sure it shows the fault clearly.",
+    "Submit the report through the business's reporting channel, using factual words.",
+    "Record the report on the room checklist, with its reference.",
+    "Confirm with the coordinator whether the room can be released, and follow the instruction given."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A bathroom tap drips steadily and the floor around the basin is wet. The rest of the room is finished.",
+      "decisionPrompt": "What do you do before you ask whether the room can be released?",
+      "reasoning": "Dry the wet floor area with the approved method and warn others that the floor may be slippery. Report the drip and the wet floor, with the time. Do not attempt to repair the tap unless the business authorises it. Then ask the coordinator whether the room can be released with the fault recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Phone or device for photos and reports, where the business provides one",
+    "Cloths and absorbent material for small spills",
+    "Warning sign for wet floors, where the method requires one"
+  ],
+  "commonErrors": [
+    {
+      "error": "Trying to repair a fault that is outside your role.",
+      "prevention": "Report it, and leave the repair to the authorised person."
+    },
+    {
+      "error": "Writing a vague report such as 'it's broken'.",
+      "prevention": "State what it is, where it is, how big it is, and whether it is safe."
+    },
+    {
+      "error": "Leaving a fault out of the report because it seems minor or was there before.",
+      "prevention": "Report every fault you find, with the time you found it."
+    },
+    {
+      "error": "Discussing blame with the guest or with on-site staff.",
+      "prevention": "Report the facts to the coordinator, and keep the report factual."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Exposed wiring, sparking or a smell of burning: keep people away, do not touch the item, and raise an urgent report under the business's emergency procedure. Electrical repair is licensed work in each state and territory. This lesson does not grant any electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Do not stand on furniture or unstable items to reach a fault. Use the business's access equipment, or report the fault so that it can be reached safely.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every fault found is recorded with the room, the time, the location and a factual description.",
+    "No fault is left unreported because it seems minor.",
+    "Photos are attached where the business requires them."
+  ],
+  "documentationEvidence": [
+    "Damage or maintenance report with room, time, location, description and photo",
+    "Coordinator's response and the release decision"
+  ],
+  "summary": [
+    "Clean what cleaning can fix. Report everything else with facts, a time and a location.",
+    "Stop work and raise an urgent report for any hazard, and never attempt a repair outside your authority.",
+    "Keep reports factual, and send any question about blame or cost to the coordinator."
+  ],
+  "businessFields": [
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:customers.complaint_escalation}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HOT-09-K01",
+      "question": "A chip is found on the edge of a bedside table. What is the right first step?",
+      "options": [
+        "Fill it with a filler from the kitchen and sand it smooth",
+        "Record the chip and report it through the business's channel",
+        "Cover it with a runner so that it is not seen today"
+      ]
+    },
+    {
+      "id": "HOT-09-K02",
+      "question": "What should a damage report include?",
+      "options": [
+        "What was found, where, how big, whether it is safe, and whether the room can be used",
+        "The cleaner's opinion on who caused the damage and whether the guest is to blame",
+        "Only the estimated cost of the repair and the name of the local supplier used"
+      ]
+    },
+    {
+      "id": "HOT-09-K03",
+      "question": "A fault exposes a live-looking wire in a wall plate. What is correct?",
+      "options": [
+        "Touch the wire to check whether it is live with the back of a damp cloth",
+        "Keep people away, do not touch it, and report at once under the emergency procedure",
+        "Tape it up and continue the walk-through once the guest has left the room"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "HOTEL-CLEANING.txt, step 8 (reporting stains and damage that cannot be cleaned); rights: user-held; reworded (no copying).",
+    "Internal cross-references: F02-L03 (incident response and reporting), C12-L04 (damage and lost property)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

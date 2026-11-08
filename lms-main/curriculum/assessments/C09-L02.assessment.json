@@ -1,0 +1,35 @@
+{
+  "lessonId": "C09-L02",
+  "knowledgeAnswers": [
+    {
+      "id": "C09-L02-K01",
+      "correctIndex": 1,
+      "rationale": "The lesson says verification is independent, reinspects against the original acceptance criterion, and captures a new observation after the corrective action."
+    },
+    {
+      "id": "C09-L02-K02",
+      "correctIndex": 2,
+      "rationale": "Out-of-scope rectification needs approval, and specialist interventions are not improvised. The defect needs an assigned owner."
+    },
+    {
+      "id": "C09-L02-K03",
+      "correctIndex": 3,
+      "rationale": "The correct the cause section says to address root causes, such as contaminated tools, missed sequence steps or insufficient dwell time, rather than merely masking the symptom."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes procedure step 1: Compare each finding with the scope and safety requirements, and classify it using the organisation's approved system.",
+    "Learner completes procedure step 2: Record the responsible role, the required action, the materials and the deadline for each defect.",
+    "Learner completes procedure step 3: Confirm whether the rectification is within your authority and training, and obtain approval before any out-of-scope or specialist work.",
+    "Learner completes procedure step 4: Where authorised, correct the cause using the approved method and protect adjacent surfaces."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Record of procedure step 2: Record the responsible role, the required action, the materials and the deadline for each defect.",
+    "Record of procedure step 5: Reinspect against the original acceptance criterion and record a new observation, not a statement that the work is done.",
+    "Record of procedure step 6: Record a failed reinspection and escalate any recurring defect."
+  ],
+  "stopWorkCriteria": [
+    "Stop work if procedure step 6 is not done: Record a failed reinspection and escalate any recurring defect."
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "F17-L03",
+  "title": "Wet cleaning systems",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "carpet",
+    "hardfloor"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners doing wet cleaning of hard floors and related surfaces in residential, commercial, carpet and hard-floor settings.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Select a flat mop, bucket system or scrubber based on floor type, soil, traffic and drying time.",
+    "Control slip and moisture hazards with barriers, signs and drying.",
+    "Stop and switch method when a surface shows moisture damage or pooling."
+  ],
+  "instruction": [
+    {
+      "heading": "Choosing the system",
+      "body": "Wet cleaning systems differ in how much water they put on a floor. A flat mop with a microfibre head uses little solution and dries quickly, which suits sealed hard floors. A bucket system with a wringer lets the cleaner control how wet the mop is. A scrubber applies more agitation for heavy soil. Choose the system according to the floor type, traffic, the amount and type of soil, and how long the floor must take to dry before people can walk on it."
+    },
+    {
+      "heading": "Keeping clean solution separate",
+      "body": "Where the system allows, keep clean solution separate from dirty recovery water. Change the solution when it is visibly dirty, and do not keep reusing dirty water to make the floor look clean. Dirty water spreads soil and can leave residue. Keep containers labelled and do not pour product into unlabelled bottles."
+    },
+    {
+      "heading": "Controlling moisture and slip risk",
+      "body": "Wet floors are slippery, so place signs and barriers before you start, and keep pedestrian routes open where the site allows. Avoid flooding seams, joins and electrical outlets. Water that sits in joints or under edges can damage timber and some substrates. Dry the floor where the procedure requires it, and check that the floor is safe to walk on before you leave the area."
+    },
+    {
+      "heading": "When to change method",
+      "body": "Stop and change method if you see pooling, swelling, staining or a change in the colour of timber, or if water is reaching a joint that the floor finish cannot tolerate. Use the approved low-moisture method instead. Record the change and the reason. A general wet-cleaning lesson is not authority to carry out a restricted or specialist task on a sensitive floor."
+    }
+  ],
+  "procedure": [
+    "Identify the floor type, the soil, the traffic and the approved method before you start.",
+    "Select a flat mop, bucket system or scrubber suited to the floor and soil.",
+    "Set out wet-floor signs and barriers, and keep pedestrian routes safe where possible.",
+    "Keep clean solution separate from dirty recovery, and change solution when it is visibly dirty.",
+    "Avoid flooding joins, edges and electrical outlets.",
+    "Stop and switch to the approved low-moisture method if pooling or moisture damage appears.",
+    "Dry and check the floor, then record the method and any change."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A timber floor begins to show pooling water during a wet clean.",
+      "decisionPrompt": "What do you do next?",
+      "reasoning": "Stop wet cleaning. Switch to the approved low-moisture method, remove standing water as the procedure allows, and record the change. Continuing to wet-clean timber risks swelling and staining."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Flat mop with microfibre heads, bucket and wringer, or scrubber as suited to the floor.",
+    "Wet-floor signs and barriers.",
+    "Gloves appropriate to the product in use.",
+    "Non-slip footwear."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using the same wet method on timber and sealed tile.",
+      "prevention": "Check the floor type and approved method first."
+    },
+    {
+      "error": "Reusing dirty recovery water to mop the whole floor.",
+      "prevention": "Change solution when it is dirty, and keep clean and dirty separate."
+    },
+    {
+      "error": "Leaving the floor wet with no sign in a pedestrian area.",
+      "prevention": "Set signs and barriers before starting and check the floor before leaving."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Slip control is a workplace duty under WHS arrangements. Signs, barriers and drying are the controls the lesson teaches, and they must match the site risk assessment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Product labels and SDS govern dilution, PPE and ventilation (for the model register and SDS duty).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "System matched to floor and soil in a supervised wet-clean practical.",
+    "No pooling or moisture damage after the wet-clean.",
+    "Final dry-floor check completed before the area is released."
+  ],
+  "documentationEvidence": [
+    "Method and system record for the job.",
+    "Record of any method change and why it was made."
+  ],
+  "summary": [
+    "Choose the system by floor type, soil, traffic and drying time.",
+    "Keep clean and dirty solution separate, and change solution when dirty.",
+    "Control slip and moisture with signs, barriers and drying.",
+    "Switch method on pooling or moisture damage and record the change."
+  ],
+  "businessFields": [
+    "{{business:procedures.task_steps}}",
+    "{{business:quality.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F17-L03-K01",
+      "question": "A floor shows pooling water on timber during a wet clean. What is the right response?",
+      "options": [
+        "Mop harder to remove the pool and then dry the timber with a towel",
+        "Stop wet cleaning and switch to the approved low-moisture method",
+        "Continue and dry it later and mop the rest of the room first"
+      ]
+    },
+    {
+      "id": "F17-L03-K02",
+      "question": "Why is clean solution kept separate from dirty recovery water?",
+      "options": [
+        "It is kept for the mop bucket, which is smaller",
+        "It keeps the floor wetter",
+        "Dirty water spreads soil and leaves residue"
+      ]
+    },
+    {
+      "id": "F17-L03-K03",
+      "question": "Which control reduces slip risk during wet cleaning?",
+      "options": [
+        "Signs and barriers, safe routes and drying before release",
+        "Leaving the floor wet so that it dries evenly",
+        "Working faster, so the area is ready sooner for the client"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/F17-L03.json (editorial pass, not technically reviewed)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)",
+    "UNCONFIRMED: specific slip-resistance requirements for floor cleaning in each state and territory were not sourced for this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

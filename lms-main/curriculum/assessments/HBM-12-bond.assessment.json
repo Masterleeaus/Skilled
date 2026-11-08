@@ -1,0 +1,35 @@
+{
+  "lessonId": "HBM-12-bond",
+  "knowledgeAnswers": [
+    {
+      "id": "HBM-12-bond-K01",
+      "correctIndex": 1,
+      "rationale": "The lesson says to divide the total costs by billable hours, so the costs and income come from work that can be billed. Dividing by all paid hours, or using the short-stay fee band, does not do this."
+    },
+    {
+      "id": "HBM-12-bond-K02",
+      "correctIndex": 0,
+      "rationale": "The lesson says travel and set-up time do not shrink with a small job or a cancelled visit, so the visit fee covers that time and should be stated before the visit."
+    },
+    {
+      "id": "HBM-12-bond-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says the Beyond Pricing move-out band is short-stay fee data, used as a sense check and labelled as a proxy. It cannot set the rate, which comes from your own costs and billable hours."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner calculates billable hours from a one-month log, showing each non-billable deduction.",
+    "Learner builds a base rate from a worksheet of annual costs and an income target, showing the calculation.",
+    "Learner sets a minimum charge for a short job and writes the wording the client will see before the visit."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Billable hours calculation",
+    "Base rate worksheet",
+    "Minimum charge wording",
+    "Assessor review"
+  ],
+  "stopWorkCriteria": [
+    "Stop work if procedure step 1 is not done: Estimate the paid working hours in a year, then subtract travel, visits, admin, marketing, training and leave to find billable hours."
+  ]
+}

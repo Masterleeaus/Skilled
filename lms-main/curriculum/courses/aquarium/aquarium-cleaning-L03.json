@@ -1,0 +1,241 @@
+{
+  "id": "aquarium-cleaning-L03",
+  "title": "Water sampling and records for freshwater and marine tanks",
+  "courseSlugs": [
+    "aquarium"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 40,
+  "audience": "Aquarium maintenance workers who sample tank water and record results for freshwater and marine tanks in client premises",
+  "prerequisites": [
+    "F03-L01",
+    "NEW-AQU-01",
+    "NEW-AQU-02"
+  ],
+  "learningOutcomes": [
+    "Keep freshwater and marine records on separate sheets, and state which parameters each system needs from the owner's plan",
+    "Choose a sampling point and dedicated equipment that give a reading describing the tank, not the equipment or the water at the return or the heater",
+    "Check that a salinity or specific gravity instrument is calibrated, and apply its temperature correction before a result is recorded",
+    "Record and correct a result without overwriting it, and identify a result that is not valid"
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Storing hazardous chemicals (no date shown); NSW Department of Primary Industries, Aquarium owners and trade (no date shown); Queensland Government, Your legal obligation for invasive freshwater animals (last updated 28 May 2026).",
+  "instruction": [
+    {
+      "heading": "Keep freshwater and marine records apart",
+      "body": "Freshwater and marine tanks are different systems, with different chemistry, different equipment and different animals. A freshwater tank is usually tested for temperature, ammonia, nitrite, nitrate and pH, and for hardness where the owner's plan asks for it. A marine tank is usually tested for temperature, salinity or specific gravity, pH, ammonia, nitrite and nitrate, and for alkalinity, calcium, magnesium and phosphate where the plan lists them. Use a separate record sheet, or a separate record in the system, for each type of tank. Never write a marine reading on a freshwater sheet, or the reverse. Mixing the two produces records that look normal and mean nothing. The routine of testing and what each reading means are covered in the water testing lesson (“Water testing, trends and records”). This lesson concentrates on where the sample is taken, the instruments, and the records."
+    },
+    {
+      "heading": "Choosing the sampling point and the equipment",
+      "body": "Sample the open water at the point the owner's plan names, and keep that point the same on each visit. Avoid the heater, the filter outlet, the return, an air stone, the area under a feeding spot and the surface film, unless the plan asks for one of them, because each can give a reading that does not describe the whole tank. Use a container, syringe or pipette dedicated to one tank. Do not use the same sampling equipment for two tanks without cleaning it between them, and never move water from one tank into another as a top-up without checking the plan. Water, plants and animals moved between tanks can carry disease."
+    },
+    {
+      "heading": "Salinity, specific gravity and instrument checks",
+      "body": "For marine tanks, salinity or specific gravity is measured with a refractometer, a hydrometer or a meter. Before each session, check the instrument against the calibration solution that the manufacturer specifies, and record the date. Some instruments give a reading that depends on temperature, so apply the temperature correction given in the instructions and record the temperature at the time of the test. An instrument that is out of calibration, or a calibration solution that is out of date, gives a result that is not valid. Do not record a salinity reading that you have estimated from the look of the water or from the last visit."
+    },
+    {
+      "heading": "Records, corrections and out-of-range results",
+      "body": "Write each result with its value, its unit, the time, the temperature, the location, the method, the reagent or instrument batch, the tester and any observation about the animals or the water. A test that was not completed is recorded as not completed, with the reason. Do not back-fill a result, and do not average a freshwater reading with a marine reading. Never overwrite an original entry. To correct an error, draw a single line through it, write the correct value beside it, then initial and date the correction and give the reason. In an electronic system, use the amendment function that keeps the original. If a result is outside the range the owner's plan sets, follow the plan's action, tell the responsible person, and leave the measured record as it was taken."
+    },
+    {
+      "heading": "Sampling more than one tank in a round",
+      "body": "A technician who visits several tanks in one round uses a fixed order, cleans the sampling equipment between sites, and records each tank on its own sheet before moving on. Where the round includes both freshwater and marine tanks, sample the freshwater tanks first and clean the equipment between sites. This is a practical method for limiting the chance of carrying material from a marine system into a freshwater one. It is not a legal rule in this draft. The order matters less than keeping each record in its own place."
+    }
+  ],
+  "procedure": [
+    "Read the owner's plan for the tank type, the sampling point, the parameters and the test frequency.",
+    "Check the reagents for expiry, and check the salinity or specific gravity instrument for calibration and its temperature correction.",
+    "Take the sample from the planned open-water point, using equipment dedicated to this tank.",
+    "Label the sample with the date, time, tank, tank type and tester before you leave the point.",
+    "Run each test in the manufacturer's sequence, and wait for the stated reaction time.",
+    "Record each value with its unit, time, temperature, method, batch and observations, on the sheet for this tank type only.",
+    "If a value is outside the plan's range, follow the plan's action and inform the responsible person. Do not adjust the record.",
+    "Clean the sampling equipment, store the reagents as the safety data sheet directs, and file the record before leaving the site. Wear the PPE set by {{business:safety.required_ppe}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A marine tank salinity reading has been written on the freshwater record sheet by mistake, and the client asks you to average the last two freshwater readings so that the sheet looks complete.",
+      "decisionPrompt": "What do you do with the entry and the request?",
+      "reasoning": "Do not average the readings. Correct the entry with a single line through it, the correct value beside it, your initials, the date and the reason, and move the salinity to the marine sheet. Explain to the client that a freshwater sheet with a marine reading, or an average of two different systems, does not describe either tank. Record the correction, and check the instrument's calibration before the next session."
+    },
+    {
+      "situation": "A nitrite test kit is past its expiry date, and the reading looks like zero. The client wants a zero recorded because the fish look well.",
+      "decisionPrompt": "Is the zero valid?",
+      "reasoning": "No. An expired reagent can give an unreliable reading, so a zero from that kit is not a valid result. Replace the reagent, take a fresh sample, retest and record the replacement and the reason. The fish looking well is an observation to record, but it does not replace a valid test."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Freshwater and marine record sheets, kept separate",
+    "Dedicated sampling container, syringe or pipette for each tank",
+    "Test kit or meter with reagents in date",
+    "Refractometer, hydrometer or meter with calibration solution in date, for marine tanks",
+    "Gloves and eye protection as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing a marine reading on a freshwater sheet, or the reverse.",
+      "prevention": "Keep a separate sheet or record for each tank type, and check the tank type before writing."
+    },
+    {
+      "error": "Using a salinity instrument that has not been calibrated.",
+      "prevention": "Calibrate with the specified solution before each session, and record the date."
+    },
+    {
+      "error": "Using one sampling container for two tanks.",
+      "prevention": "Use dedicated equipment for each tank, and clean it between uses."
+    },
+    {
+      "error": "Averaging or estimating a reading to complete a record.",
+      "prevention": "Record only measured values. Record a missed test as not completed, with the reason."
+    },
+    {
+      "error": "Sampling from the filter outlet or the heater area when the plan names open water.",
+      "prevention": "Use the planned point. If another point is used, record it and the reason."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Water conditioners, salt mixes, test reagents and calibration solutions are chemicals. Read each label and safety data sheet. Safe Work Australia's storage page says incompatible chemicals must be kept well apart (no date shown); keeping acids and oxidisers apart is practice in this draft.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Use the owner's plan or a qualified aquatic specialist.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Biosecurity: moving water, plants or animals between tanks can spread disease and pests. In New South Wales, listed prohibited and notifiable species may not be kept, purchased, sold or transported (no date shown). In Queensland, listed prohibited species must not be held or brought in (last updated 28 May 2026).",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not authorise buying, selling, moving or importing any animal, plant or live rock. Where a state requires a permit for these, the permit is separate, and completing this lesson does not grant it.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every result has a time, temperature, unit, method and tester, and is recorded on the sheet for its tank type",
+    "No record is overwritten, and every correction is initialled, dated and explained",
+    "Instrument calibration is checked and recorded before each marine session"
+  ],
+  "documentationEvidence": [
+    "Sample record for each tank, with time, temperature, method and tester",
+    "Calibration record for the salinity or specific gravity instrument",
+    "Correction log where a record was amended",
+    "Notice to the responsible person for any out-of-range result"
+  ],
+  "summary": [
+    "Freshwater and marine records are kept apart, and each uses its own parameters and targets.",
+    "Sample from the planned open-water point, with equipment dedicated to one tank.",
+    "Calibrate the salinity or specific gravity instrument, and apply its temperature correction, before recording.",
+    "Never back-fill, average or overwrite a result, and record a missed test as not completed."
+  ],
+  "businessFields": [
+    "{{business:materials.sds_links}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:procedures.task_steps}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "aquarium-cleaning-L03-K01",
+      "question": "A marine tank salinity reading has been written on a freshwater record sheet. What should you do?",
+      "options": [
+        "Leave it on the freshwater sheet, because it is the same tank and the reading is roughly right for the client",
+        "Average it with the freshwater readings, so the sheet shows one clear trend for the client across both tanks",
+        "Correct it on the marine sheet with a single line, initials, date and reason, and keep the two parameter sets apart",
+        "Delete the entry, then write a new reading on the marine sheet with the date and the reason for the change"
+      ]
+    },
+    {
+      "id": "aquarium-cleaning-L03-K02",
+      "question": "Why should a sampling container not be shared between two tanks?",
+      "options": [
+        "Equipment used for one tank can carry contamination or disease to another tank",
+        "It is quicker to clean only one container and reuse it for the next sample",
+        "Containers are never used for water samples, so no sharing is needed at all",
+        "Only the marine tank needs its own container, so the freshwater tank can share"
+      ]
+    },
+    {
+      "id": "aquarium-cleaning-L03-K03",
+      "question": "A salinity reading is taken with an instrument that has not been calibrated. What is the status of the reading?",
+      "options": [
+        "Valid, because the tank looks normal and the fish are behaving as expected at the time",
+        "Not valid. Calibrate the instrument, retest, and record the instrument and its calibration status",
+        "Valid if the client agrees to accept the reading and signs the record sheet for it today",
+        "Average it with the last reading, so the uncalibrated result is smoothed out in the record"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it covers keeping incompatible chemicals apart and container labelling, and refers to the guide Managing risks of storing chemicals in the workplace. It does not name acids or oxidisers and does not mention safety data sheets. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Aquarium owners and trade",
+      "url": "https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "NSW Department of Primary Industries, Aquarium owners and trade (no date shown). The page says to check which species are illegal to possess, buy, sell or move; that releasing fish into NSW public waters is illegal without a fish stocking permit under the Fisheries Management Act; that buying fish, plants or live rock from overseas on the internet is illegal; and that dumping an unwanted pet fish is an illegal act. It names the Prevention of Cruelty to Animals Act 1979 for animal welfare. The page uses the word illegal for these points, not warning. Publisher: NSW Department of Primary Industries."
+    },
+    {
+      "id": "R3",
+      "title": "Your legal obligation for invasive freshwater animals",
+      "url": "https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations",
+      "pageDate": "Last updated 28 May 2026",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it refers to the Biosecurity Regulation 2016 for the full list of prohibited species and says whom to contact about a suspected one. It does not name aquarium species or set a release rule for aquarium fish. Publisher: Queensland Government."
+    },
+    {
+      "id": "R4",
+      "title": "state and territory rules for keeping, moving, releasing, medicating and disposing of aquarium fish",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Check with the state or territory authority responsible for aquatic biosecurity before the work. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was found or fetched for this entry in this pass."
+    },
+    {
+      "id": "R5",
+      "title": "target temperature, chemistry and maintenance ranges",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Set the targets from the owner's plan or a qualified aquatic specialist. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was found or fetched for this entry in this pass."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-A1: Safe Work Australia, Storing hazardous chemicals, https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals, checked 2026-11-02 (as recorded in the existing draft). Used for the general principle of separate storage only.",
+    "SRC-A2: NSW Department of Primary Industries, Aquarium owners and trade, https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade, checked 2026-11-02, no page date shown. Used for the rule that prohibited and notifiable species cannot be possessed, bought, sold or moved.",
+    "SRC-A3: Queensland Government, Your legal obligation for invasive freshwater animals, https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations, checked 2026-11-02, page last updated 28 May 2026. Used for the biosecurity note.",
+    "Aquarium types reference (uploaded file e65220ee-328158963), parameter lists for freshwater and marine tanks; rights: reworded (no copying).",
+    "research/topics/aquarium.md sections 2, 5 and 7, checked 2026-11-02: sampling and record methods are technique points with no source checked beyond the above.",
+    "UNCONFIRMED: target water-chemistry ranges for freshwater and marine tanks; quarantine and disease-control rules; instrument temperature corrections for each make; biosecurity rules for states other than New South Wales and Queensland.",
+    "R1: Storing hazardous chemicals (Safe Work Australia), https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals; page date: No date shown; read 2026-11-03; status PARTIAL.",
+    "R2: Aquarium owners and trade (NSW Department of Primary Industries), https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade; page date: No date shown; read 2026-11-03; status CONFIRMED.",
+    "R3: Your legal obligation for invasive freshwater animals (Queensland Government), https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations; page date: Last updated 28 May 2026; read 2026-11-03; status PARTIAL.",
+    "R4: UNCONFIRMED, state and territory rules for keeping, moving, releasing, medicating and disposing of aquarium fish; no official page read in this pass.",
+    "R5: UNCONFIRMED, target temperature, chemistry and maintenance ranges; no official page read in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-02.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-03.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    }
+  ]
+}

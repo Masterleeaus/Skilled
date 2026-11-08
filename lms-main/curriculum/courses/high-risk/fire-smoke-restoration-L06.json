@@ -1,0 +1,141 @@
+{
+  "id": "fire-smoke-restoration-L06",
+  "title": "PPE and respiratory protection decisions",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and salvage after a fire or smoke event. Not a qualification or authority to enter a fire-damaged building, release it, or certify it as safe.",
+  "prerequisites": [
+    "fire-smoke-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Explain why PPE and respiratory protection depend on hazard characterisation, fit, training and the employer's program."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how PPE and respiratory protection follow from the hazard assessment, and how to refuse inadequate controls. It does not select, fit or approve any respirator, and PPE does not make unsafe access acceptable. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "PPE and respiratory protection decisions",
+      "body": "PPE and respiratory protection depend on the access, the permitted tasks and the hazard characterisation. Identify the contaminant uncertainty, the worker's medical fitness and training needs, the fit-testing requirements and the local respiratory program. PPE is not a substitute for safe access, hazard characterisation or source control. A worker who offers a disposable dust mask for an unknown ash exposure is proposing an inadequate control. Never infer that a respirator is suitable from its appearance. Where the hazard is beyond the program, flag the case for a competent hygiene adviser. In training, compare PPE requests against a simulated hazard register and flag each case that needs a competent adviser."
+    }
+  ],
+  "procedure": [
+    "Confirm the hazard characterisation before any PPE is selected. If the hazard is uncharacterised, stop.",
+    "Check the worker's training, medical fitness and fit under the employer's respiratory program.",
+    "Select protection for the identified hazard, not for the appearance of the residue.",
+    "Reject a disposable dust mask for unknown ash or an asbestos-suspect exposure.",
+    "Refer cases beyond the program to a competent hygiene adviser.",
+    "Record the PPE request, the fit and medical-fitness record, and any referral."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker offers a disposable dust mask for an unknown ash exposure.",
+      "decisionPrompt": "How should the offer be treated?",
+      "reasoning": "Refuse it as an inadequate control and flag the case for a competent hygiene adviser. The hazard is not characterised, so no respirator is chosen from appearance."
+    },
+    {
+      "situation": "A supervisor asks workers to enter a smoke-damaged room with only a P2 mask because it is quicker.",
+      "decisionPrompt": "What is correct?",
+      "reasoning": "Refuse entry. Western Australian guidance pairs a P2 mask with protective clothing, and entry still needs the release and the assessment. A mask does not replace either."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Respiratory protection chosen from a hazard characterisation, with medical fitness, training and fit verified under the employer's program.",
+    "Protective clothing, sturdy boots and gloves, as the approved plan requires."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a disposable dust mask for an unknown ash exposure.",
+      "prevention": "Flag the case for a competent hygiene adviser. A dust mask is not a fire-residue control."
+    },
+    {
+      "error": "Judging a respirator suitable from its appearance.",
+      "prevention": "Check the fit, the training and the product information for the specific respirator."
+    },
+    {
+      "error": "Relying on PPE to make an unreleased area safe.",
+      "prevention": "PPE is not a substitute for release, hazard characterisation or source control."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not select, fit or approve any respirator. Completing it does not give a licence, certificate or approval.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Western Australian guidance says to wear a P2 face mask and protective clothing even if you are unsure whether asbestos is present.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Fit-testing and medical-fitness requirements follow the employer's program and the rules that apply in the state or territory.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner rejects PPE that does not match the hazard, including a dust mask for unknown ash.",
+    "The learner links each PPE item to the hazard assessment and the employer's program."
+  ],
+  "documentationEvidence": [
+    "PPE request with the hazard, the item, the reason and the program reference.",
+    "Fit and medical-fitness record, with any hygiene-adviser referral."
+  ],
+  "summary": [
+    "PPE follows the hazard assessment.",
+    "A dust mask is not an answer to unknown fire residue.",
+    "PPE supports controls and does not replace release or source control."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "fire-smoke-restoration-L06-K01",
+      "question": "A worker offers a disposable dust mask for an unknown ash exposure. What is correct?",
+      "options": [
+        "Refuse as an inadequate control, and flag the case for a competent hygiene adviser.",
+        "Accept, because a mask is better than nothing and the worker has nothing else available",
+        "Accept if the worker has used it before on similar ash jobs at other sites"
+      ]
+    },
+    {
+      "id": "fire-smoke-restoration-L06-K02",
+      "question": "What does Western Australian guidance advise wearing when debris may contain asbestos, even if its presence is unknown?",
+      "options": [
+        "A paper dust mask only",
+        "A P2 face mask and protective clothing",
+        "No protection until the presence is confirmed"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR05-fire-smoke-restoration.json, instruction section 6 and learning outcome 6; first knowledge check HR05-K06. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: fire-smoke-restoration-lesson-06-instruction-pass65.json; fire-smoke-restoration-lesson-06-research-pass64.json; fire-smoke-restoration-lesson-06-assessment-pass66.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: respirator selection, fit-testing and medical-fitness rules by state and territory. This lesson relies on the employer's program and the local rules.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Asbestos safety after an emergency or disaster",
+      "url": "https://www.wa.gov.au/organisation/worksafe/asbestos-safety-after-emergency-or-disaster",
+      "pageDate": "Last updated: 29 May 2026",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Do not enter a property until authorities confirm it is safe. Avoid spreading ash or moving debris by sweeping or vacuuming. Never use high-pressure sprays; dampen ash and debris lightly to limit dust. Wear a P2 face mask and protective clothing such as sturdy boots and gloves, even if unsure whether asbestos is present. Contact a competent person or licensed asbestos assessor before clean-up starts. If asbestos is confirmed, a licensed asbestos removalist carries out the clean-up. Urgent removal: notify WorkSafe and submit the notification within 24 hours. Emergency work still requires a clearance. WA guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "Fire-scene release, structural and utility isolation, asbestos assessment and removal, and some waste handling are restricted to competent and, where the law requires, licensed people, and may be controlled by fire investigators, the police, structural engineers, utilities or the building owner. Insurer and owner permission do not replace a release from the authority that controls the site. Where that authority is not identified, do not proceed."
+  },
+  "stopWorkAndReferral": [
+    "Stop and refer when the PPE or respirator is not suitable or verified.",
+    "A stop-work decision is correct, so record it and restart only once the competent party confirms the scope in writing."
+  ]
+}

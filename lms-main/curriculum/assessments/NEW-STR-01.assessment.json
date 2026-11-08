@@ -1,0 +1,34 @@
+{
+  "lessonId": "NEW-STR-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STR-01-K01",
+      "correctIndex": 1,
+      "rationale": "Private lots need written authority."
+    },
+    {
+      "id": "NEW-STR-01-K02",
+      "correctIndex": 2,
+      "rationale": "Common property is the shared areas."
+    },
+    {
+      "id": "NEW-STR-01-K03",
+      "correctIndex": 0,
+      "rationale": "Conflicts are referred and recorded."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies common property and private lots on a sample building plan.",
+    "Holds a simulated private-lot request and refers it.",
+    "Records a rule conflict and the referral."
+  ],
+  "passRule": "Common property identified, private-lot request referred, and conflict recorded. Observed in a desk exercise.",
+  "evidenceRequired": [
+    "Annotated building plan",
+    "Conflict and referral record"
+  ],
+  "stopWorkCriteria": [
+    "Private lot entered without written authority",
+    "Fire door propped open"
+  ]
+}

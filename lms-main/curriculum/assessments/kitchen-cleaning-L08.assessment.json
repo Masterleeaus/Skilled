@@ -1,0 +1,37 @@
+{
+ "lessonId": "kitchen-cleaning-L08",
+ "knowledgeAnswers": [
+  {
+   "id": "kitchen-cleaning-L08-K01",
+   "correctIndex": 1,
+   "rationale": "Hot, energised equipment is a burn and electrical hazard."
+  },
+  {
+   "id": "kitchen-cleaning-L08-K02",
+   "correctIndex": 2,
+   "rationale": "Internal powered ductwork is outside routine cleaning scope and needs competent specialist work."
+  },
+  {
+   "id": "kitchen-cleaning-L08-K03",
+   "correctIndex": 0,
+   "rationale": "Imminent fire risk is escalated, not treated by the cleaner alone."
+  }
+ ],
+ "practicalCriteria": [
+  "Confirms equipment is cool and isolated before any external clean in a mock kitchen.",
+  "Cleans only accessible external surfaces and filters within the authorised scope.",
+  "Refuses and escalates a simulated request to clean internal powered ductwork."
+ ],
+ "passRule": "Isolation confirmed, scope respected, and out-of-scope request escalated with a record. Observed by an assessor. Not a licence or certificate.",
+ "evidenceRequired": [
+  "Isolation check record",
+  "Assessor observation sheet",
+  "Escalation record"
+ ],
+ "stopWorkCriteria": [
+  "Equipment energised or hot during cleaning",
+  "Request to clean internal powered ductwork",
+  "Fire suppression or interlock disturbed",
+  "Imminent fire-risk grease observed"
+ ]
+}

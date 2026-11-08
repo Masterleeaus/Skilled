@@ -1,0 +1,154 @@
+{
+  "id": "PSA-05",
+  "title": "Stabilised chlorine and cyanuric acid limits",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Pool and spa service workers who manage stabilised chlorine at outdoor public pools in SA. Figures come from the South Australian standard.",
+  "prerequisites": [
+    "PSA-04"
+  ],
+  "learningOutcomes": [
+    "Explain why sunlight destroys free chlorine and why a stabiliser is used outdoors.",
+    "State the stabiliser range for outdoor public pools, and the ban that applies indoors.",
+    "Decide what to do when stabiliser concentration is too high or too low."
+  ],
+  "instruction": [
+    {
+      "heading": "Why sunlight drives chlorine loss",
+      "body": "Sunlight breaks up free chlorine in pools used outdoors. Stabilisers such as cyanuric acid and its chlorinated relatives are added because they latch onto hypochlorite and form a larger molecule. That reduces losses to sunlight and extends the period during which the chlorine keeps disinfecting."
+    },
+    {
+      "heading": "The trade-off with stabilised chlorine",
+      "body": "Much of the chlorine in a stabilised pool is locked up with the stabiliser and cannot disinfect, so the chlorine concentration has to be higher than in an unstabilised pool. If stabiliser climbs too far, disinfection slows because the chlorine is locked away, and the time needed to destroy pathogens becomes unacceptably long. Keep the stabiliser inside the band, not as high as possible."
+    },
+    {
+      "heading": "The standard's range and the indoor prohibition",
+      "body": "For outdoor public pools that use stabilised chlorine, the prescribed cyanuric acid range is 30 to 50 mg/L. The regulation sets the chlorine range at 30 to 50 mg/L. Regulation 8 says cyanuric acid must not be used to stabilise chlorine in a public swimming pool in an enclosed structure, and regulation 9 says it must not be used to stabilise chlorine in a public spa pool, indoor or outdoor. The regulation's definition of swimming pool includes a hydrotherapy pool, so the enclosed-structure rule for public swimming pools applies to a public indoor hydrotherapy pool. The cyanuric acid provisions do not name hydrotherapy pools."
+    },
+    {
+      "heading": "Why stabiliser has to be replaced",
+      "body": "Losses through evaporation, spray, filter washing and vacuuming away all take water, and the stabiliser with it. Stabiliser therefore runs down over time and must be topped up by partial water replacement. It cannot be removed by chlorine dosing. Only dilution through water replacement brings it down, and the operator must plan this. Do not add more stabiliser to a pool already above the range."
+    }
+  ],
+  "procedure": [
+    "Confirm the pool is outdoor and a public pool before you treat it as stabilised.",
+    "Test cyanuric acid and free chlorine from the operator plan's sample position.",
+    "If cyanuric acid is below 30 mg/L, follow the operator plan to raise it, and do not exceed the range.",
+    "If cyanuric acid is above 50 mg/L, follow the operator plan to reduce it, which usually means partial water replacement.",
+    "Retest, record the values and report any stabiliser problem to the operator."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An outdoor public pool reads cyanuric acid 62 mg/L. A staff member suggests adding more stabiliser because the free chlorine is low.",
+      "decisionPrompt": "What should you do?",
+      "reasoning": "The stabiliser is already above the 50 mg/L limit, and the low free chlorine is a symptom of excess stabiliser locking up the chlorine. Adding more stabiliser makes it worse. Follow the operator plan to reduce stabiliser, which normally means partial replacement, and report the reading."
+    },
+    {
+      "situation": "A new indoor public spa is being set up, and a contractor proposes adding a stabiliser to save on chlorine.",
+      "decisionPrompt": "Is this acceptable?",
+      "reasoning": "No. Regulations forbid stabilisers at indoor public pools, and spas fall under that ban. Refuse the addition and escalate to the operator."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cyanuric acid test kit or meter, in date",
+    "Chemical-resistant gloves and eye protection",
+    "Safety data sheets for stabiliser and chlorine products"
+  ],
+  "commonErrors": [
+    {
+      "error": "Adding stabiliser to an indoor pool.",
+      "prevention": "Stabilisers are prohibited in a public swimming pool in an enclosed structure, which includes a public indoor hydrotherapy pool (the regulation counts it as a swimming pool), and in public spa pools."
+    },
+    {
+      "error": "Assuming stabiliser never runs down.",
+      "prevention": "Evaporation and water removal lower it over time. Test regularly."
+    },
+    {
+      "error": "Adding more stabiliser when it is already above the range.",
+      "prevention": "Above the range, dilute by partial water replacement as the plan sets."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Stabiliser products are chemicals with their own safety data sheets. Storage and handling follow those sheets and the operator plan.",
+      "licenceNotice": true
+    },
+    {
+      "point": "A licence or authorisation may apply to handling or storing pool chemicals in your state or territory. This lesson does not grant one.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The 30 to 50 mg/L range is the South Australian regulation 8 figure for public swimming pools where cyanuric acid is used. Regulation 8 refers to the Standard for the Operation of Swimming Pools and Spa Pools in South Australia, which the regulation describes as prepared in December 1991 and in force from time to time. No revision date is shown for that standard. Confirm the current regulation text.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Stabiliser is tested on outdoor public pools that use stabilised chlorine.",
+    "Stabiliser stays within 30 to 50 mg/L, and no stabiliser is added to an indoor public pool.",
+    "Each adjustment is recorded with the test value and the action taken."
+  ],
+  "documentationEvidence": [
+    "Stabiliser test record with date, value and action",
+    "Water replacement record where partial replacement was used to reduce stabiliser"
+  ],
+  "summary": [
+    "Stabilisers protect outdoor chlorine from sunlight.",
+    "Keep cyanuric acid between 30 and 50 mg/L for outdoor public pools.",
+    "Stabilisers are prohibited in public swimming pools in an enclosed structure, and in public spa pools."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PSA-05-K01",
+      "question": "Under the standard, what is the prescribed cyanuric acid range for outdoor public pools that use stabilised chlorine?",
+      "options": [
+        "10 to 20 mg/L",
+        "30 to 50 mg/L",
+        "60 and 200 mg/L",
+        "Above 100 mg/L"
+      ]
+    },
+    {
+      "id": "PSA-05-K02",
+      "question": "An indoor public spa with low free chlorine is being discussed. Which action is permitted?",
+      "options": [
+        "Add stabiliser to protect the chlorine in every indoor pool and spa on the site each day",
+        "Add a stabiliser only on weekends when the bathers are fewer and the pool is quiet",
+        "Do not add a stabiliser, because the regulations prohibit stabilisers at indoor public pools and spas",
+        "Add stabiliser above 50 mg/L when the pool is open to the public each day and the spa too"
+      ]
+    },
+    {
+      "id": "PSA-05-K03",
+      "question": "Cyanuric acid reads 60 mg/L in an outdoor public pool. What is the most suitable action?",
+      "options": [
+        "Add more stabiliser to balance the chlorine and retest the pool the next day",
+        "Reduce the stabiliser through the operator plan, usually by partial water replacement",
+        "Raise the chlorine dose and leave the stabiliser alone and retest the pool next week",
+        "Leave it until the pool is emptied next season, then retest and carry on as usual"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA, section 6.2 Chlorine stabilised with cyanuric acid, section 7.3 note, tables 1, 3 and 8 (the standard's 2013 revision date is UNCONFIRMED: the regulation gives December 1991, as in force from time to time, and shows no revision date); rights: user-held; reworded (no copying)",
+    "Priority: official South Australian source. It overrides informal, foreign or generic pool advice that conflicts with it. Regulation figures checked against the regulation text on 2026-11-03 (regulation version 1.7.2020); the standard's current text UNCONFIRMED.",
+    "Cross-checked against pool-cleaning-L04 for chemical handling only."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "South Australian Public Health (General) Regulations 2013 (version 1.7.2020)",
+      "url": "https://www.legislation.sa.gov.au/_legislation-documents/lz/c/r/south-australian-public-health-general-regulations-2013/current/2013.41.auth.pdf",
+      "pageDate": "Version 1.7.2020 (the only date shown on the page; no separate last-updated date is shown)",
+      "checked": "2026-11-04",
+      "covers": "Read directly on 2026-11-04 (legislation PDF, version 1.7.2020). Regulation 8(1)(b)(iv) requires cyanuric acid to be maintained between 30 mg/L and 50 mg/L where it is used to stabilise chlorine at public swimming pools, and regulation 8(1)(b)(iii) says it must not be used to stabilise the chlorine if the pool is in an enclosed structure. Regulation 9(1)(b)(iii) says cyanuric acid must not be used to stabilise the chlorine in public spa pools, with no enclosed-structure qualifier. Regulation 3(1) includes a hydrotherapy pool in the definition of swimming pool. Regulation 8 refers to the Standard for the Operation of Swimming Pools and Spa Pools in South Australia; its 2013 revision date and section 6.2 remain UNCONFIRMED because the standard text was not read."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

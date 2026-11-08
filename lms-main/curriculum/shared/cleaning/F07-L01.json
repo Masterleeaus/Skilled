@@ -1,0 +1,139 @@
+{
+  "id": "F07-L01",
+  "title": "Food-contact safety and scope",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Scope and authority",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners working in domestic, short-stay, office and regulated food kitchens.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Identify the type of kitchen and the authorisation that applies before handling food-contact items.",
+    "Recognise tasks and conditions that are outside a routine cleaner's scope.",
+    "Prepare a controlled work area and record what is in and out of scope."
+  ],
+  "instruction": [
+    {
+      "heading": "Confirming the kitchen type and the authority",
+      "body": "A domestic kitchen, a short-stay kitchen, an office kitchenette and a regulated food premises carry different expectations. Before handling benches, utensils, food-contact equipment or stored food, read the work order and the site's food safety plan, and identify which of these you are in. A routine cleaner must not assume authority to dismantle appliances, to handle exposed food, or to carry out food-business verification. When in doubt, the authorised site contact decides."
+    },
+    {
+      "heading": "Preparing the work area",
+      "body": "Ask the authorised site contact to secure or remove exposed food, and to clean or move utensils and personal items before products are applied. Identify the handwashing facilities, water access, ventilation, waste routes and chemical storage. Keep clean and dirty equipment separate, and never place chemical containers on food preparation surfaces."
+    },
+    {
+      "heading": "Recognising exclusions and escalating",
+      "body": "Report pests, suspected contamination, damaged food-contact materials, inaccessible equipment and uncontrolled electrical hazards. Do not use unapproved pesticides, do not dispose of food without authorisation, and do not certify that a food business meets regulatory standards. Record what is in scope and what is out of scope, so that the client and supervisor know where the boundary sits."
+    },
+    {
+      "heading": "The start-work check",
+      "body": "Before starting, confirm that the area has been released for cleaning, that suitable products are available, and that the site instructions state any sanitising and final rinse that are required. Photograph only when authorised, and without capturing private information."
+    }
+  ],
+  "procedure": [
+    "Identify the kitchen type and read the work order and the site food safety plan.",
+    "Ask the authorised contact to secure or remove exposed food and personal items.",
+    "Identify handwashing, water, ventilation, waste and chemical storage.",
+    "Separate clean and dirty equipment, and keep chemicals off food preparation surfaces.",
+    "Report exclusions and escalate pests, contamination and electrical hazards.",
+    "Confirm the start-work check, and record what is in and out of scope."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A domestic client asks the cleaner to sanitise an operating cafe kitchen and certify it safe for food preparation.",
+      "decisionPrompt": "How do you respond?",
+      "reasoning": "Explain that certifying a food business kitchen is outside a routine cleaner's scope and needs the food premises protocol and authorised verification. Limit the work to the approved scope and escalate the request to the supervisor. Record the request and the decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Work order and site food safety plan, available on site.",
+    "Approved products with labels and SDS.",
+    "Gloves and eye protection as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a domestic cleaner is authorised to certify a food business.",
+      "prevention": "Certification is outside scope. Escalate the request."
+    },
+    {
+      "error": "Placing chemical containers on food preparation surfaces.",
+      "prevention": "Keep chemicals on a separate surface and away from food."
+    },
+    {
+      "error": "Disposing of food because it looks spoiled.",
+      "prevention": "Do not dispose of food without authorisation."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not authorise a cleaner to certify that a food business meets regulatory standards, and it does not grant any food safety licence or qualification.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Kitchen type and authority identified before any work.",
+    "Exposed food and personal items protected before products are applied.",
+    "Scope boundary recorded, including the escalated request."
+  ],
+  "documentationEvidence": [
+    "Start-work check record.",
+    "In-scope and out-of-scope record for the job."
+  ],
+  "summary": [
+    "Identify the kitchen type and the authority before handling food-contact items.",
+    "Protect food and keep chemicals off food surfaces.",
+    "Escalate pests, contamination and certification requests.",
+    "Record what is in and out of scope."
+  ],
+  "businessFields": [
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F07-L01-K01",
+      "question": "A client asks you to certify an operating cafe kitchen as safe for food preparation. What is the right response?",
+      "options": [
+        "Explain that certification is outside scope, and escalate the request",
+        "Certify it after cleaning, since it looks finished and safe to use",
+        "Certify it if the client pays extra for the service and the paperwork"
+      ]
+    },
+    {
+      "id": "F07-L01-K02",
+      "question": "Where should chemical containers be placed in a food kitchen?",
+      "options": [
+        "On the food preparation surface for convenience",
+        "Away from food and food preparation surfaces",
+        "In an open food container to keep them handy"
+      ]
+    },
+    {
+      "id": "F07-L01-K03",
+      "question": "Who decides whether exposed food is removed or secured?",
+      "options": [
+        "The cleaner, if it looks spoiled",
+        "The client's friend who is visiting",
+        "The authorised site contact"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/F07-L01.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises. The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+    "UNCONFIRMED: the regulatory standards that a food business must meet and who may certify them, by state and territory."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

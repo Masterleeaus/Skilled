@@ -1,0 +1,35 @@
+{
+  "lessonId": "HSE-02",
+  "knowledgeAnswers": [
+    {
+      "id": "HSE-02-K01",
+      "correctIndex": 1,
+      "rationale": "A check clean inspects every aspect and cleans only the parts that fail, so the element ends in the same state a full clean would leave it."
+    },
+    {
+      "id": "HSE-02-K02",
+      "correctIndex": 1,
+      "rationale": "Cleaning an element that is clean and unused adds cost without a matching infection control benefit."
+    },
+    {
+      "id": "HSE-02-K03",
+      "correctIndex": 1,
+      "rationale": "The SA standard requires the standard clean routinely, irrespective of how clean the element appears."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner inspects a sample element with a pass only when each aspect is checked and only the failing aspects are cleaned",
+    "Learner records the clean type for three sample elements against the schedule, with all three correct"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge-check result (not practical competence)",
+    "Assessor observation of the inspection",
+    "Schedule extract with the clean type recorded"
+  ],
+  "stopWorkCriteria": [
+    "The schedule is missing and no clean type can be confirmed"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

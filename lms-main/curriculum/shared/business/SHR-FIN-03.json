@@ -1,0 +1,192 @@
+{
+  "id": "SHR-FIN-03",
+  "title": "Equipment, vehicles and depreciation for a service business",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Business operations and finance",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners and bookkeepers of small service businesses in Australia who buy tools, equipment or vehicles and need to record them correctly across several years.",
+  "referencesAtStart": "Official source used: ATO, Instant asset write-off for eligible businesses (last updated 28 August 2026). Depreciation rates by asset class, current-year write-off eligibility and private-use vehicles have not yet been confirmed.",
+  "prerequisites": [
+    "SHR-FIN-01"
+  ],
+  "learningOutcomes": [
+    "Separate a purchase that is used up in one period from an asset that is kept for several periods.",
+    "Set up an asset account and a matching accumulated depreciation contra account for one item of equipment.",
+    "Explain why the instant asset write-off or another depreciation treatment must be confirmed for the year by a registered tax agent."
+  ],
+  "instruction": [
+    {
+      "heading": "Why some purchases are kept as assets",
+      "body": "Not every payment is an expense in the month it leaves the bank. A tool, machine or vehicle that the business keeps and uses for several years is first recorded as a non-current asset at its cost. Its cost is then spread across the years in which it helps earn income, through depreciation. The asset account keeps the original cost, so the amount paid stays visible. Accumulated depreciation is a contra-asset account that sits beside it and builds up each period. The carrying amount, sometimes called book value, is the cost less the accumulated depreciation. Depreciation expense is the amount charged to the income statement for the period. Posting it does not move any money, because no cash leaves the bank when the entry is made. Land is listed among non-current assets in many charts, but it is not normally depreciated as an accounting convention, so a land account should not have a depreciation partner account."
+    },
+    {
+      "heading": "Working out an annual charge, and recording a sale",
+      "body": "A simple way to spread cost is the straight-line method. Take the cost of the asset, deduct any amount you expect to get at the end of its life (often nothing for small equipment), and divide the result by the number of years you expect to use it. The answer is the yearly charge, which can be split into months if the asset is bought part-way through a year. Keep a register that lists each asset with its date first used, its cost, the method, the expected life, the charge to date and the carrying amount. When an asset is sold, compare the sale price with its carrying amount. A sale above that amount produces a gain on sale of assets, which the chart records as income. A sale below it produces a loss. Remove both the cost and the accumulated depreciation from the books when the asset leaves the business, so that nothing is left behind on the balance sheet."
+    },
+    {
+      "heading": "Australian tax treatment and what still needs checking",
+      "body": "The tax treatment of a business asset is a separate question from the book entry, and the two can differ. The ATO's instant asset write-off page sets the per-asset threshold at $20,000 for assets first used or installed ready for use on or after 1 July 2023, for businesses with aggregated turnover under $10 million. That page was last updated on 28 August 2026, and its worked examples apply the rule to 2025–26, so check whether it applies to the income year you are recording. Whether a particular asset qualifies, whether the write-off continues in the current year, how the book depreciation should match the tax claim, and the depreciation rates for each class of asset are for a tax agent to confirm. Vehicles used partly for private purposes need a separate treatment, which a tax agent should confirm. Ask a registered tax agent to confirm each point before the figures go into a tax return."
+    }
+  ],
+  "procedure": [
+    "List every tool, machine and vehicle the business buys, and note the date each one is first used.",
+    "Decide whether each item is a non-current asset, usually one kept for several years, or a consumable used up on a job.",
+    "Record each asset at its cost in an asset account, with a matching accumulated depreciation account.",
+    "Calculate the yearly and monthly depreciation charge using the method and expected life written in the register.",
+    "Post the depreciation each period, and check that the carrying amount in the register agrees with the ledger.",
+    "Ask a registered tax agent to confirm the tax treatment for each year, and record the answer with the register.",
+    "On sale or disposal, remove the cost and accumulated depreciation, and record any gain or loss on sale."
+  ],
+  "workedExamples": [
+    {
+      "situation": "In an example, a small cleaning business buys a commercial extractor for $6,000. The price is an invented figure for this example and is not a market price. The business expects to use the machine for five years, with nothing left at the end, and its turnover is well under $10 million.",
+      "decisionPrompt": "What goes in the asset register, what is the yearly book charge, and what question goes to the tax agent before the tax return is prepared?",
+      "reasoning": "Record the $6,000 as an equipment asset in the register, not as an expense in the month of purchase. Using the straight-line method with no residual value, the example book charge is $1,200 a year ($6,000 divided by five), which is $100 a month. After one year the carrying amount is $4,800, the cost less the $1,200 accumulated depreciation. The tax agent should confirm that point, because the book entry and the tax claim may differ."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Asset register in a spreadsheet or the fixed-asset module of the accounting software.",
+    "Purchase invoices for each equipment or vehicle purchase.",
+    "No personal protective equipment is needed for this desk-based lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Expensing a major item in the month of purchase, so the asset never appears on the balance sheet.",
+      "prevention": "Record it as a non-current asset and depreciate it over its expected life, unless the tax agent confirms a different treatment for that year."
+    },
+    {
+      "error": "Depreciating land as if it wears out, or depreciating an asset with no expected life written down.",
+      "prevention": "Write the expected life and method in the register for every depreciable asset, and keep land at cost in the book entries."
+    },
+    {
+      "error": "Treating the instant asset write-off as automatic for every purchase.",
+      "prevention": "Check the threshold, the eligibility rules and the income year before using it, and record the agent's answer."
+    },
+    {
+      "error": "Recording a sale without removing the accumulated depreciation.",
+      "prevention": "Remove the cost and the accumulated depreciation together, then record the gain or loss on sale."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson gives general information and is not tax advice. The ATO's instant asset write-off page, last updated 28 August 2026, gives the $20,000 per-asset threshold for the assets it covers. Recheck the page for the income year you are recording, and confirm the treatment with a registered tax agent.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every asset the business keeps for more than one period is in the asset register with its cost, date first used, method and expected life.",
+    "Each asset account has a matching accumulated depreciation account, and the carrying amount agrees between the register and the ledger.",
+    "Each sale or disposal removes both the cost and the accumulated depreciation, and records any gain or loss on sale.",
+    "Every tax treatment still to be checked is listed with the name of the agent who confirmed it and the date."
+  ],
+  "documentationEvidence": [
+    "Asset register with cost, date first used, method, expected life, accumulated depreciation and carrying amount.",
+    "Purchase invoice and disposal record for each asset.",
+    "Written note of the tax agent's answer for each tax point, with the date."
+  ],
+  "summary": [
+    "A kept asset is recorded at cost, and its cost is spread through depreciation using a contra-asset account.",
+    "The book entry and the tax claim can differ, so the tax treatment is confirmed for each year.",
+    "The asset register is the evidence for every asset, from purchase to sale."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "SHR-FIN-03-K01",
+      "question": "A business buys a tool it expects to use for about five years. Where should the cost sit first?",
+      "options": [
+        "As an expense in the month of purchase, with no record kept",
+        "As a non-current asset, with its cost spread over the years it is used",
+        "As owner's drawings, because the owner paid for it"
+      ]
+    },
+    {
+      "id": "SHR-FIN-03-K02",
+      "question": "What is the role of accumulated depreciation in the chart?",
+      "options": [
+        "It adds to the cost of the asset, so the asset is worth more to the business and the bank",
+        "It is a contra-asset that reduces the carrying amount, and the original cost stays visible",
+        "It is an income account that records the sale of old equipment and the disposal of stock"
+      ]
+    },
+    {
+      "id": "SHR-FIN-03-K03",
+      "question": "Why should the instant asset write-off be confirmed before it is used?",
+      "options": [
+        "It applies to every purchase made by a sole trader in the first year of business and every year after that",
+        "Its rules depend on the year, the asset and the business's eligibility, so an agent should confirm them",
+        "It replaces the need for an asset register and the records of each purchase made in the whole year"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R6",
+      "title": "Instant asset write-off for eligible businesses",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/depreciation-and-capital-expenses-and-allowances/simpler-depreciation-for-small-business/instant-asset-write-off",
+      "pageDate": "Last updated 28 August 2026",
+      "checked": "2026-11-03",
+      "covers": "ATO website: Depreciation and capital expenses and allowances, simpler depreciation for small business. Check the income year and whether the write-off applies in it. Publisher: Australian Taxation Office (ATO)."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: ATO, Instant asset write-off for eligible businesses (last updated 28 August 2026). Depreciation rates, current-year eligibility and private-use vehicles have not yet been confirmed.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Service-business chart of accounts (upload 3919dda5-573933348-CHART-of-ACCOUNTS-Service-Business__1_.txt): non-current asset, contra-asset and gain-on-sale account structure only, generalised to Australian terms; rights: reworded (no copying)",
+    "[R6] https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/depreciation-and-capital-expenses-and-allowances/simpler-depreciation-for-small-business/instant-asset-write-off (last updated 28 August 2026; checked 2026-11-03)",
+    "Straight-line depreciation, residual value and asset register practice: general accounting teaching, not a legal claim; the worked example figures are invented.",
+    "UNCONFIRMED: current-year write-off eligibility; depreciation rates by asset class; treatment of vehicles used partly for private purposes; book-to-tax differences for each asset.",
+    "Conditions vary by state, territory and business structure. A registered tax agent governs the final treatment, and this lesson does not replace that advice."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,42 @@
+{
+  "lessonId": "FPS-02",
+  "knowledgeAnswers": [
+    {
+      "id": "FPS-02-K01",
+      "correctIndex": 0,
+      "rationale": "Soil shields microorganisms and uses up the sanitiser, so the surface must be clean before sanitising."
+    },
+    {
+      "id": "FPS-02-K02",
+      "correctIndex": 1,
+      "rationale": "The source states that chlorine becomes less effective as temperature increases, so the temperature in use matters."
+    },
+    {
+      "id": "FPS-02-K03",
+      "correctIndex": 2,
+      "rationale": "Dissolved chlorine turns acidic and can etch stainless steel with repeated exposure. The remaining choices are unsupported."
+    },
+    {
+      "id": "FPS-02-K04",
+      "correctIndex": 3,
+      "rationale": "The sanitising section says sanitising lowers the count of microorganisms on a surface that has already been cleaned, and it is a second step, not a replacement for cleaning."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner selects a sanitiser for a named surface from a label and SDS, and states the reason for the choice (pass: label, surface and approved list all checked).",
+    "Observer confirms that the learner times the contact time with a timer and records the product and concentration (pass: both recorded).",
+    "Learner identifies a surface with visible soil and stops the sanitising step until the soil is removed (pass: stop recorded)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed product selection sheet with label and SDS references",
+    "Observer checklist for timing and recording",
+    "Record of the stop decision on the soiled surface"
+  ],
+  "stopWorkCriteria": [
+    "Soil is still visible where sanitiser is about to go.",
+    "The product is not on the approved list, or its label does not cover the surface.",
+    "Two products are about to be mixed or applied together.",
+    "The surface material is not known to be compatible with the chosen sanitiser."
+  ]
+}

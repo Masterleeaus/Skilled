@@ -1,0 +1,35 @@
+{
+  "lessonId": "CAR-NEW-02",
+  "knowledgeAnswers": [
+    {
+      "id": "CAR-NEW-02-K01",
+      "correctIndex": 2,
+      "rationale": "Clay removes embedded contamination on a lubricated surface. It does not remove swirls, which need polishing."
+    },
+    {
+      "id": "CAR-NEW-02-K02",
+      "correctIndex": 0,
+      "rationale": "A dropped clay carries grit and is discarded."
+    },
+    {
+      "id": "CAR-NEW-02-K03",
+      "correctIndex": 2,
+      "rationale": "A medium grade is more aggressive, and marring from it needs polishing to remove."
+    }
+  ],
+  "practicalCriteria": [
+    "Touch-tests a sample panel, identifies the rough areas, and maps them on the record.",
+    "Clays one lubricated section of about 45 centimetres square with a fine-grade clay, reshaping the clay as it loads.",
+    "Discards a simulated dropped clay and records the drop."
+  ],
+  "passRule": "Touch test recorded, one section clayed with lubrication and reshaping, and dropped clay discarded. Observed by an assessor. A quiz pass is not a practical pass.",
+  "evidenceRequired": [
+    "Touch-test map",
+    "Record of the clay section and any drop"
+  ],
+  "stopWorkCriteria": [
+    "Clay used dry",
+    "Dropped clay reused",
+    "Chemical decontaminant used on a coated finish without label approval"
+  ]
+}

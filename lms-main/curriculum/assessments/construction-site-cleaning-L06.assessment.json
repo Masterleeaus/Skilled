@@ -1,0 +1,36 @@
+{
+ "lessonId": "construction-site-cleaning-L06",
+ "knowledgeAnswers": [
+  {
+   "id": "construction-site-cleaning-L06-K01",
+   "correctIndex": 2,
+   "rationale": "The hierarchy puts source controls first and personal protection last."
+  },
+  {
+   "id": "construction-site-cleaning-L06-K02",
+   "correctIndex": 0,
+   "rationale": "A seal check is done each time, because the seal can be lost between uses."
+  },
+  {
+   "id": "construction-site-cleaning-L06-K03",
+   "correctIndex": 1,
+   "rationale": "A failed seal means no protection. Leave the area and report."
+  }
+ ],
+ "practicalCriteria": [
+  "Carries out a user seal check before wearing a respirator, and records the result.",
+  "Stops and leaves the area when a simulated seal fails.",
+  "Reports a damaged filter and does not start the task."
+ ],
+ "passRule": "Seal check passed before the task, and failed seal or damaged filter stopped and reported. Observed by an assessor. Not a fit-testing certificate.",
+ "evidenceRequired": [
+  "Seal-check record",
+  "Assessor observation sheet",
+  "Report of the simulated failure"
+ ],
+ "stopWorkCriteria": [
+  "Seal check failed and task started",
+  "Damaged filter in use",
+  "Wrong respirator type for the material"
+ ]
+}

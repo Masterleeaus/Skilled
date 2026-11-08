@@ -1,0 +1,73 @@
+// PROPOSED ONLY. Not part of prisma/schema.prisma. Owned by agent T3, who decides whether to merge it.
+// Source: Desk migrations/DRAFT_chatbot.sql and server/modules/chatbot/schema.DRAFT.ts.
+// Not applied to any database. Not generated. No migration was created.
+//
+// Decisions in this proposal (see CHANGES.md for the full list):
+//  - Model names use the Academy prefix. Tables use academy_ snake_case names, as the existing Academy models do.
+//  - Columns are camelCase with no @map, as the existing Academy models are. The DRAFT SQL uses snake_case columns.
+//  - companyId is String @db.Uuid, as in the DRAFT. This blocks on the tenant key question: LMS
+//    Company ids are cuids, not UUIDs. See CHANGES.md, open question 1.
+//  - CHECK constraints from the DRAFT (ticket_status, role, content_type) are not expressible in Prisma.
+//    They must be added to the migration SQL by hand. Prisma enums were not used, to keep the DRAFT values.
+
+model AcademyChatbot {
+  id                  String   @id @default(uuid())
+  companyId           String   @db.Uuid
+  title               String   @db.VarChar(200)
+  language            String   @default("en") @db.VarChar(10)
+  welcomeMessage      String?  @db.Text
+  instructions        String?  @db.Text
+  generativeUiEnabled Boolean  @default(true)
+  active              Boolean  @default(true)
+  createdAt           DateTime @default(now()) @db.Timestamp(6)
+  updatedAt           DateTime @default(now()) @db.Timestamp(6)
+
+  conversations AcademyChatbotConversation[]
+
+  @@unique([companyId, id], map: "chatbots_company_id_uidx")
+  @@index([companyId, active], map: "chatbots_company_active_idx")
+  @@map("academy_chatbots")
+}
+
+model AcademyChatbotConversation {
+  id               String         @id @default(uuid())
+  companyId        String         @db.Uuid
+  chatbotId        String
+  chatbot          AcademyChatbot @relation(fields: [companyId, chatbotId], references: [companyId, id], map: "chatbot_conversations_company_chatbot_fk")
+  sessionId        String         @db.VarChar(128)
+  channel          String         @default("web") @db.VarChar(32)
+  connectAgentAt   DateTime?      @db.Timestamp(6)
+  isShownOnHistory Boolean        @default(true)
+  ticketStatus     String         @default("new") @db.VarChar(16) // new | closed. CHECK in SQL.
+  pinned           Boolean        @default(false)
+  lastActivityAt   DateTime       @default(now()) @db.Timestamp(6)
+  createdAt        DateTime       @default(now()) @db.Timestamp(6)
+  updatedAt        DateTime       @default(now()) @db.Timestamp(6)
+
+  messages AcademyChatbotMessage[]
+
+  @@unique([companyId, id], map: "chatbot_conversations_company_id_uidx")
+  @@index([companyId, lastActivityAt], map: "chatbot_conversations_company_activity_idx")
+  @@index([companyId, sessionId], map: "chatbot_conversations_company_session_idx")
+  @@map("academy_chatbot_conversations")
+}
+
+model AcademyChatbotMessage {
+  id             String                     @id @default(uuid())
+  companyId      String                     @db.Uuid
+  conversationId String
+  conversation   AcademyChatbotConversation @relation(fields: [companyId, conversationId], references: [companyId, id], map: "chatbot_messages_company_conversation_fk")
+  role           String                     @db.VarChar(16) // user | assistant. CHECK in SQL.
+  message        String                     @db.Text
+  contentType    String                     @default("text") @db.VarChar(16) // text | titan-ui. CHECK in SQL.
+  uiSpec         Json?                      @db.JsonB // validated spec, null for plain text
+  mediaUrl       String?                    @db.Text
+  mediaName      String?                    @db.Text
+  isInternalNote Boolean                    @default(false)
+  readAt         DateTime?                  @db.Timestamp(6)
+  createdAt      DateTime                   @default(now()) @db.Timestamp(6)
+
+  @@index([companyId, conversationId, createdAt], map: "chatbot_messages_company_conversation_idx")
+  @@index([companyId, conversationId, role, readAt], map: "chatbot_messages_unread_idx")
+  @@map("academy_chatbot_messages")
+}

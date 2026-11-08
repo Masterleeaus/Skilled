@@ -1,0 +1,40 @@
+{
+ "lessonId": "SOP-10",
+ "knowledgeAnswers": [
+  {
+   "id": "SOP-10-K01",
+   "correctIndex": 1,
+   "rationale": "Hands are checked for open cuts before gloves go on, and any cut is covered with a waterproof plaster. Gloves do not replace that check."
+  },
+  {
+   "id": "SOP-10-K02",
+   "correctIndex": 2,
+   "rationale": "Dirty areas are disinfected first, then clean areas, so that germs are not carried from dirty surfaces onto clean ones."
+  },
+  {
+   "id": "SOP-10-K03",
+   "correctIndex": 0,
+   "rationale": "Washroom equipment is used only in the washroom and stored by colour, so that washroom materials never reach clean areas."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a supplied washroom, the learner places the cleaning-in-progress sign, ventilates the room and checks for chemical fumes before starting, observed by the assessor.",
+  "The learner checks their hands for cuts, covers a supplied simulated cut with a waterproof plaster, puts on gloves, and states when gloves must be changed.",
+  "On a supplied washroom, the learner cleans the dirty areas before the clean areas, using the designated toilet cloth and brush, with the assessor confirming the order.",
+  "The learner removes gum from a supplied urinal with a litter picker, restocks the supplied consumables, and reports one planted fault on a fixture."
+ ],
+ "passRule": "80% on knowledge checks (three questions, so all three must be correct to reach 80%; flagged for review). Practical sign-off is separate: the assessor signs off each practical criterion as observed.",
+ "evidenceRequired": [
+  "Completed knowledge checks",
+  "Assessor observation record for each practical criterion",
+  "Washroom clean record completed by the learner",
+  "Defect report for the planted fault"
+ ],
+ "stopWorkCriteria": [
+  "Learner starts work with an uncovered cut",
+  "Learner uses washroom equipment outside the washroom",
+  "Learner cleans clean areas before dirty areas, and does not correct the order when asked",
+  "Learner leaves a product within reach of a customer",
+  "Learner forces a blocked toilet or attempts to clear it"
+ ]
+}

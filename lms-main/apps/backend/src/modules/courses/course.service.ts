@@ -1,0 +1,167 @@
+import { Prisma, Role } from "@prisma/client";
+import { prisma } from "../../config/prisma";
+import { AppError, ForbiddenError, NotFoundError } from "../../utils/AppError";
+import { slugify, slugWithSuffix } from "../../utils/slugify";
+import { getPaginationParams, buildPaginationMeta } from "../../utils/pagination";
+import type { CreateCourseInput, UpdateCourseInput, ListCourseQuery } from "./course.validators";
+
+export async function assertCourseOwnership(courseId: string, userId: string, role: Role) {
+  const course = await prisma.course.findUnique({ where: { id: courseId } });
+  if (!course) throw new NotFoundError("Course");
+
+  if (role !== "ADMIN" && course.teacherId !== userId) {
+    throw new ForbiddenError("You do not own this course");
+  }
+
+  return course;
+}
+
+export async function createCourse(input: CreateCourseInput, teacherId: string) {
+  const category = await prisma.category.findUnique({ where: { id: input.categoryId } });
+  if (!category) throw new AppError("Category not found", 404);
+
+  const baseSlug = slugify(input.title);
+  const existing = await prisma.course.findUnique({ where: { slug: baseSlug } });
+  const slug = existing ? slugWithSuffix(baseSlug) : baseSlug;
+
+  return prisma.course.create({
+    data: { ...input, slug, teacherId },
+  });
+}
+
+export async function listCourses(query: ListCourseQuery) {
+  const { page, limit, skip } = getPaginationParams(query);
+
+  const where: Prisma.CourseWhereInput = {
+    ...(query.categoryId && { categoryId: query.categoryId }),
+    ...(query.level && { level: query.level }),
+    ...(query.teacherId && { teacherId: query.teacherId }),
+    // Public catalogue must never disclose draft courses, even when a caller requests published=false.
+    isPublished: true,
+    deletedAt: null,
+    ...(query.search && {
+      OR: [
+        { title: { contains: query.search, mode: "insensitive" } },
+        { description: { contains: query.search, mode: "insensitive" } },
+      ],
+    }),
+  };
+
+  const [courses, total] = await prisma.$transaction([
+    prisma.course.findMany({
+      where,
+      skip,
+      take: limit,
+      orderBy: { createdAt: "desc" },
+      include: {
+        category: { select: { id: true, name: true, slug: true } },
+        teacher: { select: { id: true, fullName: true, avatarUrl: true } },
+        _count: { select: { enrollments: true, reviews: true } },
+      },
+    }),
+    prisma.course.count({ where }),
+  ]);
+
+  return { courses, pagination: buildPaginationMeta(total, page, limit) };
+}
+
+async function loadCourseBySlug(slug: string) {
+  const course = await prisma.course.findUnique({
+    where: { slug },
+    include: {
+      category: true,
+      teacher: { select: { id: true, fullName: true, avatarUrl: true } },
+      modules: {
+        orderBy: { orderIndex: "asc" },
+        include: { lessons: { orderBy: { orderIndex: "asc" } } },
+      },
+      _count: { select: { enrollments: true, reviews: true } },
+    },
+  });
+  if (!course || course.deletedAt) throw new NotFoundError("Course");
+  return course;
+}
+
+// Public course details must never expose unpublished teacher drafts.
+export async function getCourseBySlug(slug: string) {
+  const course = await loadCourseBySlug(slug);
+  if (!course.isPublished) throw new NotFoundError("Course");
+  return course;
+}
+
+// Teacher and administrator preview is authenticated and ownership checked.
+export async function getCourseBySlugForManager(slug: string, userId: string, role: Role) {
+  const course = await loadCourseBySlug(slug);
+  await assertCourseOwnership(course.id, userId, role);
+  return course;
+}
+
+export async function updateCourse(
+  courseId: string,
+  input: UpdateCourseInput,
+  userId: string,
+  role: Role,
+) {
+  await assertCourseOwnership(courseId, userId, role);
+
+  const data: Prisma.CourseUpdateInput = { ...input };
+
+  if (input.title) {
+    const baseSlug = slugify(input.title);
+    const existing = await prisma.course.findFirst({
+      where: { slug: baseSlug, NOT: { id: courseId } },
+    });
+    data.slug = existing ? slugWithSuffix(baseSlug) : baseSlug;
+  }
+
+  return prisma.course.update({ where: { id: courseId }, data });
+}
+
+export async function setPublishStatus(
+  courseId: string,
+  isPublished: boolean,
+  userId: string,
+  role: Role,
+) {
+  const course = await assertCourseOwnership(courseId, userId, role);
+
+  if (isPublished) {
+    const moduleCount = await prisma.module.count({ where: { courseId: course.id } });
+    // Academy content reaches learners through attached tracks, not modules. A course with
+    // neither modules nor a published track that has lesson placements has no content.
+    const publishedTrackCount = await prisma.academyCourseTrack.count({
+      where: { courseId: course.id, track: { status: "PUBLISHED", placements: { some: {} } } },
+    });
+    if (moduleCount === 0 && publishedTrackCount === 0) {
+      throw new AppError("Cannot publish a course with no modules or published tracks", 400);
+    }
+  }
+
+  const updated = await prisma.course.update({ where: { id: courseId }, data: { isPublished } });
+
+  const { recordAuditLog } = await import("../audit/audit.service");
+  await recordAuditLog({
+    userId,
+    action: isPublished ? "COURSE_PUBLISHED" : "COURSE_UNPUBLISHED",
+    entity: "Course",
+    entityId: courseId,
+    oldValue: { isPublished: course.isPublished },
+    newValue: { isPublished },
+  });
+
+  return updated;
+}
+
+export async function deleteCourse(courseId: string, userId: string, role: Role) {
+  const course = await assertCourseOwnership(courseId, userId, role);
+  await prisma.course.delete({ where: { id: courseId } }); // soft-delete
+
+  const { recordAuditLog } = await import("../audit/audit.service");
+  await recordAuditLog({
+    userId,
+    action: "COURSE_DELETED",
+    entity: "Course",
+    entityId: courseId,
+    oldValue: { title: course.title, isPublished: course.isPublished },
+  });
+}

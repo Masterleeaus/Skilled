@@ -1,0 +1,35 @@
+{
+  "lessonId": "CGC-05",
+  "knowledgeAnswers": [
+    {
+      "id": "CGC-05-K01",
+      "correctIndex": 1,
+      "rationale": "Prompt investigation finds the cause and prevents a repeat. Ignoring or delaying the review does not."
+    },
+    {
+      "id": "CGC-05-K02",
+      "correctIndex": 1,
+      "rationale": "Prompt sharing lets staff act on gaps. Keeping results private or sending them only to an accountant does not."
+    },
+    {
+      "id": "CGC-05-K03",
+      "correctIndex": 1,
+      "rationale": "Aggregate reports show patterns that point to hazards, control changes and training needs."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a sample event, the learner records the cause in the system and one action, and the assessor agrees the cause is systemic rather than personal, or explains why",
+    "The learner completes an audit of six observed items and feeds back the result within a set time in a role-play",
+    "The learner reads a three-month summary and names one hazard, one control change and one training need"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Event investigation record",
+    "Audit record and feedback note",
+    "Aggregate summary with the three named items"
+  ],
+  "stopWorkCriteria": [
+    "Stop an audit if observation would breach a person's privacy or dignity; escalate",
+    "Stop any action that singles out one person before the system has been checked"
+  ]
+}

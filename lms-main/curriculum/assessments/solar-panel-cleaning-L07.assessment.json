@@ -1,0 +1,44 @@
+{
+  "lessonId": "solar-panel-cleaning-L07",
+  "knowledgeAnswers": [
+    {
+      "id": "solar-panel-cleaning-L07-K01",
+      "correctIndex": 3,
+      "rationale": "The manufacturer's instructions for the model and any warranty conditions are checked before a method is approved. The customer's preference, the last job or the frame colour are not the basis."
+    },
+    {
+      "id": "solar-panel-cleaning-L07-K02",
+      "correctIndex": 0,
+      "rationale": "A worker does not certify the warranty either way. The question is recorded and referred in writing to the manufacturer or installer."
+    },
+    {
+      "id": "solar-panel-cleaning-L07-K03",
+      "correctIndex": 1,
+      "rationale": "The copy of the instructions, or the model reference used to choose the method, is kept with the job record so the choice can be traced."
+    },
+    {
+      "id": "solar-panel-cleaning-L07-K04",
+      "correctIndex": 2,
+      "rationale": "A method that the instructions do not cover is not assumed to be allowed. The worker stops and uses only an approved method, or refers the question before proceeding."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner records the panel model from the frame or installation documents for a supplied scenario.",
+    "The learner selects a method that the supplied instruction allows, and records the source and date.",
+    "The learner holds a method that is not covered by the instructions, and refers the question in writing.",
+    "The learner writes a referral for a warranty question and makes no warranty statement."
+  ],
+  "passRule": "Knowledge checks: 80% correct (4 of 5). Practical sign-off is assessed separately on a model and instruction scenario. A knowledge pass does not verify method selection in the field.",
+  "evidenceRequired": [
+    "Model reference and the source of the cleaning instructions, with the date",
+    "Method, products and equipment recorded against the instructions",
+    "Record of any unknown and the hold decision",
+    "Written referral for warranty or method questions"
+  ],
+  "stopWorkCriteria": [
+    "The learner uses a method because it worked on a different model.",
+    "The learner tells a customer the warranty is not affected.",
+    "The learner uses high-pressure equipment on a model whose instructions do not allow it.",
+    "The learner uses the installer's document without checking it matches the model."
+  ]
+}

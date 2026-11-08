@@ -1,0 +1,185 @@
+{
+  "id": "CPV-04",
+  "title": "Sampling: swabs, rinse samples and sample locations",
+  "courseSlugs": [
+    "appliance",
+    "aquarium",
+    "beauty",
+    "bond",
+    "cardetail",
+    "carpet",
+    "commercial",
+    "construction",
+    "deck",
+    "dogwalk",
+    "flatpack",
+    "furniture",
+    "garden",
+    "groom",
+    "hair",
+    "handyman",
+    "hardfloor",
+    "healthcare",
+    "irrigation",
+    "landscaping",
+    "lawn",
+    "locksmith",
+    "massage",
+    "medequip",
+    "painting",
+    "petsit",
+    "plastering",
+    "pond",
+    "pool",
+    "portfolio",
+    "postcon",
+    "pressure",
+    "pt",
+    "residential",
+    "roof",
+    "shortstay",
+    "solar",
+    "stone",
+    "strata",
+    "tiling",
+    "timber",
+    "window",
+    "yoga"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Quality technicians and supervisors who plan or take surface and rinse samples for a validation study.",
+  "prerequisites": [
+    "CPV-03",
+    "F03-L02"
+  ],
+  "learningOutcomes": [
+    "Explain the two accepted sampling methods, direct surface swabbing and rinse sampling, and when each is used.",
+    "Explain why a result needs its sampled area, and why residue can be patchy.",
+    "Explain why a rinse result has to measure the residue, rather than only the purity of the liquid.",
+    "Describe the link between sampling and recovery testing."
+  ],
+  "instruction": [
+    {
+      "heading": "Two accepted methods and when to use them",
+      "body": "The guide recognises two acceptable routes. Direct surface sampling, usually by swab, tests the surface itself. Indirect sampling collects residue into a rinse liquid, which is then tested. Combining both is frequently the strongest option, especially when some parts are out of swab reach. Which route fits depends on the apparatus and on how soluble the residue is: swabbing suits stubborn spots and residues that do not dissolve well, while rinse sampling suits residues that dissolve and internal areas that cannot be opened up."
+    },
+    {
+      "heading": "Residue is not spread evenly",
+      "body": "Residue is patchy. A swab taken from one small spot may miss the highest level present, so a low result does not prove that the whole surface is clean. A swab result means nothing unless the swabbed area is known, which is why the protocol defines the swab area. Each sampling site needs a stated justification. The swabbing technique in the study must match the technique used in the recovery test, so that the two can be compared."
+    },
+    {
+      "heading": "A rinse has to measure the residue",
+      "body": "A rinse sample is useful only if the residue itself is measured in the rinse. A rinse that proves only that the liquid meets its own purity specification says nothing about the residue left on the equipment. The guide is firm on this point: where a rinse is the sampling route, the residue must be measured directly in its extraction solvent. Rinse samples can also cover large areas that cannot be swabbed completely, but the rationale behind the chosen rinse volume, and the surface it stands for, must be written down."
+    }
+  ],
+  "procedure": [
+    "Choose the sampling method for each location, and record the reason for the choice.",
+    "Mark each sample location and define the swab area or the rinse volume.",
+    "Use the same swabbing technique as the recovery study, and keep it consistent.",
+    "Rotate locations and avoid repeat samples from the identical spot.",
+    "Measure the residue itself in the rinse or swab extract, not only the rinse liquid's purity.",
+    "Record the location, method, area or volume, time and the sampler's name for each sample."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A tank has an internal sensor port with a gasket. The sampling plan includes swabs of the gasket and two lid areas, plus a final rinse.",
+      "decisionPrompt": "What must the record show for each swab and for the rinse?",
+      "reasoning": "Each swab records the location, the defined area and the technique used. The rinse records the volume and the residue measured in it, along with the surface it represents and the reason the rinse was chosen."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Sampling kit with defined swab area template",
+    "Solvent or rinse medium named in the protocol",
+    "Gloves and eye protection; solvent-resistant gloves where the SDS requires",
+    "Labelled sample containers and a sample log"
+  ],
+  "commonErrors": [
+    {
+      "error": "Recording a swab result without the swabbed area.",
+      "prevention": "Always record the area swabbed, so the result can be interpreted."
+    },
+    {
+      "error": "Testing the rinse liquid for purity instead of the residue.",
+      "prevention": "Measure the residue itself in the rinse."
+    },
+    {
+      "error": "Taking every sample from the same easy spot.",
+      "prevention": "Rotate locations and document each one."
+    },
+    {
+      "error": "Using a different swab technique from the recovery study.",
+      "prevention": "Use the same technique in both the study and the recovery test."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Use the practice content only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Solvents used to extract residue are hazardous. Follow the SDS for each solvent, use the protective equipment it specifies, and ventilate the area.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Samples may contain residue of potent or toxic material. Label, store and dispose of samples under the site's procedure.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each sample has a recorded location, method, area or volume, time and sampler.",
+    "The rinse result is for the residue itself.",
+    "Sampling locations are rotated and no repeat sample comes from an identical spot."
+  ],
+  "documentationEvidence": [
+    "Sample log with location, method, area or volume, time and sampler.",
+    "Reasons given for the sampling method and each location."
+  ],
+  "summary": [
+    "Swabs test surfaces; rinses test large or inaccessible areas; a combination is often best.",
+    "Residue is uneven, so a low swab result needs its sampled area and location to be interpreted.",
+    "Measure the residue itself in a rinse, not only the rinse liquid's purity.",
+    "Use the same technique in the study and the recovery test."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "CPV-04-K01",
+      "question": "What is a rinse sample used for in cleaning validation?",
+      "options": [
+        "Checking the purity of the rinse water only and not the residue on the surface",
+        "Replacing all swabbing in every case with a rinse on every surface",
+        "Sampling large or inaccessible surfaces by collecting residue in a solvent",
+        "Checking the cleaner's pay rate and the hours worked each week"
+      ]
+    },
+    {
+      "id": "CPV-04-K02",
+      "question": "A swab result is reported without the swabbed area. What is the problem?",
+      "options": [
+        "The result is automatically a pass and the lab signs it off today",
+        "Swab areas are optional in every study if the lab agrees to it",
+        "The swab must have been wet before it was used on the surface today",
+        "The result cannot be interpreted, because the amount per area is unknown"
+      ]
+    },
+    {
+      "id": "CPV-04-K03",
+      "question": "Why might a low swab result still be misleading?",
+      "options": [
+        "The residue may be uneven, so the swab may have missed the highest spot",
+        "Swabs read higher than the true residue, so the result is inflated",
+        "Swab results are only read in darkness and only by the lab staff",
+        "Residue falls below detection only after the third rinse and only in the dark"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Processes and Cleaning Validation, Guidance Document SGD-105-CLN Rev. 10 (Validation in Partnership Ltd, 25 May 2007; pharmaceutical and biological CGMP with US and EU references, not Australian), sections: 6.4 Direct/Indirect Sampling Methods; 6.5 Rinse Water Samples; 6.7 Swabs; 7.8 Sampling (direct surface sampling and rinse samples); 6.2 and 6.9 (method reliability); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Pharmaceutical scope; Australian requirement UNCONFIRMED. Cross-checked against HCG-12 (environmental sampling should not replace cleaning checks) for the Australian position."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

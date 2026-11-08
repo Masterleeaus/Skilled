@@ -1,0 +1,151 @@
+{
+  "id": "MP-04-petsit",
+  "title": "Break-even analysis with a worked calculation for Pet and house sitting",
+  "courseSlugs": [
+    "petsit"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Pet and house sitters who set prices or plan monthly income from bookings, including those who take bookings through platforms.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a home-service business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a sitter",
+      "body": "Break-even revenue is the amount of booking income that covers all costs exactly, so profit is zero. Below it you lose money; above it, each extra dollar adds to profit. For a sitter, the figure shows how many paid visits or stays a month you need before income starts to add to profit. It is a planning tool, and its answer depends on the costs and percentages you put in."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of bookings. They include vehicle registration and loan repayments, insurance, phone and software, and any registration fee spread over a year. Variable costs move with each booking. They include consumables such as litter, bags and treats, fuel for visits, and any platform or payment fee taken from each booking. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss (ANZ, 21 February 2025). Express variable cost as a share of sales for the same period, and check that share across at least three months."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. The quantity one minus the variable percentage is the contribution margin. Xero's glossary sets out the same method and says a job count is rounded up to whole jobs (Xero Australia, 23 July 2026). The glossary's own product examples are not used here."
+    },
+    {
+      "heading": "Put the platform fee into the variable percentage",
+      "body": "Where a platform takes a share of each booking, that share is a variable cost. A Rover help-centre page (UK, no date shown) says sitters keep 85 per cent of earnings from each booking, which leaves Rover with 15 per cent. That figure belongs to Rover and is not confirmed as the current Australian fee. Confirm the fee for each platform you use. The research did not check other platforms."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is monthly, that the variable percentage is a share of sales, and that the output is revenue and not profit. Then write the reconciled figure with its inputs and drop the others. A figure that cannot be checked should not be used to set a price."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label it fixed or variable, including any platform fee taken from each booking.",
+    "Work out variable cost as a percentage of booking income for the same period, across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average booking price, on the same price basis, and round up to whole bookings.",
+    "Recalculate when a platform fee, the booking mix or a fixed cost changes."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market data. A sitter has fixed costs of $900 a month (illustrative), variable costs of 6 per cent of sales for consumables and payment fees (illustrative), and takes all her bookings through a platform that charges a 15 per cent fee on each booking (the fee is Rover's stated rate, used here for illustration and not confirmed for Australia). Her average booking price is $200 (illustrative).",
+      "decisionPrompt": "How many bookings must she complete each month to break even, and what should she check before she sets prices?",
+      "reasoning": "Her variable costs are 6 per cent plus the 15 per cent platform fee, which is 21 per cent of sales, so the contribution margin is 0.79. Break-even revenue is $900 divided by 0.79, which is $1,139.24 a month. At $200 a booking, that is 5.70 bookings, so she needs 6 bookings a month to cover her costs. Each booking contributes $158.00 towards fixed costs. Before setting prices, she checks the platform fee she is actually charged on her own bookings, and that the $900 is a monthly figure."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, labelled fixed or variable",
+    "Calculator or spreadsheet",
+    "Platform payout statements for the same months"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Treating a platform fee as a fixed cost",
+      "prevention": "Put any fee taken per booking into the variable percentage."
+    },
+    {
+      "error": "Mixing gross and net booking prices",
+      "prevention": "Use the same price basis as the variable percentage throughout."
+    },
+    {
+      "error": "Copying a break-even figure from another sitter's plan",
+      "prevention": "Recalculate from your own records and record the source and date of each input."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any registration, licence or authority to run a pet sitting or boarding business in any state or territory. Check the rules that apply where you work.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The 15 per cent platform fee in the example comes from a UK Rover help-centre page with no date shown. It is not confirmed as the current Australian fee, and other platforms were not checked.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, its variable percentage including any platform fee, its period and its price basis.",
+    "Two figures that disagree are reconciled before either is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Put platform fees in variable costs, and use one price basis throughout.",
+    "Recalculate from your own inputs; do not copy another sitter's figures."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-petsit-K01",
+      "question": "Break-even revenue for a pet sitter is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Booking income minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-petsit-K02",
+      "question": "Fixed costs are $900 a month and variable costs, including a platform fee, are 21% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$1,139.24",
+        "$189.00",
+        "$4,285.71",
+        "$900.00"
+      ]
+    },
+    {
+      "id": "MP-04-petsit-K03",
+      "question": "Two sources give different break-even figures for the same sitting business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller one",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures and quote the result to the owner today",
+        "Use the platform's listed rates alone and skip the check"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025.",
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026.",
+    "Rover help centre, sitter earnings article, https://support-uk.rover.com/hc/en-gb/articles/360000909143, no date shown. UK help page; applies to Rover, not an Australian rate.",
+    "Hypothetical figures ($900 fixed, 6 per cent variable, $200 a booking) are illustrative only and are not market data.",
+    "Gap: no Australian platform fee schedule was checked; the 15 per cent figure is Rover's UK help-page figure."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

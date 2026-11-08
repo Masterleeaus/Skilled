@@ -1,0 +1,28 @@
+{
+  "lessonId": "drug-contamination-remediation-L11",
+  "knowledgeAnswers": [
+    {
+      "id": "drug-contamination-remediation-L11-K01",
+      "correctIndex": 2,
+      "rationale": "A visit and a wipe cannot support a zero-contamination statement. Independent verification is required."
+    },
+    {
+      "id": "drug-contamination-remediation-L11-K02",
+      "correctIndex": 0,
+      "rationale": "The WA guidance recommends a separate validating company."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner writes a refusal for a fictional zero-contamination request, stating the basis offered and the verification needed. Pass: both are stated and the statement is refused.",
+    "The learner identifies a conflict in a fictional validation arrangement and writes the request for independent validation. Pass: the conflict and the request are both stated."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Refusal record (fictional)",
+    "Verification request (fictional)"
+  ],
+  "stopWorkCriteria": [
+    "A zero-contamination or clearance statement is requested without independent verification.",
+    "The validating party is the same as the clean-up party."
+  ]
+}

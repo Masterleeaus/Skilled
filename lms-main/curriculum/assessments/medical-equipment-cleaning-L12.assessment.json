@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-equipment-cleaning-L12",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L12-K01",
+   "correctIndex": 1,
+   "rationale": "Competence is observed by a supervisor against defined criteria, on the facility's equipment, and recorded by the facility. A knowledge check or certificate is not competence."
+  },
+  {
+   "id": "medical-equipment-cleaning-L12-K02",
+   "correctIndex": 2,
+   "rationale": "Each item is assessed separately. The approved item is cleaned within its instruction, and the restricted and unidentified items are left as found and escalated."
+  },
+  {
+   "id": "medical-equipment-cleaning-L12-K03",
+   "correctIndex": 0,
+   "rationale": "Stopping at the boundary of authority prevents unauthorised or unsafe work, which protects both the patient and the worker. A stop is a correct decision, not a failure."
+  }
+ ],
+ "practicalCriteria": [
+  "In a supervised multi-item room, the learner cleans only the approved item, within its instruction, and leaves the other items as found.",
+  "Given a request to wipe a reusable instrument during a demonstration, the learner declines, explains the reason, and tells the supervisor that the instrument needs the reprocessing team.",
+  "When a contact condition is not met during the demonstration, the learner corrects the record to show the unmet condition and the actual time."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Supervisor observation sheet against each criterion, signed by the assessor",
+  "Record of the declined instrument request",
+  "Corrected work record for the unmet contact condition"
+ ],
+ "stopWorkCriteria": [
+  "Learner cleans a restricted or unidentified item",
+  "Learner signs for a criterion the supervisor did not observe",
+  "Learner rushes the remaining steps after a stop in order to recover"
+ ]
+}

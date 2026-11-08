@@ -1,0 +1,35 @@
+{
+ "lessonId": "C01-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "C01-L01-K01",
+   "correctIndex": 2,
+   "rationale": "The lesson says work starts from the authorised scope and site instructions, and that a locked room on an old checklist is not entered. Cleaners do not isolate or switch off the system."
+  },
+  {
+   "id": "C01-L01-K02",
+   "correctIndex": 3,
+   "rationale": "The stop-work rule requires stopping, making the area safe and telling the supervisor before resuming when the task or conditions are uncertain."
+  },
+  {
+   "id": "C01-L01-K03",
+   "correctIndex": 0,
+   "rationale": "The lesson's completion criteria require evidence of accurate scope interpretation and reliable handover. Self-reports and time spent do not show that."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner states, for each site on a supplied roster, the location of the first aid kit, extinguisher, assembly point and incident form.",
+  "Learner identifies an unlabelled product in a supplied store, sets it aside and reports it without using it.",
+  "Learner completes a supplied shift sequence from sign-in to a verbal handover and leaves the shift records complete."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Sign-in record for the shift and sites visited",
+  "Completed shift handover checklist signed by the supervisor",
+  "Record of any defect, unlabelled product or incident found on the shift"
+ ],
+ "stopWorkCriteria": [
+  "Learner starts work before confirming the emergency contact and first aid location",
+  "Learner uses an unlabelled product"
+ ]
+}

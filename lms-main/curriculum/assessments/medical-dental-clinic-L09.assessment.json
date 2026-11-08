@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-dental-clinic-L09",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-dental-clinic-L09-K01",
+   "correctIndex": 1,
+   "rationale": "A sharp is not handled by hand. The cleaner keeps others away and calls the designated sharps response person. Options 0 and 2 both involve handling or hiding a sharp."
+  },
+  {
+   "id": "medical-dental-clinic-L09-K02",
+   "correctIndex": 2,
+   "rationale": "An overfilled container is left as found and reported. Pushing, tipping or carrying clinical waste on a trolley is outside the cleaner's role."
+  },
+  {
+   "id": "medical-dental-clinic-L09-K03",
+   "correctIndex": 0,
+   "rationale": "After a sharp injury or splash, the task stops and the clinic exposure procedure is followed at once. Squeezing a wound or delaying the report is not acceptable."
+  }
+ ],
+ "practicalCriteria": [
+  "Given three supplied scenarios (sharp, blood contamination, overfilled container), the learner identifies each and states the escalation steps in order, without handling the item.",
+  "In a simulation, the learner describes the exposure response in order and names the person to notify.",
+  "The learner records a supplied item and its escalation with the location, time and person called, and no handling recorded."
+ ],
+ "passRule": "Practical competence requires facility-observed assessment against the criteria above. A pass on the knowledge checks is not practical competence.",
+ "evidenceRequired": [
+  "Signed scenario sheet for the three supplied items",
+  "Observation note of the exposure response in simulation",
+  "Completed escalation record for a supplied item"
+ ],
+ "stopWorkCriteria": [
+  "Learner picks up, moves or pushes a sharp or a sharps container by hand",
+  "Learner moves, tips or carries clinical waste on a trolley",
+  "Learner continues a task after a sharp injury or splash without following the exposure procedure"
+ ]
+}

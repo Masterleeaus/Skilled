@@ -1,0 +1,40 @@
+{
+ "lessonId": "PHM-07",
+ "knowledgeAnswers": [
+  {
+   "id": "PHM-07-K01",
+   "correctIndex": 2,
+   "rationale": "A heater transfers heat to water passing through it, so flow is required. The handbook makes this point directly."
+  },
+  {
+   "id": "PHM-07-K02",
+   "correctIndex": 3,
+   "rationale": "A tripped device signals a fault or low flow. The cause is found, and gas work is referred to a licensed person."
+  },
+  {
+   "id": "PHM-07-K03",
+   "correctIndex": 0,
+   "rationale": "Gas installation needs a registered person. This lesson does not confirm Australian licensing, which must be checked."
+  }
+ ],
+ "practicalCriteria": [
+  "Pump flow is observed and recorded before heater settings are read",
+  "Heat pump air intake and outlet are checked and cleared where blocked",
+  "Any tripped safety device is recorded with the cause identified or referred, and not reset repeatedly",
+  "No installation, connection or adjustment of gas or electrical parts is attempted"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Heater check record from one supervised visit",
+  "Assessor observation sign-off",
+  "Referral note for any gas, electrical or oil concern"
+ ],
+ "stopWorkCriteria": [
+  "Heater operated with no water flow",
+  "Safety device bypassed, taped or removed",
+  "Gas or electrical parts connected, adjusted or repaired without a licensed person",
+  "Heat pump air path blocked and left that way"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

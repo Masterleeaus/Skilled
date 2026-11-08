@@ -1,0 +1,40 @@
+{
+  "lessonId": "industrial-degreasing-L06",
+  "knowledgeAnswers": [
+    {
+      "id": "industrial-degreasing-L06-K01",
+      "correctIndex": 1,
+      "rationale": "An unidentified agent and an unknown glove cannot be shown to protect the worker. The learner refuses, asks for the SDS and approved PPE, and records the request."
+    },
+    {
+      "id": "industrial-degreasing-L06-K02",
+      "correctIndex": 0,
+      "rationale": "A possible exposure is stopped at once. The learner leaves the source, tells the supervisor and follows the emergency route, without waiting for symptoms to pass."
+    },
+    {
+      "id": "industrial-degreasing-L06-K03",
+      "correctIndex": 2,
+      "rationale": "Contaminated PPE is removed and stored in the work area, so it does not travel to the break room or home."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies the emergency route, first-aid contact, eyewash and first-aid kit on a fictional site brief before starting.",
+    "Refuses a simulated unidentified agent and an unknown glove, and requests the SDS and the PPE it names.",
+    "Selects PPE from a sample SDS, and states that the higher controls were checked first.",
+    "Completes a simulated exposure concern record with time, product, symptoms, first aid given and people informed, and stops the task.",
+    "Places contaminated PPE in the designated work-area store in the simulation."
+  ],
+  "passRule": "All five practical criteria observed as met in a desk or tabletop exercise. The knowledge check result is not a practical pass, and this assessment is not a health or safety certificate.",
+  "evidenceRequired": [
+    "Annotated fictional site brief showing the emergency route and first-aid contacts",
+    "Sample SDS annotation showing the PPE selected",
+    "Completed exposure concern record for the simulated event",
+    "Assessor observation note for each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "Unidentified agent or unknown glove used",
+    "Possible exposure not escalated, or work resumed before the supervisor confirmed the area",
+    "Contaminated PPE worn or carried outside the work area",
+    "Higher controls skipped and PPE used as the only control without justification"
+  ]
+}

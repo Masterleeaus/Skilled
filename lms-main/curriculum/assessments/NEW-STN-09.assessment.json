@@ -1,0 +1,46 @@
+{
+  "lessonId": "NEW-STN-09",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STN-09-K01",
+      "correctIndex": 0,
+      "rationale": "A sealer reduces absorption and staining. It does not repair damage, fill cracks or hide defects."
+    },
+    {
+      "id": "NEW-STN-09-K02",
+      "correctIndex": 1,
+      "rationale": "Sealing over residue traps the contamination and can affect the finish and the cure."
+    },
+    {
+      "id": "NEW-STN-09-K03",
+      "correctIndex": 2,
+      "rationale": "Thin, even coats that follow the product data are the correct method. Thick coats trap solvent and can leave lines."
+    },
+    {
+      "id": "NEW-STN-09-K04",
+      "correctIndex": 3,
+      "rationale": "The client care note must give the written cure time, the approved cleaners and the re-seal interval."
+    },
+    {
+      "id": "NEW-STN-09-K05",
+      "correctIndex": 0,
+      "rationale": "The client should use only the cleaners listed in the product care guidance, because other cleaners can damage the finish."
+    }
+  ],
+  "practicalCriteria": [
+    "Confirms the surface is clean, dry and tested before sealing",
+    "Applies thin, even coats that follow the product data",
+    "Records the product, batch and cure conditions",
+    "Gives the client a written care note at handover"
+  ],
+  "passRule": "Knowledge checks: 4 of 5 correct (80%). Practical sign-off is separate and is not granted by the knowledge check: an assessor must observe every critical practical criterion and record it.",
+  "evidenceRequired": [
+    "Product and batch record with coat count and cure conditions",
+    "Signed client care note"
+  ],
+  "stopWorkCriteria": [
+    "Surface not dry to the product requirement",
+    "Test patch not passed",
+    "Sealer not approved for the stone and finish"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-FUR-05",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-FUR-05-K01",
+      "correctIndex": 2,
+      "rationale": "Dust bags alone do not capture fine dust efficiently. On-tool extraction connected to a collector is needed (WorkSafe Victoria, read 2026-11-02)."
+    },
+    {
+      "id": "NEW-FUR-05-K02",
+      "correctIndex": 0,
+      "rationale": "Compressed air can re-suspend settled dust. Use a HEPA-filtered vacuum or a wet method."
+    },
+    {
+      "id": "NEW-FUR-05-K03",
+      "correctIndex": 1,
+      "rationale": "Tight-fitting respirators need clean shaving and a fit check each time. Stubble and a loose mask fail the control."
+    }
+  ],
+  "practicalCriteria": [
+    "On-tool extraction connected to a collector at the required dust class before sanding starts",
+    "No compressed air used for clean-up; HEPA-vacuum or wet method used instead",
+    "Respirator fit check recorded, with shaving where a tight-fitting type is used"
+  ],
+  "passRule": "Knowledge checks: 80% or higher. With three checks this means all three must be correct. Practical sign-off is separate: every practical criterion must be observed and met by the assessor. A knowledge pass is not practical competence and does not count toward sign-off.",
+  "evidenceRequired": [
+    "Dust control record with collector dust class",
+    "Respirator fit check record"
+  ],
+  "stopWorkCriteria": [
+    "Power sanding without extraction",
+    "Compressed air used to clean sanding areas",
+    "Respirator used without a fit check"
+  ]
+}

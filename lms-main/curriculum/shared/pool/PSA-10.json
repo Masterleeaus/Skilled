@@ -1,0 +1,139 @@
+{
+  "id": "PSA-10",
+  "title": "Pool pollution: sweat, urine and nitrogen load",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Pool service workers, supervisors and operators at public pools in SA. Figures apply under the state standard.",
+  "prerequisites": [
+    "PSA-01"
+  ],
+  "learningOutcomes": [
+    "Identify the main sources of pool pollution and the role of bathers.",
+    "Explain why nitrogen compounds from sweat and urine use up disinfectant.",
+    "Describe how timing and pool surrounds affect the pollution load."
+  ],
+  "instruction": [
+    {
+      "heading": "Bathers are the main pollutant source",
+      "body": "Bathers are the biggest contributors of nitrogen-based matter to the water, delivered through sweat and urine. In public pools, children produce the greatest volume of urine. Heat speeds up sweating. The pollution load also comes from dust, leaves and grass cuttings blown or carried into the water, and from algae growth, which is covered in “Algae control and superchlorination with no bathers”."
+    },
+    {
+      "heading": "What sweat and urine contain",
+      "body": "A swimmer working hard in water around 24 degrees Celsius, on a day when the air is around 38 degrees, can lose up to a litre of sweat an hour. Sweat carries salts, calcium and magnesium, and nitrogen compounds including urea, creatinine, ammonia nitrogen and amino acids. Its pH sits roughly between 4 and 6.8. Urine is more complex, containing a mix of breakdown products, and it is harder to treat because nitrogen is so concentrated in it."
+    },
+    {
+      "heading": "Why nitrogen reduces disinfection",
+      "body": "Ammonia from sweat and urine binds to chlorine in a matter of minutes, forming chloramines. Urea first has to be broken down by hydrolysis, a step that can take about three or four hours in ordinary conditions, and enzymes can speed that up. Because of these reactions, the standard requires breakpoint chlorination to be held continuously to keep organic nitrogen under control."
+    },
+    {
+      "heading": "Managing the load on a busy day",
+      "body": "On hot days, school carnivals and busy weekends, the load rises quickly. Increase the frequency of testing and check the breakpoint and pH more often. Keep leaves, grass and dust out of the water with skimmers and surface cleaning, and make sure filters are running as the plan requires. A clear pool does not mean the nitrogen load is low, because the compounds that cause problems are dissolved and invisible."
+    }
+  ],
+  "procedure": [
+    "Note the expected bather load and the weather for the day, and set the testing frequency with the operator.",
+    "Remove visible debris from the water surface and the pool surrounds before opening.",
+    "Test free and total chlorine and pH more often during peak loads.",
+    "Confirm the breakpoint treatment in the operator plan is in place.",
+    "Record the bather load, the weather, the debris removed and the test results."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A public pool hosts a school carnival on a 38 degree Celsius day. The water looks clear, and the afternoon chlorine test reads a lower free value than the morning test.",
+      "decisionPrompt": "Is a clear pool enough, and what should change?",
+      "reasoning": "Clear water does not show the dissolved nitrogen load, which is the cause of lost chlorine. Test more often, check the breakpoint and pH against the plan, and escalate if free chlorine falls below the minimum for the pool type."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Skimmer net and surface cleaner",
+    "Free and total chlorine and pH test kit",
+    "Non-slip footwear and sun protection for long shifts"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a clear pool has no nitrogen load.",
+      "prevention": "Dissolved nitrogen is invisible. Test it through chlorine and pH results."
+    },
+    {
+      "error": "Testing only once during a busy day.",
+      "prevention": "Increase testing during peak loads, as the operator plan sets."
+    },
+    {
+      "error": "Leaving leaves and clippings in the water until closing time.",
+      "prevention": "Remove debris before opening and during the day."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Body fluid contamination is a biological hazard. Follow the response in “Biological contamination and incident escalation” and wear suitable gloves.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Keep the pool surrounds dry and free of debris to limit slip risk.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Figures are South Australian standard values (revised 2013). Confirm the current regulation text.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Testing frequency is increased on busy or hot days, as the operator plan sets.",
+    "Debris is removed before opening and recorded.",
+    "Breakpoint treatment is confirmed in the plan for the pool's load."
+  ],
+  "documentationEvidence": [
+    "Bather load and weather record for each busy day",
+    "Debris removal and test record with times"
+  ],
+  "summary": [
+    "Bathers are the main source of nitrogen, through sweat and urine.",
+    "Ammonia and urea use up chlorine, so breakpoint must be held continuously.",
+    "Heavy-load days need more testing and debris removal."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PSA-10-K01",
+      "question": "What is the biggest source of nitrogen compounds in pool water?",
+      "options": [
+        "Rain run-off from nearby roofs",
+        "Bathers, through sweat and urine",
+        "The filter media and the sand",
+        "Lawn fertiliser only on the banks"
+      ]
+    },
+    {
+      "id": "PSA-10-K02",
+      "question": "Why does urea take longer to affect chlorine than ammonia?",
+      "options": [
+        "Urea is not nitrogenous, so it never reacts with the chlorine in the pool",
+        "Urea needs a breakdown step by hydrolysis before it binds chlorine",
+        "Urea is removed by the filter and so it does not reach the chlorine at all",
+        "Urea only enters the water at night when the bathers are quiet and gone"
+      ]
+    },
+    {
+      "id": "PSA-10-K03",
+      "question": "What does the standard require to keep organic nitrogen under control?",
+      "options": [
+        "A higher bather limit for every session",
+        "Breakpoint chlorination held continuously",
+        "Stabiliser above 50 mg/L in every pool",
+        "Daily drainage of the pool and refilling"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 9 Pool pollution and sections 9.5 Organic nitrogen, 9.1 Algae; rights: user-held; reworded (no copying)",
+    "Priority: official South Australian source. It overrides informal, foreign or generic pool advice that conflicts with it. Figures are dated (standard revised 2013); checked against the uploaded copy 2026-11-02; current regulation text UNCONFIRMED.",
+    "Cross-checked against pool-cleaning-L09 for body-fluid response only. No numeric targets are drawn from that lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

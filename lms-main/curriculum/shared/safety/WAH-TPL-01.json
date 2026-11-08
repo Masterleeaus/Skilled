@@ -1,0 +1,529 @@
+{
+  "id": "WAH-TPL-01",
+  "title": "Height-work authorisation record (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "handyman",
+    "painting",
+    "plastering",
+    "deck",
+    "postcon"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 60,
+  "audience": "Supervisors and leading hands who issue height-work authorisations, and the workers who confirm them.",
+  "prerequisites": [
+    "WAH-11"
+  ],
+  "learningOutcomes": [
+    "Complete every field of the height-work authorisation record for a supplied job, with evidence where a check requires it.",
+    "Justify each negative response with a reason and a control, and decide whether the work may proceed.",
+    "Name a rescue arrangement that is ready on site before the work starts.",
+    "Return the record for correction when any required field is blank or unsupported."
+  ],
+  "instruction": [
+    {
+      "heading": "What this record is for",
+      "body": "The height-work authorisation record brings together the checks a supervisor and a worker make before height work starts. It is not a licence and it does not authorise anyone to work at height. It works only when it is filed with a risk assessment or a safe work method for the same task, and the task it describes is the one that is done. You build the record field by field through this lesson. The system assembles the finished fields into one document that you keep and that is signed off by an assessor."
+    },
+    {
+      "heading": "How to work through it",
+      "body": "Complete the four templates in order. The first covers the job and the management checks, the second the equipment and access checks, the third the negative responses, and the fourth the confirmation and rescue plan. Answer every field. Where a check does not apply, write not applicable and the reason. Where a check is answered No, the response goes into the negative-response template with its control. Do not sign the record until the checks have been made on site, rather than from memory or from a plan."
+    },
+    {
+      "heading": "Evidence on site",
+      "body": "Each check should be backed by something you have seen: an identifier, a tag, a measurement, a photograph where the business allows it, or a named person who confirmed the item. A check written from a plan alone does not count. The clearance in the calculated-clearance field must show its factors, and the figures must come from the approved method and the manufacturer, not from an unchecked source figure."
+    },
+    {
+      "heading": "Negative responses and the stop rule",
+      "body": "A negative response is not a failure of the form, but it is a signal that a control is missing. Each one needs a reason and a control. Where the control cannot be put in place, or the reason does not hold, the work does not proceed. Stop the work, make the area safe, and tell the supervisor. The same applies to any open item that affects safety at the time of signing."
+    },
+    {
+      "heading": "Confirmation and rescue",
+      "body": "The worker and the supervisor both sign the record. Both must have seen the checks made. The rescue arrangement is part of the confirmation: it names the rescuer, the method and the equipment on site, and it is practised before first use. The business's emergency and escalation contacts are kept with the record."
+    }
+  ],
+  "procedure": [
+    "Complete T01: the job details, the description, and each management check, with its evidence.",
+    "Complete T02: each ladder, scaffold, tower, fragile-surface, harness and lifeline check, with its identifier.",
+    "Complete T03: list every No or not-applicable answer, with its reason, its control and its approver, and state the decision.",
+    "Complete T04: name the rescue arrangement, record the signatures and dates, and list any open items with owners.",
+    "Check every field is complete, and that no unchecked figure has been used as an Australian requirement.",
+    "Attach the completed record to the job's risk assessment or safe work method, and submit it for assessor review."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor prepares a record for a gutter clean from a platform on a two-storey house. The platform has one overhead cable 4 m away from the boom.",
+      "decisionPrompt": "Which field records the overhead check, and what must it show before the platform is used?",
+      "reasoning": "Field f10 records the overhead check. It must show the clearance kept under the business plan, who was told, and the decision. An overhead line that cannot be cleared stops the work, and the negative response goes into the T03 template with its control."
+    },
+    {
+      "situation": "A worker signs the record for a roof job and writes \"rescue: ambulance\" in the rescue field.",
+      "decisionPrompt": "What is missing from the rescue field, and what happens to the record?",
+      "reasoning": "The field names no trained rescuer, no method and no equipment at the work location. The record is returned for correction. The job does not proceed until the rescue arrangement is complete and the equipment is on site."
+    }
+  ],
+  "equipmentAndPpe": [
+    "The completed risk assessment or safe work method for the job",
+    "Inspection records for each ladder, scaffold, tower, harness and lanyard listed",
+    "Rescue equipment at the work location",
+    "The business PPE list for the task"
+  ],
+  "commonErrors": [
+    {
+      "error": "Ticking a check with no evidence seen on site.",
+      "prevention": "Record the identifier, tag, measurement or named confirmation that supports each answer."
+    },
+    {
+      "error": "Using a lanyard length as the fall clearance.",
+      "prevention": "Show each factor in f12, using the business's approved method."
+    },
+    {
+      "error": "Leaving a negative answer out of the negative-response template.",
+      "prevention": "Go through every No and not-applicable answer before signing."
+    },
+    {
+      "error": "Writing a rescue plan that cannot work in practice at the site.",
+      "prevention": "Name the rescuer and equipment at the work location, and confirm the method has been practised."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Warning: height work does not start on a record with a blank field, an unjustified No, an unresolved safety-related open item, or no rescue arrangement on site.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: this record does not grant any licence, certificate or authority to work at height, erect scaffolding, operate a platform or perform rescue. Licence positions by state are in “Scaffold and mobile tower checks before use” and “Elevated work platform pre-use checks” and are confirmed only where marked.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Use the business's approved method and the Australian standard once checked.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every field is complete, or marked not applicable with a reason in the field.",
+    "Every check is backed by evidence seen on site.",
+    "Every negative response has a reason, a control and an approver.",
+    "The rescue arrangement names people, method and equipment on site."
+  ],
+  "documentationEvidence": [
+    "The completed template, saved as one record",
+    "The attached risk assessment or safe work method",
+    "The assessor sign-off against the rubric"
+  ],
+  "summary": [
+    "The record assembles checks made on site into one document, which the assessor signs off.",
+    "Every No is justified and controlled, or the work stops.",
+    "Rescue is named, equipped and practised before work starts.",
+    "The record does not grant a licence or authority."
+  ],
+  "businessFields": [
+    "{{business:business.name}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:staff.supervisor_contact}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:assessment.signoff_requirements}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "WAH-TPL-01-T01",
+      "title": "Job details and management checks",
+      "purpose": "Record where and when the height work happens, what it involves, and the management checks a supervisor completes before anyone climbs or steps onto a surface at height.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Work location",
+          "type": "text",
+          "prompt": "Write the site address and the exact area or elevation where the height work happens.",
+          "guidance": "Names the property and the specific area, such as one roof section or one elevation. Matches the job record.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Authorisation reference",
+          "type": "text",
+          "prompt": "Enter the reference number the business gives this record.",
+          "guidance": "Unique to this job and this day. Matches the job file.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Date and time of the work",
+          "type": "date",
+          "prompt": "Enter the date, the start time and the expected finish time.",
+          "guidance": "Covers the whole height task. A new record is needed when the work moves to a new day or a new area.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Work description and people",
+          "type": "longtext",
+          "prompt": "Describe the height task and its duration, and name each person who will be at height or below it, with their role.",
+          "guidance": "Describes the actual steps and positions, not a general job title. Names each person and their role.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Access equipment suits the task",
+          "type": "checklist",
+          "prompt": "Confirm that the access equipment fits the task, the load, the duration and the ground or surface, and name the equipment.",
+          "guidance": "States the equipment type and why it was chosen over a ground-based method. Notes any higher-level control considered first (see “The hierarchy of controls for height work”).",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Weather and conditions",
+          "type": "checklist",
+          "prompt": "Confirm that the conditions (gusts, wet weather, low temperatures, frost, slick surfaces, high heat, glare) allow the work.",
+          "guidance": "Records the conditions at the time of the check and the limit the business has set. A change in conditions triggers a new check.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Collective fall protection",
+          "type": "checklist",
+          "prompt": "Where a fall exposure exists, record the collective measures in place before work starts.",
+          "guidance": "Names the guardrail, platform, scaffold, cover or net, and states that it was checked on site (see “Edge protection, floor openings and covers”).",
+          "required": true
+        },
+        {
+          "fieldId": "f8",
+          "label": "Individual fall protection where collective measures are not feasible",
+          "type": "checklist",
+          "prompt": "Where collective measures are not feasible, record each individual item and its identifier.",
+          "guidance": "Each harness, lanyard and anchor has an identifier, a current inspection and a written reason collective measures were not feasible (see “Fall protection and arrest systems” and “Inspecting and fitting harnesses and lanyards”).",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Barriers and warning signs",
+          "type": "checklist",
+          "prompt": "Confirm that signs and barriers keep unauthorised people out of the area below and around the work.",
+          "guidance": "Names the barrier type and where it is placed, and who controls access.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Overhead and underground hazards",
+          "type": "checklist",
+          "prompt": "Confirm that overhead power lines, services and other hazards near or below the work are identified and controlled.",
+          "guidance": "Records what was found, the clearance kept, and who was told. A line that cannot be cleared stops the work (see “Elevated work platform pre-use checks”).",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Falling objects and hazards below",
+          "type": "checklist",
+          "prompt": "Confirm that hazards below the work, and any object that could drop, are controlled.",
+          "guidance": "Names the controls (exclusion zone, covers, containers, tool lanyards) and the area each one covers.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Calculated fall clearance",
+          "type": "longtext",
+          "prompt": "Enter the fall clearance you calculated, in metres, with each factor you used, and state whether the clearance is acceptable.",
+          "guidance": "Shows each factor (free fall, stretch, lanyard length, worker height, margin) and the total, using the business's approved method (see “Fall protection and arrest systems”). Figures from non-Australian sources are not used without checking.",
+          "required": true
+        },
+        {
+          "fieldId": "f13",
+          "label": "Personal protective equipment",
+          "type": "checklist",
+          "prompt": "Confirm that the PPE the task needs is available, fitted and worn.",
+          "guidance": "Names each item (head, eye, hearing, hand, foot, body, harness, lanyard, and suspension straps where relevant). Each item is checked before use.",
+          "required": true
+        },
+        {
+          "fieldId": "f14",
+          "label": "Emergency rescue arrangements",
+          "type": "longtext",
+          "prompt": "Describe how a person would be rescued after a fall, and name the rescuer.",
+          "guidance": "Refers to the rescue plan in T04 (see “Suspension trauma and rescue planning”). States that the rescuer is trained and that the equipment is at the work location.",
+          "required": true
+        }
+      ]
+    },
+    {
+      "templateId": "WAH-TPL-01-T02",
+      "title": "Equipment and access checks",
+      "purpose": "Record the checks on ladders, scaffolds, towers, fragile-surface controls, harnesses, lifelines and the means of getting tools to the work position.",
+      "fields": [
+        {
+          "fieldId": "f15",
+          "label": "Ladders and step equipment",
+          "type": "checklist",
+          "prompt": "For each ladder or step device, confirm the user was trained and that the device shows no visible defect.",
+          "guidance": "Lists the device identifiers, the training record and the inspection result. A device with a defect is removed from use (see “Choosing and using ladders for trade and exterior work”).",
+          "required": true
+        },
+        {
+          "fieldId": "f16",
+          "label": "Scaffold and tower erection",
+          "type": "checklist",
+          "prompt": "Confirm that each scaffold or tower was erected by a trained person, to the maker's instructions, with the correct components.",
+          "guidance": "Records the erector, the maker's quantity schedule where an aluminium tower is used, and the erection check (see “Scaffold and mobile tower checks before use”).",
+          "required": true
+        },
+        {
+          "fieldId": "f17",
+          "label": "Scaffold defects and protection",
+          "type": "checklist",
+          "prompt": "Confirm that scaffold components are free of visible defects, and that handrails, the mid-rails and the toe boards are in place.",
+          "guidance": "Records what was checked and any missing item. A missing guard component stops the scaffold from use.",
+          "required": true
+        },
+        {
+          "fieldId": "f18",
+          "label": "Scaffold tags and certificates",
+          "type": "checklist",
+          "prompt": "Confirm the scaffold or tower is tagged after a visual check by a competent individual, and that completion and periodic inspection records are arranged.",
+          "guidance": "Records the tag status, the competent person, the date of the check and where the certificate is held.",
+          "required": true
+        },
+        {
+          "fieldId": "f19",
+          "label": "Fragile surface controls",
+          "type": "checklist",
+          "prompt": "Confirm that the people going onto fragile surfaces or roofs are trained, and that crawling boards or a platform are available.",
+          "guidance": "Names the training record and the crawling boards or platform on site (see “Roof and fragile-surface work”).",
+          "required": true
+        },
+        {
+          "fieldId": "f20",
+          "label": "Harness, lifeline and lifting gear",
+          "type": "checklist",
+          "prompt": "Confirm that harnesses, lifelines and hoisting equipment show no defects and carry evidence of the required periodic inspection.",
+          "guidance": "Each item has an identifier and a current inspection record. The interval has not yet been confirmed for Australia; use the maker's schedule (see “Inspecting and fitting harnesses and lanyards”), so check with the relevant regulator before relying on this point.",
+          "required": true
+        },
+        {
+          "fieldId": "f21",
+          "label": "Gap check where no lifeline is worn",
+          "type": "checklist",
+          "prompt": "Where no lifeline is worn, confirm there is no gap through which someone could fall.",
+          "guidance": "Records the largest gap found and the limit the business uses. The gap limit in the source form has not yet been confirmed for Australia; the business sets its own limit from the approved standard, so check with the relevant regulator before relying on this point.",
+          "required": true
+        },
+        {
+          "fieldId": "f22",
+          "label": "Moving tools and materials",
+          "type": "longtext",
+          "prompt": "Describe the approach you will use to move tools and equipment to the work location or platform.",
+          "guidance": "Names the hauling or lifting method, the container, and the area barricaded below. Items are never thrown.",
+          "required": true
+        }
+      ]
+    },
+    {
+      "templateId": "WAH-TPL-01-T03",
+      "title": "Negative responses and justification",
+      "purpose": "Record every answer that is No or not applicable, with its reason and its control, and decide whether the work may proceed.",
+      "fields": [
+        {
+          "fieldId": "f23",
+          "label": "Each answer of No or not applicable",
+          "type": "table",
+          "prompt": "For every answer that is No or not applicable, record the item number, the reason, the control that replaces it, and who approved it.",
+          "guidance": "Each row has a reason and a control. A not-applicable answer is justified, not assumed. A No with no control stops the work (see “The hierarchy of controls for height work”).",
+          "required": true
+        },
+        {
+          "fieldId": "f24",
+          "label": "Decision on proceeding",
+          "type": "longtext",
+          "prompt": "State whether the work may proceed, and on what conditions.",
+          "guidance": "The work proceeds only where every negative answer has a justified and checked control. Otherwise the work stops.",
+          "required": true
+        }
+      ]
+    },
+    {
+      "templateId": "WAH-TPL-01-T04",
+      "title": "Confirmation and rescue plan",
+      "purpose": "Confirm the record with the worker and the supervisor, name the rescue arrangement, and list any open items.",
+      "fields": [
+        {
+          "fieldId": "f25",
+          "label": "Rescue plan reference",
+          "type": "text",
+          "prompt": "Enter the reference of the rescue plan for this job.",
+          "guidance": "Matches the rescue plan (see “Suspension trauma and rescue planning”). The plan is kept at the work location.",
+          "required": true
+        },
+        {
+          "fieldId": "f26",
+          "label": "Rescue method and people",
+          "type": "longtext",
+          "prompt": "Name the rescue method, the named rescuer or rescuers, the equipment at the work location and the call-out contacts.",
+          "guidance": "Names trained people and equipment that is on site. Emergency services are one part of the plan, not all of it.",
+          "required": true
+        },
+        {
+          "fieldId": "f27",
+          "label": "Worker: name, position, signature and date",
+          "type": "text",
+          "prompt": "Enter the worker's name, position, signature or typed signature, and the date.",
+          "guidance": "The worker has read the record and agrees that the checks are accurate.",
+          "required": true
+        },
+        {
+          "fieldId": "f28",
+          "label": "Supervisor: name, position, signature and date",
+          "type": "text",
+          "prompt": "Enter the supervisor's name, position, signature or typed signature, and the date.",
+          "guidance": "The supervisor agrees the checks are complete, and any open item is recorded in f29.",
+          "required": true
+        },
+        {
+          "fieldId": "f29",
+          "label": "Open items at confirmation",
+          "type": "longtext",
+          "prompt": "List any open item, who owns it and when it will be closed, or write None.",
+          "guidance": "Every open item has an owner and a date. An open item that affects safety stops the work.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Job identity is complete",
+      "levels": {
+        "meets": "Location, reference, date and time, the work description and every person at height are all present and specific.",
+        "does_not_meet": "Any of these is missing or generic, such as a job title with no location or no named people."
+      }
+    },
+    {
+      "criterion": "Management checks are answered with evidence",
+      "levels": {
+        "meets": "Every management check (f5 to f13) has an answer, the evidence seen at the site, plus the control named where the answer is a concern.",
+        "does_not_meet": "A check is blank, answered without evidence, or answered with a yes that the site does not support."
+      }
+    },
+    {
+      "criterion": "Collective controls are considered before individual ones",
+      "levels": {
+        "meets": "Each fall exposure shows the higher-level controls considered, and individual protection is recorded only where the higher levels were not feasible.",
+        "does_not_meet": "Individual protection is listed as the only control for a fall exposure that a physical control could address, with no reason."
+      }
+    },
+    {
+      "criterion": "Equipment checks are complete and defects are acted on",
+      "levels": {
+        "meets": "Each equipment check (f15 to f21) is answered with an identifier or location, and any defect has been withdrawn and recorded.",
+        "does_not_meet": "An equipment item with a recorded defect is still listed as usable, or an equipment check is missing."
+      }
+    },
+    {
+      "criterion": "Fall clearance is calculated and shown",
+      "levels": {
+        "meets": "f12 shows each factor, the total and whether the clearance is acceptable, using the business's approved method.",
+        "does_not_meet": "The clearance equals the lanyard length with no other factor, or the factors are not shown."
+      }
+    },
+    {
+      "criterion": "Each negative response is justified and controlled",
+      "levels": {
+        "meets": "Every No or not-applicable answer appears in f23 with a reason, a control and an approver, and f24 states the decision.",
+        "does_not_meet": "A negative answer is missing from f23, has no control, or the work proceeds with an unresolved No."
+      }
+    },
+    {
+      "criterion": "Rescue plan is specific and ready",
+      "levels": {
+        "meets": "f25 and f26 name the rescue method, the named trained rescuer, and the equipment at the work location, and the plan is referenced in f14.",
+        "does_not_meet": "The plan relies on emergency services alone, names no rescuer, or the equipment is not at the work location."
+      }
+    },
+    {
+      "criterion": "Confirmation is complete and the record is ready to use",
+      "levels": {
+        "meets": "Worker and supervisor have signed with dates, every open item in f29 has an owner and a date, and the record is attached to the job's risk assessment or safe work method.",
+        "does_not_meet": "A signature or date is missing, an open item has no owner, or the record is not filed with a risk assessment or safe work method."
+      }
+    }
+  ],
+  "knowledgeChecks": [],
+  "outputDocument": {
+    "title": "{{business:business.name}} height-work authorisation record",
+    "format": "form",
+    "sections": [
+      {
+        "heading": "Job details and management checks",
+        "fieldIds": [
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6",
+          "f7",
+          "f8",
+          "f9",
+          "f10",
+          "f11",
+          "f12",
+          "f13",
+          "f14"
+        ]
+      },
+      {
+        "heading": "Equipment and access checks",
+        "fieldIds": [
+          "f15",
+          "f16",
+          "f17",
+          "f18",
+          "f19",
+          "f20",
+          "f21",
+          "f22"
+        ]
+      },
+      {
+        "heading": "Negative responses",
+        "fieldIds": [
+          "f23",
+          "f24"
+        ]
+      },
+      {
+        "heading": "Confirmation and rescue plan",
+        "fieldIds": [
+          "f25",
+          "f26",
+          "f27",
+          "f28",
+          "f29"
+        ]
+      }
+    ],
+    "footer": "Version and date on every page. Questions to {{business:business.support_email}} or {{business:business.support_phone}}."
+  },
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Permit checklist (Issue 1, Aug 2006), the whole form: management and supervisor checks, equipment checks, negative responses, and the confirmation and rescue plan; the form is a blank company template with no legal references; jurisdiction: none stated; rewritten field by field (no wording kept); Australia: UNCONFIRMED; rights: user-held; reworded (no copying)",
+    "Working at Height training presentation (HSES training centre), the closing note that a risk assessment is to be written to control the hazards; jurisdiction: none stated; Australia: UNCONFIRMED; rights: user-held; reworded (no copying)",
+    "Working at Heights and Harness/Lanyard Safety Awareness Course (instructor deck), the module on rescue planning and the note that rescue plans must be practised; jurisdiction: Ireland and UK; Australia: UNCONFIRMED. Irish legal references in source 3 (the Irish workplace safety Act, its construction and general applications regulations, and its codes of practice): not applicable in Australia; not used; rights: user-held; reworded (no copying)",
+    "Working At Height Procedure (contractor project procedure, revision table shows A and B), section 7.0 (risk assessment and planning) and section 15.0 (rescue); jurisdiction: project procedure; Australia: UNCONFIRMED. UK and Malaysian legal and standards references in sources 2 to 4 (UK work-at-height regulations, IRATA UK, Malaysian DOSH guideline): not applicable in Australia; not used; rights: user-held; reworded (no copying)",
+    "WorkSafe Victoria, The hierarchy of control (https://worksafe.vic.gov.au/hierarchy-control), checked 2026-11-02; read: eliminate, then substitute, isolate or engineer, then administrative controls, with PPE last; jurisdiction: Victoria; national model wording UNCONFIRMED",
+    "Safe Work Australia, Model Code of Practice: Managing the risk of falls at workplaces (https://safeworkaustralia.gov.au/doc/model-code-practice-managing-risk-falls-workplaces), checked 2026-11-02; title and model status read; the hierarchy and any height trigger were not confirmed from the full text (PDF blocked to the checker); jurisdiction: national model, state effect UNCONFIRMED",
+    "LICENCE-MATRIX row NSW-17 (SafeWork NSW, https://www.safework.nsw.gov.au/hazards-a-z/working-at-heights), checked 2026-11-02, CONFIRMED; NSW: construction SWMS where someone could fall more than 2 metres; only licensed scaffolders where the fall risk exceeds 4 metres; jurisdiction: NSW",
+    "AS/NZS 1891.4, industrial arrest systems Part 4 (https://store.standards.org.au/product/as-nzs-1891-4-2025, listing seen 2026-11-02); text not read; the rope access requirement is UNCONFIRMED (research/topics/window.md)",
+    "Cross-checked: the source form and sources 2 to 4 set different trigger heights, and the gap limit appears only in the source form; all figures UNCONFIRMED for Australia.",
+    "Cross-reference, not repeated: RAS-17 (Site risk assessment worksheet), WAH-11 (Risk assessment and planning), WAH-02, WAH-06, WAH-07 and WAH-10",
+    "Safe Work Australia, General Guide for working near overhead and underground electric lines (July 2014), https://www.safeworkaustralia.gov.au/system/files/documents/1703/overhead-underground-electric-lines-general-guide.pdf, checked 2026-11-02; PARTIAL: approach distances depend on voltage and network rules. The 4 metre cable distance in this worked example is a scenario value, not an approach distance."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

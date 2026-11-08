@@ -1,0 +1,218 @@
+{
+  "id": "CAR-NEW-09",
+  "title": "Chemical storage, disposal and pressure equipment",
+  "courseSlugs": [
+    "cardetail"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Car detailers and supervisors who store and dispose of chemicals, and who use pressure washers and other pressure equipment.",
+  "prerequisites": [
+    "car-detailing-L03",
+    "car-detailing-L06"
+  ],
+  "learningOutcomes": [
+    "Store and dispose of detailing chemicals and rinse water following the SDS, the label and the waste rules that apply where the work is done.",
+    "Inspect and use pressure equipment so that high pressure does not damage weakened paint or injure a worker.",
+    "Explain how high-pressure jets and whipping hoses cause injury, and which personal protective equipment the risk requires."
+  ],
+  "instruction": [
+    {
+      "heading": "Storing chemicals",
+      "body": "The SDS storage and handling section sets the conditions for each product, and the register must list each hazardous chemical with its current SDS (Safe Work Australia). Store products in their original labelled containers, out of reach of children, and away from food and drink. Keep incompatible products apart, so that strong acids and strong alkalis are never stored together, and keep flammable products away from ignition sources; the SDS gives the flash point. Keep a stock list, and remove any container whose label is damaged or unreadable. Store chemicals in a dry, ventilated, secured area where the site allows. Keep the spill kit where it can be reached quickly. Temperature limits come from each label and SDS."
+    },
+    {
+      "heading": "Disposing of chemicals and rinse water",
+      "body": "The SDS covers disposal, and a label may give its own instruction. Never pour concentrates or unused product into a drain, a stormwater pit or a garden. Victorian EPA guidance, the main reference for this course, says stormwater drains should carry only rainwater, and that washing a car on a driveway can send soap, grime and oils into waterways. Commercial car washes that capture and treat wash water are presented as the more responsible option. Where wash water cannot be captured, use a containment or sewer route approved for the site, and check the local water authority's trade waste rules. Dispose of empty containers as the label and the local waste service direct, and rinse them only where the label allows."
+    },
+    {
+      "heading": "Pressure equipment and weakened paint",
+      "body": "Pressure equipment is useful for rinsing, but it can damage paint that is already weak. The force of a pressure washer can remove paint that is already thin or damaged. Avoid a direct high-pressure stream on visible electrical parts and on air intakes. Check the paint condition on the intake record before choosing the pressure. Keep the nozzle at a distance and an angle that does not focus the stream on one spot. Stand back from weak paint and use a wider spray or hand washing. Do not use pressure near the edges of loose or cracked trim, badges and seals. Where the paint is weak, the method is chosen for the paint, and the choice is recorded."
+    },
+    {
+      "heading": "High-pressure hazards and PPE",
+      "body": "High-pressure water jetting can pierce skin and inject contaminated material into the body. Flying debris can strike the eyes. A whipping hose, an uncontrolled nozzle or a separated coupling can strike a worker. The Victorian WorkSafe safety alert on high-pressure water jetting names these risks, and it lists eye protection and a face shield near jetting, with body armour and hearing protection where the hazards cannot be controlled. It names AS/NZS 4233.1 as the standard for high-pressure water jetting. Before use, check hoses for cuts, bulges and kinks, check that couplings are secure, and check that the trigger gun or lance and its safety parts are in order. Never point a stream at a person or at yourself, and never test a stream on skin. Keep bystanders out of the spray zone. Electrical equipment such as pressure washers, vacuums, polishers and lights needs checks too: check cords and plugs, keep cords off wet ground and away from the spray, and use each tool only as its label directs. AS/NZS 3760 is commonly referenced for in-service testing of portable electrical equipment."
+    }
+  ],
+  "procedure": [
+    "Check the SDS storage section and the label for each product before it is stored.",
+    "Store products in original labelled containers, apart from food and from incompatible products.",
+    "Plan the waste and rinse-water route for the site before the wash starts.",
+    "Inspect the pressure equipment, including hoses, couplings and the nozzle, before use.",
+    "Check the paint condition on the intake record, and choose a pressure and distance that suit it.",
+    "Keep bystanders out of the spray zone, and wear eye protection and any other PPE the SDS and the alert require.",
+    "Isolate and remove from service any equipment with a defect, and record the defect and action."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pressure washer hose shows a bulge near the coupling, and the technician wants to finish the wash.",
+      "decisionPrompt": "What is the decision?",
+      "reasoning": "Stop using the hose. A bulged hose can fail under pressure and whip. Isolate the equipment, replace the hose or take the equipment out of service, and record the defect. Do not tape the bulge and continue. Check the couplings on the replacement, and test it at low pressure away from people before use."
+    },
+    {
+      "situation": "Weakened, faded clear coat runs along a door edge. The technician plans to use the pressure lance close to the edge to clean a sticky patch.",
+      "decisionPrompt": "What should the technician do?",
+      "reasoning": "Do not use the lance close to the weakened edge. Use hand washing with a clean mitt and the label-approved product for the sticky patch, or a wider spray from a distance that does not focus on the edge. Record the weak paint on the intake record, so the owner knows why a particular method was chosen."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Chemical storage cabinet or tray, and labelled containers.",
+    "Spill kit.",
+    "Waste containers as the local waste service allows.",
+    "Pressure equipment with a current check record.",
+    "PPE: eye protection and a face shield near jetting; gloves as each SDS requires; hearing protection where noise is high (working practice)."
+  ],
+  "commonErrors": [
+    {
+      "error": "Storing products in drink bottles or beside food.",
+      "prevention": "Use original labelled containers, stored apart from food."
+    },
+    {
+      "error": "Pouring rinse water down a stormwater drain.",
+      "prevention": "Capture or route rinse water as the site's waste rules require."
+    },
+    {
+      "error": "Using a high-pressure stream on weakened paint.",
+      "prevention": "Check paint condition, stand back, and use hand washing."
+    },
+    {
+      "error": "Continuing to use a damaged hose.",
+      "prevention": "Isolate the hose and replace it before use."
+    },
+    {
+      "error": "Testing a jet on skin or on a person.",
+      "prevention": "Never test a jet on skin or on people."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A hazardous chemicals register must list each chemical with its current SDS, and be readily accessible to workers and emergency services (Safe Work Australia; the page refers to the model WHS laws of 2011).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Wastewater and disposal: Victorian EPA guidance is cited for stormwater.",
+      "licenceNotice": false
+    },
+    {
+      "point": "High-pressure equipment: the WorkSafe Victoria alert names AS/NZS 4233.1 and lists PPE.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Chemicals are stored in original labelled containers, apart from food and incompatible products, with a current SDS available.",
+    "Rinse water and waste go only to a route the site permits, and no product goes into a drain.",
+    "Pressure equipment is checked before each use, no hose with visible damage is used, and no high pressure is applied to weakened paint."
+  ],
+  "documentationEvidence": [
+    "Storage check record and register entry.",
+    "Waste and rinse-water route record, and the pressure-equipment check record with any defect and action."
+  ],
+  "summary": [
+    "Store chemicals as the SDS says, and dispose of them and their rinse water correctly.",
+    "Check pressure equipment before use, and never use high pressure on weakened paint.",
+    "Treat a jet as capable of serious injury, and wear the PPE the alert and SDS require."
+  ],
+  "businessFields": [
+    "{{business:materials.storage_procedure}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.site_hazards}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "CAR-NEW-09-K01",
+      "question": "Where should unused detailing product go at the end of a job?",
+      "options": [
+        "Down the stormwater drain, diluted, since the water is then safe for the environment",
+        "Back into its labelled container, or disposed of as the SDS and local waste rules direct",
+        "On the garden bed, where it will break down in the soil over the next few weeks",
+        "Into an unlabelled spray bottle for the next job, which saves time at the start of the day"
+      ]
+    },
+    {
+      "id": "CAR-NEW-09-K02",
+      "question": "A pressure hose shows a bulge. What is correct?",
+      "options": [
+        "Wrap it with tape and carry on, since the tape holds the bulge in place",
+        "Use it at low pressure only, since the bulge will not burst at that setting",
+        "Ignore it if the wash is nearly done and the customer is waiting",
+        "Stop, isolate it, replace it or take it out of service, and record it"
+      ]
+    },
+    {
+      "id": "CAR-NEW-09-K03",
+      "question": "Why is the high-pressure stream kept away from weakened paint?",
+      "options": [
+        "It makes the paint shine more, so the finish looks better",
+        "It can remove paint that is already thin or damaged",
+        "It has no effect on paint, so the stream is always safe",
+        "It cleans the clear coat well and helps the finish last"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemicals register (Safe Work Australia)",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "No date in body; the page refers to the model WHS laws created in 2011",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia, hazardous chemicals register. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Preparing safety data sheets (Safe Work Australia)",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/preparing-safety-data-sheets",
+      "pageDate": "No specific date; the page refers to the model WHS laws created in 2011",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia, safety data sheets. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R3",
+      "title": "What really goes down the drain when you wash your car (EPA Victoria)",
+      "url": "https://www.epa.vic.gov.au/about-epa/news-media-and-updates/media-releases-and-news/what-really-goes-down-the-drain-when-you-wash-your-car",
+      "pageDate": "Reviewed 5 October 2023 (as shown on the page)",
+      "checked": "2026-11-03",
+      "covers": "EPA Victoria, car wash wastewater; the local council or water authority for trade waste rules. Publisher: EPA Victoria."
+    },
+    {
+      "id": "R4",
+      "title": "High-pressure water jetting (WorkSafe Victoria safety alert)",
+      "url": "https://www.worksafe.vic.gov.au/safety-alerts/high-pressure-water-jetting",
+      "pageDate": "Dated 14 September 2022; reviewed 11 May 2023",
+      "checked": "2026-11-04",
+      "covers": "Victorian WorkSafe safety alert (dated 14 September 2022, reviewed 11 May 2023) on high-pressure water jetting. It says the water jet may pierce the skin, that contaminated material may be injected into the body, that eye protection should always be worn near jetting operations, and that refresher training must be done and recorded at least every two years. It is a Victorian alert and does not name other states or territories. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "referencesAtStart": "Official sources: Safe Work Australia, Hazardous chemicals register (no date shown); Safe Work Australia, Preparing safety data sheets (no date shown); EPA Victoria, What really goes down the drain when you wash your car (reviewed 5 October 2023); WorkSafe Victoria, High-pressure water jetting (safety alert dated 14 September 2022; reviewed 11 May 2023).",
+  "referencesAtEnd": "Recheck before use: Safe Work Australia, Hazardous chemicals register; Safe Work Australia, Preparing safety data sheets; EPA Victoria, What really goes down the drain when you wash your car; WorkSafe Victoria, High-pressure water jetting.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Manual Car Detailing 2020 (Spanish; pressure washer and weakened paint note): Manual Car Detailing 2020 (uploaded Spanish-language manual; lavado, descontaminacion, encintado, pulido, sellado, interior, optica and motor sections); rights: user-held; reworded in English from the meaning, not translated sentence by sentence (no copying)",
+    "Auto-Detailing Guide (electrical parts and air intakes under pressure): Auto-Detailing Guide (uploaded guide; wash, clay, polish, sealant, wax, microfibre, wheel, trim, glass, interior and engine bay sections); rights: user-held; reworded (no copying)",
+    "R1 https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (checked 2026-11-03; no date in body)",
+    "R2 https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/preparing-safety-data-sheets (checked 2026-11-03; no specific date)",
+    "R3 https://www.epa.vic.gov.au/about-epa/news-media-and-updates/media-releases-and-news/what-really-goes-down-the-drain-when-you-wash-your-car (reviewed 5 October 2023; checked 2026-11-03)",
+    "R4 https://www.worksafe.vic.gov.au/safety-alerts/high-pressure-water-jetting (dated 14 September 2022; reviewed 11 May 2023; checked 2026-11-03)",
+    "Storage separation, bystander rule and test-on-skin prohibition: working practice (no source text); not a regulatory requirement.",
+    "Pressure-washer force on thin or damaged paint, and avoiding a direct jet on electrical parts and air intakes: working practice reworded from the uploaded guides listed above. No official page supports these points, so they are not attributed to one; not a regulatory requirement.",
+    "UNCONFIRMED: other states' rules; local trade waste rules; AS/NZS 4233.1 and AS/NZS 3760 application to detailing equipment. Equipment inspection duplicates car-detailing-L06 in part and cross-refers to it."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-06.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    },
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-07.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    }
+  ]
+}

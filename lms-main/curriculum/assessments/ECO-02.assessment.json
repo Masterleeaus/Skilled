@@ -1,0 +1,35 @@
+{
+  "lessonId": "ECO-02",
+  "knowledgeAnswers": [
+    {
+      "id": "ECO-02-K01",
+      "correctIndex": 1,
+      "rationale": "The colour does not protect anything by itself. Keeping each colour in its area, and not swapping cloths during the job, is what prevents transfer."
+    },
+    {
+      "id": "ECO-02-K02",
+      "correctIndex": 2,
+      "rationale": "Colour meanings are set by each business. The worker confirms the key before setting up rather than assuming it."
+    },
+    {
+      "id": "ECO-02-K03",
+      "correctIndex": 0,
+      "rationale": "A dropped cloth is taken out of use, the affected surface is re-cleaned with an assigned cloth, and the event is recorded and reported."
+    }
+  ],
+  "practicalCriteria": [
+    "Confirms the colour key or cloth-to-area mapping before setup and records it on the job sheet, observed by the assessor.",
+    "Keeps cloth and tool sets apart in the kit; no cross-use is observed during a simulated multi-area clean.",
+    "Removes a deliberately crossed cloth from use, re-cleans the affected surface with an assigned cloth, and records the event."
+  ],
+  "passRule": "Knowledge checks: 80 per cent pass mark, so all three must be correct. Practical competence: assessor sign-off against each practical criterion, with no uncorrected cross-area transfer during the simulated clean. A knowledge-check pass does not verify practical competence.",
+  "evidenceRequired": [
+    "Assessor observation sheet for the simulated multi-area clean",
+    "Cross-area event record for the deliberate correction",
+    "Knowledge-check result"
+  ],
+  "stopWorkCriteria": [
+    "A cloth is used across areas without correction",
+    "The worker proceeds on an assumed colour key without confirmation"
+  ]
+}

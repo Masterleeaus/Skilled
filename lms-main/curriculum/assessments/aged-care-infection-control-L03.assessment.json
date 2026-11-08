@@ -1,0 +1,36 @@
+{
+ "lessonId": "aged-care-infection-control-L03",
+ "knowledgeAnswers": [
+  {
+   "id": "aged-care-infection-control-L03-K01",
+   "correctIndex": 1,
+   "rationale": "The current door notice governs over the schedule. The cleaner does not enter or clean the restricted room, tells the nurse in charge, postpones the task, and records the notice and the time."
+  },
+  {
+   "id": "aged-care-infection-control-L03-K02",
+   "correctIndex": 2,
+   "rationale": "The IPC instruction names the approved product. A substitute may not carry the same approval or contact condition, so the cleaner does not substitute, postpones the affected surfaces, tells the supervisor and records the shortfall."
+  },
+  {
+   "id": "aged-care-infection-control-L03-K03",
+   "correctIndex": 0,
+   "rationale": "A record for a followed instruction shows the instruction, who gave it, when it took effect, and any postponed task with its reason. It does not include a clinical reason the cleaner was not given."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a door notice that restricts a room on the schedule, the learner stops the affected task, names the nurse in charge or IPC contact as the person to tell, and does not enter the room.",
+  "Given an IPC instruction naming a product that is not on the trolley, the learner does not substitute, states which surfaces are postponed, and names the supervisor to be told.",
+  "The learner's record shows the instruction source, the giver, the effective time, and any postponed task with its reason, with no clinical reason that was not given."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Observation note of the door-notice role-play",
+  "Record of the postponed task with the instruction source and time",
+  "Marked sheet sorting one instruction into must-do, must-not and refer"
+ ],
+ "stopWorkCriteria": [
+  "Learner enters or cleans a room under a current restriction notice",
+  "Learner substitutes a product that the IPC instruction does not name",
+  "Learner records a clinical reason or diagnosis that was not given"
+ ]
+}

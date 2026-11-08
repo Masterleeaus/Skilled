@@ -1,0 +1,436 @@
+{
+  "id": "TPL-15",
+  "title": "Payment and overdue account schedule (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Owners and office staff who set invoicing, payment and overdue account steps for clients on a recurring or one-off cleaning service, in any Australian state or territory",
+  "prerequisites": [
+    "TPL-13",
+    "BP-06"
+  ],
+  "learningOutcomes": [
+    "Write a payment schedule with an invoice method, a due period, a GST statement and accepted payment methods that a client can follow",
+    "Set overdue steps that are written, dated and within what the business is permitted to do in its own state or territory",
+    "Leave every payment, interest, fee and debt term out until its state or territory rule has been checked and the check recorded"
+  ],
+  "instruction": [
+    {
+      "heading": "Why payment terms sit in a separate schedule",
+      "body": "Payment terms are where a service agreement most often goes wrong. The source for this lesson sets payment terms written for another country and its state laws: a due date on receipt, a returned-cheque fee, a late fee after a period set by the source, an annual interest rate, collection costs, attorney fees and property liens. None of these is carried into this schedule. Each Australian term must be set and checked against the rules for the business's own state or territory. A separate schedule lets the payment detail be checked and changed without reissuing the whole agreement, and it keeps every item still to be checked in one place where it can be resolved. The client service agreement (“Client service agreement”) refers to this schedule."
+    },
+    {
+      "heading": "Invoices and the due period",
+      "body": "State when an invoice is issued, for example at the end of each visit or at the start of each month, how it is sent, and the number of days allowed for payment. The due period is a commercial choice. It should be one the business can justify, and it should be checked against the rules in the business's own state or territory. Write the basis for the number in one plain sentence, and leave the number out until the check is recorded. Check the current tax invoice requirements with the Australian Taxation Office before issuing invoices, because the ATO page used here does not cover them. The invoice should then show the business name, the ABN, the date, a description of the work, the quantity, any GST component the ATO requires, and the amount due."
+    },
+    {
+      "heading": "GST and the amount the client sees",
+      "body": "State whether the amounts include GST. The schedule says when the GST component is shown on the invoice. Confirm the GST display rule with the Australian Taxation Office before issue, because the ATO page used here does not address display. The GST statement must match the statement on the proposal (“Cleaning proposal for a new client”) and in the agreement (“Client service agreement”)."
+    },
+    {
+      "heading": "Accepted payment methods and surcharges",
+      "body": "List only the methods the client has agreed to, such as bank transfer, card or a payment link, and say how each one is used. Do not request payment in a way the client has not agreed to. If a surcharge applies to a method, check the surcharge and disclosure rules for the business's state or territory before setting it, and show it clearly before the client pays. For recurring work, some trade sources suggest offering monthly autopay, which can help cash flow. These are trade and vendor views, not measured results, and autopay is used only if the client agrees to it. Cash and cheque payments, where the business still accepts them, are recorded in the same way as other payments and given a receipt."
+    },
+    {
+      "heading": "Overdue accounts, step by step",
+      "body": "An overdue account needs a sequence, not a threat. Write each step with the day it happens, starting with a reminder. A common sequence is a reminder, a second reminder that states the amount and the due date, a call or a written notice, and then a decision on whether visits are paused. A pause is considered only after checking the rules for pausing a service in the business's state or territory and giving any written notice those rules require. Each step records what the business will do and how the client can resolve the matter. Before any formal recovery step, the business takes advice on the debt recovery rules that apply in its state or territory. This schedule does not include property liens, judgments, collection costs or attorney fees, because these come from another country's form. A qualified adviser must check any such step for the business's state or territory before it is added."
+    },
+    {
+      "heading": "Late fees, interest and gratuities",
+      "body": "A late fee or interest charge is not included by default. If the business wants one, check that the rules for its state or territory allow it, disclose it in advance, and leave it out until that check is recorded. The source's fixed late fee and annual interest rate are not carried over. A gratuity is optional. If the business accepts one, the schedule says how it is handled and that it is never a condition of service. Tax treatment of gratuities is not confirmed in this schedule, so check with the Australian Taxation Office or a tax adviser before relying on it."
+    },
+    {
+      "heading": "Failed and returned payments",
+      "body": "Record what the business does when a payment fails, such as a declined card, a reversed transfer or a returned cheque. The first step is a reminder with a request for a new payment."
+    }
+  ],
+  "procedure": [
+    "Describe when invoices are issued, how they are sent, and what each invoice contains.",
+    "Enter the due period as a whole number of days, and write its basis in one sentence, leaving the period blank until checked.",
+    "Write the GST statement and state when the GST amount is shown on the invoice.",
+    "List each accepted payment method in the table, and record any surcharge against it, leaving the surcharge blank until checked.",
+    "Describe the steps for a failed or returned payment, and the time the client has to respond.",
+    "Build the overdue sequence as a table with a day, an action and a route to resolve for each step.",
+    "State the conditions for pausing visits, and the written notice given before any pause, leaving both blank until checked.",
+    "State whether any late fee or interest applies. If none applies, write none.",
+    "Describe how gratuities are handled, if at all, and make clear they are not a condition of service.",
+    "Describe the escalation route for an account that has gone through the overdue sequence, and the adviser consulted first.",
+    "Resolve every open check, or remove the term, then record the version, review date and the client's acknowledgement."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client pays a monthly invoice by bank transfer two weeks after the due date, then says the transfer went to the wrong account.",
+      "decisionPrompt": "Which step in the overdue sequence applies, and which step should be held back until the payment is traced?",
+      "reasoning": "The business has a recorded due period and an accepted method, so the first step is a dated check of what has been received and what the client sent. The reminder waits until the transfer is traced. If the payment reached the wrong account, the business corrects its records and tells the client in writing what has been received. No late fee, interest or recovery step applies while the account is being traced."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Current invoice template with the fields listed in the schedule",
+    "Record of the payment methods the business accepts and any surcharge",
+    "Accounting record or payment platform report for the client account",
+    "Record of each check, with the source, the date checked and the outcome",
+    "PPE: not applicable to this lesson; the schedule is a document"
+  ],
+  "commonErrors": [
+    {
+      "error": "Copying a due-on-receipt term from a non-Australian form.",
+      "prevention": "Set a due period the business can justify, state its basis, and leave it blank until the check is recorded."
+    },
+    {
+      "error": "Adding a fixed late fee or an annual interest rate with no legal basis checked.",
+      "prevention": "Leave the charge out unless it has been checked for the state or territory, disclosed in advance, and recorded."
+    },
+    {
+      "error": "Including property liens, judgments, collection costs or attorney fees.",
+      "prevention": "Remove them. Use the written overdue sequence, and take advice before any formal recovery step."
+    },
+    {
+      "error": "Requesting payment by a method the client has not agreed to.",
+      "prevention": "List the accepted methods, and disclose any surcharge before the client pays."
+    },
+    {
+      "error": "Sending a reminder for a payment that reached the wrong account.",
+      "prevention": "Trace the payment first, then record the outcome before any reminder is sent."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The Australian Consumer Law and state or territory fair trading rules apply to terms, charges and practices offered to consumers. Check the specific rules that apply to this schedule against a current source, and record the date.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Confirm with the Australian Taxation Office or a qualified adviser before relying on any statement.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check surcharges on payment methods and how they must be disclosed against a current source, and record the date.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The business takes advice before any formal recovery step.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the privacy obligations that apply before storing client payment details, and keep only the details the payment needs.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant a licence, registration or authority to collect debts or to do any regulated work.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every payment term is either stated with a number and its basis, or left blank with a named check",
+    "The overdue sequence has a day number, a written action and a route to resolve for each step",
+    "No lien, judgment, collection cost, attorney fee, annual interest rate or returned-cheque fee from a non-Australian form appears in the schedule",
+    "Each accepted payment method is listed, and any surcharge is disclosed before payment",
+    "No open check flag remains in the version issued to a client"
+  ],
+  "documentationEvidence": [
+    "Completed payment schedule with version number, date and review date",
+    "Record of each check, with the source, the date checked and the outcome",
+    "Sample invoice showing the required fields",
+    "Record of any overdue step taken, with its date and outcome"
+  ],
+  "summary": [
+    "Payment detail sits in one schedule, so it can be checked and changed on its own.",
+    "Due periods, the GST statement and the payment methods are stated plainly.",
+    "Every overdue step is written, dated and checked against state or territory rules."
+  ],
+  "businessFields": [
+    "{{business:business.name}}",
+    "{{business:business.support_email}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:customers.complaint_escalation}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "TPL-15-T01",
+      "title": "Payment and overdue account schedule",
+      "purpose": "A schedule attached to the client service agreement that sets the invoice method, the due period, the GST statement, the accepted payment methods, the failed-payment steps, the overdue sequence and any charge. Every term not yet checked is left blank.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Invoice method and timing",
+          "type": "longtext",
+          "prompt": "State when invoices are issued, how they are sent, and what each invoice contains.",
+          "guidance": "Covers the invoice trigger (per visit or per month), the send method and the fields on the invoice. Matches the business invoice template.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Payment due period",
+          "type": "number",
+          "prompt": "Enter the number of days after the invoice date that payment is due.",
+          "guidance": "A number the business can justify. The basis is recorded in f3 and stays blank until checked.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Basis for the due period",
+          "type": "text",
+          "prompt": "State in one sentence the basis for the due period. Leave it blank until the check is recorded, and resolve the check before the schedule is issued.",
+          "guidance": "The sentence is readable by the client. The flag is removed only after the state or territory check is recorded.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "GST statement",
+          "type": "text",
+          "prompt": "State whether the amounts include GST, and say when the GST amount is shown on the invoice.",
+          "guidance": "Matches the GST statement on the proposal (“Cleaning proposal for a new client”) and the agreement (“Client service agreement”). GST display has not yet been confirmed; check it with the Australian Taxation Office before relying on this statement.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Accepted payment methods",
+          "type": "table",
+          "prompt": "One row per method. Columns: method, how the client uses it, any charge (none, or the amount), and whether that charge has not yet been confirmed, so check with the relevant regulator before relying on this point.",
+          "guidance": "Only methods the client has agreed to are listed. Any charge is stated before payment is made.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Surcharges and payment fees",
+          "type": "longtext",
+          "prompt": "State whether any surcharge applies to a payment method, and how the client is told before paying. If none applies, write none.",
+          "guidance": "Any surcharge has not yet been confirmed until its rules are checked. The disclosure before payment is part of the statement.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Failed or returned payment",
+          "type": "longtext",
+          "prompt": "Describe the steps the business takes when a payment fails or is returned, and the time the client has to respond.",
+          "guidance": "Starts with a reminder and a request for a new payment. A fee is written only after its check is recorded.",
+          "required": true
+        },
+        {
+          "fieldId": "f8",
+          "label": "Overdue sequence",
+          "type": "table",
+          "prompt": "One row per step. Columns: step, day after the due date, action the business takes, what the client can do to resolve the matter.",
+          "guidance": "Each step has a day number, a written action and a route to resolve. The first step is a reminder.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Pausing visits for non-payment",
+          "type": "longtext",
+          "prompt": "State the conditions under which visits are paused for non-payment, and how much written notice is given first.",
+          "guidance": "The condition is written out. The notice period is a number and stays blank until checked.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Late fees and interest",
+          "type": "longtext",
+          "prompt": "State whether any late fee or interest applies to overdue amounts. If none applies, write none.",
+          "guidance": "Any charge is set in line with state or territory rules, disclosed in advance, and left blank until checked. No rate or fee is copied from another form.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Gratuities and tips",
+          "type": "longtext",
+          "prompt": "State whether the business accepts gratuities and how they are handled. Make clear that they are not a condition of service.",
+          "guidance": "Says how a gratuity is shared, if at all, and how it is paid. Tax treatment is not confirmed in this schedule, so check with the Australian Taxation Office or a tax adviser before relying on this point.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Escalation for an unpaid account",
+          "type": "longtext",
+          "prompt": "Describe how the business escalates an account that has gone through the overdue sequence, and who the business takes advice from first.",
+          "guidance": "Names the business's own escalation route and the adviser consulted. Property liens, judgments and collection fees are left out unless a qualified adviser confirms them.",
+          "required": true
+        },
+        {
+          "fieldId": "f13",
+          "label": "Contact for payment questions",
+          "type": "text",
+          "prompt": "Name the person or mailbox the client contacts about an invoice, and the number of working days within which the business replies.",
+          "guidance": "Uses the business approved contact channel, and states the reply time as a number of working days.",
+          "required": true
+        },
+        {
+          "fieldId": "f14",
+          "label": "Review date and version",
+          "type": "text",
+          "prompt": "Enter the review date and the version number of this schedule.",
+          "guidance": "Any change creates a new version, which is sent to the client before it takes effect.",
+          "required": true
+        },
+        {
+          "fieldId": "f15",
+          "label": "Client acknowledgement",
+          "type": "text",
+          "prompt": "Record that the client has received this schedule, the date, and the method of acknowledgement.",
+          "guidance": "Acknowledgement is recorded before the first invoice is issued.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Due period and invoice method are stated",
+      "levels": {
+        "meets": "A whole-number due period, its one-sentence basis, the invoice trigger, the send method and the invoice contents are stated.",
+        "does_not_meet": "The due period, its basis, or the invoice method is missing."
+      }
+    },
+    {
+      "criterion": "Open checks are resolved before issue",
+      "levels": {
+        "meets": "Each open check has been checked against a source with its date, and resolved or removed before issue.",
+        "does_not_meet": "An open check remains in the schedule issued to the client, or a check has no recorded source."
+      }
+    },
+    {
+      "criterion": "No imported non-Australian terms",
+      "levels": {
+        "meets": "No lien, judgment, collection cost, attorney fee, annual interest rate, returned-cheque fee or non-Australian state law appears in the schedule.",
+        "does_not_meet": "Any such term appears in the schedule."
+      }
+    },
+    {
+      "criterion": "Overdue steps are dated and actionable",
+      "levels": {
+        "meets": "Each step has a day number, a written action and a route for the client to resolve the matter.",
+        "does_not_meet": "A step has no day number, no action, or no route to resolve."
+      }
+    },
+    {
+      "criterion": "Charges are disclosed in advance",
+      "levels": {
+        "meets": "Every surcharge, fee or interest charge is stated before the client pays, or the schedule states that none applies.",
+        "does_not_meet": "A charge is applied or described without being disclosed in advance."
+      }
+    }
+  ],
+  "knowledgeChecks": [],
+  "outputDocument": {
+    "title": "{{business:business.name}} payment and overdue account schedule",
+    "format": "contract",
+    "sections": [
+      {
+        "heading": "Invoicing and due dates",
+        "fieldIds": [
+          "f1",
+          "f2",
+          "f3"
+        ]
+      },
+      {
+        "heading": "GST and payment methods",
+        "fieldIds": [
+          "f4",
+          "f5",
+          "f6"
+        ]
+      },
+      {
+        "heading": "Failed payments",
+        "fieldIds": [
+          "f7"
+        ]
+      },
+      {
+        "heading": "Overdue accounts",
+        "fieldIds": [
+          "f8",
+          "f9",
+          "f10",
+          "f12"
+        ]
+      },
+      {
+        "heading": "Gratuities",
+        "fieldIds": [
+          "f11"
+        ]
+      },
+      {
+        "heading": "Contacts and version",
+        "fieldIds": [
+          "f13",
+          "f14",
+          "f15"
+        ]
+      }
+    ],
+    "footer": "This schedule forms part of the client service agreement. Questions: {{business:business.support_email}}."
+  },
+  "status": "DRAFT",
+  "sourceReferences": [
+    "0c6dd144-521811542-Cleaning-Service-Contract.txt, sections: Payment Policy, Late Fee, Gratuity, Determining the Cost of Your Cleaning (adjustment after a walk-through); rights: user-held; reworded (no copying). US-specific terms (NSF check fee, late fee at 30 days, annual interest rate, collection and attorney costs, property lien and judgment, PayPal fee wording) were NOT carried over.",
+    "583bfd2b-475333245-cleaning-template.txt, Pricing section (GST position only; US dollar figures not used); rights: user-held; reworded (no copying)",
+    "Cross-reference only (content not repeated): TPL-13 client service agreement; TPL-12 proposal (GST statement); TPL-11 pricing and margin worksheet (shared/quoting/TPL-11.json); TPL-02 freedom and cash plan (shared/starting-business/TPL-02.json); BP-06 break-even and cash timing (shared/starting-business/BP-06.json)",
+    "Australian Consumer Law and fair trading rules on unfair terms and charges, debt recovery and service pauses, GST rate and tax invoice content, surcharge rules, gratuity tax treatment, Privacy Act 1988: UNCONFIRMED (not checked against a current source in this draft; no date checked)",
+    "Tactic (team4 hourly-rate and recurring-scaling research): autopay for recurring work, described as a trade and vendor view, not a measured result. Source: Tofu, 'Service agreements guide: How to turn one-time jobs into recurring revenue', https://tofu.com/blog/service-agreement-guide, published 16 June 2026, updated 7 October 2026; and ServiceMag, 'Maintenance Agreements That Renew: Building Recurring Revenue in Appliance and HVAC Service', https://www.servicemag.org/guides/maintenance-agreements-recurring-revenue, 23 June 2026.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. template was converted from a US-style source in the template pass; US amounts, US state law and US fee terms are removed or marked for Australian checking; no US figure is used; state and territory rules UNCONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Registering for GST (Australian Taxation Office)",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst",
+      "pageDate": "Last updated 14 September 2026",
+      "checked": "2026-11-03",
+      "covers": "Read through a summary tool (WebFetch). Gives the GST turnover threshold as $75,000 ($150,000 for non-profit organisations), assessed on current or projected turnover, and says businesses reaching it must register. Does not mention tax invoices or state the GST rate, so those points remain unconfirmed. Publisher: Australian Taxation Office."
+    }
+  ]
+}

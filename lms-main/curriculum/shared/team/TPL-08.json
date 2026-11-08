@@ -1,0 +1,328 @@
+{
+  "id": "TPL-08",
+  "title": "Staff onboarding and induction record (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Growing and managing a team",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Owners and supervisors who bring a new person into the team",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Record training completed separately from competency observed by a named person",
+    "Write the authorised tasks and restrictions that define what the new person may do alone",
+    "Record licences or outside authorisations as held and checked, without treating the record as a grant"
+  ],
+  "instruction": [
+    {
+      "heading": "What an induction record shows",
+      "body": "An induction record shows that a new person was introduced to the business, its standards and its hazards, and that they can carry out each task they are permitted to do. It is different from a training certificate. A course can show that someone attended a session. The induction record shows what they are authorised to do, what was observed, and who made that decision. Keep the two apart, so that a person is not authorised for a task simply because they completed a course that did not test that task."
+    },
+    {
+      "heading": "Training completed and competency observed",
+      "body": "List the training completed, with its date, the trainer or provider, and where the evidence is kept. Then list each task the person will perform, and record whether competency has been observed and found adequate, observed but not yet adequate, or not yet observed. A task becomes authorised only after a named observer has seen the person perform it to the standard. Record the method used, such as a demonstration on site, a supervised job, or a practical check set by the business. Competence is shown by doing the task to the standard, not by describing it."
+    },
+    {
+      "heading": "Authorisation, restrictions and sign-off",
+      "body": "The authorised task list is the boundary of what the person may do alone. Write restrictions in the same table, such as tasks that need supervision and tasks that are not yet authorised. Where a task needs a licence or an authorisation from an outside body, record the licence held, the issuer and the expiry date from the document shown, and check them. This record does not grant or confirm any licence. Sign-off needs both the person's acknowledgement and the supervisor's signature. Set a date for the first review."
+    }
+  ],
+  "procedure": [
+    "Record the staff member's name, role, start date and supervisor.",
+    "Tick the induction topics completed, and record the date and trainer for each.",
+    "Attach or reference the evidence for each training item.",
+    "List each task the person will perform and record its competency status.",
+    "Record the observer and the method for each observed competency.",
+    "Write the restrictions and the tasks not yet authorised.",
+    "Check any licence or outside authorisation against the document, and record its details.",
+    "Record the documents and equipment issued.",
+    "Obtain the person's acknowledgement and the supervisor's signature.",
+    "Set the first review date and file the record."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A new cleaner has completed a two-hour online course on chemical handling but has not used the business's equipment. The supervisor wants them to start on a commercial site next week.",
+      "decisionPrompt": "What should the induction record show before the cleaner works alone, and how should the course be entered?",
+      "reasoning": "The course is entered as training completed, with its date and provider. It does not appear as competency. The equipment task is recorded as not yet observed, or observed but not yet adequate. The restrictions say the cleaner works only with a supervisor until a named observer records the equipment task as adequate. The record does not authorise the equipment task on the strength of the course, and the supervisor's sign-off should show the restriction so the site team can see it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Induction checklist from the business",
+    "Training evidence, such as a certificate, a sign-in sheet or the business record",
+    "Role description and written standards",
+    "PPE: issued items are recorded in the equipment field"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating course attendance as competency.",
+      "prevention": "Record competency separately, observed by a named person, using a stated method."
+    },
+    {
+      "error": "Listing authorised tasks without listing the tasks not yet authorised.",
+      "prevention": "Put every task in the same table, with its status."
+    },
+    {
+      "error": "Recording a licence as held without checking it.",
+      "prevention": "Check the licence details against the document before recording them."
+    },
+    {
+      "error": "Signing off without the person's acknowledgement.",
+      "prevention": "Require both the staff member's and the supervisor's signatures."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Completing this record does not give a licence, certificate or authority to do regulated work. Any licence or authorisation a task requires is held by the person and issued by the relevant authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Induction must cover site hazards, emergency arrangements and the route for reporting incidents. Record the emergency contact and the location of first aid and emergency equipment.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Training and competency are recorded separately",
+    "Each authorised task has an observer and a method recorded",
+    "Restrictions and tasks not yet authorised are written",
+    "Both signatures and the first review date are recorded"
+  ],
+  "documentationEvidence": [
+    "Completed induction record with dates and observer names",
+    "Training evidence attached or referenced",
+    "Signed acknowledgement from the staff member and the supervisor"
+  ],
+  "summary": [
+    "Training is not competency; competency is observed.",
+    "Authorised tasks define the limit of solo work.",
+    "This record documents a licence held. It does not grant one.",
+    "Review the record after the first period."
+  ],
+  "businessFields": [
+    "{{business:staff.role}}",
+    "{{business:staff.supervisor_contact}}",
+    "{{business:staff.authorised_tasks}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "TPL-08-T01",
+      "title": "Staff onboarding and induction record",
+      "purpose": "Records the induction topics, training, observed competency, authorised tasks, restrictions, licences held, documents issued and both sign-offs for one new team member.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Staff member name and start date",
+          "type": "text",
+          "prompt": "Enter the full name and the start date.",
+          "guidance": "Name matches the employment or engagement record.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Role and supervisor",
+          "type": "text",
+          "prompt": "Enter the role title and the supervisor's name and contact.",
+          "guidance": "Role matches the role description.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Induction topics completed",
+          "type": "checklist",
+          "prompt": "Tick each topic when it is completed.",
+          "guidance": "Business standards and conduct; site hazards and controls; emergency arrangements; incident reporting route; privacy and customer property; equipment and vehicle use.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Training completed",
+          "type": "table",
+          "prompt": "One row per item. Columns: course or topic, date, trainer or provider, where the evidence is kept.",
+          "guidance": "Training is recorded here, not as competency.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Tasks and competency",
+          "type": "table",
+          "prompt": "One row per task. Columns: task, competency status (observed and adequate; observed and not yet adequate; not yet observed), observer name, method, date.",
+          "guidance": "Each status has an observer and method, except not yet observed.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Authorised tasks and restrictions",
+          "type": "longtext",
+          "prompt": "List the tasks the person may do alone, the tasks that need supervision, and the tasks not yet authorised.",
+          "guidance": "Every task on the competency table appears here with one status.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Licences or outside authorisations",
+          "type": "table",
+          "prompt": "One row per licence or authorisation. Columns: licence or authorisation, issuing body, number as shown on the document, expiry date.",
+          "guidance": "Records only what the person holds and has shown. This field does not grant any licence.",
+          "required": false
+        },
+        {
+          "fieldId": "f8",
+          "label": "Documents and equipment issued",
+          "type": "checklist",
+          "prompt": "Tick each item issued or confirmed.",
+          "guidance": "Role description; standards; emergency contacts; access to safety data sheets; uniform or PPE; keys or access card; equipment list.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Staff acknowledgement",
+          "type": "text",
+          "prompt": "Enter the staff member's name and the date they acknowledged the record.",
+          "guidance": "Acknowledgement is given by the staff member, not by the supervisor on their behalf.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Supervisor sign-off",
+          "type": "text",
+          "prompt": "Enter the supervisor's name, date and any restriction noted.",
+          "guidance": "Supervisor sign-off is given after the competency table is complete.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "First review date",
+          "type": "date",
+          "prompt": "Enter the date of the first review of this record.",
+          "guidance": "A date within the first review period the business sets.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Training and competency are separate",
+      "levels": {
+        "meets": "Training is listed with its evidence. Competency is listed separately with an observer and method.",
+        "does_not_meet": "Training is recorded as competency, or competency has no observer."
+      }
+    },
+    {
+      "criterion": "Authorisation matches observed competency",
+      "levels": {
+        "meets": "Each task marked as authorised has an observed competency record, and each unobserved task is shown as a restriction.",
+        "does_not_meet": "A task is authorised without observed competency, or a task is missing from the restrictions."
+      }
+    },
+    {
+      "criterion": "Licence statements are accurate",
+      "levels": {
+        "meets": "Licences are recorded only as held, with details from the document.",
+        "does_not_meet": "A licence is recorded as held without a check, or the record is treated as a grant."
+      }
+    },
+    {
+      "criterion": "Both sign-offs are present",
+      "levels": {
+        "meets": "The staff member's acknowledgement and the supervisor's sign-off are both recorded with dates.",
+        "does_not_meet": "One of the two signatures is missing."
+      }
+    }
+  ],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} staff onboarding and induction record",
+    "format": "form",
+    "sections": [
+      {
+        "heading": "Staff member",
+        "fieldIds": [
+          "f1",
+          "f2"
+        ]
+      },
+      {
+        "heading": "Induction and training",
+        "fieldIds": [
+          "f3",
+          "f4",
+          "f5"
+        ]
+      },
+      {
+        "heading": "Authority and licences",
+        "fieldIds": [
+          "f6",
+          "f7"
+        ]
+      },
+      {
+        "heading": "Issued items and acknowledgement",
+        "fieldIds": [
+          "f8",
+          "f9"
+        ]
+      },
+      {
+        "heading": "Sign-off and review",
+        "fieldIds": [
+          "f10",
+          "f11"
+        ]
+      }
+    ],
+    "footer": "Keep on the staff file. Contact {{business:business.support_email}}."
+  },
+  "knowledgeChecks": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Team brief for template lessons TPL-01 to TPL-11, item 8 (Staff onboarding and induction record); no external source used; rights: reworded (no copying)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

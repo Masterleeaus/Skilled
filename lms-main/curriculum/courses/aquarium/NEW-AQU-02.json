@@ -1,0 +1,243 @@
+{
+  "id": "NEW-AQU-02",
+  "title": "Water testing, trends and records",
+  "courseSlugs": [
+    "aquarium"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 45,
+  "audience": "Aquarium maintenance technicians who test tank water, read the results and keep the records for freshwater and marine tanks",
+  "prerequisites": [
+    "NEW-AQU-01",
+    "F03-L01"
+  ],
+  "learningOutcomes": [
+    "Test tank water for temperature, pH, ammonia, nitrite and nitrate with an in-date kit or meter, in the same order and from the same sampling point each visit",
+    "Explain in general terms what each core reading means, and read the results together and against the previous visit",
+    "Record each result with its time, temperature, method, equipment and observations so that trends can be seen",
+    "Respond to an out-of-range result by retesting, checking the equipment and recent changes, and following the owner's plan one change at a time",
+    "Identify when a result or a pattern must be referred to the owner or a qualified person"
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Storing hazardous chemicals (no date shown); Safe Work Australia, WHS duties related to hazardous chemicals (no revision date shown).",
+  "instruction": [
+    {
+      "heading": "Why testing is the core skill",
+      "body": "Testing is the main way to see what the water is doing, because livestock often show stress only after conditions have moved for some time. A single reading shows one moment. A short run of readings taken with the same method shows a trend, and a trend is what lets you act before the animals show a problem. A consistent record also lets the next visit compare like with like. Test the source water as well as the tank, including the tap water used for top-ups and water changes, because a poor source water can cause a tank problem."
+    },
+    {
+      "heading": "What the core readings mean",
+      "body": "Temperature: a stable temperature matters more than hitting one exact number, because a sudden change stresses animals. Record it at every visit. pH: pH measures how acidic or alkaline the water is. A pH that swings or drifts is a warning sign in its own right. pH also changes how much of the ammonia in the water is in the more toxic form, so a high pH makes the same ammonia reading more dangerous. Ammonia: ammonia comes from fish waste, uneaten food and decaying matter. It is toxic to fish. In an established tank it should not be detectable, and any reading in a new, recently disturbed or overfed tank is a reason to act under the owner's plan. Nitrite: nitrite is an intermediate step, formed when bacteria convert ammonia, and it is also toxic. In an established tank a nitrite reading points to a problem with the bacteria, the load or the water change. Nitrate: nitrate is the end product of the usual conversion. It is much less harmful than ammonia or nitrite, but it builds up between water changes and is reduced by partial water changes and by plants. Its target is set by the owner's plan. Other parameters, including dissolved oxygen, hardness and the marine parameters, are tested only where the plan asks for them."
+    },
+    {
+      "heading": "A consistent test routine",
+      "body": "Use a test kit or meter with reagents in date and, for a meter, a current calibration. Test in the same order each visit, from the same sampling point and at about the same time of day, so that differences come from the tank and not from the method. Follow each kit's instructions for shaking, timing and colour reading, and read the colour in good light against the card that comes with the kit. If a test cannot be completed, record it as not completed and give the reason. Store test kits and reagents as their safety data sheets direct (page text refers to the model WHS laws created in 2011; no revision date shown), and keep incompatible chemicals at a distance from one another (no date shown)."
+    },
+    {
+      "heading": "Reading the results together",
+      "body": "Read the whole set before you decide anything, and compare it with the previous visit. High ammonia with low nitrate usually points to a cycle that has not been established or has been disrupted. Ammonia falling while nitrite and nitrate rise can show that the bacteria are doing their job. A rising nitrate with stable ammonia and nitrite is common, and the question is whether it stays within the plan's target. A single high reading that falls back on retest is a different problem from a reading that keeps rising, and the trend tells you which one you have."
+    },
+    {
+      "heading": "Responding to an out-of-range result",
+      "body": "Retest the sample with an in-date reagent. If the first result looks wrong, take a fresh sample. Check the equipment that could change the reading, including the filter, the heater, the top-up water, any recent water change, feeding changes and any livestock added. Then follow the owner's plan. Change one variable at a time, allow time for the effect to show, and retest. Do not add a large amount of any product to force a result, and do not change the water rapidly. If the plan does not cover the result, or the livestock show stress, stop adjusting and refer the matter to the owner and to a qualified specialist."
+    },
+    {
+      "heading": "Electronic monitors support manual testing",
+      "body": "Continuous electronic monitoring, such as a logged probe with alerts, can show trends between visits. A student project described a system that logged pH and temperature and sent alerts to a phone. The general point is that a monitor supplements manual tests and does not replace them. Sensors drift over time and need calibration, a failed sensor can give a false reading, and a connection or power failure can stop the alerts. Record the sensor's calibration date, and compare the sensor reading with a manual test at each visit."
+    },
+    {
+      "heading": "Records that are useful",
+      "body": "A useful record shows the date and time, the sampling point, the temperature, each result with its unit, the test method and the reagent expiry date, any water change and its volume, any equipment change, any feeding change and any livestock observation. Corrections follow the same rule as any other record: the original stays readable, and the correction is initialled and dated with the reason. A run of consistent records is the best evidence for the owner, and for any specialist asked to help."
+    }
+  ],
+  "procedure": [
+    "Check the owner's plan for the sampling point, the test schedule, the target ranges and the response steps.",
+    "Check each reagent's expiry date, and each meter's calibration status.",
+    "Take the sample from the planned point, and record the time and the temperature.",
+    "Run each test in the manufacturer's order, wait for the stated time, and record each result immediately.",
+    "If a result is out of range, retest, check the equipment and the recent changes, and check the source water before taking action.",
+    "Follow the owner's plan for the response, changing one variable at a time.",
+    "Record any water change, equipment change, feeding change and livestock observation, and refer any matter the plan does not cover."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A marine tank reads an unexpected swing overnight, and the owner asks for a quick fix before the weekend.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "The technician retests with an in-date kit, checks the heater, the pump and any recent change, and records the readings. The technician does not make a large or rapid change to force the result. The response follows the owner's plan. If the plan does not cover the swing, or the livestock are stressed, the technician refers the matter to the owner and a specialist and records the response."
+    },
+    {
+      "situation": "A test kit has passed its expiry date, but the result looks normal.",
+      "decisionPrompt": "Is the result valid for the record?",
+      "reasoning": "An expired kit can give an unreliable result, so a normal-looking reading from it is not a valid result. The technician replaces the reagent, retests, and records the replacement. The earlier result stays on the record with a note about the expiry date."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Owner's test schedule and target-range plan",
+    "Test kit or meter, in date and calibrated",
+    "Thermometer, separate from the heater",
+    "Record sheet or system, kept separately for each tank",
+    "PPE as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Testing from a different sampling point on each visit.",
+      "prevention": "Use the point the owner's plan names, and record any change of point with the reason."
+    },
+    {
+      "error": "Using expired reagents.",
+      "prevention": "Check expiry dates and replace the reagent before testing."
+    },
+    {
+      "error": "Changing several variables at once.",
+      "prevention": "Change one variable at a time, and retest after each change."
+    },
+    {
+      "error": "Recording a result without a time or temperature.",
+      "prevention": "Record the time and the temperature with every result."
+    },
+    {
+      "error": "Treating a single reading as the whole picture.",
+      "prevention": "Compare each set with the previous visit, and act on the trend as well as the reading."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Test reagents, calibration solutions and any pH adjustment product are chemicals. Read the label and the safety data sheet. Safe Work Australia's storage page says incompatible chemicals must be kept well apart (no date shown), but it does not name acids or oxidisers, so keeping those two apart is practice in this draft. Keep chemicals away from food as good practice, because that page does not address food storage.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Numeric targets are not given in this lesson.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check with the water utility before you rely on a source-water result for a target.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Adding a product to change the water chemistry, or treating an animal, is a decision for the owner and, where needed, a qualified person. This lesson grants no authority to treat animals or to add products beyond the owner's plan.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each result is recorded with its time, temperature, method and sampling point",
+    "Out-of-range results are retested and followed by the owner's plan, one change at a time",
+    "Referral is made when the plan does not cover the result or the livestock show stress",
+    "Expired reagents and uncalibrated meters are not used for a valid result"
+  ],
+  "documentationEvidence": [
+    "Test record with time, temperature, results and tester",
+    "Reagent expiry and meter calibration check",
+    "Response record for any out-of-range result, with the retest",
+    "Referral record where the plan did not cover the result"
+  ],
+  "summary": [
+    "Test ammonia, nitrite, nitrate and pH, with temperature, from the same point, using in-date reagents, and record every result.",
+    "Each reading has a general meaning, but targets come from the owner's plan.",
+    "Read the set together and against the trend before acting.",
+    "Respond to an out-of-range result by retesting, checking the equipment and following the plan one change at a time, and refer what the plan does not cover."
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:customers.communication_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-AQU-02-K01",
+      "question": "An aquarium test reads an unexpected swing. What is the first correct step?",
+      "options": [
+        "Add a large dose to force the reading back to the normal range quickly",
+        "Change the water completely at once to remove the cause",
+        "Ignore it until the next scheduled visit, as one reading is not a concern",
+        "Retest with an in-date kit and check the equipment before acting"
+      ]
+    },
+    {
+      "id": "NEW-AQU-02-K02",
+      "question": "Why keep a consistent sampling point and time?",
+      "options": [
+        "So that results can be compared as a trend",
+        "It makes the record sheet look neat and tidy",
+        "It is a legal requirement in every state",
+        "It replaces the test kit at each visit"
+      ]
+    },
+    {
+      "id": "NEW-AQU-02-K03",
+      "question": "What should happen when a result is out of range and the owner's plan does not cover it?",
+      "options": [
+        "Guess the response from the last result",
+        "Refer to the owner and a specialist",
+        "Change several variables at once",
+        "Record nothing and move on quietly"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it covers keeping incompatible chemicals apart and container labelling, and refers to the guide Managing risks of storing chemicals in the workplace. It does not name acids or oxidisers and does not mention safety data sheets. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "WHS duties related to hazardous chemicals",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemicals/whs-duties-related-hazardous-chemicals",
+      "pageDate": "No revision date shown; page text says the model WHS laws were created in 2011",
+      "checked": "2026-11-03",
+      "covers": "Open the page; the duties described are for a person conducting a business or undertaking (PCBU). It points to the state or territory regulator for worker duties. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R3",
+      "title": "tap-water composition varies by supply area",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Ask the local water utility for the supply-area water quality information before relying on a source-water result. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was found or fetched in this pass, so the url stays null."
+    },
+    {
+      "id": "R4",
+      "title": "target temperature, chemistry and maintenance ranges",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Set the targets from the owner's plan or a qualified aquatic specialist. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was found or fetched in this pass, so the url stays null."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-A1: Safe Work Australia, Storing hazardous chemicals, https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals, checked 2026-11-02 (as recorded in the existing draft). Separation principle only.",
+    "Aquarium keeping student presentation (uploaded file c5a0d0ad-367752036, ESS-121), testing and test-kit points; rights: reworded (no copying); undated.",
+    "Setting up a new aquarium guide (uploaded file 6d9db04b-466577148), testing and cycling points; rights: reworded (no copying); printed 22 February 2020, US-origin; product names not used.",
+    "Retailer freshwater handbook (uploaded file 718107ab-729706926), ammonia and nitrate points only; rights: not held by user; reworded (no copying). Product recommendations and US figures are not used.",
+    "Student project report on an IoT aquarium monitoring system (uploaded file 00af7eca-859439043), general point only that sensors drift and need calibration and supplement manual testing; rights: reworded (no copying). Names, IDs, supervisor and product claims are excluded.",
+    "General aquarium chemistry (ammonia and nitrite toxicity, the effect of pH on ammonia, nitrate as the end product of nitrification): no source checked beyond the uploaded documents in this pass.",
+    "UNCONFIRMED: target ranges for each parameter, freshwater and marine; response thresholds for Australian practice; which tap-water parameters matter in each supply area.",
+    "R1: Storing hazardous chemicals (Safe Work Australia), https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals; page date: No date shown; read 2026-11-03; status PARTIAL.",
+    "R2: WHS duties related to hazardous chemicals (Safe Work Australia), https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemicals/whs-duties-related-hazardous-chemicals; page date: No revision date shown; page text says the model WHS laws were created in 2011; read 2026-11-03; status PARTIAL.",
+    "R3: UNCONFIRMED, tap-water composition varies by supply area; no official page read in this pass.",
+    "R4: UNCONFIRMED, target temperature, chemistry and maintenance ranges; no official page read in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-03.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-04.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    }
+  ]
+}

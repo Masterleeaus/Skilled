@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-APP-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-APP-04-K01",
+      "correctIndex": 0,
+      "rationale": "A tripping safety switch is a fault signal. Resetting it to keep working can hide the fault and create a shock risk."
+    },
+    {
+      "id": "NEW-APP-04-K02",
+      "correctIndex": 1,
+      "rationale": "A missing earth pin and a damaged cord fail the pre-use check. The item is tagged and removed from service."
+    },
+    {
+      "id": "NEW-APP-04-K03",
+      "correctIndex": 2,
+      "rationale": "Near electrical parts a damp cloth is used rather than spray, to keep water away from live parts."
+    },
+    {
+      "id": "NEW-APP-04-K04",
+      "correctIndex": 3,
+      "rationale": "Water at a damaged lead is a stop sign. The worker keeps clear, isolates if safe, records and refers."
+    },
+    {
+      "id": "NEW-APP-04-K05",
+      "correctIndex": 0,
+      "rationale": "Repair of fixed wiring and switchboards is regulated electrical work that needs a licence holder. The course does not grant that licence."
+    }
+  ],
+  "practicalCriteria": [
+    "Completes a pre-use check of each powered item before it is used",
+    "Tests the site RCD by the site procedure before using water on the job",
+    "Keeps water and product away from sockets, switches, terminals and motor vents",
+    "Stops and refers on any stop-and-refer sign, and does not reset a tripped switch"
+  ],
+  "passRule": "Knowledge checks: at least 4 of 5 correct (80%). Practical sign-off is separate: an assessor observes the practical criteria and records the result. A knowledge pass is not practical competence and does not grant any licence or authority.",
+  "evidenceRequired": [
+    "Pre-use check record for each powered item",
+    "RCD test result from the site procedure",
+    "Fault record and referral for any stop-and-refer event"
+  ],
+  "stopWorkCriteria": [
+    "A safety switch trips and the worker resets it to continue",
+    "Water found inside a control housing or at a damaged lead",
+    "Any heat, smell, sparks or exposed conductor"
+  ]
+}

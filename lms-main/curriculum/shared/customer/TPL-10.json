@@ -1,0 +1,353 @@
+{
+  "id": "TPL-10",
+  "title": "Customer complaint log and response (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Customer communication and privacy",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Anyone who receives or answers customer complaints, including people who take complaints by phone or in person",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Log every complaint with its date, channel, reference and the customer's words",
+    "Check the facts against the job record before writing a response",
+    "Record the outcome, follow-up actions, escalation and closing review"
+  ],
+  "instruction": [
+    {
+      "heading": "Why every complaint is logged",
+      "body": "A complaint is any expression of dissatisfaction that the business has to respond to, including one made in passing to an employee. A log turns scattered complaints into a record that shows patterns, such as the same service, the same crew or the same kind of job. Log every complaint, including those resolved on the spot. The log protects the customer and the business, because it shows what was said, what was checked and what was agreed."
+    },
+    {
+      "heading": "Facts before response",
+      "body": "Write the complaint in the customer's words first, before adding your own view. Then check the facts against the job record, the checklist, photos, the quote and any variation. Record what you checked, where you checked it and what it showed. The response should follow those facts. If the facts show the business did not meet the agreed scope, say so plainly and state what will be done. If they show the work met the scope, explain what was done and why, without blame. Do not argue the customer out of their experience. Respond within the time the business sets, using the channel the customer used unless they asked for another."
+    },
+    {
+      "heading": "Outcome, follow-up and escalation",
+      "body": "Record the outcome agreed with the customer, whether the customer is satisfied, and any follow-up action with an owner and a due date. Escalate complaints that involve injury, property damage, a threat of legal action, or a repeated issue, using the business escalation contact. Record when the complaint was closed and who reviewed it. Review the log each month to look for patterns, and decide which checklist, procedure or training needs to change. Keep the customer's personal information to what the complaint needs, and store it under the business privacy procedure."
+    }
+  ],
+  "procedure": [
+    "Record the complaint reference, the date received and the channel used.",
+    "Record the customer's details and the job reference, limited to what the complaint needs.",
+    "Write the complaint in the customer's words.",
+    "List the facts to check, and the source of each.",
+    "Record what each check showed.",
+    "Write the response from the facts, and send it within the time the business sets.",
+    "Record the action taken and the outcome agreed with the customer.",
+    "Set any follow-up actions, each with an owner and a due date.",
+    "Escalate if the complaint meets the escalation rule, and record who was told.",
+    "Close the complaint with the date and the reviewer's name."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A customer complains that a bathroom was left wet after a clean and that a towel rail was knocked during the work. The completion checklist shows the job as finished, with no photograph of the towel rail.",
+      "decisionPrompt": "Which facts need checking before a response is written, and what should the response avoid saying?",
+      "reasoning": "The facts to check are the completion checklist entries, the timing of the wet area in the job record, the photograph record, and whether the towel rail was in the scope or noted before the job started. The response should follow what those checks show. It should avoid suggesting the customer caused the damage before the facts are known, and it should avoid promising a remedy before the check is finished. If the rail was outside the scope or was already loose before the job, that becomes the recorded finding, and the outcome is then agreed with the customer and recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Complaint log, digital or paper",
+    "Job record, checklist and photographs for the job",
+    "Quote and any variation for the job",
+    "PPE: not applicable"
+  ],
+  "commonErrors": [
+    {
+      "error": "Responding before the facts are checked.",
+      "prevention": "Complete the facts table first, then write the response."
+    },
+    {
+      "error": "Blaming the customer.",
+      "prevention": "Describe what the checks show, not the customer's conduct."
+    },
+    {
+      "error": "Closing a complaint without recording what the customer agreed.",
+      "prevention": "Record the outcome the customer agreed, or record that no agreement was reached and how it was escalated."
+    },
+    {
+      "error": "Logging only formal complaints.",
+      "prevention": "Log every expression of dissatisfaction, including those resolved on the spot."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Consumer complaint handling and privacy duties depend on the law that applies and on the business procedures. Check current rules with a qualified adviser.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A complaint involving injury or property damage must follow the incident procedure as well as the complaints procedure.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each complaint is logged with its date, channel and reference",
+    "The complaint is recorded in the customer's words",
+    "Each response follows the recorded checks",
+    "The outcome, follow-up actions and closing review are recorded"
+  ],
+  "documentationEvidence": [
+    "Completed complaint log entry with reference and dates",
+    "Record of each check and its source",
+    "Copy of the response sent, and the outcome agreed"
+  ],
+  "summary": [
+    "Log every complaint, however small.",
+    "Check the facts before writing the response.",
+    "Respond to what the facts show, without blame.",
+    "Use the log to find patterns and to change procedures."
+  ],
+  "businessFields": [
+    "{{business:customers.complaint_escalation}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "TPL-10-T01",
+      "title": "Customer complaint log and response",
+      "purpose": "Logs a complaint, the facts checked, the response, the outcome, follow-up, escalation and the closing review.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Complaint reference",
+          "type": "text",
+          "prompt": "Enter the reference for this complaint.",
+          "guidance": "Unique to the log and used in all correspondence about it.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Date received",
+          "type": "date",
+          "prompt": "Enter the date the complaint was received.",
+          "guidance": "The date received, not the date it was logged.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Channel used",
+          "type": "text",
+          "prompt": "State how the complaint arrived: phone, email, in person, message or other.",
+          "guidance": "Channel is one of those listed, or a named other channel.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Customer and job reference",
+          "type": "text",
+          "prompt": "Enter the customer name, contact details and the job reference. Record only what the complaint needs.",
+          "guidance": "Contact details are limited to what the complaint needs.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Complaint in the customer's words",
+          "type": "longtext",
+          "prompt": "Write the complaint as the customer described it.",
+          "guidance": "Customer's words, not a summary that adds conclusions.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Facts to check",
+          "type": "table",
+          "prompt": "One row per fact. Columns: fact to check, source of the record, what the check showed, checked by, date.",
+          "guidance": "Every fact the response depends on appears here, with a source.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Response sent",
+          "type": "longtext",
+          "prompt": "Write the response, drawing on the checks above, and note the channel used.",
+          "guidance": "The response follows the recorded checks and does not blame the customer.",
+          "required": true
+        },
+        {
+          "fieldId": "f8",
+          "label": "Response date",
+          "type": "date",
+          "prompt": "Enter the date the response was sent.",
+          "guidance": "Within the response time the business sets.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Action taken",
+          "type": "longtext",
+          "prompt": "Describe the action taken, such as a return visit, a repair, a credit, or a process change.",
+          "guidance": "Each action can be checked against the job record.",
+          "required": false
+        },
+        {
+          "fieldId": "f10",
+          "label": "Outcome agreed with the customer",
+          "type": "text",
+          "prompt": "Record the outcome as agreed, or record that no agreement was reached.",
+          "guidance": "Outcome is the customer's agreement, not the business's view alone.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Customer satisfied",
+          "type": "text",
+          "prompt": "Enter yes, no or not known, with a short reason.",
+          "guidance": "Reason is in the customer's terms where possible.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Follow-up actions",
+          "type": "table",
+          "prompt": "One row per action. Columns: action, owner, due date, done date.",
+          "guidance": "Each action has an owner and a due date.",
+          "required": false
+        },
+        {
+          "fieldId": "f13",
+          "label": "Escalation",
+          "type": "text",
+          "prompt": "State whether the complaint met the escalation rule, to whom it was escalated, and when.",
+          "guidance": "Escalation follows the business escalation rule, or records why it did not apply.",
+          "required": true
+        },
+        {
+          "fieldId": "f14",
+          "label": "Closed date and reviewer",
+          "type": "text",
+          "prompt": "Enter the date the complaint was closed and the reviewer's name.",
+          "guidance": "Closed only after the outcome and any follow-up are recorded.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Complaint recorded in the customer's words",
+      "levels": {
+        "meets": "The complaint is logged with its date, channel and reference, and the wording is the customer's.",
+        "does_not_meet": "The complaint is missing a date, channel or reference, or is written as a summary with conclusions added."
+      }
+    },
+    {
+      "criterion": "Response follows checked facts",
+      "levels": {
+        "meets": "Each fact the response relies on appears in the facts table with a source, and the response matches what the checks showed.",
+        "does_not_meet": "The response is sent before the checks, or relies on facts that are not recorded."
+      }
+    },
+    {
+      "criterion": "Response is factual and free of blame",
+      "levels": {
+        "meets": "The response describes the work and the findings, and does not attribute fault to the customer before the facts are known.",
+        "does_not_meet": "The response blames the customer or promises a remedy before the checks are complete."
+      }
+    },
+    {
+      "criterion": "Outcome, follow-up and closing are recorded",
+      "levels": {
+        "meets": "The agreed outcome, any follow-up with owner and date, the escalation decision and the closing review are all recorded.",
+        "does_not_meet": "The complaint is closed without an outcome, or follow-up has no owner or date."
+      }
+    }
+  ],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} customer complaint log and response",
+    "format": "form",
+    "sections": [
+      {
+        "heading": "Complaint record",
+        "fieldIds": [
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5"
+        ]
+      },
+      {
+        "heading": "Investigation",
+        "fieldIds": [
+          "f6"
+        ]
+      },
+      {
+        "heading": "Response",
+        "fieldIds": [
+          "f7",
+          "f8",
+          "f9"
+        ]
+      },
+      {
+        "heading": "Outcome",
+        "fieldIds": [
+          "f10",
+          "f11",
+          "f12"
+        ]
+      },
+      {
+        "heading": "Escalation and closure",
+        "fieldIds": [
+          "f13",
+          "f14"
+        ]
+      }
+    ],
+    "footer": "Escalation route: {{business:customers.complaint_escalation}}."
+  },
+  "knowledgeChecks": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Team brief for template lessons TPL-01 to TPL-11, item 10 (Customer complaint log and response); no external source used; rights: reworded (no copying)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

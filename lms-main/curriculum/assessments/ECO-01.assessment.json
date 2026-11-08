@@ -1,0 +1,37 @@
+{
+  "lessonId": "ECO-01",
+  "knowledgeAnswers": [
+    {
+      "id": "ECO-01-K01",
+      "correctIndex": 1,
+      "rationale": "Unapproved products may not match the safety data or dilution rules. The worker stops, does not use the product, and the supervisor decides."
+    },
+    {
+      "id": "ECO-01-K02",
+      "correctIndex": 2,
+      "rationale": "The machine and the socket are switched off before the plug is removed at the plug body. Removing a live plug or pulling by the cord are both unsafe."
+    },
+    {
+      "id": "ECO-01-K03",
+      "correctIndex": 1,
+      "rationale": "Taping or using a damaged cord is unsafe. The worker sets the machine aside, labels it and reports it; repair is not the worker's task."
+    }
+  ],
+  "practicalCriteria": [
+    "Checks the job record for approved products and required PPE before opening any container, observed by the assessor.",
+    "Moves a plug-in machine to another socket using the switch-off sequence (machine, socket, then plug at the plug body), observed by the assessor.",
+    "Sets aside and labels a simulated defective machine, reports it, and does not attempt a repair.",
+    "Completes an incident or hazard report for a simulated near miss, with time, location and the manager notified."
+  ],
+  "passRule": "Knowledge checks: 80 per cent pass mark, so all three must be correct. Practical competence: assessor sign-off against each practical criterion, observed on site or in a simulated setting. A knowledge-check pass does not verify practical competence. Reporting timeframe: set by the business.",
+  "evidenceRequired": [
+    "Assessor observation sheet for the switch-off sequence and the defective-equipment step",
+    "Completed simulated incident or hazard report",
+    "Knowledge-check result"
+  ],
+  "stopWorkCriteria": [
+    "A machine with a cut or damaged cord is used",
+    "The worker attempts an electrical repair",
+    "An unapproved product is used or mixed"
+  ]
+}

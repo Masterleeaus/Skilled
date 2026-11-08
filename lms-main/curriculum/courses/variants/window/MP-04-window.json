@@ -1,0 +1,141 @@
+{
+  "id": "MP-04-window",
+  "title": "Break-even analysis with a worked calculation for Window cleaning (all heights)",
+  "courseSlugs": [
+    "window"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Window cleaning operators who set prices or plan monthly revenue, including solo operators.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a window round as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a window round",
+      "body": "Break-even revenue is the amount of sales that covers all costs exactly, so profit is zero. Below it the round loses money; above it, each further job adds to profit. It helps you set prices, decide when to add a second person and check whether a new channel can pay for itself. Its answer is only as good as the costs and percentages behind it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of jobs in a month. For a window round they include vehicle registration and loan repayments, insurance, phone and software subscriptions, and any storage or yard rent. Variable costs move with each job. They include water, cleaning solution, squeegee blades and pads, consumables used on a job, subcontractor fees and the card fee on each payment. Express variable cost as a percentage of sales for the same period. ANZ defines the two cost types and warns that costs must be covered to avoid running at a loss. Check the percentage across at least three months before you rely on it."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. One minus the variable percentage is the contribution margin, the share of each dollar of sales left to cover fixed costs. Use the percentage as a decimal, so 12 per cent becomes 0.12, and the contribution margin is 0.88."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write the inputs first, each with its source and date. Compute the contribution margin. Divide the fixed costs by it to get break-even revenue. Divide that by your average job price to get the number of jobs, and round up to whole jobs. The average job price in this lesson is a reference point from a lead-generation estimate for a small home of up to 10 windows. It is not a price for your business, so replace it with your own average before you use the result."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount, not an annual one. Confirm that the variable percentage is a share of sales, not of cost. Confirm that the output is revenue, not profit. Write down the reconciled figure with its inputs, and drop the others. A figure that cannot be checked should not be used to set a price."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost of the window round and label each one fixed or variable.",
+    "Work out variable cost as a percentage of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your own average job price to get the number of jobs needed each month.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A one-person window cleaning round in Melbourne (hypothetical figures, invented for this lesson) has fixed costs of $2,000 AUD a month, variable costs of 12% of sales and an average job price of $160 AUD. The $160 is a reference point from a lead-generation estimate for a small home, not this business's price.",
+      "decisionPrompt": "How many jobs must the round complete each month to break even, and what should it check before setting prices?",
+      "reasoning": "The contribution margin is 1 minus 0.12, which is 0.88. Break-even revenue is $2,000 AUD divided by 0.88, which is $2,272.73 AUD a month. At $160 AUD a job, that is 14.2 jobs, so the round needs 15 jobs to cover its costs. Each job contributes $140.80 AUD ($160 AUD multiplied by 0.88) towards fixed costs. Before setting prices, check that the 12% includes every job cost, that the $2,000 AUD is a monthly figure, and that $160 AUD is the average price actually charged after discounts."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, labelled fixed or variable",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Using a lead-generation price as the job price",
+      "prevention": "Replace the reference price with your own average job price after discounts."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout the calculation.",
+    "Recalculate from your own inputs, and replace the reference job price with your own average."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-window-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-window-K02",
+      "question": "A window round has fixed costs of $2,000 AUD a month and variable costs of 12% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$2,272.73 AUD",
+        "$240.00 AUD",
+        "$2,000.00 AUD",
+        "$16,666.67 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-window-K03",
+      "question": "Two sources give different break-even figures for the same window round. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure entirely",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the client today",
+        "Use the price list alone and skip the break-even check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; job counts round up to whole jobs.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs.",
+    "What's The Damage, 'Window cleaning cost Melbourne', https://whatsthedamage.com.au/window-cleaning-cost-melbourne/, verified November 2026. Lead-generation estimate used only as the reference job price for a small home (typical $160).",
+    "Note: the hypothetical figures ($2,000 fixed, 12% variable, $160 job) are invented for this lesson and are not market data."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

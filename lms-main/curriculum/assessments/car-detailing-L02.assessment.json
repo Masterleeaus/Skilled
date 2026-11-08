@@ -1,0 +1,35 @@
+{
+  "lessonId": "car-detailing-L02",
+  "knowledgeAnswers": [
+    {
+      "id": "car-detailing-L02-K01",
+      "correctIndex": 0,
+      "rationale": "The walk-around comes before water, so the condition is recorded as found."
+    },
+    {
+      "id": "car-detailing-L02-K02",
+      "correctIndex": 2,
+      "rationale": "The risk is recorded and an exception plan is agreed before water is used near the lens."
+    },
+    {
+      "id": "car-detailing-L02-K03",
+      "correctIndex": 0,
+      "rationale": "The pre-work record shows the condition before the work, which is the evidence needed."
+    }
+  ],
+  "practicalCriteria": [
+    "Completes a numbered condition map with a photograph for each item on a sample vehicle.",
+    "Agrees an exception plan for a simulated at-risk component and records the owner's agreement.",
+    "Records a pre-existing defect separately from a simulated work-caused change, without claiming cause or repair."
+  ],
+  "passRule": "Condition map complete, exception plan agreed, and pre-existing defects recorded as found. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Condition map with photographs",
+    "Owner agreement and stop-work note"
+  ],
+  "stopWorkCriteria": [
+    "Work started before the walk-around",
+    "Unstable component left without a stop-work note",
+    "Defect recorded as caused or repaired by the work without evidence"
+  ]
+}

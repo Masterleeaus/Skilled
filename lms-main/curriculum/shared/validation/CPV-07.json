@@ -1,0 +1,157 @@
+{
+  "id": "CPV-07",
+  "title": "Removing cleaning agents: detergent and sanitiser residue checks",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaners and supervisors in commercial kitchens and food-service or food-processing areas who rinse equipment after detergent or sanitiser use.",
+  "prerequisites": [
+    "FPS-03",
+    "FPS-04"
+  ],
+  "learningOutcomes": [
+    "Explain why residues of detergent and sanitiser are treated as contamination.",
+    "Describe a rinse design that removes cleaning agents to the required level.",
+    "Describe the simple checks a commercial site can use, and their limits.",
+    "Keep residue checks within the site's approved method."
+  ],
+  "instruction": [
+    {
+      "heading": "Leftover cleaning agent is contamination",
+      "body": "A cleaning agent left behind can contaminate the next product and can distort a test result. The guide expects detergent clearance to be evaluated, acceptable levels to be defined, and zero detectable residue to be the aim. Sanitiser residue is treated the same way. The guide also asks that active ingredients and detergent be measured separately rather than as one combined impurity figure, because a combined figure can conceal the specific residue of concern."
+    },
+    {
+      "heading": "Build the rinse into the method",
+      "body": "The rinse is designed into the method rather than tacked on afterwards. Rinse water is chosen for its quality, and rinsing continues until the agent has gone. Foam left on a surface after rinsing shows that the rinse is unfinished. Where the site procedure asks for a final rinse check, it is carried out using the approved method and recorded. A rinse that merely confirms the water is pure says nothing about the surface."
+    },
+    {
+      "heading": "Simple checks on a commercial site",
+      "body": "A commercial site seldom runs a full validation, but it can use a straightforward residue check where its procedure calls for one. The check should target the agent last used on the item, by a method the site has approved. A visual look for foam or film is a routine check and is not a residue measurement. Results are recorded, and any failed rinse is repeated before the item goes back into use. These checks sit alongside the label, the SDS and the approved product list; they do not replace them."
+    }
+  ],
+  "procedure": [
+    "Confirm the item was cleaned with a detergent or sanitiser from the approved list.",
+    "Rinse until no foam, film or detergent remains, using clean water of the approved quality.",
+    "Perform the site's final rinse check with the approved method, where one applies.",
+    "Repeat the rinse if residue is present, and do not return the item to use until it passes.",
+    "Record the agent, the rinse method, the check result and the sign-off."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A commercial kitchen mixer has been cleaned with an alkaline detergent. Foam remains in a corner of the bowl after the rinse.",
+      "decisionPrompt": "Is the item ready for use, and what should happen?",
+      "reasoning": "The item is not ready. The foam shows residue, so the rinse is repeated, the corner is checked again, and the item is returned to use only after the site's check passes. The result is recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved detergent and sanitiser with label and SDS",
+    "Clean rinse water",
+    "Site-approved residue check method and materials",
+    "Gloves and eye protection"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a foam-free look as proof of no residue.",
+      "prevention": "Use the approved residue check where the site requires one."
+    },
+    {
+      "error": "Using a total impurity figure instead of the specific agent.",
+      "prevention": "Check for the agent last used on the item."
+    },
+    {
+      "error": "Returning an item before the final rinse check passes.",
+      "prevention": "Repeat the rinse and check again before use."
+    },
+    {
+      "error": "Using rinse water that is not of the approved quality.",
+      "prevention": "Use water of the quality the procedure sets."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Use the practice content only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Residue checks use chemical reagents. Follow the SDS for each reagent and wear the protective equipment it specifies.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Trade-waste rules for rinse water and any test waste differ between state and territory authorities.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Use the site's food-safety plan.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The rinse removes the agent until no foam, film or detergent remains.",
+    "Any residue check uses the site-approved method and is recorded.",
+    "No item returns to use before the final rinse check passes."
+  ],
+  "documentationEvidence": [
+    "Cleaning agent, rinse method and check result.",
+    "Repeat rinses where they were needed, with the reason.",
+    "Sign-off by the checker."
+  ],
+  "summary": [
+    "Cleaning agent residue is contamination and must be removed.",
+    "Design the rinse to remove the agent, and continue until it is gone.",
+    "A foam-free look is a routine check, not a residue measurement.",
+    "Use the site's approved method, and record each check."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "CPV-07-K01",
+      "question": "Why should detergent residue be checked after a clean?",
+      "options": [
+        "It helps the next clean and it makes the floor shine",
+        "It can contaminate food or affect test results",
+        "It is a natural preservative in every case",
+        "It must be left on to keep the surface shiny"
+      ]
+    },
+    {
+      "id": "CPV-07-K02",
+      "question": "What residual detergent amount is the target once equipment is cleaned?",
+      "options": [
+        "Half the dose",
+        "Supplier level",
+        "None detected",
+        "Odour level"
+      ]
+    },
+    {
+      "id": "CPV-07-K03",
+      "question": "Why measure the active ingredient and the detergent in a rinse separately?",
+      "options": [
+        "Separate analysis is the faster route, so it is preferred",
+        "The laboratory requires two bottles and two labels for each sample",
+        "Detergent is removed by the first rinse in most cases",
+        "A total impurity figure can hide the specific residue of concern"
+      ]
+    },
+    {
+      "id": "CPV-07-K04",
+      "question": "Does a commercial site usually run a full validation, according to the lesson?",
+      "options": [
+        "Yes, every day",
+        "Never, under any procedure",
+        "Only on weekends",
+        "It seldom runs a full validation, but it may use a straightforward residue check where its procedure calls for one"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Processes and Cleaning Validation, Guidance Document SGD-105-CLN Rev. 10 (Validation in Partnership Ltd, 25 May 2007; pharmaceutical and biological CGMP with US and EU references, not Australian), sections: 7.9 Detergents (removal efficiency, residue limits, breakdown); 6.5 Rinse Water Samples (separate analysis of active and detergent residues); 6.3.11 Cleaning/Sanitising Agents; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Cross-checked against FPS-03 and FPS-04 (rinse completeness and sanitiser handling); Australian residue limits and trade-waste rules UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

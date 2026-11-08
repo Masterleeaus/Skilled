@@ -1,0 +1,194 @@
+{
+  "id": "NEW-HAIR-06",
+  "title": "Pricing mobile visits and add-on services",
+  "courseSlugs": [
+    "hair"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RV",
+  "estimatedMinutes": 20,
+  "audience": "Mobile hairdressers and barbers who set prices for visits, travel and add-on services",
+  "prerequisites": [
+    "F01-L01",
+    "F01-L02",
+    "F01-L04"
+  ],
+  "learningOutcomes": [
+    "Build a quote from the visit, the travel, the materials and the approved add-ons",
+    "Apply the business pricing method and minimum charge without changing the approved service",
+    "Identify which insurance and registration costs affect the price."
+  ],
+  "referencesAtStart": "Official references for this lesson: WorkSafe Victoria, Do I need to register for WorkCover insurance (last updated 19 May 2026); NT Government, Register a hairdressing, beauty therapy or body art business (no date shown).",
+  "instruction": [
+    {
+      "heading": "What a mobile price has to cover",
+      "body": "A mobile hairdresser's price must cover more than the cut or the colour. It must cover the travel to the client, the time spent setting up and cleaning down, the products used, the disposable items, the insurance and registration costs that apply, and a fair return for the time. A quote that only covers the service time often leaves the business short. The business's pricing method is recorded as {{business:pricing.pricing_method}}, and any minimum charge applies as recorded in {{business:pricing.minimum_charge}}. Prices are set by the business and are not stated in this course. Any figure a learner sees in a sample quote is an example only, and it must be replaced with the business's approved figures."
+    },
+    {
+      "heading": "Add-ons inside the approved scope",
+      "body": "An add-on is an extra service sold with the main visit. A colour client may add a scalp treatment, and a barber may add a beard shape. Add-ons must come from the approved service list, which is held in {{business:services.service_description}}. An add-on that is not on the list must be reviewed first, as “Barbering techniques and skin care” explains. Add-ons that use bleach or colour need the consultation in “Client consultation, allergy patch test and consent” and the processing time from the label. An add-on should never make the processing time shorter, and it should never be offered as a replacement for the consultation or the patch test. Record each add-on on the booking so that the materials cost is included in the quote."
+    },
+    {
+      "heading": "Insurance, registration and the cost of compliance",
+      "body": "In Victoria, WorkCover registration is generally required where a business employs any workers. WorkSafe's registration guide (last updated 19 May 2026) says that a sole trader or individual partner who has no other workers on staff is not required to register, and that a contractor who depends on one business may be counted as that business's worker for registration purposes. Councils may set their own conditions. In the Northern Territory, a business that receives payment for hairdressing must register, and the NT page gives a fee of $91 to register or renew (no date shown), so that cost must be included in the price. Do not price a service on the assumption that a cost does not apply. Record every compliance cost the business pays, so that it can be built into the minimum charge."
+    }
+  ],
+  "procedure": [
+    "Add up the service time, set-up and clean-down, travel time and the materials cost for the visit",
+    "Apply the business pricing method and the minimum charge from the approved sheet",
+    "Add approved add-ons only, and record each one on the quote",
+    "Include the cost of compliance items such as registration, insurance and disposables",
+    "Show the quote to the client in writing, with the visit and the add-ons listed separately",
+    "Review the quote when the approved service list or the cost base changes"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A mobile barber quotes a fade for a client 20 kilometres away. The quote covers only the cut time, and the barber pays for fuel and a disposable cape each visit.",
+      "decisionPrompt": "What must the quote include to cover the real cost of the visit?",
+      "reasoning": "The quote must include the travel to the client, the set-up and clean-down, the disposable items and the time spent on the visit. The cut time alone does not cover those costs. The business should apply its pricing method and show the visit and the travel as separate lines, so that the client can see what is included."
+    },
+    {
+      "situation": "A stylist wants to add a colour correction to the menu at a lower price than the normal colour service, to attract more clients. The correction uses a stronger bleach.",
+      "decisionPrompt": "Should the price be lowered, and what should happen first?",
+      "reasoning": "A stronger bleach needs a full consultation, a patch test under the product method, and a processing time from the label. Lowering the price does not reduce those steps, and it can push the operator to rush them. The correction should be reviewed as a service under “Barbering techniques and skin care” before a price is set. The price should follow the cost of the steps, not the wish to attract clients."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote template with separate lines for visit, travel, add-ons and materials",
+    "Disposable items such as capes, neck strips and gloves, counted in the materials cost",
+    "Record of insurance and registration costs paid for the year",
+    "Approved service list with the add-on items marked"
+  ],
+  "commonErrors": [
+    {
+      "error": "Quoting only the service time and leaving travel and clean-down out of the price.",
+      "prevention": "Add every step of the visit to the quote, and show travel as a separate line."
+    },
+    {
+      "error": "Lowering the price of a chemical service without reviewing the steps it needs.",
+      "prevention": "Review the service first, then set the price from the cost of the steps."
+    },
+    {
+      "error": "Stating that public liability is required by law for hairdressing.",
+      "prevention": "Check public liability for Victoria with the insurer and council, and describe it only as they confirm it."
+    },
+    {
+      "error": "Using a sample price from this course in a live quote.",
+      "prevention": "Use only the figures in the business's approved pricing sheet."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In Victoria, WorkCover registration is generally required where a business employs any workers. A sole trader or individual partner who has no other workers on staff is not required to register (last updated 19 May 2026).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Public liability insurance for hairdressing is not a confirmed state requirement in Victoria.",
+      "licenceNotice": false
+    },
+    {
+      "point": "In the Northern Territory, a business that receives payment for hairdressing must register. The NT page gives a fee of $91 to register or renew (no date shown). This course does not set the price, and mobile operators are not addressed on that page.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not grant any registration, insurance cover or licence. Those are obtained from the relevant body.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every quote shows the visit, travel, add-ons and materials as separate lines",
+    "Every add-on comes from the approved service list",
+    "Compliance costs are included in the minimum charge",
+    "No price is set for a service that has not been reviewed"
+  ],
+  "documentationEvidence": [
+    "Quote record for each visit with the lines shown",
+    "Approved pricing sheet with the review date",
+    "Record of compliance costs paid, including insurance and registration",
+    "Review record for any new add-on"
+  ],
+  "summary": [
+    "A mobile price covers travel, set-up, clean-down, materials and compliance",
+    "Add-ons must come from the approved list and must not shorten a processing time",
+    "Check public liability for Victoria with the insurer and council.",
+    "This lesson does not grant insurance, registration or a licence"
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:services.service_description}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-HAIR-06-K01",
+      "question": "Which items should a mobile hairdresser's quote include beyond the service time?",
+      "options": [
+        "Only the service time, because travel is free for the client",
+        "Travel, set-up and clean-down, materials, and compliance costs",
+        "Only the product cost, because time is not billable"
+      ]
+    },
+    {
+      "id": "NEW-HAIR-06-K02",
+      "question": "A stronger bleach correction is to be offered at a lower price. What should happen first?",
+      "options": [
+        "Lower the price to attract clients, then review the steps for the service",
+        "Offer it to regular clients at the old price, since they trust the salon",
+        "Review the service and its steps, and then set the price from the cost of those steps"
+      ]
+    },
+    {
+      "id": "NEW-HAIR-06-K03",
+      "question": "In Victoria, which statement about WorkCover registration is confirmed by WorkSafe Victoria?",
+      "options": [
+        "Registration is generally required if the business employs any workers",
+        "Every mobile hairdresser must register, whether or not they employ anyone",
+        "Registration is never required for hairdressing"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: WorkSafe Victoria, Do I need to register for WorkCover insurance (last updated 19 May 2026); NT Government, Register a hairdressing, beauty therapy or body art business (no date shown).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Do I need to register for WorkCover insurance",
+      "url": "https://www.worksafe.vic.gov.au/pdf/do-i-need-register-workcover-insurance",
+      "pageDate": "Last updated 19 May 2026",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria PDF; employers, sole traders and deemed workers. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Register a hairdressing, beauty therapy or body art business",
+      "url": "https://nt.gov.au/industry/licences/register-a-hairdressing-beauty-therapy-or-body-art-business",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "NT Government page; registration duty, covered services and fees. Mobile operators are not addressed. Publisher: Northern Territory Government."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WorkSafe Victoria, Do I need to register for WorkCover insurance, https://www.worksafe.vic.gov.au/pdf/do-i-need-register-workcover-insurance, last updated 19 May 2026, checked 2026-11-02 (HAIR-VIC-03)",
+    "NT Government, Register a hairdressing, beauty therapy or body art business, https://nt.gov.au/industry/licences/register-a-hairdressing-beauty-therapy-or-body-art-business, checked 2026-11-02 (NAT-HAIR-NT-01)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (public liability for hairdressing UNCONFIRMED)",
+    "Checked 2026-11-03: official references R1, R2 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-11.jpg",
+      "alt": "Mobile hairdressing and barbering illustration",
+      "kind": "photo",
+      "origin": "hair"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-12.jpg",
+      "alt": "Mobile hairdressing and barbering illustration",
+      "kind": "photo",
+      "origin": "hair"
+    }
+  ]
+}

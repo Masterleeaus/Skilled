@@ -1,0 +1,140 @@
+{
+  "id": "HCG-18",
+  "title": "Clinical waste: segregation, containers and handling",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaning and service staff who empty, move or handle clinical and general waste in healthcare settings.",
+  "prerequisites": [
+    "HCG-16",
+    "HCG-17"
+  ],
+  "learningOutcomes": [
+    "Describe the standard precautions for handling waste.",
+    "State where waste is separated and how containers are identified.",
+    "Explain why waste classification depends on local law."
+  ],
+  "instruction": [
+    {
+      "heading": "No single national definition",
+      "body": "Because Australia has no one nationwide meaning for clinical waste, facilities must follow the state or territory rules for clinical and associated waste, with reference to the Australian standard for that waste. This lesson therefore covers general principles only."
+    },
+    {
+      "heading": "Principles that apply everywhere",
+      "body": "Protect yourself with baseline precautions whenever you handle waste, and wash afterwards. Waste is sorted at its source. Each stream goes into its designated receptacle, marked by hue and a written tag, and is managed under the site's waste plan. Staff receive instruction in the correct method."
+    },
+    {
+      "heading": "The same principles in every area",
+      "body": "The guideline applies one rule to decide whether waste is clinical or general, no matter where it originates, including isolation rooms and routine patient areas. Do not reclassify waste because a room is quiet or a bag seems small."
+    },
+    {
+      "heading": "Waste that looks ordinary",
+      "body": "Dressings and cloths can carry blood or bodily fluid even though they look innocuous. Handle such possibly contaminated items as the facility directs, and do not place them in general waste before their category is verified."
+    }
+  ],
+  "procedure": [
+    "Put on the protective equipment the waste procedure calls for before you open a bin.",
+    "Check each bag and bin for sharps before moving it, using the method in “Sharps: handling, containers and injury response”.",
+    "Each item goes solely into the container that matches its category, as signalled by hue and a written tag.",
+    "Seal each bag as the facility directs, and never overfill it.",
+    "Carry sealed bags away from clean stock, using the route the facility sets.",
+    "Clean your hands after handling waste, and record the collection where required."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner empties a bin in an isolation room. It holds used dressings and some wipes stained with blood, and the bin is labelled for general waste.",
+      "decisionPrompt": "What should happen?",
+      "reasoning": "Stop before disposal. Isolation-room waste falls under the same rule as all other waste, so check with the supervisor and the facility waste plan. Do not drop contaminated dressings into general waste just because the bin label says so."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Disposable gloves for waste handling",
+    "Protective apron or gown where splashing may occur",
+    "Eye protection where the procedure requires it",
+    "Approved, leak-resistant bags with ties"
+  ],
+  "commonErrors": [
+    {
+      "error": "Putting clinical waste into general bins.",
+      "prevention": "Use the receptacle and category the facility plan specifies."
+    },
+    {
+      "error": "Overfilling a waste bag so it splits or tears.",
+      "prevention": "Seal the bag at the fill level the facility sets, and replace it when it is full."
+    },
+    {
+      "error": "Skipping hand cleaning after handling waste.",
+      "prevention": "Clean your hands straight after handling waste."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Rules on classification and transport vary across states and territories; some waste work requires a permit or licence, which this lesson does not provide. Check local requirements for your site.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Sharps in waste follow “Sharps: handling, containers and injury response” at all times. Sharps containers are never compressed or emptied by hand.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Learner identifies the correct receptacle for a described waste item.",
+    "Waste is sealed at the facility's fill level and carried by the stated route.",
+    "Hand cleaning after waste handling is recorded where the facility requires it."
+  ],
+  "documentationEvidence": [
+    "Waste collection record, where the facility requires one",
+    "Record of any contaminated waste found in the wrong receptacle, with the referral"
+  ],
+  "summary": [
+    "The guideline applies standard precautions to waste, with separation where the waste is produced.",
+    "Every waste category is matched to its own container, labelled by colour and text.",
+    "Clinical waste rules are set by state or territory law and the facility plan, and must be confirmed locally."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HCG-18-K01",
+      "question": "Where should waste be separated, according to the guideline?",
+      "options": [
+        "At the place where it is produced.",
+        "In a central room at the end.",
+        "Only by the waste contractor.",
+        "Only once the bin is full now."
+      ]
+    },
+    {
+      "id": "HCG-18-K02",
+      "question": "Which of these is the correct handling principle for waste?",
+      "options": [
+        "Apply standard precautions, and clean your hands afterwards.",
+        "Skip protective equipment because waste is not patient care.",
+        "Compress the bag by hand to fit more in.",
+        "Reclassify the waste to suit the nearest bin."
+      ]
+    },
+    {
+      "id": "HCG-18-K03",
+      "question": "Why must a cleaner not decide waste classification by the bin label alone?",
+      "options": [
+        "Because bin labels are set by the cleaning contractor each month and they are changed by the owner each season",
+        "Because contaminated items can appear ordinary, and the facility's plan and local law set the category.",
+        "Because only the manufacturer can label bins and the labels are fixed for life and cannot change at all",
+        "Because bin colours change with the building's floor plan and the cleaner must match the colour to the floor plan"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, B1.8 (waste management; B1.8.1 resources); rights: not held by user; reworded (no copying)",
+    "Source priority: the NHMRC guideline is an official Australian source. Where it conflicts with informal or in-house cleaning advice, the guideline governs the points this lesson relies on.",
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, edition note: the 2019 edition is the current edition (NHMRC, https://www.safetyandquality.gov.au/sites/default/files/2026-05/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf; CONFIRMED in the figures register, checked 2026-11-02); the uploaded copy read on 2026-11-02 is the 2010 edition, so points taken from it are UNCONFIRMED against the 2019 text. The existing aged-care and medical-equipment lessons cite the 2019 edition.",
+    "UNCONFIRMED: state and territory clinical waste law and the permit or licence requirements named in the guideline's resources. These are not stated as fact in this lesson.",
+    "UNCONFIRMED: the current edition of the Australian standard for clinical and related waste (AS/NZS 3816), which the guideline notes was under revision."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

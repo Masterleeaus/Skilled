@@ -1,0 +1,144 @@
+{
+  "id": "PVB-06",
+  "title": "Victorian mesh barrier load and base-gap checks",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Quality, evidence and handover",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Pool barrier inspectors, builders and service workers who test pool barriers in Victoria. The rules are Victorian. Practical sign-off is assessed separately from this lesson.",
+  "prerequisites": [
+    "PVB-03",
+    "PVB-04"
+  ],
+  "learningOutcomes": [
+    "State the SP 02 load checks for mesh barrier panels and the lift check for the gap at their base.",
+    "Explain how the 25 kg top-load check is applied and what result it must give.",
+    "Decide whether a mesh panel passes the SP 02 height and base-gap checks."
+  ],
+  "instruction": [
+    {
+      "heading": "What SP 02 checks on mesh panels",
+      "body": "Victorian rule (VBA Building Practice Note SP 02, Version 3, 26 September 2023). A non-boundary mesh barrier must keep its height at 1200 mm or more when a 25 kg weight is applied at any point on its top. The gap at the base of a mesh or perforated barrier must stay within 100 mm when a 100 N vertical lift force is applied."
+    },
+    {
+      "heading": "Footings for posts and gates (recommended)",
+      "body": "SP 02 recommends pouring footings for posts and gates monolithically or as one footing across the opening. It notes that spreading posts can stop a gate from latching properly. This is a recommendation, so it is not a pass or fail check in this lesson."
+    },
+    {
+      "heading": "Gates: what SP 02 does and does not require",
+      "body": "SP 02 does not set out a general self-closing and self-latching requirement for gates under AS 1926.1-2012. For a door that forms part of an indoor pool barrier, it does require self-closing and self-latching under AS 1926.1-2012. Gate operation is not one of the checks in this lesson."
+    }
+  ],
+  "procedure": [
+    "Check that each footing was poured monolithically or as one footing across the opening, and record the result.",
+    "Apply a 25 kg weight at any point on the top of each mesh panel, and confirm the panel stays at 1200 mm or more.",
+    "Apply a 100 N vertical lift force to the base of each mesh or perforated panel, and confirm the gap stays within 100 mm.",
+    "Record each panel height and base-gap reading against the SP 02 figure before deciding whether the panel passes."
+  ],
+  "workedExamples": [
+    {
+      "situation": "During a field check, an internal mesh panel is loaded with a 25 kg weight on its top, and it drops to 1100 mm.",
+      "decisionPrompt": "Can the panel be accepted?",
+      "reasoning": "SP 02 requires the panel to stay at 1200 mm or more under the 25 kg top load. At 1100 mm it fails. Do not accept the panel as meeting SP 02, and record the reading."
+    }
+  ],
+  "equipmentAndPpe": [
+    "25 kg test weight",
+    "100 N test equipment or calibrated equivalent",
+    "Tape measure for the 1200 mm and 100 mm checks",
+    "Gloves, safety glasses and firm footwear",
+    "Test record sheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Stopping a load test at a result that looks close enough.",
+      "prevention": "Apply the full 25 kg and measure the height against 1200 mm."
+    },
+    {
+      "error": "Measuring the base gap without applying the full 100 N lift.",
+      "prevention": "Apply the 100 N lift to the base first, then measure the gap against 100 mm."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A load test can move suddenly. Keep hands and body clear of the line of pull and wear eye protection.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A barrier panel that fails the height or base-gap check is an injury and drowning risk. Do not accept the panel.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Figures are Victorian (VBA Building Practice Note SP 02, 2023). AS 1926.1 is cited by name only and was not read.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each load test's equipment is recorded before the test.",
+    "Footing layout, panel height and base-gap results are recorded against the SP 02 figure.",
+    "The panel is not accepted until both load checks pass."
+  ],
+  "documentationEvidence": [
+    "Load test record with equipment, height, reading and panel result",
+    "Mesh base-gap test record with the lift force, gap reading and result",
+    "Defect and retest record"
+  ],
+  "summary": [
+    "A non-boundary mesh panel must stay at 1200 mm or more under a 25 kg weight applied to its top.",
+    "The gap at the base of a mesh or perforated barrier must stay within 100 mm under a 100 N lift.",
+    "SP 02 recommends monolithic or single footings for posts and gates; that recommendation is not a pass or fail check here."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PVB-06-K01",
+      "question": "To what height must a non-boundary mesh barrier stay under the 25 kg top load?",
+      "options": [
+        "600 mm",
+        "1200 mm",
+        "1800 mm",
+        "300 mm"
+      ]
+    },
+    {
+      "id": "PVB-06-K02",
+      "question": "What vertical lift force does the base-gap check apply to a mesh or perforated panel?",
+      "options": [
+        "25 kg",
+        "100 N",
+        "10 N",
+        "1000 N"
+      ]
+    },
+    {
+      "id": "PVB-06-K03",
+      "question": "What is the maximum gap at the base of a mesh or perforated barrier under the 100 N lift?",
+      "options": [
+        "50 mm",
+        "100 mm",
+        "200 mm",
+        "1200 mm"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Victorian Building Authority, Building Practice Note SP 02, Swimming pool barriers and other requirements (Version 3, 26 September 2023), mesh load, base-gap, footing and gate sections; rights: user-held; reworded (no copying). The 330 N post and component figures and the spring-scale field method previously attributed to Practice Note 05-2018 are not in SP 02. Gate self-closing and self-latching is not a general SP 02 requirement (SP 02 sets it for indoor pool doors only), and the footing point is a recommendation.",
+    "Priority: official Victorian Building Authority source. It overrides other pool sources on the points it covers, for Victoria only. Dated: 26 September 2023 (Version 3); read through a summary tool on 2026-11-03. Victorian requirement. UNCONFIRMED for other states and territories, and the current edition of AS 1926.1 is UNCONFIRMED.",
+    "UNCONFIRMED: named standard clauses (AS 1926.1-2012, not read); testing rules in other states and territories. The SP 02 figures were read through a summary tool, not from the full PDF. A reading or quiz pass is not verified practical competence."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Building Practice Note SP 02, Swimming pool barriers and other requirements (Victorian Building Authority), Version 3",
+      "url": "https://www.vba.vic.gov.au/__data/assets/pdf_file/0008/135728/Building-SP-02-Swimming-pool-barriers-and-other-requirements-CURRENT-26-Sep-2023.pdf",
+      "pageDate": "26 September 2023",
+      "checked": "2026-11-04",
+      "covers": "Building Practice Note SP 02 (VBA), Version 3, published 26 September 2023. No review date is stated. Requires a 25 kg top-load check for non-boundary mesh or perforated barriers, which must stay at least 1200 mm high under that load, and a 100 N vertical lift check for the gap at the base, which must not exceed 100 mm. Requires self-closing and self-latching indoor pool doors under AS 1926.1-2012, and does not set a general gate requirement for outdoor pools. Does not state a 330 N, 1200 mm sideways, or 1/200 span requirement. Publisher: Victorian Building Authority."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

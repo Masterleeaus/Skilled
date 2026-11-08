@@ -1,0 +1,36 @@
+{
+  "lessonId": "BST-02",
+  "knowledgeAnswers": [
+    {
+      "id": "BST-02-K01",
+      "correctIndex": 2,
+      "rationale": "The range is the largest value minus the smallest: 4.5 minus 1.5 equals 3.0 hours. Option 1 is the IQR in the worked example, and option 2 is a value that does not follow from the data."
+    },
+    {
+      "id": "BST-02-K02",
+      "correctIndex": 1,
+      "rationale": "With an IQR of 0.75 and an upper quartile of 2.5, the line is 3.625 hours. Only the 4.5-hour job sits above it. The median is not flagged by this rule, and the rule does not flag jobs for being short."
+    },
+    {
+      "id": "BST-02-K03",
+      "correctIndex": 0,
+      "rationale": "A flagged job needs a cause before any standard or price changes. Deleting it hides real conditions, and charging every future job at the flagged time ignores whether the cause will recur."
+    }
+  ],
+  "practicalCriteria": [
+    "Given at least nine job times or invoice totals for one service type, the learner calculates the range and the IQR correctly, showing the sorted list and both quartiles.",
+    "The learner applies the upper-line rule correctly and flags the right value or values.",
+    "For each flagged value, the learner records a cause and states whether it should change a standard time, a quote or nothing."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Worksheet with sorted values, range, quartiles, IQR and the flag line",
+    "Outlier notes for each flagged job with the cause and the decided action",
+    "Assessor observation of the learner explaining why a flagged job was or was not treated as a standard change",
+    "Knowledge check attempt record"
+  ],
+  "stopWorkCriteria": [
+    "Stop and do not change a standard time or quote on the basis of one flagged job until its cause has been recorded.",
+    "Stop if the time unit in the records is unclear, such as minutes and hours mixed in one field, until the units are confirmed."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "SFS-09",
+  "title": "Changing the schedule: clashes, grouping and gaps",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "RH",
+  "estimatedMinutes": 30,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-08"
+  ],
+  "learningOutcomes": [
+    "Explain what a schedule clash is and what the app shows when one occurs.",
+    "Choose a safe default for a clash that cannot be fixed automatically.",
+    "Use grouping and gap filling to reduce travel without breaking customer windows."
+  ],
+  "instruction": [
+    {
+      "heading": "Clashes",
+      "body": "A clash happens when a visit overlaps another visit or a worker's absence. The app can fix some clashes by moving visits, but the office must set the rules first. Decide whether a moved visit may go only to its original worker or to any suitable worker. Decide whether unscheduled visits are rebuilt by priority or in their original order. When no valid option exists, the safe default is to leave the visit where it is, flag it at risk and tell the office. Silently removing a visit leaves a customer with no visit. Automatic clash fixing does not apply to capacity-based workers, so check their days by hand."
+    },
+    {
+      "heading": "Grouping and gap filling",
+      "body": "Grouping nearby visits gathers visits in the same area to cut travel. It can move later visits that day to make room, so check each customer's agreed window before accepting a change. Gap filling looks for work that fits a worker's free time. Both tools change bookings, so the office should run them and review the result, not leave them running unchecked."
+    }
+  ],
+  "procedure": [
+    "Turn on clash checking and choose the default for a clash that cannot be fixed.",
+    "Run the clash check on the day's schedule each morning.",
+    "Review each at-risk visit and agree the outcome with the customer.",
+    "Use grouping only where the customers' windows allow the move.",
+    "Run gap filling last, and check each new booking before it is confirmed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A gutter clean overruns and now clashes with a booked afternoon visit at a second address.",
+      "decisionPrompt": "Do you let the app move the afternoon visit, or do you flag it?",
+      "reasoning": "The clash cannot be solved within the afternoon customer's window without their agreement. Leave the visit in place with the at-risk flag, call the customer, and rebook only with their agreement."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Accepting an automatic move without checking the customer's window.",
+      "prevention": "Check the window first, and call the customer whenever it changes."
+    },
+    {
+      "error": "Running gap filling before clashes are fixed.",
+      "prevention": "Fix clashes first, then fill gaps."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every at-risk visit has an owner and a recorded customer call.",
+    "No visit is silently removed from the schedule."
+  ],
+  "documentationEvidence": [
+    "Morning clash check record",
+    "Change log for moved, grouped or filled visits"
+  ],
+  "summary": [
+    "Clashes need agreed rules and a safe default.",
+    "Grouping and gap filling save travel but also change bookings.",
+    "Customers hear about any change to their window."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-09-K01",
+      "question": "A clash cannot be fixed without breaking the rules. What is the safe default?",
+      "options": [
+        "Leave the visit in place, flag it at risk, and tell the office",
+        "Keep the visit as final and send the invoice to the client",
+        "Move it to a worker who has no relevant skills"
+      ]
+    },
+    {
+      "id": "SFS-09-K02",
+      "question": "What is the purpose of grouping nearby visits?",
+      "options": [
+        "To reduce travel and gaps between visits",
+        "To raise the price of each visit",
+        "To remove worker absences from the plan"
+      ]
+    },
+    {
+      "id": "SFS-09-K03",
+      "question": "Why should a person check a grouping or gap-filling change before confirming it?",
+      "options": [
+        "Because these tools change bookings the customer agreed to",
+        "Because they remove all of the priorities from the list",
+        "Because they only work offline in the depot at the start"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 133-138 (clashes, grouping nearby visits, filling gaps); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: schedule clash check; at-risk flag; grouping; gap-filler candidates (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

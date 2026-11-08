@@ -1,0 +1,140 @@
+{
+  "id": "RAS-15",
+  "title": "Site rules, welfare, phones and emergencies",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaning operatives and supervisors working inside occupied buildings, including new crew before first site access.",
+  "prerequisites": [
+    "S14-L05",
+    "F10-L01"
+  ],
+  "learningOutcomes": [
+    "Follow the fire and evacuation arrangements for a site, including the assembly point and the stop-work rule.",
+    "Apply the mobile phone, music and smoking rules that apply on site.",
+    "Confirm that welfare facilities are adequate before workers are placed at a site.",
+    "Explain the site induction and the emergency information the crew must know before access."
+  ],
+  "instruction": [
+    {
+      "heading": "Fire, evacuation and the stop-work rule",
+      "body": "Before any crew member is given access to a site, they receive the site's induction, including fire and evacuation training, and the site's fire and evacuation information is posted where it can be read. The building facilities team tests the fire alarm, and the crew knows where the assembly point is before they start work. If a fire or smoke is reported, the operative stops work, reports it to the building facilities team and moves to the assembly point. The crew does not return to the building until the building facilities team has confirmed that it is safe. WARNING: Do not re-enter the building, do not investigate a smell or smoke, and do not use a lift during an evacuation. Smoking is allowed only in the marked area, and anyone found smoking elsewhere on site is asked to leave."
+    },
+    {
+      "heading": "Phones, music and attention",
+      "body": "Mobile phones, radios and music players are a source of distraction, and a distracted operative is less able to see a hazard or hear a warning. The register forbids using a mobile phone or music player on site in operational areas, and it forbids using a phone while running any machine. A phone may be used in the mess or rest room, and in an emergency, for example to call the building facilities team or the supervisor. The crew does not use a phone while walking, while carrying a load or while at a machine. A personal device with the sound off is kept in a pocket or locker rather than in the hand during work."
+    },
+    {
+      "heading": "Welfare facilities",
+      "body": "Welfare facilities are the toilets, hand washing, drinking water, rest areas and first aid cover that crew need during the working day. The register requires the client's premises to be inspected before workers are placed there, so that adequate welfare arrangements and provisions are confirmed. Crew wash the face and arms before food, drink, cigarettes, phone use or medication, and cover any cut or graze with a waterproof dressing before starting work. Soap, towels and a first aid kit are stocked on site."
+    }
+  ],
+  "procedure": [
+    "Complete the site induction before any access, and confirm the assembly point and the evacuation route.",
+    "On any fire or smoke alarm, stop work, report to the building facilities team and move to the assembly point.",
+    "Do not return to the building until the building facilities team has confirmed it is safe.",
+    "Keep a mobile phone out of the operational areas, and use it only in the rest room or in an emergency.",
+    "Confirm welfare facilities at each new site before placing workers, and record the check.",
+    "Clean the face and arms before food, drink or cigarettes, and cover cuts before work."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A fire alarm sounds during a floor buffing job on level three, and the crew member is holding the machine when the alarm starts.",
+      "decisionPrompt": "State the actions in order, including what happens to the machine.",
+      "reasoning": "The operative stops the work, switches off and isolates the machine where it is safe to do so, and leaves the machine in place. The operative reports the alarm to the building facilities team and goes to the assembly point by the route on the evacuation plan. The operative does not use a lift and does not return to the building until the building facilities team has confirmed it is safe. The machine is checked before any future use."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Site fire and evacuation information, posted and checked before work",
+    "{{business:safety.emergency_contact}} and the assembly point location",
+    "Welfare check record, with the toilets, washing, drinking water and rest area noted",
+    "First aid kit and {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Going back to collect equipment during an evacuation.",
+      "prevention": "Leave the equipment, stop, and go to the assembly point. Report what was left behind."
+    },
+    {
+      "error": "Using a phone in a work area or while operating a machine.",
+      "prevention": "Keep the phone away from work areas and use it only in the rest room or in an emergency."
+    },
+    {
+      "error": "Starting at a new site before the welfare facilities have been checked.",
+      "prevention": "Check and record welfare arrangements before workers are placed at the site."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Do not re-enter the building during or after an alarm until the building facilities team has confirmed it is safe, and do not use the lift during an evacuation.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the minimum welfare facilities, the fire safety and evacuation plan requirements, and the emergency plan duties under state and territory law.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every crew member has the site induction and knows the assembly point before access.",
+    "Work stops on any alarm, and nobody re-enters until the building facilities team confirms it is safe.",
+    "Welfare arrangements are checked and recorded at each new site."
+  ],
+  "documentationEvidence": [
+    "Site induction record with the date and the crew member's name",
+    "Welfare check record for each new site",
+    "Evacuation or alarm drill record, where the building holds one"
+  ],
+  "summary": [
+    "Complete the induction and know the assembly point before access.",
+    "Stop work on any alarm and do not re-enter until the building facilities team confirms it is safe.",
+    "Keep phones out of work areas, and use them only in the rest room or in an emergency.",
+    "Check welfare facilities at each new site, and record the check."
+  ],
+  "businessFields": [
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-15-K01",
+      "question": "A fire alarm sounds while a crew member is cleaning on the fourth floor. What should happen first?",
+      "options": [
+        "Stop work, report to the building facilities team and move to the assembly point.",
+        "Finish the section, since the alarm is probably a test and the crew can look later",
+        "Take the lift down to reach the exit more quickly and the lift is quicker than the stairs"
+      ]
+    },
+    {
+      "id": "RAS-15-K02",
+      "question": "When may a crew member use a mobile phone on site?",
+      "options": [
+        "While driving, as long as the phone is held in the hand and the speed is low",
+        "Only in the rest room or in an emergency, and never while operating equipment.",
+        "Whenever the supervisor is not present and the crew is on a long break"
+      ]
+    },
+    {
+      "id": "RAS-15-K03",
+      "question": "Before workers are placed at a new client site, what does the register require?",
+      "options": [
+        "Nothing, because the client is responsible for welfare and the crew can use the staff room",
+        "A written approval from the building's security firm only and a copy sent to the office",
+        "An inspection of the premises that confirms adequate welfare arrangements and provisions."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard rows 14, 20 and 26 (fire, evacuation and emergencies; mobile phones and personal music players; welfare, lack of provision); rights: user-held",
+    "UNCONFIRMED: minimum welfare facilities, fire safety plan and emergency plan requirements under state and territory law; not checked in this pass.",
+    "Cross-check: existing lessons S14-L05 (emergency procedures and evacuation) and F10-L01 (site induction and access) cover the practice; this lesson adds the register entries."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

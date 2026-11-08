@@ -1,0 +1,185 @@
+{
+  "id": "property-maintenance-L03",
+  "title": "Structured property inspections",
+  "referencesAtStart": "Official sources for this lesson: NSW Government, Electrical licences and credentials (last updated 23 June 2026); WorkSafe Victoria, High risk work licence (reviewed 30 June 2026); SafeWork NSW, High risk work licences (last modified 15 June 2026; page metadata, no visible date); WorkSafe Queensland, Boom type elevating work platform (WP) (no date shown).",
+  "courseSlugs": [
+    "handyman",
+    "residential",
+    "garden"
+  ],
+  "moduleTitle": "Property manager partner (module)",
+  "layer": "group",
+  "lessonType": "RV",
+  "estimatedMinutes": 40,
+  "audience": "Property manager partner workers who carry out visual inspections of occupied and vacant properties",
+  "prerequisites": [
+    "property-maintenance-L02"
+  ],
+  "learningOutcomes": [
+    "Carry out a repeatable visual walk-through that records observations separately from diagnoses.",
+    "Triage findings by immediate risk, water damage and cosmetic condition.",
+    "Turn inspection findings into a proposed scope of work that the owner can approve."
+  ],
+  "instruction": [
+    {
+      "heading": "Observe, do not diagnose",
+      "body": "A visual inspection records what can be seen, heard and smelled from a safe position. It does not establish the cause of a defect, and it cannot show that a concealed system is safe. Record the observation as seen: a stain on a ceiling, a tap that drips, a scorch mark on a switch plate. Keep the diagnosis for a competent person. Do not remove covers, drill, open ceilings or access heights during an inspection unless you are trained, authorised and equipped for that work."
+    },
+    {
+      "heading": "Walk the property in a fixed order",
+      "body": "Use the same route and checklist each time so that inspections can be compared. Start with the points of greatest risk: electrical equipment, gas appliances, the roof and ceiling spaces that can be seen from below, and any sign of water. Move through the water and drainage points, then the doors, windows, locks and access points, and finish with cosmetic items. Triage findings in that order. A cosmetic chip is not a priority above a scorched switch or a leak that is active."
+    },
+    {
+      "heading": "Turn findings into a proposal",
+      "body": "Each finding that needs work becomes a line in a proposed scope: the observation, the risk level, the proposed action, the owner of the action, and whether a specialist is needed. Price the work separately and do not start it until the owner or manager approves it in writing. Findings that need a licensed trade are referred, not proposed as handyman work. A clear inspection report with approved follow-up work is the revenue of this module."
+    }
+  ],
+  "procedure": [
+    "Confirm the inspection scope, the owner or manager, and any access arrangements.",
+    "Walk the property in the fixed order and record each observation as seen, with the location and time.",
+    "Triage each finding by immediate risk, then water damage, then cosmetic condition.",
+    "Refer any electrical, gas, structural or fire-related finding to the correct licensed trade or specialist.",
+    "Write the proposed scope of work, with one line per action, and send it for written approval.",
+    "Keep unresolved items visible in the report until they are verified closed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "In an occupied unit you see a leaking tap, a scorch mark on a switch plate and chipped paint on the skirting.",
+      "decisionPrompt": "How should the three findings be recorded and prioritised?",
+      "reasoning": "Record the three observations as seen. Triage the scorch mark first, because it suggests an electrical fault. Refer it to a licensed electrical worker and tell the occupant not to use the switch. The leak is second, and the proposed plumbing work goes to a licensed plumber if it alters the plumbing. The chipped paint is last and can be proposed as cosmetic work once the other items are dealt with."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Inspection checklist in the agreed format",
+    "Torch for dim areas",
+    "Camera or phone for photographs, used with consent",
+    "Safe-access equipment only where trained and authorised"
+  ],
+  "commonErrors": [
+    {
+      "error": "Stating a cause during an inspection without evidence.",
+      "prevention": "Record what was seen, and leave the cause for a competent person."
+    },
+    {
+      "error": "Starting cosmetic work before the risk items are dealt with.",
+      "prevention": "Triage findings first, and propose cosmetic work last."
+    },
+    {
+      "error": "Proposing licensed work as handyman work.",
+      "prevention": "Refer electrical, gas, structural and fire-related findings to the licensed trade."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electrical findings are referred to a licensed electrical worker. In New South Wales, a licence or certificate is needed for wiring work whatever the cost, except for equipment at not more than 50 volts AC or 120 volts ripple-free DC (electrical page, last updated 23 June 2026).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Access to heights during an inspection is subject to the position recorded in “Ladders, elevated access and fall prevention”. Do not operate a boom-type elevating work platform without the WP licence where it applies: in Victoria (WorkSafe Victoria page, reviewed 30 June 2026, which lists the WP class with no length threshold); at a boom length of at least 11 metres in New South Wales (SafeWork NSW licence page), so a shorter boom may not need that licence there; and for Queensland platforms that are not under 11 metres (WorkSafe Queensland page, no date shown). This lesson does not grant a licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not give a licence, certificate or authority to perform regulated work, and an inspection report does not certify the property as compliant.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each observation is recorded as seen, with location and time.",
+    "Findings are triaged in the agreed order and each has a risk level.",
+    "No licensed work is proposed as handyman work, and no work starts without written approval."
+  ],
+  "documentationEvidence": [
+    "Completed inspection checklist with observations, locations and times",
+    "Proposed scope of work with approval status",
+    "Referral notes for any licensed-trade findings"
+  ],
+  "summary": [
+    "Observe and record; leave the diagnosis to a competent person.",
+    "Triage risk first, then water damage, then cosmetic items.",
+    "Turn findings into an approved scope and refer licensed-trade work."
+  ],
+  "businessFields": [
+    "{{business:quality.inspection_checklist}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "property-maintenance-L03-K02",
+      "question": "What does a visual inspection establish?",
+      "options": [
+        "That all concealed systems are safe, which the inspector confirms by looking closely at the walls and ceilings",
+        "The cause of every defect that can be seen from the floor, the walls and the roof space",
+        "What can be seen from a safe position, without establishing the cause or the safety of concealed systems",
+        "That the property is compliant with the rules that apply to it at the time of the inspection"
+      ]
+    },
+    {
+      "id": "property-maintenance-L03-K03",
+      "question": "What does each line in a proposed scope of work contain?",
+      "options": [
+        "The price only",
+        "The observation, the risk level, the proposed action, the owner of the action, and whether a specialist is needed",
+        "The cause of the defect only",
+        "A start date for the work"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official sources, repeated for checking: NSW Government, Electrical licences and credentials (last updated 23 June 2026); WorkSafe Victoria, High risk work licence (reviewed 30 June 2026); SafeWork NSW, High risk work licences (last modified 15 June 2026; page metadata, no visible date); WorkSafe Queensland, Boom type elevating work platform (WP) (no date shown).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electrical licences and credentials",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Check whether a licence or certificate applies to wiring work. The page sets no dollar threshold and does not mention solar or battery systems. Publisher: NSW Government."
+    },
+    {
+      "id": "R2",
+      "title": "High risk work licence",
+      "url": "https://www.worksafe.vic.gov.au/high-risk-work-licence",
+      "pageDate": "Reviewed 30 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Check the WP class and the statement on scissor lifts. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R3",
+      "title": "High risk work licences",
+      "url": "https://www.safework.nsw.gov.au/licences-and-registrations/licences/high-risk-work-licences",
+      "pageDate": "No last-updated date shown on the page",
+      "checked": "2026-11-03",
+      "covers": "Check the WP licence and the 11 metre boom-length rule. Publisher: SafeWork NSW."
+    },
+    {
+      "id": "R4",
+      "title": "Boom type elevating work platform (WP)",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/work-health-and-safety-licences/what-licence-do-i-need/cranes-and-hoists/boom-type-elevating-work-platform",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the 11 metre length rule for the WP licence. Publisher: WorkSafe Queensland."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "lessons/ready/property-maintenance-L03.json (source draft, pm31-au02 as cited; reference not in this workspace, UNCONFIRMED)",
+    "research/trades/LICENCE-MATRIX-NSW-QLD.csv NSW-07, NSW-16, QLD-11 (checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX.csv VIC-21 (checked 2026-11-02)",
+    "Inspection method and triage order: internal course guidance, UNCONFIRMED against any named standard"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/handyman-photo-33b0fc7f-12.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/handyman-photo-33b0fc7f-13.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    }
+  ]
+}

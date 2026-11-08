@@ -1,0 +1,159 @@
+{
+  "id": "PBP-01",
+  "title": "Defining a pool service offer and its boundaries",
+  "courseSlugs": [
+    "pool",
+    "residential",
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Owners and planners of a pool service who must define what they sell before they price or market it",
+  "prerequisites": [
+    "F11-L01"
+  ],
+  "learningOutcomes": [
+    "List each pool service the business will offer and describe what is included and excluded",
+    "Set a frequency, a visit length basis and the supplies for each service without using sample figures",
+    "Identify the services that fall outside the business's scope and must be referred",
+    "Decide which services need a licensed person or the operator's written instruction"
+  ],
+  "instruction": [
+    {
+      "heading": "Why the offer comes first",
+      "body": "A pool service that cannot say exactly what it does will price badly, promise too much and carry risks it did not plan for. The sample business plan lists a range of services: regular maintenance, chemical balancing and filter cleaning, algae removal, opening and closing, emergency cleaning and repairs, tile and grout cleaning, water testing and acid washing. That list is a structure to work through. It is not a set of services the business should offer, and the sample descriptions, prices and response times are hypothetical placeholders. Do not copy them. Write the offer from your own capacity, your training and the scope rules in “Scope, site classification and authority”."
+    },
+    {
+      "heading": "Describing each service",
+      "body": "For each service, write four things: what is included, what is excluded, how often it is needed, and what it depends on. Regular maintenance covers skimming, vacuuming and brushing, basket emptying, the filter check and the routine chemistry readings the plan allows. It excludes repairs, water-treatment decisions outside the plan and electrical work. Chemical balancing depends on the operator plan and the test method. Filter cleaning depends on the manufacturer's trigger and the equipment condition. Algae removal depends on a diagnosis and on the product in the plan. Opening and closing depends on the operator's written instruction and the season. Write each service in this way, so that a client, a worker and an assessor read the same thing."
+    },
+    {
+      "heading": "Scope and the referral list",
+      "body": "Some work is outside the business's scope even when the client asks for it. Electrical work, gas work, heater installation, liner replacement, draining, structural repair and any act that requires a licence are referred. Write a referral list that names each excluded task and the person or type of business it is referred to. A referral list protects the business and the client, and it prevents a worker from taking on a task they are not authorised to do."
+    },
+    {
+      "heading": "Emergency and after-hours work",
+      "body": "An emergency service may be attractive, but it commits the business to availability and to a response. Do not state a response time or an availability that the business cannot sustain. If emergency work is offered, write what the emergency is, who decides it is an emergency, what is done on arrival and what is referred. Any emergency that involves electrical, gas, chemical or drowning risk goes through the referral and stop-work rules first."
+    }
+  ],
+  "procedure": [
+    "List each service the business intends to offer.",
+    "For each service, write what is included, what is excluded, its frequency and what it depends on.",
+    "Mark each service as in scope, operator-only, or referred to a licensed person.",
+    "Write the referral list, naming each excluded task and its referral route.",
+    "Check each service against the scope rules in “Scope, site classification and authority” and the safety rules in the PHM and PFM lessons.",
+    "Confirm each service has a written, plain-language description that a client can read."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An owner asks the business to include a heater repair in the regular maintenance service at no separate charge.",
+      "decisionPrompt": "How do you write the offer?",
+      "reasoning": "Exclude heater repair from regular maintenance. It needs a licensed person under the heater rules in “Home pool heating systems: operation and safe limits”. Add it to the referral list, state that the business can arrange referral or can visit to check and record the condition, and do not include the repair in the regular price."
+    },
+    {
+      "situation": "The business wants to offer algae removal and does not yet have the product or training for it.",
+      "decisionPrompt": "What is the correct approach?",
+      "reasoning": "Write algae removal as a referred or deferred service until the product in the operator plan is confirmed and the worker is trained. Do not write it as a standard service with a promised result. Record the reason and the date to review it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Draft service list in a word processor or on paper",
+    "Scope rules from “Scope, site classification and authority” and the safety lessons",
+    "Operator plan or written operator instruction for any treatment service",
+    "Referral list template"
+  ],
+  "commonErrors": [
+    {
+      "error": "Copying a sample service description or price",
+      "prevention": "Write each service from your own capacity, training and the operator plan."
+    },
+    {
+      "error": "Promising a result, such as clear water or a response time",
+      "prevention": "Describe the checks and the actions, not guaranteed outcomes."
+    },
+    {
+      "error": "Offering a service without a licence check",
+      "prevention": "Mark every service that needs a licence or authority as referred until checked."
+    },
+    {
+      "error": "Leaving exclusions out",
+      "prevention": "Write the exclusions for every service."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A service offer must not include electrical, gas, heater installation or repair, or chemical treatment that a licensed person or the operator must carry out. Those are referred.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson grants no licence, authority or accreditation for any service.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Emergency response commitments must match the business's real capacity. Response times are not set by this lesson.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every service has an included, an excluded and a dependency statement.",
+    "Every excluded task appears on the referral list with its route.",
+    "No service is described with a sample price, sample time or promised outcome."
+  ],
+  "documentationEvidence": [
+    "Service list with inclusions, exclusions and dependencies",
+    "Referral list with routes",
+    "Dated record of services deferred until a licence or product is confirmed"
+  ],
+  "summary": [
+    "Define each service by what it includes, excludes and depends on.",
+    "Keep a referral list for work outside scope.",
+    "Do not copy sample services, prices or response times."
+  ],
+  "businessFields": [
+    "{{business:services.enabled}}",
+    "{{business:services.service_group}}",
+    "{{business:services.service_description}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PBP-01-K01",
+      "question": "A client asks for a heater repair to be included in the regular maintenance price. What is the correct approach?",
+      "options": [
+        "Include it, since it is one visit to the client's home and the price",
+        "Exclude it from the regular price and refer it to a licensed person",
+        "Include it and do the repair without a licence if the client agrees",
+        "Include it but do not record it in the invoice, the file or the price"
+      ]
+    },
+    {
+      "id": "PBP-01-K02",
+      "question": "What should the business do with a service that depends on a product not yet listed in the operator plan?",
+      "options": [
+        "Remove the service from the record of offers and the plan",
+        "Offer it as a standard service with a promised result",
+        "Defer or refer it, and record the reason and a review date",
+        "Use a similar product from the shed at the depot instead"
+      ]
+    },
+    {
+      "id": "PBP-01-K03",
+      "question": "Which statement about a sample business plan's service list is correct?",
+      "options": [
+        "Its response times should be promised to clients as the standard for every visit, job, route and season",
+        "It is a licence for each listed service in the plan, the region, the state, the council and the trade",
+        "Its descriptions and prices should be copied as the business's own, since they are already tested",
+        "Its list is a structure to work from, and its descriptions and prices are placeholders not to be reused"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Pool Cleaning Business Plan (sample PDF, 2023 template), section Services and the service subsections (regular maintenance, chemical balancing and filter cleaning, algae removal, opening and closing, emergency cleaning and repairs, additional services); rights: user-held; reworded (no copying); checked 2026-11-02. Sample is hypothetical. Its prices, frequencies, durations and response times are not used.",
+    "Pool Cleaning Business Plan (sample PDF, 2023 template), section Company Overview (types of pool cleaning business, used for structure only); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "UNCONFIRMED: Australian licence, registration and competence requirements for each pool service. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

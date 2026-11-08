@@ -1,0 +1,32 @@
+{
+  "lessonId": "NEW-PLS-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-PLS-01-K01",
+      "correctIndex": 1,
+      "rationale": "Soft lime plaster and a crack suggest a bonding or movement problem. The substrate is assessed and the movement referred before a method is chosen."
+    },
+    {
+      "id": "NEW-PLS-01-K02",
+      "correctIndex": 2,
+      "rationale": "Plaster on a moisture source fails, and it can hide the cause."
+    },
+    {
+      "id": "NEW-PLS-01-K03",
+      "correctIndex": 2,
+      "rationale": "The lesson says to use a bonding agent or key coat that the product data sheet recommends for the substrate."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated substrate with a crack and a dusty surface, the worker records the substrate type, cleans and bonds it as the data sheet states, and refers the movement."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Substrate record",
+    "Referral note"
+  ],
+  "stopWorkCriteria": [
+    "Damp is found and the source is unknown",
+    "Movement is present and not referred"
+  ]
+}

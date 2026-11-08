@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-YOG-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-YOG-03-K01",
+      "correctIndex": 1,
+      "rationale": "The client's injury is a medical question. The instructor refers the client before the first session and records the referral. The instructor does not promise a fix."
+    },
+    {
+      "id": "NEW-YOG-03-K02",
+      "correctIndex": 2,
+      "rationale": "A premium price is built from session time, preparation, travel, equipment and compliance costs, not from a health claim."
+    },
+    {
+      "id": "NEW-YOG-03-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says to treat the home as a workplace for set-up and safety, and to check the room before the session."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor checks that a simulated private client has a completed questionnaire and a referral record before the first session",
+    "Assessor observes the candidate complete a simulated lone-worker check-in at arrival and departure of a home visit",
+    "Assessor checks a sample premium price build that includes preparation and travel time"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Health questionnaire and referral record for the simulated private client",
+    "Lone-worker check-in record for the simulated home visit",
+    "Price build sheet for the sample premium session"
+  ],
+  "stopWorkCriteria": [
+    "The candidate starts a private session for a client with an unreviewed medical question",
+    "The candidate describes a private session as a treatment for a condition"
+  ]
+}

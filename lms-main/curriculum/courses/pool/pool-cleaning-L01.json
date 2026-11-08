@@ -1,0 +1,254 @@
+{
+  "id": "pool-cleaning-L01",
+  "title": "Scope, site classification and authority",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pool and spa technicians, cleaners and supervisors who attend pool or spa sites in any state or territory",
+  "prerequisites": [
+    "F01-L01"
+  ],
+  "learningOutcomes": [
+    "Classify a pool or spa site as residential, spa, public, hydrotherapy or commercial before starting work",
+    "Identify the named responsible operator and confirm who holds water-treatment decisions",
+    "Compare a work order with the site and state in writing which tasks are inside and outside scope",
+    "Stop and refer work when a listed trigger is present"
+  ],
+  "instruction": [
+    {
+      "heading": "Why classification comes first",
+      "body": "Pools and spas are not one hazard class. A private backyard pool, a hotel spa, a public aquatic centre and a hydrotherapy pool in a health facility each have different users, different responsible people and different duties. Before you touch a skimmer, a pump or a dosing line, establish which type of water you are working on, who operates it and what your work order allows. The classification decides who may test water, who may adjust chemistry, which records are kept and who must be told about a problem. Do not classify a site from the customer's description alone. Check the signage, the equipment, the operator's details and the venue type."
+    },
+    {
+      "heading": "Who holds responsibility",
+      "body": "The operator may be the owner, a body corporate, a facility manager or a contracted pool operator. A contractor engaged for surface cleaning or equipment servicing is not automatically the operator. Before work starts, confirm the named responsible person, their contact details and whether they have delegated any treatment, closure or reopening decisions in writing. If nobody is named, treat the site as having no authorised operator and do not start treatment work."
+    },
+    {
+      "heading": "Reading the work order against the site",
+      "body": "The signed work order is your scope. Check whether it covers cleaning, equipment servicing, chemical dosing, testing or inspection only. Anything beyond the written order needs a new written instruction from the responsible person or a referral to a specialist. A completed cleaning task never, by itself, makes a pool ready for use. Record the task you were engaged for and the tasks you were not engaged for, so that the record cannot later be read as a water-quality approval. If the work order includes a visual look at the safety barrier, record it as a visual check under “Safety barrier visual check and escalation”. A visual check is not a barrier approval."
+    },
+    {
+      "heading": "Operator plans and rules that vary by state and territory",
+      "body": "Water treatment compliance depends on the local operator plan. The plan sets which products are used, the target ranges, the testing frequency, the closure triggers and the records to be kept. Where the plan is not available, stop treatment work and ask the responsible person for it. This course gives no target values. Barrier rules, registration and public-pool rules come from each state and territory and from local councils, so they vary across Australia. A rule quoted from one jurisdiction applies to that jurisdiction only. In Western Australia, the Health (Aquatic Facilities) Regulations 2007 cover aquatic facilities open to the public, and the Department of Health page (last reviewed 12 December 2023) says domestic pools are left out. In NSW, a pool's entry on the Swimming Pool Register is not a finding of compliance, as the NSW owner page (last updated 16 March 2026) explains."
+    },
+    {
+      "heading": "Stop and refer triggers",
+      "body": "Stop and refer when any of these applies: there is no named responsible operator; you are asked to override a regulatory or operator-plan requirement; the task needs a licence or competence you do not hold, such as electrical, gas or confined-space work; the water shows signs of contamination; a barrier defect leaves the water reachable; or you are asked to certify the pool as safe, compliant or open. A refusal is a correct decision when the trigger is present. Record it with the time, the person asking and the reason."
+    }
+  ],
+  "procedure": [
+    "Read the signed work order and write down the tasks it covers.",
+    "Classify the site type: residential, spa, public, hydrotherapy, commercial or other.",
+    "Identify the named responsible operator and record their contact details.",
+    "Obtain the site operating plan or the operator's written instruction for any water-treatment task.",
+    "Confirm the state or territory for the site and the barrier authority listed in “Pool-barrier rules by state and territory: where to check”, if a barrier is in question.",
+    "Mark each planned task as inside scope, operator-only, or specialist-only.",
+    "Record the classification and scope decision before touching equipment.",
+    "Stop and refer if any stop-work trigger is present.",
+    "Record the outcome, the person informed and the time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contractor is booked for a surface clean at a public aquatic centre. The duty officer says: just check the chlorine and top it up so the pool can reopen this afternoon.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Water treatment and the reopening decision belong to the operator under the site plan. The contractor is engaged for surface cleaning only. The contractor declines the dosing and the reopening decision, asks for the operator's written instruction, records the request, the time, the person and the decision, and tells the supervisor. If there is an immediate hazard, the contractor follows the site emergency procedure."
+    },
+    {
+      "situation": "A homeowner says the spa is theirs and asks you to empty and refill it. The spa heater's maintenance label names a different service company.",
+      "decisionPrompt": "How do you classify and scope the job?",
+      "reasoning": "A spa at a private home is a residential or spa site, but the heater is serviced by another company. The contractor confirms the owner's authority in writing, notes the heater's servicer, excludes heater work from scope, and checks whether draining is permitted under the local discharge rules before any water is moved (see “Water conservation and environmental release”)."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Signed work order",
+    "Site operating plan or operator's written instruction",
+    "Contact sheet for the responsible person",
+    "“Pool-barrier rules by state and territory: where to check” barrier authority table, where a barrier is in question",
+    "Recording device or job sheet",
+    "Basic PPE for the planned task, as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a pool as residential because the owner says so.",
+      "prevention": "Classify from the site: signage, equipment, venue type and the named operator."
+    },
+    {
+      "error": "Assuming a cleaning job includes water treatment.",
+      "prevention": "The written work order defines scope. Anything else needs written instruction."
+    },
+    {
+      "error": "Accepting a verbal reopening request.",
+      "prevention": "Obtain written confirmation from the responsible operator and refer the decision."
+    },
+    {
+      "error": "Recording the pool as safe after a cleaning task.",
+      "prevention": "Record only the tasks completed. Cleaning is not a water-quality or reopening approval."
+    },
+    {
+      "error": "Assuming one state's barrier or registration rule applies across Australia.",
+      "prevention": "Check the authority and status for the job's state or territory in “Pool-barrier rules by state and territory: where to check”, and refer any point you cannot check."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Water treatment compliance depends on the local operator plan. Where the plan sets treatment, testing, closure or record requirements, those requirements govern the work. This lesson sets no target value.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Safe Work Australia advises storing incompatible chemicals well apart, because mixing them can give off gases that are poisonous, flammable or damaging to materials. Never store or mix pool chemicals with acids or other incompatible goods. See “Disinfection chemistry and pH interpretation” and “Dosing systems and chlorine-gas prevention”. Refer to the product label, the SDS and the operator for storage and separation.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant a licence, certificate or authority to operate regulated pool plant or to treat water for a public or commercial pool.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Pool barrier, registration and public-pool rules are set by each state, territory and council. See “Pool-barrier rules by state and territory: where to check”.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The WA example in this lesson (Health (Aquatic Facilities) Regulations 2007) applies in Western Australia only. The Department of Health page says it covers aquatic facilities open to the public.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "States the site classification, the named responsible operator and the scope limit in writing before starting",
+    "Declines any task outside the written scope and records the referral",
+    "Does not record a site as safe, compliant or ready for use on the basis of cleaning work",
+    "Names the state or territory and records any barrier-related point as unresolved where it has not been established."
+  ],
+  "documentationEvidence": [
+    "Site classification and the basis for it",
+    "Name and contact of the responsible operator",
+    "Scope decision: tasks in, out, and referred",
+    "Time, person contacted and decision for any referral or refusal"
+  ],
+  "summary": [
+    "Classify the pool or spa before work; the site type sets the users, the responsibilities and the records.",
+    "The operator holds water-treatment decisions. A cleaning contractor does not reopen a pool.",
+    "The work order is the scope. Record what is out of scope as well as what is in it.",
+    "Water treatment depends on the operator plan. Barrier and registration rules differ by state and territory."
+  ],
+  "businessFields": [
+    "{{business:staff.authorised_tasks}}",
+    "{{business:procedures.approved_sop}}",
+    "{{business:staff.supervisor_contact}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:compliance.jurisdiction}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pool-cleaning-L01-K01",
+      "question": "A contractor is engaged for surface cleaning at a commercial pool. There is no named operator and the duty officer asks the contractor to adjust the chlorine. What is the correct first response?",
+      "options": [
+        "Adjust the chlorine to the usual range and record the change in the pool log book today",
+        "Decline water treatment, record the request, and ask for the named operator's written instruction",
+        "Ask a swimmer on site to decide what should happen with the chlorine and the pool today",
+        "Drain part of the pool to reset the chemistry, since that is quicker than adjusting it on the day"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L01-K02",
+      "question": "Why must the site type be established before work starts?",
+      "options": [
+        "It only affects the invoice that the business sends out to the client",
+        "It sets the users, responsibilities, permitted tasks and records for the water",
+        "Residential and public pools are handled identically once the owner signs",
+        "It is needed only if the pool is larger than a set size in square metres"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L01-K03",
+      "question": "A cleaning checklist is complete for a commercial pool. What does that completed checklist show?",
+      "options": [
+        "The water is safe to swim in, since the cleaning has been completed on the day and the pool is clean",
+        "Only that the listed cleaning tasks were completed; it does not show water quality or reopening approval",
+        "The operator has approved reopening of the pool to swimmers today after the clean and the check",
+        "Chemical levels are within target for the whole pool and the water at every point tested today"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SWA-STORE: Safe Work Australia, Storing hazardous chemicals, checked 2026-11-03 (no date shown). Used for incompatible chemicals and separate storage.",
+    "WA-HEALTH: WA Department of Health, Management of aquatic facilities in Western Australia, checked 2026-11-03 (last reviewed 12 December 2023). Used for the public-use scope and the exclusion of domestic pools.",
+    "NSW-OWN: NSW Government, Owning a pool or spa: your obligations, checked 2026-11-03 (last updated 16 March 2026). Used for the register and the compliance-status point.",
+    "ACT-PLAN: ACT Planning, Home swimming pool safety reforms, checked 2026-11-03 (no date shown). Used for the ACT depth threshold and the AS 1926.1 and AS 1926.2 names.",
+    "TAS-CBOS: Consumer, Building and Occupational Services Tasmania, Pool safety barriers, checked 2026-11-03 (last updated 8 December 2023). Used for the Tasmanian depth threshold.",
+    "NCC-H7: Australian Building Codes Board, NCC 2022 Volume Two Part H7, checked 2026-11-03 (no date shown). Used to name the National Construction Code only; no barrier dimensions stated.",
+    "Pool-cleaning-L14 (NEW-POOL-02): state and territory barrier authorities, with page dates and status, checked 2026-11-03.",
+    "UNCONFIRMED: operator duties under state law; state and territory electrical licensing for pool equipment; pool chemical licences; dangerous goods thresholds; public-pool registration. Not checked in this lesson.",
+    "UNCONFIRMED: numeric pool-water quality targets. No target value is given in this lesson; use the operator plan."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "safeworkaustralia.gov.au: Safety topics, Hazards, Chemicals, Storing hazardous chemicals. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Management of aquatic facilities in Western Australia",
+      "url": "https://www.health.wa.gov.au/articles/j_m/management-of-aquatic-facilities-in-western-australia",
+      "pageDate": "last reviewed 12 December 2023",
+      "checked": "2026-11-03",
+      "covers": "health.wa.gov.au: search 'management of aquatic facilities in Western Australia'. Publisher: WA Department of Health."
+    },
+    {
+      "id": "R3",
+      "title": "Owning a pool or spa: your obligations",
+      "url": "https://www.nsw.gov.au/housing-and-construction/building-or-renovating-a-home/pools-and-pool-safety/owner-obligations",
+      "pageDate": "last updated 16 March 2026",
+      "checked": "2026-11-03",
+      "covers": "nsw.gov.au: Pools and pool safety, then Owner obligations. Publisher: NSW Government."
+    },
+    {
+      "id": "R4",
+      "title": "Home swimming pool safety reforms",
+      "url": "https://www.planning.act.gov.au/planning-projects/building-regulatory-system/home-swimming-pool-safety-reforms",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "planning.act.gov.au: search 'home swimming pool safety reforms'. Publisher: ACT Government, Planning."
+    },
+    {
+      "id": "R5",
+      "title": "Pool safety barriers",
+      "url": "https://cbos.tas.gov.au/topics/products-services/safety/pool-safety-barriers",
+      "pageDate": "last updated 8 December 2023",
+      "checked": "2026-11-03",
+      "covers": "cbos.tas.gov.au: Topics, Products and services, Safety, Pool safety barriers. Publisher: Consumer, Building and Occupational Services Tasmania."
+    },
+    {
+      "id": "R6",
+      "title": "NCC 2022 Volume Two, Part H7: Ancillary provisions and additional construction requirements",
+      "url": "https://abcb.gov.au/editions/ncc-2022/adopted/volume-two/h-class-1-and-10-buildings/part-h7-ancillary-provisions-and-additional-construction-requirements",
+      "pageDate": "no date shown (NCC 2022 edition)",
+      "checked": "2026-11-03",
+      "covers": "abcb.gov.au: NCC 2022, Volume Two, Part H7; check the state adoption page for your state. Publisher: Australian Building Codes Board."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Storing hazardous chemicals (no date shown); WA Health, Management of aquatic facilities in Western Australia (last reviewed 12 December 2023); NSW Government, Owning a pool or spa: your obligations (last updated 16 March 2026); ACT Planning, Home swimming pool safety reforms (no date shown); Tasmanian CBOS, Pool safety barriers (last updated 8 December 2023); ABCB, NCC 2022 Volume Two, Part H7: Ancillary provisions and additional construction requirements (no date shown; NCC 2022 edition).",
+  "referencesAtEnd": "Official sources to check at the end of this lesson: Safe Work Australia, Storing hazardous chemicals (no date shown): https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals; WA Health, Management of aquatic facilities in Western Australia (last reviewed 12 December 2023): https://www.health.wa.gov.au/articles/j_m/management-of-aquatic-facilities-in-western-australia; NSW Government, Owning a pool or spa: your obligations (last updated 16 March 2026): https://www.nsw.gov.au/housing-and-construction/building-or-renovating-a-home/pools-and-pool-safety/owner-obligations; ACT Planning, Home swimming pool safety reforms (no date shown): https://www.planning.act.gov.au/planning-projects/building-regulatory-system/home-swimming-pool-safety-reforms; Tasmanian CBOS, Pool safety barriers (last updated 8 December 2023): https://cbos.tas.gov.au/topics/products-services/safety/pool-safety-barriers; ABCB, NCC 2022 Volume Two, Part H7: Ancillary provisions and additional construction requirements (no date shown; NCC 2022 edition): https://abcb.gov.au/editions/ncc-2022/adopted/volume-two/h-class-1-and-10-buildings/part-h7-ancillary-provisions-and-additional-construction-requirements.",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-01.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-02.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    }
+  ]
+}

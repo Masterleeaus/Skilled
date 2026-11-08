@@ -1,0 +1,194 @@
+{
+  "id": "BST-05",
+  "title": "Forecasting monthly jobs from a seasonal pattern",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Owners and schedulers of home and commercial service businesses in Australia whose workload rises and falls with the calendar and who need a rough monthly job forecast.",
+  "prerequisites": [
+    "BST-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a seasonal index for each calendar month from at least two years of the learner's own monthly job counts.",
+    "Produce an adjusted three-month level and use it to forecast the next month's jobs.",
+    "Compare a past forecast with the actual result and state the size and direction of the gap."
+  ],
+  "instruction": [
+    {
+      "heading": "Why a plain average misleads in a seasonal business",
+      "body": "Many home and commercial services rise and fall with the calendar. Pool and spa work, end-of-lease cleaning, gutter work and garden clean-ups each have busy months and quiet months, and the pattern tends to repeat from year to year. If you forecast next month by averaging the last few months as they stand, you will overshoot the quiet months and undershoot the busy ones. Two steps fix this. First, measure how each calendar month usually compares with an average month. Second, strip the seasonal effect out of recent months so you can see the underlying level of work, and then put the season back in when you forecast. The seasonal pattern in the examples is invented for this lesson."
+    },
+    {
+      "heading": "The seasonal index",
+      "body": "A seasonal index compares one calendar month with an average month. Take all the job counts for a given calendar month across two or three years and find their average. Then divide that average by the average across all twelve months. An index of 1.00 means an ordinary month. An index of 1.50 means that month usually runs about half as much again as an ordinary month. An index of 0.80 means it usually runs about a fifth below an ordinary month. The twelve indices should balance out to about 1.00 across the year, because each one is measured against the same average. If they do not, the arithmetic needs checking before you go further."
+    },
+    {
+      "heading": "Moving average and forecast",
+      "body": "A simple moving average is the average of the most recent few periods, recalculated one month at a time as new figures arrive. This lesson uses three months. First, adjust each of the last three months by dividing its actual job count by its seasonal index. The adjusted figure shows roughly how busy that month would have been if it were an ordinary month. Average the three adjusted figures and you have the underlying level of work. To forecast a future month, multiply the underlying level by that month's seasonal index. Refresh the level each month. If the level keeps drifting up or down over several months, the business is growing or shrinking, and a seasonal index alone cannot show that. Once a forecast shows a quiet month, a trade guide suggests spreading recurring visits into off-peak windows and capping plan sales to what the team can deliver."
+    }
+  ],
+  "procedure": [
+    "Gather at least two full years of monthly job counts for one service type.",
+    "Average each calendar month across the years available, for example all the Januaries together.",
+    "Average the twelve monthly averages to get the average month.",
+    "Divide each calendar month's average by the average month to get its seasonal index.",
+    "For the most recent three months, divide each actual job count by its seasonal index to get the adjusted figures.",
+    "Average the three adjusted figures to get the underlying level.",
+    "Multiply the underlying level by the seasonal index for the month you are forecasting, and record the forecast with the date it was made.",
+    "After the month ends, compare the forecast with the actual count and note the gap."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pool and spa service has two Januaries on record: 105 jobs in the first year and 75 in the second. Its average month across the whole year is 60 jobs. These figures are invented for this lesson.",
+      "decisionPrompt": "What is the January seasonal index?",
+      "reasoning": "The January average is 90 (105 plus 75, divided by two). Dividing 90 by the average month of 60 gives 1.50. January usually runs about half as much again as an ordinary month."
+    },
+    {
+      "situation": "The last three months of actual jobs were October 48, November 60 and December 84. The seasonal indices are 0.80 for October, 1.00 for November and 1.40 for December. The January index is 1.50.",
+      "decisionPrompt": "What is the underlying level, and what is the January forecast? Why is a plain three-month average a poor guide?",
+      "reasoning": "Adjusted figures: 48 divided by 0.80 is 60; 60 divided by 1.00 is 60; 84 divided by 1.40 is 60. The underlying level is 60. The January forecast is 60 multiplied by 1.50, which is 90 jobs. A plain average of the three actual months is 64, which would forecast January at 64 and miss by about 26 jobs, because it mixes the quiet and busy seasons without adjusting for them."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Monthly job count records for at least two years",
+    "Spreadsheet or calculator",
+    "A forecast log with columns for the forecast date, the forecast, the actual count and the gap",
+    "No site PPE is needed for this lesson; it is desk-based work"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting seasonal indices from a single year.",
+      "prevention": "Use at least two years of records where available, and write down which years were used."
+    },
+    {
+      "error": "Taking a moving average of raw counts across the seasons.",
+      "prevention": "Adjust each month for its seasonal index first, then average the adjusted figures."
+    },
+    {
+      "error": "Ignoring growth or decline.",
+      "prevention": "Watch whether the underlying level drifts across months, and update the level as new figures arrive."
+    },
+    {
+      "error": "Treating a forecast as a promise to customers or staff.",
+      "prevention": "Record each forecast, compare it with the actual result every month, and plan with a margin."
+    },
+    {
+      "error": "Using another region's or another trade's seasonal pattern.",
+      "prevention": "Build the indices from your own records."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers arithmetic on job counts. It does not cover licensed or authorised work and does not grant any licence or authority.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Rostering and staffing decisions based on a forecast need to follow the employment and work health and safety rules that apply in the business's state or territory. Check them against a current source.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A forecast is an estimate. It should not be the only basis for committing to customers, suppliers or staff.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner calculates a seasonal index for each month shown in a set of at least two years of monthly counts, with the working shown.",
+    "The learner produces an adjusted three-month level and a forecast for the next month, with each step recorded.",
+    "The learner compares a past forecast with the actual count, states the gap in jobs and says whether the level needs updating."
+  ],
+  "documentationEvidence": [
+    "Index table listing each month, the years used, the monthly averages and the seasonal indices",
+    "Forecast log with the forecast date, the forecast, the actual count and the gap",
+    "A short note on whether the underlying level is rising, falling or steady"
+  ],
+  "summary": [
+    "A seasonal index compares a calendar month with an average month.",
+    "Adjust for the season before taking the moving average.",
+    "Forecast equals the underlying level multiplied by that month's index.",
+    "Check each forecast against what actually happened."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "BST-05-K01",
+      "question": "A January seasonal index is 1.50. What does this mean?",
+      "options": [
+        "January is usually 1.5 jobs in total",
+        "January is usually much quieter than an average month",
+        "January is usually much busier than an average month"
+      ]
+    },
+    {
+      "id": "BST-05-K02",
+      "question": "Why adjust monthly figures for the season before taking a moving average?",
+      "options": [
+        "So that normal seasonal highs and lows do not distort the underlying level",
+        "So the forecast can skip the seasonal index altogether",
+        "Because a moving average cannot use more than one month of data"
+      ]
+    },
+    {
+      "id": "BST-05-K03",
+      "question": "The underlying level is 60 jobs a month and the January index is 1.50. What is the January forecast?",
+      "options": [
+        "40 jobs",
+        "90 jobs",
+        "60 jobs"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "General statistical method knowledge; Business Statistics: Australia and New Zealand (Selvanathan and Keller), 7th ed., contents page only; no text used; rights: user-held (upload contains contents only)",
+    "UNCONFIRMED: any published seasonal pattern for Australian service trades or regions; not checked against market data in this draft",
+    "UNCONFIRMED: employment and work health and safety rules for rostering, which differ by state or territory; not checked against current legislation in this draft",
+    "Tactic (team4 recurring-scaling research): spread recurring visits into off-peak windows and cap plan sales to delivery capacity. Source: ServiceMag, 'Maintenance Agreements That Renew: Building Recurring Revenue in Appliance and HVAC Service', https://www.servicemag.org/guides/maintenance-agreements-recurring-revenue, 23 June 2026. Trade publication; no figures used."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

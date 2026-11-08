@@ -1,0 +1,37 @@
+{
+  "lessonId": "garden-cleanups-L01",
+  "status": "PROPOSED REPLACEMENT - see report; the existing file at assessments/garden-cleanups-L01.assessment.json was overwritten by another batch with invalid correctIndex values",
+  "knowledgeAnswers": [
+    {
+      "id": "garden-cleanups-L01-K01",
+      "correctIndex": 0,
+      "rationale": "An unidentified plant may be protected. Treat it as excluded until the client confirms identity and permission."
+    },
+    {
+      "id": "garden-cleanups-L01-K02",
+      "correctIndex": 1,
+      "rationale": "Tree work above a set height or near power lines is licensed work and excluded. Record and refer."
+    },
+    {
+      "id": "garden-cleanups-L01-K03",
+      "correctIndex": 2,
+      "rationale": "A variation needs written client approval, including price and time change, before the extra work starts."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied scope card and a mock site plan with two unlabelled plantings and one tree, the learner marks inclusions and exclusions on the plan within the assessor's set time.",
+    "In role-play, the learner states that tree work above the set height is excluded, records the request and refers the client without starting any part of the work.",
+    "The learner records a supplied verbal variation request as a written variation for client approval before any extra work begins."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Annotated scope plan signed by the assessor.",
+    "Role-play observation record for the tree request.",
+    "Variation record showing the approval step."
+  ],
+  "stopWorkCriteria": [
+    "Cutting a supplied unlabelled planting during the assessment.",
+    "Starting any part of the tree work in the role-play.",
+    "Beginning extra work before written approval is recorded."
+  ]
+}

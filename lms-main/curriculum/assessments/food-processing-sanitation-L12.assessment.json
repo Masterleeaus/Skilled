@@ -1,0 +1,39 @@
+{
+  "lessonId": "food-processing-sanitation-L12",
+  "knowledgeAnswers": [
+    {
+      "id": "food-processing-sanitation-L12-K01",
+      "correctIndex": 0,
+      "rationale": "A cleaner cannot certify compliance across several jurisdictions. The request is refused, the reason is given, and it is referred to the responsible food-safety authority."
+    },
+    {
+      "id": "food-processing-sanitation-L12-K02",
+      "correctIndex": 1,
+      "rationale": "Open items are labelled clearly with the decision holder named, so the owner can act on them. Leaving them out or marking them complete misstates the package."
+    },
+    {
+      "id": "food-processing-sanitation-L12-K03",
+      "correctIndex": 2,
+      "rationale": "The handover stops where the food-safety owner has not signed or where a trigger applies. Time pressure and a finished clean are not reasons to proceed."
+    }
+  ],
+  "practicalCriteria": [
+    "Prepares a fictional closeout package listing cleaned zones, exceptions, sign-offs, evidence index and labelled open items, with the decision holder for each open item.",
+    "Refuses a simulated universal certificate request without asserting any other country's law as Australian law, and records the referral.",
+    "Stops a simulated handover that lacks the food-safety owner's signature, and records the trigger and the pending decision.",
+    "Corrects a simulated error using the site method and does not backfill or replace any entry."
+  ],
+  "passRule": "All four practical criteria observed as met in an inert tabletop simulation, with the knowledge check result at least 2 of 3 correct. Knowledge check results and the simulation are not a certification, an audit approval or a release.",
+  "evidenceRequired": [
+    "Fictional closeout package with labelled open items",
+    "Refusal and referral record for the certificate request",
+    "Stop and refer record for the unsigned handover",
+    "Assessor observation note for each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "Universal or cross-jurisdiction certificate issued or signed by the learner",
+    "Handover completed without the food-safety owner's signature",
+    "Record backfilled, replaced or altered without the site correction method",
+    "Open items omitted from the closeout package"
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": "NEW-YOG-03",
+  "title": "Private sessions and premium pricing",
+  "courseSlugs": [
+    "yoga"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 20,
+  "audience": "Yoga and Pilates instructors who offer one-to-one or small private sessions, including sessions in a client's home",
+  "prerequisites": [
+    "F01-L01",
+    "F01-L02",
+    "F01-L04"
+  ],
+  "learningOutcomes": [
+    "Run a private session with the same screening and referral steps as a class, and record them",
+    "Set a premium price from the time, skill and costs, without making a health outcome claim",
+    "Identify the home-visit safety points that are confirmed and those that remain and those that remain open."
+  ],
+  "referencesAtStart": "Official references for this lesson: WorkSafe Victoria, Health and safety responsibilities (reviewed 3 April 2025); NSW Government, Fitness and gyms (published 18 October 2024; modified 15 April 2026).",
+  "instruction": [
+    {
+      "heading": "A private session is still a screened session",
+      "body": "A private session often earns a higher rate because the instructor gives more attention and adapts the session to one person. The screening, the consent and the referral steps are the same as in a class, and in a private session they matter more because the instructor is alone with the client. Complete the health questionnaire from “Client screening and health-questionnaire boundaries” before the first session, and repeat it when the client reports a change. Record each modification, referral and stop. The business's private session procedure is held in {{business:procedures.approved_sop}}, and the cancellation rule is in {{business:customers.communication_policy}}."
+    },
+    {
+      "heading": "Private sessions in a client's home",
+      "body": "Some private sessions take place in a client's home. WorkSafe Victoria's health and safety responsibilities page (reviewed 03/04/2025) states that a self-employed person's work must not put others at risk, within what is reasonably practicable, and that employers must do the same for customers and the public. Treat the home as a workplace for set-up and safety, and check the room before the session, as “In-home safety, lone-work and room setup” explains for mobile massage. Check the access instructions in {{business:customers.access_instructions}} before entering, and use the lone-worker check-in method from “Lone-worker safety and check-ins” at arrival and departure."
+    },
+    {
+      "heading": "Pricing a premium private session",
+      "body": "A premium private session should be priced from the time it takes, the skill it needs, the preparation, the travel, the equipment and any compliance cost. A premium price must not be used to justify a claim that the session treats a condition or reduces a medical risk. Describe the session by its length, its focus and its included equipment. Advertising and consumer-law rules for health claims were not researched for this course. The pricing method is held in {{business:pricing.pricing_method}}, and the minimum charge in {{business:pricing.minimum_charge}}. Check the price against the cost of each step before it is published."
+    }
+  ],
+  "procedure": [
+    "Complete the health questionnaire and the referral check before the first private session",
+    "Confirm the access instructions and the location, and check the room for hazards before the session starts",
+    "Use the lone-worker check-in at arrival and departure, and record the times",
+    "Build the premium price from the time, skill, preparation, travel, equipment and compliance costs",
+    "Describe the session by its length, focus and included equipment, with no health outcome claim",
+    "Record each private session with its screening, modifications, referrals and stops"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client asks for a private session in her home and describes a recent back injury. She asks the instructor to design a session that will 'fix' her back.",
+      "decisionPrompt": "What should the instructor do before agreeing?",
+      "reasoning": "The injury is a medical question and the instructor must not diagnose or promise a fix. The instructor should refer the client to a medical practitioner or allied health professional for advice before the first session. The instructor can offer to design a session once the client has advice, and must not describe the session as a fix. The referral and the decision should be recorded."
+    },
+    {
+      "situation": "An instructor wants to charge a premium rate for a one-to-one session. The session takes 60 minutes, and the instructor's preparation takes 30 minutes plus 20 minutes of travel.",
+      "decisionPrompt": "How should the price be built?",
+      "reasoning": "The price should include the 60 minutes of session time, the 30 minutes of preparation, the 20 minutes of travel, the equipment and any compliance cost. The premium rate is justified by the skill and time, and the build should be recorded. The price should not be justified by any claim about a health outcome."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Health questionnaire and referral record",
+    "Mat, props and any equipment checked before the session",
+    "Phone with signal and the emergency contact list",
+    "Lone-worker check-in method, recorded at arrival and departure"
+  ],
+  "commonErrors": [
+    {
+      "error": "Skipping the questionnaire because the client is a repeat private client.",
+      "prevention": "Repeat the questionnaire at intervals and whenever a change is reported."
+    },
+    {
+      "error": "Promising that a private session will fix a condition.",
+      "prevention": "Describe the session by its length, focus and equipment. Refer medical questions."
+    },
+    {
+      "error": "Entering a client's home without checking the access instructions.",
+      "prevention": "Confirm the access instructions and the room before entering, and record the check-in."
+    },
+    {
+      "error": "Assuming the home visit carries no WHS duty.",
+      "prevention": "Treat the home as a workplace for set-up and safety, as the confirmed Victorian duties suggest, and check the home point with the regulator."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WorkSafe Victoria states that a self-employed person's work must not expose others to risk, within what is reasonably practicable, and that employers must do the same for customers and the public. This is confirmed for Victoria.",
+      "licenceNotice": false
+    },
+    {
+      "point": "WorkSafe does not say this directly.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A private session does not grant a licence, a clinical authority or any approval to treat a condition.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every private session has a completed questionnaire and a referral check before the first session",
+    "The home room is checked and the lone-worker check-in is recorded at each visit",
+    "Every premium price is built from its costs and recorded",
+    "No private session is described with a health outcome claim"
+  ],
+  "documentationEvidence": [
+    "Health questionnaire and referral record for each private client",
+    "Lone-worker check-in record for each home visit",
+    "Price build sheet for each premium session",
+    "Session record with modifications, referrals and stops"
+  ],
+  "summary": [
+    "Private sessions need the same screening and referral steps as classes",
+    "Treat the client's home as a workplace for safety.",
+    "Price premium sessions from time, skill and costs, never from a health claim",
+    "Completing this lesson grants no licence or clinical authority"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:customers.access_instructions}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-YOG-03-K01",
+      "question": "A private client describes a recent back injury and asks the instructor to fix it through a session. What is the correct response?",
+      "options": [
+        "Agree and design a session that will fix the back for the client and the family within a few weeks",
+        "Refer the client to a medical practitioner or allied health professional before the first session, and record the referral",
+        "Agree, but describe the session as a treatment for the back injury the client described at the first visit"
+      ]
+    },
+    {
+      "id": "NEW-YOG-03-K02",
+      "question": "How should a premium private session price be built?",
+      "options": [
+        "From the claim that the session treats a condition the client has",
+        "From the lowest price in the area the business can find today",
+        "From session time, preparation, travel, equipment and compliance costs"
+      ]
+    },
+    {
+      "id": "NEW-YOG-03-K03",
+      "question": "How does the lesson say a client's home must be treated for a private session?",
+      "options": [
+        "As a private space with no safety duties",
+        "As a workplace for set-up and safety",
+        "As a club that needs no permit",
+        "As a treatment room only after the client signs"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: WorkSafe Victoria, Health and safety responsibilities (reviewed 3 April 2025); NSW Government, Fitness and gyms (published 18 October 2024; modified 15 April 2026).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Health and safety responsibilities",
+      "url": "https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities",
+      "pageDate": "Reviewed 03/04/2025",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; duties of employers and self-employed people to others. The page does not say whether a client's home is a workplace. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Fitness and gyms",
+      "url": "https://www.nsw.gov.au/legal-and-justice/consumer-rights-and-protection/services/fitness-and-gyms",
+      "pageDate": "Published 18 Oct 2024; modified 15 Apr 2026",
+      "checked": "2026-11-03",
+      "covers": "NSW Government page; direct debit notice and Australian Consumer Law summary. NSW only; no cooling-off days stated. Publisher: NSW Government."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WorkSafe Victoria, Health and safety responsibilities, https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities, reviewed 03/04/2025, checked 2026-11-02 (ALL-VIC-01, PT-VIC-08)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (home-as-workplace UNCONFIRMED; consumer-law and advertising rules not researched)",
+    "Shared lesson references: S14-L04 (lone-worker safety and check-ins), F01-L02 (privacy, security and customer property), F01-L04 (job handover and escalation), within curriculum/lessons/ready",
+    "Cross-reference: NEW-FIT-01 and NEW-MAS-04",
+    "Checked 2026-11-03: official references R1, R2 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-05.jpg",
+      "alt": "Yoga and Pilates illustration",
+      "kind": "photo",
+      "origin": "yoga"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-06.jpg",
+      "alt": "Yoga and Pilates illustration",
+      "kind": "photo",
+      "origin": "yoga"
+    }
+  ]
+}

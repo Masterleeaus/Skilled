@@ -1,0 +1,39 @@
+{
+  "lessonId": "RAS-11",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-11-K01",
+      "correctIndex": 2,
+      "rationale": "A machine is isolated and stopped before any blockage is cleared. Working on a running machine is never acceptable."
+    },
+    {
+      "id": "RAS-11-K02",
+      "correctIndex": 0,
+      "rationale": "A blunt blade is replaced. Forcing a tool causes slips, and sharpening on the spot is not the register's control."
+    },
+    {
+      "id": "RAS-11-K03",
+      "correctIndex": 1,
+      "rationale": "A nozzle that is not fully connected can whip or release a jet, so it is not operated until the connection is complete."
+    }
+  ],
+  "practicalCriteria": [
+    "Inspects a named machine's guard, cord, pads, hose and emergency stop before use, and records the result",
+    "Keeps the hand behind the blade when using a scraper, and replaces a blunt blade",
+    "Switches off and isolates a machine before clearing a simulated blockage",
+    "Labels and withdraws a simulated defective machine and reports it"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "pre-use inspection record",
+    "defect report",
+    "assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "A guard or emergency stop is removed or bypassed",
+    "A machine is reached into while running",
+    "A pressure nozzle or hose is operated while not fully connected"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

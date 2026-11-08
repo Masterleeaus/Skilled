@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-IRR-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-IRR-02-K01",
+      "correctIndex": 2,
+      "rationale": "Waterlogging after rain calls for checking the sensor, reducing frequency and allowing drainage, after checking restriction rules. Longer run times worsen waterlogging."
+    },
+    {
+      "id": "NEW-IRR-02-K02",
+      "correctIndex": 0,
+      "rationale": "Midday watering loses water to evaporation. The technician explains the trade-off, advises an earlier or later start where rules allow, and records the advice."
+    },
+    {
+      "id": "NEW-IRR-02-K03",
+      "correctIndex": 1,
+      "rationale": "A sensor that stops the programme is checked and the fault recorded. Bypassing the sensor defeats the water-saving control."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied zone map with three zones, the learner sets a run time for each zone from the supplied target depth and precipitation rate, showing the calculation, within the assessor's set time.",
+    "On a supplied controller or training model, the learner sets a seasonal adjustment and labels the basis for the setting.",
+    "The learner explains to the assessor, in role-play, why a requested midday schedule is not recommended and what alternative they would offer, without bypassing any sensor."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Signed calculation sheet for the three mock zones.",
+    "Controller setting record and label, signed by the assessor.",
+    "Role-play observation record."
+  ],
+  "stopWorkCriteria": [
+    "Opening a supplied controller enclosure to alter wiring during the assessment.",
+    "Bypassing a supplied rain sensor to keep a programme running during the assessment."
+  ]
+}

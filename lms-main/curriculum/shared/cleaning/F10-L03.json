@@ -1,0 +1,137 @@
+{
+  "id": "F10-L03",
+  "title": "Public and occupied-area safety",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners working in commercial offices and strata buildings where people are present during cleaning.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Assess foot traffic, trip routes, cables, wet floors and emergency exits before each work zone.",
+    "Use barriers and signs without relying on them alone to stop entry.",
+    "Pause affected work and reroute when occupancy changes."
+  ],
+  "instruction": [
+    {
+      "heading": "Assessing the zone before you start",
+      "body": "Before each work zone, assess the foot traffic, the trip routes, cables, wet floors, cleaning odours, ventilation, accessibility and emergency exits. An occupied area can change in minutes, so the assessment is repeated when people arrive or the traffic pattern changes. Identify the person responsible for escalation before you begin."
+    },
+    {
+      "heading": "Barriers, signs and sections",
+      "body": "Use the site-approved signage and barriers. Signs and barriers are a warning, not a physical block, so never rely on signs alone to prevent a person from entering. Work in manageable sections and check that the surface is safe before reopening it. Keep accessible exits and paths open, and do not spray near people, food or electronics."
+    },
+    {
+      "heading": "Protecting people, documents and privacy",
+      "body": "Protect confidential desks and documents. Clean around sensitive items rather than moving them without permission. If the task exceeds your training, consent, safe access or the agreed scope, pause the affected work, protect others, report promptly, and document the reason. Do not substitute an improvised method for a required specialist procedure."
+    },
+    {
+      "heading": "Worked example: a busy corridor",
+      "body": "During lunch, a corridor becomes busy while the floor is wet. The cleaner isolates the area, offers an accessible alternative route, and waits for the floor to dry safely before removing the controls. The corridor is reopened only when the surface is safe to walk on."
+    }
+  ],
+  "procedure": [
+    "Assess foot traffic, trip routes, cables, wet floors, odours, ventilation, accessibility and exits before each zone.",
+    "Confirm authorisation and the person responsible for escalation.",
+    "Use site-approved signs and barriers, and work in manageable sections.",
+    "Keep accessible exits and paths open and avoid spraying near people, food or electronics.",
+    "Pause and reroute when occupancy changes or a control cannot keep people safe.",
+    "Record the reason for any pause and the reopening decision."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Visitors approach an active floor-scrubbing area in an office lobby.",
+      "decisionPrompt": "What controls do you use?",
+      "reasoning": "Pause the scrubbing, keep the visitors clear of the machine and the wet floor, offer a safe route, and tell the supervisor or site coordinator. Resume only when the area is safe. Record the decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Site-approved signs and barriers.",
+    "Non-slip footwear and gloves as set by the SDS.",
+    "Radio or means of contacting the supervisor."
+  ],
+  "commonErrors": [
+    {
+      "error": "Relying on a sign to stop people walking in.",
+      "prevention": "Use a barrier and supervise the access point."
+    },
+    {
+      "error": "Spraying product near a person or open food.",
+      "prevention": "Keep product away from people, food and electronics."
+    },
+    {
+      "error": "Moving confidential papers to clean under them.",
+      "prevention": "Clean around the documents and do not move them without permission."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Work health and safety duties to protect people in the workplace apply to cleaning in occupied areas. The site risk assessment sets the controls.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Zone assessed, and exits and accessible paths kept open in the simulated corridor.",
+    "Simulated occupancy change met by pausing and rerouting.",
+    "No surface reopened until it is safe to walk on."
+  ],
+  "documentationEvidence": [
+    "Zone assessment record.",
+    "Pause and reopening record with the reason and who was told."
+  ],
+  "summary": [
+    "Assess each zone, and reassess when occupancy changes.",
+    "Signs and barriers warn, but supervision and barriers stop entry.",
+    "Pause and reroute rather than improvise.",
+    "Reopen only when the surface is safe."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:customers.access_instructions}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F10-L03-K01",
+      "question": "Visitors approach an active floor-scrubbing area. What is the best control?",
+      "options": [
+        "Put up a sign and keep working near the zone",
+        "Pause, keep people clear, and offer a safe route",
+        "Ask the visitors to step over the cable"
+      ]
+    },
+    {
+      "id": "F10-L03-K02",
+      "question": "Why must you not rely on signs alone to prevent entry?",
+      "options": [
+        "Signs are not allowed in offices or on any floor",
+        "Signs are only for night cleaning and not for daytime work",
+        "A sign is a warning and does not physically stop a person"
+      ]
+    },
+    {
+      "id": "F10-L03-K03",
+      "question": "When is a zone reassessed?",
+      "options": [
+        "When occupancy or the traffic pattern changes",
+        "Only at the start of the shift, and not during it",
+        "At the end of each year, when paperwork is filed"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/F10-L03.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory duties for public and occupied-area safety during cleaning.",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

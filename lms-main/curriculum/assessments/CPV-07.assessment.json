@@ -1,0 +1,40 @@
+{
+  "lessonId": "CPV-07",
+  "knowledgeAnswers": [
+    {
+      "id": "CPV-07-K01",
+      "correctIndex": 1,
+      "rationale": "Residue can contaminate the next product and can interfere with testing, so it is checked and removed."
+    },
+    {
+      "id": "CPV-07-K02",
+      "correctIndex": 2,
+      "rationale": "The source describes no detectable residue as the ideal, with defined limits as the minimum standard."
+    },
+    {
+      "id": "CPV-07-K03",
+      "correctIndex": 3,
+      "rationale": "A total figure can mask the specific residue, so each agent is measured separately."
+    },
+    {
+      "id": "CPV-07-K04",
+      "correctIndex": 3,
+      "rationale": "The simple checks section says a commercial site seldom runs a full validation, but it can use a straightforward residue check where its procedure calls for one."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner rinses a practice item until no foam or detergent remains and states how the rinse was judged (pass: rinse completed and judged).",
+    "Learner records the agent, rinse method and check result on the practice record (pass: all recorded)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Observer checklist for the rinse",
+    "Completed practice rinse record"
+  ],
+  "stopWorkCriteria": [
+    "Foam or residue remains and the rinse cannot be repeated.",
+    "The residue check method is not approved for the site.",
+    "Rinse water would enter a drain that is not approved for it.",
+    "A reagent is used without its SDS or protective equipment."
+  ]
+}

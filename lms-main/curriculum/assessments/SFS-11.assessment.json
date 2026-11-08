@@ -1,0 +1,40 @@
+{
+  "lessonId": "SFS-11",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-11-K01",
+      "correctIndex": 0,
+      "rationale": "A capacity record stores the agreed amount per period, which is what the scheduler reads."
+    },
+    {
+      "id": "SFS-11-K02",
+      "correctIndex": 0,
+      "rationale": "Required is a hard condition. Preferred only changes the order in which workers are considered."
+    },
+    {
+      "id": "SFS-11-K03",
+      "correctIndex": 0,
+      "rationale": "The order of lookup runs from the most specific record to the most general one."
+    },
+    {
+      "id": "SFS-11-K04",
+      "correctIndex": 3,
+      "rationale": "The efficiency section says an efficiency score changes the planned length of each visit assigned to that worker, so the end time is more realistic."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (worker capacity, efficiency scores and preference settings) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

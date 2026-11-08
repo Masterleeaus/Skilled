@@ -1,0 +1,151 @@
+{
+  "id": "RAS-04",
+  "title": "Cleaning chemicals: mixing, spills and containers",
+  "courseSlugs": [
+    "commercial",
+    "strata",
+    "residential"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaning operatives and supervisors who select, dilute, use and store cleaning products on client premises.",
+  "prerequisites": [
+    "F03-L01",
+    "F03-L02",
+    "F03-L03"
+  ],
+  "learningOutcomes": [
+    "Identify the chemical hazards in a cleaning register, including mixing, splashing, inhalation and spills.",
+    "Select the least harmful product for a task and explain why mixing is avoided.",
+    "Follow the safety data sheet for a product's spill response instead of a general rule.",
+    "Store, label and dispose of containers so that a wrong product is not used by mistake."
+  ],
+  "instruction": [
+    {
+      "heading": "The chemical hazards on a register",
+      "body": "A cleaning register usually carries two chemical entries. The first is contact with hazardous substances during use, dilution and mixing, which can cause inhalation harm, eye and skin irritation and absorption through the skin. The second is a spill of a cleaning chemical, which can affect the person who clears it, the people nearby and anyone who walks through the wet area. The controls start with product selection. Choose the product with the least harmful profile for the task, and select a product that needs only one concentrate diluted with water, so that two products are never combined. Keep a current safety data sheet for each product and a risk assessment for the chemical use, as the register notes. The safety data sheet for each product is the authority on its hazards, first aid and spill response."
+    },
+    {
+      "heading": "Dilution, ventilation and never mixing",
+      "body": "Dilute only the concentrate named for the task, in the amount the label states, and do it in a ventilated area. Make up only the solution needed for the task, seal stock containers when they are not in use, and reseal the concentrate straight away after dilution. WARNING: Never mix two cleaning products together, and never add a product to another to make it stronger. Mixing products can release gases that harm the people in the space, and the harm can come on quickly. Labels must be legible and match the contents, and a container with an unknown or faded label is not used. Keep product away from food areas and out of reach of anyone without training. Access to the store must be controlled so that only trained people can take product out."
+    },
+    {
+      "heading": "Spills and the safety data sheet",
+      "body": "When a spill happens, stop the task and keep people away from the area. Use the spill kit and the personal protective equipment named in the register for that product, and only if the operative is trained for the task. Do not rely on a general rule about what to pour onto a spill. Some products must not be diluted with water, and the right response depends on the chemical. Read the spill section of the safety data sheet for that product and follow it. Once the spill is contained, clear it into a closable container, label the container and record the event. A spill that cannot be contained with the controls in the register is escalated, and the area is left closed until someone trained has dealt with it."
+    }
+  ],
+  "procedure": [
+    "Check the label and safety data sheet for the product, and confirm it is the product approved for the task.",
+    "Put on the personal protective equipment listed for the product in the register before opening it.",
+    "Dilute only the amount needed, at the place named for dilution, with ventilation on.",
+    "Reseal the concentrate straight away and return it to the store.",
+    "If a spill happens, stop, keep people away, contain it with the spill kit and follow the safety data sheet response.",
+    "Record the spill and the product, and tell the supervisor before the work resumes."
+  ],
+  "workedExamples": [
+    {
+      "situation": "During a restroom clean, a bottle of concentrate slips and leaks onto the floor in a corridor where a staff member is walking towards the area.",
+      "decisionPrompt": "Set the first three actions, and state what governs the response to the leak.",
+      "reasoning": "The first action is to stop and keep the staff member away from the area, using a barrier and a clear verbal warning. The second is to contain the spill with the kit and the protective equipment listed for that product. The response that governs the clean-up is the safety data sheet for that concentrate, not a habit or a general rule. After containment, the container is labelled, the event is recorded and the supervisor is told before the restroom work restarts."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Safety data sheets for each product in use, available where the product is made up and in the site file",
+    "{{business:safety.required_ppe}} as listed for each product in the register",
+    "Spill kit with absorbent material and closable containers",
+    "Labelled dilution containers and a clean measuring device",
+    "Eyewash or first aid kit as the register requires for the site"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing two products to get a stronger result.",
+      "prevention": "Use one approved product for one task, and never combine products."
+    },
+    {
+      "error": "Diluting a spill with water by habit.",
+      "prevention": "Read the spill section of the safety data sheet and follow it for that product."
+    },
+    {
+      "error": "Leaving concentrate open or in an unlabelled container.",
+      "prevention": "Reseal and return concentrate immediately, and never use an unlabelled container."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Never mix cleaning products, and never use a product in a way that its label or safety data sheet does not allow.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The register names a different (non-Australian) framework for these, which is not carried into this lesson.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check which PPE standard applies to eye protection and chemical-resistant gloves in Australia. The register names European standards by number; this lesson refers to them by name only and does not confirm them.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not authorise handling of any chemical outside the approved product list. Ask the supervisor first.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each product in use has a current safety data sheet available to the crew.",
+    "No two products are mixed, and each dilution is made in the amount the label states.",
+    "Each spill is contained, recorded and handled according to the safety data sheet for that product."
+  ],
+  "documentationEvidence": [
+    "Chemical register and safety data sheet index for the site",
+    "Dilution and spill records with the product, date, quantity and action taken"
+  ],
+  "summary": [
+    "Select the least harmful product for the task and never mix products.",
+    "Dilute in a ventilated area, reseal concentrate straight away and label every container.",
+    "Follow the safety data sheet for spill response rather than a general rule.",
+    "Record every spill and escalate any spill the controls cannot contain."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:materials.storage_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-04-K01",
+      "question": "Which step is the best first control for a chemical task?",
+      "options": [
+        "Use two products together to be sure the job is done.",
+        "Choose the least harmful product for the task.",
+        "Dilute extra concentrate so there is some in reserve."
+      ]
+    },
+    {
+      "id": "RAS-04-K02",
+      "question": "A spill of a cleaning concentrate happens. Which source governs the response?",
+      "options": [
+        "The habit of the crew member who is nearest.",
+        "The general dilution rule in the register.",
+        "The safety data sheet for that product."
+      ]
+    },
+    {
+      "id": "RAS-04-K03",
+      "question": "Which practice reduces inhalation and splash risk when diluting a product?",
+      "options": [
+        "Dilute in a ventilated area and reseal the container straight away.",
+        "Dilute in a closed, unventilated store room.",
+        "Pour concentrate into a spare spray bottle with the label removed."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard rows 2 and 3 (use, misuse and mixing of cleaning chemicals; spillages) and the controls for each; rights: user-held",
+    "UNCONFIRMED: Australian chemical risk assessment, safety data sheet, labelling and disposal requirements under state and territory law; not checked in this pass.",
+    "Cross-check: existing lessons F03-L01 to F03-L04 in shared/chemicals cover labels, safety data sheets, dilution and storage; this lesson adds the register link only.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. European (EN) product standards named in the register kept as reference only; Australian equivalent is the AS/NZS standard for the same product type, number UNCONFIRMED; no European figure is used"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

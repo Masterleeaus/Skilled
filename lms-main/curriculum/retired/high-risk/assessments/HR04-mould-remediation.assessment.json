@@ -1,0 +1,91 @@
+{
+ "lessonId": "HR04-mould-remediation",
+ "knowledgeAnswers": [
+  {
+   "id": "HR04-K01",
+   "correctIndex": 1,
+   "rationale": "Routine cleaning does not cover treatment of a damp room. The cleaner stops, and the scope is revised by the responsible manager after a competent assessment."
+  },
+  {
+   "id": "HR04-K02",
+   "correctIndex": 2,
+   "rationale": "Mould follows moisture. The source must be found and corrected, and repainting over it does not solve the problem."
+  },
+  {
+   "id": "HR04-K03",
+   "correctIndex": 0,
+   "rationale": "Recurring staining signals concealed damage. Demolition is not accepted on instruction alone and waits for a competent assessment."
+  },
+  {
+   "id": "HR04-K04",
+   "correctIndex": 1,
+   "rationale": "Possible asbestos under contaminated water needs isolation and escalation. Disturbing it is not acceptable for an ordinary cleaner."
+  },
+  {
+   "id": "HR04-K05",
+   "correctIndex": 2,
+   "rationale": "Health questions go to clinicians. A cleaner gives no clearance or medical statement."
+  },
+  {
+   "id": "HR04-K06",
+   "correctIndex": 0,
+   "rationale": "PPE is matched to the evaluated exposure and the worker's training and fit are verified. A loose mask does not meet that standard."
+  },
+  {
+   "id": "HR04-K07",
+   "correctIndex": 1,
+   "rationale": "Airborne particles can reach occupied areas, so containment and zoning are planned and approved before work begins."
+  },
+  {
+   "id": "HR04-K08",
+   "correctIndex": 2,
+   "rationale": "Saturated porous materials cannot be reliably cleaned. Each material needs a classification and a competent decision, not a blanket method."
+  },
+  {
+   "id": "HR04-K09",
+   "correctIndex": 0,
+   "rationale": "Dry brushing and domestic vacuums can throw spores into the air and are unsuitable for contaminated areas."
+  },
+  {
+   "id": "HR04-K10",
+   "correctIndex": 1,
+   "rationale": "Demolition debris is not ordinary office waste. Disposal, transport and contractor authorisations are verified before handling."
+  },
+  {
+   "id": "HR04-K11",
+   "correctIndex": 2,
+   "rationale": "Paint over a damp surface hides the problem and does not stop the mould. The source must be fixed and re-evaluated first."
+  },
+  {
+   "id": "HR04-K12",
+   "correctIndex": 0,
+   "rationale": "A visual clean does not establish pathogen-free status. The closeout names what is not cleared and who must give independent clearance."
+  }
+ ],
+ "practicalCriteria": [
+  "Produces a task-authorisation record for a simulated damp-room request that lists permitted inspection only, specialist referral, occupants and excluded destructive work.",
+  "Stops and escalates a simulated ceiling collapse with sewage-affected plasterboard and suspicious insulation, using a risk register, without disturbing the material.",
+  "Audits a simulated PPE selection and training record and escalates each deficiency found.",
+  "Compares proposed cleaning methods against an approved plan and identifies each unsuitable option with the reason.",
+  "Writes a factual closeout report that separates task completion, visual review and independent clearance, and names the areas not cleared."
+ ],
+ "passRule": "Competent only if all five observable tasks are demonstrated correctly in supervised paper or training-only simulation with no critical safety failure. Critical failures include proceeding without site authority or a competent remediation supervisor, disturbing suspected asbestos or contaminated material, giving a clearance or medical statement, or accepting inadequate PPE. A written quiz pass is not practical competence. Not approved for use until specialist, legal and jurisdiction review is complete.",
+ "evidenceRequired": [
+  "Task-authorisation record for each simulated case.",
+  "Stop-work decision tree and controlled referral note for a simulated concealed-damage case.",
+  "Risk register for the simulated isolation and escalation.",
+  "PPE audit record with deficiencies and escalations.",
+  "Closeout report from the simulated job file.",
+  "Assessor observation record signed by an organisation-authorised competent assessor."
+ ],
+ "stopWorkCriteria": [
+  "Any work where the site authority or competent remediation supervisor is missing.",
+  "Any disturbance of material that may contain asbestos or lead, or of material in contaminated water, without competent assessment.",
+  "Any PPE or respirator use without the evaluated exposure, the programme, training and fit.",
+  "Any use of an unsuitable cleaning method or equipment in a contaminated area.",
+  "Any clearance, pathogen-free or medical statement.",
+  "Any waste removal or disposal without an authorised route."
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

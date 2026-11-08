@@ -1,0 +1,33 @@
+{
+  "lessonId": "PSA-02",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-02-K01",
+      "correctIndex": 1,
+      "rationale": "Section 4 Water clarity: the disc must be readily seen at the pool's deepest point."
+    },
+    {
+      "id": "PSA-02-K02",
+      "correctIndex": 2,
+      "rationale": "Sections 4 and 1: clarity supports depth estimation and detection of submerged users; the pool stays closed until the test passes."
+    },
+    {
+      "id": "PSA-02-K03",
+      "correctIndex": 1,
+      "rationale": "Section 4 lists depth estimation, seeing subsurface hazards and detecting submerged users as purposes of clarity."
+    }
+  ],
+  "practicalCriteria": [
+    "Carries out the disc test at the deepest point using the correct disc, and states the result aloud.",
+    "Records depth, time and lighting, and keeps a failed pool closed in a supplied scenario."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Clarity test record for the assessed pool",
+    "Assessor observation of the disc test"
+  ],
+  "stopWorkCriteria": [
+    "A disc that cannot be seen at the pool's deepest point: keep the pool shut and escalate.",
+    "No suitable disc available: do not declare the pool compliant."
+  ]
+}

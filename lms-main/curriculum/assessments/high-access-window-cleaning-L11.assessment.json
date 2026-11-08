@@ -1,0 +1,38 @@
+{
+  "lessonId": "high-access-window-cleaning-L11",
+  "knowledgeAnswers": [
+    {
+      "id": "high-access-window-cleaning-L11-K01",
+      "correctIndex": 2,
+      "rationale": "The product's label, its surface compatibility and the runoff controls are each verified, and the site confirms them before any chemical use. Trying a product over drains, or assuming the runoff is safe, is wrong."
+    },
+    {
+      "id": "high-access-window-cleaning-L11-K02",
+      "correctIndex": 1,
+      "rationale": "Runoff heading for a drain is contained with the site's approved controls, and the product is checked against the approved list for that area. Letting it flow or adding more product is wrong."
+    },
+    {
+      "id": "high-access-window-cleaning-L11-K03",
+      "correctIndex": 1,
+      "rationale": "Without an available and readable SDS, the product is not used. The gap is reported so that the SDS can be placed on site."
+    }
+  ],
+  "practicalCriteria": [
+    "On a mock product sheet, checks the label, the SDS and the approved list separately, and records any missing item.",
+    "Identifies, on a mock surface list, which surfaces the product is and is not approved for, and plans the test that would be needed.",
+    "Maps the drains, gutters and landscaping on a drawn plan, and records the runoff decision and the person told.",
+    "Applies the stop-work rule to a simulated stronger-product request, and records the request and the approved alternative sought."
+  ],
+  "passRule": "Label, SDS and approval checked separately, runoff mapped and decided with the site, and the unapproved product request refused and recorded, with no critical failure. Observed on paper or in a supervised tabletop exercise. A knowledge check result alone is not a pass.",
+  "evidenceRequired": [
+    "Product check sheet with label, SDS and approval fields",
+    "Drain and garden map with the runoff decision",
+    "Hold or stop record with the person told and the time"
+  ],
+  "stopWorkCriteria": [
+    "Product used over or near a drain without approved runoff controls",
+    "Product used without a label or an SDS",
+    "Stronger, unapproved product used after the approved one failed",
+    "Test carried out over a drain or on an area the site has not released"
+  ]
+}

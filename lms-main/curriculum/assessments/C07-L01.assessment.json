@@ -1,0 +1,38 @@
+{
+  "lessonId": "C07-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "C07-L01-K01",
+      "correctIndex": 1,
+      "rationale": "Checkout time alone does not show that the guest has left or that entry is permitted. The departure and the permission are confirmed first."
+    },
+    {
+      "id": "C07-L01-K02",
+      "correctIndex": 2,
+      "rationale": "Early escalation and an authorised schedule change protect both the deadline and the mandatory tasks. Skipping contact times or certifying unchecked rooms do not."
+    },
+    {
+      "id": "C07-L01-K03",
+      "correctIndex": 0,
+      "rationale": "The laundry cycle and drying are dependencies. The clean linen cannot be made up until they finish, so they set the earliest finish time for the beds."
+    }
+  ],
+  "practicalCriteria": [
+    "Reads a sample booking handover, departure confirmation, arrival deadline and access instructions, and identifies any conflict between them.",
+    "Confirms the window and permission to enter with the coordinator, and records the time of confirmation, in a simulation.",
+    "Sequences a simulated turnover by dependency, with laundry, drying and contact times allowed, and a final inspection buffer.",
+    "Escalates a simulated delay to the coordinator early, and records the delay, the reason and the revised plan."
+  ],
+  "passRule": "Window and permission confirmed before entry, dependencies sequenced with a buffer, and delay escalated and recorded. Observed in a supervised simulation. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Turnover plan with the time budget",
+    "Permission confirmation record",
+    "Delay and escalation record"
+  ],
+  "stopWorkCriteria": [
+    "Entry without confirmed permission",
+    "Guest pressured to leave",
+    "Unchecked room certified",
+    "Contact time skipped to meet the deadline"
+  ]
+}

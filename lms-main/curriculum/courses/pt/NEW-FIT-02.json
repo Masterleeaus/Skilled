@@ -1,0 +1,206 @@
+{
+  "id": "NEW-FIT-02",
+  "title": "Programme design and progression",
+  "courseSlugs": [
+    "pt"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 25,
+  "audience": "Personal trainers and group fitness coaches who design programmes, progress clients, and charge a higher rate for specialised work",
+  "prerequisites": [
+    "F01-L01",
+    "F09-L01",
+    "F01-L04"
+  ],
+  "learningOutcomes": [
+    "Design a programme that starts from the client's referral and questionnaire answers, and states its goals and review points",
+    "Progress a programme by a defined rule, and stop or reduce it when the client reports a warning sign",
+    "Explain which qualifications the council permits in the research require, and that they are council conditions, not state licences"
+  ],
+  "referencesAtStart": "Official references for this lesson: Holdfast Bay, Personal training permit terms and conditions 2024 (no date in document); Hornsby Shire Council, Commercial group fitness and personal training (no date shown); City of Stonnington, Permit for sports or personal training on public land or council facilities (no explicit date; listing metadata 13 September 2017).",
+  "instruction": [
+    {
+      "heading": "A programme begins with the screening result",
+      "body": "A programme is only as safe as the screening that comes before it. The trainer should not design a programme until the questionnaire in “Client screening and health-questionnaire boundaries” is complete and every medical question has been answered or referred. A programme then states the client's goal, the starting level, the sessions per week, the exercises, the intensity rule, the progression rule, the review date, and the points at which the programme must be stopped or changed. The programme is recorded on the client file, and each review is recorded with the date and the decision. The business's programme template is held in {{business:procedures.approved_sop}}, and the approval for each programme is recorded as {{business:pricing.quoting_approval}} where a programme is sold as a service."
+    },
+    {
+      "heading": "Progression with a rule and a stop",
+      "body": "Progression means increasing the load, the reps, the time or the difficulty. It should follow a rule the trainer can state in one sentence, such as 'add a set when the client completes all sets with good form twice in a row'. A rule with no stop is unsafe. The trainer must stop or reduce the session where the client reports chest pain, dizziness, breathlessness out of proportion to the effort, joint pain that does not settle, or a new injury. Those signs mean the programme goes back to the referral step in “Client screening and health-questionnaire boundaries”, and the trainer should not progress the client until a medical practitioner has advised. Record every stop and the action taken."
+    },
+    {
+      "heading": "Charging more for specialised programmes, within the permit limits",
+      "body": "A programme that takes more skill, more assessment time or more specialised training can be priced higher than a standard session. The price should cover the assessment, the design and review time, the travel, the equipment and any compliance cost. Council permits set qualification conditions for personal trainers on public land, and they apply only on that council's land. Holdfast Bay's personal training permit terms (titled 2024, with no issue date in the document) call for the primary trainer to hold a Certificate IV-level fitness qualification (or a sport-specific equivalent) from an accredited provider, with current first aid and CPR; the CPR certificate expires yearly. Hornsby Shire Council (no date shown) asks for proof of accredited courses that Fitness Australia or VETAB endorses, matched to the activity taught, plus senior first aid training that is still current. Stonnington's permit listing (no explicit date) asks for a Level 2 first aid certificate, kept current, from a workplace course and registration with a recognised peak body. These are council-specific conditions, not state licences. Completing this lesson does not satisfy any of those permit conditions."
+    }
+  ],
+  "procedure": [
+    "Confirm that the questionnaire and any referral are complete before designing the programme",
+    "Write the programme with the goal, the starting level, the frequency, the exercises, the intensity rule and the review date",
+    "Write one progression rule and one stop rule, and record both on the client file",
+    "Review the programme on the agreed date, and record the change and the reason",
+    "Stop or reduce the session at any warning sign, and refer the client before progressing again",
+    "Price the programme using the approved method, and check any council permit's qualification condition before offering the service on public land"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client has been doing a progression for three weeks. In week four, she reports dizziness and a sharp pain in her chest during a set, and asks to push through.",
+      "decisionPrompt": "What should the trainer do?",
+      "reasoning": "Chest pain and dizziness are stop signs under the progression rule. The trainer should stop the session, keep the client safe, advise urgent medical care if the symptoms continue, record the incident, and refer the client to a medical practitioner before any further training. The trainer should not progress or ask the client to push through. The programme is paused until the referral is complete."
+    },
+    {
+      "situation": "A trainer wants to offer a premium programme for a corporate group in a park. The park is council land, and the council permit lists a qualification condition the trainer does not hold.",
+      "decisionPrompt": "Can the trainer run the programme in the park?",
+      "reasoning": "The council permit is a condition on public land, and the trainer must meet it. The trainer does not hold the qualification in the permit, so the programme cannot run there under that permit. The trainer may consider another venue, or obtain the qualification and the permit before offering the service. The higher price for the programme does not change the permit condition."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Programme template on the client file",
+    "Progression rule and stop rule written on the programme",
+    "Equipment inspection record for any gym or outdoor equipment used",
+    "Council permit and its conditions, held for public-land sessions"
+  ],
+  "commonErrors": [
+    {
+      "error": "Progressing a client without a stated rule.",
+      "prevention": "Write one progression rule and one stop rule on the programme before the first session."
+    },
+    {
+      "error": "Letting a client push through chest pain or dizziness.",
+      "prevention": "Stop the session at once and refer the client before any further training."
+    },
+    {
+      "error": "Describing a council permit condition as a state licence.",
+      "prevention": "Name the council and the permit. State that the condition applies on that council's land and is not a state licence."
+    },
+    {
+      "error": "Charging a premium without recording the assessment and design time.",
+      "prevention": "Build the price from the assessment, design, review and compliance costs, and record the build."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Holdfast Bay's personal training permit terms call for the primary trainer to hold a Certificate IV-level fitness qualification (or a sport-specific equivalent), with current first aid and CPR. This is council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Hornsby Shire Council asks for accredited courses that Fitness Australia or VETAB endorses, matched to the activity, plus senior first aid training that is still current. This is council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Stonnington asks for a Level 2 first aid certificate, kept current, from a workplace course and registration with a recognised peak body. This is council-specific, and the listing shows no explicit date.",
+      "licenceNotice": true
+    },
+    {
+      "point": "No state licence or qualification requirement for personal trainers was confirmed in any state in the sources checked.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not satisfy a council permit condition, grant a qualification or authorise training on public land.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every programme is written after a completed questionnaire, with the goal, review date, progression rule and stop rule",
+    "Every stop or warning sign is recorded, with the referral and action",
+    "Every public-land session has a current council permit that the trainer meets",
+    "Every programme price is built from the approved method and recorded"
+  ],
+  "documentationEvidence": [
+    "Written programme with goal, progression rule and stop rule, dated",
+    "Review record for each programme review, with the decision",
+    "Stop and referral record for each warning sign",
+    "Council permit copy and qualification evidence where the permit applies"
+  ],
+  "summary": [
+    "A programme starts after the screening, and states its progression and stop rules",
+    "Stop at warning signs and refer before progressing again",
+    "Council permit qualifications are council-specific conditions, not state licences",
+    "Completing this lesson does not satisfy any permit condition"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FIT-02-K01",
+      "question": "A client reports chest pain and dizziness during a set. What is the correct action under the stop rule?",
+      "options": [
+        "Ask her to push through the set to finish it, since she is nearly there now",
+        "Reduce the weight and continue the same session, since the chest pain is mild",
+        "Stop the session, keep her safe, record it, and refer her before any further training"
+      ]
+    },
+    {
+      "id": "NEW-FIT-02-K02",
+      "question": "A council permit for a park requires a qualification the trainer does not hold. What is the correct status?",
+      "options": [
+        "The condition applies on that council's land, and the trainer must meet it before running sessions there",
+        "The condition is a state licence, so the trainer may run sessions in any park across the state",
+        "The condition is removed if the trainer charges a higher price for the session on the day"
+      ]
+    },
+    {
+      "id": "NEW-FIT-02-K03",
+      "question": "Which statement about state qualification requirements for personal trainers is accurate, based on the research in this course?",
+      "options": [
+        "A state qualification is required in every state and territory across the country",
+        "No state qualification requirement was found in any state; the sources do not settle the position",
+        "A state qualification is required in Victoria only, and no other state requires one"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: the three sources listed at the start.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Personal training permit terms and conditions 2024",
+      "url": "https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf",
+      "pageDate": "No date in document (titled 2024)",
+      "checked": "2026-11-03",
+      "covers": "Council PDF; hours, sites, qualifications and insurance minimums. Council only. Publisher: City of Holdfast Bay."
+    },
+    {
+      "id": "R2",
+      "title": "Commercial group fitness and personal training",
+      "url": "https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Council page; group cap, designated areas, activities named, insurance and qualifications. Council only. Publisher: Hornsby Shire Council."
+    },
+    {
+      "id": "R3",
+      "title": "Permit for sports or personal training on public land or council facilities (City of Stonnington)",
+      "url": "https://ablis.business.gov.au/service/vic/permit-for-sports-or-personal-training-on-public-land-or-council-facilities-city-of-stonnington/27569",
+      "pageDate": "No explicit date (listing metadata 13 Sep 2017)",
+      "checked": "2026-11-03",
+      "covers": "Listing copy of the council permit; confirm current conditions with Stonnington's Recreation Services Unit before relying on it. Publisher: City of Stonnington via business.gov.au (ABLIS)."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Holdfast Bay City Council, Personal training permit terms and conditions 2024, https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf, no date in document, checked 2026-11-02 (NAT-PT-SA-01, COUNCIL-SPECIFIC)",
+    "Hornsby Shire Council, Commercial group fitness and personal training, https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training, checked 2026-11-02 (NAT-PT-NSW-01, COUNCIL-SPECIFIC)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (NAT-PT-SA-02, NAT-PT-QLD-01, NAT-PT-ACT-01, NAT-PT-TAS-01, NAT-PT-NT-01 state positions UNCONFIRMED)",
+    "Checked 2026-11-03: official references R1, R2, R3 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-03.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-04.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    }
+  ]
+}

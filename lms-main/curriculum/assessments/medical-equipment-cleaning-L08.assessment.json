@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-equipment-cleaning-L08",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L08-K01",
+   "correctIndex": 0,
+   "rationale": "An opened or used single-use item must not be reused or returned to stock. It is set aside as the facility directs and the supervisor is told."
+  },
+  {
+   "id": "medical-equipment-cleaning-L08-K02",
+   "correctIndex": 1,
+   "rationale": "Damage and unknown status mean the item is not tested, taped or powered. The cleaner makes the area safe, leaves the item untouched, and escalates for quarantine."
+  },
+  {
+   "id": "medical-equipment-cleaning-L08-K03",
+   "correctIndex": 2,
+   "rationale": "Quarantine holds an item apart from clean stock and routine use until a responsible person decides its status. It does not make the item safe to reuse."
+  }
+ ],
+ "practicalCriteria": [
+  "Given three supplied items (single use, damaged, doubtful), the learner gives the correct action for each, with no item tested or powered.",
+  "In a simulation, the learner places an item in the quarantine location and completes the label with identity, date, time, name and reason.",
+  "The learner completes the work record for the quarantined item in the correct order, with the person notified and time."
+ ],
+ "passRule": "Practical competence requires facility-observed assessment against the criteria above. A pass on the knowledge checks is not practical competence.",
+ "evidenceRequired": [
+  "Signed action sheet for three supplied items",
+  "Observation note of the quarantine placement and labelling",
+  "Completed work record for the quarantined item"
+ ],
+ "stopWorkCriteria": [
+  "Learner returns an opened, used or part-used single-use item to stock",
+  "Learner tests, switches on, taped or repaired a damaged item",
+  "Learner places a quarantined item on a clean trolley or shelf"
+ ]
+}

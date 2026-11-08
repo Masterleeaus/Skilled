@@ -1,0 +1,163 @@
+{
+  "id": "HBM-12-handyman",
+  "title": "Setting your hourly rate and minimum charge for Handyman",
+  "courseSlugs": [
+    "handyman"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 40,
+  "audience": "Owners of small Australian handyman businesses who need a base rate, a minimum charge and a call-out line before they quote.",
+  "prerequisites": [
+    "HBM-01",
+    "HBM-03"
+  ],
+  "learningOutcomes": [
+    "Separate billable hours from non-billable hours and calculate the time available to bill",
+    "Calculate a base hourly rate from the owner's own costs and income target, then compare it with local evidence",
+    "Set a minimum charge for short visits, and explain it to a client before the visit"
+  ],
+  "instruction": [
+    {
+      "heading": "Factors that move the handyman rate",
+      "body": "A rate depends on skill, licence scope, how many tasks a client can book in one visit, local competition, experience and running costs. Local evidence matters more than a national average. A Queensland vendor listing gives handyman hourly rates of $65 to $120 and a half-hour call-out minimum of $80 to $150 (The Quote Yard, QLD, published 10 May 2026). Airtasker's Australian guide says handymen in most states charge $80 to $300 an hour, but it gives no basis for that range (Airtasker, last updated 13 March 2024). Both are marketplace figures, not regulator data, so use them only as a sense check."
+    },
+    {
+      "heading": "Count only the hours that can be billed",
+      "body": "Travel, quoting, admin, marketing, training, equipment upkeep, sick days and leave are not billable. Jobber says billable time typically makes up 60 to 80 per cent of working hours, which is a general range rather than an Australian figure. If 60 of every 100 paid hours are billable, the costs of all 100 hours must come out of the 60, so the rate is about 1.67 times the rate needed for a fully billable week. Log one month of paid and billable time before you choose a figure."
+    },
+    {
+      "heading": "Build the rate from costs and income",
+      "body": "Add the annual running costs, including insurance, registration, tools and their upkeep, the vehicle, phone, software, marketing and accounting, to the income you need. Include on-costs such as leave and superannuation, which business.gov.au says belong in the hourly figure. Divide the total by billable hours to reach the base rate. Confirm the tax and leave treatment with a registered tax agent before you publish the rate. Housecall Pro's handyman guide, a vendor source that does not state a country, divides monthly overhead by billable hours, which is the same method."
+    },
+    {
+      "heading": "Set a minimum charge for short visits",
+      "body": "A short visit can cost more in time than it earns, because travel and set-up do not shrink with the task. Vendor figures give a minimum service fee of $80 to $120 for small jobs (Airtasker, Australia), and $125 to $200 for travel, set-up and admin (Housecall Pro, not country-labelled). Define what the minimum includes, such as travel within a set area and a set amount of on-site time, and state it before the visit. Do not stack a separate minimum on each task in one visit; price the visit as one labour amount."
+    },
+    {
+      "heading": "Review and raise the rate",
+      "body": "Review the rate about every three months (Business Victoria, undated). Give repeat clients two to four weeks' notice of a rise, as Housecall Pro suggests, and honour quotes already approved at the old rate. Keep a dated record of each change and the reason for it."
+    }
+  ],
+  "procedure": [
+    "Log one month of paid hours and billable hours to find the billable share.",
+    "List the annual running costs, including insurance, registration, tools, vehicle, phone, software and marketing.",
+    "Add the income you need, including on-costs for leave and superannuation as confirmed by a registered tax agent.",
+    "Divide the total by the billable hours to find the base rate.",
+    "Set a minimum charge that covers travel, set-up and admin for a short visit, and state it in writing.",
+    "Review the rate each quarter, and record any change and the reason for it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only. An owner has 2,000 paid hours in a year. Of those, 65 per cent are billable (illustrative, within Jobber's 60 to 80 per cent range), which gives 1,300 billable hours. Annual running costs are $30,000 and the income target before tax is $70,000 (both illustrative).",
+      "decisionPrompt": "What is the base rate, and what goes wrong if all 2,000 paid hours are used as the divisor?",
+      "reasoning": "The total to recover is $100,000. Divided by 1,300 billable hours, the base rate is $76.92 an hour (illustrative). If the owner divides by all 2,000 paid hours instead, the rate falls to $50 an hour, and the 700 non-billable hours go unpaid. The $76.92 figure sits inside the Queensland vendor range of $65 to $120 for handyman hourly rates (vendor estimate). For the minimum, a 30-minute drive, a 15-minute set-up and a 15-minute admin allowance make one hour of cost, or about $77 at the base rate. A minimum of $120 is one option the owner could choose (illustrative), and it sits inside the vendor's $80 to $150 half-hour call-out range. The owner states the figure before the visit."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Annual costs and income worksheet",
+    "Log of paid and billable hours for one month",
+    "Price sheet with the base rate and the minimum charge"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting a rate from a published average or a competitor's figure without checking the costs.",
+      "prevention": "Build the base rate from the owner's own costs and billable hours, then compare it with local evidence."
+    },
+    {
+      "error": "Pricing as though every paid hour could be billed.",
+      "prevention": "Subtract the non-billable time before dividing."
+    },
+    {
+      "error": "Taking short visits at the same rate, without covering travel and set-up.",
+      "prevention": "Set and state a minimum charge that covers travel, set-up and admin."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The ACCC says misleading price statements are prohibited, and it says a single advertised price should include any additional charges. The ACCC material read for this variant does not address minimum or call-out charges. Check those points with current ACCC guidance or a legal adviser before you publish a price sheet.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Confirm the tax treatment of leave and superannuation for your own situation with a registered tax agent before the rate is published.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A rate does not authorise work outside your licence. In Queensland, building work above $3,300 including materials, labour and GST needs a licence. In NSW, minor maintenance above $5,000 in labour and materials including GST needs a licence. Check each state where you work.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Billable hours are calculated from a logged month, not assumed.",
+    "The base rate is built from the owner's costs and income target, and is compared with local evidence.",
+    "A minimum charge is set and stated before any short visit."
+  ],
+  "documentationEvidence": [
+    "Annual costs and income worksheet, with the source and date of each cost",
+    "Billable hours calculation showing the non-billable deductions",
+    "Price sheet showing the base rate, the minimum charge and the review date"
+  ],
+  "summary": [
+    "Price from billable hours, not from paid hours.",
+    "Build the rate from costs and a stated income target, then check it against local evidence.",
+    "Set and state a minimum charge for short visits."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-12-handyman-K01",
+      "question": "An owner can bill only some of the paid hours. How should the rate be built?",
+      "options": [
+        "From all paid hours, so the rate looks lower",
+        "From billable hours, so the costs and income are covered by the work that can be billed",
+        "From the rate the nearest competitor advertises this week",
+        "From the rate the owner would like the market to pay"
+      ]
+    },
+    {
+      "id": "HBM-12-handyman-K02",
+      "question": "Why set a minimum charge for short visits?",
+      "options": [
+        "Because short visits need travel but no set-up time at all",
+        "Because travel, set-up and admin time does not shrink with the size of the task",
+        "Because clients expect every visit to cost the same amount",
+        "Because a minimum charge replaces a written quote"
+      ]
+    },
+    {
+      "id": "HBM-12-handyman-K03",
+      "question": "What is the best source for checking a base hourly rate?",
+      "options": [
+        "The rate on the first page of a bidding site this week",
+        "A friend's rate, without checking the costs",
+        "The owner's own costs and billable hours, compared with local evidence",
+        "A single national average with no stated basis"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "The Quote Yard, Handyman services QLD, https://www.thequoteyard.com.au/services/handyman-services-qld, published 10 May 2026. Vendor estimates: hourly rate $65 to $120; half-hour call-out minimum $80 to $150.",
+    "Airtasker, 'Handyman pricing guide: How much to charge for a job' (AU), https://www.airtasker.com/au/guides/handyman-pricing/, last updated 13 March 2024. Vendor. Minimum service fee $80 to $120; handymen in most states $80 to $300 an hour, with no stated basis.",
+    "Jobber Academy, 'What are billable hours', https://getjobber.com/academy/what-are-billable-hours/, published 5 November 2024, last modified 20 July 2026. Billable time typically 60 to 80 per cent of working hours; general range, not Australian.",
+    "Housecall Pro, 'Handyman pricing guide', https://www.housecallpro.com/resources/how-to-price-handyman-jobs/, posted 1 June 2026, updated 21 October 2026. Vendor; country not stated. Overhead per billable hour; travel, set-up and admin minimum $125 to $200; review and notice points.",
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. On-costs such as super, leave and tax belong in the hourly figure.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Review prices about every three months."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Setting prices: what's allowed (ACCC)",
+      "url": "https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed",
+      "pageDate": "last modified 15 July 2026",
+      "checked": "2026-11-09 (as recorded in the team4 HBM-12 research file; the page itself was not opened for this variant)",
+      "covers": "As summarised in the research file: misleading price statements are prohibited, and a single advertised price should include additional charges. It does not address minimum or call-out charges in the material read. Publisher: ACCC."
+    }
+  ]
+}

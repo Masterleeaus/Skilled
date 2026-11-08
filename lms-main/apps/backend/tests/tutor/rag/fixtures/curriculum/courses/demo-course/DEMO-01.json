@@ -1,0 +1,80 @@
+{
+  "id": "DEMO-01",
+  "title": "Working safely at height basics",
+  "courseSlugs": ["demo-course"],
+  "moduleTitle": "Demo module",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Fixture learners",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Describe the site checks that come before any work at height.",
+    "Identify the controls that keep a worker and the public safe."
+  ],
+  "instruction": [
+    {
+      "heading": "Setting up the work area",
+      "body": "Before any task starts, walk the whole work area and note the surfaces, the overhead lines and the people who may pass underneath. Mark the boundary with cones or tape so that bystanders stay clear of the drop zone. Confirm the ground is firm and level, and that any stand or base has been placed on a surface that will carry the load without shifting.\n\nRecord what you found on the site sheet before the first movement. If the area changes during the job, stop, reassess the boundary and tell the supervisor. Weather matters as well: wind, rain and ice all change how stable a set-up is, so check the forecast and the conditions on the day rather than relying on yesterday's assessment.\n\nKeep tools in a tool bag or lanyard while working above ground level. Dropped tools are one of the most common causes of injury to people below, so every item that goes up must be counted and must come back down. Inspect each piece of equipment for damage before it is used, and remove anything that fails the check from service until it has been repaired or replaced by a competent person.\n\nAgree the communication method with the team before work starts. A short call sign or hand signal is enough, as long as everyone on site uses the same one and knows what it means. Do not start a movement that another person has not acknowledged."
+    },
+    {
+      "heading": "Inspecting the access equipment",
+      "body": "Check the ladder before each climb. Look for cracked rungs, bent rails, loose feet and missing locks on the spreaders. A damaged ladder is removed from service and tagged, not repaired on the spot.\nCheck the platform for splits in the boards and for any play in the frame.\nRecord the inspection on the equipment log with the date, the name of the inspector and the result."
+    }
+  ],
+  "procedure": [
+    "Confirm the assignment and the site induction before arrival.",
+    "Mark the boundary and check the surface.",
+    "Inspect the equipment and record the result."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A gutter clean on a two-storey house with a wet lawn and a visitor parked in the driveway.",
+      "decisionPrompt": "What do you do before you put the ladder up?",
+      "reasoning": "Move the visitor's car out of the drop zone or ask the owner to move it, mark the lawn with tape, and check the ground under the feet before any climb."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Non-slip footwear",
+    "Hard hat where the task requires it",
+    "Tool lanyard"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting the ladder on soft or sloping ground.",
+      "prevention": "Check the surface and use levelling feet or a different position before the climb."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Work at height above the safe limit needs the controls set out in the site induction.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not give a licence to do regulated work at height.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The boundary is marked before any movement starts.",
+    "Every item of equipment has an inspection record for the day."
+  ],
+  "documentationEvidence": [
+    "Site sheet with the boundary and surface check",
+    "Equipment inspection log"
+  ],
+  "summary": [
+    "Check the site, mark the boundary and inspect the equipment before any climb."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "DEMO-01-K01",
+      "question": "FIXTURE-KNOWLEDGE-CHECK-QUESTION: what goes first?",
+      "options": ["The boundary", "The coffee", "The ladder"]
+    }
+  ],
+  "status": "READY",
+  "sourceReferences": ["Fixture source, invented for tests"],
+  "reviewStatus": "NOT REVIEWED"
+}

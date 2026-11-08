@@ -1,0 +1,37 @@
+{
+  "lessonId": "NEW-STR-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STR-02-K01",
+      "correctIndex": 2,
+      "rationale": "The fault is reported at once and the cleaner does not work on the mechanism. Taking the lift out of use is for the manager and the service company to agree."
+    },
+    {
+      "id": "NEW-STR-02-K02",
+      "correctIndex": 1,
+      "rationale": "A missed visit must be shown as missed, with the reason and when the manager was told. A blank line or a cleaned entry is not an accurate record."
+    },
+    {
+      "id": "NEW-STR-02-K03",
+      "correctIndex": 2,
+      "rationale": "Heavy wet work is scheduled outside peak use, with signs and barriers, and the time is agreed with the manager."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated building walk-through, the worker drafts a schedule showing area, frequency, method, products and time window, with high-touch points on their own lines, and agrees it with the simulated manager.",
+    "On a simulated lift car, the worker cleans the walls, floor and handrails from the outside, keeps liquid away from the buttons and panel, and dries the surface afterwards.",
+    "Given a simulated sticking button, the worker reports the fault at once, puts up a notice, and does not open the panel or touch the mechanism."
+  ],
+  "passRule": "Schedule drafted with all required fields and agreed with the manager. Lift cleaned from the outside with no liquid on the controls. Fault reported at once with no mechanism work. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Agreed service schedule",
+    "Visit record for the simulated lift and lobby clean",
+    "Fault report for the simulated sticking button",
+    "Assessor observation sheet"
+  ],
+  "stopWorkCriteria": [
+    "Lift panel opened, or the mechanism, door or sensor worked on, by the cleaner",
+    "Liquid sprayed directly into the lift panel",
+    "Closure of a lift or lobby without agreement from the manager and notice to users"
+  ]
+}

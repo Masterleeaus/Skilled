@@ -1,0 +1,183 @@
+{
+  "id": "crime-scene-cleaning-L09",
+  "title": "Waste identification and chain of custody",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Intake coordinators, supervisors and trained workers who may triage, refer, document or support work at a scene where police, coronial or other official authority may apply. This lesson does not grant authority to enter, control or work on any scene, or to handle evidence.",
+  "prerequisites": [
+    "crime-scene-cleaning-L08"
+  ],
+  "learningOutcomes": [
+    "Hold potentially infectious waste apart from evidential objects.",
+    "Name the custody and manifest records a waste handoff needs.",
+    "Refuse disposal in ordinary building waste or a private vehicle."
+  ],
+  "instruction": [
+    {
+      "heading": "Waste identification and custody records",
+      "body": "Waste may fall into infectious, clinical, hazardous or general classes depending on the location and the source. The classification governs packaging, transport and disposal, and a cleaning certificate does not create permission to transport waste. The Victorian guidance describes three waste groups and says clinical waste goes into yellow biohazard bags. It says clinical and pharmaceutical waste is collected by waste companies licensed by the EPA named on the page. Record every change of custody, the authorised carrier and the supporting manifest. Potentially infectious waste is kept apart from evidential objects, and custody of evidence belongs to the authority that holds it. A contractor who suggests putting unidentified contaminated material into ordinary building rubbish is proposing something that must not happen."
+    }
+  ],
+  "procedure": [
+    "Stop and keep suspect waste apart from evidential objects and from general waste.",
+    "Identify the waste classification through the assessment and the competent party.",
+    "Confirm the authorised carrier and the approved destination.",
+    "Record each change of custody with date, time and the person responsible.",
+    "Keep the manifest and the receipt on file.",
+    "Mark the classification pending where it is unresolved, and escalate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contractor suggests putting unidentified contaminated material in the building's ordinary rubbish skip.",
+      "decisionPrompt": "What is the response?",
+      "reasoning": "Refuse. The material is unclassified and must not go to ordinary waste. It is held and the classification is escalated to the competent party."
+    },
+    {
+      "situation": "A worker puts evidential items and bagged waste in the same container for convenience.",
+      "decisionPrompt": "What is wrong with this?",
+      "reasoning": "Potentially infectious waste must be kept apart from evidential objects. The worker separates them and reports the mix-up to the authorised lead."
+    }
+  ],
+  "equipmentAndPpe": [
+    "PPE for handling waste as set by the assessment.",
+    "Labelled containers and bags as the approved carrier specifies.",
+    "Training-only mock waste log."
+  ],
+  "commonErrors": [
+    {
+      "error": "Putting suspect material in ordinary rubbish.",
+      "prevention": "Hold it and escalate."
+    },
+    {
+      "error": "Transporting waste in a private vehicle.",
+      "prevention": "Use only an authorised carrier with a manifest."
+    },
+    {
+      "error": "Mixing waste with evidential objects.",
+      "prevention": "Keep them apart and notify the authorised lead."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Waste is carried only by licensed or authorised operators under the applicable rules. Completing this lesson gives no authority to transport waste.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Victorian guidance describes clinical waste in yellow biohazard bags and collection by EPA-licensed companies. Other states and territories have their own rules, which must be confirmed.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Custody of evidence belongs to the authority that holds it and is not recorded in the cleaner's waste log.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every waste item has a classification status, a custody record and a manifest.",
+    "No suspect waste leaves the site without an authorised carrier."
+  ],
+  "documentationEvidence": [
+    "Waste custody log with each change of custody.",
+    "Manifest and receipt."
+  ],
+  "summary": [
+    "A cleaning certificate is not transport permission.",
+    "Keep waste apart from evidence.",
+    "Every custody change is recorded."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "crime-scene-cleaning-L09-K01",
+      "question": "A contractor suggests putting unidentified contaminated material in ordinary building rubbish. What is correct?",
+      "options": [
+        "Accept, because it is the quickest route.",
+        "Refuse, hold the material and escalate the classification.",
+        "Accept if it is double-bagged."
+      ]
+    },
+    {
+      "id": "crime-scene-cleaning-L09-K02",
+      "question": "Why is potentially infectious waste kept apart from evidential objects?",
+      "options": [
+        "Because the bags are a different colour.",
+        "Because evidence is always heavier.",
+        "Because evidence and waste have different custody and handling needs."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "crime-scene-cleaning-lesson-01 to -12 instruction and research files and crime-scene-cleaning-assessment-pass57 (premium-02, passes 55 to 57); editorial drafts, not approved; rights: reworded (no copying).",
+    "HR02-crime-scene-cleaning.json, course bundle instruction sections 1 to 12 (read this pass); rights: reworded (no copying).",
+    "UNCONFIRMED: police, coronial and evidence-handling authority in each Australian state and territory. No Australian police or coronial source was read in this pass.",
+    "UNCONFIRMED: state and territory licensing, waste-classification, transport and WHS requirements for crime-scene work.",
+    "Reference only, not Australian rules: US OSHA 29 CFR 1910.1030 and US CDC environmental cleaning guidance; UK NHS England infection-prevention manual and national standards of healthcare cleanliness; UK Skills for Health occupational standard. Link checks were not confirmed in this pass (UNCONFIRMED).",
+    "UNCONFIRMED: an Australian occupational standard equivalent to the UK occupational standard for body-fluid cleaning. None was found in this pass.",
+    "crime-scene-cleaning-lesson-09 and HR02 section 9; checked 2026-11-03.",
+    "Victorian waste guidance read via WebFetch on 2026-11-03."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. The PCBU must protect workers and others so far as reasonably practicable; hazards are eliminated where possible and otherwise minimised; for certain hazards a hierarchy of control applies (the page does not list its levels); duties cannot be contracted out. The page does not cover trauma cleaning, waste or PPE rules. Publisher: Safe Work Australia. The state or territory regulator confirms the adopted law."
+    },
+    {
+      "id": "R2",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019)",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "publication date May 2019 (front matter); copyright 2019",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, first 100,000 of 133,773 characters only. Read: section 2.2 (standard precautions apply to all people), section 3.1.2 recommendations 7 and 8 (sharps handled minimally, never recapped, bent or broken, disposed of at point of use in an approved container not filled past its maximum fill line), section 3.1.3 recommendation 12 (spill response with gloves and protective equipment, containment, absorbent removal, detergent cleaning). Healthcare-setting guidance, applied here by analogy. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R3",
+      "title": "Managing spills of blood and body fluids and substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-spills-of-blood-and-body-fluids-and-substances",
+      "pageDate": "Updated 21 August 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Standard precautions and PPE for all spill cleaning; clear up the spill before cleaning the area and do not add liquid to a spill; avoid aerosols; leak-proof bags and containers for waste; sodium hypochlorite generally unnecessary for spill management. Victorian guidance only."
+    },
+    {
+      "id": "R4",
+      "title": "Forensic cleaning services guidelines",
+      "url": "https://www.worksafe.vic.gov.au/forensic-cleaning-services-guidelines",
+      "pageDate": "Reviewed on 17/11/2025 (no published or updated date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Victorian scheme for forensic (trauma) cleaning after a work-related death: providers must be registered with WorkSafe, hold a recognised forensic or trauma cleaning certification and hold the required insurance; pre-approval is not required because cleaning must start as soon as possible. Certifications named on the page include the IICRC Trauma and Crime Scene Technician Certification. Not covered: cleaning by an unapproved family member, uncertified providers, deceased estate clean-up including personal belongings, clutter removal, structural repair and non-cleaning costs. The page does not describe PPE, waste handling or a licence for this work, and does not confirm any authority to enter or clean a scene. Victorian guidance only."
+    },
+    {
+      "id": "R5",
+      "title": "Cleaning and waste disposal procedures for infection control",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/cleaning-and-waste-disposal-procedures-infection-control",
+      "pageDate": "Updated 14 December 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Three waste groups (general, clinical, pharmaceutical); clinical waste in biohazard bags shown as yellow; sharps into containers that meet the Australian and New Zealand standards named on the page; clinical and pharmaceutical waste collected by waste companies licensed by the EPA and taken to EPA-licensed facilities. Victorian guidance only."
+    },
+    {
+      "id": "R4-2",
+      "title": "Managing exposures to blood and body fluids or substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-exposures-to-blood-and-body-fluids-or-substances",
+      "pageDate": "Updated 8 October 2015",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. First response: remove contaminated clothing, wash with soap and water, flush mucous membranes, rinse eyes gently, report immediately; remove from duty and carry out a risk assessment; medical evaluation with post-exposure prophylaxis where appropriate; document date, time, type and circumstances. Victorian guidance only. The page shows its last update as 2015."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a scene, to take control of a scene, to disturb or remove anything that may be evidence, or to carry out regulated remediation, transport or disposal. Completing this lesson does not give a licence, certificate, forensic clearance or any other authority. Police, coronial and other official authority controls many scenes, and their release must be obtained in writing before any work starts, whether or not the property owner or manager agrees. Insurer, property-owner and employer authority is also needed where it applies. Some of the work described here is restricted to licensed, authorised or specially trained people. Where you cannot identify who holds the authority, stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever the scene release is unclear, the applicable jurisdiction or the worker's authorisation is unknown, a potentially relevant object has been found, a sharp is present or suspected, a worker may have been exposed, the PPE has not been approved, a waste route is unauthorised, equipment has an unknown exposure history, or a party asks for a clearance or safety claim the work cannot support. Do not handle evidence or regulated material beyond your remit. A stop-work decision is a correct decision and is recorded as one."
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": "NEW-FIT-04",
+  "title": "Outdoor and park session safety",
+  "courseSlugs": [
+    "pt"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Personal trainers and group coaches who run sessions in parks, sportsgrounds and other public spaces",
+  "prerequisites": [
+    "F02-L02",
+    "S14-L03",
+    "S14-L05"
+  ],
+  "learningOutcomes": [
+    "Check that a park session is inside the council permit for the place, the time, the group size and the equipment",
+    "Carry out a site inspection that identifies the hazards in a public space before a session starts",
+    "Apply a dynamic risk assessment during the session, and stop the session when conditions become unsafe"
+  ],
+  "referencesAtStart": "Official references for this lesson: City of Stonnington, Permit for sports or personal training on public land or council facilities (no explicit date; listing metadata 13 Sep 2017); Hornsby Shire Council, Commercial group fitness and personal training (no date shown); Holdfast Bay, Personal training permit terms and conditions 2024 (no date in document; titled 2024).",
+  "instruction": [
+    {
+      "heading": "The permit comes before the park",
+      "body": "A public park or sportsground is council land, and most councils set conditions for commercial activity on it. The sources checked include several permits with specific conditions. Stonnington in Victoria issues seasonal permits, for 1 October to 31 March and 1 April to 30 September. Its listing says training may run only between 6am and 9pm, limits the number of sessions a week, and forbids attaching equipment to trees or pegging it to the ground. It also bans amplifiers (no explicit date shown). Hornsby Shire in New South Wales restricts personal training to designated areas that others can also use, and up to three locations per application (no date shown). Holdfast Bay in South Australia sets sessions between 6am and 8pm, caps sites at three per application (two reserves and one beach), and asks for battery lights whenever work runs outside daylight (no issue date). These are council-specific conditions and apply only on the council that set them. Yoga is named among Hornsby's permitted activities, but Pilates is not named there. Check the permit before every new park, and keep a copy with the session record."
+    },
+    {
+      "heading": "Site inspection and the hazards of a public space",
+      "body": "Before every outdoor session, inspect the site. Look for uneven ground, holes, tree roots, wet or slippery surfaces, loose equipment, nearby traffic, cyclists and dogs, other park users, and any work underway. Check the shade and the forecast for heat and sun, and plan breaks and water. Where the site has a playground or sports equipment, keep clients clear of it unless the permit allows use. Record the inspection on the session record, with the time and the conditions. Where a hazard cannot be removed, move the session to another area in the permit or cancel it, and record the decision. The business's site inspection checklist is held in {{business:safety.site_hazards}}, and the required personal protective items are in {{business:safety.required_ppe}}."
+    },
+    {
+      "heading": "Dynamic risk assessment during the session",
+      "body": "Conditions change during a session. A storm can arrive, a dog can run into the group, a participant can become unwell in the heat, or a cyclist can cut across the area. The trainer must assess the risk as it changes and act on it. The method is to stop the activity, make the group safe, decide whether to continue, move, or end the session, and record the decision. Stop the session where any participant has a warning sign of a medical problem, where the weather becomes dangerous, or where the permit conditions can no longer be met. The stop-work authority in “Dynamic risk assessment and stop-work authority” sets out the trainer's right to end the session. Record every stop, with the time and the reason, on the session record."
+    }
+  ],
+  "procedure": [
+    "Check the council permit for the place, the time, the group size, the equipment and the designated areas before the session",
+    "Inspect the site on arrival, and record the hazards and the conditions",
+    "Set the session area inside the permit, clear of hazards, and away from traffic and playground equipment",
+    "Keep water, shade and a first-aid kit at the site, and check the forecast for heat and storms",
+    "Assess the risk continuously during the session, and stop or move the session where conditions change",
+    "Record the session, the permit reference, the conditions, any stop and the time it ended"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A trainer books a Saturday session in a park at 7am. The permit allows training only in a designated area, and the trainer plans to use the children's playground for step work.",
+      "decisionPrompt": "Can the session use the playground?",
+      "reasoning": "The Hornsby example shows that a permit may confine personal training to particular zones. The trainer must check the permit for the park before using any part of it. Using the playground is outside the designated area unless the permit says so. The trainer should plan the session in the designated area, and record the decision. The trainer must not use playground equipment for training without the permit allowing it."
+    },
+    {
+      "situation": "Halfway through a session, a sudden storm approaches, and a participant starts to feel dizzy from the heat.",
+      "decisionPrompt": "What should the trainer do?",
+      "reasoning": "The trainer should stop the session, move the group to shelter, and deal with the participant's dizziness as a warning sign, which means resting them in shade, giving water, watching for worsening symptoms and calling emergency services if they worsen. The trainer should record the stop and the time it ended, and should not continue the session because it was booked. The stop-work decision belongs to the trainer."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Council permit copy and conditions, with the permit reference",
+    "Site inspection checklist",
+    "First-aid kit checked before the session",
+    "Water and shade plan",
+    "Phone with signal and the emergency contact list"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a park permit covers every part of the park.",
+      "prevention": "Check the designated areas and locations in the permit before each session."
+    },
+    {
+      "error": "Attaching equipment to trees or playground fixtures.",
+      "prevention": "Where the permit forbids it, do not attach equipment to trees or fixtures, and use portable equipment instead."
+    },
+    {
+      "error": "Continuing a session in a storm or extreme heat because the booking is paid.",
+      "prevention": "Stop, move or end the session, and record the decision."
+    },
+    {
+      "error": "Stating that a council's permit conditions apply to every council.",
+      "prevention": "Name the council and the permit. Conditions are council-specific."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Stonnington's permit listing (Victoria) sets training hours between 6am and 9pm, forbids attaching equipment to trees or pegging it to the ground, and bans amplifiers. Council-specific; no explicit date shown.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Hornsby Shire Council (NSW) restricts personal training to designated areas, with up to three locations per application. Council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Holdfast Bay City Council (SA) sets sessions between 6am and 8pm and caps permitted sites at three per application. Council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "A council permit is not a state licence, and completing this lesson does not grant a permit.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every park session has a current council permit that covers the place, the time and the group size",
+    "Every site inspection is recorded before the session starts",
+    "Every stop or move during a session is recorded with the reason",
+    "No equipment is attached to a tree or fixture where the permit forbids it"
+  ],
+  "documentationEvidence": [
+    "Council permit reference and copy, for each place used",
+    "Site inspection record for each session",
+    "Session record with the conditions, any stop, and the end time",
+    "Incident record for any injury or near miss"
+  ],
+  "summary": [
+    "Check the council permit for the place, time, group size and designated areas",
+    "Inspect the site, and record the hazards before every session",
+    "Assess the risk continuously, and stop or move when conditions change",
+    "Permit conditions are council-specific; this lesson grants no permit"
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:procedures.prestart_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FIT-04-K01",
+      "question": "A park permit allows training only in a designated area. What should the trainer do before using any other part of the park?",
+      "options": [
+        "Use it, since the park is public and open to all members of the community today",
+        "Check the permit and use only the designated area unless the permit allows more",
+        "Use it for the first half of the session only, then move on to the rest"
+      ]
+    },
+    {
+      "id": "NEW-FIT-04-K02",
+      "question": "During a session, a storm approaches. What is the correct action?",
+      "options": [
+        "Finish the session because it is booked and the client has paid for it",
+        "Ask participants to move to the playground for cover",
+        "Stop, move the group to shelter, and record the decision and time"
+      ]
+    },
+    {
+      "id": "NEW-FIT-04-K03",
+      "question": "Under the Stonnington listing in this lesson, between which hours may training run?",
+      "options": [
+        "9am and 5pm",
+        "6am and 9pm",
+        "24 hours a day",
+        "Only at weekends"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: City of Stonnington, Permit for sports or personal training on public land or council facilities (no explicit date; listing metadata 13 Sep 2017); Hornsby Shire Council, Commercial group fitness and personal training (no date shown); Holdfast Bay, Personal training permit terms and conditions 2024 (no date in document; titled 2024).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Permit for sports or personal training on public land or council facilities (City of Stonnington)",
+      "url": "https://ablis.business.gov.au/service/vic/permit-for-sports-or-personal-training-on-public-land-or-council-facilities-city-of-stonnington/27569",
+      "pageDate": "No explicit date (listing metadata 13 Sep 2017)",
+      "checked": "2026-11-03",
+      "covers": "Listing copy of the council permit; confirm current conditions with Stonnington's Recreation Services Unit before relying on it. Publisher: City of Stonnington via business.gov.au (ABLIS)."
+    },
+    {
+      "id": "R2",
+      "title": "Commercial group fitness and personal training",
+      "url": "https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Council page; group cap, designated areas, activities named, insurance and qualifications. Council only. Publisher: Hornsby Shire Council."
+    },
+    {
+      "id": "R3",
+      "title": "Personal training permit terms and conditions 2024",
+      "url": "https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf",
+      "pageDate": "No date in document (titled 2024)",
+      "checked": "2026-11-03",
+      "covers": "Council PDF; hours, sites, qualifications and insurance minimums. Council only. Publisher: City of Holdfast Bay."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Stonnington City Council, Permit for sports or personal training on public land (ablis), https://ablis.business.gov.au/service/vic/permit-for-sports-or-personal-training-on-public-land-or-council-facilities-city-of-stonnington/27569, checked 2026-11-02 (PT-VIC-02, COUNCIL-SPECIFIC)",
+    "Hornsby Shire Council, Commercial group fitness and personal training, https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training, checked 2026-11-02 (NAT-PT-NSW-01, NAT-YOGA-NSW-01, COUNCIL-SPECIFIC)",
+    "Holdfast Bay City Council, Personal training permit terms and conditions 2024, https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf, checked 2026-11-02 (NAT-PT-SA-01, COUNCIL-SPECIFIC)",
+    "Shared lesson references: F02-L02 (risk controls and safe movement), S14-L03 (dynamic risk assessment and stop-work authority), S14-L05 (emergency procedures and evacuation), within curriculum/lessons/ready",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (heat and sun rules not researched, UNCONFIRMED)",
+    "Checked 2026-11-03: official references R1, R2, R3 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-07.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-08.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    }
+  ]
+}

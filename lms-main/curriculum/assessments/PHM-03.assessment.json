@@ -1,0 +1,40 @@
+{
+ "lessonId": "PHM-03",
+ "knowledgeAnswers": [
+  {
+   "id": "PHM-03-K01",
+   "correctIndex": 2,
+   "rationale": "Backwashing is triggered by the gauge or flow reading set in the manual, and the reading should be recorded. A calendar, a request or a noise is not the trigger."
+  },
+  {
+   "id": "PHM-03-K02",
+   "correctIndex": 3,
+   "rationale": "The manual and the handbook both require the pump off because moving the valve under flow damages the valve and its seal. The other reasons are not responsible."
+  },
+  {
+   "id": "PHM-03-K03",
+   "correctIndex": 0,
+   "rationale": "Opening the bleeder releases trapped air before the filter returns to service. Closing it too early leaves air in the system."
+  }
+ ],
+ "practicalCriteria": [
+  "Trigger, pre-backwash pressure and post-backwash pressure are recorded and the trigger is stated",
+  "Valve sequence completed in order, with the pump observed to be off at each valve change",
+  "Air bleeder opened and closed in the stated order, with the observer standing clear",
+  "A filter that does not clean after backwash is referred with the readings and the reason"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Backwash record from one supervised backwash",
+  "Assessor observation sign-off on valve sequence and pump state",
+  "Referral note where the filter did not clean"
+ ],
+ "stopWorkCriteria": [
+  "Valve moved while the pump operates",
+  "Filter serviced, opened or tested while under pressure",
+  "Air or gas used to test or pressurise the filter",
+  "Clamp or valve top forced or modified during backwash"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,35 @@
+{
+  "lessonId": "CGC-02",
+  "knowledgeAnswers": [
+    {
+      "id": "CGC-02-K01",
+      "correctIndex": 1,
+      "rationale": "Gloves do not replace hand hygiene; cleaning is still needed when gloves are worn."
+    },
+    {
+      "id": "CGC-02-K02",
+      "correctIndex": 1,
+      "rationale": "Visible soil calls for soap and water, because a rub does not replace washing in that case."
+    },
+    {
+      "id": "CGC-02-K03",
+      "correctIndex": 0,
+      "rationale": "Before touching a person is a named moment; the other two options are not part of the model."
+    }
+  ],
+  "practicalCriteria": [
+    "During a supervised personal-care visit, the learner cleans hands at each observed moment, and the assessor records each moment as met or missed",
+    "Given a scenario with dirty hands, the learner chooses soap and water and states why",
+    "The learner records one missed moment from the observation and proposes a fix"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation record for the visit",
+    "Visible-soil scenario answer",
+    "Missed-moment record"
+  ],
+  "stopWorkCriteria": [
+    "Stop the task and clean hands before any further contact if a moment is missed",
+    "Stop use of a rub on dirty hands"
+  ]
+}

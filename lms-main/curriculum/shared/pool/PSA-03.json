@@ -1,0 +1,163 @@
+{
+  "id": "PSA-03",
+  "title": "pH plus total alkalinity limits in SA public pools",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Pool and spa service workers who test or adjust water chemistry at public pools in SA. Figures apply to South Australian public pools under the state standard.",
+  "prerequisites": [
+    "PSA-01",
+    "F03-L01"
+  ],
+  "learningOutcomes": [
+    "Read a pH plus total alkalinity result and say whether it sits inside the South Australian band for the sanitiser in use.",
+    "Explain how pH plus total alkalinity influence how well disinfectant works, how comfortable bathers are, and how long equipment lasts.",
+    "Describe a sequenced, measured adjustment followed by a retest."
+  ],
+  "instruction": [
+    {
+      "heading": "Why pH and alkalinity come first",
+      "body": "Disinfectant only works well when the water's pH sits in the right band. pH shapes how well the sanitiser kills organisms, how comfortable the water feels to bathers, and how well the water treats surfaces, metal fittings, pipework and pumps. The effect is strongest with chlorine. Total alkalinity acts as a buffer that resists pH swings. The standard measures it as calcium carbonate, so use that figure when you judge whether pH will hold steady."
+    },
+    {
+      "heading": "The pH band for each sanitiser",
+      "body": "For chlorine-treated pools, and for pools treated with UV with hydrogen peroxide, keep pH between 7.2 and 7.6. Bromine-treated pools use a slightly wider band, from 7.2 and 7.8. These bands come from the standard's tables for each sanitiser. Water below the band causes eye discomfort, speeds up chloramine formation, and makes chlorine disappear faster. It can also etch exposed cement finishes and corrode metals. Water above the band lowers chlorine's effectiveness, raises the chlorine dose needed, dries skin, clouds the water and encourages scale."
+    },
+    {
+      "heading": "Total alkalinity limits",
+      "body": "Where a pool is treated with a chlorine product, a bromine product or the UV-peroxide system, total alkalinity has to stay between 60 and 200 mg/L. Where gaseous chlorine is in service, or BCDMH supplies the bromine, the recommended minimum rises to 150 mg/L and the working range becomes 150 and 200 mg/L. Above 200 mg/L, fittings and surfaces scale, the water clouds, and pH tends to climb. Very hard source water may need treatment before it enters the pool. Below 60 mg/L, pH becomes unstable and metals are more likely to corrode."
+    },
+    {
+      "heading": "Corrosion and why acidic water matters",
+      "body": "Water running below pH 7 eats into concrete shells, render and tile bedding, so tiles can rise. Metal parts, from pumps and ladders to underwater lights and heat exchangers, also corrode. Corrosion narrows flow paths and affects water quality. A balanced pool protects its equipment as well as the bathers."
+    },
+    {
+      "heading": "Adjusting safely in sequence",
+      "body": "Change one parameter at a time, in the order given in the operator plan. Add a measured dose, circulate the water, and retest before making the next change. Keep acid-based and alkaline adjusters apart from disinfectant products, and check each product's safety data sheet for storage and dosing. Never combine products in one container or add them together at the skimmer. If a result stays outside the band after a reasonable dose, stop and escalate rather than keep adding product."
+    }
+  ],
+  "procedure": [
+    "Take a sample from the position the operator plan specifies, and test pH plus total alkalinity.",
+    "Match each result to the band for the sanitiser actually in use, whether the sanitiser is chlorine, bromine, or the UV-peroxide system.",
+    "Confirm total alkalinity reaches at least 150 mg/L if the pool dosing uses chlorine gas or BCDMH.",
+    "Choose the adjustment from the operator plan and the product safety data sheet, following the order the plan sets.",
+    "Dose in measured steps, circulate, and retest before the next step.",
+    "Record the before and after results, the product, the dose and the time.",
+    "Escalate any result that will not settle within the band."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A chlorinated outdoor public pool reads pH 7.9 and total alkalinity 85 mg/L. Bathers say their eyes sting.",
+      "decisionPrompt": "Which result needs attention first, and what should you avoid doing?",
+      "reasoning": "The pH is above the 7.2 and 7.6 chlorine band, which lowers disinfection and dries skin. The alkalinity is inside 60 and 200 mg/L but near the bottom, so it buffers poorly. Do not add extra chlorine to make up for the lost efficiency while the pH is high. Follow the operator plan's pH correction, retest, and record the result."
+    },
+    {
+      "situation": "A public pool uses BCDMH bromine tablets and total alkalinity reads 110 mg/L.",
+      "decisionPrompt": "Is 110 mg/L acceptable for this pool?",
+      "reasoning": "No. With BCDMH the standard asks for total alkalinity between 150 and 200 mg/L, because the tablets are acidic and pull alkalinity down quickly. Raise it with a product named in the operator plan, retest, and watch the bromine level while the adjustment settles."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Calibrated pH plus total alkalinity test kit or meter, in date",
+    "Safety glasses and chemical-resistant gloves",
+    "Safety data sheet for each chemical on site",
+    "Dosing equipment specified in the operator plan"
+  ],
+  "commonErrors": [
+    {
+      "error": "Applying the chlorine band to a bromine pool.",
+      "prevention": "Check the sanitiser first. Bromine pools use pH 7.2 and 7.8."
+    },
+    {
+      "error": "Accepting an alkalinity of 210 mg/L because the water looks clear.",
+      "prevention": "Above 200 mg/L the risk is scale and cloudy water. Treat the result as out of range."
+    },
+    {
+      "error": "Adjusting pH and alkalinity with one large dose.",
+      "prevention": "Dose in measured steps, circulate and retest between steps."
+    },
+    {
+      "error": "Adding chlorine to cover a pH problem.",
+      "prevention": "Correct pH first, because high pH cuts chlorine's effectiveness."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Acid and alkaline pH adjusters are corrosive. Wear eye protection and gloves, and follow the safety data sheet for dilution and storage.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Handling and storing pool chemicals can fall under dangerous goods rules. A licence or authorisation may apply in your state or territory; this lesson does not grant one.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Keep acid products and hypochlorite products apart, as given in the safety data sheets and in “Disinfection chemistry and pH interpretation”.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The ranges are the South Australian standard's figures for public pools (revised 2013). Confirm the current regulation values before relying on them.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "pH plus total alkalinity are measured with a method the site records.",
+    "Each result is compared with the band for the sanitiser actually in use.",
+    "Each adjustment is recorded with product, dose, time and retest value.",
+    "No out-of-band result is left without escalation."
+  ],
+  "documentationEvidence": [
+    "Test log with date, time, sample position, pH plus total alkalinity",
+    "Dosing record with product, quantity and retest value"
+  ],
+  "summary": [
+    "Keep pH inside the sanitiser band: 7.2 and 7.6 for chlorine and UV with hydrogen peroxide, 7.2 and 7.8 for bromine.",
+    "Keep total alkalinity between 60 and 200 mg/L, or between 150 and 200 mg/L when chlorine gas or BCDMH is dosed.",
+    "Adjust in measured steps, retest, and escalate any result that will not settle."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PSA-03-K01",
+      "question": "A pool dosed with sodium hypochlorite has a pH reading of 7.9. Which action best fits the standard?",
+      "options": [
+        "Add more chlorine so the reading looks acceptable and the pool is then left to settle overnight",
+        "Correct the pH in measured steps and retest, because high pH reduces chlorine's effectiveness",
+        "Leave it, because 7.9 is inside the bromine band and needs no action and the pump is running",
+        "Remove the total alkalinity so the pH falls faster and the pool is drained down by half"
+      ]
+    },
+    {
+      "id": "PSA-03-K02",
+      "question": "A bromine-treated public pool is being tested. Which pH band applies?",
+      "options": [
+        "7.2 and 7.6",
+        "7.2 and 7.8",
+        "7.0 to 7.4",
+        "7.6 to 8.0"
+      ]
+    },
+    {
+      "id": "PSA-03-K03",
+      "question": "A pool using BCDMH bromine tests at 120 mg/L total alkalinity. What should you do?",
+      "options": [
+        "Leave it, because 120 is above the 60 mg/L minimum and the pool is tested again next week",
+        "Raise total alkalinity into the 150 and 200 mg/L range using a product named in the operator plan",
+        "Drain half the pool and refill it with fresh water from the mains and add a new filter",
+        "Add more BCDMH tablets to the skimmer every day for a whole week and then some"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 5 pH plus total alkalinity, tables 1, 4, 7 and 8; rights: user-held; reworded (no copying)",
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 6.1 Chlorine and section 6.4 Bromine; rights: user-held; reworded (no copying)",
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 9.4 Corrosion products; rights: user-held; reworded (no copying)",
+    "Priority: official South Australian source. It overrides informal, foreign or generic pool advice that conflicts with it. Figures are dated (standard revised 2013); checked against the uploaded copy 2026-11-02; current regulation text UNCONFIRMED.",
+    "Cross-checked against pool-cleaning-L04 for chemical separation only. That lesson gives no numeric targets, so the numbers here come from the South Australian standard alone."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

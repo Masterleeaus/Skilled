@@ -1,0 +1,127 @@
+{
+  "id": "SAH-01",
+  "title": "Functional area risk classes and what they change",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners, supervisors and contractors working to a site cleaning schedule in a South Australian public healthcare facility",
+  "prerequisites": [
+    "HCG-02"
+  ],
+  "learningOutcomes": [
+    "Identify the risk class of an area from its clinical use",
+    "Explain how a risk class changes the cleaning frequency",
+    "Describe who must be consulted before a risk class is raised or lowered"
+  ],
+  "instruction": [
+    {
+      "heading": "Why areas carry different risk",
+      "body": "A functional area is any part of a facility where cleaning takes place, such as an operating room, an intensive care unit, a ward or an office. The standard places each area in one of three bands based on how likely its surfaces are to become contaminated, how vulnerable the patients there are, and how likely people are to be exposed. Areas in the high band are cleaned more often than moderate areas, and moderate areas are cleaned more often than low band areas. The band tells you how often an area needs its scheduled work. It does not tell you which product to use, because the method depends on the element and the kind of clean."
+    },
+    {
+      "heading": "Reading the bands",
+      "body": "Intensive care, high dependency, operating, recovery and procedure rooms, emergency departments, renal and haemodialysis units, and transplant, haematology and oncology units sit in the high band. General wards, labour and birthing areas, autopsy rooms, reprocessing areas and treatment rooms sit in the moderate band. Plant rooms, records storage, administration and other low-use public spaces sit in the low band. The published list is long and may change, so read the band for each area from the facility's own schedule rather than from memory of a similar room in another hospital."
+    },
+    {
+      "heading": "Changing a band",
+      "body": "A band may be raised where patients in an area are more at risk, for example moving a moderate ward to high. A band must not be lowered unless the nature of patients or the service level has shifted materially. Any change, up or down, is agreed with clinical management and with the infection prevention team or the state infection control service. A new area that is not on the list is risk-assessed on the same three factors and checked with the same people before a schedule is set. During an outbreak in any area, that area is treated as very high risk until the infection prevention coordinators downgrade the outbreak."
+    }
+  ],
+  "procedure": [
+    "Walk the facility map and list every functional area you clean.",
+    "Read each area's band from the schedule written for this site.",
+    "Check whether an outbreak or a transmission-based precaution overrides the normal band for that area.",
+    "Ask the nursing unit manager or infection control coordinator before you change a band or add an area.",
+    "Record the band on the schedule so the next crew sees the same information."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A general ward normally in the moderate band admits a cluster of patients with the same gastrointestinal illness over two days.",
+      "decisionPrompt": "Which frequency applies, and who confirms the change and when it ends?",
+      "reasoning": "The ward is treated as very high risk while the outbreak continues. The infection prevention coordinator confirms the change and decides when it is downgraded. The cleaner does not reduce or increase the schedule on personal judgement."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Facility map",
+    "Cleaning schedule for this site",
+    "Contact list for the infection prevention coordinator"
+  ],
+  "commonErrors": [
+    {
+      "error": "Working out an area's band from its name, for example treating a procedure room as a low-use room",
+      "prevention": "Read the band for that exact area from the schedule."
+    },
+    {
+      "error": "Lowering the frequency because the area looks clean",
+      "prevention": "Visible cleanliness does not change the band. Clean at the scheduled frequency."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The SA standard is government guidance for SA public facilities. Where a facility policy is stricter, the stricter policy applies.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The bands and examples come from a 2014 document updated in 2017. Confirm the current version before relying on any band.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson gives no authority to change a risk class. Changes belong to clinical management and infection control.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner names the band for each area on a sample map",
+    "The learner states at least one trigger that can raise a band",
+    "The learner names who must be consulted before a change"
+  ],
+  "documentationEvidence": [
+    "Site schedule showing the band for every functional area",
+    "Record of any band change with the name of the person consulted and the date"
+  ],
+  "summary": [
+    "The risk band sets how often an area is cleaned",
+    "A band can be raised after consultation; lowering it needs evidence and consultation",
+    "An outbreak temporarily treats an area as very high risk"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SAH-01-K01",
+      "question": "A general ward is normally moderate risk. A patient with a confirmed multi-resistant organism is admitted to one room. What changes?",
+      "options": [
+        "The whole ward moves automatically to the top band for the rest of the week",
+        "The isolated room gets the intensified method and the band stays the same",
+        "The ward is lowered to low risk while the patient is there today"
+      ]
+    },
+    {
+      "id": "SAH-01-K02",
+      "question": "Which change to a functional area's band fits the standard?",
+      "options": [
+        "Lowering a high-risk area to moderate because it looks clean",
+        "Raising a moderate area to high after consulting clinical management",
+        "Removing an area from the schedule because staff are short"
+      ]
+    },
+    {
+      "id": "SAH-01-K03",
+      "question": "What band applies to a low-risk area during an outbreak in that area?",
+      "options": [
+        "Moderate risk, because the outbreak is only at the entrance and the team is busy",
+        "Very high risk, until the infection prevention coordinators downgrade the outbreak",
+        "High risk, for however long the infection prevention team directs today"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Standard for South Australian Healthcare Facilities (SA Health, 2014, updated 2017), section 5.1 (functional areas), 5.1.1 (how the risk classification was determined), 5.1.2 (amending), 5.1.3 (new areas) and the summary table; rights: user-held; reworded (no copying); source priority: the SA state standard overrides informal or conflicting cleaning advice where this lesson relies on it; figures dated 2014 (updated 2017) are historical; URL www.sahealth.sa.gov.au/infectionprevention; date checked 2026-11-02",
+    "cross-checked against HCG-02 (surface tiers)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

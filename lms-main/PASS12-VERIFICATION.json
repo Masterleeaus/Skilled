@@ -1,0 +1,16 @@
+{
+  "pass": 12,
+  "modified_files": [
+    "lms-main/apps/backend/src/modules/curriculum/curriculum.routes.ts"
+  ],
+  "added_files": [
+    "lms-main/PASS12-SECURITY.md",
+    "lms-main/PASS12-VERIFICATION.json"
+  ],
+  "added_lines": 7,
+  "removed_lines": 0,
+  "checks": [
+    "access check precedes outline query"
+  ],
+  "runtime_tested": false
+}

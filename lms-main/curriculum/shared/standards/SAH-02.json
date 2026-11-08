@@ -1,0 +1,129 @@
+{
+  "id": "SAH-02",
+  "title": "Standard, transmission-based, discharge and spot-and-spill cleans",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Cleaning staff and supervisors in South Australian public healthcare facilities",
+  "prerequisites": [
+    "HCG-20",
+    "SAH-01"
+  ],
+  "learningOutcomes": [
+    "Name the four types of clean used in the SA standard",
+    "Select the correct clean for a given trigger",
+    "Explain how a single case differs from an outbreak in method and frequency"
+  ],
+  "instruction": [
+    {
+      "heading": "Four kinds of clean",
+      "body": "The standard asks for four kinds of clean. A standard clean means the routine, timetabled work carried out regardless of whether an element looks dirty. A transmission-based clean applies when a patient is a suspected or confirmed case of a disease that spreads by contact, droplet or air. A discharge clean happens after one patient leaves a space and ahead of the next admission. A spill or spot clean responds to anything visibly soiled or to a body fluid spill. These are layered: a discharge clean is added on top of the standard clean, and a spill clean is added on top of whatever clean is running."
+    },
+    {
+      "heading": "Single case or outbreak",
+      "body": "A transmission-based clean has two forms. For a single case, or several unrelated cases, the frequency stays at the standard level but the method rises to detergent plus disinfectant on most elements inside the room the case occupies. For an outbreak, meaning a higher-than-expected number of cases of one infection or two or more connected cases, both the frequency and the method increase across the entire functional area. An outbreak clean takes precedence over the usual scheduled clean until the infection prevention coordinators downgrade it."
+    },
+    {
+      "heading": "Methods that never change",
+      "body": "Lavatories, bidets and commodes always get detergent and disinfectant. So does every element in a wet area, including showers. Other elements such as bed rails, overbed tables and lockers are normally cleaned with detergent alone, unless a transmission-based precaution or an outbreak applies. Know which elements in your area belong to which group before you start."
+    }
+  ],
+  "procedure": [
+    "Find the functional area and check whether a case or an outbreak is recorded for it.",
+    "Select the scheduled clean that matches the time or visit.",
+    "If a patient has just left, add a discharge clean before the next admission.",
+    "On any visible soil or body fluid spill, add a spot or spill clean at once.",
+    "Where a transmission-based precaution applies, use detergent and disinfectant on the elements the case occupies, or on the whole area during an outbreak.",
+    "Sign the schedule for each type of clean you carried out."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A medical ward has one patient isolated for suspected gastroenteritis. A bed in the next bay is vacated by a patient who was not on any precautions. Vomit is found on the corridor floor outside the isolation room.",
+      "decisionPrompt": "Which cleans does each space need, and in what order?",
+      "reasoning": "The isolated room gets a transmission-based clean with detergent plus disinfectant on most elements. The vacated bed space gets a standard discharge clean because that patient was not on precautions. The corridor floor gets a spill or spot clean first, using the method that suits the body fluid, then returns to the scheduled standard clean."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Gloves suited to the task",
+    "Facility-approved disinfectant and detergent",
+    "Single-use or freshly laundered cloths",
+    "Cleaning schedule for this site"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a transmission-based clean as only a bigger standard clean",
+      "prevention": "Check the method column: detergent and disinfectant, not detergent alone."
+    },
+    {
+      "error": "Skipping the discharge clean because the bed space looks clean",
+      "prevention": "A discharge clean is required after every discharge, whether or not the space looks soiled."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Follow the product label and its SDS. A product without an SDS on site must not be used.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not combine cleaning products unless the label permits it.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The schedule types come from a 2014 standard updated in 2017. Check the current version.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner matches each clean to its trigger correctly",
+    "The learner states the method for a single case room and for an outbreak area"
+  ],
+  "documentationEvidence": [
+    "Signed schedule showing each clean type carried out",
+    "Record of any spill or outbreak trigger with the time it was logged"
+  ],
+  "summary": [
+    "There are four types of clean: standard, transmission-based, discharge and spot-and-spill",
+    "A single case raises the method in one room; an outbreak raises frequency and method across the area",
+    "A discharge clean is always added after a patient leaves"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SAH-02-K01",
+      "question": "A patient in a single room is confirmed to carry a resistant germ such as MRSA. What changes in that room?",
+      "options": [
+        "The frequency doubles and the method becomes detergent only and the staff are told about it on the day",
+        "The method becomes detergent plus disinfectant on most elements, and the frequency stays at the standard level",
+        "Nothing changes, because one case does not alter the method and the frequency and method stay the same for everyone"
+      ]
+    },
+    {
+      "id": "SAH-02-K02",
+      "question": "Which clean follows a patient's departure from a bed space, before the following patient arrives?",
+      "options": [
+        "Spot or spill clean",
+        "A discharge clean",
+        "A standard clean"
+      ]
+    },
+    {
+      "id": "SAH-02-K03",
+      "question": "Which statement about an outbreak is correct?",
+      "options": [
+        "An outbreak is one patient with a serious infection who is in a single room on the ward and is recovering well at home today",
+        "An outbreak is a number of cases beyond what is expected, or linked cases, and the entire functional area is cleaned more often and more intensively",
+        "There is no difference between an outbreak and a single case for the cleaning team and the ward and the managers and everyone else at all"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Standard for South Australian Healthcare Facilities (SA Health, 2014, updated 2017), section 5.3 (the cleaning schedule and types of clean), section 1.1 and Appendix 3 (discharge clean); rights: user-held; reworded (no copying); source priority: the SA state standard overrides informal or conflicting cleaning advice where this lesson relies on it; figures dated 2014 (updated 2017) are historical; URL www.sahealth.sa.gov.au/infectionprevention; date checked 2026-11-02",
+    "cross-checked against HCG-20 (enhanced cleaning under added controls)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

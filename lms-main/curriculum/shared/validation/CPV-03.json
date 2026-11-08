@@ -1,0 +1,179 @@
+{
+  "id": "CPV-03",
+  "title": "Difficult spots and the hardest-case selection",
+  "courseSlugs": [
+    "appliance",
+    "aquarium",
+    "beauty",
+    "bond",
+    "cardetail",
+    "carpet",
+    "commercial",
+    "construction",
+    "deck",
+    "dogwalk",
+    "flatpack",
+    "furniture",
+    "garden",
+    "groom",
+    "hair",
+    "handyman",
+    "hardfloor",
+    "healthcare",
+    "irrigation",
+    "landscaping",
+    "lawn",
+    "locksmith",
+    "massage",
+    "medequip",
+    "painting",
+    "petsit",
+    "plastering",
+    "pond",
+    "pool",
+    "portfolio",
+    "postcon",
+    "pressure",
+    "pt",
+    "residential",
+    "roof",
+    "shortstay",
+    "solar",
+    "stone",
+    "strata",
+    "tiling",
+    "timber",
+    "window",
+    "yoga"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Quality leads and technical staff who plan which equipment, products and areas a cleaning validation study must cover.",
+  "prerequisites": [
+    "CPV-02"
+  ],
+  "learningOutcomes": [
+    "Select a worst-case scenario that reflects the most difficult realistic situation.",
+    "Name the awkward areas and give the reason each one is sampled.",
+    "Distinguish dedicated equipment from multi-use equipment in the study scope.",
+    "Record which equipment and product configurations were covered and why."
+  ],
+  "instruction": [
+    {
+      "heading": "Pick the hardest realistic case",
+      "body": "A validation study should cover the situation in which the cleaning is most demanding. The guide asks for the study to reflect the harshest production conditions, for example the point reached after the greatest number of successive runs of one product, or the moment a long campaign ends. With multi-use equipment, the protocol names the product that is most resistant to removal because of its toxicity, potency or poor solubility. Where equipment forms a connected train of parts, each arrangement of that train is assessed, and not merely the principal unit."
+    },
+    {
+      "heading": "Map the awkward areas",
+      "body": "Some places resist cleaning more than others: gaskets, sample ports, panes of glass, joints, threads and inner faces that cannot be opened for inspection. The guide asks that the hardest of these be swabbed and included in the sampling plan and that each choice be justified. A sketch or a written description of each area makes the plan clear to a second person. Repeat samples should not come from the same spot each time, and sampling points rotate across the separate components."
+    },
+    {
+      "heading": "Dedicated and multi-use equipment",
+      "body": "Dedicated equipment serves one product only, so fewer products must be considered for carry-over and the study is smaller. Multi-use equipment needs the most demanding product chosen from all the products it handles. For primary packaging and similar shared equipment, the guide expects microbial evaluations for risk assessment, identification of the most demanding products, assessment of every configuration of the equipment train, and cleaning records made as each event happens."
+    }
+  ],
+  "procedure": [
+    "List every product and every equipment configuration the item handles.",
+    "Choose the most demanding product and the run pattern, and write the reason for each choice.",
+    "Identify the awkward areas and sketch or describe each one.",
+    "Justify the inclusion of each area in the sampling plan.",
+    "Record which configurations are covered and which are excluded, with reasons."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A multi-use filling line handles a sticky product and a low-residue product. The sticky product has a gasket and a sample port that are awkward to reach.",
+      "decisionPrompt": "Which product and which areas define the study?",
+      "reasoning": "The sticky product is the most demanding for cleanability. The gasket and the sample port are the awkward areas and must be in the plan with a stated reason. The low-residue product does not define the study, but it is recorded as covered."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Equipment drawings and configuration list",
+    "Product list with cleanability and solubility notes",
+    "Diagram or description of the awkward areas"
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing the easiest product to clean as the study basis.",
+      "prevention": "Choose the product that resists removal most, and write the reason."
+    },
+    {
+      "error": "Leaving out gaskets, sample ports and other hard-to-reach areas.",
+      "prevention": "Include each hard-to-clean area in the plan and justify it."
+    },
+    {
+      "error": "Assessing only the main unit of an equipment train.",
+      "prevention": "Assess each configuration of the train and record which are covered."
+    },
+    {
+      "error": "Sampling the same spot every time.",
+      "prevention": "Rotate sampling areas and avoid identical repeat locations."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Use the practice content only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Some products are potent or toxic. Handling those products during cleaning needs the controls in their SDS and the site's procedures, and this lesson does not set them.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The worst-case product and run pattern are chosen and justified in writing.",
+    "Every hard-to-clean area is listed, drawn or described and justified.",
+    "Every equipment configuration is recorded as covered or excluded, with reasons."
+  ],
+  "documentationEvidence": [
+    "Worst-case selection record with reasons.",
+    "Hard-to-clean area list with diagram or description.",
+    "Configuration coverage table."
+  ],
+  "summary": [
+    "Validate against the hardest realistic case, not the easiest.",
+    "Name and justify every hard-to-clean area in the sampling plan.",
+    "Dedicated equipment narrows the scope; multi-use equipment needs worst-case selection.",
+    "Record each configuration as covered or excluded, and why."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "CPV-03-K01",
+      "question": "What is a worst-case selection in cleaning validation meant to capture?",
+      "options": [
+        "The easiest product to clean in the whole range of products",
+        "The most difficult realistic situation the cleaning must handle",
+        "The first product made each morning on the line in the factory",
+        "The product with the most pleasant scent in the range"
+      ]
+    },
+    {
+      "id": "CPV-03-K02",
+      "question": "Why are gaskets, sample ports and glass panes often included in a sampling plan?",
+      "options": [
+        "They are contaminated by product if unwiped",
+        "They are decorative, needing a light wipe",
+        "They are among the hardest areas to clean",
+        "Regulators forbid touching them at all"
+      ]
+    },
+    {
+      "id": "CPV-03-K03",
+      "question": "What is an advantage of dedicated equipment in validation?",
+      "options": [
+        "It removes the need for any cleaning procedure and any cleaning records",
+        "It means no records are kept and no one checks the method at all today",
+        "It allows sampling to be skipped and the swabs are not needed at all",
+        "It usually narrows the number of products that must be considered for carry-over"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Processes and Cleaning Validation, Guidance Document SGD-105-CLN Rev. 10 (Validation in Partnership Ltd, 25 May 2007; pharmaceutical and biological CGMP with US and EU references, not Australian), sections: 6.3 Cleaning Validation Protocols (worst-case production conditions; hard-to-clean areas; swab sites); 6.3.8 Non-dedicated (multi-use) Primary Packaging Equipment; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Pharmaceutical scope; Australian requirement UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

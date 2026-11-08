@@ -1,0 +1,181 @@
+{
+  "id": "BP-05-appliance",
+  "title": "Pricing by hours per project for Specialty appliance and machine cleaning",
+  "courseSlugs": [
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors who write quotes for cleaning projects and need a price that covers cost and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures",
+    "Estimate project hours, including set-up, travel and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "Appliance cleaning is a short, repeatable task, but its time depends on the appliance, its condition and the access to it. An oven's racks, glass and door take different time from a range hood's filter. Hours make the difference visible, so the cost, the margin and the effect of a change in scope are clear. No source read for this course gives appliance cleaning hours. The one sourced appliance price list gives prices, not time, so the hours on each appliance type must come from your own time logs."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in the same period. Include wages with on-costs such as leave and superannuation where your arrangements need them (business.gov.au, 1 October 2026), vehicle running costs, cleaning products and pads as consumables, insurance, administration and premises. Productive hours are chargeable hours on site, not the paid hours on a roster. If you pay for 40 hours and 30 are chargeable, the cost per productive hour is higher than the hourly wage."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each visit into stages: arrival and protection, removal of racks and filters, cleaning and degreasing, rinsing and drying, reassembly, checking and photos. Estimate each stage at a standard speed, then add travel and a checking allowance. Xero's guide suggests adding 10 to 20 percent to job estimates for unexpected work (Xero Australia, 3 September 2026). That is a range to test against your own records, not a figure sourced for appliances. Record the actual hours for each appliance type and the reason for any difference."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the job. Add a margin that reflects your target and the risk in the job, such as a heavily soiled appliance or a difficult access. Apply your materials policy and your minimum charge last. Then check the price against the sourced item prices as a sense check. The Sydney price list gives a 60 cm single oven at $199 for a non-member and a minimum for the service of $204 (Fantastic Cleaners, updated 15 July 2026). A price well away from that list needs a reason you can state."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote states the scope, the hours or price basis, the exclusions, what the client must provide, and how long the quote is valid. Exclusions for this course include gas and electrical component work, repairs to an appliance's function, and any appliance not on the list you have priced. Do not show the internal cost per hour to the client unless your policy says to. Re-quote when the scope changes."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten visits of each appliance type. If the variance is consistently above your agreed threshold, change the standard time, the margin or the scope rules. A pricing method is finished only when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the chargeable hours achieved in the same period.",
+    "Divide total costs by chargeable hours to get the cost per productive hour.",
+    "Break each appliance visit into stages and estimate each stage time as a range.",
+    "Add travel, set-up and checking time as named lines.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy, the exclusions for gas and electrical work, and the minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, client inputs and validity.",
+    "Record actual hours after each visit and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. A mobile technician cleans a single oven in 1.5 crew-hours on site, including arrival, set-up and checking. The cost per productive hour is $60 AUD (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the cost of the visit, what is the price, and does that price sit where the sourced item price and minimum sit?",
+      "reasoning": "The cost is 1.5 crew-hours multiplied by $60 AUD, which is $90 AUD. A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $120 AUD. The Sydney vendor's list shows a 60 cm single oven at $199 for a non-member and a minimum for the service of $204 (Fantastic Cleaners, updated 15 July 2026). The illustrative price sits well below that minimum. The technician checks whether the vendor's minimum covers travel, set-up and admin that the illustrative hours do not include, whether the market they serve prices differently, and whether the 1.5 hours are right. The gap is the lesson, not a price to publish."
+    },
+    {
+      "situation": "Illustrative: a technician is asked to clean an oven and a range hood in one visit. The hours are 1.5 for the oven and 0.5 for the hood, which is 2 crew-hours in total.",
+      "decisionPrompt": "Should the minimum charge be applied to each item separately?",
+      "reasoning": "No. The two items share the arrival, set-up and travel, so the visit is priced as one labour amount, not as two separate minimums. At the illustrative $60 AUD an hour, the cost is $120 AUD, and at a 25 per cent margin on price the price is $160 AUD. Arithmetic from the vendor's item prices also shows that the two items at non-member rates would total $262 ($199 plus $63), which is above the $204 minimum; that is arithmetic from one list, not a statement of how the vendor bills."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet with visit stages and hours",
+    "Time log for each visit, with estimated and actual columns",
+    "PPE as listed in {{business:safety.required_ppe}}, and the safety data sheet for each cleaner used"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone.",
+      "prevention": "Include on-costs, consumables, vehicle, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours.",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel and checking time, and stacking minimums on items cleaned in one visit. Gap: no sourced appliance hour standard exists.",
+      "prevention": "Add these as named lines, and price one visit as one labour amount."
+    },
+    {
+      "error": "Quoting with no exclusions for gas and electrical components or repairs.",
+      "prevention": "List the exclusions, the items not priced and the client's inputs, such as access and power."
+    },
+    {
+      "error": "Never comparing estimates with actual hours.",
+      "prevention": "Record actual hours after each visit and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The ACCC says misleading statements about prices are prohibited under the Australian Consumer Law (ACCC, 15 July 2026). State or territory fair trading rules also apply and differ, so check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Victoria only: Energy Safe Victoria says only persons with a Type B gasfitting endorsement may work on Type B appliances. The page does not cover cleaning. Price no gas or electrical component work in this lesson, and check the gas and electrical licence rules for NSW, Queensland and Western Australia, which the research did not verify.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Oven and machine cleaners are hazardous chemicals in many cases. SafeWork SA's guidance says the person running the business must obtain and make available the safety data sheet, and use it to write a safe procedure. Include the cost of any required controls as a materials line.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement. Check which one applies to each worker before using any cost figure. This lesson does not state those rates.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten visits of each appliance type and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Job time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make appliance visits visible, so start every quote from stage hours.",
+    "Cost per productive hour uses chargeable time, and one visit is priced as one labour amount.",
+    "Gap: no sourced appliance hours exist. Use the vendor list as a sense check only, and check the vendor's minimum against your own travel and set-up."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-appliance-K01",
+      "question": "Which costs belong in the cost per productive hour for an appliance cleaner?",
+      "options": [
+        "Only the price the client paid last week",
+        "Wages with on-costs, vehicle, consumables, insurance and administration, divided by chargeable hours",
+        "The average price of other cleaners' items for the year",
+        "Only the cost of the cleaning spray"
+      ]
+    },
+    {
+      "id": "BP-05-appliance-K02",
+      "question": "A visit is estimated at 1.5 crew-hours and takes 3. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid",
+        "Reduce the crew's paid hours on the next visit",
+        "Raise the price for this client only and change nothing else"
+      ]
+    },
+    {
+      "id": "BP-05-appliance-K03",
+      "question": "Why does an appliance cleaning quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client",
+        "To show what the price covers, such as excluding gas and electrical component work, so scope changes can be priced and disputes are reduced",
+        "To make the quote longer",
+        "To lower the client's expectations of the result"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Used for the 10 to 20 percent allowance for unexpected work, stated as a range to test, and for dividing by billable hours.",
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Used for on-costs in the hourly cost.",
+    "Fantastic Cleaners, Sydney price list, https://fantasticcleaners.com.au/sydney/prices, site metadata last updated 15 July 2026. Vendor advertised prices, used as a sense check and for the minimum charge arithmetic.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Used for misleading price statements being prohibited.",
+    "Energy Safe Victoria, 'Installing and servicing appliances', https://www.energysafe.vic.gov.au/industry-guidance/gas/appliances-equipment-and-manufacturers/installing-and-servicing-appliances, reviewed 5 June 2024. Victoria only.",
+    "SafeWork SA, 'Safety data sheets', https://safework.sa.gov.au/workplaces/chemicals-and-substances/exposure-to-hazardous-chemicals/safety-data-sheets, published 6 April 2020, modified 7 April 2025. South Australian regulator.",
+    "Trade research: /home/claude/tasks/team4-V-specialist-restoration.md, section 5 (specialist appliance and machine cleaning), research date 9 November 2026. Gap: no appliance hour standard; award and enterprise agreement coverage not checked."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

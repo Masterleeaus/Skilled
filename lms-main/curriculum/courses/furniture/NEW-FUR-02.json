@@ -1,0 +1,166 @@
+{
+  "id": "NEW-FUR-02",
+  "title": "Identify timber, finish and fabric before any work",
+  "referencesAtStart": "Official references for this lesson: LeadSmart NSW: renovating and maintenance (no date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20).",
+  "courseSlugs": [
+    "furniture"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Furniture restorers who assess pieces before choosing a method or quoting.",
+  "prerequisites": [
+    "NEW-FUR-01",
+    "F03-L01"
+  ],
+  "learningOutcomes": [
+    "Identify the timber construction, the finish layers and their condition, and the fabric and backing of an upholstered piece.",
+    "Recognise age and origin clues that call for screening before work.",
+    "Record unknowns and the screening step they trigger."
+  ],
+  "instruction": [
+    {
+      "heading": "Why identification comes first",
+      "body": "Each finish, fabric and backing reacts differently to heat, solvent, water and abrasion. Identification decides the method, the tests and the hazards that apply. An unidentified surface is treated as the most hazardous likely case until it has been tested or reviewed. Identification is not a guess at the piece's value or its history. It is a record of what is there and what is not yet known."
+    },
+    {
+      "heading": "Timber and finish",
+      "body": "Look at the grain, colour, wear pattern and edges. Check whether the piece is solid timber or veneer over a core, and whether joints move. Veneer edges and worn corners often show the difference. Identify the finish by the approved test set: sheen, the point where the finish has worn through, feel, and a small test in a hidden area where the approved procedure allows it. Shellac, lacquer, varnish, oil and paint behave differently under the same method. Old paint may contain lead, so the finish is not identified as safe because it looks sound. Follow the approved procedure {{business:procedures.approved_sop}}."
+    },
+    {
+      "heading": "Fabric and backing",
+      "body": "Read the fibre from a label where one exists, and otherwise from look and feel. Look at the backing, foam, webbing and adhesive. Old backings can be bitumen-backed hessian, board or fibrous layers, and their adhesives can be unknown. Treat any material that cannot be identified as needing screening under “Screen for lead and asbestos: test, stop and refer” before cutting, stripping or removing it. Do not pull a backing off to see what it is."
+    },
+    {
+      "heading": "Age and origin as screening prompts",
+      "body": "Age clues include construction methods, the number of paint layers, labels and where the piece came from. Age does not confirm lead or asbestos, and it does not rule them out. NSW's house guidance links lead-based paint to homes built before 1970 (page metadata modified 20 July 2026). That is a prompt to screen. It is not a finding about any particular piece. The same guidance names furniture only in its cleaning advice for renovation work, and it gives no furniture screening rule. Age is a reason to test or refer, not a reason to assume a result."
+    }
+  ],
+  "procedure": [
+    "Photograph the item and record its type, timber or fabric, and construction.",
+    "Identify the finish layers and their condition, and record which layers are unknown.",
+    "Identify the fabric, backing and filling for upholstered pieces, using labels and look and feel.",
+    "Note age and origin clues, and say why each one matters.",
+    "Record the unknowns and set the screening step that must happen before work."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A painted timber sideboard from the 1960s has a cracked finish. The client wants it stripped back to bare wood before a sale.",
+      "decisionPrompt": "What do you record, and what must happen before any stripping?",
+      "reasoning": "Record the painted layer and any older finish under it as unknown, and note the age clue. Do not sand or heat strip. Set the screening step in “Screen for lead and asbestos: test, stop and refer” first, and tell the client that the stripping date depends on the result."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Camera or tablet for photographs",
+    "Magnifier or torch for the grain and edges",
+    "Approved identification test set and the hidden-area test materials from the approved procedure"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming old paint is safe because it looks sound.",
+      "prevention": "Treat unknown old finishes as needing screening before disturbing them."
+    },
+    {
+      "error": "Testing a finish with the sanding tool.",
+      "prevention": "Use the approved identification test set only, and do not disturb the finish to identify it."
+    },
+    {
+      "error": "Recording a piece as solid timber without checking the edges.",
+      "prevention": "Check the edges and the wear pattern before recording the construction."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Labels and surfaces do not reliably show hazards. Treat an unknown old finish as possibly lead-bearing until it has been screened (see “Screen for lead and asbestos: test, stop and refer”).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not disturb suspect material in order to identify it. Some older backings and adhesives may contain asbestos (see “Screen for lead and asbestos: test, stop and refer” and “Upholstery restoration: strip-back, foam and fabric renewal”).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Use the approved procedure and the product SDS only.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Identification is recorded for every item before a method is chosen.",
+    "Each unknown is recorded with the screening step it triggers."
+  ],
+  "documentationEvidence": [
+    "Identification record with photographs",
+    "Timber or fabric type, construction, finish layers and condition",
+    "Age and origin clues, and the list of unknowns with the screening step"
+  ],
+  "summary": [
+    "Identification records what the piece is made of and what is not yet known.",
+    "Age is a reason to screen, not a finding.",
+    "Unknown backings and finishes are not disturbed to identify them."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FUR-02-K01",
+      "question": "A 1960s timber chair has a painted finish with unknown layers. Which statement is correct?",
+      "options": [
+        "Age alone shows the paint is lead-free on this chair",
+        "Paint cannot contain lead on timber furniture",
+        "Age is a reason to screen before the finish is disturbed"
+      ]
+    },
+    {
+      "id": "NEW-FUR-02-K02",
+      "question": "Why is an unidentified fabric treated as needing screening?",
+      "options": [
+        "Because it cannot be identified, and backings can contain materials that need screening",
+        "Because all fabric is asbestos and must be removed from the chair before any work begins",
+        "Because fabric can never be cleaned and must always be replaced on any chair or sofa"
+      ]
+    },
+    {
+      "id": "NEW-FUR-02-K03",
+      "question": "What should the identification record contain?",
+      "options": [
+        "Only the client's name, the date the item arrived and the contact details for the job",
+        "The item, timber or fabric type, finish layers, age clues and unknowns, with photographs",
+        "Nothing, because identification is informal and is done by eye on the bench"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: LeadSmart NSW: renovating and maintenance (no date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance (checked 2026-11-02; house guidance only, not furniture)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/inorganic-lead/whs-duties (checked 2026-11-02)",
+    "UNCONFIRMED: hidden-area finish tests and solvents for each finish type. Research brief: /home/claude/work/team/research-topics/furniture.md, sections 2 and 3."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "LeadSmart NSW: renovating and maintenance",
+      "url": "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance",
+      "pageDate": "No date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20",
+      "checked": "2026-11-03",
+      "covers": "House lead paint guidance only, not furniture. Read the heat gun, torch and respirator advice on the page before any related statement. Publisher: NSW Government (LeadSmart NSW)."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-03.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-04.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    }
+  ]
+}

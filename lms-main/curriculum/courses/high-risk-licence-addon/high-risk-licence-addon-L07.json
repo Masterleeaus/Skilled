@@ -1,0 +1,112 @@
+{
+  "id": "high-risk-licence-addon-L07",
+  "title": "Roof and platform work: the licence questions still open",
+  "courseSlugs": [
+    "high-risk-licence-addon"
+  ],
+  "moduleTitle": "Optional add-on: high-risk work and platform licences",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Workers and supervisors who may be asked to work at height or on a platform. Optional add-on, taken alongside the main courses.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "List the boom-length rules that are confirmed and the ones that are not.",
+    "Identify the South Australian points that are not confirmed."
+  ],
+  "instruction": [
+    {
+      "heading": "What is confirmed",
+      "body": "Lesson 2 sets out the 11 metre boom-length rules that official pages state for New South Wales, Tasmania, the Northern Territory, Western Australia and the ACT, and Queensland's exclusion of platforms under 11 metres."
+    },
+    {
+      "heading": "South Australia",
+      "body": "SafeWork SA's high risk work licence page (last updated 10 January 2024) does not list a WP class and gives no boom length. Whether South Australia requires a WP licence is not confirmed by an official source."
+    },
+    {
+      "heading": "The South Australian pressure equipment class",
+      "body": "The same South Australian page lists a 'pressure equipment operation' licence class. The class name is confirmed; whether it covers high-pressure water jetting is not confirmed by an official source, so do not treat it as covering jetting."
+    },
+    {
+      "heading": "Victoria",
+      "body": "Victoria's WP class is confirmed; its boom-length rule is not confirmed by an official source (see lesson 3)."
+    },
+    {
+      "heading": "Before any roof work from a platform",
+      "body": "Check the licence rule for the state and the boom length with the regulator before work. This add-on does not give the answer for every state."
+    }
+  ],
+  "procedure": [
+    "Identify the state and the boom length.",
+    "Check the regulator's page for the licence rule and record its date.",
+    "Where a point is not confirmed, ask the regulator before work."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A roof cleaner in South Australia proposes to use a boom-type platform for a roof job.",
+      "decisionPrompt": "Can this lesson say whether a WP licence applies?",
+      "reasoning": "No. SafeWork SA's page lists no WP class and gives no boom length, so whether a WP licence applies is not confirmed by an official source. Ask SafeWork SA before work."
+    }
+  ],
+  "equipmentAndPpe": [
+    "None for this lesson (knowledge only)."
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a state's rule from a neighbouring state.",
+      "prevention": "Use the rule for the state where the work is done."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Roof and platform work needs the licence and authority that apply in the state where the work is done. This add-on grants neither.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Learner marks each unconfirmed point before answering a licence question."
+  ],
+  "documentationEvidence": [
+    "State, boom length, regulator page and page date recorded before the job."
+  ],
+  "summary": [
+    "Confirmed and unconfirmed points are kept separate.",
+    "South Australian WP and jetting positions are not confirmed."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "high-risk-licence-addon-L07-K01",
+      "question": "Which South Australian point is confirmed in this lesson?",
+      "options": [
+        "South Australia requires a WP licence for any boom",
+        "The 'pressure equipment operation' class name appears on the SA licence page",
+        "Jetting needs the pressure equipment licence"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.sa.gov.au/topics/business-and-trade/licensing/building-and-trades/high-risk-work-licence (Last updated 10 January 2024; checked 2026-11-04)",
+    "https://www.worksafe.vic.gov.au/high-risk-work-licence (Reviewed 30 June 2026; checked 2026-11-04)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "High risk work licence (SA Government)",
+      "url": "https://www.sa.gov.au/topics/business-and-trade/licensing/building-and-trades/high-risk-work-licence",
+      "pageDate": "Last updated 10 January 2024",
+      "checked": "2026-11-04",
+      "covers": "Class list shows a 'pressure equipment operation' class and no WP class and no boom length."
+    },
+    {
+      "id": "R2",
+      "title": "High risk work licence (WorkSafe Victoria)",
+      "url": "https://www.worksafe.vic.gov.au/high-risk-work-licence",
+      "pageDate": "Reviewed 30 June 2026",
+      "checked": "2026-11-04",
+      "covers": "Names the boom-type elevating work platform operation licence class; states the class without a boom length; scissor lifts do not need the WP licence. Does not state whether the class applies at any boom length."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

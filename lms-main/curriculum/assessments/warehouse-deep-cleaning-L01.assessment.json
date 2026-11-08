@@ -1,0 +1,44 @@
+{
+ "lessonId": "warehouse-deep-cleaning-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "warehouse-deep-cleaning-L01-K01",
+   "correctIndex": 2,
+   "rationale": "The current plan and the written authorisation govern entry. A booking is a request, so the cleaner does not enter the closed bay, and records the difference and tells the supervisor."
+  },
+  {
+   "id": "warehouse-deep-cleaning-L01-K02",
+   "correctIndex": 0,
+   "rationale": "Crossings of traffic routes are controlled by the site. Gaps in traffic and quick runs are not controlled crossings."
+  },
+  {
+   "id": "warehouse-deep-cleaning-L01-K03",
+   "correctIndex": 1,
+   "rationale": "A booking records what was requested. The written authorisation from the site is what permits entry."
+  },
+  {
+   "id": "warehouse-deep-cleaning-L01-K04",
+   "correctIndex": 2,
+   "rationale": "The cleaner does not move the pallet or work around it in an aisle. The blockage is recorded and the supervisor decides the scope."
+  }
+ ],
+ "practicalCriteria": [
+  "Checks a sample written authorisation against a sample site plan, and confirms the named supervisor, zone and time window.",
+  "Marks traffic routes, walkways, dock areas, racking, plant and restricted zones on a sample site plan.",
+  "Identifies a simulated closed bay on the plan, does not enter it, and records the difference with the time and the person told.",
+  "Declines a simulated instruction from a person who is not the named supervisor until the named supervisor confirms the zone."
+ ],
+ "passRule": "Authorisation checked against the plan, zones marked, closed bay not entered, and the difference recorded with the supervisor told. Observed by an assessor in a supervised desk exercise. A knowledge check result alone is not a practical pass, and this exercise is not a site authorisation.",
+ "evidenceRequired": [
+  "Annotated sample site plan",
+  "Fictional authorisation check record",
+  "Difference and supervisor-notification record",
+  "Assessor observation note"
+ ],
+ "stopWorkCriteria": [
+  "Closed or restricted zone entered",
+  "Traffic route crossed without the site's controlled crossing",
+  "Pallet, barrier or load moved by the cleaner",
+  "Work started without a written authorisation and induction confirmed"
+ ]
+}

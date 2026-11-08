@@ -1,0 +1,260 @@
+{
+  "id": "aquarium-cleaning-L07",
+  "title": "Filtration and circulation diagnostics for freshwater and marine tanks",
+  "courseSlugs": [
+    "aquarium"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 50,
+  "audience": "Aquarium maintenance workers who diagnose low flow, poor filtration and pump faults in freshwater and marine tank systems",
+  "prerequisites": [
+    "F04-L01",
+    "NEW-AQU-01",
+    "NEW-AQU-04"
+  ],
+  "learningOutcomes": [
+    "Describe the circulation path of a freshwater filter and of a marine sump system, including the skimmer where one is fitted",
+    "Diagnose low flow and poor filtration by observation of the intake, the impeller, the media and any gauge the system has",
+    "Isolate a tank pump, filter or skimmer safely before opening any part of it",
+    "Price, record and refer diagnostic work under the business's approved method and the scope in this lesson"
+  ],
+  "referencesAtStart": "Official sources for this lesson: NSW Government, Electrical licences and certificates (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting licences (last updated 31 July 2026); QBCC, Building work that needs a QBCC licence (last reviewed and published 16 April 2026); Electrical Safety Office Queensland, Electricity around water (no date shown).",
+  "instruction": [
+    {
+      "heading": "Circulation in freshwater and marine systems",
+      "body": "A freshwater tank usually uses a canister, a hang-on-back or an internal filter. Water is drawn in, passed through mechanical and biological media, and returned to the tank. A marine system often adds a sump, a return pump and a protein skimmer. In the skimmer, water passes through a column of bubbles that removes dissolved waste before the water returns. The skimmer is a marine-specific piece of equipment, and a freshwater tank does not need one. Diagnose the circulation in the order the water travels: intake, pump or impeller, media or skimmer, return. Record the layout you find before you change anything, because each system is installed differently."
+    },
+    {
+      "heading": "Reading the signs of a fault",
+      "body": "Weak flow at the outlet, a noisy pump, a pump that loses its prime, air in the intake, a filter that gurgles, and a skimmer that produces less foam than before are common signs. A blocked intake, a clogged media basket, a worn impeller, an air leak on the suction side and a partly closed valve can all give similar symptoms. Clean or replace media only as the owner's plan and the manufacturer direct, because biological media holds the bacteria the tank depends on. Record the flow you observe, the state of the intake and media, and the skimmer cup level before you clean, and record them again after the work."
+    },
+    {
+      "heading": "Isolating before you inspect",
+      "body": "Switch off the pump, the heater and any other equipment in the circuit at the isolator or the safety switch before you open a filter, a skimmer or a sump lid, or touch an impeller. Confirm that the pump is off before you put your hands in the water. Disconnect or isolate the equipment as its manufacturer directs, and do not open a pressurised filter. Record the position of each valve before you move it, so that it can be restored. Keep cords out of the water, do not use a damaged cord, and keep the area dry. Do not reach into a running skimmer or pump."
+    },
+    {
+      "heading": "Cleaning media in tank water, and the scope boundary",
+      "body": "Rinse biological media in water removed from the tank, not in tap water, so that the bacteria are kept. Clearing an intake, cleaning a skimmer as the manufacturer directs, and rinsing media are generally within the scope of aquarium maintenance work. Replacing a pump, changing its wiring, altering a fixed electrical connection and changing plumbing are not general maintenance, and they are referred. In New South Wales, electrical wiring work is licensed whatever its cost (last updated 23 June 2026). The NSW page says plumbing, draining and gasfitting work is licensed whatever its cost (last updated 31 July 2026), and in Queensland a QBCC licence is needed for plumbing or drainage work of any value (last reviewed 16 April 2026). Refer such work to the person the rules name."
+    },
+    {
+      "heading": "Pricing and documenting diagnostic work",
+      "body": "Diagnostic time is priced under the business's approved method, not absorbed as free time. Record the symptoms, the flow and readings, the checks you made, the action taken, the parts or work referred, and the time spent. A record that says the system is working is valid only if the readings and the checks support it. Where a fault is outside scope, write a referral note that describes the symptoms and readings, so that the licensed person can start from the facts."
+    }
+  ],
+  "procedure": [
+    "Confirm the scope in the work order, and the layout of the filter or sump system.",
+    "Record the symptoms, the flow, the skimmer level and any gauge reading before you start.",
+    "Check the intake, the media basket, the skimmer cup and the impeller for blockage and debris.",
+    "Isolate the pump and any heater in the circuit at the isolator, and prove it off before you open any lid.",
+    "Relieve pressure as the manufacturer directs, and record the valve positions before you change them.",
+    "Clean the components within scope, rinsing media in removed tank water, with the PPE set by {{business:safety.required_ppe}}.",
+    "Restore power, check the flow, and record the readings after the work.",
+    "Refer any fault outside scope, with a written description of the symptoms and readings.",
+    "Price and record the diagnostic time under {{business:pricing.pricing_method}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A canister filter has weak flow. The intake strainer is blocked with a fine layer of debris, and the client asks you to replace the pump on the spot.",
+      "decisionPrompt": "What should the technician do first, and what is referred?",
+      "reasoning": "Isolate the canister and its pump before opening the lid, then clear the intake strainer, which is the most likely cause and the simplest fix. Rinse any media in removed tank water. Record the flow before and after. Do not replace the pump on the spot. Refer the replacement, since changing a pump is outside general maintenance, and any wiring change is licensed work in some states. Record the client's request."
+    },
+    {
+      "situation": "A marine protein skimmer has a cup full of dirty foam and produces little foam. The client expects the skimmer itself to be replaced.",
+      "decisionPrompt": "What is the correct approach?",
+      "reasoning": "Isolate the skimmer pump, then follow the manufacturer's instructions to empty and clean the cup and the neck. Check the air intake and the pump impeller. Record the foam level and the cleaning before and after. Replacing the whole skimmer is the client's decision. It is recorded as a referral with the readings, not as a task this lesson authorises."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Isolator or safety switch for each pump, heater and skimmer in the circuit",
+    "Intake and media tools for the filter type",
+    "Tank-water container for rinsing biological media",
+    "Gloves, eye protection and footwear with grip, as set by {{business:safety.required_ppe}}",
+    "Diagnostic record form or system with flow and skimmer fields"
+  ],
+  "commonErrors": [
+    {
+      "error": "Opening a filter or skimmer while the pump is still connected to power.",
+      "prevention": "Isolate and prove the pump off before you open any lid or housing."
+    },
+    {
+      "error": "Rinsing biological media in tap water, which can harm the filter bacteria.",
+      "prevention": "Rinse media in removed tank water, and keep it wet."
+    },
+    {
+      "error": "Replacing the whole filter or skimmer when the fault is a blocked intake or a clogged cup.",
+      "prevention": "Check and clean the simple causes first, and record the readings before recommending replacement."
+    },
+    {
+      "error": "Absorbing diagnostic time as free work.",
+      "prevention": "Price and record diagnostic time under the approved method."
+    },
+    {
+      "error": "Replacing a pump or changing its wiring on the spot.",
+      "prevention": "Refer the replacement to the licensed person, and record the symptoms and the request."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In New South Wales, electrical wiring work is licensed whatever its cost (last updated 23 June 2026). That page does not mention cleaning or maintenance. This lesson does not grant any electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "In New South Wales, plumbing, draining and gasfitting work is licensed whatever its cost (last updated 31 July 2026), and in Queensland a QBCC licence is needed for plumbing or drainage work of any value (last reviewed 16 April 2026). This lesson does not grant any plumbing licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Electricity and water: the Queensland Electrical Safety Office page on electricity around water is written for pools, and it recommends that electrical equipment be used through a safety switch and kept out of the water (no date shown). Isolate the equipment before inspection, and use the manufacturer's instructions for each pump, heater and skimmer.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Rinse water and discharged tank water should not go to stormwater, sewer or a waterway until a route is confirmed, as practice in this draft. See the water conservation lesson (“Water conservation and environmental release for aquariums”).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Flow, skimmer level and media condition are recorded before and after the work",
+    "Isolation is confirmed before any lid, housing or electrical part is opened",
+    "Work outside scope is referred, with a written description of the symptoms and readings",
+    "Diagnostic time is priced under the approved method and recorded"
+  ],
+  "documentationEvidence": [
+    "Pre-work and post-work flow and skimmer readings",
+    "Intake, media and valve record",
+    "Diagnostic time and price under the approved method",
+    "Referral note for any fault outside scope"
+  ],
+  "summary": [
+    "Diagnose the circulation in the order the water travels: intake, pump or impeller, media or skimmer, return.",
+    "Isolate and prove the pump off, and record valve positions, before you open anything.",
+    "Clean the simple causes first, rinse media in tank water, and record the readings that support every conclusion.",
+    "Refer pump replacement, wiring and plumbing changes to the person the rules name."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "aquarium-cleaning-L07-K01",
+      "question": "A canister filter has lost flow. What is the correct first step?",
+      "options": [
+        "Open the canister while the pump is running, so the flow can be checked by ear",
+        "Isolate the power, then inspect and clear the intake and impeller as the manufacturer directs",
+        "Replace the canister straight away, since a new canister will restore the flow fully",
+        "Add more media to the canister, since more media will push the water through faster"
+      ]
+    },
+    {
+      "id": "aquarium-cleaning-L07-K02",
+      "question": "Why should filter media in a freshwater or marine tank be rinsed in removed tank water rather than tap water?",
+      "options": [
+        "Tap water is cheaper to use, and the cost saving is the main reason for the choice",
+        "Tank water is the only water that is legal to use for rinsing in this state",
+        "Media dries faster in tap water, so rinsing with tap water is quicker for the crew",
+        "Chlorine and chloramine in tap water can harm the bacteria the filter relies on"
+      ]
+    },
+    {
+      "id": "aquarium-cleaning-L07-K03",
+      "question": "A client asks you to replace a marine skimmer pump on site and rewire it. What should you do?",
+      "options": [
+        "Do it, because it is only a pump and the change takes less than an hour on site, so the client gets it done today",
+        "Rewire it with the power switched on, since the client wants the skimmer running again before the weekend and tonight",
+        "Refer the replacement and any wiring to a licensed person, and record the request, because this is outside general maintenance",
+        "Do it, because the lesson allows it and the client has asked for the work to be done on the day at the tank"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electrical licences and certificates",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Open the page under When you will need a licence. It defines electrical wiring work to include repairing, says cost makes no difference, and does not mention cleaning or maintenance. Publisher: NSW Government."
+    },
+    {
+      "id": "R2",
+      "title": "Plumbing, draining and gasfitting licences",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+      "pageDate": "Last updated 31 July 2026",
+      "checked": "2026-11-03",
+      "covers": "Open the page and check the licence-or-certificate statement for plumbing, draining and gasfitting work. The page lists tanks within plumbing work and does not mention simple hose connections. Publisher: NSW Government."
+    },
+    {
+      "id": "R3",
+      "title": "Building work that needs a QBCC licence",
+      "url": "https://www.qbcc.qld.gov.au/my/node/7081",
+      "pageDate": "Last reviewed and published 16 April 2026",
+      "checked": "2026-11-03",
+      "covers": "Open the page and check the list of building work; plumbing or drainage needs a QBCC licence of any value. The page does not say whether a simple hose connection needs one. Publisher: Queensland Building and Construction Commission (QBCC)."
+    },
+    {
+      "id": "R4",
+      "title": "Electricity around water",
+      "url": "https://www.electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it is written for pools. It recommends using electrical equipment through a safety switch and keeping cords and appliances out of the water. Publisher: Electrical Safety Office, Queensland."
+    },
+    {
+      "id": "R5",
+      "title": "electrical licensing outside NSW and whether a given aquarium task is electrical work",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/electrical-licences/classes-of-licences",
+      "pageDate": "no date shown",
+      "checked": "2026-11-04",
+      "covers": "WorkSafe Queensland page lists the electrical licence classes and states that only an electrical contractor can do electrical work in a home, and that doing it without a licence is unlawful. It does not mention pumps or heaters; lights appear only in the linesperson section, for street lighting."
+    },
+    {
+      "id": "R6",
+      "title": "whether a simple hose fill or a tank's internal plumbing is plumbing work",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+      "pageDate": "Last updated 31 July 2026",
+      "checked": "2026-11-03",
+      "covers": "NSW only: a licence or certificate is needed for any plumbing, draining or gasfitting work regardless of cost, and water plumbing is defined as work connected with the supply or conveyance of water, including tanks. The page does not say whether a simple hose fill is plumbing work, so that point remains unconfirmed. Publisher: NSW Government."
+    },
+    {
+      "id": "R7",
+      "title": "discharge rules for aquarium water, sand and sludge",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source: no official page was fetched in this pass for discharge rules for aquarium water, sand and sludge. Check with the local council and the water authority before any discharge. Publisher: none fetched."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NSW-07 and NSW-06 CONFIRMED rows, research/trades/LICENCE-MATRIX-NSW-QLD.csv, checked 2026-11-02. Sources: https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical and https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+    "QLD-06 CONFIRMED row, research/trades/LICENCE-MATRIX-NSW-QLD.csv, checked 2026-11-02. Source: https://www.qbcc.qld.gov.au/my/node/7081",
+    "Electrical Safety Office Queensland, Electricity around water, https://www.electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water, checked 2026-11-02 as recorded in research/topics/aquarium.md section 5; not re-read in this pass.",
+    "Aquarium keeping student presentation (uploaded file c5a0d0ad-367752036), filter type and circulation points; rights: reworded (no copying).",
+    "UNCONFIRMED: whether aquarium pump tasks are wiring work in each state; whether internal tank plumbing is covered by plumbing licence rules; the discharge rule for rinse water; the skimmer manufacturer's cleaning interval for any system.",
+    "R1: Electrical licences and certificates (NSW Government), https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical; page date: Last updated 23 June 2026; read 2026-11-03; status CONFIRMED.",
+    "R2: Plumbing, draining and gasfitting licences (NSW Government), https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting; page date: Last updated 31 July 2026; read 2026-11-03; status CONFIRMED.",
+    "R3: Building work that needs a QBCC licence (Queensland Building and Construction Commission (QBCC)), https://www.qbcc.qld.gov.au/my/node/7081; page date: Last reviewed and published 16 April 2026; read 2026-11-03; status CONFIRMED.",
+    "R4: Electricity around water (Electrical Safety Office, Queensland), https://www.electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water; page date: No date shown; read 2026-11-03; status PARTIAL.",
+    "R5: Electrical licence classes (WorkSafe Queensland), https://www.worksafe.qld.gov.au/licensing-and-registrations/electrical-licences/classes-of-licences; page date: no date shown; read 2026-11-03; status PARTIAL (Queensland only). Other states, and whether a given aquarium task is electrical work: UNCONFIRMED.",
+    "R6: UNCONFIRMED, whether a simple hose fill or a tank's internal plumbing is plumbing work; no official page read in this pass.",
+    "R7: UNCONFIRMED, discharge rules for aquarium water, sand and sludge; no official page read in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-06.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-07.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "construction-site-cleaning-L06",
+  "title": "Respiratory protection and fit",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who may be required to wear respiratory protection on dusty construction sites.",
+  "prerequisites": [
+    "construction-site-cleaning-L04"
+  ],
+  "learningOutcomes": [
+    "Explain why respiratory protection is the last control in the hierarchy.",
+    "Carry out a user seal check before wearing a respirator.",
+    "Stop work when a respirator does not fit, is damaged or is not the type the site specified."
+  ],
+  "instruction": [
+    {
+      "heading": "Last, not first",
+      "body": "Respiratory protection is the last layer of control in the hierarchy. It does not replace controlling the dust at source, and it does not work if it does not fit. The site's risk assessment decides whether a respirator is needed, and which type. A cleaner who chooses a respirator for themselves on a hazard they have not assessed is making a decision that belongs to the site."
+    },
+    {
+      "heading": "Fit and the user seal check",
+      "body": "A respirator only protects when it seals to the face. Facial hair, damaged seals, incorrect sizing and an unchecked strap can all stop a seal. Before wearing the respirator, carry out a user seal check as the training and the manufacturer's instructions describe. The check is done each time the respirator is put on."
+    },
+    {
+      "heading": "Stopping when protection fails",
+      "body": "Stop work if the respirator does not pass the seal check, if the seal breaks, if the filter is clogged or damaged, or if the wrong type has been supplied for the material. Leave the area, report the problem to the supervisor, and do not continue without a suitable respirator."
+    },
+    {
+      "heading": "Looking after the respirator",
+      "body": "Store the respirator clean and dry, inspect it before use, and replace filters on the schedule the manufacturer and the site set. A respirator that is worn with a damaged filter gives false protection."
+    }
+  ],
+  "procedure": [
+    "Confirm with the site risk assessment whether respiratory protection is required, and which type.",
+    "Carry out a user seal check each time the respirator is put on.",
+    "Stop work if the seal fails, the filter is damaged, or the type is wrong.",
+    "Leave the area and report the problem to the supervisor.",
+    "Store and inspect the respirator, and replace filters on schedule."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner's respirator fails the seal check because of a damaged strap.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not start the task. Remove the respirator from use, leave the dusty area, and report the damaged strap. Start again only with a respirator that passes the seal check and is the type the site specified."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Respirator of the type the site risk assessment specifies, with filters of the correct class.",
+    "Seal-check procedure from the manufacturer's instructions.",
+    "Eye protection and gloves as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Skipping the seal check because the respirator was worn yesterday.",
+      "prevention": "Carry out the seal check every time."
+    },
+    {
+      "error": "Using a respirator with a clogged or damaged filter.",
+      "prevention": "Inspect before use and replace on schedule."
+    },
+    {
+      "error": "Choosing a respirator type without the site's direction.",
+      "prevention": "Use the type specified by the site risk assessment."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Respiratory protection is set by the hierarchy of control and the site risk assessment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Fit testing or respirator selection is not a licence. This lesson does not authorise a person to fit or select respirators for others.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Correct respirator type confirmed with the site before the task.",
+    "User seal check passed before each use in the practical.",
+    "Failed seal or damaged filter stopped and reported."
+  ],
+  "documentationEvidence": [
+    "Respirator type and seal-check record.",
+    "Report of any failed check, damaged filter or wrong type."
+  ],
+  "summary": [
+    "Respiratory protection is the last control, not the first.",
+    "A respirator protects only when it seals.",
+    "Carry out the seal check every time.",
+    "Stop, leave and report when protection fails."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L06-K01",
+      "question": "Why is respiratory protection the last control?",
+      "options": [
+        "Because it is the easiest control to fit on site and the staff are used to it",
+        "Because it is optional and it can be skipped on any quiet day at all",
+        "Because controls at source come first, and the respirator is the final layer"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L06-K02",
+      "question": "When is a user seal check carried out?",
+      "options": [
+        "Each time the respirator is put on",
+        "Only at the induction course today",
+        "Once a month at the start of the month"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L06-K03",
+      "question": "Your respirator fails the seal check. What do you do?",
+      "options": [
+        "Wear it anyway for a short task and it will probably hold",
+        "Leave the dusty area, and report it without starting the task",
+        "Tape around the edge and then carry on with the task"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L06.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "UNCONFIRMED: state and territory requirements for respirator selection, fit testing and records.",
+    "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register (see NAT-CHEM-01)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

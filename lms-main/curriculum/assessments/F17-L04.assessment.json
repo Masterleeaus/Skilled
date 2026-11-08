@@ -1,0 +1,45 @@
+{
+  "lessonId": "F17-L04",
+  "knowledgeAnswers": [
+    {
+      "id": "F17-L04-K01",
+      "correctIndex": 1,
+      "rationale": "The procedure says to inspect plugs, cables, chargers, switches and equipment condition before energising, and to observe site electrical testing and residual-current protection."
+    },
+    {
+      "id": "F17-L04-K02",
+      "correctIndex": 0,
+      "rationale": "Stopping, isolating and tagging out the fault, and arranging an authorised inspection, is correct. Defective equipment is tagged out and an authorised inspection is arranged. Workers do not repair equipment, keep using it, or reset a breaker until the machine holds."
+    },
+    {
+      "id": "F17-L04-K03",
+      "correctIndex": 0,
+      "rationale": "The worked scenario says the operator stops and reports the fault rather than resetting it repeatedly. Bypassing protection is unsafe."
+    },
+    {
+      "id": "F17-L04-K04",
+      "correctIndex": 2,
+      "rationale": "Using a damaged lead while it still powers the machine is the unsafe alternative. The lesson says never to use damaged leads or overload outlets. Tagging out and reporting a faulty machine, checking residual-current protection before use and arranging an authorised inspection are all safe practices."
+    },
+    {
+      "id": "F17-L04-K05",
+      "correctIndex": 0,
+      "rationale": "Recording and tagging out the fault, and arranging an authorised inspection before reuse, is the correct record. Faults are reported and tagged out, and an authorised inspection is requested. Treating a fault as resolved because it works after a reset, or keeping it unlogged, does not meet this."
+    }
+  ],
+  "practicalCriteria": [
+    "Recognises faults and isolates equipment rather than attempting repair.",
+    "Explains applicable scope and site procedures",
+    "Demonstrates hazard controls and safe stop-work decisions",
+    "Records results and limitations accurately"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Record of procedure step 5: If equipment trips a breaker or a fault is intermittent, stop and report it rather than resetting it repeatedly."
+  ],
+  "stopWorkCriteria": [
+    "Stop work if procedure step 4 is not done: Do not use damaged leads or overloaded outlets, and do not handle electrical equipment with wet hands.",
+    "Stop work if procedure step 5 is not done: If equipment trips a breaker or a fault is intermittent, stop and report it rather than resetting it repeatedly.",
+    "Stop work if procedure step 7 is not done: Leave repair to an authorised person, and do not isolate, repair or work on electrical installations or solar systems under this lesson."
+  ]
+}

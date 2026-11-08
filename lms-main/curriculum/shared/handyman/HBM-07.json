@@ -1,0 +1,142 @@
+{
+  "id": "HBM-07",
+  "title": "Buying tools and equipment in stages",
+  "courseSlugs": [
+    "handyman"
+  ],
+  "moduleTitle": "Shared: Tools, equipment and maintenance",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Handyman owners who are deciding which tools to buy, hire, borrow or refer for their first services",
+  "prerequisites": [
+    "handyman-work-L03",
+    "handyman-work-L04"
+  ],
+  "learningOutcomes": [
+    "Build a list of tool categories needed for the first three to five planned services.",
+    "Decide for each tool whether to own, borrow, hire or refer it, and record the reason.",
+    "Keep a tool register with purchase, inspection and storage details."
+  ],
+  "instruction": [
+    {
+      "heading": "Starting from the services, not the shop",
+      "body": "The most common way to overspend is to buy tools for jobs that have not been booked. Start from the first few services on the list. For each service, write down the tasks it requires and the tool categories each task uses: measuring and marking, fixing and fastening, cutting, power tools, access equipment, cleaning and protection, and personal protective equipment. Tools the owner already has come first. A tool needed once a year may be better hired or borrowed, provided the hire is safe and the operator is competent. Record the reason for each decision so it can be reviewed later."
+    },
+    {
+      "heading": "Buying in the order of use",
+      "body": "Buy the tools used most often for the first services, and add the rest as work arrives. A practical test is to buy a tool when a booked job needs it and when the cost of hiring it for the year would be higher than the cost of owning it. Keep the receipt for every purchase, linked to the job or service it supports. Choose tools that suit the materials and tasks actually taken on, and check each tool's rated use before buying. Quality matters most for tools that carry load, cut or fasten, because a failed tool causes injuries and rework."
+    },
+    {
+      "heading": "Looking after what is bought",
+      "body": "Inspect each tool before use, clean it after use, and store it where it cannot damage or injure anyone. Check the cords, guards and switches of power tools. Inspect ladders and access equipment before each use, as set out in “Ladders, elevated access and fall prevention”. A tool register lists each tool with its purchase date and cost, a serial number or other identifying mark, the date of the last inspection and any repair. Keep the register in the vehicle folder or in cloud storage, and update it after every repair."
+    },
+    {
+      "heading": "Protecting against theft and damage",
+      "body": "Tools are a business asset and are often stolen from vehicles. Keep the most valuable tools locked away, mark them with an identifier, and photograph them for the register. Check with the insurer whether tools and equipment are covered, and whether any storage condition applies to tools kept in a vehicle."
+    }
+  ],
+  "procedure": [
+    "List the first three to five services and the tool categories that each task requires.",
+    "Mark each tool as owned, borrowed, hired or referred, and record a reason for each decision.",
+    "Buy only the tools needed for booked or near-term work, and keep each receipt linked to its job.",
+    "Set up a tool register with identifiers, purchase details, inspection dates and the storage location.",
+    "Add an inspection step before each use, and take any damaged tool out of service until it is repaired.",
+    "Review the register every three months, and add or remove items according to the booked work."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A new owner wants to buy a full set of power tools before any job is booked, including a specialist tool that would be used only for one type of job.",
+      "decisionPrompt": "What should the owner buy first?",
+      "reasoning": "The owner should buy the tools needed for the first booked services, and any tool used on almost every job. The specialist tool used once should be hired or referred. Buying the full set before work starts uses cash that the runway in “Start-up costs, cash runway and business banking” needs for insurance and slow months. The list can be reviewed after the first three months of work."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Tool register with identifiers and inspection dates",
+    "Lockable box or cabinet for valuable tools",
+    "Personal protective equipment matched to each task"
+  ],
+  "commonErrors": [
+    {
+      "error": "Buying tools for work that has not been booked or priced.",
+      "prevention": "Start from the service list, and tie each purchase to a booked job or a planned service."
+    },
+    {
+      "error": "Using damaged or uninspected power tools or access equipment.",
+      "prevention": "Inspect before each use, and take any damaged item out of service until it is repaired."
+    },
+    {
+      "error": "Losing track of receipts and tool details.",
+      "prevention": "Keep one register, and file each receipt with its job reference on the day of purchase."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Power tool and ladder safety rules, electrical testing requirements and any tool-specific licensing are set by state and territory work health and safety rules.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Operating a tool or machine that a state or territory requires a licence or certificate to use is licensed or authorised work. This lesson does not grant any such licence or authority.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each tool on the list has a stated reason: owned, borrowed, hired or referred.",
+    "The tool register holds identifiers, purchase details and inspection dates for every owned tool.",
+    "Each receipt is linked to the job or service it supports."
+  ],
+  "documentationEvidence": [
+    "Tool list for the first services, with the reason for each decision",
+    "Tool register with identifiers, purchase dates, costs and inspection dates",
+    "Receipts filed with their job references"
+  ],
+  "summary": [
+    "Start from the booked services, and buy tools in the order they are used.",
+    "Keep a tool register, and inspect each tool before use.",
+    "Protect valuable tools from theft, and check the insurance conditions."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.maintenance_schedule}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-07-K01",
+      "question": "What should drive the first tool purchases?",
+      "options": [
+        "The largest tool shop nearby and the one with the cheapest prices in town",
+        "Tools for the first booked or planned services, bought in the order they are used",
+        "A complete set of every tool on any list from the start, whatever the work",
+        "The tools a friend recommends, since they have already tested them"
+      ]
+    },
+    {
+      "id": "HBM-07-K02",
+      "question": "When is hiring a tool likely to be the better option?",
+      "options": [
+        "For a tool used on every job and it should be bought, not hired, for the whole business life",
+        "For a specialist tool used once or twice a year, where the hire is safe and the operator is competent",
+        "Whenever the owner dislikes the tool and the tool looks old and dirty to the owner",
+        "Every time, because hired tools need no training or checking at all and the hire shop checks everything"
+      ]
+    },
+    {
+      "id": "HBM-07-K03",
+      "question": "A power tool has a damaged cord. What is the correct action?",
+      "options": [
+        "Use it carefully for a short job and check the cord again at the end",
+        "Take it out of service until it is repaired, and record the damage",
+        "Tape the cord and keep the tool in use until the job is done",
+        "Hand the tool to the client to check and ask them to pay for the repair"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Starting a Handyman Business guide (dca133d1-Starting-a-Handyman-Business.pdf), Chapter Seven (pp. 27-28); rights: user-held; reworded (no copying). The 50-item tool list is not reproduced.",
+    "Cross-checked against handyman-work-L03 (hand tools, PPE and safe work area), handyman-work-L04 (portable power tools and energy isolation), F17-L01 (manual tools) and HBM-03 (cash runway); overlap recorded",
+    "Power tool, ladder and tool-specific licensing rules, and insurance storage conditions: UNCONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

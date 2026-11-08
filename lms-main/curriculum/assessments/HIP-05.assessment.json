@@ -1,0 +1,33 @@
+{
+  "lessonId": "HIP-05",
+  "knowledgeAnswers": [
+    {
+      "id": "HIP-05-K01",
+      "correctIndex": 0,
+      "rationale": "Flushing and reporting are the required first steps. The other options delay care or add a non-standard product."
+    },
+    {
+      "id": "HIP-05-K02",
+      "correctIndex": 0,
+      "rationale": "Washing, free bleeding without squeezing, and immediate reporting match the source. The other options squeeze the wound, add antiseptic as a first step, or delay the report."
+    },
+    {
+      "id": "HIP-05-K03",
+      "correctIndex": 0,
+      "rationale": "Those details are what follow-up needs. Contact details alone or blame are not what the record requires."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock splash to the eye, the learner names the flushing method and the person to report to.",
+    "The learner completes a mock exposure record with every required detail."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of the mock response",
+    "Completed mock exposure record"
+  ],
+  "stopWorkCriteria": [
+    "An exposure has occurred and the worker has not yet been able to wash or flush",
+    "The worker is asked to continue a task while the exposure report is still open"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "lessonId": "C06-L02",
+  "knowledgeAnswers": [
+    {
+      "id": "C06-L02-K01",
+      "correctIndex": 0,
+      "rationale": "Wet work on loose dust turns it into a film or mud that is harder to remove. Dry removal first avoids that rework."
+    },
+    {
+      "id": "C06-L02-K02",
+      "correctIndex": 1,
+      "rationale": "High to low keeps falling dust off finished surfaces, and floors are cleaned last where safe."
+    },
+    {
+      "id": "C06-L02-K03",
+      "correctIndex": 2,
+      "rationale": "A zone is finished when it meets its acceptance criteria and is signed off, or when any unresolved item is recorded. Appearance from the doorway or the occupant's view is not enough."
+    }
+  ],
+  "practicalCriteria": [
+    "In a mock room, the worker records the baseline condition room by room, sets up a staging area outside the path of work, and confirms the SDS for each product is on site.",
+    "The worker sequences a simulated room high to low, dry-removes dust before any wet process, and cleans the floor last.",
+    "Where a simulated dusty surface is marked as possibly containing silica, the worker uses a wet or approved-vacuum method and does not dry sweep or use compressed air.",
+    "The worker identifies a simulated heavy item as a manual task, uses a mechanical aid or a second person, and records any area not reached.",
+    "The worker signs off each zone against its acceptance criteria, and records any unresolved mark without describing it as cleaned."
+  ],
+  "passRule": "Site prepared and baseline recorded. Sequence followed, with dust removed before wet work and floors last. Silica-risk dust handled without dry methods. Each zone signed off against criteria, or the unresolved item recorded. Observed in a supervised simulation. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Baseline condition record for the mock room",
+    "Zone sign-off record with acceptance criteria",
+    "Record of any unresolved item and any manual-task control used",
+    "Assessor observation sheet"
+  ],
+  "stopWorkCriteria": [
+    "Appliance disassembled by the cleaner",
+    "Wet work begun over unremoved dust",
+    "Compressed air or dry sweeping used on a surface that may contain silica",
+    "Heavy item moved alone when a mechanical aid or second person is needed"
+  ]
+}

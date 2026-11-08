@@ -1,0 +1,205 @@
+{
+  "id": "pond-cleaning-L10",
+  "title": "Electrical, mechanical and confined-space boundaries for ponds",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pond maintenance workers who work near pond pumps, lights, UV units, pits and sumps",
+  "prerequisites": [
+    "F02-L01",
+    "F17-L04"
+  ],
+  "learningOutcomes": [
+    "Identify the electrical, mechanical and confined-space hazards around a pond pump, light, UV unit or pump pit",
+    "Isolate, secure and prove off the power to a pond pump before any inspection that needs it",
+    "Recognise when a pit, sump or vault may be a confined space, and refuse entry without authority and a procedure",
+    "State where the scope of pond maintenance ends and licensed or specialist work begins, without implying that this lesson grants any licence"
+  ],
+  "instruction": [
+    {
+      "heading": "Water and electricity around a pond",
+      "body": "Pond pumps, lights, UV units and cords are often installed close to water, and the water can carry a shock if equipment is damaged or wet. A safety switch, which is a residual current device, reduces the risk of electric shock, but it does not make live work safe and does not give anyone permission to work on the system. Treat any pond electrical equipment as live until it has been isolated and proven dead by a competent person. The Queensland electrical safety office says submersible pumps need an earthed design or a 12-volt supply, and that equipment should run through a safety switch, with cords and appliances kept out of the water. Do not work on a light, pump or cord while the surrounding area is wet."
+    },
+    {
+      "heading": "Where electrical work becomes licensed work",
+      "body": "In New South Wales, wiring work is licensed or certified work at any price, and the page treats putting in, fixing, changing, taking out or extending an electrical installation as wiring work. A pond maintenance worker may isolate equipment, inspect the outside of it, check that a cord is undamaged and report a fault. A repair, a rewire, a new connection or the opening of a fixed enclosure is for a licensed person. Completing this lesson does not give anyone the authority to do electrical work."
+    },
+    {
+      "heading": "Mechanical hazards and isolation",
+      "body": "Pumps and their impellers can start when power is restored, and a pump that is off at the switch can still be live at the isolator. Before reaching into a pump, strainer or intake, isolate the power at the isolator, check that the isolator is off, and secure it so that it cannot be switched on while you work, as the site procedure directs. Prove the circuit dead with a proving test where your procedure requires it. Some ponds also have stored pressure in filter housings, hot surfaces on lamps, and pipework that can move. Check the equipment before you touch it, and never reach into a running pump to clear a blockage."
+    },
+    {
+      "heading": "Confined spaces in ponds and water features",
+      "body": "Pump pits, sumps, vaults, underground chambers and enclosed plant cabinets can be confined spaces. A confined space has limited openings for entry and exit, is not designed for people to work in continuously, and can hold a hazard such as low oxygen, gas, engulfment or a hazard from the water or the equipment. Assess the space before any entry. Entry needs a documented procedure, an assessment of the atmosphere and hazards, a standby person and, where the rules require it, a permit. Do not enter a pit that has standing water or a closed plant cabinet on your own, and never enter a pit to clear it by hand."
+    },
+    {
+      "heading": "The scope boundary",
+      "body": "Pond maintenance scope usually covers cleaning, inspection, reading equipment from the outside, isolating power as the procedure allows, cleaning intake screens and baskets, and reporting faults. Replacing or rewiring a pump or light, opening electrical enclosures, entering a confined space, altering a controller and changing pipework are outside that scope unless the work order, the client, and the worker's licence and competence all cover them. When a task is outside scope, stop, make the equipment safe as far as the procedure allows, and refer the task in writing with the symptoms and readings."
+    }
+  ],
+  "procedure": [
+    "Confirm the work order covers the task before you go near the equipment.",
+    "Identify the electrical, mechanical and confined-space hazards around the pump, light, UV unit or pit.",
+    "Isolate the power at the isolator, secure it as the site procedure directs and prove it off where the procedure requires.",
+    "Check for stored pressure, hot surfaces and moving parts before you touch the equipment.",
+    "If the space is a pit, sump, vault or enclosed cabinet, assess it first and do not enter without the procedure, a standby person and any permit the rules require.",
+    "Inspect from the outside where the scope allows, and record the readings and any fault you observe.",
+    "Refer any electrical, mechanical or confined-space repair to the client and to the licensed or qualified person, with the wear and PPE set by {{business:safety.required_ppe}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pond pump needs inspection, and the power switch for it is on the wall beside the pond. The pump is in a shallow pit with standing water.",
+      "decisionPrompt": "What must happen before any hand goes near the pump, and can you enter the pit?",
+      "reasoning": "Go to the isolator for the pump, switch it off, secure it so it cannot be turned on, and prove the supply off where your procedure requires. Do not rely on the wall switch or the safety switch. Do not enter the pit to reach the pump. Assess the pit as a possible confined space. If the pump can be inspected from the outside safely, do so and record the readings. If not, refer the inspection to a person who has the procedure, a standby person and any permit the rules require."
+    },
+    {
+      "situation": "While servicing a pond light, you find a loose junction box and the cable is discoloured near the connection.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "Do not open the junction box, reconnect the cable or tape the connection. Isolate the light's supply, leave it off, and report the loose box and discoloured cable in writing with its location. Record the referral and the client's decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Isolator lock or tag, and proving test where the procedure requires it",
+    "Insulated tools rated for the work, and a test device if the procedure requires it",
+    "Confined-space procedure, gas test and standby arrangement where a pit or enclosure is assessed",
+    "Gloves, eye protection and non-slip footwear as set by {{business:safety.required_ppe}}",
+    "Fault report form or system"
+  ],
+  "commonErrors": [
+    {
+      "error": "Working on a pump without isolating, securing and proving the power off.",
+      "prevention": "Isolate at the isolator, secure it, prove it off where the procedure requires and then start work."
+    },
+    {
+      "error": "Entering a pit with standing water to clear it by hand.",
+      "prevention": "Treat the pit as a possible confined space. Refuse entry without the procedure, a standby person and any required permit."
+    },
+    {
+      "error": "Believing that a safety switch makes live work safe.",
+      "prevention": "A safety switch reduces risk. It does not make work on live equipment safe or allowed."
+    },
+    {
+      "error": "Opening a junction box or light fitting in a wet area.",
+      "prevention": "Isolate the supply, leave it off, and refer the fault in writing."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In New South Wales, wiring work is licensed or certified work at any price.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any electrical licence or any authority to repair, rewire or open fixed electrical equipment. Completing it does not give that authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Confined-space entry needs a documented procedure, an atmosphere and hazard assessment, a standby person and any permit the rules require.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Where a client has electrical equipment in or near the water, the manufacturer's instructions apply, and the Queensland electrical safety guidance on submersible pumps and safety switches applies in Queensland.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Isolation is confirmed and secured before any inspection that needs it.",
+    "No confined-space entry happens without the procedure and a standby person.",
+    "Repairs outside scope are referred with a written fault description."
+  ],
+  "documentationEvidence": [
+    "Isolation record with time and person",
+    "Confined-space assessment and the reason for any refusal to enter",
+    "Fault report with location, condition and the referral made"
+  ],
+  "summary": [
+    "Treat pond electrical equipment as live until it has been isolated, secured and proven off by a competent person.",
+    "A pit, sump or enclosed cabinet can be a confined space. Do not enter without the procedure, a standby person and any required permit.",
+    "Wiring, repairs and opening fixed enclosures are for a licensed person, and this lesson does not grant that licence.",
+    "Refer every task outside scope in writing, with the symptoms and readings."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pond-cleaning-L10-K01",
+      "question": "A pond pump needs inspection and its power switch is nearby. What must happen before any hand goes near the pump?",
+      "options": [
+        "Isolate the power at the isolator, secure it, and prove it off where the procedure requires",
+        "Check that it looks off and start work straight away, since the pump is quiet now",
+        "Ask the client to switch it off, since they know the pond and the pump best of all",
+        "Rely on the residual current device, since it protects the worker from shocks"
+      ]
+    },
+    {
+      "id": "pond-cleaning-L10-K02",
+      "question": "A pit with standing water needs checking. What is the correct response?",
+      "options": [
+        "Enter quickly to save time and get the pit checked before the water rises again, since the check is short and simple",
+        "Treat it as a possible confined space and refuse entry without the procedure, a standby person and any required permit",
+        "Enter alone wearing a mask, since the mask protects the lungs from any gas that is in the pit and the sump",
+        "Pump the water out by hand while you stand inside the pit to clear it quickly and finish the job today"
+      ]
+    },
+    {
+      "id": "pond-cleaning-L10-K03",
+      "question": "A client asks you to rewire a pond light. What should you do?",
+      "options": [
+        "Rewire it, because pond lights are low voltage and the work is simple to do",
+        "Rewire it with the power on so the light can be tested as the work goes",
+        "Do not rewire it. Refer the wiring to a licensed electrician, and record the request",
+        "Agree, because completing this lesson gives you the authority to do the work"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electricity around water",
+      "url": "https://electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Search electricalsafety.qld.gov.au for 'electricity around water' and read the pumps, safety switch and cords sections. Publisher: Electrical Safety Office Queensland."
+    },
+    {
+      "id": "R2",
+      "title": "Electrical licences and certificates",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Search nsw.gov.au for 'electrical licences and certificates' and read the wiring work definition and licence requirement. Publisher: NSW Government."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Electrical Safety Office Queensland, Electricity around water (no date shown); NSW Government, Electrical licences and certificates (last updated 23 June 2026).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-P4 Electrical Safety Office Queensland, Electricity around water, https://electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water, checked 2026-11-02, page shows no date. Used for the earthed-or-12-volt rule for submersible pumps, the safety switch, and the cords-out-of-water point. The licensed-electrician sentence on that page is in the pool section and is not applied to ponds.",
+    "SRC-P8 NSW Government, Electrical licences and certificates (electrical wiring work), https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical, checked 2026-11-02, last updated 23 June 2026. Used for the licence or certificate rule for wiring work regardless of cost and the definition of wiring work. The page does not mention ponds, cleaning or maintenance.",
+    "research/topics/pond.md section 4, checked 2026-11-02: hazard list. Confined-space points were not checked against a state rule in that pass.",
+    "UNCONFIRMED: whether pond maintenance tasks are electrical work in each state and territory; confined-space rules by state and territory; standards for pond electrical equipment in each state; whether pond lights are fixed wiring.",
+    "Official references in officialReferences were read on 2026-11-03 (R1 to R2). The SRC entries above remain as the earlier source trail."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Check the current rule for each point on the official pages listed above: Electrical Safety Office Queensland, Electricity around water (no date shown); NSW Government, Electrical licences and certificates (last updated 23 June 2026).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-10.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-11.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    }
+  ]
+}

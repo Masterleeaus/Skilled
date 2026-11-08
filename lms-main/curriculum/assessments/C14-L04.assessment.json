@@ -1,0 +1,35 @@
+{
+ "lessonId": "C14-L04",
+ "knowledgeAnswers": [
+  {
+   "id": "C14-L04-K01",
+   "correctIndex": 0,
+   "rationale": "Forcing a part can damage the appliance. Check first."
+  },
+  {
+   "id": "C14-L04-K02",
+   "correctIndex": 1,
+   "rationale": "Wet parts can cause damage and create hazards when refitted."
+  },
+  {
+   "id": "C14-L04-K03",
+   "correctIndex": 2,
+   "rationale": "Dismantling is beyond routine cleaning and is escalated."
+  }
+ ],
+ "practicalCriteria": [
+  "Removes only the user-removable parts of a sample appliance.",
+  "Dries removable parts and checks seals before refitting.",
+  "Stops at a simulated dismantling step and escalates."
+ ],
+ "passRule": "Only user-removable parts removed, parts dried and checked, and dismantling stopped. Observed by an assessor.",
+ "evidenceRequired": [
+  "Removable parts record",
+  "Assessor observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Housing dismantled by the cleaner",
+  "Fixed wiring disconnected",
+  "Wet part refitted"
+ ]
+}

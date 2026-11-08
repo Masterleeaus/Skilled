@@ -1,0 +1,40 @@
+{
+  "lessonId": "NEW-STN-10",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STN-10-K01",
+      "correctIndex": 2,
+      "rationale": "Slurry can run into drains and dry into airborne dust, and an unmarked wet floor is a slip hazard."
+    },
+    {
+      "id": "NEW-STN-10-K02",
+      "correctIndex": 3,
+      "rationale": "Dry sweeping and compressed air are not permitted. Slurry is collected by a rated method or kept in contained collection."
+    },
+    {
+      "id": "NEW-STN-10-K03",
+      "correctIndex": 0,
+      "rationale": "Marking the wet area warns people and manages the slip risk."
+    },
+    {
+      "id": "NEW-STN-10-K04",
+      "correctIndex": 1,
+      "rationale": "Stopping the water and containing the flow limits the release. The event is reported and recorded under the site procedure."
+    }
+  ],
+  "practicalCriteria": [
+    "Sets up containment and drain protection before the first pass",
+    "Cleans slurry as the work proceeds, using approved methods",
+    "Marks and manages the wet area",
+    "Responds correctly when slurry reaches a drain"
+  ],
+  "passRule": "Knowledge checks: 4 of 5 correct (80%). Practical sign-off is separate and is not granted by the knowledge check: an assessor must observe every critical practical criterion and record it.",
+  "evidenceRequired": [
+    "Containment record before start",
+    "Slurry disposal record and incident record where applicable"
+  ],
+  "stopWorkCriteria": [
+    "Slurry reaches a drain and cannot be contained at once",
+    "Floor cannot be made safe for workers or the public"
+  ]
+}

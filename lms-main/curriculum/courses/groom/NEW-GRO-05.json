@@ -1,0 +1,213 @@
+{
+  "id": "NEW-GRO-05",
+  "title": "Grooming bookings and recurring packages",
+  "courseSlugs": [
+    "groom"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RV",
+  "estimatedMinutes": 20,
+  "audience": "Mobile pet groomers who take bookings, sell recurring grooming packages and grow a regular client base",
+  "prerequisites": [
+    "F01-L01",
+    "F01-L02",
+    "F01-L04"
+  ],
+  "referencesAtStart": "Official sources: Agriculture Victoria, Domestic animal businesses (list of business types) (no date shown); City of Stonnington, Apply for a domestic animal business permit (no date shown); ACT Government, Registered pet businesses (no date shown); ACCC, Small business toolkit: consumer rights and guarantees (no date shown).",
+  "learningOutcomes": [
+    "Build a grooming booking that allows for the full groom, the checks, the clean-down and the travel",
+    "Set the terms of a recurring package, including the frequency, the price basis and the cancellation rule"
+  ],
+  "instruction": [
+    {
+      "heading": "Booking the whole groom",
+      "body": "A grooming booking has more steps than the clip. It includes the arrival check, the set-up, the consultation, the bath or the dry, the clip, the coat and skin check in “Coat and skin checks; refer abnormal findings”, the clean-down, the handover to the owner, and the travel between homes. A booking that allows only the clipping time puts the groomer under pressure to skip the checks. Build each booking from its steps, and record the time for each step. The business's scheduling method is held in {{business:jobs.scheduling_method}}, and the arrival steps are in {{business:jobs.arrival_procedure}}. Where an animal needs extra time, such as a large or nervous dog, the booking should say so before the appointment is confirmed."
+    },
+    {
+      "heading": "Recurring packages and the terms they need",
+      "body": "A recurring package sells a set of grooms at a regular interval, such as every four or six weeks. The package must state the frequency, the services included, the price basis and how it is paid, what happens if an appointment is missed, the cancellation rule, and how changes to the animal's needs are handled. The ACCC's guidance says the consumer guarantees apply to services, and that a business's own refund policy must sit alongside them, not replace them. Each groom under a package still needs its own check, consultation and record, and the package should not be used to shorten those steps. The package terms are recorded in {{business:pricing.pricing_method}}, and the minimum charge in {{business:pricing.minimum_charge}}."
+    },
+    {
+      "heading": "Registration for mobile grooming",
+      "body": "Mobile pet grooming is not among the Victorian domestic animal business types that Agriculture Victoria lists, and Stonnington's permit page does not name it either. Those are list positions only, and they are not exemptions. No Victorian council registration for mobile groomers was confirmed. The ACT's pet business licensing page does not mention grooming. The position in other states was not researched in this course. Before a mobile grooming service is offered in any place, the business must confirm the council and state position and record the source and the date. The absence of a confirmed rule is not permission to operate without one. Completing this lesson does not register the business or approve any grooming service."
+    }
+  ],
+  "procedure": [
+    "Build each booking from its steps: arrival, set-up, consultation, bath or dry, clip, skin check, clean-down, handover and travel",
+    "Note any extra time needed for a large, nervous or senior animal before the booking is confirmed",
+    "Write the package terms, including the frequency, services, price basis, missed-appointment rule and cancellation rule",
+    "Check the package terms against the consumer-law position before the package is sold, and record the check",
+    "Confirm the council and state position for mobile grooming in each place, and record the source and date",
+    "Review the bookings and packages each term, and remove any step that has been cut to fit the schedule"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A groomer books four home visits in one morning, each allowing 30 minutes, to fit a package for a client with several dogs. Each groom needs the full check and clean-down.",
+      "decisionPrompt": "Is the schedule workable, and what should change?",
+      "reasoning": "Thirty minutes does not allow for the arrival, set-up, bath, clip, skin check, clean-down, handover and travel for each animal. The groomer would be tempted to skip the checks. The booking should be rebuilt from its steps, and the visits spread across the day or the package adjusted. The schedule must not cut the check or the clean-down."
+    },
+    {
+      "situation": "A mobile groomer is asked whether a grooming service is covered by the council's registration rules in a Victorian council area.",
+      "decisionPrompt": "What should the groomer say?",
+      "reasoning": "The groomer should not say that no registration is needed, and should not say that one is required. The groomer should say that the position is being checked, check the council, and record the source and date before offering the service in that area."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Booking system or diary with time for each groom step",
+    "Written package terms, approved by the business",
+    "Council and state position record for each area where the service is offered",
+    "Insurance certificate for the business, held on file"
+  ],
+  "commonErrors": [
+    {
+      "error": "Booking a groom with time only for the clip.",
+      "prevention": "Build each booking from its steps, including checks, clean-down, handover and travel."
+    },
+    {
+      "error": "Selling a recurring package with no written missed-appointment or cancellation rule.",
+      "prevention": "Write the terms first and check them against the consumer-law position before selling."
+    },
+    {
+      "error": "Stating that mobile grooming needs no registration because it is not on a list.",
+      "prevention": "Absence from a list is not an exemption."
+    },
+    {
+      "error": "Using a package to shorten the check for each groom.",
+      "prevention": "Every groom under a package has its own check, consultation and record."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Mobile pet grooming is not among the Victorian domestic animal business types listed by Agriculture Victoria or the permit types on Stonnington's page. This is a list position only and is not an exemption.",
+      "licenceNotice": true
+    },
+    {
+      "point": "No Victorian council registration for mobile groomers was confirmed.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Consumer guarantees under the Australian Consumer Law apply to services, which must be fit for purpose, carried out carefully and skilfully, and provided within a reasonable period.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The ACT pet business licensing page does not mention grooming.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not register the business or approve any grooming service.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every booking is built from its steps, with the time for each step recorded",
+    "Every package has written terms checked against the consumer-law position",
+    "The council and state position for mobile grooming is recorded for each area before the service is offered",
+    "Every package groom has its own check, consultation and record"
+  ],
+  "documentationEvidence": [
+    "Booking record with the time for each groom step",
+    "Written package terms, with the consumer-law check recorded",
+    "Council and state position record for each area, with source and date",
+    "Insurance certificate for the business, held on file"
+  ],
+  "summary": [
+    "Book the whole groom, not just the clip",
+    "Package terms need a written missed-appointment and cancellation rule, checked for consumer law",
+    "Completing this lesson does not register the business or approve any service"
+  ],
+  "referencesAtEnd": "Official sources, as listed at the start: Agriculture Victoria; City of Stonnington; ACT Government; ACCC.",
+  "businessFields": [
+    "{{business:jobs.scheduling_method}}",
+    "{{business:jobs.arrival_procedure}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:compliance.jurisdiction}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-GRO-05-K01",
+      "question": "A groomer plans four home visits in one morning, with 30 minutes each, and wants to skip the skin check to fit them in. What is the correct decision?",
+      "options": [
+        "Skip the skin check, since the schedule is fixed and the clean-down can be done later",
+        "Shorten the bath to save time between the four home visits in the morning",
+        "Rebuild the bookings from their steps and keep the skin check and clean-down"
+      ]
+    },
+    {
+      "id": "NEW-GRO-05-K02",
+      "question": "A groomer says mobile grooming needs no registration because it is not on the Victorian list of domestic animal business types. What is the correct response?",
+      "options": [
+        "Absence from a list is not an exemption; the council and state position must be checked",
+        "Agree, since the list is complete and covers every business type in the state",
+        "Agree, but only in Victoria, where the list is kept up to date by the council"
+      ]
+    },
+    {
+      "id": "NEW-GRO-05-K03",
+      "question": "What should a recurring package for grooming state, according to this lesson?",
+      "options": [
+        "Only the price, since the terms are standard for every client and every booking",
+        "Frequency, services, price basis, missed-appointment rule and cancellation rule",
+        "Only the number of grooms booked, with no cancellation rule for the client"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Agriculture Victoria, Domestic animal businesses, https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/domestic-animal-businesses, no date shown, checked 2026-11-02 (GROOM-VIC-01, list position only)",
+    "City of Stonnington, Apply for a domestic animal business permit, https://www.stonnington.vic.gov.au/Business/Business-permits-and-approvals/Apply-for-a-domestic-animal-business-permit, checked 2026-11-02 (list position, GROOM-VIC-01)",
+    "ACT Government, Registered pet businesses, https://www.cityservices.act.gov.au/pets-and-wildlife/animal-welfare/registered-pet-businesses, checked 2026-11-02 (NAT-GROOM-ACT-01, grooming not mentioned, UNCONFIRMED)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (GROOM-VIC-02, NAT-GROOM-NSW-01, NAT-GROOM-QLD-01, NAT-GROOM-TAS-01, NAT-GROOM-WA-01, NAT-GROOM-NT-01, NAT-GROOM-SA-01 UNCONFIRMED)",
+    "Shared lesson references: F01-L01 (professional boundaries), F01-L02 (privacy, security and customer property), F01-L04 (job handover and escalation), within curriculum/lessons/ready"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Domestic animal businesses (list of business types)",
+      "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/domestic-animal-businesses",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read the list; mobile pet grooming is not named. Publisher: Agriculture Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Apply for a domestic animal business permit",
+      "url": "https://www.stonnington.vic.gov.au/Business/Business-permits-and-approvals/Apply-for-a-domestic-animal-business-permit",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read the permit list; grooming is not named. Publisher: City of Stonnington."
+    },
+    {
+      "id": "R3",
+      "title": "Registered pet businesses",
+      "url": "https://www.cityservices.act.gov.au/pets-and-wildlife/animal-welfare/registered-pet-businesses",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read the pet business definition; grooming is not named. Publisher: ACT Government."
+    },
+    {
+      "id": "R4",
+      "title": "Small business toolkit: consumer rights and guarantees",
+      "url": "https://www.accc.gov.au/business/selling-products-and-services/small-business-toolkit/consumer-rights-and-guarantees/introduction",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read the services guarantee and the refund-policy statement; package cancellation rules are not covered. Publisher: ACCC."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-09.jpg",
+      "alt": "Pet grooming illustration",
+      "kind": "photo",
+      "origin": "groom"
+    },
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-10.jpg",
+      "alt": "Pet grooming illustration",
+      "kind": "photo",
+      "origin": "groom"
+    }
+  ]
+}

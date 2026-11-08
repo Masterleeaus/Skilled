@@ -1,0 +1,193 @@
+{
+  "id": "BST-01",
+  "title": "Typical job prices and times: mean or median",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff of home and commercial service businesses in Australia who price jobs or plan their week from past work.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Calculate the mean and the median of a set of job prices or job times taken from your own records.",
+    "Explain why one unusually large job can pull the mean away from the typical job.",
+    "Choose the summary that fits a pricing or planning question and give a reason for the choice."
+  ],
+  "instruction": [
+    {
+      "heading": "Two ways to find the middle",
+      "body": "When you look back over a month of invoices, you want one figure that tells you roughly what a typical job brings in or takes. Two common answers are the mean and the median. The mean comes from adding every job together and dividing by the number of jobs. Because every job feeds into it, one very big job pushes it upward. The median comes from lining the jobs up from smallest to largest and picking the one in the middle. Half the jobs sit below it and half sit above it, so it does not react to how extreme the biggest and smallest jobs are. With an even number of jobs there is no single middle job, so take the two in the centre and average them. Both figures are simple to produce in a spreadsheet, and both are worth having side by side."
+    },
+    {
+      "heading": "Why one big job changes the picture",
+      "body": "Suppose the last nine invoices in your records are $180, $190, $200, $210, $220, $230, $240, $250 and $1,450. The last one is a common-area job in a strata building that happened to fall in the same month. These figures are invented for this lesson, but the pattern is familiar. Add the nine invoices and the total is $3,170. Divide by nine and the mean is about $352. That number looks high, and it is pulled up by a single job that most of your work does not resemble. The median is $220, the fifth value once the list is sorted, and it matches the jobs you see most often. Neither figure is wrong. They answer different questions, and the gap between them is information you should look at rather than hide."
+    },
+    {
+      "heading": "Choosing the right summary",
+      "body": "Use the median when your question is about the typical customer or the typical job. If a new customer asks what a standard bond clean usually costs, or you want to know how long a usual kitchen clean takes, the median gives a fair answer. Use the mean when your question is about totals. If you expect 40 jobs next month and each one averages a certain amount, multiplying the mean by 40 gives the total income you can plan around, and that total includes the occasional large job which is part of real income. When the mean and median sit far apart, a few unusual jobs are shaping the average. Find out what those jobs were before you change any price, because they may point to a scope you have not yet priced properly."
+    }
+  ],
+  "procedure": [
+    "Pull the prices or times for one service type over a fixed period, such as the last 30 completed jobs.",
+    "Remove duplicate rows, such as an invoice that was entered twice, and set aside any job that was cancelled.",
+    "Sort the values from smallest to largest.",
+    "Add all the values together and divide by how many values there are to get the mean.",
+    "Find the middle value, or the average of the two middle values if the count is even, to get the median.",
+    "Note the gap between the two figures and look at the largest and smallest values to explain it.",
+    "Write down which figure answers your question and the reason you chose it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A carpet cleaner completed five jobs in one week: $150, $165, $170, $175 and $1,100 for a small commercial office. The owner wants to quote a typical home carpet job.",
+      "decisionPrompt": "Which figure should the owner use for a typical home carpet quote?",
+      "reasoning": "The mean is $352 (the total of $1,760 divided by five), which the office job pulls upward. The median is $170, which sits close to the four home jobs. For a typical home quote, the median is the better guide. The office job should be priced on its own terms and kept out of the home-job summary."
+    },
+    {
+      "situation": "A handyman has 36 planned jobs next month and needs to estimate the total labour hours for the roster.",
+      "decisionPrompt": "Which summary should the handyman use to estimate the total hours?",
+      "reasoning": "The mean is the right tool here. Multiplying the average hours per job by 36 gives a total that includes the normal mix of short and long jobs. The median would understate the total if a few long jobs are part of the normal workload."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Invoice list or job management export for a fixed period",
+    "Calculator or spreadsheet",
+    "Worksheet or notebook for the calculations and notes",
+    "No site PPE is needed for this lesson; it is desk-based work"
+  ],
+  "commonErrors": [
+    {
+      "error": "Quoting from the mean when one large job has inflated it.",
+      "prevention": "Compare the mean with the median and check the largest job before using the mean for a typical price."
+    },
+    {
+      "error": "Dropping an unusual job from the list without recording why.",
+      "prevention": "Note every excluded job and the reason, so the figure can be explained later."
+    },
+    {
+      "error": "Mixing different services in one list, such as window cleaning and carpet cleaning.",
+      "prevention": "Calculate summaries for one service at a time, or group only comparable jobs."
+    },
+    {
+      "error": "Using the median to estimate a total.",
+      "prevention": "Multiply the mean by the number of expected jobs when you need a total."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers arithmetic on your own job records. It does not cover licensed or authorised work and does not grant any licence or authority.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Customer names and addresses should stay out of shared worksheets where possible.",
+      "licenceNotice": false
+    },
+    {
+      "point": "How long invoices and job records must be kept is set by Australian tax and privacy rules.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Mean and median are calculated correctly for at least nine values from the learner's own records or a supplied practice list.",
+    "The learner names the largest and smallest values and explains any gap between the mean and the median.",
+    "The learner states which summary they would use for a quote and which for a total, with a reason for each."
+  ],
+  "documentationEvidence": [
+    "Worksheet listing the values used, the period covered, and any excluded jobs with the reason for each exclusion.",
+    "The mean, the median and the chosen summary, with the date of calculation."
+  ],
+  "summary": [
+    "The mean adds everything up, so one big job raises it.",
+    "The median is the middle job and is steadier when you want a typical price.",
+    "Use the mean for totals and the median for typical jobs, and investigate any large gap between them."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "BST-01-K01",
+      "question": "A carpet cleaner's last five jobs were $150, $165, $170, $175 and $1,100. Which figure best describes a typical home carpet job?",
+      "options": [
+        "$352, the mean of all five jobs",
+        "$170, the median of all five jobs",
+        "$1,100, the figure for a full house"
+      ]
+    },
+    {
+      "id": "BST-01-K02",
+      "question": "Why is the mean often the better figure when estimating total income for next month?",
+      "options": [
+        "Because it matches the most common job size exactly in most months of the year and the season and the mix",
+        "Because it drops the largest jobs, which keeps the estimate realistic and tidy for the owner and the bank",
+        "Because multiplying it by the expected number of jobs gives a total that includes the normal mix of big and small jobs"
+      ]
+    },
+    {
+      "id": "BST-01-K03",
+      "question": "The median of your invoices is $220 and the mean is $352. What is the most sensible next step?",
+      "options": [
+        "Look at the largest invoices to see what is pulling the mean up before setting a price",
+        "Quote the mean from now on, since it is the most accurate figure available",
+        "Delete the largest invoice so that both figures match in the report and the books"
+      ]
+    },
+    {
+      "id": "BST-01-K04",
+      "question": "Which summary does the lesson say to use when the question is about the typical job?",
+      "options": [
+        "The total of all invoices",
+        "The largest invoice",
+        "The mean, always",
+        "The median"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "General statistical method knowledge; Business Statistics: Australia and New Zealand (Selvanathan and Keller), 7th ed., contents page only; no text used; rights: user-held (upload contains contents only)",
+    "UNCONFIRMED: privacy duties and invoice and record retention periods under Australian law; not checked against current legislation in this draft"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

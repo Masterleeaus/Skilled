@@ -1,0 +1,37 @@
+{
+  "lessonId": "F10-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "F10-L01-K01",
+      "correctIndex": 0,
+      "rationale": "The procedure requires using only credentials issued to you, never tailgating or sharing codes, and checking the access instructions in the approved system."
+    },
+    {
+      "id": "F10-L01-K02",
+      "correctIndex": 1,
+      "rationale": "If access, consent or authority is unclear, the affected work is paused, the nominated contact is told and the reason is documented."
+    },
+    {
+      "id": "F10-L01-K03",
+      "correctIndex": 3,
+      "rationale": "The workplace procedure says to use only credentials issued to you, and never to tailgate through secured doors or share access codes."
+    }
+  ],
+  "practicalCriteria": [
+    "Uses authorised access, locates emergency arrangements, recognises restricted zones and records access exceptions.",
+    "Follows site instructions and authorisation",
+    "Recognises and escalates unsafe or out-of-scope work",
+    "Records factual evidence and handover"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Record of procedure step 2: Complete the required induction before work starts, including the evacuation assembly point, restricted areas, emergency contacts and incident reporting route.",
+    "Record of procedure step 4: Do not tailgate through secured doors. If an unfamiliar contractor offers to hold a secure door, decline and use your own authorised access, and report an unexpected visitor if site policy requires it.",
+    "Record of procedure step 5: If access fails, notify the nominated contact and record the delay."
+  ],
+  "stopWorkCriteria": [
+    "Stop work if procedure step 3 is not done: Use only the credentials issued to you, and never share access codes.",
+    "Stop work if procedure step 4 is not done: Do not tailgate through secured doors. If an unfamiliar contractor offers to hold a secure door, decline and use your own authorised access, and report an unexpected visitor if site policy requires it.",
+    "Stop work if procedure step 6 is not done: Before acting, confirm the authorisation, the hazards and the person responsible for escalation."
+  ]
+}

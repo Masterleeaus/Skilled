@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-LSC-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-LSC-01-K01",
+      "correctIndex": 1,
+      "rationale": "Structures, retaining walls and gas elements may need approvals, engineering or licensed work. They are checked and marked as referred or excluded in the scope, not included without a check."
+    },
+    {
+      "id": "NEW-LSC-01-K02",
+      "correctIndex": 2,
+      "rationale": "A change across a drainage line is a variation. It is checked, recorded and approved in writing before any work begins."
+    },
+    {
+      "id": "NEW-LSC-01-K03",
+      "correctIndex": 0,
+      "rationale": "Installation is the physical work on site. Design is the layout and plan, and supply is the provision of materials."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied mock site brief with one structure, one retaining wall and one planting area, the learner marks each item as in scope, referred or excluded on a mock plan within the assessor's set time.",
+    "The learner lists the approvals that a supplied mock structure might need and names the authority that issues each, with the check to make.",
+    "The learner completes a variation record for a supplied mid-project change, with the client approval step recorded before the extra work."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Annotated mock plan signed by the assessor.",
+    "Approvals list for the mock structure.",
+    "Variation record for the mock mid-project change."
+  ],
+  "stopWorkCriteria": [
+    "Including a mock structure or gas element in the scope without an approval check during the assessment.",
+    "Moving a mock drainage line or service during the assessment without an approved variation."
+  ]
+}

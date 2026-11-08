@@ -1,0 +1,157 @@
+{
+  "id": "mould-remediation-L11",
+  "title": "Moisture correction, drying and recurrence prevention",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Supervisors, coordinators and trained cleaners who may be asked to triage, refer or document mould-related work in homes, rentals and commercial buildings, under an approved plan. Not a qualification or authority to remediate, demolish, or certify any building or room.",
+  "prerequisites": [
+    "mould-remediation-L10"
+  ],
+  "learningOutcomes": [
+    "Order the repair, re-evaluation, drying and finishing steps for a described job.",
+    "Refuse a finishing request made before drying is recorded.",
+    "Schedule follow-up monitoring for recurrence with a named person."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson",
+      "body": "This lesson covers the dependencies between the moisture fix, drying and any finishing or reoccupation decision. It does not decide that a home is ready for occupation, and it does not set a drying method."
+    },
+    {
+      "heading": "Dry before finishing",
+      "body": "The WA Department of Health guideline says surfaces should not be painted, sealed or covered until they are dry. It lists complete drying of construction and building materials, furnishings and carpet as a core principle of remediation, and it says the source must be repaired. Painting over affected surfaces does not remedy dampness, and the mould can return. A landlord who wants new paint before the leak is fixed is asking for a result that will not last. Map the order: source repaired, moisture re-evaluated, drying complete, then cleaning and finishing, and only then the reoccupation decision."
+    },
+    {
+      "heading": "Prevention and monitoring",
+      "body": "The guideline has a prevention section and a moisture-reduction appendix that set out ways to reduce the conditions that allow growth. Its flood appendix says mould can grow within 24 to 48 hours in flood-affected homes, so drying should start as soon as it is safe under the plan. After the work, monitor for recurrence. The guideline lists no recurrence within two to four weeks after remediation as an indicator of success. It does not describe a formal clearance, and it recommends that the evaluation be done by a different entity from the one that did the work."
+    }
+  ],
+  "procedure": [
+    "Confirm that the source is repaired before any cleaning or finishing is planned.",
+    "Re-evaluate moisture after the repair, and record the readings or observations.",
+    "Confirm drying is complete for each material before painting, sealing or covering.",
+    "Plan the finish only after drying is recorded.",
+    "Schedule follow-up monitoring for recurrence, and name the person who does it.",
+    "Record the dependencies and the reoccupation decision separately."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A landlord wants new paint before the leak is fixed.",
+      "decisionPrompt": "What is the response?",
+      "reasoning": "Decline the sequence. Painting over affected surfaces does not remedy dampness, and the mould will return. Record the request and map the dependencies: leak repair, moisture re-evaluation, drying, then finishing."
+    },
+    {
+      "situation": "The leak has been repaired, but the wall is still damp to the touch two days later.",
+      "decisionPrompt": "Can painting begin?",
+      "reasoning": "No. The guideline says not to paint, seal or cover until surfaces are dry. Record the readings, continue drying under the plan, and recheck before any finish."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Dependency record listing repair, re-evaluation, drying and finishing steps.",
+    "Monitoring calendar with dates and a named person.",
+    "Training-only dependency map on paper. No real building is altered in this lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Painting or cleaning over a damp area and calling it fixed.",
+      "prevention": "Identify and correct the moisture source first, then re-evaluate."
+    },
+    {
+      "error": "Sealing a surface before it is dry.",
+      "prevention": "Confirm dryness and record it before any painting, sealing or covering."
+    },
+    {
+      "error": "Assuming no recurrence after one visit proves the fix.",
+      "prevention": "Schedule monitoring, record the results and name the person responsible."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Reoccupation decisions follow the applicable local and contractual requirements. This lesson does not make that decision.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The two-to-four-week no-recurrence point is a WA guideline statement about success. It is not a formal clearance.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner orders the repair, re-evaluation, drying and finishing steps for a described job.",
+    "The learner refuses a finishing request made before drying is recorded.",
+    "The learner schedules follow-up monitoring with a named person."
+  ],
+  "documentationEvidence": [
+    "Dependency record: source repair, re-evaluation, drying and finishing, with dates.",
+    "Monitoring plan with the named person and the dates."
+  ],
+  "summary": [
+    "Repair the source before any finish.",
+    "Do not paint, seal or cover wet surfaces.",
+    "Monitor for recurrence, and name who checks.",
+    "Reoccupation is a separate decision."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "mould-remediation-L11-K01",
+      "question": "A landlord asks for new paint before a leak is repaired. What is correct?",
+      "options": [
+        "Paint now, because the landlord owns the property.",
+        "Paint the top half of the wall only.",
+        "Decline the sequence and map the order: source repair, re-evaluation, drying, then finishing."
+      ]
+    },
+    {
+      "id": "mould-remediation-L11-K02",
+      "question": "According to the WA guideline, when should surfaces be painted or sealed?",
+      "options": [
+        "Only once they are dry.",
+        "As soon as the leak is found.",
+        "Before any drying has started, to keep moisture out."
+      ]
+    },
+    {
+      "id": "mould-remediation-L11-K03",
+      "question": "What does the WA guideline list as an indicator of success after remediation?",
+      "options": [
+        "A formal clearance certificate from the cleaning contractor.",
+        "No recurrence within two to four weeks after remediation, and no ongoing health complaints.",
+        "The lack of any odour on the day of the work."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Internal draft: curriculum/courses/high-risk/HR04-mould-remediation.json, section 11 (reworded; no source text copied).",
+    "WA Department of Health, Guidelines for managing mould and dampness, April 2024 edition, sections 4.1, 4.2.2 and 4.4, and Appendix E, read 2026-11-03 through a page-summary tool.",
+    "UNCONFIRMED: local and contractual reoccupation requirements were not checked for this lesson."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Guidelines for managing mould and dampness: related public health risks in buildings (WA Department of Health)",
+      "url": "https://smhs.health.wa.gov.au/~/media/Corp/Documents/Health-for/Mould/Guidelines-for-Managing-Mould-and-Dampness-Related-Public-Health-Risks-in-BuildingsV20.pdf",
+      "pageDate": "April 2024 (version control table); publication code ENV-0014702 MAY'24; no separate last-updated date shown",
+      "checked": "2026-11-03",
+      "covers": "Read through a page-summary tool on 2026-11-03 (PDF, Environmental Health Directorate, WA Department of Health). Section 1.4 sets out a general public health duty, a workplace duty and a residential tenancies duty. Section 2.1 names people with existing respiratory, immunocompromising and allergic conditions, and infants, children and older people. Section 3.2.2 says porous items are often not economically salvageable and must be thrown out. Section 3.3 says the source must be located to address the cause and prevent recurrence. Section 3.4.1 defines simple contamination as new, isolated and visible, no greater than one square metre, with easily identified causes, and its footnote calls the one-square-metre size arbitrary. Section 3.4.2 defines complex contamination as larger than one square metre or found in multiple rooms or places. Section 3.5 states there are no defined quantitative or qualitative exposure thresholds for mould or dampness. Section 4.1 lists containment, drying and source repair as principles. Section 4.2.2 advises scrubbing hard surfaces with soapy water, avoiding dry brushing, cleaning at least 30 to 50 cm beyond the visible mould, removing or discarding porous items that cannot be adequately cleaned, stating that mould is not considered hazardous waste, and not painting, sealing or covering surfaces until dry. Section 4.3 recommends a site-specific plan with professionals for complex contamination, isolation with heavy grade plastic and negative pressure, and evacuation of occupants. Section 4.4 lists no recurrence within two to four weeks after remediation as an indicator of success, recommends the evaluation be done by a different entity, and states there are no legal requirements for a post-remediation assessment. Appendix B recommends a P2 or N95 respirator and says PAPRs should be used for complex remediation. Appendix E says mould can grow within 24 to 48 hours in flood-affected homes."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": [
+    {
+      "heading": "Module authority and restricted work",
+      "body": "This module is training content. It does not grant authority to remediate, demolish, disturb building materials, handle contaminated water or waste, or certify that a building, room or occupant area is safe or free of mould or pathogens. Completing this lesson does not give a licence, certificate or approval. Restricted or high-exposure remediation is carried out only by an appropriately qualified and competent professional under an approved plan, and some related work, including asbestos and lead disturbance and certain waste handling, is restricted to licensed or specially authorised people. The owner, manager, tenant or contract may define what work is permitted, but where the contract covers only routine cleaning, that is the limit of the task. Where the controlling authority or the competent supervisor is not identified, stop and refer."
+    }
+  ],
+  "stopWorkAndReferral": [
+    {
+      "heading": "Stop-work and referral rules for this module",
+      "body": "Stop and refer whenever any of these is true: the hazards are unknown or changing; the work is destructive or hazardous and outside the authorised scope; exposure is uncontrolled or the building is unsafe to occupy; supervision, equipment or permissions are insufficient; flood, sewage, asbestos or lead may be present; a worker's PPE or respirator readiness has not been verified; a client asks for a clearance or pathogen-free statement; or a waste route is unauthorised. A stop-work decision is correct. Record it and restart only after the competent supervisor has confirmed the scope in writing."
+    }
+  ]
+}

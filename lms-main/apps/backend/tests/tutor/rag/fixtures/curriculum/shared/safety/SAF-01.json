@@ -1,0 +1,35 @@
+{
+  "id": "SAF-01",
+  "title": "Isolation of electrical supply before cleaning",
+  "courseSlugs": ["demo-course"],
+  "moduleTitle": "Shared: safety",
+  "layer": "group",
+  "lessonType": "RH",
+  "estimatedMinutes": 15,
+  "audience": "Fixture learners",
+  "prerequisites": [],
+  "learningOutcomes": ["Explain why isolation comes before any wet work."],
+  "instruction": [
+    {
+      "heading": "Why isolation comes first",
+      "body": "Water and mains power do not mix. Before any wet work near a socket or appliance, the supply must be isolated at the switchboard and the person doing the work must confirm it is dead with a tester."
+    }
+  ],
+  "procedure": ["Locate the switchboard.", "Isolate the circuit and test it."],
+  "workedExamples": [],
+  "equipmentAndPpe": ["Approved voltage tester"],
+  "commonErrors": [
+    { "error": "Assuming a switch off means the circuit is dead.", "prevention": "Test the circuit before any contact." }
+  ],
+  "safetyAndRegulatory": [
+    { "point": "Electrical isolation is licensed work where the local rules say so.", "licenceNotice": true }
+  ],
+  "qualityStandard": ["The circuit is tested dead before work starts."],
+  "documentationEvidence": ["Isolation record"],
+  "summary": ["Isolate, test, then work."],
+  "businessFields": [],
+  "knowledgeChecks": [],
+  "status": "READY",
+  "sourceReferences": ["Fixture source, invented for tests"],
+  "reviewStatus": "NOT REVIEWED"
+}

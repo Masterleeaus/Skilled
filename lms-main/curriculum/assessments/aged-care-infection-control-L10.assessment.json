@@ -1,0 +1,36 @@
+{
+ "lessonId": "aged-care-infection-control-L10",
+ "knowledgeAnswers": [
+  {
+   "id": "aged-care-infection-control-L10-K01",
+   "correctIndex": 2,
+   "rationale": "Until the current formal instruction is obtained from the clinical lead or IPC contact, the restricted area does not start. A heard rumour and an unchanged schedule do not govern, so the cleaner gets the instruction first."
+  },
+  {
+   "id": "aged-care-infection-control-L10-K02",
+   "correctIndex": 0,
+   "rationale": "The outbreak instruction names the product for the handrail. The cleaner does not substitute, tells the supervisor so the named product is supplied, and postpones the handrail."
+  },
+  {
+   "id": "aged-care-infection-control-L10-K03",
+   "correctIndex": 1,
+   "rationale": "The current formal instruction from the facility's clinical or IPC lead governs cleaning during an outbreak. A verbal message and a schedule prepared before the outbreak do not govern."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a rumour of an outbreak with an unchanged schedule that lists a resident room, the learner does not start the room until it has the current formal instruction from the clinical lead or IPC contact.",
+  "Given an outbreak instruction that names a product not on the trolley, the learner does not substitute, and tells the supervisor so the named product is supplied.",
+  "The learner does not carry dedicated equipment from a restricted area into a clean area."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Record showing the instruction source and time before the restricted area was started",
+  "Record of the postponed handrail with the shortfall and time",
+  "Observation note of the dedicated-equipment handling"
+ ],
+ "stopWorkCriteria": [
+  "Learner starts a restricted area on a rumour or an unchanged schedule",
+  "Learner uses a product that the outbreak instruction does not name",
+  "Learner carries dedicated equipment from a restricted area into a clean area"
+ ]
+}

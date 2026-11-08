@@ -1,0 +1,30 @@
+{
+  "lessonId": "flood-water-restoration-L04",
+  "note": "Knowledge checks are a reading check only. A pass on them is not verified practical competence.",
+  "knowledgeAnswers": [
+    {
+      "id": "flood-water-restoration-L04-K01",
+      "correctIndex": 2,
+      "rationale": "Water-affected systems are not energised without licensed clearance, even when they appear switched off."
+    },
+    {
+      "id": "flood-water-restoration-L04-K02",
+      "correctIndex": 0,
+      "rationale": "The NSW release advises avoiding damaged appliances until an electrician or plumber declares them safe."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner keeps water-affected systems de-energised and refers them.",
+    "The learner refuses to isolate, reconnect or test any system.",
+    "Learner completes the procedure record for the mock case and names the stop-work trigger before any practical step."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed mock decision record for the lesson case",
+    "Assessor observation of the simulated scenario, with no real site work or hazardous material"
+  ],
+  "stopWorkCriteria": [
+    "A water-affected system is found or suspected.",
+    "A system would be energised or repaired without licensed clearance."
+  ]
+}

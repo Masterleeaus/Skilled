@@ -1,0 +1,32 @@
+{
+ "lessonId": "SHR-FIN-04",
+ "knowledgeAnswers": [
+  {
+   "id": "SHR-FIN-04-K01",
+   "correctIndex": 1,
+   "rationale": "The cycle begins with the source document, which shows what happened and when, before anything is journalised."
+  },
+  {
+   "id": "SHR-FIN-04-K02",
+   "correctIndex": 1,
+   "rationale": "Asset accounts increase on the debit side, so an increase in an asset is recorded as a debit."
+  },
+  {
+   "id": "SHR-FIN-04-K03",
+   "correctIndex": 1,
+   "rationale": "An entry whose debits and credits differ does not balance and must be corrected before posting; it is not completed by adding a balancing expense."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner journalises ten supplied source documents for one sample month, with debits equal to credits on every entry, and the posted ledger balances agree to the totals of the journal."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Journal and ledger report saved with date and version",
+  "Assessor record of knowledge check result"
+ ],
+ "stopWorkCriteria": [
+  "Learner posts an entry that does not balance",
+  "Learner treats a GST treatment as settled without checking it"
+ ]
+}

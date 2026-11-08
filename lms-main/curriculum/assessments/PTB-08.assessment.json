@@ -1,0 +1,35 @@
+{
+  "lessonId": "PTB-08",
+  "knowledgeAnswers": [
+    {
+      "id": "PTB-08-K01",
+      "correctIndex": 1,
+      "rationale": "The defining features are one trainer, a group of people and individual coaching within a shared session."
+    },
+    {
+      "id": "PTB-08-K02",
+      "correctIndex": 1,
+      "rationale": "Large-class style running is the named mistake. Clear zones and a stated group size are design fixes."
+    },
+    {
+      "id": "PTB-08-K03",
+      "correctIndex": 1,
+      "rationale": "Group size is limited by venue, insurance and safety conditions. A price list or music choice does not set the limit."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner writes a group size range with a reason, and the assessor confirms the reason is tied to coaching coverage",
+    "The learner draws a floor plan with one zone per group and clear walkways, and the assessor checks each zone has its equipment",
+    "The learner records the occupancy limit as checked or blank, with an owner"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Group size statement with reason",
+    "Annotated floor plan",
+    "Occupancy limit record"
+  ],
+  "stopWorkCriteria": [
+    "Stop any group that exceeds a confirmed occupancy limit",
+    "Stop a session where two groups share one zone"
+  ]
+}

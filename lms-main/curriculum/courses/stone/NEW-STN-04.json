@@ -1,0 +1,200 @@
+{
+  "id": "NEW-STN-04",
+  "title": "Dust controls: wet methods, extraction, isolation and housekeeping",
+  "courseSlugs": [
+    "stone"
+  ],
+  "moduleTitle": "Shared: Tools, equipment and maintenance",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Stone and terrazzo restoration technicians and the people who set up equipment and clean up after each shift",
+  "prerequisites": [
+    "NEW-STN-03"
+  ],
+  "learningOutcomes": [
+    "Apply the control hierarchy to stone dust: engineering controls before personal protective equipment",
+    "Set up and check a wet method, on-tool extraction and isolation before a cut or pass",
+    "Use only housekeeping methods that the guidance allows for silica dust",
+    "Stop work and record the stop when a dust control fails"
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Working with silica and silica containing products (national guidance) (February 2022); NT WorkSafe, Guide to working with crystalline silica and crystalline silica containing products (version 1.1, 29 January 2026).",
+  "instruction": [
+    {
+      "heading": "Engineering controls come first",
+      "body": "The control hierarchy puts elimination and substitution first, then isolation and engineering controls, then administrative controls, and personal protective equipment last. For stone restoration, the most useful controls are wet methods, on-tool extraction, local exhaust ventilation and isolation of the work area. The national guidance (February 2022) treats wet cutting as an engineering control, says high-dust work can be isolated by shutting it in a closed room with controlled entry, and names local exhaust ventilation as a way to remove dust close to the source. It also ranks personal protective equipment as the least effective method of control. The practical result is that the water, the extraction and the isolation are planned and checked first. Respiratory protection is the backup, and it is covered in “Respirators, fit testing and health monitoring”."
+    },
+    {
+      "heading": "Wet methods and extraction at the point of cut",
+      "body": "A wet method keeps the surface wet at the point where the machine is cutting or abrading, so that the dust is held in the slurry and does not become airborne. Check the water flow at the start, at each change of grit or pad and at regular intervals during the pass. If the flow stops or drops, stop the machine, restore the flow and check the surface before you continue. On-tool extraction captures dust at the machine. Use an extraction unit that is suited to the task and to the manufacturer's rating. The NT WorkSafe guide of 2026 recommends an M or H class rated vacuum for cleaning dusty areas, and that recommendation should be checked against the state rules before it is taught as a requirement. A fan is not one of the controls named in the guidance, and it moves dust around the room rather than capturing it at source. The national guidance also rules out general-purpose vacuums for cleaning surfaces and clothing."
+    },
+    {
+      "heading": "Isolation and housekeeping",
+      "body": "Isolation means separating the dusty work from people who are not involved, using barriers, signs and restricted access. In occupied buildings, plan the isolation before the work starts and tell the building manager. Housekeeping means removing the dust and slurry in ways that do not make the air dustier. The national guidance rules out compressed air, dry sweeping and general-purpose vacuums for cleaning. It names low-pressure water, wet sweeping, and a vacuum rated to the class the guidance specifies as the alternatives. Keep the area clean at the end of each shift, and do not leave slurry to dry into a film that can be disturbed later. Clean tools and machines with a wet method before they are stored."
+    }
+  ],
+  "procedure": [
+    "Use the task list from “Respirable crystalline silica: where it comes from and why it matters” to confirm which tasks create dust.",
+    "Select the control for each task: wet method at the point of cut, on-tool extraction or local exhaust ventilation, and isolation where people are nearby.",
+    "Check the machine, the extraction unit and the water supply before the first pass, and record the check.",
+    "Set up barriers, signs and restricted access for the isolated area.",
+    "Start the wet method before the machine starts, and keep it running throughout each pass.",
+    "Check the flow at each change of grit, pad or pass, and stop if the flow fails.",
+    "Clean up with low-pressure water, wet sweeping or a rated vacuum only. Never use compressed air or dry sweeping.",
+    "At the end of the shift, complete the cleaning record and store equipment after a wet clean."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A polishing crew is working on a terrazzo floor in a shop. The planned polisher has no water feed fitted. The operator proposes to set a fan at the door so that the dust blows out and to finish the pass without water.",
+      "decisionPrompt": "What should the operator do, and which control is missing?",
+      "reasoning": "The wet method is missing, and a fan does not capture dust at the source. The correct decision is to stop, fit the water feed or use an extraction unit suited to the task, isolate the shop area, and check the controls before restarting. The operator records the stop and the reason. Polishing without water is not allowed, and the fan does not change that."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Water supply, hoses and fittings for the wet method, checked before start",
+    "On-tool extraction or local exhaust ventilation suited to the task and to the manufacturer's rating",
+    "Low-pressure water equipment and wet sweeping tools for cleaning",
+    "Rated vacuum where the state rules and manufacturer allow it (class to be checked).",
+    "Barriers, signs and restricted-access materials",
+    "Respiratory protection planned per “Respirators, fit testing and health monitoring” for any residual risk"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a domestic vacuum cleaner on stone dust.",
+      "prevention": "Use an extraction unit or rated vacuum as set by the guidance. Never use a general-purpose vacuum for silica dust."
+    },
+    {
+      "error": "Using a fan or open windows instead of extraction or water.",
+      "prevention": "Fans move dust and do not capture it. Use the wet method or extraction at the source."
+    },
+    {
+      "error": "Stopping the water to see the surface better.",
+      "prevention": "Keep the wet method running throughout. Check the surface with the water running or after the machine has stopped and the area is wet."
+    },
+    {
+      "error": "Using compressed air to clear the surface or the tool.",
+      "prevention": "Compressed air is not an approved cleaning method for silica dust. Use wet methods."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The guidance from Safe Work Australia (2022) and NT WorkSafe (2026) places engineering controls before personal protective equipment, and names wet methods, local exhaust ventilation and isolation as controls. Use them as the main controls for stone dust.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Use the manufacturer's rating and check the state WHS regulator's guidance before choosing extraction for a job.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Stop-work rule: stop if the wet method is not running, if extraction fails or is not suited to the task, if the area is not isolated, or if the only available cleaning method is dry or compressed air. Restore the control, record the stop, and continue only when the control is working.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "A named control is set up and checked for each dust-generating task before the first pass.",
+    "The water or extraction keeps working for the full pass.",
+    "Clean-up uses only approved methods and leaves no dry dust residue.",
+    "Equipment is stored clean and checked after each shift."
+  ],
+  "documentationEvidence": [
+    "Equipment and extraction record: make, model, rating and check date",
+    "Water flow check before start and at each change of grit or pad",
+    "Isolation and signage record",
+    "End-of-shift clean-up record and any stop record"
+  ],
+  "summary": [
+    "Engineering controls come before personal protective equipment.",
+    "Wet methods and extraction must be running at the point of cut for the whole pass.",
+    "Fans and domestic vacuums are not dust controls for stone dust.",
+    "Clean up with low-pressure water, wet sweeping or a rated vacuum only.",
+    "A failed control means the work stops until it is restored."
+  ],
+  "referencesAtEnd": "Official sources to recheck before any job: Safe Work Australia, Working with silica and silica containing products (national guidance) (February 2022); NT WorkSafe, Guide to working with crystalline silica and crystalline silica containing products (version 1.1, 29 January 2026).",
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-STN-04-K01",
+      "question": "Which is the correct order of control for stone dust?",
+      "options": [
+        "Personal protective equipment first, then engineering controls such as wet methods and extraction",
+        "Administrative controls come before all other controls on the site, the job, the plan and the roof",
+        "Isolation is not used for stone dust in any situation at all on the job site or the bench",
+        "Engineering controls such as wet methods and extraction come before personal protective equipment"
+      ]
+    },
+    {
+      "id": "NEW-STN-04-K02",
+      "question": "Why is a fan not an acceptable dust control for honing?",
+      "options": [
+        "Fans move dust around and do not capture it at the source",
+        "Fans always increase the humidity in the room and the house",
+        "Fans are only used for tiles and wall coverings in the house",
+        "Fans need a licence to operate on a building site today"
+      ]
+    },
+    {
+      "id": "NEW-STN-04-K03",
+      "question": "Which cleaning method is named as unsafe for silica dust?",
+      "options": [
+        "Low-pressure water",
+        "Compressed air",
+        "Wet sweeping",
+        "A rated vacuum"
+      ]
+    },
+    {
+      "id": "NEW-STN-04-K04",
+      "question": "The water feed fails during a wet honing pass. What should happen?",
+      "options": [
+        "Continue, because the surface is still damp from the last pass and the water is left on it",
+        "Switch to dry grinding to finish the pass quickly before the surface dries out",
+        "Stop the cut, restore the wet method and check the dust control before continuing",
+        "Remove the machine guard to speed up the work on the bench, the edge and the corner"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Safe Work Australia, Working with silica and silica containing products (national guidance, February 2022), https://www.safeworkaustralia.gov.au/sites/default/files/2022-03/national_guide_for_working_with_silica_and_silica_containing_products_3.pdf, checked 2026-11-02 (summary read; wet cutting, isolation, local exhaust ventilation, PPE hierarchy, housekeeping)",
+    "NT WorkSafe, Guide to working with crystalline silica and crystalline silica containing products, version 1.1 (29 January 2026), https://worksafe.nt.gov.au/_resources/documents/pdf/guides/guide-to-working-with-crystalline-silica-and-crystalline-silica-containing-products.pdf, checked 2026-11-02 (summary read; M or H class vacuum recommendation; no compressed air or dry sweeping)",
+    "UNCONFIRMED: Australian national hazard class for vacuum or extraction on stone work; state-specific extraction requirements"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Working with silica and silica containing products (national guidance)",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2022-03/national_guide_for_working_with_silica_and_silica_containing_products_3.pdf",
+      "pageDate": "February 2022 (document)",
+      "checked": "2026-11-03",
+      "covers": "Dust-generating processes, controls, health effects, health monitoring and fit testing. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Guide to working with crystalline silica and crystalline silica containing products (v1.1)",
+      "url": "https://worksafe.nt.gov.au/_resources/documents/pdf/guides/guide-to-working-with-crystalline-silica-and-crystalline-silica-containing-products.pdf",
+      "pageDate": "Version 1.1, 29 January 2026 (document)",
+      "checked": "2026-11-03",
+      "covers": "RPE and health monitoring duties for engineered stone processing; vacuum M or H class guidance (not a national class). Publisher: NT WorkSafe."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-07.jpg",
+      "alt": "Stone and terrazzo restoration illustration",
+      "kind": "photo",
+      "origin": "stone"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-08.jpg",
+      "alt": "Stone and terrazzo restoration illustration",
+      "kind": "photo",
+      "origin": "stone"
+    }
+  ]
+}

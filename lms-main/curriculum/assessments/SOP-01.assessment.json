@@ -1,0 +1,39 @@
+{
+ "lessonId": "SOP-01",
+ "knowledgeAnswers": [
+  {
+   "id": "SOP-01-K01",
+   "correctIndex": 0,
+   "rationale": "The lesson requires reading the label and confirming the risk assessment and SDS before first use. Testing on a visible surface or mixing for strength are both prohibited by the lesson."
+  },
+  {
+   "id": "SOP-01-K02",
+   "correctIndex": 1,
+   "rationale": "Water goes in first to reduce foaming and splashback, then the product is measured to the label dilution."
+  },
+  {
+   "id": "SOP-01-K03",
+   "correctIndex": 2,
+   "rationale": "A product that cannot be identified is not used. It is set aside, recorded and reported to the supervisor."
+  }
+ ],
+ "practicalCriteria": [
+  "Given three supplied product labels, the learner states the hazard, dilution, protective equipment and first aid direction for each, without prompting from the assessor.",
+  "Given a bucket and a supplied labelled product, the learner fills water first and measures the product to the label dilution; the assessor checks the measured amount against the label.",
+  "Given a supplied unlabelled container, the learner leaves it unused, and completes a record giving location, time found and who was told."
+ ],
+ "passRule": "80% on knowledge checks (three questions, so all three must be correct to reach 80%; flagged for review). Practical sign-off is separate: the assessor signs off each practical criterion as observed.",
+ "evidenceRequired": [
+  "Completed knowledge checks",
+  "Assessor observation record for each practical criterion",
+  "Record of the supplied label read-through",
+  "Completed unlabelled-product record"
+ ],
+ "stopWorkCriteria": [
+  "Learner uses a product with no label, or with a label that cannot be identified",
+  "Learner mixes two products",
+  "Learner handles product without gloves",
+  "Learner proceeds without an SDS when none is on site",
+  "Learner pours spent solution into a kitchen sink or toilet"
+ ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "MP-04-irrigation",
+  "title": "Break-even analysis with a worked calculation for Irrigation servicing",
+  "courseSlugs": [
+    "irrigation"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Irrigation servicing business owners who set prices or plan monthly revenue, including solo technicians.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of an irrigation servicing business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means",
+      "body": "Break-even revenue is the amount of sales that covers all costs exactly, so profit is zero. Below that level a servicing business loses money. Above it, each further dollar of sales adds to profit. The figure helps you set prices, decide when to take on a second technician and check whether a new seasonal round can pay for itself. It is a planning tool, and its answer is only as good as the costs and percentages behind it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of visits in a month. They include the van loan, insurance, registration fees that apply to the work, test equipment repayments, phone and software subscriptions, and storage rent. Variable costs move with each visit. They include consumables and replacement fittings, fuel, subcontractor fees and the card payment fees charged on each sale. Express variable cost as a percentage of sales: divide the variable cost in a period by the sales in the same period. ANZ defines the two cost types and warns that costs must be covered to avoid running at a loss (ANZ, 21 February 2025). Check the percentage across at least three months before relying on it, because one unusual month can mislead."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. One minus the variable percentage is the contribution margin: the share of each dollar of sales left to cover fixed costs. Use the variable percentage as a decimal, so 15 per cent becomes 0.15. The contribution margin of a 15 per cent variable cost is then 0.85 (Xero Australia, 23 July 2026)."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write the inputs first, each with its source, period and date. Compute the contribution margin, then divide the fixed costs by it. Convert the result into a number of visits at your average price, and round up to whole visits, because a part visit does not cover costs on its own (Xero Australia, 23 July 2026). Check that the average price is what you actually charge, excluding GST if you are registered. GST is added to the price once a business is registered, and the threshold is $75,000 of GST turnover (ATO, 14 September 2026). Confirm the GST position with the ATO or an accountant. No sourced servicing price exists to check your average against, so the average must come from your own invoices."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount and not an annual one. Confirm that the variable percentage is a share of sales and not of cost. Confirm that the output is revenue and not profit, and that the price is stated on the same GST basis as the sales. Then write down the reconciled figure with its inputs and drop the others. A figure that cannot be checked should not be used to set a price."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a percentage of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average visit price, excluding GST if registered, to get the number of visits needed each month, rounded up.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Hypothetical figures, invented for this lesson and not market data: a one-person irrigation servicing business has fixed costs of $2,500 a month (van loan, insurance, registration fees, test equipment, software), variable costs of 15 per cent of sales (consumables, fuel and card fees) and an average visit price of $220 excluding GST. No sourced servicing price exists to check the $220 against.",
+      "decisionPrompt": "How many visits must the business bill each month to break even, and what should it check before setting prices?",
+      "reasoning": "The contribution margin is 1 minus 0.15, which is 0.85. Break-even revenue is $2,500 divided by 0.85, which is $2,941.18 a month. At $220 a visit that is 13.37 visits, so the business needs 14 visits to cover its costs. Each visit contributes $187 ($220 multiplied by 0.85) towards fixed costs. Check the arithmetic: 13 visits contribute $2,431, which is short of $2,500, and 14 visits contribute $2,618. Before setting prices, the business checks that the 15 per cent includes every variable cost, that $2,500 is a monthly figure, and that $220 is the average price charged, excluding GST, taken from its own invoices."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months",
+    "Calculator or spreadsheet",
+    "Visit invoice log with dates and GST status"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Copying a break-even figure from a plan without its inputs",
+      "prevention": "Recalculate from your own inputs and record the source and date of each input before using the result."
+    },
+    {
+      "error": "Rounding a visit count down",
+      "prevention": "Round up to whole visits, because a part visit does not cover costs on its own."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs and GST registration with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority. Registration costs are only a cost line here; the rules that require a registration are covered in the servicing lessons.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period, GST basis and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period and one GST basis throughout the calculation.",
+    "Recalculate from your own inputs. Do not copy another plan's break-even figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-K02",
+      "question": "Fixed costs are $2,500 a month and variable costs are 15% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$2,941.18 AUD",
+        "$375.00 AUD",
+        "$2,500.00 AUD",
+        "$16,666.67 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-K03",
+      "question": "Two sources give different break-even figures for the same servicing business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure entirely",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the client today",
+        "Use the price list alone and skip the break-even check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; job counts are rounded up to whole jobs.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs; costs must be covered to avoid operating at a loss.",
+    "ATO, 'Registering for GST', https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst, last updated 14 September 2026. Supports: GST turnover threshold of $75,000; GST is added to the price once registered."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

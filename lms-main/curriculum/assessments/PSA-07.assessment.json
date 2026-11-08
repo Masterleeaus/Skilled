@@ -1,0 +1,36 @@
+{
+  "lessonId": "PSA-07",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-07-K01",
+      "correctIndex": 2,
+      "rationale": "Table 4 and section 5: bromine-treated pools use a pH band of 7.2 and 7.8."
+    },
+    {
+      "id": "PSA-07-K02",
+      "correctIndex": 1,
+      "rationale": "Table 4: bromine at less than 26 degrees needs at least 2.0 mg/L."
+    },
+    {
+      "id": "PSA-07-K03",
+      "correctIndex": 1,
+      "rationale": "Section 6.4: shock dosing is confined to periods when the water is free of swimmers."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied pool, tests bromine and compares it with the minimum for the pool type and temperature.",
+    "Identifies from a supplied scenario that BCDMH alkalinity is out of range and states the correction the operator plan requires.",
+    "Confirms no bathers are present before a supplied shock dose scenario proceeds."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Bromine test record for the assessed pool",
+    "Shock dose record showing the bather-free check",
+    "Assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "Bathers present during a planned shock dose: stop, do not dose, clear the pool, escalate.",
+    "BCDMH alkalinity outside 150 and 200 mg/L: correct as the plan sets before adding more BCDMH.",
+    "Incompatible products found together in storage: stop and make safe."
+  ]
+}

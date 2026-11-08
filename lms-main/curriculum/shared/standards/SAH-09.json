@@ -1,0 +1,125 @@
+{
+  "id": "SAH-09",
+  "title": "Internal audits: how often each area is audited and the pass mark",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Cleaning supervisors, auditors and unit managers in SA healthcare facilities",
+  "prerequisites": [
+    "SAH-01",
+    "SAH-08"
+  ],
+  "learningOutcomes": [
+    "State the audit frequency and rotation for each risk class",
+    "Calculate whether an area has met its pass level",
+    "Explain why audits rotate between rooms"
+  ],
+  "instruction": [
+    {
+      "heading": "Coverage by risk class",
+      "body": "Internal audits must cover every functional area across all risk classes. For a high-risk area, half of its rooms are audited once in a one-month period. For a moderate-risk area, half of its rooms are audited once in a three-month period. For a low-risk area, every room is audited once in a twelve-month period. Each class also has an pass level: 90 per cent for high-risk areas and 85 per cent for moderate and low-risk areas. An area's audit score must be meet or exceed its level. These figures come from the South Australian Health standard (2014, updated in 2017). They apply to South Australian facilities only, may be out of date, and are not a national rule."
+    },
+    {
+      "heading": "Rotation between periods",
+      "body": "In the high and moderate bands, rooms not audited this period are picked up next period, so every room is covered over time. Before an audit, the auditor reviews the earlier record to see which sections were covered and which actions are still open. Without that, the same rooms get audited each time and problems elsewhere go unseen."
+    },
+    {
+      "heading": "Who audits and what follows",
+      "body": "The auditor needs a firm grip on the standard and on the processes it sets. An auditor may come from the cleaning service, from another part of the facility or from the contractor, but should be joined by someone from the audited area's staff, such as the unit manager, so that issues are confirmed on the spot. Cleaning staff join the review of results. Each area receives its score sheet with clear actions. Results and improvement plans go to the governance committee plus the infection prevention committee."
+    }
+  ],
+  "procedure": [
+    "Confirm the risk class of each area and the audit period.",
+    "Select at least half the rooms in each high or moderate area, rotating from the last audit.",
+    "Accompany the auditor with the area's manager.",
+    "Score each element against the standard and record every miss.",
+    "Work out the area score and compare it with the pass level.",
+    "Give the area its score sheet and actions, and table the results at governance."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A moderate-risk area has 20 rooms in its three-month cycle. The auditor covers 10 rooms in this period, and the area scores 84 per cent.",
+      "decisionPrompt": "What is left for the next period, and does the area meet its level?",
+      "reasoning": "The other 10 rooms are audited in the next period. The pass level for moderate areas is 85 per cent, so 84 per cent does not meet it. The area needs recorded corrective actions and a follow-up in the next period."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Audit score sheet",
+    "Current register of areas and their risk classes"
+  ],
+  "commonErrors": [
+    {
+      "error": "Auditing the same rooms in every period",
+      "prevention": "Rotate the rooms using the previous audit record."
+    },
+    {
+      "error": "Accepting a score below the acceptable level with no action recorded",
+      "prevention": "Any area under its level needs recorded actions and a follow-up."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Audit figures come from a 2014 standard updated in 2017. Confirm the current version and the facility's own audit tool before use.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Audit results show how well cleaning is done. They are not a basis for judging an individual's performance without a fair process.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner states the frequency and pass mark for a named risk class",
+    "The learner explains how rooms rotate between audit periods"
+  ],
+  "documentationEvidence": [
+    "Audit score sheet per area and period",
+    "Corrective action record with due dates",
+    "Governance committee minute or table entry"
+  ],
+  "summary": [
+    "Each period, half the rooms in the high and moderate bands are audited, on rotation",
+    "The pass level is 90 per cent for high risk and 85 per cent for moderate and low risk",
+    "Results and actions go to governance"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SAH-09-K01",
+      "question": "What is the pass level for a high-risk area?",
+      "options": [
+        "75 per cent",
+        "90 per cent",
+        "100 per cent"
+      ]
+    },
+    {
+      "id": "SAH-09-K02",
+      "question": "A moderate-risk area has 20 rooms. How many are audited in the first three-month period?",
+      "options": [
+        "12",
+        "10",
+        "20"
+      ]
+    },
+    {
+      "id": "SAH-09-K03",
+      "question": "Why must the auditor read the previous audit before starting?",
+      "options": [
+        "To copy the old score and to skip the walk through the rooms",
+        "To see which sections were audited and which actions are still open",
+        "To avoid needing an accompanying staff member and to save the time on the day"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Standard for South Australian Healthcare Facilities (SA Health, 2014, updated 2017), section 7.1 (internal audits), Table 2 (audit frequency and pass levels) and Appendix 8 (internal audit tool, held separately); rights: user-held; reworded (no copying); source priority: the SA state standard overrides informal or conflicting cleaning advice where this lesson relies on it; figures dated 2014 (updated 2017) are historical; URL www.sahealth.sa.gov.au/infectionprevention; date checked 2026-11-02",
+    "Irish audit frequency tables recorded as a conflict; SA Table 2 governs in SA",
+    "PARTIAL: South Australian Health cleaning standard (2014, updated 2017), section on audit; applies to SA facilities only. National audit pass level not set in this pass; figures register, checked 2026-11-02."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

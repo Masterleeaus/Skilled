@@ -1,0 +1,172 @@
+{
+  "id": "F12-L01",
+  "title": "Employment relationship awareness",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Any owner, supervisor or worker who engages people to do work in any Titan Academy business, including subcontractors and sole traders.",
+  "prerequisites": [
+    "F11-L01"
+  ],
+  "learningOutcomes": [
+    "Explain the difference between an employee, a contractor and a subcontractor for a job.",
+    "Identify the factors that decide the relationship and why the label chosen by the parties does not decide it alone.",
+    "Recognise when a worker is a worker for workers compensation and work health and safety purposes."
+  ],
+  "instruction": [
+    {
+      "heading": "Why the relationship matters",
+      "body": "How a person is engaged affects their pay, their tax, their insurance, their leave, and the duties the business owes them. The label on the contract does not decide the relationship alone. What matters is how the work is actually done: who controls the hours, the methods and the equipment, who bears the financial risk, whether the person runs their own business, and whether they can send a substitute. Getting this wrong can leave the business with unpaid obligations and an uninsured worker."
+    },
+    {
+      "heading": "Workers compensation and worker status",
+      "body": "Workers compensation rules and work health and safety duties apply to workers, and the definition of worker can extend to some contractors. WorkSafe Victoria states that WorkCover registration is generally required if the business employs any workers, and that a contractor may count as a deemed worker of the business it depends on. Other states use their own tests, and some state insurers state that a contractor working under a contract of service is a worker even with an ABN. The rules must be checked for each state and territory where the work is done."
+    },
+    {
+      "heading": "Before engaging anyone",
+      "body": "Before engaging a person to do work, decide the relationship, check the insurance position, and record the decision. Ask the person how they run their business, whether they have their own insurance and licences, and whether they will provide their own equipment. Where the relationship is unclear, seek advice from the relevant regulator, the tax authority or a qualified adviser before the work starts. Do not decide the question only from the contract's wording."
+    }
+  ],
+  "procedure": [
+    "Describe how the work will be done, including hours, methods, equipment and who bears the risk.",
+    "Check the insurance and licence position for the person and the work.",
+    "Decide the relationship (employee, contractor or subcontractor) and record the reason.",
+    "Check the workers compensation and WHS position for the state or territory.",
+    "Where unclear, seek advice from the relevant regulator or adviser before the work starts.",
+    "Review the decision if the way the work is done changes."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A business engages a cleaner on an ABN, sets the hours, supplies the products and requires the cleaner to work only for the business.",
+      "decisionPrompt": "Is the cleaner likely to be a worker?",
+      "reasoning": "The label of ABN does not decide the matter. The control over hours, methods and products suggests the cleaner may be a worker. Check the tax and workers compensation position with the regulator or an adviser before relying on the ABN label. Record the decision and the advice received."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Engagement record for each person",
+    "Insurance certificates and licence copies"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a contractor with an ABN is not a worker.",
+      "prevention": "Check the way the work is done and the insurance position before deciding."
+    },
+    {
+      "error": "Engaging a person without checking their insurance.",
+      "prevention": "Check insurance and licences before the work starts and keep copies on file."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WorkSafe Victoria states that WorkCover registration is generally required if the business employs any workers. A sole trader who employs no other people may not need to register. A contractor may count as a deemed worker of the business it depends on.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Workers compensation and tax treatment of contractors differ between states and territories and must be checked for each location.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every engagement is recorded with the relationship decision and its reason.",
+    "Insurance and licence copies are on file before work starts.",
+    "The decision is reviewed when the way the work is done changes."
+  ],
+  "documentationEvidence": [
+    "Engagement record with the relationship decision, the reason and the check date.",
+    "Insurance certificate and licence copies with expiry dates."
+  ],
+  "summary": [
+    "The label does not decide the relationship; the way the work is done does.",
+    "Check workers compensation and WHS duties for each state or territory.",
+    "Record the decision and check insurance before the work starts."
+  ],
+  "businessFields": [
+    "{{business:staff.role}}",
+    "{{business:staff.authorised_tasks}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F12-L01-K01",
+      "question": "What mainly decides whether a person is a worker?",
+      "options": [
+        "Whether they have an ABN and whether they pay their own tax and insurance.",
+        "The colour of their uniform and the make of their van and tools.",
+        "How the work is actually done, including control, equipment and risk."
+      ]
+    },
+    {
+      "id": "F12-L01-K02",
+      "question": "The relationship is unclear. What should you do before the work starts?",
+      "options": [
+        "Seek advice from the relevant regulator or adviser and record the decision.",
+        "Start and decide later and hope the work goes well for both parties.",
+        "Ask the person to decide and sign whatever they agree to on the day."
+      ]
+    },
+    {
+      "id": "F12-L01-K03",
+      "question": "Does the label on a contract decide the relationship alone, according to the lesson?",
+      "options": [
+        "Yes, always",
+        "Yes, if it is signed",
+        "Only for employees",
+        "No, the label does not decide the relationship alone"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/pdf/do-i-need-register-workcover-insurance (WorkSafe Victoria, last updated 19 May 2026; checked 2026-11-02; WorkCover registration and deemed workers)",
+    "https://www.worksafe.qld.gov.au/workers-compensation/who-needs-workers-compensation-insurance (WorkCover Queensland, no page date shown; checked 2026-11-02; contractor under a contract of service is a worker)",
+    "Other state tests and tax treatment are UNCONFIRMED in this lesson. Titan Academy base source draft F12-L01 is not in the ready set."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

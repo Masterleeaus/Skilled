@@ -1,0 +1,163 @@
+{
+  "id": "BP-05-flatpack",
+  "title": "Pricing by hours per project for Flat-pack and fixture installation",
+  "courseSlugs": [
+    "flatpack"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Flat-pack and fixture installation owners who price short, repetitive visits from estimated hours, and need a cost per productive hour that covers travel and checking time.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures, including van and tool costs",
+    "Estimate a flat-pack or fixture visit in named lines, including travel, parts checking and clean-up",
+    "Build a quote from hours, a buffer and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why short, repetitive visits need hours",
+      "body": "Flat-pack and fixture jobs are short and repetitive, so a small error in estimated time is repeated across a day. Hours show whether a three-item visit covers its travel and its parts check. The research did not find a trade-specific hours benchmark for assembly or fixing work, so the standard times must come from the owner's own log, one item type at a time."
+    },
+    {
+      "heading": "Work out the cost per productive hour",
+      "body": "Divide the year's running costs by chargeable hours. Running costs include wages with on-costs where you employ anyone, the van, tools and drill, fixings and anchors if you hold stock, insurance, phone, software and administration. Business.gov.au says on-costs such as leave and superannuation belong in the hourly cost. Use chargeable hours, not paid hours. Pay rates for employees may be set by an award or enterprise agreement, and this lesson does not state them."
+    },
+    {
+      "heading": "Estimate the visit in named lines",
+      "body": "Name each line: travel, unpacking and checking parts against the manufacturer's list, assembly, mounting and levelling, a fixings check, clean-up and removing packaging, and a short walk-through with the customer. Estimate each item type as a range from your log, then add the lines together."
+    },
+    {
+      "heading": "Add a buffer and a margin",
+      "body": "Add a buffer for unexpected work, such as missing parts or a wall type that was not expected. Xero's Australian guide suggests 10 to 20 per cent for unexpected work. Then set the price with a margin: the price is cost divided by one minus the margin, not cost plus the margin. Add stock and fixings at cost plus a stated markup if your policy allows."
+    },
+    {
+      "heading": "Keep the quote honest and review the estimates",
+      "body": "State the scope item by item, the exclusions, what the customer provides, such as the flat-pack parts and instructions, and how long the quote is valid. Missing parts are a cost to be re-booked, so write that term down. Record actual time for each item type for at least the first ten visits and compare it with the estimate."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the chargeable hours from the same period.",
+    "Divide total costs by chargeable hours to get the cost per productive hour, and date the figure.",
+    "Estimate each item type as a range from your own log.",
+    "Add travel, parts checking, clean-up and walk-through time as named lines.",
+    "Add a buffer for unexpected work, then multiply the hours by the cost per productive hour.",
+    "Apply the margin, the materials policy and the minimum charge.",
+    "Write the quote with scope item by item, hours basis, exclusions, client inputs and validity.",
+    "Record actual time for each item type after each visit and compare it with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. A visit for a rental covers a wardrobe assembly and a TV wall mount. Estimated times are 2.5 hours for the wardrobe and 1 hour for the TV mount, with 0.5 hours of travel and 0.25 hours for parts checking and clean-up. The owner's cost per productive hour is $60 (illustrative). The buffer is 10 per cent (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the cost, what is the price, and how does the price compare with the vendor ranges for the same two items?",
+      "reasoning": "The named hours total 4.25 before the buffer. A 10 per cent buffer gives 4.675 hours. At $60 an hour the cost is $280.50 (illustrative). A 25 per cent margin on price gives a price of $280.50 divided by 0.75, which is $374.00 (illustrative). The Queensland vendor estimates for the two items are $80 to $200 for basic furniture assembly and $80 to $200 for TV wall mounting (The Quote Yard, 10 May 2026). Added together, those ranges are $160 to $400, and the illustrative $374 sits inside that band. If the wardrobe's parts are missing, the visit is shortened, and the quote's terms say that the missing parts are re-booked at the customer's cost."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet, with one line for each item",
+    "Time log for each visit, with estimated and actual columns for each item type",
+    "Spirit level and stud finder for mounting and levelling checks",
+    "PPE as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, van, tools, stock, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel and parts checking on a short visit",
+      "prevention": "Add these as named lines on every quote, even when the visit is short."
+    },
+    {
+      "error": "Quoting with no exclusions for missing parts, electrical work or wall types",
+      "prevention": "List what is excluded, what the customer provides, and the missing-parts term."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pricing guidance only. The ACCC says misleading statements about prices are prohibited, and state fair trading rules differ. Check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement. This lesson does not state those rates.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Electrical work is excluded from the hours in this lesson. Whether assembly or mounting work needs a licence was not settled by the research, so do not price a task that may be licensed work until the state's rule is checked.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope item by item, hours basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual time is recorded for each item type for at least the first ten visits and compared with the estimate."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope item by item, hours basis, exclusions and validity",
+    "Visit time log with estimated and actual hours by item type",
+    "Variance review record"
+  ],
+  "summary": [
+    "Start every visit quote from named hours, one item type at a time.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Travel, parts checking and clean-up time are named lines, not hidden extras.",
+    "Compare estimates with actual time, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-flatpack-K01",
+      "question": "Which costs belong in the cost per productive hour for a flat-pack installer?",
+      "options": [
+        "Only the wage of the lowest-paid worker",
+        "The price the customer pays, plus any deposit taken",
+        "Wages with on-costs, van, tools, stock, insurance and administration, divided by chargeable hours",
+        "The average price that competitors advertise"
+      ]
+    },
+    {
+      "id": "BP-05-flatpack-K02",
+      "question": "A wardrobe assembly estimated at 2.5 hours takes 4 hours. What is the right response?",
+      "options": [
+        "Record the actual time, find the cause, and change the estimate and future quotes",
+        "Leave the estimate alone, since the customer has paid",
+        "Cut paid hours for the crew on the next visit",
+        "Raise the price for this customer's next visit only"
+      ]
+    },
+    {
+      "id": "BP-05-flatpack-K03",
+      "question": "Why should missing parts have a written term in the quote?",
+      "options": [
+        "So the customer pays for them without seeing a price",
+        "So the cost of a missing part, and the re-booking of the visit, is agreed before it happens",
+        "Because missing parts are never a problem on flat-pack furniture",
+        "To keep the margin secret from the customer"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. On-costs such as leave and superannuation belong in the hourly cost.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Misleading price statements are prohibited.",
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Divide by billable hours; 10 to 20 per cent allowance for unexpected work.",
+    "The Quote Yard, Handyman services QLD, https://www.thequoteyard.com.au/services/handyman-services-qld, published 10 May 2026. Vendor per-job estimates for furniture assembly and TV wall mounting, used only as a check.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. New Zealand source; compare quoted with actual labour."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}
