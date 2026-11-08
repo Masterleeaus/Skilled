@@ -63,6 +63,19 @@ function lineNumber(text, offset) {
   return text.slice(0, offset).split('\n').length;
 }
 
+/**
+ * Locate matches by raw-file order. This maps parsed string occurrences to physical
+ * source lines only when raw and semantic match counts agree; otherwise report null
+ * instead of guessing a line number (e.g. escaped or transformed JSON strings).
+ */
+export function matchSourceLines(raw, matches) {
+  const offsets = [...raw.matchAll(LEGACY_BRAND)].map(hit => hit.index);
+  if (offsets.length !== matches.length) return matches.map(hit => ({ ...hit, sourceLine: null, sourceLineVerified: false }));
+  return matches.map((hit, i) => ({
+    ...hit, sourceLine: lineNumber(raw, offsets[i]), sourceLineVerified: true
+  }));
+}
+
 function scanText(text) {
   return [...text.matchAll(LEGACY_BRAND)].map(match => ({
     line: lineNumber(text, match.index), match: match[0],
@@ -87,7 +100,7 @@ export async function audit(base = root) {
         continue;
       }
       const matches = scanValue(parsed);
-      if (matches.length) findings.push(...matches.map(match => ({ file: relativePath, ...match })));
+      if (matches.length) findings.push(...matchSourceLines(raw, matches).map(match => ({ file: relativePath, ...match })));
     }
   }
   // Index is derived and must be reconciled after approved source edits.
