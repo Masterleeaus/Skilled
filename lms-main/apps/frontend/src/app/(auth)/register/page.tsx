@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import Link from "next/link";
+import { AuthBrand } from "@/components/AuthBrand";
 import { register as registerUser } from "@/lib/auth.api";
 
 const registerSchema = z.object({
@@ -45,7 +46,8 @@ export default function RegisterPage() {
   if (done) {
     return (
       <main className="flex min-h-screen items-center justify-center px-4">
-        <div className="max-w-sm text-center">
+        <div className="max-w-sm text-center space-y-4">
+          <AuthBrand />
           <h1 className="text-xl font-semibold">Check your email</h1>
           <p className="mt-2 text-sm text-neutral-400">
             We sent a verification link. Click it to activate your account, then log in.
@@ -61,9 +63,10 @@ export default function RegisterPage() {
   return (
     <main className="flex min-h-screen items-center justify-center px-4">
       <div className="w-full max-w-sm space-y-6">
+        <AuthBrand />
         <div>
           <h1 className="text-2xl font-semibold">Create your account</h1>
-          <p className="mt-1 text-sm text-neutral-400">Start learning today. Teaching access is granted by an administrator.</p>
+          <p className="mt-1 text-sm text-neutral-400">Create a learner account. Teaching and organisation access require authorisation.</p>
         </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
@@ -102,7 +105,7 @@ export default function RegisterPage() {
             {errors.password && <p className="mt-1 text-xs text-red-400">{errors.password.message}</p>}
           </div>
 
-          {serverError && <p className="text-sm text-red-400">{serverError}</p>}
+          {serverError && <p role="alert" className="text-sm text-red-400">{serverError}</p>}
 
           <button
             type="submit"
