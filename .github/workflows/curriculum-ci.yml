@@ -55,7 +55,16 @@ jobs:
       - name: Install dependencies (frozen lockfile)
         run: pnpm install --frozen-lockfile
 
+      - name: Run legacy brand audit unit tests (issue 86)
+        if: always()
+        run: node --test scripts/test-audit-curriculum-brand.mjs
+
+      - name: Generate read-only legacy branding inventory (issue 86)
+        if: always()
+        run: node scripts/audit-curriculum-brand.mjs --report build/issue-86-brand-inventory.json
+
       - name: Run curriculum CI gate
+        if: always()
         run: pnpm curriculum:ci
 
       - name: Upload curriculum CI report
@@ -65,4 +74,13 @@ jobs:
           name: curriculum-ci-report
           path: lms-main/build/curriculum-ci-report.json
           if-no-files-found: warn
+          retention-days: 14
+
+      - name: Upload legacy branding inventory (issue 86)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: issue-86-brand-inventory
+          path: lms-main/build/issue-86-brand-inventory.json
+          if-no-files-found: error
           retention-days: 14
