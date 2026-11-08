@@ -6,7 +6,15 @@ Titan Academy is a training platform for field and home-service businesses. It c
 
 The codebase was started from an inherited full-stack LMS (see [Origin and licence](#origin-and-licence)). Inherited modules are kept where Titan Academy still uses them. Their behaviour is not re-verified for Titan Academy. Verification status for every open item is tracked in [`TITAN-ACADEMY-MASTER-IMPROVEMENT-REGISTER.md`](TITAN-ACADEMY-MASTER-IMPROVEMENT-REGISTER.md).
 
-> **Status:** not production-verified. Dependency-enabled builds, PostgreSQL migration runs, live integration contracts and a full browser workflow against a live API have not been verified. See the register (ACA-001 to ACA-004, ACA-018).
+> **Status (2026-11-08): not production-verified.** The fresh install check verified:
+> - Frozen-lockfile install passes (`pnpm install --frozen-lockfile`).
+> - `prisma validate` and `prisma generate` pass.
+> - Backend `tsc` and frontend `next build` pass. Frontend lint passes.
+> - Migrations apply to an empty PostgreSQL 16 database with no drift.
+> - Backend unit tests pass, with 7 test files skipped (see [Testing and Quality Gates](#testing-and-quality-gates)).
+> - Repository source verification passes 26/26.
+>
+> Not verified: the full stack with MinIO, the browser suite, and live API flows. See the register (ACA-001 to ACA-004, ACA-018).
 
 ![Node](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
@@ -127,17 +135,32 @@ cd titan-academy
 
 pnpm install
 
-cp .env.example .env          # then set every secret; see docs/runbooks/secrets-handling.md
+cp apps/backend/.env.example apps/backend/.env   # then set every secret; see docs/runbooks/secrets-handling.md
 
 # start infrastructure
 docker compose -f docker-compose.local-dev.yml up -d  # LOCAL DEVELOPMENT ONLY; NOT PRODUCTION
 
 cd apps/backend
 pnpm prisma:generate
-pnpm prisma:migrate
+pnpm prisma:deploy           # applies the existing migrations; creates none
 pnpm prisma:seed
 pnpm dev
 ```
+
+The backend reads `.env` from its own directory, `apps/backend/`. The dotenv loader reads it from the directory the process starts in, so start the backend from `apps/backend`, as above. `.env` is git-ignored. Set at least these variables:
+
+| Variable | Purpose |
+|---|---|
+| `CLIENT_URL` | Public URL of the frontend. `http://localhost:3000` locally; must be `https://` in production |
+| `DATABASE_URL` | PostgreSQL connection string. Use a local development database; production requires the dedicated `titan_academy` database and role |
+| `REDIS_URL` | Redis, used by the BullMQ email and certificate workers |
+| `JWT_ACCESS_SECRET` | Signs access tokens. At least 10 characters; at least 32 in production |
+| `JWT_REFRESH_SECRET` | Signs refresh tokens. Must differ from `JWT_ACCESS_SECRET` in production |
+| `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY` | Credentials for MinIO object storage (uploads) |
+
+Other variables (server port, MinIO endpoint and bucket, SMTP, token lifetimes, Stripe keys, curriculum directory) have defaults. They are defined in `apps/backend/src/config/env.ts`.
+
+> **Developer note:** `pnpm prisma:migrate` runs `prisma migrate dev`. It is interactive, can reset the database, and is only for creating a new migration after you change `schema.prisma`. Do not use it to install or upgrade.
 
 In a second terminal:
 
@@ -153,6 +176,13 @@ pnpm dev
 | Backend API | http://localhost:5000 |
 | Mailhog (local email) | http://localhost:8025 |
 | MinIO console | http://localhost:9001 (local development credentials only) |
+
+### Existing databases
+
+Before running `pnpm prisma:deploy` against a database that already contains data:
+
+1. Read [`apps/backend/prisma/PREFLIGHT-ORDER.md`](apps/backend/prisma/PREFLIGHT-ORDER.md) for the order of steps.
+2. Review the four preflight scripts in `apps/backend/prisma/` before migrating: `preflight-20261108090000-company-rename.sql`, `preflight-20261108100000-external-identity-scope.sql`, `preflight-20261108100100-course-tracks-fk.sql` and `preflight-20261108100200-training-assignment-index-name.sql`.
 
 Environment-specific guidance is in [`docs/runbooks/`](docs/runbooks/).
 
@@ -205,14 +235,17 @@ A lesson acknowledgement in these reports is a learning record. It is not a veri
 
 ## Testing and Quality Gates
 
-The commands below are the ones used in the PASS42 quality pass. Exact results, including failures, are recorded in [`PASS42/QUALITY-ops.md`](PASS42/QUALITY-ops.md).
+The figures in this section are from the 2026-11-08 fresh install check. The older results in [`PASS42/QUALITY-ops.md`](PASS42/QUALITY-ops.md) are historical and do not describe the current state.
 
 ```bash
+# Backend unit tests (Vitest). Integration suites skip unless real services are configured (see below)
+cd apps/backend && pnpm exec vitest run
+
 # Academy backend suites (no database required; uses an in-memory Prisma double)
 pnpm test:academy:backend
 
-# Full backend Vitest run (currently fails; see PASS42/QUALITY-ops.md for the causes)
-cd apps/backend && pnpm test
+# Repository source verification
+pnpm test:source
 
 # Lesson player browser suite (starts next dev on port 3100 with a mocked API)
 cd apps/frontend && node tests/browser/academy-browser-suite.mjs --report ../../build/browser-report.json
@@ -223,7 +256,27 @@ pnpm curriculum:ci
 
 The Academy backend suites run against an in-memory Prisma double. They exercise the real services and routers, but they do not replace testing against PostgreSQL (register ACA-003). The browser suite verifies the lesson player UI against a mocked API. It does not verify the live API (register ACA-019).
 
-The inherited `pass22` integration check (`apps/backend/tests/pass22-inactive-identity.test.cjs`) is a source-level script, not a Vitest suite, so Vitest reports it as failing. It is recorded in the quality evidence.
+A fresh `vitest run` in `apps/backend` reports **33 test files passed, 7 skipped** and **532 tests passed, 75 skipped**.
+
+### Backend tests that skip by default
+
+A bare run has no PostgreSQL or Redis. The seven skipped files are gated by `describeWithServices` in [`apps/backend/src/tests/integration/harness.ts`](apps/backend/src/tests/integration/harness.ts). That helper skips a suite unless `DATABASE_URL` and `REDIS_URL` both point at real services. The default placeholders point at `127.0.0.1:1`, where nothing listens.
+
+| Skipped file | Group | Needs |
+|---|---|---|
+| `src/tests/auth.test.ts` | Auth flow | PostgreSQL and Redis |
+| `src/tests/health.test.ts` | `GET /api/health` | PostgreSQL and Redis |
+| `src/tests/integration/contract.test.ts` | Consumer contracts for `field-services` and `ai-workforce`, and documented-shape drift checks | PostgreSQL and Redis. One case is an explicit `it.skip` (the business-fields push route is not implemented) |
+| `src/tests/integration/cross-tenant.test.ts` | ACA-004 cross-tenant access to the skills API | PostgreSQL and Redis |
+| `src/tests/integration/identity-linking.test.ts` | ACA-028 identity linking | PostgreSQL and Redis |
+| `src/tests/integration/credential-lifecycle.test.ts` | ACA-017 credential rotation, revocation and expiry | PostgreSQL and Redis |
+| `src/tests/integration/learner-status.test.ts` | ACA-016 inactive and deleted learner rejection | PostgreSQL and Redis |
+
+To run them, set `DATABASE_URL` to a disposable local PostgreSQL database with the migrations applied, and set `REDIS_URL` to a local Redis. The harness refuses to run unless the database host is `localhost` or `127.0.0.1` and the database name contains `test`, because these suites delete rows. Never point them at a shared or production database.
+
+The skip count is not evidence of integration coverage. A run with skips shows that the enabled tests passed. It does not show that the contract, cross-tenant, credential, identity or learner-status checks ran.
+
+The inherited `pass22` check (`apps/backend/tests/pass22-inactive-identity.test.cjs`) is a source-level Node script. Vitest does not pick it up, because its include pattern matches only `.test.ts` files. `pnpm test` in `apps/backend` runs it with `tsx --test` after Vitest. Its result is not part of the 2026-11-08 install check.
 
 ---
 
