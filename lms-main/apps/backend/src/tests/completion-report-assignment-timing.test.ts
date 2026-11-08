@@ -35,7 +35,8 @@ async function seedCourseTwoWithRevisionBOnly(): Promise<void> {
   await seed("academyCourseTrack", [{ courseId: COURSE_TWO, trackId: TRACK_TWO, position: 1, required: true }]);
 }
 
-const lessonA = (report: { courses: Array<{ lessons: Array<{ lessonId: string }> }> }) =>
+type ReportLesson = { lessonId: string; acknowledgement: unknown; withheldAsShared: unknown };
+const lessonA = (report: { courses: Array<{ lessons: ReportLesson[] }> }) =>
   report.courses[0].lessons.find((lesson) => lesson.lessonId === ids.lessonA);
 
 beforeEach(async () => {
@@ -99,7 +100,7 @@ describe("completion report counts only records made after the assignment", () =
     expect(ORG_TWO_ASSIGNED_AT < BEFORE_ASSIGNMENT).toBe(true);
 
     const report = await buildLearnerCompletionReport(ids.org1, LEARNER_BEFORE);
-    expect(lessonA(report).acknowledgement).toBeNull();
-    expect(lessonA(report).withheldAsShared).toBe(false);
+    expect(lessonA(report)?.acknowledgement).toBeNull();
+    expect(lessonA(report)?.withheldAsShared).toBe(false);
   });
 });

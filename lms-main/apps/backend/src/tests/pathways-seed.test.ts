@@ -6,7 +6,7 @@ import path from "node:path";
 import { readFileSync } from "node:fs";
 import { beforeEach, describe, expect, it } from "vitest";
 
-import { fakePrisma, resetFakeDb, rows } from "./support/fake-prisma";
+import { fakePrisma, numberOf, resetFakeDb, rows, stringOf } from "./support/fake-prisma";
 import { BASE_MODULE_UNITS, PathwaysFile, seedPathways, SERVICE_ITEM_KEY } from "../modules/pathways/pathway.seed";
 
 const ROOT = path.resolve(__dirname, "../../../..");
@@ -19,7 +19,7 @@ function pathwayItems(code: string) {
   const pathwayId = rows("academyCurriculumPathway").find((row) => row.code === code)!.id;
   return rows("academyPathwayCourse")
     .filter((row) => row.pathwayId === pathwayId)
-    .sort((a, b) => a.position - b.position)
+    .sort((a, b) => numberOf(a.position) - numberOf(b.position))
     .map((row) => ({ key: row.courseSlug, required: row.required, position: row.position }));
 }
 
@@ -42,7 +42,7 @@ describe("PASS42 pathway seed", () => {
     expect(pathwayItems("PATH-TEAM-OWNER")).toHaveLength(13);
 
     // No course rows: every stored key is a module item or the service slot.
-    expect(rows("academyPathwayCourse").every((row) => row.courseSlug.startsWith("module:") || row.courseSlug === SERVICE_ITEM_KEY)).toBe(true);
+    expect(rows("academyPathwayCourse").every((row) => stringOf(row.courseSlug).startsWith("module:") || row.courseSlug === SERVICE_ITEM_KEY)).toBe(true);
     expect(report.unmappedModules).toEqual([]);
   });
 

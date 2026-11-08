@@ -13,7 +13,7 @@ vi.mock("../config/env", () => ({
 }));
 vi.mock("../config/prisma", async () => ({ prisma: (await import("./support/fake-prisma")).fakePrisma }));
 
-import { resetFakeDb, rows, seed } from "./support/fake-prisma";
+import { resetFakeDb, rows, seed, stringOf } from "./support/fake-prisma";
 import { KNOWLEDGE_CHECK, KNOWLEDGE_KEYS, token } from "./support/academy-fixtures";
 import curriculumRoutes from "../modules/curriculum/curriculum.routes";
 import templateRoutes from "../modules/templates/template.routes";
@@ -347,7 +347,7 @@ describe("agent knowledge (integration API)", () => {
 
   it("returns only competencies in finished levels, and never app or unfinished lessons", async () => {
     await seedCompetencies();
-    const skills = [...rows("academyVerifiedCompetency")].map((row) => ({ lessonId: row.lessonId }));
+    const skills = [...rows("academyVerifiedCompetency")].map((row) => ({ lessonId: stringOf(row.lessonId) }));
     expect(await filterToFinishedLevels(LEARNER_A, skills)).toEqual([]);
 
     await complete(LEARNER_A, "base1");

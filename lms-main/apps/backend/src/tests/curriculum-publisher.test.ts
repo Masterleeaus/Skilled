@@ -12,7 +12,7 @@ import path from "node:path";
 vi.mock("../config/env", () => ({ env: { CURRICULUM_DIR: "", NODE_ENV: "test" } }));
 vi.mock("../config/prisma", async () => ({ prisma: (await import("./support/fake-prisma")).fakePrisma }));
 
-import { resetFakeDb, rows, seed } from "./support/fake-prisma";
+import { numberOf, resetFakeDb, rows, seed } from "./support/fake-prisma";
 import { buildFileLessonIndex } from "../modules/curriculum/file-lesson-loader";
 import {
   findAnswerKeyField,
@@ -121,7 +121,7 @@ const publish = (): Promise<PublishSummary> => publishCurriculumFiles({ root, ac
 const lesson = (sourceId: string) => rows("academyContentLesson").find((row) => row.sourceId === sourceId);
 const revisionsOf = (sourceId: string) => {
   const found = lesson(sourceId);
-  return found ? rows("academyLessonRevision").filter((row) => row.lessonId === found.id).sort((a, b) => a.version - b.version) : [];
+  return found ? rows("academyLessonRevision").filter((row) => row.lessonId === found.id).sort((a, b) => numberOf(a.version) - numberOf(b.version)) : [];
 };
 const trackNamed = (slug: string) => rows("academyCurriculumTrack").find((row) => row.slug === slug);
 const placementsIn = (slug: string) => {
@@ -130,7 +130,7 @@ const placementsIn = (slug: string) => {
   return rows("academyLessonPlacement")
     .filter((row) => row.trackId === track.id)
     .map((row) => ({ sourceId: rows("academyContentLesson").find((l) => l.id === row.lessonId)!.sourceId, position: row.position, revisionId: row.revisionId }))
-    .sort((a, b) => a.position - b.position);
+    .sort((a, b) => numberOf(a.position) - numberOf(b.position));
 };
 const snapshot = () => ({
   lessons: rows("academyContentLesson").length,

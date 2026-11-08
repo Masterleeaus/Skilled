@@ -21,7 +21,7 @@ vi.mock("../config/prisma", async () => ({ prisma: (await import("./support/fake
 
 import express from "express";
 import request from "supertest";
-import { resetFakeDb, rows, seed } from "./support/fake-prisma";
+import { resetFakeDb, rows, seed, stringOf } from "./support/fake-prisma";
 import { signAccessToken } from "../modules/auth/token.utils";
 import curriculumRoutes from "../modules/curriculum/curriculum.routes";
 import {
@@ -116,7 +116,7 @@ function revisionRow(id: string): Record<string, unknown> {
 }
 
 function lessonStatus(): string {
-  return rows("academyContentLesson")[0].contentStatus;
+  return stringOf(rows("academyContentLesson")[0].contentStatus);
 }
 
 function reasonCodes(error: unknown): string[] {
@@ -200,7 +200,7 @@ describe("ACA-008 approval binds to the content hash", () => {
     row.contentHash = contentHashOf(edited);
     const error = await publishRevision(revision.id, ADMIN, GATE_ON_ENV).catch((e) => e);
     expect(reasonCodes(error)).toEqual(["NOT_APPROVED_FOR_CURRENT_HASH"]);
-    await approve(revision.id, row.contentHash);
+    await approve(revision.id, stringOf(row.contentHash));
     expect((await publishRevision(revision.id, ADMIN, GATE_ON_ENV)).status).toBe("PUBLISHED");
   });
 
