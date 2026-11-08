@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint src tests --max-warnings=0",
     "verify:metadata": "node scripts/verify-metadata.mjs",
-    "test:browser":"node tests/browser/academy-browser-suite.mjs --report ../../build/browser-report.json"
+    "test:browser": "node tests/browser/academy-browser-suite.mjs --report ../../build/browser-report.json",
+    "predev": "node ../../scripts/prepare-public-assets.mjs",
+    "prebuild": "node ../../scripts/prepare-public-assets.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
