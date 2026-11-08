@@ -55,7 +55,7 @@ test('registration UX mirrors the backend registration limits and communicates f
   const backend = read('apps/backend/src/modules/auth/auth.validators.ts');
   for (const field of ['fullName', 'email', 'password']) {
     const id = 'register-' + (field === 'fullName' ? 'full-name' : field);
-    assert.match(frontend, new RegExp('aria-invalid=\{errors\.' + field + ' \? true : undefined\}'));
+    assert.ok(frontend.includes('aria-invalid={errors.' + field + ' ? true : undefined}'));
     assert.ok(frontend.includes('aria-describedby={errors.' + field + ' ? "' + id + '-error" : undefined}'));
     assert.ok(frontend.includes('id="' + id + '-error"'));
   }
