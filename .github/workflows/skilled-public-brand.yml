@@ -29,6 +29,12 @@ jobs:
         working-directory: lms-main
         run: node --test scripts/test-prepare-public-assets.mjs
 
+      - name: Materialise tracked images and verify output parity
+        working-directory: lms-main
+        run: |
+          node scripts/prepare-public-assets.mjs
+          node scripts/prepare-public-assets.mjs --check
+
       - name: Validate public product metadata contract
         working-directory: lms-main
         run: node --test scripts/test-skilled-public-brand.mjs
