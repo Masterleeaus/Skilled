@@ -152,3 +152,17 @@ node scripts/audit-active-compatibility.mjs --strict --report build/active-compa
 The six regression tests also mutate temporary fixtures to check that removal of a migration, schema model, JWT algorithm pin, tenant allowlist, company association, enrolment gate or revision-only serving is detected. The workflow publishes the audit JSON.
 
 **Limits:** The audit examines source contracts and migration file presence, not live authorization, migration checksums stored in PostgreSQL, transaction behavior or fully compiled call-graph reachability. A passing static audit does not satisfy issue #35 staging rehearsal or issue #34 high-risk expert review. Deleting or renaming persisted tables and migration directories remains prohibited absent a tested compatibility migration coordinated with #68 and #71.
+
+## Demo seed safety and product naming (pass 13)
+
+`apps/backend/prisma/seed.ts` is a **destructive inherited demo fixture**, not the SkilledAt.Work curriculum importer. It starts with `wipeDatabase()` and is not a production setup step. Its demo course now explicitly says it is **not approved SkilledAt.Work curriculum**, rather than presenting a legacy product name to learners.
+
+A separate pure preflight module, `apps/backend/prisma/local-demo-seed-guard.ts`, now refuses a wipe unless **all** conditions hold before the Prisma client is instantiated:
+
+- `NODE_ENV` is explicitly `development` or `test` (blank, staging and production are rejected).
+- A `--confirm-wipe` flag or `SEED_CONFIRM_WIPE=1` confirms the destructive operation; unknown command-line flags are refused.
+- `DATABASE_URL` is a PostgreSQL URL with nonempty credentials and a **loopback** host (`localhost`, `127.0.0.1` or `::1`).
+- The selected database has an explicit non-system name and cannot be `titan_academy`, `postgres`, `template0` or `template1`.
+- Target logging prints host and database name only; credentials are never printed.
+
+The `local-demo-seed-guard.test.ts` test suite uses pure inputs without a PostgreSQL connection. A loopback host could still conceal a forwarded production port, so the operator must independently verify the target is a disposable local database. **Never run demo seeding against staging/production or other shared services.** No actual demo seed was executed in this pass.
