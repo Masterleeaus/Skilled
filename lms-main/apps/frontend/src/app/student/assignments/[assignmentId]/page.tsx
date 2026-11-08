@@ -52,6 +52,7 @@ export default function SubmitAssignmentPage() {
 
         <div className="space-y-4">
           <textarea
+            aria-label="Written submission"
             value={text}
             onChange={(e) => setText(e.target.value)}
             rows={6}
@@ -61,6 +62,7 @@ export default function SubmitAssignmentPage() {
 
           <input
             type="file"
+            aria-label="Upload files"
             multiple
             accept=".pdf,.doc,.docx,.zip,.png,.jpg,.jpeg"
             onChange={(e) => setFiles(Array.from(e.target.files ?? []))}

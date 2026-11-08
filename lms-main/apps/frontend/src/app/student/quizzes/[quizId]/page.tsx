@@ -107,21 +107,27 @@ export default function TakeQuizPage() {
       <main className="mx-auto max-w-2xl space-y-6 px-6 py-8">
         {quiz.questions.map((q, i) => (
           <div key={q.id} className="rounded-lg border border-neutral-800 bg-neutral-900 p-4">
-            <p className="font-medium">
+            <p id={`quiz-question-${q.id}`} className="font-medium">
               {i + 1}. {q.text} <span className="text-xs text-neutral-500">({q.marks} marks)</span>
             </p>
 
             {q.type === "TEXT" ? (
               <textarea
+                aria-labelledby={`quiz-question-${q.id}`}
                 rows={3}
                 value={typeof answers[q.id] === "string" ? answers[q.id] as string : ""}
                 onChange={(e) => setAnswers((prev) => ({ ...prev, [q.id]: e.target.value }))}
                 className="mt-3 w-full rounded-lg border border-neutral-800 bg-neutral-950 px-3 py-2 text-sm outline-none focus:border-neutral-500"
               />
             ) : (
-              <div className="mt-3 space-y-2">
+              <div
+                role="group"
+                aria-labelledby={`quiz-question-${q.id}`}
+                aria-describedby={q.type === "MULTIPLE_CHOICE" ? `quiz-hint-${q.id}` : undefined}
+                className="mt-3 space-y-2"
+              >
                 {q.type === "MULTIPLE_CHOICE" && (
-                  <p className="text-xs text-neutral-400">Select all correct answers</p>
+                  <p id={`quiz-hint-${q.id}`} className="text-xs text-neutral-400">Select all correct answers</p>
                 )}
                 {q.options.map((opt) => (
                   <label key={opt.id} className="flex items-center gap-2 text-sm text-neutral-300">

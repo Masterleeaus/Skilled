@@ -42,7 +42,7 @@ export function Topbar({ title, backHref, backLabel = "Back" }: TopbarProps) {
   }
 
   return (
-    <header className="flex items-center justify-between border-b border-neutral-800 px-6 py-4">
+    <header className="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 border-b border-neutral-800 px-6 py-4">
       <div className="flex items-center gap-4">
         {backHref === "back" ? (
           <button onClick={() => router.back()} className="flex items-center gap-1.5 text-sm text-neutral-400 hover:text-neutral-200">
@@ -65,7 +65,7 @@ export function Topbar({ title, backHref, backLabel = "Back" }: TopbarProps) {
           Dashboard
         </Link>
 
-        <button onClick={() => setMenuOpen((v) => !v)} className="hover:text-neutral-200">
+        <button onClick={() => setMenuOpen((v) => !v)} aria-expanded={menuOpen} className="hover:text-neutral-200">
           {user?.fullName} ▾
         </button>
 

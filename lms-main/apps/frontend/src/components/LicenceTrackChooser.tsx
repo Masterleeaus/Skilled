@@ -33,7 +33,7 @@ export function LicenceTrackChooser({ track, onChange, summary, isLoading, isErr
   const excludedInTrack = track === "non-licensed" ? "Left out of this track" : "Included in this track";
   return (
     <section aria-labelledby="licence-track-heading" className="mt-6 rounded-lg border border-neutral-800 bg-neutral-900 p-4">
-      <h3 id="licence-track-heading" className="text-sm font-medium text-neutral-300">Choose your track</h3>
+      <h2 id="licence-track-heading" className="text-sm font-medium text-neutral-300">Choose your track</h2>
       <p className="mt-1 text-xs text-neutral-500">Pick one track. Your choice decides which lessons are listed.</p>
 
       <div role="radiogroup" aria-labelledby="licence-track-heading" className="mt-3 grid gap-3 md:grid-cols-2">
@@ -77,10 +77,10 @@ export function LicenceTrackChooser({ track, onChange, summary, isLoading, isErr
       {summary && (
         <div className="mt-4 space-y-4">
           <div>
-            <h4 className="flex items-center gap-2 text-sm font-medium text-neutral-300">
+            <h3 className="flex items-center gap-2 text-sm font-medium text-neutral-300">
               <CircleAlert size={16} aria-hidden="true" className="text-amber-300" />
               Needs a licence
-            </h4>
+            </h3>
             {summary.needsLicence.length ? (
               <ul className="mt-2 space-y-2 text-sm">
                 {summary.needsLicence.map((item) => (
@@ -98,7 +98,7 @@ export function LicenceTrackChooser({ track, onChange, summary, isLoading, isErr
 
           {summary.limited.length > 0 && (
             <div>
-              <h4 className="text-sm font-medium text-neutral-300">Work limits (in both tracks)</h4>
+              <h3 className="text-sm font-medium text-neutral-300">Work limits (in both tracks)</h3>
               <ul className="mt-2 space-y-1 text-sm text-neutral-400">
                 {summary.limited.map((item) => (
                   <li key={item.title}>

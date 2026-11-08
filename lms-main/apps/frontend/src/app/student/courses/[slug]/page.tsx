@@ -174,7 +174,14 @@ export default function CoursePlayerPage() {
             />
           )}
           <div className="mb-4">
-            <div className="h-1.5 w-full overflow-hidden rounded-full bg-neutral-800">
+            <div
+              role="progressbar"
+              aria-label="Course progress"
+              aria-valuemin={0}
+              aria-valuemax={100}
+              aria-valuenow={progressPercent}
+              className="h-1.5 w-full overflow-hidden rounded-full bg-neutral-800"
+            >
               <div
                 className="h-full rounded-full bg-white"
                 style={{ width: `${progressPercent}%` }}
@@ -219,13 +226,13 @@ export default function CoursePlayerPage() {
               href={`/student/courses/${slug}/live-classes`}
               className="block rounded-lg px-3 py-2 text-sm text-neutral-300 hover:bg-neutral-900"
             >
-              📅 Live Classes
+              <span aria-hidden="true">📅</span> Live Classes
             </Link>
             <Link
               href={`/student/courses/${slug}/discussions`}
               className="block rounded-lg px-3 py-2 text-sm text-neutral-300 hover:bg-neutral-900"
             >
-              💬 Discussions
+              <span aria-hidden="true">💬</span> Discussions
             </Link>
           </div>
 
