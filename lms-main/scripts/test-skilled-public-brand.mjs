@@ -29,3 +29,13 @@ test('manifest and built-metadata verifier match the public description exactly'
   assert.ok(manifest.includes(description), 'PWA manifest description drift');
   assert.ok(verifier.includes(description), 'Built-metadata contract description drift');
 });
+
+test('homepage current product copy uses SkilledAt.Work without erasing historical attribution', () => {
+  const home = readFileSync(resolve(root, 'apps/frontend/src/app/page.tsx'), 'utf8');
+  assert.match(home, /SkilledAt\\.Work brings together curriculum lessons/);
+  assert.doesNotMatch(home, /Titan Academy/i);
+  const credits = readFileSync(resolve(root, 'apps/frontend/src/app/credits/page.tsx'), 'utf8');
+  assert.match(credits, /Titan Academy began from an inherited MIT-licensed/);
+  assert.match(credits, /SkilledAt\\.Work codebase/);
+  assert.doesNotMatch(credits, /not verified for Titan Academy/i);
+});
