@@ -24,7 +24,7 @@ Placeholders in angle brackets (for example `<set-in-secret-store>`) are values 
 
 Node 22 and pnpm 10.0.0 are what the repository's verification evidence used (`DEPLOY-RUNBOOK.md` section 3). Node 20 is the minimum the repository declares.
 
-Do not use `docker-compose.local-dev.yml` on a server. It publishes port 5432 and uses development credentials (`DEPLOY-RUNBOOK.md` section 0).
+Do not use `docker-compose.local-dev.yml` on a server. It publishes port 5432 and uses development credentials (`DEPLOY-RUNBOOK.md` section 0). The repository has no default `docker-compose.yml`, so every Compose command must name its file with `-f`. An unqualified `docker compose up` finds no file in this repository.
 
 ## 2. Get the code and install dependencies
 
@@ -207,9 +207,9 @@ Roll back if the health check fails, learners can see draft or unapproved lesson
 
 These are open. Check each one before relying on the install:
 
-1. `README.md` tells you to copy `.env.example`. That file does not exist. Use `.env.production.example`.
+1. `README.md` copies `apps/backend/.env.example`, which exists and is for local development only. Production starts from `.env.production.example` (section 3).
 2. The root `README.md` commands `pnpm prisma:generate` and `pnpm prisma:migrate` do not exist at the root. Use the `apps/backend` commands above.
-3. `.gitignore` contains `.env.*` with only `!.env.example` excepted. Git therefore ignores `.env.production.example`. Add an exception before committing it.
+3. Resolved: `.gitignore` now has a `!.env.production.example` exception, so Git tracks the template. Every other `.env.*` file stays ignored.
 4. The answer-key loader ignores `CURRICULUM_DIR` (section 7).
 5. The publisher's gate behaviour differs from `DEPLOY-RUNBOOK.md` section 6 (section 8).
 6. The PostgreSQL binary path, service unit name, Redis version and port, Node installation method, backend port, and the location of the private environment file are not confirmed by the repository (`DEPLOY-RUNBOOK.md` section 10).

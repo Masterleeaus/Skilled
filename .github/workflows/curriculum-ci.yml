@@ -1,0 +1,68 @@
+# Curriculum quality gate for the Titan Academy LMS.
+# The Git repository root is the parent of lms-main/, so this workflow lives here and
+# sets working-directory to lms-main. Runs `pnpm curriculum:ci` (scripts/ci-curriculum-audit.mjs
+# with --fail-on-blocked). It does not approve or change any curriculum content.
+name: curriculum-ci
+
+on:
+  pull_request:
+    paths:
+      - "lms-main/curriculum/**"
+      - "lms-main/scripts/**"
+      - "lms-main/package.json"
+      - ".github/workflows/curriculum-ci.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "lms-main/curriculum/**"
+      - "lms-main/scripts/**"
+      - "lms-main/package.json"
+      - ".github/workflows/curriculum-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: curriculum-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  curriculum-ci:
+    name: Curriculum quality gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: lms-main
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm 10
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+
+      - name: Set up Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+
+      - name: Install dependencies (frozen lockfile)
+        run: pnpm install --frozen-lockfile
+
+      - name: Run curriculum CI gate
+        run: pnpm curriculum:ci
+
+      - name: Upload curriculum CI report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curriculum-ci-report
+          path: lms-main/build/curriculum-ci-report.json
+          if-no-files-found: warn
+          retention-days: 14

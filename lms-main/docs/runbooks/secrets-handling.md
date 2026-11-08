@@ -6,7 +6,7 @@ Owner: to be assigned. Status: **documented, not rehearsed**. This runbook names
 
 1. Secrets live in the environment's secret store. Never commit a `.env` file. `.gitignore` excludes `.env`, but check before every commit.
 2. Each environment (local, staging, production) has its own value for every secret. A staging value must never be used in production, and the reverse.
-3. Placeholders in `.env.example` (for example the `change_me_*` values and the `minioadmin` defaults) are for local development only. Replace them before any shared deployment.
+3. Placeholders in `apps/backend/.env.example` (for example the `change_me_*` values and the `minioadmin` defaults) are for local development only. Production uses the placeholder map in `.env.production.example`. Replace every placeholder before any shared deployment.
 4. Secrets must not be printed to terminals that are logged, to CI logs or to shell history. The credential tool reads its input from stdin for this reason.
 5. Anyone who has seen a secret in plain text in an unapproved place treats it as exposed and follows section 5.
 

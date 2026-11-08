@@ -160,6 +160,8 @@ The backend reads `.env` from its own directory, `apps/backend/`. The dotenv loa
 
 Other variables (server port, MinIO endpoint and bucket, SMTP, token lifetimes, Stripe keys, curriculum directory) have defaults. They are defined in `apps/backend/src/config/env.ts`.
 
+For a production or staging environment, start from the placeholder map in `.env.production.example` and follow [docs/INSTALL.md](docs/INSTALL.md). Do not use `apps/backend/.env.example` or `apps/frontend/.env.example` on a server.
+
 > **Developer note:** `pnpm prisma:migrate` runs `prisma migrate dev`. It is interactive, can reset the database, and is only for creating a new migration after you change `schema.prisma`. Do not use it to install or upgrade.
 
 In a second terminal:

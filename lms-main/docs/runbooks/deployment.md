@@ -22,7 +22,7 @@ The Academy backend suites and the browser suite use mocks. They do not replace 
 
 ## 2. Configuration
 
-1. Build the environment file from the names in [secrets-handling.md](secrets-handling.md). Do not copy `.env.example` values into any shared environment; they are placeholders for local development.
+1. Build the environment file from `.env.production.example` (placeholders only) and the names in [secrets-handling.md](secrets-handling.md). Do not copy `apps/backend/.env.example` or `apps/frontend/.env.example` values into any shared environment; they are placeholders for local development.
 2. Set `NODE_ENV=production` for production and staging. Set `CLIENT_URL` to the exact origin of the frontend.
 3. `NEXT_PUBLIC_API_URL` is compiled into the frontend bundle. Set it before `next build`; changing it later requires a new build.
 4. Confirm that no demo account from `apps/backend/prisma/seed.ts` exists in staging or production.

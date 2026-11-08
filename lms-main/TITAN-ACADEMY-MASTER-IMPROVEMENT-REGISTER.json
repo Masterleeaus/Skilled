@@ -10,8 +10,9 @@
       "action": "Install locked dependencies and compile backend and frontend",
       "source": "apps/backend/tsconfig.json",
       "acceptance": "Dependency-enabled clean CI build passes",
-      "status": "OPEN",
-      "verification": "NOT VERIFIED",
+      "status": "IN PROGRESS",
+      "verification": "PARTIAL (2026-11-08): install, lint, typecheck and build verified locally; clean CI build not yet run.",
+      "evidence": "In a fresh worktree from origin/main (03dec3e), `pnpm install --frozen-lockfile`, `pnpm -C apps/backend lint`, `pnpm -C apps/frontend lint`, `pnpm -C apps/backend build` (tsc) and `pnpm -C apps/frontend build` (Next.js) all exit 0. Merged PRs: #14 (install, backend lint, tsc --noEmit), #31 (backend lint rules), #32 (test typecheck, 46 to 0 errors). Not yet verified: a clean build run in CI; no workflow runs it (see ACA-020).",
       "owner": "Unassigned"
     },
     {
@@ -21,8 +22,9 @@
       "action": "Validate Prisma schema and generated client",
       "source": "apps/backend/prisma/schema.prisma",
       "acceptance": "prisma validate and generate succeed",
-      "status": "OPEN",
-      "verification": "NOT VERIFIED",
+      "status": "DONE",
+      "verification": "VERIFIED (2026-11-08): prisma validate and generate pass.",
+      "evidence": "In apps/backend, `prisma validate` (Prisma 6.19.3, placeholder DATABASE_URL, no connection) and `prisma generate` exit 0. PR #14 also records `tsc --noEmit` passing after prisma generate. Migration execution against PostgreSQL is ACA-003 and remains OPEN.",
       "owner": "Unassigned"
     },
     {
@@ -314,7 +316,7 @@
   ],
   "pass52FixTeam": {
     "date": "2026-11-08",
-    "summary": "Static, unverified. The baseline changed from Pass 35 to Pass 52 (static, unverified). No ACA status, priority or owner was changed; all 28 items remain OPEN, NOT VERIFIED, Unassigned.",
+    "summary": "Static, unverified. The baseline changed from Pass 35 to Pass 52 (static, unverified). On 2026-11-08 only ACA-001 (IN PROGRESS, partially verified) and ACA-002 (DONE, verified) changed status, each with a dated evidence line; no priority or owner changed; all other items remain OPEN, NOT VERIFIED, Unassigned.",
     "notes": [
       "No /home/claude/tasks/fix-*.md change log existed when this section was written. The notes below are the static review notes in /home/claude/tasks/ that propose source-level fixes, cited by name.",
       "A diff of handoff-fixed/lms-main against handoff-extract/lms-main (excluding node_modules and .git) first showed no differences. A later diff, run during this pass, showed source changes made by another fix agent in handoff-fixed (static, unverified): apps/backend/src/modules/curriculum/lesson-review.service.ts (editor-independence check on approval, ACA-008 and ACA-026); new migrations 20261108100000_academy_external_identity_org_unique (ACA-028, additive, static) and 20261108100100_academy_course_tracks_course_fk (course-tracks foreign key, NOT VALID, matching finding 2 in ACA-027-028-migrations.md). Their change logs were not present in /home/claude/tasks/ when this section was written.",
@@ -335,7 +337,7 @@
   },
   "conflictsForHumanResolution": [
     "ACA-014: PASS42/QUALITY-ops.md says a progress route is missing and its check fails; PASS42/PROGRESS-route.md says the endpoint was added and the check passes.",
-    "ACA-001 and ACA-002: PASS42/VERIFY-evidence.md records a dependency install, a Prisma generate and a backend compile failure as run results; root PASS42-STABILIZATION-REPORT.md says those steps were not verified.",
+    "ACA-001 and ACA-002: PASS42/VERIFY-evidence.md records a dependency install, a Prisma generate and a backend compile failure as run results; root PASS42-STABILIZATION-REPORT.md says those steps were not verified. Resolved 2026-11-08: local install, build, lint and prisma validate/generate pass (see ACA-001 and ACA-002 evidence).",
     "Database target: PASS42/LMS-db-load.md and PASS42/GRADING-fix.md record a migration applied and content loaded into database lms; root PASS45, PASS48 and docs/PASS51 require the Academy database to be titan_academy only.",
     "Accidental write: PASS42/INTEGRATION-identity.md says a CREATE DATABASE ran on another PostgreSQL instance by mistake and was then dropped.",
     "ACA-020: marked DONE in PASS42/QUALITY-ops.md with no CI pipeline to wire into.",
