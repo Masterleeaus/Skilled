@@ -140,6 +140,8 @@ async function seed() {
       teacherId: teacher.id,
       price: 0,
       level: "BEGINNER",
+      // Demo fixture, not curriculum. It uses the legacy Lesson model and creates no AcademyContentLesson,
+      // AcademyLessonRevision or track, so no unreviewed curriculum is published by this seed.
       isPublished: true,
     },
   });
