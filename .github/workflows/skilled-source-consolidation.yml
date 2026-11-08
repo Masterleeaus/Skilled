@@ -59,6 +59,9 @@ jobs:
       - name: Verify destructive seed is confined to local throwaway databases
         working-directory: lms-main
         run: pnpm -C apps/backend exec vitest run src/tests/local-demo-seed-guard.test.ts
+      - name: Verify Central tenant-scoped identity resolver
+        working-directory: lms-main
+        run: pnpm -C apps/backend exec vitest run src/tests/central-identity-resolver.test.ts
       - name: Backend typecheck
         working-directory: lms-main
         run: pnpm -C apps/backend exec tsc --noEmit
