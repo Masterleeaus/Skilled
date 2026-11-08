@@ -15,6 +15,7 @@ try { ts = require(join(root, 'apps/backend/node_modules/typescript')); }
 catch { ts = require(dirname(dirname(realpathSync(execFileSync('which', ['tsc'], { encoding: 'utf8' }).trim())))); }
 const source = readFileSync(join(root, 'apps/backend/src/modules/courses/video-upload.service.ts'), 'utf8');
 const routes = readFileSync(join(root, 'apps/backend/src/modules/courses/module.routes.ts'), 'utf8');
+const lessonSource = readFileSync(join(root, 'apps/backend/src/modules/courses/lesson.service.ts'), 'utf8');
 const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, esModuleInterop: true } }).outputText;
 let assertions = 0;
 function check(ok, msg) { assert.ok(ok, msg); assertions++; }
@@ -34,6 +35,9 @@ const minioClient = { async putObject(bucket, key, stream, size, metadata) {
 const module = { exports: {} };
 new Function('require', 'module', 'exports', compiled)((id) => {
   if (id === 'multer') return { __esModule: true, default: fakeMulter };
+  if (id.endsWith('config/env')) return { env: {} };
+  if (id.endsWith('config/logger')) return { logger: { info() {}, warn() {}, error() {}, debug() {} } };
+  if (id.endsWith('config/prisma')) return { prisma: {} };
   if (id.endsWith('config/minio')) return { minioClient, MINIO_BUCKET: 'academy-private', buildObjectKey: (folder, name) => folder + '/' + name, STORAGE_FOLDERS: { videos: 'videos' } };
   if (id.endsWith('utils/AppError')) return { AppError: class AppError extends Error {} };
   if (['crypto', 'path', 'os', 'fs', 'fs/promises'].includes(id)) return require('node:' + id);
@@ -82,6 +86,10 @@ const videoRoute = routes.slice(routes.indexOf('// ---------------- Video upload
 check(videoRoute.includes('async function authorizeVideoUpload'), 'Upload authorization middleware exists');
 check(videoRoute.indexOf('authorizeVideoUpload,') < videoRoute.indexOf('uploadVideo.single("video")'), 'Authorization runs before multipart processing');
 check(videoRoute.indexOf('await assertCourseOwnership') < videoRoute.indexOf('router.post('), 'Ownership lookup exists before the upload route');
-check(videoRoute.includes('await minioClient.removeObject(MINIO_BUCKET, objectKey)'), 'Database update failures trigger object cleanup');
-check(videoRoute.includes('await lessonService.updateLesson('), 'Existing ownership-checked update remains in use');
+// The attach step moved from the route into lesson.service: a failed database update removes the new object.
+const attachService = lessonSource.split('export async function attachUploadedLessonVideo(')[1].split('export async function deleteLesson(')[0];
+check(/catch \(error\) \{\s*await removeVideoObject\(objectKey\);\s*throw error;/.test(attachService), 'Database update failures trigger object cleanup');
+check(videoRoute.includes('await lessonService.attachUploadedLessonVideo('), 'Existing ownership-checked update remains in use');
+const setKeyService = lessonSource.split('export async function setLessonVideoKey(')[1].split('/**')[0];
+check(setKeyService.includes('await assertCourseOwnership(lesson.module.courseId, userId, role)') && setKeyService.includes('tx.lesson.update('), 'Video attach checks ownership before the database update');
 console.log(`PASS: ${assertions} streaming-upload and authorization assertions (real TS service, mocked MinIO)`);
