@@ -27,3 +27,19 @@ The same run failed the existing curriculum gate: 16 missing course mappings, 1,
 5. Rerun the audit with `--fail-on-learner` when the reviewed rebrand is complete.
 
 The audit is deliberately read-only and does not claim issue #86 is complete.
+
+## Pass 3 learner-facing remediation (CI run 42526627194)
+
+All **49** matches previously classified as `learner-visible-review` were removed from the canonical lesson files (49 files changed). Every edited record was marked `NOT REVIEWED` before the edit; their review state was preserved. The new scan reports:
+
+- **0** canonical learner-visible matches.
+- **22** original source-reference strings retained as historical provenance.
+- **1** structural schema identifier requiring compatibility review (`curriculum/structure/PATHWAYS.json`).
+- **2** legacy text matches still in the generated normalization index.
+- **6 of 6** brand audit tests passed; the `--fail-on-learner` gate passed.
+
+The `curriculum:ci` workflow still fails for unrelated/existing blockers (16 missing course mappings, 1,267 assessments awaiting approvals, and index drift). The generated index has **not** been committed or approved yet. This issue stays open until reconciliation and editorial checks are complete.
+
+[Pass 3 GitHub Actions run](https://github.com/Masterleeaus/Skilled/actions/runs/42526627194)
+
+Editorial reviewers must check the 49 replacement phrases for naturalness and accuracy before approving revised lessons. The one structural schema name remains unchanged intentionally to avoid breaking readers.
