@@ -7,6 +7,9 @@ on:
       - "lms-main/apps/backend/src/jobs/account-email-content.ts"
       - "lms-main/scripts/audit-public-product-identity.mjs"
       - "lms-main/scripts/test-audit-public-product-identity.mjs"
+      - "lms-main/scripts/audit-course-art-manifest.mjs"
+      - "lms-main/scripts/test-audit-course-art-manifest.mjs"
+      - "lms-main/apps/frontend/src/lib/academy-brand.manifest.json"
       - "lms-main/scripts/test-skilled-public-brand.mjs"
       - "lms-main/scripts/prepare-public-assets.mjs"
       - "lms-main/scripts/test-prepare-public-assets.mjs"
@@ -21,6 +24,9 @@ on:
       - "lms-main/apps/backend/src/jobs/account-email-content.ts"
       - "lms-main/scripts/audit-public-product-identity.mjs"
       - "lms-main/scripts/test-audit-public-product-identity.mjs"
+      - "lms-main/scripts/audit-course-art-manifest.mjs"
+      - "lms-main/scripts/test-audit-course-art-manifest.mjs"
+      - "lms-main/apps/frontend/src/lib/academy-brand.manifest.json"
       - "lms-main/scripts/test-skilled-public-brand.mjs"
       - ".github/workflows/skilled-public-brand.yml"
 permissions:
@@ -52,6 +58,20 @@ jobs:
         run: |
           node --test scripts/test-audit-public-product-identity.mjs
           node scripts/audit-public-product-identity.mjs --strict --report build/public-identity-audit.json
+
+      - name: Verify canonical course-art manifest URLs
+        working-directory: lms-main
+        run: |
+          node --test scripts/test-audit-course-art-manifest.mjs
+          node scripts/audit-course-art-manifest.mjs --strict --report build/course-art-manifest-audit.json
+
+      - name: Upload course-art manifest audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: skilled-course-art-manifest-audit
+          path: lms-main/build/course-art-manifest-audit.json
+          if-no-files-found: warn
 
       - name: Upload active public identity audit
         if: always()
