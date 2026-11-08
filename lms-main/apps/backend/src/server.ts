@@ -4,7 +4,7 @@ import { Server as SocketIOServer } from "socket.io";
 import { app } from "./app";
 import { env } from "./config/env";
 import { logger } from "./config/logger";
-import { ensureBucketExists } from "./config/minio";
+import { initializeStorage } from "./config/minio";
 import { cleanupStaleVideoUploads } from "./modules/courses/video-upload.service";
 import { prisma } from "./config/prisma";
 import { redis, bullConnection } from "./config/redis";
@@ -25,7 +25,7 @@ io.on("connection", (socket) => {
 async function start() {
   await prisma.$queryRaw`SELECT 1`;
   if (await redis.ping() !== "PONG") throw new Error("Redis readiness check failed");
-  await ensureBucketExists();
+  await initializeStorage();
   const staleUploadsRemoved = await cleanupStaleVideoUploads();
   if (staleUploadsRemoved) logger.info(`Cleaned ${staleUploadsRemoved} stale Academy video uploads`);
 

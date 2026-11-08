@@ -1,7 +1,7 @@
 import { Router, Request, Response } from "express";
 import { prisma } from "../config/prisma";
 import { redis } from "../config/redis";
-import { minioClient, MINIO_BUCKET } from "../config/minio";
+import { minioClient, MINIO_BUCKET, isStorageReady } from "../config/minio";
 import { sendSuccess } from "../utils/response";
 
 const router = Router();
@@ -28,8 +28,11 @@ router.get("/health", async (_req: Request, res: Response) => {
   }
 
   try {
-    await minioClient.bucketExists(MINIO_BUCKET);
-    checks.storage = "ok";
+    // Storage that failed to initialise at startup stays down, even if MinIO is reachable now.
+    if (isStorageReady()) {
+      await minioClient.bucketExists(MINIO_BUCKET);
+      checks.storage = "ok";
+    }
   } catch {
     checks.storage = "down";
   }
