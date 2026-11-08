@@ -53,7 +53,22 @@ export async function updateLesson(
   if (!lesson) throw new NotFoundError("Lesson");
 
   await assertCourseOwnership(lesson.module.courseId, userId, role);
-  return prisma.lesson.update({ where: { id: lessonId }, data: input });
+
+  if (input.videoUrl === undefined) {
+    return prisma.lesson.update({ where: { id: lessonId }, data: input });
+  }
+
+  // A videoUrl change replaces the stored key. The previous key is read under the same lock as the update.
+  const committed = await prisma.$transaction(async (tx) => {
+    const previousVideoKey = await lockLessonVideoKey(tx, lessonId);
+    const updated = await tx.lesson.update({ where: { id: lessonId }, data: input });
+    return { lesson: updated, previousVideoKey };
+  });
+  // Remove the replaced object only after the commit. If the update failed, the old object is kept.
+  if (committed.previousVideoKey && committed.previousVideoKey !== input.videoUrl) {
+    await removeVideoObject(committed.previousVideoKey);
+  }
+  return committed.lesson;
 }
 
 export async function reorderLessons(
