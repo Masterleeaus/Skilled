@@ -97,7 +97,7 @@ async function seed() {
 
   const admin = await prisma.user.create({
     data: {
-      fullName: "Admin User",
+      fullName: "Demo Admin",
       email: "admin@lms.local",
       passwordHash,
       role: "ADMIN",
@@ -107,7 +107,7 @@ async function seed() {
 
   const teacher = await prisma.user.create({
     data: {
-      fullName: "Teacher One",
+      fullName: "Demo Teacher",
       email: "teacher@lms.local",
       passwordHash,
       role: "TEACHER",
@@ -117,7 +117,7 @@ async function seed() {
 
   const student = await prisma.user.create({
     data: {
-      fullName: "Student One",
+      fullName: "Demo Learner",
       email: "student@lms.local",
       passwordHash,
       role: "STUDENT",
@@ -133,9 +133,9 @@ async function seed() {
 
   const course = await prisma.course.create({
     data: {
-      title: "Node.js Masterclass",
+      title: "Demo course: Node.js basics",
       slug: "nodejs-masterclass",
-      description: "Learn backend development with Node.js, Express, and Prisma from scratch.",
+      description: "Local demo fixture for the legacy course model. It is not Titan Academy curriculum.",
       categoryId: category.id,
       teacherId: teacher.id,
       price: 0,
@@ -153,7 +153,7 @@ async function seed() {
   await prisma.lesson.create({
     data: {
       moduleId: module1.id,
-      title: "Welcome to the course",
+      title: "Welcome to the demo course",
       isFreePreview: true,
       orderIndex: 0,
     },
@@ -162,7 +162,7 @@ async function seed() {
   await prisma.lesson.create({
     data: {
       moduleId: module1.id,
-      title: "Setting up your environment",
+      title: "Demo setup notes",
       orderIndex: 1,
     },
   });

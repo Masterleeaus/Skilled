@@ -83,7 +83,7 @@ export async function initiateCheckout(courseId: string, studentId: string, coup
     prisma.user.findUnique({ where: { id: studentId } }),
   ]);
   if (!course) throw new NotFoundError("Course");
-  if (!student) throw new NotFoundError("Student");
+  if (!student) throw new NotFoundError("Learner");
   if (!course.isPublished) throw new AppError("Course is not published", 400);
 
   const alreadyEnrolled = await prisma.enrollment.findUnique({

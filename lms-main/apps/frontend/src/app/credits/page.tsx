@@ -29,6 +29,21 @@ export default function CreditsPage() {
         </p>
       </section>
 
+      <section aria-labelledby="origin-heading" className="mt-8 space-y-3">
+        <h2 id="origin-heading" className="text-xl font-medium">
+          Origin and licence
+        </h2>
+        <p className="text-neutral-300">
+          Titan Academy began from an inherited MIT-licensed full-stack learning management system,
+          written by Farrukh Ali Khan. The copyright notice is kept in the LICENSE file of the source
+          code, as the MIT licence requires.
+        </p>
+        <p className="text-neutral-300">
+          Some inherited modules remain in the code where Titan Academy uses them. Their behaviour is
+          not verified for Titan Academy.
+        </p>
+      </section>
+
       <section aria-labelledby="icons-heading" className="mt-8 space-y-3">
         <h2 id="icons-heading" className="text-xl font-medium">
           Icons
