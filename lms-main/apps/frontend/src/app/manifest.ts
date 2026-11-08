@@ -13,8 +13,10 @@ export default function manifest(): MetadataRoute.Manifest {
     display: "standalone",
     background_color: "#0a0a0a",
     theme_color: "#0a0a0a",
-    // Icons are intentionally not declared yet: no Skilled mark (192 and 512 px PNG) exists in the repository.
-    // Add them under public/icons/ and list them here; scripts/verify-metadata.mjs fails until they are present.
-    icons: [],
+    // Placeholder text-only marks until the Skilled mark is supplied; see public/icons/README.md.
+    icons: [
+      { src: "/icons/icon-192-placeholder.png", sizes: "192x192", type: "image/png", purpose: "any" },
+      { src: "/icons/icon-512-placeholder.png", sizes: "512x512", type: "image/png", purpose: "any" },
+    ],
   };
 }

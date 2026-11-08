@@ -20,7 +20,7 @@ The backend is unchanged. `smoke-e2e.mjs` is unchanged: its S06 step asserts the
 
 ## Before and after
 
-Seeded database (`lms_s1`, fresh seed), student `student@lms.local` enrolled in `nodejs-masterclass`, Chromium at `/opt/pw-browsers/chromium` with `--no-sandbox`. The API returns "Getting Started: Welcome to the demo course | Demo setup notes".
+Seeded database (`lms_s1`, fresh seed), student `student@skilled.local` enrolled in `nodejs-masterclass`, Chromium at `/opt/pw-browsers/chromium` with `--no-sandbox`. The API returns "Getting Started: Welcome to the demo course | Demo setup notes".
 
 | Page | Before | After |
 | --- | --- | --- |

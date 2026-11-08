@@ -7,6 +7,8 @@ import { Providers } from "./providers";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 const siteName = "SkilledAt.Work";
 const siteDescription = "SkilledAt.Work learning system: Titan Academy training for field and home-service businesses";
+// Placeholder text-only share image (public/icons/README.md), replaced when the Skilled mark is supplied.
+const shareImage = { url: "/icons/og-image-placeholder.png", width: 1200, height: 630, alt: "SkilledAt.Work" };
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -20,11 +22,13 @@ export const metadata: Metadata = {
     title: siteName,
     description: siteDescription,
     url: "/",
+    images: [shareImage],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: siteName,
     description: siteDescription,
+    images: [shareImage.url],
   },
 };
 

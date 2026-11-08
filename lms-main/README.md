@@ -196,11 +196,11 @@ These accounts are created by the local seed script (`pnpm prisma:seed`). They a
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@lms.local | Password123! |
-| Teacher | teacher@lms.local | Password123! |
-| Student | student@lms.local | Password123! |
+| Admin | admin@skilled.local | Password123! |
+| Teacher | teacher@skilled.local | Password123! |
+| Student | student@skilled.local | Password123! |
 
-The `@lms.local` domain is a seed identifier kept for compatibility with the existing seed data and tests.
+The `@skilled.local` domain is a seed identifier. Databases seeded before this change still hold the old `@lms.local` accounts and must be re-seeded to get the new addresses.
 
 ---
 

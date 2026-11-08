@@ -97,9 +97,9 @@ async function main() {
   });
 
   const roles = [
-    ["S02", "login admin", "admin@lms.local", "ADMIN"],
-    ["S03", "login teacher", "teacher@lms.local", "TEACHER"],
-    ["S04", "login student", "student@lms.local", "STUDENT"],
+    ["S02", "login admin", "admin@skilled.local", "ADMIN"],
+    ["S03", "login teacher", "teacher@skilled.local", "TEACHER"],
+    ["S04", "login student", "student@skilled.local", "STUDENT"],
   ];
   for (const [id, name, email, role] of roles) {
     await step(id, name, async () => {
