@@ -20,3 +20,12 @@ test('production public origin stays configurable, not assumed', () => {
   assert.match(appLayout, /process\.env\.NEXT_PUBLIC_SITE_URL/);
   assert.match(appLayout, /http:\/\/localhost:3000/);
 });
+
+test('manifest and built-metadata verifier match the public description exactly', () => {
+  const manifest = readFileSync(resolve(root, 'apps/frontend/src/app/manifest.ts'), 'utf8');
+  const verifier = readFileSync(resolve(root, 'apps/frontend/scripts/verify-metadata.mjs'), 'utf8');
+  const description = appLayout.match(/const siteDescription = "([^"]+)";/)?.[1];
+  assert.ok(description, 'Description missing');
+  assert.ok(manifest.includes(description), 'PWA manifest description drift');
+  assert.ok(verifier.includes(description), 'Built-metadata contract description drift');
+});
