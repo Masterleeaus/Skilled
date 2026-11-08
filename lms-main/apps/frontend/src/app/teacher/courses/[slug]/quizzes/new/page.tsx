@@ -111,8 +111,9 @@ export default function NewQuizPage() {
             />
             <div className="grid grid-cols-3 gap-3">
               <div>
-                <label className="mb-1 block text-xs text-neutral-400">Total marks</label>
+                <label htmlFor="quiz-total-marks" className="mb-1 block text-xs text-neutral-400">Total marks</label>
                 <input
+                  id="quiz-total-marks"
                   type="number"
                   value={totalMarks}
                   onChange={(e) => setTotalMarks(Number(e.target.value))}
@@ -120,8 +121,9 @@ export default function NewQuizPage() {
                 />
               </div>
               <div>
-                <label className="mb-1 block text-xs text-neutral-400">Passing marks</label>
+                <label htmlFor="quiz-passing-marks" className="mb-1 block text-xs text-neutral-400">Passing marks</label>
                 <input
+                  id="quiz-passing-marks"
                   type="number"
                   value={passingMarks}
                   onChange={(e) => setPassingMarks(Number(e.target.value))}
@@ -129,8 +131,9 @@ export default function NewQuizPage() {
                 />
               </div>
               <div>
-                <label className="mb-1 block text-xs text-neutral-400">Time limit (min)</label>
+                <label htmlFor="quiz-time-limit" className="mb-1 block text-xs text-neutral-400">Time limit (min)</label>
                 <input
+                  id="quiz-time-limit"
                   type="number"
                   value={timeLimitMinutes}
                   onChange={(e) => setTimeLimitMinutes(Number(e.target.value))}
