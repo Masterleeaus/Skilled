@@ -231,6 +231,16 @@ export function knowledgeChecksAgree(fileBody: unknown, revisionBody: unknown): 
 }
 
 // Knowledge-check keys must never be delivered to the learner through course outlines.
+/**
+ * Snapshot hash over the resolved business fields and the rendered body. Postgres jsonb does not keep object key
+ * order, so the fields are hashed in sorted key order: the hash taken at presentation must match the one
+ * recomputed from the stored (jsonb) fields on read. Body key order is already fixed by the revision's jsonb.
+ */
+export function snapshotContentHash(revisionId: string, fields: Record<string, unknown>, body: unknown): string {
+  const sortedFields = Object.fromEntries(Object.keys(fields).sort().map(key => [key, fields[key]]));
+  return createHash("sha256").update(JSON.stringify({ revisionId, fields: sortedFields, body })).digest("hex");
+}
+
 export function publicLessonBody(body: unknown): unknown {
   // Recursively strip assessment keys, including nested sections and legacy formats.
   // Only server-side grading is permitted to access answer material.
@@ -527,7 +537,7 @@ router.post("/companies/:companyId/lessons/:revisionId/context", authenticate, r
     return value;
   };
   const body = render(publicBody);
-  const contentHash = createHash("sha256").update(JSON.stringify({ revisionId: revision.id, fields, body })).digest("hex");
+  const contentHash = snapshotContentHash(revision.id, fields, body);
   const snapshot = await prisma.academyLessonContextSnapshot.create({ data: { companyId, learnerId, lessonRevisionId: revision.id, resolvedFields: JSON.parse(JSON.stringify(fields)), contentHash } });
   sendSuccess(res, { lessonRevisionId: revision.id, body, contextSnapshotId: snapshot.id, contentHash });
 }));
@@ -593,7 +603,7 @@ router.get("/companies/:companyId/lesson-context-snapshots/:snapshotId", authent
     return value;
   };
   const body = render(publicLessonBody(revision.body));
-  const contentHash = createHash("sha256").update(JSON.stringify({ revisionId: revision.id, fields, body })).digest("hex");
+  const contentHash = snapshotContentHash(revision.id, fields as Record<string, unknown>, body);
   if (contentHash !== snapshot.contentHash) throw new ForbiddenError("Lesson snapshot integrity verification failed");
   sendSuccess(res, { contextSnapshotId: snapshot.id, companyId, lessonRevisionId: revision.id, presentedAt: snapshot.createdAt, contentHash, body });
 }));
