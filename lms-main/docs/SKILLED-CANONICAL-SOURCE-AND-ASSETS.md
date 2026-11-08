@@ -166,3 +166,13 @@ A separate pure preflight module, `apps/backend/prisma/local-demo-seed-guard.ts`
 - Target logging prints host and database name only; credentials are never printed.
 
 The `local-demo-seed-guard.test.ts` test suite uses pure inputs without a PostgreSQL connection. A loopback host could still conceal a forwarded production port, so the operator must independently verify the target is a disposable local database. **Never run demo seeding against staging/production or other shared services.** No actual demo seed was executed in this pass.
+
+## Account onboarding and notification surface (pass 14)
+
+The five account pages at `apps/frontend/src/app/(auth)/{login,register,verify-email,forgot-password,reset-password}/page.tsx` now render one accessible `apps/frontend/src/components/AuthBrand.tsx` header. This presents `SkilledAt.Work` and navigates back to the public homepage, without touching session state, identity records or recovery token URLs. Login and registration server errors now expose `role="alert"` so assistive technology receives feedback.
+
+A dedicated `scripts/test-account-flow-branding.mjs` contract checks the five imports, protected token handling, role-based login routing and account recovery phrasing. It is run by `skilled-account-flow-brand.yml`.
+
+**Notification status:** `Notification` exists as a persisted inherited Prisma model, but `apps/backend/src/app.ts` does **not** mount a `/api/notifications` route. That model is **not evidence** of a working notifications inbox, delivery engine, or notification branding. It is preserved for compatibility; notification API and product experience require separate implementation and tests, rather than being claimed complete under issue #72.
+
+External company/user identities, all auth compatibility keys and the existing verification/reset service behaviour were unchanged. Static frontend checks are not proof of email deliverability or end-to-end onboarding success.
