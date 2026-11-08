@@ -8,6 +8,29 @@
  *
  * A lesson acknowledgement is a learning record only. It is never reported as a verified
  * practical competency or a certificate.
+ *
+ * Attribution policy (ACA-025, issue #56). An organisation's report counts a learner's record only when
+ * that record's authoritative timestamp is at or after the organisation's assignment for the course
+ * (AcademyTrainingAssignment.createdAt, the cut-off):
+ *   - lesson acknowledgement: completedAt
+ *   - knowledge-check attempt: createdAt
+ *   - practical evidence: reviewedAt once an assessor has decided it, otherwise createdAt (submission)
+ *   - verified competency: verifiedAt
+ * Records on other revisions never count toward the pinned revision. Practical evidence and competencies are
+ * organisation-scoped (companyId), so another organisation's records never appear. A learner must be a member
+ * of the organisation to have a report there. Membership changes do not delete records: a learner who leaves
+ * has no report, and their earlier records reappear if they rejoin.
+ *
+ * Reassignment. The organisation's assignment row is reused on reassignment (the upsert keeps createdAt), so the
+ * cut-off is the organisation's first assignment of the course. Records made since then count across
+ * reassignment. This is deliberate and visible: each course reports `countedFrom` (the cut-off) and each
+ * lesson reports `excludedBeforeAssignment`, so earlier records are never mixed in silently.
+ *
+ * Expiry. A competency is active while expiresAt is null or later than the report time. Expired competencies are
+ * listed with active=false and are not counted.
+ *
+ * Shared revisions. A learner's acknowledgement and attempts on a revision are withheld while another organisation
+ * that the learner is still a member of also assigns that revision.
  */
 import { prisma } from "../../config/prisma";
 import { knowledgeCheckCount } from "../levels/level-rules";
@@ -23,6 +46,8 @@ const isActiveAccount = (user: { isActive: boolean; isEmailVerified: boolean; de
 
 export type CompletionState = "NO_REQUIRED_LESSONS" | "IN_PROGRESS" | "REQUIRED_LESSONS_ACKNOWLEDGED";
 
+export type PracticalAttribution = "SUBMISSION" | "REVIEW";
+
 export interface LessonEvidence {
   lessonId: string;
   sourceId: string;
@@ -31,14 +56,32 @@ export interface LessonEvidence {
   required: boolean;
   /** True when another organisation also assigns this learner the same revision, so its acknowledgement and scores are withheld here. */
   withheldAsShared: boolean;
+  /** Records on this pinned revision made before the organisation's cut-off. They are not counted. */
+  excludedBeforeAssignment: number;
   acknowledgement: { completedAt: Date } | null;
   knowledgeCheck: {
     attempts: number;
     passed: boolean;
     latest: { score: number; total: number; passed: boolean; createdAt: Date } | null;
   };
-  practicalEvidence: Array<{ id: string; status: string; submittedAt: Date; reviewedAt: Date | null }>;
-  competencies: Array<{ id: string; verifiedAt: Date; expiresAt: Date | null; active: boolean }>;
+  practicalEvidence: Array<{
+    id: string;
+    status: string;
+    submittedAt: Date;
+    reviewedAt: Date | null;
+    /** The timestamp that placed this record under the cut-off: the review when decided, else the submission. */
+    attributedAt: Date;
+    attributedBy: PracticalAttribution;
+  }>;
+  competencies: Array<{
+    id: string;
+    evidenceId: string;
+    /** When the underlying evidence was submitted. Provenance only; the competency is attributed by verifiedAt. */
+    evidenceSubmittedAt: Date | null;
+    verifiedAt: Date;
+    expiresAt: Date | null;
+    active: boolean;
+  }>;
 }
 
 export interface CourseEvidence {
@@ -46,6 +89,8 @@ export interface CourseEvidence {
   courseTitle: string;
   assignmentStatus: string;
   dueAt: Date | null;
+  /** The organisation's assignment cut-off. Only records at or after this time are counted. */
+  countedFrom: Date;
   completionState: CompletionState;
   summary: {
     requiredLessons: number;
@@ -55,8 +100,15 @@ export interface CourseEvidence {
     requiredPercent: number | null;
     practicalPending: number;
     activeCompetencies: number;
+    excludedBeforeAssignment: number;
   };
   lessons: LessonEvidence[];
+}
+
+/** Distinct learner-level counts. A record shared by two assigned courses is counted once. */
+export interface LearnerTotals {
+  practicalPending: number;
+  activeCompetencies: number;
 }
 
 export interface LessonSlot {
@@ -113,19 +165,31 @@ export async function courseSlots(courseId: string): Promise<LessonSlot[]> {
 
 /**
  * Knowledge attempts and lesson acknowledgements have no companyId, so they cannot be attributed to one
- * organisation. A learner's record on a revision is withheld from this organisation's report when another
- * organisation also assigns that learner a course containing the same revision. Records are kept, not deleted.
+ * organisation. A learner's record on a revision is withheld from this organisation's report while another
+ * organisation the learner still belongs to also assigns a course containing the same revision. Records are
+ * kept, not deleted. A removed membership ends the sharing.
  */
 async function sharedRevisionKeys(companyId: string, learnerId: string): Promise<Set<string>> {
+  const otherMemberships = await prisma.companyMember.findMany({
+    where: { userId: learnerId, companyId: { not: companyId } },
+    select: { companyId: true },
+  });
+  const otherCompanyIds = otherMemberships.map((row) => row.companyId);
+  const keys = new Set<string>();
+  if (otherCompanyIds.length === 0) return keys;
   const otherAssignments = await prisma.academyTrainingAssignment.findMany({
-    where: { learnerId, companyId: { not: companyId }, status: { in: ASSIGNED_STATUSES }, course: { isPublished: true } },
+    where: { learnerId, companyId: { in: otherCompanyIds }, status: { in: ASSIGNED_STATUSES }, course: { isPublished: true } },
     select: { courseId: true },
   });
-  const keys = new Set<string>();
   for (const courseId of [...new Set(otherAssignments.map((row) => row.courseId))]) {
     for (const slot of await courseSlots(courseId)) keys.add(`${slot.lessonId}:${slot.revisionId}`);
   }
   return keys;
+}
+
+/** The timestamp that places a practical evidence record under the cut-off: the review once decided, else the submission. */
+function practicalAttribution(row: { createdAt: Date; reviewedAt: Date | null }): { at: Date; by: PracticalAttribution } {
+  return row.reviewedAt ? { at: row.reviewedAt, by: "REVIEW" } : { at: row.createdAt, by: "SUBMISSION" };
 }
 
 async function courseEvidence(
@@ -137,6 +201,9 @@ async function courseEvidence(
 ): Promise<CourseEvidence> {
   const slots = await courseSlots(assignment.courseId);
   const lessonIds = [...new Set(slots.map((slot) => slot.lessonId))];
+  // Cut-off: only records made at or after this organisation's assignment count (see the module header).
+  const cutoff = assignment.createdAt;
+  const countsFromCutoff = (at: Date) => at >= cutoff;
 
   const [completions, attempts, evidence, competencies] = await Promise.all([
     prisma.academyLearnerCompletion.findMany({ where: { learnerId, lessonId: { in: lessonIds } } }),
@@ -144,15 +211,34 @@ async function courseEvidence(
     prisma.academyPracticalEvidence.findMany({ where: { learnerId, companyId, lessonId: { in: lessonIds } }, orderBy: { createdAt: "desc" } }),
     prisma.academyVerifiedCompetency.findMany({ where: { companyId, learnerId, lessonId: { in: lessonIds } }, orderBy: { verifiedAt: "desc" } }),
   ]);
+  const evidenceById = new Map(evidence.map((row) => [row.id, row]));
 
   const lessons: LessonEvidence[] = slots.map((slot) => {
     const withheldAsShared = sharedKeys.has(`${slot.lessonId}:${slot.revisionId}`);
-    // Owner rule: only records made after this company's assignment was created count toward its report.
-    const countsForCompany = (at: Date) => at >= assignment.createdAt;
-    const acknowledgement = withheldAsShared ? undefined : completions.find((row) => sameLesson(row, slot) && countsForCompany(row.completedAt));
-    const lessonAttempts: typeof attempts = withheldAsShared ? [] : attempts.filter((row) => sameLesson(row, slot) && countsForCompany(row.createdAt));
-    const lessonEvidence = evidence.filter((row) => sameLesson(row, slot));
+    let excluded = 0;
+
+    // Withheld records are neither counted nor counted as excluded, so a withheld revision reveals nothing.
+    const completion = withheldAsShared ? undefined : completions.find((row) => sameLesson(row, slot));
+    let acknowledgement: { completedAt: Date } | null = null;
+    if (completion) {
+      if (countsFromCutoff(completion.completedAt)) acknowledgement = { completedAt: completion.completedAt };
+      else excluded += 1;
+    }
+
+    const lessonAttempts = withheldAsShared ? [] : attempts.filter((row) => sameLesson(row, slot));
+    const countedAttempts = lessonAttempts.filter((row) => countsFromCutoff(row.createdAt));
+    excluded += lessonAttempts.length - countedAttempts.length;
+
+    const lessonEvidence = evidence
+      .filter((row) => sameLesson(row, slot))
+      .map((row) => ({ row, attribution: practicalAttribution(row) }));
+    const countedEvidence = lessonEvidence.filter((item) => countsFromCutoff(item.attribution.at));
+    excluded += lessonEvidence.length - countedEvidence.length;
+
     const lessonCompetencies = competencies.filter((row) => sameLesson(row, slot));
+    const countedCompetencies = lessonCompetencies.filter((row) => countsFromCutoff(row.verifiedAt));
+    excluded += lessonCompetencies.length - countedCompetencies.length;
+
     return {
       lessonId: slot.lessonId,
       sourceId: slot.sourceId,
@@ -160,20 +246,30 @@ async function courseEvidence(
       revisionId: slot.revisionId,
       required: slot.required,
       withheldAsShared,
-      acknowledgement: acknowledgement ? { completedAt: acknowledgement.completedAt } : null,
+      excludedBeforeAssignment: excluded,
+      acknowledgement,
       knowledgeCheck: {
-        attempts: lessonAttempts.length,
-        passed: lessonAttempts.some((row) => row.passed),
-        latest: lessonAttempts[0]
-          ? { score: lessonAttempts[0].score, total: lessonAttempts[0].total, passed: lessonAttempts[0].passed, createdAt: lessonAttempts[0].createdAt }
+        attempts: countedAttempts.length,
+        passed: countedAttempts.some((row) => row.passed),
+        latest: countedAttempts[0]
+          ? { score: countedAttempts[0].score, total: countedAttempts[0].total, passed: countedAttempts[0].passed, createdAt: countedAttempts[0].createdAt }
           : null,
       },
-      practicalEvidence: lessonEvidence.map((row) => ({ id: row.id, status: row.status, submittedAt: row.createdAt, reviewedAt: row.reviewedAt })),
-      competencies: lessonCompetencies.map((row) => ({
+      practicalEvidence: countedEvidence.map(({ row, attribution }) => ({
         id: row.id,
+        status: row.status,
+        submittedAt: row.createdAt,
+        reviewedAt: row.reviewedAt,
+        attributedAt: attribution.at,
+        attributedBy: attribution.by,
+      })),
+      competencies: countedCompetencies.map((row) => ({
+        id: row.id,
+        evidenceId: row.evidenceId,
+        evidenceSubmittedAt: evidenceById.get(row.evidenceId)?.createdAt ?? null,
         verifiedAt: row.verifiedAt,
         expiresAt: row.expiresAt,
-        active: row.expiresAt === null || row.expiresAt > now,
+        active: !row.expiresAt || row.expiresAt > now,
       })),
     };
   });
@@ -193,6 +289,7 @@ async function courseEvidence(
     courseTitle: assignment.course.title,
     assignmentStatus: assignment.status,
     dueAt: assignment.dueAt,
+    countedFrom: cutoff,
     completionState,
     summary: {
       requiredLessons: requiredLessons.length,
@@ -202,6 +299,7 @@ async function courseEvidence(
       requiredPercent: requiredLessons.length ? Math.round((requiredAcknowledged / requiredLessons.length) * 100) : null,
       practicalPending: lessons.reduce((total, lesson) => total + lesson.practicalEvidence.filter((row) => row.status === "PENDING").length, 0),
       activeCompetencies: lessons.reduce((total, lesson) => total + lesson.competencies.filter((row) => row.active).length, 0),
+      excludedBeforeAssignment: lessons.reduce((total, lesson) => total + lesson.excludedBeforeAssignment, 0),
     },
     lessons,
   };
@@ -212,6 +310,9 @@ export async function buildLearnerCompletionReport(companyId: string, learnerId:
   // Deactivated or deleted learners have no report in this organisation.
   const learner = await prisma.user.findUnique({ where: { id: learnerId }, select: { isActive: true, isEmailVerified: true, deletedAt: true } });
   if (!isActiveAccount(learner)) throw new NotFoundError("Learner in organisation");
+  // A learner who is no longer a member has no report here, even though their assignment rows remain.
+  const membership = await prisma.companyMember.findUnique({ where: { companyId_userId: { companyId, userId: learnerId } }, select: { id: true } });
+  if (!membership) throw new NotFoundError("Learner in organisation");
   const assignments = await prisma.academyTrainingAssignment.findMany({
     where: { companyId, learnerId, status: { in: ASSIGNED_STATUSES }, course: { isPublished: true } },
     include: { course: { select: { title: true } } },
@@ -220,7 +321,20 @@ export async function buildLearnerCompletionReport(companyId: string, learnerId:
   const sharedKeys = await sharedRevisionKeys(companyId, learnerId);
   const courses: CourseEvidence[] = [];
   for (const assignment of assignments) courses.push(await courseEvidence(companyId, learnerId, assignment, now, sharedKeys));
-  return { companyId, learnerId, generatedAt: now.toISOString(), courses };
+  return { companyId, learnerId, generatedAt: now.toISOString(), totals: learnerTotals(courses), courses };
+}
+
+/** Counts each practical record and competency once, even when two assigned courses share its lesson. */
+function learnerTotals(courses: CourseEvidence[]): LearnerTotals {
+  const pending = new Set<string>();
+  const active = new Set<string>();
+  for (const course of courses) {
+    for (const lesson of course.lessons) {
+      for (const row of lesson.practicalEvidence) if (row.status === "PENDING") pending.add(row.id);
+      for (const row of lesson.competencies) if (row.active) active.add(row.id);
+    }
+  }
+  return { practicalPending: pending.size, activeCompetencies: active.size };
 }
 
 /**
@@ -275,14 +389,17 @@ export async function buildCompanyCompletionReport(companyId: string, now = new 
     learners.push({
       learnerId: member.userId,
       fullName: member.user?.fullName ?? null,
+      totals: report.totals,
       courses: report.courses.map((course) => ({
         courseId: course.courseId,
         courseTitle: course.courseTitle,
         assignmentStatus: course.assignmentStatus,
+        countedFrom: course.countedFrom.toISOString(),
         completionState: course.completionState,
         requiredPercent: course.summary.requiredPercent,
         practicalPending: course.summary.practicalPending,
         activeCompetencies: course.summary.activeCompetencies,
+        excludedBeforeAssignment: course.summary.excludedBeforeAssignment,
       })),
     });
   }
@@ -294,8 +411,9 @@ export async function buildCompanyCompletionReport(companyId: string, now = new 
       learners: learners.length,
       assignedCourses: allCourses.length,
       coursesWithRequiredLessonsAcknowledged: allCourses.filter((course) => course.completionState === "REQUIRED_LESSONS_ACKNOWLEDGED").length,
-      practicalPending: allCourses.reduce((total, course) => total + course.practicalPending, 0),
-      activeCompetencies: allCourses.reduce((total, course) => total + course.activeCompetencies, 0),
+      // Learner-level distinct counts, so a record reached through two assigned courses is not counted twice.
+      practicalPending: learners.reduce((total, learner) => total + learner.totals.practicalPending, 0),
+      activeCompetencies: learners.reduce((total, learner) => total + learner.totals.activeCompetencies, 0),
     },
     learners,
   };
