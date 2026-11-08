@@ -4,6 +4,8 @@ import {
   type CentralResolutionStore, type VerifiedCentralIdentity,
 } from "../modules/auth/central-identity-resolver";
 
+const trusted = {issuer: "https://identity.example.test", audience: "urn:titan-central:product:lms" as const};
+
 const principal: VerifiedCentralIdentity = {
   subject: "sub-101", issuer: "https://identity.example.test",
   audience: "urn:titan-central:product:lms", organisationRef: "org-111",
@@ -44,7 +46,7 @@ function fixture() {
 describe("Central -> Skilled verified local identity boundary", () => {
   it("resolves a verified scoped subject to an eligible local learner without issuing a session", async () => {
     const { store,calls } = fixture();
-    const result = await resolveVerifiedCentralIdentity(principal,store);
+    const result = await resolveVerifiedCentralIdentity(principal,store,trusted);
     expect(result).toEqual({
       userId:"learner-1",companyId:"company-one",companyRef:"org-111",
       memberRole:"LEARNER",canIssueSession:false,
@@ -64,14 +66,14 @@ describe("Central -> Skilled verified local identity boundary", () => {
     ];
     for (const input of invalid) {
       const {store,calls}=fixture();
-      expect(await resolveVerifiedCentralIdentity(input as VerifiedCentralIdentity,store)).toBeNull();
+      expect(await resolveVerifiedCentralIdentity(input as VerifiedCentralIdentity,store,trusted)).toBeNull();
       expect(calls).toEqual([]);
     }
   });
 
   it("refuses unknown organisation without consulting links", async () => {
     const {state,store,calls}=fixture();state.company=null;
-    expect(await resolveVerifiedCentralIdentity(principal,store)).toBeNull();
+    expect(await resolveVerifiedCentralIdentity(principal,store,trusted)).toBeNull();
     expect(calls).toEqual(["company:org-111"]);
   });
 
@@ -83,7 +85,7 @@ describe("Central -> Skilled verified local identity boundary", () => {
     ]) {
       const {state,store,calls}=fixture();
       state.links=links as typeof state.links;
-      expect(await resolveVerifiedCentralIdentity(principal,store)).toBeNull();
+      expect(await resolveVerifiedCentralIdentity(principal,store,trusted)).toBeNull();
       expect(calls.some(x=>x.startsWith("user:"))).toBe(false);
     }
   });
@@ -97,18 +99,34 @@ describe("Central -> Skilled verified local identity boundary", () => {
       (s:ReturnType<typeof fixture>["state"])=>{s.user!.id="other";},
     ]) {
       const {state,store}=fixture();mutation(state);
-      expect(await resolveVerifiedCentralIdentity(principal,store)).toBeNull();
+      expect(await resolveVerifiedCentralIdentity(principal,store,trusted)).toBeNull();
     }
   });
 
   it("refuses missing or unknown membership role while preserving trusted local roles", async () => {
     for (const membership of [null,{role:"REVOKED"},{role:"ADMIN"}]) {
       const {state,store}=fixture();state.membership=membership;
-      expect(await resolveVerifiedCentralIdentity(principal,store)).toBeNull();
+      expect(await resolveVerifiedCentralIdentity(principal,store,trusted)).toBeNull();
     }
     for (const role of ["OWNER","MANAGER","ASSESSOR","LEARNER"]) {
       const {state,store}=fixture();state.membership={role};
-      expect((await resolveVerifiedCentralIdentity(principal,store))?.memberRole).toBe(role);
+      expect((await resolveVerifiedCentralIdentity(principal,store,trusted))?.memberRole).toBe(role);
     }
+  });
+});
+
+describe("operator-controlled Central verifier boundary", () => {
+  it("refuses any identity when trusted issuer and product audience are not configured", async () => {
+    const {store,calls}=fixture();
+    expect(await resolveVerifiedCentralIdentity(principal,store)).toBeNull();
+    expect(calls).toEqual([]);
+  });
+
+  it("refuses wrong issuer, cross-product audience or invalid issuer configuration without database reads", async () => {
+    const {store,calls}=fixture();
+    expect(await resolveVerifiedCentralIdentity({...principal,issuer:"https://wrong.example.test"},store,trusted)).toBeNull();
+    expect(await resolveVerifiedCentralIdentity({...principal,audience:"urn:titan-central:product:sorted"},store,trusted)).toBeNull();
+    expect(await resolveVerifiedCentralIdentity(principal,store,{...trusted,issuer:"http://identity.example.test"})).toBeNull();
+    expect(calls).toEqual([]);
   });
 });
