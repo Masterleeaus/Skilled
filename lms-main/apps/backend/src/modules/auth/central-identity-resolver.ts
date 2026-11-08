@@ -24,6 +24,13 @@ export interface VerifiedCentralIdentity {
   authorised: true;
 }
 
+export interface TrustedCentralVerifierConfig {
+  /** Must be set by an operator after Central's issuer is verified. */
+  issuer: string;
+  /** Product-specific audience, not Central's shared legacy app audience. */
+  audience: "urn:titan-central:product:lms";
+}
+
 export interface LocalCentralResolution {
   userId: string;
   companyId: string;
@@ -75,8 +82,15 @@ const memberRoles = new Set(["OWNER","MANAGER","ASSESSOR","LEARNER"]);
 export async function resolveVerifiedCentralIdentity(
   input: VerifiedCentralIdentity,
   store: CentralResolutionStore = prisma,
+  trusted?: TrustedCentralVerifierConfig,
 ): Promise<LocalCentralResolution | null> {
-  if (!validIdentity(input)) return null;
+  // A typed "verified" principal alone is insufficient. Fail closed until a
+  // trusted verifier establishes an operator-approved issuer and LMS audience.
+  if (!trusted || typeof trusted.issuer !== "string" ||
+      !/^https:\/\/[^/?#]+$/.test(trusted.issuer) ||
+      trusted.audience !== "urn:titan-central:product:lms" ||
+      !validIdentity(input) || input.issuer !== trusted.issuer ||
+      input.audience !== trusted.audience) return null;
   const company = await store.company.findUnique({
     where: { externalRef: input.organisationRef },
     select: { id: true },
