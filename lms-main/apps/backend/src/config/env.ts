@@ -27,6 +27,14 @@ const envSchema = z.object({
     .default("false")
     .transform((v) => v === "true"),
 
+  // Video upload admission control. A single maximum-size upload (500MB plus multipart framing) must always fit.
+  VIDEO_UPLOAD_MAX_CONCURRENT_PER_USER: z.coerce.number().int().min(1).max(20).default(2),
+  VIDEO_UPLOAD_MAX_INFLIGHT_BYTES: z.coerce
+    .number()
+    .int()
+    .min(500 * 1024 * 1024 + 1024 * 1024, "Must hold at least one maximum-size video upload")
+    .default(2 * 1024 * 1024 * 1024),
+
   SMTP_HOST: z.string().default("localhost"),
   SMTP_PORT: z.coerce.number().int().min(1).max(65535).default(1025),
   SMTP_FROM: z.string().default("no-reply@lms.local"),

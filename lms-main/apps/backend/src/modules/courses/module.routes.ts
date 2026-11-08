@@ -5,7 +5,12 @@ import { authenticate } from "../../middleware/authenticate";
 import { requirePermission } from "../../middleware/permission";
 import * as moduleService from "./module.service";
 import * as lessonService from "./lesson.service";
-import { uploadVideo, uploadLessonVideo } from "./video-upload.service";
+import {
+  uploadVideo,
+  uploadLessonVideo,
+  reserveVideoUploadSlot,
+  verifyUploadedVideo,
+} from "./video-upload.service";
 import {
   createModuleSchema,
   updateModuleSchema,
@@ -17,7 +22,6 @@ import {
 import { AppError } from "../../utils/AppError";
 import { prisma } from "../../config/prisma";
 import { assertCourseOwnership } from "./course.service";
-import { minioClient, MINIO_BUCKET } from "../../config/minio";
 import { createPlaybackGrant, verifyPlaybackGrant, PLAYBACK_COOKIE, playbackCookiePath, streamPrivateVideo } from "./video-playback.service";
 
 // mergeParams lets us read :courseId from the parent router mount
@@ -196,28 +200,22 @@ router.post(
   authenticate,
   requirePermission("course:update:own"),
   authorizeVideoUpload,
+  reserveVideoUploadSlot,
   uploadVideo.single("video"),
+  verifyUploadedVideo,
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       if (!req.file) throw new AppError("No video file provided", 400);
 
       const objectKey = await uploadLessonVideo(req.file);
-      try {
-        // Repeat ownership validation during the DB update to handle changes
-        // made after initial authorization while the video was streaming.
-        const lesson = await lessonService.updateLesson(
-          param(req, "lessonId"),
-          { videoUrl: objectKey },
-          req.user!.userId,
-          req.user!.role,
-        );
-        return sendSuccess(res, lesson, "Video uploaded");
-      } catch (error) {
-        // Do not retain orphaned objects when the DB update is rejected.
-        try { await minioClient.removeObject(MINIO_BUCKET, objectKey); }
-        catch { /* Object garbage collection can retry cleanup. */ }
-        throw error;
-      }
+      // Ownership is checked again inside the update. The previous object is removed only after the commit.
+      const lesson = await lessonService.attachUploadedLessonVideo(
+        param(req, "lessonId"),
+        objectKey,
+        req.user!.userId,
+        req.user!.role,
+      );
+      return sendSuccess(res, lesson, "Video uploaded");
     } catch (err) {
       next(err);
     }
