@@ -184,3 +184,18 @@ An acceptance check discovered that the browser registration form enforced only 
 The form now mirrors those bounds in its Zod schema and HTML input attributes, and associates each of its three field errors with its input using `aria-invalid`, `aria-describedby` and stable error IDs. Login copy identifies the correct SkilledAt.Work account; existing student-only registration provisioning, learner/teacher/admin route selection and token workflows are untouched.
 
 Two new static regression tests in `scripts/test-account-flow-branding.mjs` check field-limit parity, accessible errors and the student-only server-side role invariant. These checks do not replace interactive screen-reader, live registration or central identity testing required by issues #33 and #71.
+
+## Active product identity drift gate (pass 16)
+
+The authenticated shared `components/Topbar.tsx` now displays a compact accessible SkilledAt.Work dashboard link. All routes consuming the Topbar gain consistent current identity without changing role routing, persisted user records or historic branding provenance.
+
+The read-only `scripts/audit-public-product-identity.mjs` checks active frontend `src/app/**` and `src/components/**` TypeScript/JavaScript, plus the canonical `apps/backend/src/jobs/account-email-content.ts`. It reports obsolete Titan Academy product text, missing authenticated header identity and transactional email identity drift. It allows only the explicit historical MIT-origin sentence in `src/app/credits/page.tsx`; it does **not** rewrite archived lessons, legal attribution, identifiers, images or database schema.
+
+Run from `lms-main/`:
+
+```sh
+node --test scripts/test-audit-public-product-identity.mjs
+node scripts/audit-public-product-identity.mjs --strict --report build/public-identity-audit.json
+```
+
+`skilled-public-brand.yml` enforces both commands on relevant app UI and account-email source changes, and uploads the audit JSON. Static text auditing is not a runtime browser accessibility scan, a full content search or a certification that all translation strings and deployed assets are correct. Remaining source and content questions should be triaged against issues #85 and #86 before claiming issue #72's acceptance criteria fully complete.
