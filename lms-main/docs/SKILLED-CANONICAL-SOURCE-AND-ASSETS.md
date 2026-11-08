@@ -226,3 +226,18 @@ The canonical `apps/frontend/src/lib/dashboard-link.ts` now resolves role-specif
 `scripts/test-public-topbar-navigation.mjs` adds read-only source-contract checks for the public browsing route, guest links, role mapping and keyboard dismissal, wired into `skilled-account-flow-brand.yml`.
 
 **Scope:** This fixes guest links in source without changing sessions, middleware or access policies. The source-contract tests do not simulate browser hydration or prove runtime navigation; browser/device validation is still required.
+
+## Central identity resolution foundation (pass 19; issues #71/#68)
+
+Central's `Masterleeaus/Central` product registry currently assigns LMS/Skilled product audience `urn:titan-central:product:lms`, legacy application identifier `academy` and tenant reference `companyRef`; its per-product protocol remains **draft**, and Central's LMS adapter is **not mounted**.
+
+`apps/backend/src/modules/auth/central-identity-resolver.ts` is a **server-only, fail-closed prerequisite**, not a login endpoint or complete federation adapter. It takes an independently verified Central principal/entitlement decision, together with operator-approved issuer/audience, and resolves to the existing Skilled-local company and user. The implementation:
+
+- Requires an explicit `authorised: true` decision, HTTPS issuer equal to the trusted operator configuration, and the product-specific audience `urn:titan-central:product:lms`.
+- Maps the verified organisation reference via `Company.externalRef` (never browser-supplied company IDs) and finds exactly one `AcademyExternalIdentity` provisioned as service `titan-central` for the verified subject; unscoped, ambiguous and wrong-company links are denied.
+- Verifies that the local account is active, email-verified, not soft-deleted and still has a company membership with recognised OWNER/MANAGER/ASSESSOR/LEARNER role.
+- Returns only an internal local-user/company/member-role tuple with `canIssueSession: false`. **It neither issues access/refresh tokens nor mounts an HTTP route.** Existing local authentication and service-to-service credentials are unchanged.
+
+The `central-identity-resolver.test.ts` suite covers issuer/audience/entitlement denials, cross-company denial, unscoped and ambiguous links, account deactivation, missing membership and valid role mapping. It runs in the source-consolidation CI with no database connection.
+
+**Explicit blockers before activation:** Central must provide a stable verifier and signed callback protocol; issuer/audience/expiry/revocation must be cryptographically verified; Central's tenant entitlements, local-link revocations and company identity backfill need agreed storage under #68; atomic Skilled session issuance, expiry, logout and rollback must be added and integration-tested in a disposable two-company PostgreSQL environment. A caller may not substitute its own unverified `VerifiedCentralIdentity` payload for that process. No production or staging sign-in through Central is claimed.
