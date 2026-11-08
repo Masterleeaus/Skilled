@@ -2,20 +2,12 @@
 // Replaces the legacy root .eslintrc.json, which ESLint 10 no longer reads.
 // Equivalent to the old `extends: [eslint:recommended, plugin:@typescript-eslint/recommended]`.
 //
-// - Core rules: every rule ESLint marks as recommended (the same set `js.configs.recommended`
-//   enables). Read from the installed ESLint's builtinRules because @eslint/js is not a
-//   direct dependency of this workspace, and adding it would change pnpm-lock.yaml.
+// - Core rules: `@eslint/js` configs.recommended, a direct devDependency of this workspace.
 // - TypeScript rules: @typescript-eslint flat/recommended (parser, plugin and rules).
-import { builtinRules } from "eslint/use-at-your-own-risk";
+import js from "@eslint/js";
 import tseslint from "@typescript-eslint/eslint-plugin";
 
 const TS_FILES = ["**/*.ts", "**/*.mts", "**/*.cts"];
-
-const eslintRecommended = Object.fromEntries(
-  [...builtinRules.entries()]
-    .filter(([, rule]) => rule.meta?.docs?.recommended === true)
-    .map(([name]) => [name, "error"]),
-);
 
 export default [
   {
@@ -23,11 +15,14 @@ export default [
   },
   {
     files: TS_FILES,
+    ...js.configs.recommended,
+  },
+  {
+    files: TS_FILES,
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: "module",
     },
-    rules: eslintRecommended,
   },
   ...tseslint.configs["flat/recommended"].map((config) => ({
     ...config,
