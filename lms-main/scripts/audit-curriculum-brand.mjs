@@ -14,7 +14,7 @@ const sourceDirs = ['curriculum/courses', 'curriculum/shared', 'curriculum/struc
 const outputDefault = 'build/issue-86-brand-inventory.json';
 const nonLearnerKeys = new Set([
   'source', 'sourceId', 'sourcePath', 'sourceFile', 'sourceNotes',
-  'provenance', 'attribution', 'licence', 'license', 'reviewNotes',
+  'provenance', 'attribution', 'licence', 'license', 'reviewNotes', 'sourceReferences',
   'editorialNotes', 'internalNotes', 'migrationNotes', 'history',
   'createdBy', 'updatedBy', 'contentHash', 'sourceHash'
 ]);
