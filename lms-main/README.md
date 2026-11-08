@@ -194,7 +194,7 @@ Environment-specific guidance is in [`docs/runbooks/`](docs/runbooks/).
 
 ## Demo Accounts
 
-These accounts are created by the local seed script (`pnpm prisma:seed`). They are for local development only. Do not seed them into a shared or production environment. All accounts share one password, which must never be reused.
+These accounts are created by the **destructive** local seed script (`pnpm prisma:seed`) in an explicitly confirmed throwaway database only. The script wipes existing rows. Run it only with `NODE_ENV=development` or `test`, a loopback PostgreSQL URL, and `--confirm-wipe` (or `SEED_CONFIRM_WIPE=1`). It refuses staging/production, remote hosts and the protected `titan_academy` database. Never seed a port-forwarded production database, even through localhost. All demo accounts share one password, which must never be reused.
 
 | Role | Email | Password |
 |---|---|---|
@@ -202,7 +202,7 @@ These accounts are created by the local seed script (`pnpm prisma:seed`). They a
 | Teacher | teacher@skilled.local | Password123! |
 | Student | student@skilled.local | Password123! |
 
-The `@skilled.local` domain is a seed identifier. Databases seeded before this change still hold the old `@lms.local` accounts and must be re-seeded to get the new addresses.
+The `@skilled.local` domain is a local fixture identifier. Databases seeded before the rebrand may still hold old `@lms.local` accounts. **Do not re-seed a database you need to preserve:** this script wipes all data. For any non-disposable environment, use a separately reviewed identity migration rather than the demo seed.
 
 ---
 
