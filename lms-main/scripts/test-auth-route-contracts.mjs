@@ -32,5 +32,6 @@ check(login.includes('href="/forgot-password"'), 'Login links to recovery');
 check(registration.includes('registerUser(values)'), 'Registration uses restricted API payload');
 check(validators.includes('z.literal("STUDENT").optional()'), 'Public registration schema restricts assigned roles');
 check(authService.includes('role: "STUDENT"'), 'Service forces unprivileged role');
-check(authService.includes('!stored.user.isActive') && authService.includes('!stored.user.isEmailVerified'), 'Refresh validates active verified user');
+// Account state is checked through the shared eligibility helper, which requires not deleted, active and verified.
+check(authService.split('export async function refreshAccessToken(')[1].includes('isAccountEligible(stored.user)') && authService.includes('return !user.deletedAt && user.isActive && user.isEmailVerified;'), 'Refresh validates active verified user');
 console.log(`PASS: ${count} static account-recovery and registration security route assertions`);
