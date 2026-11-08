@@ -39,7 +39,6 @@ No changes were made to: `LICENSE`, `README.md`, `package.json` files, `pnpm-loc
 | Item | Location | Reason kept |
 |---|---|---|
 | Email subjects "Verify your Titan Academy account" and "Reset your Titan Academy password" | `apps/backend/src/jobs/email.queue.ts` | Already Academy wording. Owner to confirm the brand question above. |
-| Demo addresses `@lms.local` and password note | `apps/backend/prisma/seed.ts`, README "Demo Accounts" | Seed identifiers kept for compatibility with existing data and tests (the README says so). Local development only. |
 | `SMTP_FROM` default `no-reply@lms.local` | `apps/backend/src/config/env.ts` | A configuration default, and the visible sender of every email. Changing the default changes behaviour. Set `SMTP_FROM` to a real Academy sender in each environment (deployment item, ACA-022). |
 | "Teacher" role label, "My Courses", "Assessments & grading", "Live classes", "Discussions" pages | `apps/frontend/src/app/teacher`, `student`, `admin` | Inherited modules that remain in use. Their labels describe the feature accurately. Behaviour is not re-verified for Academy (README). |
 | Academy library and brand manifest keys (`"origin": "portfolio"`, `portfolio` brand entries) | `apps/frontend/src/lib/academy-library.json`, `academy-brand.manifest.json` | Internal media source keys. Not rendered as text (checked: no `.origin` usage in the frontend). |
