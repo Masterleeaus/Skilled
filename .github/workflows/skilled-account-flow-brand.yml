@@ -5,6 +5,9 @@ on:
       - 'lms-main/apps/frontend/src/components/AuthBrand.tsx'
       - 'lms-main/apps/frontend/src/app/(auth)/**'
       - 'lms-main/scripts/test-account-flow-branding.mjs'
+      - 'lms-main/scripts/test-public-topbar-navigation.mjs'
+      - 'lms-main/apps/frontend/src/components/Topbar.tsx'
+      - 'lms-main/apps/frontend/src/lib/dashboard-link.ts'
       - '.github/workflows/skilled-account-flow-brand.yml'
   push:
     branches: [main]
@@ -26,4 +29,4 @@ jobs:
           node-version: 22
       - name: Verify onboarding, recovery and current product identity
         working-directory: lms-main
-        run: node --test scripts/test-account-flow-branding.mjs
+        run: node --test scripts/test-account-flow-branding.mjs scripts/test-public-topbar-navigation.mjs
