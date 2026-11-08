@@ -36,6 +36,7 @@ const prisma={
 const module={exports:{}};
 new Function('require','module','exports',compiled)((id)=>{
  if(id.endsWith('config/prisma'))return {prisma};
+ if(id.endsWith('config/logger'))return {logger:{info(){},warn(){},error(){},debug(){}}};
  if(id.endsWith('utils/AppError'))return {AppError,ForbiddenError,NotFoundError};
  if(id.endsWith('utils/slugify'))return {slugify:()=>'',slugWithSuffix:()=>''};
  if(id.endsWith('utils/pagination'))return {getPaginationParams:()=>({page:1,limit:10,skip:0}),buildPaginationMeta:()=>({})};
