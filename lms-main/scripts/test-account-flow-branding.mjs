@@ -55,16 +55,16 @@ test('registration UX mirrors the backend registration limits and communicates f
   const backend = read('apps/backend/src/modules/auth/auth.validators.ts');
   for (const field of ['fullName', 'email', 'password']) {
     const id = 'register-' + (field === 'fullName' ? 'full-name' : field);
-    assert.match(frontend, new RegExp('aria-invalid=\\{errors\\.' + field + ' \\? true : undefined\\}'));
+    assert.match(frontend, new RegExp('aria-invalid=\{errors\.' + field + ' \? true : undefined\}'));
     assert.ok(frontend.includes('aria-describedby={errors.' + field + ' ? "' + id + '-error" : undefined}'));
     assert.ok(frontend.includes('id="' + id + '-error"'));
   }
-  assert.match(backend, /fullName: z\\.string\\(\\)\\.min\\(2\\)\\.max\\(100\\)/);
-  assert.match(backend, /password: z\\.string\\(\\)\\.min\\(8\\)\\.max\\(72\\)/);
-  assert.match(frontend, /fullName: z\\.string\\(\\)\\.min\\(2,[^\\n]*\\.max\\(100,/);
-  assert.match(frontend, /password: z\\.string\\(\\)\\.min\\(8,[^\\n]*\\.max\\(72,/);
-  assert.match(frontend, /maxLength=\\{100\\}/);
-  assert.match(frontend, /maxLength=\\{72\\}/);
+  assert.match(backend, /fullName: z\.string\(\)\.min\(2\)\.max\(100\)/);
+  assert.match(backend, /password: z\.string\(\)\.min\(8\)\.max\(72\)/);
+  assert.match(frontend, /fullName: z\.string\(\)\.min\(2,[^\n]*\.max\(100,/);
+  assert.match(frontend, /password: z\.string\(\)\.min\(8,[^\n]*\.max\(72,/);
+  assert.match(frontend, /maxLength=\{100\}/);
+  assert.match(frontend, /maxLength=\{72\}/);
   assert.match(frontend, /role="alert"/);
 });
 
@@ -72,8 +72,8 @@ test('registration remains student-only; account escalation requires trusted pro
   const frontend = read('apps/frontend/src/app/(auth)/register/page.tsx');
   const backendValidator = read('apps/backend/src/modules/auth/auth.validators.ts');
   const backendService = read('apps/backend/src/modules/auth/auth.service.ts');
-  assert.match(backendValidator, /role: z\\.literal\\("STUDENT"\\)\\.optional\\(\\)/);
+  assert.match(backendValidator, /role: z\.literal\("STUDENT"\)\.optional\(\)/);
   assert.match(backendService, /role: "STUDENT"/);
-  assert.doesNotMatch(frontend, /register\\("role"\\)/);
+  assert.doesNotMatch(frontend, /register\("role"\)/);
   assert.match(frontend, /Teaching and organisation access require authorisation/);
 });
