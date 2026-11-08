@@ -199,3 +199,20 @@ node scripts/audit-public-product-identity.mjs --strict --report build/public-id
 ```
 
 `skilled-public-brand.yml` enforces both commands on relevant app UI and account-email source changes, and uploads the audit JSON. Static text auditing is not a runtime browser accessibility scan, a full content search or a certification that all translation strings and deployed assets are correct. Remaining source and content questions should be triaged against issues #85 and #86 before claiming issue #72's acceptance criteria fully complete.
+
+## Course artwork manifest integrity (pass 17)
+
+The canonical `apps/frontend/src/lib/academy-brand.manifest.json` maps course slugs to public `/academy/brand/` or `/academy/library/` images. It is an app-facing reference table, while repository-root `brand/` and `library/` remain the authoritative tracked binary sources.
+
+An independent read-only audit, `scripts/audit-course-art-manifest.mjs`, checks every declared icon, SVG icon, logo, thumbnail, banner, topic image and hero image against its tracked source. Missing targets, bad URLs, path traversal, invalid nested manifest values and symlinked files fail its strict mode. It leaves all image files, curriculum content and published assets untouched.
+
+The strict GitHub Actions [asset manifest audit](https://github.com/Masterleeaus/Skilled/actions/runs/42535075770) verified **43 course entries, 491 referenced assets and zero broken source references**. Six regression tests passed. The public brand workflow runs both this check and the existing copy/hash parity test, then uploads a JSON report.
+
+Run locally from `lms-main/`:
+
+```sh
+node --test scripts/test-audit-course-art-manifest.mjs
+node scripts/audit-course-art-manifest.mjs --strict --report build/course-art-manifest-audit.json
+```
+
+The check does not prove every generated image responds over HTTP after deployment, whether the art meets accessibility/licensing requirements, or that every active course slug has a branded manifest key. These still need deployment and content review. It does prevent stale or unsafe paths in the existing manifest from silently shipping.
