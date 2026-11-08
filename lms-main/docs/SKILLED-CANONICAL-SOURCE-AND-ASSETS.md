@@ -176,3 +176,11 @@ A dedicated `scripts/test-account-flow-branding.mjs` contract checks the five im
 **Notification status:** `Notification` exists as a persisted inherited Prisma model, but `apps/backend/src/app.ts` does **not** mount a `/api/notifications` route. That model is **not evidence** of a working notifications inbox, delivery engine, or notification branding. It is preserved for compatibility; notification API and product experience require separate implementation and tests, rather than being claimed complete under issue #72.
 
 External company/user identities, all auth compatibility keys and the existing verification/reset service behaviour were unchanged. Static frontend checks are not proof of email deliverability or end-to-end onboarding success.
+
+## Registration parity and accessible errors (pass 15)
+
+An acceptance check discovered that the browser registration form enforced only minimum lengths while the active backend schema also enforces **fullName 2–100 characters** and **password 8–72 characters**. This led to avoidable server-side validation failures for inputs the UI permitted.
+
+The form now mirrors those bounds in its Zod schema and HTML input attributes, and associates each of its three field errors with its input using `aria-invalid`, `aria-describedby` and stable error IDs. Login copy identifies the correct SkilledAt.Work account; existing student-only registration provisioning, learner/teacher/admin route selection and token workflows are untouched.
+
+Two new static regression tests in `scripts/test-account-flow-branding.mjs` check field-limit parity, accessible errors and the student-only server-side role invariant. These checks do not replace interactive screen-reader, live registration or central identity testing required by issues #33 and #71.
