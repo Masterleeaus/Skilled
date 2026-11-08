@@ -9,6 +9,7 @@ import { CurriculumLessonBody } from "@/components/CurriculumLessonBody";
 import { TemplateLessonForm } from "@/components/TemplateLessonForm";
 import { keepPreviousData, useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { LevelStatus } from "@/components/LevelStatus";
+import { outlineHasLessons } from "@/components/TrackOutline";
 import { useLicenceTrack } from "@/hooks/useLicenceTrack";
 import { acknowledgeCurriculumLesson, fetchAcademyCourseProgress, fetchCurriculumLessonBody, fetchCurriculumOutline, fetchMyCurriculumCompletions, fetchMyLevels, type CurriculumPlacement, type LicenceNotice, type LicenceTrack } from "@/lib/curriculum.api";
 
@@ -95,7 +96,8 @@ export function SharedCurriculumPlayer({ courseId, courseSlug }: { courseId: str
   if (outline.isLoading || completions.isLoading) return <section aria-label="Shared curriculum" className="my-6 text-slate-400">Loading shared lessons…</section>;
   if (outline.isError) return <section role="alert" className="my-6 text-amber-600">Shared curriculum unavailable or enrolment required. Existing course lessons remain available.</section>;
   const tracks = outline.data?.tracks ?? [];
-  if (!tracks.length) return null;
+  // An outline with no placements is the empty case: the course page then lists the legacy lessons instead.
+  if (!outlineHasLessons(outline.data)) return null;
   const completed = new Set((completions.data ?? []).map(c => `${c.lessonId}:${c.revisionId}`));
   const placements = tracks.flatMap(t => t.track.placements);
   // A lesson can sit in more than one track; count each lesson revision once in the fallback totals.

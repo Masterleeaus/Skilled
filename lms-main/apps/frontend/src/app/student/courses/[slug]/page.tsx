@@ -18,8 +18,9 @@ import { Topbar } from "@/components/Topbar";
 import { SharedCurriculumPlayer } from "@/components/SharedCurriculumPlayer";
 import { BrandImage } from "@/components/BrandImage";
 import { LicenceTrackChooser } from "@/components/LicenceTrackChooser";
+import { outlineHasLessons } from "@/components/TrackOutline";
 import { useLicenceTrack } from "@/hooks/useLicenceTrack";
-import { fetchAcademyCourseProgress, fetchLicenceTrackSummary, type LicenceTrack } from "@/lib/curriculum.api";
+import { fetchAcademyCourseProgress, fetchCurriculumOutline, fetchLicenceTrackSummary, type LicenceTrack } from "@/lib/curriculum.api";
 import { fetchMyEnrollments, setEnrolmentLicenceTrack } from "@/lib/enrollment.api";
 import { getBrand } from "@/lib/academy-brand";
 
@@ -96,8 +97,20 @@ export default function CoursePlayerPage() {
     enabled: !!course && track === "non-licensed",
     retry: false,
   });
+  // The academy outline for the non-licensed track. Same key as SharedCurriculumPlayer, so it is one request.
+  // When it lists no lessons, the legacy lesson list is shown in the sidebar, and the legacy progress is used.
+  const academyOutline = useQuery({
+    queryKey: ["academy-outline", course?.id, track],
+    queryFn: () => fetchCurriculumOutline(course!.id, track),
+    enabled: !!course && track === "non-licensed",
+    retry: false,
+  });
+  const academyEmpty = track === "non-licensed" && academyOutline.isSuccess && !outlineHasLessons(academyOutline.data);
+  const showLegacyLessons = track === "licensed" || academyEmpty;
+  const legacyLessonTotal = course ? course.modules.reduce((sum, m) => sum + m.lessons.length, 0) : undefined;
+
   const progressPercent =
-    track === "non-licensed"
+    track === "non-licensed" && !academyEmpty
       ? trackProgress.data?.completionPercent ?? 0
       : progress?.enrollment.progressPercentage ?? 0;
 
@@ -155,6 +168,7 @@ export default function CoursePlayerPage() {
           summary={licenceSummary.data}
           isLoading={licenceSummary.isLoading}
           isError={licenceSummary.isError}
+          countFallback={academyEmpty ? legacyLessonTotal : undefined}
         />
         {switchNote && <p role="status" className="mt-2 text-sm text-neutral-300">{switchNote}</p>}
       </div>
@@ -192,8 +206,8 @@ export default function CoursePlayerPage() {
             </p>
           </div>
 
-          {/* The legacy module list is not shown on the non-licensed track: it cannot be filtered by licence. */}
-          {track === "licensed" && course.modules.map((mod) => (
+          {/* The legacy module list is not shown on the non-licensed track while the academy lists lessons: it cannot be filtered by licence. */}
+          {showLegacyLessons && course.modules.map((mod) => (
             <div key={mod.id} className="mb-4">
               <h3 className="mb-2 text-sm font-medium text-neutral-300">{mod.title}</h3>
               <div className="space-y-1">
