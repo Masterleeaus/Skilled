@@ -15,6 +15,35 @@ const SALT_ROUNDS = 12;
 const EMAIL_TOKEN_TTL_MS = 24 * 60 * 60 * 1000; // 24h
 const RESET_TOKEN_TTL_MS = 60 * 60 * 1000; // 1h
 
+/** The fields every token-issuing path reads. Matches the columns checked by authenticate middleware. */
+export interface AccountEligibilityFields {
+  deletedAt: Date | null;
+  isActive: boolean;
+  isEmailVerified: boolean;
+}
+
+/**
+ * Single eligibility rule for login, refresh and password reset. A soft-deleted account is never eligible,
+ * even if it is still active and verified: soft deletion keeps the row, so these flags alone do not exclude it.
+ */
+export function isAccountEligible(user: AccountEligibilityFields): boolean {
+  return !user.deletedAt && user.isActive && user.isEmailVerified;
+}
+
+/** Throws the caller-facing error for an ineligible account. Deleted accounts report as deactivated so deletion is not disclosed. */
+export function assertAccountEligible(user: AccountEligibilityFields): void {
+  if (user.deletedAt || !user.isActive) throw new UnauthorizedError("Account is deactivated");
+  if (!user.isEmailVerified) throw new UnauthorizedError("Please verify your email first");
+}
+
+/** Revokes every live refresh credential the user holds. */
+async function revokeAllRefreshTokens(userId: string) {
+  await prisma.refreshToken.updateMany({
+    where: { userId, isRevoked: false },
+    data: { isRevoked: true },
+  });
+}
+
 export async function registerUser(input: RegisterInput) {
   const existing = await prisma.user.findUnique({ where: { email: input.email } });
   if (existing) throw new AppError("Email already registered", 409);
@@ -58,8 +87,7 @@ export async function loginUser(input: LoginInput, deviceInfo?: string) {
   const validPassword = await bcrypt.compare(input.password, user.passwordHash);
   if (!validPassword) throw new UnauthorizedError("Invalid email or password");
 
-  if (!user.isActive) throw new UnauthorizedError("Account is deactivated");
-  if (!user.isEmailVerified) throw new UnauthorizedError("Please verify your email first");
+  assertAccountEligible(user);
 
   const accessToken = signAccessToken({ userId: user.id, role: user.role });
   const { raw: refreshTokenRaw, hash } = generateRefreshToken();
@@ -81,7 +109,6 @@ export async function loginUser(input: LoginInput, deviceInfo?: string) {
 }
 
 /** Rotate refresh credentials on each use to prevent replay of a stolen token. */
-/** Rotate refresh credentials on each use to prevent replay of a stolen token. */
 export async function refreshAccessToken(refreshTokenRaw: string) {
   const hash = hashToken(refreshTokenRaw);
   const stored = await prisma.refreshToken.findFirst({
@@ -89,7 +116,10 @@ export async function refreshAccessToken(refreshTokenRaw: string) {
     include: { user: true },
   });
 
-  if (!stored || !stored.user.isActive || !stored.user.isEmailVerified) {
+  if (!stored) throw new UnauthorizedError("Invalid or expired refresh token");
+  if (!isAccountEligible(stored.user)) {
+    // A deleted account keeps no live sessions. Revoke what it holds, then refuse.
+    if (stored.user.deletedAt) await revokeAllRefreshTokens(stored.userId);
     throw new UnauthorizedError("Invalid or expired refresh token");
   }
 
@@ -138,8 +168,9 @@ export async function logoutAllDevices(userId: string) {
 
 export async function forgotPassword(email: string) {
   const user = await prisma.user.findUnique({ where: { email } });
-  // Don't reveal whether the email exists — always respond as success upstream
-  if (!user) return;
+  // Don't reveal whether the email exists — always respond as success upstream.
+  // Soft-deleted accounts get no reset link.
+  if (!user || user.deletedAt) return;
 
   const resetToken = generateShortToken();
   await prisma.user.update({
@@ -157,13 +188,13 @@ export async function resetPassword(token: string, newPassword: string) {
   const user = await prisma.user.findFirst({
     where: { resetPasswordToken: token, resetPasswordExpiresAt: { gt: new Date() } },
   });
-  if (!user) throw new AppError("Invalid or expired reset token", 400);
+  if (!user || user.deletedAt) throw new AppError("Invalid or expired reset token", 400);
 
   const passwordHash = await bcrypt.hash(newPassword, SALT_ROUNDS);
 
   await prisma.$transaction(async (tx) => {
     const consumed = await tx.user.updateMany({
-      where: { id: user.id, resetPasswordToken: token, resetPasswordExpiresAt: { gt: new Date() } },
+      where: { id: user.id, deletedAt: null, resetPasswordToken: token, resetPasswordExpiresAt: { gt: new Date() } },
       data: {
         passwordHash,
         resetPasswordToken: null,

@@ -129,18 +129,48 @@ export async function getUserDetail(userId: string) {
   return user;
 }
 
+export const USER_DELETION_POLICY = "soft-deleted; history retained";
+
+/**
+ * Deletion policy: soft deletion only. Users own historical rows (audit logs, payments, enrolments,
+ * submissions, certificates, assignments, external identities, competencies) that must stay attributable,
+ * so this function never issues a hard delete and never cascades into those rows. It sets deletedAt and
+ * isActive=false, revokes every refresh token the user holds, and writes an audit entry, all in one transaction.
+ *
+ * Deleting an already-deleted user is a 404. The conditional update guards against two admins racing.
+ *
+ * Any irreversible purge is a separate, guarded process (retention review, export first, explicit
+ * approval). It is deliberately not reachable from this endpoint.
+ */
 export async function deleteUser(targetUserId: string, adminId: string) {
   const user = await prisma.user.findUnique({ where: { id: targetUserId } });
-  if (!user) throw new NotFoundError("User");
+  if (!user || user.deletedAt) throw new NotFoundError("User");
   if (user.id === adminId) throw new AppError("You cannot delete your own account", 400);
 
-  await prisma.user.delete({ where: { id: targetUserId } });
+  const deletedAt = new Date();
+  await prisma.$transaction(async (tx) => {
+    const marked = await tx.user.updateMany({
+      where: { id: targetUserId, deletedAt: null },
+      data: { deletedAt, isActive: false },
+    });
+    if (marked.count !== 1) throw new NotFoundError("User");
 
-  await recordAuditLog({
-    userId: adminId,
-    action: "USER_DELETED",
-    entity: "User",
-    entityId: targetUserId,
-    oldValue: { email: user.email, role: user.role },
+    await tx.refreshToken.updateMany({
+      where: { userId: targetUserId, isRevoked: false },
+      data: { isRevoked: true },
+    });
+
+    await tx.auditLog.create({
+      data: {
+        userId: adminId,
+        action: "USER_SOFT_DELETED",
+        entity: "User",
+        entityId: targetUserId,
+        oldValue: { email: user.email, role: user.role, isActive: user.isActive, deletedAt: null },
+        newValue: { deletedAt: deletedAt.toISOString(), isActive: false, policy: USER_DELETION_POLICY },
+      },
+    });
   });
+
+  return { id: targetUserId, deletedAt, isActive: false, policy: USER_DELETION_POLICY };
 }
