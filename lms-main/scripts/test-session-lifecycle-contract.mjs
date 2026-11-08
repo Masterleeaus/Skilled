@@ -14,7 +14,8 @@ let count = 0;
 function check(value, label) { assert.ok(value, label); count++; }
 const refresh = src.split('export async function refreshAccessToken(')[1].split('// Logout single device')[0];
 check(refresh.includes('hashToken(refreshTokenRaw)'), 'incoming refresh token hashed');
-check(refresh.includes('!stored.user.isActive') && refresh.includes('!stored.user.isEmailVerified'), 'account state checked on refresh');
+// Account state is checked through the shared eligibility helper, which requires not deleted, active and verified.
+check(refresh.includes('isAccountEligible(stored.user)') && src.includes('return !user.deletedAt && user.isActive && user.isEmailVerified;'), 'account state checked on refresh');
 check(refresh.includes('prisma.$transaction(async (tx) =>'), 'rotate in a transaction');
 check(refresh.includes('tx.refreshToken.updateMany') && refresh.includes('isRevoked: false'), 'conditional consume prevents replay');
 check(refresh.includes('consumed.count !== 1'), 'concurrent reuse rejected');
