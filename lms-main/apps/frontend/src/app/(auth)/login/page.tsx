@@ -53,7 +53,7 @@ export default function LoginPage() {
         <AuthBrand />
         <div>
           <h1 className="text-2xl font-semibold">Welcome back</h1>
-          <p className="mt-1 text-sm text-neutral-400">Log in to continue learning.</p>
+          <p className="mt-1 text-sm text-neutral-400">Sign in to your SkilledAt.Work account to continue learning.</p>
         </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
