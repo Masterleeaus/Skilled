@@ -1,10 +1,12 @@
-# Titan Academy LMS: installation guide
+# SkilledAt.Work — installation guide
 
-This guide lists the steps to install the Titan Academy backend (`apps/backend`) and frontend (`apps/frontend`) on a server. Each command is taken from a script or package file in this repository, or from `curriculum/research/DEPLOY-RUNBOOK.md`. Where the repository does not confirm a step, this guide says so.
+> **Deployment navigation:** [Skilled deployment entrypoint](DEPLOYMENT.md) is authoritative for release order and blockers. This install guide documents commands but does not certify live deployment. The historical host checklist is retained as unverified reference only.
+
+This guide lists the steps to install the SkilledAt.Work backend (`apps/backend`) and frontend (`apps/frontend`) on a server. Each command is taken from a script or package file in this repository, or from `curriculum/research/DEPLOY-RUNBOOK.md`. Where the repository does not confirm a step, this guide says so.
 
 Related documents:
-- `curriculum/research/DEPLOY-RUNBOOK.md`: server checklist, including PostgreSQL 16 setup on port 5433 and the health and lesson checks.
-- `docs/runbooks/deployment.md`: release gates, rollback triggers and post-deploy record.
+- `curriculum/research/DEPLOY-RUNBOOK.md`: **historical, unverified** server proposal. Port 5433 and paths must not be assumed to exist.
+- `docs/runbooks/deployment.md`: operational release gates, rollback triggers and post-deploy record (linked by the deployment entrypoint).
 - `docs/runbooks/secrets-handling.md`: which variables are secrets and how to rotate them.
 - `docs/runbooks/recovery.md`: backup and restore, required before migrations.
 - `.env.production.example`: every variable the code reads, with placeholders.
