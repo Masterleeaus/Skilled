@@ -50,3 +50,12 @@ test('maps semantic matches to physical lines only when counts agree', () => {
   assert.deepEqual(mismatch.map(hit => hit.sourceLine), [null, null]);
   assert.ok(mismatch.every(hit => !hit.sourceLineVerified));
 });
+
+test('sourceReferences retain original source provenance without being misclassified as learner copy', () => {
+  const findings = scanValue({
+    audience: 'Service workers',
+    sourceReferences: ['Titan Academy base source draft F12-L01']
+  });
+  assert.equal(findings.length, 1);
+  assert.equal(findings[0].classification, 'retain-review-provenance');
+});
