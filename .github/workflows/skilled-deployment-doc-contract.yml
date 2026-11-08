@@ -1,0 +1,33 @@
+name: skilled-deployment-doc-contract
+on:
+  pull_request:
+    paths:
+      - 'lms-main/docs/DEPLOYMENT.md'
+      - 'lms-main/docs/INSTALL.md'
+      - 'lms-main/docs/runbooks/deployment.md'
+      - 'lms-main/curriculum/research/DEPLOY-RUNBOOK.md'
+      - 'lms-main/scripts/test-deployment-doc-contract.mjs'
+      - '.github/workflows/skilled-deployment-doc-contract.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/docs/DEPLOYMENT.md'
+      - 'lms-main/docs/INSTALL.md'
+      - 'lms-main/docs/runbooks/deployment.md'
+      - 'lms-main/curriculum/research/DEPLOY-RUNBOOK.md'
+      - 'lms-main/scripts/test-deployment-doc-contract.mjs'
+      - '.github/workflows/skilled-deployment-doc-contract.yml'
+permissions:
+  contents: read
+jobs:
+  documentation-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate the consolidated deployment runbooks and source links
+        working-directory: lms-main
+        run: node --test scripts/test-deployment-doc-contract.mjs
