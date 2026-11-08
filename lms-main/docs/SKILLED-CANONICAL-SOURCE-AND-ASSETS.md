@@ -36,7 +36,7 @@ Run after cloning a full checkout that includes `brand/` and `library/`. Deploy 
 - Keep license and source attribution. Old `Titan Academy` labels in provenance are not the current product name.
 - Do not relocate migration history or rename Prisma tables, routes, role enums or `@lms/*` package keys without tested compatibility migrations.
 - Root ZIPs may be redundant but have not been deleted; archive weight tracked by issue #42.
-- Tutor chatbot, certificates and runbooks have potential overlapping implementations: see inventory sections 6–9. Their behavior must be compared before deduplication.
+- Tutor chatbot and certificates have overlapping concepts that must be compared before deduplication. Deployment documents now have an [authoritative navigation and release entrypoint](DEPLOYMENT.md); the original host-specific checklist remains preserved as unverified history.
 - Curriculum publication gates, identity scoping, assessor approvals and evidence records are not affected by this asset copy change.
 - A successful asset unit test is **not** proof of image availability on a production server. Verify deployment artifacts separately.
 
@@ -124,3 +124,9 @@ node --test scripts/test-audit-inactive-source-boundaries.mjs
 ```
 
 Caveat: this is a static import/mount boundary scan, not a full proof of runtime reachability, API authentication, or deployment safety. Imports *within* the retained unmounted chatbot prototype are intentionally not counted as active-app violations. Its migration tables and code are preserved pending an explicit product and migration decision.
+
+## Deployment documentation reconciliation (pass 10)
+
+Issue #72's three competing deployment guides now have explicit roles. [DEPLOYMENT.md](DEPLOYMENT.md) is the canonical release entrypoint and blocking preflight; [INSTALL.md](INSTALL.md) is the dependency and host setup reference; [runbooks/deployment.md](runbooks/deployment.md) is the release/rollback operator checklist. The older [server proposal](../curriculum/research/DEPLOY-RUNBOOK.md) remains in place with an explicit warning that its port and server assumptions were **not verified**.
+
+The consolidation does **not** execute host provisioning, change migrations, alter secret handling or infer that production is ready. CI validates links and required safeguards through `scripts/test-deployment-doc-contract.mjs` and `skilled-deployment-doc-contract.yml`. Any actual release still requires an approved staging rehearsal, curriculum approval gates and live operational verification.
