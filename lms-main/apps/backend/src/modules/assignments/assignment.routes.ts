@@ -9,7 +9,15 @@ import {
   gradeSubmissionSchema,
   gradePassingMarksSchema,
 } from "./assignment.validators";
-import { uploadAssignmentFiles, uploadAssignmentAttachments, removeAssignmentAttachments } from "./assignment-upload.service";
+import {
+  reserveAssignmentUploadSlot,
+  receiveAssignmentAttachments,
+  verifyAssignmentAttachments,
+  beginAssignmentUpload,
+  finishAssignmentUpload,
+  uploadAssignmentAttachments,
+  removeAssignmentAttachments,
+} from "./assignment-upload.service";
 import * as assignmentService from "./assignment.service";
 
 const router = Router();
@@ -72,9 +80,13 @@ router.post(
       next();
     } catch (err) { next(err); }
   },
-  uploadAssignmentFiles.array("attachments", 5),
+  // Admission control (per-user and global limits) runs before any body byte is written to disk.
+  reserveAssignmentUploadSlot,
+  receiveAssignmentAttachments,
+  verifyAssignmentAttachments,
   async (req: Request, res: Response, next: NextFunction) => {
     try {
+      beginAssignmentUpload(req);
       const { text } = submitAssignmentSchema.parse(req.body);
       const files = (req.files as Express.Multer.File[]) ?? [];
       const attachments = files.length ? await uploadAssignmentAttachments(files) : [];
@@ -93,6 +105,9 @@ router.post(
       }
     } catch (err) {
       next(err);
+    } finally {
+      // Releases the quota and removes any temporary files, on success, failure or disconnect.
+      await finishAssignmentUpload(req);
     }
   },
 );
