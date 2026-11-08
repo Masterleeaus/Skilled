@@ -3,10 +3,25 @@ import { prisma } from "../../config/prisma";
 import { AppError, ForbiddenError, NotFoundError } from "../../utils/AppError";
 import { slugify, slugWithSuffix } from "../../utils/slugify";
 import { getPaginationParams, buildPaginationMeta } from "../../utils/pagination";
+import { logger } from "../../config/logger";
 import type { CreateCourseInput, UpdateCourseInput, ListCourseQuery } from "./course.validators";
 
+/**
+ * Course deletion policy: SOFT DELETE ONLY.
+ *
+ * deleteCourse() sets deletedAt and unpublishes the course in one write. It never removes the course row, and never
+ * removes its modules, lessons, enrolments, payments, assignments, tracks or certificates, because those are historical
+ * records. Lesson video objects in MinIO are kept too, since the course is retained for history; removing them is a
+ * separate follow-up job. Any future hard purge must be its own operation with its own guards (super-admin only, a
+ * retention check and an audit record), and it must never be reached from deleteCourse.
+ */
+
+/**
+ * Soft-deleted courses are treated as not found by every ordinary read, write, publish, enrolment and payment path.
+ * The explicit deletedAt filter here does not depend on the Prisma soft-delete extension in config/prisma.ts.
+ */
 export async function assertCourseOwnership(courseId: string, userId: string, role: Role) {
-  const course = await prisma.course.findUnique({ where: { id: courseId } });
+  const course = await prisma.course.findUnique({ where: { id: courseId, deletedAt: null } });
   if (!course) throw new NotFoundError("Course");
 
   if (role !== "ADMIN" && course.teacherId !== userId) {
@@ -152,9 +167,30 @@ export async function setPublishStatus(
   return updated;
 }
 
+/** MinIO object keys of every lesson video under the course. Read-only: nothing is deleted or stored. */
+export async function listCourseVideoObjectKeys(courseId: string): Promise<string[]> {
+  const lessons = await prisma.lesson.findMany({
+    where: { module: { courseId }, videoUrl: { not: null } },
+    select: { videoUrl: true },
+  });
+  return lessons.flatMap((lesson) => (lesson.videoUrl ? [lesson.videoUrl] : []));
+}
+
 export async function deleteCourse(courseId: string, userId: string, role: Role) {
   const course = await assertCourseOwnership(courseId, userId, role);
-  await prisma.course.delete({ where: { id: courseId } }); // soft-delete
+  const videoObjectKeys = await listCourseVideoObjectKeys(courseId);
+
+  // One conditional write sets deletedAt and unpublishes together. The deletedAt guard means a second concurrent
+  // delete matches nothing and fails as not found, rather than writing twice.
+  const result = await prisma.course.updateMany({
+    where: { id: courseId, deletedAt: null },
+    data: { deletedAt: new Date(), isPublished: false },
+  });
+  if (result.count !== 1) throw new NotFoundError("Course");
+
+  logger.info(
+    `Soft-deleted course ${courseId}: ${videoObjectKeys.length} lesson video object(s) retained in storage pending the separate cleanup job`,
+  );
 
   const { recordAuditLog } = await import("../audit/audit.service");
   await recordAuditLog({
