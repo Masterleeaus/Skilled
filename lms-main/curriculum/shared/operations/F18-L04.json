@@ -1,0 +1,166 @@
+{
+  "id": "F18-L04",
+  "title": "Consumable quantities",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "C",
+  "estimatedMinutes": 25,
+  "audience": "Any owner, supervisor or worker who plans how many consumables such as cloths, bags, gloves and dressings are used per job in any Titan Academy business.",
+  "prerequisites": [
+    "F18-L02",
+    "F13-L03"
+  ],
+  "learningOutcomes": [
+    "Estimate the consumable quantities needed for a job from the task map and the size of the work.",
+    "Track the use of consumables against the estimate to find waste and shortages.",
+    "Set a reorder level that avoids both running out and over-stocking."
+  ],
+  "instruction": [
+    {
+      "heading": "Estimate from the task map",
+      "body": "Estimate consumables from the task map and the size of the job. Count the cloths by zone, the bags by the volume of waste, the gloves by the number of zone changes and product changes, and the dressings and sponges by the number of expected uses. Record the estimate and the basis. An estimate that is based on the job's actual tasks is more useful than a fixed number for every job, because it reflects the work and the risk."
+    },
+    {
+      "heading": "Track use and find waste",
+      "body": "Record the consumables used on each job, or at least the total used per week. Compare the use with the estimate. Where use is much higher than the estimate, look for the cause: a cloth used for too many zones, gloves changed too often without reason, or a product that is wasted through over-mixing. Where use is much lower than the estimate, check that the items were not left out of the kit. Use the comparison to adjust the estimate."
+    },
+    {
+      "heading": "Reorder and avoid waste",
+      "body": "Set a reorder level for each consumable so that the team does not run out during a job. Do not over-stock items that expire, such as dressings and some products, or that take up space and are damaged in storage. Use older stock first, and check expiry dates at each stock check. Do not reduce the number of gloves or cloths to save cost where it would mean breaking the zone or protection rules."
+    }
+  ],
+  "procedure": [
+    "Estimate the consumables for each job from the task map and the size of the work.",
+    "Record the estimate and its basis.",
+    "Track the consumables used per job or per week and compare them with the estimate.",
+    "Investigate large differences and adjust the estimate or the method.",
+    "Set reorder levels and check expiry dates at each stock check.",
+    "Do not reduce the number of gloves or cloths where it would break the zone or protection rules."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The team uses twice the estimated number of gloves on kitchen jobs.",
+      "decisionPrompt": "What is the next step?",
+      "reasoning": "Check whether gloves are changed between zones and tasks as the procedure requires, or whether they are changed for convenience. If the procedure requires the change, the estimate was too low and should be adjusted. If gloves are changed for no reason, retrain on the change points rather than reducing the gloves below the protection rule."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Consumables stock register",
+    "Estimate worksheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Reducing glove or cloth numbers below what the zone and protection rules need.",
+      "prevention": "Estimate from the task map and the rules, and reduce only the waste that is not needed."
+    },
+    {
+      "error": "Over-stocking items that expire.",
+      "prevention": "Set reorder levels and check expiry dates."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Gloves and other protective consumables must be suitable for the product and the task, as the label and SDS require. The number used must allow for the change points set by the procedure.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each job has a consumables estimate with its basis.",
+    "Use is compared with the estimate and differences are investigated.",
+    "No consumable is reduced below the level the zone and protection rules need."
+  ],
+  "documentationEvidence": [
+    "Consumables estimate and stock register with the reorder levels and expiry checks."
+  ],
+  "summary": [
+    "Estimate consumables from the task map and the size of the work.",
+    "Compare use with the estimate and investigate the cause of differences.",
+    "Set reorder levels; never cut protection or zone consumables below the rule."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:procedures.task_steps}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F18-L04-K01",
+      "question": "Gloves are used at twice the estimate. What is correct?",
+      "options": [
+        "Investigate whether the change points are right, and adjust the estimate or retrain.",
+        "Reduce the glove count below the protection rule and keep the estimate the same",
+        "Order extra gloves for the next job and leave the estimate as it is today"
+      ]
+    },
+    {
+      "id": "F18-L04-K02",
+      "question": "Why should expiry dates be checked at each stock check?",
+      "options": [
+        "Because they look untidy and the shelves look very messy",
+        "So that expired items are not used and over-stock is avoided.",
+        "Because the store requires a new label and the label must be printed"
+      ]
+    },
+    {
+      "id": "F18-L04-K03",
+      "question": "What does the lesson say to set for each consumable?",
+      "options": [
+        "A reorder level",
+        "A sale price",
+        "A colour code only",
+        "A maximum of one box"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/managing-hazardous-substances-and-irritants-hairdressing-and-beauty-industry (WorkSafe Victoria, reviewed 12/09/2025; checked 2026-11-02; protective equipment duties)",
+    "Titan Academy base source draft F18-L04 is not in the ready set; written from the catalogue description. No consumable prices or quantities are stated because none are approved."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

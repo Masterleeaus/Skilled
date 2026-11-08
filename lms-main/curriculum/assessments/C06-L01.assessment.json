@@ -1,0 +1,34 @@
+{
+ "lessonId": "C06-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "C06-L01-K01",
+   "correctIndex": 2,
+   "rationale": "Scope is set by the accepted work order, and changes are approved."
+  },
+  {
+   "id": "C06-L01-K02",
+   "correctIndex": 0,
+   "rationale": "Damage is recorded separately from cleaning."
+  },
+  {
+   "id": "C06-L01-K03",
+   "correctIndex": 1,
+   "rationale": "Bond decisions are outside the cleaner's authority."
+  }
+ ],
+ "practicalCriteria": [
+  "Reads a sample work order and identifies inclusions and exclusions.",
+  "Documents pre-existing damage and inaccessible areas before a simulated clean.",
+  "Holds a simulated extra-work request until priced and approved."
+ ],
+ "passRule": "Inclusions and exclusions identified, pre-work record complete, and extra work held until approved. Observed in a supervised simulation.",
+ "evidenceRequired": [
+  "Annotated sample work order",
+  "Pre-work checklist"
+ ],
+ "stopWorkCriteria": [
+  "Extra work started without approval",
+  "Bond return promised"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "lessonId": "SFS-01",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-01-K01",
+      "correctIndex": 1,
+      "rationale": "The job holds the overall scope and price. A timesheet records hours and an asset records equipment, so neither is the right home for the price."
+    },
+    {
+      "id": "SFS-01-K02",
+      "correctIndex": 1,
+      "rationale": "A return trip is another visit on the same job. This keeps the history together and avoids a duplicate price."
+    },
+    {
+      "id": "SFS-01-K03",
+      "correctIndex": 1,
+      "rationale": "An asset gives each unit its own history, so the next repair can be checked against earlier work on the same unit."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (overview of job, visit and worker records) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

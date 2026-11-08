@@ -1,0 +1,151 @@
+{
+  "id": "F06-L05",
+  "title": "Final inspection and handover",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "strata"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Quality, evidence and handover",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners completing bathroom work in residential, commercial, bond, short-stay and strata settings.",
+  "prerequisites": [
+    "F06-L04"
+  ],
+  "learningOutcomes": [
+    "Inspect a bathroom along a fixed route from the doorway to the floor.",
+    "Separate removable soil from damage or staining that routine cleaning cannot resolve.",
+    "Hand over with a factual, privacy-safe record of what was done and what was not authorised."
+  ],
+  "instruction": [
+    {
+      "heading": "A fixed inspection route",
+      "body": "Inspect the bathroom in the same order every time, starting at the doorway. Check the mirror edges, taps, basin and drain surrounds, shower screen, grout, the toilet contact points, skirting, corners and the floor. Look for visible soil, streaks, residue, misplaced items and equipment left behind, and check the floor for slip hazards. A fixed route stops you from missing a surface that you have already stopped looking at."
+    },
+    {
+      "heading": "Soil, damage and limitations",
+      "body": "Distinguish removable soil from damage, staining or deterioration that routine cleaning cannot resolve. Discoloured grout that remains after safe cleaning is usually a limitation, not a cleaning failure. Do not apply an unapproved stronger chemical to remove it. Record the location and the limitation, and let the supervisor decide whether a specialist is needed."
+    },
+    {
+      "heading": "Photographs and privacy",
+      "body": "Photograph only where the site's privacy and consent policy allows. Exclude people, personal documents and unnecessary belongings from the frame. A photograph is evidence of a condition, so frame the surface and keep the context neutral."
+    },
+    {
+      "heading": "Handover without overpromising",
+      "body": "Record unresolved issues factually, including what was attempted and what was not authorised. Explain the outcome to the client or supervisor without promising sterilisation or infection-free conditions. Close out the job by confirming the record is complete and the handover has been accepted by the person authorised to accept it."
+    }
+  ],
+  "procedure": [
+    "Inspect from the doorway along the fixed route: mirrors, taps, basin, shower screen, grout, toilet, skirting, corners and floor.",
+    "Separate removable soil from damage, staining or deterioration.",
+    "Record limitations and damage factually, with what was attempted.",
+    "Photograph only within the privacy and consent policy.",
+    "Hand over with a factual record and do not promise sterilisation."
+  ],
+  "workedExamples": [
+    {
+      "situation": "After safe cleaning, discoloured grout remains between tiles in the shower.",
+      "decisionPrompt": "What evidence and communication are required?",
+      "reasoning": "Record the location and the limitation with a photograph where permitted. Do not apply an unapproved stronger chemical. Tell the supervisor that the grout discolouration remains after approved cleaning, and let them decide whether a specialist is needed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Inspection checklist and a small torch for dim corners.",
+    "Mirror or gloves for checking hard-to-see areas where the site procedure allows.",
+    "Camera or device for records, used within the privacy policy."
+  ],
+  "commonErrors": [
+    {
+      "error": "Skipping a surface because it was cleaned first.",
+      "prevention": "Follow the fixed route every time."
+    },
+    {
+      "error": "Calling a stain a cleaning failure when it is a limitation.",
+      "prevention": "Record the stain and the limitation, and escalate."
+    },
+    {
+      "error": "Photographing a person or personal papers in the bathroom.",
+      "prevention": "Frame only the surface and follow the privacy policy."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Photographs and records of occupants' property are personal information. The site privacy and consent policy governs what is recorded.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not describe a bathroom as sterile or infection-free. Claims about disinfection depend on the product label and the work actually done.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Inspection route followed in full, with at least seven of eight seeded defects identified in the mock bathroom.",
+    "Limitations classified correctly, not as cleaning failures.",
+    "Handover note factual and free of personal information."
+  ],
+  "documentationEvidence": [
+    "Completed inspection checklist.",
+    "Handover note with limitations, photographs where permitted, and who accepted the handover."
+  ],
+  "summary": [
+    "Use a fixed inspection route from the doorway.",
+    "Separate removable soil from damage and limitations.",
+    "Photograph within the privacy policy.",
+    "Hand over factually, without promising sterilisation."
+  ],
+  "businessFields": [
+    "{{business:quality.inspection_checklist}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:customers.communication_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F06-L05-K01",
+      "question": "Why does a fixed inspection route matter?",
+      "options": [
+        "It makes the inspection quicker and easier",
+        "It replaces the checklist and the walkthrough",
+        "It reduces the chance of missing a surface"
+      ]
+    },
+    {
+      "id": "F06-L05-K02",
+      "question": "Discoloured grout remains after approved cleaning. What is the correct response?",
+      "options": [
+        "Record the location and the limitation, and tell the supervisor",
+        "Apply a stronger unapproved chemical to the grout lines",
+        "Tell the client the bathroom is sterile and the grout is clean now"
+      ]
+    },
+    {
+      "id": "F06-L05-K03",
+      "question": "What must a photograph in a client bathroom exclude?",
+      "options": [
+        "Nothing, the more detail the better so that the record is clear",
+        "People, personal documents and unnecessary belongings",
+        "The sink, the mirror, the tap and the window frame"
+      ]
+    },
+    {
+      "id": "F06-L05-K04",
+      "question": "What must the handover avoid promising, according to the lesson?",
+      "options": [
+        "Sterilisation or infection-free conditions",
+        "A factual summary of the work",
+        "Recording the limitation",
+        "Telling the supervisor the outcome"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/F06-L05.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: specific state and territory privacy obligations for photographs taken during cleaning work.",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

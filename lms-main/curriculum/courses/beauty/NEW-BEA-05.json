@@ -1,0 +1,200 @@
+{
+  "id": "NEW-BEA-05",
+  "title": "Mobile setup, power and wet-area safety",
+  "courseSlugs": [
+    "beauty"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Mobile beauty therapists who set up equipment, power and water at a client's home or venue",
+  "prerequisites": [
+    "F02-L02",
+    "F04-L02",
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "Check the power supply and the electrical equipment before use, and remove equipment that is unsafe",
+    "Plan a wet-area set-up that keeps electrical equipment away from water and wastewater away from stormwater",
+    "Apply the general WHS duty that a self-employed therapist owes to others, and record the set-up check"
+  ],
+  "referencesAtStart": "Official references for this lesson: WorkSafe Victoria, Health and safety responsibilities (reviewed 3 April 2025); WA Health, Guideline for the hairdressing industry (last reviewed February 2024).",
+  "instruction": [
+    {
+      "heading": "The general duty that applies to a mobile therapist",
+      "body": "WorkSafe Victoria states that a self-employed person's work must not expose others to risk, within what is reasonably practicable, and that an employer's work must not endanger customers or members of the public (reviewed 03/04/2025). Both duties are confirmed for Victoria. In a mobile setting, the therapist's work is done in someone else's home, so the set-up must be checked for the power, water and fire risks that the therapist brings. The safe approach is to apply the duty in the client's home as though it applies, and to record the set-up check. The business's set-up checklist is recorded as {{business:procedures.approved_sop}}."
+    },
+    {
+      "heading": "Power, leads and equipment checks",
+      "body": "A mobile therapist depends on a power outlet the client provides. Before plugging in, check that the outlet is in working order, that the cable is not damaged, and that the load of the equipment does not exceed what the cable and outlet can take. Do not run leads across walkways where people can trip. Do not use a damaged appliance, and remove it from use until it has been repaired or tested. Where the business supplies a residual current device or a portable tester, use it. Keep the power cord away from water. Equipment that has been wet should not be switched on until it has been checked by a competent person."
+    },
+    {
+      "heading": "Wet-area planning and wastewater",
+      "body": "Beauty work often involves water, for hand washing, cleaning tools and rinsing. Water and electrical equipment must be kept apart. Set the electrical equipment on a dry surface away from the sink and the wet area, and never put a plugged-in appliance into water. Wastewater must be planned. The WA hairdressing guideline (last reviewed February 2024) says that holding tanks for wastewater from mobile work must be emptied into the sewer rather than into stormwater; that rule is confirmed for WA hairdressing. Use a sealed container for wastewater where the sewer connection is not known, and do not tip it into a stormwater drain. Record where the wastewater went."
+    }
+  ],
+  "procedure": [
+    "Walk through the client's room, and identify the power outlet, the wet area and the walkways before setting up",
+    "Check the power outlet and the cable for damage, and check that the load is within the cable's rating",
+    "Set the equipment on a dry surface away from the sink and the wet area, and keep the cord clear of walkways",
+    "Test the electrical equipment using the business's approved test method, and remove any damaged appliance from use",
+    "Plan the wastewater disposal, using a sealed container where the sewer connection is not known.",
+    "Record the set-up check, including the power source, the equipment tested and the wastewater disposal"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A therapist arrives at a client's flat and finds that the only outlet is behind a sofa, with a double adaptor and a cable that is partly cut near the plug.",
+      "decisionPrompt": "Should the therapist use this outlet, and what should happen to the cable?",
+      "reasoning": "A damaged cable is an unsafe item and must not be used. The therapist should remove the cable from use and tell the client that the appliance cannot be used with it. The therapist should not run a cable across the room, and should not use a double adaptor to overload the outlet. The situation should be recorded. Where the set-up cannot be made safe, the therapist should postpone the visit and record the reason."
+    },
+    {
+      "situation": "A therapist finishes a treatment and plans to empty the rinse water from a bowl into the outdoor stormwater drain near the client's door.",
+      "decisionPrompt": "Is this an acceptable disposal, and what is the alternative?",
+      "reasoning": "The WA hairdressing guideline states that mobile operators must send wastewater into the sewer and keep it out of stormwater. The safe alternative is a sealed container, taken to a sewer connection the therapist can confirm. The disposal should be recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cable and outlet check before use",
+    "Residual current device or portable electrical tester, where the business supplies one",
+    "Dry mat or surface for the electrical equipment",
+    "Sealed container for wastewater where the sewer connection is not known.",
+    "Set-up checklist for each visit"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a double adaptor to run several appliances from one outlet.",
+      "prevention": "Check the load and the cable rating before plugging in, and use one appliance per outlet where the rating requires it."
+    },
+    {
+      "error": "Tipping rinse water into a stormwater drain.",
+      "prevention": "Plan the wastewater container before arriving, and dispose of the water to a confirmed sewer connection."
+    },
+    {
+      "error": "Running a cable across a walkway where a client or child could trip.",
+      "prevention": "Reposition the equipment or the outlet. If the set-up cannot be made safe, postpone the visit."
+    },
+    {
+      "error": "Switching on equipment that has been splashed with water.",
+      "prevention": "Switch off, isolate and have the equipment checked by a competent person before use."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WorkSafe Victoria states that a self-employed person's work must not expose others to risk, within what is reasonably practicable (reviewed 03/04/2025). This is confirmed for Victoria.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The WorkSafe page does not say this directly.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The WA hairdressing guideline requires mobile operators to send wastewater into the sewer and keep it out of stormwater.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Electrical testing rules for mobile equipment in each state were not researched.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not grant any electrical licence or authorise any person to carry out electrical work on a client's premises.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Power outlet and cable are checked and recorded before any equipment is plugged in",
+    "No damaged appliance or cable is used",
+    "Electrical equipment is kept away from water and wastewater is disposed of to a confirmed sewer connection",
+    "Every visit has a completed set-up checklist"
+  ],
+  "documentationEvidence": [
+    "Set-up checklist for each visit, with the time completed",
+    "Electrical equipment test record, using the approved method",
+    "Wastewater disposal record, with the location used",
+    "Incident record for any electrical fault, spill or near miss"
+  ],
+  "summary": [
+    "The self-employed duty to others applies in a client's home.",
+    "Check the outlet, the cable and the equipment before use, and remove unsafe items",
+    "Keep electrical equipment dry, and plan wastewater disposal to sewer",
+    "Completing this lesson does not grant any electrical licence"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:equipment.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-BEA-05-K01",
+      "question": "A therapist finds a cable with cut insulation near the plug. What is the correct action?",
+      "options": [
+        "Remove the cable from use, and record the item and the action",
+        "Use it carefully, since the outlet and the power still work",
+        "Tape the cut and use it for the rest of the day with care"
+      ]
+    },
+    {
+      "id": "NEW-BEA-05-K02",
+      "question": "Under the WA hairdressing guideline, where must a mobile operator discharge wastewater?",
+      "options": [
+        "To stormwater, if the drain is close",
+        "Into the sewer, keeping it out of stormwater",
+        "Into any outdoor drain at the client's address"
+      ]
+    },
+    {
+      "id": "NEW-BEA-05-K03",
+      "question": "Which rule about electrical equipment and water does this lesson state?",
+      "options": [
+        "Keep the cord near the sink so it reaches the tap",
+        "Never put a plugged-in appliance into water",
+        "Switch on wet equipment straight away to dry it",
+        "Rinse equipment in the sink while it is plugged in"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: WorkSafe Victoria, Health and safety responsibilities (reviewed 3 April 2025); WA Health, Guideline for the hairdressing industry (last reviewed February 2024).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Health and safety responsibilities",
+      "url": "https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities",
+      "pageDate": "Reviewed 03/04/2025",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; duties of employers and self-employed people to others. The page does not say whether a client's home is a workplace. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Guideline for the hairdressing industry",
+      "url": "https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf",
+      "pageDate": "Last reviewed February 2024",
+      "checked": "2026-11-03",
+      "covers": "WA Health PDF; mobile operators (13.1), home-based operators (13.2), open wounds (7.3), disinfection (10 and 11). Publisher: WA Health (Chief Health Officer guideline, Public Health Act 2016)."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WorkSafe Victoria, Health and safety responsibilities, https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities, reviewed 03/04/2025, checked 2026-11-02 (ALL-VIC-01)",
+    "WA Health, Guideline for the hairdressing industry, https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf, last reviewed Feb 2024, checked 2026-11-02 (NAT-HAIR-WA-02)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (home-as-workplace and electrical testing UNCONFIRMED)",
+    "Checked 2026-11-03: official references R1, R2 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-09.jpg",
+      "alt": "Mobile beauty illustration",
+      "kind": "photo",
+      "origin": "beauty"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-10.jpg",
+      "alt": "Mobile beauty illustration",
+      "kind": "photo",
+      "origin": "beauty"
+    }
+  ]
+}

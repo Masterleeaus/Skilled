@@ -1,0 +1,186 @@
+{
+  "id": "BST-04",
+  "title": "Comparing two methods with before-and-after data",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners, supervisors and office staff of home and commercial service businesses in Australia who want to know whether a new cleaning method, checklist or quote format really makes a difference.",
+  "prerequisites": [
+    "BST-03"
+  ],
+  "learningOutcomes": [
+    "Write a one-sentence question and a measure before collecting before-and-after data.",
+    "Compare the averages and the spread of two groups of similar jobs and judge whether the gap stands out from normal variation.",
+    "Make a documented decision to change, keep testing or reject a method, stating what evidence would change that decision."
+  ],
+  "instruction": [
+    {
+      "heading": "Why before-and-after comparisons mislead",
+      "body": "Owners often change something and then look at the numbers that follow. A new quote template, a pre-treatment step for carpets or a new checklist for bathrooms can each be followed by a different figure. The question is whether the difference is real or simply the ordinary movement that appears from one job to the next. Before-and-after comparisons are easy to get wrong because other things change at the same time: the season, the type of customer, the crew, the weather and the mix of jobs. Compare like with like as far as you can, meaning the same job type, a similar size of job and a similar time of year. Write down anything else that changed, because you will need that note when you read the result."
+    },
+    {
+      "heading": "Is the gap bigger than the wobble?",
+      "body": "Individual jobs vary. A bathroom clean that takes 55 minutes on a Tuesday might take 65 minutes on a Friday for reasons that have nothing to do with the method. A useful habit is to set the size of the difference between your two averages against the spread inside each group. You can use the range or the IQR from the spread lesson for this. If the averages differ by a small amount and the individual jobs overlap heavily, the gap could easily be chance. If the averages differ by a lot compared with how much the jobs swing, and the difference holds across several weeks, the change is more likely to be real. You are looking for a gap that stands out from the normal noise, not just any gap that appears on paper."
+    },
+    {
+      "heading": "Deciding when the answer is unclear",
+      "body": "When the result is close, collect more data before acting. Keep the recording method the same for both groups, note the job type for each record, and run each method long enough to cover different jobs and different days. For a pricing change, count the quotes sent and the quotes accepted under each format, and check that the two groups of customers were of similar kinds. Set the number of jobs you need before you start, so you are not tempted to stop as soon as one method looks better. Once you have enough data, decide, and write down what result would have changed your mind. A test that is too small is not a failed test. It has not yet answered the question."
+    }
+  ],
+  "procedure": [
+    "Write the question in one sentence, for example: does the new checklist reduce the time per bathroom clean?",
+    "Choose the measure, such as minutes per job or quotes accepted, and record it the same way for both methods.",
+    "Collect a before group and an after group of similar jobs, over comparable periods where possible.",
+    "Calculate the average for each group and the difference between the two averages.",
+    "Look at the spread inside each group, using the range or IQR, and check whether the difference is large compared with it.",
+    "Note any other changes that happened in the same period, such as a different crew, a season change or a new product.",
+    "Decide to change the method, keep testing or reject the change, and record the reason and the sample sizes."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner tests a new bathroom checklist on six jobs. Before the checklist the times were 62, 58, 70, 65, 61 and 68 minutes. After the checklist they were 55, 60, 57, 59, 63 and 56 minutes. These figures are invented for this lesson.",
+      "decisionPrompt": "Has the checklist reduced the time per clean?",
+      "reasoning": "The before average is 64 minutes (384 divided by six). The after average is about 58.3 minutes (350 divided by six), a gap of about 5.7 minutes. The spread is wide in both groups, and three after-jobs (59, 60 and 63 minutes) were slower than the quickest before-job of 58 minutes. With six jobs in each group, the gap could be chance. The sensible decision is to keep testing for several more weeks before adopting the checklist as a standard."
+    },
+    {
+      "situation": "A bond cleaner sends format A to 10 customers and 4 accept the quote. Format B goes to 10 different customers and 7 accept.",
+      "decisionPrompt": "Should all quotes switch to format B now?",
+      "reasoning": "The acceptance rates are 40 per cent and 70 per cent, which looks like a large difference. But ten quotes each is a very small test, and the two groups were different people, possibly with different enquiry types. Run both formats on more quotes, with similar enquiries, before switching. Record the counts so the decision can be checked later."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Timesheets, job records or a quote log for both methods",
+    "Spreadsheet or calculator",
+    "A notes sheet for changes that happened in the same period",
+    "No site PPE is needed for the comparison itself; the safety controls for any chemical or equipment method come from the lessons on those topics"
+  ],
+  "commonErrors": [
+    {
+      "error": "Comparing the best job before the change with the worst job after it.",
+      "prevention": "Compare typical jobs of the same type, using averages or medians across each group."
+    },
+    {
+      "error": "Declaring a winner from a very small test.",
+      "prevention": "Set the number of jobs needed before starting, and do not stop early because one method looks better."
+    },
+    {
+      "error": "Ignoring other changes that happened in the same period.",
+      "prevention": "Write down anything else that changed, such as crew, season or products, and read the result with that note beside it."
+    },
+    {
+      "error": "Switching methods and losing the before records.",
+      "prevention": "Keep the before data in the same format as the after data, and store both together."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers comparing results. It does not teach the safe use of any chemical or equipment, and it does not cover licensed or authorised work or grant any licence.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A method that uses chemicals or equipment must follow its own safety controls and product instructions. A favourable test result does not change those controls.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Customer details in test records are subject to privacy duties.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner writes a one-sentence question and a measure before any data is collected.",
+    "The learner calculates the average and spread for both groups of similar jobs and states whether the difference stands out from the normal variation.",
+    "The learner records a decision with the sample sizes, the reason, and the result that would have changed the decision."
+  ],
+  "documentationEvidence": [
+    "Test plan showing the question, the measure, the two groups, the dates and the target number of jobs",
+    "Before and after records with the counts, averages and spread for each group",
+    "Decision record stating the choice, the reason and any other changes noted in the same period"
+  ],
+  "summary": [
+    "A difference counts when it stands out from the normal wobble between jobs.",
+    "Compare like with like, and note anything else that changed.",
+    "Small tests can mislead, so collect more data before switching methods."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "BST-04-K01",
+      "question": "Six old-method jobs averaged 64 minutes and six new-method jobs averaged about 58 minutes, with heavy overlap between the individual times. What is the best conclusion?",
+      "options": [
+        "The new method is proven faster on every job and every day",
+        "The old method must be faster than the new one",
+        "The gap may be chance; collect more jobs before deciding"
+      ]
+    },
+    {
+      "id": "BST-04-K02",
+      "question": "Which change makes a before-and-after comparison more trustworthy?",
+      "options": [
+        "Comparing similar job types over comparable periods",
+        "Comparing your best job from before with your worst job from after",
+        "Comparing one busy season with a quiet season"
+      ]
+    },
+    {
+      "id": "BST-04-K03",
+      "question": "Format A gained 4 acceptances from 10 quotes. Format B gained 7 acceptances from 10 different customers. What is the sensible next step?",
+      "options": [
+        "Switch all quotes to format B now, since 70 beats 40",
+        "Run both formats on more similar quotes before deciding",
+        "Drop the test because quote acceptance cannot be compared"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "General statistical method knowledge; Business Statistics: Australia and New Zealand (Selvanathan and Keller), 7th ed., contents page only; no text used; rights: user-held (upload contains contents only)",
+    "UNCONFIRMED: privacy duties for customer details in test records under Australian law; not checked against current legislation in this draft"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

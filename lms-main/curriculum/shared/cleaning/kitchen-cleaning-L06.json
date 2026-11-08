@@ -1,0 +1,142 @@
+{
+  "id": "kitchen-cleaning-L06",
+  "title": "Utensils, smallwares and dishwashing",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who clean and inspect utensils, smallwares and dishwashers in kitchens.",
+  "prerequisites": [
+    "kitchen-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Pre-remove soil and load utensils so that they wash effectively.",
+    "Inspect washed utensils for residual grease, food and damage.",
+    "Hold items from service and reprocess them when residue or a failed indicator is found."
+  ],
+  "instruction": [
+    {
+      "heading": "Preparing items for washing",
+      "body": "Dishwashing works only when the items are prepared properly. Remove gross soil before loading, so that the wash water is not overloaded and the cycle is not used to do the scraping's work. Load items so that they are not nested, so that water and product can reach every surface. Keep smallwares apart from items that might damage them, and keep knives and sharp items in a safe position in the basket."
+    },
+    {
+      "heading": "Running the approved process",
+      "body": "Use the site-approved wash and sanitise process. The manufacturer's instructions and the site procedure set the temperatures, the product dosing and the cycle selection. Do not change the cycle or the dosing to speed up the work. Check the operational indicators that the site procedure requires before you unload, and record the result."
+    },
+    {
+      "heading": "Inspecting the output",
+      "body": "After unloading, inspect each item for residual grease, food, cloudiness or damage. A completed cycle does not prove that utensils are clean. A short cycle that leaves visible residue, or an indicator that shows a failure, means the items are held from service and reprocessed through the approved process. Investigate the loading and the process controls, because the cause may be overloading or a fault in the machine."
+    },
+    {
+      "heading": "Handover and records",
+      "body": "Record which items were held, why they were held, and what was done to reprocess them. Do not return held items to service until the inspection is passed and the record is complete. A record that says a cycle was completed, when the items were not inspected, is a false record."
+    }
+  ],
+  "procedure": [
+    "Remove gross soil before loading, and do not rely on the cycle to scrape.",
+    "Load items so they are not nested and water can reach all surfaces.",
+    "Run only the site-approved wash and sanitise process, and check the indicators the procedure requires.",
+    "Inspect each item for residual grease, food and damage after unloading.",
+    "Hold items from service where residue or a failed indicator is found, and reprocess them.",
+    "Record the held items, the reason, the reprocessing and the release decision."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A dishwasher completes a short cycle, but utensils still show visible residue.",
+      "decisionPrompt": "What do you do with the utensils and the machine?",
+      "reasoning": "Hold the utensils from service and mark them. Reprocess them through the approved cycle after inspection. Check the loading, because overloading or nesting is a common cause, and report a possible machine fault to the supervisor. Record the hold, the cause and the release decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Dishwasher operated to the manufacturer's instructions.",
+    "Approved dishwashing product, with label and SDS available.",
+    "Heat-resistant and chemical-resistant gloves as set by the SDS.",
+    "Holding area for items awaiting reprocessing."
+  ],
+  "commonErrors": [
+    {
+      "error": "Nesting items so water cannot reach the surfaces.",
+      "prevention": "Load items separately and check the load before starting."
+    },
+    {
+      "error": "Returning utensils to service after a short cycle without inspection.",
+      "prevention": "Inspect every item after the cycle and hold anything with residue."
+    },
+    {
+      "error": "Changing dosing or cycle to save time.",
+      "prevention": "Use only the approved settings and report a fault."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Items pre-cleaned and loaded without nesting in the simulated task.",
+    "Inspection completed after every cycle, with held items recorded.",
+    "A simulated failed indicator leads to a hold and reprocess, not a release."
+  ],
+  "documentationEvidence": [
+    "Cycle record with the indicators checked.",
+    "Hold and release record for any item that was held."
+  ],
+  "summary": [
+    "Pre-clean and load properly before running the cycle.",
+    "Use only the approved process settings.",
+    "A completed cycle is not proof of clean items; inspect every time.",
+    "Hold, reprocess and record items that fail inspection."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-cleaning-L06-K01",
+      "question": "A cycle finishes but utensils still show grease. What should you do?",
+      "options": [
+        "Return them to service because the cycle is complete and they look dry and clean",
+        "Wipe them with a cloth and return them once the whole cycle has finished",
+        "Hold them from service and reprocess through the approved cycle after inspection"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L06-K02",
+      "question": "Why should items be loaded without nesting?",
+      "options": [
+        "Water and product must reach all surfaces",
+        "It saves space in the machine only",
+        "It makes the dishes dry faster"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L06-K03",
+      "question": "Who decides on the dishwasher cycle and dosing?",
+      "options": [
+        "The cleaner, to suit the load and the water temperature",
+        "The manufacturer's instructions and the site procedure",
+        "The client on arrival and the site supervisor"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-cleaning-L06.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises. The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

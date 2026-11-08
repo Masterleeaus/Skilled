@@ -1,0 +1,173 @@
+{
+  "id": "BP-05-handyman",
+  "title": "Pricing by hours per project for Handyman",
+  "courseSlugs": [
+    "handyman"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Handyman owners who price multi-task visits from estimated hours and need a cost per productive hour they can defend to a property manager or household client.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures",
+    "Estimate a multi-task visit, including travel, set-up, clean-up and checking time",
+    "Build a quote from hours, a buffer and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why a handyman quotes from hours",
+      "body": "One visit can include a door, two shelves, a gate and a towel rail, and each carries its own set-up, fixing and checking time. Hours make those costs visible. A flat price with no hours behind it hides the cost of travel and waiting, and it cannot be defended when a client asks why the visit costs what it does. The research did not find a trade-specific hours benchmark for handyman work, so the standard times in this lesson must come from your own log."
+    },
+    {
+      "heading": "Work out the cost per productive hour",
+      "body": "Divide the year's total running costs by the hours the business actually bills. Running costs include wages with on-costs such as leave and superannuation, the vehicle, tools, insurance, phone, software, consumables and administration. Business.gov.au says on-costs such as leave and superannuation belong in the hourly figure. Use billable hours as the divisor, not paid hours. Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement, so check which one covers each worker before you use any figure. This lesson does not state pay rates."
+    },
+    {
+      "heading": "Estimate the visit in named lines",
+      "body": "Estimate each task at a standard time, then add travel between jobs, set-up and pack-down, materials collection, and checking time as separate lines. A list of recurring tasks, such as a door adjustment, a shelf fix or a latch replacement, lets you build standard times from your own records. Carters Trade Leader, a New Zealand source, recommends comparing each quote with the actual labour time to find where hours are being under-quoted."
+    },
+    {
+      "heading": "Add a buffer and a margin",
+      "body": "Xero's Australian pricing guide suggests adding 10 to 20 per cent to job estimates for unexpected work, such as delivery delays and staff absence. Use the lower end while your records are thin and move up if the variance stays high. Then set the price with a margin: the price is cost divided by one minus the margin, not cost plus the margin. Carters suggests a gross margin floor of 20 per cent, but that is one coach's view and is not a rule."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "State the scope, the hours basis, the exclusions, what the client must provide, such as access and power, and how long the quote is valid. Do not show the internal rate to the client unless your policy says so. Re-quote when the scope changes, and record each change. A quote with no exclusions invites disputes."
+    },
+    {
+      "heading": "Review the estimates",
+      "body": "Compare estimated and actual hours for at least the first ten visits of each type. If the variance stays above your agreed threshold, change the standard time, the buffer or the scope rules. A method is not finished when it is written; it is finished when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the billable hours from the same period.",
+    "Divide total costs by billable hours to get the cost per productive hour, and date the figure.",
+    "Break the visit into tasks and estimate each task time as a range.",
+    "Add travel, set-up, pack-down and checking time as named lines.",
+    "Add a buffer of 10 to 20 per cent for unexpected work, then multiply the total hours by the cost per productive hour.",
+    "Apply the margin for risk and target, then apply your materials policy and your minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, client inputs and validity.",
+    "Record the actual hours after each visit and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. A rental manager asks for four listed tasks in one visit: a sticking door, two shelves, a gate latch and a towel rail. Estimated time on site is 2.5 hours, travel is 0.5 hours, and set-up, clean-up and checking is 0.25 hours. The owner's cost per productive hour is $75 (illustrative). The buffer is 10 per cent (illustrative, within the Xero range). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the cost of the visit, what is the price, and how does the price compare with the vendor ranges for the same tasks?",
+      "reasoning": "The named hours total 3.25 before the buffer. A 10 per cent buffer gives 3.575 hours. At $75 an hour the cost is $268.13 (illustrative). A 25 per cent margin on price gives a price of $268.13 divided by 0.75, which is $357.50 (illustrative). The Quote Yard's Queensland vendor estimates for the same tasks are a door adjustment at $100 to $200, basic shelving at $100 to $250, and a simple gate repair at $120 to $300 (vendor estimates, published 10 May 2026). Those are per-job figures, so compare each one with its own task. If access is delayed by 0.5 hours and the quote's terms allow that delay to be charged, add it as a named line before the bill is issued."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each visit, with estimated and actual columns",
+    "Measuring tape and a level for fit and alignment checks",
+    "PPE as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, tools, consumables, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use billable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel, set-up and checking time on a short visit",
+      "prevention": "Add these as named lines on every quote, even when the visit is short."
+    },
+    {
+      "error": "Quoting with no exclusions",
+      "prevention": "List what is excluded, what the client provides, and the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each visit and review the variance each month."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pricing guidance only. The ACCC says misleading statements about prices are prohibited. State and territory fair trading rules differ, so check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement. This lesson does not state those rates.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence thresholds differ by state. In NSW, minor maintenance above $5,000 in labour and materials including GST needs a licence. In Queensland, building work above $3,300 including materials, labour and GST needs a licence. Check the thresholds for each state where you work before you quote a multi-task visit.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten visits of each type and compared with the estimate."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Visit time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Start every visit quote from named hours.",
+    "Cost per productive hour uses billable time, not paid time.",
+    "Travel, set-up and checking time are named lines, not hidden extras.",
+    "Compare estimates with actual hours, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-handyman-K01",
+      "question": "Which costs belong in the cost per productive hour?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker",
+        "The price the client pays, plus any deposit taken",
+        "Wages with on-costs, vehicle, tools, consumables, insurance and administration, divided by billable hours",
+        "The average hourly rate of competitors in the local area"
+      ]
+    },
+    {
+      "id": "BP-05-handyman-K02",
+      "question": "A visit estimated at 5 hours takes 8 hours. What is the right response?",
+      "options": [
+        "Leave the estimate alone, since the client has already paid",
+        "Record the actual hours, find the cause, and change the estimate and future quotes",
+        "Cut paid hours for the crew on the next visit",
+        "Raise the price for this client's next visit only"
+      ]
+    },
+    {
+      "id": "BP-05-handyman-K03",
+      "question": "Why does a visit quote need an exclusions list?",
+      "options": [
+        "To keep the margin secret from the client",
+        "To make the quote longer for the client to read",
+        "To show what the price covers, so scope changes can be priced and disputes reduced",
+        "To make the job look smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. On-costs such as leave and superannuation belong in the hourly cost.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Misleading price statements are prohibited.",
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Divide by billable hours, not total hours; 10 to 20 per cent allowance for unexpected work.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. New Zealand source; backcosting the gap between quoted and actual labour. The 20 per cent margin is one coach's view.",
+    "The Quote Yard, Handyman services QLD, https://www.thequoteyard.com.au/services/handyman-services-qld, published 10 May 2026. Vendor per-job estimates used only as a check.",
+    "NSW Government, 'Minor maintenance and cleaning work', https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/minor-maintenance-and-cleaning-work, last updated 23 June 2026. Licence above $5,000 in labour and materials including GST.",
+    "QBCC, 'Licence required for building work', https://www.qbcc.qld.gov.au/node/7081, last reviewed 16 April 2026. Licence above $3,300 including materials, labour and GST."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

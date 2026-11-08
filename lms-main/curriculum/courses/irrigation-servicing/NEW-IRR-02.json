@@ -1,0 +1,189 @@
+{
+  "id": "NEW-IRR-02",
+  "title": "Controller programming and water-efficient scheduling",
+  "courseSlugs": [
+    "irrigation"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "C",
+  "estimatedMinutes": 35,
+  "audience": "Irrigation technicians and crew leaders who programme irrigation controllers, set run times and advise clients on water-efficient schedules.",
+  "prerequisites": [
+    "NEW-IRR-01",
+    "F04-L02"
+  ],
+  "learningOutcomes": [
+    "Set zone run times and start times on a controller using the zone map, plant type, soil and sun exposure.",
+    "Adjust schedules for season, rainfall and sensor input so that water is not wasted.",
+    "Check that water restrictions and local rules are followed before a schedule is set.",
+    "Record each schedule change and explain it to the client in writing."
+  ],
+  "instruction": [
+    {
+      "heading": "Why scheduling saves water and money",
+      "body": "Most irrigation waste comes from schedules that never change. A controller set in midsummer keeps running through a wet autumn, a zone that waters shade and sun equally wastes water on the shaded part, and a sprinkler that throws water onto a path wastes it entirely. Good scheduling matches the water each zone gets to what the plants and soil need. That saves water for the client and reduces the energy used by pumps, and it can reduce plant losses caused by overwatering. Scheduling is a cost reduction lesson because the client pays for water and for the consequences of a poor schedule, such as lawn disease, waterlogging or fungal problems in beds. Start with the zone map, not with a default programme."
+    },
+    {
+      "heading": "Setting zone run times",
+      "body": "Each zone should be scheduled according to its plant type, soil, slope, sun exposure and the type of head. Sandy soils drain quickly and may need shorter, more frequent runs. Clay soils take water slowly and may run off on slopes, so they need short runs with rests between them. Lawns, shrubs and garden beds usually have different needs and should be on separate zones. Measure the precipitation rate of each zone if the business has a catch-can test method, because the same run time delivers different depths of water from different heads. Set the run time from the target depth and the precipitation rate, not from a guess. Record the settings for each zone, and label the controller so that the next technician can see the basis for the programme."
+    },
+    {
+      "heading": "Seasonal, rain and sensor adjustments",
+      "body": "A schedule is a starting point, not a permanent setting. Adjust the programme for the season, since plants use less water in cool weather and more in hot, windy weather. Use a rain sensor or soil moisture sensor where it is fitted and working, so that the controller skips irrigation after rain. Check that the sensor is positioned correctly and not blocked. Review the schedule when the client reports a problem, after a major rain event, and at the start and end of each season. Where a water restriction applies to the property, the controller must follow it. Water restriction rules are set by the water authority and local council. Check the current rules before setting the schedule, and record the rule that was followed."
+    },
+    {
+      "heading": "Controller safety and the licence boundary",
+      "body": "Programming a controller through its keypad or app is normal service work. Do not open the enclosure to change wiring, and do not bypass a rain sensor or a safety device to make a schedule work. If the controller is wet, damaged, or making unusual sounds, turn it off using its external control if that is safe and refer the fault. Keep the controller's manual or the manufacturer's instructions with the service record, and use the recommended settings for the model."
+    },
+    {
+      "heading": "Recording and explaining the schedule",
+      "body": "Every schedule change needs a record that a later technician can follow. Write down the zone, the old setting, the new setting, the reason for the change, the date, the rule checked and the sensor status. Label the controller with the current season's basis, so that the next visit does not rely on memory. When you explain the schedule to the client, use plain language: say which zones run, when, for how long and why. Explain the trade-off where there is one, for example a shorter run that means the lawn may look slightly less green for a few days. Give the client a written copy and ask for confirmation. A client who understands the schedule is far more likely to keep it, and far less likely to override it with a manual run that wastes water."
+    },
+    {
+      "heading": "Verification and escalation",
+      "body": "A supervisor should check the zone map, the run times and the record. A competent technician can explain how a run time was set, show the sensor setting, identify a schedule that wastes water and describe the change they would make. Escalate any schedule that conflicts with a water restriction, any controller fault, and any client request to water beyond the approved schedule or outside the restriction."
+    }
+  ],
+  "procedure": [
+    "Obtain the zone map and the previous controller settings, and note the plant types, soils and sun exposure for each zone.",
+    "Confirm the water restriction rule that applies to the property and record it before setting the schedule.",
+    "Set the run time for each zone from the target depth and the measured or known precipitation rate.",
+    "Set start times that avoid evaporation loss and do not overlap zones that share pressure limits.",
+    "Confirm the rain sensor or moisture sensor is working and not blocked, and set its threshold.",
+    "Set seasonal adjustments and record the basis for each setting on a label or in the service record.",
+    "Explain the schedule and the reason for each change to the client in plain language.",
+    "Record the final settings, the rule followed, the sensor status and the client confirmation."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client's lawn zone is watered every morning for ten minutes, but after a week of heavy rain the lawn shows signs of waterlogging and fungal patches.",
+      "decisionPrompt": "What schedule change do you make, and what do you confirm first?",
+      "reasoning": "Confirm the rain sensor is working and that the controller is set to skip after rainfall. Reduce the run frequency for that zone, and set a longer gap between runs so the soil can drain. Check the restriction rules before changing the times. Record the old and new settings, the reason, and explain to the client that the lawn may need time to recover."
+    },
+    {
+      "situation": "The client asks for the controller to run every day at midday to keep the garden green during a heatwave.",
+      "decisionPrompt": "Do you agree, and what do you advise?",
+      "reasoning": "Midday watering loses much of the water to evaporation and may scorch leaves. Advise a start time before dawn or after sunset where the restriction rules allow it, and check the water restriction rule for the property. Explain the trade-off, record the request and the advice, and get the client's confirmation of the chosen schedule."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Zone map and controller manual for the model",
+    "Catch cans or a measuring method approved by the business for precipitation rate",
+    "Stopwatch or timer",
+    "Label printer or marker for controller labelling",
+    "Eye protection and gloves for controller work",
+    "Rain sensor test tool or method, where fitted"
+  ],
+  "commonErrors": [
+    {
+      "error": "Keeping a summer schedule through autumn and winter.",
+      "prevention": "Review the schedule at the start and end of each season, and after major rain."
+    },
+    {
+      "error": "Running all zones on one long programme regardless of plant type or soil.",
+      "prevention": "Set separate zones for lawn, beds and shrubs, and set run times from target depth."
+    },
+    {
+      "error": "Bypassing a rain sensor because it keeps stopping the programme.",
+      "prevention": "Check the sensor's position and condition, and record the fault. Do not bypass the sensor."
+    },
+    {
+      "error": "Opening the controller to alter the wiring to make the schedule work.",
+      "prevention": "Programming is in scope. Wiring and mains work is referred to a licence holder."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Check and record the current rule before setting any schedule.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Wiring the controller, connecting it to mains power or replacing its transformer is electrical work for a licence holder. This lesson does not grant an electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Water-efficiency claims must be supported by the measurements taken. Do not state a saving percentage unless the measurements support it.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every zone has a recorded run time based on the target depth or the measured precipitation rate.",
+    "The water restriction rule that applies has been checked and recorded before the schedule was set.",
+    "The rain or moisture sensor has been checked and is working, or its fault is recorded.",
+    "The client has been given the schedule and the reason for each change in writing."
+  ],
+  "documentationEvidence": [
+    "Schedule record with the old and new settings, the zone map and the reason for each change.",
+    "Restriction check record showing the rule applied and the date checked.",
+    "Sensor check record with its position and status.",
+    "Client schedule summary and confirmation."
+  ],
+  "summary": [
+    "Schedule each zone by plant, soil, slope and sun, and set run times from target depth.",
+    "Adjust for season, rain and sensors, and review the schedule regularly.",
+    "Check water restriction rules before setting any schedule.",
+    "Programming is in scope. Wiring and mains work is referred to a licence holder."
+  ],
+  "businessFields": [
+    "{{business:equipment.manufacturer_manual_url}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:customers.communication_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-IRR-02-K01",
+      "question": "A lawn zone shows waterlogging after heavy rain, and the controller is still set to the summer schedule. What is the best first step?",
+      "options": [
+        "Increase the run time so the water drains faster, since longer runs push more water through the soil and out the other side",
+        "Turn off the controller for the rest of the year, since the lawn will not need any water again until the next spring season begins",
+        "Confirm the rain sensor is working, reduce the frequency and set a longer gap between runs, and check restriction rules first."
+      ]
+    },
+    {
+      "id": "NEW-IRR-02-K02",
+      "question": "The client asks for midday watering every day in a heatwave. What is the most appropriate advice?",
+      "options": [
+        "Explain that midday watering loses water to evaporation, advise an earlier or later start where restrictions allow, and record the advice.",
+        "Agree, because midday watering is the fastest way to cool the garden and the lawn during a heatwave like this one, so the client can relax",
+        "Refuse without explanation, since the client should simply accept the technician's decision on the watering schedule and the timing"
+      ]
+    },
+    {
+      "id": "NEW-IRR-02-K03",
+      "question": "The controller's rain sensor keeps stopping the programme. What should the technician do?",
+      "options": [
+        "Bypass the sensor so the programme runs as scheduled, since the sensor is small",
+        "Check the sensor's position and condition, record the fault and do not bypass it.",
+        "Remove the sensor from the controller, since the sensor is not needed once the system is running"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Catalogue decision NEW-IRR-02 (no source lesson). Written from scratch.",
+    "Water restriction rules by water authority and council: UNCONFIRMED (not checked in this draft).",
+    "Precipitation rate and run-time calculation method: general irrigation practice, not verified against a named reference in this draft.",
+    "Safe Work Australia, Managing WHS risks step by step (January 2023). https://www.safeworkaustralia.gov.au/sites/default/files/2023-01/managing_whs_risks_step_by_step_jan23.pdf. Checked 2026-11-02."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [],
+  "referencesAtStart": "No official reference is confirmed in this draft for water restriction or controller wiring rules.",
+  "referencesAtEnd": "Check the current restriction rule with the water authority and council before each schedule, and record the source and date.",
+  "images": [
+    {
+      "src": "/academy/library/photos/garden-outdoor/deck-photo-0c443ed3-03.jpg",
+      "alt": "Irrigation servicing illustration",
+      "kind": "photo",
+      "origin": "irrigation"
+    },
+    {
+      "src": "/academy/library/photos/garden-outdoor/deck-photo-0c443ed3-04.jpg",
+      "alt": "Irrigation servicing illustration",
+      "kind": "photo",
+      "origin": "irrigation"
+    }
+  ]
+}

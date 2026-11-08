@@ -1,0 +1,206 @@
+{
+  "id": "BP-06",
+  "title": "Break-even and sales forecast by stage",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners planning cash and capacity for a cleaning business that is starting up, or about to add staff.",
+  "prerequisites": [
+    "BP-01",
+    "BP-05"
+  ],
+  "learningOutcomes": [
+    "Calculate break-even jobs per month from fixed costs and contribution per job",
+    "Build a stage-based sales forecast with a conservative case for cash planning",
+    "Separate profit forecasts from cash timing"
+  ],
+  "instruction": [
+    {
+      "heading": "What the sample plan gives you, and what it leaves out",
+      "body": "The sample plan includes a break-even heading and a sales forecast, but the break-even section has no working in it. The sales forecast is written in stages: a set-up month with little or no trading, a second month in which enquiries begin to turn into contracts, a first team working together, and a second team trained once demand allows. The stage structure is useful. The arithmetic is missing, and you must add it yourself."
+    },
+    {
+      "heading": "Break-even in jobs",
+      "body": "Break-even is the point where income covers all costs. Start with fixed costs per month, meaning costs that continue whether or not you clean, such as insurance, software, a share of home office costs, phone, vehicle finance, and any owner drawings you treat as a cost. Next, find contribution per job: the price minus the variable costs of that job, such as consumables, fuel and the direct labour on the job. Divide fixed costs by contribution per job to get the number of jobs needed each month, and round up. This is a planning figure. Recheck it whenever prices or costs change."
+    },
+    {
+      "heading": "Forecast by stage",
+      "body": "Build the forecast around the stages your business will pass through. Stage one is set-up, with costs and no trading. Stage two is the first paying jobs, usually done by the owner and one helper. Stage three is the first full team, and stage four is a second team, once demand supports it. For each stage, write the number of jobs per week, the average price, the hours per job and the staff cost. Make three cases: base, conservative and upside. Use the conservative case for cash planning and the base case for targets. The sample plan says it prefers a cautious forecast, and that principle is sound."
+    },
+    {
+      "heading": "Cash timing is a separate problem",
+      "body": "A business can be profitable on paper and still run short of cash. Clients may pay thirty days after an invoice, while wages, fuel and insurance fall due sooner. Build a monthly cash-flow table that shows when money comes in and when it goes out, and check the lowest balance across the year. Break-even tells you the volume you need. Cash flow tells you whether you can survive the time it takes to reach that volume."
+    },
+    {
+      "heading": "Growth targets are not forecasts",
+      "body": "The sample plan sets aims such as growth above 100 per cent a year, double-digit growth for three years, and profit in the first year. These are targets. A forecast is built from job counts, hours, prices and costs, and each assumption can be tested. Put the targets next to the forecast and check whether the forecast supports them. If it does not, change the target or the plan, and record which one you changed. The sample's figures are historical and non-Australian, so they are not benchmarks for an Australian business."
+    },
+    {
+      "heading": "Compare and revise",
+      "body": "Each month, compare actual jobs, revenue, hours and costs with the base case. Record each difference and its cause. Update the forecast when two or three months show the same pattern. A forecast that is never compared with actual results is an opinion."
+    }
+  ],
+  "procedure": [
+    "List every fixed cost per month, with the source of each figure.",
+    "Calculate the variable cost and contribution for a typical job.",
+    "Divide fixed costs by contribution per job and round up to the number of jobs needed.",
+    "Write the stage plan with jobs per week, price, hours and staff cost for each stage.",
+    "Build base, conservative and upside cases for each stage.",
+    "Build a monthly cash-flow table using the conservative case, with invoice and payment dates.",
+    "Compare actual results with the base case each month and record the cause of each difference."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only. Fixed costs are $4,000 AUD per month. A typical job earns $480 AUD and has $120 AUD of variable cost, so the contribution per job is $360 AUD.",
+      "decisionPrompt": "How many jobs per month does the business need to break even, and what does that mean for stage two if it is planned at 6 jobs a month?",
+      "reasoning": "$4,000 AUD divided by $360 AUD is about 11.1, so the business needs 12 jobs a month to break even. At 6 jobs a month the contribution is $2,160 AUD, which is still below the $4,000 AUD of fixed costs. Stage two therefore runs at a loss and needs a cash buffer or a lower fixed-cost base until volume rises. The owner records this in the cash-flow table."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet or table for fixed costs and stage forecasts",
+    "Monthly cash-flow template",
+    "Record of actual jobs, hours and costs"
+  ],
+  "commonErrors": [
+    {
+      "error": "Calculating break-even on revenue instead of contribution",
+      "prevention": "Subtract the variable cost of each job before dividing."
+    },
+    {
+      "error": "Leaving out owner costs, insurance or software",
+      "prevention": "List every fixed cost, then check the list against bank and card statements."
+    },
+    {
+      "error": "Forecasting only the best case",
+      "prevention": "Use the conservative case for cash decisions, and label the upside case clearly."
+    },
+    {
+      "error": "Ignoring payment timing",
+      "prevention": "Build a monthly cash-flow table with invoice and payment dates."
+    },
+    {
+      "error": "Treating a sample plan's targets as forecasts",
+      "prevention": "Show the job counts and costs behind every target, or drop the target."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is forecasting guidance only. Check with the Australian Taxation Office or a registered tax agent before relying on any figure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Figures taken from the sample plan are historical and were written for a non-Australian market. They are not current Australian data and must not be used as benchmarks.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Break-even is calculated from contribution per job, with every fixed cost listed and sourced.",
+    "The forecast is staged and includes base, conservative and upside cases.",
+    "Cash planning uses the conservative case and a monthly cash-flow table.",
+    "Monthly actual results are compared with the base case, and each difference is recorded."
+  ],
+  "documentationEvidence": [
+    "Fixed cost list with sources",
+    "Dated break-even worksheet",
+    "Stage forecast with three cases and stated assumptions",
+    "Monthly cash-flow table and variance log"
+  ],
+  "summary": [
+    "Break-even is fixed costs divided by contribution per job.",
+    "Forecast the business in stages, and use the conservative case for cash planning.",
+    "Cash timing is separate from profit, and it must be planned.",
+    "Compare actual results with the forecast every month."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:business.name}}",
+    "{{business:jobs.scheduling_method}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-06-K01",
+      "question": "Which formula gives the number of jobs needed to break even in a month?",
+      "options": [
+        "Revenue divided by the number of staff per month",
+        "Fixed costs per month divided by contribution per job",
+        "Price multiplied by hours per job and the number of staff",
+        "Total wages plus rent and the cost of fuel and the phone"
+      ]
+    },
+    {
+      "id": "BP-06-K02",
+      "question": "Which forecast should guide cash planning in the first stage of the business?",
+      "options": [
+        "The best case, because the plan is exciting today",
+        "The growth target in the sample plan and the guess for the year",
+        "The highest revenue a competitor has reported today",
+        "The conservative case, with a base case kept for comparison"
+      ]
+    },
+    {
+      "id": "BP-06-K03",
+      "question": "Why is a target such as profit in year one not, by itself, a forecast?",
+      "options": [
+        "Because it does not show the job counts, costs, hours and timing behind it",
+        "Because targets are not allowed in business plans and nobody reads them",
+        "Because year one is the first profit year by definition and the forecast is then fixed",
+        "Because profit cannot be measured in a small business with few jobs"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning-Services-Business-plan.txt (ddf3b731-315667945), Break-even Analysis (heading only, no figures), Sales Forecast, Expense Forecast, Financial Objectives; rights: user-held; reworded (no copying)",
+    "Cleaning-Services-Business-plan.txt, Executive summary (growth and profit statements); historical, undated, non-Australian; not current Australian data",
+    "Tax, GST, superannuation and owner drawings treatment: UNCONFIRMED (not checked against a current source in this draft; no date checked)",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. illustrative dollar figures stated in AUD; not a benchmark"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

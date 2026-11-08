@@ -1,0 +1,46 @@
+{
+  "lessonId": "NEW-STN-11",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STN-11-K01",
+      "correctIndex": 3,
+      "rationale": "A stone quote shows the scope, the controls, the exclusions and the cure time as well as the price."
+    },
+    {
+      "id": "NEW-STN-11-K02",
+      "correctIndex": 0,
+      "rationale": "Controls take time and equipment. Removing them to lower a price is not a valid saving."
+    },
+    {
+      "id": "NEW-STN-11-K03",
+      "correctIndex": 1,
+      "rationale": "Uncertain identification is a condition of the quote, and the variation rule applies if it turns out to be engineered stone."
+    },
+    {
+      "id": "NEW-STN-11-K04",
+      "correctIndex": 2,
+      "rationale": "Identification, test patches, the sequence and documentation are part of the scope and are priced."
+    },
+    {
+      "id": "NEW-STN-11-K05",
+      "correctIndex": 3,
+      "rationale": "A lesson or a quote does not grant a licence, permit, notification exemption or authority to do regulated work."
+    }
+  ],
+  "practicalCriteria": [
+    "Lists every control as a priced line item on the quote",
+    "Includes exclusions and a variation clause",
+    "Does not remove controls to match a lower price",
+    "Obtains written approval before work starts"
+  ],
+  "passRule": "Knowledge checks: 4 of 5 correct (80%). Practical sign-off is separate and is not granted by the knowledge check: an assessor must observe every critical practical criterion and record it.",
+  "evidenceRequired": [
+    "Quote with priced controls, exclusions and variation clause",
+    "Client written approval"
+  ],
+  "stopWorkCriteria": [
+    "Variation not approved in writing",
+    "Client asks for controls to be removed to reduce the price",
+    "Engineered stone work without a confirmed regulator-compliant route"
+  ]
+}

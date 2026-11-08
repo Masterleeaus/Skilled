@@ -1,0 +1,230 @@
+{
+  "id": "laboratory-cleaning-L12",
+  "title": "Verification, audit and restricted handover",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Quality, evidence and handover",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 35,
+  "audience": "Cleaners and supervisors completing housekeeping in laboratories, including the handover.",
+  "prerequisites": [
+    "laboratory-cleaning-L10"
+  ],
+  "learningOutcomes": [
+    "Explain that a visibly clean surface is not evidence of decontamination, sterility or biological clearance.",
+    "Use housekeeping-only inspection criteria and a signed handover with explicit exclusions.",
+    "Reject a request to certify laboratory biological safety and refer verification to the laboratory owner."
+  ],
+  "instruction": [
+    {
+      "heading": "Looks clean is not clean enough",
+      "body": "A visibly clean surface is not evidence that it has been decontaminated, sterilised or cleared of biological material. Mopping makes a floor look clean, and wiping makes a bench look clean. Neither action shows that a biological hazard is gone, because the hazard may be invisible, may sit below the surface, may be in a crack or drain, or may have been moved rather than removed. A clean appearance is the result of housekeeping, which is a tidy-up with a defined scope. Verification of decontamination, sterility or biological clearance is a different activity. It is carried out by the laboratory owner and by qualified testers, using their own method, sampling plan and acceptance criteria. A cleaner's role is to finish the housekeeping in scope, record what was done, and hand over the zone with its limits stated clearly. The cleaner does not take the verification step, and does not describe the result of it."
+    },
+    {
+      "heading": "Housekeeping-only inspection criteria",
+      "body": "Use inspection criteria that match the housekeeping scope and nothing more. A housekeeping inspection asks whether the approved surfaces listed on the inventory were tidied, whether general waste was removed from the approved bins in line with the site procedure, whether floors were left free of ordinary debris, whether consumables were restocked where the site requires it, and whether any excluded or unclear surface was left untouched and recorded. It does not ask whether the area is sterile, whether a surface has been decontaminated, or whether any biological material is absent. Those questions belong to the verification step. Write the criteria on the inspection sheet in plain words, and tick only what was seen. A tick against a criterion that the inspection does not test is a false record, so do not tick a criterion simply because the room looks tidy."
+    },
+    {
+      "heading": "The signed handover and its exclusions",
+      "body": "Sign a handover that lists the exclusions and the unresolved work. The handover states what was tidied, what was inspected against the housekeeping criteria, and what was not touched and why. It lists the excluded equipment, the ambiguous surfaces that are awaiting classification, any items referred to the laboratory staff, and the return criteria for any deferred area. A handover that is signed without exclusions invites the reader to assume that everything in the room was in scope and that the room is therefore safe, and this is the most common way in which housekeeping turns into an unsupported claim. Do not write that the laboratory is sterile, decontaminated, certified safe, or cleared. Where a reader asks for a conclusion of that kind, state the limits of the housekeeping, and refer them to the laboratory owner for the verification question."
+    },
+    {
+      "heading": "Refusing a clearance request",
+      "body": "Consider a supervisor who asks you to certify laboratory biological safety after mopping. Refuse politely and clearly. Document the cleaning completed, state that the cleaning was housekeeping only, and refer the verification to the laboratory owner, who holds the method and the testers. Explain to the supervisor that a certificate based on mopping would state something the cleaning cannot show. The Australian Competition and Consumer Commission states that claims about a business's services must be accurate and based on reasonable grounds, that a business must be able to prove the claims it makes, and that statements made by staff are covered by the rule. A certificate of biological safety that the cleaning cannot support would be a claim of that kind. Make a minimal deferral record with the supervisor's request, the responsible contact and the return criteria. If the supervisor persists, ask for the request in writing from the laboratory owner, and do not sign any clearance document in the meantime. This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist."
+    },
+    {
+      "heading": "Worked boundary: three handover statements",
+      "body": "After a housekeeping visit to a laboratory bench room, a cleaner has three possible statements to choose from for the handover. The first says that the approved benches, floor and general bin were tidied, that the excluded fume hood and the cabinet were not touched, and that the ambiguous panel is awaiting classification. This is a housekeeping statement with explicit exclusions, and it is the correct one. The second says that the room was cleaned and is now sterile. It is a clearance claim that the cleaning cannot support, and it must not be written. The third says that the room is clean and that the owner can rely on it for research work. This goes beyond housekeeping, because the reliance is a claim about the room's suitability, and it is not a claim the cleaner can make. The correct handover is the first, and any request for the second or third is referred to the laboratory owner in writing."
+    }
+  ],
+  "procedure": [
+    "Confirm the housekeeping scope against the approved inventory before you begin, and note any excluded or ambiguous surfaces.",
+    "Complete the housekeeping inside the scope, and do not describe any surface as decontaminated, sterile or cleared.",
+    "Inspect against the housekeeping-only criteria, and tick only the criteria the inspection actually tests.",
+    "Refuse any request to certify laboratory biological safety, and refer the verification to the laboratory owner in writing.",
+    "Record the cleaning completed, the request refused, the responsible contact and the return criteria.",
+    "Sign a handover that lists what was tidied, what was inspected, what was not touched, and every exclusion and unresolved item."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor asks you to certify laboratory biological safety after you have mopped the floor.",
+      "decisionPrompt": "What do you do, and what goes on the handover?",
+      "reasoning": "Refuse the certification. Mopping shows that the floor was cleaned, but not that biological hazards are gone, and the cleaner cannot prove that they are. Record the housekeeping completed and the refused request. Refer the verification to the laboratory owner in writing. The handover lists the floor as tidied, the excluded items as not touched, and the verification as held by the owner. It does not state that the laboratory is safe or cleared."
+    },
+    {
+      "situation": "A researcher asks at the end of the shift whether the room is now safe to use for a sensitive experiment that starts tomorrow.",
+      "decisionPrompt": "How do you answer, and what do you write?",
+      "reasoning": "Do not say the room is safe. Explain that the cleaning was housekeeping only, with the exclusions listed on the handover, and that the suitability of the room for any experiment is a question for the laboratory owner. Give the researcher the handover, which states what was tidied and what was excluded. Record the question, the answer given and the referral to the owner, and keep the reply to the scope of the housekeeping."
+    },
+    {
+      "situation": "A housekeeping checklist has a line that reads the surfaces are free of biological material. The inspection was a visual check after wiping.",
+      "decisionPrompt": "Do you tick the line?",
+      "reasoning": "Do not tick it. The visual check cannot test whether biological material is absent, so the line is outside the housekeeping criteria. Mark it as not tested and write that the verification belongs to the laboratory owner. A line that the inspection does not test must not be ticked, because a tick would be a record of a result that was never obtained."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved housekeeping products with the label and safety data sheet available on site.",
+    "Housekeeping-only inspection sheet with criteria written in plain words.",
+    "Handover record with fields for tidied areas, inspected criteria, untouched areas, exclusions, unresolved items and return criteria.",
+    "Site-approved gloves for the housekeeping products, as set by the product safety data sheet and the site procedure. Personal protective equipment is a last resort after higher-level controls.",
+    "A contact card for the laboratory owner and the supervisor, for referral of verification and clearance questions."
+  ],
+  "commonErrors": [
+    {
+      "error": "Certifying a laboratory as safe after mopping.",
+      "prevention": "Refuse and refer the verification to the laboratory owner in writing."
+    },
+    {
+      "error": "Describing the room as sterile, or saying it is clean enough for sensitive work.",
+      "prevention": "Describe only the housekeeping done, and state the limits of the housekeeping."
+    },
+    {
+      "error": "Leaving exclusions out of the signed handover.",
+      "prevention": "List every exclusion, ambiguous surface and unresolved item, and the return criteria for any deferred area."
+    },
+    {
+      "error": "Ticking an inspection line that the housekeeping check does not test.",
+      "prevention": "Mark untested lines as not tested, and refer them to the owner."
+    },
+    {
+      "error": "Signing a clearance document because the supervisor asks for it and says it is a formality.",
+      "prevention": "Do not sign clearance documents. Ask for the request in writing from the laboratory owner."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Biological safety verification is carried out by the laboratory owner and qualified testers, not by a cleaner, under their own method. This lesson does not grant any clearance, certification or verification.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Australian Competition and Consumer Commission states that claims must be accurate and based on reasonable grounds, and that a business must be able to prove them. The rule covers advertising, quotes, staff statements, websites and other channels. A handover or certificate that the housekeeping cannot support is a claim of that kind.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Safe Work Australia guidance describes the hazardous chemicals register as covering hazardous chemicals used, handled or stored at a workplace, with a current safety data sheet for each entry, and readily accessible to workers. Ask for the register entry and safety data sheet for any product used during the housekeeping.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Housekeeping scope confirmed against the approved inventory in the desk exercise, with exclusions noted.",
+    "Clearance request refused and referred to the laboratory owner in the case study.",
+    "Inspection ticks limited to criteria the housekeeping check actually tests.",
+    "Handover lists the tidied areas, the untouched areas, every exclusion and every unresolved item.",
+    "No sterility, decontamination, safety certification or clearance claim in the record or the handover."
+  ],
+  "documentationEvidence": [
+    "Signed housekeeping-only handover with tidied areas, inspected criteria, untouched areas and exclusions.",
+    "Refusal and referral record, with the request, the responsible contact and the return criteria.",
+    "Inspection sheet with untested criteria marked as not tested.",
+    "Written verification request, if the owner has been asked to carry out the verification."
+  ],
+  "summary": [
+    "A visibly clean surface is not evidence of decontamination, sterility or biological clearance.",
+    "Inspect against housekeeping-only criteria, and tick only what the inspection tests.",
+    "Sign a handover that lists the housekeeping done and every exclusion.",
+    "Refuse clearance requests and refer verification to the laboratory owner."
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:procedures.completion_checklist}}",
+    "{{business:quality.inspection_checklist}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "laboratory-cleaning-L12-K01",
+      "question": "Does a mopped laboratory floor prove that biological hazards are gone?",
+      "options": [
+        "Yes, because it looks clean to the eye and the room is quiet",
+        "Yes, if it has been mopped twice with the same product today",
+        "No, visible cleanliness is not evidence of biological clearance"
+      ]
+    },
+    {
+      "id": "laboratory-cleaning-L12-K02",
+      "question": "A supervisor asks you to certify laboratory biological safety. What do you do?",
+      "options": [
+        "Refuse, record the housekeeping done, and refer verification to the laboratory owner",
+        "Certify it, because the floor is clean and the team has done its best on the day",
+        "Certify it with a disclaimer at the bottom, so the client knows the limits of the check"
+      ]
+    },
+    {
+      "id": "laboratory-cleaning-L12-K03",
+      "question": "What must the signed handover contain?",
+      "options": [
+        "A statement that the laboratory is sterile after the housekeeping on the day",
+        "The housekeeping done, what was not touched, and explicit exclusions",
+        "Only the time the job finished and the name of the crew lead"
+      ]
+    },
+    {
+      "id": "laboratory-cleaning-L12-K04",
+      "question": "An inspection line asks you to confirm that surfaces are free of biological material, and your check was visual only. What is correct?",
+      "options": [
+        "Tick it, since the surfaces look clean to the eye on the day",
+        "Mark it as not tested, and refer it to the laboratory owner",
+        "Tick it and write that it was checked by eye on the day"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "False or misleading claims",
+      "url": "https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims",
+      "pageDate": "No visible date. Page metadata shows a modified date of 28 June 2026.",
+      "checked": "2026-11-03",
+      "covers": "ACCC website, advertising and promotions, false or misleading claims. Publisher: Australian Competition and Consumer Commission."
+    },
+    {
+      "id": "R2",
+      "title": "Hazardous chemical records and signs in workplaces: hazardous chemicals register",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "No visible date.",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia, Model WHS Laws, hazardous chemical records and signs in workplaces. Publisher: Safe Work Australia (Model WHS Laws)."
+    },
+    {
+      "id": "R3",
+      "title": "Personal protective equipment (PPE)",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/personal-protective-equipment-ppe/overview",
+      "pageDate": "No visible date. The page refers to the model WHS laws created in 2011.",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia, Model WHS Laws, PPE overview. Publisher: Safe Work Australia (Model WHS Laws)."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: ACCC, False or misleading claims (modified 28 June 2026, per page metadata; no visible date); Safe Work Australia, Hazardous chemical records and signs in workplaces: hazardous chemicals register (no visible date); Safe Work Australia, Personal protective equipment (PPE) (no visible date).",
+  "referencesAtEnd": "Recheck before use: ACCC, False or misleading claims; Safe Work Australia, Hazardous chemical records and signs in workplaces: hazardous chemicals register; Safe Work Australia, Personal protective equipment (PPE).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/laboratory-cleaning-L12.json (draft pass, not technically reviewed); rights: not held by user; content reworded, not copied",
+    "R1 https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims (checked 2026-11-03; page metadata modified 28 June 2026)",
+    "R2 https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (checked 2026-11-03; no visible date)",
+    "R3 https://safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/personal-protective-equipment-ppe/overview (checked 2026-11-03; no visible date)",
+    "UNCONFIRMED: state and territory requirements for laboratory biological safety verification, and any standard that sets its method or acceptance criteria. No standard text was read.",
+    "UNCONFIRMED: the laboratory owner's verification method and testing frequency. These belong to the owner and are not stated here.",
+    "This lesson describes a general boundary and is not a legal requirement."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/postcon-photo-ea5db6cd-02.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/postcon-photo-ea5db6cd-03.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

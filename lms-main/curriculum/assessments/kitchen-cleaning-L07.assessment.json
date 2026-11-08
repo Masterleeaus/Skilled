@@ -1,0 +1,36 @@
+{
+ "lessonId": "kitchen-cleaning-L07",
+ "knowledgeAnswers": [
+  {
+   "id": "kitchen-cleaning-L07-K01",
+   "correctIndex": 0,
+   "rationale": "Visual cleanliness does not show allergen removal. The validated plan and the approved verification decide."
+  },
+  {
+   "id": "kitchen-cleaning-L07-K02",
+   "correctIndex": 1,
+   "rationale": "Release belongs to the owner of the allergen control."
+  },
+  {
+   "id": "kitchen-cleaning-L07-K03",
+   "correctIndex": 2,
+   "rationale": "Uncertain cross-contact is escalated before the surface is used."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies the allergen history and shared-equipment status for a mock bench.",
+  "Cleans the bench using the validated plan and the dedicated tools.",
+  "Does not state allergen-free status, and requests the approved release."
+ ],
+ "passRule": "Allergen history confirmed, validated plan followed with dedicated tools, and no allergen-free claim made before approved release. Observed by an assessor.",
+ "evidenceRequired": [
+  "Allergen history record",
+  "Verification and release record",
+  "Assessor observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Shared equipment with unknown allergen history",
+  "Request to declare allergen-free status without approval",
+  "Uncertain cross-contact not escalated"
+ ]
+}

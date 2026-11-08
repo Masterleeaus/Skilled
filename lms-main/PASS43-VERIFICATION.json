@@ -1,0 +1,35 @@
+{
+  "product": "Titan Academy",
+  "pass": 43,
+  "baseline": "Titan-Academy-Master-Copy-Pass42-CUMULATIVE.zip",
+  "scope": "database readiness and safe deployment isolation, JWT revocation/role correctness",
+  "checks": {
+    "offlineSourceScripts": { "passed": 11, "total": 11 },
+    "staticMigrations": { "passed": true, "migrationDirectories": 13, "createdPhysicalTables": 42, "warnings": 1 },
+    "prismaModelMigrationTableParity": { "passed": true, "models": 42, "tables": 42 },
+    "typescriptSyntaxOnly": { "passed": true, "files": 137, "compilerUsedForParsingOnly": "global TypeScript 5.8.3" },
+    "javaScriptSyntax": { "passed": true },
+    "composeYamlParsed": { "passed": true, "services": ["academy-redis", "academy-minio"] },
+    "shellSyntax": { "passed": true },
+    "curriculumSourceUnchanged": true,
+    "fullApplicationBuild": { "passed": null, "reason": "pnpm dependencies unavailable and npm registry DNS resolution failed" },
+    "prismaSchemaEngineValidation": { "passed": null, "reason": "Prisma CLI/dependencies unavailable" },
+    "databaseMigrationsExecuted": false,
+    "liveIntegrationTestsExecuted": false,
+    "liveDeploymentExecuted": false,
+    "liveSecurityTestsExecuted": false
+  },
+  "knownRisks": [
+    "Shared timestamp prefix on two distinct 20261102000100 migrations; static order deterministic, actual Prisma execution untested",
+    "Running PostgreSQL server major version and compatibility not yet verified; inherited project references PostgreSQL 16 while existing server client reports 13.23",
+    "MinIO image must be pinned to a verified digest before production",
+    "Tenant-level authorization and end-to-end workflows not verified",
+    "No automated integration tests executed against a live database; additional authentication tests are implemented but not run"
+  ],
+  "safety": {
+    "productionServerChanged": false,
+    "databaseChanges": 0,
+    "servicesRestarted": 0,
+    "originalCurriculumAndApprovalDataChanged": false
+  }
+}

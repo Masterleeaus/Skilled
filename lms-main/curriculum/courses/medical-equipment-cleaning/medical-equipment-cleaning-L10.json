@@ -1,0 +1,193 @@
+{
+  "id": "medical-equipment-cleaning-L10",
+  "title": "Medical electrical systems and powered equipment",
+  "courseSlugs": [
+    "medequip"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Cleaners and cleaning supervisors who clean the external surfaces of powered medical equipment in a healthcare facility, in any Australian state or territory. This course covers external cleaning only.",
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Duties of a person conducting a business or undertaking (PCBU) (no date shown).",
+  "prerequisites": [
+    "medical-equipment-cleaning-L03",
+    "medical-equipment-cleaning-L08",
+    "F17-L04"
+  ],
+  "learningOutcomes": [
+    "Identify powered medical equipment and the features that make it a liquid and electrical hazard during cleaning.",
+    "Apply the manufacturer's instruction on isolation, power and liquid limits before any external clean.",
+    "State the actions that are outside a cleaner's role, including testing, opening, repairing and changing settings.",
+    "Recognise a damaged cable, a fault or an unexpected behaviour and state the stop-and-report response."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson: external cleaning only",
+      "body": "This lesson covers external cleaning only. It is about the outside of powered equipment and the cables and connectors you may be asked to clean. Reprocessing, disinfection for reusable devices and sterilisation are outside this course. They are authorised only by the manufacturer's instructions and the facility's written procedure. Electrical testing, repair, servicing, opening a housing and changing settings are also outside a cleaner's role, and this lesson does not teach any of them."
+    },
+    {
+      "heading": "Why powered equipment is a different hazard",
+      "body": "Powered equipment combines liquid, electricity and patient-care function. Liquid entering a housing, a connector or a switch can cause a short circuit, an electric shock, a fire risk or a failure of the device at the moment a clinician needs it. Some powered devices are rated for a level of liquid ingress and wiping, and others are not. The rating is set by the manufacturer and is shown in the instruction, often as an ingress rating on the label. Do not assume that a device which can be wiped is safe to be sprayed, soaked, or wiped at a connector. Treat each device by its own instruction."
+    },
+    {
+      "heading": "Power state and isolation",
+      "body": "Before you clean the outside of a powered item, follow the manufacturer's instruction on power state. Some instructions require the item to be switched off and unplugged. Others require it to remain connected to a charger or a supply, or they do not permit it to be disconnected while in use. Do not unplug a device that is in use on a patient, and do not switch off a device that a clinician has asked to remain on. If the instruction on power state is unclear or conflicts with the clinical situation, stop and refer. Never remove a patient-connected cable to get better access, and never let a cable or lead lie in liquid while you clean around it."
+    },
+    {
+      "heading": "Cables, connectors and displays",
+      "body": "Cables, connectors and display panels are the most common points of failure and are often the points where liquid can enter. Keep connectors dry unless the instruction permits a wipe at that point. Do not allow a lead to be pulled, twisted or stretched while you work. Look for splits, exposed wire, discolouration, heat marks and loose strain relief. Damage of this kind is a stop condition: leave the item in place, make the area safe, and report it. A cleaner does not test, tape, or repair a cable."
+    },
+    {
+      "heading": "Stop and report",
+      "body": "Stop work and report at once if you see smoke, a burning smell, sparking, unexpected heat, a loose or damaged cable, liquid inside a housing, an alarm, a fault code, or a device that powers on or off without being touched. Do not switch the device on or off to find out what is wrong. Make the area safe, keep people away from the item, and tell the clinical team and your supervisor the same moment. Record the device, the observation, the time and the action taken."
+    }
+  ],
+  "procedure": [
+    "Check the item's instruction for power state, liquid limits and keep-dry areas before starting.",
+    "Confirm with the clinical team the power state required, and do not disconnect any patient-connected item.",
+    "Inspect the cables, connectors and housing for damage, splits, heat marks or liquid, and stop if any are found.",
+    "Apply only the approved external clean to the surfaces the instruction permits, keeping connectors and openings dry.",
+    "Keep leads off the floor and out of liquid, and do not pull, twist or stretch them.",
+    "After cleaning, check the item is in the power state required by the instruction, and that no liquid remains in a keep-dry area.",
+    "Record the item, power state, any damage found, the action taken and the time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A portable monitor on a trolley has a display that is slightly warm and a cable with a small split near the plug. The item is on your authorised list for external cleaning.",
+      "decisionPrompt": "Do you clean it, and what do you do with the split cable?",
+      "reasoning": "Stop before cleaning. A warm display and a split cable are stop conditions. Do not switch the monitor off or on to test it, and do not tape the cable. Leave the monitor where it is, make the area safe, tell the clinical team and the supervisor, and record the observation and time. The item is not cleaned until its condition is assessed by the responsible team."
+    },
+    {
+      "situation": "A ward colleague asks you to spray a bed-side pump with a disinfectant because it has been used on a patient with a known infection and must be cleared before the next patient.",
+      "decisionPrompt": "What must you check first?",
+      "reasoning": "Check the manufacturer instruction for liquid limits and keep-dry areas, and confirm whether a spray is permitted at all. Spraying a pump that is not rated for it is outside your role. Do not spray. Escalate to the clinical team and the infection prevention contact, and record the request. The pump is handled under the facility procedure for that situation."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Manufacturer instruction for the powered item, including ingress rating and power state",
+    "Approved external cleaning product for the item: {{business:materials.approved_products}}",
+    "Protective equipment for the task: {{business:safety.required_ppe}}",
+    "Facility contact for clinical engineering or equipment faults: {{business:safety.escalation_contact}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming that a device that can be wiped can also be sprayed or soaked.",
+      "prevention": "Check the manufacturer's ingress rating and liquid limits for each powered item."
+    },
+    {
+      "error": "Switching a device on or off to see whether it still works after a spill or a clean.",
+      "prevention": "Do not test. Make the area safe, leave the device as found, and report."
+    },
+    {
+      "error": "Disconnecting a patient-connected lead to get access for cleaning.",
+      "prevention": "Do not disconnect patient-connected items. Confirm the power state with the clinical team."
+    },
+    {
+      "error": "Taping a split cable so that it can stay in use.",
+      "prevention": "A damaged cable is a stop condition. Report it and leave the repair to the responsible team."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the facility procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Testing, repairing, servicing or re-certifying electrical equipment is regulated work in many jurisdictions and is outside this lesson. Completing this lesson does not grant any electrical licence, registration or authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Take the periodic electrical safety testing requirements for healthcare equipment from the facility's testing programme.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Under the model WHS framework, a person conducting a business or undertaking must ensure, so far as is reasonably practicable, the health and safety of workers. Safe Work Australia summarises this duty (page with no date shown); state adoption should be confirmed for each state and territory.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner checks the manufacturer instruction for power state and liquid limits on a supplied label before any clean.",
+    "The learner identifies the stop conditions in three supplied scenarios, including heat, a split cable and liquid in a housing.",
+    "The learner states which actions are outside role: testing, opening, repair, disconnecting patient-connected items and changing settings.",
+    "The learner records the item, observation, time and action taken for a stopped item."
+  ],
+  "documentationEvidence": [
+    "Item identity and the power state confirmed with the clinical team",
+    "Any damage or fault observed, with time and the action taken",
+    "Escalation recipient and outcome"
+  ],
+  "summary": [
+    "Powered equipment combines liquid and electrical hazards. Check the manufacturer's rating and power state before cleaning.",
+    "Do not test, open, repair, switch on or off to check, or disconnect a patient-connected item.",
+    "Heat, smoke, a split cable, liquid in a housing or an unexpected fault are stop conditions. Report them at once.",
+    "Completing this lesson does not grant an electrical licence or authority."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-equipment-cleaning-L10-K01",
+      "question": "A powered item can be wiped on its display but has an ingress rating that does not permit liquid at its connector. What should the cleaner do?",
+      "options": [
+        "Spray the whole item, since the display can be wiped and the rest should be fine",
+        "Soak the connector briefly to remove soil, since a short soak does no harm to it",
+        "Wipe only the permitted surfaces and keep the connector dry, as the instruction directs."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L10-K02",
+      "question": "A cable on a powered item shows a split near the plug. What is the correct response?",
+      "options": [
+        "Make the area safe, leave the item as found, and report the damage.",
+        "Tape the split so the item can stay in use while you clean.",
+        "Clean the cable thoroughly and use it again once it is dry and clean"
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L10-K03",
+      "question": "Which action is outside a cleaner's role under this course?",
+      "options": [
+        "Cleaning the outside of an item on the list",
+        "Opening the housing to check for internal liquid.",
+        "Checking the power state with the clinical team"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Confirms the PCBU duty to workers and others so far as reasonably practicable, and refers to the hierarchy of control. It does not say PPE is a last resort. Check your state or territory WHS regulator for the adopted law. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page: Safe Work Australia, Duties of a person conducting a business or undertaking (PCBU) (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: periodic electrical safety testing standard for healthcare equipment in Australia, and any state or territory licence requirement for electrical work. Not checked in this pass.",
+    "Safe Work Australia, Duties of a PCBU. https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu (checked 2026-11-02; page undated)",
+    "UNCONFIRMED: manufacturer ingress ratings and power-state requirements for any named device. These must come from each manufacturer's instruction."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-02.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-03.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    }
+  ]
+}

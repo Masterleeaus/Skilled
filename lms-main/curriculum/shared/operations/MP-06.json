@@ -1,0 +1,184 @@
+{
+  "id": "MP-06",
+  "title": "Setting an expense budget as a percentage of sales",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "base",
+  "lessonType": "C",
+  "estimatedMinutes": 25,
+  "audience": "Any home-service operator who controls spending, including solo operators and team owners.",
+  "prerequisites": [
+    "MP-04",
+    "MP-05"
+  ],
+  "learningOutcomes": [
+    "Set a total expense budget as a percentage of planned sales",
+    "Split a budget group into named lines, each with a definition",
+    "Calculate budget as a percentage of sales and compare actual spend with budget each month"
+  ],
+  "instruction": [
+    {
+      "heading": "Start from planned sales, not from spending wishes",
+      "body": "An expense budget expressed as a percentage of sales ties what you can spend to what you expect to earn. Take the sales forecast from “Building a sales forecast from stages”, choose a percentage for each cost group, and multiply. The percentage is a planning target rather than a fixed rule, so write down the reason for each one. If the reason is that last year's spend was like this, say so and check whether it still holds."
+    },
+    {
+      "heading": "Name every line",
+      "body": "A line labelled other hides what the money is for. Split each group into named lines and give each a short definition. The sample plan this lesson draws on budgeted its marketing expenses in three lines: printed material, economic incentives for referrals, and other. Its figures for one year are removed here. The other line made up most of the total and was not explained. Check the addition, then ask what the line contains before you approve it. The amounts are removed because they are United States figures; the problem they show is the point."
+    },
+    {
+      "heading": "Work out the percentage",
+      "body": "Divide the total for a cost group by the sales for the same year. The same plan's marketing budget rose as a share of sales over the period. Its percentages are removed here because they are United States figures. The share rises when the budget grows faster than sales, and that pattern is worth questioning in any plan."
+    },
+    {
+      "heading": "Phase the spending",
+      "body": "Spending does not have to be even across the year. The sample plan front-loaded spending in the first quarter to build visibility, held it at a steady level, and then lifted it before a seasonal peak. Phase your budget against the same months as your forecast stages, so spending rises when the revenue it supports is expected. A budget that front-loads spending needs a cash plan so the business can pay for it before the revenue arrives."
+    },
+    {
+      "heading": "Monitor actual against budget each month",
+      "body": "Each month, record actual spend against each named line, work out the variance in dollars and as a percentage, and decide what to do. A variance is a question, not a verdict. Ask whether it came from a higher price, a change in the number of jobs, or a one-off cost, and record the answer. Set a threshold in advance, such as a variance above a stated percentage, that triggers a review."
+    }
+  ],
+  "procedure": [
+    "Take the planned sales for the period from your forecast.",
+    "Choose a percentage for each cost group, and write the reason for each percentage.",
+    "Multiply planned sales by each percentage to get the group budget, then split each group into named lines.",
+    "Check that the lines add up to the group total, and that no single unnamed line dominates.",
+    "Phase the monthly budget against your forecast stages and your cash plan.",
+    "Each month, compare actual spend with budget, record the variance and decide the next step."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A residential cleaning business (hypothetical figures, invented for this lesson) plans $120,000 AUD of sales and a marketing budget of 6% of sales. It plans to split that budget into printed material (10%), referral incentives (25%) and other (65%).",
+      "decisionPrompt": "Should the other line be approved as it stands, and what should be checked at the end of month three?",
+      "reasoning": "The total marketing budget is $7,200 AUD a year, which is $600 AUD a month. The split is $720 AUD for printed material, $1,800 AUD for referral incentives and $4,680 AUD for other. The other line is 65% of the budget, too large to judge without detail. Split it into named lines, for example directory listings or samples, before approving it. At the end of month three, compare actual spend on the whole marketing budget with the quarter's figure of $1,800 AUD, and record the variance in dollars and as a percentage."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet program",
+    "Sales forecast from “Building a sales forecast from stages”"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting the budget as a round number unrelated to planned sales",
+      "prevention": "Calculate the budget from planned sales and show the percentage beside each group."
+    },
+    {
+      "error": "Leaving a large unnamed other line",
+      "prevention": "Name every line. Do not approve a single line that holds most of a group's spend without a breakdown."
+    },
+    {
+      "error": "Reviewing spend only at the end of the year",
+      "prevention": "Compare actual spend with budget each month, with the variance shown in dollars and as a percentage."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax, accounting or financial advice. Check the tax treatment of expenses with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Expense percentages from other businesses or other years are examples of method, not benchmarks for your business.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every budget line is named, has a stated amount and a percentage of planned sales, and has a written definition.",
+    "Actual spend is compared with budget every month."
+  ],
+  "documentationEvidence": [
+    "Budget table showing each line, its amount and its percentage of planned sales",
+    "Monthly actual-versus-budget record with variance in dollars and percent",
+    "Decision note for each variance above the agreed threshold"
+  ],
+  "summary": [
+    "Set the budget from planned sales, as a percentage for each group.",
+    "Name every line, and do not accept a large unexplained line.",
+    "Compare actual spend with budget every month, and ask about each variance."
+  ],
+  "businessFields": [
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-06-K01",
+      "question": "A business plans $120,000 AUD of sales and a 6% marketing budget. What is the annual marketing budget?",
+      "options": [
+        "$7,200 AUD",
+        "$720 AUD",
+        "$72,000 AUD",
+        "$20,000 AUD"
+      ]
+    },
+    {
+      "id": "MP-06-K02",
+      "question": "A budget line holds 80% of a group's total spend and is labelled other. What is the best action?",
+      "options": [
+        "Accept it without question and move on to the next line",
+        "Ask what it contains and break it into named lines",
+        "Delete the line entirely and move the money elsewhere",
+        "Add more money to it and then ask nobody about it"
+      ]
+    },
+    {
+      "id": "MP-06-K03",
+      "question": "Why compare actual spend with the budget every month?",
+      "options": [
+        "To find variances early and correct them",
+        "To prove that the budget was correct from the start",
+        "Because the budget amount is fixed by law",
+        "To avoid recording expenses that are not yet paid"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Service Marketing Plan (sample residential cleaning plan, US figures 2002 to 2006), sections Expense Forecast and Financial Objectives; rights: user-held; reworded (no copying). US percentages removed (see LOCALISE-LOG.md); line totals re-run 2026-11-02. Figures are US and dated; used as method illustration only.",
+    "Hypothetical figures ($120,000 AUD sales, 6% budget, 10/25/65 split) are invented for this lesson.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. US sample-plan figures removed and recorded in LOCALISE-LOG.md; principle written in words; Australian figures UNCONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

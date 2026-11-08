@@ -1,0 +1,201 @@
+{
+  "id": "pool-cleaning-L10",
+  "title": "Electrical, mechanical and confined-space boundaries",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pool technicians and cleaners who work near pool electrical, mechanical and plant equipment, in any state or territory",
+  "prerequisites": [
+    "pool-cleaning-L01",
+    "F17-L04"
+  ],
+  "learningOutcomes": [
+    "Identify the electrical, mechanical and confined-space hazards in a pool plant area",
+    "Isolate and lock out equipment before any inspection that requires it",
+    "Recognise when a pit, plant room or tank is a confined space and refuse entry without authority",
+    "Apply the scope boundary between cleaning or diagnostic work and licensed or specialist work"
+  ],
+  "instruction": [
+    {
+      "heading": "Water and electricity",
+      "body": "Pool and spa areas combine water with mains electricity, pumps, heaters, lighting and automation. A fault can deliver a shock through water, through a damaged enclosure or through a wet connection. Protective devices such as residual current devices reduce the risk, but they do not make live work safe and they do not give permission to work on the system. Treat all pool electrical equipment as live until it has been isolated and proven dead by a competent person. Do not work on pool lights, underwater fittings or heater electrics while the area is wet."
+    },
+    {
+      "heading": "Electrical work and licences",
+      "body": "Licence rules, the classes of work they cover and the authority to test pool equipment differ between states and territories. In Queensland, water equipment became prescribed electrical equipment on 1 April 2025, and a licensed electrician must do wiring or repair work on it. This lesson does not grant any electrical licence, and completing the lesson does not give authority to perform electrical work. A cleaner or diagnostic technician may isolate, inspect the outside of the equipment and report a fault; the repair is for a licensed person."
+    },
+    {
+      "heading": "Mechanical hazards",
+      "body": "Pumps, motors, belts, couplings and rotating parts can start unexpectedly when power is restored. Before you reach into a pump or strainer, isolate the power, check that the isolator is off, and secure it so it cannot be turned on while you are working, as the site procedure directs. Some plant systems also have stored pressure, hot surfaces or chemical lines. Check the plant before you touch it."
+    },
+    {
+      "heading": "Confined spaces",
+      "body": "Pump pits, filter chambers, plant rooms, balance tanks and surge tanks can be confined spaces. The Safe Work Australia model code for confined spaces (dated December 2011) treats a space as confined when it is enclosed or partly enclosed, is not built for people to spend time in, and carries a risk from unsafe oxygen, contaminants or engulfment. The code says the hazards and circumstances decide whether a space is confined, not its size alone. Under the code, someone must be designated as a standby person before a worker goes in, and a written permit from a competent person is required before entry to do work in such a space. Initial air testing should happen from outside, with probes or handheld detectors at the access points, and people must not rely on their senses to tell whether air is safe. Check with the regulator for the site's jurisdiction. Do not enter a pit with standing water or a closed plant room alone."
+    },
+    {
+      "heading": "Scope boundary",
+      "body": "The contract worker's scope is usually limited to cleaning, inspection, checking readings from the outside of equipment, isolating power as authorised, cleaning strainers and baskets, and reporting faults. Replacing or rewiring equipment, opening electrical enclosures, entering confined spaces and altering controllers are outside that scope unless the work order, the operator and the worker's competence and licences cover them."
+    }
+  ],
+  "procedure": [
+    "Confirm the work order covers the plant task before going near the equipment.",
+    "Identify electrical, mechanical and confined-space hazards at the plant area.",
+    "Isolate the power at the isolator and secure it as the site procedure directs; prove it off.",
+    "Check for stored pressure, hot surfaces and chemical lines before touching the plant.",
+    "If the space is a confined space, do not enter without the confined-space procedure, a standby person and any required permit.",
+    "Inspect from the outside where the scope allows; record the readings and the observed fault.",
+    "Refer any electrical, mechanical or confined-space repair to the operator and a qualified person."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pump pit has standing water and the operator asks a contractor to check a noisy pump bearing from inside the pit.",
+      "decisionPrompt": "What should the contractor do?",
+      "reasoning": "The pit may be a confined space and the pump is an electrical and mechanical hazard. The contractor does not enter the pit, confirms the isolation with the operator, asks for a confined-space procedure and permit if entry is required, and refers the bearing check to a qualified person. The contractor records the noise and the request."
+    },
+    {
+      "situation": "A worker finds a loose cover on a pool light junction box after the water has been drained down to the light.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "The junction box is an electrical enclosure. The worker does not open it, does not touch the connections, reports the loose cover to the operator, and records the location and condition."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Isolator key and lock-out tag as the site procedure sets",
+    "Voltage tester used only by a competent person",
+    "Confined-space procedure and permit where it applies",
+    "PPE as set by {{business:safety.required_ppe}}",
+    "Plant room contact sheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Working on a pump without isolating and proving the power off.",
+      "prevention": "Isolate at the isolator, secure it, and prove it off before work."
+    },
+    {
+      "error": "Entering a pit alone with standing water.",
+      "prevention": "Treat the pit as a confined space. Refuse entry without the procedure and standby."
+    },
+    {
+      "error": "Believing a residual current device makes live work safe.",
+      "prevention": "A protective device is not permission to work on a live or uncertified system."
+    },
+    {
+      "error": "Opening a junction box or light fitting in a wet area.",
+      "prevention": "Report the fault; repair is for a licensed person."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electrical work and testing of pool equipment are licensed in many circumstances. In Queensland, only licensed electricians can carry out electrical work on water equipment, a rule in force from 1 April 2025 for equipment designed for use inside a pool, paddling pool, spa or bath. This lesson does not grant any licence or authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Confined-space entry needs a procedure, an atmosphere and hazard assessment, a standby person and any required permit.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Water treatment compliance depends on the local operator plan. Plant operation is the operator's responsibility unless the plan states otherwise.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Isolation is confirmed and secured before any plant inspection that needs it",
+    "No confined-space entry happens without the procedure and a standby person",
+    "Repairs outside scope are referred with a written fault description"
+  ],
+  "documentationEvidence": [
+    "Isolation record with time and person",
+    "Confined-space decision and reason for refusal, where applicable",
+    "Fault report with location and condition"
+  ],
+  "summary": [
+    "Treat pool electrical equipment as live until isolated and proven off by a competent person.",
+    "A pit or plant room with limited access may be a confined space; do not enter without authority.",
+    "Repairs and wiring are referred unless licences and competence are confirmed."
+  ],
+  "businessFields": [
+    "{{business:compliance.licence_requirements}}",
+    "{{business:staff.authorised_tasks}}",
+    "{{business:procedures.approved_sop}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pool-cleaning-L10-K01",
+      "question": "A pump in the pool plant area needs inspection and a power switch is nearby. What must happen before any hand goes near the pump?",
+      "options": [
+        "Check it looks off and start work straight away on the job today",
+        "Isolate the power, secure it, and prove it off as the procedure directs",
+        "Ask a swimmer to switch it off for you, since they are nearby",
+        "Rely on the residual current device to keep you safe from the pump"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L10-K02",
+      "question": "A pit in the pool plant area has standing water and needs checking. What is the correct response?",
+      "options": [
+        "Enter quickly to save time and get the check finished before the water rises again and the pit fills",
+        "Enter alone and wear a mask, since the mask protects against gas, dust and any standing water in the pit",
+        "Treat it as a possible confined space and refuse entry without the procedure, a standby person and any permit",
+        "Pump the water out by hand while inside, so the pit is easier to check and the job is done sooner"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L10-K03",
+      "question": "Which of these is a correct statement about electrical licences for pool work?",
+      "options": [
+        "Completing this lesson gives you an electrical licence for all pool work and wiring",
+        "A residual current device means anyone may repair the wiring safely on any pool",
+        "Electrical work never needs a licence, whatever the job, the state or the value",
+        "Licence requirements vary by state and territory and this lesson does not grant one"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "QLD-ESO: WorkSafe Queensland, eSafe article on pools, spas and baths, checked 2026-11-03 (no date shown; change effective 1 April 2025). Licence class not read; UNCONFIRMED.",
+    "SWA-CONF: Safe Work Australia, Confined Spaces: Code of Practice (model code, December 2011), checked 2026-11-03. Used for the definition, standby person, testing and permit points. State adoption UNCONFIRMED.",
+    "UNCONFIRMED: state and territory electrical licensing for pool, spa, pond and aquarium equipment, other than the Queensland point above.",
+    "UNCONFIRMED: state and territory confined-space and work health and safety requirements for pits, plant rooms and tanks. Not checked in this lesson beyond the model code."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Strengthening electrical safety in Queensland's pools, spas and baths (eSafe, April 2025)",
+      "url": "https://www.worksafe.qld.gov.au/news-and-events/newsletters/esafe-newsletters/esafe-editions/esafe/april-2025/strengthening-electrical-safety-in-queenslands-pools-spas-and-baths",
+      "pageDate": "no date shown on page; change takes effect 1 April 2025 as stated",
+      "checked": "2026-11-03",
+      "covers": "worksafe.qld.gov.au: search the article title; the water equipment guidance note should give the licence class (not read). Publisher: WorkSafe Queensland (Electrical Safety Office)."
+    },
+    {
+      "id": "R2",
+      "title": "Confined Spaces: Code of Practice (model code)",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1705/mcop-confined-spaces-v1.pdf",
+      "pageDate": "December 2011 (document date; correction noted 19 February 2014)",
+      "checked": "2026-11-03",
+      "covers": "safeworkaustralia.gov.au: search 'confined spaces code of practice'; check the version adopted in your state or territory. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: WorkSafe Queensland, Strengthening electrical safety in Queensland's pools, spas and baths (eSafe, April 2025; no date shown on page; change takes effect 1 April 2025 as stated); Safe Work Australia, Confined Spaces: Code of Practice (model code) (December 2011; correction noted 19 February 2014).",
+  "referencesAtEnd": "Official sources to check at the end of this lesson: WorkSafe Queensland, Strengthening electrical safety in Queensland's pools, spas and baths (eSafe, April 2025; no date shown on page): https://www.worksafe.qld.gov.au/news-and-events/newsletters/esafe-newsletters/esafe-editions/esafe/april-2025/strengthening-electrical-safety-in-queenslands-pools-spas-and-baths; Safe Work Australia, Confined Spaces: Code of Practice (model code) (December 2011; correction noted 19 February 2014): https://www.safeworkaustralia.gov.au/system/files/documents/1705/mcop-confined-spaces-v1.pdf.",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-02.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-03.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    }
+  ]
+}

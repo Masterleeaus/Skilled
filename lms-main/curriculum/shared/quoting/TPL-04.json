@@ -1,0 +1,354 @@
+{
+  "id": "TPL-04",
+  "title": "Quote and proposal (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 45,
+  "audience": "Anyone who writes quotes or proposals for a home-service business",
+  "prerequisites": [
+    "SOL-03"
+  ],
+  "learningOutcomes": [
+    "Write a scope that states the work, the area and the finish in observable terms",
+    "List inclusions and exclusions so that each one can be checked on site",
+    "Record the site assumptions, price basis, time window, terms and acceptance method in one document"
+  ],
+  "instruction": [
+    {
+      "heading": "What a quote does and what a proposal adds",
+      "body": "A quote is an offer to carry out a defined piece of work for a stated price, on stated conditions, for a stated period. A proposal is a fuller document that explains the approach, but it still needs the same defined scope, price and conditions. Both fail when the wording promises more than the price pays for. The aim of this template is to make the scope observable. A person reading the quote should be able to say what is included, what is not, which conditions were assumed, and what happens if those conditions change."
+    },
+    {
+      "heading": "Scope, inclusions, exclusions and site assumptions",
+      "body": "Write the scope in terms of the work, the area and the finish, not the feeling the customer wants. Inclusions list each item of work the price covers, one row per item. Exclusions list what a reasonable customer might expect but which is not in the price, such as a particular material, access that is not provided, or heights the business does not work at. Where an exclusion depends on a condition, state the condition. Describe the site conditions you assumed when pricing, including access, power, water, the state of the surfaces and any constraint. If those conditions change, the change should trigger a variation that is priced and agreed. Price and agree extra work in writing before it starts (WA Consumer Protection, updated 4 September 2026)."
+    },
+    {
+      "heading": "Price, time window, terms and acceptance",
+      "body": "State the price basis clearly, because a fixed price, a rate per hour and an estimate make three different promises. Say whether the price includes GST or other tax, or record that the tax treatment is still to be confirmed. Western Australia's consumer agency guidance on quotes asks for the total including GST and a statement of whether GST is included; check the rule that applies in your state or territory. Give a time window and name the factors that could move it. Terms should cover payment, cancellation, variations and the remedy if work does not meet the agreed scope. Whether a given term can be enforced depends on the law that applies, so check standard terms with an adviser. A remedy should describe what the business will do, and should not promise a result that depends on things outside its control. Consumer guarantees cannot be excluded by contract, so a remedy clause should not try to remove them (ACCC guide, July 2021). Set a validity date, which lets you re-price if material costs move, and record how acceptance is given. Follow the business's quoting approval process before the quote is issued."
+    }
+  ],
+  "procedure": [
+    "Record the customer and site details, and the date the quote is issued.",
+    "Write the scope in terms of the work, the area and the finish.",
+    "List each inclusion as its own row, so every row is something the price covers.",
+    "List exclusions and the condition behind each one.",
+    "State the site conditions assumed for pricing.",
+    "Enter the price and its basis, and record the tax treatment or the confirmation still needed.",
+    "Set the time window and the factors that could change it.",
+    "Write the payment, cancellation, variation and remedy terms in plain language.",
+    "Set a validity date and describe how acceptance is recorded.",
+    "Check the scope, price and terms against the pricing and margin worksheet before issue."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A handyman is asked to tidy the back fence and to fix the gate. The draft quote lists both as one line at one price.",
+      "decisionPrompt": "What would you change so the quote can be accepted without argument later, and how would you handle rot found in the gate post during the job?",
+      "reasoning": "Separate line items make each promise distinct. The fence work needs a defined area, and removal or disposal of old material should be stated as included or excluded. The gate needs a stated scope, for example adjusting hinges and latch, or replacing the gate as a separate item or a variation. If rot is found in the post, the terms should say that work on that item stops, the customer is told with photos, and a variation is priced and agreed before further work. The example states no price; the business enters its own."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Pricing and margin worksheet for the job",
+    "Site notes and photos",
+    "Business quote template or the fields in this template",
+    "PPE: not applicable to writing a quote"
+  ],
+  "commonErrors": [
+    {
+      "error": "Bundling several pieces of work into one line.",
+      "prevention": "List each item of work separately so inclusions and exclusions can be checked."
+    },
+    {
+      "error": "Describing the scope with words such as full clean or as needed, without defining them.",
+      "prevention": "Define the area, the tasks and the standard of finish."
+    },
+    {
+      "error": "Leaving out the site assumptions used for pricing.",
+      "prevention": "Record access, power, water, surface condition and any constraint used in the price."
+    },
+    {
+      "error": "Promising a remedy the business cannot deliver.",
+      "prevention": "Describe a remedy for work that does not meet scope, and keep it within the business's control."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Consumer law can apply to quotes and standard terms, including the Australian Consumer Law for services. Contract and fair trading rules can differ between states and territories, and this lesson does not set them out. Check current requirements for your state or territory with an adviser before using standard terms.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Where a quoted job needs a licence or permit, the quote must not imply that the business holds it. Either state the licence requirement and who holds it, or exclude the work from the quote. Licence and permit rules depend on the state or territory and the type of work, so check them locally. This lesson does not grant or confirm any licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Scope, inclusions and exclusions are each specific and observable",
+    "Site assumptions are recorded and linked to any variation",
+    "The price basis is stated and matches the pricing worksheet",
+    "Terms cover payment, cancellation, variation, remedy and validity"
+  ],
+  "documentationEvidence": [
+    "Completed quote or proposal, saved with issue date and version",
+    "Site notes and photos supporting the assumptions",
+    "Acceptance record showing who accepted, when and how"
+  ],
+  "summary": [
+    "A quote is an offer with a defined scope, price, conditions and validity.",
+    "Each inclusion and exclusion must be checkable on site.",
+    "Variations are priced and agreed before extra work starts.",
+    "Do not imply a licence or a result the business cannot deliver."
+  ],
+  "businessFields": [
+    "{{business:pricing.quoting_approval}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:customers.access_instructions}}",
+    "{{business:services.service_description}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "TPL-04-T01",
+      "title": "Quote and proposal",
+      "purpose": "Records a quote or proposal so the scope, price, site assumptions, terms, validity and acceptance can all be checked.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Customer and site",
+          "type": "text",
+          "prompt": "Enter the customer name, contact details and site address.",
+          "guidance": "Contact details are limited to what the quote needs.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Scope of work",
+          "type": "longtext",
+          "prompt": "Describe each piece of work by area, task and finish. Define any word such as full or as needed.",
+          "guidance": "A new worker could tell from this field what to do and where.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Inclusions",
+          "type": "table",
+          "prompt": "One row per item. Columns: item of work, area, finish standard.",
+          "guidance": "Every row is something the price covers.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Exclusions and conditions",
+          "type": "table",
+          "prompt": "One row per exclusion. Columns: exclusion, reason or condition, what happens if the condition applies.",
+          "guidance": "Covers anything a reasonable customer might expect that is not priced.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Site conditions assumed for pricing",
+          "type": "longtext",
+          "prompt": "Record access, power, water, surface condition, parking and any other constraint used when pricing.",
+          "guidance": "Each assumption is one that a variation could be raised against.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Price and price basis",
+          "type": "currency",
+          "prompt": "Enter the price, and state its basis: fixed, rate per hour, or estimate.",
+          "guidance": "Tax treatment is stated, or recorded as to be confirmed.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Time window",
+          "type": "text",
+          "prompt": "Enter the start and finish window and the factors that could change it.",
+          "guidance": "Window is realistic for the scope and the site conditions above.",
+          "required": true
+        },
+        {
+          "fieldId": "f8",
+          "label": "Payment, cancellation and variation terms",
+          "type": "longtext",
+          "prompt": "Write plain-language terms. Describe how variations are priced and agreed before extra work starts.",
+          "guidance": "Terms are readable without a legal background and match the business's approved terms.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Remedy if work does not meet scope",
+          "type": "longtext",
+          "prompt": "Describe what the business will do if work does not meet the agreed scope, and the time limit for raising it.",
+          "guidance": "The remedy is within the business's control and does not promise a result outside it.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Validity date",
+          "type": "date",
+          "prompt": "Enter the last date the quote can be accepted at this price.",
+          "guidance": "A date that allows for the business's normal response time and lets you re-price if material costs move.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Acceptance method and record",
+          "type": "text",
+          "prompt": "State how acceptance is given and where the record is kept.",
+          "guidance": "Acceptance is written or otherwise recorded so it can be shown later. Do not treat silence as acceptance. Check with an adviser how acceptance works under the law that applies.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Checklist before issue",
+          "type": "checklist",
+          "prompt": "Tick each item when it is checked.",
+          "guidance": "Scope split into items; exclusions listed; site assumptions recorded; price matches worksheet; terms and validity checked.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Scope is specific and observable",
+      "levels": {
+        "meets": "Each piece of work states the area, task and finish, and undefined words are avoided.",
+        "does_not_meet": "The scope uses general words such as full or as needed, with no definition."
+      }
+    },
+    {
+      "criterion": "Inclusions and exclusions can be checked",
+      "levels": {
+        "meets": "Each inclusion is a separate row, and each exclusion states its condition.",
+        "does_not_meet": "Several items are bundled together, or exclusions are missing."
+      }
+    },
+    {
+      "criterion": "Site assumptions are recorded",
+      "levels": {
+        "meets": "Access, power, water, surface condition and constraints used in pricing are recorded.",
+        "does_not_meet": "Pricing assumptions are not recorded, so a variation cannot be raised."
+      }
+    },
+    {
+      "criterion": "Price, terms and validity are complete",
+      "levels": {
+        "meets": "The price basis, tax statement, time window, terms, remedy, validity and acceptance method are all present.",
+        "does_not_meet": "One or more of these is missing, or the price basis is unclear."
+      }
+    },
+    {
+      "criterion": "Remedy and licence statements are accurate",
+      "levels": {
+        "meets": "The remedy is within the business's control, and any licence requirement is stated without implying the business holds a licence it does not hold.",
+        "does_not_meet": "The remedy promises an outcome the business cannot control, or implies a licence the business does not hold."
+      }
+    }
+  ],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} quote and proposal",
+    "format": "document",
+    "sections": [
+      {
+        "heading": "Customer and site",
+        "fieldIds": [
+          "f1"
+        ]
+      },
+      {
+        "heading": "Scope and inclusions",
+        "fieldIds": [
+          "f2",
+          "f3",
+          "f4",
+          "f5"
+        ]
+      },
+      {
+        "heading": "Price and timing",
+        "fieldIds": [
+          "f6",
+          "f7"
+        ]
+      },
+      {
+        "heading": "Terms and remedy",
+        "fieldIds": [
+          "f8",
+          "f9"
+        ]
+      },
+      {
+        "heading": "Validity and acceptance",
+        "fieldIds": [
+          "f10",
+          "f11"
+        ]
+      },
+      {
+        "heading": "Issue record",
+        "fieldIds": [
+          "f12"
+        ]
+      }
+    ],
+    "footer": "Contact {{business:business.support_phone}} or {{business:business.support_email}}."
+  },
+  "knowledgeChecks": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Team brief for template lessons TPL-01 to TPL-11, item 4 (Quote and proposal); rights: reworded (no copying). Specific points are sourced below.",
+    "business.gov.au, 'Prepare quotes', https://business.gov.au/people/contractors/prepare-quotes, last updated 1 August 2025. Supports: scope, inclusions and exclusions; a written quote becomes binding once accepted; itemised totals.",
+    "Business Queensland, 'Preparing a business quote: tips', https://www.business.qld.gov.au/running-business/marketing-sales/sales/preparing-quote/tips, last updated 16 November 2022. Supports: an expiry date on each quote.",
+    "WA Consumer Protection, 'Estimates, quotes and deposits', https://www.consumerprotection.wa.gov.au/estimates-quotes-and-deposits, last updated 4 September 2026. Western Australia only. Supports: variations priced and agreed in writing; total including GST and whether GST is included.",
+    "ACCC, 'Advertising and selling guide: A guide for business', https://www.accc.gov.au/system/files/Advertising%20and%20selling%20guide%20-%20July%202021.pdf, dated July 2021; only the first 100,000 of about 123,600 characters were read. Supports: consumer guarantees cannot be excluded by contract. Check the current version."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,37 @@
+{
+  "lessonId": "GCM-01",
+  "knowledgeAnswers": [
+    {
+      "id": "GCM-01-K01",
+      "correctIndex": 1,
+      "rationale": "A check that names the surface, the condition and the way to see it can be confirmed by a second person. Vague wording such as 'looks clean' or added emphasis cannot."
+    },
+    {
+      "id": "GCM-01-K02",
+      "correctIndex": 1,
+      "rationale": "An area with a known failure is not finished. Reopening the task, correcting the step and recording the failure and fix come before any sign-off."
+    },
+    {
+      "id": "GCM-01-K03",
+      "correctIndex": 0,
+      "rationale": "Visitors see shared surfaces throughout the day, so an end-of-shift check alone can leave a marked state standing for hours."
+    }
+  ],
+  "practicalCriteria": [
+    "Rewrites one vague control point from a supplied task sheet so that it names a surface, a condition and a way to see it, observed by the assessor.",
+    "Traces every step of a supplied three-step task to a control point, or identifies a step with no check, observed by the assessor.",
+    "Walks a supplied area, checks each control point in order, and records any failure with its fix, observed by the assessor."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge-check result",
+    "Rewritten control point on the supplied task sheet",
+    "Task sheet with the step-to-check links marked",
+    "Completed check record for the walk-through, including any failure and its fix"
+  ],
+  "stopWorkCriteria": [
+    "A control point cannot be checked because the area is unsafe, or the check needs a tool or PPE that has not been supplied",
+    "A failed check has been found and the area is about to be signed off without the fix being recorded",
+    "A person is asked to sign off an area that they have not inspected"
+  ]
+}

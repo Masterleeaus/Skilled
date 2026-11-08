@@ -1,0 +1,141 @@
+{
+  "id": "flood-water-restoration-L11",
+  "title": "Wastewater, debris and lawful disposal",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and water-removal work after a flood or water event. Not a qualification or authority to enter a flood-affected building, energise its systems, or certify it as dry, safe or habitable.",
+  "prerequisites": [
+    "flood-water-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Separate flood debris into streams, identify hazardous streams and route them to lawful disposal."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how flood debris and wastewater are separated into streams, how hazardous streams are escalated, and how a draft waste manifest is kept. It does not authorise discharge of wastewater or disposal of waste. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "Wastewater, debris and lawful disposal",
+      "body": "Flood debris can combine ordinary material with sewage contamination, oils, chemical containers and regulated substances. Local collection and discharge permissions cannot be assumed. Separate the hazardous streams and escalate them, and follow only the locally authorised disposal routes. Complete a draft waste manifest that records the source, the storage controls, the authorised carrier and the regulatory checks that remain unanswered. Do not discharge wastewater or place debris in ordinary collection until the route has been confirmed in writing."
+    }
+  ],
+  "procedure": [
+    "Stop before discharging wastewater or placing debris in any collection.",
+    "Separate debris into streams: ordinary material, sewage-affected material, oils, chemical containers and other regulated substances.",
+    "Keep hazardous streams apart from general waste, and label them.",
+    "Draft a waste manifest with the source, the storage controls, the authorised carrier and the checks still unanswered.",
+    "Confirm the authorised disposal route in writing before any stream leaves the site.",
+    "Escalate any unknown substance or container to the competent person."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew plans to put flood debris, including chemical containers, into the ordinary household bins.",
+      "decisionPrompt": "What is the correct route?",
+      "reasoning": "Stop. The containers are a hazardous stream. Separate and escalate them, and use only a route confirmed in writing by the authorised carrier."
+    },
+    {
+      "situation": "A crew proposes to pump standing floodwater into the stormwater drain to speed up the clean-up.",
+      "decisionPrompt": "What is correct?",
+      "reasoning": "Refuse. Discharge permissions are not assumed. The route is confirmed in writing before any wastewater leaves the site."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Labelled containers for each hazardous stream, used under the carrier's instructions.",
+    "Gloves and eye protection for handling, selected from the hazard assessment."
+  ],
+  "commonErrors": [
+    {
+      "error": "Putting flood debris, including chemical containers, into ordinary bins.",
+      "prevention": "Separate the streams and use only a route confirmed in writing."
+    },
+    {
+      "error": "Mixing hazardous and general waste into one skip.",
+      "prevention": "Keep hazardous streams apart and labelled."
+    },
+    {
+      "error": "Pumping floodwater to a drain without a confirmed route.",
+      "prevention": "Do not discharge wastewater until the route is confirmed in writing."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not authorise discharge of wastewater or disposal of waste. Completing it does not give a licence, certificate or approval.",
+      "licenceNotice": true
+    },
+    {
+      "point": "WorkSafe Victoria's flood guidance says to avoid contact with unknown substances or containers, and to keep hazardous substances separate from general waste.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Local collection and discharge permissions are not assumed in this lesson. The route is confirmed in writing.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner separates debris into streams and identifies the hazardous ones.",
+    "The learner does not discharge wastewater or place debris in ordinary collection without a confirmed route."
+  ],
+  "documentationEvidence": [
+    "Draft waste manifest: source, storage controls, authorised carrier and unanswered regulatory checks.",
+    "Written confirmation of the disposal route."
+  ],
+  "summary": [
+    "Separate the streams.",
+    "Hazardous streams go only by a confirmed route.",
+    "Do not discharge or bin anything until the route is confirmed."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "flood-water-restoration-L11-K01",
+      "question": "A crew plans to put flood debris, including chemical containers, into ordinary household bins. What is correct?",
+      "options": [
+        "Do it, because household bins are collected weekly and the crew needs to clear the site today",
+        "Do it if the containers are empty, since empty containers can go into ordinary household bins",
+        "Stop. Separate the hazardous streams and use only a route confirmed in writing by the authorised carrier."
+      ]
+    },
+    {
+      "id": "flood-water-restoration-L11-K02",
+      "question": "What does WorkSafe Victoria's flood guidance say about hazardous substances and general waste?",
+      "options": [
+        "Keep hazardous substances separate from general waste",
+        "Mix all debris into one skip to save time",
+        "Hose hazardous substances into the drain"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR06-flood-water-restoration.json, instruction section 11 and learning outcome 11; first knowledge check HR06-K10. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: flood-water-restoration-lesson-11-instruction-pass68.json; flood-water-restoration-lesson-11-research-pass67.json; flood-water-restoration-lesson-11-assessment-pass69.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: local collection and discharge permissions, sewage-handling rules and waste manifest requirements in any state or territory. The lesson states that these cannot be assumed.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Floods and other natural disasters",
+      "url": "https://www.worksafe.vic.gov.au/floods-and-other-natural-disasters",
+      "pageDate": "Reviewed on 20/01/2023 (the only date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Do not touch switchboards that have been damaged by water. Do not put electricity or gas back on until the property wiring has been tested by a licensed electrician and the gas installation has been checked by a licensed gasfitter. Wash hands after contact with mud, flood water and contaminated items and equipment. Wear enclosed footwear, protective eyewear, gloves and suitable clothing. Avoid contact with unknown substances or containers. Keep hazardous substances separate from general waste. WorkSafe Victoria always recommends a licensed asbestos removalist for any amount of asbestos. Victorian guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a flood-affected building, to carry out regulated flood restoration, to energise or isolate electrical, gas or solar systems, to remove sewage or contaminated water, to dispose of waste, or to certify that a property is dry, hygienic, structurally sound or safe to occupy. Completing this lesson does not give a licence, certificate or approval. Some of the work described is restricted to licensed, authorised or specially trained people, including electrical and gas work, structural assessment, sewage handling and some disposal. The site controller, the owner, the insurer and the competent professionals each hold separate decisions, and none of them replaces the others. Where the controlling authority or the competent professional is not identified, stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever any of these is true: permission to enter or written safety clearance is missing; the contamination is unknown; a structural hazard, a slip or a confined space has not been cleared; an electrical, gas or solar system is water-exposed or has not been licensed for re-energisation; an exposure has occurred or controls are not in place; the equipment or operators are not suitable; porous material is in question; hidden microbial contamination is suspected; a waste route is not yet known; or a party asks for a dry, hygienic or occupancy statement. A stop-work decision is correct. Record it, and restart only after the competent party has confirmed the scope in writing."
+  }
+}

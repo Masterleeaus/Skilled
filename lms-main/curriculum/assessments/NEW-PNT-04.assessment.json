@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-PNT-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-PNT-04-K01",
+      "correctIndex": 3,
+      "rationale": "An older surface is referred for specialist assessment before any disturbance. Sanding to check the paint, or heat stripping, releases dust or fumes."
+    },
+    {
+      "id": "NEW-PNT-04-K03",
+      "correctIndex": 0,
+      "rationale": "The Victorian safety alert regulates work that sands, buffs or removes paint with more than 1 per cent lead by dry weight as a lead process (published 20 January 2025)."
+    },
+    {
+      "id": "NEW-PNT-04-K04",
+      "correctIndex": 1,
+      "rationale": "The SafeWork NSW lead notification page says notice must be given seven days before lead risk work starts (page metadata: last modified 24 September 2021)."
+    }
+  ],
+  "practicalCriteria": [
+    "On a simulated older window frame, the worker stops before any sanding and sets a clear zone with barrier tape.",
+    "The worker refers the simulated surface for assessment in writing, recording the location, the surface, the date and the person referred to.",
+    "The worker states the regulator position that applies to the simulated state, and records the notification or licence position only with its source. For South Australia the official position is notification to SafeWork SA within seven days, not a licence. Where a state licence is not confirmed by an official source, the record says \"not confirmed by an official source\"."
+  ],
+  "passRule": "Pass when all three practical criteria are observed by the assessor in a supervised desk exercise, with no sanding of the simulated surface and no stop-work criterion met. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Referral record for the simulated surface",
+    "Record of the regulatory position check, showing the state, the date and the source consulted"
+  ],
+  "stopWorkCriteria": [
+    "The worker is asked to sand, scrape, heat-strip, grind or blast an older surface before assessment, and does so",
+    "Paint dust is dry-swept or blown clear",
+    "Lead paint removal is accepted without a confirmed regulator position"
+  ]
+}

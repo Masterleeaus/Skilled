@@ -1,0 +1,150 @@
+{
+  "id": "MP-04-carpet",
+  "title": "Break-even analysis with a worked calculation for carpet and upholstery cleaning",
+  "courseSlugs": [
+    "carpet"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners of carpet and upholstery cleaning businesses, including solo operators, who set job prices or plan monthly income from equipment-heavy work.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a home-service business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a carpet business",
+      "body": "Break-even revenue is the monthly sales that cover all costs, so profit is zero. A carpet business carries heavy fixed costs in its equipment, vehicle and insurance, so the break-even point can be high. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss. Use several months of figures, because bookings for carpet work can be seasonal."
+    },
+    {
+      "heading": "Split the costs for a carpet business",
+      "body": "Fixed costs stay the same whatever the number of jobs: the extraction machine and its finance, vehicle registration and loan repayments, insurance, phone and software. Variable costs move with each job: cleaning solution, water and waste disposal, bags and filters, consumables and card or payment fees. Any casual cleaner paid by the hour has wages that rise with the work, so include them in the variable share. Express variable cost as a share of sales for the same months."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable share of sales. The result after variable cost is the contribution margin (Xero Australia glossary, 23 July 2026). The answer is revenue, not profit. Divide it by the average price you actually charge per job, and round up to whole jobs, because a part job does not cover costs."
+    },
+    {
+      "heading": "Choose the average price from real invoices",
+      "body": "The directory gives an average of $55 per room (Yellow Pages, 9 January 2025, vendor). Use it only as a reference. For the calculation, use the average price per job from your own invoices, or use the directory average multiplied by a stated number of rooms and labelled as a reference."
+    },
+    {
+      "heading": "Reconcile two figures before you use either",
+      "body": "When two figures disagree, check whether fixed costs are monthly or annual, whether the variable share is of sales or of cost, and whether the output is revenue or profit. Keep only the reconciled figure, with its inputs. The research did not find carpet-specific cost ratios, so every cost input must come from your own records."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost for the carpet business and label each one fixed or variable.",
+    "Count solution, water, waste, bags and any casual wages as variable.",
+    "Work out variable cost as a share of sales for the same months, and check it across several months.",
+    "Calculate one minus the variable share, then divide monthly fixed costs by it.",
+    "Divide break-even revenue by the average price per job from your invoices, and round up to whole jobs.",
+    "Compare any other figure, reconcile the inputs, and keep only the reconciled one."
+  ],
+  "workedExamples": [
+    {
+      "situation": "[ILLUSTRATIVE] A solo carpet cleaner's average job is four rooms at the directory's average of $55 a room, which is $220 (CALC on Yellow Pages, 9 January 2025, vendor). Fixed costs are $1,500 a month and variable costs are 25 per cent of sales, both illustrative. The owner works alone.",
+      "decisionPrompt": "How many jobs must be completed each month to break even, and what should be checked before the average is used?",
+      "reasoning": "The contribution margin is 1 - 0.25, which is 0.75. Break-even revenue is $1,500 divided by 0.75, which is $2,000 a month (CALC). At $220 a job that is 9.1 jobs, so 10 are needed. Check: 9 jobs give $1,485 of contribution, short of $1,500, and 10 give $1,650. Before the average is used, check whether it is what the business charges, since the directory average is a reference. Check also that the 25 per cent includes solution, water, waste and bags. A casual cleaner's hours must be added to the variable share, and the calculation run again."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a casual cleaner's hours as a fixed cost.",
+      "prevention": "Track their hours per job and include them in the variable share."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales.",
+      "prevention": "Divide by sales for the same months, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Using the directory average as the business's average price.",
+      "prevention": "Use the average you actually invoice. The directory average is a reference."
+    },
+    {
+      "error": "Leaving out the solution, water and waste costs.",
+      "prevention": "List each consumable and disposal cost, and check them against invoices."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of equipment and costs with a registered tax agent or accountant. The research did not confirm the tax treatment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The wage in any cost build is subject to the Cleaning Services Award where it applies: Level 1 adult minimum of $25.85 an hour with 25 per cent casual loading, from 1 July 2025. The 2026-27 rates were not checked.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence or registration. Wastewater disposal costs depend on local rules, which were not researched.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable share of sales.",
+    "Use the average price from your own invoices. The directory average is a reference.",
+    "Gaps: carpet cost ratios, equipment costs and wastewater rules were not found in the research. Every input here is illustrative."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-carpet-K01",
+      "question": "Break-even revenue for a carpet business is calculated as:",
+      "options": [
+        "Fixed costs multiplied by the variable percentage",
+        "Fixed costs divided by (1 minus the variable share of sales)",
+        "Sales minus fixed costs, shown as a percentage of the price",
+        "Fixed costs plus variable costs for the month"
+      ]
+    },
+    {
+      "id": "MP-04-carpet-K02",
+      "question": "Fixed costs are $1,500 a month, variable costs are 25 per cent of sales, and an average job is $220. What is the monthly break-even revenue?",
+      "options": [
+        "$2,000.00",
+        "$375.00",
+        "$1,500.00",
+        "$8,800.00"
+      ]
+    },
+    {
+      "id": "MP-04-carpet-K03",
+      "question": "Two sources give different break-even figures for the same business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe",
+        "Recalculate from your own costs, and check each source's inputs before using any figure",
+        "Average the two figures and quote the result",
+        "Skip the check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs; costs must be covered to avoid running at a loss.",
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; job counts are rounded up to whole jobs.",
+    "Yellow Pages Australia, 'Carpet cleaning costs', https://www.yellowpages.com.au/articles/home-cleaning/carpet-cleaning-costs, published 9 January 2025, updated November 2025. Vendor directory. Supports: per-room, whole-home and upholstery price ranges, and a warning that offers as low as $10 a room may be a basic one-step process.",
+    "Fair Work Commission, Cleaning Services Award (MA000022), https://awards.fairwork.gov.au/MA000022.html, variation effective 1 July 2025. Supports: Level 1 adult minimum hourly rate of $25.85 and a 25 per cent casual loading. The 1 July 2026 position was not checked.",
+    "Notes: the $1,500 fixed costs, 25 per cent variable share and four-room job are illustrative. The $55 per room is a directory average used as a reference. CALC marks arithmetic on those inputs."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

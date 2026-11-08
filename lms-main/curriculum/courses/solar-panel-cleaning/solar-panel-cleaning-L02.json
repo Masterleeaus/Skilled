@@ -1,0 +1,275 @@
+{
+  "id": "solar-panel-cleaning-L02",
+  "title": "Electrical hazards and live-generation assumptions",
+  "courseSlugs": [
+    "solar"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Trainees and workers on the solar panel cleaning track, working under supervision. Completing this lesson does not grant any right to work on or isolate a PV system.",
+  "prerequisites": [
+    "solar-panel-cleaning-L01"
+  ],
+  "learningOutcomes": [
+    "Explain why a PV array must be treated as live whenever light falls on it.",
+    "Identify why DC cables can remain live when the mains supply is off, and why switching off an inverter is not assurance of an electrically safe array.",
+    "Apply a stop-and-refer decision to any electrical hazard seen during a clean."
+  ],
+  "referencesAtStart": "Official sources for this lesson: Energy Safe Victoria, Safely installing photovoltaic (PV) systems (reviewed 15 April 2025); Government of Western Australia (wa.gov.au), Electrical safety at home: solar PV systems (last updated 26 November 2024); NSW Government (nsw.gov.au), Building and trades licences and credentials: electrical (last updated 23 June 2026); NSW Government (nsw.gov.au), Installing solar panels (last updated 19 October 2026); WorkSafe Queensland, Electrical Safety and Other Legislation Amendment Act 2024: your questions answered (no date shown); Government of South Australia (Energy and Mining), Electrical trades (Office of the Technical Regulator) (no date shown); Standards Australia, AS/NZS 4836: Safe working on or near low-voltage electrical installations and equipment.",
+  "instruction": [
+    {
+      "heading": "Official sources (start of lesson)",
+      "body": "Official sources for this lesson: Energy Safe Victoria, Safely installing photovoltaic (PV) systems (page date: Reviewed 15 April 2025); Government of Western Australia (wa.gov.au), Electrical safety at home: solar PV systems (page date: Last updated 26 November 2024); NSW Government (nsw.gov.au), Building and trades licences and credentials: electrical (page date: Last updated 23 June 2026); NSW Government (nsw.gov.au), Installing solar panels (page date: Last updated 19 October 2026); WorkSafe Queensland, Electrical Safety and Other Legislation Amendment Act 2024: your questions answered (page date: No date shown; partly checked); Government of South Australia (Energy and Mining), Electrical trades (Office of the Technical Regulator) (page date: No date shown; partly checked); Standards Australia, AS/NZS 4836: Safe working on or near low-voltage electrical installations and equipment."
+    },
+    {
+      "heading": "Why a PV array is treated as live",
+      "body": "A photovoltaic array converts light into direct current electricity. While light falls on the panels, the array can generate electricity, even when the building's mains supply is switched off or the inverter is off. The Western Australian government guide notes that output continues after the mains is disconnected, and that cables between the panels and the inverter are live while the panels generate (page last updated 26 November 2024). Treat every panel, junction, cable and connector as live for the whole job. This is the controlling assumption for every task in this course."
+    },
+    {
+      "heading": "DC cables and the mains switch",
+      "body": "Energy Safe Victoria's guidance (page reviewed 15 April 2025) says the DC supply cables of a PV system can still carry voltage after the power has been switched off. Turning off the mains at the switchboard therefore does not make the array's DC side dead. The same caution applies to cables that run from the array to the inverter."
+    },
+    {
+      "heading": "Why switching off the inverter is not enough",
+      "body": "A customer or a worker may believe that switching off the inverter makes the array safe. The WA guide says a licensed electrician has to verify the DC isolators (page last updated 26 November 2024). The safe working rule is to treat the array as live regardless of the inverter's state, and to refer any isolation to a licensed person."
+    },
+    {
+      "heading": "Who may isolate a PV system",
+      "body": "Energy Safe Victoria describes isolation at the main switchboard, with the supply turned off, locked off and tagged, and points to AS/NZS 4836 for safe working on low-voltage installations (page reviewed 15 April 2025). The same guidance treats PV installation and maintenance as electrical installation work for licensed electrical workers. In New South Wales, electrical wiring work, including repairing, needs a contractor licence or certificate (page last updated 23 June 2026). Queensland's WorkSafe page says an electrical mechanic licence is required to complete electrical work on energy generation and storage systems, and it does not name solar PV (no date shown). Electrical work on panels and inverters is outside the cleaning work taught in this lesson, and whether a licence is needed for panel cleaning alone is not confirmed by an official source. A cleaning worker does not isolate, switch or work on the electrical system."
+    },
+    {
+      "heading": "Water and electrical hazards",
+      "body": "Water on connectors, inverters, junction boxes and cable entries can cause a fault, a shock or a fire risk. The electrical hazard is greater where a connector is damaged, burnt or loose. Keep the spray away from electrical components and stop when water reaches them."
+    },
+    {
+      "heading": "Stop and refer",
+      "body": "Stop work and refer when you see or suspect exposed wiring, a damaged cable, a burnt or discoloured connector, a hot or cracked module, a smell of burning, unusual sounds, or water near electrical equipment. Do not touch the fault. Keep people and animals clear. Record what was seen and tell the owner in writing."
+    },
+    {
+      "heading": "Licence and authority boundary",
+      "body": "Licence notice: This lesson does not grant an electrical licence, a solar installation licence, or any authority to work on, isolate or repair a PV system or its wiring. Under the NSW government page on installing solar panels (last updated 19 October 2026), rooftop solar contracts are limited to licence holders in the building and electrical trades, and the wiring falls to an electrical licence holder, a qualified supervisor, or a worker supervised by one. The WA guide directs maintenance to an installer holding accreditation, or to a licensed electrical contractor (page last updated 26 November 2024)."
+    },
+    {
+      "heading": "Official sources (end of lesson)",
+      "body": "Official sources for this lesson (end): Energy Safe Victoria, Safely installing photovoltaic (PV) systems (page date: Reviewed 15 April 2025); Government of Western Australia (wa.gov.au), Electrical safety at home: solar PV systems (page date: Last updated 26 November 2024); NSW Government (nsw.gov.au), Building and trades licences and credentials: electrical (page date: Last updated 23 June 2026); NSW Government (nsw.gov.au), Installing solar panels (page date: Last updated 19 October 2026); WorkSafe Queensland, Electrical Safety and Other Legislation Amendment Act 2024: your questions answered (page date: No date shown; partly checked); Government of South Australia (Energy and Mining), Electrical trades (Office of the Technical Regulator) (page date: No date shown; partly checked); Standards Australia, AS/NZS 4836: Safe working on or near low-voltage electrical installations and equipment."
+    }
+  ],
+  "procedure": [
+    "Assume every panel, cable and connector is live while light falls on the array.",
+    "Do not rely on the mains or inverter being off as proof that the DC side is dead.",
+    "Keep the spray and the equipment away from connectors, cables, junction boxes and inverters.",
+    "Do not touch any cable, connector or junction box during the clean.",
+    "Stop and refer on any sign of exposed wiring, damage, burning, a hot component or water near electrical equipment.",
+    "Record what was observed, the location, the time and the people told.",
+    "Leave any isolation or repair to a licensed electrician or the installer, as the owner directs."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A customer says the inverter has been switched off, so the array is safe to clean. The array is in direct sunshine.",
+      "decisionPrompt": "Is the array safe to clean?",
+      "reasoning": "Treat the array as live. The sun can still make the panels generate, and the DC cables can remain live even when the mains is off. The inverter switch should not be relied on as the safe-working control for the array, because no official source reviewed here shows that it makes the array safe. Keep the spray away from electrical components and do not touch the cables. Refer the isolation to a licensed electrician if the owner wants the array de-energised."
+    },
+    {
+      "situation": "During the clean, a worker notices a connector with a dark, burnt mark and water running toward the junction box.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Stop the spray, move the water flow away from the box, and do not touch the connector or box. Keep people clear, record the mark and the water contact, and tell the owner in writing. Refer the connector to a licensed electrician before any further work near the array."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Pre-clean hazard checklist with a live-array assumption",
+    "Photographs and a sketch marking connectors, junction boxes and cable runs",
+    "Stop-work and referral notice template",
+    "PPE as specified in the job pack, with no tools in contact with live components"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming the array is dead because the mains or inverter is off.",
+      "prevention": "Treat the array as live, because the DC side can stay live and the panels can generate in light."
+    },
+    {
+      "error": "Touching a cable to see if it is live.",
+      "prevention": "Never test a cable by touch. Refer it."
+    },
+    {
+      "error": "Spraying water onto a junction box to rinse it.",
+      "prevention": "Keep the spray away from junction boxes and connectors."
+    },
+    {
+      "error": "Offering to isolate or repair the system to help the customer.",
+      "prevention": "Refer isolation and repair to a licensed electrician."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Energy Safe Victoria guidance (reviewed 15 April 2025) says DC supply cables from a PV array can remain live when the power is off.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Energy Safe Victoria places isolation at the main switchboard, with a lock and tag applied, and points to AS/NZS 4836 (page reviewed 15 April 2025).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: This lesson does not grant an electrical licence, solar installation licence, or authority to work on, isolate or repair PV systems. Victorian guidance treats PV installation and maintenance as electrical installation work (page reviewed 15 April 2025). In New South Wales, electrical wiring work, including repairing, needs a licence or certificate (page last updated 23 June 2026). Queensland's WorkSafe page says an electrical mechanic licence is required to complete electrical work on energy generation and storage systems, without naming PV (no date shown). Electrical work on panels and inverters is outside the cleaning work taught; whether a licence is needed for panel cleaning alone is not confirmed by an official source.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The array is recorded and handled as live for the whole job.",
+    "No worker tests, moves or isolates a cable or connector.",
+    "Water is kept away from connectors, junction boxes and inverters, and any water contact is recorded and referred.",
+    "Every electrical concern is stopped, recorded and referred to a licensed person."
+  ],
+  "documentationEvidence": [
+    "Pre-clean hazard checklist with the live-array assumption recorded",
+    "Photographs and sketch of connectors, junction boxes and cable runs",
+    "Stop and referral record for any electrical concern, with the person notified",
+    "Referral outcome from the licensed electrician or installer"
+  ],
+  "summary": [
+    "Treat the array as live whenever light falls on it, and do not rely on the mains or inverter being off.",
+    "DC cables can remain live when the mains is off, according to the Victorian guidance.",
+    "Stop and refer on any electrical sign, and do not touch the fault.",
+    "This lesson grants no electrical licence or authority to isolate or repair a PV system."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "solar-panel-cleaning-L02-K01",
+      "question": "When can a PV array generate electricity?",
+      "options": [
+        "Only at night when the sun is down and the sky is dark",
+        "Only when the battery is charged and full for the night and the day",
+        "Whenever light falls on it, so the array must be treated as live",
+        "Never, if the mains is off at the board and the switch is locked"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L02-K02",
+      "question": "According to Energy Safe Victoria guidance, what can remain live when the power is off?",
+      "options": [
+        "Nothing, because the mains is off",
+        "Only the meter on the wall outside",
+        "The customer's appliances in the house",
+        "The DC supply cables from the array"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L02-K03",
+      "question": "What does switching off the inverter mean for a clean?",
+      "options": [
+        "The array should still be treated as live, because no official source reviewed here shows that the inverter switch makes it safe",
+        "The array is isolated and safe to touch once the inverter is switched off and the job is started on the roof today",
+        "Electrical work may begin straight away on the array and its cables and the box, since the power is off now and the roof is clear",
+        "The job is complete once the inverter is off and the panels look clean from the ground, the roof and the drive today"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L02-K04",
+      "question": "Under the Victorian guidance, where is the supply isolated?",
+      "options": [
+        "By the cleaner at the array with a torch in hand on the roof, after a quick look at the wiring",
+        "At the main switchboard, locked out and tagged out, by a licensed electrical worker",
+        "By the customer with a screwdriver from the shed at the back of the house today",
+        "By directing a hose at the switchboard on the wall outside the house and the shed"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L02-K05",
+      "question": "Which standard does Energy Safe Victoria refer to for safe working on low-voltage installations?",
+      "options": [
+        "AS/NZS 1891.4",
+        "AS/NZS 3760",
+        "AS/NZS 4836",
+        "AS/NZS 5033"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Energy Safe Victoria, Safely installing photovoltaic (PV) systems: https://www.energysafe.vic.gov.au/industry-guidance/electrical/electrical-technical-information/safely-installing-photovoltaic-pv (READ, checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX.csv VIC-24 (CONFIRMED), VIC-25 (PARTIAL), VIC-26 (CONFIRMED), NSW-07 (CONFIRMED), NSW-09 (UNCONFIRMED), QLD-07 (PARTIAL), checked 2026-11-02",
+    "research/topics/solar.md sections 2, 3, 5 and 7 (draft brief, checked 2026-11-02): inverter switch-off claim UNCONFIRMED as stated",
+    "solar-panel-cleaning-lesson-02-research-pass100.json and solar-panel-cleaning-research-pass100.json (PRIOR, draft pending expert review)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Safely installing photovoltaic (PV) systems",
+      "url": "https://www.energysafe.vic.gov.au/industry-guidance/electrical/electrical-technical-information/safely-installing-photovoltaic-pv",
+      "pageDate": "Reviewed 15 April 2025",
+      "checked": "2026-11-03",
+      "covers": "Energy Safe Victoria PV technical information page; check the Reviewed date shown on the page. Publisher: Energy Safe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Electrical safety at home: solar PV systems",
+      "url": "https://www.wa.gov.au/government/multi-step-guides/electrical-safety-home/solar-pv-systems",
+      "pageDate": "Last updated 26 November 2024",
+      "checked": "2026-11-03",
+      "covers": "wa.gov.au solar PV guide; confirm licensing rules with the WA regulator. Publisher: Government of Western Australia (wa.gov.au)."
+    },
+    {
+      "id": "R3",
+      "title": "Building and trades licences and credentials: electrical",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "nsw.gov.au electrical licence page; check the licence class before any electrical work. Publisher: NSW Government (nsw.gov.au)."
+    },
+    {
+      "id": "R4",
+      "title": "Installing solar panels",
+      "url": "https://www.nsw.gov.au/housing-and-construction/compliance-and-regulation/installing-solar-panels",
+      "pageDate": "Last updated 19 October 2026",
+      "checked": "2026-11-03",
+      "covers": "nsw.gov.au solar page; it covers installation and wiring, but not cleaning or isolation. Publisher: NSW Government (nsw.gov.au)."
+    },
+    {
+      "id": "R5",
+      "title": "Electrical Safety and Other Legislation Amendment Act 2024: your questions answered",
+      "url": "https://worksafe.qld.gov.au/laws-and-compliance/electrical-safety-and-other-legislation-amendment-act-2024/esola-act-your-questions-answered",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Queensland electrical licensing pages; this page does not name solar PV. Publisher: WorkSafe Queensland."
+    },
+    {
+      "id": "R6",
+      "title": "Electrical trades (Office of the Technical Regulator)",
+      "url": "https://energymining.sa.gov.au/industry/regulatory-services/office-of-the-technical-regulator/electrical-trades",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "SA Office of the Technical Regulator; the page names no licence class and does not define PV work. Publisher: Government of South Australia (Energy and Mining)."
+    },
+    {
+      "id": "R7",
+      "title": "AS/NZS 4836: Safe working on or near low-voltage electrical installations and equipment",
+      "url": "https://ablis.business.gov.au/service/wa/as-nzs-4836-2011-safe-working-on-or-near-low-voltage-electrical-installations-and-equipment/48500",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Western Australian listing for AS/NZS 4836:2011 (safe working on or near low-voltage electrical installations and equipment): says work of this kind may need to comply with the code, which sits under WA electricity law. Does not confirm the 2023 edition or the standard text. Publisher: business.gov.au (WA listing)."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Official sources for this lesson (end): Energy Safe Victoria, Safely installing photovoltaic (PV) systems (reviewed 15 April 2025); Government of Western Australia (wa.gov.au), Electrical safety at home: solar PV systems (last updated 26 November 2024); NSW Government (nsw.gov.au), Building and trades licences and credentials: electrical (last updated 23 June 2026); NSW Government (nsw.gov.au), Installing solar panels (last updated 19 October 2026); WorkSafe Queensland, Electrical Safety and Other Legislation Amendment Act 2024: your questions answered (no date shown); Government of South Australia (Energy and Mining), Electrical trades (Office of the Technical Regulator) (no date shown); Standards Australia, AS/NZS 4836: Safe working on or near low-voltage electrical installations and equipment.",
+  "images": [
+    {
+      "src": "/academy/library/photos/exterior-cleaning/pressure-photo-39826191-03.jpg",
+      "alt": "Solar panel cleaning illustration",
+      "kind": "photo",
+      "origin": "solar"
+    },
+    {
+      "src": "/academy/library/photos/exterior-cleaning/pressure-photo-39826191-04.jpg",
+      "alt": "Solar panel cleaning illustration",
+      "kind": "photo",
+      "origin": "solar"
+    }
+  ]
+}

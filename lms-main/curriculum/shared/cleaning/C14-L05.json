@@ -1,0 +1,151 @@
+{
+  "id": "C14-L05",
+  "title": "Residue removal and reassembly",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Revenue and growth",
+  "layer": "group",
+  "lessonType": "RH",
+  "estimatedMinutes": 55,
+  "audience": "Cleaners who clean residue from appliance parts and reassemble them after cleaning.",
+  "prerequisites": [
+    "C14-L03",
+    "C14-L04"
+  ],
+  "learningOutcomes": [
+    "Remove residue from appliance parts with an approved method that does not damage the finish.",
+    "Reassemble only the parts the manufacturer and the work order allow.",
+    "Stop and escalate when reassembly needs a technician or a part is damaged."
+  ],
+  "instruction": [
+    {
+      "heading": "Residue and the right method",
+      "body": "Baked-on residue and grease build up in corners, around seals and on removable parts. Remove loose residue first, then apply the approved product for the surface and the soil, and allow the product its contact time. Scrapers and abrasives can scratch the finish and leave a surface that holds more residue. Use the method the manufacturer and the approved procedure give."
+    },
+    {
+      "heading": "Reassembly is limited",
+      "body": "Reassemble only the parts that you removed in line with the manufacturer's guidance and the work order. Refit each part in its original position, check that it seats properly, and do not force it. Confirm that no tool, cloth or product has been left inside the appliance, and that no wire, hose or seal has been displaced."
+    },
+    {
+      "heading": "When to stop",
+      "body": "Stop if a part is damaged, if reassembly needs a tool to fix the part in place, or if a wire, hose or gas connection has been disturbed. Those are technician tasks. Record the state of the appliance, what was reassembled, and what remains for the technician."
+    }
+  ],
+  "procedure": [
+    "Remove loose residue before applying any product.",
+    "Apply the approved product for the surface and the soil, and allow contact time.",
+    "Avoid scrapers and abrasives on finished surfaces.",
+    "Reassemble only the removed parts, in their original positions, without force.",
+    "Check for displaced wires, hoses or seals, and for left-behind items.",
+    "Stop and escalate for damage or technician tasks, and record the state of the appliance."
+  ],
+  "workedExamples": [
+    {
+      "situation": "After cleaning a grease filter and tray, one seal is found torn and a hose is displaced during reassembly.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Stop reassembly. Do not reposition the hose or repair the seal. Record the torn seal and the displaced hose, and escalate them for a technician. Do not return the appliance to service until the technician has checked it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved products for the surface and soil, with labels and SDS.",
+    "Non-scratching brushes and cloths.",
+    "Gloves and eye protection as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a metal scraper on a finished surface.",
+      "prevention": "Use the approved method and non-scratching tools."
+    },
+    {
+      "error": "Forcing a part back into place.",
+      "prevention": "Check the position, and stop if it does not seat."
+    },
+    {
+      "error": "Leaving a cloth or product inside the appliance.",
+      "prevention": "Check the interior before closing the appliance."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In Victoria, electrical installation work is carried out under an electrical licence from Energy Safe Victoria. A cleaner must not open, disconnect, repair or alter fixed electrical equipment or wiring. This lesson grants no electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Follow the product label and safety data sheet for dilution, dwell time and PPE.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Residue removed by the approved method without damage to the finish.",
+    "Reassembly completed only for removed parts, with no displaced connection.",
+    "Technician task stopped and escalated in the simulated task."
+  ],
+  "documentationEvidence": [
+    "Residue-removal and reassembly record.",
+    "Defect and technician escalation record."
+  ],
+  "summary": [
+    "Remove loose residue first, then use the approved method.",
+    "Reassemble only what was removed, in its original position.",
+    "Stop for damage, displaced connections or technician tasks."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C14-L05-K01",
+      "question": "Why are metal scrapers avoided on finished appliance surfaces?",
+      "options": [
+        "They are too heavy to use on the appliance surface",
+        "They scratch the finish, which then holds more residue",
+        "They are not allowed by law on any domestic appliance"
+      ]
+    },
+    {
+      "id": "C14-L05-K02",
+      "question": "A hose is displaced during reassembly. What is the correct action?",
+      "options": [
+        "Reposition it yourself, then reconnect the hose",
+        "Tape it in position and carry on with the job",
+        "Stop, record it, and escalate to a technician"
+      ]
+    },
+    {
+      "id": "C14-L05-K03",
+      "question": "What should be checked before the appliance is closed?",
+      "options": [
+        "That no cloth or product is left inside, and that nothing is displaced",
+        "Nothing, it is ready to be closed and handed back to the client today",
+        "The colour of the finish only, and the brand label on the front panel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and manufacturer review.",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electricians licence (Energy Safe Victoria)",
+      "url": "https://www.energysafe.vic.gov.au/licensing/electrical-licences/licence-types/electricians-licence-aae",
+      "pageDate": "Reviewed 30 June 2025 (no 'last updated' label on the page)",
+      "checked": "2026-11-03",
+      "covers": "Says the holder of this licence can perform electrical installation work in Victoria, and that the licence allows electrical installation work as an employee. Says the licence does not allow the holder to contract for electrical installation work for profit or reward. The page was reviewed on 30 June 2025. Publisher: Energy Safe Victoria."
+    }
+  ]
+}

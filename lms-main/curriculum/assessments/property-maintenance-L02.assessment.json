@@ -1,0 +1,35 @@
+{
+  "lessonId": "property-maintenance-L02",
+  "knowledgeAnswers": [
+    {
+      "id": "property-maintenance-L02-K01",
+      "correctIndex": 2,
+      "rationale": "Each pump needs its own record with a unique identifier, its location and its own service history. Merging identical items makes it unclear which one was serviced."
+    },
+    {
+      "id": "property-maintenance-L02-K02",
+      "correctIndex": 1,
+      "rationale": "Corrections are dated additions, keeping the original visible."
+    },
+    {
+      "id": "property-maintenance-L02-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says an entry that says the pump was serviced needs evidence: the date, the worker, and the work done."
+    }
+  ],
+  "practicalCriteria": [
+    "Scope and authority",
+    "Hazard recognition",
+    "Safe decision",
+    "Records and escalation"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Capture unique asset IDs, location, condition, last service date and evidence, and avoid overwriting the older record.",
+    "Identify affected people or assets",
+    "Describe the responsible referral and documentary trail"
+  ],
+  "stopWorkCriteria": [
+    "Confusing assets and marking the wrong equipment as serviced."
+  ]
+}

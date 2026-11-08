@@ -1,0 +1,184 @@
+{
+  "id": "F18-L05",
+  "title": "Transport and containment",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Any worker who transports kit, products and equipment between the store, the vehicle and sites in any Titan Academy business.",
+  "prerequisites": [
+    "F10-L04",
+    "F18-L01"
+  ],
+  "learningOutcomes": [
+    "Contain each class of kit during transport so that nothing spills, mixes or moves.",
+    "Describe the containment measures for products, waste and wet items.",
+    "Identify the transport rules that must be checked before carrying dangerous goods."
+  ],
+  "instruction": [
+    {
+      "heading": "Contain by class",
+      "body": "Each class of kit needs its own containment in transport. Products should be in sealed, labelled containers, upright, in a tray or bunded area where the vehicle has one, and separated by incompatibility. Waste should be in sealed bags or lidded bins. Wet cloths and mop heads should be in a separate bag so that water does not reach the products or the documents. Equipment should be secured so that it cannot move or fall. Documents should be kept dry and out of the way of spills, and copies of SDS should be available in the vehicle."
+    },
+    {
+      "heading": "Vehicle and driver practices",
+      "body": "Secure the load with straps, racks or lockable boxes before driving. Keep chemicals out of the passenger cabin and keep the vehicle ventilated. Do not carry chemicals next to food or drink. Check the containers for leaks at the start of each day and after each stop. If a container leaks, stop, contain the leak as the SDS directs, ventilate the vehicle if safe, and report it."
+    },
+    {
+      "heading": "Dangerous goods",
+      "body": "Some products and quantities are dangerous goods under transport rules. In Victoria, the vehicle licence limits for dangerous goods are set by quantity, as stated in the licence notice in this lesson. Check the product's classification and those limits before transporting any larger quantity, and do not transport a product that you have not confirmed as permitted."
+    }
+  ],
+  "procedure": [
+    "Contain each class of kit separately, with sealed and labelled products upright and separated by incompatibility.",
+    "Bag and seal waste, and bag wet cloths separately from products and documents.",
+    "Secure all equipment and products with straps, racks or lockable boxes.",
+    "Check containers for leaks at the start of the day and after each stop.",
+    "If a leak occurs, contain it as the SDS directs and report it.",
+    "Confirm the dangerous goods position for any larger quantity before transport."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A bucket of wet mop heads is placed in the vehicle on top of a box of product containers.",
+      "decisionPrompt": "What do you change?",
+      "reasoning": "Move the wet items to a separate bag in a separate position, so that water does not reach the products. Check the product containers for leaks, and secure the box so that it cannot slide."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Straps and lockable boxes",
+    "Spill tray or absorbent material",
+    "Sealed bags for waste and wet items",
+    "SDS copies in the vehicle"
+  ],
+  "commonErrors": [
+    {
+      "error": "Placing wet items in the same container as products or documents.",
+      "prevention": "Bag wet items separately and keep them away from products and documents."
+    },
+    {
+      "error": "Carrying a leaking container because it is almost empty.",
+      "prevention": "Check for leaks each day and contain or replace any leaking container."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Vehicle licence threshold (Victoria): a vehicle must be licensed for the class of dangerous goods it carries when the dangerous goods on the vehicle are in a receptacle with a capacity of more than 500 litres or 500 kilograms, or when the total capacity of all intermediate bulk containers (IBCs) holding dangerous goods on the vehicle is more than 3,000 litres. A prime mover of a semi-trailer or combination vehicle, and certain trailers, do not need a vehicle licence. This lesson does not grant a dangerous goods vehicle licence or any permit to transport dangerous goods.",
+      "licenceNotice": true
+    },
+    {
+      "point": "SDS must be accessible at the workplace, as WorkSafe Victoria states for hazardous substances. Keeping SDS copies in the vehicle supports that duty when the vehicle is used for the work.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each class of kit is contained separately during transport.",
+    "No product is carried in the passenger cabin or next to food or drink.",
+    "Every leak is contained and reported."
+  ],
+  "documentationEvidence": [
+    "Daily vehicle check record for leaks and load security.",
+    "Leak or spill record with the product, quantity and action taken."
+  ],
+  "summary": [
+    "Contain products, waste, wet items and documents separately.",
+    "Secure the load and check for leaks each day and after each stop.",
+    "Confirm dangerous goods rules before carrying larger quantities."
+  ],
+  "businessFields": [
+    "{{business:materials.handling_procedure}}",
+    "{{business:materials.sds_links}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:equipment.assigned_items}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F18-L05-K01",
+      "question": "Where should wet mop heads be placed in the vehicle?",
+      "options": [
+        "On top of the product containers in the back of the van",
+        "In a separate sealed bag, away from products and documents.",
+        "In the passenger cabin with the windows closed and the door shut"
+      ]
+    },
+    {
+      "id": "F18-L05-K02",
+      "question": "A product container is found leaking in the van. What is correct?",
+      "options": [
+        "Keep driving to the job and deal with the leak at the job site",
+        "Wipe it with a cloth and put the cloth back in the kit today",
+        "Contain the leak as the SDS directs, ventilate if safe and report it."
+      ]
+    },
+    {
+      "id": "F18-L05-K03",
+      "question": "What does the lesson say to check before transporting a larger quantity of a product?",
+      "options": [
+        "Load it without checking",
+        "Put it in the passenger cabin",
+        "Assume the limit is the same as the last trip",
+        "Check the product's classification and those limits"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/hazardous-substances (WorkSafe Victoria, reviewed 19/05/2026; checked 2026-11-02; SDS accessibility and storage duties)",
+    "Titan Academy base source draft F18-L05 is not in the ready set; written from the catalogue description. The Victorian vehicle licence thresholds are confirmed on the WorkSafe Victoria page in officialReferences (R1); placards and driver training remain UNCONFIRMED in this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Dangerous goods vehicle licence (WorkSafe Victoria)",
+      "url": "https://www.worksafe.vic.gov.au/dangerous-goods-vehicle-licence",
+      "pageDate": "Reviewed on 30/06/2026 (the review date the page shows; no separate 'last updated' label)",
+      "checked": "2026-11-03",
+      "covers": "Says each vehicle is licensed by the class of dangerous goods it carries when the dangerous goods on the vehicle are in a receptacle with a capacity of more than 500 litres or 500 kilograms, or in intermediate bulk containers where the total capacity of all IBCs containing dangerous goods on the vehicle is more than 3000 litres. Lists exceptions for a prime mover of a semi-trailer or combination vehicle and for certain trailers. The page was last reviewed on 30 June 2026. Publisher: WorkSafe Victoria."
+    }
+  ]
+}

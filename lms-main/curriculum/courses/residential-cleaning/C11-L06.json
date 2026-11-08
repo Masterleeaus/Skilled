@@ -1,0 +1,165 @@
+{
+  "id": "C11-L06",
+  "title": "Handover and rebooking",
+  "courseSlugs": [
+    "residential"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RV",
+  "estimatedMinutes": 25,
+  "audience": "Residential cleaners who hand over a clean to the household and arrange the next visit.",
+  "prerequisites": [
+    "C11-L01"
+  ],
+  "learningOutcomes": [
+    "Walk the client through the completed work and the exclusions.",
+    "Record the handover, including any issues found and not fixed.",
+    "Offer rebooking on the agreed terms, without promising work that is not scoped."
+  ],
+  "instruction": [
+    {
+      "heading": "Walking the client through",
+      "body": "At handover, walk the client through the completed rooms and the exclusions. Say what was done and what was not, and point out any issue that you found and could not fix, such as a damaged fitting or a stain that did not respond to the approved method. Let the client see the areas that you are reporting."
+    },
+    {
+      "heading": "Recording the handover",
+      "body": "Record the handover with the time, the rooms covered, the exclusions, the issues found and the client's acknowledgement. Keep the record factual. Do not describe the home as sterile or as free of pests, and do not guarantee a result beyond the scope."
+    },
+    {
+      "heading": "Rebooking",
+      "body": "Offer a rebooking on the agreed terms, and confirm the scope for the next visit against the current record. Do not promise extra tasks that have not been scoped and priced. If the client wants a different scope, note the change for approval."
+    }
+  ],
+  "procedure": [
+    "Walk the client through the completed rooms and the exclusions.",
+    "Point out any issue found and not fixed, and show the affected area.",
+    "Record the time, rooms, exclusions, issues and client acknowledgement.",
+    "Keep the record factual, with no sterility or pest-free claim.",
+    "Offer rebooking on agreed terms, and note any scope change for approval."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A stain in the bathroom did not respond to the approved method, and the client asks you to promise it will be gone next time.",
+      "decisionPrompt": "What do you say and record?",
+      "reasoning": "Explain that the stain did not respond to the approved method, and record it as an issue not fixed. Do not promise removal next time. Offer to assess the stain at the next visit, and note any specialist option for the client to consider."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Handover record form.",
+    "Camera for issue photographs, with permission."
+  ],
+  "commonErrors": [
+    {
+      "error": "Describing the home as sterile after cleaning.",
+      "prevention": "Describe only the clean and the exclusions."
+    },
+    {
+      "error": "Promising removal of a stain at the next visit.",
+      "prevention": "Record the issue and offer an assessment."
+    },
+    {
+      "error": "Agreeing extra tasks at the door without pricing.",
+      "prevention": "Note the request and price it for approval."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Content is general cleaning practice and needs subject-matter and regulator review before use.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Under the Australian Consumer Law, a business must not mislead consumers about a service. Claims need to be correct and have a sound basis, intent does not matter, and a statement that gives a misleading picture can break the law (ACCC false or misleading claims page; page metadata dates it 28 June 2026). A cleaner cannot verify pest-free or sterile outcomes, so do not make those statements. Consumer guarantees also require a service to be carried out competently, at the standard an average competent provider would reach, and in a sensible timeframe where no time is agreed (ACCC consumer rights and guarantees page for businesses; page metadata dates it 17 July 2026).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Handover walk-through completed with exclusions shown.",
+    "Issues not fixed recorded factually in the case study.",
+    "Rebooking offered on the agreed scope only."
+  ],
+  "documentationEvidence": [
+    "Signed handover record with time, rooms, exclusions and issues.",
+    "Rebooking note with the agreed scope."
+  ],
+  "summary": [
+    "Walk the client through the work and the exclusions.",
+    "Record issues not fixed and keep the record factual.",
+    "Rebook on the agreed scope only."
+  ],
+  "businessFields": [
+    "{{business:customers.communication_policy}}",
+    "{{business:procedures.completion_checklist}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C11-L06-K01",
+      "question": "A stain did not respond to the approved method. What is correct at handover?",
+      "options": [
+        "Record it as an issue not fixed, and offer an assessment",
+        "Promise it will be gone next time, for sure, by the next visit",
+        "Hide it under a towel until the client has left the house"
+      ]
+    },
+    {
+      "id": "C11-L06-K02",
+      "question": "Which statement should a cleaner avoid at handover?",
+      "options": [
+        "That the rooms in scope were cleaned",
+        "That the home is sterile or pest-free",
+        "That the exclusions were listed"
+      ]
+    },
+    {
+      "id": "C11-L06-K03",
+      "question": "A client asks for an extra room at rebooking. What is correct?",
+      "options": [
+        "Agree at the door, since it is only a small job",
+        "Refuse without comment, since the room is not booked",
+        "Note it, and price and approve it before it is booked"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/C11-L06.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use.",
+    "UNCONFIRMED: state and territory consumer-law obligations for service statements."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "False or misleading claims",
+      "url": "https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims",
+      "pageDate": "28 June 2026 per page metadata",
+      "checked": "2026-11-03",
+      "covers": "Check the rule on accurate claims and that intent does not matter. Publisher: ACCC."
+    },
+    {
+      "id": "R2",
+      "title": "Consumer rights and guarantees (for businesses)",
+      "url": "https://www.accc.gov.au/business/selling-products-and-services/consumer-rights-and-guarantees",
+      "pageDate": "17 July 2026 per page metadata; no date in page text",
+      "checked": "2026-11-03",
+      "covers": "Check the service guarantees for care and skill and for timing. Publisher: ACCC."
+    }
+  ],
+  "referencesAtStart": "Official sources: ACCC, False or misleading claims (28 June 2026, per page metadata); ACCC, Consumer rights and guarantees (for businesses) (17 July 2026, per page metadata; no date in page text).",
+  "referencesAtEnd": "Check the current rule on each official page listed at the start of this lesson.",
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-05.jpg",
+      "alt": "Residential cleaning illustration",
+      "kind": "photo",
+      "origin": "residential"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-06.jpg",
+      "alt": "Residential cleaning illustration",
+      "kind": "photo",
+      "origin": "residential"
+    }
+  ]
+}

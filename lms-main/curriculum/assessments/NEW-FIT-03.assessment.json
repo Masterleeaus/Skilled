@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-FIT-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-FIT-03-K01",
+      "correctIndex": 0,
+      "rationale": "The first action is to make the area safe, call emergency services and stay with the participant, as the first-aid training requires."
+    },
+    {
+      "id": "NEW-FIT-03-K02",
+      "correctIndex": 1,
+      "rationale": "The permit condition sets the limit for that council's land. The group is reduced or split, and the change is recorded."
+    },
+    {
+      "id": "NEW-FIT-03-K03",
+      "correctIndex": 2,
+      "rationale": "A first-aid certificate gives a first response to an emergency. It is not a state licence and gives no clinical authority, and the trainer does not diagnose or give medication."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor observes the candidate check the group size against a simulated permit limit before a session and split the group where needed",
+    "Assessor presents a simulated collapse and observes the candidate make the area safe, call emergency services and stay with the participant",
+    "Assessor checks a completed incident record for the simulated collapse, with the time, actions and people called"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Session record showing the group size checked against the permit",
+    "Incident record for the simulated collapse",
+    "First-aid certificate held by the candidate, sighted by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "A session starts with a group above the business or permit limit",
+    "A collapsed participant is left without a call to emergency services",
+    "The candidate gives medication or gives a diagnosis to participants"
+  ]
+}

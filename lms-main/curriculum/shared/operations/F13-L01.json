@@ -1,0 +1,171 @@
+{
+  "id": "F13-L01",
+  "title": "Environmental impact across the job",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Any worker or owner in any Titan Academy business who wants to reduce the environmental impact of service work.",
+  "prerequisites": [
+    "F03-L04",
+    "F13-L02"
+  ],
+  "learningOutcomes": [
+    "Identify where a service job affects the environment: products, water, energy, waste, travel and materials.",
+    "Choose practices that reduce the impact without reducing safety or the quality standard.",
+    "Explain the trade-offs between environmental and safety or quality decisions."
+  ],
+  "instruction": [
+    {
+      "heading": "Where the impact comes from",
+      "body": "Service work affects the environment through the products used and how much is used, the water and energy consumed, the waste produced and where it goes, the fuel used for travel, the packaging and materials brought onto site, and the wash water that leaves the site. Walk through a typical job and list each point. Most impact comes from over-use of products, poor dosing, unnecessary travel, and waste that is not sorted. Identify the largest items first, because those are where a change makes the most difference."
+    },
+    {
+      "heading": "Practical reductions",
+      "body": "Reduce product use by dosing correctly and mixing only what is needed. Use microfibre and reusable cloths where they suit the surface and the procedure. Reduce water use by using a bucket method rather than running taps, and by using a trigger spray rather than a hose where it is enough. Reduce energy by turning off equipment when not in use. Reduce travel by grouping jobs by area. Sort waste at the point it is made so that recyclables are not contaminated. Each reduction must be checked against the safety and quality standards before it is adopted."
+    },
+    {
+      "heading": "Trade-offs and safety first",
+      "body": "A lower-impact product is not always the right choice. A product with fewer environmental claims may still be the safer or more effective product for the surface, and a less effective product may need more use and more waste. Never reduce a safety control, a protective equipment requirement or a disinfection step to save resources. Where an environmental choice and a safety choice conflict, the safety choice takes priority, and the trade-off should be recorded."
+    }
+  ],
+  "procedure": [
+    "Walk through a typical job and list the products, water, energy, waste, travel and materials used.",
+    "Identify the largest sources of impact and choose one practical reduction at a time.",
+    "Check each reduction against the safety and quality standards before adopting it.",
+    "Sort waste at the point it is made and keep recyclables clean.",
+    "Record the reduction, the measure and any trade-off decided.",
+    "Review the reduction after a set period to confirm it has worked."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A team wants to replace a product with a lower-impact option that the label says needs eye protection and ventilation and that is less effective on grease.",
+      "decisionPrompt": "Is the change acceptable?",
+      "reasoning": "Not without checking. The lower-impact product may need more use or a second step, which may increase waste and time. Check the label, the SDS and the surface, compare the total effect, and keep the eye protection and ventilation controls. Record the trade-off and the decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Reusable cloths for suitable surfaces",
+    "Trigger sprays and dosing containers",
+    "Labelled waste streams for sorting"
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing a product for its environmental claim without checking its effectiveness and hazards.",
+      "prevention": "Check the label, the SDS and the surface before choosing for environmental reasons."
+    },
+    {
+      "error": "Reducing a disinfection or protection step to save resources.",
+      "prevention": "Treat safety and required disinfection steps as fixed, and reduce impact elsewhere."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Environmental claims do not replace the label and SDS as the safety basis for a product. A reduction in product use must still meet the label dilution and the safety controls.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Discharge of wash water and waste is regulated by councils, water authorities and state or territory rules.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each environmental reduction is checked against the safety and quality standards.",
+    "Every trade-off is recorded with the decision and reason.",
+    "Each reduction has a review date and a measure."
+  ],
+  "documentationEvidence": [
+    "Environmental reduction log with the change, the measure, the trade-off and the review date."
+  ],
+  "summary": [
+    "Find the largest sources of impact on each job, such as product, water, waste and travel.",
+    "Reduce impact only where safety and quality are not reduced.",
+    "Record each trade-off and review each change."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:procedures.approved_sop}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F13-L01-K01",
+      "question": "A product has a lower environmental claim but needs more use to be effective. What is the first check?",
+      "options": [
+        "Whether the claim is on the front of the bottle.",
+        "The label, the SDS, the surface and the total effect of the change.",
+        "Whether it smells fresh enough to be used in a clean area."
+      ]
+    },
+    {
+      "id": "F13-L01-K02",
+      "question": "Which step must never be reduced to save resources?",
+      "options": [
+        "Dosing the product more accurately each time.",
+        "Travel grouping, since fewer trips save time",
+        "The required protection or disinfection step."
+      ]
+    },
+    {
+      "id": "F13-L01-K03",
+      "question": "Which of these does the lesson list as a way service work affects the environment?",
+      "options": [
+        "The fuel used for travel",
+        "The colour of the vehicle",
+        "The name on the invoice",
+        "The number of staff photographs"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/hazardous-substances (WorkSafe Victoria, reviewed 19/05/2026; checked 2026-11-02; label and SDS duties)",
+    "Titan Academy base source draft F13-L01 is not in the ready set; written from the catalogue description. Discharge and waste rules are UNCONFIRMED in this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "HCG-02",
+  "title": "Sorting surfaces into cleaning tiers",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaning staff who clean patient rooms, wards, clinics and treatment areas.",
+  "prerequisites": [
+    "HCG-01"
+  ],
+  "learningOutcomes": [
+    "Sort the surfaces in an area into minimal-touch and high-contact groups.",
+    "Describe the routine detergent method for each group.",
+    "State when a cleaning method changes because of a multi-resistant organism."
+  ],
+  "instruction": [
+    {
+      "heading": "Two groups of surfaces",
+      "body": "The guideline divides room surfaces into two families. Floors and ceilings sit in the low-contact family because hands seldom land on them. The busier family includes handles, rails, bedside tables, switches, benchtops and the wall beside a toilet, since these pass microbes between people. Every facility drafts its own list from a risk review and records it in a policy document."
+    },
+    {
+      "heading": "Method for minimal-touch surfaces",
+      "body": "Mixed to the manufacturer's dilution, detergent serves floors, walls and back-office rooms well. Damp mopping outranks dry mopping for everyday floors. Patient-room walls and blinds merit a detergent wipe-down whenever they look grimy."
+    },
+    {
+      "heading": "Method for high-contact surfaces",
+      "body": "These items are attended to more often than minimal-touch ones, with a general-purpose detergent matched to the material and the expected dirt. Pre-soaked wipes suit one item or a small patch. On a general ward they are seldom the main tool and never replace a cloth and a mix."
+    },
+    {
+      "heading": "When the method steps up",
+      "body": "Intensive care and isolation rooms receive more work when a multi-resistant organism is a worry. In that case the routine clean grows heavier: a detergent pass comes first and a disinfectant pass follows, so each surface is wiped twice. The facility decides when to step up, and you follow the written instruction for that area."
+    }
+  ],
+  "procedure": [
+    "Walk the area and list the surfaces that people touch with their hands.",
+    "Mark each surface as minimal-touch or high-contact, using the facility list.",
+    "Clean the high-contact surfaces first with the facility's detergent and cloth method.",
+    "Clean the minimal-touch surfaces next, moving from the cleanest part of the area to the dirtiest.",
+    "Check the area for any surface that is visibly soiled and clean it immediately.",
+    "Confirm from the written instruction whether a disinfectant step applies to the area."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A 12-bed general ward, mid-afternoon. Your list includes the floor, a bedside locker, a sink and a set of door handles.",
+      "decisionPrompt": "Which items need the most frequent attention, and why?",
+      "reasoning": "Handles, the locker and the sink attract more hands and sit closer to the patient, so they get cleaned more often than the floor. The floor keeps its own timetable, because minimal-touch surfaces still need regular attention."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Disposable gloves",
+    "Facility-approved detergent",
+    "Clean cloths, one per area or per colour code",
+    "Damp mop head or single-use mop head"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using the same cloth on high-contact surfaces and then on floors.",
+      "prevention": "Use the colour-coded cloth set for the area, and swap or rinse cloths as the facility directs."
+    },
+    {
+      "error": "Dry mopping a patient-area floor because it is quicker.",
+      "prevention": "Choose the damp mop for everyday floor work, which is the guideline's stated preference."
+    },
+    {
+      "error": "Relying on a wipe as the only method on a whole ward.",
+      "prevention": "Keep wipes for one item or a small patch; use cloths and a detergent mix for general work."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Dilute detergent exactly as the manufacturer directs. Stronger is not better, and it can damage surfaces or harm the person using it.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Where a multi-resistant organism is known or possibly present, follow the written instruction for the disinfectant step. Do not add a disinfectant on your own initiative.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Surfaces are sorted into the two groups using the facility list.",
+    "High-contact surfaces are cleaned with detergent before minimal-touch surfaces.",
+    "No dry mopping is used for routine floor cleaning."
+  ],
+  "documentationEvidence": [
+    "Area checklist listing each surface group and the time it was cleaned",
+    "Note of any intensified step applied, with the reason"
+  ],
+  "summary": [
+    "Handled surfaces need detergent cleaning more often than minimal-touch ones.",
+    "A damp mop beats a dry mop for routine floor work.",
+    "A multi-resistant organism changes the method: detergent first, then disinfectant, as written."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HCG-02-K01",
+      "question": "Which group of surfaces is cleaned most often in a patient room?",
+      "options": [
+        "Ceilings, because dust settles on them and they are rarely seen by staff",
+        "Floors, because they are the largest surfaces and they are walked on each day",
+        "Handled surfaces close to the patient, like door handles and bed rails.",
+        "Blinds in the corridor outside the room and the window frames near the door"
+      ]
+    },
+    {
+      "id": "HCG-02-K02",
+      "question": "What is the recommended routine method for high-contact surfaces?",
+      "options": [
+        "Dry dusting once a week, which keeps the surface clear enough for most staff",
+        "A detergent mix applied at least once a day and whenever the surface looks dirty.",
+        "A high-level disinfectant applied once a week to the whole ward each time",
+        "Alcohol applied to the whole room at the start of each shift and at lunch"
+      ]
+    },
+    {
+      "id": "HCG-02-K03",
+      "question": "Why should pre-soaked wipes not replace a cloth and a detergent mix on a general ward?",
+      "options": [
+        "They are too bulky to store in a ward cupboard and they are costly to buy each week",
+        "They fit a lone item or a small patch, and rarely serve as the core method on a general ward.",
+        "They cannot contain any detergent at all and they dry out within the minute",
+        "They are only for use in bathrooms and never in patient rooms or corridors today"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, B1.4.2; rights: not held by user; reworded (no copying)",
+    "Source priority: the NHMRC guideline is an official Australian source. Where it conflicts with informal or in-house cleaning advice, the guideline governs the points this lesson relies on.",
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, edition note: the 2019 edition is the current edition (NHMRC, https://www.safetyandquality.gov.au/sites/default/files/2026-05/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf; CONFIRMED in the figures register, checked 2026-11-02); the uploaded copy read on 2026-11-02 is the 2010 edition, so points taken from it are UNCONFIRMED against the 2019 text. The existing aged-care and medical-equipment lessons cite the 2019 edition.",
+    "Cross-checked against aged-care-infection-control-L05 (existing curriculum lesson): both describe detergent as the base method; the existing lesson does not cover the tier split, so only the base method is cross-checked."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

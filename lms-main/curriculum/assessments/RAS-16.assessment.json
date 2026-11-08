@@ -1,0 +1,39 @@
+{
+  "lessonId": "RAS-16",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-16-K01",
+      "correctIndex": 1,
+      "rationale": "A change is made as a new revision, the reason is recorded and the old revision is kept on file."
+    },
+    {
+      "id": "RAS-16-K02",
+      "correctIndex": 2,
+      "rationale": "A briefing record shows the briefing took place. It does not prove a control works, and it does not transfer responsibility."
+    },
+    {
+      "id": "RAS-16-K03",
+      "correctIndex": 0,
+      "rationale": "New equipment changes the hazards on the site, so it triggers a review regardless of the calendar."
+    }
+  ],
+  "practicalCriteria": [
+    "Completes the document control panel with number, revision, revision date, site address, preparer and approver",
+    "Records a briefing with the date, topics, people present and questions",
+    "Identifies two review triggers in a simulated change and sets a next review date",
+    "Issues a new revision with the reason and withdraws the old revision from the site"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "document control panel",
+    "briefing record",
+    "revision record",
+    "assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "A register is used at a site where the crew has not been briefed on the current revision",
+    "An old revision is overwritten and not kept"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

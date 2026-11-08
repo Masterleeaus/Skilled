@@ -1,0 +1,32 @@
+{
+  "lessonId": "NEW-PLS-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-PLS-03-K01",
+      "correctIndex": 3,
+      "rationale": "An older or unknown finish is stopped and referred before any sanding."
+    },
+    {
+      "id": "NEW-PLS-03-K02",
+      "correctIndex": 0,
+      "rationale": "Wet methods or extraction with suitable respiratory protection control dust at source."
+    },
+    {
+      "id": "NEW-PLS-03-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says some plaster and sand products contain crystalline silica, and that inhaling fine silica dust is a serious health risk."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated sanding task with an unknown finish, the worker stops, keeps occupants clear, and records the referral without sanding."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Safety data sheet check record",
+    "Referral note"
+  ],
+  "stopWorkCriteria": [
+    "The material is older or unknown and not assessed",
+    "Dust reaches occupied areas"
+  ]
+}

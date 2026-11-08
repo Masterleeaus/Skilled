@@ -1,0 +1,184 @@
+{
+  "id": "NEW-FUR-08",
+  "title": "Staining, sealing and finish application",
+  "referencesAtStart": "Official references for this lesson: Safe Work Australia, Using safety data sheets (no date shown); WorkSafe Victoria, Wood dust: health hazards and control (reviewed 17 April 2026).",
+  "courseSlugs": [
+    "furniture"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 30,
+  "audience": "Furniture restorers who match colour and apply stains, seals and finishes to timber pieces.",
+  "prerequisites": [
+    "NEW-FUR-06",
+    "NEW-FUR-04"
+  ],
+  "learningOutcomes": [
+    "Judge a colour match on a test piece before the visible surface is stained.",
+    "Apply seal and finish coats in thin, even layers, with sanding between coats controlled as taught in “Wood dust and sanding controls”.",
+    "Hand back a piece only after the stated cure time, and record the products and times used."
+  ],
+  "instruction": [
+    {
+      "heading": "Colour and stain",
+      "body": "Judge the colour match on a test piece of the same timber, or on a hidden area, and check it in good daylight-equivalent light before stain goes on the visible surface. Stain takes up unevenly in some timbers and may need a seal coat first to even the absorption. Record the product and mix used for the match. Follow the product SDS and the approved procedure. Do not promise an exact match, because the same stain can look different on a different timber or a different light."
+    },
+    {
+      "heading": "Sealing and sanding between coats",
+      "body": "Seal the timber where the approved method calls for it. Sand between coats only with the extraction and respirator controls in “Wood dust and sanding controls”, using a fine grade that does not cut through the stain or the seal. Wipe off dust before the next coat, using a method that does not lift the dust back into the air."
+    },
+    {
+      "heading": "Finish application and cure",
+      "body": "Apply finish in thin, even coats, and do not overload the brush or cloth. Work with the grain, and keep the room ventilated, away from ignition sources. Oil-based products, shellac and lacquer each have their own SDS and their own recoat and cure times. Dry to touch is not the same as cured. Do not stack, wrap or hand back a piece until the stated cure time has passed."
+    },
+    {
+      "heading": "Rags and waste",
+      "body": "Some finishing materials, including oily rags, carry a storage risk. Use the approved storage and disposal procedure, and do not leave used rags in a pile. Keep them as the approved procedure and the SDS set out."
+    }
+  ],
+  "procedure": [
+    "Match the colour on a test piece under good light, and record the product and mix.",
+    "Seal the timber if the approved method calls for it.",
+    "Apply each finish coat thinly and evenly, with the grain.",
+    "Sand between coats with the controls from “Wood dust and sanding controls”, and clean the dust without compressed air.",
+    "Allow the stated drying and cure time, and check the surface.",
+    "Store or dispose of used rags as the approved procedure sets out.",
+    "Record the products, batch numbers, coats, cure times and client sign-off on the colour."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client wants a dark stain on a timber table to match a cabinet they already own. The test strip shows the table timber takes the stain unevenly.",
+      "decisionPrompt": "What do you do, and what do you tell the client?",
+      "reasoning": "Seal the timber first, test again, and adjust the mix on a fresh test piece. Tell the client that the match may vary across the grain and that the result depends on the timber. Do not promise an exact match. Record the test pieces and the client's agreement."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Test pieces of the same timber, and a daylight-equivalent light",
+    "Stains, seals and finishes with product data sheets and SDS",
+    "Business PPE as set out in {{business:safety.required_ppe}}",
+    "Extraction and respirator controls from “Wood dust and sanding controls” for sanding between coats",
+    "Closed metal container for used rags, as the approved procedure sets out"
+  ],
+  "commonErrors": [
+    {
+      "error": "Judging colour in artificial or dim light.",
+      "prevention": "Check the test piece in good daylight-equivalent light."
+    },
+    {
+      "error": "Applying thick coats to speed the job.",
+      "prevention": "Apply thin, even coats, and allow each to dry."
+    },
+    {
+      "error": "Handing back a piece before the cure time.",
+      "prevention": "Hold the piece until the stated cure time has passed."
+    },
+    {
+      "error": "Piling oily rags together.",
+      "prevention": "Follow the approved storage procedure for used rags."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Finish products have their own SDS. Read it before use and follow the ventilation and PPE controls it sets out.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Keep ignition sources away from flammable finishes and solvent vapour.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not promise colour, gloss or cure outcomes beyond what the test piece and the product data sheet show.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The colour match is agreed with the client on a test piece before the visible surface is finished.",
+    "The finish is even, with no runs, bubbles or dull patches.",
+    "The piece is cured to the stated time before it is handed back."
+  ],
+  "documentationEvidence": [
+    "Colour test record with product, mix and date",
+    "Product batch numbers, coats applied and cure times",
+    "Client sign-off on colour and finish"
+  ],
+  "summary": [
+    "Test the colour on a test piece under good light before staining the visible surface.",
+    "Apply thin coats and sand between them with the approved controls.",
+    "Dry to touch is not cured. Hand back only after the stated cure time."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.waste_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FUR-08-K01",
+      "question": "Why is a stain colour judged on a test piece first?",
+      "options": [
+        "It is not needed if the client chooses the colour from the sample card",
+        "It replaces the SDS for the stain and the finish being used on the piece",
+        "It shows how the stain takes on this timber before the real piece is stained"
+      ]
+    },
+    {
+      "id": "NEW-FUR-08-K02",
+      "question": "A finish feels dry to touch an hour after application. What does that mean?",
+      "options": [
+        "It may be dust-free but not cured, so the piece is not handed back until the stated cure time",
+        "It is fully cured, so the piece can be handed back straight away to the client",
+        "It is ready to stack with other pieces in the shop without any delay at all today"
+      ]
+    },
+    {
+      "id": "NEW-FUR-08-K03",
+      "question": "Why are oily rags a concern?",
+      "options": [
+        "They are always safe to keep in the shop, since they dry out quickly on the bench",
+        "Piling them can create a fire risk, so the approved storage procedure must be followed",
+        "They only cause stains on the timber and the fabric of the piece being restored"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references (repeated for the end of the lesson): Safe Work Australia, Using safety data sheets (no date shown); WorkSafe Victoria, Wood dust: health hazards and control (reviewed 17 April 2026).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets (checked 2026-11-02; SDS access duty)",
+    "https://www.worksafe.vic.gov.au/wood-dust-health-hazards-and-control (checked 2026-11-02; sanding dust controls, reviewed 17/04/2026)",
+    "UNCONFIRMED: stain product rules; recoat and cure times; oily rag storage standard; ignition standards for finishing. Research brief: /home/claude/work/team/research-topics/furniture.md, sections 2 and 5."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Using safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Workplace duty to keep SDS in the hazardous chemical register, and to make them easy to access for the people named on the page. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Wood dust: health hazards and control",
+      "url": "https://www.worksafe.vic.gov.au/wood-dust-health-hazards-and-control",
+      "pageDate": "Reviewed 17 April 2026",
+      "checked": "2026-11-03",
+      "covers": "Dust class, extraction, compressed air and respirator guidance, and the exposure figures it lists from Safe Work Australia. Recheck the national list before quoting any figure. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-15.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/bond-photo-54facd4a-01.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    }
+  ]
+}

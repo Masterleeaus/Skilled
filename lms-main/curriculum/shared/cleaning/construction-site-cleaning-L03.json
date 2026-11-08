@@ -1,0 +1,164 @@
+{
+  "id": "construction-site-cleaning-L03",
+  "title": "Hazard recognition and unknown materials",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners on construction and post-construction sites who may encounter dust, debris and unidentified materials.",
+  "prerequisites": [
+    "construction-site-cleaning-L01",
+    "construction-site-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Recognise warning signs of silica, lead, asbestos, sharp metal or glass, wet cement, electrical and biological hazards without touching the material.",
+    "Isolate suspected uncontrolled hazardous material from a safe position.",
+    "Report the material to the site controller and leave removal to qualified specialists."
+  ],
+  "instruction": [
+    {
+      "heading": "Recognising the signs",
+      "body": "Some hazards on a construction site can be recognised by what you see. Dusty cut masonry can carry crystalline silica. Damaged insulation, peeling suspect coatings and older building materials may contain asbestos or lead. Sharp offcuts and broken glass are physical hazards. Unsecured wiring is an electrical hazard, unlabelled drums are a chemical hazard, and wet uncured materials such as cement can cause burns and skin damage. Biological hazards may be present in some situations. Recognise these signs, but do not sample or handle the material to identify it."
+    },
+    {
+      "heading": "Appearance cannot identify the material",
+      "body": "You cannot tell asbestos, lead or the concentration of silica by looking at them. A powder that resembles harmless dust may be hazardous, and a bag labelled offcuts may contain something else. Treat any suspicious or unidentified material as outside routine cleaning. Do not empty a bag to see what is inside, and do not sweep the powder up because it looks like dust."
+    },
+    {
+      "heading": "Isolating and reporting",
+      "body": "Isolate the area from a safe position, keep other workers out, and report the material to the site controller. Record its location and what you observed without disturbing it. Ask for the documented material and dust plan. Only qualified and authorised specialists may identify and remove regulated material."
+    },
+    {
+      "heading": "Sorting the situation",
+      "body": "In practice, a hazard card may be routine authorised work, something that needs supervisor clarification, or an immediate stop-work condition. Routine work is the cleaning that the plan already covers. Clarification is needed where the material is known but its handling is not set out. Stop-work applies to any unidentified or uncontrolled hazardous material. The person who resolves each issue is named in the site plan."
+    }
+  ],
+  "procedure": [
+    "Stop and step back if you see dusty cut masonry, damaged insulation, suspect coatings, unlabelled drums or wet uncured material.",
+    "Do not touch, sample, sweep, empty or move the material.",
+    "Keep others out of the area and record the location, time and what you observed.",
+    "Report the material to the site controller and ask for the documented material and dust plan.",
+    "Wait for the documented authority before any further cleaning in the area."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker sees powder under freshly cut benchtops and a bag labelled offcuts.",
+      "decisionPrompt": "What do you do with the powder and the bag?",
+      "reasoning": "Do not empty the bag or sweep the powder. Record the locations without disturbing them, keep others away, and request the documented material and dust plan from the site controller. Cleaning resumes only when the plan says it is safe to do so."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Respiratory protection as the site's dust assessment requires, with a fit check before use.",
+    "Gloves and eye protection for handling debris that is known to be safe.",
+    "Hazard card set for training, and the site's material register."
+  ],
+  "commonErrors": [
+    {
+      "error": "Sweeping up powder that looks like harmless dust.",
+      "prevention": "Treat unidentified powder as outside scope and report it."
+    },
+    {
+      "error": "Emptying a bag labelled offcuts to check it.",
+      "prevention": "Record the bag without opening it, and ask for the material plan."
+    },
+    {
+      "error": "Identifying a material by touch or smell.",
+      "prevention": "Never sample or handle an unknown material to identify it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Asbestos removal needs an asbestos removal licence. Victoria has Class A and Class B licences, and a small unlicensed allowance for non-friable asbestos only (an area of not more than 10 square metres in total, and a total time of not more than 1 hour in any period of 7 days which is cumulative across all employees). Friable asbestos has no such allowance. Removal above either limit needs a licence, and this lesson does not grant one. Queensland licences Class A and Class B, with no licence needed for 10 square metres or less of non-friable asbestos. This lesson does not grant any asbestos licence, and a cleaner must not remove, sweep up or clean up suspected asbestos.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Lead and silica exposure is managed under work health and safety duties and any exposure limits that apply. The workplace exposure limit list changes nationally on 1 December 2026, when Safe Work Australia replaces the workplace exposure standards list; WorkSafe Victoria says most limits apply in Victoria from that date, with transition arrangements for 15 substances until 30 November 2029, so current limits must be checked before they are cited.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Hazard card sorted into routine, clarification or stop-work, with the responsible person named.",
+    "Unidentified material isolated and reported without disturbance in the simulated task.",
+    "No sampling or identification by touch."
+  ],
+  "documentationEvidence": [
+    "Location, time and observation record for the unidentified material.",
+    "Report to the site controller and the documented material and dust plan reference."
+  ],
+  "summary": [
+    "Recognise the warning signs, but do not identify materials by touch.",
+    "Treat unidentified material as outside routine cleaning.",
+    "Isolate, record and report to the site controller.",
+    "Only qualified and authorised specialists remove regulated material."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L03-K01",
+      "question": "Powder appears under freshly cut benchtops. What is the correct response?",
+      "options": [
+        "Sweep it up because it looks like dust and it is probably harmless",
+        "Taste a small amount to identify it and then report it",
+        "Isolate the area, record it without disturbing it, and report it"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L03-K02",
+      "question": "Can you tell whether material is asbestos by looking at it?",
+      "options": [
+        "No, appearance cannot identify asbestos or lead",
+        "Yes, from the colour and the texture of the surface",
+        "Yes, if it is old and it looks dusty and worn"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L03-K03",
+      "question": "Who may identify and remove regulated hazardous material?",
+      "options": [
+        "Any cleaner who is on site today",
+        "Qualified and authorised specialists",
+        "The client's family and friends"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L03.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "https://www.worksafe.vic.gov.au/hazardous-substances (exposure list change; checked 2026-11-02 via research/personal/REGULATION-MATRIX-NATIONAL.csv row ALL-VIC-02)",
+    "https://ablis.business.gov.au/service/vic/asbestos-removal-licence/24612 (Victorian asbestos removal licence; checked 2026-11-02 via LICENCE-MATRIX.csv row VIC-31)",
+    "https://www.asbestos.vic.gov.au/builders-and-trades/asbestos-removalists/unlicensed-asbestos-removal (Victorian unlicensed allowance; checked 2026-11-02 via LICENCE-MATRIX.csv row VIC-32)",
+    "https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/which-businesses-are-licensed-to-remove-asbestos-in-queensland (checked 2026-11-02 via LICENCE-MATRIX.csv row QLD-10)",
+    "https://www.safework.nsw.gov.au/licences-and-registrations/licences (checked 2026-11-02 via LICENCE-MATRIX.csv row NSW-15; thresholds UNCONFIRMED)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Class B asbestos removal licence",
+      "url": "https://www.safework.nsw.gov.au/licences-and-registrations/licences/class-b-asbestos-removal-licence",
+      "pageDate": "Published 12 November 2025; last modified 12 March 2026",
+      "checked": "2026-11-03",
+      "covers": "Check when a Class B licence is needed for non-friable asbestos. Publisher: SafeWork NSW."
+    },
+    {
+      "id": "R2",
+      "title": "Asbestos Victoria: Unlicensed asbestos removal",
+      "url": "https://www.asbestos.vic.gov.au/builders-and-trades/asbestos-removalists/unlicensed-asbestos-removal",
+      "pageDate": "Shows an 'Updated' label with no date",
+      "checked": "2026-11-03",
+      "covers": "Victorian asbestos page: an employer or self-employed person can conduct a limited amount of asbestos removal work without a licence. The removal of non-friable asbestos-containing material is covered if the area of asbestos-containing material to be removed does not exceed 10 square metres in total, and the total time asbestos removal work is performed in any period of seven days does not exceed one hour (this period is the cumulative total time the asbestos removal work is carried out by all employees over a period of seven days). Shows an 'Updated' label with no date. Publisher: Asbestos Victoria (Victorian Government)."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,174 @@
+{
+  "id": "property-maintenance-L10",
+  "title": "Preventive maintenance scheduling",
+  "referencesAtStart": "Official sources for this lesson: NSW Government, Electrical licences and credentials (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting (last updated 31 July 2026; page metadata shows a later modified date).",
+  "courseSlugs": [
+    "handyman",
+    "residential",
+    "garden"
+  ],
+  "moduleTitle": "Property manager partner (module)",
+  "layer": "group",
+  "lessonType": "W",
+  "estimatedMinutes": 35,
+  "audience": "Property manager partner workers who plan recurring maintenance for properties and assets",
+  "prerequisites": [
+    "property-maintenance-L02",
+    "property-maintenance-L03"
+  ],
+  "learningOutcomes": [
+    "Set maintenance intervals from manufacturer guidance, criticality and site history.",
+    "Replace a calendar-only plan with condition-based checks where failures recur.",
+    "Schedule preventive work so that it is visible, approved and recorded against each asset."
+  ],
+  "instruction": [
+    {
+      "heading": "Start from the asset register and the manufacturer",
+      "body": "A preventive plan is built from the asset register. For each item, use the manufacturer's recommended service intervals where they are available, and record where they come from. Where no manufacturer guidance is held, say so and set an interval based on the item's criticality and history, and review it. Rank items by consequence: an item whose failure would cause water damage, loss of heat or a safety hazard is scheduled earlier and more often than an item whose failure is an inconvenience."
+    },
+    {
+      "heading": "Use history, not only the calendar",
+      "body": "A calendar-only plan may miss recurring failures. If a pump has failed repeatedly before its annual service, a fixed yearly date is not enough. Review fault dates, running hours or usage where known, and the criticality of the item, and propose condition-based inspections between services. Propose authorised servicing where the failure pattern points to a fault the planned service would not address. Record the reason for each change to an interval."
+    },
+    {
+      "heading": "Schedule, approve and record",
+      "body": "Each scheduled item needs an owner, a due date, and an approval status. Preventive work is proposed to the owner or manager, and it is not started until it is approved. Record each visit against the asset, with what was checked, what was done, what was found, and what is due next. A schedule that is never updated after a visit is out of date from the first day."
+    }
+  ],
+  "procedure": [
+    "List each asset from the register and record its manufacturer interval, if available, and the source of that interval.",
+    "Rank each asset by the consequence of failure.",
+    "Review the fault history and usage for each asset, and identify recurring faults.",
+    "Propose condition-based checks and authorised servicing where the history shows recurring faults.",
+    "Send the proposed schedule for approval, with owner and due date for each item.",
+    "Record each visit against the asset and update the next due date."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pump has failed three times in the last year, although its annual service is still due in six months.",
+      "decisionPrompt": "Should the annual date be kept as the only interval?",
+      "reasoning": "No. The recurring failures show the calendar is not catching the fault. Propose condition-based checks between services, and authorised servicing that addresses the recurring fault. Record the reason for the change, send it for approval, and update the due dates on the register."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Asset register with manufacturer and history fields",
+    "Scheduling template with owner, due date and approval status",
+    "Access to manufacturer guidance held for each asset"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a yearly date for every item regardless of its failure history.",
+      "prevention": "Review history for each item, and change the interval where failures recur."
+    },
+    {
+      "error": "Starting preventive work before the owner approves it.",
+      "prevention": "Send the schedule for written approval, and record the approval status."
+    },
+    {
+      "error": "Not updating the schedule after a visit.",
+      "prevention": "Record each visit against the asset and update the next due date at the same time."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Servicing that involves electrical, gas or plumbing work is subject to the positions in “Electrical boundaries and referral” and “Water, plumbing and gas boundaries”. In New South Wales, wiring needs a licence or certificate whatever the cost, except for equipment at not more than 50 volts AC or 120 volts ripple-free DC (electrical page, last updated 23 June 2026), and plumbing, draining and gasfitting need one at any price (plumbing page, last updated 31 July 2026).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not give a licence, certificate or authority to perform servicing that requires one.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each asset has an interval and a recorded source for that interval.",
+    "Intervals for items with recurring faults are reviewed and the reason is recorded.",
+    "No preventive work starts before written approval."
+  ],
+  "documentationEvidence": [
+    "Preventive schedule with interval, source, owner, due date and approval status",
+    "Record of each change to an interval, with the reason",
+    "Visit record against each asset"
+  ],
+  "summary": [
+    "Build intervals from manufacturer guidance, criticality and history, and record the source.",
+    "Use condition-based checks where failures recur, not only the calendar.",
+    "Get approval for each item, and update the due date after every visit."
+  ],
+  "businessFields": [
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:jobs.scheduling_method}}",
+    "{{business:equipment.manufacturer_manual_url}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "property-maintenance-L10-K01",
+      "question": "A pump has failed three times before its annual service. What is the best change to the plan?",
+      "options": [
+        "Keep the annual date only, since the schedule is set and the pump is still under warranty today",
+        "Remove the pump from the register, since it has failed too often to be worth keeping on the list",
+        "Add condition-based checks and propose authorised servicing for the recurring fault, with the reason recorded",
+        "Wait for a fourth failure, since three failures may be a coincidence and not a pattern at all"
+      ]
+    },
+    {
+      "id": "property-maintenance-L10-K02",
+      "question": "When should a preventive visit be carried out?",
+      "options": [
+        "As soon as it is scheduled, without approval",
+        "Whenever the worker has a spare hour in the day",
+        "Only after the owner or manager approves it in writing",
+        "Only after the item fails in service and needs repair"
+      ]
+    },
+    {
+      "id": "property-maintenance-L10-K03",
+      "question": "Where no manufacturer guidance is held, what does the lesson say to do?",
+      "options": [
+        "Use the annual date for every item",
+        "Say so, set an interval based on criticality and history, and review it",
+        "Skip the item until it fails",
+        "Copy the interval from a neighbouring property"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official sources, repeated for checking: NSW Government, Electrical licences and credentials (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting (last updated 31 July 2026; page metadata shows a later modified date).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electrical licences and credentials",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Check whether a licence or certificate applies to wiring work. The page sets no dollar threshold and does not mention solar or battery systems. Publisher: NSW Government."
+    },
+    {
+      "id": "R2",
+      "title": "Plumbing, draining and gasfitting",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+      "pageDate": "Last updated 31 July 2026 (page metadata shows a later modified date)",
+      "checked": "2026-11-03",
+      "covers": "Check the licence categories and the penalty amounts for unlicensed work. Publisher: NSW Government."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "lessons/ready/property-maintenance-L10.json (source draft, pm31-au02 as cited; reference not in this workspace, UNCONFIRMED)",
+    "research/trades/NOTES.md (pool barrier positions NSW-12, NSW-13, QLD-08, QLD-14 as recorded in the matrices, checked 2026-11-02)",
+    "Scheduling method: internal course guidance, UNCONFIRMED against any manufacturer data"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/locksmith-photo-5761ccff-09.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/locksmith-photo-5761ccff-10.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pass": 18,
+  "changed": [
+    "lms-main/apps/backend/prisma/manage-titan-credentials.ts"
+  ],
+  "added": [
+    "lms-main/PASS18-CREDENTIAL-OPERATIONS.md"
+  ],
+  "deleted": [],
+  "runtime_checks": [
+    "Node 22 TypeScript syntax check",
+    "ZIP CRC and duplicate names"
+  ],
+  "limitations": [
+    "Prisma validation unavailable",
+    "No PostgreSQL instance",
+    "No node_modules installed"
+  ]
+}

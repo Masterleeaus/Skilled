@@ -1,0 +1,142 @@
+{
+  "id": "kitchen-cleaning-L10",
+  "title": "Floors, spills, waste and pest signs",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who manage floors, spills, waste and pest evidence in kitchens.",
+  "prerequisites": [
+    "kitchen-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Plan waste removal routes that avoid crossing ready-to-eat preparation spaces.",
+    "Control slip hazards on wet kitchen floors during and after cleaning.",
+    "Report pest evidence and broken glass for authorised response without disturbing them."
+  ],
+  "instruction": [
+    {
+      "heading": "Waste routes and containers",
+      "body": "Waste is a contamination pathway. Remove it on agreed routes, using sealed or suitable containers, and avoid crossing ready-to-eat preparation spaces with it. When bins overflow near a preparation line, the first step is to separate the clean and dirty traffic and restrict access to the area, rather than carrying the waste through the work zone. Ask the supervisor which route and which container the site requires."
+    },
+    {
+      "heading": "Wet floors and slip control",
+      "body": "Kitchen floors become slippery with grease and water. Keep wet floors barricaded until they are safe to walk on, and do not reopen a wet traffic zone while the slip hazard persists. Use the site's floor-cleaning method, and dry the surface where the procedure requires it. Do not sweep contamination into food areas, and do not allow mop water to reach food or equipment."
+    },
+    {
+      "heading": "Pests and sharp debris",
+      "body": "Report pest activity, droppings and any evidence of pests to the supervisor for an authorised response. Do not apply pesticide yourself, because pest control products are used under their own rules and by authorised people. Broken glass and contaminated materials are reported for an authorised response before you clean them up, unless the site procedure says you can do so safely with the right tools."
+    },
+    {
+      "heading": "Clean after assessment",
+      "body": "Clean the affected surface only after the hazard has been assessed and the site has authorised the cleaning. Record what was found, who was told, and the time, so that the site can track recurring pest evidence and trace the cause."
+    }
+  ],
+  "procedure": [
+    "Confirm the waste route and container with the supervisor before moving bins.",
+    "Avoid crossing ready-to-eat preparation spaces with waste.",
+    "Barricade wet floors and keep them closed to traffic until the slip hazard is controlled.",
+    "Report pest evidence and broken glass for authorised response before cleaning them up.",
+    "Do not sweep contamination into food areas or apply pesticide yourself.",
+    "Record the findings, the people informed and the time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Waste bins overflow near a preparation line, and the floor is wet during service.",
+      "decisionPrompt": "What do you do first?",
+      "reasoning": "Separate clean and dirty traffic and restrict access to the area. Protect the food from contamination, report the overflow and the wet floor to the supervisor, and keep the wet zone closed until it is safe. Do not carry the waste through the preparation line."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Sealed or suitable waste containers and bin liners.",
+    "Wet-floor signs and barricades.",
+    "Gloves and non-slip footwear.",
+    "Dustpan and brush for broken glass only after authorisation."
+  ],
+  "commonErrors": [
+    {
+      "error": "Carrying waste across a ready-to-eat preparation space.",
+      "prevention": "Use the agreed route and avoid preparation spaces."
+    },
+    {
+      "error": "Reopening a wet zone while the floor is still slippery.",
+      "prevention": "Keep the zone closed until the slip hazard is controlled."
+    },
+    {
+      "error": "Applying pesticide to pest evidence yourself.",
+      "prevention": "Report the evidence and leave the response to the authorised person."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pesticides and pest control products are subject to their own labelling and use rules. In Victoria, a business or service that uses a prescribed class of pesticide must hold a commercial operator licence, unless it ensures that all use is by a licensed person (Victorian Department of Health page, updated 2 January 2025). This lesson does not authorise a cleaner to apply them.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Waste route agreed and used without crossing preparation spaces, in the simulated task.",
+    "Wet zone closed until the slip hazard is controlled.",
+    "Pest evidence and glass reported before cleaning, with a record."
+  ],
+  "documentationEvidence": [
+    "Report of pest evidence, with time and location.",
+    "Record of a wet-floor or spill event and the controls applied."
+  ],
+  "summary": [
+    "Plan waste routes that keep dirty traffic away from food.",
+    "Keep wet zones closed until the slip hazard is controlled.",
+    "Report pests and glass for authorised response.",
+    "Clean only after the hazard has been assessed."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-cleaning-L10-K01",
+      "question": "Waste bins overflow beside a preparation line. What is the first step?",
+      "options": [
+        "Separate clean and dirty traffic and restrict access to the area",
+        "Carry the bins straight through the preparation line",
+        "Mop the floor while the bins are still overflowing"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L10-K02",
+      "question": "You find droppings that suggest pests. What should you do?",
+      "options": [
+        "Apply a pesticide to be safe and then sweep it up",
+        "Report the evidence for an authorised response",
+        "Sweep the droppings into the food area"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L10-K03",
+      "question": "When can a wet kitchen floor be reopened to traffic?",
+      "options": [
+        "As soon as the mop has passed over it and the area looks dry to you",
+        "When the supervisor is not looking and the mop has been put away",
+        "When the slip hazard is controlled and the floor is safe to walk on"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-cleaning-L10.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory rules for pest control and pesticide use in food premises.",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises. The operator's food safety program governs the site. This lesson does not confer a food handling qualification."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

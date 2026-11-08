@@ -1,0 +1,229 @@
+{
+  "id": "industrial-degreasing-L10",
+  "title": "Work coordination, change control and simultaneous operations",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 35,
+  "audience": "Supervisors and cleaners working alongside other contractors and maintenance on an industrial site.",
+  "prerequisites": [
+    "industrial-degreasing-L02"
+  ],
+  "learningOutcomes": [
+    "Recognise an unexpected restart, another contractor entering or a shifted boundary as a stop-and-reauthorise event.",
+    "Explain why a cleaning sign-off does not survive a later change to the machine.",
+    "Record the change and refer the restart to the authorised person."
+  ],
+  "instruction": [
+    {
+      "heading": "What a sign-off describes",
+      "body": "A cleaning sign-off describes the machine as it was when the cleaning was checked. It records a state: the plant was isolated or otherwise made safe, the boundaries were agreed, the people and areas were known, and the cleaning was observed. The sign-off is a record of that moment, and it is only as good as the conditions behind it. Once those conditions change, the sign-off no longer describes the situation in front of you. Many degreasing incidents, and many near misses, begin with someone acting on an earlier record as if it were current. Treat every sign-off as dated and conditional. When the state of the machine, the boundary or the people working around it changes, the question of whether it is safe to proceed has to be asked again by the people who have the authority to answer it."
+    },
+    {
+      "heading": "Events that call for a stop and reauthorisation",
+      "body": "Some events always trigger a stop. An unexpected restart of the plant, even a brief one, is a trigger, because the energy state has changed without the knowledge of the people nearby. Another contractor entering the area, or starting work on the same machine, is a trigger, because their work may depend on a different isolation or may affect yours. A shifted boundary is a trigger, because the area you cleared may no longer be the area you were authorised to work in. Other triggers include a guard removed or refitted, a change in the product or method, the isolation being added or removed, an alarm or fault that was not present at sign-off, and the end of a shift where handover is incomplete. When a trigger happens, stop work in the affected area, keep people clear where that is safe, and do not resume until the authorised person has confirmed the state of the machine and the authority to proceed."
+    },
+    {
+      "heading": "Isolation, guarding and restart",
+      "body": "The Safe Work Australia plant code of practice recommends that plant is isolated before cleaning or maintenance begins, and where it cannot be isolated, that controlled procedures prevent accidental operation. It also says that isolation should cover every potentially hazardous energy source, including electricity, stored energy and gravity, and that a verification step is needed to confirm the isolation worked. The code describes lock-out as the most effective method, with each worker using their own lock, tag and key, and it does not treat a tag alone as an isolation device. Verification is done by trying to start the plant from a safe position, so that you confirm the isolation before you rely on it. Where guarding is removed for cleaning or maintenance, the code says the energy source should be eliminated first, and the plant should not restart until the guarding has been put back. A cleaner should not do any of these steps. A cleaner should confirm that they have been done, by the person who controls the plant, before work starts."
+    },
+    {
+      "heading": "Maintenance changes after sign-off",
+      "body": "Consider a case where maintenance personnel change the machine's configuration after the cleaning sign-off. They may have adjusted a valve, swapped a part, changed a setpoint or taken a guard off to reach a component. The cleaner cannot know from outside the machine whether it is now safe to be near it, and should not assume that the change was minor. Work stops until the machine state and the authority to proceed are confirmed by the competent site personnel. The sign-off is not reinstated by a conversation with the maintenance team. It is replaced by a new check, recorded at the time it was done, against the new machine state. The same principle applies to the confined space code, which says that an entry permit should be re-validated if the person in direct control changes, if the work is interrupted or if new hazards appear. The sign-off and the permit are both tied to the conditions they were issued under."
+    },
+    {
+      "heading": "Simultaneous operations and shared responsibility",
+      "body": "When several parties work on the same plant or in the same area, each has its own duty, and those duties overlap. The Safe Work Australia guidance on managing risks says that parties who share responsibility should consult, co-operate and co-ordinate, and that a party should not assume another is handling a matter. In practice, agree at the start of the shift which party controls which area and which isolation, and how changes will be communicated. Confirm each change with the party that made it. A verbal assurance from a contractor that a machine is fine is not confirmation from the person who controls it. Where there is a dispute about who holds a control, stop and refer it to the site supervisor who holds the overall control of the area."
+    },
+    {
+      "heading": "Recording the change and handing over",
+      "body": "Record each change at the time it is noticed. Note the time, the area, the machine or boundary involved, what changed, what you observed, the source of your information, the people you told, and the restriction you applied. Say what you do not know. Do not describe the machine as safe, clear or ready. Compare what you can see against the planned and authorised housekeeping only, not against what you hope is still true. Handover is restricted until the responsible owner has confirmed the outstanding restricted work, the state of the machine, and who may decide on restart and on any chemical matter. If the handover is to a new shift, the outgoing person should note the open items clearly, and the incoming person should not start on the basis of the old sign-off."
+    }
+  ],
+  "procedure": [
+    "Treat an unexpected restart, another contractor entering the area or a shifted boundary as a stop-and-reauthorise event, and stop work in the affected area.",
+    "Keep people clear of the affected area where that is safe, and do not approach moving parts or energy sources to check.",
+    "Do not rely on the earlier sign-off once the machine state, boundary or people have changed.",
+    "Ask the competent site personnel to confirm the machine state, the isolation status and the authority to proceed, and do not resume until they do.",
+    "Record the change: time, area, what changed, what you observed, source of information, people informed and the restriction applied.",
+    "Confirm any change with the party that made it, and refer any dispute about control to the site supervisor.",
+    "Restrict handover until the owner has confirmed outstanding restricted work and who may decide on restart and chemical matters."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Maintenance personnel change the machine configuration after your cleaning sign-off. They tell you it is only a small adjustment and you can carry on around the side. (Example scenario; the machine and adjustment are fictional.)",
+      "decisionPrompt": "Do you carry on, and what does the earlier sign-off now mean?",
+      "reasoning": "Stop. The earlier sign-off describes the machine before the change, so it no longer describes the machine in front of you. Keep clear of the area, and record the change, the time, the maintenance statement and the fact that you did not verify the change. Ask the responsible supervisor to confirm the machine state and the authority to proceed. Do not resume on the basis of the old sign-off or on the statement that the change was small."
+    },
+    {
+      "situation": "While degreasing the inside of a guarded section, you see a second contractor enter the same bay with a tool. They say their job is in the other half of the bay, but the boundary tape has been moved. (Example scenario.)",
+      "decisionPrompt": "What is the first action, and what must be confirmed before anyone enters the guarded section?",
+      "reasoning": "Stop work in the affected section and move to a safe position. Tell the second contractor and the site supervisor that the boundary has moved and that your area is affected. Confirm the isolation status with the controlling party. If the work is inside a tank or other confined space, no entry can resume until a permit has been re-validated by a competent person, because the person in direct control and the conditions have changed. Record the shifted boundary and the contractor's statement."
+    },
+    {
+      "situation": "An operator, unaware that cleaning is in progress, starts the machine briefly to check a fault. (Example scenario.)",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Keep clear of the moving parts and do not reach toward the machine. Raise the alarm in the way the site procedure sets out, and tell the operator and the supervisor at once that the machine has moved while work was in progress. The restart is an unexpected event, so the area stays stopped until the competent person has confirmed the isolation and the state of the machine. Record the time, the event, the people informed and the restriction. Do not attempt to isolate the machine yourself unless you are authorised and trained to do so."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Work order and cleaning sign-off record, dated, with the machine state it describes.",
+    "Change record form, with fields for time, area, what changed, observation, source, people informed and restriction.",
+    "Site-issued isolation and tagging materials, used only by people authorised to isolate.",
+    "Personal lock and key, where the site lock-out system issues one to a worker. Cleaners use these only under the site program.",
+    "Two-way radio or other agreed communication to reach the supervisor and the controlling contractor.",
+    "Boundary tape or barrier and signage, placed by the site as the authorisation requires.",
+    "Gloves, eye protection and closed footwear as set by the SDS and the site procedure."
+  ],
+  "commonErrors": [
+    {
+      "error": "Relying on a sign-off from before a change to the machine.",
+      "prevention": "Treat every sign-off as dated. Stop and reauthorise after any change."
+    },
+    {
+      "error": "Continuing because the other contractor says the change is fine.",
+      "prevention": "Confirmation comes from the person who controls the plant, in a recorded check."
+    },
+    {
+      "error": "Treating a tag as proof of isolation.",
+      "prevention": "Ask for the isolation record, confirm the lock-out and verification, and do not start until both are confirmed."
+    },
+    {
+      "error": "Checking a machine by trying to start it.",
+      "prevention": "Verification is carried out by the competent person from a safe position, under the site procedure, and not by the cleaner."
+    },
+    {
+      "error": "Handing over as complete while work is still open.",
+      "prevention": "Restrict handover until the owner confirms outstanding decisions in writing."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The Safe Work Australia plant code (March 2016 as shown in the document) recommends isolating plant before cleaning or maintenance, controlled procedures where isolation is not possible, lock-out as the most effective method, and verification of isolation.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Section 3.7 of the plant code says that where plant must run during cleaning or maintenance, the operator controls must allow safe operation and only an authorised person may operate the plant. This lesson does not grant any isolation, operating or restart authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Safe Work Australia confined spaces code (December 2011, corrected 19 February 2014) says an entry permit should be re-validated if the person in direct control changes, if the work is interrupted or if new hazards arise (section 5.4, as read in the code).",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Safe Work Australia guidance on shared duties (How to manage WHS risks, December 2011, section 1.3) recommends consulting, co-operating and co-ordinating with other duty holders, and that a party should not assume another is dealing with a matter.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The earlier draft's statement that a competent person must carry out upkeep and trial work under a section of the plant code was not supported by the text read in this pass and is removed.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each trigger in the case study (unexpected restart, contractor entry, shifted boundary, machine change) is identified as a stop-and-reauthorise event.",
+    "The sign-off is treated as not current after the change, and the learner does not rely on it in any scenario.",
+    "The change record is completed with the required fields and makes no claim that the machine is safe or ready.",
+    "Handover is restricted in the case study, with the outstanding decisions and their owners named."
+  ],
+  "documentationEvidence": [
+    "Change record with time, area, what changed, observation, source, people informed and restriction.",
+    "Restricted handover record naming the owner of each outstanding decision.",
+    "Referral record for any dispute about control of an area, with the site supervisor named."
+  ],
+  "summary": [
+    "A sign-off describes a machine state at a moment; it does not describe the machine after a change.",
+    "An unexpected restart, a second contractor entering or a moved boundary is a stop-and-reauthorise event.",
+    "Record the change, refer the restart to the authorised person, and restrict handover until the owner confirms."
+  ],
+  "businessFields": [
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:jobs.signoff_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "industrial-degreasing-L10-K01",
+      "question": "Maintenance changes a machine after cleaning sign-off. Is the earlier sign-off still valid?",
+      "options": [
+        "Yes, because it was signed off by the supervisor and dated",
+        "Yes, if the change seems small and does not affect the cleaning",
+        "No, stop and have the machine state and authority reconfirmed"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L10-K02",
+      "question": "Which event is a stop-and-reauthorise trigger?",
+      "options": [
+        "A tidy floor at the start of the shift",
+        "An unexpected restart of the plant",
+        "A quiet shift with no contractors"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L10-K03",
+      "question": "When can handover be completed?",
+      "options": [
+        "Immediately, to finish the shift on time and let the team go home",
+        "When the cleaner leaves the site after the last task is done",
+        "When the owner has confirmed outstanding restricted work and decisions"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Managing risks of plant in the workplace: Code of Practice",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1705/mcop-managing-risks-of-plant-in-the-workplace-v3.pdf",
+      "pageDate": "March 2016 (as shown in the document; list of amendments truncated)",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia model codes page and the state WHS regulator for the adopted version. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Confined spaces: Code of Practice",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1705/mcop-confined-spaces-v1.pdf",
+      "pageDate": "December 2011; list of amendments records a correction dated 19 February 2014",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia model codes page and the state WHS regulator. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R3",
+      "title": "How to manage work health and safety risks: Code of Practice",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1702/how_to_manage_whs_risks.pdf",
+      "pageDate": "December 2011 (cover page, as shown)",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia model codes page and the state WHS regulator. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Managing risks of plant in the workplace (March 2016, as shown); Safe Work Australia, Confined spaces (December 2011; a correction dated 19 February 2014 is recorded in the list of amendments); Safe Work Australia, How to manage WHS risks (December 2011).",
+  "referencesAtEnd": "Recheck before use: Managing risks of plant, sections 3.5 to 3.7 and 4.1 and 4.5; Confined spaces, section 5.4; How to manage WHS risks, section 1.3.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/industrial-degreasing-L10.json (draft pass, not technically reviewed); its generic simulation content was not copied.",
+    "R1 Safe Work Australia, Managing risks of plant in the workplace (March 2016 as shown), sections 3.5, 3.6, 3.7, 4.1 and 4.5; checked 2026-11-03; rights: not held by user; reworded (no copying)",
+    "R2 Safe Work Australia, Confined spaces (December 2011, correction 19 February 2014), section 5.4; checked 2026-11-03",
+    "R3 Safe Work Australia, How to manage WHS risks (December 2011), section 1.3; checked 2026-11-03",
+    "Removed from the earlier draft: the citation of section 3.6 with a 17 December 2015 instrument date for a competent-person requirement. Section 3.6 was read and does not contain that requirement; the instrument date was not verified. The competent-person point is UNCONFIRMED.",
+    "UNCONFIRMED: state and territory adoption of the plant code and the confined spaces code.",
+    "UNCONFIRMED: state and territory licence and competency requirements for plant isolation and degreasing work.",
+    "Working practice (not regulatory text): the stop-reauthorise trigger list, the change record fields and the restricted handover routine are site-practice guidance."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/hardfloor-photo-d1d55e00-09.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/hardfloor-photo-d1d55e00-10.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-BEA-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-BEA-03-K01",
+      "correctIndex": 1,
+      "rationale": "The therapist cannot diagnose a rash. The advised action is to postpone, refer and record the decision."
+    },
+    {
+      "id": "NEW-BEA-03-K02",
+      "correctIndex": 2,
+      "rationale": "Where the product instructions require a patch test, it must be carried out and recorded. A past service does not replace it."
+    },
+    {
+      "id": "NEW-BEA-03-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson lists an open wound, a skin infection, a recent reaction to a product and a skin condition the therapist cannot assess as common examples. An open wound is one of them."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor observes the candidate complete an intake review with a simulated client who has a stated contraindication, and postpone the treatment with a referral record",
+    "Assessor observes the candidate carry out a patch test following the product instructions, and record product, site, time applied, time read, result and response",
+    "Assessor checks that the consent record is completed and dated before the simulated treatment starts"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Intake form for the simulated client with answers recorded",
+    "Patch test record with the six required fields",
+    "Consent record dated before the treatment"
+  ],
+  "stopWorkCriteria": [
+    "The candidate proceeds with a treatment where a contraindication is present and unresolved",
+    "The candidate skips a patch test that the product instructions require",
+    "The candidate starts the treatment with no consent recorded"
+  ]
+}

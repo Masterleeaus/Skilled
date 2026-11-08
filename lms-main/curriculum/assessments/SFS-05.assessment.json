@@ -1,0 +1,35 @@
+{
+  "lessonId": "SFS-05",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-05-K01",
+      "correctIndex": 0,
+      "rationale": "Discounts and unit prices sit on the task lines, so the invoice can be assembled from them."
+    },
+    {
+      "id": "SFS-05-K02",
+      "correctIndex": 0,
+      "rationale": "Recording the cancellation and linking the follow-up keeps both the history and the reason for the cancellation."
+    },
+    {
+      "id": "SFS-05-K03",
+      "correctIndex": 1,
+      "rationale": "A tick shows progress on one step. Payment and site departure are recorded elsewhere."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (job header, task steps, pricing and cancellations) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "kitchen-exhaust-L12",
+  "knowledgeAnswers": [
+    {
+      "id": "kitchen-exhaust-L12-K01",
+      "correctIndex": 1,
+      "rationale": "A cleaner's handover cannot make a certificate, compliance or fire-safety statement. The request is declined and referred to the competent person, and the scope and limits are stated."
+    },
+    {
+      "id": "kitchen-exhaust-L12-K02",
+      "correctIndex": 1,
+      "rationale": "An unaccessed section is listed as an access limitation or exclusion with its reason and the person told. It is never recorded as clean and never omitted."
+    },
+    {
+      "id": "kitchen-exhaust-L12-K03",
+      "correctIndex": 1,
+      "rationale": "A useful record is dated, located, attributed and linked to its evidence, and corrections are added rather than overwritten, so that a reader can check it."
+    }
+  ],
+  "practicalCriteria": [
+    "Writes a handover for a sample job that states the scope, the work done, the access limits and the exclusions, with no compliance, fire-safety or completeness claim the record does not support.",
+    "Rewrites a sample handover that says 'complete' and 'fire-safe' so that every claim is an exact statement of scope, access or observation.",
+    "Refers a simulated request for a compliance statement to the competent person in writing, and records the referral and the owner's response."
+  ],
+  "passRule": "All three criteria met, with no unsupported claim in any handover and the referral recorded. Observed in a supervised desk exercise using simulated records. A pass does not authorise the assessee to make a compliance or fire-safety statement.",
+  "evidenceRequired": [
+    "Completed sample handover with the access limits and exclusions",
+    "Rewritten handover showing the corrected wording",
+    "Referral record for the simulated compliance request"
+  ],
+  "stopWorkCriteria": [
+    "Handover signed with a compliance, certification or fire-safety statement",
+    "Unseen section recorded as clean or omitted from the handover",
+    "Earlier record overwritten rather than corrected with a dated entry"
+  ]
+}

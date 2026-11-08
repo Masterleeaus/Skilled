@@ -1,0 +1,42 @@
+{
+  "lessonId": "garden-cleanups-L02",
+  "status": "PROPOSED REPLACEMENT - see report; the existing file at assessments/garden-cleanups-L02.assessment.json was overwritten by another batch with invalid correctIndex values",
+  "knowledgeAnswers": [
+    {
+      "id": "garden-cleanups-L02-K01",
+      "correctIndex": 1,
+      "rationale": "An unidentified service is treated as live. Mark, keep tools away and inform the supervisor."
+    },
+    {
+      "id": "garden-cleanups-L02-K02",
+      "correctIndex": 2,
+      "rationale": "The hierarchy of control starts with elimination and moves through substitution and separation before PPE."
+    },
+    {
+      "id": "garden-cleanups-L02-K03",
+      "correctIndex": 0,
+      "rationale": "Work near power lines is excluded. Stop, record and refer to a licence holder."
+    },
+    {
+      "id": "garden-cleanups-L02-K04",
+      "correctIndex": 3,
+      "rationale": "The dynamic risk assessment section lists triggers set in advance, including a neighbour, child or pet entering the zone."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock garden site, the learner marks at least four hazards on a site hazard map within the assessor's set time, including one overhead and one buried or suspected service.",
+    "The learner draws a two-zone layout with a work zone and buffer zone and places a barrow access route.",
+    "The learner states at least two site-specific stop-work triggers and the action for each."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Annotated site hazard map signed by the assessor.",
+    "Assessor observation record of the stop-work discussion.",
+    "Record of any simulated trigger in a supervised role-play."
+  ],
+  "stopWorkCriteria": [
+    "Cutting or digging near a supplied service marker during the assessment.",
+    "Approaching a simulated overhead line closer than the assessor's safe distance.",
+    "Continuing a simulated task after a stop-work trigger is announced."
+  ]
+}

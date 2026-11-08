@@ -1,0 +1,34 @@
+{
+ "lessonId": "C14-L03",
+ "knowledgeAnswers": [
+  {
+   "id": "C14-L03-K01",
+   "correctIndex": 2,
+   "rationale": "Products are used only on the surfaces they are approved for."
+  },
+  {
+   "id": "C14-L03-K02",
+   "correctIndex": 0,
+   "rationale": "The SDS sets ventilation to control fumes."
+  },
+  {
+   "id": "C14-L03-K03",
+   "correctIndex": 1,
+   "rationale": "An unapproved product can damage a finish, which is hard to reverse."
+  }
+ ],
+ "practicalCriteria": [
+  "Matches approved products to three appliance surfaces.",
+  "Confirms ventilation before a simulated fume-producing product.",
+  "Refuses an unapproved product and requests an alternative."
+ ],
+ "passRule": "Products matched, ventilation confirmed, and unapproved product refused. Observed by an assessor.",
+ "evidenceRequired": [
+  "Product and ventilation record",
+  "Assessor observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Unapproved product used on an appliance surface",
+  "Fume product used without ventilation"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "lessonId": "NEW-APP-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-APP-01-K01",
+      "correctIndex": 1,
+      "rationale": "Verbal requests on site do not change the booking. Recording the request and getting written confirmation protects the worker, the customer and the business."
+    },
+    {
+      "id": "NEW-APP-01-K02",
+      "correctIndex": 2,
+      "rationale": "Replacing a fuse inside an electrical housing is electrical work outside this course. The other options are external or accessible cleaning tasks in the booking scope."
+    },
+    {
+      "id": "NEW-APP-01-K03",
+      "correctIndex": 3,
+      "rationale": "Resetting a tripped thermostat or opening a housing is excluded. The correct action is to leave it, record it and refer it."
+    },
+    {
+      "id": "NEW-APP-01-K04",
+      "correctIndex": 0,
+      "rationale": "The booking or work order sets the authority, including the included and excluded tasks."
+    },
+    {
+      "id": "NEW-APP-01-K05",
+      "correctIndex": 1,
+      "rationale": "Internal work carries risks and may need a licence the worker does not hold. Price, timing and supervisor attendance are not the reason."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies in-scope and excluded tasks from the booking before touching the equipment",
+    "Stops and records an out-of-scope request without starting that work",
+    "Explains the refusal to the site contact in plain words without promising a repair",
+    "Reports the refusal or referral to the supervisor at the end of the job"
+  ],
+  "passRule": "Knowledge checks: at least 4 of 5 correct (80%). Practical sign-off is separate: an assessor observes the practical criteria and records the result. A knowledge pass is not practical competence and does not grant any licence or authority.",
+  "evidenceRequired": [
+    "Booking or work order with the scope recorded",
+    "Record of each refused request with time and name",
+    "Supervisor notification"
+  ],
+  "stopWorkCriteria": [
+    "Any request to open, reset or change an internal or electrical part",
+    "Any verbal change of scope without written confirmation"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-DOG-05",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-DOG-05-K01",
+      "correctIndex": 1,
+      "rationale": "Serious signs need a vet or emergency service at once. The walker follows the vet's instructions while moving the animal to care."
+    },
+    {
+      "id": "NEW-DOG-05-K02",
+      "correctIndex": 2,
+      "rationale": "Pet first-aid training gives a first response only. It is not a veterinary qualification and gives no authority to diagnose or treat."
+    },
+    {
+      "id": "NEW-DOG-05-K03",
+      "correctIndex": 0,
+      "rationale": "An embedded object is left in place, bleeding is controlled around it, and the animal goes to the vet."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor presents a simulated collapse and observes the candidate call the vet or emergency service at once, not wait for improvement",
+    "Assessor observes the candidate control simulated bleeding with a clean dressing and leave an embedded object in place",
+    "Assessor checks that the owner's written emergency authority and vet details are on the simulated client file"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Emergency record for the simulated collapse, with the time, signs, action and contacts",
+    "Owner's written emergency authority and vet details on file",
+    "Pet first-aid kit check record"
+  ],
+  "stopWorkCriteria": [
+    "Human medication is given to an animal",
+    "A serious sign is observed and the vet is not called",
+    "An embedded object is removed from a wound by the walker"
+  ]
+}

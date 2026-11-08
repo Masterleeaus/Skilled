@@ -1,0 +1,210 @@
+{
+  "id": "pool-cleaning-L06",
+  "title": "Dosing systems and chlorine-gas prevention",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pool technicians and operators' staff who handle chemical dosing equipment and bulk pool chemicals, in any state or territory",
+  "prerequisites": [
+    "pool-cleaning-L04",
+    "F03-L02"
+  ],
+  "learningOutcomes": [
+    "Describe how automatic and manual dosing systems deliver chemical to pool water",
+    "Identify the gas-release risks from mixing or contaminating pool chemicals",
+    "Apply segregation rules for hypochlorite, acids and other incompatible products",
+    "Respond to a leak, odour or gas release by isolating, moving people away and escalating"
+  ],
+  "instruction": [
+    {
+      "heading": "What dosing systems do",
+      "body": "Dosing systems feed chemical into the pool circuit, either manually through a bucket and feed point or automatically through a pump and a controller that responds to a sensor or a timer. Each system has a chemical source, a feed line, a pump or injector, a check valve, an injection point and often a controller. Each part can fail: lines can crack, valves can stick, injectors can block, and controllers can drift. A failed dosing system can deliver too much or too little chemical, or let chemical flow back toward storage. Work on the controller, wiring and mechanical parts is outside the scope of most contract cleaning work and is covered by the electrical and confined-space boundaries in “Electrical, mechanical and confined-space boundaries”."
+    },
+    {
+      "heading": "Gas risk from incompatible products",
+      "body": "Chlorine-releasing products react with other chemicals in ways that can be dangerous. Incompatible products can give off gases that are poisonous, flammable or damaging to materials when they meet. The most important rule for a pool worker is that acid products and hypochlorite must never mix. WorkSafe WA's pool chemicals guidance keeps liquid hypochlorite away from acidic products such as pH decreasers and scale removers, and keeps dry calcium hypochlorite away from heat, moisture, acids and two other named chlorine products."
+    },
+    {
+      "heading": "Preventing the gas release in daily work",
+      "body": "Keep separate buckets, funnels, spill kits, spill trays and storage bays for acids and for hypochlorite. Label every container with its product name and hazard. Never use the same scoop, jug or hose for two products. Do not dissolve hypochlorite granules in an acid-contaminated container. Do not clean a dosing line with a different product unless the SDS and the operator plan permit it. Store products away from heat and moisture. Keep the storage area ventilated and clear of other goods. Operator plans set the storage location, bunding and quantities, so check them before you move product. This lesson gives no chemical amounts or storage quantities; take them from the product label, the SDS and the operator."
+    },
+    {
+      "heading": "Leaks, odours and gas release",
+      "body": "A chlorine odour, a visible vapour, a hissing line or a sudden leak from a dosing pump is an emergency signal. Move people out of the area to fresh air. Do not enter a poorly ventilated room or chemical store to find the source. Do not attempt to fix a leaking line or pump while the leak is active unless you are competent and the SDS and site procedure allow it. Call the emergency number set by the site and the operator, and follow the workplace emergency procedure. Report the event afterward using the site incident process. Respirators are used only where the site risk assessment and the SDS require them, and by people trained to fit and use them."
+    },
+    {
+      "heading": "Dosing system work and licences",
+      "body": "This lesson does not grant any authority to repair, wire or reprogram a dosing system. Refer to the operator or a qualified person for that work."
+    }
+  ],
+  "procedure": [
+    "Read the SDS and the operator plan for the product and the dosing system before handling any part of it.",
+    "Check the chemical store, the feed lines and the injection point for leaks, damage or staining; do not touch a leak that is active.",
+    "Confirm the container, funnel and scoop are dedicated to the product and labelled.",
+    "Wear PPE as set by {{business:safety.required_ppe}} and dose only as the plan and label direct.",
+    "Keep acids and hypochlorite in separate storage with separate spill kits.",
+    "If there is an odour, vapour or active leak, move people out, do not enter a poorly ventilated area, call the emergency procedure, and record the event.",
+    "Record products moved, amounts, time and any defect found."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A dosing pump's acid line is leaking near a hypochlorite drum. A worker wants to tighten the fitting straight away to stop the drip.",
+      "decisionPrompt": "What is the safe response?",
+      "reasoning": "Tightening an active leak in a store where an incompatible product is nearby risks contact and gas release. The worker moves people away, ventilates if it is safe to do so, does not handle the leak, isolates the acid feed only if this is authorised and safe, and calls the responsible operator and the site emergency procedure. The event is recorded."
+    },
+    {
+      "situation": "A worker finds a bucket that has been used for both acid cleaner and granular hypochlorite and is asked to use it for a dosing round.",
+      "decisionPrompt": "What should the worker do?",
+      "reasoning": "The bucket is contaminated with incompatible products and must not be used. The worker sets it aside, arranges a dedicated container, and reports the cross-use to the supervisor so that the practice can be corrected."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Dedicated, labelled containers, funnels and scoops for each product",
+    "Separate spill kits for acids and for hypochlorite",
+    "Gas-detection or odour awareness as the site procedure sets",
+    "PPE as set by {{business:safety.required_ppe}}",
+    "Site emergency contact sheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Storing acid and hypochlorite in the same spill tray or bay.",
+      "prevention": "Separate storage bays, trays and spill kits as the SDS and plan direct."
+    },
+    {
+      "error": "Using one bucket or scoop for two products.",
+      "prevention": "Dedicate each container and label it."
+    },
+    {
+      "error": "Trying to fix an active leak alone while the area is poorly ventilated.",
+      "prevention": "Move people out, ventilate if safe, and call the emergency procedure."
+    },
+    {
+      "error": "Adjusting the dosing controller without authority.",
+      "prevention": "Controller changes belong to the operator or a qualified person."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Keep acid products and hypochlorite apart. Contact can give off poisonous gas. Dedicated containers, separate storage and separate spill kits are the practice this course teaches; the operator plan and the SDS set the detail.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Dosing system repair, wiring and controller work need licences or authority that this lesson does not grant. Water treatment compliance depends on the local operator plan.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "No acid and hypochlorite product shares a container, scoop, bay or spill kit",
+    "Every container is labelled with product name and hazard",
+    "Leaks and odours are escalated and recorded; no unauthorised repair is attempted"
+  ],
+  "documentationEvidence": [
+    "Storage and segregation check with date",
+    "Leak or odour event report with time, people moved and who was told",
+    "Products moved, amount and purpose"
+  ],
+  "summary": [
+    "Acids and hypochlorite must never mix; separate them in every step.",
+    "Dedicate and label containers, funnels, scoops and spill kits.",
+    "For an active leak or gas odour, move people out and call the emergency procedure.",
+    "Dosing controller and electrical work is outside contract scope unless authorised."
+  ],
+  "businessFields": [
+    "{{business:materials.storage_procedure}}",
+    "{{business:materials.handling_procedure}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pool-cleaning-L06-K01",
+      "question": "A worker finds that acid cleaner and granular hypochlorite have been stored on the same spill tray. What is the correct action?",
+      "options": [
+        "Separate them, report the storage and check the SDS and plan",
+        "Leave them, because the tray is large enough for both",
+        "Mix them to use up the stock before the next order",
+        "Hose the tray down with water to clear the spill quickly"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L06-K02",
+      "question": "What is the first priority when a chlorine odour or active leak is found at a dosing point?",
+      "options": [
+        "Tighten the fitting alone, since that stops the leak",
+        "Move people out to fresh air and call the emergency procedure",
+        "Open the controller and reset it to clear the alarm quickly",
+        "Record the event and wait until the end of the shift"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L06-K03",
+      "question": "Which change to a dosing controller is correct for a contract cleaner?",
+      "options": [
+        "Reprogram the dosing rate to match the surface being cleaned today",
+        "Change the controller setting without telling the operator or the owner of the pool",
+        "Refer any controller or electrical change to the operator or a qualified person",
+        "Rewire the pump to a new socket on the same circuit as the heater and the lights"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L06-K04",
+      "question": "What can incompatible pool products give off when they meet, according to the lesson?",
+      "options": [
+        "A pleasant scent",
+        "Nothing harmful",
+        "Only heat",
+        "Gases that are poisonous, flammable or damaging to materials"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WORKSAFE-WA-DG: WorkSafe WA, Dangerous goods guidance: pool and spa chemicals (DGS_PO), checked 2026-11-03 (no publication date shown; document code WSDec25). WA only.",
+    "SWA-STORE: Safe Work Australia, Storing hazardous chemicals, checked 2026-11-03 (no date shown).",
+    "REMOVED in this pass: two private supplier safety data sheets previously cited for the UN number and class. Not official sources; the classification is now UNCONFIRMED here.",
+    "UNCONFIRMED: state and territory electrical licensing for pool, spa, pond and aquarium equipment wiring and repairs (see pool-cleaning-L10 and pool-cleaning-L07). Not checked in this lesson.",
+    "UNCONFIRMED: dangerous goods storage, transport and notification thresholds for pool chemicals, by state and territory. Not checked in this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Dangerous goods guidance: pool and spa chemicals (DGS_PO)",
+      "url": "https://www.worksafe.wa.gov.au/system/files/documents/2025-12/DGS_PO_Pool-and-spa-chemicals.pdf",
+      "pageDate": "no publication date shown (document code WSDec25)",
+      "checked": "2026-11-03",
+      "covers": "worksafe.wa.gov.au: search 'pool and spa chemicals' and open the DGS_PO PDF. WA only; no storage thresholds stated. Publisher: WorkSafe WA."
+    },
+    {
+      "id": "R2",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "safeworkaustralia.gov.au: Safety topics, Hazards, Chemicals, Storing hazardous chemicals. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: WorkSafe WA, Dangerous goods guidance: pool and spa chemicals (DGS_PO) (no publication date shown; document code WSDec25); Safe Work Australia, Storing hazardous chemicals (no date shown).",
+  "referencesAtEnd": "Official sources to check at the end of this lesson: WorkSafe WA, Dangerous goods guidance: pool and spa chemicals (DGS_PO) (no publication date shown; document code WSDec25): https://www.worksafe.wa.gov.au/system/files/documents/2025-12/DGS_PO_Pool-and-spa-chemicals.pdf; Safe Work Australia, Storing hazardous chemicals (no date shown): https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals.",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-09.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-10.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    }
+  ]
+}

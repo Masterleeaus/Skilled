@@ -1,0 +1,20 @@
+{
+  "baseline": "Titan-Academy-TypeScript-Upgrade-Pass29-Merged-Cumulative.zip",
+  "reconciledWith": "Titan-Academy-TypeScript-Upgrade-Pass32-Cumulative.zip",
+  "filesAddedFromLatest": [
+    "lms-main/PASS31-VERIFICATION.json",
+    "lms-main/apps/backend/scripts/verify-course-progress.mjs",
+    "lms-main/apps/backend/scripts/verify-field-services-sync.mjs",
+    "lms-main/apps/frontend/scripts/verify-academy-progress-ui.mjs",
+    "lms-main/docs/FIELD_SERVICES_CONTEXT_SYNC.md"
+  ],
+  "conflictsResolved": {
+    "lms-main/apps/backend/package.json": "merged npm scripts from both archives",
+    "lms-main/apps/backend/src/modules/curriculum/curriculum.routes.ts": "latest Pass32 code retained",
+    "lms-main/apps/backend/src/modules/curriculum/integration.routes.ts": "latest Pass32 code retained",
+    "lms-main/apps/frontend/src/components/SharedCurriculumPlayer.tsx": "latest Pass32 code retained",
+    "lms-main/apps/frontend/src/lib/curriculum.api.ts": "latest Pass32 code retained"
+  },
+  "retainedMergedOnlyFiles": 249,
+  "verification": "ZIP CRC and archive path uniqueness only; application runtime unverified"
+}

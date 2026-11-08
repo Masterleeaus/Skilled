@@ -1,0 +1,111 @@
+{
+  "id": "SFS-07",
+  "title": "Visits: booking and status",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "RH",
+  "estimatedMinutes": 30,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-05"
+  ],
+  "learningOutcomes": [
+    "Create a visit against a job with a window and an expected duration.",
+    "Name the visit status stages and say what moves a visit between them.",
+    "Explain why a visit's parent record matters."
+  ],
+  "instruction": [
+    {
+      "heading": "What a visit records",
+      "body": "A visit is one planned trip to a site. It records when the work should start, how long it should take, which job it belongs to and who is assigned. Most visits sit under a job. A visit can also hang off an asset, a customer account, or a lead for a site survey. The parent shows the kind of visit it is. A job-linked visit covers the work itself, while an account-linked visit might be a general check."
+    },
+    {
+      "heading": "Status stages",
+      "body": "A visit moves through stages: not yet scheduled, scheduled, dispatched, in progress, finished, unable to finish and cancelled. Changing a visit's status can trigger the next step, so make changes deliberately. If a visit is unscheduled, it goes back to not yet scheduled. A visit that cannot be finished should be marked unable to finish, with a reason recorded, so the office can plan a follow-up rather than lose the work. Status names can be renamed to suit your business, but the stage order does not change when you rename them."
+    }
+  ],
+  "procedure": [
+    "Open the job and create a visit from it.",
+    "Set the window start, the window end and the expected duration.",
+    "Check the parent link and the visit type.",
+    "Save the visit as not yet scheduled, then schedule it once a worker and time are confirmed.",
+    "Move the status as the work happens, and note a reason whenever a visit cannot be finished."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner books a bond clean, but when they arrive the key is not there and the agent cannot be reached.",
+      "decisionPrompt": "Should the visit be marked finished, unable to finish, or deleted?",
+      "reasoning": "The work did not happen, so the visit is marked unable to finish with the reason recorded. A follow-up visit is then booked once the key is confirmed. Deleting it would remove the record of the attempt."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Marking a visit finished before its tasks are done.",
+      "prevention": "Complete a visit only when its work and tasks are finished."
+    },
+    {
+      "error": "Leaving a visit in progress overnight.",
+      "prevention": "End each day by moving every open visit to a clear status."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every visit has a parent job, a window and a duration.",
+    "Every unable-to-finish visit has a recorded reason."
+  ],
+  "documentationEvidence": [
+    "Visit record with status history",
+    "Reason for each unable-to-finish outcome"
+  ],
+  "summary": [
+    "A visit is one trip and sits under a parent record.",
+    "The status stages show where the trip stands.",
+    "A visit that cannot be finished needs a recorded reason."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-07-K01",
+      "question": "A cleaner arrives but cannot start because a key is missing. What should the visit be marked as?",
+      "options": [
+        "Completed and paid, with the invoice sent",
+        "Unable to finish, with the reason recorded",
+        "Cancelled without a note on the list"
+      ]
+    },
+    {
+      "id": "SFS-07-K02",
+      "question": "Which stage means the trip is planned but not yet given a time and worker?",
+      "options": [
+        "Not yet scheduled",
+        "In progress now",
+        "Completed visit"
+      ]
+    },
+    {
+      "id": "SFS-07-K03",
+      "question": "Why does the link from a visit to its parent matter?",
+      "options": [
+        "It shows what kind of visit it is and what work it covers",
+        "It sets the worker's hourly pay rate for the week",
+        "It changes the visit's colour on the screen of the phone"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 115-118 (visits); pp. 62-63 (visit status stages); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: visit (service appointment); visit status; parent link (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

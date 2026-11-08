@@ -1,0 +1,159 @@
+{
+  "id": "F07-L05",
+  "title": "Appliance and handover checks",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Quality, evidence and handover",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners completing kitchen appliance cleans and kitchen closeouts in residential and commercial settings.",
+  "prerequisites": [
+    "F07-L03"
+  ],
+  "learningOutcomes": [
+    "Identify the authorised appliance boundaries from the work order before cleaning.",
+    "Clean accessible appliance parts safely, away from energised electrical parts.",
+    "Complete a closeout inspection and handover that does not overstate the service delivered."
+  ],
+  "instruction": [
+    {
+      "heading": "Setting the boundary",
+      "body": "Check the work order for the authorised appliance exteriors, shelves, accessible removable parts, and the listed exclusions. Do not open electrical panels, disconnect fixed services or dismantle gas equipment. Do not spray liquid into switches, sockets, motors or control boards. Isolate an appliance only by an authorised, safe procedure. If an appliance is not within the work order, leave it as it is and record that it was excluded."
+    },
+    {
+      "heading": "Cleaning accessible parts safely",
+      "body": "Allow hot equipment to cool as required, and check for sharp edges, unstable shelving and glass. Use the manufacturer-approved methods for doors, seals, handles, benches and exterior controls. Keep cloths and liquids away from energised electrical parts. Never mix chemicals, and do not use an oven-specific product outside its approved application."
+    },
+    {
+      "heading": "Inspecting the whole room",
+      "body": "Check the touchpoints, splashbacks, sink edges, appliance handles, floor corners, waste area and every item on the work order. Confirm that no food, utensils or personal items were contaminated or moved. Identify pre-existing damage, faults, inaccessible deposits and incomplete work, and report them rather than hiding them."
+    },
+    {
+      "heading": "Handover with evidence",
+      "body": "Return only the authorised items to their agreed positions, remove supplies and waste, and leave the floor safe. Complete the checklist, record any sanitising step required by the site procedure, and escalate unresolved risks. Do not claim the room is food-safe beyond the service scope and the inspection actually performed."
+    }
+  ],
+  "procedure": [
+    "Read the work order for authorised appliance parts and exclusions.",
+    "Do not open panels, disconnect fixed services or dismantle gas equipment.",
+    "Let hot equipment cool, then clean accessible parts with approved methods, keeping liquid away from controls.",
+    "Inspect the whole room, including touchpoints, splashbacks, handles and floor corners.",
+    "Return authorised items, remove waste, and leave the floor safe.",
+    "Complete the checklist and record exclusions, defects and unresolved hazards."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner finds a damaged appliance cable and heavy grease behind a fixed commercial oven.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Leave the appliance untouched. Prevent unsafe access where the procedure permits, and report the damaged cable to the supervisor. Request authorised maintenance for the cable and specialist cleaning for the grease that is outside the work order. Record the observation with the time and location."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Manufacturer-approved cleaning products, with label and SDS available.",
+    "Gloves and eye protection as set by the SDS.",
+    "Checklist for the closeout inspection."
+  ],
+  "commonErrors": [
+    {
+      "error": "Opening an electrical panel to clean behind it.",
+      "prevention": "Stop. Electrical access is outside cleaning scope."
+    },
+    {
+      "error": "Spraying liquid into a switch or socket.",
+      "prevention": "Keep liquid away from controls and openings."
+    },
+    {
+      "error": "Claiming the room is food-safe when only the surface was cleaned.",
+      "prevention": "Describe only the work done and the inspection performed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Gasfitting work in Victoria is licensed work. It covers the construction, installation, replacement, repair, alteration, maintenance, testing or commissioning of any pipe, appliance, flue, fitting, apparatus, control or other item involved with the supply or use of gas and fitted downstream of the gas supply point. Cleaning, painting or preparation work on gas pipes or joints is excluded when it does not involve connecting, disconnecting or altering them. An electrician's licence from Energy Safe Victoria allows the holder to do electrical installation work in Victoria, and contracting for that work for profit or reward also needs Registered Electrical Contractor registration. This lesson grants no gas or electrical licence and does not authorise disconnecting or dismantling such equipment.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Appliance boundary identified from the work order before any cleaning.",
+    "At least seven of eight seeded defects identified in the mock kitchen.",
+    "One out-of-scope appliance hazard recognised and escalated."
+  ],
+  "documentationEvidence": [
+    "Closeout checklist with exclusions and defects.",
+    "Escalation record for any out-of-scope hazard, with time and location."
+  ],
+  "summary": [
+    "The work order sets the appliance boundary.",
+    "Keep liquid away from electrical controls and openings.",
+    "Inspect the whole room before handover.",
+    "Record exclusions and do not overstate the service."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:procedures.completion_checklist}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F07-L05-K01",
+      "question": "An appliance panel is loose and exposes wiring. What is the right action?",
+      "options": [
+        "Tighten the panel yourself while the machine is still plugged in",
+        "Leave it untouched, and report it for authorised maintenance",
+        "Remove the panel to clean behind it and check the wires"
+      ]
+    },
+    {
+      "id": "F07-L05-K02",
+      "question": "What should a closeout record say about a room after a kitchen clean?",
+      "options": [
+        "The room is food-safe throughout, as the client expects",
+        "The room is sanitised throughout and fully safe for food",
+        "The work done, the exclusions, and the inspection performed"
+      ]
+    },
+    {
+      "id": "F07-L05-K03",
+      "question": "Where should liquid be kept when cleaning an appliance?",
+      "options": [
+        "Away from switches, sockets, motors and control boards",
+        "Sprayed into switches to clean them while the power is on",
+        "On the control board for a deeper clean and it will dry fast"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/F07-L05.json (editorial pass, not technically reviewed)",
+    "https://www.bpc.vic.gov.au/plumbers/plumber-classes-and-categories/gasfitting-work (Victorian gasfitting class; checked 2026-11-02)",
+    "UNCONFIRMED: which licence covers electrical work on fixed services in each state and territory, outside the Victorian gasfitting reference."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Gasfitting work (Building Practitioners Commission, Victoria)",
+      "url": "https://www.bpc.vic.gov.au/plumbers/plumber-classes-and-categories/gasfitting-work",
+      "pageDate": "Last updated on 30 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Defines gasfitting work as the construction, installation, replacement, repair, alteration, maintenance, testing or commissioning of any pipe, appliance, flue, fitting, apparatus, control or other item involved with the supply or use of gas that is fitted downstream of the gas supply point. Excludes cleaning, painting or preparation work on gas pipes or joints when it does not involve connecting, disconnecting or altering them. Excludes connecting or disconnecting a gas storage container for filling, refilling, exchanging, storing or disposing of it. The page was last updated on 30 June 2026. Publisher: Building Practitioners Commission (Victoria)."
+    },
+    {
+      "id": "R2",
+      "title": "Electricians licence (Energy Safe Victoria)",
+      "url": "https://www.energysafe.vic.gov.au/licensing/electrical-licences/licence-types/electricians-licence-aae",
+      "pageDate": "Reviewed 30 June 2025 (no 'last updated' label on the page)",
+      "checked": "2026-11-03",
+      "covers": "Says the holder of this licence can perform electrical installation work in Victoria, with or without supervision, and that the licence allows electrical installation work as an employee. Says the licence does not allow the holder to contract for electrical installation work for profit or reward, and that work for profit or reward also requires Registered Electrical Contractor (REC) registration. The page was reviewed on 30 June 2025. Publisher: Energy Safe Victoria."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-02T09:09:25.255Z",
+  "baseUrl": "http://localhost:3100",
+  "api": "mocked in browser (Playwright routing)",
+  "counts": {
+    "passed": 11,
+    "failed": 0
+  },
+  "axe": {
+    "desktop": [],
+    "mobile": []
+  },
+  "results": [
+    {
+      "name": "ACA-019 learner sees the shared pathway with a progress count",
+      "status": "passed",
+      "ms": 4287
+    },
+    {
+      "name": "ACA-019 selecting a lesson renders its published content, not answer keys",
+      "status": "passed",
+      "ms": 1594
+    },
+    {
+      "name": "ACA-019 knowledge check scores answers and reports a pass",
+      "status": "passed",
+      "ms": 1951
+    },
+    {
+      "name": "ACA-019 acknowledging a lesson is recorded once and the control is then disabled",
+      "status": "passed",
+      "ms": 1910
+    },
+    {
+      "name": "ACA-019 lessons are reachable and selectable from the keyboard alone",
+      "status": "passed",
+      "ms": 1236
+    },
+    {
+      "name": "ACA-019 a failed outline load shows an alert and keeps course lessons available",
+      "status": "passed",
+      "ms": 1727
+    },
+    {
+      "name": "ACA-019 learner organisation context is presented, saved and listed as history",
+      "status": "passed",
+      "ms": 1719
+    },
+    {
+      "name": "ACA-019 manager regression: saving a business field creates a draft and never approves it",
+      "status": "passed",
+      "ms": 2495
+    },
+    {
+      "name": "ACA-023 axe finds no critical or serious WCAG A/AA violations in the player (desktop)",
+      "status": "passed",
+      "ms": 1951
+    },
+    {
+      "name": "ACA-023 player fits a 375px viewport without horizontal scrolling and keeps lesson controls usable",
+      "status": "passed",
+      "ms": 1523
+    },
+    {
+      "name": "ACA-023 screen reader semantics: named progress bar, live lesson region, labelled radio groups",
+      "status": "passed",
+      "ms": 1397
+    }
+  ]
+}

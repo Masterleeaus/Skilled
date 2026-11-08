@@ -1,0 +1,180 @@
+{
+  "id": "PHM-07",
+  "title": "Home pool heating systems: operation and safe limits",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 50,
+  "audience": "Pool service technicians who check, switch on or describe heating systems for home pools",
+  "prerequisites": [
+    "pool-cleaning-L10"
+  ],
+  "learningOutcomes": [
+    "Describe how a heat pump, an electric heater, a gas heater, an oil-fired heat exchanger and a solar collector heat pool water",
+    "Explain why every heater needs water flow and why thermostat, time clock and flow switch settings are checked",
+    "Identify the safety devices on a gas heater and what each one does",
+    "Name the installation and connection work that needs a licensed person and state that this lesson grants no licence"
+  ],
+  "instruction": [
+    {
+      "heading": "Heating needs water moving through it",
+      "body": "A pool heater transfers heat to the water passing through it, so the filter pump has to be running before any heater can work. The UK handbook makes this point directly: the heater does nothing unless the circulation pump is moving water. Confirm that the pump is operating and the flow is steady before you read the heater settings. Low flow trips the safety devices and leaves the heater off. That is a flow problem first, not a heater fault to be reset again and again."
+    },
+    {
+      "heading": "Heat pumps and electric heaters",
+      "body": "A heat pump operates like a refrigerator running in reverse. A fan draws air across a coil holding a fluid that boils at a low temperature, a compressor raises the vapour's temperature, and a heat exchanger hands that heat to the pool's water. Keep the face of the unit free of covering, and keep the air path across the plant room and out of it unobstructed. Condensate from the drain tube is a normal sign that the unit is working. An electric heater works something like a large kettle and shows indicator lights for its elements and its supply. Some sites run the heater on an off-peak supply through a time clock, and a power interruption can reset that clock, so check it after any outage."
+    },
+    {
+      "heading": "Gas heaters and their safety devices",
+      "body": "A gas heater has an isolator on the control panel, its own on and off switch, a thermostat, and a gas tap on the supply. Three safety devices protect it. An over-temperature thermostat shuts the heater down when it overheats and resets when it cools. A gas safety shut-off valve closes the supply if the pilot or flame goes out, and the heater then has to be relit. A pressure switch stops the heater when water flow stops and resets once flow returns. Never bypass, tape over or alter these devices. In South Australia, gas fitting work on a gas heater, including a pool heater, must be done by a person holding a gas fitter's registration under the Plumbers, Gas Fitters and Electricians Act 1995, with flue, gas supply and ventilation part of that work."
+    },
+    {
+      "heading": "Oil, solar and thermostat settings",
+      "body": "Oil heaters either pass the pool water straight through or heat it through an exchanger. The handbook warns that flues must not end close to windows or property boundaries, and that the oil level must be checked because many call-outs come from an empty tank. Solar collectors are regulated by a differential device that compares water and air temperature, and the collectors work best with enough flow through them. Set a thermostat above the water temperature to call for heat, and the heater stops once the pool reaches that setting. Do not change a thermostat to force a result without the owner's written instruction."
+    },
+    {
+      "heading": "Who may install and connect",
+      "body": "Gas installation, gas connection and flue work are limited to licensed or registered persons. Electrical connection of any heater needs a licensed electrician, who should confirm the supply before installation. Oil and boiler work needs the appropriate qualified trade. This lesson grants no licence, registration or authority to install, connect, service, repair or adjust a heater."
+    }
+  ],
+  "procedure": [
+    "Confirm the pump is operating and the flow through the heater is steady.",
+    "Confirm the heater is on at the control panel and at the heater, and check the time clock setting.",
+    "Read the thermostat and compare it with the water temperature recorded by the owner or the operator.",
+    "For a heat pump, check the air intake and outlet are clear and the condensate drain is flowing.",
+    "For a gas heater, check the indicator and the pilot or electronic ignition status, and the vents for blockage.",
+    "Do not reset a safety device repeatedly. Check the flow and find the cause first, and refer if the device trips again.",
+    "Record the heater type, settings, flow check, any device that tripped and the referral made."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A gas heater will not come on after a power cut. The pump is operating, and the thermostat is at above the pool temperature.",
+      "decisionPrompt": "What do you do first?",
+      "reasoning": "Confirm the flow is steady and the time clock is correct. Check the isolator, the on and off switch and the gas cock. Look at the safety devices as an indicator, without bypassing them. If the device has tripped and the cause is not clear, stop, record the fault and refer to a licensed gas fitter. Do not light the pilot or adjust the gas controls unless you hold the authority for that work."
+    },
+    {
+      "situation": "A heat pump works as running but the discharge air is warm and no condensate is dripping. The air intake is covered with leaves.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "Clear the air intake and check that nothing blocks the outlet, since restricted air flow reduces the heat pump's performance. Check the flow via the filter. Record the leaf debris, the clearing and the state of the condensate. If the heat pump still does not operate, refer it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Heater model information and the manufacturer instructions",
+    "Pool water thermometer",
+    "Torch for checking indicator lights and vents",
+    "Gloves and eye protection for work near the heater",
+    "Record sheet for heater checks"
+  ],
+  "commonErrors": [
+    {
+      "error": "Checking the heater with the pump off",
+      "prevention": "Confirm the pump is operating and the flow is steady before any heater check."
+    },
+    {
+      "error": "Resetting a safety device repeatedly",
+      "prevention": "Check the flow and find the cause first. Refer any repeated trip."
+    },
+    {
+      "error": "Blocking the heat pump air path with debris or equipment",
+      "prevention": "Keep the intake and outlet clear, and record the state each visit."
+    },
+    {
+      "error": "Adjusting gas or electrical parts without authority",
+      "prevention": "Refer all installation, connection and repair work to a licensed person."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Gas heaters has to be fitted by a registered gas fitter under the current regulations. Flue size, position, gas supply and ventilation are part of that work.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Electrical connection of a heater needs a licensed electrician. Check the electrical supply before installation, and fit a flow switch where the heater has none.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Keep every air vent and ventilation openings clear. Do not let wheelbarrows, bushes, chairs or other items block a heat pump discharge.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not bypass or adjust the high-limit, gas-valve or pressure-switch safety devices.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not run a heater without water flow through it.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Oil flues must not end near windows or boundaries. Confirm the siting against the applicable rules.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant a licence or authority to install, connect, service, repair or adjust any heater.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Pump flow is confirmed before any heater setting is read or changed.",
+    "Any tripped safety device is recorded, with the cause or the referral.",
+    "Heater settings and clock checks are recorded at each visit where the heater is in use."
+  ],
+  "documentationEvidence": [
+    "Heater type, settings and flow check record",
+    "Record of any safety device that tripped and the action",
+    "Referral note to a licensed person for gas, electrical, oil or repair work"
+  ],
+  "summary": [
+    "A heater works only with flow, so check the pump first.",
+    "Safety devices are there for a reason. Do not bypass them.",
+    "Gas, electrical and oil installation and repair belong to licensed people."
+  ],
+  "businessFields": [
+    "{{business:compliance.licence_requirements}}",
+    "{{business:equipment.manufacturer_manual_url}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:procedures.prestart_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PHM-07-K01",
+      "question": "Why must the pump be running before a pool heater is checked?",
+      "options": [
+        "The thermometer only works when the pump is on and the heater is off",
+        "The time clock only operates when the pump is on at the set times",
+        "The heater cannot heat water unless water is circulating through it",
+        "The gauge only reads while the heater is on and the gauge is then reset"
+      ]
+    },
+    {
+      "id": "PHM-07-K02",
+      "question": "A gas heater's safety device has tripped. What is the correct response?",
+      "options": [
+        "Adjust the gas cock until the heater restarts and then leave it running while the pump is off",
+        "Reset it repeatedly until the heater stays on and then leave the cover off for the day",
+        "Remove the device so the heater runs continuously and the fault is never recorded at all",
+        "Check the flow and find the cause first, and refer to a licensed gas fitter if the cause is not clear"
+      ]
+    },
+    {
+      "id": "PHM-07-K03",
+      "question": "Which statement about installing a gas heater is correct?",
+      "options": [
+        "The installation is done by a registered gas fitter, and Australian licensing has not yet been confirmed here",
+        "Gas installation can be completed by a service worker with a test kit and the owner signs the form afterwards",
+        "Any competent person may connect the gas if the owner agrees and no record is needed for the job",
+        "The flue and the gas connection are the owner's decision and the fitter is not needed for them"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), section 8 Heating your pool (heat pump, electric, gas, oil and solar heaters, heat exchangers and safety devices); rights: user-held; reworded (no copying); checked 2026-11-02. UK handbook; gas fitter and insurance references are UK and not applicable to Australia.",
+    "Swimming Pool Operations and Management (textbook), section Components of a Swimming Pool System (heater and chlorinator items), cross-checked against the handbook on flow; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section B installation point 14 (chemical storage separation) and section A (filter and valve) for the flow principle; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "UNCONFIRMED: Australian gas-fitting, electrical, oil and boiler licensing and installation rules for pool heaters. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

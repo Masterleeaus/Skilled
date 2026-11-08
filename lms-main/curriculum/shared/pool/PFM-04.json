@@ -1,0 +1,178 @@
+{
+  "id": "PFM-04",
+  "title": "Backwash triggers, rinse and chemical cleaning for the sand bed",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 50,
+  "audience": "Pool service technicians who decide when to backwash and who carry out chemical cleaning of a sand bed under the product's instructions",
+  "prerequisites": [
+    "PFM-03"
+  ],
+  "learningOutcomes": [
+    "Choose the backwash trigger the manual names and explain why a timer alone is not a trigger",
+    "Carry out a backwash and rinse in the order the manual gives, with the pump off at each valve change",
+    "Describe the chemical cleaning steps for a sand bed in addition to the precautions they need",
+    "Decide when a sand bed needs chemical cleaning and when it must be referred"
+  ],
+  "instruction": [
+    {
+      "heading": "Deciding when to backwash",
+      "body": "The manufacturer offers three ways to decide. The most precise, on a unit that has a flow meter gives a drop in flow of a stated share from the clean-filter flow. A rougher method is to watch the flow from the pool's return fittings and backwash when it weakens. The most common, and least precise, is to backwash once the gauge climbs a stated amount above the clean-filter reading. The manufacturer warns against using a timer alone, and notes that backwashing too often also reduces filtration. Weather, rain, dust, pollen and water temperature all change how fast a filter loads. The proportions and amounts are specific to the product and are not used here, so work from the manual for the unit in front of you."
+    },
+    {
+      "heading": "Backwash and rinse",
+      "body": "Stop the pump. Confirm that the intake and backwash hoses are unobstructed, turn the valve to backwash, move clear, and switch the pump on. Keep backwashing until the waste water runs clear, which is the manufacturer's end point. Stop the pump, turn the valve to rinse, move clear, and run the pump briefly to settle the bed before stopping it again. Turn the valve to filter, confirm the return line is clear, open the bleeder, switch the pump on, then close the bleeder once the flow is steady. Note the filter pressure. It must not rise above the figure recorded when the filter was first started. If it is still higher after a proper backwash, the bed needs a chemical clean."
+    },
+    {
+      "heading": "Chemically cleaning the bed",
+      "body": "The manufacturer names cleaners that strip grease, scale and rust from the sand in a single operation. Those product names are American and are not used here. Choose a sand-bed cleaner that is listed for the filter and approved for use in Australia, and read its label and safety data sheet before opening it. Mix it exactly as the label directs. Backwash first. If the filter sits below pool level, stop the pump, then close the valves so the pool cannot drain. Open the filter drain and let the tank empty. Turn the valve to backwash, take off the pump strainer lid, and confirm the backwash hoses are clear. With the pump operating, pour the solution slowly into the strainer until the sand is saturated. Stop the pump, then leave the filter on backwash for the soak period the manual gives. Refit the lid and finish with a normal backwash. The cleaning solution must stay beyond the pool edge."
+    },
+    {
+      "heading": "Looking after yourself during the clean",
+      "body": "The cleaning solution is a chemical. Wear the protective equipment named in its safety data sheet, including eye protection and gloves. Pouring a corrosive or irritating liquid into a running strainer risks splashes, so pour slowly, keep the lid area clear, and keep the solution beyond the pool edge. The manufacturer warns that chemical fumes and spills corrode the filter and the pump parts, and that corroded parts can fail. Store unused cleaner separately, as “Pool chemical handling and storage at home” describes."
+    },
+    {
+      "heading": "When to refer",
+      "body": "If the pressure is still too high after a proper backwash and a correct chemical clean, or the flow stays weak, refer the filter to the owner or operator. A worn or cracked valve, a damaged bed or a suspected internal fault is not a routine task. Record the readings before and after each step, and the reason for the referral."
+    }
+  ],
+  "procedure": [
+    "Confirm the trigger from the manual, using the gauge, the flow or the return flow observation. Avoid using a timer alone.",
+    "Stop the pump, confirm the intake and backwash lines remain open, and turn the valve to backwash.",
+    "Start the pump, stand clear, and backwash until the waste water is clear.",
+    "Stop the pump, turn the valve to rinse, run briefly, stop, and turn the valve to filter.",
+    "Open the bleeder, start the pump, close the bleeder at a steady stream, and record the filter pressure.",
+    "If the pressure is still above the start reading, prepare the listed cleaner from its label and safety data sheet.",
+    "For chemical cleaning, close the valves to protect the pool, drain the filter, and pour the solution slowly into the strainer while the pump operates until the bed is saturated.",
+    "Leave the filter to soak for the period the manual gives, then complete a normal backwash, record the result, and refer if the pressure does not return."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A gauge reading has risen more than the manual's stated amount after the last backwash, and the owner wants chemical cleaning straight away.",
+      "decisionPrompt": "What is the correct first step?",
+      "reasoning": "Backwash in the correct order first, then compare the post-backwash pressure with the start reading. Chemical cleaning is only needed if the pressure stays above that reading after a proper backwash. Record each reading, and tell the owner the chemical step needs a labelled product and its safety data sheet."
+    },
+    {
+      "situation": "During chemical cleaning a splash of cleaner lands on the worker's forearm and the pool is nearby.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Stop the work, move away from the splash, and wash the area with water as the safety data sheet directs. Keep the cleaning solution beyond the pool edge. Report the exposure, record the time and the product, and follow the site's incident procedure."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Manufacturer manual and the trigger guidance for the filter model",
+    "Listed sand-bed cleaner approved for use in Australia, with label and safety data sheet",
+    "Gloves, eye protection and splash protection named in the safety data sheet",
+    "Waste container for spent solution",
+    "Measuring vessel for mixing as the label states",
+    "Record sheet for readings, trigger and steps"
+  ],
+  "commonErrors": [
+    {
+      "error": "Backwashing on a timer alone",
+      "prevention": "Use the gauge, flow or return-flow trigger and record it."
+    },
+    {
+      "error": "Skipping the rinse or running the filter before the bed has settled",
+      "prevention": "Follow the valve positions in order, with the pump off at each change."
+    },
+    {
+      "error": "Letting cleaning solution reach the pool",
+      "prevention": "Close the valves to protect the pool. Keep the solution away from the water."
+    },
+    {
+      "error": "Pouring cleaner in fast or without protective equipment",
+      "prevention": "Pour slowly, wear the named protective equipment, and keep splashes contained."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chemical fumes and spills can cause serious corrosive attack on the filter, followed by the pump, and weakened components can blow off with serious injury or damage to property.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not allow cleaning solution to reach into the pool.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Wear the protective equipment named in the safety data sheet. Pour slowly and keep splashes contained when adding a solution to a running pump strainer.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Turn the pump switched off before any valve change, and stand away from the filter before the pump is started.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Avoid petroleum-based lubricants or products on valve parts or connections.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson grants no licence or permit.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The trigger is named, recorded and matched to the manual before any backwash.",
+    "Each valve change is made with the pump off and in the stated order.",
+    "Chemical cleaning is done only with a labelled product, its safety data sheet and recorded protective equipment, and nothing enters the pool."
+  ],
+  "documentationEvidence": [
+    "Backwash record with trigger, readings before and after, and duration",
+    "Chemical cleaning record with product name, batch, mixing, soak time and protective equipment",
+    "Referral note where the bed did not clean"
+  ],
+  "summary": [
+    "The manual's trigger decides when to backwash, not a timer.",
+    "Chemical cleaning is a separate, labelled, protected task and never reaches the pool.",
+    "If the bed does not clean after a proper process, refer it."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PFM-04-K01",
+      "question": "What is the correct trigger for backwashing a pool sand filter, according to the manual?",
+      "options": [
+        "A fixed time of day, every day and the owner has asked for it that morning, every single week",
+        "A rise in the filter gauge or a fall in flow that the manual names, recorded before the backwash",
+        "Whenever the owner asks for a backwash and the crew is free to do it that same day",
+        "Whenever the water looks slightly dull and the client has complained about it in writing"
+      ]
+    },
+    {
+      "id": "PFM-04-K02",
+      "question": "During chemical cleaning of a sand bed, what must be done to protect the pool?",
+      "options": [
+        "Mix the solution directly with pool water to reduce strength and then pour it near the skimmer",
+        "Pour the solution into the pool skimmer to spread it and leave the pump running for an hour",
+        "Keep the cleaning solution beyond the pool edge and close the valves so the pool does not drain",
+        "Leave the solution in the strainer while the pump runs for an extended period"
+      ]
+    },
+    {
+      "id": "PFM-04-K03",
+      "question": "When is a sand bed chemically cleaned?",
+      "options": [
+        "When the water looks cloudy on arrival and the pool smells of chlorine",
+        "Every time the filter is backwashed and the crew needs to be told",
+        "Only after the filter was opened and the sand removed to clean it",
+        "When the pressure stays above the start reading after a proper backwash"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section E Cleaning Frequency (trigger methods and backwash timing), section F Filter Backwash Procedure, and section G Chemical Cleaning; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), section 5 Filtration (backwash frequency and the advice on clean running pressure); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), cross-checked against manual section F; rights: user-held; reworded (no copying); checked 2026-11-02. Both sources agree that a timer alone is not a sufficient trigger and that the filter is backwashed when the reading has risen.",
+    "UNCONFIRMED: Australian sand-bed cleaner product approvals and dangerous goods rules for the cleaner. Not checked in this draft. The product names in the manual are not used."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

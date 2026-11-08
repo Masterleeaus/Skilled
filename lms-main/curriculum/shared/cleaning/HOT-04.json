@@ -1,0 +1,148 @@
+{
+  "id": "HOT-04",
+  "title": "Bathroom checks for evidence of a previous guest",
+  "courseSlugs": [
+    "shortstay",
+    "residential",
+    "commercial",
+    "bond",
+    "strata"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Cleaners on short-stay, hotel-style and serviced-apartment turnovers who finish bathrooms to a guest-ready standard.",
+  "prerequisites": [
+    "HOT-02",
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "Describe the signs that a previous guest's presence can leave in a bathroom.",
+    "Carry out the bathroom check in a fixed order, under good light, as a separate final step.",
+    "Decide what to do with a mark that cannot be removed, and with an item that appears to belong to a guest."
+  ],
+  "instruction": [
+    {
+      "heading": "What the check is for",
+      "body": "Once a bathroom has been cleaned, the last check is whether anything from the previous guest is still there. The signs can be small: a hair in the basin or on the tiles, water marks on glass, fingerprints on the mirror or taps, traces of product on the shelf, a greasy film on the glass, and drip marks on the outside of the bin. Any of these tells the next guest that the room was not fully reset, and it lowers trust in the rest of the room. The check is a separate step, done after the cleaning is complete and with fresh eyes."
+    },
+    {
+      "heading": "How to run the check",
+      "body": "Stand at the doorway first and look across the whole bathroom with the light on. Then work round in a set order: basin and taps, mirror, shower or bath walls and screen, toilet inside and outside, floor edges and corners, the bin and the outside of it, and the back of the door and its hook. Marks often show only at an angle, so check the glass and tiles against the light. Run a clean cloth along edges and joints to feel for residue that the eye misses. Where a fitting is within reach and safe to check, include the extractor grille and the light fitting."
+    },
+    {
+      "heading": "What to do with what you find",
+      "body": "If the approved method can clear a sign, clear it and recheck that exact spot. If it cannot be cleared, or if it looks like damage (chipping, a loose fitting, a leak, or growth that looks like mould), stop and report it under the business's procedure. Do not hide a mark by covering it. Do not sort through a guest's belongings. If an item appears to belong to a guest, follow the property's lost property procedure, described in “Damage and lost property”, and do not keep, sell or discuss the item."
+    },
+    {
+      "heading": "Hair, personal care items and electrical items",
+      "body": "Remove hair with a cloth or the approved tool, not by hand. Keep product residue off cloths used elsewhere in the room. Hair dryers and other small electrical items are checked for a damaged cord or case and reported if faulty. Do not open the case or attempt a repair. Lint traps are cleaned as the business's procedure sets. Appliance identification for in-room appliances is covered in “Appliance identification”."
+    }
+  ],
+  "procedure": [
+    "Finish cleaning the bathroom to the business's standard, and dry surfaces where the method requires it.",
+    "Stop at the doorway and check the whole room with the light on.",
+    "Work round in the set order: basin and taps, mirror, shower or bath, toilet, floor edges and corners, bin, back of the door.",
+    "Check glass and tiles at an angle to the light.",
+    "Run a clean cloth along edges and joints to feel for residue.",
+    "Clear anything the approved method can remove, then recheck the same spot.",
+    "Stop and report any sharp, damage, leak or suspected contamination. Do not pick up a sharp by hand.",
+    "Record the outcome on the checklist before moving to the next stage."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A bathroom has been wiped, but a long hair is caught in the shower screen track and there is a drip mark on the outside of the bin.",
+      "decisionPrompt": "What is the correct action before you tick the bathroom check?",
+      "reasoning": "Remove the hair with the approved method and clear the drip mark from the outside of the bin. Recheck both spots in the same pass. Tick the check only when both are clean. If either mark stays after the approved method, note it on the checklist and report it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Bathroom cloths and products, kept apart from room cloths",
+    "Torch or lighting for shadowed areas",
+    "Gloves suited to the products in use",
+    "Sharps-safe handling tool or a clear procedure for sharps"
+  ],
+  "commonErrors": [
+    {
+      "error": "Running the bathroom check before the cleaning is finished.",
+      "prevention": "Treat the check as a separate final step."
+    },
+    {
+      "error": "Checking only what is at eye level.",
+      "prevention": "Follow the set order, including the bin, the back of the door and the floor edges."
+    },
+    {
+      "error": "Wiping a mark with a cloth from the toilet.",
+      "prevention": "Use the bathroom cloth system from the method, and keep toilet cloths apart from basin and mirror cloths."
+    },
+    {
+      "error": "Picking up a sharp or a used item with bare hands.",
+      "prevention": "Stop, do not touch it, report it, and follow the sharps procedure."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Sharps, broken glass and biological material are not cleaned up by hand. Stop, keep others away, and follow the sharps and incident procedure. Clean-up of biological contamination is covered by the High-risk cleaning module and is not covered here.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Repairing or opening electrical appliances may be licensed work in each state and territory. This lesson does not grant any electrical licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "No hair, product residue or fingerprints are visible on the checked surfaces under normal light.",
+    "The check is completed in the set order, with the bin, the floor edges and the back of the door included.",
+    "Any mark that could not be removed is recorded and reported, and not hidden."
+  ],
+  "documentationEvidence": [
+    "Bathroom checklist with each zone ticked",
+    "Report of any damage, sharp, leak or item that could not be cleared"
+  ],
+  "summary": [
+    "The bathroom check is a separate final step that looks for signs of the previous guest.",
+    "Work in a fixed order, under good light, and check glass and tiles at an angle.",
+    "Clear what the approved method can clear, and report what it cannot. Never handle a sharp by hand."
+  ],
+  "businessFields": [
+    "{{business:quality.inspection_checklist}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HOT-04-K01",
+      "question": "When in the process is the bathroom check done?",
+      "options": [
+        "Only when a guest makes a complaint or the manager asks for it",
+        "Before the cleaning starts, to plan the work for the day",
+        "As a separate final step, after the cleaning is complete"
+      ]
+    },
+    {
+      "id": "HOT-04-K02",
+      "question": "A small sharp object is found in the bathroom bin. What is correct?",
+      "options": [
+        "Pick it up with a cloth and put it in the bin and then wipe the bin rim",
+        "Stop, do not touch it by hand, and follow the sharps and incident procedure",
+        "Leave it there and clean around it carefully until the end of the shift"
+      ]
+    },
+    {
+      "id": "HOT-04-K03",
+      "question": "A mark on the mirror will not come off with the approved method. What should you do?",
+      "options": [
+        "Note it on the checklist and report it, rather than hiding it",
+        "Use a stronger product from the toilet cleaner to see if it works",
+        "Cover it with a towel and move on to the next room quickly"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "HOTEL-CLEANING.txt, step 6 (bathroom and evidence of a previous guest); rights: user-held; reworded (no copying).",
+    "Internal cross-references: C12-L04 (damage and lost property), C14-L01 (appliance identification), F02-L01 (identify hazards before starting)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

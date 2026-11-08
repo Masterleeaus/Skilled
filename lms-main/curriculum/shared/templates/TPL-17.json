@@ -1,0 +1,411 @@
+{
+  "id": "TPL-17",
+  "title": "Market, customer and competitor analysis (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Marketing and sales",
+  "layer": "base",
+  "lessonType": "RV",
+  "estimatedMinutes": 60,
+  "audience": "Owners who need dated, sourced evidence about the market, the customers and the competitors before they set prices, a marketing approach or financial targets",
+  "prerequisites": [
+    "BP-02",
+    "BP-03"
+  ],
+  "learningOutcomes": [
+    "Record each market observation with its source, date and method, and keep observation separate from estimate",
+    "Define customer segments by who decides, what they buy and how often, with evidence for each segment",
+    "Compare competitors on observable points and name a gap that the business can actually serve"
+  ],
+  "instruction": [
+    {
+      "heading": "Why this analysis comes before the numbers",
+      "body": "A market analysis is a set of checked observations, not a story about a large market. The business needs to know who is likely to buy its service, where those people look for a provider, how many of them are within reach, and which alternatives they already use. Those answers decide the price band, the marketing channel and the number of jobs in the financial targets. The business plan (“Business plan outline for a cleaning business”) takes its market summary from this analysis. The method for customer needs is taught in “Customer needs and building trust in a cleaning business”, and the SWOT method in “SWOT analysis for a small cleaning business”. This lesson builds on them and does not repeat them."
+    },
+    {
+      "heading": "Local observation first",
+      "body": "Start with what can be observed locally: the number of providers you can find, the kinds of customers you meet, the services people ask for, and the prices quoted in public. Record each observation with its date, its place and the method used to see it. An observation is evidence for a claim, and a claim needs at least one observation behind it. Where a published statistic is used, record the publisher, the year of the data and the place it covers. Public open-data sets can show local activity at area level: Victoria's building permit activity dataset, for example, can be filtered by suburb or postcode, and a council planning permit register can show which projects are at application stage. Each council publishes its own register, so check yours. Use such data to count activity in an area, not to contact individuals. A figure from another country, or a figure from an earlier period, is historical and must be labelled as such. It is never used as a current Australian fact, and it is never the basis of a target."
+    },
+    {
+      "heading": "Estimating the reachable market",
+      "body": "The reachable market is the number of customers who could realistically buy from this business. Build it from the bottom up. Count the households or sites in the service area, then work out the share that fit the service type, the share that would pay the price the business can offer, and how often each one buys. Write the steps as a short calculation with the source of each input. Round the result sensibly and state how confident you are in each input. A large total market with a small reachable share is still a small market for this business, and the number of jobs in the targets must fit the reachable share."
+    },
+    {
+      "heading": "Segments defined by the decision",
+      "body": "A segment names the person who decides, the service they buy, how often they buy, and how they find a provider. Two groups who look alike on paper can make different decisions. A household booking a one-off service and a household on a fixed schedule are different segments. Do not define a segment by an income band alone, because an income band does not show how a person chooses a provider. Each segment needs at least one observed need and one channel through which it can be reached."
+    },
+    {
+      "heading": "Competitors on observable points",
+      "body": "List direct competitors, which sell the same service to the same customers, and indirect competitors, which meet the same need in another way, such as a self-service option, an employed cleaner or a different service. For each, record only what can be observed: the services offered, the public prices with their dates, the service area, how reviews are handled, and what the competitor does well. Do not record a competitor's weaknesses from hearsay. Where reviews are used, record the platform, the date read and the number of reviews read, and count the themes that recur rather than selecting the ones that suit the argument."
+    },
+    {
+      "heading": "The gap and whether it lasts",
+      "body": "A gap is a need in a segment that no current competitor meets well, and that this business can meet with what it has. The gap must link to one service in the business plan and one segment in this analysis. Then test how durable the advantage is. A process, a training approach or a product choice can be copied within a short time. A long-standing referral relationship is harder to copy. Record the answer, and mark any advantage that could be copied quickly as temporary."
+    }
+  ],
+  "procedure": [
+    "Define the service area as a list of suburbs or postcodes, and define the service in one sentence.",
+    "Record each market observation in the table with its date, place and method.",
+    "List each published figure with its publisher, year, coverage and status, labelling overseas and historical figures.",
+    "Build the reachable market calculation from the service area, the service type, the price and the purchase frequency, giving the source of each input.",
+    "Name up to three trends you have observed, with dates, and state the likely direction of each for demand.",
+    "Define each customer segment by who decides, what they buy, how often they buy and how they find a provider.",
+    "For each segment, record one or two needs with the observation or source they come from.",
+    "Record each competitor using only observable points, with the date of each public price.",
+    "Where reviews are used, record the platform, the date read, the number of reviews read and the recurring themes.",
+    "Name the gap, link it to one segment and one service, then explain how durable the advantage is.",
+    "List every source with its check date, and enter the review date and the name of the person responsible."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An owner lists four competitors. Three are described as having great reviews, and one as having mixed reviews and doing shoddy work.",
+      "decisionPrompt": "Which parts of the competitor entry can be kept, and how should the review evidence be rewritten?",
+      "reasoning": "Great reviews and shoddy work are opinions with no platform, date or count behind them. The competitor table keeps what can be observed: the service, the public price with its date, and the service area. The review entry is replaced with what was read: the platform, the date, the number of reviews, and the themes that recur, such as punctuality or incomplete work. A theme counted from a stated number of reviews can be recorded as an observation. The phrase about shoddy work is removed unless a dated and specific observation supports it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Notes from local observation, with dates and places recorded",
+    "Published sources, with publisher, year and coverage recorded for each figure",
+    "Service-area boundary or list of suburbs for the reachable market calculation",
+    "Review platform records showing the platform, the date read and the number of reviews read",
+    "PPE: not applicable to this lesson; the analysis is a document"
+  ],
+  "commonErrors": [
+    {
+      "error": "Quoting an overseas or old market size as a local figure.",
+      "prevention": "Label it as overseas or historical, record its source and year, and keep it out of the targets."
+    },
+    {
+      "error": "Defining customers by income alone.",
+      "prevention": "Name the decision maker, the service bought and how often it is bought."
+    },
+    {
+      "error": "Recording a competitor weakness from hearsay.",
+      "prevention": "Record only observations with a date and method. Remove anything that cannot be observed."
+    },
+    {
+      "error": "Treating a large total market as the business's market.",
+      "prevention": "Calculate the reachable share from the service area, the service type, the price and the purchase frequency."
+    },
+    {
+      "error": "Listing a gap that no customer has been shown to want.",
+      "prevention": "Tie the gap to an observed need in a named segment, with the observation recorded."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Check the rules on comparative claims and on the use of another business's material against a current source before using public reviews or information about other businesses, and record the date. Record the method of observation and do not copy another business's material.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Customer details collected for research, such as names and addresses, may be personal information under the Privacy Act 1988 (Cth). Whether the Act applies to the business depends on its turnover and activities, so check the OAIC small business guidance before collecting them.",
+      "licenceNotice": false
+    },
+    {
+      "point": "No current Australian market statistic is stated in this lesson. Any figure the business uses must be sourced and dated by the business before use.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This analysis does not grant a licence, registration or authority of any kind.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every observation has a date, a place and a method",
+    "Every published figure has a publisher, a year and a coverage, and any overseas or historical figure is labelled",
+    "Each customer segment names the decision maker, the service and the frequency",
+    "Each competitor entry contains only observable points, each with a date",
+    "The gap links to one segment and one service, and the advantage is tested for durability"
+  ],
+  "documentationEvidence": [
+    "Completed analysis saved with its date and version",
+    "Observation log with the date, place and method for each entry",
+    "Reachable market calculation with the source of each input",
+    "Review platform record showing the platform, the date read and the number of reviews read"
+  ],
+  "summary": [
+    "An observation is evidence, and a claim needs at least one observation behind it.",
+    "Overseas and historical figures are labelled and kept out of targets.",
+    "Segments are defined by who decides and how often they buy.",
+    "A gap is only real when a segment has shown the need and the business can meet it."
+  ],
+  "businessFields": [
+    "{{business:business.service_area}}",
+    "{{business:services.service_description}}",
+    "{{business:services.vertical}}",
+    "{{business:services.service_group}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:compliance.jurisdiction}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "TPL-17-T01",
+      "title": "Market, customer and competitor analysis",
+      "purpose": "A dated and sourced analysis of the service area, the reachable market, the customer segments defined by decision, the competitors on observable points, the gap and how durable it is, with each figure labelled as observed, published or estimated.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Service area and service definition",
+          "type": "longtext",
+          "prompt": "Describe the service area as a list of suburbs or postcodes, and define the service in one sentence.",
+          "guidance": "The area and the service definition match the registered service area and service description of the business.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Market observations",
+          "type": "table",
+          "prompt": "One row per observation. Columns: date, place, what was observed, method (for example a search, a call, a site visit or a published source).",
+          "guidance": "Each row is one observation. Opinions are not recorded as observations. A published source is recorded with its publisher, year and coverage.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Published figures and their status",
+          "type": "table",
+          "prompt": "One row per published figure. Columns: figure, publisher, year, place it covers, status (current Australian, historical or overseas).",
+          "guidance": "Overseas and historical figures are labelled. They are not used as current Australian facts or in any target.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Reachable market calculation",
+          "type": "longtext",
+          "prompt": "Show the calculation: the households or sites in the area, the share that fit the service type, the share that would buy at your price, and how often each one buys. Give the source of each input.",
+          "guidance": "Each input has a source, or is marked as an estimate with a stated confidence. The result is a number of customers and a number of jobs per year.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Trends and their effect",
+          "type": "longtext",
+          "prompt": "Name up to three trends you have observed, with the date of each, and how each one affects demand for the service.",
+          "guidance": "Each trend is dated and linked to an observation in the observations table. The effect is stated as a likely direction, not a certainty.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Customer segments",
+          "type": "table",
+          "prompt": "One row per segment. Columns: segment, who decides, what they buy, how often they buy, how they find a provider.",
+          "guidance": "The decision maker and the frequency are specific. An income band may be added as a note, but it is not the definition.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Customer needs by segment",
+          "type": "longtext",
+          "prompt": "For each segment, write one or two needs you have observed or heard directly, with the date and the source of each.",
+          "guidance": "Each need names the observation or source it comes from. A need is written as something the customer wants done.",
+          "required": true
+        },
+        {
+          "fieldId": "f8",
+          "label": "Competitor observations",
+          "type": "table",
+          "prompt": "One row per competitor. Columns: name, direct or indirect, service offered, public price with its date, service area, what they do well, date observed.",
+          "guidance": "Only observable points are entered. No hearsay. Each public price is dated.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Review evidence",
+          "type": "table",
+          "prompt": "For each review source used, one row per platform. Columns: platform, date read, number of reviews read, recurring themes (positive and negative).",
+          "guidance": "Themes are counted, not guessed. A theme is recorded only when it appears in the reviews read.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Gap",
+          "type": "longtext",
+          "prompt": "Name the gap: the need in a segment that current competitors do not meet well, and the service in the business plan (“Business plan outline for a cleaning business”) that meets it.",
+          "guidance": "The gap links to one segment in the customers table and one service in “Business plan outline for a cleaning business”. It is not a general claim such as better quality.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "How durable the advantage is",
+          "type": "longtext",
+          "prompt": "Explain how a competitor could copy the advantage, how long that would take, and what would make it hard to copy.",
+          "guidance": "Gives a plain answer with a reason. An advantage that could be copied quickly is marked as temporary.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Sources and check dates",
+          "type": "table",
+          "prompt": "One row per source used in the analysis. Columns: source, date checked, what it supports.",
+          "guidance": "Every figure and claim in the analysis appears here. A source not yet checked is not used.",
+          "required": true
+        },
+        {
+          "fieldId": "f13",
+          "label": "Next review date and owner",
+          "type": "text",
+          "prompt": "Enter the date the analysis is next reviewed, and the person responsible for the review.",
+          "guidance": "The review happens before the business plan is revised. The date falls within the period the plan covers.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Observations are dated and placed",
+      "levels": {
+        "meets": "Every observation has a date, a place and a method.",
+        "does_not_meet": "An observation is missing its date, place or method, or an opinion is recorded as an observation."
+      }
+    },
+    {
+      "criterion": "Figures are labelled by status",
+      "levels": {
+        "meets": "Each published figure states its publisher, year, coverage and status, and no overseas or historical figure is used as a current Australian fact or in a target.",
+        "does_not_meet": "A figure has no source or year, or an overseas or historical figure is used as current."
+      }
+    },
+    {
+      "criterion": "Segments are defined by decision",
+      "levels": {
+        "meets": "Each segment names the decision maker, the service bought and how often it is bought.",
+        "does_not_meet": "A segment is defined only by income or a general label."
+      }
+    },
+    {
+      "criterion": "Competitors are recorded on observable points",
+      "levels": {
+        "meets": "Each competitor entry contains only observable points, and each public price is dated.",
+        "does_not_meet": "A competitor entry contains hearsay, undated prices or unsupported judgements."
+      }
+    },
+    {
+      "criterion": "The gap is linked and tested",
+      "levels": {
+        "meets": "The gap links to one named segment and one service, and its durability is explained.",
+        "does_not_meet": "The gap is a general claim, is not linked to a segment or service, or has no durability test."
+      }
+    }
+  ],
+  "knowledgeChecks": [],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} market, customer and competitor analysis",
+    "format": "plan",
+    "sections": [
+      {
+        "heading": "Service area and service",
+        "fieldIds": [
+          "f1"
+        ]
+      },
+      {
+        "heading": "Market observations and figures",
+        "fieldIds": [
+          "f2",
+          "f3",
+          "f4"
+        ]
+      },
+      {
+        "heading": "Trends",
+        "fieldIds": [
+          "f5"
+        ]
+      },
+      {
+        "heading": "Customer segments and needs",
+        "fieldIds": [
+          "f6",
+          "f7"
+        ]
+      },
+      {
+        "heading": "Competitors",
+        "fieldIds": [
+          "f8",
+          "f9"
+        ]
+      },
+      {
+        "heading": "Gap and advantage",
+        "fieldIds": [
+          "f10",
+          "f11"
+        ]
+      },
+      {
+        "heading": "Sources and review",
+        "fieldIds": [
+          "f12",
+          "f13"
+        ]
+      }
+    ],
+    "footer": "Each figure is labelled as observed, published or estimated. Contact {{business:business.support_email}}."
+  },
+  "status": "DRAFT",
+  "sourceReferences": [
+    "e7e40af5-855605689-Cleaning-Service-Business-Plan-Template.txt, sections III Industry Analysis, IV Customer Analysis and V Competitive Analysis (the questions asked under each heading); rights: user-held; reworded (no copying). The sample market size, the named competitors, the named competitor review and the US market figures in the sample were NOT used, because they are generated, historical and non-Australian.",
+    "Cross-reference only (content not repeated): BP-02 customer needs and competitor types (shared/marketing/BP-02.json); BP-03 SWOT (shared/starting-business/BP-03.json); TPL-16 business plan (the market summary field draws on this analysis)",
+    "Current Australian market statistics: none stated in this lesson; the business sources and dates each figure. Rules on comparative claims, use of reviews and other businesses' material: UNCONFIRMED (not checked against a current source in this draft; no date checked)",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. template was converted from a US-style source in the template pass; US amounts, US state law and US fee terms are removed or marked for Australian checking; no US figure is used; state and territory rules UNCONFIRMED",
+    "Added in revision (R2 pass, 2026-11-09). Data Vic, 'Building Permit Activity Data', https://discover.data.vic.gov.au/dataset/d397f0bc-d69b-4093-b8d5-d8daae4f73a3 (last updated 28 August 2026, as shown): permit records can be filtered by suburb or postcode, used for area-level counts only. The owner and builder fields were not confirmed from the page. Research: team4-R-targeted-search-tactics.md, tactic 9.",
+    "Added in revision (R2 pass, 2026-11-09). Data Vic, 'Planning Permit Application Register', https://discover.data.vic.gov.au/dataset/planning-permit-application-register (metadata published 15 November 2023; last updated 5 November 2026, as shown). The example is the City of Casey dataset; check your own council's register. Research: team4-R-targeted-search-tactics.md, tactic 8.",
+    "Added in revision (R2 pass, 2026-11-09). OAIC, 'Small business (Privacy)', https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business (checked 2026-11-04 via a summary tool, not the page text): the Act's coverage depends on turnover and activities. Used for the privacy point. The comparative-claims and copying rules remain UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Small business (Privacy)",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business",
+      "pageDate": "no date shown in body text (page metadata: published 10 March 2023, last modified 5 September 2024)",
+      "checked": "2026-11-04",
+      "covers": "States that a small business has an annual turnover of $3 million or less; that the Privacy Act covers some businesses regardless of turnover, including health service providers and businesses trading in personal information; and that a business is covered if its turnover exceeded $3,000,000 in any financial year since 2002. Does not address comparative claims or public reviews. Publisher: OAIC."
+    }
+  ]
+}

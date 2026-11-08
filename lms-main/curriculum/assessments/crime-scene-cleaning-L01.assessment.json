@@ -1,0 +1,29 @@
+{
+  "lessonId": "crime-scene-cleaning-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "crime-scene-cleaning-L01-K01",
+      "correctIndex": 0,
+      "rationale": "Work is held until the written release and an approved plan exist. A manager's pressure does not replace them."
+    },
+    {
+      "id": "crime-scene-cleaning-L01-K02",
+      "correctIndex": 1,
+      "rationale": "The scheme covers provider registration and funding. Scene release is a separate matter."
+    }
+  ],
+  "practicalCriteria": [
+    "From a fictional intake request, the learner writes the classification, the reason and the list of open authorities. Pass: all three are present and no work is assigned.",
+    "The learner drafts a hold notice that names at least three missing items. Pass: each missing item has a named responsible party."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed intake record for a fictional request",
+    "Hold notice reviewed by the supervisor"
+  ],
+  "stopWorkCriteria": [
+    "The classification is unknown.",
+    "Written release is missing or unclear.",
+    "A party asks for work to start before scope is confirmed."
+  ]
+}

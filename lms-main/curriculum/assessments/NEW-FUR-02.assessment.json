@@ -1,0 +1,34 @@
+{
+  "lessonId": "NEW-FUR-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-FUR-02-K01",
+      "correctIndex": 2,
+      "rationale": "Age is a screening prompt. It neither confirms nor rules out lead, so the finish is screened before it is disturbed."
+    },
+    {
+      "id": "NEW-FUR-02-K02",
+      "correctIndex": 0,
+      "rationale": "An unidentified fabric or backing is screened first, because backings can contain materials that need screening."
+    },
+    {
+      "id": "NEW-FUR-02-K03",
+      "correctIndex": 1,
+      "rationale": "The record holds the identification facts, the unknowns and the photographs, so the next step can be checked."
+    }
+  ],
+  "practicalCriteria": [
+    "Identification record and photographs completed before any work",
+    "Unknown layers and backings recorded with the screening step they trigger",
+    "No disturbing test carried out on an unknown finish"
+  ],
+  "passRule": "Knowledge checks: 80% or higher. With three checks this means all three must be correct. Practical sign-off is separate: every practical criterion must be observed and met by the assessor. A knowledge pass is not practical competence and does not count toward sign-off.",
+  "evidenceRequired": [
+    "Identification record with photographs",
+    "Unknowns list with screening step"
+  ],
+  "stopWorkCriteria": [
+    "Unknown finish or backing disturbed before screening",
+    "Identification uses a disturbing test"
+  ]
+}

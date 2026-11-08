@@ -1,0 +1,35 @@
+{
+  "lessonId": "PTB-10",
+  "knowledgeAnswers": [
+    {
+      "id": "PTB-10-K01",
+      "correctIndex": 1,
+      "rationale": "Relocation is usually outside the business's control. Recording it is the right response; blaming the trainer or raising prices is not."
+    },
+    {
+      "id": "PTB-10-K02",
+      "correctIndex": 0,
+      "rationale": "Revisiting the goal against progress keeps the reason for joining in view. The other two steps remove that link."
+    },
+    {
+      "id": "PTB-10-K03",
+      "correctIndex": 0,
+      "rationale": "Early and regular check-ins catch dissatisfaction before a member leaves. Price and coaching replacement are not the purpose."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a list of six departures, the learner sorts each reason as controllable or not, and the assessor agrees the sort",
+    "The learner sets a check-in schedule for three new members at weeks two, six and twelve",
+    "The learner records one specific controllable change, linked to the largest controllable reason"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Sorted attrition list",
+    "Check-in schedule",
+    "Change record"
+  ],
+  "stopWorkCriteria": [
+    "Stop any retention message that makes a health claim",
+    "Stop storing exit feedback that contains information the member did not agree to give"
+  ]
+}

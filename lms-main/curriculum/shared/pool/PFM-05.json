@@ -1,0 +1,201 @@
+{
+  "id": "PFM-05",
+  "title": "Electrical connection, bonding and motor safety for a pool pump",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 50,
+  "audience": "Pool service technicians who must recognise electrical hazards around a pool pump and know what must be referred to a licensed electrician",
+  "prerequisites": [
+    "pool-cleaning-L10"
+  ],
+  "learningOutcomes": [
+    "Identify the electrical hazards of a pool pump and explain why isolation comes before any work",
+    "Describe the protective devices and bonding requirements in the manual and state which parts are product-specific and not applicable in Australia",
+    "Recognise a damaged or unsuitable cord, a wrong voltage and an extension lead, and refer each one",
+    "State the electrical tasks that must be carried out by a licensed electrical worker and that this lesson grants no licence"
+  ],
+  "instruction": [
+    {
+      "heading": "Why a pump counts as live",
+      "body": "According to the manufacturer, the pump draws electrical power and can produce both suction and pressure within the water system. Wired and plumbed correctly, it works safely. The electrical hazard exists whenever the pump is connected to supply, whether or not it is turning. A switched-off pump can still be live. Treat every pump as live until its supply has been isolated, tested and confirmed off."
+    },
+    {
+      "heading": "Protective devices and bonding",
+      "body": "The manufacturer asks for a residual current device at the supply point. It also describes bonding that ties the motor, the metal parts of the pool, metal conduit and any metal pipework to a single common conductor. That document refers to a United States electrical code, which does not apply in Australia. Its conductor sizes, breaker ratings and voltage-drop tables are specific to the product and to the US, and they are not used here."
+    },
+    {
+      "heading": "Matching the supply",
+      "body": "Wire the motor to the voltage on its wiring diagram. Connecting the wrong voltage damages the motor and voids the warranty. Keep the cable run as short as practical and sized so the voltage at the pump does not sag enough to cause harm. Confirm the supply voltage before connection and record it. Never alter the motor wiring to suit a supply you have not verified."
+    },
+    {
+      "heading": "Cords, plugs and extension leads",
+      "body": "A cord-connected unit must plug only into an earthed socket protected by a residual current device. If that protection cannot be confirmed, call a qualified electrician. Keep the cord out of the earth, clear of mowers and trimmers, and do not run it through an extension lead. Replace a damaged cord without delay. The supplied test cord is for checking operation before installation and must not be used as a permanent connection."
+    },
+    {
+      "heading": "Work on the pump, with the motor",
+      "body": "Keep hands off the pump whenever it is energised or still connected to power, because dangerous voltage can cause serious or fatal injury. Earth the motor before it is connected to supply, and never earth it to a gas pipe. Motor servicing is for a motor service centre. Electrical isolation, wiring and motor replacement are licensed work in most places, and this lesson grants no licence for them."
+    },
+    {
+      "heading": "Symptoms that need a licensed person",
+      "body": "The UK handbook says that if an electric motor refuses to start, the fuse should be checked. A motor that hums may have a jammed impeller, in which case the supply is cut and the maintenance company is called. Those are the points where a service worker stops and refers. Do not open the motor, its terminal box or any control enclosure."
+    }
+  ],
+  "procedure": [
+    "Treat the pump as live. Identify the isolator and confirm the supply can be switched off.",
+    "Switch off and lock out or tag the isolator before any inspection of the pump or motor.",
+    "Confirm the protective device at the supply is present, and record what you can see. Do not test it unless you are competent.",
+    "Check the cord, plug and socket for damage. Refer any damaged cord immediately.",
+    "Check that no extension cord is used and that the cord is not buried.",
+    "If the motor fails to start or hums, do not open the motor. Turn off the supply and refer the fault.",
+    "Record the supply, the cord and socket condition, the isolation and the referral."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The pump cord is cracked near the plug and the owner has an extension lead to reach the outlet.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Isolate the supply and avoid using the pump. The manual says to replace a damaged cord immediately and not to use an extension lead. Record the damage, tell the owner, and refer the replacement to a licensed electrician. Do not tape the cord."
+    },
+    {
+      "situation": "A pump has been unplugged for the winter and the owner asks you to rewire the motor to a different supply to match the new outlet.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Refuse. Wiring the motor to the wrong supply voltage damages the motor, and the wiring is licensed work. Record the request and refer the matter to a licensed electrician who can confirm the supply and the wiring diagram."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Lock-out or tag for the isolator",
+    "Voltage detector or meter only where the person is competent and the procedure allows",
+    "Insulated gloves and eye protection where the site rules require them",
+    "Manufacturer manual and wiring diagram for the motor",
+    "Record sheet for supply, cord and isolation checks"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a pump that is not running as safe",
+      "prevention": "Treat every pump as live until isolation is confirmed."
+    },
+    {
+      "error": "Using an extension lead to reach an outlet",
+      "prevention": "Refer the outlet problem to a licensed electrician and avoid using an extension."
+    },
+    {
+      "error": "Working on the motor while the supply is connected",
+      "prevention": "Isolate and confirm the supply is off before any work."
+    },
+    {
+      "error": "Applying a US code or US wire size as an Australian rule",
+      "prevention": "Refer all wiring and protective device questions to a licensed electrician who applies Australian rules."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Dangerous voltage can cause serious or fatal injury. Never work on the pump while it remains running or still connected.",
+      "licenceNotice": true
+    },
+    {
+      "point": "A suitable residual current device must be fitted at the supply point of the unit. The manual's requirement references a United States code that does not apply in Australia.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Bonding of the motor and metal parts of the pool, metal conduit and any metal piping is product- and code-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Wiring must match the motor voltage shown on its wiring diagram. Wrong voltage damages the motor and voids the warranty.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Avoid using an extension lead. Replace a damaged cord immediately. Do not bury the cord, and keep it away from mowers and trimmers.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Connect a cord-connected unit only to an earthed-type socket protected by a residual current interrupter. If the protection cannot be verified, refer to a qualified electrician.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Ground the motor before connecting it to the supply. Do never earth to a gas pipe line.",
+      "licenceNotice": true
+    },
+    {
+      "point": "A test cord is not a permanent connection and must not be run beyond the manual's short limit.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Electrical connection, wiring, bonding and motor replacement are licensed work. This lesson grants no electrical licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The pump is isolated and confirmed off before any inspection or work.",
+    "Cord, plug and socket condition is recorded at each visit, and damage is referred.",
+    "No electrical work is carried out by an unlicensed person, and every referral is recorded."
+  ],
+  "documentationEvidence": [
+    "Isolation and lock-out record",
+    "Cord, plug and socket condition record",
+    "Referral note to a licensed electrician"
+  ],
+  "summary": [
+    "Treat the pump as live until the supply is isolated and confirmed off.",
+    "Refer every cord, socket, bonding and wiring question to a licensed electrician.",
+    "The US code and the US figures in the manual do not apply in Australia."
+  ],
+  "businessFields": [
+    "{{business:compliance.licence_requirements}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:procedures.prestart_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PFM-05-K01",
+      "question": "A pump is switched off at the wall but its isolator is not confirmed. What should you assume?",
+      "options": [
+        "The pump is safe if it is cold to the touch and the cover is in place",
+        "The pump is safe to open because it is not running and the cover is off",
+        "The pump may still be live, so isolation must be confirmed before any work",
+        "The pump is safe because the motor has no current when it is idle"
+      ]
+    },
+    {
+      "id": "PFM-05-K02",
+      "question": "The pump cord is damaged and an extension lead is offered. What is the correct response?",
+      "options": [
+        "Use the pump on the extension cord because it is only temporary",
+        "Use the extension cord for a short time only and keep it away from the water",
+        "Tape the cord and continue and keep the pump running for the day",
+        "Stop, isolate the supply, and refer the damaged cord for replacement"
+      ]
+    },
+    {
+      "id": "PFM-05-K03",
+      "question": "A motor fails to start and hums when switched on. What is the correct action?",
+      "options": [
+        "Turn off the electrical supply and refer the fault",
+        "Wire the motor to a different supply to test it",
+        "Open the motor and check the impeller",
+        "Keep trying the switch until the motor starts"
+      ]
+    },
+    {
+      "id": "PFM-05-K04",
+      "question": "What protective device does the manufacturer ask for at the supply point?",
+      "options": [
+        "A fuse only",
+        "A timer",
+        "A residual current device",
+        "None"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), sections B and 'Warnings' on electrical operation, grounding, bonding, wiring voltage, test cord and cord and plug units, cross-checked against the handbook section 10 on motor faults; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), section 10 Troubleshooting (motor fails to start, fuse check and humming motor advice); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "UNCONFIRMED: Australian wiring rules, residual current device requirements, bonding and licensing for pool pump electrical work. The US code cited in the manual is not applicable in Australia. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,181 @@
+{
+  "id": "BP-05-painting",
+  "title": "Pricing by hours per project for Painting",
+  "courseSlugs": [
+    "painting"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Painting contractors and supervisors who write quotes for interior and exterior repaints and need a price that covers cost and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the business's own figures",
+    "Estimate painting hours, including preparation, coats, drying, set-up, travel and checking",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "Painting is labour-heavy, and its hours are easy to see. Preparation, the number of coats, cutting in, drying time between coats and the number of colours all become hours. Once the hours are known, the cost, the margin and the effect of a scope change can be seen. A flat price with no hours behind it hides risk, and it is hard to defend when a client asks why a repaint costs what it does. Vendor listings give whole-job ranges, such as $3,500 to $8,000 for a full three-bedroom interior (TradeRefer, vendor, page date not shown). Those ranges are not a benchmark for your hours, so build your own."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in that period. Total cost includes wages with on-costs, such as leave and superannuation, vehicle running costs, paint and consumables, ladder and scaffold hire, equipment, insurance, administration and premises. Productive hours are the hours a painter spends on chargeable work, not the paid hours on a roster. Business.gov.au lists on-costs such as leave and superannuation as part of the hourly cost (Choose a pricing strategy, page metadata dated 1 October 2026). If a painter is paid for 40 hours and 30 of them are chargeable, the cost per productive hour is higher than the hourly wage. Use the business's own figures, not a vendor's hourly range."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each repaint into tasks: each room or wall, ceilings, trim, doors, the exterior elevations and any repairs. Estimate each task at a standard speed for your own team, then add preparation, masking, drying time between coats, set-up, pack-down, travel between sites and a checking allowance. Use ranges where the job is uncertain. Add a set allowance for delays outside your control, such as late access, wet weather for exterior work and staff absence. One guide suggests adding 10 to 20 percent to job estimates for unexpected work (Xero Australia, How to price services, 3 September 2026). That is a general service-business range, not a painting figure, so check it against your own records. After each job, record the actual hours and the reason for any gap."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the job. Add a margin that reflects your target and the risk in the job, such as difficult access, a poor surface, older surfaces that need checking before any work, or a tight deadline. One author presents a gross margin of at least 20 percent as a floor, and says the right figure varies by business and market (Carters Trade Leader, 1 October 2025). That is one author's view. Apply your materials policy and your minimum charge. If a client wants a lower price, show which rooms, coats or areas they are asking you to remove, which keeps the discussion on the work."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A painting quote should state the scope (rooms, surfaces, number of coats and colours), the hours or price basis, the exclusions, what the client must provide, and how long the quote is valid. Typical exclusions include ceilings if they are not in scope, timber repairs, wallpaper removal and plaster repairs beyond filling. Do not show the internal cost per hour unless your policy says to. Record every change to the scope and re-quote when it changes. NSW guidance says variations must be in writing and signed by both parties, and that almost all variations affect the price (NSW Consumer Building Guide, published 1 November 2025, web page modified 19 February 2026)."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten repaints of each type, such as an interior repaint, an exterior repaint and a feature wall. If the gap is consistently above an agreed threshold, change the standard time, the margin or the scope rules. A pricing method is not finished when it is written. It is finished when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the productive hours achieved in the same period.",
+    "Divide total costs by productive hours to get the cost per productive hour.",
+    "Break the repaint into rooms, surfaces and tasks, and estimate each task time as a range.",
+    "Add preparation, masking, drying time between coats, set-up, pack-down, travel and checking as named lines.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy and the minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, client inputs and validity.",
+    "Record actual hours after each job and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Hypothetical figures, invented for this lesson and not market rates. A three-bedroom interior repaint, with walls, ceilings and trim, needs an estimated 24 crew-hours, including preparation, two coats and a checking visit. The painter's cost per productive hour is $60 (hypothetical). The target margin on price is 25 per cent (hypothetical).",
+      "decisionPrompt": "What is the cost of the job, what is the price at a 25 per cent margin on price, and what changes if access delays add 3 crew-hours that the quote's access terms allow the painter to charge?",
+      "reasoning": "The cost is 24 crew-hours at $60, which is $1,440. A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $1,920. Three extra crew-hours add $180 to the cost, so the cost becomes $1,620 and the price becomes $2,160. The painter adds the delay to the bill only if the quote's access terms allow it, and records the reason in the job log."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet with room-by-room hours",
+    "Time log for each job, with estimated and actual columns",
+    "Measuring tape or laser measure for wall and ceiling areas",
+    "Ladder and access checklist, with drop sheets and masking supplies",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, paint and consumables, equipment, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out drying time, preparation and masking",
+      "prevention": "Name drying time, preparation and masking as separate lines on every quote."
+    },
+    {
+      "error": "Quoting with no exclusions",
+      "prevention": "List ceilings, timber repairs, wallpaper removal and any other exclusions, and state the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each job and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The Australian Consumer Law applies to pricing statements, and the ACCC says misleading statements about prices are prohibited (ACCC, Setting prices: what's allowed, last modified 15 July 2026). State and territory fair trading rules also apply, and they differ between states.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Painting work can need a licence or registration, and the job value can decide it. In NSW, a contractor licence is needed for residential building work valued at more than $5,000 in labour and materials including GST, and painting and decorating are listed categories. In Victoria, painting is a limited class of domestic building work. The Victorian sources read word the $10,000 threshold three ways: 'more than $10,000', '$10,000 or more' and 'over $10,000'. Whether a painter-only job above that value needs a major domestic building contract is not settled either, because one source limits the contract rule to work involving more than one trade and another does not. Treat the threshold as unresolved and check it against the Victorian Act and with the Victorian Building Authority before use. In Queensland, painting and decorating is a licensed class. Check the rule for each state where you work. This lesson does not grant any licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement. Check which one applies to each worker before using any cost figure. This lesson does not state those rates.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the business's own records and dated.",
+    "Actual hours are recorded for at least the first ten repaints of each type and compared with the estimate.",
+    "No quote is issued without a margin decision, a minimum-charge check and a licence check for the job value."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Painting quote showing scope, hours basis, exclusions and validity",
+    "Job time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make painting work visible, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Preparation, drying, travel and checking time are named lines, not hidden extras.",
+    "Compare estimates with actual hours, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-K01-painting",
+      "question": "Which costs belong in the cost per productive hour?",
+      "options": [
+        "Only the hourly wage of the lowest-paid painter, and nothing else from the accounts",
+        "The price the client pays, plus the deposit, the late fee and any bonus",
+        "The average hourly rate of competitors and the vendor listing ranges for the area",
+        "Wages with on-costs, vehicle, paint, equipment, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-K02-painting",
+      "question": "A repaint is estimated at 5 crew-hours and takes 8. What is the right response?",
+      "options": [
+        "Leave the estimate, since the client has already paid and the crew has finished",
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Reduce paid hours for the crew on the next job and skip the morning break",
+        "Raise the price for this client's next job only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-K03-painting",
+      "question": "Why does a painting quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client and keep the rates secret from the crew",
+        "To make the quote longer and fill the page with more text",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the client's expectations and make the job seem smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements are prohibited.",
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Supports: on-costs such as leave and superannuation belong in the hourly cost.",
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Supports: divide by billable hours, not total hours; a 10 to 20 per cent buffer for unexpected work (general service range, not a painting figure).",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. New Zealand publisher. Supports: comparing quoted and actual labour to correct the next quote. The 20 per cent gross margin floor is one author's view.",
+    "Markel Direct, 'How to price a job as a tradesperson', https://www.markeluk.com/knowledge-centre/how-to-price-a-job-as-a-tradesperson, dated 12 August 2026. Supports: listing every task, including site visits, travel, set-up and cleanup, before estimating hours.",
+    "NSW Consumer Building Guide, via nsw.gov.au, https://www.nsw.gov.au/housing-and-construction/compliance-and-regulation/your-obligations-to-your-customers/how-to-use-consumer-building-guide/guide, published 1 November 2025, web page modified 19 February 2026. Supports: variations in writing and signed by both parties.",
+    "TradeRefer, painting page, https://traderefer.au/trades/painting, page date not shown, accessed 2026-11-09. Vendor source; used only for the labelled whole-job range of $3,500 to $8,000.",
+    "NSW Fair Trading, 'Categories of work', https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/categories-of-work, published 5 September 2024, metadata updated 22 September 2026. Supports: the NSW licence threshold and painting as a listed category.",
+    "consumer.vic.gov.au, 'Laws about home building contracts', https://www.consumer.vic.gov.au/licensing-and-registration/builders-and-tradespeople/running-your-business/domestic-building-contracts/laws-about-home-building-contracts, page date 9 July 2025. States 'more than $10,000'. Threshold unresolved.",
+    "building.vic.gov.au, 'Agreements and contracts', https://www.building.vic.gov.au/before-you-start-building/agreements-and-contracts, page date 01/07/25. States '$10,000 or more'. Threshold unresolved.",
+    "Victorian Building Authority, news item (2017), 'Changes to registration requirements for domestic building work under $10,000', https://www.vba.vic.gov.au/news/news/2017/changes-to-registration-requirements-for-domestic-building-work-under-$10,000, dated 2017, change effective 1 August 2017. States 'over $10,000'. Threshold unresolved.",
+    "consumer.vic.gov.au, 'Contracts', https://www.consumer.vic.gov.au/housing-and-accommodation/building-and-renovating/plan-and-manage-your-building-project/contracts, updated 20 October 2025. Says a major domestic building contract is needed where work involves more than one trade and is over $10,000. Single-trade treatment unresolved.",
+    "Queensland Building and Construction Commission, 'Painting and decorating', https://www.qbcc.qld.gov.au/painting-decorating, last reviewed 31 August 2021. Supports: painting and decorating is a licensed class; the residential threshold is not stated on the page."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

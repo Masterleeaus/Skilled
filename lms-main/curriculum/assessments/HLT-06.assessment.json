@@ -1,0 +1,33 @@
+{
+  "lessonId": "HLT-06",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-06-K01",
+      "correctIndex": 1,
+      "rationale": "The guide sequence is wash, cover, glove and report. A loose tissue, a rub alone or waiting does not meet the requirement."
+    },
+    {
+      "id": "HLT-06-K02",
+      "correctIndex": 0,
+      "rationale": "A cut is a portal of entry, which is why it must be covered. The other options are wrong, since dressings do not replace hand hygiene."
+    },
+    {
+      "id": "HLT-06-K03",
+      "correctIndex": 2,
+      "rationale": "A skin condition is reported to the supervisor, who decides what tasks are safe. Self-diagnosis and disinfectant on the skin are not the approved steps."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated cut, the learner washes, covers, gloves and reports in the correct order before continuing.",
+    "Given a rash scenario, the learner stops the task, reports to the supervisor and does not diagnose."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of the simulated cut sequence",
+    "Incident or injury record completed for the simulation"
+  ],
+  "stopWorkCriteria": [
+    "A cut or abrasion is open and not covered: stop before handling any body fluid, sharp, linen or waste.",
+    "A skin condition is present: stop and report before any further task."
+  ]
+}

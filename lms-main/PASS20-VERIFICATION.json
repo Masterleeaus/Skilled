@@ -1,0 +1,26 @@
+{
+  "migration_count": 12,
+  "tables_created": 40,
+  "errors": [],
+  "warnings": [
+    "colliding migration timestamp 20261102000100: 20261102000100_academy_external_identity_audit, 20261102000100_titan_academy_content_inventory"
+  ],
+  "migration_names": [
+    "20260717195126_init",
+    "20261102000100_academy_external_identity_audit",
+    "20261102000100_titan_academy_content_inventory",
+    "20261102000200_titan_academy_curriculum_composition",
+    "20261102000300_academy_course_composition",
+    "20261102060000_academy_knowledge_attempts",
+    "20261102070000_academy_practical_evidence",
+    "20261102080000_academy_organisations_training",
+    "20261102090000_academy_verified_competencies",
+    "20261102100000_academy_evidence_tenant_binding",
+    "20261102170000_academy_service_credentials",
+    "20261102190000_academy_identity_tenant_scope"
+  ],
+  "pass": 20,
+  "runtime_postgres_tested": false,
+  "typescript_compiled": false,
+  "source_archive": "Titan-Academy-TypeScript-Upgrade-Pass19-Cumulative.zip"
+}

@@ -1,0 +1,30 @@
+{
+  "lessonId": "flood-water-restoration-L02",
+  "note": "Knowledge checks are a reading check only. A pass on them is not verified practical competence.",
+  "knowledgeAnswers": [
+    {
+      "id": "flood-water-restoration-L02-K01",
+      "correctIndex": 0,
+      "rationale": "The uncertainty is recorded and classification is referred. Appearance is not used to classify."
+    },
+    {
+      "id": "flood-water-restoration-L02-K02",
+      "correctIndex": 0,
+      "rationale": "The NSW release lists sewage containing harmful bacteria among flood clean-up hazards."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner records contamination as uncertain until a competent person classifies it.",
+    "The learner does not classify water from appearance or odour.",
+    "Learner completes the procedure record for the mock case and names the stop-work trigger before any practical step."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed mock decision record for the lesson case",
+    "Assessor observation of the simulated scenario, with no real site work or hazardous material"
+  ],
+  "stopWorkCriteria": [
+    "Contamination is unknown or has not been classified.",
+    "A sewage indicator is present and no referral is recorded."
+  ]
+}

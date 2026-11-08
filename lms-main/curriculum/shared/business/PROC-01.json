@@ -1,0 +1,222 @@
+{
+  "id": "PROC-01",
+  "title": "Defining needs, outcomes and specifications",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Business operations and finance",
+  "moduleNote": "High-risk cleaning is excluded from this module on purpose (owner decision, option B, recorded 2026-11-04 in research/OWNER-DECISIONS.md). The high-risk course does not receive PROC-01 to PROC-04. The construction slug was also removed from this module on 2026-11-04 because it has no course folder and is not in passed.json.",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners, managers and staff in a service business who request, buy or approve goods and services, and who need to write down what they want before asking suppliers for a price. The lesson uses general terms that apply to any buying team in Australia. Commonwealth officials may also use the framework in the Commonwealth Procurement Rules.",
+  "referencesAtStart": "Official sources used: Commonwealth Procurement Rules 2025, paragraphs 4.4(a), 4.4(e) and 4.5(d) (cover and commencement date: 17 November 2025); Commonwealth Procurement Rules: how to use the rules, paragraphs 3.8 to 3.10 on who must comply (no update date shown on the page; re-read 2026-11-06, paragraph 3.7 covers GST and is not used). The three specification styles are a general procurement concept, not taken from an official source, and have not yet been confirmed as an official definition.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Distinguish an output or performance specification from a conformance specification, and choose the style that fits a given purchase.",
+    "Write a requirement that states what is needed in testable terms, without unnecessary design detail.",
+    "Identify when a specification adds excess cost or shuts out suitable alternatives, including brand-name requirements.",
+    "Name sources of information for a specification and state what each one is used for."
+  ],
+  "instruction": [
+    {
+      "heading": "A need is not yet a specification",
+      "body": "Buying starts with a need: something the business must achieve, such as clean floors across three sites each night, or a vehicle that can carry a particular load safely. A requirement turns that need into a statement of what the item or service must do, who it serves and when it is needed. A specification goes one step further and describes the characteristics a supplier must meet, so the buyer can tell whether an offer is acceptable. Many poor purchases come from skipping the first two steps. The buyer jumps to a product name, asks for a price on that name, and then finds the product does not do what the business needed. Before writing anything, ask what the business must achieve, how success would be measured, what the item must never do, and what would make a supplier unacceptable. Those four answers form the base of any specification, whichever style is chosen."
+    },
+    {
+      "heading": "Three styles of specification",
+      "body": "An output specification describes the result the buyer needs and leaves the method to the supplier. It usually names key performance indicators, such as the share of work passing inspection or the time taken to finish a task, and it states the standard each result must meet. A performance specification describes how the item must behave under stated conditions, for example the load it must carry, the noise it may make or the energy it may use, and the test that will prove it. A conformance specification describes the item in detail: the design, dimensions, materials, method or referenced standard that must be matched. Checking then means comparing what arrives with the description. Guides use these three terms differently, so write down the definitions your purchasing policy uses and state them in each request. A practical test is to ask who carries the design risk. If the buyer fixes the design and the design fails, the buyer carries that risk. If the buyer fixes the result, the supplier carries more of the risk and has more room to propose an efficient design."
+    },
+    {
+      "heading": "Avoiding excess cost, gaps and lock-out",
+      "body": "Over-specification is a common source of excess cost. A specification that asks for features the business will never use raises the price, narrows the field of suppliers who can bid, and can make the item harder to maintain. Under-specification has the opposite problem: the offer looks cheap, but gaps in the description lead to disputes, variations and rework once the work starts. Brand names are a frequent cause of lock-out. Naming one brand tells suppliers that nothing else will be accepted, even when an alternative could meet the same performance measures. If a brand is named for compatibility or another real reason, say so, and add the words or equivalent together with the performance criteria an equivalent must meet. Whatever style is chosen, a good specification is clear, complete enough to be checked, and free of terms that two readers would understand differently. A useful test is to give the draft to two people who did not write it and see whether they would assess an offer in the same way."
+    },
+    {
+      "heading": "Where the information comes from",
+      "body": "The best specifications are built with the people who will use the item and with the market that will supply it. Users show what the work really involves. A short walk-through with the staff who will run a machine often reveals requirements that a manager would not think to write down. Suppliers can explain what the market offers, which standards are common and which costs drive the price. Early market engagement, usually through a request for information, lets a buyer test assumptions before committing to a document. Published sources also help: government reports, trade directories, industry standards and benchmarking data can show what good practice looks like. Competitors' public material can be useful, but a buyer must never use confidential information from one organisation to shape a request sent to another. Record where each requirement came from, because that record explains the reason for each requirement when someone later asks why an offer was accepted or rejected."
+    }
+  ],
+  "procedure": [
+    "Write the need in one sentence, including who it serves and when it is needed.",
+    "List the measures of success and the things the item must never do.",
+    "Choose the specification style and state the reason in one line, including who carries the design risk.",
+    "Write each requirement as a testable statement. Remove brand names unless a named brand is justified, and if one is kept, follow it with 'or equivalent' and the performance criteria.",
+    "Remove any feature the outcome does not need, and record why each remaining feature is needed.",
+    "Test the draft with at least one user and one potential supplier, record their input and the change made, and keep the final specification with the purchase order so the delivered item can be checked against it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Invented example, not a real business or market price: a cleaning business with three client sites needs a floor scrubber for daily use on sealed concrete. The owner's first draft names one brand and a motor size. The staff who will use the machine say the real issues are drying time between shifts and a noise limit at one site.",
+      "decisionPrompt": "Which specification style should the owner use, and what should the first draft say about the brand and the motor size?",
+      "reasoning": "An output or performance style fits, because the outcome is clean, dry floors within the shift window and within the noise limit. The owner should state those results and the test method, then ask for an equivalent unit that meets them. The brand name should come out, or stay only with the words or equivalent and the same performance tests. The motor size is a design detail the supplier can choose, so it should be removed unless the site power supply sets a real limit. If it does, the limit becomes a stated constraint, not a model choice."
+    },
+    {
+      "situation": "Invented example, not a real business or market price: a business buys a pressure washer for trailer-based work. Its draft names one brand and a working pressure figure that the owner copied from a catalogue page without testing. Two suppliers offer units with lower working pressure but the same water flow, and the jobs need only that flow to lift grime from the work surfaces.",
+      "decisionPrompt": "Does the draft exclude a suitable alternative, and what should change?",
+      "reasoning": "Yes. The brand and the pressure figure together exclude an alternative that could meet the real need. The need is water flow and a cleaning result, so the specification should state those, with an equivalent clause. The pressure figure should be tested against the actual jobs before it is kept, because it may be a detail that adds cost without adding performance."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A blank specification template with fields for need, measures, constraints, style and reason.",
+    "Notes from at least one user and one potential supplier.",
+    "No personal protective equipment is needed for this desk-based lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing the specification around a product the business already owns.",
+      "prevention": "Start from the need and the measures of success, then test whether the current product meets them."
+    },
+    {
+      "error": "Naming a brand with no equivalent clause.",
+      "prevention": "Add 'or equivalent' with the performance criteria the alternative must meet, or record why a single brand is required."
+    },
+    {
+      "error": "Adding features in case they are needed later.",
+      "prevention": "Record why each feature is needed, and remove any feature nobody can justify."
+    },
+    {
+      "error": "Sending a request to suppliers before the requirements are written down.",
+      "prevention": "Write the requirement first. Use an information request to test the draft, not to replace it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson gives general information about buying and is not legal advice. Paragraphs 3.8 to 3.10 of the Commonwealth Procurement Rules (2025 instrument, commencing 17 November 2025) set out which Commonwealth entities and officials must comply. The rules do not mention private businesses, so this lesson makes no claim that they bind a private business. Sources: and.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check with the work health and safety regulator for the state or territory where the work is done.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not confer any licence, certification or authority to buy regulated services or equipment.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every requirement is written as a statement that can be tested or observed.",
+    "The specification style is named, with a one-line reason and a note on who carries the design risk.",
+    "Any brand name is followed by an equivalent clause and the performance criteria, or the reason for a single brand is recorded.",
+    "Each feature has a recorded reason tied to the need, and no feature is kept without one."
+  ],
+  "documentationEvidence": [
+    "Draft specification with a version date, an owner and the style chosen.",
+    "Record of the users and potential suppliers consulted, with the date and the change made after each consultation."
+  ],
+  "summary": [
+    "Start from the need and the measures of success, then write the requirement, then the specification.",
+    "Output and performance styles state results; conformance styles state the design or method to be matched. Who carries the design risk helps decide between them.",
+    "Over-specification adds cost, and a brand name can shut out equal alternatives unless an equivalent clause sits beside the performance criteria."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:procedures.quality_standard}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PROC-01-K01",
+      "question": "A buyer needs a floor scrubber that cleans a large area in one shift and leaves the floor dry, and does not mind which design achieves that. Which specification style fits best?",
+      "options": [
+        "An output or performance style that states the result and how it will be measured",
+        "A conformance style that lists the exact frame, motor and brush design",
+        "A brand-name style that names the model already in use on the site and the van"
+      ]
+    },
+    {
+      "id": "PROC-01-K02",
+      "question": "Why does naming a single brand in a specification often reduce competition?",
+      "options": [
+        "It makes the supplier responsible for the design of the product, the frame and the motor",
+        "It excludes equal alternatives that have not been tested against the performance need",
+        "It guarantees the lowest price in every market and region in the whole state and the nation"
+      ]
+    },
+    {
+      "id": "PROC-01-K03",
+      "question": "Which is the most useful source of information when building a specification for a new service?",
+      "options": [
+        "Only the buyer's own past invoices and the records from the last year and the books",
+        "Early discussion with potential suppliers and the people who will use the service",
+        "A competitor's confidential tender response from the market last year and the bid"
+      ]
+    },
+    {
+      "id": "PROC-01-K04",
+      "question": "What is the most likely result of a specification that asks for more features than the business needs?",
+      "options": [
+        "Excess cost for features that add nothing to the outcome",
+        "Fewer variations and a lower risk of disputes",
+        "Greater innovation from suppliers in the market and the trade"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Commonwealth Procurement Rules 2025",
+      "url": "https://www.finance.gov.au/sites/default/files/2025-10/Commonwealth-Procurement-Rules-2025.pdf",
+      "pageDate": "Cover and commencement date: 17 November 2025",
+      "checked": "2026-11-04",
+      "covers": "Commonwealth Procurement Rules 2025 (cover dated 17 November 2025) states that it commences on 17 November 2025 and that the Commonwealth Procurement Rules 1 July 2024 are repealed when it does. The finance.gov.au Commonwealth Procurement Rules landing page, read on 2026-11-04, names the 14 December 2020 CPRs as current and says they replaced the 20 April 2019 CPRs. Re-read on 2026-11-06 with the same result. The site therefore conflicts with this instrument; flagged for review, and which version the site treats as current is not confirmed by an official source. Publisher: Department of Finance."
+    },
+    {
+      "id": "R3",
+      "title": "Commonwealth Procurement Rules: how to use the rules",
+      "url": "https://finance.gov.au/government/procurement/commonwealth-procurement-rules/how-use-commonwealth-procurement-rules",
+      "pageDate": "No update date shown on the page",
+      "checked": "2026-11-03",
+      "covers": "finance.gov.au, Commonwealth Procurement Rules, how to use the rules. Publisher: Department of Finance."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: Commonwealth Procurement Rules 2025 (cover and commencement date: 17 November 2025); Commonwealth Procurement Rules: how to use the rules (no update date shown on the page).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Defining business needs exam-style question set (upload d36859cc-462230744-Defining-business-needs-Exams.txt), topics only: requirements and specifications, output and performance versus conformance specifications; rights: user-held; reworded (no copying). No question, option or answer from the source is reproduced. The source has no answer key, so every answer and rationale is the drafter's own.",
+    "[R1] Commonwealth Procurement Rules 2025, paragraphs 4.4(a), 4.4(e) and 4.5(d): https://www.finance.gov.au/sites/default/files/2025-10/Commonwealth-Procurement-Rules-2025.pdf (cover and commencement 17 November 2025; checked 2026-11-03).",
+    "[R3] Commonwealth Procurement Rules, how to use the rules, paragraphs 3.8 to 3.10: https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules/how-use-commonwealth-procurement-rules (no update date shown; re-read 2026-11-06; the page does not mention private businesses).",
+    "General procurement concept (three specification styles, excess cost, brand lock-out, sources of specification information): no source fetched for these definitions in this draft. UNCONFIRMED as official definitions.",
+    "Worked examples use invented scenarios and figures, labelled as examples."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

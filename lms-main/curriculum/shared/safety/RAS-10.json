@@ -1,0 +1,143 @@
+{
+  "id": "RAS-10",
+  "title": "Infection risk and rodent-borne hazards in the register",
+  "courseSlugs": [
+    "commercial",
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaning operatives and supervisors who clean back-of-house waste areas, washrooms and shared spaces, and who keep the infection entries of a register current.",
+  "prerequisites": [
+    "F08-L01",
+    "F08-L02",
+    "F08-L05"
+  ],
+  "learningOutcomes": [
+    "Explain how an infectious agent reaches a person from a surface, a body fluid or contaminated cloth.",
+    "Apply the hand hygiene and contaminated-item steps that remain sound in the register.",
+    "Identify the rodent and water hazards in a waste area, and the controls for cuts and grazes.",
+    "Identify which infection controls in a dated register must be checked against current guidance before use."
+  ],
+  "instruction": [
+    {
+      "heading": "How an infection reaches a person",
+      "body": "An infection reaches a person through a route. Usually the route is a contaminated surface, cloth or body fluid, then the hands, then the mouth, nose or eyes. The register's infectious disease entry is based on that route. Its controls work on each step: keeping surfaces clean and disinfecting them in the right order, washing the hands before eating and after touching a contaminated surface, using protective equipment as the register names it, bagging contaminated cloths and equipment, and making sure the work area has good ventilation. The entry was written as a dated document, and its guidance reflects public health advice from the time it was written. The register's historical self-isolation period and any other time-limited advice are not carried into this lesson. WARNING: Current public health advice must be checked with the relevant state or territory health authority before any infection entry is written or changed."
+    },
+    {
+      "heading": "Hand hygiene and contaminated items",
+      "body": "Wash the hands using soap and running water, then dry them with a clean towel, a hot-air dryer or disposable towels. Sanitiser is a fallback only where water cannot be reached. When coughing or sneezing, use a tissue or the inside of the elbow to cover the face, and bin the tissue at once. Do not touch the face with hands that have not been cleaned. Contaminated cloths, mop heads and protective equipment are sealed in bags and sent for disposal under the procedure, and a contaminated item is never reused. Anyone feeling unwell stays away from work, and the supervisor is told. The register's remaining controls, such as ventilation and separation of cleaning cloths by area, support these habits and do not replace them."
+    },
+    {
+      "heading": "Rodents, water and leptospirosis",
+      "body": "Rats and mice are common in service-area waste rooms and near waterways. Their urine can carry the bacteria that cause leptospirosis, which is spread when contaminated water or damp soil reaches a cut, a graze, the eyes or the mouth. The register treats the risk as higher where water collects or where the waste area is near a river. The controls are that the crew has been taught about the water-related hazard, that protective equipment and washing facilities are on site, that cuts and grazes are covered with a waterproof dressing or gloves before work starts, and that any cut is washed at once with soap and running water and covered. Hands, face and forearms are washed before food, drink, cigarettes or phone use. WARNING: Avoid standing water in a waste area unless the controls in the register are in place. Report any rodent sighting or droppings to the building facilities team and do not pick up a dead animal with bare hands."
+    }
+  ],
+  "procedure": [
+    "Identify the infection route for the area, from surface, cloth or body fluid through to the person.",
+    "Clean the surface, then disinfect it, and keep occupants away while the area is being cleaned.",
+    "Wash the hands before eating, drinking or touching the face, and after touching a contaminated surface.",
+    "Bag and dispose of contaminated cloths and equipment, and never reuse them.",
+    "Cover every cut or graze with a waterproof dressing or gloves before work, and wash any cut at once.",
+    "Report rodent sightings, droppings or standing water to the building facilities team, and check current guidance before changing an infection entry."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew cleans a service-area waste room where droppings are visible and water has collected on the floor after rain.",
+      "decisionPrompt": "List the controls that apply before work starts, and state who is told about the rodent sighting.",
+      "reasoning": "The crew confirms the cuts-and-grazes controls are in place, covers any open cut with a waterproof dressing or gloves, and puts on the protective equipment the register names. Standing water is not worked through without the controls in the register. The building facilities team is told about the droppings, and the area is kept closed until the standing water is cleared or the controls are confirmed. The infection entry is reviewed against current guidance, which is checked and not assumed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "{{business:safety.required_ppe}} including gloves suited to waste and water",
+    "Waterproof dressings and soap for washing cuts and grazes",
+    "Clean cloths, disposable towels and closable bags for contaminated items",
+    "Approved detergent and disinfectant as listed in the register"
+  ],
+  "commonErrors": [
+    {
+      "error": "Eating or drinking in a waste area or washroom before the hands are washed.",
+      "prevention": "Wash the hands and forearms first, and eat and drink only in the rest area."
+    },
+    {
+      "error": "Carrying an uncovered cut into standing water in a waste area.",
+      "prevention": "Cover every cut before work, and wash any cut at once if it is opened during the task."
+    },
+    {
+      "error": "Copying an old infection entry into a new register without checking current guidance.",
+      "prevention": "Check current guidance with the relevant health authority and record the check."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Avoid standing water in a waste area unless the register's controls are in place, and do not pick up a dead animal with bare hands.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The register's dated guidance is not treated as current, and no isolation period is taught in this lesson.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check state and territory requirements for pest and rodent control and for work in waste areas.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each infection route in the register is mapped to the control that breaks it.",
+    "Hands are washed at the points the register names, and contaminated items are bagged and not reused.",
+    "Every infection entry was checked against current guidance and the check is recorded with its date."
+  ],
+  "documentationEvidence": [
+    "Infection entry review record, with the source and date of the current guidance checked",
+    "Rodent or standing water report to building facilities team"
+  ],
+  "summary": [
+    "Break the infection route at each step with cleaning, hand hygiene and bagging.",
+    "Cover cuts before work in waste areas and wash any cut at once.",
+    "Report rodents and standing water, and do not enter the water without the register's controls.",
+    "Check current guidance before any infection entry is written or changed."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-10-K01",
+      "question": "Which step most directly breaks an infection route from a contaminated cloth to a person?",
+      "options": [
+        "Keeping the cloth in a pocket for the next job and wiping the face with it",
+        "Washing the hands before eating and after touching a contaminated surface.",
+        "Spraying the cloth with a fragrance and putting it on the bench"
+      ]
+    },
+    {
+      "id": "RAS-10-K02",
+      "question": "A waste area has standing water, and a crew member has an uncovered graze. What should happen?",
+      "options": [
+        "Work quickly through the water before it spreads and keep the bucket dry at the back of the room",
+        "Wash the graze at the end of the shift and keep working in the water until the bin is empty",
+        "Cover the graze before work, do not enter the water without the register's controls, and report the water."
+      ]
+    },
+    {
+      "id": "RAS-10-K03",
+      "question": "A register entry for infection control was written two years ago. What should the team do before reusing it?",
+      "options": [
+        "Check it against current guidance from the relevant health authority and record the check.",
+        "Reuse it, because it was correct when written and nobody has changed the site since",
+        "Delete the entry, because guidance changes are not relevant to cleaners."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard row 1 (coronavirus contact with infected surfaces, dated content not carried forward) and hazard row 12 (leptospirosis from rats and mice and water); rights: user-held",
+    "UNCONFIRMED: current Australian public health guidance on infection control and leptospirosis, and the state and territory health authority's current advice; not checked in this pass.",
+    "Cross-check: existing lessons F08-L01 (transmission pathways), F08-L02 (hand hygiene and PPE changes) and F08-L05 (exposure and contamination response) in shared/safety cover the general infection principles; this lesson adds the register link only."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,35 @@
+{
+  "lessonId": "C18-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "C18-L01-K01",
+      "correctIndex": 2,
+      "rationale": "A conflict is escalated and recorded, and the approved product is used until the standard is formally changed."
+    },
+    {
+      "id": "C18-L01-K02",
+      "correctIndex": 1,
+      "rationale": "Checklists, training and visit records make the standard checkable at each site."
+    },
+    {
+      "id": "C18-L01-K03",
+      "correctIndex": 1,
+      "rationale": "Site-specific rules belong in the site schedule, so that the common standard stays a single controlled document."
+    }
+  ],
+  "practicalCriteria": [
+    "Separates the common standard from site rules in a sample set of records, with a version and date on the standard.",
+    "Escalates a simulated product conflict and records the decision and the person who made it.",
+    "Produces a checklist for one task that works at two sites, with the same completion test at each."
+  ],
+  "passRule": "Standard and site rules separated, conflict escalated and recorded, and checklist produced for two sites. Observed in a desk exercise. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Common standard and site schedule records",
+    "Conflict and decision record",
+    "Checklist for one task"
+  ],
+  "stopWorkCriteria": [
+    "Unapproved product used on a site rule alone",
+    "Common standard changed at one site without the approved route"
+  ]
+}

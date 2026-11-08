@@ -1,0 +1,175 @@
+{
+  "id": "NEW-HAIR-05",
+  "title": "Booking, travel routing and cancellation policy",
+  "courseSlugs": [
+    "hair"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 20,
+  "audience": "Mobile hairdressers and barbers who take bookings, plan routes between clients and manage cancellations",
+  "prerequisites": [
+    "S14-L04",
+    "F01-L04",
+    "F01-L01"
+  ],
+  "learningOutcomes": [
+    "Build a booking schedule that allows the full processing time and the travel time for each visit",
+    "Plan a daily route that keeps the team inside safe working hours and leaves time for hygiene steps",
+    "Apply the cancellation policy the business has approved, and record each change"
+  ],
+  "referencesAtStart": "No legal or regulatory claim is relied on in this lesson.",
+  "instruction": [
+    {
+      "heading": "Booking around the real time a service takes",
+      "body": "A mobile hairdresser loses money and breaks safety rules when the schedule is too tight. A colour service needs the full processing time from the label, the set-up time from “Mobile salon setup, hygiene and tool sterilisation”, the consultation time from “Client consultation, allergy patch test and consent”, and the clean-down time after the service. Build each booking as the sum of those steps, not as a fixed slot. If a booking is shortened to fit the day, the processing time is shortened too, and that breaks the label instruction as explained in “Colour and chemical safety: processing times and skin protection”. The booking form should record the services, the processing time, the access instructions for the home or venue, and any health question that needs a referral. The business's booking method is recorded as {{business:jobs.scheduling_method}}, and the access instructions for each client are held in {{business:customers.access_instructions}}."
+    },
+    {
+      "heading": "Routes, travel time and lone working",
+      "body": "A mobile operator often works alone, drives between clients, and enters homes where they have not worked before. Route planning should leave a buffer between visits, so that the operator is not rushed in the next client's home. Use the lone-worker check-in method in “Lone-worker safety and check-ins” for each visit, and record the time the operator arrives and leaves. Record the travel time as part of the job. Do not plan a route that requires a colour service to be rinsed in the car. Where a client's address is unsafe or an entry is unclear, the operator should contact {{business:safety.escalation_contact}} before going in. Consider the time of day and the daylight where the route includes unfamiliar roads, and include the travel time in the quote."
+    },
+    {
+      "heading": "Cancellations and the limits of this lesson",
+      "body": "Cancellation policies are a business decision. The business should write a policy that states the notice period, any fee, and what happens if the client does not attend. Do not describe a cancellation fee as legal or required until a source has been checked. Record each cancellation, the notice given, and the decision taken. A cancellation caused by the client's health or a wound is a referral matter under “Client consultation, allergy patch test and consent”, and the decision should be recorded as a referral, not as a no-show. The policy is recorded in {{business:customers.communication_policy}}."
+    }
+  ],
+  "procedure": [
+    "Calculate the time for each booking: set-up, consultation, processing time, service, clean-down and travel",
+    "Record the access instructions, the services and any health question on the booking form before confirming",
+    "Plan the route with a buffer between visits and check the daylight and road conditions for the day",
+    "Check in with the lone-worker method at each arrival and departure",
+    "Confirm each booking with the client, including the cancellation policy in writing",
+    "Record every cancellation, change or reschedule with the notice given and the reason"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A stylist plans a colour service at 2 pm and a cut at 3 pm at a second address across town. The colour service needs 40 minutes of processing, and the stylist allows 45 minutes for the whole visit.",
+      "decisionPrompt": "Is the schedule workable, and what should change?",
+      "reasoning": "The schedule does not allow for the set-up, the consultation, the clean-down or the travel time. A realistic booking allows the full processing time, the set-up and consultation, the clean-down, and the drive. The stylist should move the second booking later, or move the colour service earlier, rather than shortening the processing time to fit the day."
+    },
+    {
+      "situation": "A client cancels the day before a booking, saying she has a cold. The business policy requires 24 hours notice, and the client gives 18 hours.",
+      "decisionPrompt": "How should the cancellation be recorded and handled?",
+      "reasoning": "The business policy determines the outcome, and the policy's terms must be shown to the client before the booking. The cancellation should be recorded with the notice given and the reason. The operator should follow the approved policy and record the decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Booking system or paper diary with fields for services, processing time and access notes",
+    "Route plan or map for the day",
+    "Phone for check-ins and emergency contact",
+    "Printed or digital cancellation policy",
+    "Time record for arrival and departure"
+  ],
+  "commonErrors": [
+    {
+      "error": "Booking visits back to back with no time for set-up and clean-down.",
+      "prevention": "Build each booking from its steps, including travel and clean-down, and check the total before confirming."
+    },
+    {
+      "error": "Shortening a processing time to make the next booking.",
+      "prevention": "Move the booking, not the processing time. The label time applies to every service."
+    },
+    {
+      "error": "Recording a health cancellation as a no-show.",
+      "prevention": "Record health cancellations as a referral decision under “Client consultation, allergy patch test and consent”."
+    },
+    {
+      "error": "Stating that a cancellation fee is required by law.",
+      "prevention": "Describe the fee as a business policy."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Lone-worker check-in is a safety control for mobile operators. The method is set out in the shared lone-worker lesson “Lone-worker safety and check-ins”.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Consumer-law rules for cancellation fees and booking terms were not researched.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority to operate, and a booking system is not a regulatory approval.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every booking includes set-up, consultation, processing, clean-down and travel time",
+    "Every visit records the access instructions and a lone-worker check-in",
+    "Every cancellation and reschedule is recorded with notice given and reason",
+    "No booking shortens a processing time from the product label"
+  ],
+  "documentationEvidence": [
+    "Booking record with services, processing time and access instructions",
+    "Daily route plan and check-in times",
+    "Cancellation record with notice given, reason and decision",
+    "Written cancellation policy provided to the client"
+  ],
+  "summary": [
+    "Build bookings from the real steps of the service, including travel and clean-down",
+    "Move the booking, not the processing time",
+    "Record health cancellations as referrals, and record every cancellation",
+    "This lesson does not grant any authority for cancellation fees."
+  ],
+  "businessFields": [
+    "{{business:jobs.scheduling_method}}",
+    "{{business:customers.access_instructions}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-HAIR-05-K01",
+      "question": "A colour service needs 40 minutes of processing time. What is the correct way to fit it into a busy day?",
+      "options": [
+        "Move the booking so the full processing time, set-up and clean-down are allowed",
+        "Shorten the processing time to 30 minutes so the next client can be seen",
+        "Allow 40 minutes of processing and skip the consultation to save time"
+      ]
+    },
+    {
+      "id": "NEW-HAIR-05-K02",
+      "question": "A client cancels because she has an open cut on her scalp. How should the cancellation be recorded?",
+      "options": [
+        "As a no-show, with no further action needed from the business",
+        "As a referral decision under the consultation procedure, with the reason",
+        "As a late cancellation subject to a fee the client must pay"
+      ]
+    },
+    {
+      "id": "NEW-HAIR-05-K03",
+      "question": "What does the lesson say to record for each visit when the operator enters a client's home?",
+      "options": [
+        "Only the client's name",
+        "The time the operator arrives and leaves",
+        "Nothing, to save time between clients",
+        "The client's bank details"
+      ]
+    }
+  ],
+  "referencesAtEnd": "End of lesson: no official reference is relied on in this lesson.",
+  "officialReferences": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Shared lesson references: S14-L04 (lone-worker safety and check-ins), F01-L04 (job handover and escalation), within curriculum/lessons/ready",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (no source for consumer cancellation rules; UNCONFIRMED)",
+    "WA Health, Guideline for the hairdressing industry, https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf, checked 2026-11-02 (NAT-HAIR-WA-05, referral for skin conditions)",
+    "Checked 2026-11-03: no official reference relied on; unconfirmed points are marked (UNCONFIRMED)."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-09.jpg",
+      "alt": "Mobile hairdressing and barbering illustration",
+      "kind": "photo",
+      "origin": "hair"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-10.jpg",
+      "alt": "Mobile hairdressing and barbering illustration",
+      "kind": "photo",
+      "origin": "hair"
+    }
+  ]
+}

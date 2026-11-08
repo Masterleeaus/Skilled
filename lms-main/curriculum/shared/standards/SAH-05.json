@@ -1,0 +1,137 @@
+{
+  "id": "SAH-05",
+  "title": "Dust, aerosols and HEPA-filtered vacuums near clinical areas",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaning staff and supervisors in SA healthcare facilities who dust, spray and vacuum",
+  "prerequisites": [
+    "F17-L02"
+  ],
+  "learningOutcomes": [
+    "Choose dust control methods that do not spread particles",
+    "Explain why spray bottles are avoided in healthcare rooms",
+    "State the filter requirement for vacuums used near clinical areas"
+  ],
+  "instruction": [
+    {
+      "heading": "Dust control",
+      "body": "Dust settles on surfaces and moves on air currents. Tools that stir dust into the air, such as brooms and feather dusters, should be avoided in healthcare areas. Dust using a damp cloth so the dust is captured, not sent back into the room. Work from the highest surfaces down, so that dust falling from higher areas is picked up when you reach the lower ones."
+    },
+    {
+      "heading": "Aerosols and sprays",
+      "body": "Spray bottles and equipment that makes a fine mist can create aerosols. Aerosols carry chemical irritation to the eyes and to the mucous membranes, and they can carry droplets further than a surface spill does. Squeeze bottles that place product onto a cloth or directly onto a surface generate far less mist. Apply product to the cloth, not into the air."
+    },
+    {
+      "heading": "Vacuums near clinical areas",
+      "body": "A vacuum for carpet work near clinical areas should have a HEPA filter, which traps very fine particles. Its filters should be changed on a planned maintenance schedule. A general-purpose vacuum with a worn bag or an unknown filter can push fine dust back into the room, so check the bag and filter before every use."
+    }
+  ],
+  "procedure": [
+    "Check the vacuum's bag and filter before starting.",
+    "Use a HEPA-filtered vacuum for carpet near clinical areas.",
+    "Dust using a damp cloth, starting with the highest surfaces.",
+    "Apply product by squeeze bottle or to the cloth; avoid spraying into the air.",
+    "Record filter changes and maintenance in the equipment register."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A ward cleaner is asked to vacuum a carpeted family room next to an isolation room. The only vacuum available has a worn bag and no record of its filter.",
+      "decisionPrompt": "Can the job go ahead with this machine?",
+      "reasoning": "Not with that machine. Use an approved HEPA-filtered vacuum or leave the carpet until one is available, and report the worn bag. The standard calls for HEPA-filtered vacuums where carpets are cleaned near clinical areas."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Gloves",
+    "Damp cloths",
+    "Squeeze bottles",
+    "Eye protection if any spraying cannot be avoided"
+  ],
+  "commonErrors": [
+    {
+      "error": "Dry-dusting with a duster that spreads dust",
+      "prevention": "Use a damp cloth and work top to bottom."
+    },
+    {
+      "error": "Spraying product into the air to save time",
+      "prevention": "Wet the cloth, not the room."
+    },
+    {
+      "error": "Using a vacuum with a torn bag or an unknown filter",
+      "prevention": "Check the bag and filter before use and report any damage."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Sprays can irritate the eyes and airways. Read the SDS for the product in use.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check cables and plugs before use and follow local electrical safety rules. This lesson does not set electrical testing requirements.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner explains why brooms and feather dusters are not used",
+    "The learner names the filter requirement for carpet cleaning near clinical areas"
+  ],
+  "documentationEvidence": [
+    "Equipment register entry for filter changes",
+    "Report of any damaged vacuum or bag"
+  ],
+  "summary": [
+    "Dust with damp cloths and work top to bottom",
+    "Avoid sprays; apply product to the cloth",
+    "Use HEPA-filtered vacuums for carpet near clinical areas"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SAH-05-K01",
+      "question": "Which tool is most suitable for dusting a patient room?",
+      "options": [
+        "A dry feather duster for the bed rails and the lamps",
+        "A damp cloth worked from the highest surfaces down",
+        "A broom swept along the corridor and the doors"
+      ]
+    },
+    {
+      "id": "SAH-05-K02",
+      "question": "Why are spray bottles generally avoided in healthcare rooms?",
+      "options": [
+        "They are too heavy to carry",
+        "They can create aerosols that irritate the eyes and airways",
+        "They spread product more evenly, so they are preferred for drying."
+      ]
+    },
+    {
+      "id": "SAH-05-K03",
+      "question": "What is required of vacuums used for carpet work near clinical areas?",
+      "options": [
+        "Any vacuum with a full bag and a loose hose at the back",
+        "HEPA filters, changed on a planned maintenance schedule",
+        "A long cable and no filter and a loud motor and no label"
+      ]
+    },
+    {
+      "id": "SAH-05-K04",
+      "question": "Which tools does the lesson say should be avoided in healthcare areas because they stir dust into the air?",
+      "options": [
+        "Damp cloths",
+        "HEPA-filtered vacuums",
+        "Brooms and feather dusters",
+        "Squeeze bottles"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Standard for South Australian Healthcare Facilities (SA Health, 2014, updated 2017), section 4.2.1 (dust control), 4.2.2 (aerosols) and 4.2.7 (general maintenance of equipment); rights: user-held; reworded (no copying); source priority: the SA state standard overrides informal or conflicting cleaning advice where this lesson relies on it; figures dated 2014 (updated 2017) are historical; URL www.sahealth.sa.gov.au/infectionprevention; date checked 2026-11-02",
+    "cross-checked against F17-L02 (vacuum systems)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

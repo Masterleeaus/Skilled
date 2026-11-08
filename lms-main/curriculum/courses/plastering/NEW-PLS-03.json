@@ -1,0 +1,203 @@
+{
+  "id": "NEW-PLS-03",
+  "title": "Sanding dust and silica exposure controls",
+  "courseSlugs": [
+    "plastering"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Plasterers and handyman workers who sand plaster, joint compound or older coatings",
+  "prerequisites": [
+    "handyman-work-L03",
+    "handyman-work-L04"
+  ],
+  "learningOutcomes": [
+    "Identify the dust that sanding plaster produces and the exposure route it creates.",
+    "Apply wet methods, extraction and suitable respiratory protection to control dust.",
+    "Stop sanding older or unknown material until its composition is assessed."
+  ],
+  "instruction": [
+    {
+      "heading": "Where the dust comes from",
+      "body": "Sanding plaster, joint compound and some sand-based products produces fine dust. Some plaster and sand products contain crystalline silica, and inhaling fine silica dust is a serious health risk. Dust can also come from older coatings and from materials in older buildings that may contain asbestos. The control method depends on what the material is, and an unknown material is treated as hazardous until it is identified or assessed. Check the product safety data sheet for the material before sanding. The workplace exposure standard for respirable crystalline silica is 0.05 mg/m3 as an 8-hour time-weighted average, half the earlier 0.1 mg/m3 figure (WorkSafe Queensland page, no date shown; Safe Work Australia research page, no date shown)."
+    },
+    {
+      "heading": "Control the dust at source",
+      "body": "Use wet methods where the product allows them, because wet material produces much less airborne dust. Where dry sanding is used, use a power sander connected to extraction with a suitable filter, and keep the work area ventilated. Keep occupants and children away, close doors, and cover vents and ducts. Clean up with damp methods and an extraction unit suited to fine dust, and do not dry sweep. Wear respiratory protection suited to the dust and fitted correctly, and change or clean it as the manufacturer directs."
+    }
+  ],
+  "procedure": [
+    "Check the safety data sheet for the material and identify any silica or other hazardous content.",
+    "Stop and refer if the material is older or unknown until its composition is confirmed.",
+    "Use wet methods where the product allows them.",
+    "Where dry sanding is used, connect the sander to extraction and keep the area ventilated.",
+    "Keep occupants and children away, and seal the area from the rest of the building.",
+    "Clean up with damp methods or an extraction unit, and do not dry sweep; record the controls used."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker is asked to dry sand a patch of old wall finish in a 1960s flat, and the worker is not sure what the finish contains.",
+      "decisionPrompt": "Should the dry sanding go ahead?",
+      "reasoning": "No. The material is older and its composition is unknown, so it may contain asbestos or silica. Stop, keep people away, and refer for assessment before any sanding. Use wet methods only after the composition is confirmed and the controls are set."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Respiratory protection suited to the dust, fitted correctly",
+    "Extraction-connected sander with a suitable filter",
+    "Damp cloths and a HEPA-filtered vacuum where suitable",
+    "Eye protection and disposable gloves"
+  ],
+  "commonErrors": [
+    {
+      "error": "Dry sanding plaster without extraction or respiratory protection.",
+      "prevention": "Use wet methods, or extraction with suitable respiratory protection."
+    },
+    {
+      "error": "Sanding an older or unknown finish without assessment.",
+      "prevention": "Stop and refer until the composition is confirmed."
+    },
+    {
+      "error": "Dry sweeping the dust after the job.",
+      "prevention": "Use damp methods or an extraction unit suited to fine dust."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Asbestos. Victoria: an employer, or a person working for themselves, can remove non-friable asbestos without a licence where the area of asbestos-containing material to be removed does not exceed 10 square metres in total, and the total time asbestos removal work is performed in any period of seven days does not exceed one hour, which is cumulative across all employees; friable asbestos has no such allowance (Asbestos Victoria page, which shows an 'Updated' label and no date). Removal above either limit needs a licence. New South Wales: a class B licence is not needed for less than 10 m2 of non-friable material (Service NSW page, last published 24 July 2025). Queensland: non-friable work of 10 m2 at most needs no licence, but friable material of any quantity needs a class A licence (WorkSafe Queensland page, no date shown).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Silica dust: the workplace exposure standard is 0.05 mg/m3 as an 8-hour time-weighted average (WorkSafe Queensland page, no date shown; Safe Work Australia research page, no date shown, which says to confirm the figure with the state or territory regulator). This is an exposure limit, not a licence, and this lesson does not grant any licence.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not give an asbestos removal licence or any authority to remove older materials.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The material's composition is known or assessed before any sanding.",
+    "Dust is controlled at source with wet methods or extraction, and suitable respiratory protection is worn.",
+    "Clean-up is done with damp methods or extraction, not dry sweeping."
+  ],
+  "documentationEvidence": [
+    "Safety data sheet check record for the material",
+    "Dust control record with method and protection used",
+    "Referral note for older or unknown material"
+  ],
+  "summary": [
+    "Identify the material and its hazard before sanding.",
+    "Control dust at source with wet methods or extraction and suitable protection.",
+    "Stop and refer older or unknown material."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:materials.sds_links}}",
+    "{{business:safety.site_hazards}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-PLS-03-K01",
+      "question": "A worker is asked to dry sand an old wall finish of unknown composition. What is correct?",
+      "options": [
+        "Dry sand it quickly, since the finish is only a thin paint layer",
+        "Sand it wet without checking what the finish is made of",
+        "Sand it and dry sweep the dust into a bin afterwards to finish",
+        "Stop, keep people away, and refer for assessment before sanding"
+      ]
+    },
+    {
+      "id": "NEW-PLS-03-K02",
+      "question": "What is the preferred way to reduce airborne dust when sanding plaster?",
+      "options": [
+        "Use wet methods where the product allows, or extraction with suitable respiratory protection",
+        "Open the windows and carry on, since the air will clear the dust out of the room quickly",
+        "Dry sweep after each wall, since the broom clears the dust quickly and easily from the floor",
+        "Use a fan to blow the dust outside through the window of the room while you work on the wall"
+      ]
+    },
+    {
+      "id": "NEW-PLS-03-K03",
+      "question": "What health risk does the lesson link to inhaling fine silica dust?",
+      "options": [
+        "Only skin irritation",
+        "A serious health risk",
+        "No risk when the room is ventilated",
+        "Only a cosmetic dust problem"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "CATALOGUE-V2 row NEW-PLS-03 (new lesson; links to construction-site-cleaning-L04 and construction-site-cleaning-L06 for controls, which are not in this workspace; UNCONFIRMED)",
+    "research/trades/LICENCE-MATRIX.csv VIC-32 (checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX-NSW-QLD.csv NSW-15, QLD-10 (checked 2026-11-02)",
+    "Dust control methods: internal course guidance, UNCONFIRMED against any named standard; the workplace must confirm the applicable rules",
+    "Official [R1]: Research into a lower workplace exposure standard and short-term limit for respirable crystalline silica, Safe Work Australia, https://www.safeworkaustralia.gov.au/safety-topic/hazards/crystalline-silica-and-silicosis/research-lower-workplace-exposure-standard-and-short-term-exposure-limit-respirable-crystalline-silica, page date: No last-updated date shown; page refers to 1 September 2024; checked 2026-11-03; status PARTIAL",
+    "Official [R2]: Respirable crystalline silica - general, WorkSafe Queensland, https://www.worksafe.qld.gov.au/safety-and-prevention/hazards/hazardous-exposures/respirable-crystalline-silica/respirable-crystalline-silica-general, page date: No date shown; checked 2026-11-03; status CONFIRMED",
+    "Official [R3]: Unlicensed asbestos removal, Asbestos Victoria (Victorian Government), https://www.asbestos.vic.gov.au/builders-and-trades/asbestos-removalists/unlicensed-asbestos-removal, page date: Shows an 'Updated' label with no date; checked 2026-11-03; status CONFIRMED",
+    "Official [R4]: Apply for an asbestos removal licence, Service NSW (NSW Government), https://www.service.nsw.gov.au/transaction/apply-asbestos-removal-licence, page date: Last published 24 July 2025; checked 2026-11-03; status CONFIRMED",
+    "Official [R5]: Asbestos (licensing and removal), WorkSafe Queensland, https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/asbestos, page date: No date shown; checked 2026-11-03; status CONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Research into a lower workplace exposure standard and short-term limit for respirable crystalline silica",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/crystalline-silica-and-silicosis/research-lower-workplace-exposure-standard-and-short-term-exposure-limit-respirable-crystalline-silica",
+      "pageDate": "No last-updated date shown; page refers to 1 September 2024",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia summary of review outcomes, not the standard itself; confirm the figure with the state or territory WHS regulator. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Respirable crystalline silica - general",
+      "url": "https://www.worksafe.qld.gov.au/safety-and-prevention/hazards/hazardous-exposures/respirable-crystalline-silica/respirable-crystalline-silica-general",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Queensland silica page: exposure standard in force in Queensland. Publisher: WorkSafe Queensland."
+    },
+    {
+      "id": "R3",
+      "title": "Unlicensed asbestos removal",
+      "url": "https://www.asbestos.vic.gov.au/builders-and-trades/asbestos-removalists/unlicensed-asbestos-removal",
+      "pageDate": "Shows an 'Updated' label with no date",
+      "checked": "2026-11-03",
+      "covers": "Victorian asbestos page: an employer or self-employed person can conduct a limited amount of asbestos removal work without a licence. The removal of non-friable asbestos-containing material is covered if the area of asbestos-containing material to be removed does not exceed 10 square metres in total, and the total time asbestos removal work is performed in any period of seven days does not exceed one hour (this period is the cumulative total time the asbestos removal work is carried out by all employees over a period of seven days). Shows an 'Updated' label with no date. Publisher: Asbestos Victoria (Victorian Government)."
+    },
+    {
+      "id": "R4",
+      "title": "Apply for an asbestos removal licence",
+      "url": "https://www.service.nsw.gov.au/transaction/apply-asbestos-removal-licence",
+      "pageDate": "Last published 24 July 2025",
+      "checked": "2026-11-03",
+      "covers": "Service NSW page: class A (friable, any amount) and class B (non-friable, more than 10 m2). Publisher: Service NSW (NSW Government)."
+    },
+    {
+      "id": "R5",
+      "title": "Asbestos (licensing and removal)",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/asbestos",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Queensland asbestos page: class A for friable, class B above 10 m2 non-friable. Publisher: WorkSafe Queensland."
+    }
+  ],
+  "referencesAtStart": "Official references at the start: Safe Work Australia, Research into a lower workplace exposure standard and short-term limit for respirable crystalline silica (no last-updated date shown; refers to 1 September 2024; a summary of review outcomes, not the standard itself); WorkSafe Queensland, Respirable crystalline silica - general (no date shown); Asbestos Victoria, Unlicensed asbestos removal (shows an 'Updated' label with no date); Service NSW, Apply for an asbestos removal licence (last published 24 July 2025); WorkSafe Queensland, Asbestos (licensing and removal) (no date shown). Only part of the Safe Work Australia summary has been confirmed.",
+  "referencesAtEnd": "Recheck the current rule before use: Safe Work Australia, Research into a lower workplace exposure standard and short-term limit for respirable crystalline silica; WorkSafe Queensland, Respirable crystalline silica - general; Asbestos Victoria, Unlicensed asbestos removal; Service NSW, Apply for an asbestos removal licence; WorkSafe Queensland, Asbestos (licensing and removal).",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-05.jpg",
+      "alt": "Plastering illustration",
+      "kind": "photo",
+      "origin": "plastering"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-06.jpg",
+      "alt": "Plastering illustration",
+      "kind": "photo",
+      "origin": "plastering"
+    }
+  ]
+}

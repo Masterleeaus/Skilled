@@ -1,0 +1,34 @@
+{
+  "lessonId": "additional-specialist-services-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "additional-specialist-services-L01-K01",
+      "correctIndex": 1,
+      "rationale": "Model answer from source: Identify task-specific unknown hazards, qualifications, permissions and controls; place work on hold until verified."
+    },
+    {
+      "id": "additional-specialist-services-L01-K02",
+      "correctIndex": 2,
+      "rationale": "Model answer from source: No. Relevant licences, employer/site authorisation and independent competence verification remain required."
+    },
+    {
+      "id": "additional-specialist-services-L01-K03",
+      "correctIndex": 2,
+      "rationale": "The lesson says to collect the facts before classifying: the site address, the named site contact, the person who can approve the work, and the expected result in the client's own words."
+    }
+  ],
+  "practicalCriteria": [
+    "type: supervised tabletop simulation; task: Produce a written service classification with unknowns and exclusions.; deliverable: Classify the job as uncharacterised until contamination is identified and authorised.; criteria: Specific work and exclusions correctly identified; Unknown hazards and regulated boundaries escalated; Controls and approver recorded; Customer communication contains no unsupported assurance"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Classify the job as uncharacterised until contamination is identified and authorised.",
+    "Signed task scope, controls and excluded activities",
+    "Reviewer identity, role, date, evidence references and location"
+  ],
+  "stopWorkCriteria": [
+    "Performs work without required site or legal authorisation",
+    "Treats unidentified hazards or regulated activities as routine cleaning",
+    "Falsifies approvals, inspection findings or customer assurances"
+  ]
+}

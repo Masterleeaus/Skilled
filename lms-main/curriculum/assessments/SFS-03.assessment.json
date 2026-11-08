@@ -1,0 +1,35 @@
+{
+  "lessonId": "SFS-03",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-03-K01",
+      "correctIndex": 1,
+      "rationale": "Confirmed shifts have an assigned worker, and the scheduling engine considers them. Tentative and published shifts do not count as cover."
+    },
+    {
+      "id": "SFS-03-K02",
+      "correctIndex": 0,
+      "rationale": "A shift is designed for irregular or on-call availability. Regular hours describe a fixed weekly pattern."
+    },
+    {
+      "id": "SFS-03-K03",
+      "correctIndex": 1,
+      "rationale": "A time slot is a block inside working hours that can be reserved for a type of job."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (working hours, time slots and shift records) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

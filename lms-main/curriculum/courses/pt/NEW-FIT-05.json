@@ -1,0 +1,239 @@
+{
+  "id": "NEW-FIT-05",
+  "title": "Booking, packages and client retention",
+  "courseSlugs": [
+    "pt"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RV",
+  "estimatedMinutes": 20,
+  "audience": "Personal trainers and group coaches who take bookings, sell packages, keep clients returning, and hold the insurance that councils and clients expect",
+  "prerequisites": [
+    "F01-L01",
+    "F01-L02",
+    "F01-L04"
+  ],
+  "learningOutcomes": [
+    "Set up a booking and package system that records each session, the terms and the client's health review date",
+    "Identify the insurance each council in the research required.",
+    "Use client retention methods that do not depend on health claims or unreviewed promises"
+  ],
+  "referencesAtStart": "Official references for this lesson: City of Stonnington, Permit for sports or personal training on public land or council facilities (no explicit date; listing metadata 13 Sep 2017); Hornsby Shire Council, Commercial group fitness and personal training (no date shown); Holdfast Bay, Personal training permit terms and conditions 2024 (no date in document; titled 2024); WorkSafe Victoria, Do I need to register for WorkCover insurance (last updated 19 May 2026); Queensland Government, Join a gym or fitness provider (last updated 23 July 2024); NSW Government, Fitness and gyms (published 18 Oct 2024; modified 15 Apr 2026).",
+  "instruction": [
+    {
+      "heading": "Bookings and packages that keep the record straight",
+      "body": "A booking is a promise to a client and a record for the business. Every booking should record the date, the session type, the location, the group size where it applies, the health review date, and the cancellation rule. A package is a set of sessions sold together. The package must state the number of sessions, the period it covers, what happens to unused sessions, and how it can be cancelled. Queensland's Fair Trading page for gym and fitness agreements (last updated 23 July 2024) sets a 48-hour cooling-off period, refunds of prepaid fees within 14 days (less services used and any stated administration fee), and a 12-month cap on prepayment. New South Wales's page (modified 15 April 2026) says an expired membership does not stop direct debits by itself, and that the gym may need a notice period of 30 days, given in writing, to stop them. The business's booking rules are held in {{business:jobs.scheduling_method}}, and the cancellation policy is in {{business:customers.communication_policy}}. Each session in a package still needs its own health review date, because a client's health can change."
+    },
+    {
+      "heading": "Insurance: what the councils required",
+      "body": "Councils set most of the insurance conditions the sources found for personal training. Stonnington's listing wants cover for public liability and for professional indemnity, with no minimum amounts stated. Hornsby Shire's page wants APRA-approved public liability cover of $20 million or more, with the council recorded on the policy in an interested-party role (no date shown). Holdfast Bay's terms require public liability of at least $20 million and professional indemnity of at least $5 million (no issue date). These are council-specific amounts, and they apply on that council's land. In Victoria, WorkSafe's registration guide (last updated 19 May 2026) says WorkCover registration is generally required where a business employs any workers. A sole trader with no other workers on staff does not need to register, and a small-business exemption applies if there are no apprentices and annual wages stay at or under $7,500 for the financial year. Check each council's permit and the insurer before taking a booking on public land. The business's insurance details are held in {{business:compliance.policy_reference}}."
+    },
+    {
+      "heading": "Keeping clients without making health promises",
+      "body": "Retention comes from reliable sessions, clear progress records, and a relationship that clients trust. It does not come from promises about health outcomes. A trainer who says that a programme will reverse a condition, cure a complaint or guarantee a result is making a claim the research does not support. New South Wales's consumer summary notes that the Australian Consumer Law rules out misleading statements about what a service does (page modified 15 April 2026). Use reviews of the programme with dates and results the client has recorded, reminders for sessions, and a clear way for the client to report a change in health. Keep the client's information private, as “Privacy, security and customer property” explains. Use retention offers within the approved pricing rules."
+    }
+  ],
+  "procedure": [
+    "Record each booking with the date, session type, location, group size where it applies, health review date and cancellation rule",
+    "Write the package terms and check them against the consumer-law position before the package is sold",
+    "Confirm that the business holds the public liability and professional indemnity cover that the council permit requires for each place",
+    "Confirm the WorkCover registration position for the business, and record the source",
+    "Review each client's health at the scheduled date and whenever the client reports a change",
+    "Review the retention approach each quarter, and remove any claim that is not supported by a recorded source"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A trainer wants to sell a twelve-session package for a park programme. The Holdfast Bay permit requires public liability of at least $20 million AUD, and the trainer's current policy is $10 million AUD.",
+      "decisionPrompt": "Can the trainer sell the package for the park?",
+      "reasoning": "The Holdfast Bay permit sets a minimum public liability amount. The trainer's policy does not meet it, so the trainer cannot run the programme in that council's park under the permit as it stands. The trainer should increase the cover, check the council's current terms, and record the check before selling. Selling the package before the permit is met would expose the client and the trainer to a permit breach."
+    },
+    {
+      "situation": "A client asks whether a programme will reverse her diabetes.",
+      "decisionPrompt": "How should the trainer respond?",
+      "reasoning": "The trainer cannot promise a medical outcome, and the research does not support such a claim. The trainer should explain what the programme can do, which is to support fitness and the goals in the programme, and should recommend that the client speak to her medical practitioner about her condition. The trainer should record the conversation and the advice given. The trainer should not make the claim in any advertisement."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Booking system or diary with the required fields",
+    "Written package terms, approved by the business",
+    "Insurance certificates for public liability and professional indemnity, held on file",
+    "WorkCover registration record, where the business employs workers"
+  ],
+  "commonErrors": [
+    {
+      "error": "Selling a package on public land before checking the council's insurance minimum.",
+      "prevention": "Check the permit's insurance conditions and the business's cover before the package is sold."
+    },
+    {
+      "error": "Treating a council's insurance amount as a state requirement.",
+      "prevention": "Name the council."
+    },
+    {
+      "error": "Promising a medical outcome to keep a client.",
+      "prevention": "Describe what the programme does. Refer medical questions to a medical practitioner."
+    },
+    {
+      "error": "Selling a package without expiry or cancellation terms.",
+      "prevention": "Write the terms first and check them against the consumer-law position before selling."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Stonnington (Victoria) wants cover for public liability and for professional indemnity for its personal training permit, with no minimum amounts stated. Council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Hornsby Shire Council (NSW) wants APRA-approved public liability cover of $20 million AUD or more, with the council recorded on the policy. Holdfast Bay City Council (SA) requires public liability of at least $20 million AUD and professional indemnity of at least $5 million AUD. All are council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "No state-level public liability requirement for personal training was found.",
+      "licenceNotice": false
+    },
+    {
+      "point": "In Victoria, WorkCover registration is generally required where a business employs any workers, and a sole trader who has no other workers on staff does not need to register (last updated 19 May 2026).",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Queensland fitness-agreement rules and the New South Wales direct-debit rule are state-specific and do not set the Victorian position.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not grant insurance cover, a permit or a licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every booking records the health review date and the cancellation rule",
+    "Every package has written terms checked against the consumer-law position before it is sold",
+    "Insurance for each council permit is confirmed before the first session on that council's land",
+    "No retention material makes a medical outcome claim"
+  ],
+  "documentationEvidence": [
+    "Booking record with health review date and cancellation rule",
+    "Package terms, checked and dated",
+    "Insurance certificates for public liability and professional indemnity, with expiry dates",
+    "WorkCover registration record, where the business employs workers"
+  ],
+  "summary": [
+    "Record each booking and package with its terms and health review date",
+    "Council insurance minimums apply on that council's land.",
+    "WorkCover registration is generally required for Victorian employers with workers",
+    "Retention relies on reliable sessions and records, not on health promises"
+  ],
+  "businessFields": [
+    "{{business:jobs.scheduling_method}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FIT-05-K01",
+      "question": "A council permit requires public liability of $20 million AUD. The trainer's cover is $10 million AUD. What should the trainer do before selling a package for that park?",
+      "options": [
+        "Sell the package, since the state minimum is lower than the council figure for the park",
+        "Sell the package and ask the client to accept the risk of any injury in the park at any time",
+        "Increase the cover to meet the permit, check the terms, and record the check before selling"
+      ]
+    },
+    {
+      "id": "NEW-FIT-05-K02",
+      "question": "A client asks whether a programme will reverse her medical condition. What is the correct response?",
+      "options": [
+        "Explain what the programme does, and recommend that she speaks to her medical practitioner",
+        "Confirm that the programme will reverse it, since the trainer has seen this work",
+        "Say nothing about the condition, and sell the package to her today at the session"
+      ]
+    },
+    {
+      "id": "NEW-FIT-05-K03",
+      "question": "What does the lesson say every booking should record?",
+      "options": [
+        "Only the payment method",
+        "The date, session type, location, group size where it applies, health review date and cancellation rule",
+        "The client's favourite music",
+        "Nothing until the session is paid for"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: City of Stonnington, Permit for sports or personal training on public land or council facilities (no explicit date; listing metadata 13 Sep 2017): https://ablis.business.gov.au/service/vic/permit-for-sports-or-personal-training-on-public-land-or-council-facilities-city-of-stonnington/27569; Hornsby Shire Council, Commercial group fitness and personal training (no date shown): https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training; Holdfast Bay, Personal training permit terms and conditions 2024 (no date in document; titled 2024): https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf; WorkSafe Victoria, Do I need to register for WorkCover insurance (last updated 19 May 2026): https://www.worksafe.vic.gov.au/pdf/do-i-need-register-workcover-insurance; Queensland Government, Join a gym or fitness provider (last updated 23 July 2024): https://www.qld.gov.au/law/your-rights/consumer-rights-complaints-and-scams/buying-products-and-services/buying-services/using-a-fitness-service/join-a-gym-or-fitness-provider; NSW Government, Fitness and gyms (published 18 Oct 2024; modified 15 Apr 2026): https://www.nsw.gov.au/legal-and-justice/consumer-rights-and-protection/services/fitness-and-gyms.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Permit for sports or personal training on public land or council facilities (City of Stonnington)",
+      "url": "https://ablis.business.gov.au/service/vic/permit-for-sports-or-personal-training-on-public-land-or-council-facilities-city-of-stonnington/27569",
+      "pageDate": "No explicit date (listing metadata 13 Sep 2017)",
+      "checked": "2026-11-03",
+      "covers": "Listing copy of the council permit; confirm current conditions with Stonnington's Recreation Services Unit before relying on it. Publisher: City of Stonnington via business.gov.au (ABLIS)."
+    },
+    {
+      "id": "R2",
+      "title": "Commercial group fitness and personal training",
+      "url": "https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Council page; group cap, designated areas, activities named, insurance and qualifications. Council only. Publisher: Hornsby Shire Council."
+    },
+    {
+      "id": "R3",
+      "title": "Personal training permit terms and conditions 2024",
+      "url": "https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf",
+      "pageDate": "No date in document (titled 2024)",
+      "checked": "2026-11-03",
+      "covers": "Council PDF; hours, sites, qualifications and insurance minimums. Council only. Publisher: City of Holdfast Bay."
+    },
+    {
+      "id": "R4",
+      "title": "Do I need to register for WorkCover insurance",
+      "url": "https://www.worksafe.vic.gov.au/pdf/do-i-need-register-workcover-insurance",
+      "pageDate": "Last updated 19 May 2026",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria PDF; employers, sole traders and deemed workers. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R5",
+      "title": "Join a gym or fitness provider",
+      "url": "https://www.qld.gov.au/law/your-rights/consumer-rights-complaints-and-scams/buying-products-and-services/buying-services/using-a-fitness-service/join-a-gym-or-fitness-provider",
+      "pageDate": "Last updated 23 July 2024",
+      "checked": "2026-11-03",
+      "covers": "Queensland Government page; cooling-off, refunds and prepayment rules. Queensland only; cites a 2003 regulation. Publisher: Queensland Government (Fair Trading)."
+    },
+    {
+      "id": "R6",
+      "title": "Fitness and gyms",
+      "url": "https://www.nsw.gov.au/legal-and-justice/consumer-rights-and-protection/services/fitness-and-gyms",
+      "pageDate": "Published 18 Oct 2024; modified 15 Apr 2026",
+      "checked": "2026-11-03",
+      "covers": "NSW Government page; direct debit notice and Australian Consumer Law summary. NSW only; no cooling-off days stated. Publisher: NSW Government."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Stonnington City Council, Permit for sports or personal training on public land (ablis), https://ablis.business.gov.au/service/vic/permit-for-sports-or-personal-training-on-public-land-or-council-facilities-city-of-stonnington/27569, checked 2026-11-02 (PT-VIC-03, COUNCIL-SPECIFIC)",
+    "Hornsby Shire Council, Commercial group fitness and personal training, https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training, checked 2026-11-02 (NAT-PT-NSW-01, COUNCIL-SPECIFIC)",
+    "Holdfast Bay City Council, Personal training permit terms and conditions 2024, https://holdfast.sa.gov.au/assets/general-downloads/Communities/PT-Permit-Terms-and-Conditions-2024.pdf, checked 2026-11-02 (NAT-PT-SA-01, COUNCIL-SPECIFIC)",
+    "WorkSafe Victoria, Do I need to register for WorkCover insurance, https://www.worksafe.vic.gov.au/pdf/do-i-need-register-workcover-insurance, last updated 19 May 2026, checked 2026-11-02 (PT-VIC-07)",
+    "Shared lesson reference: F01-L02 (privacy, security and customer property), within curriculum/lessons/ready",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (state public liability and consumer-law rules UNCONFIRMED)",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. currency stated in AUD; thresholds and sources unchanged; council amounts kept as council-specific (Hornsby NSW, Holdfast Bay SA)",
+    "Checked 2026-11-03: official references R1, R2, R3, R4, R5, R6 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-09.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-10.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lessonId": "SOP-21",
+  "knowledgeAnswers": [
+    {
+      "id": "SOP-21-K01",
+      "correctIndex": 1,
+      "rationale": "The before-use check covers electrical test status, plug and lead condition, and inspection of every part of the machine. Battery charge alone or the pad colour alone does not meet the check."
+    },
+    {
+      "id": "SOP-21-K02",
+      "correctIndex": 1,
+      "rationale": "The waste tank is emptied and residue removed from inside at the end of the job, following the site waste procedure."
+    },
+    {
+      "id": "SOP-21-K03",
+      "correctIndex": 1,
+      "rationale": "The machine is stored upright with the pad and base plate removed, and charged if needed. A pad left fitted is an error in the procedure."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the before-use checklist on a supplied machine in the stated order, and identifies a planted fault such as a taped lead or worn pad, tagging the machine out.",
+    "Learner selects a pad and fluid flow for a supplied surface description and states the reason for each choice.",
+    "Learner completes the end-of-use checks, empties and cleans a supplied waste tank, and stores the machine upright with no pad fitted.",
+    "Learner records the before-use check, fluid setting, area and end-of-use check on a supplied job sheet, with no entries missing."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed before-use and end-of-use check record",
+    "Assessor observation of the supervised machine run",
+    "Photograph of the stored machine with no pad fitted",
+    "Completed knowledge checks"
+  ],
+  "stopWorkCriteria": [
+    "Electrical lead or plug damaged, or the electrical test status is unknown",
+    "Machine behaves unexpectedly, or the lead is pinched during the run",
+    "Floor is too wet for pedestrians and no barrier is available",
+    "Operator is not trained on the machine"
+  ]
+}

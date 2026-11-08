@@ -1,0 +1,172 @@
+{
+  "id": "F11-L01",
+  "title": "Define the service offer",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "RV",
+  "estimatedMinutes": 30,
+  "audience": "Any new or existing owner-operator who is deciding what services the business will offer in any Titan Academy business.",
+  "prerequisites": [
+    "F02-L04"
+  ],
+  "learningOutcomes": [
+    "Describe each service the business offers in terms of its scope, its exclusions and the skills and equipment it needs.",
+    "Decide which services the business will not offer, and state why.",
+    "Record the service offer so that quotes, work orders and marketing all describe the same thing."
+  ],
+  "instruction": [
+    {
+      "heading": "Describe the service, not the hope",
+      "body": "A service offer is a precise description of what the business will do for a customer. It states the tasks included, the surfaces or areas covered, the standard of work, the frequency if the service is recurring, and what is excluded. A vague offer such as 'we clean houses' invites every request and every dispute. A clear offer, such as 'a routine clean of kitchens and bathrooms in homes of up to three bedrooms, excluding ovens, windows and carpets', lets the customer and the team know what to expect."
+    },
+    {
+      "heading": "Match the offer to skills, equipment and rules",
+      "body": "For each service, list the skills the team has, the equipment it needs, the products it will use and any licence, registration or permit required by the state or territory. Some services are regulated, such as work on electrical installations, gas, asbestos, work at height with some equipment, and some animal-related or personal-care services. Where the business does not hold the required licence, the service must be excluded or referred. Your business's licence requirements are recorded in {{business:compliance.licence_requirements}}."
+    },
+    {
+      "heading": "Decide what you will not offer",
+      "body": "Excluding a service is a business decision and should be recorded. Services may be excluded because they are outside the team's competence, need equipment the business does not own, carry hazards the business cannot control, or need a licence the business does not hold. State the excluded services clearly in the offer and in the customer communication, so that the customer can go elsewhere where needed. The services the business offers are described in {{business:services.service_description}}."
+    }
+  ],
+  "procedure": [
+    "List every service the business is considering, with its tasks, surfaces and standard.",
+    "For each service, record the skills, equipment, products and licences needed.",
+    "Decide to offer, exclude or refer each service, and record the reason.",
+    "State the exclusions clearly in the offer and the customer communication.",
+    "Use the same description in the quote, the work order and the marketing.",
+    "Review the offer when a skill, equipment item, licence or rule changes."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An owner wants to offer 'window cleaning', including high-rise windows, with a ladder and a squeegee.",
+      "decisionPrompt": "How should the offer be defined?",
+      "reasoning": "Define the service by height and access: ground-level and reachable windows only, with high or elevated work excluded unless the business holds the required licence and approved access method. State the exclusions. Check whether the access method for the offered windows needs a licence in the state, and leave the answer blank until checked."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Service list and description template",
+    "Licence and permit register"
+  ],
+  "commonErrors": [
+    {
+      "error": "Offering a service the team cannot do safely because the customer asked for it.",
+      "prevention": "Decide each service on skills, equipment, hazards and licence, and exclude or refer what does not fit."
+    },
+    {
+      "error": "Describing services differently in the quote and the marketing.",
+      "prevention": "Use one approved description for each service across all documents."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Licensed and regulated work includes electrical installation work, gasfitting, asbestos removal, and some work at height and with elevating work platforms. In Victoria, WorkSafe lists a boom-type elevating work platform operation licence (WP) as a high risk work licence class, and says that a scissor lift does not need a high risk work licence (WorkSafe Victoria page, reviewed 30 June 2026). Victoria's WP class has no boom-length threshold. In New South Wales and Queensland, the WP licence applies where the boom length is 11 metres or more, so a shorter boom may not need it in those states (SafeWork NSW page; WorkSafe Queensland page).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Defining a service does not grant a licence. A service that needs a licence may only be offered once the business holds the licence for the person carrying out the work, or the work is referred to a licensed business.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each service has a written definition with tasks, surfaces, standard and exclusions.",
+    "Each service has its licence and equipment requirements recorded.",
+    "The offer is used consistently across quotes, work orders and marketing."
+  ],
+  "documentationEvidence": [
+    "Approved service offer document with the review date.",
+    "Record of each excluded or referred service and the reason."
+  ],
+  "summary": [
+    "Define each service by its tasks, surfaces, standard and exclusions.",
+    "Offer only what the team can do safely, with the licences and equipment it holds.",
+    "Use one description everywhere, and review when rules or skills change."
+  ],
+  "businessFields": [
+    "{{business:services.service_description}}",
+    "{{business:services.enabled}}",
+    "{{business:services.service_group}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F11-L01-K01",
+      "question": "Which service definition is the most useful for a customer and the team?",
+      "options": [
+        "We clean houses, offices and shops across the whole metro area and we work on weekends too",
+        "Routine clean of kitchens and bathrooms in homes up to three bedrooms, excluding ovens and windows.",
+        "We do everything you need for any home or business in the whole city and suburbs."
+      ]
+    },
+    {
+      "id": "F11-L01-K02",
+      "question": "A customer asks for a regulated task the business is not licensed for. What is correct?",
+      "options": [
+        "Offer it anyway and find a licence later and tell the client it is fine.",
+        "Do it quietly without telling anyone and charge the client extra.",
+        "Exclude it from the offer and refer the customer to a licensed provider."
+      ]
+    },
+    {
+      "id": "F11-L01-K03",
+      "question": "What does the lesson say a vague offer such as 'we clean houses' invites?",
+      "options": [
+        "Only repeat business",
+        "A licence check from the regulator",
+        "Nothing in particular",
+        "Every request and every dispute"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/high-risk-work-licence (checked 2026-11-02, from research/trades/LICENCE-MATRIX.csv; high-risk licence for boom-type elevating work platforms)",
+    "https://energysafe.vic.gov.au/sites/default/files/2022-12/PV-Installers-Safety-Guideline.pdf (Energy Safe Victoria guideline, stated Dec 2018 in the document; checked 2026-11-02)",
+    "Titan Academy base source draft F11-L01 is not in the ready set; written from the catalogue description. Licence requirements outside Victoria are UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

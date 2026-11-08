@@ -1,0 +1,174 @@
+{
+  "id": "biohazard-trauma-cleaning-L09",
+  "title": "Regulated waste identification and handoff",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Coordinators, supervisors and trained workers who may triage, refer, document or support biohazard and trauma-related work. This lesson does not grant authority to enter, assess, clean, decontaminate, release, transport or dispose of anything in a regulated setting.",
+  "prerequisites": [
+    "biohazard-trauma-cleaning-L08"
+  ],
+  "learningOutcomes": [
+    "Hold unclassified waste separately and mark its classification as pending.",
+    "Name the documents a licensed handoff needs.",
+    "Refuse transport by an unlicensed or undocumented carrier."
+  ],
+  "instruction": [
+    {
+      "heading": "Waste identification and handoff",
+      "body": "Waste descriptions and classifications differ between jurisdictions and receiving facilities. Contaminated material is not assumed to belong in general waste, and holding a cleaning qualification does not permit anyone to transport it. The Victorian guidance describes three waste groups, general, clinical and pharmaceutical, and says clinical waste goes into yellow biohazard bags. It says clinical and pharmaceutical waste is collected by waste companies licensed by the EPA and taken to EPA-licensed facilities. Other states and territories have their own waste rules. A compliant handoff can require licensed operators, suitable containers, labelling, manifests and an approved treatment destination. A contractor who offers to take bagged material in a private vehicle without documents cannot provide that chain of custody."
+    }
+  ],
+  "procedure": [
+    "Stop and keep the material separate from general waste.",
+    "Identify the waste type through the assessment and the competent party.",
+    "Confirm the waste rules that apply in the state or territory.",
+    "Confirm the licensed carrier, container, labelling and destination.",
+    "Complete the handoff record, marking the classification as pending where it is unresolved.",
+    "Keep the manifest and file the receipt."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contractor offers to take bagged material home in a private car.",
+      "decisionPrompt": "What is the response?",
+      "reasoning": "Decline. There is no licensed carrier, no manifest and no approved destination. The material stays secured until a licensed handler is engaged in writing."
+    },
+    {
+      "situation": "A worker puts bagged material into ordinary bins because the classification is unknown.",
+      "decisionPrompt": "Is that acceptable?",
+      "reasoning": "No. An unknown classification is a reason to hold the material, not to dispose of it. It is kept separate and the handler decision is escalated."
+    }
+  ],
+  "equipmentAndPpe": [
+    "PPE for handling waste as set by the assessment. Unclassified waste is not handled without the plan.",
+    "Labelled containers and bags as the approved handler specifies.",
+    "Training-only mock handover form."
+  ],
+  "commonErrors": [
+    {
+      "error": "Putting suspect material into general waste.",
+      "prevention": "Hold it and escalate."
+    },
+    {
+      "error": "Accepting transport in a private vehicle.",
+      "prevention": "Use only licensed carriers with documents."
+    },
+    {
+      "error": "Filling in a handover form with an assumed classification.",
+      "prevention": "Mark the classification pending until it is confirmed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Regulated waste is carried only by licensed or authorised operators under the applicable rules. Completing this lesson gives no authority to transport waste.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Victorian guidance describes clinical waste in yellow biohazard bags and collection by EPA-licensed waste companies.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Waste rules differ between states and territories. Confirm them before any handling.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "No waste leaves the site without a named licensed handler, a manifest and a recorded destination.",
+    "Unknown classifications are marked pending, not assumed."
+  ],
+  "documentationEvidence": [
+    "Waste handoff record showing classification status.",
+    "Manifest and receipt."
+  ],
+  "summary": [
+    "Unknown waste is held, not disposed of.",
+    "Transport needs a licensed carrier and documents.",
+    "Classification is confirmed before handoff."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "biohazard-trauma-cleaning-L09-K01",
+      "question": "A worker is unsure whether bagged material is clinical waste. What should happen?",
+      "options": [
+        "Put it in general waste to be safe.",
+        "Hold it separately, mark the classification pending and escalate to the competent party.",
+        "Take it to the tip the same day."
+      ]
+    },
+    {
+      "id": "biohazard-trauma-cleaning-L09-K02",
+      "question": "Who may carry regulated waste?",
+      "options": [
+        "Any worker with a cleaning qualification.",
+        "A friend with a van, if they promise to dispose of it properly.",
+        "A licensed or authorised operator under the applicable rules."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "biohazard-trauma-cleaning-lesson-01 to -12 instruction files (WordPress source, premium-01, passes 52 to 54); editorial drafts, not approved; rights: reworded (no copying).",
+    "HR01-biohazard-trauma-cleaning.json, course bundle instruction sections 1 to 12 (read this pass); rights: reworded (no copying).",
+    "UNCONFIRMED: state and territory licensing, waste-classification, transport and WHS requirements for trauma and biohazard work. Not checked for each state and territory in this pass.",
+    "UNCONFIRMED: US OSHA 29 CFR 1910.1030 and CDC environmental cleaning guidance named in the source list. Not Australian law; not read in this pass.",
+    "UNCONFIRMED: Australian disinfection clearance criteria and any disinfectant percentage or contact time. None are given in the learner text.",
+    "biohazard-trauma-cleaning-lesson-09 and HR01 section 9; checked 2026-11-03.",
+    "Victorian waste guidance read via WebFetch on 2026-11-03."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. The PCBU must protect workers and others so far as reasonably practicable; hazards are eliminated where possible and otherwise minimised; for certain hazards a hierarchy of control applies (the page does not list its levels); duties cannot be contracted out. The page does not cover trauma cleaning, waste or PPE rules. Publisher: Safe Work Australia. The state or territory regulator confirms the adopted law."
+    },
+    {
+      "id": "R2",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019)",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "publication date May 2019 (front matter); copyright 2019",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, first 100,000 of 133,773 characters only. Read: section 2.2 (standard precautions apply to all people), section 3.1.2 recommendations 7 and 8 (sharps handled minimally, never recapped, bent or broken, disposed of at point of use in an approved container not filled past its maximum fill line), section 3.1.3 recommendation 12 (spill response with gloves and protective equipment, containment, absorbent removal, detergent cleaning). Healthcare-setting guidance, applied here by analogy. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R3",
+      "title": "Managing spills of blood and body fluids and substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-spills-of-blood-and-body-fluids-and-substances",
+      "pageDate": "Updated 21 August 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Standard precautions and PPE for all spill cleaning; clear up the spill before cleaning the area and do not add liquid to a spill; avoid aerosols; leak-proof bags and containers for waste; sodium hypochlorite generally unnecessary for spill management. Victorian guidance only."
+    },
+    {
+      "id": "R4",
+      "title": "Managing exposures to blood and body fluids or substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-exposures-to-blood-and-body-fluids-or-substances",
+      "pageDate": "Updated 8 October 2015",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. First response: remove contaminated clothing, wash with soap and water, flush mucous membranes, rinse eyes gently, report immediately; remove from duty and carry out a risk assessment; medical evaluation with post-exposure prophylaxis where appropriate; document date, time, type and circumstances. Victorian guidance only. The page shows its last update as 2015."
+    },
+    {
+      "id": "R5",
+      "title": "Cleaning and waste disposal procedures for infection control",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/cleaning-and-waste-disposal-procedures-infection-control",
+      "pageDate": "Updated 14 December 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Three waste groups (general, clinical, pharmaceutical); clinical waste in biohazard bags shown as yellow; sharps into containers that meet the Australian and New Zealand standards named on the page; clinical and pharmaceutical waste collected by waste companies licensed by the EPA and taken to EPA-licensed facilities. Victorian guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter, assess, clean, decontaminate, release, transport or dispose of anything at a scene or in any regulated setting. Completing this lesson does not give a licence, certificate, clearance or permission to do restricted work. Some of the work described here is restricted to licensed, authorised or specially trained people, and some of it may not be done by a general cleaner at all. Where legal, police, coronial, insurer, property-owner or occupational-health authority applies, that authority must be obtained and recorded before any step is taken. Nothing in this lesson replaces the employer's written procedure, the site-specific assessment or the decision of the competent, authorised party. Where you cannot identify who holds that authority, the answer is to stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop work and refer whenever any of the following is true: the biological hazard is uncertain or the contamination status is unverified; the required authorisation, release or competence is missing; the handling, transport, waste or exposure protocol is unknown; a sharp has been found or might be present; a worker may have been exposed; entry has been offered without written release; a party asks you to certify clearance or unrestricted re-entry. A stop-work decision is not a failure. Restart only after the authorised supervisor has documented the procedure and a qualified review has been completed."
+  }
+}

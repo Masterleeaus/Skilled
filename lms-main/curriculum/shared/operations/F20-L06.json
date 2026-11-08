@@ -1,0 +1,191 @@
+{
+  "id": "F20-L06",
+  "title": "Replacement and lifecycle",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "C",
+  "estimatedMinutes": 25,
+  "audience": "Any owner or supervisor in any Titan Academy business who decides when equipment, tools and protective items should be repaired, replaced or retired.",
+  "prerequisites": [
+    "F04-L04",
+    "F20-L05"
+  ],
+  "learningOutcomes": [
+    "Describe the lifecycle of equipment, tools and protective items from purchase to retirement.",
+    "Compare the cost of repair, replacement and continued use using the maintenance record.",
+    "Decide when an item must be retired for safety, quality or cost reasons."
+  ],
+  "instruction": [
+    {
+      "heading": "The lifecycle",
+      "body": "Each item moves through a lifecycle: purchase, first use, regular maintenance, repair, and eventually retirement. The lifecycle differs by item. A machine with a motor may last for years if it is serviced, while a cloth or a glove has a short life by design. Protective items have expiry or replacement points set by the manufacturer. Record the purchase date, the expected life and the maintenance schedule for each item, so that replacement can be planned rather than forced by failure."
+    },
+    {
+      "heading": "Repair or replace",
+      "body": "Use the maintenance record to compare the cost of repair with the cost of replacement, including the downtime of the item. An item that needs repeated repairs, that cannot be repaired to its original safety standard, or that costs more to keep than to replace should be considered for replacement. Some items must be retired regardless of cost, such as a damaged protective item, a machine with a failed safety device, or a cracked ladder. A safety-related fault is not a cost question."
+    },
+    {
+      "heading": "Retire safely",
+      "body": "Retire an item by removing it from the kit and the store, marking it as retired, and disposing of it through the approved route. Do not sell or give away a retired item that is unsafe, and do not leave it in the store where it could be used by mistake. Record the retirement, the date, the reason and the disposal route. Replacement should be checked against the task map so that the new item is suitable for the work."
+    }
+  ],
+  "procedure": [
+    "Record the purchase date, expected life and maintenance schedule for each item.",
+    "Review the maintenance record to compare repair cost, replacement cost and downtime.",
+    "Retire any item with a safety-related fault immediately, regardless of cost.",
+    "Remove a retired item from the kit and store, label it and dispose of it by the approved route.",
+    "Check that any replacement is suitable for the tasks in the task map.",
+    "Record each decision with its reason and date."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A ladder's locking device has failed for the second time in a year. The repair would cost about half the price of a new ladder.",
+      "decisionPrompt": "Repair or replace?",
+      "reasoning": "Retire the ladder. A failing locking device is a safety-related fault, and the cost of repair does not decide the matter. Remove it from use, label it, dispose of it by the approved route, and record the decision. Check the replacement against the tasks."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Maintenance register",
+    "Retirement label",
+    "Disposal route for equipment"
+  ],
+  "commonErrors": [
+    {
+      "error": "Keeping a safety-faulty item because replacement is expensive.",
+      "prevention": "Retire safety-related faults at once; cost does not decide them."
+    },
+    {
+      "error": "Leaving a retired item in the store where it could be used.",
+      "prevention": "Remove, label and dispose of retired items by the approved route."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Equipment must be maintained so that it is safe, and an item with a safety-related fault must not be used until it is repaired or retired, under the model work health and safety duties.",
+      "licenceNotice": false
+    },
+    {
+      "point": "In Victoria, always use a licensed gasfitter for any installation, repair or renovation involving gas work. This includes installing hot water systems and gas-fuelled heaters, and renovations where a gas appliance must be disconnected or relocated. Replacing a gas appliance is gasfitting work under the Victorian definition, which includes replacement, so the same licence requirement applies. This lesson grants no gasfitting or electrical licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each item has a purchase date, expected life and maintenance schedule recorded.",
+    "Every safety-related fault leads to removal from use and retirement or repair by a qualified person.",
+    "Every retirement is recorded with its reason, date and disposal route."
+  ],
+  "documentationEvidence": [
+    "Lifecycle record for each item with the purchase, maintenance, repair and retirement dates.",
+    "Retirement record with the reason, the disposal route and the replacement, if any."
+  ],
+  "summary": [
+    "Record the life and maintenance of each item so replacement is planned.",
+    "Compare repair and replacement cost using the maintenance record.",
+    "Retire safety-related faults at once; remove retired items from use."
+  ],
+  "businessFields": [
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:equipment.assigned_items}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F20-L06-K01",
+      "question": "A machine's safety device has failed. What decides whether it is retired?",
+      "options": [
+        "The safety-related fault; it must be removed from use and retired or repaired by a qualified person regardless of cost.",
+        "Only the repair cost, whether the item is still under warranty, and the price of a new one at the shop",
+        "How long the team wants to keep it and how well it has been cleaned each week and how much the team likes it"
+      ]
+    },
+    {
+      "id": "F20-L06-K02",
+      "question": "What should happen to a retired item?",
+      "options": [
+        "Leave it in the store in case it is needed later on.",
+        "Remove it, label it and dispose of it by the approved route.",
+        "Sell it to a customer at a discount for the whole team."
+      ]
+    },
+    {
+      "id": "F20-L06-K03",
+      "question": "What does the lesson say the repair-or-replace comparison must include?",
+      "options": [
+        "Only the purchase price",
+        "The cost of repair and of replacement, including the item's downtime",
+        "The colour of the item",
+        "The age of the owner of the item"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities (WorkSafe Victoria, reviewed 03/04/2025; checked 2026-11-02; duty to ensure work does not put people at risk)",
+    "Titan Academy base source draft F20-L06 is not in the ready set; written from the catalogue description. Equipment retirement and disposal rules are UNCONFIRMED in this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "When you need a licensed gasfitter (Energy Safe Victoria)",
+      "url": "https://www.energysafe.vic.gov.au/community-safety/working-tradespeople/gasfitters",
+      "pageDate": "Reviewed 31 May 2026 (no 'last updated' label on the page)",
+      "checked": "2026-11-03",
+      "covers": "Says: always use a licensed gasfitter for any installation, repairs or renovations involving gas work. Says this applies to installing hot water systems and gas-fuelled heaters, and to renovations where the disconnection or relocation of gas appliances is required. The page was reviewed on 31 May 2026. Publisher: Energy Safe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Gasfitting work (Building Practitioners Commission, Victoria)",
+      "url": "https://www.bpc.vic.gov.au/plumbers/plumber-classes-and-categories/gasfitting-work",
+      "pageDate": "Last updated on 30 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Defines gasfitting work as the construction, installation, replacement, repair, alteration, maintenance, testing or commissioning of any pipe, appliance, flue, fitting, apparatus, control or other item involved with the supply or use of gas that is fitted downstream of the gas supply point. The page was last updated on 30 June 2026. Publisher: Building Practitioners Commission (Victoria)."
+    }
+  ]
+}

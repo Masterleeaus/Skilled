@@ -1,0 +1,37 @@
+{
+  "lessonId": "FPS-08",
+  "knowledgeAnswers": [
+    {
+      "id": "FPS-08-K01",
+      "correctIndex": 2,
+      "rationale": "The inspection works only when each item is checked and each deficiency is acted on. The other options describe a record that cannot show what was found."
+    },
+    {
+      "id": "FPS-08-K02",
+      "correctIndex": 3,
+      "rationale": "The source explains that naming the person for each task lets management control the level of sanitation."
+    },
+    {
+      "id": "FPS-08-K03",
+      "correctIndex": 0,
+      "rationale": "A deficiency is recorded, corrected and rechecked. Removing it from the checklist or leaving it unrecorded hides the problem."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner inspects a practice zone and marks every item yes or no (pass: all items marked, none left blank).",
+    "Learner records each deficiency with location, action, owner and due date (pass: every no has all four).",
+    "Learner rechecks one corrected item and closes it with the date (pass: closure recorded)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed practice checklist",
+    "Deficiency log from the practice",
+    "Re-inspection entry with the closure date"
+  ],
+  "stopWorkCriteria": [
+    "A zone has pest evidence and the responsible person has not been reached.",
+    "A deficiency cannot be corrected safely by the inspector.",
+    "The checklist for the area is missing or out of date.",
+    "A worker is asked to sign a record for an inspection they did not carry out."
+  ]
+}

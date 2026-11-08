@@ -1,0 +1,49 @@
+{
+  "lessonId": "roof-cleaning-soft-washing-L05",
+  "knowledgeAnswers": [
+    {
+      "id": "roof-cleaning-soft-washing-L05-K01",
+      "correctIndex": 3,
+      "rationale": "The inverter switch is not treated as making the array safe, because no official source reviewed confirms it. The array can still generate while light falls on it, and DC cables can remain live (Energy Safe Victoria guidance, reviewed 15 April 2025)."
+    },
+    {
+      "id": "roof-cleaning-soft-washing-L05-K02",
+      "correctIndex": 0,
+      "rationale": "A line within reach with clearance that is not known means the equipment is kept clear and the job is referred. Moving the ladder past the line or continuing carefully is not acceptable."
+    },
+    {
+      "id": "roof-cleaning-soft-washing-L05-K03",
+      "correctIndex": 1,
+      "rationale": "Installation and maintenance of PV systems is licensed electrical installation work in Victoria (Energy Safe Victoria guidance, reviewed 15 April 2025). Cleaning workers, customers and pool technicians are not the authorised group for isolation."
+    },
+    {
+      "id": "roof-cleaning-soft-washing-L05-K04",
+      "correctIndex": 2,
+      "rationale": "Water reaching a junction box is a fault condition. The spray stops, the box is not touched, and a licensed electrician is referred before the work continues."
+    },
+    {
+      "id": "roof-cleaning-soft-washing-L05-K05",
+      "correctIndex": 3,
+      "rationale": "The lesson grants no right to work on, isolate or repair solar, inverter, wiring or electrical installations. New South Wales treats repairing as electrical wiring work that needs a licence (NSW government licence page, last updated 23 June 2026)."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner surveys the roof perimeter and equipment path for overhead services, and records the result.",
+    "The learner identifies any solar array and electrical component on the roof and records its position.",
+    "The learner keeps the spray away from inverters, junction boxes and connectors, and does not treat switching off the mains as making the array safe.",
+    "The learner stops and refers on sight of a burnt, damaged or hot component, without touching it."
+  ],
+  "passRule": "Knowledge checks: 80% correct (4 of 5). Practical sign-off is assessed separately by observation of a scenario walk-through. A knowledge pass does not verify electrical hazard control on a real roof.",
+  "evidenceRequired": [
+    "Overhead services survey record with the clearance decision",
+    "Position record for any solar array and electrical component",
+    "Stop and referral record for any fault or water contact",
+    "Referral outcome from the licensed electrician or network operator"
+  ],
+  "stopWorkCriteria": [
+    "A ladder, pole or hose is moved near an overhead line without a clearance check.",
+    "The learner touches or moves a solar connector, cable or electrical component.",
+    "Spray reaches an inverter or junction box and work continues.",
+    "The learner attempts a repair or isolation of solar or electrical equipment."
+  ]
+}

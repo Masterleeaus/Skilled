@@ -1,0 +1,39 @@
+{
+  "lessonId": "SOP-20",
+  "knowledgeAnswers": [
+    {
+      "id": "SOP-20-K01",
+      "correctIndex": 1,
+      "rationale": "The stripping sequence starts at the outside edges so the edging is handled before the open floor. Working from the middle or the doorway is not in the procedure."
+    },
+    {
+      "id": "SOP-20-K02",
+      "correctIndex": 1,
+      "rationale": "Slurry left to dry is harder to remove and can leave marks on the bare floor, which is why it must be picked up while wet."
+    },
+    {
+      "id": "SOP-20-K03",
+      "correctIndex": 2,
+      "rationale": "A taped lead and a lapsed test date both fail the equipment check. The machine is tagged out and reported. The operator does not repair, re-tape, or add a protective device."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner inspects a supplied buffer and wet pick-up, identifies a planted fault such as a taped lead or torn blade, and tags the machine out of service.",
+    "Learner marks the working sequence on a supplied floor plan: outside edges first, sections small enough to clear while wet, slurry picked up before it dries.",
+    "Learner applies a practice polish coat to a practice panel edge first and cross-weaves a second coat after the first has dried, observed by the assessor.",
+    "Learner stores the buffer upright with the pad and base plate removed, and the wet pick-up washed, blade wiped and float rinsed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed equipment check record with any tagged-out item",
+    "Assessor observation record for the practice polish panel",
+    "Photograph of the stored equipment",
+    "Completed knowledge checks"
+  ],
+  "stopWorkCriteria": [
+    "Electrical lead damaged, or electrical test status unknown or lapsed",
+    "Slurry or polish about to dry on an unprotected floor and the section cannot be cleared in time",
+    "Ventilation not available and the product label requires it",
+    "Any person enters the barrier while the floor is wet or unprotected"
+  ]
+}

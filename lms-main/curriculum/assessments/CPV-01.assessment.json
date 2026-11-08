@@ -1,0 +1,33 @@
+{
+  "lessonId": "CPV-01",
+  "knowledgeAnswers": [
+    {
+      "id": "CPV-01-K01",
+      "correctIndex": 3,
+      "rationale": "Validation is about how dependable the method is against a set standard, rather than training, sterility or approval of a product."
+    },
+    {
+      "id": "CPV-01-K02",
+      "correctIndex": 0,
+      "rationale": "Validation requires consistent success across repeated runs, which one result cannot demonstrate."
+    },
+    {
+      "id": "CPV-01-K03",
+      "correctIndex": 1,
+      "rationale": "The guide lists the moment equipment becomes clean as a first question. The others do not bear on whether the method works."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner writes answers to the process questions for one named item and identifies which answer needs evidence (pass: all questions answered, one evidence need named).",
+    "Learner labels a written example as routine check, verification or validation and gives a reason (pass: correct label with reason)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Written process-question sheet for one item",
+    "Decision record with reason"
+  ],
+  "stopWorkCriteria": [
+    "The learner is asked to certify a method as validated without evidence.",
+    "A residue or chemical hazard appears that the cleaning method was not designed to handle."
+  ]
+}

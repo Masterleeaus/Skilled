@@ -1,0 +1,14 @@
+{
+  "pass": 10,
+  "base": "Titan-Academy-TypeScript-Upgrade-Pass9-Cumulative.zip",
+  "changes": [
+    "tenant-bound practical evidence submission and review",
+    "legacy evidence remains unassigned and inaccessible to tenant review",
+    "assignment transaction creates active enrolment if absent"
+  ],
+  "limitations": [
+    "Prisma generation and database migration not executed",
+    "Legacy evidence requires explicit tenant reconciliation",
+    "Existing inactive enrolments are not automatically reactivated"
+  ]
+}

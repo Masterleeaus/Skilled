@@ -1,0 +1,29 @@
+{
+  "lessonId": "drug-contamination-remediation-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "drug-contamination-remediation-L01-K01",
+      "correctIndex": 0,
+      "rationale": "Work is paused until screening, authority and a written scope exist. A clean-looking room does not change that."
+    },
+    {
+      "id": "drug-contamination-remediation-L01-K02",
+      "correctIndex": 1,
+      "rationale": "Concentration cannot be judged from appearance or odour. Assessment is needed."
+    }
+  ],
+  "practicalCriteria": [
+    "From a fictional intake, the learner separates observed facts from reported history and lists the unanswered questions. Pass: each claim is labelled observed or reported, and at least three questions are listed.",
+    "The learner classifies a fictional concern as use, storage or manufacturing, or holds it as unclassified, with a reason. Pass: a classification or a hold is recorded with the reason."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed intake record (fictional)",
+    "Unanswered-questions list"
+  ],
+  "stopWorkCriteria": [
+    "The authority or written scope is missing.",
+    "The concern is unclassified and a qualified assessment is not in place.",
+    "A party asks for same-day physical work."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "CPV-06",
+  "title": "Analytical methods: validate before you test, and show recovery",
+  "courseSlugs": [
+    "appliance",
+    "aquarium",
+    "beauty",
+    "bond",
+    "cardetail",
+    "carpet",
+    "commercial",
+    "construction",
+    "deck",
+    "dogwalk",
+    "flatpack",
+    "furniture",
+    "garden",
+    "groom",
+    "hair",
+    "handyman",
+    "hardfloor",
+    "healthcare",
+    "irrigation",
+    "landscaping",
+    "lawn",
+    "locksmith",
+    "massage",
+    "medequip",
+    "painting",
+    "petsit",
+    "plastering",
+    "pond",
+    "pool",
+    "portfolio",
+    "postcon",
+    "pressure",
+    "pt",
+    "residential",
+    "roof",
+    "shortstay",
+    "solar",
+    "stone",
+    "strata",
+    "tiling",
+    "timber",
+    "window",
+    "yoga"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Quality technicians and laboratory staff who support cleaning validation studies.",
+  "prerequisites": [
+    "CPV-04",
+    "CPV-05"
+  ],
+  "learningOutcomes": [
+    "Explain why a test method has to be proven at the concentrations it will read.",
+    "Explain how a recovery study shows whether residue can be taken off a surface and measured.",
+    "Describe the independent checks that keep analytical data reliable.",
+    "State that laboratory handling of solvents and samples needs the controls in each SDS."
+  ],
+  "instruction": [
+    {
+      "heading": "Validate the method across its working range",
+      "body": "The guide requires each analytical test to be proven at the concentrations it will meet in real samples. A method that is accurate at high levels may fail at the trace levels a cleaning study looks for. Validation also fixes the detection floor and the reporting floor, which show the smallest amount the method can register and the smallest amount it can quantify with acceptable reliability. The protocol cites these floors so that a reader can tell what a negative or low result actually means."
+    },
+    {
+      "heading": "Show recovery with the sampling route",
+      "body": "The sampling route and the analytical method have to be tested together. A known quantity of residue is placed on a surface, sampled with the same technique the study will use, extracted and analysed, and the recovered share and its spread are recorded. Until that is done, a sample result cannot be trusted, because the residue may never have left the surface. The guide adds that a negative outcome may simply reflect poor sampling rather than a clean surface."
+    },
+    {
+      "heading": "Keep the data open to checking",
+      "body": "A second person checks the analytical data, and dates are recorded accurately. Raw data are retained so that every result can be traced to its sample. The guide cites an inspection outcome in which a cleaning study failed partly because the swab route had never been validated by recovery, rinse filtering went unchecked, some rinse samples went unanalysed, dates were wrong and no second person reviewed the data. This is offered as a warning, not as an Australian rule. Laboratory solvents, reagents and samples need the controls in their SDS and the site's laboratory procedure."
+    }
+  ],
+  "procedure": [
+    "Confirm that the test method has been proven across the expected concentration range.",
+    "Note the detection floor and the reporting floor for the method.",
+    "Run a recovery test with the same sampling technique as the study, at known spiked levels.",
+    "Analyse the samples and record the raw data with the date and the analyst.",
+    "Have a second person check the calculations and the data entries.",
+    "Record any sample that could not be analysed, and the reason."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaning study returns a negative swab result for a hard-to-reach gasket. The recovery test for the swab technique was never run.",
+      "decisionPrompt": "Can the team conclude the gasket is clean?",
+      "reasoning": "No. Without recovery data the team cannot know that the swab removes residue from the gasket. The study is incomplete until recovery is shown for that technique and surface."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Validated analytical method record",
+    "Spiked recovery standards named in the protocol",
+    "Solvent-resistant gloves, eye protection and a ventilated bench",
+    "Calibrated instruments and a data log"
+  ],
+  "commonErrors": [
+    {
+      "error": "Launching the study before the method has been proven.",
+      "prevention": "Prove the method at the levels you expect to read first."
+    },
+    {
+      "error": "Reporting a negative result without a recovery check.",
+      "prevention": "Run the recovery test with the same sampling technique."
+    },
+    {
+      "error": "Entering data without a second check.",
+      "prevention": "Have a second person check calculations and entries."
+    },
+    {
+      "error": "Handling solvents without the SDS controls.",
+      "prevention": "Follow the SDS, use the required gloves and ventilation, and label each container."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Use the practice content only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Analytical solvents are hazardous. Follow each SDS for protective equipment, ventilation and storage, and keep solvents away from ignition sources.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Laboratory work with samples may involve potent or hazardous residues. Only trained people with a site-approved laboratory procedure should perform it. This lesson does not grant laboratory authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The method is shown valid at the expected concentration range.",
+    "A recovery result is recorded for the sampling technique used.",
+    "A second person reads back every data entry."
+  ],
+  "documentationEvidence": [
+    "Method validation record with detection and reporting floors.",
+    "Recovery study record.",
+    "Checked raw data log with dates and analyst."
+  ],
+  "summary": [
+    "Validate the method at the concentrations you expect to measure.",
+    "Test recovery with the same sampling technique the study uses.",
+    "A negative result needs recovery evidence before it means anything.",
+    "Keep data checkable, dated and second-checked; follow the solvent SDS."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "CPV-06-K01",
+      "question": "Why must a sampling method and an analytical method be tested together?",
+      "options": [
+        "To show that residue can be taken off the surface and read consistently",
+        "To cut the sample count and the swabs can be skipped on the day",
+        "To make the laboratory report shorter and the lab can skip the reading",
+        "Because sampling is only a formality and the lab signs it off anyway"
+      ]
+    },
+    {
+      "id": "CPV-06-K02",
+      "question": "Which step should come first in a validation programme for cleaning?",
+      "options": [
+        "Running the first full study",
+        "Validating the analytical method",
+        "Printing the final report",
+        "Retiring the equipment"
+      ]
+    },
+    {
+      "id": "CPV-06-K03",
+      "question": "A cleaning study gives a negative result. Which question should be asked next?",
+      "options": [
+        "Can the negative result be filed without a sampling record and the report is signed?",
+        "Should the equipment be discarded and the cleaner must be retrained?",
+        "Did the sampling method recover the residue well enough for it to be detected?",
+        "Is the report due today and who is in charge of the lab this week?"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Processes and Cleaning Validation, Guidance Document SGD-105-CLN Rev. 10 (Validation in Partnership Ltd, 25 May 2007; pharmaceutical and biological CGMP with US and EU references, not Australian), sections: 6.2 Analytical Test Methods; 6.9 Analytical Test Method Validation; 7.10 Analytical Methods (recovery of residues from equipment); 6.14 and the FDA warning letter extract in 6.9 (non-Australian); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Pharmaceutical scope; Australian laboratory requirements UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,46 @@
+{
+  "lessonId": "NEW-STN-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STN-03-K01",
+      "correctIndex": 2,
+      "rationale": "The 2022 Safe Work Australia guidance lists grinding, sanding, sawing and polishing among the processes that produce silica dust."
+    },
+    {
+      "id": "NEW-STN-03-K02",
+      "correctIndex": 3,
+      "rationale": "Respirable particles are generally not visible, so controls have to be in place before work starts, not after dust appears."
+    },
+    {
+      "id": "NEW-STN-03-K03",
+      "correctIndex": 0,
+      "rationale": "The NT WorkSafe guide says never to use compressed air, dry sweeping or general-purpose vacuum cleaners to clean surfaces or clothing."
+    },
+    {
+      "id": "NEW-STN-03-K04",
+      "correctIndex": 1,
+      "rationale": "The guidance ranks personal protective equipment as the least effective control and says workers should never rely solely on it."
+    },
+    {
+      "id": "NEW-STN-03-K05",
+      "correctIndex": 2,
+      "rationale": "Aggregate in terrazzo may contain silica, so the course treats terrazzo as silica-containing until its composition is known."
+    }
+  ],
+  "practicalCriteria": [
+    "Lists each dust-generating task before the first pass",
+    "Names a control for each task before work starts",
+    "Stops when any listed control is missing",
+    "Does not use dry sweeping, compressed air or a general-purpose vacuum"
+  ],
+  "passRule": "Knowledge checks: 4 of 5 correct (80%). Practical sign-off is separate and is not granted by the knowledge check: an assessor must observe every critical practical criterion and record it.",
+  "evidenceRequired": [
+    "Task list showing each dust-generating process",
+    "Control chosen for each task, with a check record"
+  ],
+  "stopWorkCriteria": [
+    "Any dry dust-generating task",
+    "Dry sweeping or compressed air used for clean-up",
+    "A missing control for any dust-generating task"
+  ]
+}

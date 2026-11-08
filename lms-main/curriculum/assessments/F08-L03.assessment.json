@@ -1,0 +1,35 @@
+{
+  "lessonId": "F08-L03",
+  "knowledgeAnswers": [
+    {
+      "id": "F08-L03-K01",
+      "correctIndex": 1,
+      "rationale": "Disinfection is decided from the scope, risk assessment and site protocol, and the label's surfaces, dilution and contact time must be followed. Substituting a household product for a healthcare-grade requirement is not an acceptable check."
+    },
+    {
+      "id": "F08-L03-K02",
+      "correctIndex": 2,
+      "rationale": "An uncontrolled hazard or unauthorised task is stopped and escalated to the supervisor. Repeating the disinfection with a stronger product does not resolve it, and the lesson's rule that a surface must never be promised as sterile after routine cleaning does not permit working around it."
+    },
+    {
+      "id": "F08-L03-K03",
+      "correctIndex": 3,
+      "rationale": "The lesson says that when disinfection is required, visible soil is removed first unless the product specifically supports a validated one-step method."
+    }
+  ],
+  "practicalCriteria": [
+    "Follows the authorised sequence and site procedures",
+    "Uses suitable tools, product instructions and contamination controls",
+    "Recognises and escalates unsafe or out-of-scope conditions",
+    "Documents results and limitations accurately"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Record of procedure step 5: Keep the surface wet for the label's wet contact time before wiping or drying it.",
+    "Record of procedure step 8: Confirm the method matches the authorised scope before sign-off, and do not describe the surface as sterile after routine cleaning."
+  ],
+  "stopWorkCriteria": [
+    "Stop work if procedure step 7 is not done: Use a healthcare-grade product where the requirement calls for one, and do not substitute a household product.",
+    "Stop work if procedure step 8 is not done: Confirm the method matches the authorised scope before sign-off, and do not describe the surface as sterile after routine cleaning."
+  ]
+}

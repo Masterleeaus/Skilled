@@ -1,0 +1,143 @@
+{
+  "id": "MP-04-plastering",
+  "title": "Break-even analysis with a worked calculation for Plastering",
+  "courseSlugs": [
+    "plastering"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Plastering business owners who set day rates or plan monthly revenue, including solo plasterers.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a plastering business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means",
+      "body": "Break-even revenue is the amount of sales that covers all costs exactly, so profit is zero. Below that level a plastering business loses money. Above it, each further dollar of sales adds to profit. The figure helps set day rates, decide when to take on a second plasterer and check whether a new marketing channel can pay for itself. It is a planning tool, and its answer is only as good as the costs and percentages behind it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of jobs in a month. For a plasterer they include vehicle registration and loan repayments, insurance, phone and software subscriptions, a storage or workshop share, and equipment loan repayments. Variable costs move with each job. They include plaster, sand, mesh and beads, bucket and scaffold hire on a job, subcontractor fees and the card fees charged on each payment. Express variable cost as a percentage of sales for the same period. ANZ defines fixed and variable costs, and warns that costs must be covered to avoid operating at a loss (ANZ, Setting the right price for your product or service, dated 21 February 2025, last modified 22 July 2025). Check the percentage across at least three months, because one unusual job can mislead. Measure materials from your own purchase records."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. The quantity one minus the variable percentage is the contribution margin, the share of each dollar of sales left to cover fixed costs. Xero describes the same method: the margin divided by the price gives the ratio, and break-even revenue is fixed costs divided by that ratio (Xero Australia, Break-even point formula, dated 23 July 2026). Use the variable percentage as a decimal, so 22 per cent becomes 0.22, and the contribution margin becomes 0.78."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write each input first, with its source and its period. Compute the contribution margin. Divide the monthly fixed costs by it. Then convert the result into a number of jobs at your average job price, and round up to whole jobs, because a part job does not cover costs. Xero's own glossary example rounds up in the same way (Xero, Break-even point formula). Use the average price from your own invoices, after discounts and approved variations, rather than a vendor's listing range."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount and not an annual one. Confirm that the variable percentage is a share of sales and not of cost. Confirm that the output is revenue and not profit. Then keep one reconciled figure, written with its inputs, and drop the others. A figure with no inputs cannot be checked, and a figure that cannot be checked should not set a price."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a percentage of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average job price to get the number of jobs needed each month, rounded up.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A solo plasterer (hypothetical figures, invented for this lesson and not market data) has fixed costs of $2,800 a month, variable costs of 22 per cent of sales for materials and card fees, and an average job price of $1,400.",
+      "decisionPrompt": "How many jobs must the business complete each month to break even, and what should it check before setting day rates?",
+      "reasoning": "The contribution margin is 1 minus 0.22, which is 0.78. Break-even revenue is $2,800 divided by 0.78, which is $3,589.74 a month. At $1,400 a job that is 2.56 jobs, so the plasterer needs 3 jobs to cover costs. Each job contributes $1,092 ($1,400 multiplied by 0.78) towards fixed costs. Before setting prices, check that the 22 per cent includes materials for every job, that the $2,800 is a monthly figure, and that $1,400 is the average price actually charged after discounts and variations."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, including materials purchases",
+    "Calculator or spreadsheet",
+    "Job invoices showing the price actually charged"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures, such as an annual vehicle registration entered as a monthly cost",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Copying a break-even figure from a plan without its inputs",
+      "prevention": "Recalculate from your own inputs and record the source and date of each input before using the result."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority. Plastering licence and registration rules differ by state and by job value, so check them before taking on any work.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout the calculation.",
+    "Recalculate from your own inputs. Do not copy another plan's break-even figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-K01-plastering",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-K02-plastering",
+      "question": "Fixed costs are $2,800 a month and variable costs are 22% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$616.00",
+        "$2,800.00",
+        "$3,589.74",
+        "$12,727.27"
+      ]
+    },
+    {
+      "id": "MP-04-K03-plastering",
+      "question": "Two sources give different break-even figures for the same plastering business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure entirely",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the client today",
+        "Skip the break-even check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; job counts are rounded up to whole jobs. The glossary's own product examples are not used.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs, and the warning that costs must be covered to avoid operating at a loss.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Supports: include total overheads in the price check, and review prices about every three months.",
+    "Markel Direct, 'How to price a job as a tradesperson', https://www.markeluk.com/knowledge-centre/how-to-price-a-job-as-a-tradesperson, dated 12 August 2026. Supports: spreading monthly overheads such as vehicle, tools, insurance and software into each job price.",
+    "Hypothetical figures ($2,800 fixed, 22 per cent variable, $1,400 job) are invented for this lesson and are not market data or fee benchmarks."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

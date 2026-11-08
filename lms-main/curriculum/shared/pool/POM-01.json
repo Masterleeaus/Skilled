@@ -1,0 +1,170 @@
+{
+  "id": "POM-01",
+  "title": "Pool circulation system: components and how they connect",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pool service technicians learning the components of a pool circulation system before they inspect or service one",
+  "prerequisites": [
+    "pool-cleaning-L07"
+  ],
+  "learningOutcomes": [
+    "Name the main components of a pool circulation system and explain what each one does",
+    "Describe how water flows from the pool through the skimmers as well as drains, the pump together with the filter, and passes to the pool",
+    "Explain why the water level has to be held at the right height for the loop to work",
+    "State the warning on attaching a vacuum line to a skimmer and follow it"
+  ],
+  "instruction": [
+    {
+      "heading": "How the loop is built",
+      "body": "The textbook treats a pool system as a set of components with shared operating needs, although no two systems are identical. A typical layout has water inlets that return filtered water to the pool, skimmers that draw in surface water, skimmer baskets that catch floating debris, a main drain at the deepest point that draws from the floor, a drain manifold that collects every suction line, and a pump that moves the water. Water goes through the pump plus the filter and returns through the inlets. The loop only works while it stays full. The textbook notes that a water level that is low draws air into the closed loop and stops circulation."
+    },
+    {
+      "heading": "Suction-side components",
+      "body": "Skimmers are water-level baskets with piping that carries pool water into the system, and the fill water needs controlling to hold the level at the right height. Skimmer baskets sit inside the skimmers and catch debris, and they are lifted out and cleared at intervals. The main drain sits at the lowest point, gathers debris from the basin floor, and can also empty the pool when needed. The drain manifold gathers water from each line, and each line has its own regulating valve. Valves are normally set so that each skimmer draws evenly, with a smaller share from the main drain. The main trap, or pump strainer, sits ahead of the pump plus can be opened to remove anything the skimmer baskets missed."
+    },
+    {
+      "heading": "Pump, filter and return components",
+      "body": "The pump builds pressure that forces the flow into the filter media, then to the pool again, while creating suction on the intake side that pulls water from the skimmers and the drain. A lever-operated backwash valve is fitted. In normal running it directs flow down through the filter, then when it is reversed the flow climbs back through the bed to clean it. A sight glass shows how clear the water leaving the filter is during backwashing. The pressure gauge on the filter shows operating pressure. The reading taken on a clean system is the usual operating pressure, and a rise above it means the filter is loading. A chlorinator feeds a chemical into the circulation before the water returns. Dosing is covered in “Dosing systems and chlorine-gas prevention” and heaters in “Home pool heating systems: operation and safe limits”."
+    },
+    {
+      "heading": "The pool vacuum and the skimmer warning",
+      "body": "A pool vacuum has a foot with a pair of connections: a pole that reaches the floor in deep water, plus a hose that reaches the surface and fits a skimmer. Adjusting the manifold valves sends all the suction to the one skimmer where the hose is fitted. The textbook gives a clear warning here. When a vacuum line is fixed to a skimmer inlet, switch the pump off first. While the pump runs, the suction at the skimmer is powerful enough to trap and break fingers. Apply this every time a line is connected, and do not let anyone place a hand over a skimmer opening while the motor is on."
+    },
+    {
+      "heading": "Reading the textbook with care",
+      "body": "The textbook's component list skips a number and some of its sentences are unclear. Use it for the names and functions of the components only. Check each function against the manufacturer's manual for the real system, and confirm the layout with the owner or operator. Do not rely on a diagram or a figure from the textbook until it has been confirmed for the site."
+    }
+  ],
+  "procedure": [
+    "Identify the skimmers, the skimmer baskets, the main drain, the drain manifold and its valves, the pump together with the pump strainer.",
+    "Identify the filter, the backwash valve, the sight glass, the pressure gauge and any chlorinator or dosing point.",
+    "Trace the water path from the pool, through the suction side, the pump, the filter and returns to the inlets.",
+    "Confirm the water level is at the operating height before the pump is started.",
+    "Before any vacuum line is attached to a skimmer, stop the pump, then confirm it is off.",
+    "Record the components found, any missing or damaged item, and any layout that differs from the operator's plan."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A skimmer basket is missing and the owner says the pump is on fine, so it does not matter.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Record the missing basket. Without it, debris reaches the pump together with the filter sooner, and the skimmer can draw in a mix that the system was not designed for. Stop the pump before any replacement is fitted, and refer the replacement to the owner or operator. Avoid running the skimmer with the basket missing."
+    },
+    {
+      "situation": "A worker is attaching a vacuum line to a skimmer and the pump is still running, because the owner wants the job finished quickly.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "Stop. Turn the pump switched off before the hose is connected, as the textbook warns. Confirm the pump is off, connect the hose, and restart the pump only once the connection is set and the valves are balanced. Record the sequence."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Layout diagram from the operator or the manufacturer",
+    "Torch for viewing the skimmers, drain and strainer",
+    "Gloves for debris and wet parts",
+    "Record sheet for components and layout checks",
+    "Pump isolation point, identified before any connection work"
+  ],
+  "commonErrors": [
+    {
+      "error": "Connecting a vacuum line to a running pump at the skimmer",
+      "prevention": "Switch the pump off first, and confirm it is off."
+    },
+    {
+      "error": "Operating the system with the water level low",
+      "prevention": "Confirm the level is at the operating height before the pump starts."
+    },
+    {
+      "error": "Treating the textbook diagram as the actual layout",
+      "prevention": "Confirm the layout against the operator's plan and the manufacturer manual."
+    },
+    {
+      "error": "Leaving a skimmer basket out or damaged",
+      "prevention": "Record the basket and refer its replacement before the next run."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "When a vacuum line is fixed to a skimmer inlet, switch the pump off first. While the pump runs, the vacuum at the skimmer is powerful able to trap and break fingers.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A water level that is low draws air into the closed loop and stops circulation. Keep the level at the operating height.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Suction outlets and skimmers are drowning and entrapment hazards. Keep covers and baskets in place, and refer any damage. See “Pump strainer, suction valves and the vacuum route”.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chlorinator and dosing equipment are chemical hazards. Their handling is covered by “Dosing systems and chlorine-gas prevention” and “Pool chemical handling and storage at home”, and this lesson grants no licence to dose.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Textbook numbers and component details are generic or US-based and must be checked against the manufacturer and the operator plan.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every component on the list is identified, and any missing or damaged component is recorded.",
+    "The water path is described correctly from the pool towards the return.",
+    "The vacuum-hose warning is applied on every connection."
+  ],
+  "documentationEvidence": [
+    "Layout check record with components identified",
+    "Record of missing or damaged skimmers, baskets, covers or valves",
+    "Referral note for layout differences"
+  ],
+  "summary": [
+    "The loop works only with the right water level and the right flow.",
+    "The pump is switched off before any vacuum line is attached to a skimmer.",
+    "Textbook component details are a starting point and must be confirmed for the site."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "POM-01-K01",
+      "question": "Why is the water level kept at the operating height for a pool circulation loop?",
+      "options": [
+        "So that the chlorinator works more quickly in the pool",
+        "So that the skimmer basket fills more slowly and the pump is quieter",
+        "So that the pool looks fuller to customers and the staff are happy with it",
+        "A low level draws air into the closed loop and stops circulation"
+      ]
+    },
+    {
+      "id": "POM-01-K02",
+      "question": "What must be done before a pool vacuum hose is attached to a skimmer inlet?",
+      "options": [
+        "Switch the pump off first",
+        "Open the strainer lid",
+        "Open the backwash valve fully",
+        "Add chemical to skimmer"
+      ]
+    },
+    {
+      "id": "POM-01-K03",
+      "question": "What is the function of the pressure gauge on a pool filter?",
+      "options": [
+        "It shows the chemical concentration in the water and the flow rate through the cell",
+        "It shows the operating pressure, and a rise above the clean reading shows the filter is loading",
+        "It controls the flow of the chlorinator and the time of each cleaning cycle today",
+        "It records the water temperature and the air temperature in the plant room in summer"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Swimming Pool Operations and Management (textbook), section Components of a Swimming Pool System (water inlets, skimmers, baskets, main drain, drain manifold, pump, main trap, backwash valve, sight glass, pressure gauge, chlorinator, pool vacuum and the skimmer caution); rights: user-held; reworded (no copying); checked 2026-11-02. Textbook text is garbled in places and its numbering has a gap. Only component names and functions are used.",
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section A How Your System Works (cross-checked on the pump, the filter and the valve functions); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "UNCONFIRMED: Australian requirements for skimmers, outlets, suction covers and water level, and the textbook's generic component layout. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

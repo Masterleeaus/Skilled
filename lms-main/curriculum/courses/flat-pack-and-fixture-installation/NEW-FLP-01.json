@@ -1,0 +1,151 @@
+{
+  "id": "NEW-FLP-01",
+  "title": "Flat-pack assembly from manufacturer instructions and parts control",
+  "courseSlugs": [
+    "flatpack"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Flat-pack assembly workers and fixture installers",
+  "prerequisites": [
+    "handyman-work-L03",
+    "handyman-work-L02"
+  ],
+  "learningOutcomes": [
+    "Check a flat-pack delivery against the parts list before assembly starts.",
+    "Assemble furniture in the manufacturer's sequence without substituting parts.",
+    "Record missing, damaged or unsuitable parts and refuse assembly where a part is unsafe."
+  ],
+  "referencesAtStart": "No legal or regulatory claims in this lesson.",
+  "instruction": [
+    {
+      "heading": "Check the delivery before you start",
+      "body": "Before assembly, open the delivery and count the parts against the parts list and the packing list. Check each panel and fitting for damage, such as split board edges, bent metal, stripped threads and missing hardware. Keep the packaging until the job is accepted, and photograph any missing or damaged part with consent. Do not assemble from a partial set or substitute a part from another product, even one that looks the same. A substituted part can change the load rating or the fit."
+    },
+    {
+      "heading": "Assemble in the manufacturer's sequence",
+      "body": "Follow the manufacturer's assembly sequence and use the fixings specified for each joint. Keep the instructions at hand and check each step before moving on, because many fixings are hidden by later steps. Tighten fixings to the point of a firm joint without stripping the board. Do not use a fixing that is not specified, and do not force a panel that does not align, because the misalignment usually means a step has been missed or a part is wrong. Stop and check the instructions rather than forcing the joint."
+    }
+  ],
+  "procedure": [
+    "Count the parts against the parts list, and check each part for damage.",
+    "Record any missing or damaged part with photographs, with consent, and tell the client before assembling.",
+    "Assemble in the manufacturer's sequence, checking each step before moving on.",
+    "Use the fixings specified for each joint, and do not substitute them.",
+    "If a panel does not align, stop and check the step and the part before forcing it.",
+    "Record the parts used, any part refused, and the assembly completed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A wardrobe is missing two shelf pins, and the client suggests using nails from the toolbox.",
+      "decisionPrompt": "Should the wardrobe be completed with nails?",
+      "reasoning": "No. The shelf pins are part of the specified fitting and nails are not a substitute. Record the missing parts, tell the client, and obtain the correct pins from the manufacturer or supplier before completing the shelves. The shelves must not be loaded on improvised pins."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Manufacturer instructions and parts list",
+    "Screwdriver set, correct hex keys and drill with suitable bits",
+    "Eye protection and gloves",
+    "Soft cloth to protect finished surfaces"
+  ],
+  "commonErrors": [
+    {
+      "error": "Substituting a part because it looks the same.",
+      "prevention": "Use only the specified parts, and refer any missing part."
+    },
+    {
+      "error": "Forcing a panel that does not align.",
+      "prevention": "Stop, check the step and the part, and re-check the instructions."
+    },
+    {
+      "error": "Overtightening fixings and stripping the board.",
+      "prevention": "Tighten to a firm joint and stop before the board is damaged."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Where assembly leads to wall fixing or electrical connection, the boundaries in “Fixture anchoring and load limits in walls” and “Wall-mounted fixture and electrical boundaries (referral)” apply.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not give a licence, certificate or authority to perform regulated work.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The delivery is counted against the parts list before assembly.",
+    "Only specified parts and fixings are used, and each step is checked.",
+    "Missing or damaged parts are recorded and reported before assembly is completed."
+  ],
+  "documentationEvidence": [
+    "Delivery check record with parts counted and any missing or damaged part",
+    "Assembly record with the parts and fixings used",
+    "Photographs of any missing or damaged part, with consent"
+  ],
+  "summary": [
+    "Check the parts against the list before assembly.",
+    "Assemble in the manufacturer's sequence with the specified fixings.",
+    "Record and refer missing or damaged parts rather than substituting them."
+  ],
+  "referencesAtEnd": "No legal or regulatory claims in this lesson.",
+  "businessFields": [
+    "{{business:procedures.task_steps}}",
+    "{{business:equipment.assigned_items}}",
+    "{{business:quality.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FLP-01-K01",
+      "question": "A wardrobe is missing two specified shelf pins. What is correct?",
+      "options": [
+        "Use nails from the toolbox to hold the shelves in place until the specified pins arrive from the supplier",
+        "Record the missing parts, tell the client, and obtain the specified pins before completing the shelves",
+        "Load the shelves anyway, since the pins are only a minor part of the unit and the shelves look firm",
+        "Substitute pins from a different product that look close enough to the specified pins for the job"
+      ]
+    },
+    {
+      "id": "NEW-FLP-01-K02",
+      "question": "A panel does not align during assembly. What should happen?",
+      "options": [
+        "Force it into place with a mallet, since a firm tap usually lines it up",
+        "Remove a fixing to allow it to move, then refit it once the panel is in",
+        "Stop, check the step and the part, and re-check the instructions",
+        "Continue with the next panel and come back to this one later"
+      ]
+    },
+    {
+      "id": "NEW-FLP-01-K03",
+      "question": "Before assembly starts, what does the lesson say to do with the delivery?",
+      "options": [
+        "Start with the largest panel and count the parts later",
+        "Count the parts against the parts list and the packing list",
+        "Assemble from the parts that look complete and add the rest later",
+        "Substitute a part from another product where one is missing"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "CATALOGUE-V2 row NEW-FLP-01 (new lesson; flat-pack: no source matches; checked 2026-11-02)",
+    "Manufacturer instructions for each product: not consulted; UNCONFIRMED against any product data"
+  ],
+  "officialReferences": [],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-01.jpg",
+      "alt": "Flat-pack and fixture installation illustration",
+      "kind": "photo",
+      "origin": "flatpack"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-02.jpg",
+      "alt": "Flat-pack and fixture installation illustration",
+      "kind": "photo",
+      "origin": "flatpack"
+    }
+  ]
+}

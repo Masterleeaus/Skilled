@@ -1,0 +1,151 @@
+{
+  "id": "MP-04-dogwalk",
+  "title": "Break-even analysis with a worked calculation for Dog walking",
+  "courseSlugs": [
+    "dogwalk"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Dog walkers who set prices or plan monthly income, including solo walkers who take bookings through platforms.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a home-service business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a walker",
+      "body": "Break-even revenue is the amount of walking income that covers all costs exactly, so profit is zero. Below it the business loses money. Above it, each extra dollar of sales adds to profit. For a walker, the figure shows how many walks a month are needed before income starts to add to profit. It is a planning tool, and its answer is only as good as the costs and percentages that go into it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of walks in a month. They include vehicle registration and loan repayments, insurance, phone and app subscriptions, and any council permit fee spread across the year. Variable costs move with each walk. They include poo bags, treats, cleaning of leads and harnesses, fuel, and any platform or payment fee charged on each booking. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss (ANZ, 21 February 2025). Express variable cost as a share of sales for the same period, and check that share across at least three months."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. The quantity one minus the variable percentage is the contribution margin: the share of each dollar of sales left to cover fixed costs. Xero's glossary sets out the same method and says a job count is rounded up to whole jobs (Xero Australia, 23 July 2026). The glossary's own product examples are not used here."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write each input with its source and date. Compute the contribution margin, divide fixed costs by it, and then divide by your average price per walk to get the number of walks a month, rounded up. Use the same price basis as your variable percentage: if a platform fee is counted in variable costs, use the price the owner pays. A listing range shows what the market offers, for example Airtasker's Melbourne band of $25 to $40 for a 30-minute walk (vendor, 19 May 2026), but your own average sale price is the figure to use."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount and not an annual one. Confirm that the variable percentage is a share of sales and not of cost. Confirm that the output is revenue and not profit. Then write down the reconciled figure with its inputs and drop the others. A figure that cannot be checked should not be used to set a price."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label it fixed or variable, including any platform or payment fee.",
+    "Work out variable cost as a percentage of sales for the same period, across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average price per walk, on the same price basis, and round up to whole walks.",
+    "Recalculate whenever the platform fee, the walk mix or a fixed cost changes."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market data. A solo walker in a Melbourne suburb has fixed costs of $1,200 a month (illustrative), variable costs of 8 per cent of sales for bags, treats and payment fees (illustrative), and an average price of $30 per 30-minute walk (illustrative). The vendor listing band for a Melbourne 30-minute walk is $25 to $40 (Airtasker, 19 May 2026).",
+      "decisionPrompt": "How many walks must she complete each month to break even, and what should she check before she sets prices?",
+      "reasoning": "The contribution margin is 1 minus 0.08, which is 0.92. Break-even revenue is $1,200 divided by 0.92, which is $1,304.35 a month. At $30 a walk, that is 43.48 walks, so she needs 44 walks a month to cover costs. Each walk contributes $27.60 towards fixed costs. Before setting prices, she checks that the 8 per cent includes every platform and payment fee, that the $1,200 is a monthly figure, and that $30 is the average price the owner pays after any discount."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, labelled fixed or variable",
+    "Calculator or spreadsheet",
+    "Booking and payout statements for the same months"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Mixing a platform's net price with a gross price, or using a listing price",
+      "prevention": "Use the same price basis as the variable percentage, and use the average price your own bookings achieve."
+    },
+    {
+      "error": "Copying a break-even figure without its inputs",
+      "prevention": "Recalculate from your own records and record the source and date of each input."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any permit, licence or authority to walk dogs for payment. Council permit rules apply where you work, and they differ between councils.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Permit fees for commercial dog walking are council-specific and not settled in every case. Use the current council fee in your figures, not a figure from this lesson.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and price basis.",
+    "Two figures that disagree are reconciled before either is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period and one price basis throughout the calculation.",
+    "Recalculate from your own inputs. Do not copy a listing price or another walker's break-even."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-dogwalk-K01",
+      "question": "Break-even revenue for a dog walker is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Walk price minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-dogwalk-K02",
+      "question": "Fixed costs are $1,200 a month and variable costs are 8% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$1,304.35",
+        "$96.00",
+        "$15,000.00",
+        "$1,200.00"
+      ]
+    },
+    {
+      "id": "MP-04-dogwalk-K03",
+      "question": "Two sources give different break-even figures for the same walking business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the owner today",
+        "Use the listing prices alone and skip the break-even check"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025.",
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026.",
+    "Airtasker, 'How much does dog walking cost', https://www.airtasker.com/dog-walkers/price/how-much-does-dog-walking-cost, page updated 19 May 2026. Vendor source.",
+    "Hypothetical figures ($1,200 fixed, 8 per cent variable, $30 a walk) are illustrative only and are not market data.",
+    "Gap: no Australian source on repeat walk volumes or platform fee levels for dog walkers was found."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

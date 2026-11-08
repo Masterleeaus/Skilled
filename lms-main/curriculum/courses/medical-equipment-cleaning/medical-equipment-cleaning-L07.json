@@ -1,0 +1,210 @@
+{
+  "id": "medical-equipment-cleaning-L07",
+  "title": "Reusable-device reprocessing boundaries",
+  "courseSlugs": [
+    "medequip",
+    "healthcare"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and cleaning supervisors who work near medical equipment in a healthcare facility, in any Australian state or territory. This lesson teaches the boundary only. It does not teach reprocessing.",
+  "referencesAtStart": "Official sources for this lesson: Aged Care Quality Standards, Action 3.17 (guidance resource): reprocessing reusable equipment and devices ('Last updated' label with no date); ACIPC, Position Statement: Single-use Devices, version 4.0 (dated February 2024); ACSQHC, advisory: transitioning from AS/NZS 4187:2014 to AS 5369:2023 (dated August 2024). Only part of the Action 3.17 guidance and the ACIPC statement has been confirmed.",
+  "prerequisites": [
+    "medical-equipment-cleaning-L01",
+    "medical-equipment-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Define reprocessing in the facility context and explain that it is outside this course.",
+    "Explain the difference between cleaning the outside of a device and reprocessing a reusable device for return to clinical use.",
+    "State who in a healthcare facility holds reprocessing authority, and the regulatory points that limit it.",
+    "Describe the escalation steps when a reprocessing request, or an item that appears to need reprocessing, reaches a cleaner."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson: the boundary, not the method",
+      "body": "This lesson covers external cleaning only and teaches where your role stops. Reprocessing, disinfection for reusable devices and sterilisation are outside this course. They are authorised only by the manufacturer's instructions and the facility's written procedure. This lesson does not describe any reprocessing step, product, concentration, cycle or equipment. If you need that information for your work, ask your facility for the procedure that applies, and treat the reprocessing as the responsibility of the staff named in it."
+    },
+    {
+      "heading": "What counts as reprocessing",
+      "body": "In a healthcare facility, reprocessing is the set of validated steps that a reusable medical device goes through before it is used again on another patient. It is distinct from cleaning the outside of a device, which removes visible soil from surfaces. The Aged Care Quality Standards Action 3.17 guidance resource (no date shown) describes a facility procedure for reprocessing reusable medical equipment and devices, and it refers to traceability, storage and transport, and workforce training. The Australian Commission on Safety and Quality in Health Care advisory (dated August 2024) records that AS 5369:2023 replaced AS/NZS 4187:2014 in December 2023 and sets no transition period."
+    },
+    {
+      "heading": "Why the boundary is strict",
+      "body": "A device that has been cleaned on the outside may still contain organisms inside a lumen, channel or joint, and a wipe does not reach those areas. A reusable device that is reused without validated reprocessing can transmit infection between patients. For single-use devices the risk is also regulatory. The ACIPC position statement on single-use devices, version 4.0 of February 2024, says that single-use devices must not be reused and that a used single-use device must not be reprocessed or reused. It also states that the TGA considers reprocessing or reuse of a single-use medical device to be a remanufacture, after which the original manufacturer is no longer responsible for its performance and safety (as the ACIPC statement records; the TGA's own text was not read in this session). These points are why a cleaner must never treat reprocessing as an extension of cleaning."
+    },
+    {
+      "heading": "Who holds reprocessing authority",
+      "body": "Reprocessing is carried out only by staff and departments that the facility has authorised for that device class, under the manufacturer's instructions and the facility's procedure. For single-use devices, the ACIPC statement says reprocessing in a health service facility is restricted to a facility that is licensed as a manufacturer. A cleaner has no reprocessing authority under this course, and a verbal instruction from a colleague does not change that. If you are unsure whether a reprocessing task is happening or required, ask the facility infection prevention and control contact before you touch the item."
+    },
+    {
+      "heading": "What a cleaner does when reprocessing comes up",
+      "body": "If an item appears to be waiting for reprocessing, or someone asks you to reprocess or disinfect a reusable device, do not start the task. Keep the item where it was found or with the designated team, make the area safe, and tell your supervisor. Record the item, the location, the request, the person who made it, and the time. Do not move the item to a clean area or your trolley, and do not wipe it to tidy up. The responsible team decides what happens next under the facility procedure."
+    }
+  ],
+  "procedure": [
+    "Identify the item and check whether it is on your authorised external cleaning list.",
+    "If the request or the item involves reprocessing, disinfection for re-use, sterilisation or internal cleaning, stop.",
+    "Make the area safe, leave the item as found, and do not move it to clean stock.",
+    "Tell your supervisor and the infection prevention and control contact named in {{business:safety.escalation_contact}}.",
+    "Record the item, location, request, requester, time and the escalation recipient on the work record.",
+    "Wait for the responsible team to act under the facility procedure before any further contact with the item.",
+    "Review the request with your supervisor at the end of the shift to confirm the process was followed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "At the end of a list, a surgical technician says that a set of reusable instruments in a tray needs a quick wipe and then can go back into the store, because the reprocessing team is off site.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "This is a reprocessing request for reusable instruments, which is outside your role and outside this course. Do not wipe the instruments or move them. Make the area safe, tell your supervisor and the infection prevention contact, and record the request and the time. The reprocessing team or another authorised department decides what happens under the facility procedure, including whether the instruments are held."
+    },
+    {
+      "situation": "You find a box labelled single use in a clinic store, with a few devices in it that appear to have been opened and returned to the box.",
+      "decisionPrompt": "What should you do?",
+      "reasoning": "Single-use devices must not be reused, and a used single-use device must not be reprocessed or reused. Do not return the devices to the stock or wipe them. Leave the box as found, tell the supervisor, and record it. The facility decides how used and opened items are handled and disposed of under its procedure."
+    }
+  ],
+  "equipmentAndPpe": [
+    "The facility's reprocessing procedure, held by the responsible department",
+    "Facility contact list for infection prevention and control: {{business:safety.escalation_contact}}",
+    "Protective equipment for the area as required by the facility: {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a wipe of the outside of an instrument as enough to make it ready for re-use.",
+      "prevention": "Cleaning the outside is not reprocessing. Stop and escalate any request to make a device ready for re-use."
+    },
+    {
+      "error": "Taking a verbal request from a clinical colleague as authority to reprocess.",
+      "prevention": "Reprocessing authority is written and held by named staff. Refer the request."
+    },
+    {
+      "error": "Returning used single-use devices to stock because they look unused.",
+      "prevention": "Single-use labelled devices must not be reused. Set them aside as the facility procedure directs."
+    },
+    {
+      "error": "Moving an item that needs reprocessing to a clean area to get it out of the way.",
+      "prevention": "Leave it as found and escalate. Moving it spreads risk and breaks traceability."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the facility procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: For single-use devices, reprocessing in a health service facility is restricted to a facility licensed as a manufacturer, and the TGA treats reprocessing or reuse as remanufacture (ACIPC position statement, February 2024). This lesson does not grant any manufacturer licence, reprocessing authority or permission. The current TGA requirements must be checked before any facility activity.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Aged Care Quality Standards Action 3.17 guidance resource (no date shown) covers reprocessing reusable medical equipment and devices, including traceability, storage and transport, and workforce training. The page describes itself as guidance for readers to consider in their own context, so it is not treated here as a binding provider obligation. The cleaner's role is to follow the facility's procedure and escalate.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Australian Commission on Safety and Quality in Health Care advisory (dated August 2024) records that AS 5369:2023 replaced AS/NZS 4187:2014 in December 2023.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner defines reprocessing and distinguishes it from external cleaning in their own words, without describing a reprocessing step.",
+    "The learner identifies three supplied requests as reprocessing or outside role, and gives the escalation step for each.",
+    "The learner explains why a single-use device must not be returned to stock after use.",
+    "The learner records a stopped reprocessing request with the item, requester, time and escalation recipient."
+  ],
+  "documentationEvidence": [
+    "The item, its location and the requester's role for any reprocessing request",
+    "Time of the request, the decision to stop, and the escalation recipient",
+    "Confirmation that the item was left as found and not moved to clean stock"
+  ],
+  "summary": [
+    "Reprocessing is outside this course. Cleaning the outside of a device is not reprocessing.",
+    "Single-use devices must not be reused or reprocessed. Used items are set aside as the facility directs.",
+    "Reprocessing authority is written and held by named staff, under the manufacturer's instructions and the facility procedure.",
+    "When a reprocessing request arrives, stop, leave the item as found, escalate, and record."
+  ],
+  "businessFields": [
+    "{{business:compliance.licence_requirements}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-equipment-cleaning-L07-K01",
+      "question": "Which statement best describes the difference between cleaning and reprocessing?",
+      "options": [
+        "Cleaning and reprocessing are the same thing, so a wipe is enough for a reusable device after each use in any clinic or ward at any time of the day",
+        "Reprocessing is simply a stronger form of cleaning that any cleaner can carry out on any device in the facility, with the same training and the same equipment",
+        "Cleaning removes visible soil from the outside; reprocessing is a validated set of steps that makes a reusable device ready for re-use, and is outside this course."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L07-K02",
+      "question": "A used single-use device is found in a clinic store. What is the correct action?",
+      "options": [
+        "Do not reuse it. Leave it as found, tell the supervisor, and record it under the facility procedure.",
+        "Return it to stock because it looks unused, since the package seems to be sealed and intact at the time",
+        "Wipe it and store it for the next patient in the same room, since the wipe is quick and easy"
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L07-K03",
+      "question": "A clinical colleague verbally asks a cleaner to reprocess a reusable instrument. What should the cleaner do?",
+      "options": [
+        "Carry out the request, because the colleague is more senior.",
+        "Decline and escalate. Reprocessing authority is written and held by named staff.",
+        "Carry out a quick external wipe and leave the rest to the colleague."
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Aged Care Quality Standards, Action 3.17 (guidance resource): reprocessing reusable equipment and devices",
+      "url": "https://www.agedcarequality.gov.au/quality-standards/action-317-reprocessing-reusable-equipment-and-devices",
+      "pageDate": "'Last updated' label with no date",
+      "checked": "2026-11-03",
+      "covers": "The page is headed Action 3.17 and is a guidance resource that readers should consider in their own context. It does not describe residential aged care specifically. Check the Quality Standards text for any binding obligation. Publisher: Aged Care Quality Standards website (guidance resource; not a Commission publication)."
+    },
+    {
+      "id": "R2",
+      "title": "ACIPC Position Statement: Single-use Devices, version 4.0",
+      "url": "https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf",
+      "pageDate": "version 4.0, dated February 2024",
+      "checked": "2026-11-03",
+      "covers": "A professional body statement. The TGA's own text was not read in this session; check the TGA website for the primary rule on reprocessing and reuse of single-use devices. Publisher: Australasian College for Infection Prevention and Control (professional body; not a government source)."
+    },
+    {
+      "id": "R3",
+      "title": "ACSQHC advisory: transitioning from AS/NZS 4187:2014 to AS 5369:2023",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/transitioning_from_as_nzs_4187_2014_to_as_5369_2023.pdf",
+      "pageDate": "dated August 2024",
+      "checked": "2026-11-03",
+      "covers": "Confirms the replacement and the December 2023 supersession date, with no transition period. The text of AS 5369:2023 itself was not read; check it through Standards Australia. Publisher: Australian Commission on Safety and Quality in Health Care."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page listed at the start of this lesson before use. Only part of the Action 3.17 guidance and the ACIPC statement has been confirmed.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ACIPC, Position Statement: Single-use Devices, version 4.0, February 2024. https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf (checked 2026-11-02)",
+    "Aged Care Quality Standards, Action 3.17 (guidance resource), Reprocessing reusable equipment and devices. https://www.agedcarequality.gov.au/quality-standards/action-317-reprocessing-reusable-equipment-and-devices (checked 2026-11-02)",
+    "IHEA, Transitioning from AS/NZS 4187:2014 to AS 5369:2023 (article dated 11 October 2024). https://ihea.org.au/post/transitioning-from-as_nzs_4187_2014-to-as_5369_2023 (checked 2026-11-02; secondary source for the supersession date)",
+    "UNCONFIRMED: the requirements of AS 5369:2023 itself, the TGA licence conditions for facility reprocessing, and the state and territory rules on reprocessing. Not checked in this pass.",
+    "Australian Commission on Safety and Quality in Health Care, transitioning from AS/NZS 4187:2014 to AS 5369:2023 advisory, https://www.safetyandquality.gov.au/sites/default/files/2024-08/transitioning_from_as_nzs_4187_2014_to_as_5369_2023.pdf, checked 2026-11-02; CONFIRMED: the advisory records AS 5369:2023 as the successor to AS/NZS 4187:2014, which was superseded in December 2023, and sets no transition period."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-11.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-12.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    }
+  ]
+}

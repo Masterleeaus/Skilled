@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-equipment-cleaning-L09",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L09-K01",
+   "correctIndex": 1,
+   "rationale": "The designated route keeps clean and used flow apart. The cleaner takes that route, even when it is longer, and tells the supervisor if it is blocked."
+  },
+  {
+   "id": "medical-equipment-cleaning-L09-K02",
+   "correctIndex": 2,
+   "rationale": "Used and clean items are kept in separate compartments or containers. Placing used cloths beside clean stock is a contamination route."
+  },
+  {
+   "id": "medical-equipment-cleaning-L09-K03",
+   "correctIndex": 0,
+   "rationale": "A handoff is complete when the receiving person accepts the item and the handoff is recorded. Leaving an item on a nearby shelf is not a handoff."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a clean trolley and a shorter route past a soiled holding corridor, the learner takes the designated route and records it.",
+  "Given a request to leave a bag of used cloths beside clean stock, the learner declines, takes the used bag to the holding area, and records the handoff.",
+  "The learner holds an item in the designated holding area until the receiving person accepts it and the handoff is recorded."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Route and time record for a trolley transfer",
+  "Handoff record with item, time, location and receiving person",
+  "Observation note of separate-compartment loading"
+ ],
+ "stopWorkCriteria": [
+  "Learner loads used items on a shelf with clean stock",
+  "Learner moves an item without a traceable record",
+  "Learner leaves an item at a handoff that the receiving person has not accepted"
+ ]
+}

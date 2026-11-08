@@ -1,0 +1,40 @@
+{
+  "lessonId": "RAS-14",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-14-K01",
+      "correctIndex": 2,
+      "rationale": "Lone working is avoided where possible, and a buddy or supervision is arranged where it is not."
+    },
+    {
+      "id": "RAS-14-K02",
+      "correctIndex": 0,
+      "rationale": "The crew stops, moves away and keeps a clear exit, and does not confront the person."
+    },
+    {
+      "id": "RAS-14-K03",
+      "correctIndex": 1,
+      "rationale": "A trespasser is not challenged, and the event is reported. An unfamiliar area is not entered alone."
+    }
+  ],
+  "practicalCriteria": [
+    "Sets a check-in schedule with named contacts before a simulated lone task",
+    "Responds to a simulated threatening visitor by stopping, moving away and keeping an exit clear",
+    "Does not challenge a simulated trespasser and reports the event",
+    "Completes an incident report with times, people, actions and notifications"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "lone work decision record",
+    "check-in log",
+    "incident report",
+    "assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "A lone task starts without a check-in arranged",
+    "The learner confronts or retaliates against a visitor",
+    "The learner enters a locked area alone to investigate"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

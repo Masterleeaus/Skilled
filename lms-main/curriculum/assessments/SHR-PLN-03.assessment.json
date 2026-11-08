@@ -1,0 +1,47 @@
+{
+  "lessonId": "SHR-PLN-03",
+  "knowledgeAnswers": [
+    {
+      "id": "SHR-PLN-03-K01",
+      "correctIndex": 1,
+      "rationale": "The customer and the need come first, because every later answer (the result, the delivery, the price and the dependencies) depends on who is being served. Equipment and staffing are decided after the model holds."
+    },
+    {
+      "id": "SHR-PLN-03-K02",
+      "correctIndex": 2,
+      "rationale": "A cost that rises with each job is variable, and a cost that stays the same whether the business works or not is fixed. The two must be separated before a break-even figure can be calculated."
+    },
+    {
+      "id": "SHR-PLN-03-K03",
+      "correctIndex": 1,
+      "rationale": "Contribution per job is 90 less 17, which is 73. Fixed costs of 1,350 divided by 73 is about 18.5, so 19 jobs is the next whole number. The distractor 15 divides by the price and ignores variable cost. The distractor 79 divides by the variable cost, which is the wrong way round."
+    },
+    {
+      "id": "SHR-PLN-03-K04",
+      "correctIndex": 0,
+      "rationale": "A dependency is something the service cannot run without, such as one person, supplier or tool, and the model needs a planned fallback for it. The profit and loss statement lists costs and does not define dependencies, and client feedback is a quality measure rather than a dependency."
+    }
+  ],
+  "practicalCriteria": [
+    "For a supplied service scenario, the learner writes one sentence naming a customer group and its need, and the group named is one the scenario says can be reached.",
+    "The learner states the client result as something the client can see or use at the end, names the check that confirms it, and lists at least one item excluded from the scope.",
+    "The learner sorts every cost in the supplied cost list into variable or fixed, with no cost left unsorted.",
+    "The learner calculates the contribution per job and the monthly break-even job count from the supplied figures, and the job count matches the assessor's figure, rounded up to the next whole job.",
+    "The learner names at least two dependencies, each with a fallback and an estimated cost for that fallback.",
+    "The learner chooses one gap, writes a test with a stated sample size and a review date, and does not commit to a purchase, hire or lease before that date."
+  ],
+  "passRule": "At least 4 of the 4 knowledge checks correct (80%), and all 6 practical criteria met as signed off by an assessor. A knowledge check pass is not verified practical competence and does not confirm that the learner can plan a service model unsupervised.",
+  "evidenceRequired": [
+    "Completed five-question model saved with date and version, with the four knowledge checks (SHR-PLN-03-K01 to K04) recorded",
+    "Cost sheet showing the variable and fixed sort and the break-even calculation",
+    "Dependency list with fallbacks and their costs",
+    "Test record for the chosen gap, with sample size, result and review date",
+    "Assessor record of knowledge check result and of each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "Learner treats a licence, insurance or tax point as settled without checking it.",
+    "Learner publishes or commits to a price that does not cover the variable cost of the job.",
+    "Learner buys equipment, hires staff or signs a lease before the test review date.",
+    "Learner plans a service that needs a licence or qualification they do not hold, without first checking the requirement with the relevant authority."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "lessonId": "NEW-AQU-07",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-AQU-07-K01",
+      "correctIndex": 3,
+      "rationale": "Dosing above the label or outside the plan is not allowed. The correct response retests, follows the label and the plan, and refers any adjustment the plan does not cover."
+    },
+    {
+      "id": "NEW-AQU-07-K02",
+      "correctIndex": 2,
+      "rationale": "Evaporation removes water and leaves the salt behind, so a fresh-water top-up keeps the salinity steady. Salt water would raise it."
+    },
+    {
+      "id": "NEW-AQU-07-K03",
+      "correctIndex": 0,
+      "rationale": "The pump is isolated and proved off before the cup or housing is opened, so that the pump cannot restart while the cup is open."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner confirms the marine system type from a training plan and records it before any test is made",
+    "Learner tops up a training tank with fresh water where the plan says so, and explains the choice in one sentence",
+    "Learner refuses a dosing request that the training plan does not cover, and records the refusal and the referral"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "System type record confirmed from the plan",
+    "Top-up record with the water used and the reason",
+    "Refusal and referral record for the dosing request",
+    "Assessor observation of the isolation before the skimmer cup is opened"
+  ],
+  "stopWorkCriteria": [
+    "A request to add a product above the label dose or outside the plan",
+    "A skimmer cup or housing opened while its pump is running",
+    "Coral or animal treatment proposed by the learner"
+  ]
+}

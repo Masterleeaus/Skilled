@@ -1,0 +1,37 @@
+{
+  "lessonId": "NEW-LCK-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-LCK-03-K01",
+      "correctIndex": 2,
+      "rationale": "A door in a fire-rated opening must carry the required rating. When the rating cannot be confirmed, the job is referred and the outcome is recorded. Hanging it as an ordinary door or leaving the question open is not acceptable."
+    },
+    {
+      "id": "NEW-LCK-03-K02",
+      "correctIndex": 1,
+      "rationale": "The frame is checked for square and plumb, then fixed into solid structure. Packing supports the frame but does not hold it on its own."
+    },
+    {
+      "id": "NEW-LCK-03-K03",
+      "correctIndex": 1,
+      "rationale": "Movement through the full range, latch engagement and even clearances show whether the door is set correctly in its frame."
+    }
+  ],
+  "practicalCriteria": [
+    "On a simulated opening, the worker measures the diagonals and the plumb of each side, sets the frame with packing and fixes it into solid structure, and records the measurements before hanging the door.",
+    "After hanging the simulated door, the worker checks movement through the full range, latch engagement and even clearances, and records the result.",
+    "Given a simulated fire-rated opening with no visible rating marking, the worker does not hang the door as an ordinary door, records that the rating could not be confirmed, and makes a referral note."
+  ],
+  "passRule": "Opening measured and frame set square, plumb and fixed to solid structure, with the fixings recorded. Door moves freely, latches and has even clearances. Fire-rated opening whose rating cannot be found is referred and recorded. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Opening and frame check record, with diagonal measurements",
+    "Door installation record with the checks made",
+    "Referral note for the simulated fire-rated opening",
+    "Assessor observation sheet"
+  ],
+  "stopWorkCriteria": [
+    "Frame held by packing alone with no fixings into solid structure",
+    "Door hung in a fire-rated opening without checking its rating",
+    "Hinges, seals or closer of a fire-rated door changed as ordinary work"
+  ]
+}

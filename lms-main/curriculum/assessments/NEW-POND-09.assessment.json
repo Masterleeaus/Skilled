@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-POND-09",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-POND-09-K01",
+      "correctIndex": 1,
+      "rationale": "A correction is shown with a single line, the new value, initials, date and reason so the original stays readable."
+    },
+    {
+      "id": "NEW-POND-09-K02",
+      "correctIndex": 3,
+      "rationale": "A handover covers open issues, hazards, referrals and restrictions so the next person does not miss them."
+    },
+    {
+      "id": "NEW-POND-09-K03",
+      "correctIndex": 1,
+      "rationale": "A consistent log shows trends across visits so changes are noticed early."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes procedure step 1: Record the date, time, weather, air temperature and water temperature in Celsius before any other entry.",
+    "Learner completes procedure step 2: Enter each reading with its unit, depth, instrument and any observation, following the sampling lesson.",
+    "Learner completes procedure step 3: Record the state of each piece of equipment, the debris and sludge removed by volume, and any water added or removed with its approval.",
+    "Learner completes procedure step 4: Record the wildlife observed, the netting check, any mortality or disease, and the referrals made."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Record of procedure step 1: Record the date, time, weather, air temperature and water temperature in Celsius before any other entry.",
+    "Record of procedure step 3: Record the state of each piece of equipment, the debris and sludge removed by volume, and any water added or removed with its approval.",
+    "Record of procedure step 4: Record the wildlife observed, the netting check, any mortality or disease, and the referrals made."
+  ],
+  "stopWorkCriteria": [
+    "Stop work if procedure step 4 is not done: Record the wildlife observed, the netting check, any mortality or disease, and the referrals made.",
+    "Stop work if procedure step 6 is not done: Write the handover note with open issues, hazards, referrals, what must not be done, and the next visit date."
+  ]
+}

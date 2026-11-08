@@ -1,0 +1,185 @@
+{
+  "id": "drug-contamination-remediation-L05",
+  "title": "Independent sampling and chain of custody",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Coordinators, supervisors and trained workers who may triage, refer, document or hand over work connected with suspected drug use, storage or manufacturing contamination. This lesson does not grant authority to enter, investigate, sample, decontaminate, transport, dispose of material or issue any clearance.",
+  "prerequisites": [
+    "drug-contamination-remediation-L04"
+  ],
+  "learningOutcomes": [
+    "Explain why sampling belongs to independent professionals.",
+    "Identify the representativeness limits of a single result.",
+    "Treat a result without a plan, laboratory and custody record as unverified."
+  ],
+  "instruction": [
+    {
+      "heading": "Independent sampling and custody",
+      "body": "Sampling plans, laboratories, sample locations and documented chain of custody are the work of independent professionals. This lesson describes their purpose so that you can recognise when they are needed and question an unsupported result. It does not train any unqualified person to collect samples. The WA guidance describes a sequence of screening and detailed testing, then validation testing, with reports at each stage. A single result from one place may not represent a whole property, so a result from one room does not clear another. When a result is offered without a documented sampling plan, a named laboratory and a custody record, treat it as unverified and ask for competent interpretation before relying on it."
+    }
+  ],
+  "procedure": [
+    "Identify whether the result has a documented sampling plan.",
+    "Check that a named laboratory produced the result.",
+    "Check that a custody record exists for the sample.",
+    "Ask whether the result covers the area in question, or only one part of the property.",
+    "Treat the result as unverified until a competent person has interpreted it.",
+    "Do not collect any sample yourself."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A single result from one bedroom is offered as proof the whole flat is clean.",
+      "decisionPrompt": "What is the response?",
+      "reasoning": "The result covers one bedroom only and does not clear the rest of the flat. It is treated as unverified until a competent person interprets the sampling plan and the coverage."
+    },
+    {
+      "situation": "A result arrives with no laboratory name or custody record.",
+      "decisionPrompt": "How is it treated?",
+      "reasoning": "It is treated as unverified. It is not relied on for any decision until the plan, laboratory and custody are documented."
+    }
+  ],
+  "equipmentAndPpe": [
+    "No sampling PPE is used by the worker, because the worker does not sample.",
+    "Results checklist.",
+    "Training-only fictional result sheet."
+  ],
+  "commonErrors": [
+    {
+      "error": "Relying on one sample for the whole property.",
+      "prevention": "State the coverage of each result and do not extend it."
+    },
+    {
+      "error": "Accepting a result with no custody record.",
+      "prevention": "Treat it as unverified until custody is documented."
+    },
+    {
+      "error": "Collecting a sample to 'check quickly'.",
+      "prevention": "Sampling is done only by independent professionals under a plan."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Sampling is restricted to suitably qualified professionals working under a documented plan. Completing this lesson gives no authority to collect or test any sample.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The WA guidance says testing and clean-up are done by different companies, so that the validating company is independent.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Sampling plans and custody records are the basis on which results can be relied on.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every result relied on has a documented plan, a named laboratory and a custody record.",
+    "No worker collects a sample."
+  ],
+  "documentationEvidence": [
+    "Results checklist for each result.",
+    "Coverage note for each result."
+  ],
+  "summary": [
+    "Sampling is for independent professionals.",
+    "One result does not clear another area.",
+    "No plan, laboratory or custody means unverified."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "drug-contamination-remediation-L05-K01",
+      "question": "A single result from one room is offered as proof that a whole property is clean. What is correct?",
+      "options": [
+        "Accept it, because the lab is reputable.",
+        "Accept it if the owner signs.",
+        "Treat it as covering that room only, and unverified for the rest of the property until interpreted."
+      ]
+    },
+    {
+      "id": "drug-contamination-remediation-L05-K02",
+      "question": "What makes a result reliable enough to rely on?",
+      "options": [
+        "A documented sampling plan, a named laboratory and a custody record, interpreted by a competent person.",
+        "A confident verbal statement.",
+        "A photograph of the lab report."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "drug-contamination-remediation-lesson-01 to -12 instruction and research files and drug-contamination-remediation-assessments-pass72 (premium-07, passes 70 to 72); editorial drafts, not approved. Source notes state that no worker is authorised for clandestine-laboratory remediation on the basis of this material; rights: reworded (no copying).",
+    "HR03-drug-contamination-remediation.json, course bundle instruction sections 1 to 12 (read this pass); rights: reworded (no copying).",
+    "UNCONFIRMED: state and territory licensing, environmental, waste, tenancy and privacy requirements for drug-contamination work. Not checked for each state and territory in this pass.",
+    "UNCONFIRMED: police and emergency-services referral arrangements in each state and territory, beyond the WA Police reporting route on the WA page.",
+    "UNCONFIRMED: numerical contamination thresholds for any premises type in any jurisdiction. No value is given in the learner text, and the WA page refers to health investigation levels without stating values in the text read.",
+    "Reference only, not Australian rules: US EPA voluntary guidance for methamphetamine and fentanyl laboratory cleanup; New Zealand tenancy rules and NZS 8510 (under revision); New Zealand Ministry of Housing and Urban Development and Kainga Ora material. These were not read in this pass, and no Australian equivalent is confirmed (UNCONFIRMED).",
+    "UNCONFIRMED: general technical principles on contamination routes, cross-transfer and sample representativeness. These follow the source bundle and are not confirmed against an official page in this pass.",
+    "drug-contamination-remediation-lesson-05 and HR03 section 5; checked 2026-11-03.",
+    "WA Department of Health testing page read 2026-11-03.",
+    "UNCONFIRMED: the sample representativeness principle as a formal requirement; not confirmed against an official page in this pass."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Testing and remediation of methylamphetamine and illicit drug residues",
+      "url": "https://www.health.wa.gov.au/Articles/S_T/Testing-and-remediation-of-meth-and-illicit-drug-residues",
+      "pageDate": "Last reviewed 21-05-2026 (no published or updated date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Describes a best-practice sequence: preparation, screening and detailed sample testing, a remediation action plan, clean-up, validation testing, and sample, clean-up and validation reports. Aim: residue below levels posing a risk to health and below the relevant health investigation level for the drug. Recommends that the company validating contamination differs from the clean-up company. Says testing and remediation companies need the necessary competencies and ethical standards. The page does not mention a licence or insurance requirement. Publisher: WA Department of Health."
+    },
+    {
+      "id": "R2",
+      "title": "Clandestine drug laboratories and cleaning contamination",
+      "url": "https://www.health.wa.gov.au/articles/a_e/clandestine-drug-laboratories-and-cleaning-contamination",
+      "pageDate": "Last reviewed 22-05-2026 (no published or updated date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, at this health.wa.gov.au address. Says manufacturing sites are the highest-risk type; occupants and the public should not enter or attempt cleaning themselves; use qualified environmental professionals, and a testing and validation company separate from the clean-up company; test, remediate where residues exceed health investigation levels, then re-test and validate; keep records; check home insurance before arranging cleaning; report suspected drug manufacturing to WA Police. Publisher: WA Department of Health. Western Australian guidance only."
+    },
+    {
+      "id": "R1-2",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. The PCBU must protect workers and others so far as reasonably practicable; hazards are eliminated where possible and otherwise minimised; for certain hazards a hierarchy of control applies (the page does not list its levels); duties cannot be contracted out. The page does not cover trauma cleaning, waste or PPE rules. Publisher: Safe Work Australia. The state or territory regulator confirms the adopted law."
+    },
+    {
+      "id": "R2-2",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019)",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "publication date May 2019 (front matter); copyright 2019",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, first 100,000 of 133,773 characters only. Read: section 2.2 (standard precautions apply to all people), section 3.1.2 recommendations 7 and 8 (sharps handled minimally, never recapped, bent or broken, disposed of at point of use in an approved container not filled past its maximum fill line), section 3.1.3 recommendation 12 (spill response with gloves and protective equipment, containment, absorbent removal, detergent cleaning). Healthcare-setting guidance, applied here by analogy. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R4",
+      "title": "Managing exposures to blood and body fluids or substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-exposures-to-blood-and-body-fluids-or-substances",
+      "pageDate": "Updated 8 October 2015",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. First response: remove contaminated clothing, wash with soap and water, flush mucous membranes, rinse eyes gently, report immediately; remove from duty and carry out a risk assessment; medical evaluation with post-exposure prophylaxis where appropriate; document date, time, type and circumstances. Victorian guidance only. The page shows its last update as 2015."
+    },
+    {
+      "id": "R5",
+      "title": "Cleaning and waste disposal procedures for infection control",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/cleaning-and-waste-disposal-procedures-infection-control",
+      "pageDate": "Updated 14 December 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Three waste groups (general, clinical, pharmaceutical); clinical waste in biohazard bags shown as yellow; sharps into containers that meet the Australian and New Zealand standards named on the page; clinical and pharmaceutical waste collected by waste companies licensed by the EPA and taken to EPA-licensed facilities. Victorian guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a property, investigate it, collect or test any sample, carry out decontamination or remediation, transport or dispose of waste, or issue any clearance, certificate or statement that a property is free of contamination. Completing this lesson does not give a licence, certificate, approval or authority. Investigation, sampling, remediation and clearance are restricted work for suitably qualified and, where required, licensed professionals acting under a written plan. Police, regulatory and other official authority may control a site, and their release must be obtained in writing where it applies. Owner, manager, tenant or insurer permission does not replace it. In every case, stop and refer if the authority, the hazard or the qualification is uncertain."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever any of these is true: the authority or written release is missing or unclear; the hazard is unknown; a suspected laboratory or manufacturing activity is evident; anyone may have been exposed; a sample, test or result has no documented plan or custody; the PPE has not been approved; a waste route is unlicensed; a party asks for a clearance, a zero-contamination statement or disclosure of personal information; or the applicable jurisdiction is unknown. Stopping is a correct professional decision. Record it, and restart only when the authority has confirmed the scope in writing."
+  }
+}

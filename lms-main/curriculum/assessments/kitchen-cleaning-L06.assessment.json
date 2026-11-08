@@ -1,0 +1,35 @@
+{
+ "lessonId": "kitchen-cleaning-L06",
+ "knowledgeAnswers": [
+  {
+   "id": "kitchen-cleaning-L06-K01",
+   "correctIndex": 2,
+   "rationale": "A completed cycle does not prove clean items. Residue means hold and reprocess."
+  },
+  {
+   "id": "kitchen-cleaning-L06-K02",
+   "correctIndex": 0,
+   "rationale": "Nested items block water and product from reaching all surfaces."
+  },
+  {
+   "id": "kitchen-cleaning-L06-K03",
+   "correctIndex": 1,
+   "rationale": "Settings are set by the manufacturer and the site procedure, not changed by the cleaner."
+  }
+ ],
+ "practicalCriteria": [
+  "Pre-removes soil and loads a mock rack without nesting.",
+  "Inspects every item after a simulated cycle.",
+  "Holds and reprocesses an item with simulated residue, and records the hold."
+ ],
+ "passRule": "Load correct, every item inspected, and simulated residue held and reprocessed with a complete record. Observed by an assessor.",
+ "evidenceRequired": [
+  "Cycle record",
+  "Hold and release record",
+  "Assessor observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Item with residue released to service",
+  "Cycle or dosing changed from the approved setting"
+ ]
+}

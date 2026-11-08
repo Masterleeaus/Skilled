@@ -1,0 +1,42 @@
+{
+  "lessonId": "warehouse-deep-cleaning-L08",
+  "knowledgeAnswers": [
+    {
+      "id": "warehouse-deep-cleaning-L08-K01",
+      "correctIndex": 0,
+      "rationale": "A running conveyor is not cleaned or reached into. The cleaning is referred to the authorised isolation."
+    },
+    {
+      "id": "warehouse-deep-cleaning-L08-K02",
+      "correctIndex": 1,
+      "rationale": "Isolation before cleaning is carried out by the authorised person under the site procedure, as the plant code describes (section 3.7 and section 4.5)."
+    },
+    {
+      "id": "warehouse-deep-cleaning-L08-K03",
+      "correctIndex": 2,
+      "rationale": "A missing guard is reported at once. It is not replaced or left by the cleaner. Guards must be replaced before restart (plant code, sections 3.6 and 3.7)."
+    },
+    {
+      "id": "warehouse-deep-cleaning-L08-K04",
+      "correctIndex": 2,
+      "rationale": "The plant code says a tag should not be used on its own as an isolation device (section 4.5)."
+    }
+  ],
+  "practicalCriteria": [
+    "On a sample machine diagram, the worker marks each moving part, guard, interlock, pinch point and emergency stop, with none missed.",
+    "On a simulated running conveyor with a spill on the belt, the worker keeps clear, does not reach in, does not wipe the belt, and refers the cleaning for isolation.",
+    "The worker reports a simulated missing guard and a damaged interlock to the assessor acting as supervisor, with machine, location and time recorded, and does not attempt to restart the machine."
+  ],
+  "passRule": "Pass when all three practical criteria are observed and recorded by the assessor in a supervised desk or walk-through exercise, with no stop-work criterion met. No machine is operated, isolated or repaired. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Annotated machine diagram showing the parts and guards identified",
+    "Machine condition report for the simulated missing guard and interlock",
+    "Referral record for the simulated isolation request"
+  ],
+  "stopWorkCriteria": [
+    "A running machine is cleaned, wiped or reached into",
+    "A guard is removed, bypassed or propped open by the cleaner",
+    "The cleaner isolates or restarts a machine"
+  ],
+  "completionRule": "Practical sign-off by an assessor only. This assessment does not confer any licence, certificate or competence to isolate, operate or repair plant."
+}

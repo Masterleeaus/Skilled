@@ -1,0 +1,36 @@
+{
+ "lessonId": "pool-cleaning-L11",
+ "knowledgeAnswers": [
+  {
+   "id": "pool-cleaning-L11-K01",
+   "correctIndex": 2,
+   "rationale": "The approved discharge route is confirmed with the operator, the council and the water authority before water moves. Assuming evaporation or draining to the kerb by default is not a valid basis."
+  },
+  {
+   "id": "pool-cleaning-L11-K02",
+   "correctIndex": 3,
+   "rationale": "A bucket test separates evaporation from a leak. Repeated top-ups without investigation waste water and chemical."
+  },
+  {
+   "id": "pool-cleaning-L11-K03",
+   "correctIndex": 0,
+   "rationale": "A fixed-timer backwash can run when the filter does not need it, which wastes water and chemical. Backwash is set by the recorded pressure trigger and the operator plan."
+  }
+ ],
+ "practicalCriteria": [
+  "Bucket test: on a supplied loss scenario, the learner runs a bucket test, records the level change inside and outside the bucket over the same period, and states whether the loss points to a leak. The assessor checks the readings and the statement.",
+  "Discharge route: for a supplied request to drain to the kerb, the learner declines the move, records the request and names the route to be confirmed with the operator, council and water authority. The assessor checks that no water was moved.",
+  "Backwash record: the learner records the filter pressure reading and the trigger before any backwash. The assessor checks the record against the trigger."
+ ],
+ "passRule": "Knowledge checks: at least 2 of 3 correct (a reading result only, not verified practical competence). Practical sign-off is separate and is given by assessor review of the practical criteria.",
+ "evidenceRequired": [
+  "Knowledge check score recorded",
+  "Bucket test record and discharge route record, saved and dated",
+  "Assessor sign-off on the practical criteria"
+ ],
+ "stopWorkCriteria": [
+  "The learner is asked to drain pool water to stormwater, the kerb or a waterway without an approved route",
+  "The learner is asked to top up repeatedly without investigating a loss",
+  "The learner is asked to backwash on a timer rather than on the recorded trigger"
+ ]
+}

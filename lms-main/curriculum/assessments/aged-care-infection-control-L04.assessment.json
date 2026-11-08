@@ -1,0 +1,36 @@
+{
+ "lessonId": "aged-care-infection-control-L04",
+ "knowledgeAnswers": [
+  {
+   "id": "aged-care-infection-control-L04-K01",
+   "correctIndex": 2,
+   "rationale": "Gloves used on a room surface are removed, hand hygiene is done, and new gloves go on before any clean stock is touched. This is the transition point the lesson describes, and it stops the clean supply cupboard from being contaminated."
+  },
+  {
+   "id": "aged-care-infection-control-L04-K02",
+   "correctIndex": 0,
+   "rationale": "The room notice requires gown and eye protection that is not on the trolley. The cleaner does not substitute protection, does not start the task, tells the nurse in charge, and records the reason and time."
+  },
+  {
+   "id": "aged-care-infection-control-L04-K03",
+   "correctIndex": 1,
+   "rationale": "Torn protection after a possible body-fluid contact is an exposure. The cleaner stops, follows the facility exposure procedure, and reports to the supervisor the same shift; the facility decides any follow-up."
+  }
+ ],
+ "practicalCriteria": [
+  "After cleaning a bedside table with gloves on, the learner removes the gloves, performs hand hygiene and puts on new gloves before touching clean stock.",
+  "Given a room notice that requires protection not on the trolley, the learner does not start the task, tells the nurse in charge, and records the reason and time.",
+  "After simulated torn protection, the learner stops the task, follows the exposure procedure as written, and names the supervisor who will be told the same shift."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Observation note of the glove-change sequence",
+  "Record of the postponed room task with reason and time",
+  "Exposure report completed for the simulated torn-protection scenario"
+ ],
+ "stopWorkCriteria": [
+  "Learner touches clean stock or a shared handle with gloves used in a room",
+  "Learner starts a room task without the protection the notice requires",
+  "Learner continues a task with torn protection after a possible body-fluid contact"
+ ]
+}

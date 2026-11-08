@@ -1,0 +1,155 @@
+{
+  "id": "PSA-06",
+  "title": "UV with hydrogen peroxide systems for indoor pools",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "RH",
+  "estimatedMinutes": 25,
+  "audience": "Trained pool service technicians and operators who check UV with hydrogen peroxide disinfection at indoor public pools in SA. Figures apply under the state standard. Electrical work on the unit is licensed where it applies.",
+  "prerequisites": [
+    "PSA-03",
+    "PSA-04"
+  ],
+  "learningOutcomes": [
+    "State where the UV-peroxide approach is cleared in SA, including its capacity limit.",
+    "Explain why hydrogen peroxide is needed to give a residual, and why the UV unit must run continuously.",
+    "Check the three operating criteria and decide whether the system is compliant."
+  ],
+  "instruction": [
+    {
+      "heading": "Where the system is approved",
+      "body": "The UV-and-peroxide approach is cleared for indoor swimming, spa, hydrotherapy and waterslide facilities up to 500,000 litres. It is not approved for outdoor use under the standard. The UV unit disinfects water as it passes through, but UV leaves no residual in the rest of the system, so it cannot protect water that has already left the unit. Hydrogen peroxide supplies the residual disinfecting capacity."
+    },
+    {
+      "heading": "Why the unit has to run around the clock",
+      "body": "To work well, the system has to run around the clock. Turning the UV unit off overnight leaves the pool without the disinfection it needs, and the residual may then fall behind the bather load. Monitor the unit's run status and treat any shutdown as an event to escalate."
+    },
+    {
+      "heading": "The three operating criteria",
+      "body": "The unit must give a UV dose of at least 30,000 uWs per cm squared. Flow past the UV unit may not exceed 150 L/min, and that rate must still satisfy the pool's turnover requirement. Peroxide must not fall below 40 mg/L. Table 7 also sets pH at 7.2 and 7.6 and total alkalinity at 60 and 200 mg/L."
+    },
+    {
+      "heading": "Water clarity, pH and the UV dose",
+      "body": "UV leaves pH untouched, but hydrogen peroxide makes the water slightly acidic, so the pH must be raised into the band. Tint, murkiness and dissolved chemistry can block UV from reaching organisms, and bacteria can shelter in turbid water or slimes. Filter and treat the water before it reaches the UV unit. Dirty water reduces the effective dose even when the unit is working."
+    },
+    {
+      "heading": "Handling concentrated hydrogen peroxide",
+      "body": "Concentrated peroxide acts as a strong oxidiser and has a sharp odour. Store it apart from incompatible materials, keep containers closed, and follow the safety data sheet for dosing and spills. Work with splash protection."
+    }
+  ],
+  "procedure": [
+    "Confirm the pool is indoor, within the 500,000 litre limit, and approved for the UV with hydrogen peroxide system.",
+    "Check the UV unit is running and that its status and any alarms are clear.",
+    "Read the flow at the UV unit and confirm it stays at or under 150 L/min.",
+    "Test hydrogen peroxide, pH plus total alkalinity, and confirm each is within its requirement.",
+    "Record the readings, the unit status and any alarm, and escalate any failed criterion to the operator."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An indoor public pool of about 300,000 litres is treated with UV with hydrogen peroxide. The hydrogen peroxide reads 25 mg/L, and the UV unit was found switched off at 5 am.",
+      "decisionPrompt": "Is the system compliant, and what do you report?",
+      "reasoning": "It is not compliant. Hydrogen peroxide is below the 40 mg/L minimum, and the system has to run around the clock. Report both the low residual and the overnight shutdown to the operator, record the time of the shutdown, and do not treat the pool as compliant until the peroxide and UV operation are restored and retested."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Hydrogen peroxide test kit, in date",
+    "Calibrated pH plus total alkalinity test kit",
+    "Flow measuring device for the UV line",
+    "Splash goggles and chemical-resistant gloves",
+    "Safety data sheet for hydrogen peroxide"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using UV with hydrogen peroxide on an outdoor pool.",
+      "prevention": "The standard approves the system for indoor pools only."
+    },
+    {
+      "error": "Switching the UV unit off overnight to save power.",
+      "prevention": "The system must run around the clock. Escalate any shutdown."
+    },
+    {
+      "error": "Assuming UV alone gives a residual.",
+      "prevention": "UV leaves no residual. Hydrogen peroxide provides the residual."
+    },
+    {
+      "error": "Raising flow for convenience above 150 L/min.",
+      "prevention": "Keep flow within the limit and check turnover still meets the rule."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electrical work on UV units, controllers and their wiring is licensed work where a licence applies. This lesson does not grant a licence and does not authorise electrical repair.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Concentrated hydrogen peroxide is an oxidiser that can cause burns and eye damage. Use splash protection and follow the safety data sheet.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Isolate electrical supply before opening any UV housing. Keep the housing area dry.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Figures are South Australian standard values (revised 2013). Confirm the current regulation text.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Hydrogen peroxide reads at least 40 mg/L at each check.",
+    "UV dose and flow are recorded against the requirement at each check.",
+    "The unit's operating status is recorded for every shift, and any shutdown is escalated."
+  ],
+  "documentationEvidence": [
+    "UV system check record with unit status, dose, flow, peroxide, pH and alkalinity",
+    "Shutdown and alarm record with time, cause and escalation"
+  ],
+  "summary": [
+    "UV with hydrogen peroxide is approved for indoor pools only, up to 500,000 litres.",
+    "The unit must run around the clock, and hydrogen peroxide gives the residual.",
+    "Check UV dose, flow of no more than 150 L/min, and hydrogen peroxide of at least 40 mg/L."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PSA-06-K01",
+      "question": "Which statement about the UV-peroxide approach is correct under the standard?",
+      "options": [
+        "It is approved for outdoor pools of any size and for spas",
+        "It is approved for indoor pools under a set capacity limit",
+        "It replaces the need for any residual disinfectant",
+        "It can be run for part of the day only, in summer"
+      ]
+    },
+    {
+      "id": "PSA-06-K02",
+      "question": "Why is hydrogen peroxide needed alongside the UV unit?",
+      "options": [
+        "It raises the pH to the bromine band in the pool",
+        "It gives a residual, because UV alone leaves none",
+        "It replaces the turnover rule and the filter",
+        "It removes the need for filtration in the pool"
+      ]
+    },
+    {
+      "id": "PSA-06-K03",
+      "question": "A UV with hydrogen peroxide pool shows hydrogen peroxide of 30 mg/L. Under table 7, what is the status?",
+      "options": [
+        "Compliant, because 30 is above zero",
+        "Not compliant, because the minimum is 40 mg/L",
+        "Compliant, because the UV dose is high",
+        "Compliant if the pool is outdoors"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 6.3 and 6.3.1 Ultraviolet light plus hydrogen peroxide, and table 7; rights: user-held; reworded (no copying)",
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 7.1 (filtration and turnover); rights: user-held; reworded (no copying)",
+    "Priority: official South Australian source. It overrides informal, foreign or generic pool advice that conflicts with it. Figures are dated (standard revised 2013); checked against the uploaded copy 2026-11-02; current regulation text UNCONFIRMED.",
+    "UNCONFIRMED: the current electrical licence and authorisation rules for UV unit work in each state or territory."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

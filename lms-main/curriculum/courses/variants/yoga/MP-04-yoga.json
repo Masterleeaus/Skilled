@@ -1,0 +1,146 @@
+{
+  "id": "MP-04-yoga",
+  "title": "Break-even analysis with a worked calculation for Yoga and Pilates",
+  "courseSlugs": [
+    "yoga"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Yoga and Pilates teachers and studio operators who set class or membership prices or plan monthly income.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a yoga or Pilates business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means",
+      "body": "Break-even revenue is the amount of sales that covers all costs, so profit is zero. Below that level the business loses money. Above it, each further dollar of sales adds to profit. For a yoga or Pilates teacher the figure helps set class and membership prices, decide whether to take a regular hall booking, and check whether a new class time or a workplace contract pays for itself. It is a planning tool, and its answer is only as good as the costs and percentages behind it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of classes in a month. For a teacher they can include insurance premiums, registration and CPR and first aid training, booking software, the phone, and a regular monthly hall booking if you hold one. Variable costs move with each class, such as payment fees on each booking, cleaning products for mats and props, and any hall hire you pay per class rather than per month. That last point matters: hall hire paid per session is variable, while a fixed monthly booking is fixed. Express variable cost as a share of sales by dividing the variable cost in a period by the sales in the same period. ANZ defines fixed and variable costs and warns that costs must be covered to avoid operating at a loss (ANZ, 21 February 2025, last modified 22 July 2025). Check the percentage across at least three periods before relying on it. Convert any annual premium to a monthly figure before you add it."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. One minus the variable percentage is the contribution margin, the share of each dollar of sales left to cover fixed costs. Xero describes the same method, with the contribution ratio as the denominator, and notes that a job count is rounded up to whole jobs (Xero Australia, glossary entry dated 23 July 2026). Use the variable percentage as a decimal, so 10 per cent becomes 0.10, and the contribution margin is 0.90."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write each input first, with its source and date. Compute the contribution margin, then divide the fixed costs by it. Convert the result into a number of classes at your average price actually charged, and round up to whole classes, because a part class does not cover costs. Use the average after intro offers, pack discounts and concessions, not the top list price. For context, Central Yoga's public single in-person class is $28 and its online single is $24, and its in-person ten-class pack works out to $22 a class (Central Yoga, undated). Those are a studio's prices, so use your own figures in your own calculation."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount, not an annual one. Confirm that the variable percentage is a share of sales, not of cost. Confirm that the output is revenue, not profit. Then write down the reconciled figure with its inputs and drop the rest. A break-even figure without its inputs cannot be checked, and a figure that cannot be checked should not be used to set a price."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a percentage of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average class price to get the number of classes needed each month, rounded up.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A yoga teacher (hypothetical figures, invented for this lesson) has fixed costs of $1,600 AUD a month, variable costs of 10 per cent of sales and an average class price of $25 AUD after intro and pack discounts.",
+      "decisionPrompt": "How many classes must the teacher run each month to break even, and what should the teacher check before setting prices?",
+      "reasoning": "The contribution margin is 1 minus 0.10, which is 0.90. Break-even revenue is $1,600 AUD divided by 0.90, which is $1,777.78 AUD a month. At $25 AUD a class, that is 71.11 classes, so the teacher needs 72 classes to cover costs. Each class contributes $22.50 AUD ($25 multiplied by 0.90) towards fixed costs. Before setting prices, check that the 10 per cent includes every payment fee, that the $1,600 AUD is a monthly figure with any annual insurance converted to a month, and that $25 AUD is the average charged after intro and pack discounts. The studio's public single class at $28 is a reference only."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, with insurance and registration converted to monthly amounts",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures, such as an annual insurance premium or registration fee",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Treating a per-class hall fee as a fixed cost, or copying a break-even figure without its inputs",
+      "prevention": "Classify per-class hall hire as variable, and recalculate from your own inputs, recording the source and date of each one."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Insurance premiums and hall hire rates are not sourced in this lesson. Use your own quotes and invoices.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout the calculation.",
+    "Recalculate from your own inputs. Do not copy another studio's break-even figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-K01-yoga",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-K02-yoga",
+      "question": "Fixed costs are $1,600 AUD a month and variable costs are 10% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$1,777.78 AUD",
+        "$160.00 AUD",
+        "$1,600.00 AUD",
+        "$16,000.00 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-K03-yoga",
+      "question": "Two sources give different break-even figures for the same business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure entirely",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the client today",
+        "Use the price list alone and skip the break-even check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs; costs must be covered to avoid operating at a loss.",
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: fixed costs divided by the contribution ratio; a count rounded up to whole units. The glossary's own examples are not used.",
+    "Central Yoga, 'Prices', https://centralyoga.com.au/prices, undated. Used as a public reference price only.",
+    "Hypothetical figures ($1,600 AUD fixed costs, 10 per cent variable, $25 AUD average class) are invented for this lesson and are not market data.",
+    "Not verified: insurance premium levels for teachers; hall hire rates; tax treatment of any cost."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

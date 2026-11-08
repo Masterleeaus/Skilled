@@ -1,0 +1,162 @@
+{
+  "id": "kitchen-exhaust-L05",
+  "title": "Initial survey and access planning",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 25,
+  "audience": "Supervisors and cleaners planning a survey of a commercial kitchen exhaust system.",
+  "prerequisites": [
+    "kitchen-exhaust-L02",
+    "kitchen-exhaust-L03"
+  ],
+  "learningOutcomes": [
+    "Recognise that safe specialist work depends on documented access, hazards, fall prevention, isolation and site operations planning.",
+    "Identify the authorised contractor, the evidence owner and the escalation decision.",
+    "Hold a task where safe access, authorisation or specialist competence is missing."
+  ],
+  "instruction": [
+    {
+      "heading": "Access before the survey",
+      "body": "A survey of an exhaust system depends on safe access. Some fans and sections sit on roofs, at height, or in spaces that are hot. A fan that looks reachable may only be reachable by crossing an unprotected roof edge. Before anyone goes up or in, confirm the access route, the fall protection, the heat conditions and the authority for the work. The national falls code says fall controls are needed whatever the height and singles out roofs with fragile material for particular attention; it also addresses guard rails at roof edges (instrument dated 17 December 2015). Routine housekeeping does not include specialist survey, removal or certification."
+    },
+    {
+      "heading": "Observed, reported and unknown",
+      "body": "Work through what is observed, what is only reported and what remains unknown, and label each assumption separately. A missing or conflicting authority is a reason to withhold action. Do not read a surface appearance as proof of the condition of the whole system."
+    },
+    {
+      "heading": "Holding the task",
+      "body": "Use the inspection hold sheet to decide whether an ordinary cleaner may carry out the expressly permitted administrative or surface task, or must stop and refer. Hold the task when safe access, authorisation or specialist competence is missing. Escalate at once for uncontrolled work at height, or unsafe access to fans, roof spaces or ducts. This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist."
+    }
+  ],
+  "procedure": [
+    "Confirm the access route, fall protection, heat conditions and authority before anyone goes up or in.",
+    "Label each item as observed, reported or unknown.",
+    "Hold the task where access, authorisation or competence is missing.",
+    "Escalate uncontrolled work at height or unsafe access to fans, roof spaces or ducts.",
+    "Record the zone, authority, observations and referral owner."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A roof-mounted fan appears reachable only by crossing an unprotected roof edge.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Hold the task. Access across an unprotected roof edge is unsafe and outside cleaning scope. Record the access problem, and refer the survey to the authorised contractor with the fall-protection arrangements."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Site permission record and access plan.",
+    "Inspection hold sheet."
+  ],
+  "commonErrors": [
+    {
+      "error": "Going up to a roof to see the fan.",
+      "prevention": "Hold the task until safe access and authority are confirmed."
+    },
+    {
+      "error": "Treating a reachable-looking fan as safe to reach.",
+      "prevention": "Confirm the access route and the fall protection."
+    },
+    {
+      "error": "Recording the survey as complete from the ground.",
+      "prevention": "Record the limits of what was seen."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Work at heights is regulated, and roof work needs fall-prevention controls. The relevant code, where it applies, must be checked by the site.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant a licence, competency or fire-authority approval for commercial exhaust-system work.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Access route, fall protection and authority confirmed or the task held, in the case study.",
+    "Observed, reported and unknown labelled separately.",
+    "Referral owner named in the record."
+  ],
+  "documentationEvidence": [
+    "Dated hold record with zone, authority and referral owner.",
+    "Survey limitation record for any part not accessed."
+  ],
+  "summary": [
+    "Confirm safe access and authority before any survey.",
+    "Label observed, reported and unknown facts separately.",
+    "Hold the task where access, authority or competence is missing."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-exhaust-L05-K01",
+      "question": "A fan can only be reached across an unprotected roof edge. What is the correct action?",
+      "options": [
+        "Cross carefully, since the edge is only a short step away from the path",
+        "Lean over the edge to see it, then decide whether the fan can be reached",
+        "Hold the task and refer with the access and fall-protection arrangements"
+      ]
+    },
+    {
+      "id": "kitchen-exhaust-L05-K02",
+      "question": "What is the purpose of labelling each item as observed, reported or unknown?",
+      "options": [
+        "To keep the basis of each statement clear",
+        "To make the record longer and more detailed",
+        "To avoid writing the full record at all"
+      ]
+    },
+    {
+      "id": "kitchen-exhaust-L05-K03",
+      "question": "When is a task held?",
+      "options": [
+        "Only when someone has been hurt and the owner has been told",
+        "When safe access, authorisation or specialist competence is missing",
+        "Never, since the task always goes ahead as booked on the day"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Work Health and Safety (Managing the Risk of Falls at Workplaces) Code of Practice 2015",
+      "url": "https://legislation.gov.au/F2016L00425/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html",
+      "pageDate": "instrument date 17 December 2015 (shown in text)",
+      "checked": "2026-11-03",
+      "covers": "Sections 2.1, 2.3, 4.2 and 5.2 (fragile roofs, roof edges, control measures); the code sets no single height figure for all work at height. Publisher: Federal Register of Legislation (Cth), based on the Safe Work Australia model code."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Work Health and Safety (Managing the Risk of Falls at Workplaces) Code of Practice 2015 (instrument date 17 December 2015, shown in text).",
+  "referencesAtEnd": "Check the current rule on these official pages: Work Health and Safety (Managing the Risk of Falls at Workplaces) Code of Practice 2015 (instrument date 17 December 2015, shown in text).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-exhaust-L05.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory work-at-height requirements for roof work.",
+    "UNCONFIRMED: state and territory licence, competency and fire-authority requirements for commercial exhaust-system work were not sourced for this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/healthcare-photo-15ec060c-06.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/healthcare-photo-15ec060c-07.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

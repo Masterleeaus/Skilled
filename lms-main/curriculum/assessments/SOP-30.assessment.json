@@ -1,0 +1,40 @@
+{
+ "lessonId": "SOP-30",
+ "knowledgeAnswers": [
+  {
+   "id": "SOP-30-K01",
+   "correctIndex": 0,
+   "rationale": "The standard, the scope and any site requirement are read before any defect is judged. Signing first, or starting from the far end, does not check the work against anything."
+  },
+  {
+   "id": "SOP-30-K02",
+   "correctIndex": 2,
+   "rationale": "A damaged electrical fitting is a safety issue. The candidate stops that area, keeps people away and reports before continuing. Cleaning around it or signing off first are both wrong."
+  },
+  {
+   "id": "SOP-30-K03",
+   "correctIndex": 1,
+   "rationale": "The defect is recorded, re-cleaned to the relevant SOP and checked again before any sign-off. Ignoring it, deleting it from the form, or asking the customer to accept it are all wrong."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a supplied area with a quality standard and an agreed job brief, the candidate reads both before starting and names the standard on the audit form. Pass condition: the form names the standard before any defect is recorded, observed by the assessor.",
+  "Given a supplied test area with three seeded defects (a streak, a residue and a missed edge), the candidate finds each one and records it with its location, type and action. Pass condition: all three seeded defects are recorded, each once, observed by the assessor.",
+  "Given a seeded safety issue, a damaged fitting in the test area, the candidate stops the audit of that area and reports it. Pass condition: the candidate reports the issue before recording any other defect for that area.",
+  "The candidate completes a sign-off record for the test area while the safety issue is open. Pass condition: the candidate does not sign the area off while the safety issue is open, observed by the assessor."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Completed knowledge checks",
+  "Assessor observation record for each practical criterion",
+  "Completed audit form from the seeded test area",
+  "Photographs of the seeded defects with a room or fixture reference, where the business requires them"
+ ],
+ "stopWorkCriteria": [
+  "Candidate signs off an area while a safety issue is open",
+  "Candidate cleans, adjusts or repairs a fitting or socket found during the audit",
+  "Candidate records an overall pass with no defect list",
+  "Candidate audits an area without the quality standard or job brief to hand",
+  "Candidate deletes or alters a recorded defect"
+ ]
+}

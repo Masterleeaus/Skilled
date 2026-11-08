@@ -1,0 +1,177 @@
+{
+  "id": "PFM-03",
+  "title": "Start-up, air bleeding and priming a pump and filter",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pool service technicians who start up a new or serviced pump and sand filter",
+  "prerequisites": [
+    "PFM-02"
+  ],
+  "learningOutcomes": [
+    "Carry out the start-up sequence in the order the manual sets, with the valve and pump changes in the right order",
+    "Open and shut the air bleeder safely, and recognise when a constant flow of water shows that air is cleared",
+    "Prime a pump correctly and explain why a dry pump and a low pool level cause damage",
+    "Record the operating pressure at the time the filter was cleaned as the reference for later backwash decisions"
+  ],
+  "instruction": [
+    {
+      "heading": "Before the first start",
+      "body": "Clean out a new pool prior to it is filled, because heavy dirt and big particles can harm the pump plus the sand filter. Check that the backwash hose is open so water can run to waste. Turn the valve to backwash. Fill the pump pot with water before the pump is started. Keep the vents on the underside of the motor free of debris so the motor can cool. Check the valve clamp. A clamp that is not fully closed, or air in the filter, can let the valve top come off with serious injury or damage."
+    },
+    {
+      "heading": "Running dry and the test cord",
+      "body": "Never operate the pump without water in it. Dry running damages the seals and the housing, and it can let water escape and flood the area. The manufacturer also supplies a test cord, which is for a brief operating check and is not a permanent supply. The time limit for the test cord is set for that product and is not used here. Use the cord only as directed and only for the period the manual allows."
+    },
+    {
+      "heading": "Bleeding air and starting",
+      "body": "Open the bleeder mounted on the filter, move away from the filter, and switch the pump on so that it can prime. Close the bleeder once water comes out in a steady stream with no air in it. Stop the pump, then turn the valve to filter. Check that every suction and return line is clear. Open the bleeder again, move clear, start the pump, and close the bleeder once the flow is steady. The unit is now filtering. Make sure the outflow reaches the pool, then record the gauge reading taken while the filter is unused and clean. That reading is the reference for every later backwash decision."
+    },
+    {
+      "heading": "New sand and the first backwash",
+      "body": "Sand is washed before dispatch, but transport can still wear it, so the manufacturer asks for a longer first backwash, continued until the water runs clear. The handbook adds that once a new pool is running, its filter needs a backwash and a clean after the initial runs to clear construction debris. Small bubbles that appear in the pool just after a start or a backwash are normal for a short time. If they keep coming, check the water depth and the strainer lid, as “Pump strainer, suction valves and the vacuum route” describes."
+    },
+    {
+      "heading": "Priming a pump that will not pump",
+      "body": "The UK handbook says a pump that will not prime usually has an air leak ahead of it. Typical causes are a strainer lid that is not sealed, a union that is not fully tight, or a missing gasket. Confirm that the pool has water in it before you try, because priming a dry pump in a pool with low water can cause expensive damage. Shut the valves ahead of the pump; then set the multiport valve to waste, fill the strainer to the brim, refit the lid firmly, and switch the pump on. Open one suction valve. If the pump does not begin moving water soon after, stop it, close the valve, then try again. Open the other valve only once the first is working, and do it gradually. Log every attempt."
+    }
+  ],
+  "procedure": [
+    "Confirm the pool was cleaned and is full, and the water level is above the skimmer opening.",
+    "Confirm the backwash hose is open, the valve sits in backwash, and the pump pot holds full of water.",
+    "Keep the motor air vents clear and check the valve clamp.",
+    "Open the air bleeder, move away from the filter, start the pump, and close the bleeder at a steady stream.",
+    "Run the backwash until the water runs clear, then halt the pump.",
+    "Turn the valve to rinse, run briefly, stop, and turn the valve to filter.",
+    "Open all suction and return lines, open the bleeder, start the pump, and close the bleeder.",
+    "Confirm water passes to the pool, while record the clean operating pressure as the reference."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pump will not start pumping after the strainer was refilled. The owner wants to keep the pump running until it primes.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "Stop the pump. Running a dry or poorly primed pump can harm the seals and the housing. Confirm the pool level is adequate, check the strainer lid seal and the socket connections for air leaks, and try the priming sequence again with one valve open. Record each attempt. If it still will not prime, refer."
+    },
+    {
+      "situation": "At start-up the owner's test cord is plugged in and the pump is run for a long time to 'be sure' it works.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Stop the test. The test cord is not a permanent connection, and the manual's short test limit is there to protect the seal. Use the cord only as the manual directs and avoid using it as a permanent supply. Record the test and refer the connection for proper installation."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Manufacturer manual for the pump and sand filter",
+    "Gloves and eye protection for priming and bleeding",
+    "Strainer lid seal and spare o-ring as supplied",
+    "Record sheet for start-up pressures and attempts",
+    "Non-slip footwear for the pump area"
+  ],
+  "commonErrors": [
+    {
+      "error": "Starting the pump with the pot empty",
+      "prevention": "Fill the pump pot before the start, and confirm it is full."
+    },
+    {
+      "error": "Closing the air bleeder before water runs steadily",
+      "prevention": "Close the bleeder only when a constant flow of water comes out."
+    },
+    {
+      "error": "Running a dry or poorly primed pump to force priming",
+      "prevention": "Stop, check for leaks and pool level, and retry in order."
+    },
+    {
+      "error": "Recording the start-up pressure after a change of sand or valve",
+      "prevention": "Record the clean reference after every start-up and after any major change."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Open the air bleeder, then move away from the filter before the pump is started. Keep the bleeder open until a constant flow of water comes out. Air in the filter or a valve clamp that is not properly closed can let the valve blow off, with serious injury or damage to property.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Never let the pump run empty. Dry running can harm seals and the housing and cause leakage and flooding.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A test cord is not a permanent connection. Avoid running the pump on a test cord for longer than the manual allows, because the mechanical seal can be damaged.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Keep the motor air vents clear so the motor can cool.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Never test a filter with air or gas at pressure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Electrical wiring of the pump has to be restricted to a licensed electrician. See “Electrical connection, bonding and motor safety for a pool pump”. This lesson grants no electrical licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The start-up sequence is completed in order and each valve change is made with the pump off.",
+    "The clean operating pressure is recorded and labelled as the reference.",
+    "Each priming attempt is recorded, and no pump is run dry."
+  ],
+  "documentationEvidence": [
+    "Start-up record with time, valve positions, bleed events and clean operating pressure",
+    "Priming attempt log",
+    "Referral note for a pump that will not prime after the stated sequence"
+  ],
+  "summary": [
+    "Fill the pump pot, open the bleeder, stand clear, and close the bleeder at a steady stream.",
+    "Never operate the pump dry, and never use a test cord as a permanent supply.",
+    "Record the clean operating pressure as the reference for every later backwash decision."
+  ],
+  "businessFields": [
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:procedures.completion_checklist}}",
+    "{{business:jobs.signoff_procedure}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PFM-03-K01",
+      "question": "Why is the pump pot filled with water before the pump is started?",
+      "options": [
+        "Running the pump dry can harm the seals and the housing",
+        "It alters how the water looks in the sight glass",
+        "It is only a convention with no technical reason",
+        "It makes the motor run more quietly"
+      ]
+    },
+    {
+      "id": "PFM-03-K02",
+      "question": "When is the air bleeder closed during start-up?",
+      "options": [
+        "Immediately after it is opened, before the pump starts",
+        "When a constant flow of water comes out of the bleeder",
+        "Only after the filter was backwashed for a long time",
+        "After the first hour, to keep it open for filtering"
+      ]
+    },
+    {
+      "id": "PFM-03-K03",
+      "question": "A pump fails to prime. What is the correct approach?",
+      "options": [
+        "Open all valves at once to force water through the pump and turn the pump on at full speed",
+        "Keep running the pump empty until it primes and check the gauge every minute for the hour",
+        "Check the pool level and the connections, then retry the priming sequence and record each attempt",
+        "Add cleaning chemical to the strainer to help the water flow and then run it for ten minutes"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section C Initial Start-Up (cleaning a new pool, pump pot, air bleeder, valve clamp, dry-running warning, initial backwash); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), section 10 Troubleshooting (pump priming procedure and pool-full advice); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), cross-checked against manual section C; rights: user-held; reworded (no copying); checked 2026-11-02. Both sources warn against priming or running a pump without water.",
+    "UNCONFIRMED: Australian requirements for pump start-up, electrical connection and test-cord use. Not checked in this draft. The handbook's priming steps are UK practice and are not used as Australian rules."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

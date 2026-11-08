@@ -1,0 +1,48 @@
+{
+  "lessonId": "NEW-TMB-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-TMB-03-K01",
+      "correctIndex": 2,
+      "rationale": "Suspect adhesive and a painted border cannot be cleared by sight, so the work stops in that area and is referred for assessment."
+    },
+    {
+      "id": "NEW-TMB-03-K02",
+      "correctIndex": 3,
+      "rationale": "Lead cannot be confirmed by appearance alone, which is why old paint is treated as possibly lead-containing until assessed."
+    },
+    {
+      "id": "NEW-TMB-03-K03",
+      "correctIndex": 0,
+      "rationale": "SafeWork SA lists a Class B licence for non-friable asbestos such as floor tiles. A Class A licence covers friable and non-friable material. An assessor licence covers air monitoring and clearance only."
+    },
+    {
+      "id": "NEW-TMB-03-K04",
+      "correctIndex": 1,
+      "rationale": "NSW LeadSmart describes wet sanding and wet scraping as the safest methods. Dry sanding, open flames and closed rooms are all wrong."
+    },
+    {
+      "id": "NEW-TMB-03-K05",
+      "correctIndex": 2,
+      "rationale": "A previous check is recorded as a claim, but it does not replace the assessment before disturbance. Stopping the job and leaving the area open to the public is not the required response either."
+    }
+  ],
+  "practicalCriteria": [
+    "Candidate identifies at least two suspect materials on a mock-up floor (painted border, black adhesive or vinyl edge) and marks them before any tool is used.",
+    "Candidate stops work on the marked area, keeps occupants and others out, and records the location with photos.",
+    "Candidate refers the finding to the supervisor using the escalation route, and records who was informed and when.",
+    "Candidate does not sand, scrape, cut or grind the suspect material to test it."
+  ],
+  "passRule": "Knowledge checks: at least 80% correct (4 of 5). Practical sign-off is separate. A knowledge pass does not establish practical competence, and the practical criteria must be observed and recorded by an assessor. Assessment methods for lead and asbestos are not taught as confirmed in this draft.",
+  "evidenceRequired": [
+    "Pre-start hazard assessment for the mock-up area",
+    "Stop-work record with location and photos",
+    "Referral record showing the person informed and the time"
+  ],
+  "stopWorkCriteria": [
+    "Sanding or scraping a suspect surface",
+    "Disturbing suspect adhesive or vinyl to test it",
+    "Continuing in an area not covered by an assessment",
+    "Failing to keep occupants out of a stopped area"
+  ]
+}

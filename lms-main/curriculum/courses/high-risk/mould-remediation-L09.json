@@ -1,0 +1,156 @@
+{
+  "id": "mould-remediation-L09",
+  "title": "Cleaning methods and equipment limits",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Supervisors, coordinators and trained cleaners who may be asked to triage, refer or document mould-related work in homes, rentals and commercial buildings, under an approved plan. Not a qualification or authority to remediate, demolish, or certify any building or room.",
+  "prerequisites": [
+    "mould-remediation-L08"
+  ],
+  "learningOutcomes": [
+    "Identify an unsuitable cleaning method and state why it is unsuitable.",
+    "Check equipment for fit, seals and maintenance, and stop a defective item.",
+    "Record the method used and any deviation from the approved plan."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson",
+      "body": "Cleaning methods for a contaminated area come from the approved remediation plan. This lesson identifies methods that are unsuitable and explains why. It gives no product, dilution, quantity or contact time."
+    },
+    {
+      "heading": "Methods the guideline rules out",
+      "body": "The WA Department of Health guideline advises scrubbing hard surfaces with soapy water, and says the physical action of scrubbing is the most important component. It says dry brushing should be avoided, because dry brushing breaks the fungi into small fragments. It also advises cleaning at least 30 to 50 centimetres beyond the visible mould, so cleaning that stops at the edge of the visible growth falls short of the guideline. Methods that spread dust or fragments into the air need the approval of the plan, and the plan names the equipment and the method to use."
+    },
+    {
+      "heading": "Equipment limits",
+      "body": "Equipment that captures particles is only as good as its fit, its seals and its maintenance. Fit, maintain and use equipment under the manufacturer's instructions and the approved plan. A machine that is leaking, cracked or not sealed can increase exposure. Check the equipment before the job, record the check, and stop it if it leaks or is damaged. Defective equipment comes out of the job."
+    }
+  ],
+  "procedure": [
+    "Take the cleaning method from the approved plan. Do not choose one on site.",
+    "Scrub hard surfaces with soapy water, using the physical action the plan sets.",
+    "Clean the agreed margin beyond the visible mould.",
+    "Avoid dry brushing and any method that throws dust into the air.",
+    "Check equipment for fit, seals and maintenance before use, and stop it if it leaks.",
+    "Record the method, the equipment check and any deviation from the plan."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker proposes dry brushing a mouldy skirting board, because soapy water is slow.",
+      "decisionPrompt": "Is the method suitable?",
+      "reasoning": "No. The guideline says dry brushing should be avoided, because it breaks the fungi into fragments. Use the method the plan sets, and record the proposal."
+    },
+    {
+      "situation": "A machine has a cracked hose and a loose seal, and is proposed for the clean-up.",
+      "decisionPrompt": "Can it be used?",
+      "reasoning": "No. Stop it, remove it from the job, and record the defect. Equipment that is not sealed or maintained can increase exposure."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Equipment check sheet covering fit, seals, hoses and maintenance.",
+    "Training-only inspection cards. No real equipment is run in this lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Dry brushing mouldy surfaces to speed up the job.",
+      "prevention": "Use the plan's method. Dry brushing is one the guideline says to avoid."
+    },
+    {
+      "error": "Cleaning only the visible mould and stopping at its edge.",
+      "prevention": "Clean the agreed margin beyond the visible mould, as the plan sets."
+    },
+    {
+      "error": "Using equipment with a damaged hose or seal.",
+      "prevention": "Check fit, seals and maintenance before use."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson gives no product, dilution, quantity or contact time. Chemical use is a case-specific decision in the approved plan.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Work in contaminated areas is restricted to competent people working under the approved plan. This lesson does not grant a licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner identifies an unsuitable method and states why.",
+    "The learner checks equipment fit, seals and maintenance, and stops a defective item.",
+    "The learner records the method and any deviation from the plan."
+  ],
+  "documentationEvidence": [
+    "Method record that names the plan and the approved method.",
+    "Equipment check record with defects found and the action taken."
+  ],
+  "summary": [
+    "Use the approved method, not one chosen on site.",
+    "Scrub with soapy water, and clean the agreed margin.",
+    "Avoid dry brushing and dust-raising methods.",
+    "Defective equipment comes out of the job."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "mould-remediation-L09-K01",
+      "question": "A worker proposes dry brushing a mouldy skirting board to save time. What is correct?",
+      "options": [
+        "Decline, and use the method in the plan, because dry brushing breaks fungi into fragments.",
+        "Dry brush it, because it is quicker.",
+        "Dry brush it and then wipe with a cloth."
+      ]
+    },
+    {
+      "id": "mould-remediation-L09-K02",
+      "question": "How far beyond the visible mould does the WA guideline say to clean?",
+      "options": [
+        "Exactly to the edge of the visible mould.",
+        "At least 30 to 50 centimetres beyond it.",
+        "Only the area that can be reached without a ladder."
+      ]
+    },
+    {
+      "id": "mould-remediation-L09-K03",
+      "question": "A machine has a cracked hose and a loose seal. What should happen?",
+      "options": [
+        "Tape the hose and use it.",
+        "Use it only for the dry parts of the room.",
+        "Stop it, remove it from the job and record the defect."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Internal draft: curriculum/courses/high-risk/HR04-mould-remediation.json, section 9 (reworded; no source text copied).",
+    "WA Department of Health, Guidelines for managing mould and dampness, April 2024 edition, section 4.2.2, read 2026-11-03 through a page-summary tool.",
+    "UNCONFIRMED: equipment performance and filtration standards were not read for this lesson. The seal and maintenance point is a module principle, not a statement of an official standard."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Guidelines for managing mould and dampness: related public health risks in buildings (WA Department of Health)",
+      "url": "https://smhs.health.wa.gov.au/~/media/Corp/Documents/Health-for/Mould/Guidelines-for-Managing-Mould-and-Dampness-Related-Public-Health-Risks-in-BuildingsV20.pdf",
+      "pageDate": "April 2024 (version control table); publication code ENV-0014702 MAY'24; no separate last-updated date shown",
+      "checked": "2026-11-03",
+      "covers": "Read through a page-summary tool on 2026-11-03 (PDF, Environmental Health Directorate, WA Department of Health). Section 1.4 sets out a general public health duty, a workplace duty and a residential tenancies duty. Section 2.1 names people with existing respiratory, immunocompromising and allergic conditions, and infants, children and older people. Section 3.2.2 says porous items are often not economically salvageable and must be thrown out. Section 3.3 says the source must be located to address the cause and prevent recurrence. Section 3.4.1 defines simple contamination as new, isolated and visible, no greater than one square metre, with easily identified causes, and its footnote calls the one-square-metre size arbitrary. Section 3.4.2 defines complex contamination as larger than one square metre or found in multiple rooms or places. Section 3.5 states there are no defined quantitative or qualitative exposure thresholds for mould or dampness. Section 4.1 lists containment, drying and source repair as principles. Section 4.2.2 advises scrubbing hard surfaces with soapy water, avoiding dry brushing, cleaning at least 30 to 50 cm beyond the visible mould, removing or discarding porous items that cannot be adequately cleaned, stating that mould is not considered hazardous waste, and not painting, sealing or covering surfaces until dry. Section 4.3 recommends a site-specific plan with professionals for complex contamination, isolation with heavy grade plastic and negative pressure, and evacuation of occupants. Section 4.4 lists no recurrence within two to four weeks after remediation as an indicator of success, recommends the evaluation be done by a different entity, and states there are no legal requirements for a post-remediation assessment. Appendix B recommends a P2 or N95 respirator and says PAPRs should be used for complex remediation. Appendix E says mould can grow within 24 to 48 hours in flood-affected homes."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": [
+    {
+      "heading": "Module authority and restricted work",
+      "body": "This module is training content. It does not grant authority to remediate, demolish, disturb building materials, handle contaminated water or waste, or certify that a building, room or occupant area is safe or free of mould or pathogens. Completing this lesson does not give a licence, certificate or approval. Restricted or high-exposure remediation is carried out only by an appropriately qualified and competent professional under an approved plan, and some related work, including asbestos and lead disturbance and certain waste handling, is restricted to licensed or specially authorised people. The owner, manager, tenant or contract may define what work is permitted, but where the contract covers only routine cleaning, that is the limit of the task. Where the controlling authority or the competent supervisor is not identified, stop and refer."
+    }
+  ],
+  "stopWorkAndReferral": [
+    {
+      "heading": "Stop-work and referral rules for this module",
+      "body": "Stop and refer whenever any of these is true: the hazards are unknown or changing; the work is destructive or hazardous and outside the authorised scope; exposure is uncontrolled or the building is unsafe to occupy; supervision, equipment or permissions are insufficient; flood, sewage, asbestos or lead may be present; a worker's PPE or respirator readiness has not been verified; a client asks for a clearance or pathogen-free statement; or a waste route is unauthorised. A stop-work decision is correct. Record it and restart only after the competent supervisor has confirmed the scope in writing."
+    }
+  ]
+}

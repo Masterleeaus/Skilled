@@ -1,0 +1,111 @@
+{
+  "id": "SFS-05",
+  "title": "Jobs and their task lines",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-04"
+  ],
+  "learningOutcomes": [
+    "Create a job with its customer, site and task lines.",
+    "Price each task line and explain where discounts are recorded.",
+    "Choose the right record change when a visit is cancelled."
+  ],
+  "instruction": [
+    {
+      "heading": "The job and its task lines",
+      "body": "The job is the header for a customer request. Beneath it sit task lines, which are the concrete steps a worker must complete, such as remove old hinge, fit new hinge, test the door. Each task line can be ticked off, so the office sees progress without a phone call. Prices, unit amounts and discounts belong on the task lines too, not only on the header. That way the invoice can be built from the lines themselves."
+    },
+    {
+      "heading": "Cancellations and follow-up jobs",
+      "body": "When a visit is cancelled, record the cancellation on the job. If the work still needs doing, open a follow-up job linked to the original. Do not reuse the original job, because then you lose the record of how often work is cancelled and why. Deleting a job also removes its linked visits, notes and task lines. Restore a deleted job only if the deletion was a mistake, because restoring brings the linked records back too."
+    }
+  ],
+  "procedure": [
+    "Open a new job and attach the customer and the site.",
+    "Select the template, which fills in the default task lines.",
+    "Review the task lines and add any the template missed, one per concrete step.",
+    "Enter the price and any discount on each task line.",
+    "When a visit is cancelled, update the job status, and open a linked follow-up job if the work is still needed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A customer books a cabinet repair. The worker finds the cabinet needs replacing, and the customer agrees to a separate piece of work.",
+      "decisionPrompt": "Do you add a task line to the existing job, or open a new job?",
+      "reasoning": "The replacement is a different scope with its own price, so it becomes a new linked job. The original job is closed with a note explaining what happened."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing only the job header.",
+      "prevention": "Price each task line so the total can be built from them."
+    },
+    {
+      "error": "Deleting a job to tidy up the list.",
+      "prevention": "Close or cancel the job instead, so the history stays visible."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every job has a customer, a site and at least one task line.",
+    "Every task line has a price, even if the price is zero."
+  ],
+  "documentationEvidence": [
+    "Job header with status",
+    "Task line list with completion ticks and prices"
+  ],
+  "summary": [
+    "A job holds the overall scope; task lines hold the steps and their prices.",
+    "A cancelled visit gets a recorded status and, if needed, a linked follow-up job.",
+    "Deleting removes linked records, so close a job rather than delete it."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-05-K01",
+      "question": "Where should a discount be recorded so that the invoice can be built from it?",
+      "options": [
+        "On each task line",
+        "Free-text note only",
+        "In the address field"
+      ]
+    },
+    {
+      "id": "SFS-05-K02",
+      "question": "A customer cancels a visit, but the work still needs doing later. What is the best record step?",
+      "options": [
+        "Mark the original job cancelled and open a linked follow-up job",
+        "Delete the job and make a fresh unlinked one for the customer",
+        "Leave the job open with no status at all for the customer's file"
+      ]
+    },
+    {
+      "id": "SFS-05-K03",
+      "question": "What does ticking off a task line tell the office?",
+      "options": [
+        "That the customer has paid",
+        "That this step is finished",
+        "That the worker has left the site"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 82-95 (work orders); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: job (work order); job task line (work order line item); follow-up job (child job) (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

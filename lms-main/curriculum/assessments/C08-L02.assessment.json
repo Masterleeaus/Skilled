@@ -1,0 +1,37 @@
+{
+  "lessonId": "C08-L02",
+  "knowledgeAnswers": [
+    {
+      "id": "C08-L02-K01",
+      "correctIndex": 2,
+      "rationale": "Alarms are not bypassed. The correct response is to withdraw, contact the site representative and record the failure without the code."
+    },
+    {
+      "id": "C08-L02-K02",
+      "correctIndex": 1,
+      "rationale": "A lost key is reported at once, with the time signed out and the last known place. The cleaner does not replace or copy it."
+    },
+    {
+      "id": "C08-L02-K03",
+      "correctIndex": 0,
+      "rationale": "An unchecked item is recorded as unresolved and escalated. The site is not certified secure."
+    }
+  ],
+  "practicalCriteria": [
+    "Completes a key checkout and return on the register in a simulated office, with every field filled in.",
+    "Withdraws from and records a simulated access-code failure without bypass, guessing or recording the code.",
+    "Completes a mock lock-up checklist item by item and escalates an unresolved item rather than signing it off."
+  ],
+  "passRule": "Key register completed, access failure withdrawn from and recorded without the code, and unresolved lock-up item escalated rather than signed. Observed by an assessor in a simulated site. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Key register entries",
+    "Access-failure record",
+    "Lock-up checklist and exception log"
+  ],
+  "stopWorkCriteria": [
+    "Alarm bypassed, or codes guessed or tried at another entry point",
+    "Controlled door followed through or credentials shared",
+    "Lock-up signed off with an unchecked item",
+    "Access code written down, photographed or sent"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "kitchen-cleaning-L07",
+  "title": "Benches, preparation surfaces and allergen cross-contact",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who clean preparation benches and surfaces in kitchens where allergen-controlled orders are prepared.",
+  "prerequisites": [
+    "kitchen-cleaning-L02",
+    "kitchen-cleaning-L05"
+  ],
+  "learningOutcomes": [
+    "Identify which allergens have been used on a surface and whether equipment is shared.",
+    "Clean a bench using the validated plan and dedicated tools.",
+    "Refuse to promise an allergen-free status and escalate any uncertain cross-contact."
+  ],
+  "instruction": [
+    {
+      "heading": "Why allergens need their own step",
+      "body": "Allergens such as peanut, tree nut, dairy, egg, gluten and sesame are present in many foods, and very small amounts can cause a reaction in a sensitive person. A bench that has been used for peanut preparation can carry peanut residue even when it looks clean. Allergen control therefore depends on a validated cleaning plan, dedicated tools where the plan requires them, and a verification step that the site owns. A visually clean bench does not show whether an allergen has been removed."
+    },
+    {
+      "heading": "Before cleaning",
+      "body": "Confirm which allergens were used on the surface, whether the equipment is shared with other preparation, and who owns the allergen verification. Find the site's validated allergen cleaning procedure and the tools assigned to it. Do not use a general-purpose cloth on an allergen-controlled bench unless the procedure allows it."
+    },
+    {
+      "heading": "Cleaning and handover",
+      "body": "Remove visible debris first. Clean the surface following the validated plan, using dedicated tools where the plan requires them. Then request the verification and the release decision from the person who owns the allergen control. Record the handover as a clean zone only once the approved release has been given. Do not describe the bench as allergen-free in your own words."
+    },
+    {
+      "heading": "Escalation",
+      "body": "If you are uncertain whether a cross-contact has occurred, or whether the validated plan was followed, stop and escalate to the food safety supervisor before the bench is used for an allergen-controlled order. An uncertain allergen condition is not a judgement to make alone."
+    }
+  ],
+  "procedure": [
+    "Confirm the allergens used, whether equipment is shared, and who owns allergen verification.",
+    "Remove visible debris, then clean according to the validated plan with dedicated tools where required.",
+    "Request the approved verification and release decision before the surface is used.",
+    "Record the handover, and do not state that the surface is allergen-free without approval.",
+    "Escalate any uncertain cross-contact to the food safety supervisor."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A bench previously used with peanuts is needed for an allergen-free order.",
+      "decisionPrompt": "What is the correct decision?",
+      "reasoning": "Follow the validated allergen cleaning procedure with the dedicated tools. Request the verification and release from the owner of the allergen control. Do not promise allergen-free status from appearance, and do not release the bench for the order until the approved release has been given."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Dedicated allergen-control cloths and tools, colour-coded as the site procedure sets.",
+    "Approved cleaning product, with label and SDS available.",
+    "Gloves changed between tasks, with hand hygiene."
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a bench is allergen-free because it looks clean.",
+      "prevention": "Follow the validated plan and wait for the approved verification."
+    },
+    {
+      "error": "Using a general cloth on an allergen-controlled bench.",
+      "prevention": "Use the dedicated tools the procedure assigns."
+    },
+    {
+      "error": "Promising a customer allergen-free status.",
+      "prevention": "Only the approved verification can support that statement."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Allergen labelling and allergen-control claims for food are regulated under food law that varies by state and territory. The site's food safety program governs.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Allergen history and shared equipment confirmed before cleaning in the simulated kitchen.",
+    "Validated plan and dedicated tools used for the simulated bench.",
+    "No allergen-free statement made without the approved release."
+  ],
+  "documentationEvidence": [
+    "Allergen history record for the surface.",
+    "Verification and release record, signed by the person who owns the control."
+  ],
+  "summary": [
+    "Allergens need their own validated step; appearance is not enough.",
+    "Use dedicated tools and the validated plan.",
+    "The release decision belongs to the person who owns the allergen control.",
+    "Escalate any uncertain cross-contact."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-cleaning-L07-K01",
+      "question": "A bench was used for peanut preparation. It looks clean. What is the right step?",
+      "options": [
+        "Follow the validated allergen plan and wait for the approved verification",
+        "Declare it allergen-free because it looks clean and tell the client",
+        "Use it for an allergen-free order straight away and label the order"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L07-K02",
+      "question": "Who decides whether an allergen-controlled bench can be released?",
+      "options": [
+        "The cleaner who did the work and the shift lead who was present",
+        "The person who owns the allergen control, after approved verification",
+        "The first customer who asks and the person at the front of the queue"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L07-K03",
+      "question": "You are uncertain whether cross-contact happened. What do you do?",
+      "options": [
+        "Make a quick judgement and continue the shift",
+        "Mention it at the end of the shift",
+        "Stop and escalate to the food safety supervisor"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-cleaning-L07.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: allergen labelling and allergen-control obligations for food premises in each state and territory.",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises. The operator's food safety program governs the site. This lesson does not confer a food handling qualification."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,220 @@
+{
+  "id": "NEW-POND-06",
+  "title": "Pumps, UV clarifiers and filters",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pond maintenance workers who carry out routine checks and cleaning on pond pumps, aeration, filters and UV clarifiers, and who must know where electrical work stops",
+  "prerequisites": [
+    "F17-L04",
+    "NEW-POND-05"
+  ],
+  "learningOutcomes": [
+    "Describe the circulation loop and the reasons the components are placed in the order the system was designed to use",
+    "Carry out routine checks and cleaning on pumps, intake screens, aeration and filter media with the power isolated",
+    "Carry out safe routine UV clarifier checks, including isolation, lamp care and the rule against looking at a lit lamp",
+    "Identify faults, cords and connections that must be reported, and state what the licence covers without implying that this lesson grants it"
+  ],
+  "instruction": [
+    {
+      "heading": "The circulation loop and the order of components",
+      "body": "Pond water is drawn in through a skimmer, a pre-filter or a pump intake, moved by a pump through a filter where solids are caught and bacteria break down waste, through a UV clarifier where one is fitted, and returned through a waterfall, stream or return outlet. The order of the filter and the UV unit depends on the purpose the system was built for. A product guide describes two arrangements, one in which the filter sits after the UV unit so that the algae the UV unit clumps are caught, and one in which the filter sits before the UV unit so that particles do not shade the water from the light. Do not change the order of an existing system without the manufacturer's instruction and the owner's agreement, and record the layout you find before you touch anything."
+    },
+    {
+      "heading": "Pumps and aeration: routine checks",
+      "body": "Check each pump at each visit. Look and listen for changes in noise, flow at the return, and any sign that the pump is running dry or losing its prime. Keep the intake clear. An intake that sits in sludge or weed draws debris into the pump and reduces flow, so check the position of the intake against the sediment depth (“Debris, sludge and plant management”). Clean the intake screen and the pre-filter basket with the power off and the pump isolated. Never reach into a running pump, and never run a pump with no water. Check that the cord is intact along its length, that it is kept out of the water and away from wet ground, and that any extension lead is not in use across the pond. Aeration works on the same principle as the pump: check the air pump, the tubing for splits, and the diffuser stones for blockage, with the power isolated before any connection is handled."
+    },
+    {
+      "heading": "UV clarifiers: isolation and lamp care",
+      "body": "A UV clarifier contains a lamp that can injure the eyes and skin, so switch it off and isolate its supply before you open the housing. Do not look at a lit lamp. Check that the quartz sleeve around the lamp is clean and free of algae film, and that the seals are intact. A clean sleeve passes more light, and a dirty one can make the unit appear to be working when it is not. Replace a lamp only where the manufacturer's instructions and the owner's plan allow it, and only after isolation. Water passing through the unit should be as clear as the system allows, because particles can shade the water from the light. The unit must also suit the flow the pump gives it, and running it at a lower flow gives longer exposure."
+    },
+    {
+      "heading": "Filters: cleaning with pond water",
+      "body": "Filter media hold the bacteria that break down ammonia and nitrite, and they should be cleaned without losing those bacteria. Rinse biological media in pond water, not tap water, because chlorine and chloramine harm the bacteria. Clean one section at a time, so that part of the media keeps its bacteria while the rest is cleaned. After a heavy clean, the biological activity recovers slowly, so do not clean all the media on the same visit unless the owner has agreed. Record which sections were cleaned, and check the flow afterwards. Dispose of any media that is damaged or broken down only as the business's waste procedure and the council allow."
+    },
+    {
+      "heading": "Where electrical work stops",
+      "body": "Routine tasks are visual checks, cleaning of screens and baskets with the power off, checking that a cord is undamaged, and reporting a fault. Connection, wiring, opening fixed electrical enclosures, replacing a cord into a plug or fixed connection, and repairing a pump or UV unit's electrical parts are electrical work. In New South Wales, wiring work is licensed or certified work at any price, and the page treats putting in, fixing, changing, taking out or extending an electrical installation as wiring work. Queensland's electrical safety guidance says submersible pumps need an earthed design or a 12-volt supply, and that equipment should run through a safety switch with cords kept out of the water. Do not use an indoor aquarium heater in a pond."
+    }
+  ],
+  "procedure": [
+    "Record the layout of the circulation loop before any component is touched.",
+    "Isolate the pump or UV unit at its isolator, and prove it off where the procedure requires.",
+    "Check the cord along its length, the connections you can see from outside, and the position of the intake against the sediment.",
+    "Clean the intake screen and pre-filter basket, and check the air tubing and diffuser stones.",
+    "For a UV unit, let the lamp cool if the procedure requires it, keep your eyes away from the lamp, and clean the sleeve only as the manufacturer directs.",
+    "Clean filter media in pond water, one section at a time, and record which sections were cleaned.",
+    "Restore power only after the check is complete, check the flow and the pump's sound, and record the readings. Wear the PPE set by {{business:safety.required_ppe}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pump cord is cut through its outer sheath about 300 millimetres from the pump. The water is still running.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "Switch off and isolate the supply at the isolator, and keep the cord out of the water. Do not tape the cut and leave the pump running, and do not open the pump motor. Record the location of the cut, photograph it where the business requires, and refer the repair to a person authorised for the electrical work. The owner is told that the pump is off until the repair is made."
+    },
+    {
+      "situation": "A client asks you to rewire a UV unit to a new plug, because the old one has been replaced by a different fitting.",
+      "decisionPrompt": "Is the rewiring within scope?",
+      "reasoning": "No. Changing a plug or a fixed connection is electrical work and is not routine maintenance. Do not change the wiring. Record the request, describe the fitting and its condition, and refer the work to the person the state rules name."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Isolator or circuit breaker access and a proving test where the procedure requires it",
+    "Intake screen and pre-filter tools for the system",
+    "Pond-water container for rinsing biological media",
+    "Gloves, eye protection and footwear with grip as set by {{business:safety.required_ppe}}",
+    "Routine check record with the layout, the flow and the readings"
+  ],
+  "commonErrors": [
+    {
+      "error": "Opening a pump or UV housing while the unit is still connected to power.",
+      "prevention": "Isolate, prove off where required, then open the housing. Do not rely on the switch."
+    },
+    {
+      "error": "Looking at a lit UV lamp.",
+      "prevention": "Switch off and isolate the unit, and keep your eyes away from the lamp."
+    },
+    {
+      "error": "Rinsing filter media in tap water or cleaning all the media on the same visit.",
+      "prevention": "Rinse in pond water, clean one section at a time, and record the sections cleaned."
+    },
+    {
+      "error": "Taping over a damaged cord and leaving the pump running.",
+      "prevention": "Isolate the supply, keep the cord out of the water, and refer the repair."
+    },
+    {
+      "error": "Using an indoor aquarium heater in a pond.",
+      "prevention": "Do not use it. Report it to the owner and record its location."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electrical connection, wiring and repair of pumps, aeration and UV units are electrical work. In New South Wales, wiring work is licensed or certified work at any price. This lesson does not grant any electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Queensland guidance says submersible pumps need an earthed design or a 12-volt supply, and that equipment should run through a safety switch with cords kept out of the water.",
+      "licenceNotice": false
+    },
+    {
+      "point": "UV lamps can injure the eyes and skin. Isolate the unit, and do not look at a lit lamp.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not authorise any electrical repair, rewiring, connection or lamp work that a licence requires. Completing it does not give that authority.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Layout is recorded before any component is touched, and the order of components is not changed without instruction",
+    "Power is isolated, and proven off where required, before any housing or intake is opened",
+    "Any damaged cord or electrical fault is reported in writing and the equipment is left isolated"
+  ],
+  "documentationEvidence": [
+    "Routine check record with layout, flow and the readings before and after",
+    "Filter sections cleaned, with the media checked and the date",
+    "Fault report with the location of any cord damage, photographs where required, and the referral made"
+  ],
+  "summary": [
+    "The circulation loop has a designed order, and the filter and UV unit order depends on the purpose the system was built for.",
+    "Check the pump, the intake and the aeration with the power isolated, and never reach into a running pump.",
+    "Isolate the UV unit before opening it, and do not look at a lit lamp.",
+    "Electrical connection and repair are licensed work in many circumstances, and this lesson does not grant any licence."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:equipment.manufacturer_manual_url}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-POND-06-K01",
+      "question": "A pond pump's cord is cut through its outer sheath. What is the correct action?",
+      "options": [
+        "Tape the cut and keep the pump running, since the tape will hold the sheath together",
+        "Switch off and isolate the supply, keep the cord out of the water, and refer the repair",
+        "Open the pump motor to check the wires, since the cord may be only slightly damaged",
+        "Run the pump only at night, when the cut is less likely to matter to the pond"
+      ]
+    },
+    {
+      "id": "NEW-POND-06-K02",
+      "question": "Why should cloudiness be removed before water passes a UV clarifier?",
+      "options": [
+        "UV lamps need cloudy water to switch on at all in the system",
+        "Cloudy water is cooler, so it stops the lamp from working well",
+        "Particles can shade the water from the UV light, so it is not fully treated",
+        "Cloudiness has no effect on UV treatment at all in the pond water"
+      ]
+    },
+    {
+      "id": "NEW-POND-06-K03",
+      "question": "An indoor aquarium heater is found in a pond. What should the technician do?",
+      "options": [
+        "Leave it switched on, because it is working and the pond needs the heat",
+        "Move it to the shallow edge, where it can warm the water faster",
+        "Wrap it in tape and continue, since the tape keeps it dry enough",
+        "Do not use it in the pond, report it to the owner, and record its location"
+      ]
+    },
+    {
+      "id": "NEW-POND-06-K04",
+      "question": "In the circulation loop described in this lesson, where are solids caught?",
+      "options": [
+        "In the filter",
+        "At the return outlet",
+        "In the waterfall",
+        "In the UV clarifier"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electrical licences and certificates",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Search nsw.gov.au for 'electrical licences and certificates' and read the wiring work definition and licence requirement. Publisher: NSW Government."
+    },
+    {
+      "id": "R2",
+      "title": "Electricity around water",
+      "url": "https://electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Search electricalsafety.qld.gov.au for 'electricity around water' and read the pumps, safety switch and cords sections. Publisher: Electrical Safety Office Queensland."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: NSW Government, Electrical licences and certificates (last updated 23 June 2026); Electrical Safety Office Queensland, Electricity around water (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-P4 Electrical Safety Office Queensland, Electricity around water, https://electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water, checked 2026-11-02, page shows no date. Used for the earthed-or-12-volt rule for submersible pumps, the safety switch and cords-out-of-water points. The licensed-electrician sentence on the page is in the pool section and is not applied to ponds.",
+    "SRC-P8 NSW Government, Electrical licences and certificates (electrical wiring work), https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical, checked 2026-11-02, last updated 23 June 2026. Used for the licence or certificate rule for wiring work regardless of cost, and the definition of wiring work. The page does not mention ponds.",
+    "SRC-U1 Garden pond product guide (uploaded file 8b16ba4a), sections on UV clarifier order and cloudiness, filter media and aquarium heaters; general points only, no products named; rights: reworded (no copying).",
+    "SRC-U4 Pond Ecosystem (uploaded file e9711004), section on aeration: the air source and diffuser stones; rights: reworded (no copying).",
+    "UNCONFIRMED: whether a pond pump, aeration or UV task is electrical work in each state and territory; the pond equivalent of the pool licensed-electrician rule in Queensland; lamp replacement rules for each state; the correct filter and UV order for a given system; the cord and plug standards for pond equipment.",
+    "Official references in officialReferences were read on 2026-11-03 (R1 to R2). The SRC entries above remain as the earlier source trail."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Check the current rule for each point on the official pages listed at the start of this lesson: NSW Government, Electrical licences and certificates (last updated 23 June 2026); Electrical Safety Office Queensland, Electricity around water (no date shown).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-11.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-12.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    }
+  ]
+}

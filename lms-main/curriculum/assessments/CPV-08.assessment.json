@@ -1,0 +1,36 @@
+{
+  "lessonId": "CPV-08",
+  "knowledgeAnswers": [
+    {
+      "id": "CPV-08-K01",
+      "correctIndex": 2,
+      "rationale": "The report must draw a conclusion about validity and state the limits of the method."
+    },
+    {
+      "id": "CPV-08-K02",
+      "correctIndex": 3,
+      "rationale": "The source expects review or repeat after such changes, not on a fixed daily basis."
+    },
+    {
+      "id": "CPV-08-K03",
+      "correctIndex": 0,
+      "rationale": "Entries written as the event happens show what really occurred. Later recollection is unreliable."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner writes a one-paragraph conclusion for a practice study, with at least one limitation (pass: conclusion and limitation both present).",
+    "Learner records a practice cleaning event at the time it is carried out (pass: time, agent and person recorded).",
+    "Learner lists three changes and marks each as review, repeat or no action, with a reason (pass: all three decided with reasons)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Practice report conclusion",
+    "Practice equipment cleaning log entry",
+    "Change decision list with reasons"
+  ],
+  "stopWorkCriteria": [
+    "A report is about to be signed without a conclusion.",
+    "A cleaning event is being recorded from memory after the fact.",
+    "A change to the agent or procedure is about to be used before a review."
+  ]
+}

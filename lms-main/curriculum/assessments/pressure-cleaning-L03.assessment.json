@@ -1,0 +1,37 @@
+{
+  "lessonId": "pressure-cleaning-L03",
+  "knowledgeAnswers": [
+    {
+      "id": "pressure-cleaning-L03-K01",
+      "correctIndex": 0,
+      "rationale": "The alert places systems above 5,600 bar litres per minute in Class B, which needs training and assessment through a registered training organisation [WSV-JET]."
+    },
+    {
+      "id": "pressure-cleaning-L03-K02",
+      "correctIndex": 2,
+      "rationale": "Every hose must be rated at or above the maximum operating pressure, so the defective hose is tagged out and replaced [WSV-JET]."
+    },
+    {
+      "id": "pressure-cleaning-L03-K03",
+      "correctIndex": 2,
+      "rationale": "An unknown nozzle has an unknown output. Its specification is confirmed against the manufacturer's data before use."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies the class and maximum operating pressure of a sample machine from the manufacturer's data, and records them on an equipment register, with any value not in the data stated as not given.",
+    "Completes a pre-use inspection on a sample set (hoses, fittings, nozzle, guard, trigger, electrical lead and plug), and tags out a seeded fault.",
+    "Checks each hose and fitting rating against the sample machine's maximum operating pressure, and rejects any part rated lower."
+  ],
+  "passRule": "Assessor review of the equipment register, the inspection record and the rating check on the sample set, with all three practical criteria met. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Equipment register with class and maximum operating pressure from data",
+    "Pre-use inspection log and RCD test record",
+    "Tag-out record for the seeded fault"
+  ],
+  "stopWorkCriteria": [
+    "A hose or fitting is rated below the maximum operating pressure and is used",
+    "An unidentified nozzle or an unapproved modification is fitted",
+    "An RCD is missing or untested before electrical equipment is used near water",
+    "Equipment with a leak, cut hose or electrical fault is run"
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "NEW-TIL-05",
+  "title": "Cutting tile and silica dust controls",
+  "courseSlugs": [
+    "tiling"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Tilers and handyman workers who cut tile",
+  "prerequisites": [
+    "NEW-TIL-01",
+    "NEW-PLS-03"
+  ],
+  "learningOutcomes": [
+    "Cut tile with wet methods where the product and the tool allow them.",
+    "Control silica dust from cutting, using extraction and suitable respiratory protection.",
+    "Clean up tile dust with damp methods and avoid dry sweeping."
+  ],
+  "instruction": [
+    {
+      "heading": "Wet cutting controls dust at source",
+      "body": "Many tiles, especially porcelain and natural stone, contain crystalline silica, and cutting them dry releases fine silica dust. Use a wet saw with a constant water supply wherever the tile and the job allow it, because wet cutting keeps most of the dust in the slurry. Keep the water level and flow adequate, and keep the blade wet. Cut outdoors or in a ventilated area where a wet saw is not practical, and keep occupants and children away from the cutting area. The workplace exposure standard for respirable crystalline silica is 0.05 mg/m3 averaged over an 8-hour period, half the former 0.1 mg/m3 figure (WorkSafe Queensland page, no date shown; Safe Work Australia research page, no date shown)."
+    },
+    {
+      "heading": "Dry cutting, clean-up and protection",
+      "body": "Where dry cutting is unavoidable, use a tool with extraction and suitable respiratory protection fitted correctly. Do not use an angle grinder without extraction for tile. Clean up slurry and dust with damp methods. Keep slurry and wash water out of stormwater. Council guidance for Woollahra in New South Wales says runoff that could reach drains must be filtered to below 50 mg/L (total suspended solids) before it is discharged, and small volumes may be left to soak away in a designated area (no document date shown). Larger volumes go to a recycler or landfill. Do not dry sweep tile dust, and do not blow it with compressed air. Keep the cutting area separate from the rest of the work until clean-up is complete."
+    }
+  ],
+  "procedure": [
+    "Check the tile type and the safety data sheet for silica content.",
+    "Use a wet saw with an adequate water supply for the cut.",
+    "Where dry cutting cannot be avoided, use extraction and suitable respiratory protection fitted correctly.",
+    "Keep occupants and children clear of the cutting area.",
+    "Clean up slurry and dust with damp methods, and keep slurry and wash water out of stormwater, filtering it to below 50 mg/L (total suspended solids) where runoff could reach drains.",
+    "Record the controls used and any tile that could not be cut safely."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A porcelain tile must be cut for a window recess, and the worker plans to use an angle grinder dry in the living room where the client is working.",
+      "decisionPrompt": "Should the cut be made dry in the living room?",
+      "reasoning": "No. Dry cutting of porcelain produces silica dust, and an angle grinder without extraction spreads it into the occupied room. Move the cut to a wet saw outside or in a ventilated area, keep the client clear, and clean up with damp methods."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Wet saw with a water supply",
+    "Respiratory protection suited to silica dust, fitted correctly",
+    "Extraction-connected tool where dry cutting is unavoidable",
+    "Eye protection and gloves",
+    "Slurry container and damp cloths"
+  ],
+  "commonErrors": [
+    {
+      "error": "Dry cutting porcelain or stone inside an occupied room.",
+      "prevention": "Use a wet saw outside or in a ventilated area, and keep occupants clear."
+    },
+    {
+      "error": "Dry sweeping or blowing tile dust.",
+      "prevention": "Clean up with damp methods or extraction."
+    },
+    {
+      "error": "Running a wet saw with low water, so the dust is not kept in the slurry.",
+      "prevention": "Keep the water supply and the blade wet throughout the cut."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Silica dust: the workplace exposure standard for respirable crystalline silica is 0.05 mg/m3 as an 8-hour time-weighted average (WorkSafe Queensland page, no date shown; Safe Work Australia research page, no date shown, which gives 1 September 2024 as the date stronger regulation took effect and says to confirm the figure with the state or territory regulator). This is an exposure limit, not a licence, and this lesson does not grant any silica or dust-control licence.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Asbestos may be present in older tile backings and adhesives. Victoria: an employer, or a person working for themselves, can remove non-friable asbestos without a licence where the area of asbestos-containing material to be removed does not exceed 10 square metres in total, and the total time asbestos removal work is performed in any period of seven days does not exceed one hour, which is cumulative across all employees; friable asbestos has no such allowance, and removal above either limit needs a licence (Asbestos Victoria page, which shows an 'Updated' label and no date). New South Wales: a class B licence is not needed for less than 10 m2 of non-friable material; friable material needs a class A licence in any amount (Service NSW page, last published 24 July 2025). Queensland: non-friable work of 10 m2 at most needs no licence, but friable asbestos of any quantity needs a class A licence (WorkSafe Queensland page, no date shown). Refer any suspect older material.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not give an asbestos removal licence or authority to remove older materials.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Cuts are made wet wherever the tile and tool allow.",
+    "Dry cutting uses extraction and suitable respiratory protection, fitted correctly.",
+    "Clean-up uses damp methods, and no dust is dry swept."
+  ],
+  "documentationEvidence": [
+    "Cutting record with the method and the controls used",
+    "Safety data sheet check record for the tile",
+    "Referral note for any older or suspect material"
+  ],
+  "summary": [
+    "Cut wet wherever possible to keep silica dust in the slurry.",
+    "Where dry cutting is unavoidable, use extraction and fitted respiratory protection.",
+    "Clean up with damp methods and never dry sweep."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:materials.sds_links}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-TIL-05-K01",
+      "question": "A porcelain tile must be cut inside an occupied room. What is the best option?",
+      "options": [
+        "Use a wet saw outside or in a ventilated area, and keep occupants clear",
+        "Dry cut with an angle grinder in the middle of the room today",
+        "Cut it and sweep the dust up later when the job ends today",
+        "Cut it indoors with the window closed to keep the air still"
+      ]
+    },
+    {
+      "id": "NEW-TIL-05-K02",
+      "question": "How should tile dust be cleaned up?",
+      "options": [
+        "Dry sweep it into a pile and bag it up later",
+        "Use damp methods or extraction, not dry sweeping",
+        "Blow it away with compressed air from the hose",
+        "Leave it to settle on the floor for a while"
+      ]
+    },
+    {
+      "id": "NEW-TIL-05-K03",
+      "question": "Why does the lesson say dry cutting of porcelain or natural stone tile is a concern?",
+      "options": [
+        "It makes the tile too wet to fix",
+        "It releases fine silica dust",
+        "It only dulls the blade",
+        "It has no health effect"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "CATALOGUE-V2 row NEW-TIL-05 (new lesson; no source lesson; links to construction-site-cleaning-L04, not in this workspace; checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX.csv VIC-32 (checked 2026-11-02)",
+    "Silica dust controls: internal course guidance, UNCONFIRMED against any named standard; the workplace must confirm the applicable rules",
+    "Official [R1]: Research into a lower workplace exposure standard and short-term limit for respirable crystalline silica, Safe Work Australia, https://www.safeworkaustralia.gov.au/safety-topic/hazards/crystalline-silica-and-silicosis/research-lower-workplace-exposure-standard-and-short-term-exposure-limit-respirable-crystalline-silica, page date: No last-updated date shown; page refers to 1 September 2024; checked 2026-11-03; status PARTIAL",
+    "Official [R2]: Respirable crystalline silica - general, WorkSafe Queensland, https://www.worksafe.qld.gov.au/safety-and-prevention/hazards/hazardous-exposures/respirable-crystalline-silica/respirable-crystalline-silica-general, page date: No date shown; checked 2026-11-03; status CONFIRMED",
+    "Official [R3]: Unlicensed asbestos removal, Asbestos Victoria (Victorian Government), https://www.asbestos.vic.gov.au/builders-and-trades/asbestos-removalists/unlicensed-asbestos-removal, page date: Shows an 'Updated' label with no date; checked 2026-11-03; status CONFIRMED",
+    "Official [R4]: Apply for an asbestos removal licence, Service NSW (NSW Government), https://www.service.nsw.gov.au/transaction/apply-asbestos-removal-licence, page date: Last published 24 July 2025; checked 2026-11-03; status CONFIRMED",
+    "Official [R5]: Asbestos (licensing and removal), WorkSafe Queensland, https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/asbestos, page date: No date shown; checked 2026-11-03; status CONFIRMED",
+    "Official [R6]: Protected concrete, brick and tile cutting (council guidance), Woollahra Municipal Council (NSW), https://www.woollahra.nsw.gov.au/files/assets/public/v/1/building-and-development/documents/5.concretebricktilecutting.pdf, page date: No document date shown; checked 2026-11-03; status PARTIAL"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Research into a lower workplace exposure standard and short-term limit for respirable crystalline silica",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/crystalline-silica-and-silicosis/research-lower-workplace-exposure-standard-and-short-term-exposure-limit-respirable-crystalline-silica",
+      "pageDate": "No last-updated date shown; page refers to 1 September 2024",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia summary of review outcomes, not the standard itself; confirm the figure with the state or territory WHS regulator. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Respirable crystalline silica - general",
+      "url": "https://www.worksafe.qld.gov.au/safety-and-prevention/hazards/hazardous-exposures/respirable-crystalline-silica/respirable-crystalline-silica-general",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Queensland silica page: exposure standard in force in Queensland. Publisher: WorkSafe Queensland."
+    },
+    {
+      "id": "R3",
+      "title": "Unlicensed asbestos removal",
+      "url": "https://www.asbestos.vic.gov.au/builders-and-trades/asbestos-removalists/unlicensed-asbestos-removal",
+      "pageDate": "Shows an 'Updated' label with no date",
+      "checked": "2026-11-03",
+      "covers": "Victorian asbestos page: an employer or self-employed person can conduct a limited amount of asbestos removal work without a licence. The removal of non-friable asbestos-containing material is covered if the area of asbestos-containing material to be removed does not exceed 10 square metres in total, and the total time asbestos removal work is performed in any period of seven days does not exceed one hour (this period is the cumulative total time the asbestos removal work is carried out by all employees over a period of seven days). Shows an 'Updated' label with no date. Publisher: Asbestos Victoria (Victorian Government)."
+    },
+    {
+      "id": "R4",
+      "title": "Apply for an asbestos removal licence",
+      "url": "https://www.service.nsw.gov.au/transaction/apply-asbestos-removal-licence",
+      "pageDate": "Last published 24 July 2025",
+      "checked": "2026-11-03",
+      "covers": "Service NSW page: class A (friable, any amount) and class B (non-friable, more than 10 m2). Publisher: Service NSW (NSW Government)."
+    },
+    {
+      "id": "R5",
+      "title": "Asbestos (licensing and removal)",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/asbestos",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Queensland asbestos page: class A for friable, class B above 10 m2 non-friable. Publisher: WorkSafe Queensland."
+    },
+    {
+      "id": "R6",
+      "title": "Protected concrete, brick and tile cutting (council guidance)",
+      "url": "https://www.woollahra.nsw.gov.au/files/assets/public/v/1/building-and-development/documents/5.concretebricktilecutting.pdf",
+      "pageDate": "No document date shown",
+      "checked": "2026-11-03",
+      "covers": "Woollahra council guidance: applies in that council area; check the local council rules for slurry and wash water. Publisher: Woollahra Municipal Council (NSW)."
+    }
+  ],
+  "referencesAtStart": "Official references at the start: Safe Work Australia, Research into a lower workplace exposure standard and short-term limit for respirable crystalline silica (no last-updated date shown; refers to 1 September 2024); WorkSafe Queensland, Respirable crystalline silica - general (no date shown); Asbestos Victoria, Unlicensed asbestos removal (shows an 'Updated' label with no date); Service NSW, Apply for an asbestos removal licence (last published 24 July 2025); WorkSafe Queensland, Asbestos (licensing and removal) (no date shown); Woollahra Municipal Council (NSW), Protected concrete, brick and tile cutting (council guidance) (no document date shown). The Woollahra guidance applies only in that council area. Only part of the Safe Work Australia summary and the Woollahra guidance has been confirmed.",
+  "referencesAtEnd": "Official references at the end, to recheck the current rule before use: Safe Work Australia, Research into a lower workplace exposure standard and short-term limit for respirable crystalline silica; WorkSafe Queensland, Respirable crystalline silica - general; Asbestos Victoria, Unlicensed asbestos removal; Service NSW, Apply for an asbestos removal licence; WorkSafe Queensland, Asbestos (licensing and removal); Woollahra Municipal Council (NSW), Protected concrete, brick and tile cutting (council guidance).",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-09.jpg",
+      "alt": "Tiling (including floating floors) illustration",
+      "kind": "photo",
+      "origin": "tiling"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-10.jpg",
+      "alt": "Tiling (including floating floors) illustration",
+      "kind": "photo",
+      "origin": "tiling"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lessonId": "handyman-work-L04",
+  "knowledgeAnswers": [
+    {
+      "id": "handyman-work-L04-K01",
+      "correctIndex": 0,
+      "rationale": "A guard that has been taped back is a defect. Treat it as a stop: leave the saw unused and tag it out so it cannot be run with the guard bypassed."
+    },
+    {
+      "id": "handyman-work-L04-K02",
+      "correctIndex": 1,
+      "rationale": "Isolation is confirmed before adjustment, bit change or cleaning, with the battery removed."
+    },
+    {
+      "id": "handyman-work-L04-K03",
+      "correctIndex": 2,
+      "rationale": "Fine dust is inhalable, so respiratory protection and extraction are the controls."
+    }
+  ],
+  "practicalCriteria": [
+    "instructions: Perform a simulated pre-use inspection, select task controls and demonstrate safe shutdown with an unplugged training tool.; evidence required: Reject faulty tools and document safe equipment selection without performing licensed work.; supervision: Competent supervisor; no unlicensed regulated work"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation record covering procedure steps 1-7"
+  ],
+  "stopWorkCriteria": [
+    "Stop work if procedure step 6 is not done: Isolate the tool before any adjustment, blade change or cleaning."
+  ]
+}

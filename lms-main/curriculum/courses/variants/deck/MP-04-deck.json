@@ -1,0 +1,142 @@
+{
+  "id": "MP-04-deck",
+  "title": "Break-even analysis with a worked calculation for Deck and fence maintenance",
+  "courseSlugs": [
+    "deck"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Deck and fence maintenance operators who set job prices or plan monthly work across a seasonal calendar, including owners who run one vehicle and trailer.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a deck and fence business as fixed or variable",
+    "Calculate monthly break-even revenue and the number of jobs it needs, for busy and quiet seasons",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a seasonal business",
+      "body": "Break-even revenue covers all costs exactly, so profit is zero. For a deck and fence business the figure shows how many jobs in a month pay for the vehicle, tools and insurance. Work is seasonal, so a single monthly average can mislead. Run the calculation for the busy season and the quiet season separately, and say which one you are using."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs stay the same whatever the number of jobs. They include vehicle and trailer finance, registration, insurance, phone, software, storage and an office share. Tool replacement should be spread as a monthly amount. Variable costs move with each job. They include boards, fixings, stain and finish used on a job, sanding discs and blades, disposal fees, card and payment fees, and any subcontract labour paid per job. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss. Express variable cost as a share of sales for the same period, and check it across at least three periods."
+    },
+    {
+      "heading": "Calculate the break-even",
+      "body": "Contribution margin is one minus the variable share, written as a decimal. Break-even revenue is the fixed costs divided by the contribution margin. Xero's glossary sets out this method and says a job count is rounded up to whole jobs. Divide break-even revenue by the average job price, and round up."
+    },
+    {
+      "heading": "Use vendor ranges as checks, not as inputs",
+      "body": "The Victorian vendor listing gives a deck strip and refinish at $1,500 to $4,500 per job, and a structural inspection and quote at $250 to $600 (The Quote Yard, 2 May 2026). These are market estimates. The average job price must come from your own invoices, which will be a mix of small repairs, inspections and larger jobs."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, check that each fixed cost is monthly, that the variable share is a share of sales, and that the result is revenue rather than profit. Keep only the reconciled figure, with its inputs written beside it."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a share of sales for the same period, and check it across at least three periods.",
+    "Calculate one minus the variable share to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue, for the busy and quiet seasons.",
+    "Divide break-even revenue by your average job price from invoices, and round up to whole jobs.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A one-person deck and fence business (illustrative figures, invented for this lesson) has fixed costs of $2,600 a month in the busy season, variable costs of 20 per cent of sales, and an average job price of $850 after discounts. The average is a mix of repairs, inspections and clean-ups.",
+      "decisionPrompt": "How many jobs must the business complete each month in the busy season to break even, and what should be checked before the figure is used?",
+      "reasoning": "The contribution margin is 1 minus 0.20, which is 0.80. Break-even revenue is $2,600 divided by 0.80, which is $3,250 a month. At $850 a job, that is 3.82 jobs, so the business needs 4 jobs. Check the arithmetic: 3 jobs give $2,040 of contribution, which is below $2,600, and 4 jobs give $2,720, which covers it. Before using the figure, check that the 20 per cent includes disposal fees and fixings, and that $850 is a real average from invoices. A check against the vendor's Victorian estimates shows that a deck strip and refinish alone is $1,500 to $4,500 (vendor estimate, 2 May 2026). A $850 average is therefore plausible only if many jobs are smaller tasks. The figure must be checked against your own mix of work."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three periods, split into fixed and variable",
+    "Calculator or spreadsheet",
+    "Invoice record of the job prices actually charged, by job type and season"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using one monthly average across a seasonal business",
+      "prevention": "Run the calculation separately for the busy and quiet seasons, and state which one you are using."
+    },
+    {
+      "error": "Mixing monthly and annual figures, such as an annual insurance premium or a yearly registration",
+      "prevention": "Convert every cost to a monthly figure before dividing, and label each input with its period."
+    },
+    {
+      "error": "Copying a break-even figure from a plan without its inputs",
+      "prevention": "Recalculate from your own inputs and record the source and date of each input before using the result."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority. Licence and home-warranty costs differ by state, and some Victorian thresholds are unresolved, so use the figures for your own state.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period, season and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step, by season",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period and one season throughout each calculation.",
+    "Recalculate from your own inputs. Do not copy another plan's break-even figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-deck-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-deck-K02",
+      "question": "Fixed costs are $2,600 a month and variable costs are 20 per cent of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$520.00 AUD",
+        "$2,600.00 AUD",
+        "$3,250.00 AUD",
+        "$13,000.00 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-deck-K03",
+      "question": "Two sources give different break-even figures for the same deck business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe",
+        "Average the two figures and quote the result",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Rely on the vendor price list and skip the check"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Contribution margin, break-even revenue as fixed costs divided by the contribution ratio, and rounding up job counts. The glossary's own examples are not used.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Definitions of fixed and variable costs.",
+    "The Quote Yard, Timber deck repair and restoration Victoria, https://www.thequoteyard.com.au/services/timber-deck-repair-and-restoration-carpentry-vic, published 2 May 2026. Vendor estimates used only as a cross-check.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Include total overheads in the price check; review prices about every three months."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

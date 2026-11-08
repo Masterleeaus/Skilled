@@ -1,0 +1,156 @@
+{
+  "id": "industrial-degreasing-L03",
+  "title": "Energy isolation and verification boundaries",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who work on or near plant where energy isolation is required.",
+  "prerequisites": [
+    "industrial-degreasing-L01"
+  ],
+  "learningOutcomes": [
+    "Explain why isolation of energy sources is done by an authorised person, not the cleaner.",
+    "Identify the energy sources that need isolation before cleaning plant.",
+    "Refuse to clean or enter plant until isolation has been verified by the authorised person."
+  ],
+  "instruction": [
+    {
+      "heading": "Energy sources",
+      "body": "Plant can hold energy that is not obvious: electrical supply, stored pressure, hydraulic and pneumatic lines, gravity-held loads, stored heat and moving parts that coast after switch-off. Before cleaning plant, the authorised person must identify and isolate these sources, and verify that they are isolated."
+    },
+    {
+      "heading": "Verification",
+      "body": "Isolation is verified, not assumed. Switching off a control is not isolation. The national plant code treats a lock as the effective isolation device, not a tag alone, and its lock-out procedure includes a trial restart (instrument dated 17 December 2015). The authorised person checks that the energy is removed, and that the machine cannot be restarted while the work is done. Only after verification does the cleaner work, and then only within the agreed area."
+    },
+    {
+      "heading": "The cleaner's boundary",
+      "body": "A cleaner does not isolate or verify plant on their own authority. The national plant code expects each worker doing cleaning to hold their own lock at an isolation point, under a documented isolation procedure, so a cleaner applies a lock only where the person in control of the plant has set up that procedure and authorised it. Otherwise, refuse to clean or enter plant that has not been verified isolated, and refer the request to the authorised person. Record the request, the status and the time. This lesson does not grant any licence, certificate, plant-safety approval or specialist authority, and completing it does not make a cleaner a specialist."
+    }
+  ],
+  "procedure": [
+    "Identify the energy sources that need isolation before cleaning plant.",
+    "Confirm the authorised person has isolated and verified the sources.",
+    "Do not clean or enter plant until verification is confirmed.",
+    "Refer any request to clean unisolated plant.",
+    "Record the status, the request and the time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor says the machine is off, so you can clean inside it now.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not enter. Switching off a control is not isolation, and the energy may still be present. Ask the authorised person to isolate and verify the machine. Record the request and the status."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Authorisation and isolation record form.",
+    "PPE as set by the site."
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating an off switch as isolation.",
+      "prevention": "Only verified isolation makes plant safe to enter."
+    },
+    {
+      "error": "Cleaning inside a machine with stored energy.",
+      "prevention": "Wait for verified isolation."
+    },
+    {
+      "error": "Isolating a machine yourself.",
+      "prevention": "Refer isolation to the authorised person."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not grant a licence, competency or environmental authority for industrial degreasing.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any licence, certificate, plant-safety approval or specialist authority, and completing it does not make a cleaner a specialist.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Energy sources identified on a sample plant diagram.",
+    "Entry refused until verified isolation in the case study."
+  ],
+  "documentationEvidence": [
+    "Isolation status record with the authorised person named.",
+    "Referral record."
+  ],
+  "summary": [
+    "Switching off is not isolation.",
+    "Only the authorised person isolates and verifies.",
+    "Refuse entry and refer until verification is confirmed."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:procedures.prestart_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "industrial-degreasing-L03-K01",
+      "question": "The machine is switched off. Can you clean inside it?",
+      "options": [
+        "Yes, it is off, so the machine is safe to clean now",
+        "No, until the authorised person has isolated and verified it",
+        "Yes, quickly, before the machine is switched on again"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L03-K02",
+      "question": "Which is an energy source that may remain on plant?",
+      "options": [
+        "Only the mains cable and its plug",
+        "Nothing once switched off and left to stand",
+        "Stored pressure and gravity-held loads"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L03-K03",
+      "question": "Who isolates plant for cleaning?",
+      "options": [
+        "The authorised person",
+        "The cleaner, on the job",
+        "The client on site"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Work Health and Safety (Managing Risks of Plant in the Workplace) Code of Practice 2015",
+      "url": "https://legislation.gov.au/F2016L00422/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html",
+      "pageDate": "instrument date 17 December 2015 (shown in text)",
+      "checked": "2026-11-03",
+      "covers": "Sections 3.6, 3.7, 4.1 and 4.5 (isolation, lock-out, guarding, competent person); check the version your state has adopted. Publisher: Federal Register of Legislation (Cth), based on the Safe Work Australia model code."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Work Health and Safety (Managing Risks of Plant in the Workplace) Code of Practice 2015 (instrument dated 17 December 2015).",
+  "referencesAtEnd": "Check the current rule on these official pages: Work Health and Safety (Managing Risks of Plant in the Workplace) Code of Practice 2015 (instrument dated 17 December 2015).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use.",
+    "UNCONFIRMED: state and territory licence, competency and environmental requirements for industrial degreasing and plant work were not sourced for this lesson.",
+    "This lesson does not grant any licence, certificate, plant-safety approval or specialist authority, and completing it does not make a cleaner a specialist."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/hardfloor-photo-d1d55e00-01.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/hardfloor-photo-d1d55e00-02.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

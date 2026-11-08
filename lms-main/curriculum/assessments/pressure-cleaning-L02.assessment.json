@@ -1,0 +1,37 @@
+{
+  "lessonId": "pressure-cleaning-L02",
+  "knowledgeAnswers": [
+    {
+      "id": "pressure-cleaning-L02-K01",
+      "correctIndex": 1,
+      "rationale": "The alert gives safety glasses and a face shield as the minimum for the operator controlling the water flow [WSV-JET]."
+    },
+    {
+      "id": "pressure-cleaning-L02-K02",
+      "correctIndex": 1,
+      "rationale": "The Queensland alert recommends a safety switch or portable RCD and gives a test interval [QLD-RCD]. The alert concerns inflatable balls, so the points apply here by analogy."
+    },
+    {
+      "id": "pressure-cleaning-L02-K03",
+      "correctIndex": 1,
+      "rationale": "A change in wind is a stop trigger. The response is to stop, make the area safe, reposition the spray and reassess."
+    }
+  ],
+  "practicalCriteria": [
+    "Completes a written pre-start risk assessment for a sample site that names injection, slip, pedestrian, debris, wind, traffic, overhead electricity and environment hazards, each with a control, a responsible person and a stop trigger.",
+    "Marks the exclusion zone and the access route on a sample site plan, and identifies the pedestrian and child exposure for that plan.",
+    "Lists the PPE for the operator and bystanders from the WorkSafe Victoria alert, and states where a portable RCD is required."
+  ],
+  "passRule": "Assessor review of the risk assessment and site plan for the sample site, and a briefing observed, with all three practical criteria met. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Signed pre-start risk assessment",
+    "Annotated site plan with exclusion zone and access route",
+    "Briefing record with the team and on-site contact"
+  ],
+  "stopWorkCriteria": [
+    "A hazard in the outcome list is not assessed before setup",
+    "Overhead line position is unknown or the clearance cannot be checked",
+    "The exclusion zone cannot be held, or a pedestrian enters it",
+    "Wind or weather changes the spray path and work continues"
+  ]
+}

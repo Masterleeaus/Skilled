@@ -1,0 +1,157 @@
+{
+  "id": "BPX-01",
+  "title": "Reading a profit and loss forecast",
+  "courseSlugs": [
+    "handyman",
+    "deck",
+    "flatpack",
+    "locksmith",
+    "painting",
+    "plastering",
+    "tiling"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners and planners of handyman and property trade businesses who are building a first or second year projection",
+  "prerequisites": [
+    "MP-04"
+  ],
+  "learningOutcomes": [
+    "Build a profit and loss projection in the order sales, direct costs, gross profit, overheads, operating profit, interest, net profit",
+    "Calculate gross margin and net profit margin from the lines above them and state the sales base used",
+    "Identify which lines in a projection are facts, targets or assumptions, and which need a tax or accountant check"
+  ],
+  "instruction": [
+    {
+      "heading": "What the statement answers",
+      "body": "A profit and loss projection shows what the business expects to earn and spend over a period, and what remains after each layer of cost is taken off. Work through it line by line, beginning at sales. Sales come first, then the cost of doing the work, then the running costs of the business, then interest and tax. Every subtotal should be reproducible from the lines directly above it. If a subtotal cannot be recalculated from its inputs, the statement has a fault, however tidy it looks. The statement answers one question for the owner: after the work is paid for and the business is run, how much is left to pay the owner and to repay debt? It does not show cash timing, which is a separate question covered in the cash planning lessons."
+    },
+    {
+      "heading": "Build the layers in order",
+      "body": "Start with sales for the period. Where the business is registered for GST, sales should be shown net of the GST collected, because that GST belongs to the Australian Taxation Office rather than to the business. The treatment should be confirmed with an accountant. Subtract direct costs, meaning materials and subcontractor labour that go into a specific job, to reach gross profit. Divide gross profit by sales to get gross margin. Next subtract overheads: wages, vehicle running costs, insurance, storage, phone and software, marketing and depreciation on tools and vehicles. Depreciation is a non-cash charge that spreads the cost of a long-life asset over its working life, so it reduces profit without a payment leaving the bank in that month. The result after overheads is operating profit. Subtract interest on borrowing to reach profit before tax, then subtract tax to reach net profit. Net profit margin is net profit divided by sales."
+    },
+    {
+      "heading": "Labour appears in more than one place",
+      "body": "Employee wages, with the on-costs that attach to them, are an expense line. The owner's own living income is treated differently. In a sole trader structure, the owner's drawings are not a business expense in the same way, so the projection shows the profit available to the owner instead. A company structure pays its owner through salary or dividends, and the lines change again. Check them with a registered tax agent before the projection is used for pricing, borrowing or hiring decisions. Keep owner pay visible as its own line so that the person reading the plan can see what the business would have to earn to support the owner."
+    },
+    {
+      "heading": "Test the statement against itself",
+      "body": "A projection that looks reasonable can still be inconsistent. Three tests catch most faults. First, check that gross margin changes only when direct cost or price assumptions change. Second, if sales rise while fixed overheads stay the same, net margin should rise, and the amount of the rise should agree with the arithmetic. Third, compare the statement with the break-even point built from the same figures. Break-even revenue is fixed costs divided by the contribution margin, which is the share of each sales dollar left after variable costs. If the statement shows a loss at sales above that point, or a profit below it, one of the inputs is wrong. The method for reconciling conflicting break-even figures is taught in “Break-even analysis with a worked calculation”, and it applies directly here."
+    }
+  ],
+  "procedure": [
+    "Write the period on the first line of the statement and the basis of every figure (for example, GST-exclusive, annual, first year).",
+    "Enter sales for the period from your pricing and expected job count, and label the sales figure as a target or an assumption.",
+    "Enter direct costs for materials and subcontract labour, using the cost per job from your quotes, and calculate gross profit.",
+    "Calculate gross margin as gross profit divided by sales and write it beside the line.",
+    "Enter each overhead line separately, including depreciation, and total them.",
+    "Calculate operating profit, then enter interest, then calculate profit before tax.",
+    "Leave tax blank until a tax agent confirms the treatment, then calculate net profit and net margin.",
+    "Run the three consistency tests and record any line that failed, with the reason and the fix."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Hypothetical figures, not market data: a two-person handyman business, with the owner and one labourer, projects annual sales of $240,000 excluding GST. Materials and subcontract labour for those jobs total $72,000. Wages and on-costs for the labourer are $110,000 across the year, vehicle running costs $14,000, depreciation on tools and the van $6,000, insurance $4,500, phone and software $2,400, marketing $3,000 and storage rent $4,800.",
+      "decisionPrompt": "Build the statement in order. What are the gross margin and the net profit margin before tax, and which line would you check first if the owner wants to hire a second labourer?",
+      "reasoning": "Gross profit is $168,000, which gives a gross margin of 70 percent. Overheads total $144,700, so operating profit is $23,300. After interest of $1,200 the profit before tax is $22,100, a margin of about 9.2 percent on $240,000. Tax is left blank until it is confirmed. Before a second labourer is added, the owner should check the wage line against the margin: a new wage of similar size would take most of the profit before tax, so the price per job or the job count must rise first. The figures are invented to show the method."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet or the business plan template with a profit and loss tab",
+    "Your last twelve months of invoices, supplier bills and wage records, where available",
+    "No physical PPE is required for this lesson"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing GST-inclusive client prices with GST-exclusive costs in the same statement.",
+      "prevention": "Put a basis label on every figure and convert the sales line before calculating any margin."
+    },
+    {
+      "error": "Reading gross margin as profit, and quoting it as if it were the money the owner keeps.",
+      "prevention": "Always state the net profit margin beside the gross margin, and say which sales figure both use."
+    },
+    {
+      "error": "Leaving depreciation out because no cash leaves the bank for it in the month.",
+      "prevention": "Include a depreciation line for tools and vehicles so that the statement reflects the cost of using them."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "GST treatment in a profit and loss: the ATO states that a business with GST turnover of $75,000 or more must register for GST (ATO GST registration page, checked 2026-11-02).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Use current ATO and state revenue office rates, not sample plan rates.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson teaches how to read and build a projection. It does not give tax, accounting or financial advice, and completing it does not qualify the learner to prepare statements for lenders or the tax office.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every subtotal recalculates from the lines above it, with no hidden figures",
+    "Each sales, cost and overhead line is labelled as a fact, a target or an assumption",
+    "Gross margin and net profit margin are both stated, with the sales base named",
+    "Tax, superannuation and payroll lines are left blank where no current check exists"
+  ],
+  "documentationEvidence": [
+    "A saved one-year profit and loss projection with a basis note on each line",
+    "A list of the consistency tests run, with the result of each test",
+    "A note of the GST and tax questions to confirm with a registered tax agent"
+  ],
+  "summary": [
+    "Work a profit and loss from its first line downward, and check every subtotal by recalculating it",
+    "Gross margin shows how well prices cover direct costs; net profit margin shows what the business keeps",
+    "Owner pay, employee wages, depreciation and tax are separate decisions and need separate lines",
+    "A statement that does not reconcile with its own break-even figures must be fixed before it is used"
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:business.name}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BPX-01-K01",
+      "question": "In a profit and loss forecast, what does gross margin measure?",
+      "options": [
+        "Net profit divided by total assets of the business at the year end date today",
+        "Total overheads divided by the number of jobs done in the whole month",
+        "Gross profit divided by sales, after the direct costs of delivering the work",
+        "The cash in the bank on the last day of the month or the year"
+      ]
+    },
+    {
+      "id": "BPX-01-K02",
+      "question": "A registered trade business expects $110,000 of work, plus GST, over the year. Which sales figure belongs on the first line of the statement?",
+      "options": [
+        "$110,000, the sales figure net of GST, with the treatment confirmed by an accountant",
+        "$121,000, the total the clients will pay for the whole year including GST",
+        "$11,000, the GST portion alone for the whole year at the rate of ten percent",
+        "$231,000, because the GST is counted twice in the total, the sales and the invoice"
+      ]
+    },
+    {
+      "id": "BPX-01-K03",
+      "question": "Which check best shows that a projection is internally inconsistent?",
+      "options": [
+        "The business name is repeated on every page of the plan, the cover sheet, the index and the footers",
+        "Net profit is positive even though sales sit below the break-even revenue built from the same figures",
+        "The sales figure is rounded to the nearest hundred dollars in the table, the summary and the chart",
+        "The plan uses one font throughout the whole document, the tables, the charts and the cover"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Handyman business plan sample (0db29e53-657849233-handyman-business-plan.txt), section Projected profit and loss and the expense schedule; rights: not held by user (vendor sample, vendor watermark present); reworded (no copying). The sample's US figures and its internal inconsistencies were noted; no figure is used.",
+    "Cleaning company business plan sample (7886acdc-603394611-cleaning-company-business-plan.txt), section Financial plan; rights: not held by user (vendor sample); reworded (no copying). Structure only.",
+    "MP-04 Break-even analysis (reconciliation method), cross-checked against this lesson's consistency tests.",
+    "ATO, GST registration page: https://www.ato.gov.au/api/public/content/0-bbbe7313-ba3c-44f8-a106-3b4081584b25, checked 2026-11-02; $75,000 GST turnover threshold confirmed.",
+    "GST presentation on a profit and loss, owner pay and super or payroll tax treatment: UNCONFIRMED (not checked against a current source in this draft)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

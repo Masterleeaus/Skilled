@@ -1,0 +1,180 @@
+{
+  "id": "F18-L06",
+  "title": "Kit handover and reconciliation",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "base",
+  "lessonType": "W",
+  "estimatedMinutes": 25,
+  "audience": "Any worker or supervisor who hands a kit over at the end of a job or shift, or reconciles the kit against the stock register, in any Titan Academy business.",
+  "prerequisites": [
+    "F18-L02",
+    "F10-L05"
+  ],
+  "learningOutcomes": [
+    "Reconcile the kit against the job map and the stock register at the end of a job or shift.",
+    "Hand over the kit with the state of each item, any damage and any product used.",
+    "Record any loss, damage or shortage and resolve it."
+  ],
+  "instruction": [
+    {
+      "heading": "Reconcile at the end",
+      "body": "At the end of a job, check the kit against the job map and the stock register. Account for every tool, piece of equipment, product, protective item and document. Note the products used, the quantity remaining and any product that is damaged, leaking or expired. Check that the SDS for each product is still in the kit and that no product has been moved to a place where it is not stored safely. A kit that is not reconciled at the end of the job becomes a loss that nobody can trace."
+    },
+    {
+      "heading": "Hand over clearly",
+      "body": "Hand the kit to the next person or to the store with a written list of its contents and its state. Tell the receiver about any item that is damaged, low, expired or needs cleaning, and any product that is leaking or opened. The receiver should confirm the count and the state, and sign or record the handover. Do not leave the kit in the van or at the customer's premises without a handover."
+    },
+    {
+      "heading": "Record loss, damage and shortage",
+      "body": "Record any loss, damage or shortage with the item, the quantity, the time, the job and the likely cause. A missing product must be reported, because it may be a safety issue if it has been taken or spilled. A damaged item must be removed from use and checked. Investigate repeated shortages to find the cause, such as a missing item from the map, a theft risk or a packing practice that causes damage."
+    }
+  ],
+  "procedure": [
+    "At the end of the job, check the kit against the job map and the stock register.",
+    "Account for every tool, equipment item, product, protective item and document.",
+    "Check the SDS for each product is in the kit and each product is stored safely.",
+    "Hand the kit over in writing, with the state of each item and any damage or leak.",
+    "Get the receiver to confirm the count and the state.",
+    "Record any loss, damage or shortage, and investigate repeated shortages."
+  ],
+  "workedExamples": [
+    {
+      "situation": "At the end of a job, a spray bottle of product is missing from the kit, and the job record shows it was used on the bathroom.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Check the job area and the van for the bottle. If it cannot be found, record it as a missing product, with the job and the time, and tell the supervisor. Check the product's use record and SDS to confirm no spill or exposure has occurred. Do not assume it has been used up."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Kit list and job map",
+    "Stock register",
+    "Handover record"
+  ],
+  "commonErrors": [
+    {
+      "error": "Leaving the kit in the van without reconciliation.",
+      "prevention": "Reconcile at the end of every job and before the van is left."
+    },
+    {
+      "error": "Hiding a missing product because it seems minor.",
+      "prevention": "Record every missing product and report it, because it may be a safety issue."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A missing hazardous product may be a safety issue and must be recorded in the hazardous chemicals register, as Safe Work Australia's register guidance requires the register to be kept up to date.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every kit is reconciled at the end of each job against the map and the register.",
+    "Every handover is written and confirmed by the receiver.",
+    "Every loss, damage or shortage is recorded and investigated if repeated."
+  ],
+  "documentationEvidence": [
+    "Kit reconciliation record with the count, the state and any discrepancy.",
+    "Handover record with the receiver's confirmation.",
+    "Loss or damage record with the cause and the action taken."
+  ],
+  "summary": [
+    "Reconcile the kit at the end of every job.",
+    "Hand over in writing and get the receiver to confirm.",
+    "Record and investigate any loss, damage or shortage, especially of products."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:materials.sds_links}}",
+    "{{business:procedures.completion_checklist}}",
+    "{{business:staff.supervisor_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F18-L06-K01",
+      "question": "A product is missing after a job. What is correct?",
+      "options": [
+        "Assume it was used up and say nothing and carry on with the next job",
+        "Replace it from another job's kit without recording it and use it on the next job",
+        "Search, then record it as missing with the job and time, and tell the supervisor."
+      ]
+    },
+    {
+      "id": "F18-L06-K02",
+      "question": "What must a kit handover include?",
+      "options": [
+        "The state of each item, any damage or leak, and the receiver's confirmation.",
+        "Only the total number of items and the names of the staff on the job",
+        "Only the time it was handed over and the name of the person who packed it"
+      ]
+    },
+    {
+      "id": "F18-L06-K03",
+      "question": "What does the lesson say the kit must be checked against at the end of a job?",
+      "options": [
+        "The weather forecast",
+        "The client's invoice only",
+        "The job map and the stock register",
+        "The previous week's stock list only"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (Safe Work Australia, no page date shown; checked 2026-11-02; register kept up to date)",
+    "Titan Academy base source draft F18-L06 is not in the ready set; written from the catalogue description. Missing-product reporting thresholds are UNCONFIRMED in this lesson."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemicals register (Model WHS Laws, Safe Work Australia)",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "no date shown",
+      "checked": "2026-11-04",
+      "covers": "States that a register of hazardous chemicals used, handled or stored at the workplace is prepared; its information must be up to date and available to workers and emergency services at any time; the register must include the current SDS for each listed chemical; safety information must be available for both hazardous and non-hazardous chemicals. Does not give missing-product reporting thresholds. Publisher: Safe Work Australia."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,37 @@
+{
+  "lessonId": "WAH-01",
+  "knowledgeAnswers": [
+    {
+      "id": "WAH-01-K01",
+      "correctIndex": 1,
+      "rationale": "The position and the route to it form part of the height task. The top step is not a standing place, and the ladder rating is only one of the checks."
+    },
+    {
+      "id": "WAH-01-K02",
+      "correctIndex": 0,
+      "rationale": "Falling through an opening or a surface that cannot bear weight is one of the main routes. The other options are not elevated work."
+    },
+    {
+      "id": "WAH-01-K03",
+      "correctIndex": 1,
+      "rationale": "Trigger figures are set by jurisdiction and by the rule being applied. The Australian rule must be checked, and a foreign figure is not evidence of it. Australian law does set some heights for specific rules, such as the NSW construction rule."
+    }
+  ],
+  "practicalCriteria": [
+    "Lists every elevated position and its route for a supplied job sheet, with the fall type for each",
+    "States the trigger rule used and leaves out any state figure without a source",
+    "Names at least three falling-object risks and the control for the area below each one"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check record (all three checks)",
+    "Hazard entry or job plan produced for a supplied scenario",
+    "Assessor observation of the scenario answer"
+  ],
+  "stopWorkCriteria": [
+    "A position with a possible fall and no control in place means the scenario is not started",
+    "An untested trigger figure used as an Australian rule means the entry is returned"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

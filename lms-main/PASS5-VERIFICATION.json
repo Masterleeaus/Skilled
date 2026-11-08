@@ -1,0 +1,18 @@
+{
+  "pass": 5,
+  "base": "Titan-Academy-TypeScript-Upgrade-Pass4-Cumulative.zip",
+  "changes": [
+    "structured instructional lesson renderer",
+    "safe external resource URLs",
+    "nested procedures, lists, examples, knowledge checks and assessment guidance",
+    "learner player integration"
+  ],
+  "new_files": [
+    "lms-main/apps/frontend/src/components/CurriculumLessonBody.tsx",
+    "lms-main/tests/pass5-lesson-renderer.test.mjs"
+  ],
+  "modified_files": [
+    "lms-main/apps/frontend/src/components/SharedCurriculumPlayer.tsx"
+  ],
+  "tests": "node tests/pass5-lesson-renderer.test.mjs"
+}

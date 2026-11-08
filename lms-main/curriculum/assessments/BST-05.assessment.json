@@ -1,0 +1,37 @@
+{
+  "lessonId": "BST-05",
+  "knowledgeAnswers": [
+    {
+      "id": "BST-05-K01",
+      "correctIndex": 2,
+      "rationale": "An index of 1.50 means the month usually runs about half as much again as an average month. Option 1 confuses the index with a job count, and option 2 reverses the direction."
+    },
+    {
+      "id": "BST-05-K02",
+      "correctIndex": 0,
+      "rationale": "Adjusting for the season first stops predictable highs and lows from distorting the level of work. Option 2 removes the step the method depends on, and option 3 is untrue; a moving average can use any number of months."
+    },
+    {
+      "id": "BST-05-K03",
+      "correctIndex": 1,
+      "rationale": "The forecast is the underlying level multiplied by the month's index: 60 multiplied by 1.50 equals 90 jobs. Option 1 divides instead of multiplying, and option 3 leaves out the seasonal index."
+    }
+  ],
+  "practicalCriteria": [
+    "Given at least two years of monthly job counts (the learner's own or a supplied practice set), the learner calculates a seasonal index for each month with the working shown.",
+    "The learner produces an adjusted three-month level and a forecast for the next month, with each step recorded and the result checked against the average month.",
+    "The learner compares a past forecast with the actual count, states the gap in jobs and states whether the underlying level needs updating."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Index table listing the months, years used, monthly averages and seasonal indices",
+    "Forecast log with the forecast date, forecast, actual count and gap",
+    "Written note on whether the underlying level is rising, falling or steady",
+    "Assessor observation of the learner explaining the forecast calculation",
+    "Knowledge check attempt record"
+  ],
+  "stopWorkCriteria": [
+    "Stop and do not use a forecast to commit staff rosters or customer bookings until the indices have been checked against at least two years of records.",
+    "Stop if the seasonal pattern being used comes from another region or trade and has not been checked against the business's own records."
+  ]
+}

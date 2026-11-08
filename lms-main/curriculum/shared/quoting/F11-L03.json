@@ -1,0 +1,175 @@
+{
+  "id": "F11-L03",
+  "title": "Price for sustainable delivery",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Any owner or person who prepares quotes and sets prices for a service business in any Titan Academy business.",
+  "prerequisites": [
+    "F11-L01",
+    "F11-L02"
+  ],
+  "learningOutcomes": [
+    "Build a price from the true cost of delivering the job, including labour, materials, travel, equipment and overheads.",
+    "Explain why a price below the cost of safe delivery is not sustainable.",
+    "Record the pricing basis so that every quote can be checked and approved."
+  ],
+  "instruction": [
+    {
+      "heading": "Count the full cost of the job",
+      "body": "A job's price must cover everything needed to deliver it safely and to the standard. Count the labour time, including set-up, travel, the site induction, the handover and the administration. Count the materials and products used, the wear on equipment, the cost of protective equipment, the cost of waste disposal, the insurance and licences the work requires under the rules where you operate, and a share of overheads such as the vehicle, phone, software and training. Test the price against all overheads, not only the job's materials and labour, because card fees, insurance and software are easy to miss. Unpaid time, such as re-quoting or chasing payment, is also a cost of the business. A price that counts only the product and the hour on site will not sustain the business."
+    },
+    {
+      "heading": "Price for the job, not the hour alone",
+      "body": "Pricing by the hour is simple, but it rewards slow work and hides the cost of travel and set-up. Pricing by the job, by the area or by the unit is often clearer for the customer, provided the scope is described and the cost basis is known. For routine work with a known scope, a flat price is usually easier to set. Where the scope or time may shift, an hourly basis is the safer choice. Choose the method that matches the service and record it. Where a job needs extra time for safety controls, such as a walk-through, an access permit or a safe method, that time must be in the price. A safe method is not optional and must not be discounted away."
+    },
+    {
+      "heading": "Minimum charges and the basis for discounts",
+      "body": "Set a minimum charge that covers the cost of travel and set-up for a short job. A minimum is easier to defend when its contents are written down, such as travel inside the service area and a fixed block of on-site time. Record the basis for any discount, such as a repeat contract or a block booking, and check that the discounted price still covers the full cost of delivery. Do not discount the safety controls, the qualified labour or the licensed work. Any price that is below the calculated cost must be approved and recorded with the reason."
+    }
+  ],
+  "procedure": [
+    "Calculate the labour time, including set-up, travel, induction, handover and administration.",
+    "Add the materials, products, equipment wear, protective equipment, waste disposal and required licences or insurance.",
+    "Add a share of overheads and an allowance for unpaid time.",
+    "Choose the pricing method for the service and record the basis.",
+    "Check any minimum charge and any discount against the full cost.",
+    "Record any price below the calculated cost with the approval and the reason."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A customer asks for a bathroom clean for a price that covers only the product and one hour on site.",
+      "decisionPrompt": "How do you respond?",
+      "reasoning": "Calculate the full cost: travel, set-up, induction, protective equipment, waste, and a share of overheads. If the price cannot cover these, explain the scope that the price supports, offer a different scope or a minimum charge, and record any approved discount with its reason. Do not reduce the safety controls to meet the price."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Pricing worksheet or calculator",
+    "Cost records for products and equipment"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing only the product and the hour on site.",
+      "prevention": "Count travel, set-up, safety controls, waste, licences and overheads in the price."
+    },
+    {
+      "error": "Cutting the safety controls to meet a low price.",
+      "prevention": "Treat safety controls as a fixed cost of the job, not a discretionary item."
+    },
+    {
+      "error": "Giving a discount without checking the price still covers full delivery cost.",
+      "prevention": "Check every discount against the full cost and record the basis."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pricing should include any licence, registration, permit or insurance the work requires, under the rules where you operate. Where work needs a licence the business does not hold, do not quote it until the work is referred or the licence is obtained. Licence rules differ by state or territory, so check the local rule.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every quote shows the calculated cost basis, with any discount and its approval recorded.",
+    "No quote omits the cost of the safety controls or the licences the work requires.",
+    "Every price below the calculated cost is approved and recorded."
+  ],
+  "documentationEvidence": [
+    "Pricing worksheet for each quote, showing the cost components and the method.",
+    "Record of any discount or below-cost price, with the approval and the reason."
+  ],
+  "summary": [
+    "Price the full cost of delivering the job safely, not only the product and the hour.",
+    "Choose a pricing method that matches the service and record the basis.",
+    "Record any discount or below-cost price with its approval."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F11-L03-K01",
+      "question": "Which items belong in the cost of a job?",
+      "options": [
+        "Labour including set-up and travel, materials, protective equipment, waste, licences and a share of overheads.",
+        "Only the product used and nothing else for the job, not even the bins or the travel time to the site",
+        "Only the hour spent on site and nothing else for the crew, the van or the travel time at all"
+      ]
+    },
+    {
+      "id": "F11-L03-K02",
+      "question": "A customer asks for a discount that would not cover safe delivery. What is correct?",
+      "options": [
+        "Give the discount to win the job even though it leaves no margin for the work and the crew at all",
+        "Explain the scope the price supports, offer an alternative, and record any approved discount with its reason.",
+        "Cut the safety controls to make the price work and skip the protective gear for the crew"
+      ]
+    },
+    {
+      "id": "F11-L03-K03",
+      "question": "Which labour time does the lesson say to count in a job's cost?",
+      "options": [
+        "Only the time on site",
+        "Only the hours of the owner",
+        "None, since labour is fixed",
+        "Set-up, travel, the site induction, the handover and the administration"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Titan Academy base source draft F11-L03 is not in the ready set; written from the catalogue description. No prices, rates or cost figures are stated because none are approved; placeholders are used for the business's approved pricing.",
+    "Licence, registration, permit and insurance rules: depend on the state or territory and the work. Not sourced in this lesson; check the local rule before quoting.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown (Victorian source). Tactic used: test the price against total overheads.",
+    "Jobber Academy, 'Flat rate vs hourly', https://www.getjobber.com/academy/flat-rate-vs-hourly/, published 30 August 2024, last modified 7 August 2025. Tactic used: choose flat or hourly pricing by how predictable the job is.",
+    "Contractor+, 'Minimum Service Call Charge: A Contractor's Pricing Guide', https://contractorplus.app/blog/minimum-service-call-charge, dated 23 September 2026. Tactic used: write down what a minimum covers. Vendor blog; its figures are labelled illustrative and are not used."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

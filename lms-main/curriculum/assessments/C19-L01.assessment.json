@@ -1,0 +1,36 @@
+{
+  "lessonId": "C19-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "C19-L01-K01",
+      "correctIndex": 2,
+      "rationale": "Written authority, including what may be approved and the spending limit, is obtained before any access or approval is used. A verbal instruction does not authorise access or spending."
+    },
+    {
+      "id": "C19-L01-K02",
+      "correctIndex": 2,
+      "rationale": "Codes are kept in secure storage, access is limited to people who need them, and each holder is recorded. Open threads, notes and tenant packs all expose the code."
+    },
+    {
+      "id": "C19-L01-K03",
+      "correctIndex": 1,
+      "rationale": "Work above the approval limit goes to the owner for approval before it starts. Splitting a quote to avoid the limit, or approving urgent work without authority, breaks the authority rule."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated owner instruction with keys and no written limit, the worker identifies the missing written authority and records it as a required item before access or approval is used.",
+    "Given a simulated intake, the worker completes the intake fields, records the key and access holders, and shows where each access detail is stored.",
+    "Given a simulated request for a code from a contractor, the worker states that the code is not given until the owner's written authority covers it, and records the request."
+  ],
+  "passRule": "Assessor observes every practical criterion and records it as met or not met. The knowledge checks are not a practical pass. The minimum knowledge score is 80%, so all three checks must be correct.",
+  "evidenceRequired": [
+    "Completed intake form for a simulated property",
+    "Key and access register with holders and dates",
+    "Record of the simulated access request and the decision"
+  ],
+  "stopWorkCriteria": [
+    "Keys or codes are used without written authority",
+    "The spending limit or the approval route is not stated",
+    "Access details are sent to a person who does not need them for the task"
+  ]
+}

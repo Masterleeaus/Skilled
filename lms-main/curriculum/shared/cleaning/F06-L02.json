@@ -1,0 +1,142 @@
+{
+  "id": "F06-L02",
+  "title": "Zone and cloth segregation",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "strata"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners in residential, commercial, bond, short-stay and strata bathroom work.",
+  "prerequisites": [
+    "F06-L01"
+  ],
+  "learningOutcomes": [
+    "Assign dedicated cloths and tools to bathroom zones before work starts.",
+    "Explain why toilet tools must not be used on clean-touch surfaces.",
+    "Recover safely from a cross-zone mistake by segregating and re-cleaning."
+  ],
+  "instruction": [
+    {
+      "heading": "Why zones matter",
+      "body": "A bathroom has zones with different levels of contamination. The toilet bowl and floor around it are the most contaminated. Basins, taps, mirrors and shower screens are touched frequently, so they matter for hygiene and for appearance. If a toilet cloth is used on a basin tap, the soil from the toilet moves onto a surface people touch with their hands. Zone segregation keeps that transfer from happening, and it is the simplest control in a bathroom clean."
+    },
+    {
+      "heading": "Setting up the cloth system",
+      "body": "Before you start, assign dedicated cloths and tools to each zone according to the site colour code or written procedure. Colour coding is useful only when everyone on the site uses the same meaning, so never assume that a colour means the same thing at every business. Keep toilet brushes and toilet cloths in their own zone, separate from vanity tools, and keep floor tools separate from both. Store clean tools away from used tools and away from the bin."
+    },
+    {
+      "heading": "Working in order",
+      "body": "Work from cleaner zones toward dirtier zones where the site procedure allows. Clean mirrors and clean-touch surfaces first, then the basin and taps, then the shower, and finish with the toilet and the floor. Replace a cloth when it becomes visibly soiled, and always replace it when you move from a dirty zone to a clean one. Remove gloves when you change tasks, perform hand hygiene, and put on fresh gloves. Gloves are a barrier, not a replacement for hand hygiene."
+    },
+    {
+      "heading": "Recovering from a mistake",
+      "body": "If a toilet cloth touches a vanity handle, stop the sequence. Withdraw the cloth from use and place it in the designated dirty container. Tell the supervisor if the procedure requires it. Re-clean the affected surface with a clean tool, using the approved product, and then recheck it. Record what happened and what you did. The record matters because it shows the site that the control worked, and it lets the supervisor adjust the set-up if the mistake repeats."
+    }
+  ],
+  "procedure": [
+    "Confirm the site colour code or written procedure before opening the cloth bag.",
+    "Assign separate cloths and tools to toilets, basins, mirrors, showers and floors.",
+    "Work from cleaner surfaces toward dirtier surfaces unless the procedure says otherwise.",
+    "Replace a cloth when it becomes visibly soiled or after it has crossed zones.",
+    "Change gloves and perform hand hygiene when changing tasks.",
+    "If cross-contamination occurs, withdraw the item, re-clean the surface with a clean tool, and record the correction."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A toilet cloth is accidentally used on the vanity handle during a routine clean.",
+      "decisionPrompt": "What is your corrective action?",
+      "reasoning": "Withdraw the toilet cloth, place it in the dirty container, re-clean the vanity handle with a clean cloth and the approved product, tell the supervisor if the procedure requires it, and record the event."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Colour-coded or labelled cloths and tools for each zone, as set by the site procedure.",
+    "Dedicated toilet brush and toilet cloths, kept apart from other tools.",
+    "Gloves appropriate to the product in use, changed between zones.",
+    "Sealed dirty-tool container or bag."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using one cloth for the whole bathroom.",
+      "prevention": "Assign zones before starting and keep the cloths separate."
+    },
+    {
+      "error": "Assuming a colour means the same thing at every site.",
+      "prevention": "Check the site code or written procedure on arrival."
+    },
+    {
+      "error": "Treating gloves as a reason to skip hand hygiene.",
+      "prevention": "Perform hand hygiene every time you change tasks, even with gloves on."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Cleaning products used in zone work must be used according to the label and SDS. Product-specific handling is set by those documents rather than this lesson.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Where a cross-contamination event occurs in a food-adjacent or healthcare-adjacent setting, the site procedure and the applicable local rules apply.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Cloth and tool system set up before work starts, with each zone identified.",
+    "No cross-zone transfer during the simulated clean.",
+    "Intentional cross-zone mistake corrected with a documented recovery."
+  ],
+  "documentationEvidence": [
+    "Zone set-up confirmed against the site procedure.",
+    "Correction record for any cross-zone event, including the surface and time."
+  ],
+  "summary": [
+    "Each bathroom zone has its own cloths and tools.",
+    "Work from cleaner surfaces to dirtier ones.",
+    "Replace cloths and change gloves when moving between zones.",
+    "Correct a cross-zone mistake by segregating, re-cleaning and recording it."
+  ],
+  "businessFields": [
+    "{{business:procedures.task_steps}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F06-L02-K01",
+      "question": "Why should toilet cloths be kept away from vanity surfaces?",
+      "options": [
+        "They are less worn and should be kept for the vanity surfaces",
+        "They clean better when they are used for every surface",
+        "They can carry toilet soil onto surfaces that people touch"
+      ]
+    },
+    {
+      "id": "F06-L02-K02",
+      "question": "A site uses coloured cloths. What must you check on arrival?",
+      "options": [
+        "That the colour code matches the site procedure, because meanings can differ between sites",
+        "That the cloths are the newest in the cupboard and that they are the same brand as before",
+        "That the colours are the same as the last site you worked at and nothing else has changed since then"
+      ]
+    },
+    {
+      "id": "F06-L02-K03",
+      "question": "After a cross-zone mistake, what is the correct first action?",
+      "options": [
+        "Continue working and fix it at the end once the rest of the room is done",
+        "Withdraw the item from use, then re-clean the surface with a clean tool",
+        "Wash the cloth quickly and put it back in the same zone today"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/F06-L02.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory rules for cloth reuse and sanitising in healthcare-adjacent or food-adjacent settings.",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,31 @@
+{
+  "lessonId": "NEW-LCK-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-LCK-04-K01",
+      "correctIndex": 0,
+      "rationale": "Identity and written owner authority are verified before a key is cut. The job is refused and referred if either is missing."
+    },
+    {
+      "id": "NEW-LCK-04-K02",
+      "correctIndex": 1,
+      "rationale": "The register records the identifier, holder, dates and authority for each key."
+    },
+    {
+      "id": "NEW-LCK-04-K03",
+      "correctIndex": 2,
+      "rationale": "The lesson says to keep the register current and reconcile it at the end of each job."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated caller, the worker verifies identity against a simulated property record and records the authority relied on, or refuses the job."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Identity and authority check record",
+    "Key register entry"
+  ],
+  "stopWorkCriteria": [
+    "Identity or written owner authority cannot be verified"
+  ]
+}

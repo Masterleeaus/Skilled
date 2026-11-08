@@ -1,0 +1,21 @@
+{
+  "pass": 4,
+  "base": "Titan-Academy-TypeScript-Upgrade-Pass3-Cumulative.zip",
+  "created": [
+    "apps/frontend/src/lib/curriculum.api.ts",
+    "apps/frontend/src/components/SharedCurriculumPlayer.tsx"
+  ],
+  "modified": [
+    "apps/backend/src/modules/curriculum/curriculum.routes.ts",
+    "apps/frontend/src/app/student/courses/[slug]/page.tsx"
+  ],
+  "tests": {
+    "source_import_present": true,
+    "endpoint_exists": true,
+    "published_filter": true
+  },
+  "limitations": [
+    "No node_modules; frontend compile not executed",
+    "No PostgreSQL integration runtime"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "BP-05-hair",
+  "title": "Pricing by hours per project for Mobile hairdressing and barbering",
+  "courseSlugs": [
+    "hair"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Mobile hairdressers and barbers who quote a visit from the hours it takes, including the travel between clients, and who need a price that covers cost and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from your own costs and chargeable time",
+    "Estimate a mobile visit in hours, including set-up, clean-down and travel between clients",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "A mobile visit is mostly time: the set-up at the client’s place, the cut or colour, the clean-down, the drive to the next stop and the admin afterwards. Hours turn each of these into a cost. A flat price with no hours behind it hides the travel that eats a short day, and it cannot be defended when a client asks why a visit costs what it does."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the chargeable hours in that period. Costs include wages with on-costs if you employ staff, vehicle running costs, insurance, registration, clippers and blades, disposable items, products, booking software, phone and administration. If you pay yourself a wage, include it as a cost line so that the figure covers your own time. Use chargeable hours, not paid hours. Check the ATO’s current vehicle rate yourself before you claim vehicle costs; this lesson does not state one. If you employ staff, the Hair and Beauty Industry Award 2020 sets minimum rates. It covers hairdressing and, in part, barbering (shaving and beard trimming), so check which applies. Illustrative figure only: $55 AUD an hour."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each visit into tasks: the cut or colour, set-up, clean-down, travel to the next stop and the time to write up the booking. Estimate each task at a standard speed and record it as a named line. Add an allowance for delays outside your control, such as a late client, a parking problem or weather. Xero Australia gives a range of 10 to 20 per cent added to job estimates for unexpected work (3 September 2026). That is a general range, not a trade benchmark, so size your own allowance from your records. After each visit, record the actual minutes and the reason for any difference."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the visit. Divide that cost by one minus your target margin to get the price, which gives a margin on price rather than a mark-up on cost. Add a margin that reflects your target and the risk, such as a hard-to-reach address or a tight schedule. Apply your minimum charge. Once you are registered for GST, include GST in the price; the ATO gives a $75,000 GST turnover threshold for registration (ATO, Registering for GST, updated 14 September 2026)."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote should state the scope, the hours or price basis, the travel line, the exclusions, what the client must provide, and how long the quote is valid. Do not show your internal cost per hour unless your policy says to. Record every change to the scope, such as a longer cut or extra colour, and re-quote before the work starts. A quote with no exclusions invites disputes."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual minutes for at least the first ten visits of each type. Carters Trade Leader, a New Zealand publisher, makes a general point: use the gap between quoted and actual labour to correct the next quote (1 October 2025). If the variance is regularly above your threshold, change the standard time, the margin or the scope rules. A method is finished when your actual minutes match your quoted minutes closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year’s total business costs and the chargeable hours achieved in the same period.",
+    "Divide total costs by chargeable hours to get the cost per productive hour, and include your own wage as a line if you pay one.",
+    "Break each visit into tasks and estimate each task time as a range.",
+    "Add set-up, clean-down and travel between clients as named lines.",
+    "Multiply total hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy and the minimum charge.",
+    "Write the quote with scope, hours basis, travel line, exclusions, client inputs and validity.",
+    "Record actual minutes after each visit and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. A mobile barber visits three clients in one suburb for a 45-minute cut each. Set-up and clean-down take 10 minutes per client, and there is 15 minutes of travel between each of the two stops. The cost per productive hour is $55 AUD (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the cost of the run, what is the price with a 25 per cent margin on price, and what changes if one cut runs 20 minutes over?",
+      "reasoning": "The hours are 3 cuts of 45 minutes (2.25 hours), 3 set-ups of 10 minutes (0.5 hours) and 2 travel legs of 15 minutes (0.5 hours), so 3.25 hours in total. The cost is 3.25 multiplied by $55 AUD, which is $178.75 AUD. A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $238.33 AUD. A 20-minute overrun adds about $18.33 AUD of cost, and that is recovered only if the quote’s terms allow the extra time to be charged. Check the price against your minimum charge and your HBM-12 base rate before you send the quote."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each visit, with estimated and actual columns",
+    "A timer or phone clock for set-up, cut and clean-down minutes",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, equipment, consumables, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel, set-up and clean-down time",
+      "prevention": "Add these as named lines on every quote, including the travel between clients."
+    },
+    {
+      "error": "Quoting with no exclusions",
+      "prevention": "List what is excluded, what the client provides, and the access assumptions, such as parking and power."
+    },
+    {
+      "error": "Never comparing estimates with actual minutes",
+      "prevention": "Record actual minutes after each visit and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. Misleading statements about prices are prohibited (ACCC, Setting prices: what’s allowed, 15 July 2026). The ACCC’s 2015 drip-pricing case was about online fees, so applying it to a mobile travel fee is an inference. State or territory fair-trading rules also apply and differ between states and territories.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Award coverage: the Hair and Beauty Industry Award 2020 (MA000005) covers hairdressing and part of barbering. The ordinary hourly rates read from the award page were $27.81 (Level 1) and $29.45 (Level 3). These were extracted from the page, so confirm the effective date and the full rates before use. The award does not address mobile work directly, and clause 20.9 concerns travel to a place other than the usual workplace, so check it in full. Massage is not covered by the sources read.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, travel line, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from your own records and dated.",
+    "Actual minutes are recorded for at least the first ten visits of each type and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, travel line, exclusions and validity",
+    "Visit time log with estimated and actual minutes",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make a mobile visit visible, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Travel, set-up and clean-down are named lines, not hidden extras.",
+    "Compare estimates with actual minutes, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-K01",
+      "question": "Which costs belong in the cost per productive hour?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the client pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of competitors in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, equipment, consumables, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-K02",
+      "question": "A cut estimated at 45 minutes takes 70 minutes. What is the right response?",
+      "options": [
+        "Record the actual minutes, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid and the cut is finished",
+        "Reduce paid hours for the barber on the next visit and skip the morning break",
+        "Raise the price for this client's next visit only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-K03",
+      "question": "Why does a quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client and to keep the rates a secret from the crew",
+        "To make the quote longer and to fill up the page with more text and words for the client",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the client's expectations and to make the job seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Team 4 pricing-hours research (/home/claude/tasks/team4-R-pricing-hours-tactics.md) and personal-services research for hair (/home/claude/tasks/team4-V-personal-services-a.md), both 2026-11-09. Only sources read in those files are listed.",
+    "Hair and Beauty Industry Award 2020 (MA000005), Fair Work Commission, https://awards.fairwork.gov.au/MA000005.html, variations shown with effect from 1 July 2026. Supports: award coverage for hairdressing and part of barbering; ordinary rates Level 1 $27.81 and Level 3 $29.45, extracted from the page and to be confirmed.",
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Supports: on-costs such as leave and superannuation belong in the hourly cost.",
+    "ACCC, 'Setting prices: what’s allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements prohibited.",
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, 3 September 2026. Supports: divide by billable hours rather than paid hours; a 10 to 20 per cent allowance for unexpected work.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, 1 October 2025. New Zealand publisher; general method only.",
+    "ATO, 'Registering for GST', https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst, last updated 14 September 2026. Supports: $75,000 GST turnover threshold; GST is added to the price once registered.",
+    "Personal services guide (Consumer Victoria and ACCC), 2013, https://www.consumer.vic.gov.au/library/publications/businesses/fair-trading/personal-services-an-industry-guide-to-the-australian-consumer-law.pdf. Background only; not used for any figure.",
+    "Gaps: the ATO cents-per-kilometre vehicle rate was not retrieved; the mobile travel treatment under the award is not confirmed; no Australian operator price list for mobile hairdressing was found."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

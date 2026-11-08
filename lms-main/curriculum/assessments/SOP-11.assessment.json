@@ -1,0 +1,40 @@
+{
+  "lessonId": "SOP-11",
+  "knowledgeAnswers": [
+    {
+      "id": "SOP-11-K01",
+      "correctIndex": 1,
+      "rationale": "The test label and the condition of the plug, flex and casing are checked before a spray buffer is used. Whether it spins is not a safety check."
+    },
+    {
+      "id": "SOP-11-K02",
+      "correctIndex": 1,
+      "rationale": "Darker pads are more abrasive, so pad choice follows the manufacturer's guide and the task."
+    },
+    {
+      "id": "SOP-11-K03",
+      "correctIndex": 2,
+      "rationale": "A damaged flex is a fault. The machine is tagged, unplugged and reported. Taping the scuff or running at a lower speed both leave the fault in use."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied spray buffer, the learner completes the electrical pre-use check and the pad check, and records the test label date.",
+    "Given a supplied set of pads and the manufacturer's colour guide, the learner selects the pad for a stated task and explains the choice.",
+    "The learner puts on gloves and eye protection, and confirms the socket is off before plugging in a supplied machine, observed by the assessor.",
+    "The learner switches the socket off before unplugging, and tags a supplied machine with a planted flex fault and reports it.",
+    "Given a supplied spray buffer and a marked test area, the learner follows the service sequence in the order written in the procedure, observed by the assessor."
+  ],
+  "passRule": "80% on knowledge checks (three questions, so all three must be correct to reach 80%; flagged for review). Practical sign-off covers the pre-use, PPE, connection and service sequence criteria. Practical sign-off is separate from the quiz.",
+  "evidenceRequired": [
+    "Completed knowledge checks",
+    "Assessor observation record for each practical criterion",
+    "Pre-use check record for the machine and pad",
+    "Fault tag and report for the planted fault"
+  ],
+  "stopWorkCriteria": [
+    "Learner plugs in or unplugs a spray buffer with the socket switched on",
+    "Learner uses a machine with a damaged flex or an expired test label",
+    "Learner mixes two products, or uses a product not approved for the surface",
+    "Learner works without eye protection while a product is in use"
+  ]
+}

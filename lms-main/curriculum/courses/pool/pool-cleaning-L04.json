@@ -1,0 +1,207 @@
+{
+  "id": "pool-cleaning-L04",
+  "title": "Disinfection chemistry and pH interpretation",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 50,
+  "audience": "Pool technicians and operators' staff who interpret chemistry results and carry out operator-authorised dosing, in any state or territory",
+  "prerequisites": [
+    "pool-cleaning-L03",
+    "F03-L01"
+  ],
+  "learningOutcomes": [
+    "Explain why pH controls the effectiveness of pool chlorine",
+    "Interpret a set of test results and identify which reading drives the next action",
+    "Apply the operator plan's order of adjustment, not a memorised sequence",
+    "Identify incompatible products and keep them separated as the SDS directs"
+  ],
+  "instruction": [
+    {
+      "heading": "Pool disinfection is a chemical system",
+      "body": "Chlorine-based sanitisers work by forming chemicals that inactivate microorganisms in the water. Their effectiveness depends on several linked factors: pH, the amount of organic and other contamination, the level of stabiliser in the water, temperature, and the time the water is in contact with the chemical. Changing one factor shifts the others. A pool that looks clear can still be under-treated, and a pool that looks cloudy is not always a problem with chlorine alone. Treat the water as a system, and use the operator plan to decide the target ranges and actions. Do not use numbers from memory."
+    },
+    {
+      "heading": "Reading the results together",
+      "body": "A single test value means little on its own. Free chlorine tells you how much active sanitiser is available. Combined chlorine indicates that the sanitiser has reacted with contamination; a high combined reading points to a load that needs a different response from simply adding more sanitiser. The pH tells you how much of the free chlorine is in its more active form, so a high pH reduces the effectiveness of a given amount of chlorine. Total alkalinity buffers pH changes, so unstable pH readings often reflect alkalinity. Stabiliser (cyanuric acid), where used, slows chlorine loss from sunlight but can reduce chlorine effectiveness when it accumulates. Calcium hardness affects scaling and corrosion. Read these together before you act."
+    },
+    {
+      "heading": "Adjusting in the plan's order",
+      "body": "The operator plan sets the order in which adjustments are made. Commonly, pH and alkalinity are corrected before sanitiser is added, because a high pH wastes sanitiser. Follow the order in your plan rather than a memorised sequence. Add one product at a time, at the point and in the manner the product label and SDS specify, and allow the water to mix and the reading to stabilise before retesting. Do not add two different chemical products at the same time or into the same bucket. Do not pour water into concentrated chemical unless the label directs it. This lesson gives no product amounts; take them from the label and the operator."
+    },
+    {
+      "heading": "Hypochlorite, acids and separation",
+      "body": "Calcium hypochlorite is a dry chlorine product. WorkSafe WA's pool chemicals guidance advises keeping liquid hypochlorite away from acidic products such as pH decreasers and scale removers. The same guidance says dry calcium hypochlorite should be kept away from heat, moisture, acids and two other named chlorine products. Safe Work Australia advises storing incompatible chemicals well apart, because contact can give off gases that are poisonous, catch fire, or attack materials. Keep pool chemicals apart in storage, dosing and spill handling. Water treatment compliance depends on the local operator plan, and the plan sets which products may be used at the site."
+    },
+    {
+      "heading": "What to do when readings disagree",
+      "body": "When readings disagree with the plan's expectations, do not add a large dose to force a result. Recheck the sample, confirm the reagent, and compare with the previous trend. Then follow the plan's response. If the plan does not cover the situation, stop chemical adjustment and refer to the responsible operator. A cloudy pool, a strong odour, an unusual colour or a sudden change in readings is a reason to refer rather than to experiment."
+    }
+  ],
+  "procedure": [
+    "Read the operator plan for target ranges, the adjustment order and the authorised products.",
+    "Confirm the sample is valid and the reagents are in date (see the sampling lesson).",
+    "Read free chlorine, combined chlorine, pH, alkalinity, stabiliser and hardness, as the plan specifies.",
+    "Identify the reading that drives the next action according to the plan's order.",
+    "Check the product's SDS and label, and confirm the product is authorised for the site.",
+    "Make one adjustment at a time, at the point and in the manner the label directs, with the PPE set by {{business:safety.required_ppe}}.",
+    "Allow mixing time, then retest. Record each reading and each product added, with amount and time.",
+    "Refer to the responsible person if the plan does not cover the situation or the readings do not respond as expected."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Free chlorine reads low and pH reads high. The operator plan says to correct pH first and then to restore sanitiser. The technician wants to add chlorine straight away because the pool looks cloudy.",
+      "decisionPrompt": "What is the correct sequence, and what should be recorded?",
+      "reasoning": "At high pH, a large dose of chlorine is less effective, so the plan puts pH first. The technician corrects pH with an authorised product, allows mixing, retests, then restores sanitiser per the plan. Each reading and each product added is recorded with time and amount. If the cloudiness does not respond, the technician refers the situation rather than adding more chemical."
+    },
+    {
+      "situation": "A technician is asked to combine two products in one bucket to save time on a busy dosing round.",
+      "decisionPrompt": "What should the technician do?",
+      "reasoning": "Combining chemical products is not permitted. The technician keeps the products separate, adds each at its own point, and records each addition. The technician also checks the SDS for incompatibility before any mixing task."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Operator plan (target ranges, order of adjustment, authorised products)",
+    "Test kit or meter, in date",
+    "SDS and labels for each product",
+    "PPE as set by {{business:safety.required_ppe}}",
+    "Dosing record"
+  ],
+  "commonErrors": [
+    {
+      "error": "Adding sanitiser to a high-pH pool without correcting pH.",
+      "prevention": "Follow the plan's order. Correct pH first when the plan says so."
+    },
+    {
+      "error": "Adding two products at once or in one bucket.",
+      "prevention": "One product at a time. Keep products separate."
+    },
+    {
+      "error": "Reading a single value and acting on it alone.",
+      "prevention": "Read the set of results together and check the trend."
+    },
+    {
+      "error": "Storing or handling acid products near hypochlorite.",
+      "prevention": "Separate storage, dosing and spill kits as the SDS directs."
+    },
+    {
+      "error": "Adding a large dose to force a result.",
+      "prevention": "Recheck, compare the trend and refer if the plan does not cover it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WorkSafe WA's guidance says to keep it away from heat, moisture, acids and two other named chlorine products.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Safe Work Australia advises that incompatible chemicals, when they meet, can give off poisonous gas. Never store or dose acid and hypochlorite in the same bucket, spill tray or confined space.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Water treatment compliance depends on the local operator plan.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The adjustment order follows the operator plan",
+    "One product is added at a time and each addition is recorded",
+    "The technician refers when the plan does not cover a situation"
+  ],
+  "documentationEvidence": [
+    "Test results set, with time and tester",
+    "Each product added with amount, time and point of addition",
+    "Retest result after mixing",
+    "Referral record where the plan did not cover the situation"
+  ],
+  "summary": [
+    "pH controls how effective chlorine is; read it with the other results.",
+    "Follow the operator plan's order of adjustment, one product at a time.",
+    "Separate hypochlorite from acids and other incompatible products as the SDS directs.",
+    "Refer rather than experiment when the plan does not cover the situation."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.handling_procedure}}",
+    "{{business:materials.sds_links}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:compliance.jurisdiction}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pool-cleaning-L04-K01",
+      "question": "Why does a high pH matter when adding chlorine to a pool?",
+      "options": [
+        "It makes the water taste and smell better to swimmers",
+        "It stops the chlorine from dissolving in the pool water at all",
+        "It reduces how effective a given amount of free chlorine is",
+        "It has no effect on chlorine at any normal level of use"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L04-K02",
+      "question": "Two products are to be dosed. What is the correct practice?",
+      "options": [
+        "Mix them in one bucket to save time on the job site this afternoon",
+        "Add them together at the same point in the pool water and filter",
+        "Store them together in one spill tray to save space in the van",
+        "Keep them separate and add one at a time, as the plan and label direct"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L04-K03",
+      "question": "A technician reads one value that looks out of range. What is the best next step?",
+      "options": [
+        "Read the full set of results, recheck the sample and follow the plan",
+        "Add a large dose immediately to correct the value quickly",
+        "Drain the whole pool to start again with fresh water from the tap",
+        "Ignore it because one reading is not enough to act on at all"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WORKSAFE-WA-DG: WorkSafe WA, Dangerous goods guidance: pool and spa chemicals (DGS_PO), checked 2026-11-03 (no publication date shown; document code WSDec25). Used for separation of liquid and dry hypochlorite from named products.",
+    "SWA-STORE: Safe Work Australia, Storing hazardous chemicals, checked 2026-11-03 (no date shown). Used for the gas-release risk from incompatible chemicals.",
+    "REMOVED in this pass: two private supplier safety data sheets previously cited for the UN number and class. They are not official sources and named products and suppliers; the classification is now UNCONFIRMED here.",
+    "UNCONFIRMED: numeric pool-water quality targets; dangerous goods storage and transport thresholds by state and territory. No target value is given in this lesson; use the operator plan."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Dangerous goods guidance: pool and spa chemicals (DGS_PO)",
+      "url": "https://www.worksafe.wa.gov.au/system/files/documents/2025-12/DGS_PO_Pool-and-spa-chemicals.pdf",
+      "pageDate": "no publication date shown (document code WSDec25)",
+      "checked": "2026-11-03",
+      "covers": "worksafe.wa.gov.au: search 'pool and spa chemicals' and open the DGS_PO PDF. WA only; no storage thresholds stated. Publisher: WorkSafe WA."
+    },
+    {
+      "id": "R2",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "safeworkaustralia.gov.au: Safety topics, Hazards, Chemicals, Storing hazardous chemicals. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: WorkSafe WA, Dangerous goods guidance: pool and spa chemicals (no publication date shown); Safe Work Australia, Storing hazardous chemicals (no date shown).",
+  "referencesAtEnd": "Official sources to check at the end of this lesson: WorkSafe WA, Dangerous goods guidance: pool and spa chemicals (no publication date shown); Safe Work Australia, Storing hazardous chemicals (no date shown).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-07.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-08.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    }
+  ]
+}

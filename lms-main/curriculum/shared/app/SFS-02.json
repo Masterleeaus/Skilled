@@ -1,0 +1,111 @@
+{
+  "id": "SFS-02",
+  "title": "Service areas and their assigned workers",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-01"
+  ],
+  "learningOutcomes": [
+    "Define a service area with a clear boundary and a parent area where one exists.",
+    "Place a worker in an area as main base, backup area, or temporary cover.",
+    "Explain why an oversized area slows scheduling and dispatch."
+  ],
+  "instruction": [
+    {
+      "heading": "What a service area is",
+      "body": "A service area is a region your team covers. It might follow suburbs, council zones, a postcode group, or a travel radius from your yard. Areas help the app decide which workers are sensible for a job. A worker based on the north side should not be sent across the city without a reason. When you build a hierarchy, create the widest area first and then the smaller areas beneath it. Each area needs an address or map point so the app can work out travel time."
+    },
+    {
+      "heading": "Sizing and membership roles",
+      "body": "Oversized areas make scheduling slow and dispatch hard to manage. The reference guide suggests keeping an area to about fifty workers, about a thousand visits a day, and no more than twenty qualified workers for a single visit. Treat these as starting points to review, not as Australian standards. Membership records say which area a worker belongs to. A primary area is where the worker mostly works, usually near home. A secondary area is somewhere they can be sent when needed. A relocation area is a temporary home area for a set period. Each worker's home base needs a confirmed map point, or the app cannot calculate their travel."
+    }
+  ],
+  "procedure": [
+    "List your service regions and describe the boundary of each.",
+    "Create the widest area first, then the smaller areas inside it.",
+    "Record a map point for each area and for each worker's home base.",
+    "Add each worker as a member, marking their main, backup or temporary role, and dates where needed.",
+    "Check that no area holds more workers or visits than the sizing guidance suggests."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Your team covers the inner west and the eastern suburbs. A gardener lives in the east but has been asked to cover the west for six weeks.",
+      "decisionPrompt": "What membership role and dates do you record for the gardener?",
+      "reasoning": "A temporary move calls for a relocation role with a from date and a to date. During those dates the west acts as the gardener's home area for scheduling. The east stays as their primary area afterwards."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Drawing one large area for the whole city.",
+      "prevention": "Split areas by realistic travel range and check the per-area counts."
+    },
+    {
+      "error": "Saving a worker without a confirmed home base point.",
+      "prevention": "Confirm the address resolves to a map point before saving the membership."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every area has a boundary description and a map point.",
+    "Every worker has exactly one primary area."
+  ],
+  "documentationEvidence": [
+    "Area list with boundaries and parent areas",
+    "Membership roles with from and to dates"
+  ],
+  "summary": [
+    "Areas tell the app where work happens and who can reasonably attend.",
+    "Primary, secondary and relocation roles affect which visits a worker is offered.",
+    "Oversized areas slow scheduling, so keep each area to a size you can manage."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-02-K01",
+      "question": "Which membership role fits a worker who is moving to a new area for three months?",
+      "options": [
+        "Relocation",
+        "Primary",
+        "Secondary"
+      ]
+    },
+    {
+      "id": "SFS-02-K02",
+      "question": "What is the main problem with a very large service area?",
+      "options": [
+        "Workers cannot log in to the app at all on site",
+        "Scheduling and dispatch become slow and hard to manage",
+        "Customers cannot see the area on the website"
+      ]
+    },
+    {
+      "id": "SFS-02-K03",
+      "question": "Why does each worker's home base need a confirmed map point?",
+      "options": [
+        "So the app can calculate travel from it",
+        "So the worker's phone number can be verified",
+        "So the worker's pay rate can be set"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 22-28 (service areas and membership); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: service area (territory); area membership (territory membership); worker home base (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

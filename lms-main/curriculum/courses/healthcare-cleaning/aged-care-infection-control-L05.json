@@ -1,0 +1,209 @@
+{
+  "id": "aged-care-infection-control-L05",
+  "title": "Cleaning versus disinfection and product selection",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Cleaners and cleaning supervisors who select and use cleaning and disinfection products in residential aged care, clinics, dental practices and NDIS settings in any Australian state or territory.",
+  "referencesAtStart": "Official sources for this lesson: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019) (no page date shown; document dated 2019), only partly confirmed; NDIS Practice Standards and Quality Indicators, Version 4 (November 2021), Core Module (no page date shown), only partly confirmed; ACSQHC, Processes for routine cleaning and product choice (flowchart) (no page date shown; cites the ACSQHC 2020 product selection advisory), only partly confirmed.",
+  "prerequisites": [
+    "F03-L01",
+    "F03-L02",
+    "aged-care-infection-control-L03"
+  ],
+  "learningOutcomes": [
+    "Distinguish cleaning, which removes soil, from disinfection, which is an additional step where a facility or instruction requires it.",
+    "Explain why the NHMRC guidelines place detergent cleaning as the routine base, with disinfection used where indicated.",
+    "Select an approved product from a facility list, using its label, its approved use and its compatibility with the surface.",
+    "Stop and refer when a product is not approved, the label does not match the surface, or the required condition cannot be met."
+  ],
+  "instruction": [
+    {
+      "heading": "Cleaning and disinfection are different steps",
+      "body": "Cleaning removes soil, organic matter and visible contamination from a surface, usually with a detergent solution and a physical action. Disinfection reduces the number of living organisms on a surface to a level the facility has decided is appropriate, and it depends on a product, a dilution and a wet contact condition. A surface that looks clean can still carry organisms, and a surface that has been disinfected but not cleaned may still hold soil that blocks the product from working. For this reason, the approved sequence is usually to clean first and then disinfect where the facility or the instruction requires it. The NHMRC Australian Guidelines for the Prevention and Control of Infection in Healthcare (document dated 2019) recommend cleaning frequently touched surfaces with detergent solution at least daily and when visibly soiled, and recommend that shared clinical equipment is cleaned with detergent between patient uses and disinfected where indicated."
+    },
+    {
+      "heading": "Where disinfection is used",
+      "body": "The guidelines (document dated 2019) state that sodium hypochlorite disinfection may be used as an adjunct to standard cleaning in healthcare facilities. They do not suggest routine use of hydrogen peroxide vapour or ultraviolet light, and note that either may be considered in high-risk settings or outbreaks after other options are exhausted. For a cleaner this means that disinfection is not applied to every surface every time as a habit. The facility decides where disinfection applies, how often, and with which product, and the cleaner follows that decision. Do not add disinfectant to a routine clean unless the facility's schedule or instruction calls for it."
+    },
+    {
+      "heading": "Selecting a product from the approved list",
+      "body": "Choose a product from the facility's approved list for the surface and the purpose. Read the label for the approved use, the dilution, the wet contact condition, the surfaces it must not be used on, and the protection required. A familiar product is not automatically approved, and a product labelled for one use may not be approved for another. If the product you need is not on the list, do not use a similar one. Ask the supervisor or the IPC contact, and record the request. Where the label and the facility list disagree, stop and refer the conflict."
+    },
+    {
+      "heading": "Compatibility and the stop rule",
+      "body": "Products can damage surfaces, displays and devices, and some products must not be mixed. Check that the product is compatible with the surface, that the surface can stay wet for the required condition, and that no products will be combined. Where a product would be applied to a clinical device interface, a keep-dry area or electrical equipment, stop and refer, because the device manufacturer's instruction and the clinical team govern that surface. Do not improvise a concentration, a contact time or a product."
+    },
+    {
+      "heading": "Worked case: the familiar disinfectant",
+      "body": "A cleaner finds a familiar disinfectant on a shelf and plans to use it on the bathroom rails because it is strong. The facility's approved list names a different product for rails. The correct action is to use the approved product, or to ask the supervisor for it if it is missing, and not to substitute the familiar one. Record the shortfall, the product requested and the time. The familiar product may be suitable for another purpose under its own approval, but that approval is not a substitute for the facility list."
+    }
+  ],
+  "procedure": [
+    "Confirm from the work order or schedule whether the task requires cleaning only, or cleaning followed by disinfection.",
+    "Select the product from the facility's approved list for the surface and purpose, and check the label.",
+    "Check the surface compatibility and the keep-dry or device restrictions before applying any product.",
+    "Clean the surface first with detergent as directed, to remove soil.",
+    "If disinfection is required, apply the approved product at the stated dilution, and keep the surface wet for the stated contact condition.",
+    "If the condition cannot be met, the product is not approved, or the surface is restricted, stop and refer.",
+    "Record the product, dilution, contact condition achieved, surface and any stop or referral."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A resident's bedside rail is visibly soiled from a meal. The schedule says cleaning only for the rail, and a disinfectant is on your trolley.",
+      "decisionPrompt": "Do you add the disinfectant?",
+      "reasoning": "Clean the rail with the approved detergent as the schedule directs, to remove the soil. Do not add disinfection unless the schedule or an instruction calls for it. If you believe the rail needs disinfection, ask the supervisor or the IPC contact, and record the question. The decision is not yours alone."
+    },
+    {
+      "situation": "A product label says a specific contact condition is required, but the surface dries after a short time in a warm room, and you are asked to finish quickly.",
+      "decisionPrompt": "What do you record?",
+      "reasoning": "Record that the contact condition was not achieved, with the actual time. Reapply only if the label and the instruction permit it. Otherwise mark the task incomplete and refer. Do not record the surface as disinfected."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Facility approved product list for each area: {{business:materials.approved_products}}",
+    "Product safety data sheets: {{business:materials.sds_links}}",
+    "Measuring and dilution equipment, dedicated to each product",
+    "Protective equipment as stated on the safety data sheet: {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Adding disinfectant to every routine clean because it seems safer.",
+      "prevention": "Follow the schedule. Disinfection is used where the facility or instruction calls for it."
+    },
+    {
+      "error": "Using a familiar product that is not on the facility's approved list.",
+      "prevention": "Use only the approved product. Ask for it if it is missing and record the shortfall."
+    },
+    {
+      "error": "Disinfecting over visible soil without cleaning first.",
+      "prevention": "Clean first to remove soil, then disinfect where required."
+    },
+    {
+      "error": "Applying a product to a clinical device interface or keep-dry area.",
+      "prevention": "Stop and refer. The device manufacturer and the clinical team govern those surfaces."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The NHMRC Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019) recommend cleaning frequently touched surfaces with detergent solution at least daily and when visibly soiled, and cleaning shared clinical equipment with detergent between patient uses, disinfecting where indicated (recommendation numbers 9 and 10 not re-verified in this pass).",
+      "licenceNotice": false
+    },
+    {
+      "point": "The guidelines (document dated 2019) suggest sodium hypochlorite disinfection as an adjunct to standard cleaning, do not suggest routine use of hydrogen peroxide vapour or ultraviolet light, and note that either may be considered in high-risk settings or outbreaks after other options are exhausted (recommendation numbers 14 to 17 not re-verified in this pass).",
+      "licenceNotice": false
+    },
+    {
+      "point": "The NDIS Practice Standards, Version 4 of November 2021, Core Module, require routine environmental cleaning in settings other than participants' homes, with particular attention to frequently touched surfaces.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Using an approved product under its label does not grant any licence to formulate, mix, dilute beyond the label or repackage products. Those activities are outside this lesson.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner states the difference between cleaning and disinfection, and the order in which they are applied, without error.",
+    "The learner selects an approved product from a supplied list for three supplied surfaces, and identifies one unsuitable product.",
+    "The learner stops and refers a supplied product that is not on the list, and records the request.",
+    "The learner records the product, dilution, contact condition achieved and surface for a completed task."
+  ],
+  "documentationEvidence": [
+    "Product, dilution and contact condition achieved for each surface",
+    "Whether cleaning only or cleaning and disinfection was required, and the instruction that required it",
+    "Any product shortfall, request made, stop or referral, with the time"
+  ],
+  "summary": [
+    "Clean first with detergent to remove soil. Disinfect only where the facility or instruction requires it.",
+    "Use only products on the facility approved list, at the label dilution and for the label contact condition.",
+    "Do not apply products to keep-dry areas or clinical device interfaces. Stop and refer.",
+    "Record the product and the contact condition achieved, and never record a condition that was not met."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.handling_procedure}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "aged-care-infection-control-L05-K01",
+      "question": "Which order is the approved sequence where disinfection is required?",
+      "options": [
+        "Clean first with detergent to remove soil, then disinfect as required.",
+        "Disinfect first, then clean to remove the soil.",
+        "Use the disinfectant alone, since it cleans and disinfects together."
+      ]
+    },
+    {
+      "id": "aged-care-infection-control-L05-K02",
+      "question": "A familiar disinfectant is on your trolley but is not on the facility's approved list. What should you do?",
+      "options": [
+        "Use it, because it is a well-known disinfectant that most staff have used before",
+        "Do not use it. Ask for the approved product, and record the shortfall.",
+        "Use it with a weaker dilution so that it is safe for the residents and the room"
+      ]
+    },
+    {
+      "id": "aged-care-infection-control-L05-K03",
+      "question": "Which statement reflects the NHMRC guidance on routine use of certain methods?",
+      "options": [
+        "Hydrogen peroxide vapour and ultraviolet light should be used routinely on all surfaces in every room of the facility every day without exception",
+        "Routine use of ultraviolet light replaces all detergent cleaning, so detergent is no longer needed in any clinical or aged care area at the facility or in the homes",
+        "The guidelines advise against routine use of hydrogen peroxide vapour and ultraviolet light, and allow ultraviolet light in high-risk settings and outbreaks."
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "no page date shown; document dated 2019 (CD34)",
+      "checked": "2026-11-03",
+      "covers": "Read: sections on environmental cleaning, spills, hand hygiene, standard precautions and sharps. Not read: section 3.1.4 (reprocessing), 3.1.7 (waste), 4.1.2 (roles) and Appendix 6.1 (frequencies). Check those in the full PDF. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R2",
+      "title": "NDIS Practice Standards and Quality Indicators, Version 4 (November 2021), Core Module",
+      "url": "https://ndiscommission.gov.au/sites/default/files/2024-10/ndis-practice-standards-and-quality-indicators.pdf",
+      "pageDate": "cover date November 2021 (Version 4); no page date shown",
+      "checked": "2026-11-03",
+      "covers": "Read: Provision of Supports environment, Safe environment, Management of Waste, Risk Management and Human Resource Management indicators. The last 12,026 characters of the PDF were not read. Check indicator numbers in the PDF. Publisher: NDIS Quality and Safeguards Commission."
+    },
+    {
+      "id": "R3",
+      "title": "ACSQHC: processes for routine cleaning and product choice (flowchart)",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2020-10/processes_for_routine_cleaning_and_product_choice.pdf",
+      "pageDate": "no page date shown; cites the ACSQHC 2020 product selection advisory",
+      "checked": "2026-11-03",
+      "covers": "Covers detergent-first cleaning and when disinfection is added. It gives no cleaning frequency and no product contact times. Use the product label. Publisher: Australian Commission on Safety and Quality in Health Care."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page listed at the start: the three sources above. These have only been partly confirmed and must be checked on the official site before use.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34, Recommendations 9, 10, 14, 15, 16 and 17. https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf (checked 2026-11-02; hosted copy of the 2019 edition)",
+    "NDIS Practice Standards and Quality Indicators, Version 4, November 2021, Core Module, Provision of Supports Environment. https://ndiscommission.gov.au/sites/default/files/2024-10/ndis-practice-standards-and-quality-indicators.pdf (checked 2026-11-02)",
+    "UNCONFIRMED: specific contact times and dilutions for any named product. These must come from the label and the facility approved list. Not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-11.jpg",
+      "alt": "Healthcare cleaning (aged care, medical, dental, NDIS) illustration",
+      "kind": "photo",
+      "origin": "healthcare"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-12.jpg",
+      "alt": "Healthcare cleaning (aged care, medical, dental, NDIS) illustration",
+      "kind": "photo",
+      "origin": "healthcare"
+    }
+  ]
+}

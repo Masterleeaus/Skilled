@@ -1,0 +1,175 @@
+{
+  "id": "BP-05-roof",
+  "title": "Pricing by hours per project for Roof soft washing",
+  "courseSlugs": [
+    "roof"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and crew leads who quote roof soft washing and need a price that covers cost, access, chemicals, runoff control and a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour for roof soft washing from your own figures",
+    "Estimate job hours by roof area and access, including set-up, mixing, rinse and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis, access lines and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit for roof work",
+      "body": "A soft wash is mostly time: set-up, mixing, application, rinse, the time to get on and off the roof safely, and the check afterwards. Access and pitch change the time more than the area alone does. Hours make the cost visible, so start from hours. The lead-generation guide's soft-wash band for a single-storey house is $300 to $650, typical $480 (What's The Damage, verified November 2026). It is an estimate, not your cost, so use it to check your hours, not to set them."
+    },
+    {
+      "heading": "Build your cost per productive hour",
+      "body": "Divide the total cost of running the round by the chargeable hours in the same period. Include wages with on-costs, the vehicle, the pump and hoses, chemicals, access equipment and its inspection, insurance, phone, software and administration. Use chargeable hours only. Employee pay rates and on-costs may be set by an award or enterprise agreement; that point is unconfirmed here, so check it for each worker before using any figure."
+    },
+    {
+      "heading": "Estimate the hours by roof area and access",
+      "body": "Split each job into roof areas, the set-up and access for each storey, mixing and application, rinse, travel and a checking allowance. Time the roof from the site visit, not from the street. Add a set allowance for delays such as weather, a blocked driveway or a second roof area that the client did not mention. Xero's guide suggests 10 to 20 per cent for unexpected work (stated by the source; the BP-05 research flags whether that range is acceptable). Chemical dwell and rinse times come from the product's label, so put them in the hours as a named line."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the total hours by the cost per productive hour to get the job cost. Divide by one minus your target margin to get the price. Apply the materials policy and the minimum charge. Show access and any mould treatment as named lines. Do not price gutter or downpipe work on the same line until its licence scope is confirmed."
+    },
+    {
+      "heading": "Check the price against the market, without copying it",
+      "body": "The lead-generation guide's single-storey soft-wash typical is $480, and its mould inhibitor add-on is $70. If your hours give a price far below $480, check whether your access and rinse time are missing. If they give a price far above it, check whether your method or your storey line is different. The typical figures show where the market sits; they do not set the price."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A roof quote states the roof areas, the storey and access, the hours or price basis, the chemicals and rinse method by name, the exclusions, what the client must provide (clear access and water), and how long the quote is valid. Quotes without a site visit are estimates, so say so. Re-quote when the roof areas change."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total round costs and the chargeable hours achieved in the same period.",
+    "Divide total costs by chargeable hours to get the cost per productive hour.",
+    "Inspect each roof area at the site visit, then estimate the time for each as a range.",
+    "Add set-up, access, mixing, rinse, dwell, travel and checking time as named lines.",
+    "Multiply total hours by the cost per productive hour, then divide by one minus the margin.",
+    "Apply the materials policy and the minimum charge.",
+    "Write the quote with roof areas, hours basis, exclusions, client inputs and validity.",
+    "Record actual hours after each job and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. A single-storey house with a main roof and a garage roof, both measured at the site visit. The owner estimates 2 hours on the roofs, 0.5 hours for mixing and rinse, 0.5 hours of travel and set-up, and 0.5 hours of checking, a total of 3.5 hours. The owner's cost per productive hour is $60 AUD (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the job cost, what is the price with a 25 per cent margin on price, and how should the result be checked against the lead-generation typical?",
+      "reasoning": "The cost is 3.5 hours multiplied by $60 AUD, which is $210 AUD. The price is $210 divided by 0.75, which is $280 AUD. The lead-generation typical for a single-storey soft wash is $480, so the illustrative quote sits well below it. The owner checks whether the hours leave out access, rinse or the checking allowance, and whether the access method for the roof has been priced. The typical shows where the market sits; it does not set the price. Whatever the figure, the access line is settled by the Victorian rule before the quote is issued."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet with a line for each roof area and access",
+    "Time log for each job, with estimated and actual columns",
+    "Measuring tape or laser measure for roof areas",
+    "PPE and access equipment as listed in {{business:safety.required_ppe}}, and the Victorian working-at-height method for each roof"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, pump, chemicals, access equipment, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out access, mixing, rinse and dwell time",
+      "prevention": "Add these as named lines on every estimate, and take dwell and rinse times from the product label."
+    },
+    {
+      "error": "Quoting with no exclusions for gutters, solar panels or water supply",
+      "prevention": "List what is excluded, what the client provides and the access assumptions."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pricing guidance only. The ACCC says misleading price statements are prohibited. State and territory fair trading rules also apply.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Victoria: the working-at-height rule for roofs was not checked in this draft. The Commonwealth code (2015) and the NSW code (2019) are not Victorian rules. Check the Victorian rule with WorkSafe Victoria before allowing time for any roof access.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals and runoff: no regulator guidance on soft-wash chemicals was found, and the EPA Victoria car-repair sheet does not cover roof washing. Read the product's safety data sheet and check the runoff rule with EPA Victoria before pricing the chemical and containment lines.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Award, enterprise agreement and on-cost rates for employees are unconfirmed in this research. Check which instrument applies to each worker.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows roof areas, access, hours or price basis, chemicals and rinse method, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten roof jobs and compared with the estimate."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing roof areas, access, hours basis, exclusions and validity",
+    "Job time log with estimated and actual hours by roof area",
+    "Variance review record"
+  ],
+  "summary": [
+    "A soft wash is mostly time, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Access, mixing, rinse, dwell and checking time are named lines, not hidden extras.",
+    "Compare estimates with actual hours, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-roof-K01",
+      "question": "Which costs belong in the cost per productive hour for roof soft washing?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the client pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of competitors in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, pump, chemicals, access equipment, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-roof-K02",
+      "question": "A single-storey soft wash is estimated at 3.5 hours and takes 5. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid and the crew has finished",
+        "Reduce paid hours for the crew on the next job and skip the morning break",
+        "Raise the price for this client's next job only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-roof-K03",
+      "question": "Why does a roof quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client and to keep the rates a secret from the crew",
+        "To make the quote longer and to fill up the page with more text and words for the client",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the client's expectations and to make the job seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "What's The Damage, 'Pressure washing cost guide', https://whatsthedamage.com.au/pressure-washing-cost/, verified November 2026, metadata 2026-11-01. Lead-generation estimates; used as a sense-check only.",
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Supports: on-costs such as leave and superannuation belong in the hourly cost.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements are prohibited.",
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Supports: divide by billable hours; add a set allowance for delays; figure stated by source of 10 to 20 per cent for unexpected work.",
+    "EPA Victoria, 'Stormwater management for car repair industry', publication 1333.1, March 2015, https://www.epa.vic.gov.au/-/media/epa/files/publications/1333-1.pdf. Car-repair sheet; does not cover roof or building washing.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. New Zealand publisher; general method only.",
+    "Work Health and Safety (Managing the Risk of Falls at Workplaces) Code of Practice 2015, https://legislation.gov.au/F2016L00425/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html, registered 2016. Commonwealth code; not Victorian law. Cited for the height point; the Victorian rule was not checked.",
+    "WorkSafe Victoria, news release on falls risks in the solar sector, https://www.worksafe.vic.gov.au/news/2026-08/crackdown-falls-risks-solar-sector, 26 August 2026. Supports: allowing workers onto a roof without adequate protection is unlawful, even with no incident. Aimed at solar; the principle is stated for any roof.",
+    "Note: award, enterprise agreement and on-cost rules are UNCONFIRMED for roof work. No roof-specific hours benchmark or soft-wash dwell-time source was found."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

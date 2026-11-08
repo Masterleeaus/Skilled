@@ -1,0 +1,111 @@
+{
+  "id": "SFS-15",
+  "title": "Working without signal in the field app",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-07"
+  ],
+  "learningOutcomes": [
+    "Explain what the app downloads before a worker goes offline.",
+    "Describe what the pending changes queue shows and how it behaves.",
+    "Resolve a conflict between two changes to the same record."
+  ],
+  "instruction": [
+    {
+      "heading": "Priming",
+      "body": "When a worker logs in, the app downloads the visits and related records assigned to them, so they can carry on without signal. This is called priming. The reference guide primes the worker's visits within a window around the current date, by default forty-five days either side, and notes that this window can be configured. Large volumes take longer. A network error stops priming, so the worker should run it again once they have signal. A worker who has not primed before going offline will not have the visits they need."
+    },
+    {
+      "heading": "Pending changes and conflicts",
+      "body": "Changes made offline join a pending line in the sequence they were created. The queue shows whether each change has reached the server. If two changes conflict, the queue pauses, because later changes may depend on the earlier one. The worker must delete or edit the conflicting change before the remaining items can go up. Whichever edit lands on the server last wins over an earlier one."
+    }
+  ],
+  "procedure": [
+    "Before leaving signal, check that every visit for the day has downloaded.",
+    "Make changes as normal and confirm they show in the pending line.",
+    "Once back online, watch the queue until every upload has succeeded.",
+    "If the queue pauses, open the conflicting item and decide whether to edit or delete it.",
+    "Report to the office any change that was lost from the queue."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker marks a visit completed while offline. Meanwhile the office has moved the same visit to a later day from the desktop.",
+      "decisionPrompt": "What does the worker see, and what should happen?",
+      "reasoning": "The queue pauses on the conflicting item. The worker checks the visit's current state. If the office move is correct, the worker deletes the offline change. If not, the worker edits it. The queue then continues, and the office confirms the final state."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Leaving priming until the day itself.",
+      "prevention": "Prime the day before, and confirm each visit has arrived on the device."
+    },
+    {
+      "error": "Clearing the queue to remove a pause without reading what it holds.",
+      "prevention": "Read each pending item before deleting it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every worker has a successful prime before going offline.",
+    "No pending item is removed without a record of what it held."
+  ],
+  "documentationEvidence": [
+    "Offline check record",
+    "Conflict resolution note"
+  ],
+  "summary": [
+    "Priming downloads the visits a worker needs.",
+    "Pending changes upload in order and can pause on a conflict.",
+    "Whichever edit lands on the server last wins."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-15-K01",
+      "question": "What does priming do?",
+      "options": [
+        "Downloads the worker's assigned visits and related records before going offline",
+        "Charges the device battery while it is offline in the van overnight and charges",
+        "Sends the invoice to the customer by email at once for the whole job"
+      ]
+    },
+    {
+      "id": "SFS-15-K02",
+      "question": "Why does the pending queue pause when there is a conflict?",
+      "options": [
+        "Later changes may depend on the conflicting one",
+        "The phone has run out of storage space on the day",
+        "The customer has asked for a delay in the upload"
+      ]
+    },
+    {
+      "id": "SFS-15-K03",
+      "question": "When two changes conflict on the server, which one takes precedence?",
+      "options": [
+        "Whichever edit reaches the server last",
+        "The oldest change made on the phone",
+        "The change entered from a computer"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 290-335 (mobile app; offline priming and pending uploads); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: mobile app; offline data pack (priming); pending changes queue (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

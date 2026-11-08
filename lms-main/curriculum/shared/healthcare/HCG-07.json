@@ -1,0 +1,138 @@
+{
+  "id": "HCG-07",
+  "title": "Beds, equipment, curtains and mattresses: minimum frequencies",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaning staff who clean beds, equipment and furnishings in patient areas.",
+  "prerequisites": [
+    "HCG-06"
+  ],
+  "learningOutcomes": [
+    "Give the minimum frequency for beds, mattresses and bed curtains at two risk levels.",
+    "State when equipment must be cleaned after each use.",
+    "Identify the items that need a disinfectant step when a multi-resistant organism is present."
+  ],
+  "instruction": [
+    {
+      "heading": "Beds and frames",
+      "body": "At the three highest risk levels the bed frame is cleaned daily, and its underside is cleaned weekly. The whole bed is cleaned on discharge. At the low level, beds are marked not applicable in the routine frequency line, so the facility's own instruction governs."
+    },
+    {
+      "heading": "Mattresses and curtains",
+      "body": "Mattresses are cleaned weekly and on discharge at the two highest levels, and monthly and on discharge at the two lower levels. The guideline would rather see a mattress with a completely waterproof cover. Bed curtains follow their own cycle: weekly on discharge at the highest level, monthly at the high level, every six months at the significant level and yearly at the low level. Curtains come down sooner if the patient carried a multi-resistant organism or another infection."
+    },
+    {
+      "heading": "Equipment in use",
+      "body": "Equipment that is not attached to a patient, such as infusion pumps and pulse oximeters, is wiped between patients at the three highest levels and weekly at the low level. Drip stands get a clean at their contact points after every use at all levels, while IV stands are cleaned after use only at the two highest levels. Oxygen kit, nebulisers and patient slides or boards are cleaned after use, and the table gives a monthly or discharge cycle for lower-risk areas."
+    },
+    {
+      "heading": "Surfaces that change the method",
+      "body": "Where a multi-resistant organism is present, several items in the table move to a detergent plus disinfectant method. Those items include beds, chairs, mattresses and commodes. Work from the facility's organism instruction rather than the default line."
+    }
+  ],
+  "procedure": [
+    "Check the risk level for the bed or equipment you are cleaning.",
+    "Clean the bed frame and its underside on the stated days, and the whole bed on discharge.",
+    "Wipe the contact points on equipment as soon as it has been used.",
+    "Check the curtain and mattress schedule and change or clean them when they fall due.",
+    "Where an organism is present, apply the disinfectant step the facility directs.",
+    "Log each clean against the item and date."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A patient in a high-risk ICU bed is discharged, and the bed curtains are due for their scheduled clean.",
+      "decisionPrompt": "What must be done to the bed and the curtains?",
+      "reasoning": "The whole bed is cleaned on discharge. Bed curtains are changed or cleaned on discharge at the highest level, and the facility applies the frequency for its own level. Check whether an organism was present, because that can change the method."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Disposable gloves",
+    "Detergent mix or detergent wipe for the item",
+    "Clean cloths",
+    "Labelled disinfectant only where the organism step applies"
+  ],
+  "commonErrors": [
+    {
+      "error": "Cleaning only the top of the bed frame.",
+      "prevention": "The underside has its own weekly line in the table. Clean both."
+    },
+    {
+      "error": "Leaving a mattress uncleaned after discharge.",
+      "prevention": "Mattresses have a discharge clean at every risk level the table lists."
+    },
+    {
+      "error": "Cleaning equipment only once by the close of the day.",
+      "prevention": "Contact points on equipment are cleaned after use at the higher levels."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pick a method that suits the mattress and its cover. Follow the maker's instructions for any cover that a detergent or disinfectant might harm.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Equipment must not be opened or reprocessed by a cleaner unless the facility authorises that task in writing.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Learner reads the correct frequency for each item at the area's risk level.",
+    "Post-use cleaning is logged for equipment in use.",
+    "Curtain and mattress changes are logged against the due date."
+  ],
+  "documentationEvidence": [
+    "Bed and equipment clean log with date and item",
+    "Curtain and mattress change record"
+  ],
+  "summary": [
+    "Beds, mattresses, curtains and equipment each have a frequency that depends on the risk level.",
+    "Equipment contact points are cleaned after each use at the higher risk levels.",
+    "An organism present can change the method to a detergent plus disinfectant step."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HCG-07-K01",
+      "question": "How often is the underside of a bed frame cleaned in a very-high-risk area?",
+      "options": [
+        "Daily.",
+        "Weekly.",
+        "Monthly.",
+        "Never."
+      ]
+    },
+    {
+      "id": "HCG-07-K02",
+      "question": "When should bed curtains be changed or cleaned in a high-risk area where the patient has a multi-resistant organism?",
+      "options": [
+        "Only once a year, even if the curtain has been used by several patients in the room today",
+        "On discharge, since the table requires that change for a patient who carried a multi-resistant organism.",
+        "At admission only, because the curtains are checked on arrival and the curtain is then left alone",
+        "Every time the room is cleaned and the curtain is shaken out by hand for each patient in the room"
+      ]
+    },
+    {
+      "id": "HCG-07-K03",
+      "question": "Which items are cleaned after each use at the higher risk levels?",
+      "options": [
+        "Clipboards, once a month and the pen cups on each shelf in the room",
+        "Contact points on equipment such as IV stands and drip stands.",
+        "Window glass, only by year's end and the blinds on the same day",
+        "Ceilings, once a week and the light fittings above the bed"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, B5.1 (beds, mattresses, curtains and equipment rows); B1.4.2 (surface barriers); rights: not held by user; reworded (no copying)",
+    "Source priority: the NHMRC guideline is an official Australian source. Where it conflicts with informal or in-house cleaning advice, the guideline governs the points this lesson relies on.",
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, edition note: the 2019 edition is the current edition (NHMRC, https://www.safetyandquality.gov.au/sites/default/files/2026-05/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf; CONFIRMED in the figures register, checked 2026-11-02); the uploaded copy read on 2026-11-02 is the 2010 edition, so points taken from it are UNCONFIRMED against the 2019 text. The existing aged-care and medical-equipment lessons cite the 2019 edition.",
+    "UNCONFIRMED: the frequency for low-risk beds, which the table marks as not applicable, is left to the facility. No other source was checked."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

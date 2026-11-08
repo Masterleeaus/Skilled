@@ -1,0 +1,168 @@
+{
+  "id": "industrial-degreasing-L02",
+  "title": "Plant hazards, guarding and exclusion zones",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners working near industrial plant, machinery and conveyors where degreasing is requested.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Distinguish ordinary walkways from guarded, moving, elevated, hot and restricted machinery zones.",
+    "Recognise that an unguarded machine is a stop, regardless of a request to hurry.",
+    "Record the concern and refer to the responsible supervisor and competent plant specialist."
+  ],
+  "instruction": [
+    {
+      "heading": "Reading the machinery zones",
+      "body": "On an industrial site, machinery creates zones: ordinary walkways, guarded areas, moving parts, elevated platforms, hot surfaces and restricted areas. A floor plan shows these zones, and the site decides who may enter each. Check the plan before you move, and do not assume that a zone is open because it looks quiet."
+    },
+    {
+      "heading": "Guarding is a stop",
+      "body": "A guard is there to keep people away from moving or dangerous parts. If a guard is missing, damaged or bypassed, the machine is not safe to clean near. Under the national plant code, guards have to go back on before plant restarts after maintenance, and plant should not be run with its guarding removed (instrument dated 17 December 2015). A supervisor who says that the cleaning can proceed quickly despite an unguarded conveyor is asking you to work in a stop condition. Refuse, withdraw, and record the request. Any worker may stop unsafe work where they reasonably fear serious harm from an immediate or imminent hazard (Commonwealth WHS Act section 84, compilation dated 1 July 2024)."
+    },
+    {
+      "heading": "What a cleaner records and refers",
+      "body": "Record the equipment or location identifier, the observed concern, the source of the evidence, the people notified and the immediate restriction. Say what is unknown. Ask the responsible supervisor to assign the competent plant specialist. A cleaner does not sign off plant as safe. This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist."
+    }
+  ],
+  "procedure": [
+    "Read the floor plan and identify guarded, moving, elevated, hot and restricted zones.",
+    "Do not enter a restricted or guarded zone without the site's documented authority.",
+    "Treat a missing or bypassed guard as a stop, and withdraw.",
+    "Record the equipment or location, the concern, the source, the people notified and the restriction.",
+    "Refer to the supervisor and the competent plant specialist, and do not sign off plant."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A production supervisor points to an unguarded conveyor and says the cleaning can proceed quickly.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not proceed. An unguarded conveyor is a stop condition, and speed is not authority. Withdraw from the conveyor zone, record the concern and the supervisor's request, and ask the responsible supervisor to assign a competent plant specialist before any cleaning."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Site floor plan and zone map.",
+    "High-visibility clothing as the site requires.",
+    "Record form for concerns and restrictions."
+  ],
+  "commonErrors": [
+    {
+      "error": "Working faster because a supervisor asks.",
+      "prevention": "Speed is not authority. Stop on an unguarded machine."
+    },
+    {
+      "error": "Stepping inside a guarded zone to reach a corner.",
+      "prevention": "Stay out of guarded zones unless documented authority is given."
+    },
+    {
+      "error": "Signing off a machine as safe.",
+      "prevention": "Record the concern. A competent plant specialist decides."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Plant guarding and machinery safety are covered by work health and safety duties, and the person who manages or controls the plant holds those duties (instrument dated 17 December 2015).",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant a licence, competency or environmental authority for industrial degreasing.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Zones identified on the fictional floor plan.",
+    "Unguarded conveyor treated as a stop in the case study.",
+    "Concern recorded with source, people notified and restriction."
+  ],
+  "documentationEvidence": [
+    "Concern record with equipment identifier, source and restriction.",
+    "Referral to the supervisor and competent plant specialist."
+  ],
+  "summary": [
+    "Read the zone map and keep out of restricted zones.",
+    "An unguarded machine is a stop.",
+    "Record and refer; do not sign off plant."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "industrial-degreasing-L02-K01",
+      "question": "A supervisor says to clean the area quickly beside an unguarded conveyor. What is correct?",
+      "options": [
+        "Do not proceed; withdraw, record and refer to the competent plant specialist",
+        "Clean quickly, since the supervisor asked and the job has to be done today",
+        "Clean but avoid the guard for now, since the guard is in the way of the work"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L02-K02",
+      "question": "What does a guard do?",
+      "options": [
+        "Decorates the machine and makes it look neat",
+        "Keeps people away from moving or dangerous parts",
+        "Stops the machine when someone walks past the area"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L02-K03",
+      "question": "Who decides that a machine is safe to clean near?",
+      "options": [
+        "The cleaner, who is closest to the machine and sees it daily",
+        "The first operator, who starts the machine each morning",
+        "The competent plant specialist and the responsible supervisor"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Work Health and Safety (Managing Risks of Plant in the Workplace) Code of Practice 2015",
+      "url": "https://legislation.gov.au/F2016L00422/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html",
+      "pageDate": "instrument date 17 December 2015 (shown in text)",
+      "checked": "2026-11-03",
+      "covers": "Sections 3.6, 3.7, 4.1 and 4.5 (isolation, lock-out, guarding, competent person); check the version your state has adopted. Publisher: Federal Register of Legislation (Cth), based on the Safe Work Australia model code."
+    },
+    {
+      "id": "R2",
+      "title": "Work Health and Safety Act 2011, section 84 (right of worker to cease unsafe work)",
+      "url": "https://www.legislation.gov.au/C2011A00137/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_1/document_1.html",
+      "pageDate": "no date in text; compilation dated 1 July 2024 (from the page address)",
+      "checked": "2026-11-03",
+      "covers": "Commonwealth text; Victoria uses its own OHS Act 2004, so check the state law that applies. Publisher: Federal Register of Legislation (Cth)."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Commonwealth, Work Health and Safety (Managing Risks of Plant in the Workplace) Code of Practice 2015 (instrument date 17 December 2015); Commonwealth, Work Health and Safety Act 2011, section 84, right of worker to cease unsafe work (no date in text; compilation dated 1 July 2024).",
+  "referencesAtEnd": "Check the current rule on these official pages: Commonwealth, Work Health and Safety (Managing Risks of Plant in the Workplace) Code of Practice 2015 (instrument date 17 December 2015); Commonwealth, Work Health and Safety Act 2011, section 84 (no date in text; compilation dated 1 July 2024).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/industrial-degreasing-L02.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory licence, competency and environmental requirements for industrial degreasing and chemical use were not sourced for this lesson.",
+    "UNCONFIRMED: this draft describes a general boundary and is not a verified legal requirement."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-14.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-15.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

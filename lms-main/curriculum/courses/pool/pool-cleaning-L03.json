@@ -1,0 +1,216 @@
+{
+  "id": "pool-cleaning-L03",
+  "title": "Water sampling and record integrity",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 40,
+  "audience": "Pool operators' staff and technicians who collect pool-water samples and record results, in any state or territory",
+  "prerequisites": [
+    "pool-cleaning-L01",
+    "F03-L01"
+  ],
+  "learningOutcomes": [
+    "Collect a water sample from the location and method set by the operator plan",
+    "Record test results with time, location, method, reagent details and the tester",
+    "Correct a record without overwriting the original and explain the correction",
+    "Identify when a test is invalid and must not be recorded as a result"
+  ],
+  "instruction": [
+    {
+      "heading": "Why sampling and records matter",
+      "body": "A water test is only as useful as its sample and its record. A result taken from the wrong place, at the wrong depth, with an expired reagent or with a poorly rinsed container is not a valid reading, even if it looks plausible. The record is also evidence. It shows what was tested, when, by whom and what was done in response. Keep the sampling and recording steps consistent with the operator plan, because the plan sets where, when and how often samples are taken."
+    },
+    {
+      "heading": "Taking the sample",
+      "body": "Use the sampling location, depth and method in the operator plan. Rinse the container with the water being sampled only where the method allows it, and avoid touching the inside of the container or the cap. Take the sample away from the return jets and the dosing point where the plan says so, because fresh chemical can give a misleading reading. Label the sample container with the date, time, location and tester before you leave the point. Test as soon as practical, and do not store samples for a long time unless the plan or the test kit instructions allow it. Where the plan does not say where to sample, stop and ask the responsible person rather than choosing a point yourself."
+    },
+    {
+      "heading": "Testing and reagents",
+      "body": "Use the test kit or meter in the way its manufacturer directs. Check the reagent expiry date, the calibration status of any meter and the condition of the colour chart or cell. Test reagents are chemicals too. Store them according to their SDS, keep them away from acidic and oxidising products, and never keep them in food or drink containers. Dispose of used reagents as the SDS and the site waste procedure direct."
+    },
+    {
+      "heading": "Recording results",
+      "body": "Record each result on the form or system the operator uses. Write the value, the unit, the time, the location, the method, the reagent batch where relevant, the tester and any observation about the water. Record a test you did not complete as not completed, with the reason. Do not round or estimate a reading to make it look like a pass. Water treatment compliance depends on the local operator plan, and the plan sets what happens after a result is outside the range it allows."
+    },
+    {
+      "heading": "Correcting records",
+      "body": "Never overwrite or delete an original entry. If an error is found, draw a single line through the entry, write the correct value beside it, then initial and date the correction and state the reason. In electronic systems, use the amendment function that keeps the original. A record that was written later and dated earlier, or that was completed from memory, is not a valid record. If a test was missed, say so. Do not back-fill a result for a time when no test was done."
+    }
+  ],
+  "procedure": [
+    "Read the sampling section of the operator plan and confirm the location, depth and frequency.",
+    "Check the test kit or meter, its reagent expiry and its calibration status.",
+    "Rinse the container as the method allows and collect the sample at the planned point.",
+    "Label the sample immediately with date, time, location and tester.",
+    "Run the test in the manufacturer's sequence and wait for the stated reaction time.",
+    "Record each value with unit, time, location, method, tester and observations.",
+    "If the value is outside the plan's range, follow the plan's action and inform the responsible person. Do not adjust the record.",
+    "Store and dispose of reagents as the SDS directs; file the record before leaving the site."
+  ],
+  "workedExamples": [
+    {
+      "situation": "At the end of a shift, a supervisor asks you to write the afternoon results from the morning test because the test kit ran out before the afternoon round.",
+      "decisionPrompt": "What do you record, and what do you tell the supervisor?",
+      "reasoning": "A missed test must not be back-filled. The record shows that no valid test was done in the afternoon, with the reason that the kit ran out. You tell the supervisor, arrange a valid test as soon as the plan allows, and let the responsible operator decide what the gap means for use of the pool."
+    },
+    {
+      "situation": "A test kit's reagent is past its expiry date, but the colour still appears to match the chart.",
+      "decisionPrompt": "Is the result valid?",
+      "reasoning": "An expired reagent can give an unreliable reading. Do not record the colour as a valid result. Record that the reagent was out of date, replace it, retest and note the replacement in the record."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Operator's sampling plan",
+    "Sample container, labelled",
+    "Test kit or meter with in-date reagents",
+    "Record form or system",
+    "Gloves and eye protection as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Sampling from a surface point when the plan requires a different depth or location.",
+      "prevention": "Use the plan's location and depth. Note any deviation."
+    },
+    {
+      "error": "Writing a result after the test was not done.",
+      "prevention": "Record the test as not completed, with the reason."
+    },
+    {
+      "error": "Overwriting an entry to correct it.",
+      "prevention": "Use a single line, initial, date and reason, or the system's amendment function."
+    },
+    {
+      "error": "Using expired or uncalibrated test equipment.",
+      "prevention": "Check expiry and calibration before every test session."
+    },
+    {
+      "error": "Storing reagents beside chlorine or acid products.",
+      "prevention": "Store per the SDS and keep reagents separate from oxidisers and acids."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pool chemical and test-reagent storage needs separation. WorkSafe WA's pool chemicals guidance keeps liquid hypochlorite away from acidic products such as pH decreasers and scale removers, and keeps dry calcium hypochlorite away from heat, moisture, acids and two other named chlorine products. Safe Work Australia advises storing incompatible chemicals well apart. Test reagents need the same separation.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Water treatment compliance depends on the local operator plan. A test result alone does not show that the pool meets a compliance requirement; the plan sets the target and the response.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Numeric water-quality targets are not given in this lesson. Use the operator plan.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every result has a time, location, method, unit and tester",
+    "No record is overwritten; every correction is initialled, dated and explained",
+    "Missed or invalid tests are recorded as such"
+  ],
+  "documentationEvidence": [
+    "Sample record with time, location, depth, method and tester",
+    "Reagent batch and expiry check",
+    "Correction log where a record was amended",
+    "Notice to the responsible person for any out-of-range result"
+  ],
+  "summary": [
+    "A valid result depends on the right sample, method, reagent and record.",
+    "Never back-fill a test or overwrite an entry.",
+    "Keep reagents separate from acids and oxidisers as the SDS directs.",
+    "The operator plan decides the action after an out-of-range result."
+  ],
+  "businessFields": [
+    "{{business:materials.sds_links}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:materials.approved_products}}",
+    "{{business:procedures.approved_sop}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pool-cleaning-L03-K01",
+      "question": "A tester finds the test reagent for free chlorine has passed its expiry date. What should the tester do?",
+      "options": [
+        "Use it because the colour looks right on the chart",
+        "Replace the reagent, retest, and record the replacement",
+        "Record it as valid with a note about the date and the colour",
+        "Skip the record and test again next week instead of today"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L03-K02",
+      "question": "A test was not completed in the afternoon. How should the record be made?",
+      "options": [
+        "Back-fill the morning result as the afternoon result",
+        "Leave the line blank with no explanation",
+        "Record the test as not completed, with the reason",
+        "Estimate the value from the last reading"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L03-K03",
+      "question": "Where should test reagents be stored?",
+      "options": [
+        "Next to the chlorine drum for convenience",
+        "In a food container to keep them cool",
+        "On the pool deck where they are easy to reach",
+        "Away from acids and oxidisers, as the SDS directs"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L03-K04",
+      "question": "Where do the sampling location, depth and method come from, according to the lesson?",
+      "options": [
+        "The tester's preference",
+        "The nearest return jet",
+        "The operator plan",
+        "The last sample taken"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WORKSAFE-WA-DG: WorkSafe WA, Dangerous goods guidance: pool and spa chemicals (DGS_PO), checked 2026-11-03 (no publication date shown; document code WSDec25). Used for hypochlorite and calcium hypochlorite separation. No storage thresholds stated.",
+    "SWA-STORE: Safe Work Australia, Storing hazardous chemicals, checked 2026-11-03 (no date shown). Used for separate storage of incompatible chemicals.",
+    "UNCONFIRMED: numeric pool-water quality targets, and sampling and reporting rules set by state or territory. No target value is given in this lesson; use the operator plan."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Dangerous goods guidance: pool and spa chemicals (DGS_PO)",
+      "url": "https://www.worksafe.wa.gov.au/system/files/documents/2025-12/DGS_PO_Pool-and-spa-chemicals.pdf",
+      "pageDate": "no publication date shown (document code WSDec25)",
+      "checked": "2026-11-03",
+      "covers": "worksafe.wa.gov.au: search 'pool and spa chemicals' and open the DGS_PO PDF. WA only; no storage thresholds stated. Publisher: WorkSafe WA."
+    },
+    {
+      "id": "R2",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "safeworkaustralia.gov.au: Safety topics, Hazards, Chemicals, Storing hazardous chemicals. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: WorkSafe WA, Dangerous goods guidance: pool and spa chemicals (no publication date shown); Safe Work Australia, Storing hazardous chemicals (no date shown).",
+  "referencesAtEnd": "Official sources to check at the end of this lesson: WorkSafe WA, Dangerous goods guidance: pool and spa chemicals (https://www.worksafe.wa.gov.au/system/files/documents/2025-12/DGS_PO_Pool-and-spa-chemicals.pdf); Safe Work Australia, Storing hazardous chemicals (https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-05.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-06.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    }
+  ]
+}

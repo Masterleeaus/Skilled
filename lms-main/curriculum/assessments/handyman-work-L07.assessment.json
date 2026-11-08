@@ -1,0 +1,34 @@
+{
+  "lessonId": "handyman-work-L07",
+  "knowledgeAnswers": [
+    {
+      "id": "handyman-work-L07-K01",
+      "correctIndex": 3,
+      "rationale": "Tightening a joint alters the plumbing. Protect the area, ask the occupant to isolate if safe, and refer."
+    },
+    {
+      "id": "handyman-work-L07-K02",
+      "correctIndex": 0,
+      "rationale": "Queensland requires a QBCC licence for plumbing, drainage and gas fitting at any value (QBCC page, last reviewed 11 August 2021)."
+    },
+    {
+      "id": "handyman-work-L07-K03",
+      "correctIndex": 1,
+      "rationale": "With a gas smell, do not operate switches or flames, leave the area, keep others away, and call the gas emergency number or 000 from outside. Leaving the area and calling from outside are general safety practice, not a legal requirement."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated leak, the worker protects surfaces, takes no action that alters the plumbing, and records the referral.",
+    "Given a simulated gas smell, the worker states the sequence of actions in the correct order without operating switches or flames."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Referral record from the simulated leak",
+    "Verbal or written response to the gas smell scenario"
+  ],
+  "stopWorkCriteria": [
+    "A gas smell is detected",
+    "Water or gas leak cannot be contained safely",
+    "The task would alter a connection outside the worker's authority"
+  ]
+}

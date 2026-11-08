@@ -1,0 +1,35 @@
+{
+  "lessonId": "PVB-02",
+  "knowledgeAnswers": [
+    {
+      "id": "PVB-02-K01",
+      "correctIndex": 1,
+      "rationale": "VBA consumer page on pool safety barriers: a barrier must be capable of containing water deeper than 300 mm."
+    },
+    {
+      "id": "PVB-02-K02",
+      "correctIndex": 1,
+      "rationale": "VBA Building Practice Note SP 01 says site fencing considered under regulation 116 must include provisions to restrict access during excavation, during construction and once the pool can contain water."
+    },
+    {
+      "id": "PVB-02-K03",
+      "correctIndex": 1,
+      "rationale": "VBA Building Practice Note SP 01 says building work for a pool and barrier must commence within 12 months of the building permit's issue date and be completed within six months of commencement (regulations 53 and 54)."
+    }
+  ],
+  "practicalCriteria": [
+    "For a supplied site, checks the building requirements, including site fencing, with the building surveyor, and records the check before starting.",
+    "Tracks a supplied water level against the 300 mm barrier depth in the VBA consumer page, and stops filling and reports when the barrier position is not agreed with the building surveyor."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Building requirements check record",
+    "Water level and barrier record",
+    "Assessor observation of the stop-fill response"
+  ],
+  "stopWorkCriteria": [
+    "Water above 300 mm and the barrier position not agreed with the building surveyor: stop filling and report.",
+    "Building requirements, including site fencing, not agreed with the building surveyor before starting: stop and report.",
+    "Concrete pool fill requested before the building requirements are checked: hold the fill and escalate."
+  ]
+}

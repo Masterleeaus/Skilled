@@ -1,0 +1,37 @@
+{
+  "lessonId": "pressure-cleaning-L11",
+  "knowledgeAnswers": [
+    {
+      "id": "pressure-cleaning-L11-K01",
+      "correctIndex": 2,
+      "rationale": "The safe state is confirmed first: the manufacturer's method releases the pressure, and the machine is checked before any disconnection. Dragging the hose, disconnecting while pressurised and using a spare fitting are all unsafe or unauthorised."
+    },
+    {
+      "id": "pressure-cleaning-L11-K02",
+      "correctIndex": 3,
+      "rationale": "A bulge is a defect under the Safe Work Australia jetting guide. The hose is tagged out, logged and reported. Taping, cutting and rejoining, or using it again, all keep a defective item in service."
+    },
+    {
+      "id": "pressure-cleaning-L11-K03",
+      "correctIndex": 2,
+      "rationale": "An unidentified product is not used or decanted. The product is identified from its supplier record and safety data sheet first. Using a product by its colour or pouring it into an unlabelled bottle breaks the labelling and storage rules in this lesson."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supervised, de-energised demonstration unit or a paper site plan, the learner identifies each step of the manufacturer's shutdown sequence in order and names the check that confirms a safe state before disconnection.",
+    "On a supervised demonstration hose and fitting, the learner completes a visual inspection, identifies at least one defect, tags the item as defective and completes a defect log entry without repairing it.",
+    "The learner states, for a simulated chemical container with a worn label, why it is not used or decanted until the product is identified from its safety data sheet."
+  ],
+  "passRule": "Assessor observes every practical criterion and records it as met or not met. The knowledge checks are not a practical pass. The minimum knowledge score is 80%, so all three checks must be correct.",
+  "evidenceRequired": [
+    "Completed shutdown checklist for the demonstration unit",
+    "Defect log entry and tag for the demonstration hose or fitting",
+    "Assessor observation record for each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "A coupling is opened or a hose is disconnected while pressure remains",
+    "A defective hose or fitting is returned to use without a recorded test",
+    "Equipment is repaired without authority",
+    "Work above ground level is attempted without the licence or the written employer authorisation the task requires"
+  ]
+}

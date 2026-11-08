@@ -1,0 +1,36 @@
+{
+  "lessonId": "PSA-03",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-03-K01",
+      "correctIndex": 1,
+      "rationale": "Sections 5 and 6.1, with table 8: high pH reduces disinfection efficiency and raises chlorine demand, so correct the pH before increasing the dose."
+    },
+    {
+      "id": "PSA-03-K02",
+      "correctIndex": 1,
+      "rationale": "Tables 4, 5 and 6 give a pH band of 7.2 and 7.8 for bromine-treated pools."
+    },
+    {
+      "id": "PSA-03-K03",
+      "correctIndex": 1,
+      "rationale": "Section 6.4 and the table 4 footnote: with BCDMH in use, total alkalinity needs to sit between 150 and 200 mg/L."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied sample, measures pH plus total alkalinity with a calibrated kit and reads each result against the correct sanitiser band.",
+    "Adjusts in measured steps, retests after each step, and records product, dose and retest value.",
+    "Stops and escalates when a result does not settle within the number of adjustment cycles the operator plan sets."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed test log for the supplied sample",
+    "Dosing record with retest value",
+    "Assessor observation of sequence and PPE use"
+  ],
+  "stopWorkCriteria": [
+    "Operator plan or product safety data sheet not available: do not dose.",
+    "Acid and hypochlorite products found in contact or in one container: stop, make safe, escalate.",
+    "Result remains outside the band after the planned adjustments: stop adjusting and escalate."
+  ]
+}

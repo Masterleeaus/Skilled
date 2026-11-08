@@ -1,0 +1,36 @@
+{
+ "lessonId": "C08-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "C08-L01-K01",
+   "correctIndex": 2,
+   "rationale": "Confidential material is not handled or read. The spill is reported for an authorised instruction."
+  },
+  {
+   "id": "C08-L01-K02",
+   "correctIndex": 0,
+   "rationale": "Liquid is kept off powered devices."
+  },
+  {
+   "id": "C08-L01-K03",
+   "correctIndex": 1,
+   "rationale": "Missed access is logged, not bypassed."
+  }
+ ],
+ "practicalCriteria": [
+  "Classifies mock desks as authorised or restricted from a sample policy.",
+  "Cleans a powered-off training keyboard using the approved technique.",
+  "Logs a missed-access exception without entering a restricted area."
+ ],
+ "passRule": "Desks classified correctly, electronics cleaned without liquid ingress, and exception logged. Observed by an assessor.",
+ "evidenceRequired": [
+  "Desk classification record",
+  "Exception log",
+  "Assessor observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Confidential material moved or read",
+  "Liquid applied to powered equipment",
+  "Restricted office entered without authorisation"
+ ]
+}

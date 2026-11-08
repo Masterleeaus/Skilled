@@ -1,0 +1,33 @@
+{
+  "lessonId": "HLT-01",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-01-K01",
+      "correctIndex": 1,
+      "rationale": "Bacteria are single-celled and lack a nucleus. Viruses need living cells to multiply, fungi include moulds and yeasts, and parasites live on or in a host."
+    },
+    {
+      "id": "HLT-01-K02",
+      "correctIndex": 0,
+      "rationale": "Colonisation means organisms are present and multiplying without causing damage or signs. Disease needs symptoms, and sterilisation is a process, not a state of a person."
+    },
+    {
+      "id": "HLT-01-K03",
+      "correctIndex": 1,
+      "rationale": "Spore-forming bacteria are resistant to many chemical disinfectants, so the facility list for that organism applies. The other options are factually wrong."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a schedule that names an organism, the learner sorts the concern into the correct microbe family and identifies the facility product for it without help.",
+    "Given a scenario in which a person shows a sign of infection, the learner passes the sign on to the nurse in charge and records the referral."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of the sorting and product check on a real or simulated schedule",
+    "Log entry showing the referral and the person it was passed to"
+  ],
+  "stopWorkCriteria": [
+    "The organism concern cannot be matched to a product on the facility list: stop, ask the supervisor, and do not substitute a product.",
+    "A person shows signs of infection during the task: stop, refer to the nurse in charge, and do not diagnose."
+  ]
+}

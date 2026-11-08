@@ -1,0 +1,34 @@
+{
+  "lessonId": "HCG-13",
+  "knowledgeAnswers": [
+    {
+      "id": "HCG-13-K01",
+      "correctIndex": 2,
+      "rationale": "Non-critical kit meets healthy skin alone. Critical kit penetrates sterile tissue, or enters the blood vessels. Semi-critical kit meets mucosa or damaged skin."
+    },
+    {
+      "id": "HCG-13-K02",
+      "correctIndex": 1,
+      "rationale": "The guideline says disposables should not go through reprocessing, and a facility that does so requires a TGA licence and must accept audit. The other choices conflict with that position."
+    },
+    {
+      "id": "HCG-13-K03",
+      "correctIndex": 1,
+      "rationale": "The guideline's logic is that category follows contact site and manufacturer labelling. Appearance reveals neither, so the cleaner relies on the facility list."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner reads a facility category list and classifies three items shown on cards.",
+    "Learner states the referral step for an item whose category is unclear."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor record of classification answers",
+    "Referral record for any unclear item in the simulation"
+  ],
+  "stopWorkCriteria": [
+    "An item's category is unclear and the learner is asked to clean or reprocess it",
+    "A single-use device is found in a reusable stream",
+    "An item shows visible contamination and the learner has no authority to reprocess it"
+  ]
+}

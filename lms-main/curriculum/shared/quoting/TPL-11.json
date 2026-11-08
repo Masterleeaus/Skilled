@@ -1,0 +1,336 @@
+{
+  "id": "TPL-11",
+  "title": "Pricing and margin worksheet (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 60,
+  "audience": "Owners and quote writers who set prices for home-service jobs",
+  "prerequisites": [
+    "SOL-03"
+  ],
+  "learningOutcomes": [
+    "Calculate total job cost from labour, materials, travel and an overhead allocation, each with a stated basis",
+    "Calculate a price from a chosen margin, using the formula that matches the margin type stated",
+    "Check the final price against the minimum charge and the rounding rule, and record any decision that departs from them"
+  ],
+  "instruction": [
+    {
+      "heading": "What the worksheet is for",
+      "body": "The pricing worksheet builds a price from what the job costs to do, then adds a margin that the business has chosen on purpose. It answers three questions: what the job costs to deliver, what margin this kind of job needs, and what price results. It is not a way to find the highest price the market will tolerate, which is a separate question covered in the offer lesson. Use it before every quote that is not a repeat of a job already costed, and keep it with the quote so that the reason for a price can be seen later."
+    },
+    {
+      "heading": "Labour, materials, travel and overheads",
+      "body": "Labour is the hours for each task multiplied by the labour rate set by the business, including paid time that is not billed separately, such as setup, packing and necessary travel. Record the basis for each hours figure: timed on a previous job, estimated, or taken from a standard the business uses. Some estimating guides suggest a buffer of 10 to 20 percent on job estimates for unexpected work; if the business adds one, state it as its own line with its basis. Materials are the quantity used, multiplied by the unit cost, with a waste allowance written as a percentage you choose and can explain. Travel is the time or distance cost of the job. Overheads are the monthly fixed costs of running the business, divided by the billable hours expected in a month, giving an overhead amount per hour that is applied to the job. Record the method so that it can be checked. Where the business has a materials cost policy or a minimum charge, apply it and record that it was applied."
+    },
+    {
+      "heading": "Margin, price and the minimum charge",
+      "body": "Gross margin is the share of the price that remains after the job cost, calculated as (price minus cost) divided by price. Markup is a different measure: the amount added to cost, calculated as (price minus cost) divided by cost. The same job gives different numbers under the two methods, so the worksheet must state which one is used. To calculate a price from a gross margin target, divide total cost by one minus the target. To calculate a price from a markup, multiply total cost by one plus the markup. Round the price under the business rule, then check it against the minimum charge. If the price falls below the minimum charge, the business must either apply the minimum or decline the job, and the worksheet must record which. Some estimating guides suggest setting a floor margin for each job, and changing the price or scope when a job falls below it."
+    }
+  ],
+  "procedure": [
+    "Describe the job and the tasks it includes.",
+    "Enter each labour task, its hours, the basis of the hours and the labour rate, and calculate the labour cost.",
+    "Enter each material, its quantity, unit cost and waste allowance, and calculate the line cost.",
+    "Enter the travel time or distance, its cost basis and the travel cost.",
+    "Calculate the overhead amount per hour from monthly overheads and billable hours, and apply it to the hours on this job.",
+    "Add labour, materials, travel and overhead allocation to get the total job cost.",
+    "Enter the target margin and state whether it is gross margin on price or markup on cost.",
+    "Calculate the price from the margin type, then round it under the business rule.",
+    "Check the rounded price against the minimum charge, and record the decision if the minimum applies.",
+    "Calculate the margin on the final rounded price and check it against the target."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A job needs four hours of labour, consumables with a known unit cost, and a long drive. The labour rate and the overhead rate are set. The owner wants a gross margin of a stated percentage.",
+      "decisionPrompt": "Calculate the price from total cost and a gross margin target, and explain why the markup result on the same cost is different.",
+      "reasoning": "The price equals total cost divided by one minus the target gross margin. Total cost is the sum of labour, materials with waste, travel and the overhead allocation. For a 40 percent gross margin, the price is total cost divided by 0.6, not total cost multiplied by 1.4. Applying a 40 percent markup to the same cost gives total cost multiplied by 1.4, which is a lower price and a lower gross margin. The worksheet must state which method was used so that the margin reported later matches the intent. This example uses the method and symbols only; the business enters its own rates and costs."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Labour rate and overhead figures from the business records",
+    "Materials price list or supplier invoices",
+    "Calculator or spreadsheet",
+    "PPE: not applicable"
+  ],
+  "commonErrors": [
+    {
+      "error": "Confusing gross margin with markup.",
+      "prevention": "State which one is used, and calculate the price with the matching formula."
+    },
+    {
+      "error": "Leaving out travel time or the waste allowance.",
+      "prevention": "Give each its own line, and enter zero only with a stated reason."
+    },
+    {
+      "error": "Using a labour rate that excludes necessary unbilled time.",
+      "prevention": "Include setup, packing and travel time where they are part of the job."
+    },
+    {
+      "error": "Pricing below the minimum charge without recording the decision.",
+      "prevention": "Record the decision and the reason on the worksheet."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Prices, tax treatment and the rules for showing prices depend on the business registration and on the laws that apply to it, which can include state or territory rules. Check them before quoting. This worksheet does not set them.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Before costing a material, check the business approved product list. Do not cost or quote a product the procedures do not approve.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each labour, material, travel and overhead line has a stated basis",
+    "The margin type is stated, and the price matches its formula",
+    "The minimum charge and rounding rule are applied and recorded",
+    "Calculations are shown so an assessor can recheck them"
+  ],
+  "documentationEvidence": [
+    "Completed pricing worksheet with calculations shown",
+    "Source of each rate, cost and hours figure",
+    "Record of any decision made below the minimum charge"
+  ],
+  "summary": [
+    "Build the price from cost, then add a chosen margin.",
+    "Know whether you are using gross margin or markup.",
+    "Show the basis of every figure so that it can be checked.",
+    "Record every decision that departs from the rule."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "TPL-11-T01",
+      "title": "Pricing and margin worksheet",
+      "purpose": "Builds the job cost from labour, materials, travel and overheads, applies a stated margin type and target, and checks the price against the minimum charge and rounding rule.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Job description and tasks",
+          "type": "longtext",
+          "prompt": "Describe the job and list the tasks it includes.",
+          "guidance": "Tasks match the scope on the quote.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Labour",
+          "type": "table",
+          "prompt": "One row per task. Columns: task, hours, basis of the hours, labour rate, labour cost.",
+          "guidance": "Includes setup, packing and travel time where they are part of the job. Each hours figure has a basis.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Materials",
+          "type": "table",
+          "prompt": "One row per item. Columns: item, quantity, unit cost, waste allowance (percentage), line cost.",
+          "guidance": "Waste allowance is the business's own percentage with a reason. The item is on the approved product list.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Travel",
+          "type": "table",
+          "prompt": "Columns: distance or time, cost basis, travel cost.",
+          "guidance": "Cost basis is stated. A zero travel cost has a reason.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Overheads",
+          "type": "table",
+          "prompt": "Rows: monthly overhead total; billable hours per month; overhead per hour; hours on this job; overhead allocated to this job.",
+          "guidance": "Overhead per hour is monthly overheads divided by billable hours per month. The calculation is visible.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Total job cost",
+          "type": "currency",
+          "prompt": "Add labour, materials, travel and the overhead allocation.",
+          "guidance": "Equals the sum of the four cost totals above.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Margin type and target",
+          "type": "text",
+          "prompt": "State whether the margin is gross margin on price or markup on cost, and enter the target as a percentage with a reason.",
+          "guidance": "Only one margin type is stated.",
+          "required": true
+        },
+        {
+          "fieldId": "f8",
+          "label": "Calculated price before rounding",
+          "type": "currency",
+          "prompt": "For gross margin, divide total cost by one minus the target. For markup, multiply total cost by one plus the markup.",
+          "guidance": "The formula used is stated next to the result.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Rounded price and rounding rule",
+          "type": "currency",
+          "prompt": "Enter the rounded price and state the business rounding rule used.",
+          "guidance": "The rule matches the business pricing method.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Minimum charge check",
+          "type": "text",
+          "prompt": "State whether the price meets the minimum charge. If it does not, record the decision taken and the reason.",
+          "guidance": "Decision is either to apply the minimum or to decline, and is recorded.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Margin on the final price",
+          "type": "number",
+          "prompt": "Calculate (final price minus total cost) divided by the final price, as a percentage.",
+          "guidance": "Uses the final rounded price, not the price before rounding.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Checked by",
+          "type": "text",
+          "prompt": "Enter the name of the person who checked the calculations and the date.",
+          "guidance": "A different person from the one who built the worksheet, where possible.",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Each cost line has a stated basis",
+      "levels": {
+        "meets": "Labour hours, material quantities and costs, travel and overhead allocation each state their basis.",
+        "does_not_meet": "A cost line has no basis, or a line is missing without a reason."
+      }
+    },
+    {
+      "criterion": "Margin type is stated and the formula matches it",
+      "levels": {
+        "meets": "One margin type is named, the price is calculated with the matching formula, and the calculation is visible.",
+        "does_not_meet": "Gross margin and markup are mixed, or the formula does not match the named type."
+      }
+    },
+    {
+      "criterion": "Minimum charge and rounding are applied and recorded",
+      "levels": {
+        "meets": "The rounding rule is stated, the minimum charge is checked, and any decision below it is recorded with its reason.",
+        "does_not_meet": "The rounding rule is missing, or a price below the minimum has no recorded decision."
+      }
+    },
+    {
+      "criterion": "Final margin is recalculated correctly",
+      "levels": {
+        "meets": "The margin on the final rounded price is calculated correctly and compared with the target.",
+        "does_not_meet": "The margin is calculated on the unrounded price, or the arithmetic is wrong."
+      }
+    }
+  ],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} pricing and margin worksheet",
+    "format": "form",
+    "sections": [
+      {
+        "heading": "Job scope",
+        "fieldIds": [
+          "f1"
+        ]
+      },
+      {
+        "heading": "Cost build-up",
+        "fieldIds": [
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6"
+        ]
+      },
+      {
+        "heading": "Margin and price",
+        "fieldIds": [
+          "f7",
+          "f8",
+          "f9",
+          "f10",
+          "f11"
+        ]
+      },
+      {
+        "heading": "Checked by",
+        "fieldIds": [
+          "f12"
+        ]
+      }
+    ],
+    "footer": "Pricing method: {{business:pricing.pricing_method}}."
+  },
+  "knowledgeChecks": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Team brief for template lessons TPL-01 to TPL-11, item 11 (Pricing and margin worksheet); rights: reworded (no copying)",
+    "Tactic (team4 hourly-rate research): overhead per billable hour, from monthly overheads. Source: Housecall Pro, 'Handyman pricing guide', https://www.housecallpro.com/resources/how-to-price-handyman-jobs/, posted 1 June 2026, updated 21 October 2026. The source does not state a country.",
+    "Tactic (team4 pricing-hours research): buffer of 10 to 20 percent on estimates for unexpected work. Source: Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, 3 September 2026.",
+    "Tactic (team4 pricing-hours research): floor margin for each job, with a change to price or scope below it. Source: Carters Trade Leader, 'Estimating how many hours a job will take: Why 83% get it wrong', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, 1 October 2025. The article's own 20 percent figure is not used; the article is by one author and promotes a coaching service."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,33 @@
+{
+  "lessonId": "DIP-03",
+  "knowledgeAnswers": [
+    {
+      "id": "DIP-03-K01",
+      "correctIndex": 1,
+      "rationale": "The envelope is single-use and goes to clinical waste, and the holder is then cleaned. The other options reuse the envelope or delay the step."
+    },
+    {
+      "id": "DIP-03-K02",
+      "correctIndex": 1,
+      "rationale": "The clinician places the holder, and fingers are not used to position it. The other options place untrained people in the clinical role."
+    },
+    {
+      "id": "DIP-03-K03",
+      "correctIndex": 0,
+      "rationale": "A holder that cannot go through the autoclave is disinfected before it is used again. The other options leave a contaminated holder in use."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock imaging tray, the learner removes a mock sensor from its envelope, passes the envelope on as clinical waste, then cleans the holder.",
+    "The learner wipes the mock imaging unit's touch points and replaces a mock torn barrier cover."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation record for the mock imaging task",
+    "Completed mock session record"
+  ],
+  "stopWorkCriteria": [
+    "A patient's mouth is being handled by a non-clinical person",
+    "A barrier envelope is torn and a replacement is not available"
+  ]
+}

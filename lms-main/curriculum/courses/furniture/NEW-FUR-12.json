@@ -1,0 +1,180 @@
+{
+  "id": "NEW-FUR-12",
+  "title": "Final inspection, handover and records",
+  "referencesAtStart": "Official references for this lesson: Safe Work Australia, Using safety data sheets (no date shown); WorkSafe Victoria, Wood dust: health hazards and control (reviewed 17 April 2026).",
+  "courseSlugs": [
+    "furniture"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Furniture restorers who finish a piece, inspect it, hand it back to the client and file the records.",
+  "prerequisites": [
+    "NEW-FUR-06",
+    "NEW-FUR-08"
+  ],
+  "learningOutcomes": [
+    "Inspect a finished piece against the agreed scope, quote and quality standard.",
+    "Check for residue, dust and uncured finish before handover.",
+    "Complete the handover and file the records the business's policy requires."
+  ],
+  "instruction": [
+    {
+      "heading": "Inspect against the scope",
+      "body": "Compare the piece with the scope and the quote. Check the structure and joints, the finish and its colour, the fabric and its seams, the hardware, and the cleanliness of the piece. Use the business's inspection checklist, {{business:quality.inspection_checklist}}. Check the piece in good daylight-equivalent light, because most finish defects show only in good light."
+    },
+    {
+      "heading": "Check the finish and the cure",
+      "body": "Look for runs, bubbles, dull patches, dust nibs and colour that does not match the agreed test piece. Check that the finish is cured to the time on the product data sheet. A touch test is used only where the approved method allows it, and never on a fresh finish. A defect found at this stage is recorded and reworked before handover."
+    },
+    {
+      "heading": "Check residue and cleanliness",
+      "body": "Confirm that no stripper residue, sanding dust or solvent smell remains. Confirm that waste has been disposed of as the procedure sets out and that the work area has been cleaned with an approved method, such as a HEPA-filtered vacuum or a wet method. Do not clean with compressed air, because WorkSafe Victoria advises against it."
+    },
+    {
+      "heading": "Handover and records",
+      "body": "Explain the care and cure time, and the limits agreed at quote. Give care instructions that suit the finish and the fabric, and record the client's sign-off. File the before and after photographs, the method and product records, the screening results, the supplier documents and the sign-off. Keep these records as the business's policy sets out, {{business:quality.evidence_requirements}}."
+    }
+  ],
+  "procedure": [
+    "Compare the piece with the agreed scope, quote and quality standard.",
+    "Inspect the structure, finish, fabric and hardware in good light.",
+    "Check that the finish is cured, and check for residue, dust and solvent smell.",
+    "Record any defect, and rework it before handover.",
+    "Explain the care and the agreed limits, and give written care notes.",
+    "Record the client's sign-off and file the records."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A stripped and refinished timber table has a dull patch on one corner. The client is waiting to collect it.",
+      "decisionPrompt": "Does the table go home today?",
+      "reasoning": "No. Check the cure time and the product batch first. If the finish is not cured, hold the piece. Record the defect, rework the patch as the approved method sets out once the cure check is done, and tell the client the new collection time. Do not hand over a defect that has not been recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Inspection checklist from the business's approved set",
+    "Good daylight-equivalent light or a daylight lamp",
+    "Camera for before and after photographs",
+    "Care notes template"
+  ],
+  "commonErrors": [
+    {
+      "error": "Handing back a piece before the finish has cured.",
+      "prevention": "Check the stated cure time on the product data sheet before handover."
+    },
+    {
+      "error": "Skipping the residue and solvent-smell check.",
+      "prevention": "Include residue and solvent smell on every inspection checklist."
+    },
+    {
+      "error": "Filing records incompletely.",
+      "prevention": "Use the evidence list in the business policy and check it before the job is closed."
+    },
+    {
+      "error": "Not recording a defect because it was fixed quickly.",
+      "prevention": "Record every defect and its rework, even when fixed before handover."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Do not hand back a piece with uncured finish or solvent odour. Hold the job until the controls set out in the SDS are met.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Records of screening results and removal or referral decisions must be kept under the business's records policy.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The piece is inspected against the agreed scope and quality standard, and the inspection is signed.",
+    "The residue and cure checks are recorded.",
+    "Care notes are given, and the records are complete before the job is closed."
+  ],
+  "documentationEvidence": [
+    "Signed inspection checklist",
+    "Before and after photographs",
+    "Method, product and cure records, screening results and supplier documents",
+    "Client sign-off and care notes"
+  ],
+  "summary": [
+    "Inspect against the scope and the quality standard, in good light.",
+    "Hold the piece until the finish is cured and the residue check is recorded.",
+    "File the full set of records before closing the job."
+  ],
+  "businessFields": [
+    "{{business:quality.inspection_checklist}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:assessment.signoff_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FUR-12-K01",
+      "question": "A table top is still tacky at handover. What is correct?",
+      "options": [
+        "Hold the job, check the cure, and record the defect before handover",
+        "Hand it back, because it will dry further at home over the week",
+        "Cover it with a cloth and hand it back to the client today"
+      ]
+    },
+    {
+      "id": "NEW-FUR-12-K02",
+      "question": "Which items form part of the final records?",
+      "options": [
+        "Only the invoice, which shows what the client paid for the job and when it was paid",
+        "Before and after photographs, method and product records, screening results and sign-off",
+        "Nothing, because memory is enough for the business to recall the job later"
+      ]
+    },
+    {
+      "id": "NEW-FUR-12-K03",
+      "question": "What does a final inspection check the piece against?",
+      "options": [
+        "The cleaner's preference for the finish and the colour",
+        "The product's advertising and the claims on its label",
+        "The agreed scope, the quote and the quality standard"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references (repeated for the end of the lesson): Safe Work Australia, Using safety data sheets (no date shown); WorkSafe Victoria, Wood dust: health hazards and control (reviewed 17 April 2026).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets (checked 2026-11-02; SDS controls)",
+    "https://www.worksafe.vic.gov.au/wood-dust-health-hazards-and-control (checked 2026-11-02; clean-as-you-go and no compressed air, reviewed 17/04/2026)",
+    "UNCONFIRMED: record retention period for screening and referral records; cure times for specific products. Research brief: /home/claude/work/team/research-topics/furniture.md, sections 5, 6 and 13."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Using safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Workplace duty to keep SDS in the hazardous chemical register, and to make them easy to access for the people named on the page. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Wood dust: health hazards and control",
+      "url": "https://www.worksafe.vic.gov.au/wood-dust-health-hazards-and-control",
+      "pageDate": "Reviewed 17 April 2026",
+      "checked": "2026-11-03",
+      "covers": "Dust class, extraction, compressed air and respirator guidance, and the exposure figures it lists from Safe Work Australia. Recheck the national list before quoting any figure. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/bond-photo-54facd4a-08.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/bond-photo-54facd4a-09.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    }
+  ]
+}

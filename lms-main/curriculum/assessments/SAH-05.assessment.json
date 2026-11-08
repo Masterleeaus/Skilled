@@ -1,0 +1,41 @@
+{
+  "lessonId": "SAH-05",
+  "knowledgeAnswers": [
+    {
+      "id": "SAH-05-K01",
+      "correctIndex": 1,
+      "rationale": "A damp cloth captures dust, and working top to bottom stops dust falling onto surfaces already cleaned."
+    },
+    {
+      "id": "SAH-05-K02",
+      "correctIndex": 1,
+      "rationale": "Spray creates a fine mist that can irritate and spread material; a squeeze bottle or a cloth gives much less mist."
+    },
+    {
+      "id": "SAH-05-K03",
+      "correctIndex": 1,
+      "rationale": "The standard calls for HEPA filters and regular filter changes as part of scheduled maintenance."
+    },
+    {
+      "id": "SAH-05-K04",
+      "correctIndex": 2,
+      "rationale": "The dust control section says tools that stir dust into the air, such as brooms and feather dusters, should be avoided in healthcare areas."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner dusts a sample surface using a damp cloth top to bottom, with no dry dusting and no spray into the air",
+    "Learner identifies the filter and bag condition on a sample vacuum and states whether it can be used"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge-check result (not practical competence)",
+    "Assessor observation of the dusting exercise",
+    "Equipment check record"
+  ],
+  "stopWorkCriteria": [
+    "A vacuum has a damaged bag or unknown filter and is for use near a clinical area",
+    "Spray product is being used while patients are in the room, with no ventilation"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

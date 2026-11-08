@@ -1,0 +1,35 @@
+{
+  "lessonId": "CGC-03",
+  "knowledgeAnswers": [
+    {
+      "id": "CGC-03-K01",
+      "correctIndex": 1,
+      "rationale": "Gloves are for contact with fluids from the body, broken skin, mucous membranes and invasive tasks, not for every conversation."
+    },
+    {
+      "id": "CGC-03-K02",
+      "correctIndex": 1,
+      "rationale": "Hands are cleaned and fresh gloves used between clients where necessary; reusing or rinsing gloves is not the approach."
+    },
+    {
+      "id": "CGC-03-K03",
+      "correctIndex": 1,
+      "rationale": "Toothbrushes are personal items that must not be shared. A care plan and a clipboard are not personal-hygiene items."
+    }
+  ],
+  "practicalCriteria": [
+    "In a supervised task, the learner selects PPE for a stated exposure, and the assessor confirms the selection matches the exposure",
+    "The learner removes gloves without contaminating the outer surface, observed by the assessor",
+    "The learner describes the food-handling steps that apply to the setting, and the assessor checks each step against the lesson"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Exposure assessment record",
+    "Assessor observation of PPE donning and doffing",
+    "Food-handling check answer"
+  ],
+  "stopWorkCriteria": [
+    "Stop the task if PPE does not match the exposure",
+    "Stop any shared use of a personal item with a client"
+  ]
+}

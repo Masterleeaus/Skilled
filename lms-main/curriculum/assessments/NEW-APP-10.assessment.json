@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-APP-10",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-APP-10-K01",
+      "correctIndex": 3,
+      "rationale": "The compressor and its pipes form the sealed refrigerant circuit, which is outside the cleaning scope."
+    },
+    {
+      "id": "NEW-APP-10-K02",
+      "correctIndex": 0,
+      "rationale": "Regulation 111 makes it an offence to carry out work on RAC equipment without a licence, so a refrigerant handling licence is the answer."
+    },
+    {
+      "id": "NEW-APP-10-K03",
+      "correctIndex": 1,
+      "rationale": "The inlet is internal water work and is excluded. The worker dries, records and refers. Changing the filter is not part of the course."
+    },
+    {
+      "id": "NEW-APP-10-K04",
+      "correctIndex": 2,
+      "rationale": "The drain is checked from outside only. Tools inserted into an internal drain line are excluded."
+    },
+    {
+      "id": "NEW-APP-10-K05",
+      "correctIndex": 3,
+      "rationale": "Refrigerant can cause frostbite on contact, and some refrigerants are flammable, so a leak is a hazard in its own right."
+    }
+  ],
+  "practicalCriteria": [
+    "Records the refrigeration and water boundary before cleaning, with excluded parts marked",
+    "Cleans the drip tray, bin, cabinet exterior, bin lid and door seal only",
+    "Checks the drain outlet from outside without inserting tools",
+    "Stops and records a leak or fault without changing any internal part"
+  ],
+  "passRule": "Knowledge checks: at least 4 of 5 correct (80%). Practical sign-off is separate: an assessor observes the practical criteria and records the result. A knowledge pass is not practical competence and does not grant any licence or authority.",
+  "evidenceRequired": [
+    "Refrigeration and water boundary record with photographs",
+    "Waste disposal record for bin and drip tray contents",
+    "Referral record for any leak, blockage or abnormal noise"
+  ],
+  "stopWorkCriteria": [
+    "Cleaning or brushing the condenser coil before the boundary is confirmed",
+    "Changing an inlet filter or opening the cabinet",
+    "Any tool inserted into the internal drain line"
+  ]
+}

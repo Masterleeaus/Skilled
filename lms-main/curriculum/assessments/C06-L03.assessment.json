@@ -1,0 +1,39 @@
+{
+  "lessonId": "C06-L03",
+  "knowledgeAnswers": [
+    {
+      "id": "C06-L03-K01",
+      "correctIndex": 1,
+      "rationale": "The inspection is done against the signed checklist, line by line, so that the record can be checked later. Impressions and opinions are not a record."
+    },
+    {
+      "id": "C06-L03-K02",
+      "correctIndex": 2,
+      "rationale": "Pre-existing damage is recorded as found and classified against the pre-work record. It is not recorded as cleaning failure, and the cleaner does not pay a deduction."
+    },
+    {
+      "id": "C06-L03-K03",
+      "correctIndex": 2,
+      "rationale": "The handover describes the clean and the evidence. Bond release is decided by the parties or by an order, so the cleaner does not guarantee it."
+    }
+  ],
+  "practicalCriteria": [
+    "In a simulated inspection, the worker checks each line of the signed checklist in order, marks any line that cannot be checked as inaccessible, and records the result for every line.",
+    "Given a simulated cracked tile and a simulated overlooked shelf, the worker classifies the tile as pre-existing damage using the pre-work record, corrects and reinspects the shelf as missed cleaning, and records both.",
+    "Given a simulated request to confirm a bond return, the worker declines the guarantee and gives the handover pack and follow-up contact instead.",
+    "The worker takes a simulated photograph with no people or private documents in frame, and retakes any photograph that shows them."
+  ],
+  "passRule": "Every checklist line recorded. Each finding classified against the pre-work record, with missed cleaning corrected and reinspected. Bond guarantee declined. Photographs free of people and private documents. Observed in a supervised simulation, with assessor sign-off. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Completed signed checklist with classifications",
+    "Authorised photographs with timestamps, and any retake record",
+    "Handover record and follow-up contact",
+    "Assessor observation sheet"
+  ],
+  "stopWorkCriteria": [
+    "Inspection carried out by impression rather than against the signed checklist",
+    "Pre-existing or permanent damage recorded as a cleaning failure without evidence",
+    "Bond or deposit outcome guaranteed in writing or in conversation",
+    "Photograph shared that shows people or private documents"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "lessonId": "solar-panel-cleaning-L05",
+  "knowledgeAnswers": [
+    {
+      "id": "solar-panel-cleaning-L05-K01",
+      "correctIndex": 1,
+      "rationale": "A cracked module with exposed wiring is a live hazard. The worker stops, keeps people clear, does not touch it, and reports to the owner and a licensed electrician."
+    },
+    {
+      "id": "solar-panel-cleaning-L05-K02",
+      "correctIndex": 2,
+      "rationale": "A burnt connector is recorded as an unknown and the worker stops without touching it. Cleaning it or pulling it out is not the response."
+    },
+    {
+      "id": "solar-panel-cleaning-L05-K04",
+      "correctIndex": 0,
+      "rationale": "Water running toward a junction box on a damaged module calls for the spray to be stopped and kept away, and for the damage to be reported. Continuing to spray or drying the box by hand is not acceptable."
+    },
+    {
+      "id": "solar-panel-cleaning-L05-K05",
+      "correctIndex": 1,
+      "rationale": "A dated photograph with a written description and the owner informed is the record that supports a referral. A verbal note or a replacement quote alone is not enough."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner inspects a demonstration array from the ground, and records visible damage without climbing onto it.",
+    "The learner photographs each damaged item with its position marked on a sketch.",
+    "The learner does not clean a damaged module, exposed cable or burnt component in the scenario.",
+    "The learner records the unknown parts of the array separately from the observed damage."
+  ],
+  "passRule": "Knowledge checks: 80% correct (4 of 5). Practical sign-off is assessed separately on a demonstration inspection. A knowledge pass does not verify damage detection in the field.",
+  "evidenceRequired": [
+    "Inspection record with observed damage and unknowns, separately",
+    "Dated photographs with positions marked on a sketch",
+    "Make and model of the array and the inspection date",
+    "Referral and owner notification record"
+  ],
+  "stopWorkCriteria": [
+    "The learner jets or cleans a cracked module.",
+    "The learner touches an exposed cable to see if it is live.",
+    "The learner records a module as sound because it looks clean.",
+    "The learner cites a clause of AS/NZS 5033 for a cleaning method."
+  ]
+}

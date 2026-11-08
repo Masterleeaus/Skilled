@@ -1,0 +1,35 @@
+{
+  "lessonId": "PTB-04",
+  "knowledgeAnswers": [
+    {
+      "id": "PTB-04-K01",
+      "correctIndex": 0,
+      "rationale": "Mapping and timing each step shows where enquiries are lost. More advertising or lower prices may not address the step that causes the loss."
+    },
+    {
+      "id": "PTB-04-K02",
+      "correctIndex": 1,
+      "rationale": "A milestone or a stated satisfaction gives the client a reason to recommend the service. A first call or a mass message does not."
+    },
+    {
+      "id": "PTB-04-K03",
+      "correctIndex": 1,
+      "rationale": "The Spam Act makes consent a condition for commercial electronic messages. Height and income are not relevant to consent."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a sample enquiry log, the learner maps the process and sets a time target for each step, and the assessor agrees the targets are measurable",
+    "The learner writes a specific referral request for one client milestone, without pressure or incentives that are not disclosed",
+    "The learner sorts a reactivation list into consent-recorded and consent-missing contacts, and only the first group is marked eligible for electronic messages"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Process map with time targets",
+    "Referral request text",
+    "Sorted reactivation list with consent status"
+  ],
+  "stopWorkCriteria": [
+    "Stop any electronic reactivation message to an address without a consent record",
+    "Stop a pressure tactic on a lapsed client who has asked to stop"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "lessonId": "PSA-10",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-10-K01",
+      "correctIndex": 1,
+      "rationale": "Section 9: bathers are the biggest source of nitrogen compounds, arriving in sweat and urine."
+    },
+    {
+      "id": "PSA-10-K02",
+      "correctIndex": 1,
+      "rationale": "Section 9.5: urea needs a breakdown step before it can bind chlorine, which can mean a wait of three or four hours, whereas ammonia reacts within minutes."
+    },
+    {
+      "id": "PSA-10-K03",
+      "correctIndex": 1,
+      "rationale": "Section 9.5: effective disinfection requires organic nitrogen to be controlled, achieved by maintaining breakpoint chlorination at all times."
+    }
+  ],
+  "practicalCriteria": [
+    "For a supplied busy-day scenario, sets a testing frequency and records the bather load and weather.",
+    "Removes supplied debris from the water surface before opening and records the removal."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Bather load and test record for the assessed day",
+    "Assessor observation of debris removal"
+  ],
+  "stopWorkCriteria": [
+    "Free chlorine below minimum during a busy period: close or restrict the pool as the operator directs and escalate.",
+    "Body fluid spill in the pool: follow the response in pool-cleaning-L09 and stop work until the area is safe."
+  ]
+}

@@ -1,0 +1,12 @@
+import { readFileSync } from "node:fs";
+import { strict as assert } from "node:assert";
+const component = readFileSync(new URL("../apps/frontend/src/components/CurriculumLessonBody.tsx", import.meta.url), "utf8");
+const player = readFileSync(new URL("../apps/frontend/src/components/SharedCurriculumPlayer.tsx", import.meta.url), "utf8");
+assert.match(component, /function renderValue/);
+assert.match(component, /Array\.isArray\(value\)/);
+assert.match(component, /https:/);
+assert.match(component, /noopener noreferrer/);
+assert.doesNotMatch(component, /dangerouslySetInnerHTML/);
+assert.match(player, /<CurriculumLessonBody body=\{body\}/);
+assert.match(player, /acknowledgeCurriculumLesson/);
+console.log("Pass 5: seven lesson renderer integration assertions passed");

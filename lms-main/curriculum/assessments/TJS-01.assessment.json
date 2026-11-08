@@ -1,0 +1,33 @@
+{
+  "lessonId": "TJS-01",
+  "knowledgeAnswers": [
+    {
+      "id": "TJS-01-K01",
+      "correctIndex": 0,
+      "rationale": "The walk-through maps supplies, waste points and hazards before work begins. It is not a speed or pricing exercise."
+    },
+    {
+      "id": "TJS-01-K02",
+      "correctIndex": 1,
+      "rationale": "Out-of-scope items are recorded and confirmed with the site contact. The worker does not decide scope alone."
+    },
+    {
+      "id": "TJS-01-K03",
+      "correctIndex": 1,
+      "rationale": "The safety data sheet for the specific product holds the handling and first aid information. Packaging of other products and memory are not reliable sources."
+    }
+  ],
+  "practicalCriteria": [
+    "Completes a site walk-through with the site contact and records the storage room, waste points, emergency numbers, safety data sheet location and closing routine on a site card.",
+    "Lists at least one question for the site contact where the scope is unclear."
+  ],
+  "passRule": "Knowledge checks: 80% pass mark, which for three questions means all three correct. Practical sign-off is separate and observed by an assessor.",
+  "evidenceRequired": [
+    "Completed site card",
+    "Assessor observation of the walk-through"
+  ],
+  "stopWorkCriteria": [
+    "Work starts before the walk-through and scope check",
+    "A product is used before its safety data sheet has been located"
+  ]
+}

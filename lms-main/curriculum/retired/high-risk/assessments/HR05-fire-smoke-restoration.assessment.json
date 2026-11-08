@@ -1,0 +1,93 @@
+{
+ "lessonId": "HR05-fire-smoke-restoration",
+ "knowledgeAnswers": [
+  {
+   "id": "HR05-K01",
+   "correctIndex": 1,
+   "rationale": "Access and release are established in writing before work. Urgency is not verification, and the owner's keys do not authorise entry."
+  },
+  {
+   "id": "HR05-K02",
+   "correctIndex": 2,
+   "rationale": "Damaged utilities and sagging ceilings are stop-work hazards. Qualified personnel decide on isolation and entry, and no DIY repair is made."
+  },
+  {
+   "id": "HR05-K03",
+   "correctIndex": 0,
+   "rationale": "Uncertain combustion residue must not be dry-disturbed. Refer for assessment and an approved site method."
+  },
+  {
+   "id": "HR05-K04",
+   "correctIndex": 1,
+   "rationale": "Unknown fire-damaged products may contain asbestos, and heat can change its condition. Stop, do not disturb, and refer for competent assessment."
+  },
+  {
+   "id": "HR05-K05",
+   "correctIndex": 2,
+   "rationale": "Restricted zones are not passed through unsupervised. A supervised retrieval is arranged with the site controller or emergency services."
+  },
+  {
+   "id": "HR05-K06",
+   "correctIndex": 0,
+   "rationale": "A disposable dust mask is not a suitable control for an unknown ash exposure. Flag for a competent adviser."
+  },
+  {
+   "id": "HR05-K07",
+   "correctIndex": 1,
+   "rationale": "Items are assessed before any handling. Exposed electrical devices are not operated without authorisation, and owner consent is recorded."
+  },
+  {
+   "id": "HR05-K08",
+   "correctIndex": 2,
+   "rationale": "Abrasive methods on fragile historic finishes are destructive. Approval and suitability evidence come first."
+  },
+  {
+   "id": "HR05-K09",
+   "correctIndex": 0,
+   "rationale": "Chemical and ozone treatments are separate exposure decisions. They are not used in occupied spaces without verification and permissions."
+  },
+  {
+   "id": "HR05-K10",
+   "correctIndex": 1,
+   "rationale": "Unknown contaminated waste is not general rubbish by default. It is characterised and routed to specialist and licensed handling."
+  },
+  {
+   "id": "HR05-K11",
+   "correctIndex": 2,
+   "rationale": "An impartial record keeps both positions and separates observed conditions from conclusions about cause or clearance."
+  },
+  {
+   "id": "HR05-K12",
+   "correctIndex": 0,
+   "rationale": "Cleaning completion is not a safe-to-occupy certificate. Clearance belongs to a qualified and authorised party."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies the controlling authority and the missing written release in a simulated fire-scene request, and records a stop decision with the owner named.",
+  "Marks unsafe entry routes on a mock floor plan from described utility and structural damage and produces a referral request without DIY work.",
+  "Writes an asbestos-suspect stop-work notification from a fictional site record and names the missing competent assessment.",
+  "Refuses an unsupervised passage request and draws a mock access map with exclusion zones and a supervised alternative.",
+  "Writes a limited-scope handover for a fictional job that reports only completed work and unresolved limitations, and refuses a safe-to-occupy certificate."
+ ],
+ "passRule": "Competent only if all five observable tasks are demonstrated correctly in supervised paper or training-only simulation with no critical safety failure. Critical failures include entry or salvage without written release, disturbance of residue or suspected asbestos, unsupervised passage through a restricted zone, operating exposed electrical devices, chemical or ozone treatment in occupied spaces without checking it, or a safe-to-occupy claim. A written quiz pass is not practical competence. Not approved for use until specialist, legal and jurisdiction review is complete.",
+ "evidenceRequired": [
+  "Authority and access register for each simulated case.",
+  "Annotated mock floor plan with unsafe entry routes and the referral request.",
+  "Asbestos-suspect stop-work notification and competent-assessment request.",
+  "Mock access map with exclusion zones and the supervised alternative.",
+  "Limited-scope handover from the simulated job file.",
+  "Assessor observation record signed by an organisation-authorised competent assessor."
+ ],
+ "stopWorkCriteria": [
+  "Any entry, salvage or cleaning without a written release from the controlling authority.",
+  "Any disturbance of ash, residue, or fire-damaged material of unknown composition.",
+  "Any passage through a restricted or unassessed zone without supervision.",
+  "Any operation of exposed electrical devices without authority.",
+  "Any PPE or respiratory protection that is not verified against the hazard.",
+  "Any destructive cleaning method or chemical or ozone treatment in an occupied space without checking it.",
+  "Any waste placed in general bins without characterisation.",
+  "Any safe-to-occupy or clearance statement."
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

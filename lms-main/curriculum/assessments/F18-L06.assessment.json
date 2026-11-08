@@ -1,0 +1,35 @@
+{
+ "lessonId": "F18-L06",
+ "knowledgeAnswers": [
+  {
+   "id": "F18-L06-K01",
+   "correctIndex": 2,
+   "rationale": "The lesson says to search, record the missing product with the job and time, and report it, because a missing hazardous product may be a safety issue. Assuming it was used up (option 0) and replacing it without a record (option 2) both hide the loss."
+  },
+  {
+   "id": "F18-L06-K02",
+   "correctIndex": 0,
+   "rationale": "The lesson requires a written handover with the state of each item, any damage or leak, and the receiver's confirmation. A total count alone (option 0) and the time (option 2) do not record the state of the kit."
+  },
+  {
+    "id": "F18-L06-K03",
+    "correctIndex": 2,
+    "rationale": "The reconcile section says to check the kit against the job map and the stock register at the end of a job."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner reconciles a supplied kit against a job map and stock register at the end of a simulated job, and accounts for every item.",
+  "Learner completes a written handover that gives the state of each item and any damage or leak.",
+  "Learner records a simulated missing product with the item, quantity, time, job and likely cause, and reports it."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Kit reconciliation record with count, state and any discrepancy",
+  "Handover record with receiver confirmation",
+  "Loss or damage record with cause and action taken"
+ ],
+ "stopWorkCriteria": [
+  "Learner leaves a kit unreconciled in a vehicle",
+  "Learner hides a missing hazardous product"
+ ]
+}

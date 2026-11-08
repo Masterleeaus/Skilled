@@ -1,0 +1,37 @@
+{
+ "lessonId": "F05-L03",
+ "knowledgeAnswers": [
+  {
+   "id": "F05-L03-K01",
+   "correctIndex": 0,
+   "rationale": "The lesson says that if contaminated equipment touches a clean or food-contact surface, the worker stops, isolates the items, reprocesses the surface and reports if necessary."
+  },
+  {
+   "id": "F05-L03-K02",
+   "correctIndex": 1,
+   "rationale": "Where a required control is unavailable the worker stops and seeks direction. Designated cloths are kept separate for each zone."
+  },
+  {
+    "id": "F05-L03-K03",
+    "correctIndex": 1,
+    "rationale": "The instruction says to perform hand hygiene at task transitions, to change tools when soiled, and to avoid returning dirty tools to clean surfaces."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies relevant hazards, scope and site conditions",
+  "Selects and explains suitable controls and methods",
+  "Performs the sequence without unsafe contamination transfer",
+  "Verifies the outcome and documents exceptions",
+  "Escalates situations outside training or authority"
+ ],
+ "passRule": "Assessor must observe every safety-critical criterion; any failure requires remediation and reassessment.",
+ "evidenceRequired": [
+  "Record of procedure step 2: Keep toilet and bathroom equipment away from kitchen, food and general areas.",
+  "Record of procedure step 5: Keep clean supplies separate from used items during transport.",
+  "Record of procedure step 7: Reprocess the affected surface using the approved procedure, and report the breach if site policy requires it."
+ ],
+ "stopWorkCriteria": [
+  "Stop work if procedure step 3 is not done: Change a cloth or tool when it becomes soiled, and do not return a dirty tool to a clean surface.",
+  "Stop work if procedure step 6 is not done: If contaminated equipment touches a clean or food-contact surface, stop and isolate the affected items."
+ ]
+}

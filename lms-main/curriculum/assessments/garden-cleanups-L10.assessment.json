@@ -1,0 +1,37 @@
+{
+  "lessonId": "garden-cleanups-L10",
+  "status": "PROPOSED REPLACEMENT - see report; the existing file at assessments/garden-cleanups-L10.assessment.json was overwritten by another batch with invalid correctIndex values",
+  "knowledgeAnswers": [
+    {
+      "id": "garden-cleanups-L10-K01",
+      "correctIndex": 0,
+      "rationale": "Mixing streams can cause rejection and contamination. Separate at collection and confirm destinations."
+    },
+    {
+      "id": "garden-cleanups-L10-K02",
+      "correctIndex": 1,
+      "rationale": "A destination that cannot be identified is held and referred, not gambled on."
+    },
+    {
+      "id": "garden-cleanups-L10-K03",
+      "correctIndex": 2,
+      "rationale": "Fibre-cement may contain asbestos. Stop, contain and refer."
+    }
+  ],
+  "practicalCriteria": [
+    "Given three supplied waste items and two containers, the learner separates the items into the correct streams without mixing within the assessor's set time.",
+    "The learner completes a destination confirmation record for a simulated facility, recording the name of the person who gave the answer and the date.",
+    "The learner completes a load check for a supplied trailer and names three items to check before it leaves the site."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Separation check sheet signed by the assessor.",
+    "Destination confirmation record for the simulated facility.",
+    "Load check record for the simulated trailer."
+  ],
+  "stopWorkCriteria": [
+    "Handling a supplied leaking or unlabelled chemical container.",
+    "Breaking or cutting the supplied fibre-cement sample.",
+    "Loading a stream whose destination cannot be identified."
+  ]
+}

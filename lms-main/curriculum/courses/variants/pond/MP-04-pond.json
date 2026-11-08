@@ -1,0 +1,146 @@
+{
+  "id": "MP-04-pond",
+  "title": "Break-even analysis with a worked calculation for Pond and water-feature maintenance",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Pond and water-feature maintenance operators who set prices or plan monthly revenue, including solo operators with a round of ongoing accounts.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a pond and water-feature maintenance business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means",
+      "body": "Break-even revenue is the amount of sales that covers all costs exactly, so profit is zero. Below that level the business loses money. Above it, each further dollar of sales adds to profit. For a pond round, the figure tells you how many visits or accounts you need each month before the business covers its costs. It is a planning tool, and its answer is only as good as the costs and percentages that go into it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of accounts in a month. They include the vehicle loan or lease, vehicle registration, insurance, phone and software subscriptions, and premises. Variable costs move with each visit. They include pond treatments and consumables used on the job, replacement pump and filter parts that are not charged separately, and the card fees on each payment. ANZ defines the two cost types and warns that costs must be covered to avoid running at a loss (21 February 2025, last modified 22 July 2025). Express variable cost as a percentage of sales by dividing the variable cost in a period by the sales in the same period. Check that percentage across at least three periods, because a single unusual month can mislead. Business Victoria advises checking price against total overheads, including card fees and insurance."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. The quantity one minus the variable percentage is the contribution margin: the share of each dollar of sales left to cover fixed costs. Use the variable percentage as a decimal, so 20 percent becomes 0.20. The contribution margin of a 20 percent variable cost is 0.80. Xero Australia states the same formula, and adds that a job count should be rounded up to whole jobs (23 July 2026)."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write the inputs first, each with its source and date. Compute the contribution margin. Divide the fixed costs by it. Then divide the result by the average revenue of one job, and round up to whole jobs. The worked example below uses illustrative figures throughout. No pond price was found in the research to set the average job, so replace every input with your own figure before using the result."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount and not an annual one. Confirm that the variable percentage is a share of sales and not of cost. Confirm that the output is revenue and not profit. Then write down the reconciled figure with its inputs and drop the others. A figure that cannot be checked should not be used to set prices."
+    },
+    {
+      "heading": "Tax on the price",
+      "body": "Once the business is registered for GST, GST should be included in the selling price. The ATO says a business must register when its GST turnover reaches $75,000, and must register within 21 days of reaching it (last updated 14 September 2026). Compare break-even revenue with sales on the same basis, GST-exclusive or GST-inclusive. Check the tax treatment of costs with a registered tax agent."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a percentage of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by the average revenue of one job, and round up to whole jobs.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A two-person pond and water-feature maintenance business (illustrative figures, invented for this lesson) has fixed costs of $1,800 AUD a month, variable costs of 20% of sales for treatments, consumables and card fees, and an average job price of $160 AUD (illustrative). No pond price was found in the research to check this price against.",
+      "decisionPrompt": "How many jobs must the business complete each month to break even, and what should it check before setting prices?",
+      "reasoning": "The contribution margin is 1 minus 0.20, which is 0.80. Break-even revenue is $1,800 AUD divided by 0.80, which is $2,250 AUD a month (illustrative). At $160 AUD a job, that is 14.06 jobs, so the business needs 15 jobs to cover its costs. Each job contributes $128 AUD ($160 AUD multiplied by 0.80) towards fixed costs. Before setting prices, check that the 20% includes every job cost, that the $1,800 AUD is a monthly figure, and that $160 AUD is the average price actually charged after discounts."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Copying a break-even figure from a source without its inputs",
+      "prevention": "Recalculate from your own inputs and record the source and date of each input before using the result."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs and GST with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority. No pond-specific licence source was confirmed, and the calculation does not cover fish or water-discharge rules.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout the calculation.",
+    "Recalculate from your own inputs. Do not copy another business's break-even figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-K02",
+      "question": "Fixed costs are $1,800 AUD a month (illustrative) and variable costs are 20% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$2,250.00 AUD",
+        "$360.00 AUD",
+        "$1,800.00 AUD",
+        "$9,000.00 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-K03",
+      "question": "Two sources give different break-even figures for the same business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure entirely",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the client today",
+        "Use the price list alone and skip the break-even check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; a job count is rounded up to whole jobs.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs; costs must be covered to avoid operating at a loss.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Victoria. Supports: check the price against total overheads, including card fees and insurance.",
+    "ATO, 'Registering for GST', https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst, last updated 14 September 2026. Supports: a $75,000 GST turnover threshold; 21 days to register after reaching it.",
+    "Gap: no pond-specific fixed cost, variable cost percentage or average job price from a trade or government source was found. Every figure in the worked example is illustrative."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,208 @@
+{
+  "id": "MP-01",
+  "title": "Defining target segments from customer data",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Marketing and sales",
+  "layer": "base",
+  "lessonType": "RV",
+  "estimatedMinutes": 30,
+  "audience": "Any home-service operator, including solo operators and team owners, who is deciding who to market to.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Sort existing customer records into candidate segments using at least three fields",
+    "Test each candidate segment for need, ability to pay and reachability",
+    "Calculate a compound growth rate from a start value, an end value and a number of years"
+  ],
+  "instruction": [
+    {
+      "heading": "What a segment is and why it comes first",
+      "body": "A segment is a group of customers who share a recurring need, can pay for the service at the price you charge, and can be reached through a channel you are allowed to use. Choose segments before you choose channels. The channel depends on where the group already looks for help, so a business that picks a brochure or an advert first and works out its audience afterwards usually pays to reach people who will never book. Your segments should be written down, tested and dated, not held as an impression of who your customers are."
+    },
+    {
+      "heading": "Start with the customers you already have",
+      "body": "Your own records are the cheapest source of segment data. Export invoices or bookings for the last twelve months into a spreadsheet with one row per customer. Add columns only for things you already hold or can ask about with consent: property type, household or business type, how often they book, how long they have stayed, what they bought first, and how they found you. Do not add a field the service does not need. Limit personal detail to what the job requires. Each extra personal field may add privacy obligations, so check them before collecting it."
+    },
+    {
+      "heading": "Look for patterns that predict value",
+      "body": "Sort the rows by booking frequency and then by total value. Look for traits that the most valuable and most loyal customers share, and count how many of each trait appear in that top group compared with the rest. The point is to show the pattern in numbers rather than in memory. A pattern found in a handful of customers is a hypothesis to test in the next step, not a segment yet."
+    },
+    {
+      "heading": "Test each candidate segment",
+      "body": "Give every candidate three tests. Need: does the group have a recurring problem that your service solves? Ability to pay: does the group pay the price you plan to charge, and do its members buy this type of service now? Reachability: can you contact the group through a channel you can lawfully use? Before you commit, also compare the candidate with the number of rival providers, how often the need recurs, and where buyers prefer to purchase. A candidate that fails one test is either redefined so it passes, or set aside. Write down the reason for each rejection so the decision can be reviewed later and not repeated by accident."
+    },
+    {
+      "heading": "Size the segment and state the date",
+      "body": "A segment is only useful if you know roughly how many people or businesses fit it. Count from a source you can name and date, such as a local council figure, an official statistical release or your own records, and write the year beside the number. Then apply a growth assumption and show the arithmetic. Compound growth over a number of years is calculated as the end value divided by the start value, raised to the power of one over the number of years, minus one. The sample plan this lesson draws on gave a potential-customer count and a growth rate for an earlier United States market. Those figures are removed here: they are not Australian and are not current. Use the method only: a start count, an end count, the number of years and a growth rate calculated from a source you can name and date."
+    },
+    {
+      "heading": "Write one profile per segment",
+      "body": "Finish with a short profile for each kept segment. Keep it brief, as government small-business guidance on target markets suggests, and make each profile specific to one group: who the customers are, the recurring problem they have, what they value most, and the one reason they would choose your business. The sample plan described its target groups by household income and house value. Those thresholds were set in United States dollars in 2002, so they cannot be carried into an Australian plan. Replace them with measures from your own records, in Australian dollars and dated, or leave them out if you cannot source them."
+    }
+  ],
+  "procedure": [
+    "Export the last twelve months of bookings or invoices into one row per customer.",
+    "Add only the fields the service needs, and check consent before collecting any new personal detail.",
+    "Sort by booking frequency and by total value, then note the traits shared by the top group.",
+    "Name each candidate segment and test it for need, ability to pay and reachability.",
+    "Count each kept segment from a named source and date, and apply a stated growth assumption.",
+    "Write a profile for each kept segment and list each rejected candidate with its reason."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A solo cleaner (hypothetical figures, invented for this lesson) has 140 customers in a sheet covering the last year. Sixty-two have booked more than once. Of those, 48 book every two weeks, and most of them have told the cleaner that they are out at work during the day.",
+      "decisionPrompt": "Which group should be profiled first, and what should be checked before the profile is written?",
+      "reasoning": "The fortnightly repeat group is the strongest candidate because the need recurs and the value is shown by bookings, not by guesswork. Check the count of 48 against the sheet, confirm the price these customers actually pay, and check whether the business can reach them through an allowed channel. Do not invent an income figure for the profile; describe them by what the booking records show."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet program",
+    "Booking or invoice export for the last twelve months"
+  ],
+  "commonErrors": [
+    {
+      "error": "Defining the segment by what you wish your customers were like",
+      "prevention": "Build each profile from booking and payment records, and leave out any trait you have not checked."
+    },
+    {
+      "error": "Using an old or foreign figure as if it described today's local market",
+      "prevention": "Record the source, country and year beside every number, and label dated figures as illustrations."
+    },
+    {
+      "error": "Collecting personal details the job does not need",
+      "prevention": "Limit the fields to what the service requires, and check privacy obligations before adding a new field."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Customer records may hold personal information. Check whether the Privacy Act 1988 (Cth) and its Australian Privacy Principles apply to your business before you collect new personal fields. The OAIC guidelines say the Act covers organisations with an annual turnover of more than $3 million and some other organisations, so a small business should check its own position. Check current Office of the Australian Information Commissioner guidance.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Business guidance only. This lesson does not grant any licence, registration or authority. Check state or territory rules before acting.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each kept segment has a written profile, a named source and date for its count, and a recorded reason for every rejected candidate.",
+    "Every dated or non-Australian figure is labelled as an illustration and is not used as current Australian data."
+  ],
+  "documentationEvidence": [
+    "Customer data sheet showing the date range and the fields used",
+    "Segment counts with source and date for each",
+    "One profile per kept segment, and a list of rejected candidates with reasons"
+  ],
+  "summary": [
+    "Choose segments from your own customer records before choosing any channel.",
+    "Test each segment for need, ability to pay and reachability.",
+    "Label every count with its source, country and year."
+  ],
+  "businessFields": [
+    "{{business:business.service_area}}",
+    "{{business:customers.communication_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-01-K01",
+      "question": "Before sizing a segment, what should a business do first?",
+      "options": [
+        "Buy a mailing list of all households in the area and send every home a flyer",
+        "Check existing customer records for shared traits such as repeat use and property type",
+        "Set the price for every service on the menu before any customer data is checked",
+        "Choose a newspaper for the first advertisement and pay for a full page in advance"
+      ]
+    },
+    {
+      "id": "MP-01-K02",
+      "question": "A segment count comes from a source dated 2003 in another country. What is the right way to use it?",
+      "options": [
+        "Use it as current local data without any change and quote it to the bank",
+        "Use it only to illustrate the method, labelled as dated and from another country",
+        "Average it with a local figure without noting the difference in the report",
+        "Delete the segment because any foreign figure is unusable and start the plan again"
+      ]
+    },
+    {
+      "id": "MP-01-K03",
+      "question": "A candidate segment is kept only if it passes the three tests in this lesson. Which option is not one of those tests?",
+      "options": [
+        "The segment has a recurring need that the service meets",
+        "The segment can pay the price you plan to charge",
+        "The business can reach the segment through an allowed channel",
+        "The segment is the largest possible group in the country"
+      ]
+    },
+    {
+      "id": "MP-01-K04",
+      "question": "What does the lesson say to sort the customer rows by?",
+      "options": [
+        "Alphabetical name",
+        "Postcode only",
+        "The colour of the invoice",
+        "Booking frequency and then total value"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Service Marketing Plan (sample residential cleaning plan, US figures 2002 to 2006), sections Market Analysis, Target Marketing and Market Trends; rights: user-held; reworded (no copying). Figures used as method illustration only, not current Australian data. Arithmetic re-run 2026-11-02.",
+    "Privacy Act 1988 (Cth) and Australian Privacy Principles: applicability to a small business is not confirmed; see officialReferences R1 (OAIC guidelines, checked 2026-11-04). Legal review is needed before new personal fields are collected.",
+    "localised to Australian practice; US sample-plan figures removed (see LOCALISE-LOG.md). The lesson states no Australian market figure; any figure a business adds needs its own source, country and year.",
+    "business.gov.au, 'How to identify your target market', https://business.gov.au/marketing/how-to-identify-your-target-market, page dated 24 September 2024. Tactic used: one short profile per segment.",
+    "business.vic.gov.au, 'Who is my customer?', https://www.business.vic.gov.au/marketing-and-sales/increasing-sales-through-marketing/who-is-my-customer, undated (Victorian Government). Tactic used: test assumptions about buyers before committing."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Australian Privacy Principles guidelines (OAIC)",
+      "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles-guidelines/",
+      "pageDate": "Published 13 May 2026; updated 13 May 2026",
+      "checked": "2026-11-04",
+      "covers": "The APP guidelines page says that the APPs and the guidelines apply to any organisation or agency the Privacy Act covers, and that the Act covers Australian Government agencies and organisations with an annual turnover of more than $3 million, plus some other organisations that it does not list on the page. The page sets out no collection or consent rules."
+    }
+  ]
+}

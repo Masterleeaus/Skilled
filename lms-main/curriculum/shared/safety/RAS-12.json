@@ -1,0 +1,142 @@
+{
+  "id": "RAS-12",
+  "title": "Manual handling, noise and hand-arm vibration",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaning operatives and supervisors who move bins, bags, deliveries and equipment, and who use noisy or vibrating machines.",
+  "prerequisites": [
+    "F17-L05"
+  ],
+  "learningOutcomes": [
+    "Identify the manual handling hazards in a cleaning task and reduce each load to a manageable size.",
+    "Use mechanical aids and team lifts where the register requires them, with one person controlling the lift.",
+    "Identify the noise and vibration exposures from equipment and the controls for each.",
+    "Report early symptoms of hearing loss or hand-arm vibration injury."
+  ],
+  "instruction": [
+    {
+      "heading": "Manual handling of loads",
+      "body": "Manual handling hazards cover lifting, lowering, carrying, pushing and pulling, and they produce strains, sprains, cuts, abrasions and impact injuries. A cleaning task rarely involves one heavy item. It more often involves many small loads, repeated bending and reaching, and long days of carrying bins and bags. The register controls the risk by breaking the load into manageable sizes, using team lifts with one person controlling the lift, using mechanical aids such as trolleys and lifting aids where practical, and using passenger lifts for equipment where the building allows it. Labels on delivered boxes are checked for the indicated weight. Each operative works within their own ability, takes scheduled pauses and rotates tasks. Where a manual handling hazard cannot be brought under control by these means, a written manual handling review is carried out for that task before it continues. WARNING: Do not lift a load you cannot control, and stop if a route is blocked or a load becomes unstable."
+    },
+    {
+      "heading": "Noise from equipment",
+      "body": "Repeated exposure to noise from machines can cause hearing loss that builds slowly and is often not noticed until it is well established. The register requires a noise assessment wherever the noise level passes an exposure action value, which is a term taken from another jurisdiction. Where a noise assessment is required, low-noise equipment is chosen when buying, machines are serviced and maintained in working order, and defective machines are withdrawn. Health monitoring is carried out, and operatives report symptoms such as ringing or muffled hearing themselves. Hearing protection is used where the assessment requires it."
+    },
+    {
+      "heading": "Hand-arm vibration",
+      "body": "Hand-arm vibration comes from holding and guiding handheld or floor machines for long periods. Over time it can damage the nerves and blood supply in the hands and arms. Low-vibration equipment is selected, machines are serviced and inspected both before and after each session, and defective equipment is withdrawn. Gloves to the standard named in the register are provided. Operatives are told about the effects of vibration, and they report tingling, numbness, pale or white fingers, or reduced grip early, so the task can be changed before harm becomes permanent."
+    }
+  ],
+  "procedure": [
+    "Break each load into a size one person can control, and check the label for weight before lifting.",
+    "Use the trolley, lift or team lift the register names for the load, with one person controlling the lift.",
+    "Plan rest breaks and rotate tasks on any long run of heavy or repeated work.",
+    "Check the noise and vibration exposure of each machine against the register, and select low-noise, low-vibration equipment.",
+    "Limit continuous use of a vibrating machine, and rest the hands between periods of use.",
+    "Report any early symptom of hearing loss, tingling or numbness to the supervisor on the same shift."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew must move several full waste bags from a fourth-floor office to the ground-floor bin store, using a passenger lift that is in use by the building.",
+      "decisionPrompt": "Decide how the load is handled, and what the crew does if the lift is not available.",
+      "reasoning": "The bags are split into loads that one person can control, and a trolley is used for the route. Where the passenger lift is in use, the crew does not carry the bags down the stairs with one person. The task waits, or the route is changed to the approved goods lift if the building allows it. The supervisor is told if the approved route is not available, so the route is not changed without a check."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Trolleys and lifting aids for the loads named in the register",
+    "Gloves to the standard named in the register, for vibrating machines",
+    "Hearing protection where the noise assessment requires it",
+    "{{business:safety.required_ppe}} including footwear with good grip"
+  ],
+  "commonErrors": [
+    {
+      "error": "Carrying several full bags in one trip because it is faster.",
+      "prevention": "Split the load into sizes one person can control, and use the trolley."
+    },
+    {
+      "error": "Ignoring tingling in the hands because the work must be finished.",
+      "prevention": "Report early symptoms on the same shift and change the task."
+    },
+    {
+      "error": "Running a noisy machine without checking whether a noise assessment is required.",
+      "prevention": "Check the noise exposure against the register and select lower-noise equipment."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Do not lift a load you cannot control, and stop if the route is blocked or the load becomes unstable.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the Australian exposure standards and action values for noise and hand-arm vibration, and the health monitoring rules under state and territory law. The register uses exposure action values taken from another jurisdiction, which are not carried into this lesson as Australian values.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the Australian standard for hand protection against mechanical risk.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every load is split to a size one person can control, and mechanical aids are used where the register requires.",
+    "Each machine's noise and vibration exposure is checked against the register before use.",
+    "Early symptoms are reported on the same shift and the task is changed."
+  ],
+  "documentationEvidence": [
+    "Manual handling assessment for any task that cannot be controlled by the standard means",
+    "Noise and vibration assessment records where the register requires them",
+    "Symptom report and the task change that followed"
+  ],
+  "summary": [
+    "Break loads down, use aids and team lifts, and rotate tasks.",
+    "Check the noise and vibration of each machine and select lower-exposure equipment.",
+    "Report tingling, numbness, ringing or muffled hearing early, on the same shift."
+  ],
+  "businessFields": [
+    "{{business:equipment.primary_tool}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:equipment.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-12-K01",
+      "question": "A cleaner is asked to carry a heavy bag down a stairwell alone because the lift is busy. What is the correct response?",
+      "options": [
+        "Split the load or use the approved route and aid, and tell the supervisor if the approved route is not available.",
+        "Carry it alone on the stairs, since the lift is out of order and the stairs are quiet and clear",
+        "Drag the bag down the stairs without lifting it and the wheels will take most of the weight of it"
+      ]
+    },
+    {
+      "id": "RAS-12-K02",
+      "question": "An operative notices tingling and numbness in both hands after a long run with a vibrating machine. What should happen?",
+      "options": [
+        "Keep working, since the symptoms usually pass and the hands warm up later",
+        "Report the symptoms to the supervisor on the same shift and change the task.",
+        "Wait until the end of the week to mention it and then tell the team leader"
+      ]
+    },
+    {
+      "id": "RAS-12-K03",
+      "question": "Why does the register ask for a noise assessment where the level passes an exposure action value?",
+      "options": [
+        "Because noise below the limit needs no record at all and the crew can ignore it",
+        "Because noise makes the cleaning product less effective and the machine wears out faster",
+        "Because repeated exposure can cause hearing loss that builds slowly and is hard to notice."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard rows 21, 22 and 23 (manual handling of loads and items; noise induced hearing loss; hand-arm vibration syndrome); rights: user-held",
+    "UNCONFIRMED: Australian noise and hand-arm vibration exposure standards and action values, manual handling requirements and hand protection standards; not checked in this pass.",
+    "Cross-check: existing lesson F17-L05 (ergonomics and manual handling) in shared/safety covers the general principles; this lesson adds the register link and the noise and vibration entries.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. European (EN) product standards named in the register kept as reference only; Australian equivalent is the AS/NZS standard for the same product type, number UNCONFIRMED; no European figure is used"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

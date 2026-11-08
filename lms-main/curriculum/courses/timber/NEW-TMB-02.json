@@ -1,0 +1,193 @@
+{
+  "id": "NEW-TMB-02",
+  "title": "Identify the timber, the board type and the existing finish",
+  "courseSlugs": [
+    "timber"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Timber floor restoration workers who inspect a floor before a job is quoted or started.",
+  "prerequisites": [
+    "NEW-TMB-01"
+  ],
+  "learningOutcomes": [
+    "Distinguish solid timber, engineered boards and other timber floor types by observation and the client's records.",
+    "Record the existing finish and the condition of the boards before any work starts.",
+    "Decide when a floor needs further assessment before any sanding."
+  ],
+  "referencesAtStart": "Official sources for this lesson: NSW Government, LeadSmart: renovating and maintenance (published 18 May 2026; last modified 20 July 2026).",
+  "instruction": [
+    {
+      "heading": "Why identify the floor first",
+      "body": "A timber floor is not one material. Solid hardwood, softwood and engineered boards with a timber top layer over a different core behave differently under a sander and under a finish. Board type affects how much material can be removed, the sanding sequence, the dust produced and the finish that will adhere. Identify the floor before any machine is used, and record clearly what you can confirm and what you cannot."
+    },
+    {
+      "heading": "Board type and species",
+      "body": "Look at the edge profile, the end grain, the grain pattern and the board width. Solid boards usually show the same timber through the thickness at the edge. Engineered boards often show a layered core at the edge or a thin top layer that can be sanded through. Hardwood and softwood are not always clear by eye. Do not guess a species to fit a limit."
+    },
+    {
+      "heading": "Existing finish and board condition",
+      "body": "A film finish such as polyurethane can look glossy and resist a scratch. A penetrating oil or wax often looks dull or patchy. Note any cupping, crowning, gaps, loose or lifted boards, insect damage, staining and water damage. Note any paint, varnish or adhesive that is not part of the original finish. Those marks trigger the pre-start assessment in “Pre-start assessment: lead, asbestos and suspect materials in old floors” before any sanding is planned."
+    },
+    {
+      "heading": "Information from the client",
+      "body": "Ask for the building age, any previous refinishing, and any product records the client holds. Record what is known and what is not. A product name the client gives you is client-reported information. It is not a confirmed fact, and it must not be used as proof of what the finish is."
+    },
+    {
+      "heading": "Checks that do not create a hazard",
+      "body": "Use visual inspection and the manufacturer's information. Do not carry out a solvent rub test in an enclosed room, and do not drill or cut a board to see what lies underneath. Both can release dust or disturb material that may need assessment. Where a test is needed, use an approved, written method that the supervisor has signed off."
+    }
+  ],
+  "procedure": [
+    "Identify the board type from the edge, the end grain and the width, and record the result or unidentified.",
+    "Record the species only where a reliable source confirms it.",
+    "Assess the existing finish by sight and by approved checks. Do not use a solvent test in an enclosed room.",
+    "Record boards that are cupped, crowned, loose, gapped, stained, insect-damaged or water-damaged.",
+    "Record any suspected paint, varnish or adhesive that is not part of the original finish, and stop for the pre-start assessment.",
+    "Ask the client for the building age, previous work and product records, and record the answers with their source."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A 1950s house has a timber floor that is dull in one room and glossy in another, with dark patches near the window. The client says it was refinished 'a while ago' and does not know the product.",
+      "decisionPrompt": "What do you record, and what do you do before any sanding?",
+      "reasoning": "The mixed finish and the dark patches are reasons to stop before sanding and complete the pre-start assessment in “Pre-start assessment: lead, asbestos and suspect materials in old floors”. Do not start sanding on the assumption that one product was used, and do not test the finish with a solvent in the closed room."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Work light and a raking light for surface inspection",
+    "Tape measure and board gauge",
+    "Inspection record sheet or tablet with photo capture",
+    "Eye protection and gloves where dust or finish residue may be present"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming all timber floors are the same species and board type.",
+      "prevention": "Identify the board type, record what is unknown and do not guess the species."
+    },
+    {
+      "error": "Sanding a glossy floor without checking for paint, varnish or adhesive.",
+      "prevention": "Treat unexplained marks as a stop point and complete the pre-start assessment."
+    },
+    {
+      "error": "Testing a finish with a solvent in an enclosed room.",
+      "prevention": "Use approved visual checks and written methods only."
+    },
+    {
+      "error": "Recording the client's product name as a confirmed fact.",
+      "prevention": "Record it as client-reported, with its source."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Old paint, varnish or adhesive may contain lead or asbestos. NSW LeadSmart (page published 18 May 2026) says most Australian homes built before 1970 contained lead paint. Stop before any sanding or disturbance and refer for the assessment in “Pre-start assessment: lead, asbestos and suspect materials in old floors”.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Drilling or cutting a board to identify the floor can release dust or disturb hazardous material. Do not do this without an approved method.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Board type recorded as identified or unidentified.",
+    "Existing finish and board condition recorded before any work starts.",
+    "Any unexplained material is recorded and referred before work starts."
+  ],
+  "documentationEvidence": [
+    "Floor identification record with photos of the board edge and the finish",
+    "Client-supplied information record, marked as client-reported where not verified"
+  ],
+  "summary": [
+    "Identify the floor type before any machine is used.",
+    "Do not guess the species or the finish.",
+    "Unexplained paint, varnish or adhesive stops the job for assessment."
+  ],
+  "referencesAtEnd": "Official sources to recheck before any job: NSW Government, LeadSmart: renovating and maintenance (published 18 May 2026; last modified 20 July 2026).",
+  "businessFields": [
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:customers.access_instructions}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-TMB-02-K01",
+      "question": "Why does the board type matter before sanding?",
+      "options": [
+        "It only affects the colour of the finish on the floor, the boards, the stain and the look",
+        "It changes how the floor behaves under a sander and how much material can be removed",
+        "It has no effect on dust or the sanding sequence at all on the job site"
+      ]
+    },
+    {
+      "id": "NEW-TMB-02-K02",
+      "question": "A glossy floor has a dark patch beside a skirting that may be painted. What is the correct first action?",
+      "options": [
+        "Sand the patch lightly to see what is under it first today",
+        "Use a solvent test in the closed room with the door shut",
+        "Stop and complete the pre-start assessment before any sanding",
+        "Ask the client to choose a stain for the patch today"
+      ]
+    },
+    {
+      "id": "NEW-TMB-02-K03",
+      "question": "The species cannot be identified. Which record is correct?",
+      "options": [
+        "Record it as unidentified",
+        "Record the common species",
+        "Leave it blank and sand anyway"
+      ]
+    },
+    {
+      "id": "NEW-TMB-02-K04",
+      "question": "Why is drilling or cutting a board to identify the floor not recommended?",
+      "options": [
+        "It can release dust or disturb hazardous material",
+        "It makes the floor squeak when it is walked on",
+        "It voids every manufacturer warranty by law",
+        "It takes too long to do on the job site today"
+      ]
+    },
+    {
+      "id": "NEW-TMB-02-K05",
+      "question": "The client gives a product name you cannot verify. How do you record it?",
+      "options": [
+        "As a confirmed fact",
+        "As client-reported, with its source",
+        "Delete it from the record",
+        "Replace it with the most expensive product"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Research brief: /home/claude/work/team/research-topics/timber.md (2026-11-02, DRAFT, NOT REVIEWED)",
+    "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance (NSW LeadSmart; READ, checked 2026-11-02, for the statement that dangers increase when old paint is removed)",
+    "UNCONFIRMED: Australian standard or method for visual identification of timber species and finish."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "LeadSmart: renovating and maintenance",
+      "url": "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance",
+      "pageDate": "Published 18 May 2026; last modified 20 July 2026 (page metadata)",
+      "checked": "2026-11-03",
+      "covers": "NSW renovation and lead paint advice; state guidance, not a national licence rule. Publisher: NSW Government (EPA LeadSmart program)."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-03.jpg",
+      "alt": "Timber floor restoration illustration",
+      "kind": "photo",
+      "origin": "timber"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-04.jpg",
+      "alt": "Timber floor restoration illustration",
+      "kind": "photo",
+      "origin": "timber"
+    }
+  ]
+}

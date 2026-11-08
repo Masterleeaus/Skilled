@@ -1,0 +1,37 @@
+{
+  "lessonId": "NEW-DEK-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-DEK-02-K01",
+      "correctIndex": 2,
+      "rationale": "A ground-contact post needs a timber whose data names a ground-contact class [QLD-TIMBER]. Treatment is not all the same, and an above-ground label is not suitable here."
+    },
+    {
+      "id": "NEW-DEK-02-K02",
+      "correctIndex": 2,
+      "rationale": "Some treatments corrode standard fixings, which can lead to a joint failing after the work is finished."
+    },
+    {
+      "id": "NEW-DEK-02-K03",
+      "correctIndex": 1,
+      "rationale": "A load-carrying connection needs a fixing rated for the load and fixed into the structure. A surface screw does not meet that need."
+    }
+  ],
+  "practicalCriteria": [
+    "Selects timber, treatment class and fixings for three sample exposures (ground contact, exposed above-ground rail, and a load-carrying connection), and records a supplier data reference for each.",
+    "Identifies and rejects at least one above-ground product used in ground contact, and one fixing that is not rated for its treatment, citing the supplier data in each case.",
+    "Completes the material and fixing records correctly, without stating a treatment, rating or method that the supplier data does not give."
+  ],
+  "passRule": "Assessor review of the material and fixing records and an observed selection for the three sample exposures, with all three practical criteria met. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Material record with product name, grade, treatment class and data reference",
+    "Fixing record with rating and manufacturer data reference",
+    "Photographs of product labels, with permission where a site is used"
+  ],
+  "stopWorkCriteria": [
+    "A timber without a ground-contact class is set in the ground",
+    "A load-carrying connection is made with surface fixings alone",
+    "An unidentified preservative or unlabelled product is in use",
+    "A structural connection is changed on site without a referral"
+  ]
+}

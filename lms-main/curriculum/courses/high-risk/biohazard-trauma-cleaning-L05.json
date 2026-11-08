@@ -1,0 +1,174 @@
+{
+  "id": "biohazard-trauma-cleaning-L05",
+  "title": "Blood and bodily fluid exposure control",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Coordinators, supervisors and trained workers who may triage, refer, document or support biohazard and trauma-related work. This lesson does not grant authority to enter, assess, clean, decontaminate, release, transport or dispose of anything in a regulated setting.",
+  "prerequisites": [
+    "biohazard-trauma-cleaning-L04"
+  ],
+  "learningOutcomes": [
+    "Confirm that an approved plan and a site assessment cover a body-fluid task before work starts.",
+    "Apply standard precautions and the planned PPE before a spill is touched.",
+    "Refuse product use outside its label or the approved procedure."
+  ],
+  "instruction": [
+    {
+      "heading": "Blood and body-fluid exposure control",
+      "body": "Blood and body-fluid contamination requires an employer-approved exposure-control plan and a site-specific assessment by a competent person. Standard precautions apply to every such situation. The Victorian spill guidance describes applying standard precautions, wearing PPE for all cleaning, clearing up the spill before cleaning the area, avoiding aerosols and using leak-proof bags for waste. It also says sodium hypochlorite is generally unnecessary for spill management. That guidance is written for healthcare and public settings, so it does not settle the rules for trauma work. Controls depend on the setting, the material, the extent of contamination and local rules. Training material does not supply product strengths, contact times, spray methods or clearance claims, and a product's marketing does not authorise its use on biological contamination. If a worker may have been exposed, the activity stops and the exposure response begins."
+    }
+  ],
+  "procedure": [
+    "Confirm that the approved exposure-control plan covers the task and the setting.",
+    "Confirm that the site assessment identifies the material, its extent and any concealed areas.",
+    "Apply standard precautions and the PPE the plan specifies before the spill is touched.",
+    "Remove visible material first, using the approved absorbent or disposable method and avoiding aerosols.",
+    "Clean the area with the method and product the approved procedure and label allow.",
+    "Bag and label waste as the procedure says. Stop and start the exposure response if a possible exposure occurs."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A small blood spill is found on a hard floor during a routine clean. The job sheet covers only routine cleaning.",
+      "decisionPrompt": "Can the cleaner proceed?",
+      "reasoning": "No. Routine cleaning is not authority for body-fluid work. The area is isolated and the supervisor is told so that an assessment and an approved procedure can be arranged."
+    },
+    {
+      "situation": "A worker suggests using a stronger disinfectant than the label gives to speed up the job.",
+      "decisionPrompt": "Is that acceptable?",
+      "reasoning": "No. Strength and contact time are set by the product label and the approved procedure, not by the worker's preference."
+    }
+  ],
+  "equipmentAndPpe": [
+    "PPE set by the approved plan for body-fluid work, fitted and trained before use.",
+    "Disposable absorbent material and leak-proof waste bags as the plan specifies.",
+    "Spill kit contents as the plan lists, with no product that is not on the approved list."
+  ],
+  "commonErrors": [
+    {
+      "error": "Starting body-fluid cleaning on a routine job sheet.",
+      "prevention": "Confirm that the scope covers the work. Stop and refer if it does not."
+    },
+    {
+      "error": "Using a product beyond its label.",
+      "prevention": "Follow the label and the approved procedure only."
+    },
+    {
+      "error": "Using a spray method that creates mist.",
+      "prevention": "Use the approved low-aerosol method."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Body-fluid work is restricted to competent people under an approved plan. Completing this lesson gives no authority to clean or decontaminate such areas.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Victorian spill guidance advises against vinyl gloves for blood. Check the current guidance for the place of work before choosing gloves.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Products are used only as their labels state.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every body-fluid task has an approved plan, a site assessment and recorded PPE before work starts.",
+    "No product is used outside its label or the approved procedure."
+  ],
+  "documentationEvidence": [
+    "Approved plan reference and site assessment.",
+    "Product and PPE record for each task."
+  ],
+  "summary": [
+    "Standard precautions apply to every body-fluid situation.",
+    "Routine cleaning is not body-fluid authority.",
+    "Products follow the label and the approved procedure only."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "biohazard-trauma-cleaning-L05-K01",
+      "question": "A worker wants to use a stronger disinfectant than the label gives to finish a body-fluid spill quickly. What is the correct response?",
+      "options": [
+        "Use the stronger strength, because it works faster.",
+        "Use the stronger strength only on hard floors.",
+        "Follow the label and the approved procedure only, and stop if the plan does not cover it."
+      ]
+    },
+    {
+      "id": "biohazard-trauma-cleaning-L05-K02",
+      "question": "What comes first when a body-fluid spill is found on a job?",
+      "options": [
+        "Isolate the area and confirm that the approved plan and assessment cover the task.",
+        "Start cleaning from the edge inwards.",
+        "Photograph the area and send it to the client."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "biohazard-trauma-cleaning-lesson-01 to -12 instruction files (WordPress source, premium-01, passes 52 to 54); editorial drafts, not approved; rights: reworded (no copying).",
+    "HR01-biohazard-trauma-cleaning.json, course bundle instruction sections 1 to 12 (read this pass); rights: reworded (no copying).",
+    "UNCONFIRMED: state and territory licensing, waste-classification, transport and WHS requirements for trauma and biohazard work. Not checked for each state and territory in this pass.",
+    "UNCONFIRMED: US OSHA 29 CFR 1910.1030 and CDC environmental cleaning guidance named in the source list. Not Australian law; not read in this pass.",
+    "UNCONFIRMED: Australian disinfection clearance criteria and any disinfectant percentage or contact time. None are given in the learner text.",
+    "biohazard-trauma-cleaning-lesson-05 and HR01 section 5; checked 2026-11-03.",
+    "Victorian spill guidance read via WebFetch on 2026-11-03."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. The PCBU must protect workers and others so far as reasonably practicable; hazards are eliminated where possible and otherwise minimised; for certain hazards a hierarchy of control applies (the page does not list its levels); duties cannot be contracted out. The page does not cover trauma cleaning, waste or PPE rules. Publisher: Safe Work Australia. The state or territory regulator confirms the adopted law."
+    },
+    {
+      "id": "R2",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019)",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "publication date May 2019 (front matter); copyright 2019",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, first 100,000 of 133,773 characters only. Read: section 2.2 (standard precautions apply to all people), section 3.1.2 recommendations 7 and 8 (sharps handled minimally, never recapped, bent or broken, disposed of at point of use in an approved container not filled past its maximum fill line), section 3.1.3 recommendation 12 (spill response with gloves and protective equipment, containment, absorbent removal, detergent cleaning). Healthcare-setting guidance, applied here by analogy. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R3",
+      "title": "Managing spills of blood and body fluids and substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-spills-of-blood-and-body-fluids-and-substances",
+      "pageDate": "Updated 21 August 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Standard precautions and PPE for all spill cleaning; clear up the spill before cleaning the area and do not add liquid to a spill; avoid aerosols; leak-proof bags and containers for waste; sodium hypochlorite generally unnecessary for spill management. Victorian guidance only."
+    },
+    {
+      "id": "R4",
+      "title": "Managing exposures to blood and body fluids or substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-exposures-to-blood-and-body-fluids-or-substances",
+      "pageDate": "Updated 8 October 2015",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. First response: remove contaminated clothing, wash with soap and water, flush mucous membranes, rinse eyes gently, report immediately; remove from duty and carry out a risk assessment; medical evaluation with post-exposure prophylaxis where appropriate; document date, time, type and circumstances. Victorian guidance only. The page shows its last update as 2015."
+    },
+    {
+      "id": "R5",
+      "title": "Cleaning and waste disposal procedures for infection control",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/cleaning-and-waste-disposal-procedures-infection-control",
+      "pageDate": "Updated 14 December 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Three waste groups (general, clinical, pharmaceutical); clinical waste in biohazard bags shown as yellow; sharps into containers that meet the Australian and New Zealand standards named on the page; clinical and pharmaceutical waste collected by waste companies licensed by the EPA and taken to EPA-licensed facilities. Victorian guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter, assess, clean, decontaminate, release, transport or dispose of anything at a scene or in any regulated setting. Completing this lesson does not give a licence, certificate, clearance or permission to do restricted work. Some of the work described here is restricted to licensed, authorised or specially trained people, and some of it may not be done by a general cleaner at all. Where legal, police, coronial, insurer, property-owner or occupational-health authority applies, that authority must be obtained and recorded before any step is taken. Nothing in this lesson replaces the employer's written procedure, the site-specific assessment or the decision of the competent, authorised party. Where you cannot identify who holds that authority, the answer is to stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop work and refer whenever any of the following is true: the biological hazard is uncertain or the contamination status is unverified; the required authorisation, release or competence is missing; the handling, transport, waste or exposure protocol is unknown; a sharp has been found or might be present; a worker may have been exposed; entry has been offered without written release; a party asks you to certify clearance or unrestricted re-entry. A stop-work decision is not a failure. Restart only after the authorised supervisor has documented the procedure and a qualified review has been completed."
+  }
+}

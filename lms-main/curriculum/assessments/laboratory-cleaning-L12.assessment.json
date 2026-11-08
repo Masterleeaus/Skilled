@@ -1,0 +1,44 @@
+{
+ "lessonId": "laboratory-cleaning-L12",
+ "knowledgeAnswers": [
+  {
+   "id": "laboratory-cleaning-L12-K01",
+   "correctIndex": 2,
+   "rationale": "Visible cleanliness shows housekeeping, not decontamination or biological clearance. Verification belongs to the laboratory owner and qualified testers."
+  },
+  {
+   "id": "laboratory-cleaning-L12-K02",
+   "correctIndex": 0,
+   "rationale": "The cleaner refuses the certification, records the housekeeping done and refers verification to the laboratory owner. A disclaimer does not make an unsupported certificate acceptable."
+  },
+  {
+   "id": "laboratory-cleaning-L12-K03",
+   "correctIndex": 1,
+   "rationale": "The handover lists the housekeeping done, what was not touched and every exclusion. It does not state sterility or safety."
+  },
+  {
+   "id": "laboratory-cleaning-L12-K04",
+   "correctIndex": 1,
+   "rationale": "A visual check cannot test for absence of biological material, so the line is marked not tested and referred to the owner. A tick would record a result that was never obtained."
+  }
+ ],
+ "practicalCriteria": [
+  "Writes a housekeeping-only handover for a fictional laboratory zone that lists the tidied areas, untouched areas and every exclusion.",
+  "Refuses a simulated certification request for biological safety, and refers the verification to the laboratory owner in writing.",
+  "Marks a fictional inspection criterion that the visual check cannot test as not tested, rather than ticking it.",
+  "Records the simulated deferral with the return criteria and the responsible contact."
+ ],
+ "passRule": "Handover housekeeping-only with exclusions, certification refused and referred, untested criteria not ticked, and deferral recorded with return criteria. Observed by an assessor in a supervised desk exercise. Not a clearance, and a knowledge check result alone is not a practical pass.",
+ "evidenceRequired": [
+  "Fictional housekeeping-only handover with exclusions",
+  "Refusal and referral record, with the return criteria",
+  "Fictional inspection sheet showing untested criteria marked as not tested",
+  "Assessor observation note"
+ ],
+ "stopWorkCriteria": [
+  "Certification signed for laboratory biological safety",
+  "Sterility, decontamination or clearance claimed in the handover or the record",
+  "Inspection criterion ticked without a test that supports it",
+  "Handover issued without the exclusions listed"
+ ]
+}

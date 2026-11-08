@@ -1,0 +1,171 @@
+{
+  "id": "PBP-05",
+  "title": "Operations, staffing, equipment and compliance for pool service work",
+  "courseSlugs": [
+    "pool",
+    "residential",
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Business operations and finance",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 55,
+  "audience": "Owners and managers who plan how a pool service runs day to day, including staff, equipment, chemical storage and compliance",
+  "prerequisites": [
+    "F04-L01",
+    "PBP-01"
+  ],
+  "learningOutcomes": [
+    "Describe the operating process from enquiry to completed visit and record",
+    "Set out who may do which tasks, and the supervision and training each task requires",
+    "Plan the equipment list, its maintenance and the storage of chemicals",
+    "List each compliance requirement with its status, marked as checked or still to be checked"
+  ],
+  "instruction": [
+    {
+      "heading": "The operating process",
+      "body": "Write the process from the first enquiry to the completed visit: the enquiry, the site visit, the quote, the agreement, the scheduling, the visit, the record, the invoice and the follow-up. The sample plan lists quotations, scheduling, site visits and staff training as the core of its process. Keep those steps, and add a step for the operator's written instruction on any treatment task. Each step names the person who does it and the record it creates."
+    },
+    {
+      "heading": "Staff, tasks and training",
+      "body": "Write a list of the tasks each person may do. Some tasks, such as surface cleaning and basket emptying, can be done by a trained worker under supervision. Others, such as water treatment decisions, chemical dosing beyond the plan, electrical work and gas work, need the operator or a licensed person. The sample plan lists staff roles such as a manager, a sales specialist and an operations manager. Those roles are a structure only. Record the training each task needs, and the supervision in place until a worker is signed off."
+    },
+    {
+      "heading": "Staff engagement",
+      "body": "The US guide suggests hiring through local advertisements and through people the owner knows. Contractors and employees differ in status, so the distinction must be checked against Australian rules."
+    },
+    {
+      "heading": "Equipment, maintenance and storage",
+      "body": "List each item of equipment, its maintenance schedule and its storage. Include the vacuum and hoses, brushes, test equipment, the pump or filter tools, the vehicle and the chemical store. Test kits and gauges should be checked against the maker's instructions. Chemicals are stored separated by type, locked and away from fuel and people, and the vehicle carries them securely."
+    },
+    {
+      "heading": "Compliance register",
+      "body": "Set up a compliance register. For each requirement, record the source, the date checked, the authority and its status. Where a requirement has not been checked, name the individual responsible for checking it. Requirements to record include business registration, any licence or competence for each service, electrical and gas work restrictions, dangerous goods, workplace health and safety, insurance and records. No entry may be marked as checked without a source and a date."
+    }
+  ],
+  "procedure": [
+    "Write the operating process step by step, with the person and the record for each step.",
+    "List each task and who may do it, with the training and supervision required.",
+    "List the equipment, maintenance and storage for each item.",
+    "Set up the compliance register with every requirement's status.",
+    "Name the person responsible for confirming each item still to be checked.",
+    "Review the register and the process at a set date."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A new worker is asked to add treatment chemicals to a client's pool on their first day, because the owner is busy.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "The worker does not add treatment chemicals until they are trained and signed off for that task, and until the operator instruction is in place. Record the request and refuse the task, and set up supervision with a trained person."
+    },
+    {
+      "situation": "The compliance register has an entry marked as checked for insurance, but no source or date is recorded.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Keep the item out of use until the source and the date are recorded. An entry without a source is not a check. Name the individual responsible for check the insurance requirement."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Operating process chart",
+    "Task and training matrix",
+    "Equipment register with maintenance and storage",
+    "Compliance register",
+    "Chemical store with separation and lock"
+  ],
+  "commonErrors": [
+    {
+      "error": "Letting a worker carry out a task without training or supervision",
+      "prevention": "Keep a task and training matrix and check it before any task is assigned."
+    },
+    {
+      "error": "Marking a compliance item as checked without a source",
+      "prevention": "Require a source and date for every checked entry."
+    },
+    {
+      "error": "Storing chemicals with fuel or in the cabin",
+      "prevention": "Store chemicals separated, locked and away from fuel and people."
+    },
+    {
+      "error": "Forgetting the maintenance of test kits and gauges",
+      "prevention": "Add each item to the maintenance schedule with its check."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson grants no licence or authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Water treatment decisions beyond the operator plan, electrical work and gas work are restricted and are referred to the licensed person or the operator.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Chemical storage, carriage and disposal are subject to dangerous goods and workplace health and safety rules, so check with the relevant regulator before relying on this point.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Employment, insurance and record keeping obligations must be checked before anyone is engaged.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The operating process names the person and the record for each step.",
+    "Each task has a named person, the training it needs and the supervision in place.",
+    "Every compliance entry shows its source, its date and its status."
+  ],
+  "documentationEvidence": [
+    "Operating process chart",
+    "Task and training matrix with sign-off dates",
+    "Equipment maintenance record",
+    "Compliance register with sources and dates"
+  ],
+  "summary": [
+    "Write the process with a person and a record for every step.",
+    "Assign tasks only where the training and authority exist.",
+    "Keep the compliance register honest: a checked entry needs a source and a date."
+  ],
+  "businessFields": [
+    "{{business:staff.role}}",
+    "{{business:staff.authorised_tasks}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:assessment.signoff_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PBP-05-K01",
+      "question": "A new worker is asked to add treatment chemicals on their first day. What is the correct response?",
+      "options": [
+        "Agree, since the owner asked and it is only a small task for the whole first day on the job site",
+        "Refuse the task until the worker is trained and signed off, and the operator instruction is in place",
+        "Agree but do not record it anywhere in the job file, the log, the sheet, the day book or the plan",
+        "Agree if the worker has a course certificate on the day of hire, the card, the ID and the van keys"
+      ]
+    },
+    {
+      "id": "PBP-05-K02",
+      "question": "A compliance entry is marked CHECKED without a source or date. What should happen?",
+      "options": [
+        "Mark it CHECKED for all other sites too",
+        "Leave it, since the owner believes it is correct",
+        "Keep it out of use until a source and date are recorded",
+        "Keep it in use with a note that the source is pending"
+      ]
+    },
+    {
+      "id": "PBP-05-K03",
+      "question": "Where should a pool service's chemicals be stored in its vehicle or depot?",
+      "options": [
+        "In the same container as the test kit and the sample",
+        "Beside the fuel, to save space in the back of the van",
+        "Loose in the cabin for quick access by the crew on the job",
+        "Separated by type, locked, and away from fuel and people"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Pool Cleaning Business Plan (sample PDF, 2023 template), section Operations Plan (operational process, staffing and training, equipment and machinery, management structure and regulatory environment) used for structure only; rights: user-held; reworded (no copying); checked 2026-11-02. Sample staff names, bios, salaries and advisor entries are placeholders and are not used.",
+    "How to Start a Pool Cleaning Service (US start-up guide), section 'Find employees' step 4 (hiring through local advertisements and personal contacts); rights: user-held; reworded (no copying); checked 2026-11-02. US source; hiring rules are UNCONFIRMED for Australia.",
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section B installation point 14 (chemical storage separation), cross-checked against the handbook section 6 storage advice; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "UNCONFIRMED: Australian employment, workplace health and safety, dangerous goods, insurance, licence and record keeping rules for pool service work. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

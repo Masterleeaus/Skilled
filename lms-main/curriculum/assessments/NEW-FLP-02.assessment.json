@@ -1,0 +1,37 @@
+{
+  "lessonId": "NEW-FLP-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-FLP-02-K01",
+      "correctIndex": 2,
+      "rationale": "Plastic plugs in plasterboard are not accepted for a heavy load without a manufacturer's rating for the load and the board. The installer fixes into studs or noggins, or uses a rated fixing, and refuses the plug method if the rating is not known."
+    },
+    {
+      "id": "NEW-FLP-02-K02",
+      "correctIndex": 3,
+      "rationale": "The worst-case load at each fixing point, including the force from use, sets the rating needed. The average load and the empty weight both understate the load on the fixing."
+    },
+    {
+      "id": "NEW-FLP-02-K03",
+      "correctIndex": 1,
+      "rationale": "Before drilling, the substrate is identified, studs or solid substrate are located, and concealed services are checked. A test hole, fixing first, or relying on the client's word is not an accepted check."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated shelf and wall, the worker records the load at each fixing point, including the force from use, before choosing a fixing",
+    "Given a simulated wall, the worker identifies the substrate, locates the stud or solid substrate, and records a check for concealed services before drilling",
+    "Given a simulated fixing with a rating, the worker records the rating from the manufacturer's data and the result of the controlled load test, or refuses the fixing where the rating cannot be found in the manufacturer's data"
+  ],
+  "passRule": "Assessor observes every practical criterion and records it as met or not met. The knowledge checks are not a practical pass. The minimum knowledge score is 80%, so all three checks must be correct. Anchor load ratings and the test method come from the manufacturer's data.",
+  "evidenceRequired": [
+    "Load and fixing record with the rating, the substrate and the position of each fixing",
+    "Test record for the simulated fixture, with the method and result",
+    "Referral note for any simulated position not shown to be clear of services"
+  ],
+  "stopWorkCriteria": [
+    "The wall cannot be confirmed as able to carry the load",
+    "A fixing is drilled before concealed services have been checked",
+    "A fixture is used before its controlled load test is recorded",
+    "Electrical, gas or plumbing work is attempted by a person without the licence the work requires"
+  ]
+}

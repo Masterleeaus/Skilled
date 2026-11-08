@@ -1,0 +1,38 @@
+{
+  "lessonId": "NEW-TIL-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-TIL-04-K01",
+      "correctIndex": 2,
+      "rationale": "Without an expansion gap the floor cannot move with temperature and humidity, so it can buckle or lift. The other options do not address the movement."
+    },
+    {
+      "id": "NEW-TIL-04-K03",
+      "correctIndex": 1,
+      "rationale": "A reading over the limit means the substrate is not ready. Work stops until the cause is dealt with and the reading is within the limit, or the product's approved remedy is used and checked."
+    },
+    {
+      "id": "NEW-TIL-04-K04",
+      "correctIndex": 0,
+      "rationale": "A transition covers the joint between two floors and must allow the floor to move. Rigid fixing or sealant defeats that purpose."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated room, sets the expansion gap at each wall and fixed object with spacers, and the gap matches the manufacturer's figure on assessor check.",
+    "Measures the substrate moisture by the named method, and records the reading against the limit before laying the underlay.",
+    "Fits an approved transition at a simulated doorway, fixed so that the floor can still move, and removes all spacers at the end.",
+    "Records the underlay product, the gap widths and the transition type on the installation record."
+  ],
+  "passRule": "All four practical criteria met on the simulated room, with the moisture record complete. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Substrate and moisture record with the reading",
+    "Floor installation record with underlay product and gap widths",
+    "Photographs of the gaps and transition before the trims cover them",
+    "Written confirmation of the licence position for floating floors in the state, from the regulator"
+  ],
+  "stopWorkCriteria": [
+    "The substrate moisture reading is over the limit and the floor is laid anyway",
+    "The expansion gap is missing at a wall or fixed object",
+    "Floating-floor work proceeds without checking the state licence position or referring it to the regulator"
+  ]
+}

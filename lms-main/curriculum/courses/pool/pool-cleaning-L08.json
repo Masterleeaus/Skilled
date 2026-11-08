@@ -1,0 +1,185 @@
+{
+  "id": "pool-cleaning-L08",
+  "title": "Surface cleaning and equipment hygiene",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pool cleaners and technicians who clean surfaces, baskets, cleaners and tools across pool sites, in any state or territory",
+  "prerequisites": [
+    "F04-L01",
+    "F05-L01"
+  ],
+  "learningOutcomes": [
+    "Select cleaning methods and products that suit the pool surface and finish",
+    "Clean and disinfect pool equipment without cross-contaminating sites",
+    "Keep acid cleaners and hypochlorite products separate in use and storage",
+    "Record equipment condition and cleaning tasks completed"
+  ],
+  "instruction": [
+    {
+      "heading": "Surfaces and finishes first",
+      "body": "Pool surfaces include tiles, grout, coping, steps, plaster, pebble, natural stone, fibreglass and vinyl liners. Each reacts differently to acid cleaners, abrasives, pressure and some chlorine products. Identify the finish before you choose a product. An acid-based tile-line cleaner that works on glazed tile can etch natural stone or damage grout. Test a product on a small hidden area where the surface allows it, follow the product's surface compatibility information, and escalate when you are unsure. This is a surface-compatibility decision, not a matter of habit."
+    },
+    {
+      "heading": "Choosing the product and the method",
+      "body": "Use only products approved for the site and the task. Read the SDS and the label before use. Use the lowest concentration and the least aggressive method that does the job, and keep PPE on for the whole task. Do not mix cleaning products together, and do not use a chlorine-based product and an acid-based product in the same bucket, spray bottle or rinse. Rinse the surface and the equipment between products as the label directs. Do not pour cleaners or concentrates directly into skimmers or returns unless the label and the operator plan allow it."
+    },
+    {
+      "heading": "Equipment hygiene between pools",
+      "body": "Brushes, nets, skimmer baskets, vacuum heads and pool cleaners can carry algae, biofilm and microorganisms from one pool to the next. Keep equipment dedicated to a site where practicable. If equipment moves between sites, rinse it, dry it fully and clean it according to the site procedure before use. Store wet equipment so that it dries. Record any equipment that cannot be cleaned to standard, and remove it from use. Hygiene is part of the cleaning task, not an extra."
+    },
+    {
+      "heading": "Surface and equipment records",
+      "body": "Record the surfaces cleaned, the products used, the concentrations where the plan sets them, the PPE used and any surface damage or equipment defect found. A cleaning record is not a water-quality record. It shows only the cleaning work done. Water treatment compliance depends on the local operator plan. Rinse water from cleaning is handled under the site procedure and the discharge rules described in “Water conservation and environmental release”."
+    }
+  ],
+  "procedure": [
+    "Identify the surface and finish before choosing a product.",
+    "Read the product SDS, label and any compatibility information, and confirm the product is approved for the site.",
+    "Wear the PPE set by {{business:safety.required_ppe}} and set up a dedicated, labelled container.",
+    "Test a small area where the finish allows it; stop if the finish changes.",
+    "Clean from the top down, using the lowest effective concentration and method.",
+    "Rinse the surface and equipment as the label directs, before using any other product.",
+    "Dry and store equipment dedicated to the site; clean equipment before it moves to another site.",
+    "Record the surfaces, products, PPE, defects and any equipment withdrawn from use."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An acid-based tile-line cleaner is about to be used on a natural stone coping, and a chlorine-based algae treatment is in the same bucket.",
+      "decisionPrompt": "What should the technician do?",
+      "reasoning": "The technician stops. Acid cleaner can etch natural stone and mixing it with chlorine products risks a toxic gas reaction. The technician uses separate labelled containers, rinses thoroughly, checks the product's compatibility information and asks for a product approved for the stone. The bucket is not reused for both products."
+    },
+    {
+      "situation": "A skimmer basket has been used in a pool with visible algae and is about to be placed in the next pool's skimmer.",
+      "decisionPrompt": "What is the hygiene response?",
+      "reasoning": "The basket is cleaned, rinsed and dried before it is used at another site, or it is set aside for cleaning per the site procedure. The technician records the action and does not move a visibly contaminated item between sites."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved cleaners with SDS and label",
+    "Dedicated labelled containers and brushes",
+    "Surface-appropriate brushes and pads",
+    "PPE as set by {{business:safety.required_ppe}}",
+    "Drying rack or storage for equipment"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using an acid cleaner on a finish that the product does not suit.",
+      "prevention": "Identify the finish and check compatibility before use."
+    },
+    {
+      "error": "Mixing a chlorine product and an acid cleaner in one container.",
+      "prevention": "Separate containers; rinse between products."
+    },
+    {
+      "error": "Using one brush or basket across several pools without cleaning.",
+      "prevention": "Dedicate equipment or clean and dry it before moving it."
+    },
+    {
+      "error": "Pouring concentrate into the skimmer.",
+      "prevention": "Use only the label-approved method."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Acid cleaners and hypochlorite products should be kept apart. Safe Work Australia advises storing incompatible chemicals well apart, because contact can give off poisonous gas. Use separate containers and rinse between products.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Cleaning products have their own SDS. Storage, handling and disposal follow the SDS and the site waste procedure.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The finish is identified and the product is compatible before use",
+    "No two incompatible products share a container or rinse",
+    "Equipment is cleaned and dried before it moves between sites"
+  ],
+  "documentationEvidence": [
+    "Cleaning record with surfaces, products and PPE",
+    "Equipment defect and withdrawal record",
+    "Compatibility check or test-area result"
+  ],
+  "summary": [
+    "Identify the surface before choosing the product.",
+    "Keep acid and chlorine products separate in use and storage.",
+    "Dedicate or clean and dry equipment before moving it between pools.",
+    "A cleaning record is not a water-quality record."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:materials.approved_products}}",
+    "{{business:materials.handling_procedure}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:equipment.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pool-cleaning-L08-K01",
+      "question": "An acid-based cleaner is proposed for natural stone. What is the correct first step?",
+      "options": [
+        "Use it at full strength to save time on the job, so the stone is cleaned quickly and the client is happy",
+        "Identify the finish, check the product's compatibility information and test a hidden area where possible",
+        "Use it because the tile cleaner worked on the same stone last week without any problem at all",
+        "Mix it with chlorine to make it stronger, since the stone needs a heavy clean on the day"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L08-K02",
+      "question": "A skimmer basket has been used in a pool with visible algae. What should happen before it is used at another pool?",
+      "options": [
+        "Use it straight away at the next pool, since it is already wet and ready",
+        "Clean, rinse and dry it, or set it aside for cleaning per the site procedure",
+        "Dip it in the next pool to rinse it before the first use on the job today",
+        "Store it wet in a closed bag until the next visit to the site at the weekend"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L08-K03",
+      "question": "Which practice is correct when using a chlorine product and an acid cleaner on the same job?",
+      "options": [
+        "Share one bucket and rinse at the end of the whole job today",
+        "Use separate containers and rinse between products as the label directs",
+        "Mix them to save a trip back to the van for the whole job today",
+        "Pour both into the skimmer together to save time on the job"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SWA-STORE: Safe Work Australia, Storing hazardous chemicals, checked 2026-11-03 (no date shown). Used for incompatible chemicals and separate storage.",
+    "REMOVED in this pass: a private supplier safety data sheet previously cited for a chemical classification. Not an official source; not relied on.",
+    "Discharge of rinse water: see pool-cleaning-L11 (state and territory rules UNCONFIRMED)."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "safeworkaustralia.gov.au: Safety topics, Hazards, Chemicals, Storing hazardous chemicals. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Storing hazardous chemicals (no date shown).",
+  "referencesAtEnd": "Official sources to check at the end of this lesson: Safe Work Australia, Storing hazardous chemicals (https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-13.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-14.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    }
+  ]
+}

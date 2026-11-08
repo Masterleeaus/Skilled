@@ -1,0 +1,140 @@
+{
+  "id": "RAS-16",
+  "title": "Reviewing, briefing and signing off a risk assessment",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Supervisors and managers who issue, brief, review and revise a site risk assessment.",
+  "prerequisites": [
+    "F02-L04",
+    "S14-L03",
+    "RAS-01",
+    "RAS-03"
+  ],
+  "learningOutcomes": [
+    "Complete the document control details of a risk assessment, including the revision history and review history.",
+    "Brief the crew on the register and record who was briefed and what was covered.",
+    "Identify the events that trigger a review, and revise the register by issuing a new revision.",
+    "Explain what a briefing record does not prove."
+  ],
+  "instruction": [
+    {
+      "heading": "Document control",
+      "body": "A risk assessment is a controlled document. It carries a document number and revision, the revision date, the client or site address, the name of the person who prepared it and the name of the person who approved it. A revision history records each change, the author, the date and the items revised, and a review history records each review and its comments. The first issue is revision 00. Where the register is changed, the change is made as a new revision, and the old revision is kept on file. A document with a blank revision date, a blank site address or no review history cannot show which controls applied on a given day. The approval is given by a person with the authority to approve the work, and that authority is recorded."
+    },
+    {
+      "heading": "Briefing the crew",
+      "body": "Once a register is approved, every person who will work under it is briefed on it. A briefing covers the hazards and controls that apply to the tasks, the protective equipment, the chemical use, the infection controls and the reporting arrangements. Short team briefings on safety, chemicals, infection control and protective equipment are the usual format, and each one is recorded with the date, the topics, the people present and the questions raised. The briefing record asks each operative to acknowledge receipt and comprehension of the document, and to commit to its controls and to the directions of the supervisor and the facilities team. WARNING: A briefing record shows that a briefing took place. It does not show that a control works, and it does not transfer responsibility from the business. Verify each control on site."
+    },
+    {
+      "heading": "When to review and revise",
+      "body": "A review is triggered by events, not only by the calendar. The events that trigger a review are a change of site or area, a new chemical or product, new equipment, an incident or near miss, a complaint, a change in building use or working pattern, a control found not to work, and new guidance that has been checked. A review also happens at the review date the business sets. When the review changes a control or a score, a new revision is issued with the reason, the crew is re-briefed on the change and the old revision is withdrawn from the site. A revision that is not briefed is not in force for the crew who did not receive it."
+    }
+  ],
+  "procedure": [
+    "Complete the document number, revision, revision date, site address, and the names of the preparer and approver.",
+    "Confirm the approver has the authority for the work, and record it.",
+    "Brief every person who will work under the register and record the date, topics, people present and questions.",
+    "Verify each control on site, and record the verification separately from the briefing.",
+    "Check the review triggers against each change at the site, and set the next review date.",
+    "On any change, issue a new revision with its reason, re-brief the crew and withdraw the old revision."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A revision 00 register was briefed to the crew in October. In February a new floor machine is introduced to the site, and a crew member asks whether the old briefing still applies.",
+      "decisionPrompt": "Decide what the supervisor does, and what the register and the briefing record must show afterwards.",
+      "reasoning": "A new machine is a review trigger. The supervisor reviews the hazards and controls for the machine, scores the new entries under “Scoring a hazard: likelihood, severity and the risk band”, and chooses controls under “Ranking controls and checking residual risk”. A new revision is issued with the reason for the change. The crew is re-briefed on the new revision, and the new machine's controls are verified on site. The old revision is withdrawn, and the briefing record for the new revision is kept with its date and the people present."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Document control panel for the register, with the number, revision and approval fields",
+    "Briefing record sheet with the date, topics and signature column",
+    "Review trigger checklist for the site",
+    "{{business:quality.evidence_requirements}} for the filing of each revision"
+  ],
+  "commonErrors": [
+    {
+      "error": "Overwriting an old revision without keeping it.",
+      "prevention": "Issue a new revision with the reason, and keep the old revision on file."
+    },
+    {
+      "error": "Treating the briefing record as proof that a control works.",
+      "prevention": "Verify each control on site and record the verification separately."
+    },
+    {
+      "error": "Waiting for the calendar review date after a change has already happened.",
+      "prevention": "Review on any trigger event, not only at the review date."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: A briefing record does not show that a control works, and it does not replace verification on site.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the legal effect of signatures on briefing records, the duty to consult workers, and the record retention period under state and territory law.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every register shows a number, a revision, a revision date, the site address and the preparer and approver.",
+    "Every person who works under the register has been briefed, and the briefing is recorded.",
+    "Every trigger event produces a reviewed register, a new revision and a re-brief."
+  ],
+  "documentationEvidence": [
+    "Document control panel with the revision and review history",
+    "Briefing records with the date, topics, people present and questions",
+    "Review record for each trigger event, with the revision issued"
+  ],
+  "summary": [
+    "Keep the document control complete, and keep every revision on file.",
+    "Brief the crew and record the briefing, and verify each control on site.",
+    "Review on any trigger event, and issue a new revision with its reason."
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-16-K01",
+      "question": "A register is changed to add a new product. What should the supervisor do with the old revision?",
+      "options": [
+        "Overwrite it, so only one version exists and the old date is removed",
+        "Keep it on file and issue a new revision with the reason for the change.",
+        "Delete it and keep only the verbal version and nobody needs the old one"
+      ]
+    },
+    {
+      "id": "RAS-16-K02",
+      "question": "A crew has signed a briefing record. Which statement is correct?",
+      "options": [
+        "The briefing proves the controls work on site and the crew signed it at the start of the year",
+        "The briefing removes the business's responsibility for the controls and the crew now owns the outcome",
+        "The briefing shows that the briefing took place, and the controls still need to be verified on site."
+      ]
+    },
+    {
+      "id": "RAS-16-K03",
+      "question": "Which event is a review trigger for the register?",
+      "options": [
+        "A new piece of equipment is introduced to the site.",
+        "The calendar review date has not yet arrived.",
+        "The crew has not had a break for an hour."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), document control, revision and review history, and the toolbox talk operative briefing record; rights: user-held",
+    "UNCONFIRMED: legal effect of briefing signatures, duty to consult, and record retention under state and territory work health and safety law; not checked in this pass.",
+    "Cross-check: existing lessons F02-L04 (task-specific pre-start assessment) and S14-L03 (dynamic risk assessment) cover the pre-start and stop-work steps; this lesson covers the document control and briefing layer."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

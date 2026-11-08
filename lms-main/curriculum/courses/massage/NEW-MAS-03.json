@@ -1,0 +1,204 @@
+{
+  "id": "NEW-MAS-03",
+  "title": "Linen, oil and hygiene management",
+  "courseSlugs": [
+    "massage"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "C",
+  "estimatedMinutes": 20,
+  "audience": "Mobile massage therapists who manage linen, massage oils and creams, and the hygiene of the treatment area",
+  "prerequisites": [
+    "F08-L02",
+    "F03-L01",
+    "F04-L04"
+  ],
+  "learningOutcomes": [
+    "Choose between single-use and reusable linen for each type of session, and explain the cost and hygiene effect of the choice",
+    "Store, dispense and handle massage oils and creams using the safety data sheet and the approved procedure",
+    "Identify two cost reductions that do not reduce hygiene or the required steps"
+  ],
+  "referencesAtStart": "Official references for this lesson: WorkSafe Victoria, Safety data sheets (reviewed 30 July 2022); WorkSafe Victoria, Hazardous substances: safety basics (reviewed 30 July 2022); WorkSafe Victoria, Globally Harmonized System of classification and labelling of chemicals (reviewed 22 November 2022).",
+  "instruction": [
+    {
+      "heading": "Linen: single-use, reusable and the cost of each",
+      "body": "A massage session uses sheets, towels and bolster covers that touch the client's skin. Single-use linen costs more per session but removes the laundering step and reduces the risk of carrying contamination between clients. Reusable linen costs less per session, but the business must launder it to a standard and keep it separate from used linen until it is washed. The choice is a cost decision, but it must not reduce hygiene. The business should record the method it uses for each type of session. The approved laundering method, including the temperature and detergent recorded on the linen supplier's instructions, is held in {{business:procedures.approved_sop}}."
+    },
+    {
+      "heading": "Massage oils and creams: the safety data sheet governs",
+      "body": "Massage oils, creams and lotions are products, and each one needs a safety data sheet. WorkSafe Victoria's safety data sheet page (reviewed 30/07/2022) requires an up-to-date SDS to be held for every product, with access open to workers, contractors and emergency responders. Its safety basics page (reviewed 30/07/2022) says employers need a register listing every hazardous substance on site, and that workplace risks to health and safety need evaluating. Whether a massage oil counts as a hazardous substance depends on its ingredients and the classification on its safety data sheet. The GHS labelling duty on WorkSafe's GHS page (reviewed 22/11/2022) falls on manufacturers and importing suppliers, so the business should check the label on each product it receives. Store products as the safety data sheet and the label direct. Decant only what is needed for each client into a clean dispenser, and never return used oil to the main bottle."
+    },
+    {
+      "heading": "Where cost reduction is safe",
+      "body": "Cost reduction in a mobile massage business is worth doing where it does not change the steps that protect the client. Buying oil in larger containers is safe only if the storage and decanting method keeps the product clean and labelled. Choosing a reusable linen service can reduce the per-session cost if the service confirms its laundering standard in writing. Scheduling sessions to reduce travel reduces cost, provided the processing and set-up steps are still allowed. Cost reduction must never remove a contraindication check, a consent step, a clean-down step or a required product test. Where a cheaper product is considered, check its safety data sheet and its label before it is used, and record the review."
+    }
+  ],
+  "procedure": [
+    "Decide for each session type whether single-use or reusable linen is used, and record the decision in the procedure",
+    "Launder reusable linen to the supplier's instructions, keeping used and clean linen apart until washed",
+    "Check the safety data sheet for each oil or cream before first use, and file it in the kit",
+    "Decant the amount needed for each client into a clean, labelled dispenser, and never return used oil to the main bottle",
+    "Store products in the approved storage and keep lids closed when not in use",
+    "Review the cost decisions each quarter, and record any change that affects the steps in the procedure"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A therapist wants to switch from single-use sheets to reusable sheets to save money. The reusable sheets are laundered by a service that will not give a written laundering standard.",
+      "decisionPrompt": "Should the switch go ahead?",
+      "reasoning": "Without a written laundering standard, the therapist cannot show that the sheets are cleaned to the level the procedure requires. The therapist should ask the service for its standard in writing. Until the standard is confirmed, single-use sheets should stay in use, and the decision should be recorded with the reason."
+    },
+    {
+      "situation": "A therapist buys a large bottle of massage oil, and plans to pour from the large bottle directly into each client's session pot, returning any unused oil to the bottle at the end of the day.",
+      "decisionPrompt": "Is this acceptable?",
+      "reasoning": "Returning used oil to the main bottle risks carrying skin cells and organisms into the whole product, and it breaks the decanting rule. The therapist should decant only what is needed for each client into a clean, labelled dispenser, and discard or clean the dispenser after the session. The bottle size can still reduce cost, provided the decanting method is used."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Single-use sheets and bolster covers, where the procedure uses them",
+    "Reusable linen with a bag for used items, kept separate from clean linen",
+    "Clean dispensers for decanting oil and cream, labelled",
+    "Safety data sheets for each product, filed in the kit",
+    "Gloves where the product label or safety data sheet requires them"
+  ],
+  "commonErrors": [
+    {
+      "error": "Returning unused oil to the main bottle at the end of the day.",
+      "prevention": "Decant only what is needed for each client into a dispenser, and discard or clean the dispenser after the session."
+    },
+    {
+      "error": "Switching to reusable linen with no written laundering standard from the service.",
+      "prevention": "Ask for the standard in writing, and keep single-use linen until the standard is confirmed."
+    },
+    {
+      "error": "Assuming a cheaper product is safe because it is sold for massage.",
+      "prevention": "Check the safety data sheet and the label before use, and record the review."
+    },
+    {
+      "error": "Stating that a particular laundering temperature is required by law.",
+      "prevention": "Follow the supplier's instructions and the approved procedure."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WorkSafe Victoria's pages describe an up-to-date SDS for every product as a standing requirement, with access kept open, and must maintain a register listing hazardous substances (both reviewed 30/07/2022). This is confirmed for Victorian employers.",
+      "licenceNotice": false
+    },
+    {
+      "point": "No product-specific rule for massage oils or creams was found.",
+      "licenceNotice": false
+    },
+    {
+      "point": "No state laundering standard for massage linen was confirmed. The supplier's instructions and the approved procedure apply until the position is checked.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not certify any product handling or cleaning standard.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every product has a safety data sheet filed in the kit before first use",
+    "Every decanted dispenser is clean and labelled, and used oil is never returned to the main bottle",
+    "The linen method is recorded for each session type, with the supplier's laundering standard on file",
+    "Each cost decision is reviewed to confirm it does not remove a required step"
+  ],
+  "documentationEvidence": [
+    "Safety data sheet file for each product, with the date checked",
+    "Linen method record and the laundering standard supplied",
+    "Decanting and labelling record for each dispenser",
+    "Quarterly cost review record, showing the change and the step check"
+  ],
+  "summary": [
+    "Linen choice is a cost decision that must not reduce hygiene",
+    "The safety data sheet governs oils and creams.",
+    "Decant, label and never return used product to the main bottle",
+    "Cost reduction must never remove a check, a consent step or a required clean-down"
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-MAS-03-K01",
+      "question": "Why must unused oil never be returned to the main bottle after a session?",
+      "options": [
+        "Because the oil becomes too thick to pour out of the bottle again",
+        "Because skin cells and organisms can contaminate the whole product",
+        "Because the label requires the oil to be discarded at once"
+      ]
+    },
+    {
+      "id": "NEW-MAS-03-K02",
+      "question": "A laundering service cannot give a written standard. What is the correct decision for reusable sheets?",
+      "options": [
+        "Switch to reusable sheets, since they cost less over the long run",
+        "Switch, and wash the sheets in hot water at home to keep them clean",
+        "Keep single-use sheets until the standard is confirmed in writing"
+      ]
+    },
+    {
+      "id": "NEW-MAS-03-K03",
+      "question": "How does the lesson describe single-use linen compared with reusable linen per session?",
+      "options": [
+        "It costs more per session but removes the laundering step",
+        "It costs less per session and needs no laundering",
+        "It costs the same per session as reusable linen",
+        "It costs nothing, because it is not laundered"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: WorkSafe Victoria, Safety data sheets (reviewed 30 July 2022); WorkSafe Victoria, Hazardous substances: safety basics (reviewed 30 July 2022); WorkSafe Victoria, Globally Harmonized System of classification and labelling of chemicals (reviewed 22 November 2022).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Safety data sheets",
+      "url": "https://www.worksafe.vic.gov.au/safety-data-sheets",
+      "pageDate": "Reviewed 30/07/2022",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; employer duty to obtain an up-to-date SDS for each product and ensure access. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Hazardous substances: safety basics",
+      "url": "https://www.worksafe.vic.gov.au/hazardous-substances-safety-basics",
+      "pageDate": "Reviewed 30/07/2022",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; hazardous substances register and risk assessment. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R3",
+      "title": "Globally Harmonized System of classification and labelling of chemicals",
+      "url": "https://www.worksafe.vic.gov.au/globally-harmonized-system-ghs-classification-and-labelling-chemicals",
+      "pageDate": "Reviewed 22/11/2022",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; labelling duty on manufacturers and importing suppliers. Decanting is not covered. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WorkSafe Victoria, Hazardous substances, https://www.worksafe.vic.gov.au/hazardous-substances, reviewed 19/05/2026, checked 2026-11-02 (ALL-VIC-02, CHEM-VIC-01)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (MASS-VIC-04 product rules UNCONFIRMED)",
+    "Shared lesson references: F03-L01 (read labels and SDS), F08-L02 (hand hygiene), F04-L04 (cleaning, maintenance and records), within curriculum/lessons/ready",
+    "Checked 2026-11-03: official references R1, R2, R3 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-05.jpg",
+      "alt": "Mobile massage illustration",
+      "kind": "photo",
+      "origin": "massage"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-06.jpg",
+      "alt": "Mobile massage illustration",
+      "kind": "photo",
+      "origin": "massage"
+    }
+  ]
+}

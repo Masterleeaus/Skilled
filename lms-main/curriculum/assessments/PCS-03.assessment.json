@@ -1,0 +1,44 @@
+{
+ "lessonId": "PCS-03",
+ "knowledgeAnswers": [
+  {
+   "id": "PCS-03-K01",
+   "correctIndex": 3,
+   "rationale": "The original record is kept and shown, and the dispute is recorded and sent for decision. Silent changes are not permitted."
+  },
+  {
+   "id": "PCS-03-K02",
+   "correctIndex": 0,
+   "rationale": "Only confirmed numbers are shown. The rest are left out until checked against the authority."
+  },
+  {
+   "id": "PCS-03-K03",
+   "correctIndex": 1,
+   "rationale": "A dated amendment keeps the audit trail, and the original stays on file."
+  },
+  {
+    "id": "PCS-03-K04",
+    "correctIndex": 3,
+    "rationale": "The privacy and customer details section says to limit access to people who need it, and to store records securely."
+  }
+ ],
+ "practicalCriteria": [
+  "Invoice shows the required details, and any field without a source is left blank",
+  "Invoice is linked to its visit record and agreement by job number",
+  "A correction is made as a dated amendment, with the original kept",
+  "Customer access details are stored and shared only as the procedure states"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Sample client file with agreement, visit records and invoices",
+  "Dated correction log",
+  "Assessor observation sign-off"
+ ],
+ "stopWorkCriteria": [
+  "Licence or registration number shown as held before it is confirmed",
+  "Visit record changed without a dated amendment",
+  "Customer access details shared outside the service"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

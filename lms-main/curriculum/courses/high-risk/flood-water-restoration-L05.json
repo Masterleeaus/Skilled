@@ -1,0 +1,154 @@
+{
+  "id": "flood-water-restoration-L05",
+  "title": "PPE, hygiene and biological exposure",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and water-removal work after a flood or water event. Not a qualification or authority to enter a flood-affected building, energise its systems, or certify it as dry, safe or habitable.",
+  "prerequisites": [
+    "flood-water-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Explain how biological exposure reaches workers, and apply hygiene, PPE and exposure-reporting controls from the site assessment."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how biological exposure reaches workers after a flood, and how hygiene, PPE and exposure reporting follow from the site assessment. It does not approve any exposure work without controls. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "PPE, hygiene and biological exposure",
+      "body": "Biological contamination can reach workers through broken skin, mucous membranes, inhalation or ingestion. Controls must follow the site hazard assessment, the training held by each worker and the washing facilities that are actually available. Record each exposure route, the hygiene limitations and the escalation route to a supervisor or to occupational-health advice. Suspend exposure work until suitable controls and hygiene facilities have been provided. Where an exposure occurs, follow the employer's incident and medical referral procedure, and keep the record confidential."
+    }
+  ],
+  "procedure": [
+    "Confirm the PPE, the hygiene facilities and the worker training before any exposure work begins.",
+    "Record each likely exposure route: broken skin, eyes, mouth and inhalation.",
+    "Provide clean water and hand-washing facilities before exposure work starts.",
+    "Wash hands after contact with mud, flood water and contaminated items or equipment.",
+    "Suspend exposure work until suitable controls and facilities are in place.",
+    "If an exposure may have occurred, follow the employer's incident and medical referral procedure, and keep the record confidential."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker has a possible exposure during water removal and wants to finish the task before reporting it.",
+      "decisionPrompt": "What must happen?",
+      "reasoning": "Stop the exposure work, follow the employer's incident and medical referral procedure, and keep the record confidential. Finishing first is not acceptable."
+    },
+    {
+      "situation": "The crew has no hand-washing facility on site and proposes to eat lunch in the flooded room.",
+      "decisionPrompt": "What should happen?",
+      "reasoning": "Stop exposure work. Provide hygiene facilities and a separate eating area before the work resumes."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Enclosed footwear, protective eyewear, gloves and suitable clothing, as WorkSafe Victoria guidance describes.",
+    "Rubber-soled shoes, gloves, hats, sun protection and high-visibility vests, as Comcare's clean-up list shows. The hazard assessment sets the final list.",
+    "Clean water and hand-hygiene facilities."
+  ],
+  "commonErrors": [
+    {
+      "error": "Continuing to work after contact with floodwater without washing hands.",
+      "prevention": "Wash hands after contact and before eating or drinking."
+    },
+    {
+      "error": "Starting exposure work with no hygiene facilities.",
+      "prevention": "Suspend the work until facilities are provided."
+    },
+    {
+      "error": "Recording an exposure as minor and not reporting it.",
+      "prevention": "Follow the employer's incident and medical referral procedure."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Biological contamination can reach workers through broken skin, mucous membranes, inhalation or ingestion. Controls follow the site assessment, the training held and the facilities that exist.",
+      "licenceNotice": false
+    },
+    {
+      "point": "WorkSafe Victoria's flood guidance recommends washing hands after contact with mud, flood water and contaminated items, and advises enclosed footwear, protective eyewear, gloves and suitable clothing.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Comcare's flood guidance says first aid, clean drinking water and hand hygiene measures must be available.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Health information about an exposed worker is confidential and is recorded only as the procedure requires.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner records each exposure route and the control for it.",
+    "The learner suspends exposure work until controls and hygiene facilities exist."
+  ],
+  "documentationEvidence": [
+    "Exposure route record and hygiene limitations.",
+    "Incident and medical referral record, kept confidential."
+  ],
+  "summary": [
+    "Hygiene facilities come before exposure work.",
+    "Wash hands after contact with floodwater.",
+    "Report and refer any exposure."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "flood-water-restoration-L05-K01",
+      "question": "A worker has a possible exposure during water removal. What must happen?",
+      "options": [
+        "Finish the task and report at the end of the shift, since the crew is almost done and the exposure seems minor",
+        "Stop the exposure work, follow the employer's incident and medical referral procedure, and keep the record confidential.",
+        "Wash the skin and continue without a record, since the water was clean and the exposure was very short and the worker felt fine after the work"
+      ]
+    },
+    {
+      "id": "flood-water-restoration-L05-K02",
+      "question": "Which item is on Comcare's flood clean-up PPE list?",
+      "options": [
+        "Rubber-soled shoes",
+        "A diving suit",
+        "Ear plugs only"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR06-flood-water-restoration.json, instruction section 5 and learning outcome 5; first knowledge check HR06-K12. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: flood-water-restoration-lesson-05-instruction-pass68.json; flood-water-restoration-lesson-05-research-pass67.json; flood-water-restoration-lesson-05-assessment-pass69.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: exposure-reporting and medical-referral requirements for flood-water exposure in each state and territory. The lesson refers to the employer's procedure.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Floods and other natural disasters",
+      "url": "https://www.worksafe.vic.gov.au/floods-and-other-natural-disasters",
+      "pageDate": "Reviewed on 20/01/2023 (the only date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Do not touch switchboards that have been damaged by water. Do not put electricity or gas back on until the property wiring has been tested by a licensed electrician and the gas installation has been checked by a licensed gasfitter. Wash hands after contact with mud, flood water and contaminated items and equipment. Wear enclosed footwear, protective eyewear, gloves and suitable clothing. Avoid contact with unknown substances or containers. Keep hazardous substances separate from general waste. WorkSafe Victoria always recommends a licensed asbestos removalist for any amount of asbestos. Victorian guidance only."
+    },
+    {
+      "id": "R2",
+      "title": "Floods (extreme weather)",
+      "url": "https://www.comcare.gov.au/safe-healthy-work/prevent-harm/extreme-weather/floods",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Flood clean-up dangers include asbestos, flooded sewerage, toxic chemicals, bacteria and pollutants. Clean-up duties: electricity clearance has been given before attempting to use the electricity; any hazardous chemicals or likely asbestos-containing materials are identified; everyone involved is briefed on hazards and precautions, including PPE; first aid, clean drinking water and hand hygiene measures are available. Clean-up PPE listed: rubber-soled shoes, gloves, hats, sunscreen, sun protective clothing and high visibility vests. Commonwealth (Comcare) guidance."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a flood-affected building, to carry out regulated flood restoration, to energise or isolate electrical, gas or solar systems, to remove sewage or contaminated water, to dispose of waste, or to certify that a property is dry, hygienic, structurally sound or safe to occupy. Completing this lesson does not give a licence, certificate or approval. Some of the work described is restricted to licensed, authorised or specially trained people, including electrical and gas work, structural assessment, sewage handling and some disposal. The site controller, the owner, the insurer and the competent professionals each hold separate decisions, and none of them replaces the others. Where the controlling authority or the competent professional is not identified, stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever any of these is true: permission to enter or written safety clearance is missing; the contamination is unknown; a structural hazard, a slip or a confined space has not been cleared; an electrical, gas or solar system is water-exposed or has not been licensed for re-energisation; an exposure has occurred or controls are not in place; the equipment or operators are not suitable; porous material is in question; hidden microbial contamination is suspected; a waste route is not yet known; or a party asks for a dry, hygienic or occupancy statement. A stop-work decision is correct. Record it, and restart only after the competent party has confirmed the scope in writing."
+  }
+}

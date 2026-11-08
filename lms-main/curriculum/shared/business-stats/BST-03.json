@@ -1,0 +1,184 @@
+{
+  "id": "BST-03",
+  "title": "Estimating a rate from a sample: repeat customers",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff of home and commercial service businesses in Australia who want to track how many customers come back, using their own booking or invoice records.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Write a clear definition of the thing being counted, such as a repeat customer, and apply it to a list of records.",
+    "Calculate a share (a rate) from a sample of customers and report it with its sample size and time window.",
+    "Explain sampling variation in plain language and show how much a small sample can move."
+  ],
+  "instruction": [
+    {
+      "heading": "Why you work from a sample",
+      "body": "Most owners cannot check every customer who has used the business in the last year, so they work from a sample: the customers they can see in a fixed window of time. A rate, such as the share of customers who book again, is then estimated from that sample. Start with the definition, because the number depends on it. For example, a repeat customer might be someone who has paid for two or more jobs in the past twelve months. Write the definition down and use it every time you count. If the definition changes from one month to the next, the rate will move for reasons that have nothing to do with how the business is doing."
+    },
+    {
+      "heading": "Working out the share",
+      "body": "Count the customers in your sample, count how many of them meet the definition, and divide the second number by the first. Multiply by 100 to express the result as a percentage. Suppose a mobile massage business has 40 clients in the last twelve months, and 14 of them paid for two or more sessions. Fourteen divided by 40 is 0.35, which is 35 per cent. That is the estimate from this sample. It describes these 40 clients well enough for planning, but it is not a guarantee about the next 40 clients, and it should always be reported together with the sample size and the window it covers."
+    },
+    {
+      "heading": "Sampling variation: the wobble",
+      "body": "If you took a different group of 40 clients, you would probably get a somewhat different share. That natural movement is called sampling variation, and it is strongest when the sample is small. You can see the effect in your own data by splitting the sample. The following split is only a demonstration. Suppose the first 20 clients in the list, ordered by first booking date, include 9 repeat clients, which is 45 per cent, and the last 20 include 5, which is 25 per cent. Together they give the 35 per cent figure again, but the two halves differ by 20 percentage points. That gap tells you that 40 clients cannot pin the rate down tightly. The sensible response is not to react to each month's figure. Watch the trend over several periods, and treat a small-sample share as an estimate with a wide margin."
+    }
+  ],
+  "procedure": [
+    "Write a one-line definition of the thing you count, such as a repeat customer, and keep it on the same page as the figures.",
+    "Choose a fixed window, such as the last twelve months, and list every customer who falls within it.",
+    "Count the customers who meet the definition and count the total in the sample.",
+    "Divide the first count by the second and convert the result to a percentage.",
+    "Split the sample into two equal batches and recalculate the share for each, to see how far it moves.",
+    "Record the share together with the sample size and the window, for example 35 per cent of 40 clients over the last twelve months.",
+    "Repeat the calculation at the same point each quarter and compare the trend, not a single reading."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A mobile massage business has 40 clients in the last twelve months. Fourteen of them paid for two or more sessions. The owner wants one number for the monthly report.",
+      "decisionPrompt": "What rate should be reported, and how should it be presented?",
+      "reasoning": "Report 35 per cent, which is 14 of 40 clients, with the twelve-month window and the sample size stated. Because a change of only a few clients moves the rate a lot at this size, the report should say the figure is an estimate from a small sample."
+    },
+    {
+      "situation": "A bond cleaner checks a batch of 12 recent customers and finds a 50 per cent repeat share. The next batch of 12 gives 4 repeat customers, which is 33 per cent. These figures are invented for this lesson.",
+      "decisionPrompt": "What should the owner conclude about customer loyalty?",
+      "reasoning": "The owner should not conclude that loyalty has fallen by 17 points. Batches of 12 are too small to support that. Both results are consistent with a true rate somewhere in a broad range. The owner should keep counting over longer windows and larger samples before deciding whether anything has changed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Booking or invoice export listing customers and paid jobs",
+    "Spreadsheet or calculator",
+    "A written definition of a repeat customer, kept with the figures",
+    "No site PPE is needed for this lesson; it is desk-based work"
+  ],
+  "commonErrors": [
+    {
+      "error": "Changing the definition of a repeat customer part way through the year.",
+      "prevention": "Write the definition down and apply it to every period you report."
+    },
+    {
+      "error": "Reading a single month's share as a trend.",
+      "prevention": "Use fixed windows and compare several periods before deciding that anything has changed."
+    },
+    {
+      "error": "Quoting a small-sample share as an exact figure.",
+      "prevention": "Report the sample size with every rate and describe small samples as estimates."
+    },
+    {
+      "error": "Counting enquiries that never became paid jobs.",
+      "prevention": "Count only customers with paid jobs, unless the written definition says otherwise."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers counting and arithmetic on customer records. It does not cover licensed or authorised work and does not grant any licence or authority.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Customer records are subject to privacy duties.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not give accounting or tax advice. Any figure used in financial reporting should be checked with a qualified adviser.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner writes a definition of the counted group that another person could apply in the same way.",
+    "The learner calculates a share from a sample of at least 30 records, showing the counts, the window and the sample size.",
+    "The learner explains sampling variation using their own split of the sample, and states what decision the result does or does not support."
+  ],
+  "documentationEvidence": [
+    "Written definition with the date it was set",
+    "Worksheet showing the counts, the window, the share, the sample size and the two-batch comparison",
+    "A short note stating what the result supports and what it does not"
+  ],
+  "summary": [
+    "A rate from a sample is an estimate, not a fixed fact.",
+    "Define what you count and keep the definition the same.",
+    "Small samples wobble, so report the sample size and compare trends over several periods."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "BST-03-K01",
+      "question": "You count 14 repeat customers out of 40 customers in the last twelve months. What is the repeat share?",
+      "options": [
+        "14 per cent",
+        "40 per cent",
+        "35 per cent"
+      ]
+    },
+    {
+      "id": "BST-03-K02",
+      "question": "Why might the share change next quarter even if you did nothing differently?",
+      "options": [
+        "Because sampling variation means a different group of customers can give a somewhat different share",
+        "Because percentages are fixed by the accountant each year for the business, the tax and the bank",
+        "Because repeat customers only book in winter months of the year and the cold season"
+      ]
+    },
+    {
+      "id": "BST-03-K03",
+      "question": "A batch of 12 recent customers gives a 50 per cent repeat share. What is the most sensible reading?",
+      "options": [
+        "Treat it as a fixed fact that half of all customers return every time they book again with us",
+        "Treat it as a rough estimate; a small sample can move a lot, so keep tracking over longer periods",
+        "Treat it as proof that repeat custom will be exactly 50 per cent for every future batch"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "General statistical method knowledge; Business Statistics: Australia and New Zealand (Selvanathan and Keller), 7th ed., contents page only; no text used; rights: user-held (upload contains contents only)",
+    "UNCONFIRMED: privacy duties and customer record retention periods under Australian law; not checked against current legislation in this draft"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

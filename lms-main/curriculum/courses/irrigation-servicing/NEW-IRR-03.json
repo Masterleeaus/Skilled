@@ -1,0 +1,197 @@
+{
+  "id": "NEW-IRR-03",
+  "title": "Leak detection and repair boundaries (backflow and plumbing)",
+  "courseSlugs": [
+    "irrigation"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Irrigation technicians and crew members who find, isolate and report leaks in garden irrigation systems and who decide what work is in scope.",
+  "prerequisites": [
+    "NEW-IRR-01",
+    "F02-L01",
+    "F02-L03"
+  ],
+  "learningOutcomes": [
+    "Recognise the signs of a leak in an irrigation system, including wet ground, falling pressure and unexpected water use.",
+    "Locate and isolate a leak on the zone side of the system using the approved method, where it is safe to do so.",
+    "Distinguish leak repairs that fall within a non-licensed irrigation service from repairs on the supply side, backflow devices and plumbing, which need a licence holder.",
+    "Refer, record and communicate supply-side and plumbing faults without attempting licensed work."
+  ],
+  "instruction": [
+    {
+      "heading": "Finding leaks and understanding the signs",
+      "body": "Leaks in irrigation systems show in a few predictable ways. The lawn or bed is wet or soft in one area even when the zone is not running. A zone takes longer than usual to pressurise, or the pressure at the other zones drops when one runs. The water bill rises without a change in use, or the water meter keeps moving when everything is off. A pipe that has been pulled by a mower or dug by a dog may leak at a joint or a fitting. Start with a visual walk of the system when the zones are off, then run each zone and watch the ground and the heads. Use the business's listening or meter test if it has one. Mark every wet area and every leak you find on the zone map before you dig. Do not assume a wet area is the leak; water travels along pipe trenches and can surface some distance away."
+    },
+    {
+      "heading": "Isolating the leak safely",
+      "body": "Once a leak is located, isolate the affected part of the system if the isolation is on the zone side and the procedure allows it. Turn off the zone valve manually or at the controller, and confirm the water has stopped before you go further. Do not isolate the supply side, the backflow device or the main line unless your procedure specifically allows it for that work and you have the authority. Turn off the power to the controller only at its external isolation point and only if that is safe. Buried electrical cables, gas lines and other pipes may be close to the leak, and some are live or pressurised. Stop digging if you find an unexpected service, and do not continue until the owner or a qualified locator has confirmed its location and status."
+    },
+    {
+      "heading": "What is in scope and what needs a licence",
+      "body": "Work on the supply side is different. Repairs to the supply connection, the water meter area, the backflow prevention device, the main line before the zone valves, or any plumbing connection are plumbing work. In New South Wales, the plumbing licence categories include urban irrigation water plumbing, which covers connecting an irrigation system to a water main (NSW Government page updated 31 July 2026), so supply-side connection work needs a licence there. This lesson does not grant a plumbing, backflow or electrical licence, and the crew must not repair supply-side or plumbing faults under it."
+    },
+    {
+      "heading": "Recording, referral and the client",
+      "body": "Record every leak with its location, the cause if known, the photographs taken with consent, the time, the zone isolated, the action taken and the water pressure before and after if measured. For any supply-side or plumbing fault, write a referral to the licence holder that describes the location and the symptoms, and give the client a copy. Explain to the client what was found, what is in scope, what has been isolated, and what is needed next. Do not promise a repair date or a cost for licensed work that the business does not control. Keep the zone isolated until the repair is complete or the client has instructed otherwise, and record that instruction."
+    },
+    {
+      "heading": "Verification and escalation",
+      "body": "A supervisor should check the leak location, the isolation and the referral. A competent technician can explain how they located the leak, show the isolation point, identify the boundary between in-scope and licensed work, and describe the referral. Escalate any leak on the supply side, any leak near a service, any water running that cannot be stopped at the zone valve, and any leak that is causing damage to a building or neighbouring property."
+    }
+  ],
+  "procedure": [
+    "Walk the system with the zones off and mark any wet areas, sunken ground or damaged fittings on the zone map.",
+    "Run each zone in turn, observe pressure and wet spots, and note which zone shows the leak.",
+    "Isolate the zone valve for the affected zone, and confirm the water has stopped.",
+    "Confirm the service-locating procedure for the site before any excavation, and stop if an unexpected service is found.",
+    "Determine whether the leak is on the zone side or the supply side, using the approved check.",
+    "If the leak is on the zone side and within scope, repair it with approved parts and test the zone.",
+    "If the leak is on the supply side or involves plumbing or backflow, stop, leave it isolated as far as safe, and write a referral to the licence holder.",
+    "Record the leak, the action taken, the photographs, the referral and the client's instruction."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A front-lawn zone is wet every morning, and the pressure at the other zones drops when it runs. The wet area is close to the water meter.",
+      "decisionPrompt": "What do you isolate, and what do you refer?",
+      "reasoning": "The wet area close to the meter and the pressure drop across zones point to a supply-side leak, which is plumbing work. Isolate the zone valve for the wet zone if the procedure allows, but do not work on the meter or the connection. Refer the supply-side leak to a licence holder, record the symptoms and the photographs taken with consent, and tell the client the zone will stay isolated until the repair is done."
+    },
+    {
+      "situation": "A mower has cut a lateral pipe in one zone, and water is spraying from the cut.",
+      "decisionPrompt": "Is this in scope, and what is the first step?",
+      "reasoning": "First isolate the zone valve to stop the water. The damaged lateral is on the zone side, and repairing it with approved fittings may be in scope if the business's procedure and the state rules allow it. Before cutting or digging, follow the service-locating procedure. Record the damage, repair it within scope if permitted, test the zone, and record the repair. If the cut is on a section that is not zone-side, stop and refer."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Zone map and marking tools",
+    "Listening device or meter test, where approved by the business",
+    "Approved pipe and fitting kit for in-scope zone repairs",
+    "Eye protection and gloves",
+    "Sturdy footwear and high-visibility clothing for road-side or public areas",
+    "Service-locating method approved by the business",
+    "Camera or phone for recording the leak, with consent"
+  ],
+  "commonErrors": [
+    {
+      "error": "Digging to find a leak without a service-locating check.",
+      "prevention": "Follow the approved service-locating procedure before any excavation, and stop at an unexpected service."
+    },
+    {
+      "error": "Repairing a supply-side or backflow fault because it looks like a simple fitting.",
+      "prevention": "Treat supply-side, meter, backflow and plumbing faults as licensed work and refer them."
+    },
+    {
+      "error": "Leaving the zone running while the leak is traced.",
+      "prevention": "Isolate the affected zone as soon as the leak is identified, and confirm the water has stopped."
+    },
+    {
+      "error": "Promising the client a repair date or price for licensed work.",
+      "prevention": "State the referral and the next step. Do not commit to dates or costs the business does not control."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Supply-side, backflow and plumbing repairs on irrigation systems are licensed or authorised work in many jurisdictions. This lesson grants no licence. New South Wales: the plumbing page lists a 'Water plumbing - urban irrigation' category (last updated 31 July 2026).",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any authority to test or repair backflow devices.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Buried electrical cables, gas lines and pressurised water pipes can be near irrigation pipe. Locate services before excavation and stop if an unexpected service is found.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every leak is located on the zone map, and the affected zone is isolated before further work.",
+    "No supply-side, meter, backflow or plumbing repair has been attempted under this lesson.",
+    "Every referral is written and given to the client, with the leak location and symptoms.",
+    "Excavation is preceded by the approved service-locating check, and any unexpected service has been reported."
+  ],
+  "documentationEvidence": [
+    "Leak record with location, symptoms, cause, photographs taken with consent, and the time.",
+    "Isolation record showing the zone valve and the confirmation that water has stopped.",
+    "Service-locating record for any excavation.",
+    "Referral to the licence holder, with the client's copy and instruction."
+  ],
+  "summary": [
+    "Leaks show as wet ground, pressure drops and unexpected water use. Walk and run zones to locate them.",
+    "Isolate the zone side safely and locate services before any digging.",
+    "Zone-side repairs may be in scope. Supply-side, meter, backflow and plumbing repairs need a licence holder.",
+    "Record the leak, the isolation and the referral, and explain the next step to the client without promising dates or costs for licensed work."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:procedures.approved_sop}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-IRR-03-K01",
+      "question": "A wet area is found close to the water meter, and pressure drops across other zones when one runs. What should the technician do?",
+      "options": [
+        "Isolate the zone if the procedure allows, do not work on the meter, and refer the supply-side leak to a licence holder.",
+        "Repair the connection at the meter, since it looks like a simple fitting that can be fixed in minutes today",
+        "Dig a trench straight away to see where the water is coming from before anyone else arrives on the site"
+      ]
+    },
+    {
+      "id": "NEW-IRR-03-K02",
+      "question": "Before any excavation to find a leak, what must happen?",
+      "options": [
+        "The technician digs carefully with a spade and stops only if they see a cable or pipe in the trench",
+        "The approved service-locating check is completed, and the technician stops if an unexpected service is found.",
+        "The client confirms there are no pipes in the ground, which is enough to start the digging work"
+      ]
+    },
+    {
+      "id": "NEW-IRR-03-K03",
+      "question": "A mower cuts a zone-side lateral pipe and water is spraying out. What is the first action?",
+      "options": [
+        "Let the water run until the repair is finished, since the zone will drain once the job is done",
+        "Turn off the main supply at the meter, since that stops the water from the whole site immediately",
+        "Isolate the zone valve to stop the water, then assess whether the repair is zone-side and in scope."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Catalogue decision NEW-IRR-03 (no source lesson). Written from scratch.",
+    "NSW Government, Plumbing, draining and gasfitting licences, https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting. Recorded in research/trades/LICENCE-MATRIX.csv (NSW-06) as checked 2026-11-02.",
+    "Backflow testing, repair and tester rules by state and territory: UNCONFIRMED (not checked in this draft).",
+    "Service-locating and excavation rules by state and territory: UNCONFIRMED (not checked in this draft).",
+    "Official: Plumbing, draining and gasfitting licences, NSW Government, Building Commission NSW, https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting (checked 2026-11-03; page date: last updated 31 July 2026)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Plumbing, draining and gasfitting licences",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+      "pageDate": "last updated 31 July 2026",
+      "checked": "2026-11-03",
+      "covers": "Confirms urban irrigation water plumbing; backflow and supply-side classes in other states are not covered. Publisher: NSW Government, Building Commission NSW."
+    }
+  ],
+  "referencesAtStart": "Official reference: NSW, Plumbing, draining and gasfitting licences (last updated 31 July 2026).",
+  "referencesAtEnd": "For a supply-side or plumbing finding in New South Wales, the licence category is in NSW, Plumbing, draining and gasfitting licences (last updated 31 July 2026).",
+  "images": [
+    {
+      "src": "/academy/library/photos/garden-outdoor/deck-photo-0c443ed3-05.jpg",
+      "alt": "Irrigation servicing illustration",
+      "kind": "photo",
+      "origin": "irrigation"
+    },
+    {
+      "src": "/academy/library/photos/garden-outdoor/deck-photo-0c443ed3-06.jpg",
+      "alt": "Irrigation servicing illustration",
+      "kind": "photo",
+      "origin": "irrigation"
+    }
+  ]
+}

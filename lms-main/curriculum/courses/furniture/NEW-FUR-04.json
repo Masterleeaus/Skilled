@@ -1,0 +1,184 @@
+{
+  "id": "NEW-FUR-04",
+  "title": "Strippers, solvents and finishing chemicals",
+  "referencesAtStart": "Official references for this lesson: Safe Work Australia, Using safety data sheets (no date shown); Safe Work Australia, Preparing safety data sheets (no date shown).",
+  "courseSlugs": [
+    "furniture"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Furniture restorers who store, mix, apply and dispose of strippers, solvents and finishing products.",
+  "prerequisites": [
+    "F03-L01",
+    "NEW-FUR-03"
+  ],
+  "learningOutcomes": [
+    "Find the controls for a product in its SDS and label before first use.",
+    "Explain why stripping products must not be mixed unless the label or SDS allows it.",
+    "Store, use and dispose of solvent-soaked materials and residues safely."
+  ],
+  "instruction": [
+    {
+      "heading": "Read the SDS before the first use",
+      "body": "A safety data sheet is the product's main safety record. Safe Work Australia's SDS guidance expects a workplace to hold an SDS for each chemical it uses, filed in its hazardous chemical register (no page date shown). It also asks that the SDS be easy to reach for people who use or store the chemical, emergency responders, and anyone who may be exposed. Read the sections on hazards, first aid, handling and storage, exposure controls and personal protection, and disposal before the first use. Keep the SDS where workers can reach it at the work area. The business's SDS list is recorded at {{business:materials.sds_links}}."
+    },
+    {
+      "heading": "Strippers and solvents differ",
+      "body": "Strippers and solvents do not share one set of hazards. Some are solvent-based, which means vapour and flammable liquid hazards. Some are alkaline or caustic, which means skin and eye damage. Some are water-based, which still needs gloves and eye protection because the label may say so. Dilution, dwell time, ventilation and PPE come from the label and SDS for that product. Do not mix products unless the label or SDS allows it. A mixture can create a hazard that neither product has alone."
+    },
+    {
+      "heading": "Ventilation, ignition and waste",
+      "body": "Work where vapour can move away from people and from ignition sources, including heat guns and any open flame. Keep containers closed when not in use. Store flammable products as the SDS and the business's storage procedure set out. Solvent-soaked rags carry a fire risk and a vapour risk. The approach taught here is to keep these rags in a closed metal container, away from heat, and to dispose of them as the SDS and local council rules set out. Collect spent residue and dispose of it in the same way. Do not pour it down a drain unless the SDS and local rules allow it."
+    }
+  ],
+  "procedure": [
+    "Check the SDS and label before opening a product.",
+    "Confirm the controls: ventilation, the PPE in {{business:safety.required_ppe}}, and the location of the fire extinguisher.",
+    "Decant only the amount needed, into a labelled container.",
+    "Keep the container closed when not in use.",
+    "Clean any spill as the SDS sets out.",
+    "Dispose of waste and rags as the SDS and local rules set out, and record the disposal."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker wants to mix a caustic stripper with a solvent stripper to make a heavy varnish come off faster. Both products are on the shelf.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Refuse the mixture. Neither label nor SDS allows it, and a mixture can create hazards that neither product has alone. Use each product as labelled, or choose another approved method. Record the decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Product SDS and label, filed at the work area",
+    "Business PPE as set out in the approved list {{business:safety.required_ppe}}",
+    "Labelled, closed containers for decanting",
+    "Closed metal container for solvent-soaked rags",
+    "Fire extinguisher, checked as the business's procedure sets out"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a product from an unlabelled container.",
+      "prevention": "Use labelled containers only. Relabel or dispose of unlabelled product."
+    },
+    {
+      "error": "Relying on memory of an old SDS.",
+      "prevention": "Check the current SDS for the product before use, and replace old copies."
+    },
+    {
+      "error": "Storing rags in an open bin overnight.",
+      "prevention": "Store solvent-soaked rags in a closed metal container away from heat."
+    },
+    {
+      "error": "Assuming a water-based product needs no skin protection.",
+      "prevention": "Check the label and SDS for the PPE the product requires."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Read the SDS and label before first use, and follow the controls they set out.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not mix stripping products unless the label or SDS allows it.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Makers and importers prepare SDS and must revisit each one within a five-year cycle at minimum (no page date shown). Workplaces keep SDS for the chemicals they use and make them easy to reach. Safe Work Australia says it does not regulate workplaces and cannot advise on workplace WHS matters, so the state or territory WHS authority is the place for workplace advice.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the state or territory WHS authority and local council.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each product in use has a current SDS on file.",
+    "Each product is used with its label and SDS controls followed.",
+    "Waste and rags are disposed of with a record."
+  ],
+  "documentationEvidence": [
+    "Chemical register entry with the SDS reference for each product",
+    "Storage check and PPE check for the work area",
+    "Waste and rag disposal record"
+  ],
+  "summary": [
+    "The SDS and label set the controls for each product before first use.",
+    "Products are not mixed unless the label or SDS allows it.",
+    "Solvent-soaked rags and residues are stored and disposed of as the SDS sets out."
+  ],
+  "businessFields": [
+    "{{business:materials.sds_links}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FUR-04-K01",
+      "question": "Where should a restorer look first for the dilution, PPE and first aid for a stripper?",
+      "options": [
+        "The client's notes",
+        "The product's SDS and label",
+        "The workshop radio manual"
+      ]
+    },
+    {
+      "id": "NEW-FUR-04-K02",
+      "question": "A worker wants to mix two strippers to work faster. What is correct?",
+      "options": [
+        "Mix them and then test a small area first here",
+        "Mix them if both are water-based and look the same",
+        "Do not mix unless the label or SDS allows it"
+      ]
+    },
+    {
+      "id": "NEW-FUR-04-K03",
+      "question": "Solvent-soaked rags are left in an open bin overnight. What is the problem?",
+      "options": [
+        "Fire risk and vapour exposure, so they should be stored in a closed metal container as the SDS sets out",
+        "None, if the bin is empty of other waste when the rags are added and the lid is left open for the night",
+        "It is only a cleanliness issue, since the rags will dry out quickly in the open air in the bin overnight"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references (repeated for the end of the lesson): Safe Work Australia, Using safety data sheets (no date shown); Safe Work Australia, Preparing safety data sheets (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/preparing-safety-data-sheets (checked 2026-11-02; no page date)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets (checked 2026-11-02; no page date)",
+    "UNCONFIRMED: workshop flammable storage standards; rag storage rules; product dilution, dwell and PPE values. Research brief: /home/claude/work/team/research-topics/furniture.md, section 5."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Using safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Workplace duty to keep SDS in the hazardous chemical register, and to make them easy to access for the people named on the page. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Preparing safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/preparing-safety-data-sheets",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Makers and importers prepare SDS, and each SDS is reviewed at least every five years. Publisher: Safe Work Australia."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-07.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-08.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    }
+  ]
+}

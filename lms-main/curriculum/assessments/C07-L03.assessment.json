@@ -1,0 +1,38 @@
+{
+  "lessonId": "C07-L03",
+  "knowledgeAnswers": [
+    {
+      "id": "C07-L03-K01",
+      "correctIndex": 0,
+      "rationale": "Release needs every mandatory check and every required approval. A tidy look is not enough, and finishing early is not a release condition."
+    },
+    {
+      "id": "C07-L03-K02",
+      "correctIndex": 1,
+      "rationale": "Unfamiliar electrical or gas appliances are not operated by the cleaner to show that they work."
+    },
+    {
+      "id": "C07-L03-K03",
+      "correctIndex": 2,
+      "rationale": "The fault is recorded, secured only if the procedure permits, and a reinspection is requested before release. Hiding it or leaving it is not acceptable."
+    }
+  ],
+  "practicalCriteria": [
+    "Confirms the acceptance criteria from a sample checklist, and sorts each item into what the cleaner approves and what needs coordinator sign-off.",
+    "Carries out a hazard scan before cleaning, and stops and reports a simulated hazard.",
+    "Completes a timed simulated turnover in a safe order, with contact times built in and a final inspection buffer.",
+    "Records the simulated final-inspection findings, requests a reinspection, and does not release the property before it is recorded."
+  ],
+  "passRule": "Criteria confirmed and sorted, hazard scan completed before cleaning, timed run completed safely, and findings recorded with reinspection requested before release. Observed in a supervised simulation. Not an appliance-function certificate and not a gas or electrical licence. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Timestamped completion checklist",
+    "Exception and maintenance records",
+    "Release record with the approver's name and time"
+  ],
+  "stopWorkCriteria": [
+    "Property released before mandatory checks or approvals",
+    "Unfamiliar appliance operated by the cleaner",
+    "Fault hidden from the record",
+    "Gas smell investigated by the cleaner or the scan skipped"
+  ]
+}

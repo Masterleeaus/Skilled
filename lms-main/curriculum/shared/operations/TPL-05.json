@@ -1,0 +1,347 @@
+{
+  "id": "TPL-05",
+  "title": "Standard operating procedure (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 60,
+  "audience": "Owners, supervisors and team members who write or follow written procedures for a home-service task",
+  "prerequisites": [
+    "SOL-07"
+  ],
+  "learningOutcomes": [
+    "Write a purpose and scope that a new person can read and apply without help",
+    "Reference every chemical and equipment item to its label, safety data sheet or manual",
+    "Give each step a visible check and a defined response when the check fails, with records and change approval named"
+  ],
+  "instruction": [
+    {
+      "heading": "What a standard operating procedure is for",
+      "body": "A standard operating procedure (SOP) is a written method for doing a task the same way each time, so that a new person can do it safely and a supervisor can check it. It is more than a checklist. An SOP states its purpose and scope, the equipment and materials used, the steps, the checks made during and after the task, the records kept, and who may approve a change. Write it for the person doing the job, in the order they will do it. Where a step depends on a product label or a manufacturer manual, refer to that document rather than copying a figure into the SOP."
+    },
+    {
+      "heading": "Equipment, chemicals and checks",
+      "body": "List each item of equipment the procedure uses, with its purpose, the check made before use, and the person responsible for maintenance. For each chemical or material, record the product name, its use, the dilution or concentration taken from the label or safety data sheet, where that document is kept, how the product is stored and how its waste is handled. Do not write dilution figures from memory or from another product. Each step should have a visible check, such as a surface test, a gauge reading or a visual inspection, and the SOP should say what to do if the check fails. A check that cannot be completed means the step is not finished."
+    },
+    {
+      "heading": "Records, change control and review",
+      "body": "State what is recorded, when, where, and for how long the record is kept. State who may change the SOP, what evidence supports a change, and how the new version reaches the people who use it. Record a version number and a review date. An SOP changed informally in the field drifts away from what is written, so changes should go through the named approver before they are used. Where the procedure covers a licensed or authorised task, state who is authorised and where that authorisation is recorded. The SOP does not grant the authorisation."
+    }
+  ],
+  "procedure": [
+    "Write the purpose in one or two sentences, naming the task and the result it must achieve.",
+    "Define the scope, stating what the procedure covers and what it does not cover.",
+    "List the equipment, with its purpose, its pre-use check and its maintenance owner.",
+    "List the chemicals and materials, with their use, label or SDS reference, storage and waste handling. Enter no concentration that is not taken from the label or SDS.",
+    "Write the steps in order, each with an action, a check and a time estimate where useful.",
+    "Define what to do if a check fails or a step cannot be completed.",
+    "Define the records to keep, where they are kept and the retention period the business sets.",
+    "Name the approver for changes and the evidence needed for a change.",
+    "Set the version number, the review date and the author.",
+    "Have a person who will use the SOP trial it, and record every gap they find."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A technician is asked to use a surface product on a surface the SOP does not list. The label for that product is in the van, but the safety data sheet is not.",
+      "decisionPrompt": "Which parts of the SOP apply, and what should the technician do before using the product?",
+      "reasoning": "The scope section limits the SOP to the surfaces and products it lists, so this surface is outside it. The chemicals section requires a label and an SDS reference for each product, and the SDS is missing. The step cannot be completed as the SOP requires. The response is to stop, not to use the product, report it to the approver, and record the gap so the SOP can be changed through the approval process. Using the product because the label was to hand is a guess about the surface and the hazards."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Product labels and safety data sheets for every listed chemical",
+    "Manufacturer manual for each listed equipment item",
+    "Recording sheet or digital form",
+    "PPE: state the PPE required for each step, taken from the product label, SDS and the business's own procedure"
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing a dilution figure from memory or copying it from another product.",
+      "prevention": "Take every concentration from the label or SDS, and reference the document."
+    },
+    {
+      "error": "Writing steps that have no check.",
+      "prevention": "Each step has a visible check, or a stated reason why no check is possible."
+    },
+    {
+      "error": "No named approver for changes, so the SOP drifts.",
+      "prevention": "Name the approver and issue a new version number for every change."
+    },
+    {
+      "error": "Leaving the scope open, so the procedure is used on surfaces or sites it was not written for.",
+      "prevention": "List what is in scope and what is out of scope."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chemical use is governed by product labels, safety data sheets and workplace health and safety duties. This lesson does not state those duties for any jurisdiction. Treat the label and the SDS as the controlling documents.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Where a task is licensed or authorised, the SOP must name the authorisation requirement. The SOP does not grant or confirm it.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Purpose and scope are specific and readable by a new person",
+    "Every chemical and equipment item references its label, SDS or manual",
+    "Every step has a check and a defined response to failure",
+    "Records and change approval are named"
+  ],
+  "documentationEvidence": [
+    "Completed SOP template with version number, author and review date",
+    "Copies or references of the labels and SDS for each listed chemical",
+    "Trial record showing a user ran the procedure and noted the gaps"
+  ],
+  "summary": [
+    "An SOP is a written method with purpose, scope, steps, checks and records.",
+    "Take every figure and hazard from the label, SDS or manual.",
+    "Every step needs a check and a response to failure.",
+    "Changes need a named approver and a new version number."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:equipment.manufacturer_manual_url}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "TPL-05-T01",
+      "title": "Standard operating procedure",
+      "purpose": "Captures a task method in a form that states its purpose, scope, equipment, materials, steps, checks, records and change approval.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Title and version",
+          "type": "text",
+          "prompt": "Enter the procedure title and its version number.",
+          "guidance": "The title names the task and the version changes with every edit.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Purpose",
+          "type": "longtext",
+          "prompt": "Write one or two sentences naming the task and the result it must achieve.",
+          "guidance": "Readable without the rest of the document.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Scope: in and out",
+          "type": "longtext",
+          "prompt": "List the surfaces, sites, equipment and tasks the procedure covers, and those it does not.",
+          "guidance": "A reader can tell whether a new situation is inside the procedure.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Equipment register",
+          "type": "table",
+          "prompt": "One row per item. Columns: item, purpose, pre-use check, maintenance owner.",
+          "guidance": "Each item has a check the user can actually do.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Chemicals and materials",
+          "type": "table",
+          "prompt": "One row per product. Columns: product, use, label or SDS reference, dilution taken from the label, storage, waste handling.",
+          "guidance": "Dilution is copied from the label or SDS only. Any product without a label or SDS is marked as not approved for use until both are available.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Required PPE and hazards",
+          "type": "longtext",
+          "prompt": "Name the PPE and hazards for each step, taken from the label, the SDS and the business's own procedure. Name the control for each hazard.",
+          "guidance": "Each hazard has a named control.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Procedure steps",
+          "type": "table",
+          "prompt": "One row per step. Columns: step number, action, check, response if the check fails.",
+          "guidance": "Steps are in order. Each row has a visible check.",
+          "required": true
+        },
+        {
+          "fieldId": "f8",
+          "label": "Stop or escalate conditions",
+          "type": "longtext",
+          "prompt": "State when work must stop, what must be made safe first, and who must be told.",
+          "guidance": "Conditions are observable, such as a missing label, a failed check or a change in site conditions.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Records kept",
+          "type": "table",
+          "prompt": "One row per record. Columns: record, when completed, where kept, retention period set by the business.",
+          "guidance": "Every check in the steps has a matching record, or a reason none is needed.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Change approval",
+          "type": "text",
+          "prompt": "Name who may approve a change, the evidence needed, and how the new version reaches users.",
+          "guidance": "A single named role or person is given.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Review date",
+          "type": "date",
+          "prompt": "Enter the next review date.",
+          "guidance": "A date within the business's review cycle.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Trial record",
+          "type": "checklist",
+          "prompt": "Tick each item when complete.",
+          "guidance": "Trial completed by a user; gaps recorded; labels and SDS checked; approver signed off.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Purpose and scope are clear",
+      "levels": {
+        "meets": "The purpose names the task and result, and the scope states what is in and out.",
+        "does_not_meet": "The purpose is generic, or the scope is missing or open-ended."
+      }
+    },
+    {
+      "criterion": "Chemicals and equipment reference their source",
+      "levels": {
+        "meets": "Every product states its label or SDS reference, and every dilution is taken from that source. Equipment has a pre-use check.",
+        "does_not_meet": "A dilution is written without a source, or a product has no label or SDS reference."
+      }
+    },
+    {
+      "criterion": "Each step has a check and a failure response",
+      "levels": {
+        "meets": "Every step has an observable check and a stated response if the check fails.",
+        "does_not_meet": "A step has no check, or no response when a check fails."
+      }
+    },
+    {
+      "criterion": "Records and change approval are defined",
+      "levels": {
+        "meets": "Each record names when, where and how long it is kept, and one approver for changes is named.",
+        "does_not_meet": "Records or change approval are missing or unassigned."
+      }
+    },
+    {
+      "criterion": "Stop conditions are stated",
+      "levels": {
+        "meets": "The SOP states observable conditions that stop work, and who must be told.",
+        "does_not_meet": "No stop condition is stated, or the condition cannot be observed."
+      }
+    }
+  ],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} standard operating procedure",
+    "format": "sop",
+    "sections": [
+      {
+        "heading": "Title, purpose and scope",
+        "fieldIds": [
+          "f1",
+          "f2",
+          "f3"
+        ]
+      },
+      {
+        "heading": "Equipment, materials and hazards",
+        "fieldIds": [
+          "f4",
+          "f5",
+          "f6"
+        ]
+      },
+      {
+        "heading": "Procedure",
+        "fieldIds": [
+          "f7"
+        ]
+      },
+      {
+        "heading": "Stop conditions and records",
+        "fieldIds": [
+          "f8",
+          "f9"
+        ]
+      },
+      {
+        "heading": "Control and review",
+        "fieldIds": [
+          "f10",
+          "f11",
+          "f12"
+        ]
+      }
+    ],
+    "footer": "Controlled copy. Check the current version before use."
+  },
+  "knowledgeChecks": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Team brief for template lessons TPL-01 to TPL-11, item 5 (Standard operating procedure); no external source used; rights: reworded (no copying)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

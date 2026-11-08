@@ -1,0 +1,203 @@
+{
+  "id": "NEW-FIT-01",
+  "title": "Client screening and health-questionnaire boundaries",
+  "courseSlugs": [
+    "pt"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Personal trainers and fitness coaches who take new clients, complete health questionnaires, and decide whether a client can start a programme",
+  "prerequisites": [
+    "F14-L02",
+    "F01-L01",
+    "F14-L01"
+  ],
+  "learningOutcomes": [
+    "Complete a health questionnaire with a new client and identify the answers that need a medical referral before training",
+    "Explain the difference between a screening tool and a diagnosis, and the limits of the trainer's role",
+    "Identify the children's-service check categories that were confirmed in Victoria."
+  ],
+  "referencesAtStart": "Official references for this lesson: Victorian Government, Who requires a Working with Children Check (updated 12 October 2026); Victorian Government, Working with Children Check explained (updated 24 July 2026); Working with Children Check - Victoria (ABLIS listing) (no date shown; fees labelled 2026-27).",
+  "instruction": [
+    {
+      "heading": "Screening is a referral step, not a diagnosis",
+      "body": "A personal trainer's health questionnaire is a way to find out whether a client needs medical advice before exercise. It is not a diagnosis, and it does not replace the advice of a doctor. The trainer's role is to ask clearly, record the answers, and refer where a medical question is raised. Some industry bodies publish pre-exercise screening tools. AusActive is an industry body, not an official source. The business's screening questions and referral rule are held in {{business:procedures.approved_sop}}. Follow that document, and use this lesson to understand why each answer matters."
+    },
+    {
+      "heading": "What the trainer must not do",
+      "body": "The trainer must not tell a client that a symptom is harmless, must not advise on a medication, and must not start a programme for a condition that a medical practitioner has not reviewed. Under the business rule, chest pain, dizziness, breathlessness out of proportion to effort, a recent injury or a recent surgery means the client is referred to a medical practitioner before any further training. Where a client has told the trainer about a condition, the trainer records the condition as the client describes it, and does not state what the condition is. Where the trainer is not sure whether a client is safe to train, the safe decision is to refer and to postpone the start of the programme."
+    },
+    {
+      "heading": "Who the trainer works with: children, permits and checks",
+      "body": "Some trainers train children. The Victorian government's Working with Children Check page (updated 12 October 2026) lists private tutoring and coaching aimed at children (code 28), commercial gyms and play venues aimed at children (code 32), and sport, recreation and culture clubs that deal with children or are mainly made up of children (code 42). The same page does not say whether self-employed trainers are covered, and it sets no direct-contact rule. A business listing that copies the government text says self-employed workers are covered and refers to direct contact (no date shown; secondary copy). The government explainer (updated 24 July 2026) states that a clearance is valid for five years. No pet-care category appears on the government list. The government page also says an organisation can still require a check for work that is not listed. Where a council permit applies, see “Outdoor and park session safety” and “Booking, packages and client retention”. Completing this lesson does not give any check, certificate or permit."
+    }
+  ],
+  "procedure": [
+    "Give the new client the health questionnaire and explain its purpose before the client completes it",
+    "Check every answer against the referral list in the approved procedure",
+    "Where a medical question is raised, refer the client to a medical practitioner before the first session, and record the referral",
+    "Record the client's answers, the decision and the referral advice on the client file",
+    "Check whether any client is under 18 and, if so, whether the work falls within a Victorian Working with Children Check category, and record the position for the state where the work is done",
+    "Repeat the questionnaire where the client reports a change in health, and at least when the programme is reviewed"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A new client completes the questionnaire and says she had a heart procedure last year and has not seen a doctor about exercise since.",
+      "decisionPrompt": "Can the trainer start the programme on the first visit?",
+      "reasoning": "A heart procedure is a medical question on the referral list. The trainer should not start the programme until a medical practitioner has advised on exercise. The trainer should record the answer, refer the client, explain why the start is postponed, and offer to start once the client has the advice. The trainer must not decide the safe intensity from the client's account."
+    },
+    {
+      "situation": "A parent asks a trainer to run a weekly fitness class for her nine-year-old in a public park, with other children.",
+      "decisionPrompt": "What must be checked before the trainer agrees?",
+      "reasoning": "A child is under 18, so the Working with Children Check position must be checked. The Victorian list covers private tutoring and coaching aimed at children (code 28), commercial gyms and play venues aimed at children (code 32), and sport, recreation and culture clubs that deal with children (code 42). The trainer must also check the council permit for the park, which is covered in “Outdoor and park session safety”. The trainer should not agree until both checks are complete."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Health questionnaire form, paper or digital",
+    "Referral template for the client's medical practitioner",
+    "Client file that stores the questionnaire and the decision",
+    "Approved screening and referral procedure"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a completed questionnaire as proof that the client is fit to train.",
+      "prevention": "A questionnaire is a screening step. Refer where a medical question is raised, and record the decision."
+    },
+    {
+      "error": "Telling a client that a symptom is harmless.",
+      "prevention": "Refer the client to a medical practitioner, and do not give a medical opinion."
+    },
+    {
+      "error": "Starting a programme for a condition that has not been reviewed by a doctor.",
+      "prevention": "Postpone the start and refer, and record the reason."
+    },
+    {
+      "error": "Stating that the AusActive tool is a legal requirement.",
+      "prevention": "Describe the AusActive tool as industry guidance, and check its legal status with the relevant regulator."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "No Victorian state licence for personal trainers was found in the sources checked.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The AusActive pre-exercise screening tool is industry guidance from a non-government body. No statutory duty to use it was found.",
+      "licenceNotice": false
+    },
+    {
+      "point": "In Victoria, Working with Children Check categories 28 (private tutoring and coaching aimed at children), 32 (commercial gyms and play venues aimed at children) and 42 (sport and recreation clubs for children) are listed on the government page updated 12 October 2026.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The five-year validity of a clearance is stated on the government explainer updated 24 July 2026. Completing this lesson does not give a Working with Children Check, a trainer licence, a first aid certificate or a council permit.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every new client completes the questionnaire before the first session",
+    "Every medical question is referred and the referral is recorded before training starts",
+    "Every under-18 client has a recorded check of the children's-service position",
+    "The trainer does not give a medical opinion in any record or conversation"
+  ],
+  "documentationEvidence": [
+    "Signed or confirmed health questionnaire, dated",
+    "Referral record with the advice given to the client",
+    "Record of the children's-service check for under-18 clients",
+    "Decision record showing when a programme started, or why it was postponed"
+  ],
+  "summary": [
+    "Screening is a referral step, not a diagnosis",
+    "Refer medical questions before the first session and record the decision",
+    "The Victorian check categories 28, 32 and 42 are listed.",
+    "Completing this lesson does not grant a check, a certificate or a permit"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:staff.supervisor_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FIT-01-K01",
+      "question": "A new client reports a heart procedure last year and has not had exercise advice since. What should the trainer do?",
+      "options": [
+        "Start a light programme, since the client feels well and says she is fine today",
+        "Postpone the programme, refer the client to a medical practitioner, and record the decision",
+        "Ask the client to sign a waiver and start the programme straight away on the day"
+      ]
+    },
+    {
+      "id": "NEW-FIT-01-K02",
+      "question": "What is the status of the AusActive pre-exercise screening tool, as described in this course?",
+      "options": [
+        "A statutory duty in every state and territory for trainers",
+        "A licence condition for personal trainers in every council",
+        "SECONDARY industry guidance whose legal status is not established"
+      ]
+    },
+    {
+      "id": "NEW-FIT-01-K03",
+      "question": "Which Victorian Working with Children Check category covers gyms and play venues aimed at children?",
+      "options": [
+        "Code 32",
+        "Code 42",
+        "Code 28"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: Who requires a Working with Children Check (updated 12 October 2026): https://www.vic.gov.au/who-requires-WWC-clearance; Working with Children Check explained (updated 24 July 2026): https://www.vic.gov.au/check-explained; Working with Children Check - Victoria (ABLIS listing) (no date shown; fees labelled 2026-27): https://ablis.business.gov.au/service/vic/working-with-children-check/24641.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Who requires a Working with Children Check",
+      "url": "https://www.vic.gov.au/who-requires-WWC-clearance",
+      "pageDate": "Updated 12 October 2026",
+      "checked": "2026-11-03",
+      "covers": "vic.gov.au page; category list with numbers. Self-employed status and direct contact are not stated on this page. Publisher: Victorian Government (vic.gov.au)."
+    },
+    {
+      "id": "R2",
+      "title": "Working with Children Check explained",
+      "url": "https://www.vic.gov.au/check-explained",
+      "pageDate": "Updated 24 July 2026",
+      "checked": "2026-11-03",
+      "covers": "vic.gov.au page; five-year validity of a clearance. Self-employed status is not addressed on this page. Publisher: Victorian Government (vic.gov.au)."
+    },
+    {
+      "id": "R3",
+      "title": "Working with Children Check - Victoria (ABLIS listing)",
+      "url": "https://ablis.business.gov.au/service/vic/working-with-children-check/24641",
+      "pageDate": "No date shown (fees labelled 2026-27)",
+      "checked": "2026-11-03",
+      "covers": "Secondary copy of government text. Use it only for self-employed and direct-contact wording; confirm on the vic.gov.au pages. Publisher: business.gov.au (ABLIS)."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "AusActive, Pre-exercise screening, https://helpdesk.ausactive.org.au/portal/en/kb/pre-exercise-screening, no date shown, checked 2026-11-02 (PT-VIC-04, SECONDARY)",
+    "vic.gov.au, Who requires a Working with Children Check, https://www.vic.gov.au/who-requires-WWC-clearance, updated 12 Oct 2026, checked 2026-11-02 (PT-VIC-05, DOG-VIC-07)",
+    "Ablis (business.gov.au), Working with Children Check Victoria, https://ablis.business.gov.au/service/vic/working-with-children-check/24641, fees 2026-27, listing metadata 2017, checked 2026-11-02 (PT-VIC-06, secondary copy of government text)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (PT-VIC-01, PT-NSW-01 and PT-QLD-01 state positions UNCONFIRMED)",
+    "Checked 2026-11-03: official references R1, R2, R3 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-01.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-02.jpg",
+      "alt": "Personal and fitness training illustration",
+      "kind": "photo",
+      "origin": "pt"
+    }
+  ]
+}

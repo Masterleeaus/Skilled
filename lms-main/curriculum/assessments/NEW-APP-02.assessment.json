@@ -1,0 +1,46 @@
+{
+  "lessonId": "NEW-APP-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-APP-02-K01",
+      "correctIndex": 2,
+      "rationale": "The manufacturer's care instructions for the specific model govern the cleaning method. Habit and product labels are not a substitute."
+    },
+    {
+      "id": "NEW-APP-02-K02",
+      "correctIndex": 3,
+      "rationale": "Unknown rules mean the most conservative method, no guessing, and recording what is visible. Running the machine is not a test the worker should do."
+    },
+    {
+      "id": "NEW-APP-02-K03",
+      "correctIndex": 0,
+      "rationale": "A fault is recorded and referred. The worker does not reset or run the appliance to check it."
+    },
+    {
+      "id": "NEW-APP-02-K04",
+      "correctIndex": 1,
+      "rationale": "The more protective instruction governs, and the disagreement is reported to the supervisor."
+    },
+    {
+      "id": "NEW-APP-02-K05",
+      "correctIndex": 2,
+      "rationale": "A pre-clean photograph records faults that were already present, so the business is not blamed. It is not a licence or a substitute for the manual."
+    }
+  ],
+  "practicalCriteria": [
+    "Records make, model and serial number, or records why they are missing",
+    "Reads and records the manufacturer's care rule for the appliance before cleaning",
+    "Photographs each pre-existing fault with the data plate in frame",
+    "Does not run, reset or test the appliance"
+  ],
+  "passRule": "Knowledge checks: at least 4 of 5 correct (80%). Practical sign-off is separate: an assessor observes the practical criteria and records the result. A knowledge pass is not practical competence and does not grant any licence or authority.",
+  "evidenceRequired": [
+    "Equipment record with make, model and serial",
+    "Photographs of data plate and faults",
+    "Manual reference used"
+  ],
+  "stopWorkCriteria": [
+    "Data plate unreadable and no manual available, with the work proceeding anyway",
+    "Any fault that is not recorded before the first cleaning step"
+  ]
+}

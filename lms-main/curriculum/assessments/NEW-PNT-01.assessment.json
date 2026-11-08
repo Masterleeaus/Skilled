@@ -1,0 +1,42 @@
+{
+  "lessonId": "NEW-PNT-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-PNT-01-K01",
+      "correctIndex": 0,
+      "rationale": "Grease stops paint from bonding. The surface is washed, rinsed and dried before painting, and the step is recorded."
+    },
+    {
+      "id": "NEW-PNT-01-K02",
+      "correctIndex": 1,
+      "rationale": "High-pressure water can strip sound paint, roughen timber, damage render and drive water behind a surface. The lesson gives no pressure figure, so none is assumed."
+    },
+    {
+      "id": "NEW-PNT-01-K03",
+      "correctIndex": 0,
+      "rationale": "A powder on the finger suggests chalking. It is brushed or washed off, and the surface is checked, before any coat goes on."
+    },
+    {
+      "id": "NEW-PNT-01-K04",
+      "correctIndex": 2,
+      "rationale": "Damp and dryness are checked before the first coat. Paint over damp or residue is a common cause of failure."
+    }
+  ],
+  "practicalCriteria": [
+    "On a sample greasy wall, the worker records the inspection findings (grease, chalking, efflorescence, mould, loose paint, damp) with the location of each, before any cleaning starts.",
+    "The worker selects a cleaner and method suited to the simulated contamination, gives the product name and its data sheet reference, and states why the method was chosen.",
+    "The worker washes from the bottom up, rinses to remove residue, dries the surface, and records the drying check and the result of the moisture check where the site provides a meter.",
+    "On a simulated mould or unknown-contamination patch, the worker stops, records the finding, and refers it without painting the patch."
+  ],
+  "passRule": "Pass when all four practical criteria are observed and recorded by the assessor on a sample surface (a sample board or a designated wall), with no stop-work criterion met. A knowledge check result alone is not a practical pass.",
+  "evidenceRequired": [
+    "Surface preparation record with inspection findings, method, product, rinse and drying check",
+    "Photographs of the sample surface before and after preparation, taken with permission",
+    "Referral record for the simulated mould or unknown patch"
+  ],
+  "stopWorkCriteria": [
+    "Painting begins over damp, mould or unknown contamination",
+    "High-pressure water is used on old paint, render, timber or near electrical fittings",
+    "Two cleaning products are mixed without checking the data sheets"
+  ]
+}

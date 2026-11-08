@@ -1,0 +1,39 @@
+{
+  "lessonId": "RAS-12",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-12-K01",
+      "correctIndex": 0,
+      "rationale": "The load is split or an approved aid or route is used. Dragging is not a control, and the supervisor is told if the approved route is not available."
+    },
+    {
+      "id": "RAS-12-K02",
+      "correctIndex": 1,
+      "rationale": "Early symptoms are reported the same shift so the task can be changed before harm becomes permanent."
+    },
+    {
+      "id": "RAS-12-K03",
+      "correctIndex": 2,
+      "rationale": "Hearing loss from noise builds slowly, so the assessment is required to find and control the exposure."
+    }
+  ],
+  "practicalCriteria": [
+    "Splits a named load into a size one person can control and uses the named trolley or lift",
+    "Explains the lift control when a team lift is used",
+    "Checks a named machine's noise and vibration exposure against the register before use",
+    "Reports a simulated symptom to the supervisor on the same shift"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "manual handling check record",
+    "noise and vibration record",
+    "assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "A load is carried alone beyond the person's control",
+    "A simulated symptom is not reported",
+    "A machine is run without the check the register requires"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,40 @@
+{
+  "lessonId": "industrial-degreasing-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "industrial-degreasing-L01-K01",
+      "correctIndex": 1,
+      "rationale": "Work beyond the authorised area is declined and referred to the named supervisor in writing. A contractor's request is not an authorisation."
+    },
+    {
+      "id": "industrial-degreasing-L01-K02",
+      "correctIndex": 2,
+      "rationale": "The controlling contractor's written release is needed before starting in its area. Arrival on site or the absence of an objection does not provide one."
+    },
+    {
+      "id": "industrial-degreasing-L01-K03",
+      "correctIndex": 0,
+      "rationale": "Changes of scope are authorised by the named supervisor, in writing, before the new work starts."
+    }
+  ],
+  "practicalCriteria": [
+    "Confirms the named supervisor, area, product, method, hours and exclusions against a sample written authorisation, and records any gap.",
+    "Identifies each contractor on a fictional site plan and who controls each area, and completes an interface log entry.",
+    "Declines and refers a simulated out-of-area request, including a tank entry request, and states the confined space permit requirement.",
+    "Treats a simulated isolation as not made when only a tag is shown, and asks for the isolation record before starting.",
+    "Refers a simulated request to remove a guard, without removing it."
+  ],
+  "passRule": "All five practical criteria observed as met in a desk exercise. The knowledge check result is not a practical pass, and this assessment confers no authorisation, permit or isolation authority.",
+  "evidenceRequired": [
+    "Annotated sample authorisation with gaps marked",
+    "Interface log entry for the fictional site plan",
+    "Referral record for the out-of-area and guard requests",
+    "Assessor observation note for each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "Work started outside the written authorised area",
+    "Work started in an area without the controlling contractor's written release",
+    "Machine started or cleaned on a tag alone, without an isolation record",
+    "Tank entry discussed or started without a confined space entry permit"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": "MP-07",
+  "title": "Controls and KPIs: repeat business, satisfaction, revenue and expenses",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Any home-service operator who needs to know whether the plan is working, including solo operators and team owners.",
+  "prerequisites": [
+    "MP-05",
+    "MP-06"
+  ],
+  "learningOutcomes": [
+    "Define at least four KPIs, each with a formula, source, owner, target and action threshold",
+    "Calculate repeat rate, satisfaction score with response rate, revenue variance and expense ratio from supplied data",
+    "Show how a percentage increase compounds over several periods"
+  ],
+  "instruction": [
+    {
+      "heading": "What controls are for",
+      "body": "A control is a regular check that shows whether the plan is on track. The sample plan this lesson draws on named four things it would monitor: revenue, monthly and annual; expenses, monthly and annual; repeat business; and customer satisfaction. Those four cover money coming in, money going out, customers coming back and customers' experience of the service. Start with them, then add one measure for each part of the plan that could fail without being noticed."
+    },
+    {
+      "heading": "Define each KPI in full",
+      "body": "A key performance indicator without a definition cannot be checked. For each measure, write its name, its formula, the data source it is taken from, how often it is reviewed, the person responsible for it, its target, and the threshold that triggers action. Use the same definition every time, so that one month can be compared with the next. Changing the definition halfway through a year makes the trend meaningless."
+    },
+    {
+      "heading": "Repeat rate and satisfaction",
+      "body": "Repeat rate is the number of customers in a period who had a previous job, divided by the number of customers served in that period. Satisfaction is the number of survey responses scoring 4 or 5 out of 5, divided by the number of responses. Always record the response rate beside the satisfaction score, which is the number of responses divided by the number of surveys sent. A score from a small number of replies says little about the customers who did not reply."
+    },
+    {
+      "heading": "Revenue variance and expense ratio",
+      "body": "Revenue variance is actual revenue minus forecast revenue, divided by forecast revenue, shown as a percentage. Expense ratio is total expenses divided by revenue for the same period. Compare the expense ratio with the budget percentages from “Setting an expense budget as a percentage of sales”, and treat a drift in either direction as something to explain."
+    },
+    {
+      "heading": "Targets compound",
+      "body": "The sample plan set a quarterly objective for repeat customers. That rate is removed here as a United States figure. Compounding is the point: a rate applied each period multiplies, it does not simply add. Targets are easy to misread, so check whether each is per period, compounded or measured against the same base."
+    },
+    {
+      "heading": "Act on thresholds",
+      "body": "A threshold names the point at which someone must act. For example, if repeat rate falls below a set level for two periods in a row, the owner reviews the service and records the cause and the action. A KPI that never triggers any action is not doing its job, and a threshold set after the results are known is not a real threshold."
+    }
+  ],
+  "procedure": [
+    "Write a KPI definition sheet with the name, formula, source, frequency, owner, target and threshold for each measure.",
+    "Collect the monthly inputs from your booking, invoice, expense and survey records.",
+    "Calculate repeat rate, satisfaction score, response rate, revenue variance and expense ratio.",
+    "Compare each result with its target and threshold.",
+    "Where a threshold is breached, record the cause, the action and the date of the next review.",
+    "Each year, review the targets and check any percentage target against its compound effect."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A residential cleaning business (hypothetical figures, invented for this lesson) served 40 customers in March. Eighteen of them had booked a job before. It sent 30 satisfaction surveys and received 22 replies, of which 19 scored 4 or 5. Revenue was $21,400 AUD against a forecast of $20,000 AUD.",
+      "decisionPrompt": "Which of these results needs action, and what should be recorded before drawing a conclusion?",
+      "reasoning": "Repeat rate is 18 divided by 40, which is 45%. Satisfaction is 19 divided by 22, which is 86.4%, with a response rate of 22 divided by 30, which is 73.3%, so about 27% of surveys got no reply. Revenue variance is ($21,400 AUD minus $20,000 AUD) divided by $20,000 AUD, which is +7.0%. Revenue is ahead of forecast, so the cause should be checked but no corrective action is needed. The satisfaction score is a useful signal, and the non-response should be recorded beside it. The 45% repeat rate has no target in this example, so set one from the previous quarter before judging it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet program",
+    "Booking, invoice and expense records for the period",
+    "Survey tool or printed survey"
+  ],
+  "commonErrors": [
+    {
+      "error": "Tracking a measure with no owner or threshold",
+      "prevention": "Add the owner and the threshold to every KPI before the first review."
+    },
+    {
+      "error": "Reporting a satisfaction score without its response count",
+      "prevention": "Always show the number of replies and the response rate beside the score."
+    },
+    {
+      "error": "Misreading a compound target as a simple one",
+      "prevention": "Calculate what a percentage increase in each period means over the whole year before setting it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Customer surveys can contain personal information. Keep responses confidential, and check consent and privacy obligations before sending surveys by email or text.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Business guidance only. This lesson does not grant any licence, registration or authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every KPI has a name, formula, data source, owner, target and threshold.",
+    "Every satisfaction score is shown with its response count and response rate."
+  ],
+  "documentationEvidence": [
+    "KPI definition sheet",
+    "Monthly KPI record with the inputs used",
+    "Action log for every threshold breach"
+  ],
+  "summary": [
+    "Four core controls: revenue, expenses, repeat business and satisfaction.",
+    "Define each KPI in full before you start to measure it.",
+    "Report response counts beside satisfaction scores, and check what compound targets mean."
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:customers.complaint_escalation}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-07-K01",
+      "question": "18 of 40 customers served in a period were repeat customers. What is the repeat rate?",
+      "options": [
+        "45%",
+        "18%",
+        "55%",
+        "222%"
+      ]
+    },
+    {
+      "id": "MP-07-K02",
+      "question": "What must every KPI have before it is measured?",
+      "options": [
+        "A name, a formula, a data source, an owner, a target and a threshold for action",
+        "Only a colour code and a note of who uses it and how often it is checked",
+        "A printed chart on the office wall, updated every month and shared with the client",
+        "A link to a competitor's results and a note of their pricing each quarter"
+      ]
+    },
+    {
+      "id": "MP-07-K03",
+      "question": "A quarterly target is applied in each of four quarters in a row. Which statement about the yearly result is correct?",
+      "options": [
+        "It compounds, so the yearly effect is larger than adding the quarterly rate four times",
+        "It adds up exactly, so the yearly effect is four times the quarterly rate",
+        "It has no effect on the yearly total because each quarter is measured separately",
+        "It equals the quarterly rate, with no change as the quarters add up"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Service Marketing Plan (sample residential cleaning plan, US figures 2002 to 2006), sections Controls and Marketing Objectives; rights: user-held; reworded (no copying). Targets are US and dated; used as wording illustration only.",
+    "Survey and privacy point: UNCONFIRMED; not checked in this pass.",
+    "Hypothetical March figures are invented for this lesson. The US compound example is removed (see LOCALISE-LOG.md); the arithmetic method is re-run 2026-11-02.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. US sample-plan figures removed and recorded in LOCALISE-LOG.md; principle written in words; Australian figures UNCONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,41 @@
+{
+ "lessonId": "medical-equipment-cleaning-L11",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L11-K01",
+   "correctIndex": 0,
+   "rationale": "The contact condition was not achieved, so the record shows Not achieved with the actual time, and the item is tagged incomplete rather than signed off."
+  },
+  {
+   "id": "medical-equipment-cleaning-L11-K02",
+   "correctIndex": 1,
+   "rationale": "A product that runs out stops the round at the failed step. The cleaner does not top up with another product, tags the remaining items, records the failure and tells the supervisor."
+  },
+  {
+   "id": "medical-equipment-cleaning-L11-K03",
+   "correctIndex": 2,
+   "rationale": "A work record is completed at the time of the work, from observation, using the asset identity on the label. Writing it from memory, or only when asked, is not acceptable."
+  },
+  {
+    "id": "medical-equipment-cleaning-L11-K04",
+    "correctIndex": 3,
+    "rationale": "The honest records section says a record is a statement that something happened."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a surface that dried before its required contact time, the learner records Not achieved with the actual time and tags the item incomplete.",
+  "Given a product that runs out partway through a round, the learner stops at the failed step, does not top up, tags the remaining items, and records the failure.",
+  "The learner completes a work record at the time of the work, with the asset identity from the label, the product and lot, and the instruction version."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Completed work record for a failed contact condition",
+  "Failure record for the product run-out scenario",
+  "Work record for one permitted item"
+ ],
+ "stopWorkCriteria": [
+  "Learner records a contact condition as achieved when it was not met",
+  "Learner tops up a product with a different product or strength",
+  "Learner completes work records from memory or after the shift"
+ ]
+}

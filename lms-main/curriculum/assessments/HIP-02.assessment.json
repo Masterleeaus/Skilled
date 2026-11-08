@@ -1,0 +1,33 @@
+{
+  "lessonId": "HIP-02",
+  "knowledgeAnswers": [
+    {
+      "id": "HIP-02-K01",
+      "correctIndex": 0,
+      "rationale": "Terminal cleaning is triggered by discharge or transfer and reaches the wider care area. The others are not features of the source's definition."
+    },
+    {
+      "id": "HIP-02-K02",
+      "correctIndex": 0,
+      "rationale": "Organic matter interferes with disinfectant action, so cleaning first is required. The other options misstate the reason."
+    },
+    {
+      "id": "HIP-02-K03",
+      "correctIndex": 1,
+      "rationale": "The checklist is followed, and a conflicting instruction goes to the supervisor. Looks and dry wiping do not replace the required method."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock discharged room, the learner sequences linen, waste, high-touch detergent cleaning, floors and disinfection in a valid order.",
+    "The learner states the contact-time requirement and shows the surface remains wet for it."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation record for the mock room",
+    "Completed terminal checklist for the mock room"
+  ],
+  "stopWorkCriteria": [
+    "A spill is found and no spill kit or protective equipment is available",
+    "The room still holds a patient, or equipment owned by clinical staff is still in place"
+  ]
+}

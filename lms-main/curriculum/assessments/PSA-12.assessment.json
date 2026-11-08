@@ -1,0 +1,41 @@
+{
+  "lessonId": "PSA-12",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-12-K01",
+      "correctIndex": 1,
+      "rationale": "Section 7.1 and table 8: a swimming pool needs its full volume through the filter no less often than every six hours."
+    },
+    {
+      "id": "PSA-12-K02",
+      "correctIndex": 1,
+      "rationale": "300,000 litres divided by 360 minutes is about 833 L/min, from the standard's six-hour turnover requirement."
+    },
+    {
+      "id": "PSA-12-K03",
+      "correctIndex": 1,
+      "rationale": "Section 7.3: the standard does not recommend cartridge units or diatomaceous earth types for hydrotherapy pools."
+    },
+    {
+      "id": "PSA-12-K04",
+      "correctIndex": 3,
+      "rationale": "The auto-dosing and sensing section says the equipment watches and corrects pH and sanitiser level around the clock, but does not remove the need to test."
+    }
+  ],
+  "practicalCriteria": [
+    "For a supplied pool and flow reading, calculates the turnover achieved and states whether it meets the limit for the pool type.",
+    "Compares an automatic dosing reading with a manual test on a supplied pool, and records any difference.",
+    "Isolates and locks out the supply in a supplied scenario before any inspection of pump or controller."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Turnover calculation record for the assessed pool",
+    "Automatic dosing verification record",
+    "Assessor observation of electrical isolation"
+  ],
+  "stopWorkCriteria": [
+    "Electrical fault or exposed live wiring: isolate, do not touch live equipment, and escalate to a licensed electrician.",
+    "Achieved turnover below the limit: escalate and keep the pool closed if the operator directs.",
+    "Automatic dosing reading disagrees with manual test: stop relying on the controller and escalate."
+  ]
+}

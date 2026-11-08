@@ -1,0 +1,40 @@
+{
+  "lessonId": "SFS-14",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-14-K01",
+      "correctIndex": 0,
+      "rationale": "A linked request and a transfer keep the stock and the job in step."
+    },
+    {
+      "id": "SFS-14-K02",
+      "correctIndex": 0,
+      "rationale": "Used-part records feed the stock count and the job's cost, so they must be made when the part is used."
+    },
+    {
+      "id": "SFS-14-K03",
+      "correctIndex": 0,
+      "rationale": "A transfer moves stock between locations and the levels update to match."
+    },
+    {
+      "id": "SFS-14-K04",
+      "correctIndex": 0,
+      "rationale": "The requests, transfers and use section says that when a worker uses an item, it is logged against the job immediately."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (required parts, stock requests, transfers, used parts and returns) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

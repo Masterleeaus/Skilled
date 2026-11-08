@@ -1,0 +1,179 @@
+{
+  "id": "PFM-06",
+  "title": "Component care, inspection and seasonal shutdown of a pump and filter",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pool service technicians who inspect and maintain pump and filter components, and who prepare equipment for a seasonal shutdown",
+  "prerequisites": [
+    "PFM-01"
+  ],
+  "learningOutcomes": [
+    "Carry out a visual structural inspection of the filter, valve and pump components and decide what must be replaced",
+    "Replace the valve top with its diverter assembly in the order the manual gives, using the correct lubricant",
+    "Explain why a pressure vessel is never serviced under pressure",
+    "Prepare equipment for a seasonal shutdown, with the freezing and antifreeze rules for the climate and the manual"
+  ],
+  "instruction": [
+    {
+      "heading": "Cleaning and inspection",
+      "body": "Wash the outer surface of the pump plus filter assembly using a gentle cleanser in water, then rinse. Solvents are not to be used. At each service, check the parts for soundness. Corroded, bent or visibly defective items can let the filter cover or its fittings come off, with serious injury or damage as the result. Replace any such part and record the replacement. Clean the pump strainer basket at the interval set out in “Pump strainer, suction valves and the vacuum route”, and inspect its O-ring, swapping it out if it is worn. The pump seal needs no lubricant. Motor work is reserved for a motor service centre."
+    },
+    {
+      "heading": "Pressure and restarting",
+      "body": "A filter is a pressurised vessel and must never be opened or serviced while it holds pressure. Release the tank pressure, then open the air bleeder before any work begins. When the unit is restarted after work, open the bleeder and move away from the filter, as “Start-up, air bleeding and priming a pump and filter” sets out."
+    },
+    {
+      "heading": "Replacing the valve top plus diverter",
+      "body": "If the valve stops working properly, the usual remedy is to replace the valve top plus diverter as one assembly. Stop the pump, then open the bleeder to release internal pressure. Turn the handle to winterise, remove the six cover screws with their washers and nuts, and lift the valve top away with the diverter. The diverter carries the sealing gasket, so handle it with care to protect the sealing face. Wipe the valve body sealing face with a soft lint-free cloth and check it for scratches or nicks. A damaged face means the valve body needs replacing. Grease the replacement valve top O-ring with silicone grease or soapy solution, never a petroleum product. Set the new handle to winterise, align the recess with the small bump on the body, fit all six screws with washers, and tighten them in a crossing sequence until they are snug. Do not overtighten."
+    },
+    {
+      "heading": "Seasonal shutdown",
+      "body": "The manufacturer's shutdown steps are written for freezing climates. They cover backwashing, setting the valve to winterise, removing the drain plug, draining the pump body and pipework, and protecting the equipment from the weather. Where a shutdown is required, follow the operator's written instruction. Keep the valve on winterise during shutdown so the diverter does not press against its seal."
+    },
+    {
+      "heading": "Antifreeze and covers",
+      "body": "If emptying the pump is not possible, the manufacturer permits only propylene glycol as an antifreeze, because other antifreezes are very poisonous and will harm the pump. Use no other kind. Shelter the equipment from the weather with a canvas cover or sheeting, but do not wrap the motor in plastic, since condensation can build up inside it. A dry, sheltered location is best for a removable pump."
+    }
+  ],
+  "procedure": [
+    "Stop the pump, then confirm it is stopped. Open the air bleeder to release pressure before any valve work.",
+    "Clean the exterior with a gentle detergent in water. Avoid solvents.",
+    "Inspect the valve, filter top, clamp, hoses and pump for corrosion, bending or damage. Record each finding.",
+    "Replace any defective item. For a valve top, set the handle to winterise and remove the screws.",
+    "Clean the valve body seal surface. Refer the valve body if the sealing surface is damaged.",
+    "Lubricate the new o-ring with the correct lubricant, fit the valve top and tighten in a crossing sequence.",
+    "For shutdown, follow the operator's written instruction and the manual, and record the steps and the climate reason."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A valve top has a crack and the owner asks you to tighten the screws harder to stop the leak.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "Avoid over-tightening. A cracked valve top is a defective component that the manual says to replace. Stop the pump, relieve the pressure, turn the valve to winterise, and replace the top with a new assembly. Record the crack and the replacement."
+    },
+    {
+      "situation": "The owner wants to wrap the pump motor in plastic for the winter so it stays dry.",
+      "decisionPrompt": "What do you say?",
+      "reasoning": "Advise against wrapping the motor in plastic, because condensation can build up inside the motor. Recommend a dry, inside location where practical, or a weatherproof enclosure, and record the advice."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Mild detergent and soft brush; no solvents",
+    "Replacement valve top, diverter, o-ring and screws as supplied for the model",
+    "Silicone grease or soapy solution",
+    "Lint-free cloth",
+    "Gloves and eye protection",
+    "Plastic sheet or tarpaulin for protection, not for wrapping the motor"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using petroleum-based lubricant on the valve o-ring",
+      "prevention": "Use silicone grease or soapy solution only."
+    },
+    {
+      "error": "Over-tightening valve top screws",
+      "prevention": "Tighten snugly in a crossing sequence, then stop."
+    },
+    {
+      "error": "Servicing the filter while under pressure",
+      "prevention": "Relieve pressure and open the bleeder first."
+    },
+    {
+      "error": "Using a non-propylene-glycol antifreeze",
+      "prevention": "Use only propylene glycol where antifreeze is allowed, and check the pump first."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The filter counts as a pressurised vessel and must never be serviced under pressure. Relieve the tank pressure, then open the air bleeder first.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Replace any corroded, bent or defective component. Defective filter parts can allow the upper part of the filter together with fittings to come off, with serious injury or damage to property.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Avoid solvents to clean the external surface of the equipment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Use only propylene glycol antifreeze. Other antifreezes are highly toxic and damage the pump.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not wrap the motor in plastic. Condensation can build up inside the motor.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not exceed the snug point on the valve top screws, and avoid petroleum-based lubricant on the o-ring.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Motor servicing is for a motor service centre.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each inspection finding is recorded, and each defective component is replaced or referred.",
+    "A valve top is replaced in the stated order with the correct lubricant and tightening pattern.",
+    "Any shutdown follows the operator's written instruction, and the climate reason is recorded."
+  ],
+  "documentationEvidence": [
+    "Inspection record with each finding and action",
+    "Parts replaced with part numbers as supplied",
+    "Shutdown or recommissioning record with the operator instruction"
+  ],
+  "summary": [
+    "Inspect for corrosion and damage, and replace defective parts.",
+    "Relieve pressure before any service, and use only the lubricant and antifreeze the manual allows."
+  ],
+  "businessFields": [
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:materials.storage_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PFM-06-K01",
+      "question": "A filter top shows corrosion and a bent attachment. What is the correct action?",
+      "options": [
+        "Paint the attachment and continue operating and check it again next week",
+        "Tighten the attachments harder to hold them in place and leave the rest alone",
+        "Leave it, since it is only cosmetic and run the filter as normal for the day",
+        "Replace the defective component and record it, because it can blow off under pressure"
+      ]
+    },
+    {
+      "id": "PFM-06-K02",
+      "question": "Which lubricant is used on a new valve top o-ring?",
+      "options": [
+        "A silicone grease or soapy solution",
+        "Warmed cooking oil, spread thin",
+        "Any solvent that dissolves grease",
+        "A petroleum-based grease only"
+      ]
+    },
+    {
+      "id": "PFM-06-K03",
+      "question": "What is the correct action for a pump motor in an outdoor location in winter?",
+      "options": [
+        "Use any antifreeze that is available on site in the pump housing and the pipes",
+        "Protect it in a dry or weatherproof location, and do not wrap the motor in plastic",
+        "Wrap the motor in plastic to keep out moisture and seal the gaps with tape",
+        "Cover the pump with a sheet and leave the motor wrapped in plastic"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section D Component Care (cleaning, inspection, pressure vessel and strainer), section H Replacement of Valve top plus diverter Assembly, and section I Winterizing The Components; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), section 4 Maintenance schedule (winterisation and recommissioning advice); rights: user-held; reworded (no copying); checked 2026-11-02. UK guidance on seasonal shutdown is not Australian and is used only as a checklist of points for the operator.",
+    "UNCONFIRMED: Australian climate suitability of frost-protection and antifreeze steps, and the requirements for pressure-component service. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

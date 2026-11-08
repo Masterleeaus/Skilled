@@ -1,0 +1,14 @@
+CREATE TABLE "academy_organisations" ("id" TEXT NOT NULL, "name" TEXT NOT NULL, "externalRef" TEXT, "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP, CONSTRAINT "academy_organisations_pkey" PRIMARY KEY ("id"));
+CREATE UNIQUE INDEX "academy_organisations_externalRef_key" ON "academy_organisations"("externalRef");
+CREATE TABLE "academy_organisation_members" ("id" TEXT NOT NULL, "organisationId" TEXT NOT NULL, "userId" TEXT NOT NULL, "role" TEXT NOT NULL DEFAULT 'LEARNER', "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP, CONSTRAINT "academy_organisation_members_pkey" PRIMARY KEY ("id"));
+CREATE UNIQUE INDEX "academy_organisation_members_organisationId_userId_key" ON "academy_organisation_members"("organisationId", "userId");
+CREATE INDEX "academy_organisation_members_userId_idx" ON "academy_organisation_members"("userId");
+ALTER TABLE "academy_organisation_members" ADD CONSTRAINT "academy_organisation_members_organisationId_fkey" FOREIGN KEY ("organisationId") REFERENCES "academy_organisations"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "academy_organisation_members" ADD CONSTRAINT "academy_organisation_members_userId_fkey" FOREIGN KEY ("userId") REFERENCES "users"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+CREATE TABLE "academy_training_assignments" ("id" TEXT NOT NULL, "organisationId" TEXT NOT NULL, "learnerId" TEXT NOT NULL, "assignedById" TEXT NOT NULL, "courseId" TEXT NOT NULL, "status" TEXT NOT NULL DEFAULT 'ASSIGNED', "dueAt" TIMESTAMP(3), "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP, CONSTRAINT "academy_training_assignments_pkey" PRIMARY KEY ("id"));
+CREATE UNIQUE INDEX "academy_training_assignments_organisationId_learnerId_courseId_key" ON "academy_training_assignments"("organisationId", "learnerId", "courseId");
+CREATE INDEX "academy_training_assignments_learnerId_status_idx" ON "academy_training_assignments"("learnerId", "status");
+ALTER TABLE "academy_training_assignments" ADD CONSTRAINT "academy_training_assignments_organisationId_fkey" FOREIGN KEY ("organisationId") REFERENCES "academy_organisations"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "academy_training_assignments" ADD CONSTRAINT "academy_training_assignments_learnerId_fkey" FOREIGN KEY ("learnerId") REFERENCES "users"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "academy_training_assignments" ADD CONSTRAINT "academy_training_assignments_assignedById_fkey" FOREIGN KEY ("assignedById") REFERENCES "users"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "academy_training_assignments" ADD CONSTRAINT "academy_training_assignments_courseId_fkey" FOREIGN KEY ("courseId") REFERENCES "courses"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

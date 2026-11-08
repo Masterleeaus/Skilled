@@ -1,0 +1,35 @@
+{
+  "lessonId": "property-maintenance-L10",
+  "knowledgeAnswers": [
+    {
+      "id": "property-maintenance-L10-K01",
+      "correctIndex": 2,
+      "rationale": "When failures repeat before the annual service, a fixed date is not enough. Add condition-based checks, propose authorised servicing for the recurring fault, and record the reason."
+    },
+    {
+      "id": "property-maintenance-L10-K02",
+      "correctIndex": 2,
+      "rationale": "Preventive work is approved in writing before it starts."
+    },
+    {
+      "id": "property-maintenance-L10-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says that where no manufacturer guidance is held, the worker says so and sets an interval based on the item's criticality and history, and reviews it."
+    }
+  ],
+  "practicalCriteria": [
+    "Scope and authority",
+    "Hazard recognition",
+    "Safe decision",
+    "Records and escalation"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Escalate repeated defects using priority and responsible-owner fields; set review date without assuming repair completion.",
+    "Identify affected people or assets",
+    "Describe the responsible referral and documentary trail"
+  ],
+  "stopWorkCriteria": [
+    "Marking a task as resolved without verification."
+  ]
+}

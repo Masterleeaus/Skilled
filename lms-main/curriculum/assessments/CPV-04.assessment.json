@@ -1,0 +1,34 @@
+{
+  "lessonId": "CPV-04",
+  "knowledgeAnswers": [
+    {
+      "id": "CPV-04-K01",
+      "correctIndex": 2,
+      "rationale": "Rinse sampling collects residue from large or inaccessible areas. Testing only the water purity does not show residue."
+    },
+    {
+      "id": "CPV-04-K02",
+      "correctIndex": 3,
+      "rationale": "Without the area, residue per unit cannot be calculated, so the result is meaningless."
+    },
+    {
+      "id": "CPV-04-K03",
+      "correctIndex": 0,
+      "rationale": "Residue is not uniform, so a swab can miss the maximum. A low result from one spot does not prove the whole surface is clean."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner plans a sample set for a named item, including method, location, area or volume and reason (pass: all four recorded for each sample).",
+    "Learner completes a sample log for a practice swab, including the area swabbed (pass: area and location present)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Sample plan with reasons",
+    "Completed practice sample log"
+  ],
+  "stopWorkCriteria": [
+    "A solvent would be applied without its SDS or ventilation.",
+    "A sample is unlabelled or its location cannot be confirmed.",
+    "A sample is taken from a potent or toxic material without the site's controls."
+  ]
+}

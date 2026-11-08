@@ -1,0 +1,36 @@
+{
+  "lessonId": "car-detailing-L04",
+  "knowledgeAnswers": [
+    {
+      "id": "car-detailing-L04-K01",
+      "correctIndex": 2,
+      "rationale": "The definition includes more than two hours a shift with hands in liquids or waterproof gloves."
+    },
+    {
+      "id": "car-detailing-L04-K02",
+      "correctIndex": 0,
+      "rationale": "The SDS personal protection section names the glove material for the product."
+    },
+    {
+      "id": "car-detailing-L04-K03",
+      "correctIndex": 2,
+      "rationale": "Persistent symptoms mean stopping the causing task and referring the worker, not waiting."
+    }
+  ],
+  "practicalCriteria": [
+    "Writes a shift plan for a three-car job that places the wet tasks and drying breaks, and names the eye protection for the degreaser.",
+    "Selects gloves from a supplied SDS and checks a pair for damage before use.",
+    "Explains the response to a simulated symptom report, including the stop, the referral and the record."
+  ],
+  "passRule": "Shift plan complete, gloves matched to the SDS, and symptom response correct, observed by an assessor. A quiz pass is not a practical pass.",
+  "evidenceRequired": [
+    "Shift plan with rotation and breaks",
+    "SDS glove reference",
+    "Symptom report record (simulated)"
+  ],
+  "stopWorkCriteria": [
+    "Degreaser used without eye protection",
+    "Worker with persistent symptoms kept on wet work",
+    "Damaged or wrong-material gloves used on a concentrate"
+  ]
+}

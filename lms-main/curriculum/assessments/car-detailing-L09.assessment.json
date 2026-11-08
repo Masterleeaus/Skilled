@@ -1,0 +1,34 @@
+{
+ "lessonId": "car-detailing-L09",
+ "knowledgeAnswers": [
+  {
+   "id": "car-detailing-L09-K01",
+   "correctIndex": 1,
+   "rationale": "Vapour concentrates in a closed space."
+  },
+  {
+   "id": "car-detailing-L09-K02",
+   "correctIndex": 2,
+   "rationale": "Re-entry follows the plan and the SDS."
+  },
+  {
+   "id": "car-detailing-L09-K03",
+   "correctIndex": 0,
+   "rationale": "The treatment waits for planned controls."
+  }
+ ],
+ "practicalCriteria": [
+  "Plans an interior treatment with ventilation, exclusion, inventory and a re-entry time.",
+  "Refuses a simulated uncontrolled solvent treatment in a closed cabin.",
+  "Records the approval decision."
+ ],
+ "passRule": "Plan complete with ventilation and re-entry time, uncontrolled treatment refused, and decision recorded. Observed by an assessor.",
+ "evidenceRequired": [
+  "Interior treatment plan",
+  "Refusal and approval record"
+ ],
+ "stopWorkCriteria": [
+  "Solvent used in a closed cabin without ventilation",
+  "Re-entry before the set time"
+ ]
+}

@@ -1,0 +1,34 @@
+{
+  "lessonId": "CPV-06",
+  "knowledgeAnswers": [
+    {
+      "id": "CPV-06-K01",
+      "correctIndex": 0,
+      "rationale": "Recovery testing shows whether the whole chain, from surface to measurement, works."
+    },
+    {
+      "id": "CPV-06-K02",
+      "correctIndex": 1,
+      "rationale": "The guide demands that test methods be proven before the cleaning study runs."
+    },
+    {
+      "id": "CPV-06-K03",
+      "correctIndex": 2,
+      "rationale": "A null outcome can stem from weak recovery instead of a truly clean surface, so recovery is checked."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner reads a method validation record and states the concentration range and detection limit (pass: both stated correctly).",
+    "Learner identifies the missing check in a sample record and names it (pass: missing recovery or second check found)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed method reading sheet",
+    "Identified missing check in the sample record"
+  ],
+  "stopWorkCriteria": [
+    "The test method has not been proven at the expected levels.",
+    "Solvent is used without its SDS controls or ventilation.",
+    "A data entry cannot be traced to its sample."
+  ]
+}
