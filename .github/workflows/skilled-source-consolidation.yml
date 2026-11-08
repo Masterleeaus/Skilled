@@ -39,6 +39,9 @@ jobs:
       - name: Source consolidation contract
         working-directory: lms-main
         run: node --test scripts/test-active-source-consolidation.mjs
+      - name: Generate Prisma client from the canonical schema
+        working-directory: lms-main
+        run: pnpm -C apps/backend exec prisma generate --schema prisma/schema.prisma
       - name: Backend typecheck
         working-directory: lms-main
         run: pnpm -C apps/backend exec tsc --noEmit
