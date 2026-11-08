@@ -93,3 +93,34 @@ node --test scripts/test-audit-canonical-import-manifest.mjs
 Normal report mode exits successfully while reporting stale conditions; `--strict` fails on any stale/unsafe snapshot and is appropriate before any later migration/import proposal. The independent CI workflow uploads a JSON audit artifact and presents a warning. Its passing status reflects **scanner health**, not manifest freshness.
 
 The separate 221-row planning-brief importer still uses `apps/backend/prisma/curriculum/titan-three-layer-lessons.json` and remains draft-only. Do not confuse the historical 216-row manifest with that inventory. A new manifest format, if required, must be explicitly designed around approved canonical source identity, current lesson revisions and publication gates.
+
+## Current-tree inactive-source boundary (pass 9)
+
+A new reproducible read-only checker, `scripts/audit-inactive-source-boundaries.mjs`, scans imports in both active applications, the actual API mounts, and the preserved historical folders. It prevents **active-to-archived relative imports** and unexpected direct chatbot mounting without deleting anything.
+
+Latest strict GitHub Actions scan (run [42530226066](https://github.com/Masterleeaus/Skilled/actions/runs/42530226066)):
+
+| Checked category | Current tracked checkout |
+|---|---:|
+| JavaScript/TypeScript files inspected inside active app source trees, including the dormant chatbot subtree | 303 |
+| Retired `curriculum/lessons/converted` files | 8 |
+| Retired `curriculum/lessons/ready` files | 1 |
+| Historical bootstrap scripts and files | 4 |
+| Historical `PASS42/` evidence files | 34 |
+| Inactive chatbot subtree files (11 executable source) | 13 |
+| Inactive root `tests/` files | 2 |
+| Root ZIP archives present in this checkout | 0 |
+| Imports from active code across into classified historical folders | 0 |
+| Direct chatbot route mount | Not found |
+| Tutor route feature flag | Present |
+
+**These counts supersede the older inventory's historical 511 converted / 216 ready and six ZIP claims for this specific checkout.** They describe *files currently present*, not the original archive content or deleted Git history. In particular, the historical 216-entry import snapshot still refers to 216 absent ready files (pass 8 above). The current default source remains `curriculum/courses/` and `curriculum/shared/`; no retired lesson content was restored.
+
+Run:
+
+```sh
+node scripts/audit-inactive-source-boundaries.mjs --strict --report build/inactive-source-boundaries.json
+node --test scripts/test-audit-inactive-source-boundaries.mjs
+```
+
+Caveat: this is a static import/mount boundary scan, not a full proof of runtime reachability, API authentication, or deployment safety. Imports *within* the retained unmounted chatbot prototype are intentionally not counted as active-app violations. Its migration tables and code are preserved pending an explicit product and migration decision.
