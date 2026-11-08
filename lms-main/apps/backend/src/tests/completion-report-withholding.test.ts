@@ -2,8 +2,6 @@
  * Completion report withholding (ACA-025). Knowledge attempts and lesson acknowledgements on a revision that
  * another organisation also assigns to the same learner are withheld from this organisation's report.
  * Records are kept, not deleted. Calls the report service directly over the in-memory Prisma double.
- *
- * Status: written, not run.
  */
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
@@ -25,6 +23,8 @@ const lessonOf = (report: { courses: Array<{ lessons: Array<{ lessonId: string }
   report.courses[0].lessons.find((lesson) => lesson.lessonId === lessonId);
 
 async function assignFromOtherCompany(courseId: string): Promise<void> {
+  // Sharing applies only while the other organisation still has the learner as a member.
+  await seed("companyMember", [{ companyId: ids.org2, userId: ids.learner1, role: "LEARNER" }]);
   await seed("academyTrainingAssignment", [
     { companyId: ids.org2, learnerId: ids.learner1, assignedById: ids.manager, courseId, status: "ASSIGNED" },
   ]);
@@ -51,7 +51,7 @@ beforeEach(async () => {
   await seedAcademyFixture();
 });
 
-describe("[written, not run] completion report withholds shared revisions", () => {
+describe("completion report withholds shared revisions", () => {
   it("withholds an acknowledgement and knowledge attempts on a revision another company also assigns", async () => {
     // Org 2 assigns the whole of course 1 to the same learner, so revisions A and B are both shared.
     await assignFromOtherCompany(ids.course);
