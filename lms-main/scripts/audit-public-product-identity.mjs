@@ -52,7 +52,8 @@ export function auditPublicIdentity({ sourceRoot = root } = {}) {
     issues.push({ path: emailPath, kind: 'account-email-legacy-brand' });
   }
   const topbar = readFileSync(resolve(sourceRoot, 'apps/frontend/src/components/Topbar.tsx'), 'utf8');
-  if (!topbar.includes('aria-label="SkilledAt.Work dashboard"')) {
+  if (!topbar.includes('aria-label={homeHref ? "SkilledAt.Work dashboard" : "SkilledAt.Work home"}') ||
+      !topbar.includes('href={homeHref ?? "/"}')) {
     issues.push({ path: 'apps/frontend/src/components/Topbar.tsx', kind: 'topbar-brand-missing' });
   }
   return { schemaVersion: 1, scannedFiles: scanned.length, issues, passed: issues.length === 0,
