@@ -1,0 +1,38 @@
+name: skilled-canonical-import-inventory
+on:
+  pull_request:
+    paths:
+      - 'lms-main/scripts/audit-canonical-import-manifest.mjs'
+      - 'lms-main/scripts/test-audit-canonical-import-manifest.mjs'
+      - 'lms-main/curriculum/import/canonical-import-manifest.json'
+      - '.github/workflows/skilled-canonical-import-inventory.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/scripts/audit-canonical-import-manifest.mjs'
+      - 'lms-main/scripts/test-audit-canonical-import-manifest.mjs'
+      - '.github/workflows/skilled-canonical-import-inventory.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test manifest integrity scanner
+        working-directory: lms-main
+        run: node --test scripts/test-audit-canonical-import-manifest.mjs
+      - name: Report historical import manifest freshness (read-only)
+        working-directory: lms-main
+        run: node scripts/audit-canonical-import-manifest.mjs --report build/legacy-import-manifest-audit.json
+      - name: Upload report even if the scanner fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-import-manifest-audit
+          path: lms-main/build/legacy-import-manifest-audit.json
+          if-no-files-found: warn
