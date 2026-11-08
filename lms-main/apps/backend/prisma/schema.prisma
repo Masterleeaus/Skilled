@@ -551,6 +551,10 @@ model Coupon {
   usageLimit      Int?
   courseId        String?
   course          Course?   @relation(fields: [courseId], references: [id])
+  // Redemptions reserved by checkouts for this coupon: incremented when a checkout reserves it, decremented when that
+  // checkout is released (FAILED). Compared atomically against usageLimit. Only this coupon's checkouts touch it.
+  redeemedCount   Int       @default(0)
+  payments        Payment[]
 
   createdAt DateTime @default(now())
 
@@ -571,9 +575,15 @@ model Payment {
   createdAt     DateTime      @default(now())
   // Licence track the learner chose at checkout. The enrolment created on payment takes this value.
   licenceTrack  String        @default("non-licensed")
+  // Coupon this checkout redeemed, if any. Only redemptions of this coupon count against its usageLimit.
+  couponId      String?
+  coupon        Coupon?      @relation(fields: [couponId], references: [id])
+  // Stripe Checkout URL for a PENDING payment, so a repeated checkout can return the same open session.
+  checkoutUrl   String?
 
   @@index([studentId])
   @@index([courseId])
+  @@index([couponId])
   @@map("payments")
 }
 
