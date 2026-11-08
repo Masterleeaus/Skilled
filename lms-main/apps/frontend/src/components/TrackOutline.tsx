@@ -1,7 +1,12 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { fetchCurriculumOutline, type LicenceTrack } from "@/lib/curriculum.api";
+import { fetchCurriculumOutline, type CourseOutline, type LicenceTrack } from "@/lib/curriculum.api";
+
+/** True when the academy outline lists at least one lesson placement. An empty outline means the legacy lesson list is shown. */
+export function outlineHasLessons(outline: CourseOutline | undefined): boolean {
+  return (outline?.tracks ?? []).some(t => t.track.placements.length > 0);
+}
 
 /**
  * The track-aware lesson list for one course, from the curriculum outline. The outline needs an active enrolment,

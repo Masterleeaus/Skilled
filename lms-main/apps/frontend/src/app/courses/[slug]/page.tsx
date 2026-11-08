@@ -7,12 +7,12 @@ import { useQuery, useMutation, useQueryClient, keepPreviousData } from "@tansta
 import { useAuthStore } from "@/store/auth.store";
 import { fetchCourseBySlug } from "@/lib/course-detail.api";
 import { fetchMyEnrollments, setEnrolmentLicenceTrack } from "@/lib/enrollment.api";
-import { fetchLicenceTrackSummary, type LicenceTrack } from "@/lib/curriculum.api";
+import { fetchCurriculumOutline, fetchLicenceTrackSummary, type LicenceTrack } from "@/lib/curriculum.api";
 import { api } from "@/lib/api-client";
 import { Topbar } from "@/components/Topbar";
 import { BrandImage } from "@/components/BrandImage";
 import { LicenceTrackChooser } from "@/components/LicenceTrackChooser";
-import { TrackOutline } from "@/components/TrackOutline";
+import { TrackOutline, outlineHasLessons } from "@/components/TrackOutline";
 import { useLicenceTrack } from "@/hooks/useLicenceTrack";
 import { getBrand, topicLabel } from "@/lib/academy-brand";
 
@@ -47,6 +47,20 @@ export default function CoursePreviewPage() {
   });
 
   const alreadyEnrolled = myEnrollments?.some((e) => e.course.slug === slug);
+
+  // The academy outline for an enrolled learner on the non-licensed track. Same key as TrackOutline, so it is one request.
+  // When it lists no lessons, the legacy lesson list is shown instead of "0 lessons".
+  const academyOutline = useQuery({
+    queryKey: ["academy-outline", course?.id, track],
+    queryFn: () => fetchCurriculumOutline(course!.id, track),
+    enabled: !!course && alreadyEnrolled === true && track === "non-licensed",
+    retry: false,
+  });
+  const academyEmpty =
+    track === "non-licensed" &&
+    (alreadyEnrolled
+      ? academyOutline.isSuccess && !outlineHasLessons(academyOutline.data)
+      : licenceSummary.data?.counts["non-licensed"] === 0);
   // An enrolled learner's saved track is the one shown as selected. It replaces any ?track= value, which the server ignores for them.
   // Visitors and staff (no student enrolment list) keep the ?track= preview.
   const savedTrack = myEnrollments?.find((e) => e.course.slug === slug)?.licenceTrack;
@@ -109,7 +123,7 @@ export default function CoursePreviewPage() {
   // Non-licensed: the count comes from the track-aware summary, so no lesson the track leaves out is counted.
   // Licensed: the legacy list, which shows every lesson on that track.
   const legacyLessonTotal = course.modules.reduce((sum, m) => sum + m.lessons.length, 0);
-  const lessonTotal = track === "non-licensed" ? licenceSummary.data?.counts["non-licensed"] : legacyLessonTotal;
+  const lessonTotal = track === "non-licensed" && !academyEmpty ? licenceSummary.data?.counts["non-licensed"] : legacyLessonTotal;
   const price = course.price;
   const isFree = Number(price) === 0;
   const brand = getBrand(course.slug);
@@ -211,12 +225,13 @@ export default function CoursePreviewPage() {
           summary={licenceSummary.data}
           isLoading={licenceSummary.isLoading}
           isError={licenceSummary.isError}
+          countFallback={academyEmpty ? legacyLessonTotal : undefined}
         />
         {switchNote && <p role="status" className="mt-2 text-sm text-neutral-300">{switchNote}</p>}
 
         <div className="mt-8 space-y-3">
           <h3 className="text-sm font-medium text-neutral-300">Curriculum</h3>
-          {track === "non-licensed" ? (
+          {track === "non-licensed" && !academyEmpty ? (
             // The legacy list is not shown on this track: it cannot be filtered by licence. The track-aware outline
             // needs an enrolment, so before enrolment the learner sees the count and the chooser's licence list.
             alreadyEnrolled ? (
@@ -228,6 +243,7 @@ export default function CoursePreviewPage() {
               </p>
             )
           ) : (
+            // Licensed, or the academy outline is empty: the legacy lesson list from the course API.
             course.modules.map((mod) => (
               <div key={mod.id} className="rounded-lg border border-neutral-800 bg-neutral-900 p-4">
                 <p className="font-medium">{mod.title}</p>
