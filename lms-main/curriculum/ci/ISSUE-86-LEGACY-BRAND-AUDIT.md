@@ -43,3 +43,9 @@ The `curriculum:ci` workflow still fails for unrelated/existing blockers (16 mis
 [Pass 3 GitHub Actions run](https://github.com/Masterleeaus/Skilled/actions/runs/42526627194)
 
 Editorial reviewers must check the 49 replacement phrases for naturalness and accuracy before approving revised lessons. The one structural schema name remains unchanged intentionally to avoid breaking readers.
+
+## Pass 4 derived index reconciliation
+
+The branch-only `issue-86-reconcile-index-once` GitHub Actions run [42526786327](https://github.com/Masterleeaus/Skilled/actions/runs/42526786327) completed successfully and committed the regenerated `curriculum/lesson-normalization-index.json` from canonical lessons (commit `eaa2f34b7806d22dacaad2a8bdde8651c447eeb5`). This refreshes the derived `sourceHash` values, but does not grant editorial approvals. The temporary workflow was subsequently deleted (commit `122b6299f4c1220fc7f704feb0fb0f1e287ef06f`).
+
+The normalization/index drift failure noted above describes the earlier run, before this reconciliation. The updated index's CI result must be checked separately. Independent qualified editorial approval remains outstanding for changed lessons.
