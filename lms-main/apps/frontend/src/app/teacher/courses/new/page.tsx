@@ -52,8 +52,9 @@ export default function NewCoursePage() {
       <main className="mx-auto max-w-xl px-6 py-8">
         <form onSubmit={handleSubmit((v) => mutation.mutate(v))} className="space-y-4">
           <div>
-            <label className="mb-1 block text-sm text-neutral-300">Title</label>
+            <label htmlFor="course-title" className="mb-1 block text-sm text-neutral-300">Title</label>
             <input
+              id="course-title"
               {...register("title")}
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             />
@@ -61,8 +62,9 @@ export default function NewCoursePage() {
           </div>
 
           <div>
-            <label className="mb-1 block text-sm text-neutral-300">Description</label>
+            <label htmlFor="course-description" className="mb-1 block text-sm text-neutral-300">Description</label>
             <textarea
+              id="course-description"
               {...register("description")}
               rows={4}
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
@@ -73,8 +75,9 @@ export default function NewCoursePage() {
           </div>
 
           <div>
-            <label className="mb-1 block text-sm text-neutral-300">Category</label>
+            <label htmlFor="course-category" className="mb-1 block text-sm text-neutral-300">Category</label>
             <select
+              id="course-category"
               {...register("categoryId")}
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             >
@@ -92,8 +95,9 @@ export default function NewCoursePage() {
 
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <label className="mb-1 block text-sm text-neutral-300">Price ($)</label>
+              <label htmlFor="course-price" className="mb-1 block text-sm text-neutral-300">Price ($)</label>
               <input
+                id="course-price"
                 {...register("price")}
                 type="number"
                 step="0.01"
@@ -101,8 +105,9 @@ export default function NewCoursePage() {
               />
             </div>
             <div>
-              <label className="mb-1 block text-sm text-neutral-300">Level</label>
+              <label htmlFor="course-level" className="mb-1 block text-sm text-neutral-300">Level</label>
               <select
+                id="course-level"
                 {...register("level")}
                 className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
               >

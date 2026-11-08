@@ -132,6 +132,7 @@ export default function TeacherLiveClassesPage() {
             <div className="grid grid-cols-2 gap-2">
               <input
                 type="datetime-local"
+                aria-label="Start date and time"
                 value={scheduledAt}
                 onChange={(e) => setScheduledAt(e.target.value)}
                 className="rounded-lg border border-neutral-800 bg-neutral-950 px-3 py-2 text-sm outline-none focus:border-neutral-500"
