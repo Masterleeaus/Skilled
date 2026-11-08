@@ -1,0 +1,35 @@
+{
+  "lessonId": "SFS-06",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-06-K01",
+      "correctIndex": 1,
+      "rationale": "An asset is equipment at a site with its own service history. Tool kits belong to workers and payments belong to customers."
+    },
+    {
+      "id": "SFS-06-K02",
+      "correctIndex": 0,
+      "rationale": "One visit a month is a frequency of one in months. The other two options describe different intervals."
+    },
+    {
+      "id": "SFS-06-K03",
+      "correctIndex": 0,
+      "rationale": "The generation window decides how many future jobs are made in one batch."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (asset records and maintenance plans) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

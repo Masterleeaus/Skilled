@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-STN-06",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STN-06-K01",
+      "correctIndex": 1,
+      "rationale": "The Safety Data Sheet and product instructions are the first sources of hazard, handling and use information."
+    },
+    {
+      "id": "NEW-STN-06-K02",
+      "correctIndex": 2,
+      "rationale": "Products are mixed only where the manufacturer approves the mixture. Acids must never be mixed with bleach or hypochlorite products."
+    },
+    {
+      "id": "NEW-STN-06-K03",
+      "correctIndex": 3,
+      "rationale": "Product suitability depends on the stone and finish, and a concealed test is needed before an acid etch or strong cleaner is used."
+    },
+    {
+      "id": "NEW-STN-06-K04",
+      "correctIndex": 0,
+      "rationale": "The SDS must be kept on site where workers can reach it in an emergency."
+    },
+    {
+      "id": "NEW-STN-06-K05",
+      "correctIndex": 1,
+      "rationale": "The planned control for acid etches near people or pets is a course teaching rule. It is not a regulator statement."
+    }
+  ],
+  "practicalCriteria": [
+    "Locates and reads the SDS before use",
+    "Checks that the manufacturer approves the product for the stone and finish",
+    "Runs a test patch before any acid etch or strong cleaner",
+    "Does not mix products unless the manufacturer approves"
+  ],
+  "passRule": "Knowledge checks: 4 of 5 correct (80%). Practical sign-off is separate and is not granted by the knowledge check: an assessor must observe every critical practical criterion and record it.",
+  "evidenceRequired": [
+    "SDS reference and product record for each product used",
+    "Test patch result and location"
+  ],
+  "stopWorkCriteria": [
+    "SDS not on site",
+    "Product not approved for the stone or finish",
+    "Mixing of products the manufacturer has not approved",
+    "Acid mixed with bleach or hypochlorite"
+  ]
+}

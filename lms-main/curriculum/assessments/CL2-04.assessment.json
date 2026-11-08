@@ -1,0 +1,44 @@
+{
+  "lessonId": "CL2-04",
+  "knowledgeAnswers": [
+    {
+      "id": "CL2-04-K01",
+      "correctIndex": 1,
+      "rationale": "Vacuuming before solution lifts loose grit so that shampoo does not turn it into residue. Option 0 skips the step; option 2 wrongly treats the defoamer as a substitute."
+    },
+    {
+      "id": "CL2-04-K02",
+      "correctIndex": 1,
+      "rationale": "A full recovery tank loses suction and leaves carpet wet. Stop, empty the tank, and check the cord and hoses. Continuing (option 0) and adding solution (option 2) are unsafe and leave wet carpet."
+    },
+    {
+      "id": "CL2-04-K03",
+      "correctIndex": 1,
+      "rationale": "Furniture goes back only once the carpet is dry, and the drying status is recorded. Option 0 is too early; option 2 ignores the carpet condition."
+    },
+    {
+      "id": "CL2-04-K04",
+      "correctIndex": 3,
+      "rationale": "The making up the solution section says never to let the unit run without solution, and never to drive it over its own cord."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a room with furniture and visible debris, the learner vacuums, moves the furniture, pre-treats marks and removes gum before any solution is applied; the assessor observes the order.",
+    "The learner mixes the shampoo to the supplied product label, puts defoamer into the recovery tank, and states the area treated per pass; the assessor checks the dilution against the label and the area against the procedure.",
+    "The learner carries out extraction passes in sections, empties the recovery tank before it is full, and stops when a supplied fault is introduced to the machine; the assessor confirms the stop and report.",
+    "The learner completes close-down, records the drying status at handover and does not return furniture until the carpet is dry; the assessor observes the record."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed knowledge checks",
+    "Assessor observation record for each practical criterion",
+    "Area record with the method and product used",
+    "Drying status record at handover"
+  ],
+  "stopWorkCriteria": [
+    "Learner runs the machine on dry carpet, or runs it dry",
+    "Learner pre-sprays an area larger than can be extracted before it dries",
+    "Learner returns furniture to carpet that is not dry",
+    "Learner continues to use a machine with a damaged cord, a fault in the electrical connection or a full recovery tank"
+  ]
+}

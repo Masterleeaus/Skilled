@@ -1,0 +1,254 @@
+{
+  "id": "NEW-AQU-07",
+  "title": "Saltwater and reef-specific water basics",
+  "courseSlugs": [
+    "aquarium"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Aquarium maintenance technicians who work on marine fish-only, marine community and reef systems",
+  "prerequisites": [
+    "NEW-AQU-01",
+    "NEW-AQU-02",
+    "aquarium-cleaning-L03"
+  ],
+  "learningOutcomes": [
+    "Distinguish marine fish-only, marine community and reef systems, and state what each one needs from its water and equipment",
+    "Explain why evaporation is topped up with fresh water rather than salt water, and how that choice affects salinity",
+    "Describe what the main reef chemistry parameters measure, and explain why they are changed one at a time under a plan",
+    "Refuse any dosing or product addition that the owner's plan does not cover, and refer it to a qualified person"
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Storing hazardous chemicals (no date shown); NSW DPI, Aquarium owners and trade (no date shown).",
+  "instruction": [
+    {
+      "heading": "Marine system types",
+      "body": "Marine systems differ in what they hold. A fish-only system holds marine fish, perhaps with algae-eating or detritus-eating animals, and uses decorative rock, dried coral or artificial items, with no living coral. A marine community system can hold a wider range of invertebrates, depending on the plan. A reef system is built around living coral, and it needs closer attention to its chemistry, lighting and water flow. Reef systems are the most demanding of the three. One aquarium types reference in the sources notes that a marine system needs a sizeable tank for its livestock, a steady schedule of checks, and regular testing for minerals and chemical balances. Confirm the system type from the owner's plan before you test or change anything, because the targets and the products differ by type."
+    },
+    {
+      "heading": "Why evaporation is topped up with fresh water",
+      "body": "Water leaves an open tank by evaporation, and the salt stays behind. A top-up with fresh water therefore keeps the salinity steady, while a top-up with salt water raises it. This is why a top-off device, or a manual top-up, uses fresh water, and why a top-up with the wrong water is a common cause of a salinity swing. Check the top-off reservoir regularly so that its pump does not run dry. Evaporation changes with the season, so the check interval should be adjusted to the time of year, as the owner's plan directs."
+    },
+    {
+      "heading": "Salinity and the instrument",
+      "body": "Measure salinity or specific gravity with a calibrated refractometer, hydrometer or meter, and apply any temperature correction the instrument needs (see the sampling lesson). Measure after the salt mix has fully dissolved and stabilised, and again before any water is added to the tank. Do not record a salinity you have estimated."
+    },
+    {
+      "heading": "The reef chemistry set",
+      "body": "Reef water is tested for more than the nitrogen compounds. Alkalinity measures how well the water resists a change in pH. Calcium and magnesium are used by animals with hard skeletons, and they are linked to alkalinity. Phosphate is a nutrient that feeds algae when it is high. Nitrate is tested as in other systems. These parameters are linked, so a change to one changes the others. A reef checklist in the sources gives a testing frequency for the reef set. Change one parameter at a time under the plan, and retest before the next step. Do not chase a number by adding products. Dosing is done only with a product approved for the system, at the label dose, under the owner's plan. Where the plan is not clear, refer it."
+    },
+    {
+      "heading": "Water source for marine work",
+      "body": "Marine salt mixes are made with water of known quality. Reef keepers commonly use water from a treatment process that removes most dissolved material, such as reverse osmosis, sometimes followed by deionisation. The sources suggest monitoring that output with a TDS meter and changing the cartridges as the manufacturer and the use indicate. Treat that equipment as a water-treatment item, with its own records, storage and maintenance. Do not collect seawater or live rock from the sea, because that is not covered by this course."
+    },
+    {
+      "heading": "Marine-specific equipment",
+      "body": "A protein skimmer removes dissolved waste by producing foam in a collection cup. Empty and clean the cup at the interval set by the manufacturer and the load on the tank. Low foam output, a full cup, or foam of an unusual colour is a sign to check the pump, the air intake and the cup, and to record what you find. Specialised equipment, such as calcium reactors, chillers and ozone generators, is maintained by the specialist or the manufacturer. This lesson does not cover adjusting it."
+    },
+    {
+      "heading": "Pests, disease and treatments are referred",
+      "body": "Pests, coral disease and the treatment of marine animals are outside this lesson. If a coral or a fish shows damage, unusual colour or pests, record what you see, photograph it only if the owner agrees and the business policy allows, and refer it. Do not add a treatment or a coral additive that the owner's plan does not cover."
+    }
+  ],
+  "procedure": [
+    "Confirm the system type (fish-only, marine community or reef), the owner's plan and the approved products before any test or change.",
+    "Check the top-off reservoir and the water level, and top up with fresh water only where the plan says so.",
+    "Measure salinity with a calibrated instrument, and record the temperature and the time.",
+    "Test the parameters the plan sets, in the test order, and record each result.",
+    "Mix any marine salt as the product instructions direct, let it dissolve and stabilise, then test it before it goes into the tank.",
+    "With the power isolated, empty and clean the skimmer cup, and check the pump and the air intake.",
+    "Change one parameter at a time, retest, and record each product added with the amount, the time and the point of addition.",
+    "Refer any coral or fish damage, any pest, and any product request that the plan does not cover."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A reef client asks you to add a calcium product to raise a low reading before the weekend, and says that a larger dose will fix it faster.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Do not add a larger dose. Retest with an in-date reagent, check the instrument, and check the top-off reservoir and the plan. Use only a product approved for the system, at the label dose, under the owner's plan. If the plan does not cover the adjustment, refer it to a qualified person and record the request and the readings."
+    },
+    {
+      "situation": "A protein skimmer's cup is full, and the foam has turned an unusual colour. The client thinks the skimmer is broken.",
+      "decisionPrompt": "What do you check?",
+      "reasoning": "Isolate the skimmer pump at the isolator. Empty and clean the cup as the manufacturer directs, and check the air intake and the pump. Record the foam and its colour before and after. A replacement is the owner's decision, and any wiring fault is referred to a licensed person."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Calibrated salinity or specific gravity instrument, with calibration solution in date",
+    "In-date test kit or meter for the reef parameters in the plan",
+    "Top-off reservoir checked, and a fresh water source for the top-up",
+    "Skimmer cup and the manufacturer's instructions",
+    "Isolator or safety switch for the pump",
+    "Gloves and eye protection as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Topping up with salt water when evaporation has left the salt behind.",
+      "prevention": "Top up with fresh water, as the plan says."
+    },
+    {
+      "error": "Dosing to chase a number.",
+      "prevention": "Change one thing at a time under the plan, and retest."
+    },
+    {
+      "error": "Judging salinity by looking at the water.",
+      "prevention": "Use a calibrated instrument, and record the value."
+    },
+    {
+      "error": "Applying reef targets to a fish-only tank.",
+      "prevention": "Confirm the system type and the plan before any test or change."
+    },
+    {
+      "error": "Opening a skimmer while its pump is running.",
+      "prevention": "Isolate the pump first, and prove it off before the cup is opened."
+    },
+    {
+      "error": "Collecting sea water for the tank.",
+      "prevention": "Use a commercially prepared salt mix as its label directs. Sea water collection is not covered by this course."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electrical safety around skimmers and pumps in water is as described in the electrical safety lesson. Isolate before the cup or housing is opened.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Salt mixes, reverse osmosis cartridges and test reagents are chemicals. Read the label and the safety data sheet. Safe Work Australia's storage page says incompatible chemicals must be kept well apart (no date shown), and keeping acids and oxidisers apart is practice in this draft.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Treatment of coral or marine animals is not authorised by this lesson.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The NSW Department of Primary Industries advises against sourcing aquatic animals or rock internationally online, and describes that as illegal (no date shown).",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The system type is confirmed from the plan before any test or change",
+    "Salinity is measured with a calibrated instrument and recorded, never estimated",
+    "One parameter is changed at a time, with a retest and a record",
+    "No product is added outside the plan, and each refusal is recorded"
+  ],
+  "documentationEvidence": [
+    "Marine test record with salinity, temperature and the reef parameters the plan requires",
+    "Top-off and reservoir record",
+    "Skimmer and pump check record",
+    "Referral or refusal note for any product request, or any concern about coral or animals"
+  ],
+  "summary": [
+    "Confirm the marine system type before you test or change anything.",
+    "Evaporation leaves salt behind, so top up with fresh water as the plan says.",
+    "Reef chemistry parameters are linked. Change one at a time under the plan, and refuse any dosing the plan does not cover.",
+    "Isolate skimmers and pumps before the cup or housing is opened, and refer any coral or animal treatment."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:procedures.task_steps}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-AQU-07-K01",
+      "question": "A reef tank reads low calcium. A client asks you to add a larger dose than the label says, to fix it faster. What is correct?",
+      "options": [
+        "Add the larger dose, because the reading is low and the client wants the calcium back in the tank quickly today",
+        "Add pool chemicals instead, since they are cheaper and easier to buy from the shop down the road for the tank",
+        "Skip the test and add the product every week, so the calcium never drops below the target range again in any tank",
+        "Retest with an in-date reagent, then follow the label and the plan, and refer it if the plan does not cover the adjustment"
+      ]
+    },
+    {
+      "id": "NEW-AQU-07-K02",
+      "question": "Why is evaporated water normally replaced with fresh water rather than salt water?",
+      "options": [
+        "Salt water is too expensive to buy for every top-up at a client's tank each week",
+        "Fresh water is needed for coral growth, and salt water would stop the growth completely",
+        "Evaporation removes water but leaves the salt, so a fresh top-up keeps salinity steady",
+        "Salt water causes the skimmer to stop working, so the top-up must be fresh water"
+      ]
+    },
+    {
+      "id": "NEW-AQU-07-K03",
+      "question": "Before a protein skimmer cup is opened, what must happen?",
+      "options": [
+        "The skimmer's pump is isolated at the isolator or safety switch",
+        "Nothing, because the cup is above the water and cannot cause harm",
+        "The cup is opened while the pump runs slowly to stop the foam spilling",
+        "The cup is emptied into a waterway, since the water is clean enough"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it covers keeping incompatible chemicals apart and container labelling, and refers to the guide Managing risks of storing chemicals in the workplace. It does not name acids or oxidisers and does not mention safety data sheets. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Aquarium owners and trade",
+      "url": "https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "NSW Department of Primary Industries, Aquarium owners and trade (no date shown). The page says to check which species are illegal to possess, buy, sell or move; that releasing fish into NSW public waters is illegal without a fish stocking permit under the Fisheries Management Act; that buying fish, plants or live rock from overseas on the internet is illegal; and that dumping an unwanted pet fish is an illegal act. It names the Prevention of Cruelty to Animals Act 1979 for animal welfare. The page uses the word illegal for these points, not warning. Publisher: NSW Department of Primary Industries."
+    },
+    {
+      "id": "R3",
+      "title": "which professions may prescribe or dose animal medicines",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source: no official page fetched in this pass. Check with the state or territory animal health authority. Publisher: No official page read in this pass."
+    },
+    {
+      "id": "R4",
+      "title": "collection of seawater, live rock, wild animals, dam, bore or waterway water",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source: no official page fetched in this pass. Check the state or territory authority before any collection. Publisher: No official page read in this pass."
+    },
+    {
+      "id": "R5",
+      "title": "replacement and maintenance intervals, and filter turnover rates",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source: no official page fetched in this pass. Use the manufacturer's instructions and the owner's plan. Publisher: No official page read in this pass."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Aquarium types reference (uploaded file e65220ee-328158963), descriptions of fish-only, reef and marine systems and marine maintenance; rights: reworded (no copying); undated.",
+    "Reef aquarium maintenance checklist (uploaded file b2159574-37005063), dated 14 August 2009, reef-specific US retailer source; rights: reworded (no copying). Used for the parameter list, top-off, reservoir, skimmer cup and water source points. Intervals and reef targets are treated as UNCONFIRMED. Product mentions are not used.",
+    "NSW DPI, Aquarium owners and trade, https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade, checked 2026-11-02 (as recorded in research/topics/aquarium.md section 5). Used only for the collection and movement limit by reference.",
+    "General marine chemistry (evaporation removes water and not salt; the parameters are linked): no source checked beyond the uploaded documents in this pass.",
+    "UNCONFIRMED: reef and fish-only targets; test frequencies; skimmer cup interval; reverse osmosis cartridge intervals; treatment authority; collection rules for seawater and live rock.",
+    "R1: Storing hazardous chemicals (Safe Work Australia), https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals; page date: No date shown; read 2026-11-03; status PARTIAL.",
+    "R2: Aquarium owners and trade (NSW Department of Primary Industries), https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade; page date: No date shown; read 2026-11-03; status CONFIRMED.",
+    "R3: UNCONFIRMED, which professions may prescribe or dose animal medicines; no official page read in this pass.",
+    "R4: UNCONFIRMED, collection of seawater, live rock, wild animals, dam, bore or waterway water; no official page read in this pass.",
+    "R5: UNCONFIRMED, replacement and maintenance intervals, and filter turnover rates; no official page read in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-13.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-14.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    }
+  ]
+}

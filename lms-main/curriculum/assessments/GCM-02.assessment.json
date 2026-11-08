@@ -1,0 +1,37 @@
+{
+  "lessonId": "GCM-02",
+  "knowledgeAnswers": [
+    {
+      "id": "GCM-02-K01",
+      "correctIndex": 1,
+      "rationale": "Damp moisture lifts fine soil without carrying water onto floors and fittings. A dripping cloth does the opposite."
+    },
+    {
+      "id": "GCM-02-K02",
+      "correctIndex": 1,
+      "rationale": "A snagging cloth on a worn surface needs a changed method. Forcing it damages the surface and the cloth, so the surface is recorded for the supervisor."
+    },
+    {
+      "id": "GCM-02-K03",
+      "correctIndex": 1,
+      "rationale": "The chlorine limit is not stated as a fact, so the label and the approved list are checked before any chlorine product is used. No saving is claimed for the water-dampened method."
+    }
+  ],
+  "practicalCriteria": [
+    "Folds a cloth to a clean face and uses one face at a time across a supplied surface, observed by the assessor.",
+    "Checks the product label and the approved list, then declines a product that is not approved for the cloth, observed by the assessor.",
+    "Stops work on a snagging surface, records the surface, and changes the method, observed by the assessor.",
+    "Retires a worn cloth into the used-cloth route rather than returning it to the clean set, observed by the assessor."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge-check result",
+    "Assessor observation sheet for cloth use across the supplied surface",
+    "Record of any snag, changed method or retired cloth"
+  ],
+  "stopWorkCriteria": [
+    "A product is about to be used with a microfibre cloth when it is not on the approved list or its label has not been read",
+    "A cloth is leaving lint or snagging on a surface, and the method has not been changed",
+    "A dripping cloth is being used on a floor or near electrical fittings"
+  ]
+}

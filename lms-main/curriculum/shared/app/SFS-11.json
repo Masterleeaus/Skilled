@@ -1,0 +1,121 @@
+{
+  "id": "SFS-11",
+  "title": "Workers: capacity, efficiency and preferences",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-02"
+  ],
+  "learningOutcomes": [
+    "Set a worker's capacity as hours or visits per period.",
+    "Explain how an efficiency score affects the planned length of a visit.",
+    "Tell apart the three worker settings: favoured, mandatory and barred."
+  ],
+  "instruction": [
+    {
+      "heading": "Capacity",
+      "body": "Some workers, such as contractors, can only work an agreed amount in a period. You can record that as hours per period, for example eighty hours a month, or as a number of visits per period. Capacity records should match contract dates, and the dates should not overlap. The scheduler checks each day against capacity, and does not weigh the week or the month, so the office should review weekly totals by hand."
+    },
+    {
+      "heading": "Efficiency, skills and preferences",
+      "body": "Workers differ in pace. An efficiency score changes the planned length of each visit assigned to that worker, so the end time is more realistic. Skills describe what a worker can do. Preferences go further: a worker can be favoured, mandatory or barred for a given asset, site or customer. If the asset carries no preference, the app looks at the site and then the customer, and takes the first one it finds. The office should be able to see where a preference came from."
+    }
+  ],
+  "procedure": [
+    "Record each worker's home area, skills and availability.",
+    "For contract workers, set a capacity with from and to dates.",
+    "Set an efficiency score where a worker's pace is consistently different from the norm.",
+    "Add preferences only where a customer or site genuinely needs them.",
+    "Review the worker list each month for expired capacity and preferences no longer needed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contract carpenter works up to 80 hours a month for a builder. The builder also asks that only one named worker enters a heritage home.",
+      "decisionPrompt": "Which setting records the monthly limit, and which records the exclusion?",
+      "reasoning": "A capacity in hours per month records the limit. An exclusion on the site or customer record stops other workers being offered that home."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting capacity records with overlapping dates.",
+      "prevention": "Check that a new capacity starts after the old one ends."
+    },
+    {
+      "error": "Using preferences as a general rule for every job.",
+      "prevention": "Use preferences only where a customer or site needs them."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every contract worker has a capacity with dates.",
+    "Every preference has a reason written beside it."
+  ],
+  "documentationEvidence": [
+    "Worker register with skills and areas",
+    "Capacity and preference log"
+  ],
+  "summary": [
+    "Capacity limits how much contract work a worker can take.",
+    "Efficiency changes the planned length of visits.",
+    "Preferred, required and excluded are different strengths of setting."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-11-K01",
+      "question": "A contract worker is limited to 80 hours a month. Which record holds that limit?",
+      "options": [
+        "A capacity record with hours per period",
+        "The customer's invoice for the month",
+        "The worker's phone contacts and notes"
+      ]
+    },
+    {
+      "id": "SFS-11-K02",
+      "question": "How does a required worker differ from a preferred one?",
+      "options": [
+        "A required worker must be used; a preferred worker is only favoured",
+        "They mean the same thing",
+        "A preferred worker is removed from the job whenever a required worker is also listed"
+      ]
+    },
+    {
+      "id": "SFS-11-K03",
+      "question": "Where should a preference come from when the asset record has none?",
+      "options": [
+        "The site record, then the customer record",
+        "The worker who was most recently assigned to the site",
+        "The worker's home address"
+      ]
+    },
+    {
+      "id": "SFS-11-K04",
+      "question": "What does a worker's efficiency score change, according to the lesson?",
+      "options": [
+        "The worker's pay rate",
+        "The customer's postcode",
+        "The number of workers on site",
+        "The planned length of each visit assigned to that worker"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 40-47 (service resources and capacity); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: worker (service resource); capacity record; skill; worker preference (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

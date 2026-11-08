@@ -1,0 +1,186 @@
+{
+  "id": "MP-05",
+  "title": "Building a sales forecast from stages",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "base",
+  "lessonType": "RV",
+  "estimatedMinutes": 30,
+  "audience": "Any home-service operator who needs a revenue forecast for planning, hiring or a bank or investor conversation.",
+  "prerequisites": [
+    "MP-01",
+    "MP-02"
+  ],
+  "learningOutcomes": [
+    "Build a sales forecast from named stages, each with a trigger, a capacity and a revenue estimate",
+    "Cross-check a forecast total against its segment totals and against its stated objectives",
+    "Explain the gap between a forecast and a growth target, and record the decision taken"
+  ],
+  "instruction": [
+    {
+      "heading": "Why stages beat a single guess",
+      "body": "A forecast built from stages ties revenue to the steps the business must take first. The sample plan this lesson draws on did this. Its first month was set aside for legal and accounting set-up, office equipment and training design, with little or no trading expected. From the second month, enquiries began to turn into contracts, and staff were added only as contract volume justified each step. Every stage in a forecast should have a trigger, such as a number of confirmed contracts, and a capacity, such as the number of jobs a team can complete in a week."
+    },
+    {
+      "heading": "Set up the stage table",
+      "body": "Make one row for each stage. The columns are the stage name, the trigger that starts it, the number of jobs per month, the average revenue per job, the monthly revenue and the team capacity. Include a set-up row with zero revenue if no trading happens in that period. Where a stage asks for more jobs than the team can deliver, the excess is a capacity problem rather than a sales result. Cap the jobs at capacity and record any surplus demand separately, so the forecast shows what can be delivered."
+    },
+    {
+      "heading": "Source each input",
+      "body": "Each input should come from something you can check: the enquiries you have received, the share of enquiries that became paid jobs, the average job price from your records, and the segment size from “Defining target segments from customer data”. The sample plan assumed that a large part of its new clients after the second month would come from word of mouth. That assumption drives the whole forecast, so it must be stated and tested, not assumed. The plan also described its forecast as conservative. Write down what would have to be true for it to be too low, and what would have to be true for it to be too high."
+    },
+    {
+      "heading": "Cross-check the totals",
+      "body": "Add the segment totals and confirm that they equal the grand total. The sample plan's forecast figures are removed here because they are United States figures from the early 2000s. Use the check only: add the segment totals, confirm they equal the grand total, then compare growth from year to year using your own dated figures."
+    },
+    {
+      "heading": "Compare the forecast with the stated objectives",
+      "body": "The same plan's executive summary described very high projected growth, and its financial objectives set a high growth rate for three years. Its own forecast showed much slower growth in the first two years. Those rates are removed here as United States figures. That gap is the finding. A forecast does not have to match an objective, but the difference must be named, explained and then either closed by a stated action or resolved by changing the objective. Write the decision down with its date, so the next review can test it."
+    }
+  ],
+  "procedure": [
+    "List the stages from set-up to full capacity, and write a trigger for each.",
+    "For each stage, enter the jobs per month, the average revenue per job and the team capacity.",
+    "Source each input from your enquiry records, your job prices or the segment count in “Defining target segments from customer data”.",
+    "Cap the jobs at capacity, and record any surplus demand in a separate column.",
+    "Add the stages to get monthly and annual totals, then check that the segment totals add up to the grand total.",
+    "Compare the year-on-year growth with your objectives, and write down the gap and the action or changed target."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A hypothetical team (invented figures) has three stages. Stage 1 is a one-month set-up with no revenue. Stage 2 is a first team of two completing 10 jobs a month at an average of $150 AUD. Stage 3, a second team, lifts volume to 20 jobs a month at $150 AUD, but only once 12 recurring contracts are confirmed.",
+      "decisionPrompt": "Is the stage 3 forecast credible, and what should be checked before it is used?",
+      "reasoning": "Stage 2 gives $1,500 AUD a month (10 jobs at $150 AUD). Stage 3 gives $3,000 AUD a month (20 jobs at $150 AUD). Stage 3 depends on one trigger, 12 recurring contracts. Check how many are confirmed today, how long they realistically take to win, and whether the second team can be hired and trained before it is needed. If the trigger is not met, move the forecast back a stage instead of keeping the higher figure."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet program",
+    "Enquiry and job-price records"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting revenue for a stage without a trigger or a capacity",
+      "prevention": "Give every stage a trigger and a capacity, and cap revenue at what the team can deliver."
+    },
+    {
+      "error": "Forecasting growth without checking it against the stated objectives",
+      "prevention": "Compare the forecast with every stated target, and name any gap in writing."
+    },
+    {
+      "error": "Adding the segment totals incorrectly",
+      "prevention": "Add the segments, then check that the sum equals the grand total row before the forecast is used."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. A forecast is not a promise of revenue. This lesson gives no financial, tax or investment advice.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not present a United States or dated forecast as a current Australian forecast. Label any figure from another country or year.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each stage has a trigger, a capacity and a revenue estimate, each with a stated input source.",
+    "Segment totals equal the grand total.",
+    "Any gap between the forecast and an objective is recorded with a decision and a date."
+  ],
+  "documentationEvidence": [
+    "Stage table with inputs and their sources",
+    "Cross-check of segment totals against the grand total",
+    "Gap note comparing the forecast with each objective"
+  ],
+  "summary": [
+    "Build revenue from stages, each with a trigger and a capacity.",
+    "Cap revenue at what the team can deliver.",
+    "Name and explain any gap between the forecast and the goal."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:jobs.scheduling_method}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-05-K01",
+      "question": "Why build a sales forecast from stages rather than one estimate?",
+      "options": [
+        "Stages make the forecast look larger and the figures look more confident to the bank",
+        "Each stage has a trigger and a capacity, so revenue follows the steps the business really takes",
+        "It removes the need for any cost data and the costs are not checked at any stage at all",
+        "It is a legal requirement for every business and the tax office checks each stage"
+      ]
+    },
+    {
+      "id": "MP-05-K02",
+      "question": "Your forecast shows 1% growth, but your stated goal is 10% growth. What should you do?",
+      "options": [
+        "Change the goal to 1% without comment and tell the team nothing",
+        "Keep the forecast out of the plan and repeat the 10 per cent goal",
+        "Name and explain the gap, then adjust the plan or the goal and write down why",
+        "Publish both figures without any comment and let the team decide the gap"
+      ]
+    },
+    {
+      "id": "MP-05-K03",
+      "question": "Which check confirms the arithmetic of a segmented forecast?",
+      "options": [
+        "Adding each segment and confirming the total matches the grand total",
+        "Comparing it with a competitor's brochure and the brochure's photos",
+        "Counting the number of printed pages in the forecast file and the cover",
+        "Asking a friend whether the numbers look right and the colour of the sheet"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Service Marketing Plan (sample residential cleaning plan, US figures 2002 to 2006), sections Executive Summary, Financial Objectives, Sales Forecast and Financials; rights: user-held; reworded (no copying). Figures are US and dated; used as method illustration only. Segment sums re-run 2026-11-02; the US growth rates are removed (see LOCALISE-LOG.md).",
+    "Hypothetical stage figures ($150 AUD average, 10 and 20 jobs, 12 contracts) are invented for this lesson.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. US sample-plan figures removed and recorded in LOCALISE-LOG.md; principle written in words; Australian figures UNCONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

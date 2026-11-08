@@ -1,0 +1,35 @@
+{
+ "lessonId": "warehouse-deep-cleaning-L05",
+ "knowledgeAnswers": [
+  {
+   "id": "warehouse-deep-cleaning-L05-K01",
+   "correctIndex": 0,
+   "rationale": "Priority reflects how often people pass and how serious a fall would be."
+  },
+  {
+   "id": "warehouse-deep-cleaning-L05-K02",
+   "correctIndex": 1,
+   "rationale": "Moving stored goods is not part of housekeeping."
+  },
+  {
+   "id": "warehouse-deep-cleaning-L05-K03",
+   "correctIndex": 2,
+   "rationale": "A wet walkway is a slip hazard until it is dry or controlled."
+  }
+ ],
+ "practicalCriteria": [
+  "Walks a simulated warehouse area and prioritises slip and trip hazards before cleaning.",
+  "Clears and dries the highest-priority walkway within scope.",
+  "Escalates a simulated pallet obstruction and a damaged dock plate, with a record."
+ ],
+ "passRule": "Hazards prioritised, highest-priority walkway cleared within scope, and out-of-scope items escalated. Observed by an assessor.",
+ "evidenceRequired": [
+  "Hazard walk record",
+  "Escalation record"
+ ],
+ "stopWorkCriteria": [
+  "Cleaning in an active traffic aisle",
+  "Stored goods moved by the cleaner",
+  "Walkway reopened while wet"
+ ]
+}

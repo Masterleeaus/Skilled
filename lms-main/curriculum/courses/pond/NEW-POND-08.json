@@ -1,0 +1,207 @@
+{
+  "id": "NEW-POND-08",
+  "title": "Seasonal care and cold-climate notes",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Pond maintenance workers who plan and carry out seasonal checks on garden ponds in climates that range from warm to frosty",
+  "prerequisites": [
+    "NEW-POND-01",
+    "NEW-POND-07"
+  ],
+  "learningOutcomes": [
+    "Describe how the load on a pond changes across the seasons, and plan the checks each season needs",
+    "Explain why depth and cooler water matter for animals in cold weather, and check depth against the owner's plan",
+    "Explain why an aquarium heater must not be used in a pond, and what changes if the owner heats the pond",
+    "Respond safely to a frozen surface and to frost damage, and refer any decision the owner's plan does not cover"
+  ],
+  "instruction": [
+    {
+      "heading": "The load changes with the seasons",
+      "body": "A pond does not run at the same level all year. In spring the water warms, algae begin to grow, and plants restart, so clarity and oxygen need closer watching. In summer the water is warmest, evaporation is highest, and the risk of low oxygen rises on warm, still nights. In autumn, leaf fall adds a large organic load, which is the time to plan netting and debris removal (“Debris, sludge and plant management”). In winter, biological activity slows, animals reduce their activity, and in cold areas the surface may freeze. Record the local climate for each site from the owner and from the observed conditions, rather than assuming it."
+    },
+    {
+      "heading": "Hot weather",
+      "body": "In hot weather, check the pump and any aeration first, since a stopped pump is the most common cause of a sudden problem (“Pond ecology, fish and plant balance”). Measure the water temperature in degrees Celsius and record the time. Check for shade and cover that the owner has agreed to, because heavy sun can warm a pond quickly, and some shade supports pond habitat. Evaporation makes the level fall, so a steady fall should be checked with a bucket test before any top-up (“Water conservation and environmental release for ponds”). Avoid large water changes in heat, because a large sudden change in temperature stresses fish. Plan visits early in the day when oxygen is likely to be higher and the water is cooler, if the owner's plan allows it."
+    },
+    {
+      "heading": "Depth, hibernation and cold water",
+      "body": "Many pond animals move into deeper, cooler water in cold weather, where the temperature is more stable. Water is densest at about 4 degrees Celsius and sinks, so under ice the deeper water can stay near that temperature, which many animals use for hibernation. Check the depth at the reference point (“Access features: inlet, outlet, overflow, edges and depth”) against the owner's plan, and record it before winter. A pond that is too shallow may freeze through, which leaves animals without refuge. Feeding usually reduces in cold weather, and the feeding regime is set by the owner's plan. This lesson does not give feeding amounts."
+    },
+    {
+      "heading": "Heaters and the electrical side",
+      "body": "An aquarium heater must never be used in a pond. Most aquarium heaters are made for indoor use, and their cords and casings are not designed for weather, sunlight or ground contact, so they are a risk to fish and to people. A heated pond keeps fish active through winter, so the feeding and oxygen needs change, and the owner's plan must set them. In Queensland, pumps and any heater should run through a safety switch, and cords must stay out of the water."
+    },
+    {
+      "heading": "Frozen surfaces and frost damage",
+      "body": "If the surface has frozen, do not force or break the ice, and do not pour hot water on it. Ice can give way under weight, and a sudden change in temperature can stress the animals below. Check the depth, observe the animals without disturbing them, and record the condition. Frost can damage a liner that is not rated for the local frost conditions, and a liner that has become brittle can crack at the edges or at the seams (“Pond liner and leak inspection”). Record any cracking or stiffness, and refer the damage to the owner. Keep pumps and cords out of the ice and out of freezing water, and do not walk on ice."
+    },
+    {
+      "heading": "Seasonal planning and the spring restart",
+      "body": "Plan the year by season. In autumn, plan the netting, the debris routine and the depth check. In winter, keep the visits to the level the plan sets, and check the depth and the frozen surface. In spring, check the liner and the edges after winter, restart the pump and the aeration, check the temperature and the clarity, and plan the first visits so that the water has time to settle after the restart. Any decision about restocking fish, adding plants or changing the feeding regime belongs to the owner's plan and the specialist advice, and this lesson does not set numbers for any of them."
+    }
+  ],
+  "procedure": [
+    "Record the site's climate and the season, using the owner's information and the observed conditions.",
+    "In hot weather, check the pump and aeration first, measure the temperature in Celsius, and check for a level fall before any top-up.",
+    "In autumn, plan the netting and the debris routine, and agree the litter area with the owner.",
+    "Before winter, measure the depth at the reference point and compare it with the owner's plan.",
+    "If the surface has frozen, do not force or break the ice, check the depth and record the condition.",
+    "In spring, check the liner and edges, restart and test the pump and aeration, and record the readings.",
+    "Refer any decision on heating, feeding, restocking or planting to the owner's plan or a qualified specialist, and wear the PPE set by {{business:safety.required_ppe}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "On a hot afternoon, the pond fish are at the surface and the pump has stopped since the morning.",
+      "decisionPrompt": "What is the first response in this season?",
+      "reasoning": "Restore the pump and aeration first, because low oxygen from a stopped pump is the most likely immediate cause. Measure the water temperature in Celsius, record the time, and check the feeding record. Plan later visits early in the day, and check for a level fall before any top-up. Do not make a large water change in the heat."
+    },
+    {
+      "situation": "In winter, the surface of a client's pond has frozen, and the client asks you to pour hot water on it so that they can see the fish.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Decline the hot water. Do not force or break the ice. Check the depth, observe without disturbing the animals, and record the condition. Refer any question about keeping an opening in the ice to the owner's plan or a specialist."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Thermometer for water temperature in degrees Celsius",
+    "Marked depth pole for the reference point",
+    "Seasonal checklist and record form",
+    "Gloves, eye protection and footwear with grip as set by {{business:safety.required_ppe}}",
+    "Safety switch access for pump and heater circuits"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using an aquarium heater in a pond.",
+      "prevention": "Never use an indoor aquarium heater. Report it and record its location."
+    },
+    {
+      "error": "Breaking the ice, or pouring hot water on it.",
+      "prevention": "Do not force or break the ice. Check the depth, record the condition and follow the plan."
+    },
+    {
+      "error": "Assuming the climate of one site applies to another.",
+      "prevention": "Record the climate and frost risk for each site from the owner and the observed conditions."
+    },
+    {
+      "error": "Making a large water change in hot weather.",
+      "prevention": "Use small changes only when the plan calls for them, and match the temperature."
+    },
+    {
+      "error": "Not checking the depth before winter.",
+      "prevention": "Measure the depth at the reference point each autumn and record it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Frozen surfaces and ice can give way under weight. Do not walk on ice, and keep people and pets away from a frozen pond.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Aquarium heaters must not be used in ponds. Heaters for outdoor use must be installed under the manufacturer's instructions and the state's electrical rules.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not give feeding amounts, stocking numbers, or any restocking advice. Those decisions belong to the owner's plan and a qualified specialist.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Record the site's climate from the owner and the observed conditions.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Seasonal checks are planned, recorded and matched to the owner's plan",
+    "Depth is measured and recorded before winter, and frozen surfaces are not forced",
+    "Heating, feeding and restocking decisions are referred and not set by the contractor"
+  ],
+  "documentationEvidence": [
+    "Seasonal visit record with the season, climate, water temperature in Celsius and depth",
+    "Frozen surface observation with the action taken and the referral",
+    "Spring restart record with the pump, aeration and liner checks"
+  ],
+  "summary": [
+    "The load changes with the seasons, so plan the checks for each one and record the local climate.",
+    "Depth gives animals a cooler, more stable refuge in winter, so measure it before the cold arrives.",
+    "Aquarium heaters must never be used in a pond, and any outdoor heater needs the state's electrical rules.",
+    "Do not force ice, and refer heating, feeding and restocking decisions to the owner's plan and a specialist."
+  ],
+  "businessFields": [
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:jobs.scheduling_method}}",
+    "{{business:customers.access_instructions}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-POND-08-K01",
+      "question": "Why should an aquarium heater not be used in a pond?",
+      "options": [
+        "It is too small to heat a pond of any real size, so it fails quickly in cold weather and wears out",
+        "It is designed for indoor use, and its cords and casing may not suit wet or sunlit outdoor conditions",
+        "It raises the pH of the water in the pond every single day during the whole warm season",
+        "It stops the fish from eating their food in the pond during the whole warm season and beyond"
+      ]
+    },
+    {
+      "id": "NEW-POND-08-K02",
+      "question": "Why do pond animals often move to deeper water in cold weather?",
+      "options": [
+        "Deep water is always warmer than the surface, so the animals move down to it for the warmth",
+        "Deep water has more light for the plants, so the animals can feed there in winter",
+        "Deeper water stays cooler and more stable, and can stay close to 4 degrees Celsius under ice",
+        "Animals avoid the surface because of the shade from the trees and the cover above"
+      ]
+    },
+    {
+      "id": "NEW-POND-08-K03",
+      "question": "The pond surface has frozen. What is the correct response?",
+      "options": [
+        "Pour hot water on the ice to speed up the melting before the fish are harmed by the cold",
+        "Do not force or break the ice. Check the depth, record the condition, and follow the owner's plan",
+        "Break the ice with a hammer and remove the fish, since they need air now and cannot wait",
+        "Add salt to melt the ice quickly, which will be fast and simple to do on the spot"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electricity around water",
+      "url": "https://electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Search electricalsafety.qld.gov.au for 'electricity around water' and read the pumps, safety switch and cords sections. Publisher: Electrical Safety Office Queensland."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Electrical Safety Office Queensland, Electricity around water (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-U1 Garden pond product guide (uploaded file 8b16ba4a), sections on pond depth and hibernation, the density of water at about 4 degrees Celsius, aquarium heaters, and the frost rating of liners; general points only, no products named, and the product guide's depth and temperature figures are not used as targets; rights: reworded (no copying).",
+    "SRC-U3 Pond Management 2023 (uploaded file 628639e9), section on dissolved oxygen: warmer water holds less oxygen; rights: reworded (no copying).",
+    "SRC-U4 Pond Ecosystem (uploaded file e9711004), section on the value of shade and clean water; rights: reworded (no copying).",
+    "SRC-P4 Electrical Safety Office Queensland, Electricity around water, https://electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water, checked 2026-11-02, page shows no date. Used for the safety-switch and cords-out-of-water points.",
+    "pond-cleaning-L11 in this course, checked 2026-11-02: the bucket test for a falling water level.",
+    "UNCONFIRMED: climate zones and frost risk for Australian sites; the minimum depth for a garden pond in cold climates; state rules for pond heater installation; the method for keeping an opening in ice; feeding regimes in cold weather for each state.",
+    "Official references in officialReferences were read on 2026-11-03 (R1 to R1). The SRC entries above remain as the earlier source trail."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Check the current rule for each point on the official page listed above: Electrical Safety Office Queensland, Electricity around water (no date shown).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-15.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-01.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    }
+  ]
+}

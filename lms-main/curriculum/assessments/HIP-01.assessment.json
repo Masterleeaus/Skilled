@@ -1,0 +1,33 @@
+{
+  "lessonId": "HIP-01",
+  "knowledgeAnswers": [
+    {
+      "id": "HIP-01-K01",
+      "correctIndex": 1,
+      "rationale": "The learner cleans their own hands and reports the touch point so the facility can respond. Ignoring it, touching the surface bare-handed or confronting the visitor each fails the procedure."
+    },
+    {
+      "id": "HIP-01-K02",
+      "correctIndex": 0,
+      "rationale": "A tissue or the crook of the arm keeps droplets off the hands. The palm, uniform, sleeve and turn-away options all move droplets onto surfaces or clothing."
+    },
+    {
+      "id": "HIP-01-K03",
+      "correctIndex": 0,
+      "rationale": "Hand cleaning follows contact with respiratory secretions even when a bin was used. The other options skip hand cleaning or add a hazardous step."
+    }
+  ],
+  "practicalCriteria": [
+    "During a walk-through of a waiting area, the learner states the cough steps in order and names the bin used for tissues.",
+    "The learner demonstrates the report to a supervisor using a sample touch point and time."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Signed walk-through checklist",
+    "Sample shift record entry showing a correct report"
+  ],
+  "stopWorkCriteria": [
+    "A person with symptoms is in a care area and no supervisor is available to decide the next step",
+    "Tissues or hand cleaning products are missing and the area is in use"
+  ]
+}

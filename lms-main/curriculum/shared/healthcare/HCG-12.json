@@ -1,0 +1,138 @@
+{
+  "id": "HCG-12",
+  "title": "Checking cleaning quality without over-relying on sampling",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Quality, evidence and handover",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaning staff, team leaders and supervisors who check and sign off cleaning in healthcare areas.",
+  "prerequisites": [
+    "HCG-02",
+    "HCG-04"
+  ],
+  "learningOutcomes": [
+    "Describe the systems a healthcare facility uses to check cleaning standards.",
+    "Explain why a visual check does not confirm that a surface is free of organisms.",
+    "Give reasons why routine swabbing of the environment is not the usual method of verification."
+  ],
+  "instruction": [
+    {
+      "heading": "The systems that support checking",
+      "body": "A facility checks cleanliness through several channels: lists to tick off, colour-matched equipment to prevent crossover, cleaning handbooks, template outsourcing agreements, infection-control advice and ongoing oversight. Jurisdictional authorities may impose cleaning expectations on health sites, whether the work is outsourced or internal. This document does not explain those expectations; verify them locally."
+    },
+    {
+      "heading": "Visual checks and their limits",
+      "body": "Most cleaning audits rely on eyesight. The guideline notes that microbes are too small to see, so a surface that looks spotless can still carry them. Objective alternatives, including black-spot audits and tests that detect adenosine triphosphate, are under study and are not standard in most facilities."
+    },
+    {
+      "heading": "Why routine sampling is not used",
+      "body": "Sampling the environment for microorganisms has known limits. It detects only some organism types, the amount shed by patients varies, residual detergent or disinfectant can skew results, and sampling technique differs between people. These limits make results hard to read, so routine sampling is not recommended. It still has a place in specific situations, such as an outbreak or an unexplained infection, as one part of a wider risk approach."
+    },
+    {
+      "heading": "What a cleaner can check",
+      "body": "You can confirm that a surface looks clean and dry, leaves no film, that the right product and method were used, and that the record is complete. These checks matter, but they do not replace the schedule, the method or the supervisor's review."
+    }
+  ],
+  "procedure": [
+    "Walk the area with the checklist and tick each item as done, not done or not applicable.",
+    "Inspect each surface for visible dirt, film and dryness.",
+    "Confirm the product and method used on each surface match the schedule.",
+    "Record any surface that fell short and clean it again.",
+    "Note any situation where the facility's outbreak or organism instruction applies.",
+    "Hand the checklist to the supervisor and keep a copy on file."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor sees that a bathroom floor looks clean. The checklist shows it was cleaned with a disinfectant that the schedule does not list for that area.",
+      "decisionPrompt": "Is the floor's sign-off correct?",
+      "reasoning": "No. A clean appearance does not confirm the method. The product used must match the schedule, so the record should show the mismatch, and the floor should be cleaned again with the approved product."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Checklist or audit tool",
+    "Torch or good lighting for visual checks",
+    "Disposable gloves for any touch check"
+  ],
+  "commonErrors": [
+    {
+      "error": "Signing off an area on appearance alone.",
+      "prevention": "Verify the method and product, not only how the area looks."
+    },
+    {
+      "error": "Requesting routine environmental swabs to prove the cleaning worked.",
+      "prevention": "Routine sampling is not advised. Put a targeted request to the infection prevention team if an outbreak or unexplained infection calls for one."
+    },
+    {
+      "error": "Leaving a film on a surface because the checklist is ticked.",
+      "prevention": "Check for film and dryness, and clean again if any is found."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Touch checks use gloves, and must not be done on a surface that is still wet with a product.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Any state or territory cleaning standard that applies to your facility must be checked directly.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The checklist is completed for every item, with no blank lines.",
+    "Film and dryness are checked on each surface.",
+    "Failures are recorded and put right, then re-checked."
+  ],
+  "documentationEvidence": [
+    "Completed cleaning checklist with date, area and checker's name",
+    "Record of each failure found and the re-clean carried out"
+  ],
+  "summary": [
+    "Facilities use checklists, colour coding, manuals, contracts and monitoring to check cleaning.",
+    "A visual check cannot see organisms, so it is paired with a check of the method.",
+    "Routine microbiological sampling is not recommended; targeted sampling is a specific decision."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HCG-12-K01",
+      "question": "Why is a visual check alone not enough to confirm a surface is free of organisms?",
+      "options": [
+        "Because the surface is wet, so it looks clean.",
+        "Because microbes cannot be picked out by unaided sight.",
+        "Because the checklist was written for a different ward.",
+        "Because light cannot reach the surface in the room."
+      ]
+    },
+    {
+      "id": "HCG-12-K02",
+      "question": "Which drawback makes regular environmental microbe sampling unsuitable as a standing check?",
+      "options": [
+        "Because samples must be sent overseas for every test and the results take months to arrive",
+        "Because it has known limits, such as variable shedding and residual products, that make results hard to read.",
+        "Because it is illegal in healthcare settings and the results are kept secret from staff at all times",
+        "Because it reports results only once a year and the cost is paid by the staff each time it is done"
+      ]
+    },
+    {
+      "id": "HCG-12-K03",
+      "question": "When might environmental sampling still be useful?",
+      "options": [
+        "Every day, to fill in the checklist and to show the ward manager and the cleaning team each time",
+        "In particular circumstances, such as an outbreak or an unexplained infection, as one element of risk management.",
+        "Only at the close of the calendar year and only for the managers to review in the office each year",
+        "Every shift, as a routine check on all surfaces in every room, corridor, lift and waiting area"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, B1.4.2 (checking, auditing and environmental sampling); B1.5.3 (checking effectiveness of cleaning); rights: not held by user; reworded (no copying)",
+    "Source priority: the NHMRC guideline is an official Australian source. Where it conflicts with informal or in-house cleaning advice, the guideline governs the points this lesson relies on.",
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, edition note: the 2019 edition is the current edition (NHMRC, https://www.safetyandquality.gov.au/sites/default/files/2026-05/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf; CONFIRMED in the figures register, checked 2026-11-02); the uploaded copy read on 2026-11-02 is the 2010 edition, so points taken from it are UNCONFIRMED against the 2019 text. The existing aged-care and medical-equipment lessons cite the 2019 edition.",
+    "UNCONFIRMED: the Australian Standard test methods for cleaning effectiveness (AS 2945) named in the guideline. Its current status was not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

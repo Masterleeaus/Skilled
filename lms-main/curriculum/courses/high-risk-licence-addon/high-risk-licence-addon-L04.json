@@ -1,0 +1,108 @@
+{
+  "id": "high-risk-licence-addon-L04",
+  "title": "Scissor lifts and operator competency",
+  "courseSlugs": [
+    "high-risk-licence-addon"
+  ],
+  "moduleTitle": "Optional add-on: high-risk work and platform licences",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Workers and supervisors who may be asked to work at height or on a platform. Optional add-on, taken alongside the main courses.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "State where the WP licence does not apply to scissor lifts, as confirmed by an official page.",
+    "Explain why operator competency still applies to scissor lifts."
+  ],
+  "instruction": [
+    {
+      "heading": "Victoria",
+      "body": "WorkSafe Victoria's high risk work licence page indicates that scissor lifts do not need the WP licence (page reviewed 30 June 2026)."
+    },
+    {
+      "heading": "Northern Territory",
+      "body": "The Northern Territory bulletin says a high risk work licence is not required for scissor lifts (no date shown)."
+    },
+    {
+      "heading": "Competency still applies",
+      "body": "The same Northern Territory bulletin says the PCBU must ensure scissor lift operator competency so far as reasonably practicable (no date shown)."
+    },
+    {
+      "heading": "Limit of this lesson",
+      "body": "This lesson does not confirm the scissor lift rule for other states. Check the regulator for your state before using a scissor lift."
+    }
+  ],
+  "procedure": [
+    "Check the state rule on the regulator's page for scissor lifts.",
+    "Confirm the operator's competency before use, so far as is reasonably practicable.",
+    "Record the page date and the competency check."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A business uses a scissor lift in the Northern Territory and asks whether the operator needs the WP licence.",
+      "decisionPrompt": "What does the NT bulletin in this lesson support?",
+      "reasoning": "It supports that a high risk work licence is not required for scissor lifts, but it also says operator competency must be ensured so far as reasonably practicable. Competency is still a duty."
+    }
+  ],
+  "equipmentAndPpe": [
+    "None for this lesson (knowledge only)."
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating no licence as no duty.",
+      "prevention": "Competency checks still apply to scissor lift operators."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A scissor lift licence position does not remove the duty to confirm operator competency. This add-on grants no licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Learner states the licence position and the competency duty separately."
+  ],
+  "documentationEvidence": [
+    "Operator competency check recorded with the page date of the rule relied on."
+  ],
+  "summary": [
+    "Victoria and the Northern Territory do not require the WP licence for scissor lifts, per their pages.",
+    "Competency still applies."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "high-risk-licence-addon-L04-K01",
+      "question": "Which statement about scissor lifts is supported in this lesson?",
+      "options": [
+        "Scissor lifts need the boom-type WP licence in every state",
+        "Victoria's page indicates scissor lifts do not need the WP licence",
+        "Scissor lifts never need competency checks"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/high-risk-work-licence (Reviewed 30 June 2026; checked 2026-11-04)",
+    "https://worksafe.nt.gov.au/forms-and-resources/bulletins/elevating-work-platform-operation-licence-requirements (No date shown; checked 2026-11-04)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "High risk work licence (WorkSafe Victoria)",
+      "url": "https://www.worksafe.vic.gov.au/high-risk-work-licence",
+      "pageDate": "Reviewed 30 June 2026",
+      "checked": "2026-11-04",
+      "covers": "Names the boom-type elevating work platform operation licence class; states the class without a boom length; scissor lifts do not need the WP licence. Does not state whether the class applies at any boom length."
+    },
+    {
+      "id": "R2",
+      "title": "Elevating work platform operation licence requirements (WorkSafe NT bulletin)",
+      "url": "https://worksafe.nt.gov.au/forms-and-resources/bulletins/elevating-work-platform-operation-licence-requirements",
+      "pageDate": "No date shown",
+      "checked": "2026-11-04",
+      "covers": "WP licence where the boom length is 11 metres or more; scissor lifts do not need a high risk work licence; PCBU must ensure scissor lift operator competency so far as reasonably practicable."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

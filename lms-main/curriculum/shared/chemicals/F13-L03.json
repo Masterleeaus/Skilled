@@ -1,0 +1,172 @@
+{
+  "id": "F13-L03",
+  "title": "Correct dosing and dilution",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "base",
+  "lessonType": "C",
+  "estimatedMinutes": 25,
+  "audience": "Any worker or owner who measures and doses cleaning or maintenance products in any Titan Academy business.",
+  "prerequisites": [
+    "F03-L03"
+  ],
+  "learningOutcomes": [
+    "Dose products to the label concentration, so that cost and waste are controlled.",
+    "Explain how over-dosing and under-dosing both create cost, waste and quality problems.",
+    "Choose a dosing method that reduces waste and avoids unmeasured pouring."
+  ],
+  "instruction": [
+    {
+      "heading": "Why dosing controls cost",
+      "body": "Product cost on a job is driven by how much is used, not only by the price per litre. Over-dosing uses more product than the job needs, adds to waste and leaves residue that attracts soil and needs more rinsing. Under-dosing may not clean, so the job is repeated and the labour cost rises. Correct dosing is therefore a cost-reduction control and a quality control at the same time. The dilution on the label is the starting point, and the approved procedure may set a different concentration for a specific surface."
+    },
+    {
+      "heading": "Dosing methods",
+      "body": "Measure product with a graduated container or a dosing system where the business has one. Pour-by-eye is the most common source of error. Use the same measuring method each time, label the bucket or bottle with the dilution, and check the mix at the start of each job. Where a dispensing system is used, check it regularly for accuracy and leaks, and record the calibration or check where the procedure requires it. Do not top up a dilution with more concentrate to save time."
+    },
+    {
+      "heading": "Waste and rework",
+      "body": "Track the waste from over-mixing: a bucket made up for a job that is then thrown away. Mix only what is needed for the work area, and keep the rest in its labelled container. Repeated jobs caused by under-dosing or poor technique cost more than the product saved, and they can also reduce the customer's trust. Record any job that needs rework because of product or dosing issues, so the cause can be fixed."
+    }
+  ],
+  "procedure": [
+    "Confirm the dilution from the label or the approved procedure for the surface.",
+    "Measure the product with a graduated container or the approved dispensing system.",
+    "Label the mixed container with the product, dilution and date.",
+    "Mix only the volume needed for the work area, and keep the rest closed and labelled.",
+    "Check the dosing system for accuracy and leaks at the start of each shift.",
+    "Record any job that needs rework because of dosing or technique, and report the cause."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker has been adding product to the bucket until it 'looks strong enough', and the bucket is always refilled before the job is finished.",
+      "decisionPrompt": "What is the cost and quality problem?",
+      "reasoning": "Pour-by-eye causes over-dosing and inconsistent results. Introduce a graduated measure, label the bucket, and mix to the volume needed for the job. Record any rework to show the effect on cost and quality."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Graduated measuring container",
+    "Labelled dilution containers",
+    "Approved dispensing system where the business has one"
+  ],
+  "commonErrors": [
+    {
+      "error": "Topping up a dilution with more concentrate to save time.",
+      "prevention": "Mix a fresh dilution at the label strength instead of adding concentrate to an existing mix."
+    },
+    {
+      "error": "Mixing far more than the job needs.",
+      "prevention": "Mix for the work area and keep leftovers labelled and closed."
+    },
+    {
+      "error": "Not labelling a mixed container.",
+      "prevention": "Label every mix with the product, dilution and date."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A mixed product is a new preparation and must be handled according to the SDS and label of its ingredients. Labelling of decanted or mixed products must identify the product and its hazards, as WorkSafe Victoria states for decanted substances.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every dilution matches the label or the approved procedure.",
+    "Every mixed container is labelled with product, dilution and date.",
+    "Rework from dosing or technique is recorded with its cause."
+  ],
+  "documentationEvidence": [
+    "Dosing log or record of dispensing system checks where used.",
+    "Rework record with the job, the cause and the corrective action."
+  ],
+  "summary": [
+    "Correct dosing controls both cost and quality.",
+    "Measure, do not pour-by-eye, and mix only what the work needs.",
+    "Label every mix and record rework so the cause can be fixed."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F13-L03-K01",
+      "question": "A mix is too weak. What is the correct action?",
+      "options": [
+        "Mix a fresh dilution at the label strength.",
+        "Add concentrate to the existing bucket.",
+        "Use it again on a second surface to check the strength."
+      ]
+    },
+    {
+      "id": "F13-L03-K02",
+      "question": "Why should only the volume needed for the job be mixed?",
+      "options": [
+        "Because the label requires a fixed amount of the mix",
+        "To reduce waste and the risk of unlabelled leftovers.",
+        "Because a mix kept overnight keeps full strength for later"
+      ]
+    },
+    {
+      "id": "F13-L03-K03",
+      "question": "What does the lesson call the most common source of dosing error?",
+      "options": [
+        "Using a graduated container",
+        "Pour-by-eye",
+        "Labelling the bucket",
+        "Checking the mix at the start of each job"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/managing-hazardous-substances-and-irritants-hairdressing-and-beauty-industry (WorkSafe Victoria, reviewed 12/09/2025; checked 2026-11-02; decanted substance labelling)",
+    "Titan Academy base source draft F13-L03 is not in the ready set; written from research notes and the catalogue description. Cost figures are not stated because none are approved."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,33 @@
+{
+  "lessonId": "handyman-work-L06",
+  "knowledgeAnswers": [
+    {
+      "id": "handyman-work-L06-K01",
+      "correctIndex": 2,
+      "rationale": "A scorched or flickering point is a fault. The worker stops, keeps people clear, advises no use, records and refers. Opening the cover is not permitted for a non-licensed worker."
+    },
+    {
+      "id": "handyman-work-L06-K02",
+      "correctIndex": 3,
+      "rationale": "The NSW electrical page (last updated 23 June 2026) says a licence or certificate is needed for wiring work whatever the cost, with no dollar threshold."
+    },
+    {
+      "id": "handyman-work-L06-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson lists moving a switch among tasks that involve the fixed installation and are treated as referral."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated scorched power point, the worker stops work, keeps people clear, advises the occupant not to use it, and records the referral.",
+    "The worker reports the completed non-electrical work separately from the electrical referral in the completion record."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Referral note from the simulated scenario",
+    "Completion record showing the separate electrical referral"
+  ],
+  "stopWorkCriteria": [
+    "A scorched, warm or flickering point, or exposed conductor is found",
+    "The task touches fixed wiring and no written referral is in place"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-TMB-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-TMB-02-K01",
+      "correctIndex": 1,
+      "rationale": "Board type changes how a sander removes material, the sequence used and the dust produced, so it is identified before any machine is used."
+    },
+    {
+      "id": "NEW-TMB-02-K02",
+      "correctIndex": 2,
+      "rationale": "An unexplained patch next to a possibly painted skirting is a stop point for the pre-start assessment. A solvent test in a closed room and an exploratory sanding are both wrong."
+    },
+    {
+      "id": "NEW-TMB-02-K03",
+      "correctIndex": 0,
+      "rationale": "An unidentified species is recorded as unidentified. It is not guessed to fit a limit."
+    },
+    {
+      "id": "NEW-TMB-02-K04",
+      "correctIndex": 0,
+      "rationale": "Drilling or cutting can release dust and disturb hazardous material. The warranty distractor is not a stated reason in the lesson."
+    },
+    {
+      "id": "NEW-TMB-02-K05",
+      "correctIndex": 1,
+      "rationale": "A product name the client gives is client-reported information and must not be recorded as a confirmed fact."
+    }
+  ],
+  "practicalCriteria": [
+    "Candidate classifies at least three board samples by edge profile, end grain and width, and records each as identified.",
+    "Candidate records the existing finish using visual checks only, with no solvent test in an enclosed space.",
+    "Candidate identifies a patch of suspected paint or adhesive on a sample area and stops the simulated job for assessment.",
+    "Candidate records the client's product information as client-reported, with the source noted."
+  ],
+  "passRule": "Knowledge checks: at least 80% correct (4 of 5). Practical sign-off is separate. A knowledge pass does not establish practical competence, and the practical criteria must be observed and recorded by an assessor.",
+  "evidenceRequired": [
+    "Floor identification record with photos of board edges and finish",
+    "Client-information record with source and status marked",
+    "Assessor observation record of the simulated stop"
+  ],
+  "stopWorkCriteria": [
+    "Species stated as confirmed without a reliable source",
+    "Solvent test carried out in an enclosed room",
+    "Sanding started over an unexplained paint or adhesive mark"
+  ]
+}

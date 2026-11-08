@@ -1,0 +1,185 @@
+{
+  "id": "drug-contamination-remediation-L06",
+  "title": "Worker exposure prevention and PPE decisions",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Coordinators, supervisors and trained workers who may triage, refer, document or hand over work connected with suspected drug use, storage or manufacturing contamination. This lesson does not grant authority to enter, investigate, sample, decontaminate, transport, dispose of material or issue any clearance.",
+  "prerequisites": [
+    "drug-contamination-remediation-L05"
+  ],
+  "learningOutcomes": [
+    "Explain why PPE is chosen from a formal assessment and used by trained workers.",
+    "Stop the activity and follow the employer's procedure when exposure is suspected.",
+    "Refuse improvised protection and self-treatment beyond approved first-response steps."
+  ],
+  "instruction": [
+    {
+      "heading": "Worker exposure prevention and PPE",
+      "body": "Respirators, protective clothing, ventilation and entry controls depend on a formal assessment and on operators who have been trained to use them. A worker who chooses equipment from whatever is available, such as ordinary gloves or a disposable mask, has not met the requirement. The NHMRC healthcare guidance treats PPE as part of standard precautions, and this lesson applies that principle by analogy. Where an exposure is suspected, stop the activity, restrict access to the affected area and follow the employer's incident and medical referral procedure. The Victorian exposure guidance sets out a first response of removing contaminated clothing, washing the area, flushing mucous membranes, reporting immediately and arranging medical evaluation. Do not improvise protection and do not self-treat beyond the approved first-response steps."
+    }
+  ],
+  "procedure": [
+    "Confirm the assessment selects the PPE for the task and the zone.",
+    "Confirm each worker's training and fit before any entry.",
+    "Refuse any improvised protection.",
+    "If exposure is suspected, stop the activity and restrict access.",
+    "Follow the employer's incident and medical referral procedure.",
+    "Record the time, the people involved and the concern, and keep the record confidential."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker offers to enter a flat in ordinary gloves and a disposable mask.",
+      "decisionPrompt": "Can the worker enter?",
+      "reasoning": "No. The PPE is not selected by an assessment, and training and fit are not confirmed. The worker does not enter until the assessment and training are in place."
+    },
+    {
+      "situation": "A worker feels unwell after a visit and suspects exposure.",
+      "decisionPrompt": "What is the response?",
+      "reasoning": "Stop, restrict access, follow the employer's incident and medical referral procedure, and record the time and concern. The worker does not self-treat beyond approved first-response steps."
+    }
+  ],
+  "equipmentAndPpe": [
+    "PPE selected by the formal assessment for the specific task and zone.",
+    "Respirator program records and fit-check records where a respirator is used.",
+    "Training-only equipment for supervised practice."
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing PPE from what is available.",
+      "prevention": "PPE comes from the assessment and is used only after training."
+    },
+    {
+      "error": "Improvising protection with household items.",
+      "prevention": "Refuse. Use approved PPE only."
+    },
+    {
+      "error": "Continuing work after a possible exposure.",
+      "prevention": "Stop, restrict access and follow the medical referral procedure."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "PPE and respirator use are restricted to trained workers under the employer's respirator program. Completing this lesson gives no authority to use respiratory protection.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Victorian exposure guidance describes first-response steps after a blood or body-fluid exposure and says the exposure should be reported immediately. This lesson applies the principle, and the employer procedure governs the response for this work.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A safety-critical omission in this area prevents competency sign-off, whatever a test score shows.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every entry is preceded by a recorded PPE selection and a training check.",
+    "Every suspected exposure is stopped, restricted and referred."
+  ],
+  "documentationEvidence": [
+    "PPE selection record linked to the assessment.",
+    "Exposure concern record, kept confidential."
+  ],
+  "summary": [
+    "PPE is chosen by assessment and used by trained workers.",
+    "Improvised protection is refused.",
+    "A suspected exposure stops the work and starts the referral."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "drug-contamination-remediation-L06-K01",
+      "question": "A worker offers to enter a flat in ordinary gloves and a disposable mask. What is correct?",
+      "options": [
+        "Accept, because the worker is willing.",
+        "Refuse until the assessment selects the PPE and training and fit are confirmed.",
+        "Accept if the worker adds tape."
+      ]
+    },
+    {
+      "id": "drug-contamination-remediation-L06-K02",
+      "question": "A worker suspects an exposure. What should happen first?",
+      "options": [
+        "Continue the task and check later.",
+        "Treat it with a home remedy.",
+        "Stop the activity, restrict access and follow the employer's referral procedure."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "drug-contamination-remediation-lesson-01 to -12 instruction and research files and drug-contamination-remediation-assessments-pass72 (premium-07, passes 70 to 72); editorial drafts, not approved. Source notes state that no worker is authorised for clandestine-laboratory remediation on the basis of this material; rights: reworded (no copying).",
+    "HR03-drug-contamination-remediation.json, course bundle instruction sections 1 to 12 (read this pass); rights: reworded (no copying).",
+    "UNCONFIRMED: state and territory licensing, environmental, waste, tenancy and privacy requirements for drug-contamination work. Not checked for each state and territory in this pass.",
+    "UNCONFIRMED: police and emergency-services referral arrangements in each state and territory, beyond the WA Police reporting route on the WA page.",
+    "UNCONFIRMED: numerical contamination thresholds for any premises type in any jurisdiction. No value is given in the learner text, and the WA page refers to health investigation levels without stating values in the text read.",
+    "Reference only, not Australian rules: US EPA voluntary guidance for methamphetamine and fentanyl laboratory cleanup; New Zealand tenancy rules and NZS 8510 (under revision); New Zealand Ministry of Housing and Urban Development and Kainga Ora material. These were not read in this pass, and no Australian equivalent is confirmed (UNCONFIRMED).",
+    "UNCONFIRMED: general technical principles on contamination routes, cross-transfer and sample representativeness. These follow the source bundle and are not confirmed against an official page in this pass.",
+    "drug-contamination-remediation-lesson-06 and HR03 section 6; checked 2026-11-03.",
+    "NHMRC section 2.2 read 2026-11-03.",
+    "Victorian exposure guidance read via WebFetch on 2026-11-03."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Testing and remediation of methylamphetamine and illicit drug residues",
+      "url": "https://www.health.wa.gov.au/Articles/S_T/Testing-and-remediation-of-meth-and-illicit-drug-residues",
+      "pageDate": "Last reviewed 21-05-2026 (no published or updated date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Describes a best-practice sequence: preparation, screening and detailed sample testing, a remediation action plan, clean-up, validation testing, and sample, clean-up and validation reports. Aim: residue below levels posing a risk to health and below the relevant health investigation level for the drug. Recommends that the company validating contamination differs from the clean-up company. Says testing and remediation companies need the necessary competencies and ethical standards. The page does not mention a licence or insurance requirement. Publisher: WA Department of Health."
+    },
+    {
+      "id": "R2",
+      "title": "Clandestine drug laboratories and cleaning contamination",
+      "url": "https://www.health.wa.gov.au/articles/a_e/clandestine-drug-laboratories-and-cleaning-contamination",
+      "pageDate": "Last reviewed 22-05-2026 (no published or updated date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, at this health.wa.gov.au address. Says manufacturing sites are the highest-risk type; occupants and the public should not enter or attempt cleaning themselves; use qualified environmental professionals, and a testing and validation company separate from the clean-up company; test, remediate where residues exceed health investigation levels, then re-test and validate; keep records; check home insurance before arranging cleaning; report suspected drug manufacturing to WA Police. Publisher: WA Department of Health. Western Australian guidance only."
+    },
+    {
+      "id": "R1-2",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. The PCBU must protect workers and others so far as reasonably practicable; hazards are eliminated where possible and otherwise minimised; for certain hazards a hierarchy of control applies (the page does not list its levels); duties cannot be contracted out. The page does not cover trauma cleaning, waste or PPE rules. Publisher: Safe Work Australia. The state or territory regulator confirms the adopted law."
+    },
+    {
+      "id": "R2-2",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019)",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "publication date May 2019 (front matter); copyright 2019",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, first 100,000 of 133,773 characters only. Read: section 2.2 (standard precautions apply to all people), section 3.1.2 recommendations 7 and 8 (sharps handled minimally, never recapped, bent or broken, disposed of at point of use in an approved container not filled past its maximum fill line), section 3.1.3 recommendation 12 (spill response with gloves and protective equipment, containment, absorbent removal, detergent cleaning). Healthcare-setting guidance, applied here by analogy. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R4",
+      "title": "Managing exposures to blood and body fluids or substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-exposures-to-blood-and-body-fluids-or-substances",
+      "pageDate": "Updated 8 October 2015",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. First response: remove contaminated clothing, wash with soap and water, flush mucous membranes, rinse eyes gently, report immediately; remove from duty and carry out a risk assessment; medical evaluation with post-exposure prophylaxis where appropriate; document date, time, type and circumstances. Victorian guidance only. The page shows its last update as 2015."
+    },
+    {
+      "id": "R5",
+      "title": "Cleaning and waste disposal procedures for infection control",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/cleaning-and-waste-disposal-procedures-infection-control",
+      "pageDate": "Updated 14 December 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Three waste groups (general, clinical, pharmaceutical); clinical waste in biohazard bags shown as yellow; sharps into containers that meet the Australian and New Zealand standards named on the page; clinical and pharmaceutical waste collected by waste companies licensed by the EPA and taken to EPA-licensed facilities. Victorian guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a property, investigate it, collect or test any sample, carry out decontamination or remediation, transport or dispose of waste, or issue any clearance, certificate or statement that a property is free of contamination. Completing this lesson does not give a licence, certificate, approval or authority. Investigation, sampling, remediation and clearance are restricted work for suitably qualified and, where required, licensed professionals acting under a written plan. Police, regulatory and other official authority may control a site, and their release must be obtained in writing where it applies. Owner, manager, tenant or insurer permission does not replace it. In every case, stop and refer if the authority, the hazard or the qualification is uncertain."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever any of these is true: the authority or written release is missing or unclear; the hazard is unknown; a suspected laboratory or manufacturing activity is evident; anyone may have been exposed; a sample, test or result has no documented plan or custody; the PPE has not been approved; a waste route is unlicensed; a party asks for a clearance, a zero-contamination statement or disclosure of personal information; or the applicable jurisdiction is unknown. Stopping is a correct professional decision. Record it, and restart only when the authority has confirmed the scope in writing."
+  }
+}

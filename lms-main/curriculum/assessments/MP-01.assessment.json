@@ -1,0 +1,39 @@
+{
+  "lessonId": "MP-01",
+  "knowledgeAnswers": [
+    {
+      "id": "MP-01-K01",
+      "correctIndex": 1,
+      "rationale": "Records of what customers bought and how often they booked come first. Buying a list or choosing a newspaper first skips the data step the lesson requires."
+    },
+    {
+      "id": "MP-01-K02",
+      "correctIndex": 1,
+      "rationale": "A dated figure from another country can show a method, but it must be labelled, because it does not describe today's local market."
+    },
+    {
+      "id": "MP-01-K03",
+      "correctIndex": 3,
+      "rationale": "The three tests are need, ability to pay and reachability. The overall size of a group nationally is not a test; the lesson sizes segments separately."
+    },
+    {
+      "id": "MP-01-K04",
+      "correctIndex": 3,
+      "rationale": "The patterns section says to sort the rows by booking frequency and then by total value."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied list of 30 anonymised customer rows, the learner sorts them into at least two candidate segments using at least three fields, and the assessor finds each row in the group the learner gave it.",
+    "The learner writes a profile for each kept segment that names the recurring need, the value the customer places on the service and the reason to choose the business, with no unsourced figure in the profile.",
+    "The learner calculates a supplied compound growth rate and states the source, country and year of each input figure."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off stays separate. A quiz pass is not verified practical competence.",
+  "evidenceRequired": [
+    "Segment sheet with source and date for every count",
+    "Written profile for each kept segment",
+    "Assessor observation of the sorting task"
+  ],
+  "stopWorkCriteria": [
+    "Stop collecting any personal field the job does not need until privacy obligations have been checked."
+  ]
+}

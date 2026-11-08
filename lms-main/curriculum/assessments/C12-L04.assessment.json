@@ -1,0 +1,37 @@
+{
+  "lessonId": "C12-L04",
+  "knowledgeAnswers": [
+    {
+      "id": "C12-L04-K01",
+      "correctIndex": 0,
+      "rationale": "Damage is recorded with its location and reported. The cleaner does not repair it, and hiding it creates a false record."
+    },
+    {
+      "id": "C12-L04-K02",
+      "correctIndex": 1,
+      "rationale": "A found item is recorded, secured and passed through the approved return route. The cleaner does not keep it or hand it to whoever is nearby."
+    },
+    {
+      "id": "C12-L04-K03",
+      "correctIndex": 2,
+      "rationale": "The record states what was found. Attribution is left to the coordinator and the property manager, so the cleaner does not name a guest."
+    }
+  ],
+  "practicalCriteria": [
+    "Records a simulated damaged fitting with location, description, time and photograph reference, without repairing it.",
+    "Records and secures a simulated found item with a matching reference, and passes it through the approved route with a handover record.",
+    "Makes a simulated broken-glass hazard safe, without handling the glass with bare hands, and reports it.",
+    "Keeps the record free of attribution statements and of any opinion about the guest."
+  ],
+  "passRule": "Damage and found item recorded correctly, nothing repaired, kept or hidden, hazard made safe, and no attribution in the record. Observed in a supervised simulation. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Damage record",
+    "Lost-property record and handover record"
+  ],
+  "stopWorkCriteria": [
+    "Damage repaired by the cleaner",
+    "Found item kept by the cleaner",
+    "Broken glass handled with bare hands",
+    "Record names a guest as the cause"
+  ]
+}

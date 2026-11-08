@@ -1,0 +1,36 @@
+{
+  "lessonId": "PSA-06",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-06-K01",
+      "correctIndex": 1,
+      "rationale": "Section 6.3 and table 7: approval covers indoor pools with capacity up to 500,000 litres."
+    },
+    {
+      "id": "PSA-06-K02",
+      "correctIndex": 1,
+      "rationale": "Section 6.3: UV leaves no residual, so hydrogen peroxide is used with UV to provide residual disinfection."
+    },
+    {
+      "id": "PSA-06-K03",
+      "correctIndex": 1,
+      "rationale": "Section 6.3.1 and table 7: peroxide has a floor of 40 mg/L."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied indoor pool, confirms approval, capacity and UV unit status before testing.",
+    "Measures hydrogen peroxide, pH plus total alkalinity, and records whether each is in range against the standard.",
+    "Escalates a supplied scenario with a shutdown or low peroxide without treating the pool as compliant."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed UV system check record for the assessed pool",
+    "Shutdown or escalation record in a supplied scenario",
+    "Assessor observation of the peroxide test and PPE use"
+  ],
+  "stopWorkCriteria": [
+    "UV unit not running or in alarm: escalate and keep the pool closed until the operator confirms the unit runs.",
+    "Hydrogen peroxide below 40 mg/L: do not treat the pool as compliant; escalate.",
+    "Electrical fault in the UV housing: isolate, do not open live equipment, and escalate to a licensed electrician."
+  ]
+}

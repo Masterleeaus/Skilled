@@ -1,0 +1,48 @@
+{
+  "lessonId": "roof-cleaning-soft-washing-L08",
+  "knowledgeAnswers": [
+    {
+      "id": "roof-cleaning-soft-washing-L08-K01",
+      "correctIndex": 1,
+      "rationale": "A label is not a safety data sheet, and a supplier's photograph does not approve a product. The product is held, the current SDS is requested, and nothing is applied until the SDS has been reviewed. Option 0 relies on the label, option 2 relies on client approval, and option 3 is an application."
+    },
+    {
+      "id": "roof-cleaning-soft-washing-L08-K02",
+      "correctIndex": 2,
+      "rationale": "Products are not mixed unless the label, the SDS and the authorised method all allow it, because the SDS names materials to keep apart. Both products being sold for cleaning, rinsing afterwards and an operator's on-the-day judgement are not grounds for mixing."
+    },
+    {
+      "id": "roof-cleaning-soft-washing-L08-K03",
+      "correctIndex": 1,
+      "rationale": "The Safe Work Australia guidance says an SDS must be reviewed and updated at least every five years and must show its last review date. The worker checks that date and that the SDS is the current version. Manufacture date, the last job or a bottle cap are not the relevant dates."
+    },
+    {
+      "id": "roof-cleaning-soft-washing-L08-K04",
+      "correctIndex": 2,
+      "rationale": "The exposure boundary is set on the plan from the authorised method and the SDS, and it covers everything that could be affected, including people, pets, plants, vehicles, water features and drains. A wash-area-only boundary, a fence-line-only boundary or a boundary chosen on the day each miss features that could be affected."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a paper job pack with three products and SDS extracts, the learner records for each product whether it is held or approved, with the SDS version and review date stated.",
+    "The learner marks an exposure boundary on a sample site plan that includes a swimming pool or water tank, drains, plants and parked vehicles, and names the people to be informed.",
+    "For one product on the pack, the learner states the PPE, the first-aid instruction and the spill response from the SDS, and identifies at least one item the SDS does not cover that must be checked with the decision owner.",
+    "The learner records a no-mixing decision for two products on the pack, giving a reason taken from the label or SDS, and holds the question for the decision owner."
+  ],
+  "passRule": "Knowledge: all four checks correct. Practical: each of the four observable criteria met on the paper pack, with zero critical safety failures, confirmed by an assessor. A pass on the paper exercise is not verified chemical competence and does not authorise any application.",
+  "evidenceRequired": [
+    "Product register with SDS version, review date and approval status for each product",
+    "Copy of each SDS used in the exercise, with the date obtained",
+    "Site plan showing the exposure boundary, the features within it and the run-off path",
+    "Hold or approval record for each product, with the request, the reply and the decision owner"
+  ],
+  "stopWorkCriteria": [
+    "Authorises roof access, elevated work or climbing without competent approval",
+    "Ignores a fragile surface, skylight, electrical hazard or exposure to the public",
+    "Specifies unsanctioned chemical application, pressure settings or environmental discharge",
+    "Claims roof safety, compliance or specialist clearance without verified authority",
+    "Treats a label, a verbal description or a supplier's photograph as an SDS",
+    "Mixes or dilutes products, or tests a product on a surface, outside an approved method",
+    "Sets no exposure boundary, or leaves people, pets or drains inside it",
+    "Allows run-off to reach a drain, pond or garden without a control"
+  ]
+}

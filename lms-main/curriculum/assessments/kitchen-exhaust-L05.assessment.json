@@ -1,0 +1,35 @@
+{
+ "lessonId": "kitchen-exhaust-L05",
+ "knowledgeAnswers": [
+  {
+   "id": "kitchen-exhaust-L05-K01",
+   "correctIndex": 2,
+   "rationale": "Unprotected access at height is held and referred."
+  },
+  {
+   "id": "kitchen-exhaust-L05-K02",
+   "correctIndex": 0,
+   "rationale": "It keeps the evidence basis of each statement clear."
+  },
+  {
+   "id": "kitchen-exhaust-L05-K03",
+   "correctIndex": 1,
+   "rationale": "Missing access, authority or competence is a hold condition."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies the access route, fall protection and authority in a fictional survey plan.",
+  "Holds a simulated task where access is unprotected.",
+  "Completes a dated hold record with the referral owner named."
+ ],
+ "passRule": "Access and authority checked, task held where unsafe, and record complete. Observed in a desk exercise. Not a survey or certification.",
+ "evidenceRequired": [
+  "Fictional access plan",
+  "Hold record"
+ ],
+ "stopWorkCriteria": [
+  "Unprotected roof-edge access used",
+  "Survey started without authority",
+  "Duct access attempted"
+ ]
+}

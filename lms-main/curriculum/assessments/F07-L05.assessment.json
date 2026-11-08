@@ -1,0 +1,35 @@
+{
+ "lessonId": "F07-L05",
+ "knowledgeAnswers": [
+  {
+   "id": "F07-L05-K01",
+   "correctIndex": 1,
+   "rationale": "Exposed wiring is electrical work outside cleaning scope and is reported."
+  },
+  {
+   "id": "F07-L05-K02",
+   "correctIndex": 2,
+   "rationale": "The record describes the work and inspection, not an unsupported claim."
+  },
+  {
+   "id": "F07-L05-K03",
+   "correctIndex": 0,
+   "rationale": "Liquid near energised parts is a shock and damage hazard."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies the authorised appliance parts and exclusions from a mock work order.",
+  "Finds at least seven of eight seeded defects and recognises one out-of-scope appliance hazard.",
+  "Produces a privacy-safe closeout note that does not overstate the service."
+ ],
+ "passRule": "Boundary identified, at least seven of eight defects found, out-of-scope hazard escalated, and closeout note accurate. Observed by an assessor. Not a licence.",
+ "evidenceRequired": [
+  "Closeout checklist",
+  "Escalation record"
+ ],
+ "stopWorkCriteria": [
+  "Electrical panel opened or fixed service disconnected",
+  "Gas equipment dismantled",
+  "Liquid sprayed into a control or socket"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "lessonId": "PVB-01",
+  "knowledgeAnswers": [
+    {
+      "id": "PVB-01-K01",
+      "correctIndex": 1,
+      "rationale": "VBA note (2018), section on when a barrier is needed: pools and spas deeper than 300 mm need a complying barrier."
+    },
+    {
+      "id": "PVB-01-K02",
+      "correctIndex": 1,
+      "rationale": "VBA note (2018), scope section: fish ponds, fountains and birdbaths are left out, along with the other listed exclusions."
+    },
+    {
+      "id": "PVB-01-K03",
+      "correctIndex": 1,
+      "rationale": "VBA note (2018), definitions: the pool zone is the walled-off part around the water, and the entire parcel does not qualify."
+    }
+  ],
+  "practicalCriteria": [
+    "For a supplied list of features, sorts each as inside or outside the rule and records the reason from depth and use.",
+    "Identifies the pool zone in a supplied site description as its own enclosed area and says why the whole lot does not qualify."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Scope record for the assessed site",
+    "Assessor review of the classification"
+  ],
+  "stopWorkCriteria": [
+    "Pool or spa deeper than 300 mm with no complying barrier: stop work on the water and escalate.",
+    "Scope uncertain: stop and confirm with the building surveyor before proceeding."
+  ]
+}

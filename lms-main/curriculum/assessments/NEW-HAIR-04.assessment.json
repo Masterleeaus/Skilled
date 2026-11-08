@@ -1,0 +1,42 @@
+{
+  "lessonId": "NEW-HAIR-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-HAIR-04-K01",
+      "correctIndex": 2,
+      "rationale": "The NSW position is that hairdressing is regulated under the skin penetration rules only when the work deliberately breaks the skin. The NSW page is dated 10 August 2023, and it does not settle the position in other states."
+    },
+    {
+      "id": "NEW-HAIR-04-K02",
+      "correctIndex": 2,
+      "rationale": "The rash is a skin condition. The WA guideline advises a general practitioner referral, and the business procedure decides on postponement. The trim over the rash is postponed and the decision recorded."
+    },
+    {
+      "id": "NEW-HAIR-04-K03",
+      "correctIndex": 2,
+      "rationale": "A service outside the approved list is reviewed for scope and hygiene before it is offered. A higher price does not replace the review."
+    },
+    {
+      "id": "NEW-HAIR-04-K04",
+      "correctIndex": 0,
+      "rationale": "The WA guideline requires hand hygiene before and after each client at mobile locations. The other options are not the guideline's requirement."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated mobile location, the barber checks hand washing, the treatment area, the sharps container and the wastewater arrangement before the first client, and records the check",
+    "Given a simulated client with a rash and a request for a neck trim, the barber postpones the trim, records the referral and the reason, and does not make a medical claim",
+    "Given a simulated premium service not on the approved list, the barber states that the service must be reviewed for scope and hygiene before it is offered"
+  ],
+  "passRule": "Knowledge checks: 3 of 4 correct (75%). Practical sign-off is separate and is not granted by the knowledge check: an assessor must observe every practical criterion and record it. A reading or quiz pass is never presented as verified practical competence.",
+  "evidenceRequired": [
+    "Set-up check record for the simulated location",
+    "Consultation and skin-check record for the simulated client, with the decision and reason",
+    "Approved service list showing the premium service as under review"
+  ],
+  "stopWorkCriteria": [
+    "A tool is used on broken or irritated skin without a recorded decision",
+    "A service is offered that is not on the approved list",
+    "A medical claim is made about a skin product",
+    "A mobile service starts without hand washing, a suitable treatment area or a wastewater arrangement"
+  ]
+}

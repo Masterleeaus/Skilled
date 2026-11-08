@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-equipment-cleaning-L07",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L07-K01",
+   "correctIndex": 2,
+   "rationale": "Cleaning removes visible soil from the outside. Reprocessing is a validated set of steps for re-use and is outside this course. Options 0 and 2 treat the two as the same activity."
+  },
+  {
+   "id": "medical-equipment-cleaning-L07-K02",
+   "correctIndex": 0,
+   "rationale": "Single-use devices must not be reused. Used items are left as found and escalated under the facility procedure. A wipe or return to stock is not an acceptable action."
+  },
+  {
+   "id": "medical-equipment-cleaning-L07-K03",
+   "correctIndex": 1,
+   "rationale": "Reprocessing authority is written and held by named staff. Seniority and verbal requests do not confer it. A partial wipe is still an unauthorised reprocessing step."
+  }
+ ],
+ "practicalCriteria": [
+  "Given three request cards, the learner classifies each as reprocessing or outside role, and states the escalation step for each without starting any reprocessing step.",
+  "Given an item that appears to need reprocessing in a simulation, the learner leaves it as found, makes the area safe, and names the escalation contact.",
+  "The learner completes a record of a stopped request with item, location, requester, time and recipient."
+ ],
+ "passRule": "Practical competence requires facility-observed assessment against the criteria above. A pass on the knowledge checks is not practical competence.",
+ "evidenceRequired": [
+  "Signed classification sheet for three request cards",
+  "Observation note of the stop-and-escalate response in simulation",
+  "Completed record of a stopped reprocessing request"
+ ],
+ "stopWorkCriteria": [
+  "Learner performs any reprocessing, disinfection for re-use, sterilisation or internal cleaning of a reusable device",
+  "Learner returns a used single-use device to stock or reuses it",
+  "Learner moves an item that needs reprocessing to clean stock without escalation"
+ ]
+}

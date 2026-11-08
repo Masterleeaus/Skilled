@@ -1,0 +1,129 @@
+{
+  "id": "CGC-02",
+  "title": "Standard precautions and hand cleaning during personal care",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Caregiving: infection control (no course slug assigned)",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Caregivers, support workers and supervisors who provide direct personal care",
+  "prerequisites": [
+    "CGC-01"
+  ],
+  "learningOutcomes": [
+    "Explain standard precautions and why they apply to every person",
+    "Choose between soap and water and an alcohol-based rub using the visible-soil test",
+    "Apply the five moments for cleaning hands during a personal-care visit"
+  ],
+  "instruction": [
+    {
+      "heading": "Standard precautions apply to every person",
+      "body": "Standard precautions are the baseline controls used for every person, whatever their diagnosis. The reasoning is that many body substances and surfaces can carry microbes, so the same baseline applies to everyone. Hand hygiene is a core control. Equipment and surfaces that may have been in contact with fluids from the body must also be handled so that spread is stopped."
+    },
+    {
+      "heading": "Two kinds of microbes, and the visible-soil test",
+      "body": "Hands carry two groups of skin microbes. Transient microbes sit on the surface, pass easily to others and to surfaces, and are removed by washing or by an alcohol-based rub. Resident microbes live deeper in the skin and are not removed easily by routine washing; they matter mainly during invasive procedures. When hands look dirty, wash them using soap and water, because a rub is not a substitute in that case."
+    },
+    {
+      "heading": "The five moments",
+      "body": "The five moments set out the points at which hands need cleaning: before touching a person; before a clean or aseptic task; after a risk of body fluid exposure and after removing gloves; after touching a person; and after touching the person's surroundings when you leave. The source credits this model to WHO."
+    }
+  ],
+  "procedure": [
+    "Before each direct contact, check your hands and clean them at the first moment.",
+    "Where hands look dirty, use soap and water; where they look clean, an alcohol-based rub will do.",
+    "After any body fluid exposure, clean hands after removing gloves.",
+    "Clean hands as you leave the client and their surroundings.",
+    "Record any missed moment and review it at the next team check."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A carer helps a client with toileting, then removes gloves and prepares a meal in the same kitchen.",
+      "decisionPrompt": "At which moments must hand hygiene happen?",
+      "reasoning": "Clean hands after removing the gloves used for the toileting task, before handling food, and before any later contact with the client. The food step is a separate hygiene task, covered in the personal protective equipment and hygiene lesson."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Soap, water and paper towels",
+    "Hand sanitiser containing alcohol",
+    "Gloves for the task, which do not replace hand hygiene"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using an alcohol-based rub on dirty hands",
+      "prevention": "Wash using soap and water when hands look dirty."
+    },
+    {
+      "error": "Treating gloves as a replacement for hand hygiene",
+      "prevention": "Clean hands before putting on gloves and after taking them off."
+    },
+    {
+      "error": "Forgetting the exit moment after touching surroundings",
+      "prevention": "Make the exit moment a routine step at the door."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Hand hygiene is a core control; gloves do not replace it.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Local infection control guidance for care settings applies in addition to this lesson.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Hands are cleaned at each moment observed in a visit",
+    "The product choice matches the visible-soil state",
+    "Any missed moment is recorded"
+  ],
+  "documentationEvidence": [
+    "Hand hygiene observation record",
+    "Missed-moment record with follow-up"
+  ],
+  "summary": [
+    "Standard precautions apply to everyone.",
+    "Visible dirt means washing; otherwise a rub may be used.",
+    "Clean hands at the five moments."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "CGC-02-K01",
+      "question": "Which statement matches this lesson on hand hygiene?",
+      "options": [
+        "Gloves replace hand hygiene for the whole shift",
+        "Hand hygiene is still needed when gloves are worn",
+        "Hand hygiene is only needed in theatres and clinics"
+      ]
+    },
+    {
+      "id": "CGC-02-K02",
+      "question": "When hands look dirty, the lesson says:",
+      "options": [
+        "Use an alcohol-based rub only",
+        "Clean them using soap and water",
+        "Wipe them with a dry towel"
+      ]
+    },
+    {
+      "id": "CGC-02-K03",
+      "question": "Which of these is a named moment in the five-moments model?",
+      "options": [
+        "Before touching a person",
+        "Only at shift end",
+        "After the lunch break only"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Common competency caregiving learner guide (57359f07-706996033-common-competency-caregiving.txt), Philippine TESDA-style CBLM, Quality Care Training Center, Sorsogon City; not an Australian national unit; practice content only, Central Principles of Infection Control: Hand Hygiene (five moments, transient and resident flora) and self-check 1.1-1; rights: user-held; reworded (no copying)",
+    "WHO five moments attribution: UNCONFIRMED; not checked on 2026-11-02"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

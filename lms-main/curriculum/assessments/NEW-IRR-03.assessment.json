@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-IRR-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-IRR-03-K01",
+      "correctIndex": 0,
+      "rationale": "A wet area near the meter with pressure drop across zones suggests a supply-side leak. The technician isolates the zone if allowed, does not work on the meter, and refers the fault."
+    },
+    {
+      "id": "NEW-IRR-03-K02",
+      "correctIndex": 1,
+      "rationale": "The approved service-locating check comes before excavation. Unexpected services are reported and digging stops until their location and status are confirmed."
+    },
+    {
+      "id": "NEW-IRR-03-K03",
+      "correctIndex": 2,
+      "rationale": "Isolating the zone valve stops the water quickly. The technician then decides whether the repair is zone-side and in scope, or referred."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied mock zone system with a simulated leak, the learner locates the leak on the zone map and isolates the zone valve within the assessor's set time, confirming the water has stopped.",
+    "Given a supplied scenario card describing a supply-side leak, the learner writes a referral that states the location, symptoms and the next step, without attempting the repair.",
+    "The learner states the service-locating step they would follow before a supplied mock excavation and stops the simulated excavation at the assessor's unexpected-service card."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Leak location and isolation record for the mock system, signed by the assessor.",
+    "Referral note for the supplied supply-side scenario.",
+    "Assessor observation record of the service-locating step."
+  ],
+  "stopWorkCriteria": [
+    "Working on the mock meter, backflow device or supply connection during the assessment.",
+    "Excavating after an unexpected service card has been presented.",
+    "Leaving a simulated zone running after the leak has been identified."
+  ]
+}

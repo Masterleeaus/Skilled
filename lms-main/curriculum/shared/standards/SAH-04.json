@@ -1,0 +1,135 @@
+{
+  "id": "SAH-04",
+  "title": "Concentration, contact time and when to change a cleaning solution",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Cleaners, supervisors and contractors who mix or apply detergents and disinfectants in SA healthcare facilities",
+  "prerequisites": [
+    "F03-L03",
+    "HCG-08"
+  ],
+  "learningOutcomes": [
+    "Explain why both concentration and contact time affect cleaning outcomes",
+    "Decide when a cleaning solution must be replaced",
+    "Distinguish a detergent clean from a disinfectant clean"
+  ],
+  "instruction": [
+    {
+      "heading": "Detergent or disinfectant",
+      "body": "A detergent lifts soil and organic matter, and most hard surfaces are cleaned well with warm water with a pH-neutral detergent, used as the maker instructs. A disinfectant destroys or neutralises most infective germs, but it should not serve as a general cleaner unless the product is a combined detergent and disinfectant. Two approaches exist. A two-step clean uses a detergent clean followed by a disinfectant. A two-in-one clean uses a single product that combines both and relies on mechanical action. Some chlorine products must be rinsed off after the contact time, which adds a step."
+    },
+    {
+      "heading": "Concentration and contact time",
+      "body": "Under-strength mixes may fail to kill microorganisms reliably. A solution stronger than the label allows wastes product, can harm fittings and fixtures, and creates a workplace risk, so stronger is not safer. Make the solution to the label dilution and water temperature. Contact time is how long the product must stay wet on the surface to work; wiping early cuts its effect. Read every claim carefully. A label may say a product kills a named organism in its ordinary form while the spore form needs a different approach. The facility's infection control coordinators approve products and their claims."
+    },
+    {
+      "heading": "When to replace a solution",
+      "body": "Solutions pick up contamination during use, and carrying it onto clean surfaces spreads microorganisms. Replace the solution on the manufacturer's schedule. Replace it sooner if the area is heavily soiled, or if the solution looks dirty, and straight after a bodily fluid spill has been cleaned. Do not add fresh product to old solution to stretch it."
+    }
+  ],
+  "procedure": [
+    "Find the approved product and read its label and SDS before mixing.",
+    "Measure the dilution with a dispenser or measuring device, not by eye.",
+    "Mix in a ventilated area and label the container with the product, dilution, date and time.",
+    "Apply the product and keep the surface wet for the full contact time before wiping or rinsing.",
+    "Rinse where the label or a chlorine product requires it.",
+    "Replace the solution on schedule, when it looks dirty, and after any spill clean.",
+    "Dispose of unused solution as the SDS directs."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner doubles the dose of a disinfectant 'to be safe', then wipes a bathroom immediately after applying it.",
+      "decisionPrompt": "What is wrong, and what should happen instead?",
+      "reasoning": "The dose is above the label, which wastes product, may damage surfaces and creates a workplace risk. Wiping at once cuts the contact time, so disinfection cannot be relied on. The correct action is to remake the solution to the label, keep the surface wet for the full contact time, and label the container."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Product label and SDS",
+    "Measuring device or dispenser",
+    "Labelled containers",
+    "Gloves suited to the chemical",
+    "Eye protection where splashing is possible"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a stronger solution cleans better",
+      "prevention": "Match the label dilution exactly."
+    },
+    {
+      "error": "Wiping before the contact time has ended",
+      "prevention": "Time the contact period from the moment the surface is wet."
+    },
+    {
+      "error": "Using one solution for a whole floor or a whole ward",
+      "prevention": "Change the solution on schedule, when dirty, and after spills."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Keep the SDS on site for every product in use, and know its storage and first-aid requirements before opening a container.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Alcohol is not an accepted choice for cleaning bodily fluid spills under this standard.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chlorine products may need a rinse after contact time, and can bleach some fabrics. Check the label first.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner explains why both strength and contact time matter",
+    "The learner states at least three triggers for replacing a solution"
+  ],
+  "documentationEvidence": [
+    "Labelled container record with product, dilution, date and time",
+    "Record of solution changes in the area log"
+  ],
+  "summary": [
+    "Stronger is not safer: match the label",
+    "Keep the surface wet for the full contact time",
+    "Replace solutions when dirty, after heavy contamination and after a spill"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SAH-04-K01",
+      "question": "A label gives a dilution. A cleaner doubles the dose to be safe. What is the most accurate outcome?",
+      "options": [
+        "Better disinfection with no other effect and it is faster to use",
+        "Wasted product, possible surface damage and a workplace risk",
+        "Faster drying with no risk and no product is wasted at all"
+      ]
+    },
+    {
+      "id": "SAH-04-K02",
+      "question": "Beyond the scheduled change, when must a cleaning solution be replaced?",
+      "options": [
+        "Only at the end of the shift when the bucket is empty and dry and cold",
+        "When it looks dirty, after a heavily contaminated area, and after a bodily fluid spill",
+        "Whenever the bucket is refilled from the tap and the staff are happy with it"
+      ]
+    },
+    {
+      "id": "SAH-04-K03",
+      "question": "Which statement about contact time is correct?",
+      "options": [
+        "Wiping a surface dry straight away is just as effective and it dries the surface faster",
+        "The product must stay on the surface for the full time set by the manufacturer",
+        "Contact time matters only for spills and only on hard floors in wards"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Standard for South Australian Healthcare Facilities (SA Health, 2014, updated 2017), section 4.1 (cleaning chemicals), 4.1.2 (chemical application), 4.1.3 (chemical claims), 4.1.4 (concentration), 4.1.5 (contact time) and 4.1.6 (other factors); rights: user-held; reworded (no copying); source priority: the SA state standard overrides informal or conflicting cleaning advice where this lesson relies on it; figures dated 2014 (updated 2017) are historical; URL www.sahealth.sa.gov.au/infectionprevention; date checked 2026-11-02",
+    "cross-checked against F03-L03 (dilution) and HCG-08 (approved products)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

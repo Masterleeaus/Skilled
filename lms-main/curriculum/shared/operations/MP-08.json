@@ -1,0 +1,190 @@
+{
+  "id": "MP-08",
+  "title": "Milestone planning with owners and dates",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "base",
+  "lessonType": "W",
+  "estimatedMinutes": 25,
+  "audience": "Any home-service operator planning a marketing or growth programme, including solo operators and team owners.",
+  "prerequisites": [
+    "MP-05",
+    "MP-06"
+  ],
+  "learningOutcomes": [
+    "Build a milestone table with one named owner, start and end dates, a budget line and dependencies for each milestone",
+    "Sequence dependent milestones so that each starts only after its input is due",
+    "Define the evidence that shows each milestone is complete"
+  ],
+  "instruction": [
+    {
+      "heading": "Milestones are dated, checkable outcomes",
+      "body": "A milestone is an outcome that someone can check, such as printed brochure approved and delivered, or referral terms signed off. It is not a task list. The sample plan this lesson draws on listed key marketing programmes: completing the marketing strategy, producing printed material, generating customers from referrals and running two advertising campaigns. It said each one should be finished on time and on budget. Write each programme as an outcome with a finish that can be seen."
+    },
+    {
+      "heading": "One owner per milestone",
+      "body": "Each milestone has one named person accountable for finishing it. Others can contribute, but the table records one name. Shared ownership usually means no owner. For a solo business the owner is you. For a team, the owner is the person with authority to approve the spend and sign off the result. Record the role as well as the name, so the milestone survives a change of staff."
+    },
+    {
+      "heading": "Dates, dependencies and sequence",
+      "body": "Give each milestone a start date and an end date, written in day-month-year format. Then record the milestones it depends on. A printed brochure cannot be delivered before its design is approved, and a campaign cannot start before its budget is approved. Sort the table by dependency first and by date second, and check that no milestone starts before the milestones it depends on have ended."
+    },
+    {
+      "heading": "Link each milestone to a budget line",
+      "body": "Each milestone's cost should come from a named line in the expense budget from “Setting an expense budget as a percentage of sales”. A milestone with no budget line is an unfunded commitment. A milestone whose budget is used up before it is finished is at risk, and the owner must say so at the next review, not after the money is spent."
+    },
+    {
+      "heading": "Define the evidence of completion",
+      "body": "A milestone is complete only when its evidence exists: a signed-off design, a delivery receipt, a count of referred customers who completed a first paid job, or a dated invoice. A note that says done is not evidence. Write the evidence next to the milestone, and record where it is stored before the milestone starts."
+    },
+    {
+      "heading": "A caution about the sample table",
+      "body": "The milestone table in the sample plan is partly garbled in the text available for this course. Its dates and budgets cannot be reliably matched to its rows, so this lesson uses the structure only and does not reuse the sample's dates or amounts. The part worth copying is the structure: one owner, dates, a budget, and a status for each milestone."
+    }
+  ],
+  "procedure": [
+    "List the outcomes you need, each written as a milestone that can be checked.",
+    "Assign one named owner and a role to each milestone.",
+    "Set start and end dates in DD/MM/YYYY format and list each milestone's dependencies.",
+    "Link each milestone to a named line in the expense budget.",
+    "Sort by dependency and then by date, and check that no milestone starts before its dependency ends.",
+    "At each review, record the status and evidence, and log any re-dated milestone with the reason."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A solo cleaner (hypothetical dates, invented for this lesson) plans three milestones: referral terms approved, from 01/02/2027 to 05/02/2027; flyer design approved, from 08/02/2027 to 12/02/2027, which depends on the terms; and a referral test running from 22/02/2027 to 21/04/2027, which depends on the printed flyers being delivered by 19/02/2027.",
+      "decisionPrompt": "The owner learns that terms approval may slip by two weeks. Which milestone is at risk, and what should happen now?",
+      "reasoning": "Every later milestone depends on the terms, so a late approval moves the whole sequence. The owner should confirm the approval date now. If approval slips past 05/02/2027, the flyer design and the referral test must be re-dated together, the budget owner informed, and the change recorded with its reason. The old dates should not be left in place as if they still held."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet or task board",
+    "Budget table from “Setting an expense budget as a percentage of sales”"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assigning two owners to one milestone",
+      "prevention": "Record one name and a role, and list any others as contributors."
+    },
+    {
+      "error": "Starting a milestone before its dependency has finished",
+      "prevention": "Check every dependency before setting a start date, and re-sequence the table when a date moves."
+    },
+    {
+      "error": "Marking a milestone complete without evidence",
+      "prevention": "Name the evidence and where it is kept before the milestone starts, and do not close the milestone without it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no legal advice. Any milestone involving electronic messaging, promotions or a regulated activity must have its legal checks completed first (see “Choosing marketing channels and measuring them” and “Referral incentives that respect consumer and spam rules”).",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every milestone has one owner, a start date, an end date, a budget line and a dependency list.",
+    "No milestone starts before its dependencies have ended.",
+    "A milestone is marked complete only when its evidence is recorded."
+  ],
+  "documentationEvidence": [
+    "Milestone table with owner, dates, budget line, dependencies and status",
+    "Evidence record for each completed milestone",
+    "Change log for each re-dated milestone, with the reason"
+  ],
+  "summary": [
+    "One named owner for each milestone.",
+    "Sequence the table by dependency, then by date.",
+    "Complete a milestone only when its evidence exists."
+  ],
+  "businessFields": [
+    "{{business:staff.role}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-08-K01",
+      "question": "What is the best practice for the owner of a milestone?",
+      "options": [
+        "Several people share it so that no one is blamed",
+        "One named person is accountable for completing it",
+        "The customer owns it and signs off each step",
+        "Nobody; it runs itself once started and nobody checks it"
+      ]
+    },
+    {
+      "id": "MP-08-K02",
+      "question": "A milestone depends on printed material that is not due until after its own start date. What does this suggest?",
+      "options": [
+        "Keep the dates and start both as planned, since the printing can catch up",
+        "Re-sequence the dependent milestones and check the date order",
+        "Start both on the same day, since the printer can work faster later",
+        "Remove the milestone from the table"
+      ]
+    },
+    {
+      "id": "MP-08-K03",
+      "question": "Which record best shows that a milestone is really complete?",
+      "options": [
+        "A note saying done, written by the owner and not checked by anyone else",
+        "Evidence such as a signed-off item, a dated record or a receipt",
+        "The owner's memory of the work and the notes from last month",
+        "The sales forecast, updated each month by the owner"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Service Marketing Plan (sample residential cleaning plan, US figures 2002 to 2006), section Implementation Milestones; rights: user-held; reworded (no copying). Table structure used; the table's dates and budgets are not used because the extracted text does not reliably align them to rows.",
+    "Hypothetical dates (2027) and milestones are invented for this lesson.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. US sample-plan figures for 2002 to 2006 are not used; table structure only"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

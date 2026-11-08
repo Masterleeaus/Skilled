@@ -1,0 +1,126 @@
+{
+  "id": "fire-smoke-restoration-L11",
+  "title": "Records, damage mapping and insurer handoff",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and salvage after a fire or smoke event. Not a qualification or authority to enter a fire-damaged building, release it, or certify it as safe.",
+  "prerequisites": [
+    "fire-smoke-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Build an impartial record of damage and handover that separates observed conditions from conclusions about cause or safety."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how to build an impartial record of fire damage, the client's decisions and the chain of custody, and how to hand that record to an insurer without overstating it. It does not establish cause, contamination or safety. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "Records, damage mapping and insurer handoff",
+      "body": "Build an impartial inventory with dated photographs, condition descriptions, locations, the client's decisions and any authorised disposal notes. Distinguish observed conditions from conclusions about cause or contamination clearance. An insurer may ask for before-and-after photographs while the owner disputes the removal of some items. Record both positions and the chain of custody. Do not present photographs as proof of structural or environmental safety. In training, produce a fictional photo log and claims handover that records the unknowns and the chain-of-custody limits."
+    }
+  ],
+  "procedure": [
+    "Take dated photographs before any item is moved, and record the location of each.",
+    "Describe each condition in neutral terms: what is observed, not what is concluded.",
+    "Record the owner's position and the insurer's position separately, with dates.",
+    "Keep a chain-of-custody record for every item moved, retained or disposed of.",
+    "Separate observed conditions from conclusions about cause or contamination clearance.",
+    "Issue the handover with a statement of what the photographs do and do not show."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An insurer wants before-and-after photographs while the owner disputes the removal of some items.",
+      "decisionPrompt": "What is correct?",
+      "reasoning": "Record both positions with dated photographs and the chain of custody. Separate observations from conclusions. Do not withhold the record from everyone, and do not call the dispute resolved."
+    },
+    {
+      "situation": "A damage map labels a wall stain as 'water from the fire hose' without evidence.",
+      "decisionPrompt": "What should change?",
+      "reasoning": "Record the stain as an observed condition only. The cause is a conclusion for a competent person to reach, and it is recorded as such."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Dated camera or tablet, and labelled evidence bags."
+  ],
+  "commonErrors": [
+    {
+      "error": "Presenting photographs as proof of structural or environmental safety.",
+      "prevention": "Photographs record conditions only. State that in the handover."
+    },
+    {
+      "error": "Removing items before photographing them.",
+      "prevention": "Photograph in place first, then record each move."
+    },
+    {
+      "error": "Writing conclusions about cause as if they were observations.",
+      "prevention": "Keep observed condition separate from cause."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not establish cause, contamination or safety. Completing it does not give a licence, certificate or approval.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Records and handovers should state what has not been verified.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner separates observed conditions from conclusions.",
+    "The learner keeps both parties' positions and the chain of custody."
+  ],
+  "documentationEvidence": [
+    "Impartial inventory and dated photo log.",
+    "Chain-of-custody record and insurer handover, stating the limits."
+  ],
+  "summary": [
+    "Record what is seen, when, and by whom.",
+    "Keep both positions and the chain of custody.",
+    "Photographs are not proof of safety."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "fire-smoke-restoration-L11-K01",
+      "question": "An insurer wants before-and-after photographs while the owner disputes the removal of some items. What is correct?",
+      "options": [
+        "Give the insurer the photographs and call the dispute resolved, since the insurer has the final say on it",
+        "Withhold the photographs from everyone until the dispute ends, since the photos could be used in the case",
+        "Record both positions with dated photographs and chain of custody, and separate observations from conclusions."
+      ]
+    },
+    {
+      "id": "fire-smoke-restoration-L11-K02",
+      "question": "Why should a damage record separate observed conditions from conclusions about cause?",
+      "options": [
+        "So a photograph of a stain is not treated as proof of its cause or of safety",
+        "Because the record is only for the insurer",
+        "So the owner can skip the inventory"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR05-fire-smoke-restoration.json, instruction section 11 and learning outcome 11; first knowledge check HR05-K11. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: fire-smoke-restoration-lesson-11-instruction-pass65.json; fire-smoke-restoration-lesson-11-research-pass64.json; fire-smoke-restoration-lesson-11-assessment-pass66.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: insurer claim-handling and evidence requirements. The lesson states good record-keeping practice only.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "Fire-scene release, structural and utility isolation, asbestos assessment and removal, and some waste handling are restricted to competent and, where the law requires, licensed people, and may be controlled by fire investigators, the police, structural engineers, utilities or the building owner. Insurer and owner permission do not replace a release from the authority that controls the site. Where that authority is not identified, do not proceed."
+  },
+  "stopWorkAndReferral": [
+    "A stop-work decision is correct, so record it and restart only once the competent party confirms the scope in writing."
+  ]
+}

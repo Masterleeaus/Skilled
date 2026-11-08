@@ -1,0 +1,36 @@
+{
+  "lessonId": "PVB-06",
+  "knowledgeAnswers": [
+    {
+      "id": "PVB-06-K01",
+      "correctIndex": 1,
+      "rationale": "SP 02 (Version 3, 26 September 2023), mesh section: a non-boundary mesh barrier must stay at 1200 mm or more under a 25 kg weight applied at any point on its top."
+    },
+    {
+      "id": "PVB-06-K02",
+      "correctIndex": 1,
+      "rationale": "SP 02 (Version 3, 26 September 2023), mesh section: the base-gap check applies a 100 N vertical lift force to the base of the mesh or perforated barrier."
+    },
+    {
+      "id": "PVB-06-K03",
+      "correctIndex": 1,
+      "rationale": "SP 02 (Version 3, 26 September 2023), mesh section: the gap at the base of a mesh or perforated barrier must stay within 100 mm under the 100 N lift."
+    }
+  ],
+  "practicalCriteria": [
+    "Applies the 25 kg weight at any point on the top of a supplied mesh panel, and records the height against 1200 mm.",
+    "Checks the supplied footing layout against the SP 02 recommendation, and records the result and the decision in writing.",
+    "Applies a 100 N vertical lift to the base of a supplied mesh panel, and records the gap against 100 mm."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Load test record with equipment and height reading",
+    "Base-gap test record with the 100 N lift and gap reading",
+    "Assessor observation of the 25 kg load and the accept or reject decision"
+  ],
+  "stopWorkCriteria": [
+    "Mesh panel below 1200 mm under the 25 kg load: do not accept it; record the reading.",
+    "Test weight or 100 N equipment not recorded before use: do not test.",
+    "Base gap above 100 mm under the 100 N lift: do not accept the panel."
+  ]
+}

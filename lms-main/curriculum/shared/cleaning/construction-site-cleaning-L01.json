@@ -1,0 +1,136 @@
+{
+  "id": "construction-site-cleaning-L01",
+  "title": "Scope, project phases and authority",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Scope and authority",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and supervisors working on construction-site clean-up and post-construction cleans.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Distinguish rough, intermediate and final builders' cleaning.",
+    "Locate the signed handover, the site controller and the access permit before entering.",
+    "Stop entry to any area with active trades, and obtain a revised safe access window."
+  ],
+  "instruction": [
+    {
+      "heading": "Three stages of builders' cleaning",
+      "body": "Builders' cleaning happens in stages that follow the trades. Rough cleaning removes the larger, authorised debris while work is still going on. Intermediate cleaning follows the progress of the trades and keeps the work area workable. Final cleaning prepares completed areas for handover. Knowing the stage tells you what the area is, what hazards are still active, and what the client expects. A final clean does not give you permission to enter an active building site."
+    },
+    {
+      "heading": "Confirming authority before entry",
+      "body": "Before you enter, identify the construction stage, the site controller, the access permit, the rooms agreed for your work, the excluded hazards, the approved hours, and the person who can sign off completed work. If any of these is missing, do not enter until it is confirmed in writing or through the site's documented process."
+    },
+    {
+      "heading": "Presentation is not contamination clearance",
+      "body": "A room can look finished and still have active trade work, unfinished services or unidentified materials. Never confuse a presentable room with a room that is safe or clear of contamination. Where the supervisor asks for a photograph of a finished room while electricians are testing live circuits, document the unfinished stage, stop entry into that area, and obtain a revised safe access window before continuing."
+    },
+    {
+      "heading": "Working from the sample work order",
+      "body": "Read the work order with the authorising contact, the allowed zones, the active-trade exclusions and the handover criteria. Write down the questions that must be resolved before mobilising, and do not start until the answers are recorded."
+    }
+  ],
+  "procedure": [
+    "Confirm the construction stage: rough, intermediate or final.",
+    "Identify the site controller, access permit, agreed rooms, excluded hazards and approved hours.",
+    "Record the stage, scope, exclusions and authorised zone before entering.",
+    "Stop and withdraw if active trades enter or the area is not released.",
+    "Obtain a revised safe access window in writing before resuming.",
+    "Record the unfinished stage and the decision to stop."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor asks for a glossy final-clean photograph while electricians are still testing live circuits in the same room.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not enter the active area. Record that the stage is unfinished and that live testing is under way. Ask the site controller for a revised safe access window, and decline to photograph the room as finished until the handover criteria are met."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Site induction record and site plan.",
+    "Hard hat, high-visibility clothing and safety footwear as the site requires.",
+    "Contact for the site controller."
+  ],
+  "commonErrors": [
+    {
+      "error": "Entering an active area because the job is labelled final clean.",
+      "prevention": "Confirm the stage and the access permit before entry."
+    },
+    {
+      "error": "Photographing a room as finished when trades are still working in it.",
+      "prevention": "Record the unfinished stage and decline the photograph."
+    },
+    {
+      "error": "Starting work from a verbal instruction only.",
+      "prevention": "Record the scope and the exclusions in writing."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Construction sites are subject to work health and safety duties and site-specific controls set by the principal contractor or site controller.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Stage, scope, exclusions and authorised zone recorded before entry in the sample work order.",
+    "Three open questions identified before mobilisation.",
+    "Stop-work decision recorded when the active-trade scenario is introduced."
+  ],
+  "documentationEvidence": [
+    "Pre-entry record with stage, scope, exclusions and authorised zone.",
+    "Stop-work and revised access-window record."
+  ],
+  "summary": [
+    "Know the stage: rough, intermediate or final.",
+    "Confirm the site controller, permit and agreed zones before entry.",
+    "Presentation is not clearance; do not let a photograph override active trade work.",
+    "Stop and record when access is not confirmed."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:jobs.arrival_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L01-K01",
+      "question": "A job is labelled final clean, but electricians are still testing circuits in a room. What do you do?",
+      "options": [
+        "Do not enter the active area, and obtain a revised safe access window",
+        "Enter and clean quietly while the trade is still testing circuits",
+        "Clean the room and report at the end once the testing has finished"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L01-K02",
+      "question": "What does rough cleaning remove?",
+      "options": [
+        "Finished surfaces for handover and the floor finishes",
+        "Larger authorised debris while work is still going on",
+        "All contamination, including fixed plant and works"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L01-K03",
+      "question": "What is the difference between a presentable room and a cleared room?",
+      "options": [
+        "They mean the same thing, so either label applies to any room",
+        "A cleared room needs no further check before handover",
+        "A presentable room can still have active work or unidentified materials"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L01.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "UNCONFIRMED: state and territory construction-site obligations for cleaning contractors."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

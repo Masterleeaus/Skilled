@@ -1,0 +1,142 @@
+{
+  "id": "MP-04-locksmith",
+  "title": "Break-even analysis with a worked calculation for Locksmith and door installation",
+  "courseSlugs": [
+    "locksmith"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Locksmith and door installation operators who set attendance prices or plan monthly work, including owners who run one van on their own.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a locksmith business as fixed or variable",
+    "Calculate monthly break-even revenue and the number of attendances it needs",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a locksmith",
+      "body": "Break-even revenue covers all costs exactly, so profit is zero. For a locksmith the figure shows how many attendances a month pay for the van, insurance, licence fees and dispatch software. It is a planning tool, and it is only as good as its inputs."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs stay the same whatever the number of attendances. They include van finance or lease, registration, insurance, state licence fees, phone, dispatch software and any storage rent. Variable costs move with each job. They include cylinders, pins and hardware used on a job, consumables, card and payment fees on each sale, and fuel if you charge it per job. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss. Express variable cost as a share of sales for the same period, and check it across at least three months."
+    },
+    {
+      "heading": "Calculate the break-even",
+      "body": "Contribution margin is one minus the variable share, written as a decimal. Break-even revenue is fixed costs divided by the contribution margin. Xero's glossary sets out the same method and says a job count is rounded up to whole jobs. Divide break-even revenue by your average job price, and round up, because a part job does not cover its costs."
+    },
+    {
+      "heading": "Use your own average job price",
+      "body": "Vendor price ranges for Victoria are wide: a business-hours callout at $95 to $190, an after-hours callout at $190 to $460, and a supply-and-fit at $180 to $620 (The Quote Yard, Victoria, 26 September 2026). The average job price must come from your own invoices after discounts, not from those ranges."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, check that each fixed cost is monthly, that the variable share is a share of sales, and that the result is revenue, not profit. Keep only the reconciled figure, with its inputs written beside it."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a share of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable share to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average job price from invoices, and round up to whole jobs.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A one-person locksmith business (illustrative figures, invented for this lesson) has fixed costs of $3,800 a month, including van, insurance, licence fees and software. Variable costs are 15 per cent of sales, and the average job price is $210 after discounts.",
+      "decisionPrompt": "How many jobs must the business complete each month to break even, and what should be checked before the figure is used?",
+      "reasoning": "The contribution margin is 1 minus 0.15, which is 0.85. Break-even revenue is $3,800 divided by 0.85, which is $4,470.59 a month. At $210 a job, that is 21.29 jobs, so the business needs 22 jobs. Check the arithmetic: 21 jobs give $3,748.50 of contribution, which is below $3,800, and 22 jobs give $3,927.00, which covers it. Before the figure is used, check that the licence fees are monthly amounts (many are annual), that the 15 per cent includes card fees and cylinders, and that $210 is the average price actually charged. The illustrative $210 sits well inside the vendor's Victorian ranges, but it is not a market figure, and the owner must use invoices."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, split into fixed and variable",
+    "Calculator or spreadsheet",
+    "Invoice record of the job prices actually charged"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures, such as an annual licence fee or insurance premium",
+      "prevention": "Convert every cost to a monthly figure before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Copying a break-even figure from a plan without its inputs",
+      "prevention": "Recalculate from your own inputs and record the source and date of each input before using the result."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority. Licence fees and classes differ by state, and the Victorian locksmith licence position is unresolved, so use the figures for your own state from the regulator.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout the calculation.",
+    "Recalculate from your own inputs. Do not copy another plan's break-even figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-locksmith-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-locksmith-K02",
+      "question": "Fixed costs are $3,800 a month and variable costs are 15 per cent of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$570.00 AUD",
+        "$3,800.00 AUD",
+        "$4,470.59 AUD",
+        "$25,333.33 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-locksmith-K03",
+      "question": "Two sources give different break-even figures for the same locksmith business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe",
+        "Average the two figures and quote the result",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Use the vendor price list and skip the check"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Contribution margin, break-even revenue as fixed costs divided by the contribution ratio, and rounding up job counts. The glossary's own examples are not used.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Definitions of fixed and variable costs.",
+    "The Quote Yard, Emergency locksmith Victoria, https://www.thequoteyard.com.au/services/emergency-locksmith-vic, published 26 September 2026. Vendor ranges used only to show how wide the market estimates are.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Include total overheads in the price check."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

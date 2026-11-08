@@ -1,0 +1,37 @@
+{
+  "lessonId": "WAH-02",
+  "knowledgeAnswers": [
+    {
+      "id": "WAH-02-K01",
+      "correctIndex": 1,
+      "rationale": "Avoidance removes the exposure. Personal equipment, signs and permits sit lower in the order."
+    },
+    {
+      "id": "WAH-02-K02",
+      "correctIndex": 1,
+      "rationale": "A physical edge control works without a correct decision by each worker. It still needs inspection, and a rescue plan may still be needed."
+    },
+    {
+      "id": "WAH-02-K03",
+      "correctIndex": 1,
+      "rationale": "A rejected higher control needs a written reason, and the next available control must be one that can be checked."
+    }
+  ],
+  "practicalCriteria": [
+    "Ranks a supplied list of five controls in the correct order, with a reason for each",
+    "Writes each rejected higher control and the reason it was rejected, for a supplied job",
+    "Identifies a plan that names a control not on site, and states what check is needed"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check record (all three checks)",
+    "Written control selection for a supplied job",
+    "Assessor observation of the ranking"
+  ],
+  "stopWorkCriteria": [
+    "A plan that relies on personal equipment alone where a physical control is feasible is returned",
+    "A higher control rejected without a reason means the selection is not accepted"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

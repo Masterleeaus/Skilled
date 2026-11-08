@@ -1,0 +1,195 @@
+{
+  "id": "F12-L03",
+  "title": "WHS duties and consultation",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Any owner, supervisor or worker in any Titan Academy business who has health and safety duties to others or to themselves.",
+  "prerequisites": [
+    "F02-L01",
+    "F12-L01"
+  ],
+  "learningOutcomes": [
+    "Explain the primary duty of care that a person conducting a business or undertaking (PCBU) owes to workers and others.",
+    "Describe a worker's duty to take reasonable care and to cooperate with the business's safety controls.",
+    "Explain the purpose of consultation with workers and the steps for consulting, which must be confirmed for each state or territory."
+  ],
+  "instruction": [
+    {
+      "heading": "Who has duties",
+      "body": "Under the model work health and safety laws, a person conducting a business or undertaking (PCBU) has a primary duty to ensure, so far as is reasonably practicable, the health and safety of workers while they are at work, and of others who may be affected by the work. Safe Work Australia states that a self-employed person operating their own business is a PCBU, and that a self-employed person may be simultaneously a PCBU and a worker. Workers also have duties: to take reasonable care for their own health and safety, not to adversely affect the safety of others, and to follow the reasonable instructions and procedures the business sets."
+    },
+    {
+      "heading": "What reasonably practicable means",
+      "body": "Reasonably practicable is the standard that the PCBU must meet. It requires the business to consider the risk, what the business knows or should know about it, the ways to control it, and the cost of the control in relation to the risk. A PCBU must choose the control that is reasonably practicable and keep it under review. This is why a cheap control that does not reduce the risk is not enough, and why a safety control that is practical must be used even if it costs more than the business would prefer."
+    },
+    {
+      "heading": "Consultation with workers",
+      "body": "Under the model laws, a PCBU must consult workers on matters that affect their health and safety. Consultation means sharing information, listening to the views of workers, taking those views into account, and telling workers what has been decided. Safe Work Australia's guidance on the PCBU duty points to further guidance on consultation with multiple duty holders."
+    }
+  ],
+  "procedure": [
+    "Identify the PCBU for each job, including self-employed persons, and the workers and others affected.",
+    "Identify the hazards and the controls that are reasonably practicable for each.",
+    "Share the safety information with workers and listen to their views on the controls.",
+    "Record the decision on the controls and tell the workers what was decided.",
+    "Review the controls when the work or the conditions change.",
+    "Confirm the consultation steps for the state or territory before relying on them."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A sole trader cleans commercial kitchens and sometimes works with a second worker. The sole trader wants to skip the walk-through to save time.",
+      "decisionPrompt": "Does the duty still apply?",
+      "reasoning": "Yes. The sole trader is a PCBU and a worker, and the duty to the second worker and to others applies. The walk-through is a reasonably practicable control for the risk. Skipping it to save time is not a valid reason, and the sole trader should consult the second worker on the controls."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Safety information and procedures",
+    "Consultation record"
+  ],
+  "commonErrors": [
+    {
+      "error": "Believing a sole trader has no WHS duties.",
+      "prevention": "Recognise that a self-employed person is a PCBU and owes duties to others."
+    },
+    {
+      "error": "Choosing the cheapest control rather than the reasonably practicable one.",
+      "prevention": "Consider the risk, what is known, the controls available and the cost in relation to the risk."
+    },
+    {
+      "error": "Not telling workers what was decided after consulting them.",
+      "prevention": "Tell workers the decision and why it was made."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Safe Work Australia states that a PCBU has a primary duty to ensure the health and safety of workers while they are at work, and that a self-employed person operating their own business is an example of a business or undertaking. WorkSafe Victoria states that self-employed people must ensure their work does not expose people to risks so far as reasonably practicable.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not state those requirements.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each job has its PCBU and affected people identified.",
+    "Controls are chosen on a reasonably practicable basis and recorded.",
+    "Workers are consulted and told what was decided."
+  ],
+  "documentationEvidence": [
+    "Risk assessment and control decision record with the date and the workers consulted.",
+    "Record of the information given to workers and any response received."
+  ],
+  "summary": [
+    "The PCBU has the primary duty to workers and others, including sole traders.",
+    "Controls must be reasonably practicable, and kept under review.",
+    "Consult workers and tell them what was decided; confirm the state steps."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F12-L03-K01",
+      "question": "Who owes the primary health and safety duty in a service business?",
+      "options": [
+        "Only the workers, who carry the duty for their own safety and the customer's home",
+        "The person conducting the business or undertaking, including a self-employed person.",
+        "Only the customer, who pays for the risk of the job and the building owner"
+      ]
+    },
+    {
+      "id": "F12-L03-K02",
+      "question": "What does reasonably practicable require?",
+      "options": [
+        "The control that is quickest to install on site and the one the crew likes best to use",
+        "No control at all if it costs money and the crew is asked to take the risk on the job",
+        "Considering the risk and the controls available, and choosing the one that is reasonably practicable."
+      ]
+    },
+    {
+      "id": "F12-L03-K03",
+      "question": "What does consultation with workers mean, according to the lesson?",
+      "options": [
+        "Telling workers only after the job is finished",
+        "Asking workers to sign a waiver",
+        "Deciding first and never listening to workers",
+        "Sharing information, listening to workers, taking their views into account, and telling them what has been decided"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws (Safe Work Australia, no page date shown; checked 2026-11-02; PCBU definition, self-employed PCBU and worker, and the pointer to consultation guidance)",
+    "https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities (WorkSafe Victoria, reviewed 03/04/2025; checked 2026-11-02; self-employed people must ensure their work does not expose people to risk so far as reasonably practicable)",
+    "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws (consultation detail UNCONFIRMED: the page refers to a separate duty page that was not read)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Duties of a PCBU (Safe Work Australia)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-04",
+      "covers": "Duties of a PCBU page (Safe Work Australia): a PCBU must ensure the health and safety of workers while they are at work in the business or undertaking, the duty extends to others affected by the work, and a PCBU must seek to eliminate risks so far as reasonably practicable and minimise any risk that cannot be eliminated. This page does not address self-employed PCBUs. The Duties under WHS laws page lists 'a self employed person operating their own business' as an example of a business or undertaking, says whether a person conducts a business is a fact to be determined in each case, and says a self-employed person may be simultaneously a PCBU and a worker. Consultation requirements are not covered by this entry."
+    },
+    {
+      "id": "R2",
+      "title": "Office health and safety: Health and safety responsibilities (WorkSafe Victoria)",
+      "url": "https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities",
+      "pageDate": "Reviewed on 03/04/2025",
+      "checked": "2026-11-03",
+      "covers": "Victorian guidance, read 2026-11-03: a self-employed person must ensure that the business or work does not expose people to risks to their health or safety, and must do so so far as reasonably practicable. This is Victorian guidance; it does not set the rule for other states and territories, and consultation requirements are not covered by this entry."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,33 @@
+{
+ "lessonId": "F18-L02",
+ "knowledgeAnswers": [
+  {
+   "id": "F18-L02-K01",
+   "correctIndex": 1,
+   "rationale": "The lesson says the kit is built from the task map for the job, with items for each task, not from habit. The same kit regardless of tasks (option 0) and whatever is in the van (option 2) are the errors it names."
+  },
+  {
+   "id": "F18-L02-K02",
+   "correctIndex": 2,
+   "rationale": "The lesson requires any gap between the kit and the map to be recorded and resolved before the team leaves the store. Fixing it at the job (option 0) and accepting a close-enough kit (option 2) leave the team without items they need."
+  },
+  {
+    "id": "F18-L02-K03",
+    "correctIndex": 1,
+    "rationale": "The lesson says a bathroom clean needs a toilet brush, a bucket, a cloth for the basin, a cloth for the toilet, and a separate cloth for the glass, among other items."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner builds a task map for a supplied work order, listing tools, equipment, products, protective equipment, consumables and documents for each task.",
+  "Learner compares a supplied kit with the map before leaving the store and records each missing or extra item.",
+  "Learner confirms each product in the kit has its label, SDS and the protection named on the label."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Task map for the job type, with version and date",
+  "Kit check record showing missing or extra items and how each was resolved"
+ ],
+ "stopWorkCriteria": [
+  "Learner leaves the store with a product whose named protective equipment is not in the kit"
+ ]
+}

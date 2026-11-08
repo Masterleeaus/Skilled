@@ -1,0 +1,35 @@
+{
+  "lessonId": "PTB-09",
+  "knowledgeAnswers": [
+    {
+      "id": "PTB-09-K01",
+      "correctIndex": 1,
+      "rationale": "The group rate starts from the one-to-one anchor and is then tested against hourly earnings. Competitor prices and member willingness do not give a tested figure."
+    },
+    {
+      "id": "PTB-09-K02",
+      "correctIndex": 0,
+      "rationale": "Unlimited access makes sessions seem less valuable and cuts average income per session. The lesson does not claim it is always illegal."
+    },
+    {
+      "id": "PTB-09-K03",
+      "correctIndex": 0,
+      "rationale": "40 per cent of 90 is 36 per member. Four paying members at 36 units is 144 units per hour, which is more than 90."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a one-to-one rate and a fill-rate estimate, the learner calculates group hourly earnings, and the assessor recalculates the figure",
+    "The learner writes a comparison showing whether the group rate beats one-to-one, using the average fill rate",
+    "The learner leaves out each consumer-law and GST point where advice has not been obtained"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Pricing calculation with inputs",
+    "Comparison with one-to-one income",
+    "Checks list with a source for each point"
+  ],
+  "stopWorkCriteria": [
+    "Stop publication of any group rate that has not been tested against one-to-one hourly income",
+    "Stop publication of pack terms that are unclear on expiry or inclusions"
+  ]
+}

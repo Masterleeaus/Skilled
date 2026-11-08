@@ -1,0 +1,37 @@
+{
+ "lessonId": "aquarium-cleaning-L03",
+ "knowledgeAnswers": [
+  {
+   "id": "aquarium-cleaning-L03-K01",
+   "correctIndex": 2,
+   "rationale": "A correction keeps the original visible, moves the reading to the sheet for its own tank type, and records the reason. Averaging or deleting the entry destroys the record."
+  },
+  {
+   "id": "aquarium-cleaning-L03-K02",
+   "correctIndex": 0,
+   "rationale": "Equipment used for one tank can carry contamination or disease into another. Dedicated, cleaned equipment limits that risk."
+  },
+  {
+   "id": "aquarium-cleaning-L03-K03",
+   "correctIndex": 1,
+   "rationale": "An instrument that is not calibrated gives a result that is not valid. The instrument is calibrated and the reading is repeated, and the calibration status is recorded."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner calibrates a salinity instrument against the specified solution, and records the date and the result of the check",
+  "Learner corrects a misplaced entry on a training sheet with a single line, the correct value, initials, date and reason",
+  "Learner samples a training tank from the planned open-water point, not from the outlet or the heater area, and labels the sample before leaving the point"
+ ],
+ "passRule": "Knowledge checks: 80 per cent pass mark. With three questions, all three must be correct. Practical sign-off is assessed separately by observation and is not verified by this quiz.",
+ "evidenceRequired": [
+  "Sample record for the training tank, with time, temperature, method and tester",
+  "Calibration record for the instrument",
+  "Correction log entry for the training sheet",
+  "Assessor observation of the sampling point and labelling"
+ ],
+ "stopWorkCriteria": [
+  "A marine reading written on a freshwater sheet and not corrected",
+  "Use of a sampling container for two tanks without cleaning between them",
+  "Use of an instrument or reagent that is out of calibration or past expiry"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "lessonId": "NHS-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NHS-01-K01",
+      "correctIndex": 1,
+      "rationale": "A clean appearance is useful but is not proof of control. The high-touch points must still be worked and checked. Option 0 treats appearance as proof; option 2 treats a disinfectant as replacing the check."
+    },
+    {
+      "id": "NHS-01-K02",
+      "correctIndex": 1,
+      "rationale": "Organic soil can shield microorganisms and reduce how well a disinfectant works, and soil left in place can move. The approved sequence removes soil first. Option 0 is not a reason; option 2 wrongly says removing soil replaces the approved product."
+    },
+    {
+      "id": "NHS-01-K03",
+      "correctIndex": 1,
+      "rationale": "The learner reads the notice and the approved procedure and confirms any change with the team leader or infection-prevention lead before starting. Changing first (option 0) and skipping points (option 2) are both wrong."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a room type and its high-touch list, the learner works every listed point and ticks each one; the assessor observes that no listed point is left untreated.",
+    "Given a surface with visible soil and a disinfectant listed in the approved procedure, the learner removes the soil with the approved detergent before applying the disinfectant, and leaves the disinfectant for the label contact time, as observed by the assessor.",
+    "Given an infection-prevention notice for a room, the learner states before starting whether the routine changes and who must confirm the change; the assessor records the answer against the notice.",
+    "The learner records the completed room and any routine change with the confirming person's name, and reports one damaged surface on a supplied scenario sheet."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed knowledge checks",
+    "Assessor observation record for each practical criterion",
+    "Completed room checklist with the high-touch points marked, from the observed task",
+    "Record of the precaution scenario and the confirming person"
+  ],
+  "stopWorkCriteria": [
+    "Learner applies a disinfectant to a visibly soiled surface without removing the soil first",
+    "Learner changes the cleaning order or product for a precaution without confirming with the team leader or infection-prevention lead",
+    "Learner declares a room complete without working the high-touch list",
+    "Learner skips a touch point because a precaution notice or colleague says it is covered"
+  ]
+}

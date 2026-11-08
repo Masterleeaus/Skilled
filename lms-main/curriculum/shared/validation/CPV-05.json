@@ -1,0 +1,184 @@
+{
+  "id": "CPV-05",
+  "title": "Setting residue acceptance limits and their rationale",
+  "courseSlugs": [
+    "appliance",
+    "aquarium",
+    "beauty",
+    "bond",
+    "cardetail",
+    "carpet",
+    "commercial",
+    "construction",
+    "deck",
+    "dogwalk",
+    "flatpack",
+    "furniture",
+    "garden",
+    "groom",
+    "hair",
+    "handyman",
+    "hardfloor",
+    "healthcare",
+    "irrigation",
+    "landscaping",
+    "lawn",
+    "locksmith",
+    "massage",
+    "medequip",
+    "painting",
+    "petsit",
+    "plastering",
+    "pond",
+    "pool",
+    "portfolio",
+    "postcon",
+    "pressure",
+    "pt",
+    "residential",
+    "roof",
+    "shortstay",
+    "solar",
+    "stone",
+    "strata",
+    "tiling",
+    "timber",
+    "window",
+    "yoga"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Quality leads who set or review the residue limits used to accept a cleaning result.",
+  "prerequisites": [
+    "CPV-04",
+    "CPV-02"
+  ],
+  "learningOutcomes": [
+    "Explain why a residue limit needs a logical, written rationale.",
+    "Explain why a limit must sit within what the analytical method can measure.",
+    "Describe the three bases the source gives for product carry-over limits and when the strictest applies.",
+    "Explain why detergent residue needs its own acceptance limit."
+  ],
+  "instruction": [
+    {
+      "heading": "A limit needs a written basis",
+      "body": "The guide insists that a residue limit rest on a logical argument that is written down. A limit is not a figure picked because a test happens to return it. It answers the question of how clean counts as clean, and part of that answer depends on how capable the analytical system is. Current instruments can read residues far under parts per million, into parts per billion. A limit set beneath what an instrument can read cannot be checked, and a limit set above what the product could cause is not protective."
+    },
+    {
+      "heading": "Bases for carry-over limits",
+      "body": "For carry-over from one product into the next, the guide names three bases and asks that the most demanding of them rule. The first caps how much of a previous product could reach the largest largest daily intake of the subsequent product, expressed as a small fraction of a therapeutic dose. The second caps how many parts per million of one product may appear in another. The third requires that no residue be seen left on equipment once cleaning ends, with spiking trials used to find the level where residue first shows. For potent, allergenic or highly active substances, the guide suggests a limit below what the best method can detect, which in practice can mean dedicated equipment. It also warns that unidentified by-products can persist, so the rationale behind any limit must stand up to scientific scrutiny."
+    },
+    {
+      "heading": "Detergent limits and checkable limits",
+      "body": "Detergent residue needs its own acceptance figure. The guide expects detergent clearance to be assessed and acceptable amounts to be set, ideally zero detectable residue, and it asks that any possible breakdown of the detergent be considered. A limit that no method can actually measure is of little use. Each limit should be stated alongside the test that will check it and the analytical floor below which a result cannot be reported."
+    }
+  ],
+  "procedure": [
+    "State the substance, the process and the reason a residue limit is needed.",
+    "Write the basis for the limit, including any dose, concentration or visibility criterion.",
+    "Set the limit beside the detection floor of the test that will check it.",
+    "Set a separate limit for detergent residue and state the method that will test it.",
+    "Review the limit when the product, equipment, agent or method changes."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A food plant runs a shared line where a residue from one product must not reach the next product above a defined level. The team has no written basis for the limit.",
+      "decisionPrompt": "What must be written before the limit is accepted?",
+      "reasoning": "The team writes the basis for the limit, compares it with what the chosen test can detect, sets a separate detergent limit, and confirms the limit with the responsible person."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Written limit basis with calculations",
+    "Method detection limit from the method validation report",
+    "Product and equipment list"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting a limit without a written basis.",
+      "prevention": "Write the basis and the reason before the limit is used."
+    },
+    {
+      "error": "Setting a limit that the method cannot measure.",
+      "prevention": "Compare the limit with the method's detection limit before accepting it."
+    },
+    {
+      "error": "Using only the principal ingredient and ignoring by-products.",
+      "prevention": "Consider by-products and breakdown products that may be harder to remove."
+    },
+    {
+      "error": "Treating a detergent residue as harmless without a limit.",
+      "prevention": "Set a detergent limit and test for it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Use the practice content only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Potent and allergenic residues carry real risk. Where the source suggests a limit below detection, the practical answer may be dedicated equipment. Any such decision needs the site's food-safety or quality sign-off.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Allergen cross-contact limits in Australian food premises are not set by this lesson, so check with the relevant regulator before relying on this point.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The limit has a written basis that a second person can follow.",
+    "The limit is within the method's measurable range.",
+    "A separate detergent limit is set and tied to a test method."
+  ],
+  "documentationEvidence": [
+    "Written limit rationale and calculation.",
+    "Test method and detection limit referenced.",
+    "Sign-off by the responsible person."
+  ],
+  "summary": [
+    "A residue limit needs a logical, written basis.",
+    "A limit must be measurable by the method used to test it.",
+    "Carry-over limits can rest on dose, concentration or visibility, and the strictest applies.",
+    "Set a detergent residue limit for the site before testing."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "CPV-05-K01",
+      "question": "Why must a residue limit be linked to what the analytical method can measure?",
+      "options": [
+        "Limits should be set as high as the cleaner can reach",
+        "Measurement is only needed for decoration",
+        "Analytical methods have no effect on limits",
+        "A limit that cannot be measured cannot be verified"
+      ]
+    },
+    {
+      "id": "CPV-05-K02",
+      "question": "When the source gives several bases for a carry-over limit, which approach does it describe?",
+      "options": [
+        "Apply the strictest of the chosen criteria",
+        "Apply the least strict criterion",
+        "Use the average of all results",
+        "Choose whichever is quickest to test on the day"
+      ]
+    },
+    {
+      "id": "CPV-05-K03",
+      "question": "Why might detergent residue need its own acceptance limit?",
+      "options": [
+        "Detergent residue acts as a protective film, so it is beneficial",
+        "Detergent left on a surface can contaminate the next product or affect results",
+        "Detergent is not a chemical and it does not need to be tested at all",
+        "Detergent needs removal only after the final rinse and never needs to be tested later"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Processes and Cleaning Validation, Guidance Document SGD-105-CLN Rev. 10 (Validation in Partnership Ltd, 25 May 2007; pharmaceutical and biological CGMP with US and EU references, not Australian), sections: 6.10 Establishment of Limits (basis, analytical sensitivity, carry-over criteria, by-products); 7.9 Detergents (detergent residue limits); 7.11 Establishment of Limits; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Pharmaceutical scope; Australian allergen and residue limits UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

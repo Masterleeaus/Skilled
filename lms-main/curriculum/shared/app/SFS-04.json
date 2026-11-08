@@ -1,0 +1,112 @@
+{
+  "id": "SFS-04",
+  "title": "Job templates for repeat work",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-01"
+  ],
+  "learningOutcomes": [
+    "Build a job template with a duration, required skills, required parts and default visit behaviour.",
+    "Explain what happens to existing jobs when a template changes.",
+    "Decide when a required skill should be a hard rule rather than a suggestion."
+  ],
+  "instruction": [
+    {
+      "heading": "What a template is for",
+      "body": "A job template standardises a repeat service, such as a single-room clean, a gutter clear or a door adjustment. It carries the expected duration, the skills a worker needs, the parts usually required and a link to any reference article. When a new job uses the template, it copies these values. That saves desk time and keeps quotes consistent across staff."
+    },
+    {
+      "heading": "Changes that do not flow backwards",
+      "body": "A template change affects jobs created after the change. It does not rewrite jobs already open. The same applies to skills: adding a skill requirement to a template does not change jobs that already exist. Office staff should check open jobs after any template change that affects time or skills. A skill requirement is only enforced where the scheduler is set to check it. Without that check it works as a suggestion."
+    }
+  ],
+  "procedure": [
+    "Name the template after the service, not after a customer.",
+    "Enter the standard duration and its unit.",
+    "List required skills, choosing the smallest set a competent worker needs.",
+    "Attach the usual parts and any reference article.",
+    "Decide whether a visit is created automatically when a job uses the template.",
+    "Save, then create a sample job and check the copied values."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A window cleaning business has a template called standard exterior clean, single storey. It was set to 60 minutes, and is now changed to 45 minutes. A job created last week still shows 60.",
+      "decisionPrompt": "Should the office change open jobs?",
+      "reasoning": "The existing job keeps the values it was created with. If the shorter time matters for the day's plan, the office changes that job by hand. Other open jobs should be checked the same way."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Listing every skill the business has on one template.",
+      "prevention": "List only the skills this job needs. Extra skills can rule out suitable workers."
+    },
+    {
+      "error": "Assuming a template change updates jobs already open.",
+      "prevention": "Check open jobs after each template change that alters time or skills."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each template has a duration, a skill list and a parts list, even if the lists are short.",
+    "Each template describes a service rather than one customer."
+  ],
+  "documentationEvidence": [
+    "Template list with durations and skill lists",
+    "Log of template changes with dates"
+  ],
+  "summary": [
+    "Templates copy standard values into new jobs.",
+    "Changes apply to new jobs, not to jobs already open.",
+    "Skill requirements are only enforced where the scheduler checks them."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-04-K01",
+      "question": "A template's duration is changed today. What happens to a job created last week from it?",
+      "options": [
+        "It is updated automatically too",
+        "It keeps the duration it already had",
+        "It is cancelled and removed now"
+      ]
+    },
+    {
+      "id": "SFS-04-K02",
+      "question": "Why should a template list only the skills the job truly needs?",
+      "options": [
+        "Because the scheduler then matches workers on availability",
+        "Because extra skills can rule out suitable workers",
+        "Because skills cannot be changed later on the job"
+      ]
+    },
+    {
+      "id": "SFS-04-K03",
+      "question": "What does a job template usually store?",
+      "options": [
+        "Customer bank account details, stored against every visit",
+        "Standard duration, required skills, usual parts and reference links",
+        "The worker's weekly pay, their hours, the tax and the bank pay run"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 29-39 (work types and templates); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: job template (work type); required skills; required parts; reference articles (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

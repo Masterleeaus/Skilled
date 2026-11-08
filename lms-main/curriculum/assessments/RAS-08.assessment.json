@@ -1,0 +1,39 @@
+{
+  "lessonId": "RAS-08",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-08-K01",
+      "correctIndex": 2,
+      "rationale": "Fixed wiring is not touched. The area is kept clear and the fault is reported at once."
+    },
+    {
+      "id": "RAS-08-K02",
+      "correctIndex": 0,
+      "rationale": "A defective machine is withdrawn and labelled. Taping and continuing are not acceptable controls."
+    },
+    {
+      "id": "RAS-08-K03",
+      "correctIndex": 1,
+      "rationale": "Keeping liquids away from outlets and equipment is part of the electrical control."
+    }
+  ],
+  "practicalCriteria": [
+    "Checks the test record and tag of a named machine before use",
+    "Inspects cord, plug, casing and guards before switching on, and records the result",
+    "Withdraws and labels a simulated defective machine",
+    "Routes a lead safely and keeps liquid away from the outlet"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "pre-use inspection record",
+    "defect report",
+    "assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "A machine with a damaged cord or no current test record is used",
+    "Any fixed wiring, switchboard or fitting is opened or moved by the learner",
+    "A machine is handled with wet hands"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

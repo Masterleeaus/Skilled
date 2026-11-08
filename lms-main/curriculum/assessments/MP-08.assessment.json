@@ -1,0 +1,34 @@
+{
+  "lessonId": "MP-08",
+  "knowledgeAnswers": [
+    {
+      "id": "MP-08-K01",
+      "correctIndex": 1,
+      "rationale": "One named, accountable person gives a single point of responsibility. Shared ownership, customer ownership or no owner leaves completion unassigned."
+    },
+    {
+      "id": "MP-08-K02",
+      "correctIndex": 1,
+      "rationale": "A dependency that is due later than the dependent start means the sequence or dates must change. Ignoring it, starting regardless or removing the milestone does not solve the problem."
+    },
+    {
+      "id": "MP-08-K03",
+      "correctIndex": 1,
+      "rationale": "Completion needs evidence that can be checked, such as a signed-off item, a dated record or a receipt. A note, memory or a forecast does not show completion."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied list of five milestones with dependencies, the learner sequences them so that no milestone starts before its dependency ends, and the assessor checks the order and dates against the list.",
+    "The learner assigns one owner, a start date, an end date and a budget line to each milestone, and the assessor confirms that no field is blank and that each owner is a single name or role.",
+    "The learner states the evidence required to close each milestone, and the assessor confirms that each item of evidence is observable as a document, receipt or record."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off stays separate. A quiz pass is not verified practical competence.",
+  "evidenceRequired": [
+    "Milestone table with owner, dates, budget line and dependencies",
+    "Evidence record for one closed milestone",
+    "Change log for one re-dated milestone"
+  ],
+  "stopWorkCriteria": [
+    "Stop starting any milestone whose dependency has not been completed with its evidence recorded."
+  ]
+}

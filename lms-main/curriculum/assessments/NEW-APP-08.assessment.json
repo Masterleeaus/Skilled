@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-APP-08",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-APP-08-K01",
+      "correctIndex": 0,
+      "rationale": "Mixing an acid with a chlorine product or bleach can release chlorine gas, which is a serious inhalation hazard."
+    },
+    {
+      "id": "NEW-APP-08-K02",
+      "correctIndex": 1,
+      "rationale": "Only products on the approved list may be used, or a product with supervisor approval and its SDS on file."
+    },
+    {
+      "id": "NEW-APP-08-K03",
+      "correctIndex": 2,
+      "rationale": "The label dilution and contact time govern. A stronger solution can damage the surface and injure the worker."
+    },
+    {
+      "id": "NEW-APP-08-K04",
+      "correctIndex": 3,
+      "rationale": "The SDS sets out first aid steps and PPE. The customer's manual and advertising are not sources for that."
+    },
+    {
+      "id": "NEW-APP-08-K05",
+      "correctIndex": 0,
+      "rationale": "The container is emptied, rinsed with clean water and dried before a new product is added. Products are never combined."
+    }
+  ],
+  "practicalCriteria": [
+    "Selects a product from the approved list, or stops to seek approval with the SDS",
+    "Dilutes to the label rate using a clean, labelled container",
+    "Does not mix products, and rinses and dries containers between products",
+    "States the SDS first aid steps and PPE for the product in use"
+  ],
+  "passRule": "Knowledge checks: at least 4 of 5 correct (80%). Practical sign-off is separate: an assessor observes the practical criteria and records the result. A knowledge pass is not practical competence and does not grant any licence or authority.",
+  "evidenceRequired": [
+    "Product name, dilution, surface and SDS reference for each product used",
+    "Spill or exposure record where it occurred",
+    "Waste disposal record"
+  ],
+  "stopWorkCriteria": [
+    "Any mixing of two products",
+    "Any product not on the list used without approval",
+    "Any dilution stronger than the label"
+  ]
+}

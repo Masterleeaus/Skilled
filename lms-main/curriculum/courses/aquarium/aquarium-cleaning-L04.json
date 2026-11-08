@@ -1,0 +1,234 @@
+{
+  "id": "aquarium-cleaning-L04",
+  "title": "Water chemistry and pH interpretation for freshwater and marine tanks",
+  "courseSlugs": [
+    "aquarium"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Aquarium maintenance workers who read freshwater and marine test results and support owners' decisions about tank water quality",
+  "prerequisites": [
+    "F03-L01",
+    "NEW-AQU-02",
+    "aquarium-cleaning-L03"
+  ],
+  "learningOutcomes": [
+    "Explain how pH, ammonia, nitrite and nitrate are linked in an established tank, and why a tank that is not yet established shows a different pattern",
+    "Describe the chemistry that matters for marine tanks, including salinity, alkalinity and calcium, separately from freshwater tanks",
+    "Use conditioners, salt mixes and any medicine only as the label and the owner's plan direct, and refuse any product or dose that the plan does not cover",
+    "Refer any result, product request or animal health concern that the plan does not cover, rather than experimenting with treatment"
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Storing hazardous chemicals (no date shown); NSW Department of Primary Industries, Aquarium owners and trade (no date shown).",
+  "instruction": [
+    {
+      "heading": "Two systems, two sets of chemistry",
+      "body": "A freshwater tank and a marine tank share the same basic cycle of waste, bacteria and water change, but the rest of the chemistry differs. A freshwater tank is read for temperature, ammonia, nitrite, nitrate, pH and, where the plan asks, hardness. A marine tank adds salinity or specific gravity, alkalinity, calcium and magnesium, and often phosphate, which affect the stability of the pH and the health of corals, invertebrates and fish. A target that is right for one type of tank is not right for the other, and the two sets of targets must not be mixed. Set them from the owner's plan or a qualified aquatic specialist, not from numbers remembered from another system."
+    },
+    {
+      "heading": "The nitrogen cycle and reading the results together",
+      "body": "Fish waste and uneaten food release ammonia. Bacteria in the filter and on the tank surfaces convert ammonia to nitrite, and another group of bacteria converts nitrite to nitrate. Nitrate is removed by water change and by plants, and in some systems by other processes. A tank that is new, recently cleaned or has lost its filter bacteria can show ammonia or nitrite while the cycle is re-established. A rising nitrate with falling ammonia and nitrite usually means the cycle is working. Read the whole set of results, and the trend since the last visit, before deciding anything. The relationship between pH, alkalinity and calcium in a marine tank is a technique point with no source checked in this draft, so follow the owner's plan for marine chemistry targets."
+    },
+    {
+      "heading": "Conditioners, salt mixes and medicines",
+      "body": "Water conditioners, salt mixes and medicines are products with their own labels, and each must be used as its label and the owner's plan direct. Measure salt mixes accurately, mix them in water at the right temperature, and check the salinity after mixing and before use. Use a conditioner that removes chlorine and chloramine from tap water only at the dose on its label. Do not mix two products in one container, and do not add a product that is not in the owner's plan. Medicines for fish and other animals are a health matter. Pool chemicals and other non-aquarium products are never used in an aquarium. Keep all products apart in storage and on the vehicle, as their safety data sheets direct."
+    },
+    {
+      "heading": "Stop and refer",
+      "body": "When readings do not respond to the plan, do not add a larger dose to force a result. Recheck the sample and the reagent, compare with the trend, and follow the plan. If the plan does not cover the situation, stop chemical adjustment and refer it to the responsible person. Animals that gasp at the surface, lie still, show sores, change colour, behave unusually, or die without explanation need a qualified person, and the record should describe what you saw and the readings you took. Do not treat an animal outside the plan. A sudden change in salinity or temperature is a reason to stop and check the equipment and the top-up water before any other step."
+    }
+  ],
+  "procedure": [
+    "Read the owner's plan for the tank type, the target ranges, the adjustment order and the approved products.",
+    "Confirm the sample is valid, and the reagents and instruments are in date, as set out in the sampling lesson (“Water sampling and records for freshwater and marine tanks”).",
+    "Read each parameter for the tank type, and compare the set of results with the last visit.",
+    "Identify the reading that drives the next step under the plan, and check the cause before acting on it.",
+    "Check the label and safety data sheet for each product, and confirm that it is approved for this tank and this type of animal.",
+    "Make one adjustment at a time, with the PPE set by {{business:safety.required_ppe}}, and allow the water to mix before retesting.",
+    "Retest, and record each reading and each product added, with the amount, the time and the point of addition.",
+    "Refer to the responsible person if the plan does not cover the result, or if any animal shows distress."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A marine tank reads low salinity after a top-up. The technician finds that the top-up was fresh water poured in by mistake. The client wants a bag of salt added straight away.",
+      "decisionPrompt": "What is the correct sequence, and what is recorded?",
+      "reasoning": "Stop. Find the source of the wrong water, and correct it as the owner's plan directs. Check the salinity after the tank has mixed, and only then decide on a salt adjustment, following the plan's method and the salt mix label. Record the top-up error, the readings before and after, and the adjustment with its amount and time. Refer the matter if the plan does not cover it."
+    },
+    {
+      "situation": "A freshwater tank reads a high nitrite after the filter media was rinsed in tap water. The client asks for a bacteria product to be poured in, and the fish look well.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Record the reading and the cleaning step, since rinsing in tap water is a likely cause. Do not add the bacteria product unless the owner's plan approves it and its label fits the tank. Follow the plan for the water change and feeding, retest after the plan's interval, and record each result. Refer the matter if the readings do not improve or the fish show distress. The fish looking well is an observation to record. It does not replace a test."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Test kit or meter for the tank type, with reagents in date",
+    "Salinity or specific gravity instrument, calibrated, for marine tanks",
+    "Owner's water-quality plan and approved product list",
+    "Label and safety data sheet for each product on site",
+    "Gloves and eye protection as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Applying freshwater targets to a marine tank, or the reverse.",
+      "prevention": "Use the target set for the tank type, from the owner's plan or a specialist."
+    },
+    {
+      "error": "Acting on one value without reading the rest of the set or the trend.",
+      "prevention": "Read the whole set and compare it with the last visit before you act."
+    },
+    {
+      "error": "Adding a larger dose when a reading does not respond.",
+      "prevention": "Recheck the sample and the reagent, then follow the plan or refer."
+    },
+    {
+      "error": "Using a pool chemical or a product not approved for aquariums.",
+      "prevention": "Use only products approved in the owner's plan, as their labels direct. Refuse the rest and record the refusal."
+    },
+    {
+      "error": "Adding untreated tap water to the tank.",
+      "prevention": "Treat the tap water as the label and the owner's plan direct before it is added."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Water conditioners, salt mixes, medicines and test reagents are chemicals. Read each label and safety data sheet. Safe Work Australia's storage page says incompatible chemicals must be kept well apart (no date shown); keeping acids and oxidisers apart is practice in this draft.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Medicines and treatments for fish and other aquarium animals are not authorised by this lesson. Refer any treatment question to a qualified person.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Buying, selling, moving or importing live animals, plants or live rock is outside this lesson. The New South Wales Department of Primary Industries page advises against sourcing aquatic animals or rock internationally online, and describes that as illegal (no date shown). This lesson does not grant any permit or authority to trade.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each adjustment follows the owner's plan, and the order of adjustment is recorded",
+    "Freshwater and marine readings are interpreted against their own targets",
+    "No product is used that is not approved for the tank, and any refusal is recorded",
+    "A result the plan does not cover is referred, with a written description of the readings and any animal signs"
+  ],
+  "documentationEvidence": [
+    "Test results for the tank, with time, temperature and tester",
+    "Each product added, with amount, time and point of addition",
+    "Retest result after mixing",
+    "Referral record where the plan did not cover the result or the animals showed distress"
+  ],
+  "summary": [
+    "Freshwater and marine tanks have different chemistry, and each set of targets applies only to its own tank type.",
+    "Read ammonia, nitrite, nitrate and pH together, and against the trend, before acting.",
+    "Use conditioners, salt mixes and medicines only as the label and the owner's plan direct.",
+    "Refer when the plan does not cover the result, and never treat an animal outside the plan."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.handling_procedure}}",
+    "{{business:materials.sds_links}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:compliance.jurisdiction}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "aquarium-cleaning-L04-K01",
+      "question": "Why are freshwater and marine tank targets not interchangeable?",
+      "options": [
+        "The two systems have different chemistry and animals, so each set of targets applies only to its own tank type",
+        "They are the same chemistry, so the targets can be used for either type of tank without any change at all",
+        "Marine tanks do not need regular testing at all, since the salt keeps the water stable and safe for animals",
+        "Freshwater targets apply to both types of tank, because the chemistry is the same in each system"
+      ]
+    },
+    {
+      "id": "aquarium-cleaning-L04-K02",
+      "question": "Ammonia and nitrite are high and nitrate is rising slowly after a water change. What is the first step?",
+      "options": [
+        "Add a large dose of medicine straight away, since the high readings need a fast response today",
+        "Empty the tank and refill it, since the high readings mean the water has to be replaced entirely",
+        "Ignore it because nitrate is rising slowly and is not yet a concern for the animals or the plan",
+        "Read the full set of results and the trend, check the plan, and avoid adding unplanned products"
+      ]
+    },
+    {
+      "id": "aquarium-cleaning-L04-K03",
+      "question": "A client wants a medicine added to a marine tank without a qualified direction. What should you do?",
+      "options": [
+        "Add it, because the label is on the bottle and the client has paid for the product",
+        "Refuse and refer to a qualified person, because this lesson does not authorise treatment",
+        "Add half the dose to be safe, since a smaller amount is less likely to cause harm",
+        "Add it at night when the animals are resting and nobody else is around to notice"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it covers keeping incompatible chemicals apart and container labelling, and refers to the guide Managing risks of storing chemicals in the workplace. It does not name acids or oxidisers and does not mention safety data sheets. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "which professions may prescribe or dose animal medicines",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source. No official page was fetched in this session. Check with the state or territory animal health authority. Publisher: No official page read in this pass."
+    },
+    {
+      "id": "R3",
+      "title": "target temperature, chemistry and maintenance ranges",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source. No official page was fetched in this session. Set the targets from the owner's plan or a qualified aquatic specialist. Publisher: No official page read in this pass."
+    },
+    {
+      "id": "R4",
+      "title": "Aquarium owners and trade",
+      "url": "https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "NSW Department of Primary Industries, Aquarium owners and trade (no date shown). The page says to check which species are illegal to possess, buy, sell or move; that releasing fish into NSW public waters is illegal without a fish stocking permit under the Fisheries Management Act; that buying fish, plants or live rock from overseas on the internet is illegal; and that dumping an unwanted pet fish is an illegal act. It names the Prevention of Cruelty to Animals Act 1979 for animal welfare. The page uses the word illegal for these points, not warning. Publisher: NSW Department of Primary Industries."
+    },
+    {
+      "id": "R5",
+      "title": "authority to sell or supply live animals, and referral fee, commission, advertising and inducement rules",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source. No official page was fetched in this session. Check with the state or territory authority and a legal adviser before the offer is made. Publisher: No official page read in this pass."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-A1: Safe Work Australia, Storing hazardous chemicals, https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals, checked 2026-11-02 (as recorded in the existing draft). Used for the general separation principle only.",
+    "NSW Department of Primary Industries, Aquarium owners and trade, https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade, checked 2026-11-02, no page date shown. Used for the rule on buying, selling and moving prohibited species. The statement on overseas online purchases is recorded in research/topics/aquarium.md section 5 and was not re-read in this pass.",
+    "research/topics/aquarium.md sections 2, 4, 5 and 7, checked 2026-11-02: water-chemistry methods are technique points with no source checked beyond the above.",
+    "Retailer freshwater handbook (uploaded file 718107ab-729706926), conditioner and cycle points only; rights: not held by user; reworded (no copying). Product recommendations are not used.",
+    "UNCONFIRMED: target water-chemistry ranges for freshwater and marine tanks; which professions may prescribe or dose animal medicines; the marine pH, alkalinity and calcium relationship as a quantified target; state rules for trading in aquarium animals.",
+    "R1: Storing hazardous chemicals (Safe Work Australia), https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals; page date: No date shown; read 2026-11-03; status PARTIAL.",
+    "R2: UNCONFIRMED, which professions may prescribe or dose animal medicines; no official page read in this pass.",
+    "R3: UNCONFIRMED, target temperature, chemistry and maintenance ranges; no official page read in this pass.",
+    "R4: Aquarium owners and trade (NSW Department of Primary Industries), https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade; page date: No date shown; read 2026-11-03; status CONFIRMED.",
+    "R5: UNCONFIRMED, authority to sell or supply live animals, and referral fee, commission, advertising and inducement rules; no official page read in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-04.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-05.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    }
+  ]
+}

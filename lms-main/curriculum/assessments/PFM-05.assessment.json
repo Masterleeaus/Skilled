@@ -1,0 +1,46 @@
+{
+ "lessonId": "PFM-05",
+ "knowledgeAnswers": [
+  {
+   "id": "PFM-05-K01",
+   "correctIndex": 2,
+   "rationale": "A pump that is not running can still be connected to power, so isolation is confirmed before any work."
+  },
+  {
+   "id": "PFM-05-K02",
+   "correctIndex": 3,
+   "rationale": "A damaged cord is replaced immediately, and an extension lead is not used. The replacement is referred to a licensed electrician."
+  },
+  {
+   "id": "PFM-05-K03",
+   "correctIndex": 0,
+   "rationale": "A humming motor can indicate a jammed impeller. The supply is turned off and the fault is referred to the maintenance company or a licensed person."
+  },
+  {
+    "id": "PFM-05-K04",
+    "correctIndex": 2,
+    "rationale": "The protective devices and bonding section says the manufacturer asks for a residual current device at the supply point."
+  }
+ ],
+ "practicalCriteria": [
+  "Isolator is identified and the supply confirmed off before any inspection, with lock-out or tag where the site requires",
+  "Cord, plug and socket are inspected and any damage is referred with the time recorded",
+  "An extension cord or buried cord is recognised and refused or referred",
+  "The worker states which electrical tasks are licensed and refers them without attempting them"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Isolation record for one supervised visit",
+  "Cord and socket inspection record",
+  "Assessor observation sign-off",
+  "Referral note to a licensed electrician where applicable"
+ ],
+ "stopWorkCriteria": [
+  "Pump worked on while running or connected",
+  "Motor opened or rewired by an unlicensed person",
+  "Extension cord used as a supply for the pump",
+  "Damaged cord left in service"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

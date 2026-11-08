@@ -1,0 +1,175 @@
+{
+  "id": "BP-05-pond",
+  "title": "Pricing by hours per project for Pond and water-feature maintenance",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors of pond and water-feature maintenance businesses who write quotes for visits, filter and pump work, and one-off clean-outs, and need a price that covers cost and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures",
+    "Estimate visit and project hours, including set-up, travel, fish-holding time and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "A pond visit is a short task at the site with a drive either side of it. The crew's time, the travel, the set-up and the checks all become hours. Once you know the hours, you can see the cost, the margin and the effect of a change in scope, such as adding a filter clean, a fish-holding period or a clean-out. A flat price with no hours behind it hides both risk and waste, and it is hard to defend when a client asks why a job costs what it does."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in the same period. Total cost includes wages with on-costs such as leave and superannuation, where your staff arrangements require them, vehicle running costs, equipment, consumables, insurance, administration and premises. Productive hours are the hours spent on chargeable work at the site, not the paid hours on a roster. Use billable hours as the divisor. For illustration only, if you pay for 40 hours and 30 of them are chargeable, the cost per productive hour is higher than the hourly wage. Business.gov.au says on-costs such as super and leave belong in the hourly figure (1 October 2026)."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each visit into tasks: the visit check, the skimmer and pre-filter, the pump and filter, the water top-up, any plant trimming, and the visit note. Estimate each task at a standard speed, then add set-up, pack-down, travel and a checking allowance. If fish must be held in a tub while a job is done, price that time as a named line. Add a set allowance for delays outside your control, such as access problems, weather or staff absence. Xero Australia suggests adding 10 to 20 percent to job estimates for unexpected work (3 September 2026); use that as a starting point and size your own allowance from your records. Record the actual hours after each job and note the reason for any gap."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the visit or project. Add a margin that reflects your target and the risk, such as a neglected pond, a steep or hard-to-reach site, or a tight deadline. Apply your materials policy and your minimum charge. Where a pond must be emptied, the water disposal rule matters. No pond-specific discharge rule was found in the research, and the Queensland fact sheet's advice on tank water is not a discharge rule for ponds. The pool discharge rules in this course (Unitywater in Queensland and Icon Water in the ACT) are for pools and do not apply to ponds. Check your council and state rule for the site before you price the disposal."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote should state the scope, the hours or price basis, the exclusions, what the client must provide, and how long the quote is valid. Exclusions for a pond quote usually include liner repairs, pump and filter replacement, fish relocation, and water disposal beyond the agreed method. Do not show the internal cost per hour to the client unless your policy says to. The ACCC says misleading price statements are prohibited (setting prices: what's allowed, 15 July 2026). Re-quote whenever the scope changes."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten visits or projects of each type. Carters Trade Leader recommends using the gap between quoted and actual labour to correct the next quote (1 October 2025). If the variance stays above a threshold you have agreed, change the standard time, the margin or the scope rules. A pricing method is finished when quoted hours match actual hours closely enough for the work to make money. The research found no pond cost-per-hour benchmark, so your own records are the only source for this figure."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the productive hours achieved in the same period.",
+    "Divide total costs by productive hours to get the cost per productive hour.",
+    "Break the visit into tasks, including the pump and filter check, the skimmer, the water top-up and the visit note, and estimate each task time as a range.",
+    "Add set-up, pack-down, travel and checking time as named lines, and add any fish-holding time as its own line.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy and the minimum charge, and price any water disposal method only after checking the local rule.",
+    "Write the quote with scope, hours basis, exclusions, client inputs and validity.",
+    "Record actual hours after each job and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. A monthly pond visit takes 3.0 crew-hours on site and 1.0 crew-hour of travel. The owner's cost per productive hour is $60 AUD (illustrative). The target margin on price is 25 per cent (illustrative). No published pond price was found to check the result against.",
+      "decisionPrompt": "What is the cost of the visit, what is the price with a 25 per cent margin on price, and what changes if a liner repair needs a 2-hour fish-holding period on the same day?",
+      "reasoning": "The cost is 4.0 crew-hours multiplied by $60 AUD, which is $240 AUD (illustrative). A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $320 AUD (illustrative). A 2-hour fish-holding period adds 2.0 crew-hours, so the cost becomes $360 AUD and the price becomes $480 AUD (illustrative). The owner states the holding time as its own line, and confirms that the client agreed in writing that fish stay in a holding tub and are not released. Where the fish must leave the site, the rule for the state applies, and the owner does not price a relocation until that rule is checked."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each visit or project, with estimated and actual columns",
+    "Holding tub and aeration kit, where fish must be held on site",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, equipment, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel, set-up, fish-holding and checking time",
+      "prevention": "Add these as named lines on every estimate."
+    },
+    {
+      "error": "Quoting a water disposal method that was never checked against the local rule",
+      "prevention": "Check the council and state rule for the site first, and price the disposal only as far as that rule allows."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each visit and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The Australian Consumer Law applies to pricing statements, and the ACCC says misleading statements about prices are prohibited. State or territory fair trading rules also apply and differ between states, so check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "No pond-specific discharge rule was found in the research, so no discharge figure or method is given in this lesson. Check the rule for the site before pricing any disposal.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement. Award coverage for pond workers was not checked in this course. Confirm which instrument applies to each worker before using any cost figure.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten visits or projects of each type and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Visit time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make the work visible, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Travel, set-up, fish-holding and checking time are named lines, not hidden extras.",
+    "Compare estimates with actual hours, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-K01",
+      "question": "Which costs belong in the cost per productive hour for a pond business?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the client pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of other pond businesses in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, equipment, consumables, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-K02",
+      "question": "A pond visit is estimated at 3 crew-hours and takes 4.5. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid and the crew has finished",
+        "Reduce paid hours for the crew on the next job and skip the morning break",
+        "Raise the price for this client's next visit only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-K03",
+      "question": "Why does a pond quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client and to keep the rates a secret from the crew",
+        "To make the quote longer and to fill up the page with more text and words for the client",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the client's expectations and to make the job seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Supports: on-costs such as super and leave belong in the hourly cost; a quote should recover cost and add a margin.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements are prohibited.",
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Supports: divide by billable hours, not total hours; add 10 to 20 percent to job estimates for unexpected work.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. New Zealand publisher; general method only. Supports: use the gap between quoted and actual labour to correct the next quote.",
+    "Queensland Department of Agriculture and Fisheries, 'Ipa aquarium fish importation' fact sheet, https://www.daf.qld.gov.au/__data/assets/pdf_file/0004/1457824/ipa-aquarium-fish-importation.pdf, dated June 2020. Supports: tank water may carry eggs or larvae and should not be siphoned into drains. The fact sheet is about tanks, not ponds, and is not used as a pond discharge rule.",
+    "Unitywater, 'Domestic Swimming Pool Wastewater Disposal Policy OP8130', https://www.unitywater.com/-/media/unitywater/pdf-policies-and-reports/domestic-swimming-pool-wastewater-disposal-policy-op8130.pdf, revision 10, last reviewed 16 July 2025, amended 19 March and 21 April 2026. Queensland utility. Cited only to show that it is a pool rule and does not apply to ponds.",
+    "Icon Water, 'Acceptance Guideline 7 - Discharges from the pools', https://iconwater.com.au/sites/default/files/2023-10/IW%20Acceptance%20Guideline%207%20-%20Discharges%20from%20the%20pools.pdf, dated August 2016 (older). ACT utility. Cited only to show that it is a pool rule and does not apply to ponds.",
+    "Gap: no pond or water-feature cost-per-hour, pond labour rate or pond discharge rule was found in a source with a stated figure. Award and enterprise agreement coverage for pond workers was not checked. No trade-body source was reached."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

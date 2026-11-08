@@ -1,0 +1,168 @@
+{
+  "id": "PBP-03",
+  "title": "Pricing pool visits and service packages",
+  "courseSlugs": [
+    "pool",
+    "residential",
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 50,
+  "audience": "Owners who set prices for pool visits, extras and service packages",
+  "prerequisites": [
+    "F11-L03"
+  ],
+  "learningOutcomes": [
+    "Build a price for a visit from its costs: labour time, travel, supplies, equipment, insurance and overheads",
+    "Set a minimum charge and a policy for chemicals and materials",
+    "Price extras separately and agree them in writing before the work",
+    "Test a package price against the costs and the business's target, without using sample prices"
+  ],
+  "instruction": [
+    {
+      "heading": "Costs before price",
+      "body": "A price for a pool visit starts from the costs of the visit. Labour time includes the set-up, the work, the record and the travel between sites. Supplies include the chemicals the plan allows, the spare parts and the consumables. Equipment has a cost, which is spread over the jobs it serves. Insurance and the business overheads, such as vehicle, phone, software and accounts, have to be recovered too. The sample plan lists several pricing structures, including fixed, hourly and per-session prices, but its numbers are hypothetical and are not used here. Set your own figures from your own costs and record how each figure was made."
+    },
+    {
+      "heading": "Pricing method and minimum charge",
+      "body": "Choose a method and write it down. A common approach is a visit price made of time, travel and supplies, with a minimum charge so that a short visit still covers its costs. Set the minimum charge from your own costs and state it in the pricing policy. A minimum is a protection, not a discount. Also decide whether a visit price changes for access difficulty, distance, dirty pools or repeat neglect, and write the rule in advance, so the client knows how the price is worked out."
+    },
+    {
+      "heading": "Chemicals and materials",
+      "body": "Decide whether chemicals are included in the visit price, charged as a separate line, or passed through at cost. Each option has a cost to the business and a risk of dispute. Whichever policy is chosen, record it, show the amount on the invoice, and keep the supplier's receipt. Materials such as replacement baskets or seals are priced as extras, with the price agreed in writing first. Do not sell a product that the operator plan does not allow."
+    },
+    {
+      "heading": "Packages and discounts",
+      "body": "A package bundles visits or services at one price, often with a commitment period. A package must still cover its costs at the frequency it promises. Test each package against the visit cost. A discount that takes the price below cost cannot be sustained, and it harms the business and the service. Write any discount as a stated rule with its conditions, and check that it leaves a margin."
+    },
+    {
+      "heading": "Testing the price",
+      "body": "Test the price against the business's target in three ways: whether the visits in a month cover the fixed costs, whether a single visit covers its direct costs and its share of overheads, and whether the margin matches what the owner needs. The assumptions behind these tests belong in the assumptions register described in “Writing the assumptions register behind a projection”. Where a price is marked as an assumption, record it as one."
+    }
+  ],
+  "procedure": [
+    "List the direct costs of one visit: labour time, travel, supplies and equipment use.",
+    "Add the share of insurance and overheads, with the basis for each share.",
+    "Set the visit price and the minimum charge, with the method written down.",
+    "Set the chemical and materials policy, and write it in the pricing terms.",
+    "Price each extra and record that it needs agreement in writing before it is done.",
+    "Test each package against the visit cost at the promised frequency.",
+    "Record the assumptions and the date the price was set."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client asks for a discount of half off the visit price for the first month to win the account.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Test the discount against the visit cost. If the discounted visit does not cover its direct costs and a share of the overheads, refuse it or offer a smaller, rule-based discount with a stated end date. Write the discount rule in the pricing terms and record the margin it leaves."
+    },
+    {
+      "situation": "A client's pool has heavy debris after a storm and the visit takes far longer than usual.",
+      "decisionPrompt": "How is the extra time priced?",
+      "reasoning": "Apply the rule in the pricing terms for extra time, such as an extra-time charge, and agree it with the client before the extra work continues. Record the time, the reason and the agreement. Do not invent a charge after the job."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost worksheet for one visit",
+    "Pricing policy document",
+    "Invoice template with extra lines",
+    "Assumptions register"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a sample or competitor price without costing it",
+      "prevention": "Build each price from the costs and record the basis."
+    },
+    {
+      "error": "Discounting below the cost of the visit",
+      "prevention": "Test each discount against the direct cost and the overhead share."
+    },
+    {
+      "error": "Doing extra work without agreement in writing",
+      "prevention": "Price extras in writing before the work is done."
+    },
+    {
+      "error": "Passing chemical costs on without a stated policy",
+      "prevention": "Write the chemical and materials policy and show it on the invoice."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Pricing does not change the safety rules. A visit price must not depend on skipping a safety check or a referral.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Tax treatment of prices, including any goods and services tax, must be checked before prices are published.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pricing terms in a service agreement must be checked against Australian consumer law.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The sample plan's figures are hypothetical and are not used as prices or rates.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each visit price is built from its listed costs, with the basis for each share written down.",
+    "Each discount and minimum charge is written as a rule, with its conditions.",
+    "Each extra is agreed in writing before the work is done."
+  ],
+  "documentationEvidence": [
+    "Cost worksheet with the basis for each figure",
+    "Pricing policy with the minimum, chemicals and extras rules",
+    "Record of each extra agreed in writing"
+  ],
+  "summary": [
+    "Build the price from the costs, not from a sample or a competitor.",
+    "Write down the minimum charge, the chemicals policy and the extra rules.",
+    "Test each discount and package against the cost of the visit."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PBP-03-K01",
+      "question": "How should the minimum charge for a visit be set?",
+      "options": [
+        "From the competitor's lowest published price in the market in the area for the week",
+        "At the rate the nearest competitor advertises on its website today",
+        "From the sample plan's figure for a short visit in the table and the notes",
+        "From the business's own costs of a short visit, written in the pricing policy"
+      ]
+    },
+    {
+      "id": "PBP-03-K02",
+      "question": "A package is offered at a price that does not cover the visit cost at the promised frequency. What is the correct response?",
+      "options": [
+        "Adjust the package or its frequency so the price covers the cost, or refuse the package",
+        "Hide the cost from the client in the quote, the invoice, the plan, the terms and the notes",
+        "Add the difference to the next client's invoice for the visit and the work",
+        "Offer it anyway as a marketing loss for the first month of the new year and the season"
+      ]
+    },
+    {
+      "id": "PBP-03-K03",
+      "question": "Which statement about pricing extras is correct?",
+      "options": [
+        "They are added to the invoice after the work is done",
+        "They are agreed in writing before the work is done",
+        "They are included free in the visit price",
+        "They are set by the client once the job is complete"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Pool Cleaning Business Plan (sample PDF, 2023 template), section Pricing Strategy and the product and service pricing subsections, used for structure only (the sample's per-visit, package and hourly figures are placeholders and are not used); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "How to Start a Pool Cleaning Service (US start-up guide), section 'How to draft a simple contract for cleaning services' steps 5 and 7 (prices for each service and for extra tasks, with the payment schedule); rights: user-held; reworded (no copying); checked 2026-11-02. US source; the principle of pricing each service and extra is kept, and the US figures are not used.",
+    "UNCONFIRMED: Australian goods and services tax, consumer pricing rules and business costs for pool service work. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

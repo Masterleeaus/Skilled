@@ -1,0 +1,151 @@
+{
+  "id": "BPX-04",
+  "title": "Base, storage and service hours for a mobile trade business",
+  "courseSlugs": [
+    "handyman",
+    "deck",
+    "flatpack",
+    "locksmith",
+    "painting",
+    "plastering",
+    "tiling"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Owners of mobile handyman and property trade businesses who are deciding where to base the work and when clients can book",
+  "prerequisites": [
+    "HBM-02"
+  ],
+  "learningOutcomes": [
+    "Compare a home base, a rented workspace and a shared yard against the needs of a mobile trade business",
+    "Describe a secure storage plan for tools, stock and ladders, including what must be kept apart",
+    "Set service hours, a booking window and a confirmation step, and write them into the business plan"
+  ],
+  "instruction": [
+    {
+      "heading": "Choosing a base for mobile work",
+      "body": "A mobile trade business spends most of its working time at client sites, so the base is a place to store, load and plan rather than a place to meet clients. Three options are common: a home base, a rented workspace or a shared yard, and a sample plan may describe a rented office with a fitted workshop. Choose on function. The base needs secure storage for tools and stock, room to load a vehicle, and a place to do admin without clutter. A home base can be cheaper, but its use may be restricted by council, strata or landlord rules. Record the base, its cost, its access hours and the reason for the choice."
+    },
+    {
+      "heading": "Storage and separation",
+      "body": "Tools, ladders, paint, fixings and consumables all need a defined place. Lockable storage protects both the stock and the client's property, and the vehicle should be secured whenever it is parked at the base. Keep chemicals and paints apart from food and from personal items, and store them according to their safety data sheet. The storage lessons “Storage, spills and disposal” and “Buying tools and equipment in stages” give the procedures in more detail. A simple stock list kept at the base shows what has been used, what must be bought and what has gone missing."
+    },
+    {
+      "heading": "Service hours and the booking window",
+      "body": "Clients need to know when they can reach the business and how far ahead they can book. Write service hours as the times the phone, email or booking page is answered, separate from the hours the crew is on site. Set a booking window, which is the earliest and latest point at which a job can be scheduled, so that the owner can plan travel and capacity. State how a booking is confirmed and how a late enquiry is handled, including any out-of-hours message. The scheduling method should match the job scheduling field used in the business settings. A sample plan that opens an office at a fixed time can be used as a model for the format only; the hours themselves must reflect the owner's real availability."
+    }
+  ],
+  "procedure": [
+    "List the options for a base, and for each one record the monthly cost, access hours, security and any restriction that applies at the address.",
+    "Choose a base and write the reason for the choice in one sentence.",
+    "List every item to be stored, group it by hazard and use, and identify what must be kept apart.",
+    "Set the locking, vehicle-security and stock-list routine for the base.",
+    "Write the service hours, the booking window and the confirmation step, and check them against the owner's real availability for one typical week.",
+    "Write an out-of-hours message and a late-enquiry rule, and record who will answer each channel.",
+    "Name the person who will check every restriction or insurance point that depends on an unverified source, and leave it out until it is checked."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Hypothetical example: a two-person handyman business has a choice between a rented unit with a roller door at a monthly cost, and a garage at the owner's home. The owner works Monday to Friday and wants to offer Saturday mornings. The home garage is shared with a family car and a freezer.",
+      "decisionPrompt": "Which base should be chosen, and what service hours and booking window should be written into the plan?",
+      "reasoning": "The rented unit offers secure storage for tools and stock and keeps chemicals apart from household items, which is the stronger functional fit. Its monthly cost must be added to the overheads in “Reading a profit and loss forecast”. The owner should still check the lease terms and the insurance cover for the stored tools. Service hours could be Monday to Friday from 7 am to 5 pm with Saturday mornings by appointment, and a booking window of 2 to 14 days ahead. Confirmation should follow within one working day. The garage option can be kept as a fallback only if the rules at the home address allow the use."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Notebook or spreadsheet for the base comparison and the stock list",
+    "Lease or rental terms, or the address rules for a home base, where they apply",
+    "No physical PPE is required for this lesson"
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing a base only on rent, without counting access, security and the time lost travelling.",
+      "prevention": "Compare each base on cost, access hours, security, storage fit and travel time, and record the reason for the choice."
+    },
+    {
+      "error": "Storing chemicals and food or personal items in the same space.",
+      "prevention": "Store chemicals by their safety data sheet, separate from food and personal items, and check the arrangement at each stock review."
+    },
+    {
+      "error": "Setting service hours that the owner cannot actually keep, so bookings are missed.",
+      "prevention": "Test the hours against one typical week of real availability before writing them into the plan."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "They must be checked for the specific address and the local council before a base is chosen.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Read the policy and confirm what it covers before relying on it.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Store chemicals and paints by the instructions on their safety data sheets. This lesson does not authorise any specific chemical storage arrangement.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The base decision records cost, access hours, security, storage fit and the reason for the choice",
+    "Storage groups items by hazard and use, with chemicals kept apart from food and personal items",
+    "Service hours, booking window and confirmation step are written down and tested against one typical week",
+    "Every restriction or insurance point without a current source is left out until it is checked"
+  ],
+  "documentationEvidence": [
+    "A base comparison table with the reason for the chosen base",
+    "A stock and storage list with the locking and vehicle-security routine",
+    "The written service hours, booking window and out-of-hours message"
+  ],
+  "summary": [
+    "A mobile trade base is chosen for storage, loading and planning, and each option must be tested against its real costs and restrictions",
+    "Storage keeps chemicals, tools and stock apart and secure, and the stock list shows what has gone missing",
+    "Service hours and the booking window should match real availability and be written down with a confirmation step"
+  ],
+  "businessFields": [
+    "{{business:jobs.scheduling_method}}",
+    "{{business:jobs.arrival_procedure}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:business.service_area}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BPX-04-K01",
+      "question": "Which factor matters most when choosing a base for a mobile handyman who carries tools and stock?",
+      "options": [
+        "Matching the decor of a showroom for the clients",
+        "Being close to the largest shopping centre in town",
+        "A secure place to store tools and stock, with vehicle access",
+        "The highest rent the owner can afford to pay for it"
+      ]
+    },
+    {
+      "id": "BPX-04-K02",
+      "question": "Why should a booking window be stated in the business plan?",
+      "options": [
+        "It sets how far ahead clients can book, so the owner can plan capacity and travel",
+        "It tells clients the business's tax rate and the GST it charges on each job",
+        "It replaces the written quote for each job the business does at the start",
+        "It shows the bank the owner's home address for the loan and the account"
+      ]
+    },
+    {
+      "id": "BPX-04-K03",
+      "question": "A home-based owner plans to keep cleaning chemicals in the garage next to a food freezer. What is the appropriate response?",
+      "options": [
+        "Keep them together to save space in the garage with the food and the freezer near the door and the bins",
+        "Move the chemicals into the kitchen pantry beside the food, the bread, the drinks, the snacks and the cups",
+        "Store them beside the food freezer, because the plan does not mention a separate place for them",
+        "Store the chemicals apart from food, follow the safety data sheet storage advice, and check the home-based rules."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Handyman business plan sample (0db29e53-657849233-handyman-business-plan.txt), sections Location, Interior operating facilities and Hours of operation; rights: not held by user (vendor sample, vendor watermark present); reworded (no copying). The sample's US location and office details are not used.",
+    "Cleaning company business plan sample (7886acdc-603394611-cleaning-company-business-plan.txt), sections Location, Interior operating facilities and Hours of operation; rights: not held by user (vendor sample); reworded (no copying). Structure only.",
+    "HBM-02 Owner time and admin workload, cross-checked for admin time and booking load; overlap recorded, storage detail left to HBM-07 and F03-L04.",
+    "Home-based business rules, lease terms, tool theft cover and vehicle security requirements: UNCONFIRMED (not checked against a current source in this draft)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

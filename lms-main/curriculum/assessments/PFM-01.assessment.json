@@ -1,0 +1,38 @@
+{
+ "lessonId": "PFM-01",
+ "knowledgeAnswers": [
+  {
+   "id": "PFM-01-K01",
+   "correctIndex": 2,
+   "rationale": "The manual requires the pump to be off before a valve change. A handle between settings may be partly closed, and that must never run."
+  },
+  {
+   "id": "PFM-01-K02",
+   "correctIndex": 3,
+   "rationale": "The manual says the filter takes out suspended matter. Disinfection and chemical balance are separate tasks."
+  },
+  {
+   "id": "PFM-01-K03",
+   "correctIndex": 0,
+   "rationale": "The manual warns that compressed gas is dangerous if a component fails during testing."
+  }
+ ],
+ "practicalCriteria": [
+  "Valve setting is observed and recorded, and the water path is described correctly",
+  "Each warning label is confirmed present and readable, or its replacement is referred",
+  "The worker states that the pump is never run with the valve shut or on NO FLOW"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Visit record showing the component and valve check",
+  "Photo of warning labels where the owner agrees",
+  "Assessor observation sign-off"
+ ],
+ "stopWorkCriteria": [
+  "Pump run with the valve shut or on NO FLOW",
+  "Warning label removed or covered",
+  "Filter tested or pressurised with air or gas"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

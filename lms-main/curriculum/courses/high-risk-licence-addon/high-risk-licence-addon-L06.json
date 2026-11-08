@@ -1,0 +1,123 @@
+{
+  "id": "high-risk-licence-addon-L06",
+  "title": "Falls from roofs and guardrails: what the sources confirm",
+  "courseSlugs": [
+    "high-risk-licence-addon"
+  ],
+  "moduleTitle": "Optional add-on: high-risk work and platform licences",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Workers and supervisors who may be asked to work at height or on a platform. Optional add-on, taken alongside the main courses.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Describe what the WorkSafe Victoria 2024 alert confirms and what it does not.",
+    "Explain why a guardrail must be checked against its supporting structure.",
+    "State the SA height-threshold announcement and its in-force status."
+  ],
+  "instruction": [
+    {
+      "heading": "A WorkSafe Victoria alert on a guardrail",
+      "body": "A WorkSafe Victoria safety alert published 30 May 2024 describes a guardrail that came loose from a parapet wall. The alert does not state the cause of the failure."
+    },
+    {
+      "heading": "The supporting structure",
+      "body": "The alert says a guardrail may fail where the supporting structure has not been verified."
+    },
+    {
+      "heading": "What is not confirmed",
+      "body": "That the guardrail failed because its structure could not carry the load is not confirmed by an official source."
+    },
+    {
+      "heading": "The model falls code",
+      "body": "Safe Work Australia's model code on managing the risk of falls says to check with the regulator whether it has legal effect in the jurisdiction (no date shown). That the model code has legal effect only where a jurisdiction adopts it is not confirmed by an official source."
+    },
+    {
+      "heading": "South Australia's height threshold",
+      "body": "SafeWork SA announced on 5 June 2026 that the high-risk construction height threshold moves from 3 metres to 2 metres from 1 July 2026. The announcement is confirmed; the regulation text and in-force status are not confirmed by an official source."
+    }
+  ],
+  "procedure": [
+    "Inspect the guardrail fixing and the supporting structure before use.",
+    "Record whether the supporting structure has been verified.",
+    "Check the model code's legal effect and the South Australian threshold with the regulator where relevant."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A crew plans to fix a temporary guardrail to a parapet on a double-storey roof.",
+      "decisionPrompt": "What must be confirmed first?",
+      "reasoning": "The alert says a guardrail may fail where the supporting structure has not been verified, so the structure must be checked before the guardrail is relied on. The alert does not state the cause of the earlier failure."
+    }
+  ],
+  "equipmentAndPpe": [
+    "None for this lesson (knowledge only)."
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a guardrail as safe because it is fitted.",
+      "prevention": "Verify the supporting structure first."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Do not rely on a guardrail or fixing until the supporting structure has been checked. The alert says a guardrail may fail where the supporting structure has not been verified.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Learner states that the supporting structure has been verified before the guardrail is used."
+  ],
+  "documentationEvidence": [
+    "Structure check recorded with date and person."
+  ],
+  "summary": [
+    "The alert states the guardrail came loose from a parapet wall.",
+    "The alert does not state the cause.",
+    "Structure checks are needed before relying on a guardrail."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "high-risk-licence-addon-L06-K01",
+      "question": "What does the WorkSafe Victoria alert in this lesson say about the cause of the guardrail failure?",
+      "options": [
+        "The structure could not carry the load",
+        "The alert does not state the cause",
+        "The guardrail was not fixed to any wall"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/safety-alerts/worker-falls-double-storey-roof-construction-site (Published 30 May 2024; reviewed 30 May 2024; checked 2026-11-04)",
+    "https://safeworkaustralia.gov.au/doc/model-code-practice-managing-risk-falls-workplaces (Publication date label; no date shown; checked 2026-11-04)",
+    "https://www.safework.sa.gov.au/news-and-alerts/news/news/2025/lowering-height-threshold-will-raise-safety-standards (Published 5 June 2026; checked 2026-11-04)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Worker falls from double-storey roof on construction site (WorkSafe Victoria safety alert)",
+      "url": "https://www.worksafe.vic.gov.au/safety-alerts/worker-falls-double-storey-roof-construction-site",
+      "pageDate": "Published 30 May 2024; reviewed 30 May 2024",
+      "checked": "2026-11-04",
+      "covers": "Guardrail came loose from a parapet wall; cause not stated; a guardrail may fail where the supporting structure has not been verified."
+    },
+    {
+      "id": "R2",
+      "title": "Model code of practice: managing the risk of falls in workplaces (Safe Work Australia)",
+      "url": "https://safeworkaustralia.gov.au/doc/model-code-practice-managing-risk-falls-workplaces",
+      "pageDate": "Publication date label; no date shown",
+      "checked": "2026-11-04",
+      "covers": "Says to check with the regulator whether the model code has legal effect in the jurisdiction. Adoption rule not stated."
+    },
+    {
+      "id": "R3",
+      "title": "Lowering the height threshold will raise safety standards (SafeWork SA news)",
+      "url": "https://www.safework.sa.gov.au/news-and-alerts/news/news/2025/lowering-height-threshold-will-raise-safety-standards",
+      "pageDate": "Published 5 June 2026",
+      "checked": "2026-11-04",
+      "covers": "Announces the high-risk construction height threshold moves from 3 m to 2 m from 1 July 2026. Regulation text not read."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-IRR-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-IRR-01-K01",
+      "correctIndex": 1,
+      "rationale": "Scorched wiring inside a controller is an electrical fault. The crew does not open or alter it, records the condition from outside and refers it to a licensed electrician."
+    },
+    {
+      "id": "NEW-IRR-01-K02",
+      "correctIndex": 2,
+      "rationale": "A service report describes what was tested, what was found, what was changed and what was referred. It does not present only positive results or claim the system is leak-free."
+    },
+    {
+      "id": "NEW-IRR-01-K03",
+      "correctIndex": 0,
+      "rationale": "The backflow prevention device stops water from flowing back from the garden into the supply, which protects drinking water."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock system drawing and a mock zone layout, the learner names the supply point, backflow device, filter, regulator, controller, valves and zones within the assessor's set time.",
+    "On a supplied test rig or mock zone, the learner runs each zone with the controller's test function and records coverage and any blocked emitter.",
+    "Given a supplied mock supply-side leak, the learner stops, marks the area and states the referral step without opening the device."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Labelled component list for the mock system, signed by the assessor.",
+    "Zone run record for the supplied rig, with the assessor's observation.",
+    "Referral record for the mock supply-side leak."
+  ],
+  "stopWorkCriteria": [
+    "Opening the mock controller enclosure or touching mock mains wiring during the assessment.",
+    "Opening or adjusting the mock backflow device during the assessment.",
+    "Running a mock zone with a visibly damaged mock valve or open mock wire."
+  ]
+}

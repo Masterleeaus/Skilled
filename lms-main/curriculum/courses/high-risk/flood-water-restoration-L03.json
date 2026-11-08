@@ -1,0 +1,149 @@
+{
+  "id": "flood-water-restoration-L03",
+  "title": "Structural instability, slips and confined spaces",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and water-removal work after a flood or water event. Not a qualification or authority to enter a flood-affected building, energise its systems, or certify it as dry, safe or habitable.",
+  "prerequisites": [
+    "flood-water-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Recognise structural instability, slip and confined-space hazards that water can conceal, and refuse to treat a visual inspection as structural clearance."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how structural instability, slips and confined spaces after water exposure are recognised and excluded. It does not give structural clearance and does not authorise entry to an uncleared space. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "Structural instability, slips and confined spaces",
+      "body": "Water can conceal weakened ceilings, unstable stored loads, undermined flooring and blocked escape routes. Floors that look sound may be slippery, and spaces under floors or behind walls may be confined. Visual inspection is not structural clearance. Exclude any area that has not been cleared, record the exclusion zones and evacuation paths, and request a qualified structural assessment. Submit the engineering referral records with the scope sheet. Do not enter a confined space or an undermined area to look for the problem."
+    }
+  ],
+  "procedure": [
+    "Exclude any area that has not been cleared and record the exclusion zone.",
+    "Record the evacuation paths and any blocked routes.",
+    "Look for weakened ceilings, unstable stored loads, undermined flooring and wet, slippery surfaces. Do not test them by stepping on them.",
+    "Do not enter a confined space or an undermined area to look for the problem.",
+    "Request a qualified structural assessment in writing.",
+    "Submit the referral with the scope sheet, and keep the area excluded until the assessment is returned."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A ceiling looks sound, but water has undermined the flooring and the stairs look slippery.",
+      "decisionPrompt": "Is a visual inspection enough to enter?",
+      "reasoning": "No. A visual inspection is not structural clearance. Exclude the affected areas, record the evacuation paths and request a qualified structural assessment before any entry."
+    },
+    {
+      "situation": "A worker proposes to crawl under a floor to check the sub-floor for water.",
+      "decisionPrompt": "What is correct?",
+      "reasoning": "Refuse. The space is confined and may be undermined. Record the area as excluded and request a qualified assessment with an authorised method."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Rubber-soled shoes and gloves, as the hazard assessment requires. The Comcare clean-up list includes rubber-soled shoes and gloves.",
+    "Eye protection where the hazard assessment requires it."
+  ],
+  "commonErrors": [
+    {
+      "error": "Entering a space that looks sound after water has undermined it.",
+      "prevention": "Visual inspection is not structural clearance. Exclude the area and request a qualified assessment."
+    },
+    {
+      "error": "Crawling into a sub-floor or enclosed void.",
+      "prevention": "Confined spaces are not entered without a planned, authorised method."
+    },
+    {
+      "error": "Treating a wet floor as a nuisance rather than a hazard.",
+      "prevention": "Treat wet, slippery and unstable surfaces as hazards."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson gives no structural clearance. Completing it does not give a licence, certificate or approval.",
+      "licenceNotice": true
+    },
+    {
+      "point": "SafeWork NSW's flood clean-up guidance lists wet, slippery and unstable surfaces as hazards, and advises regular rest breaks to manage fatigue.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The rules for structural assessment and confined-space entry depend on the state or territory and the workplace. Check the rule that applies.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner excludes uncleared structural and confined-space areas.",
+    "The learner does not treat a visual inspection as structural clearance."
+  ],
+  "documentationEvidence": [
+    "Exclusion zone and evacuation path record, with the structural referral.",
+    "Hazard list for slips and confined spaces."
+  ],
+  "summary": [
+    "Visual inspection is not structural clearance.",
+    "Exclude uncleared areas and request an assessment.",
+    "Do not enter confined or undermined spaces to look for the problem."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "flood-water-restoration-L03-K01",
+      "question": "A ceiling looks sound, but water has undermined the flooring. Is a visual inspection enough to enter?",
+      "options": [
+        "Yes, if the ceiling looks sound, since the ceiling is above the floor and is the main concern",
+        "No. Visual inspection is not structural clearance. Exclude the area and request a qualified assessment.",
+        "Yes, if the worker walks carefully and keeps to the edges of the room where the boards are firm"
+      ]
+    },
+    {
+      "id": "flood-water-restoration-L03-K02",
+      "question": "Which condition does NSW flood clean-up guidance list as a hazard?",
+      "options": [
+        "Wet, slippery and unstable surfaces",
+        "Dry carpet",
+        "Sealed concrete floors"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR06-flood-water-restoration.json, instruction section 3 and learning outcome 3; first knowledge check HR06-K03. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: flood-water-restoration-lesson-03-instruction-pass68.json; flood-water-restoration-lesson-03-research-pass67.json; flood-water-restoration-lesson-03-assessment-pass69.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: structural assessment requirements and confined-space entry rules after floods. The SafeWork NSW and Comcare pages read do not cover structural assessment.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "SafeWork NSW media release: urges workplaces to beware of hazards as flood cleanup begins",
+      "url": "https://www.safework.nsw.gov.au/news/safework-media-releases/safework-nsw-urges-workplaces-to-beware-of-hazards-as-flood-cleanup-begins",
+      "pageDate": "29 May 2025 (publication and modified date)",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Flood clean-up hazards include contaminated water, sewage containing harmful bacteria that may have overflowed inside a building, broken glass and debris, damaged electricity supplies, asbestos, wet, slippery and unstable surfaces, and wild animals. Buildings built before 1990 are likely to contain asbestos. Workers should take regular rest breaks to manage fatigue. Damaged gas and electrical appliances should be avoided until an electrician or plumber declares them safe. The release strongly recommends a licensed asbestos removalist for asbestos work. NSW guidance only."
+    },
+    {
+      "id": "R2",
+      "title": "Floods (extreme weather)",
+      "url": "https://www.comcare.gov.au/safe-healthy-work/prevent-harm/extreme-weather/floods",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Flood clean-up dangers include asbestos, flooded sewerage, toxic chemicals, bacteria and pollutants. Clean-up duties: electricity clearance has been given before attempting to use the electricity; any hazardous chemicals or likely asbestos-containing materials are identified; everyone involved is briefed on hazards and precautions, including PPE; first aid, clean drinking water and hand hygiene measures are available. Clean-up PPE listed: rubber-soled shoes, gloves, hats, sunscreen, sun protective clothing and high visibility vests. Commonwealth (Comcare) guidance."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a flood-affected building, to carry out regulated flood restoration, to energise or isolate electrical, gas or solar systems, to remove sewage or contaminated water, to dispose of waste, or to certify that a property is dry, hygienic, structurally sound or safe to occupy. Completing this lesson does not give a licence, certificate or approval. Some of the work described is restricted to licensed, authorised or specially trained people, including electrical and gas work, structural assessment, sewage handling and some disposal. The site controller, the owner, the insurer and the competent professionals each hold separate decisions, and none of them replaces the others. Where the controlling authority or the competent professional is not identified, stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever any of these is true: permission to enter or written safety clearance is missing; the contamination is unknown; a structural hazard, a slip or a confined space has not been cleared; an electrical, gas or solar system is water-exposed or has not been licensed for re-energisation; an exposure has occurred or controls are not in place; the equipment or operators are not suitable; porous material is in question; hidden microbial contamination is suspected; a waste route is not yet known; or a party asks for a dry, hygienic or occupancy statement. A stop-work decision is correct. Record it, and restart only after the competent party has confirmed the scope in writing."
+  }
+}

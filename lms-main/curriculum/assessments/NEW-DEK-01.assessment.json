@@ -1,0 +1,37 @@
+{
+  "lessonId": "NEW-DEK-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-DEK-01-K01",
+      "correctIndex": 1,
+      "rationale": "The practice note requires a building permit for attached decks irrespective of size [VBA-BP01], so the size is not a reason to skip the check."
+    },
+    {
+      "id": "NEW-DEK-01-K02",
+      "correctIndex": 2,
+      "rationale": "A wrong boundary line creates a dispute and may breach the owner's right to build, so the line is confirmed from the owner's documents first."
+    },
+    {
+      "id": "NEW-DEK-01-K03",
+      "correctIndex": 1,
+      "rationale": "The NSW exempt limit for a masonry side or rear fence is 1.2 metres [NSW-FENCE], so 1.5 metres is outside the exempt rule and the planning route must be checked."
+    }
+  ],
+  "practicalCriteria": [
+    "Produces a scope record for a sample job showing the owner's written authority, the property address and the boundary source, checked by the assessor against a checklist.",
+    "Records the permit, planning and licence positions for a sample Victorian attached deck and a sample New South Wales fence, each with the source name and page date, and leaves out any item where no source was checked.",
+    "Writes a referral note for a sample boundary dispute, and shows that setting out is held until the reply is filed."
+  ],
+  "passRule": "Assessor review of the scope record, the permit and licence check records and the referral note for the sample jobs, with all three practical criteria met. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Scope record with owner's written authority and boundary source",
+    "Permit, planning and licence check record with source name and page date",
+    "Referral note with the reply on file"
+  ],
+  "stopWorkCriteria": [
+    "Setting out or digging starts before the boundary is confirmed from documents",
+    "The owner's authority is not written or cannot be confirmed",
+    "A boundary dispute is open and the line is still being set out",
+    "The permit or planning position is unknown and no referral has been made"
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "WAH-03",
+  "title": "Fall protection and arrest systems",
+  "courseSlugs": [
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "handyman",
+    "painting",
+    "plastering",
+    "deck",
+    "postcon"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Workers and supervisors who may use or check personal fall protection on a trade or exterior job.",
+  "prerequisites": [
+    "WAH-02"
+  ],
+  "learningOutcomes": [
+    "Name the four categories of personal protection against falls and what each one allows.",
+    "Identify the four parts of an arrest system and what each part does.",
+    "Explain how the clearance below a worker is estimated, and why the lanyard length alone is not enough.",
+    "Explain why an arrest system must not be used until a rescue plan has been prepared."
+  ],
+  "instruction": [
+    {
+      "heading": "Personal fall protection comes after the physical controls",
+      "body": "Personal fall protection is equipment the worker wears. The sources in this pack treat it as a secondary control, to be used after physical controls are excluded, or alongside them. Two of the sources add that the worker needs instruction in its use and in inspecting it, and that it must not be the only control where a physical measure can be fitted. A system can look correct on paper and still fail, because it is fitted badly, anchored to the wrong point, or used without a rescue plan."
+    },
+    {
+      "heading": "Four categories with different purposes",
+      "body": "Work positioning keeps a worker supported by a harness on a tensioned line, leaving both hands free; it must not be depended on alone to stop a fall. Rope access uses specialist ropes to reach areas that are hard to get to, and it demands a high level of training. Restraint prevents a worker from reaching a fall hazard at all; one source calls it the safest category. Arrest is the one category that lets a fall begin and then halts it with control. The choice should follow the order in “The hierarchy of controls for height work”: use restraint where it works, and arrest only where restraint cannot be used."
+    },
+    {
+      "heading": "The four parts of an arrest system",
+      "body": "The anchorage is the fixed point the whole system depends on. The body support is a harness, and the sources do not accept a body belt for arrest on site except for specialist work. The connecting device is the link between harness and anchor, such as a deceleration lanyard, an inertia reel, a rope grab or a fall-arrest block. The descent or rescue arrangement is the means of getting the worker down after the arrest. Each part must match the others. A strong anchor paired with a harness that does not fit is not a working system."
+    },
+    {
+      "heading": "Working out the clearance",
+      "body": "An arrest system stops a fall over a distance. That distance adds the free fall before the lanyard becomes taut, the stretch of the energy absorber, the length of the lanyard itself, the height of the worker from the attachment point to their feet, and a safety margin. Sources describe these terms, and one asks how far a worker could fall with a lanyard attached. Use the calculation method in the business's approved procedure, and check the result against the manufacturer's stated figures before choosing the connector."
+    },
+    {
+      "heading": "Keeping the swing under control",
+      "body": "A worker who is off to one side of the anchor can swing into a structure when they fall. One source describes placing the device vertically above the work area and limiting the swing to a sector above the anchor. Position the anchor so the worker stays within the swing limit, or use another anchor or method."
+    },
+    {
+      "heading": "Anchorage must be fit for the purpose",
+      "body": "The anchor must take the force of a fall and must not be damaged by the lanyard. Sources give a rated load per worker and a safety factor in units that are not Australian, and those figures are not used here. Keep the principles that hold. The anchor must stand apart from any platform, placed above the worker where possible, without sharp edges, and checked by a competent individual. Several sources list items that must not be used as anchors, including light pipe, electrical conduit and timber handrails."
+    },
+    {
+      "heading": "Rescue planning belongs to the system",
+      "body": "A worker held in a harness can be injured by the arrest itself and can become unconscious while still suspended. Before an arrest system is used, the plan must name the rescuer, the rescue method and the rescue equipment at the work location. Do not work alone at height where an arrest system is used. “Suspension trauma and rescue planning” covers suspension trauma and the rescue plan in detail."
+    }
+  ],
+  "procedure": [
+    "Confirm that restraint and physical controls have been considered first, and record the reason they were not used.",
+    "Select the category and the matching components for the task.",
+    "Identify the anchorage, and check its strength and position with a competent individual.",
+    "Calculate the fall clearance using the approved method, with each factor written down, and check the space below the worker.",
+    "Fit the harness and connect the device to the back attachment point, centred high on the rear of the harness.",
+    "Check the swing limit before the worker moves away from the anchor.",
+    "Confirm the rescue plan and equipment are ready before the first movement at height.",
+    "On completion, disconnect and record any fall, impact or defect."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker must clean a shopfront fascia from a platform above a footpath. The lanyard has a fixed length and an energy absorber.",
+      "decisionPrompt": "Is the lanyard length alone enough to judge the clearance?",
+      "reasoning": "No. The clearance must include the free fall, the stretch of the energy absorber, the lanyard length and the worker's height, plus a margin. A lanyard's length does not set the fall distance in practice, and a strike at ground level is possible. A physical edge barrier or restraint is the better choice, and the arrest system only applies if neither works."
+    },
+    {
+      "situation": "A worker on a sloping tile roof is to attach to a ridge bracket.",
+      "decisionPrompt": "What must be confirmed about the anchor before the worker goes up?",
+      "reasoning": "Who fitted and certified the bracket, whether it is rated for the load, whether the lanyard can swing the worker to the edge, and whether a rescue plan has been set up. If any of these is unknown, the anchor is not ready."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Harness fitted to the user",
+    "Deceleration lanyard or self-retracting device suited to the calculated clearance",
+    "Anchor point checked by a competent individual",
+    "Rescue equipment at the work location (see “Suspension trauma and rescue planning”)"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating the lanyard length as the fall distance.",
+      "prevention": "Calculate the full clearance, including the stretch, the free fall and the worker's height, and add a margin."
+    },
+    {
+      "error": "Using a plain spring-gate snap hook on a fall-arrest line.",
+      "prevention": "Check that every connector locks and that the gate closes fully before use."
+    },
+    {
+      "error": "Anchoring to a convenient pipe, rail or structure without checking it.",
+      "prevention": "Use only anchors checked for the purpose and marked as such."
+    },
+    {
+      "error": "Working alone on an arrest system.",
+      "prevention": "Work with a trained person who can start the rescue at once."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Warning: a worker held in a harness after a fall can be seriously injured, and can lose consciousness. A rescue plan must exist before the system is used.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Warning: do not rely on personal fall protection alone where a physical control such as a guardrail, a covered opening or a complete platform can be fitted.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Use the manufacturer's figures and the Australian standard once it has been checked.",
+      "licenceNotice": false
+    },
+    {
+      "point": "AS/NZS 1891.4 is listed as the reference for selection, use and maintenance of arrest equipment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: this lesson does not grant a licence, certificate or competence in rope access or fall-arrest rescue. Rope access is specialist work and is not taught here (see “Rope access and anchor certification” in the window course).",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each element of the system is named and matched to the others.",
+    "The clearance is calculated with each factor shown.",
+    "The anchor is checked and recorded before use.",
+    "The rescue plan is named before the work starts."
+  ],
+  "documentationEvidence": [
+    "Fall protection selection record",
+    "Clearance calculation showing the factors used",
+    "Anchor check record"
+  ],
+  "summary": [
+    "Personal fall protection is a later choice than avoidance, physical controls and restraint.",
+    "An arrest system has four parts that must match.",
+    "The clearance is the full fall distance, not the lanyard length.",
+    "No fall-arrest work starts without a rescue plan."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "WAH-03-K01",
+      "question": "Which category of personal protection against falls is the only one that lets a fall start before it is stopped?",
+      "options": [
+        "Positioning",
+        "Restraint",
+        "Fall arrest",
+        "Rope access"
+      ]
+    },
+    {
+      "id": "WAH-03-K02",
+      "question": "A worker's lanyard has a fixed length. What else must be included to estimate the fall clearance?",
+      "options": [
+        "Nothing else, since the lanyard length gives the whole clearance and the worker's boots and gloves are the same as everyone's",
+        "The energy absorber's stretch, the free fall before the lanyard is taut, the worker's height and a safety margin.",
+        "The colour of the harness, the make of the harness, its label and the date it was bought from the shop",
+        "The tools' weight alone and how many tools the worker carries in a bag on the day at the top of the ladder"
+      ]
+    },
+    {
+      "id": "WAH-03-K03",
+      "question": "Which anchor choice is most consistent with the sources in this lesson?",
+      "options": [
+        "A timber handrail that is convenient to reach and it is fixed by a worker on the day",
+        "A screw pipe or electrical conduit fixed to the wall and a bracket for the tools and the rope",
+        "An anchor rated for the purpose, checked by a competent individual, and placed above the worker",
+        "A rope tied around a chimney and a second rope tied to the gutter and the fence post"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Working at Height training presentation (HSES training centre), sections titled Personal Arrest systems and Safety Line Anchorages; jurisdiction: none stated; figures UNCONFIRMED for Australia; rights: user-held; reworded (no copying)",
+    "Working at Heights and Harness/Lanyard Safety Awareness Course (instructor deck), Module 6 (Personal Fall Protection Systems), including the ABCD of fall protection, intermediate connections, fall arrest facts (carabiner and swing figures) and the pendulum effect; jurisdiction: Ireland and UK; Australia: UNCONFIRMED. Irish legal references in source 3 (the Irish workplace safety Act, its construction and general applications regulations, and its codes of practice): not applicable in Australia; not used; rights: user-held; reworded (no copying)",
+    "Working At Height Procedure (contractor project procedure, revision table shows A and B), sections 9.0 to 10.2 (secondary fall protection, harness, anchorage points) and the definitions for arrest system and lanyard; jurisdiction: project procedure; Australia: UNCONFIRMED. UK and Malaysian legal and standards references in sources 2 to 4 (UK work-at-height regulations, IRATA UK, Malaysian DOSH guideline): not applicable in Australia; not used; rights: user-held; reworded (no copying)",
+    "AS/NZS 1891.4, industrial arrest systems Part 4 (https://store.standards.org.au/product/as-nzs-1891-4-2025, listing seen 2026-11-02); text not read; the rope access requirement is UNCONFIRMED (research/topics/window.md)",
+    "WorkSafe Victoria, The hierarchy of control (https://worksafe.vic.gov.au/hierarchy-control), checked 2026-11-02; read: eliminate, then substitute, isolate or engineer, then administrative controls, with PPE last; jurisdiction: Victoria; national model wording UNCONFIRMED",
+    "Cross-reference, not repeated: WAH-04 (Harness and lanyard inspection); WAH-10 (Suspension trauma and rescue planning); high-access-window-cleaning-L08 (Rope access and anchor certification)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "The hierarchy of control (WorkSafe Victoria)",
+      "url": "https://worksafe.vic.gov.au/hierarchy-control",
+      "pageDate": "Reviewed on 30/07/2022",
+      "checked": "2026-11-03",
+      "covers": "Read 2026-11-03: the order of controls is eliminate; then substitute, isolate or engineer; then administrative controls; with personal protective equipment last as the lowest level of protection and least reliable control. Victorian guidance under the Victorian Occupational Health and Safety Act 2004; the page does not name a national model law."
+    },
+    {
+      "id": "R2",
+      "title": "AS/NZS 1891.4:2025 Personal equipment for work at height, Part 4: Selection, use and maintenance (Standards Australia store listing)",
+      "url": "https://store.standards.org.au/product/as-nzs-1891-4-2025",
+      "pageDate": "Publication date 19/09/2025 (store listing)",
+      "checked": "2026-11-03",
+      "covers": "Read 2026-11-03 from the store listing only: the listing shows the 2025 edition as current and describes the standard as setting requirements and recommendations for selecting, using safely and maintaining industrial fall-arrest systems and devices. The standard text was not read, so specific requirements, figures and any rescue or anchor rule are UNCONFIRMED. Publisher: Standards Australia."
+    },
+    {
+      "id": "R3",
+      "title": "Fall arrest anchors (SafeWork NSW)",
+      "url": "https://www.safework.nsw.gov.au/resource-library/construction/fall-arrest-anchors",
+      "pageDate": "updated August 2019 (page text); last modified 6 July 2020 (metadata)",
+      "checked": "2026-11-04",
+      "covers": "Says anchor products should meet the strength requirements of AS/NZS 1891.4 or AS/NZS 5532; anchorage points should comply with AS/NZS 1891.4 and be installed to the manufacturer's instructions; anchors found damaged or not installed in accordance with the manufacturer's instructions are addressed; inspection programs should include annual load testing of chemical and friction anchors; and fall arrest systems should limit the peak load in a fall to 6 kN. The page does not address whether a competent person or an engineering check is required. Publisher: SafeWork NSW."
+    }
+  ]
+}

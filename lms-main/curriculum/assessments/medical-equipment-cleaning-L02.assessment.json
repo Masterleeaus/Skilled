@@ -1,0 +1,41 @@
+{
+ "lessonId": "medical-equipment-cleaning-L02",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L02-K01",
+   "correctIndex": 0,
+   "rationale": "A semicritical item contacts mucous membranes or nonintact skin, as some endoscopes do. The intact-skin option describes a noncritical item and the sterile-tissue option describes a critical item."
+  },
+  {
+   "id": "medical-equipment-cleaning-L02-K02",
+   "correctIndex": 1,
+   "rationale": "Appearance does not set the category. Until the facility record confirms the item's category and contact site, the cleaner treats it as unknown and outside their role."
+  },
+  {
+   "id": "medical-equipment-cleaning-L02-K03",
+   "correctIndex": 2,
+   "rationale": "An unidentified item is left where it was found, the area is made safe, and the responsible team is told. Moving it to a cleaning area spreads the uncertainty, so the cleaner does not sort it."
+  },
+  {
+    "id": "medical-equipment-cleaning-L02-K04",
+    "correctIndex": 3,
+    "rationale": "The professional decision process section says to decide what the item is, what it touches, and whether the written authority covers an external clean of that item, before touching it."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a blood pressure cuff next to a flexible endoscope, the learner does not clean either item until the authority for each is confirmed separately.",
+  "Given an item with no documented category, the learner leaves it in place, makes the area safe, and escalates it to the responsible team.",
+  "Given a request to wipe a dental handpiece during a turnover, the learner declines, does not wipe it, and leaves it in the designated location."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Classification check record for each item in the scenario",
+  "Escalation record with item location and time",
+  "Observation note of the declined request"
+ ],
+ "stopWorkCriteria": [
+  "Learner assigns a category from appearance or from a colleague's statement",
+  "Learner moves an unidentified item to a cleaning area",
+  "Learner cleans a semicritical or critical item"
+ ]
+}

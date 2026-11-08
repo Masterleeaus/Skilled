@@ -1,0 +1,49 @@
+# Titan Academy dependencies only. NOT the inherited development Compose stack.
+# Never runs PostgreSQL or touches existing Field/Desk containers.
+# Supply secrets via a chmod 600 env file outside the repository.
+name: titan-academy-dependencies
+services:
+  academy-redis:
+    image: redis:7.4-alpine
+    restart: unless-stopped
+    environment:
+      ACADEMY_REDIS_PASSWORD: ${ACADEMY_REDIS_PASSWORD:?Set a unique strong Redis password in the private Compose env file}
+    command:
+      - /bin/sh
+      - -ec
+      - exec redis-server --appendonly yes --requirepass "$$ACADEMY_REDIS_PASSWORD"
+    ports:
+      - "127.0.0.1:${ACADEMY_REDIS_PORT:-16379}:6379"
+    volumes:
+      - academy-redis-data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "REDISCLI_AUTH=\"$$ACADEMY_REDIS_PASSWORD\" redis-cli ping | grep -q PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    security_opt:
+      - no-new-privileges:true
+
+  academy-minio:
+    image: minio/minio:latest # Resolve and pin a tested digest before production rollout.
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${ACADEMY_MINIO_ROOT_USER:?Set a private MinIO administrator username}
+      MINIO_ROOT_PASSWORD: ${ACADEMY_MINIO_ROOT_PASSWORD:?Set a private MinIO administrator password}
+    ports:
+      - "127.0.0.1:${ACADEMY_MINIO_PORT:-19000}:9000"
+      - "127.0.0.1:${ACADEMY_MINIO_CONSOLE_PORT:-19001}:9001"
+    volumes:
+      - academy-minio-data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "mc ready local >/dev/null 2>&1 || curl -fsS http://127.0.0.1:9000/minio/health/live >/dev/null"]
+      interval: 15s
+      timeout: 7s
+      retries: 6
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  academy-redis-data:
+  academy-minio-data:

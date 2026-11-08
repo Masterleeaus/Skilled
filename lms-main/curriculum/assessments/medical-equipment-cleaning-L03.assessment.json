@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-equipment-cleaning-L03",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L03-K01",
+   "correctIndex": 1,
+   "rationale": "The product depends on the model and serial shown on each label, matched to that model's current manufacturer instruction. Looks, and the product used last time, do not identify the model."
+  },
+  {
+   "id": "medical-equipment-cleaning-L03-K02",
+   "correctIndex": 2,
+   "rationale": "When the manufacturer instruction and the facility supplement conflict, the cleaner stops and refers the conflict. Choosing one document, or mixing them, is not permitted."
+  },
+  {
+   "id": "medical-equipment-cleaning-L03-K03",
+   "correctIndex": 0,
+   "rationale": "An unreadable label means the asset cannot be identified. The item is treated as unidentified, left as found, and escalated; the model is not guessed."
+  }
+ ],
+ "practicalCriteria": [
+  "Given two monitors that look identical, the learner reads each label and cleans each unit only with the product its own model allows.",
+  "Given a manufacturer instruction and a facility supplement that conflict, the learner stops, does not clean, and refers the conflict to the responsible person.",
+  "Given an asset label that cannot be read, the learner leaves the unit as found and reports the label to the responsible contact, recording the item and time."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Asset identity record for each item (model, serial, instruction version)",
+  "Referral record for the instruction conflict",
+  "Escalation record for the unreadable label"
+ ],
+ "stopWorkCriteria": [
+  "Learner cleans using an instruction for a similar model or an older revision",
+  "Learner chooses between conflicting instructions",
+  "Learner guesses the model or product for an unidentified device"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-STR-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STR-03-K01",
+      "correctIndex": 0,
+      "rationale": "A mop used on a bin room floor carries contamination into the laundry. Dedicated tools for each facility prevent that transfer."
+    },
+    {
+      "id": "NEW-STR-03-K02",
+      "correctIndex": 2,
+      "rationale": "The areas are closed off, the manager is told at once, and the time and finding are recorded. The cleaner does not repair the drain."
+    },
+    {
+      "id": "NEW-STR-03-K03",
+      "correctIndex": 1,
+      "rationale": "A copy of the notice, with the method and the date and time it was given, is the evidence that notice was given."
+    }
+  ],
+  "practicalCriteria": [
+    "Given two simulated shared facilities, the worker sets up separate dedicated tools and products for each, and stores them apart.",
+    "The worker writes a notice for a simulated closure of a laundry, agrees it with the simulated manager, gives it in the agreed way, and keeps a copy.",
+    "Given a simulated blocked drain with an overflowing bin room, the worker closes off both areas, reports them in writing, and does not attempt the repair."
+  ],
+  "passRule": "Dedicated tools used and stored separately for each facility. Notice written, agreed, given in the agreed way and kept. Blocked drain and overflow reported in writing and closed off, with no repair attempted. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Tenant notice and copy",
+    "Facility report for the simulated blocked drain and overflow",
+    "Assessor observation sheet"
+  ],
+  "stopWorkCriteria": [
+    "Drain, appliance or fitting repaired by the cleaner",
+    "Same cloth or mop used across a bin room and another facility",
+    "Closure of a facility without agreed notice to the users"
+  ]
+}

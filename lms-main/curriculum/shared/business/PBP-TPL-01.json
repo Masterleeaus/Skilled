@@ -1,0 +1,347 @@
+{
+  "id": "PBP-TPL-01",
+  "title": "Pool service business plan (editable template)",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "pool",
+    "residential",
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 120,
+  "audience": "Owners of a pool service who complete a business plan from their own information, and an assessor who signs it off",
+  "prerequisites": [
+    "PBP-01",
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Complete each field of the pool service business plan from the business's own information",
+    "Link services, customers, pricing, marketing, operations and finance to the same definitions",
+    "Mark each compliance item as checked with a source, or leave it out",
+    "Submit the assembled plan for assessor sign-off against the rubric"
+  ],
+  "instruction": [
+    {
+      "heading": "How the template works",
+      "body": "You build the plan field by field. Each field asks for one part of the plan and says what a good answer contains. When every required field is complete, the system assembles one document that you keep. There are no model answers, and the output document contains only what you write. Do not copy the sample plan's text, names, prices or figures. Where you do not yet know an answer, name the individual responsible for confirming it."
+    },
+    {
+      "heading": "Consistency across the plan",
+      "body": "Use the same names for the same things throughout. A segment named in the customers field must be the segment used in the pricing and marketing fields. A service named in the services field must be the service priced in the pricing field. An assessor checks this first, and inconsistency is the most frequent reason a plan is returned."
+    },
+    {
+      "heading": "Sources and dates",
+      "body": "Every market, cost and compliance statement shows its source and the date checked, or is marked as the author's observation. Foreign and historical figures are labelled as such and are not used as Australian facts."
+    }
+  ],
+  "procedure": [
+    "Read the output document layout and the rubric before you begin.",
+    "Complete the business identity and summary fields last, after the others.",
+    "Complete the services and customers fields, using the same names throughout.",
+    "Complete the market, pricing and marketing fields with sources and dates.",
+    "Complete the operations, equipment and compliance fields, leaving out any item that is not checked.",
+    "Complete the financial assumptions, break-even and risk fields from your own inputs.",
+    "Check consistency across the plan, then submit it for assessor sign-off."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The customers field names property managers, but the pricing field prices only home owners' weekly visits.",
+      "decisionPrompt": "What do you change?",
+      "reasoning": "Make the names consistent. Either price the property manager segment, with its frequency and decision-maker, or remove it from the customers field and record the reason. The plan must use one definition for each segment."
+    },
+    {
+      "situation": "The compliance field says the business is registered, but no registration number or check date is given.",
+      "decisionPrompt": "What do you write?",
+      "reasoning": "Name the individual responsible for checking the registration, and record the date of the request. A status without a source is not a check."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Template fields in the learning platform or a word processor",
+    "Your own cost, price, volume and service records",
+    "Sources list with dates checked",
+    "Operator plan or written operator instruction for treatment work"
+  ],
+  "commonErrors": [
+    {
+      "error": "Copying the sample plan's text, names, prices or figures",
+      "prevention": "Write each field from your own information. Sample text is not reused."
+    },
+    {
+      "error": "Using different names for the same segment or service",
+      "prevention": "Check the names across the fields before you submit."
+    },
+    {
+      "error": "Marking a compliance item as confirmed without a source",
+      "prevention": "Mark an item as checked only with a source and a date, otherwise leave it out."
+    },
+    {
+      "error": "Leaving a financial assumption without its basis",
+      "prevention": "State each assumption with its value, basis and date."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This template does not grant a licence, registration, certificate or authority for any pool service.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Services that need a licensed person, including electrical, gas, heater and restricted chemical work, must be shown as referred, not as the business's own work.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Tax, insurance, employment, advertising and privacy statements must be checked before use.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every required field is completed, or marked not applicable with a written reason.",
+    "Names for segments, services and prices are consistent across the plan.",
+    "Every compliance item shows checked with a source and date, or is left out."
+  ],
+  "documentationEvidence": [
+    "Completed template saved",
+    "Sources list with dates checked",
+    "Assessor review record"
+  ],
+  "summary": [
+    "Build the plan field by field from your own information.",
+    "Use one set of names throughout, and check them before you submit.",
+    "Leave every unchecked compliance and financial point out until it is checked."
+  ],
+  "businessFields": [
+    "{{business:business.display_name}}",
+    "{{business:business.service_area}}",
+    "{{business:services.service_description}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:business.support_email}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "PBP-TPL-01-T01",
+      "title": "Pool service business plan",
+      "purpose": "A one-document plan that states the pool service, its customers, its prices, its marketing, its operations, its finances and its compliance status, using the same definitions throughout.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Business identity",
+          "type": "text",
+          "prompt": "Write the trading name, the legal name if different, the service area, and any registration or business number. Leave any number not yet checked out of the plan.",
+          "guidance": "Names match the registration documents, or the field is left blank. No number is shown as held unless confirmed.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Summary",
+          "type": "longtext",
+          "prompt": "Write a short summary of the service, the customers, the area and what the business needs to start. Write this last.",
+          "guidance": "Every statement in the summary can be traced to another field.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Services and boundaries",
+          "type": "table",
+          "prompt": "One row per service. Columns: service, what is included, what is excluded, frequency, who supplies chemicals and tools, and the referral route for excluded work.",
+          "guidance": "Each service names inclusions, exclusions and dependencies. No sample price or response time is used.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Customer segments",
+          "type": "table",
+          "prompt": "One row per segment. Columns: customer type, decision-maker, frequency of need, and how the segment is reached.",
+          "guidance": "Segments name the decision-maker and frequency. Segments do not overlap without an explanation.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Market and competitors",
+          "type": "longtext",
+          "prompt": "Describe the market size or the assumption behind it, with source and date, and each competitor by dated observations.",
+          "guidance": "Each figure has a source and date or is labelled an assumption. Foreign and historical figures are labelled.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Pricing",
+          "type": "longtext",
+          "prompt": "Describe the pricing method, the minimum charge, the chemicals and materials policy, the extras rule and any package, with the cost basis for each.",
+          "guidance": "Each price has a cost basis. Discounts and packages are tested against the visit cost.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Marketing and referrals",
+          "type": "longtext",
+          "prompt": "List each channel with its segment and reason, each referral route, and each claim with its evidence or the note that it has been removed.",
+          "guidance": "Every claim has evidence or is removed. Referral routes are written and their legal status is marked.",
+          "required": true
+        },
+        {
+          "fieldId": "f8",
+          "label": "Operations and staffing",
+          "type": "longtext",
+          "prompt": "Describe the operating process, the tasks each person may do, the training and supervision, and the scheduling method.",
+          "guidance": "Each step names the person and the record. Restricted tasks are referred or assigned only with authority.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Equipment and chemical storage",
+          "type": "table",
+          "prompt": "One row per item. Columns: item, maintenance check, storage location, and last check date.",
+          "guidance": "Chemicals are stored separated, locked and away from fuel and people. Test kits and gauges have a check date.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Compliance register",
+          "type": "table",
+          "prompt": "One row per requirement. Columns: requirement, authority, source, date checked, and status (checked or still to be checked), with the person responsible for any item still to be checked.",
+          "guidance": "No requirement is checked without a source and a date. Licences are not implied by any course or certificate.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Financial assumptions",
+          "type": "table",
+          "prompt": "One row per assumption. Columns: assumption, value, basis, source, and date.",
+          "guidance": "Each assumption has a basis and date. Tax and insurance have not yet been confirmed until checked.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Break-even and financing",
+          "type": "longtext",
+          "prompt": "Describe the break-even in words, using the business's own fixed costs and margin per visit, and state each financing need with its basis and timing.",
+          "guidance": "Break-even uses recorded inputs from f11. No sample figure is used.",
+          "required": true
+        },
+        {
+          "fieldId": "f13",
+          "label": "Risks and review",
+          "type": "table",
+          "prompt": "One row per risk. Columns: risk, control, owner, and review date. Include the risk of working outside scope and the risk of an unconfirmed compliance item.",
+          "guidance": "Each risk has a control and an owner. The review date is set.",
+          "required": true
+        },
+        {
+          "fieldId": "f14",
+          "label": "Sign-off and version",
+          "type": "text",
+          "prompt": "Write the version, the date, the completer's name, plus the reviewing individual's name responsible for review it.",
+          "guidance": "Version and date are shown on each page of the output.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Each section is complete or justified",
+      "levels": {
+        "meets": "Every required field has content, or a written reason it does not apply.",
+        "does_not_meet": "One or more required fields are blank or hold only a heading."
+      }
+    },
+    {
+      "criterion": "Service and customer definitions are specific",
+      "levels": {
+        "meets": "Each service names inclusions, exclusions and dependencies. Each segment names the decision-maker and frequency.",
+        "does_not_meet": "Services or customers are described in general terms."
+      }
+    },
+    {
+      "criterion": "Pricing and financial assumptions have stated bases",
+      "levels": {
+        "meets": "Each price and each assumption shows its cost basis, value and date, and break-even uses those inputs.",
+        "does_not_meet": "A price or assumption is stated without its basis, or a sample figure is used."
+      }
+    },
+    {
+      "criterion": "Compliance status is honest",
+      "levels": {
+        "meets": "Each compliance item shows checked with a source and date, or is left out until a named person checks it. No licence is implied.",
+        "does_not_meet": "A compliance item is marked as checked without a source, or a licence is implied."
+      }
+    },
+    {
+      "criterion": "Claims are evidenced or removed",
+      "levels": {
+        "meets": "Each market or marketing claim has a source and date, or is labelled an observation, or has been removed.",
+        "does_not_meet": "A claim has no evidence and is left in the plan."
+      }
+    }
+  ],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} pool service business plan",
+    "format": "plan",
+    "sections": [
+      {
+        "heading": "Business identity",
+        "fieldIds": [
+          "f1",
+          "f14"
+        ]
+      },
+      {
+        "heading": "Summary",
+        "fieldIds": [
+          "f2"
+        ]
+      },
+      {
+        "heading": "Services and customers",
+        "fieldIds": [
+          "f3",
+          "f4"
+        ]
+      },
+      {
+        "heading": "Market, pricing and marketing",
+        "fieldIds": [
+          "f5",
+          "f6",
+          "f7"
+        ]
+      },
+      {
+        "heading": "Operations and equipment",
+        "fieldIds": [
+          "f8",
+          "f9"
+        ]
+      },
+      {
+        "heading": "Compliance",
+        "fieldIds": [
+          "f10"
+        ]
+      },
+      {
+        "heading": "Financial plan",
+        "fieldIds": [
+          "f11",
+          "f12"
+        ]
+      },
+      {
+        "heading": "Risks and review",
+        "fieldIds": [
+          "f13"
+        ]
+      }
+    ],
+    "footer": "Version and review date shown on each page. Contact {{business:business.support_email}}."
+  },
+  "knowledgeChecks": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Pool Cleaning Business Plan (sample PDF, 2023 template), whole document used for structure only: section headings for executive summary, company overview, market analysis, products and services, sales and marketing, operations, management, financial plan and appendix; rights: user-held; reworded (no copying); checked 2026-11-02. Sample text, names, prices, chart values and vendor pages are not reused.",
+    "UNCONFIRMED: Australian registration, licence, tax, insurance, employment, advertising and privacy requirements for pool service work. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

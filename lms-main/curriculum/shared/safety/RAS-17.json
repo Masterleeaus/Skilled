@@ -1,0 +1,344 @@
+{
+  "id": "RAS-17",
+  "title": "Site risk assessment worksheet",
+  "lessonKind": "template",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 75,
+  "audience": "Supervisors and managers who write, score and issue a site risk assessment for a cleaning job, and the operatives who will be briefed on it.",
+  "prerequisites": [
+    "RAS-01",
+    "RAS-02",
+    "RAS-03",
+    "RAS-16"
+  ],
+  "learningOutcomes": [
+    "Complete the document control, scope and scoring sections of a site risk assessment.",
+    "Enter one hazard per row in the hazard register, with scores, bands, controls and residual risk.",
+    "Record the actions that must be done before work starts, and the holds that apply where a band requires them.",
+    "Complete the briefing and review sections so the document can be signed off against the rubric."
+  ],
+  "instruction": [
+    {
+      "heading": "What this worksheet produces",
+      "body": "This worksheet is a fill-in document. As you work through it, you complete each field in turn, and the system then assembles your entries into one finished site risk assessment for the site file. You are not given model answers, and the finished document contains only what you have written. The worksheet follows the method taught in “Scoring a hazard: likelihood, severity and the risk band”, “Walking a site and writing a hazard entry”, “Ranking controls and checking residual risk” and “Reviewing, briefing and signing off a risk assessment”: scope first, then a hazard register scored for likelihood and severity, controls chosen by rank, residual risk checked, actions and holds recorded, and the crew briefed. An assessor reviews the assembled document against the rubric and signs it off."
+    },
+    {
+      "heading": "Scope and document control first",
+      "body": "Begin with the document control fields: the document number and revision, the date prepared, the site address and service area, and the names and roles of the person who prepared the assessment and the person who approves it. Then write the scope in plain terms. List every area and task that is included, and then list the exclusions. A scope that says only general cleaning cannot be checked against a site, so name the areas. Confirm the scoring scale in use by ticking each item in the scale checklist. Do not begin the register until every item is ticked, because a score is only meaningful against a known scale."
+    },
+    {
+      "heading": "The hazard register",
+      "body": "Enter one hazard per row. For each row, name the hazard in mechanism terms, identify the people who could be affected, and describe how harm could occur. Score likelihood from 1 to 5 and severity from 1 to 5, then multiply them to give the risk value. Find the band for the value using the agreed scale. Write the existing controls, ranked from the highest type to the lowest, and then score the residual likelihood and severity with those controls in place. Find the residual band. Where a row is in the Medium or High band, an action or hold must be written for it. Use the hazard category checklist to confirm that each category was considered, even where it does not apply, and record in the not-applicable field the reason for each category that does not apply."
+    },
+    {
+      "heading": "Actions, holds and briefing",
+      "body": "Record each action that must be done before work starts, with the person responsible and the due date. Where a band requires that work does not start until controls have been redefined or verified, write the hold clearly, so that a supervisor on the day can see it. Enter the briefing record: each person briefed, their role, the date they were briefed and their signature, with the signature only from the person who was briefed. Record the topics covered and the questions raised in the briefing. A signature shows that the briefing took place; it does not show that a control works, so the controls must be verified on site separately. The next review date and the review triggers are then recorded, so the assessment is revisited when the site, the equipment, the chemicals or the work changes."
+    }
+  ],
+  "procedure": [
+    "Complete the document control fields: number, revision, date prepared, site address, service area, preparer and approver.",
+    "Write the scope, listing included areas and tasks, then the exclusions.",
+    "Tick every item on the scoring scale checklist before scoring any row.",
+    "Enter one hazard per row, with the people affected, the harm path, the likelihood, the severity, the risk value and the band.",
+    "Enter existing controls ranked from highest to lowest, then the residual likelihood, severity and band.",
+    "Tick each hazard category reviewed, and record the reason for any category that does not apply.",
+    "Enter an action or hold for every row in the Medium or High band, with an owner and a due date.",
+    "Complete the briefing record with only the people who were briefed, then the review fields."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor is writing the register for a commercial office with a foyer, washrooms, a kitchen, stairs, a lift lobby and a waste store, and a car park used by the public.",
+      "decisionPrompt": "Using the worksheet, decide which fields the scope covers first, and which hazard categories the supervisor must consider before scoring any row.",
+      "reasoning": "The scope lists the foyer, washrooms, kitchen, stairs, lift lobby and waste store as included areas, and the car park route as an area where the crew only walks or where the public may be present, with the exclusions written beside it. The categories to consider include chemicals, slips and trips, stairs and elevated work, electrical equipment, sharps and body fluids, dust, traffic and pedestrians, lone working, emergencies, welfare and noise and vibration. Each category is either entered as a row or recorded as not applicable with the reason. The worked example does not supply any scores; the supervisor applies the scale to the site."
+    }
+  ],
+  "equipmentAndPpe": [
+    "The agreed likelihood and severity scales, and the band table",
+    "Site walk record and the scope statement from “Walking a site and writing a hazard entry”",
+    "Safety data sheets for each chemical listed on the register",
+    "{{business:safety.required_ppe}} as listed for the site",
+    "The site contact and building facilities team names, and {{business:safety.emergency_contact}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing a scope that says only general cleaning.",
+      "prevention": "Name each area and task, and list the exclusions in the scope section."
+    },
+    {
+      "error": "Scoring a row before the scoring scale has been confirmed.",
+      "prevention": "Tick every item on the scale checklist before any row is scored."
+    },
+    {
+      "error": "Recording a briefing signature for a person who was not briefed.",
+      "prevention": "Enter only the people who attended the briefing and were briefed on the current revision."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: A completed worksheet does not make a site safe. Controls must be in place and verified on site before work starts, and any hold applies until the controls are checked.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This worksheet does not grant a licence, certificate or authority for any regulated work, and completing it does not meet a legal duty.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The scoring scale, the bands and the required actions come from one cleaning company's risk assessment and are a business scheme. Confirm the scheme for the business before use.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Document control, scope, scale and every register row are complete, with no blank required field.",
+    "Each row's risk value equals likelihood multiplied by severity, and each band matches the agreed scale.",
+    "Each Medium or High row has an action or hold with an owner and due date, and each hazard category has been considered.",
+    "The briefing record lists only people who were briefed, and the review fields are complete."
+  ],
+  "documentationEvidence": [
+    "Completed worksheet, assembled into the finished site risk assessment",
+    "Verification record for each control, kept separately from the briefing record",
+    "Assessor sign-off against the rubric"
+  ],
+  "summary": [
+    "Complete the document control and scope first, and confirm the scale before scoring.",
+    "Score one hazard per row, rank the controls and record the residual risk.",
+    "Hold work where a band requires it, and record each action with an owner and date.",
+    "A signature shows a briefing took place; controls are verified on site separately."
+  ],
+  "businessFields": [
+    "{{business:business.display_name}}",
+    "{{business:business.service_area}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:compliance.jurisdiction}}"
+  ],
+  "editableTemplates": [
+    {
+      "templateId": "RAS-17-T01",
+      "title": "Site risk assessment worksheet",
+      "purpose": "Records the document control, scope, scoring scale, hazard register, actions and holds, briefing, and review for one site or service area, so that the controls that apply on a given day can be shown.",
+      "fields": [
+        {
+          "fieldId": "f1",
+          "label": "Document number and revision",
+          "type": "text",
+          "prompt": "Enter the document number and the revision.",
+          "guidance": "The number follows the business's filing system. The first issue is revision 00.",
+          "required": true
+        },
+        {
+          "fieldId": "f2",
+          "label": "Date prepared",
+          "type": "date",
+          "prompt": "Enter the date the assessment was prepared.",
+          "guidance": "The date of preparation, not the date of the walk.",
+          "required": true
+        },
+        {
+          "fieldId": "f3",
+          "label": "Site address and service area",
+          "type": "text",
+          "prompt": "Enter the address of the site and the service area covered.",
+          "guidance": "Specific enough that a new crew member can find the site and the areas named in the scope.",
+          "required": true
+        },
+        {
+          "fieldId": "f4",
+          "label": "Scope and exclusions",
+          "type": "longtext",
+          "prompt": "List each included area and task, then list the exclusions.",
+          "guidance": "Plain names for areas, including outdoor areas, stairs, lifts, washrooms, kitchens, stores and waste areas where included. Exclusions state what is not done and who does it.",
+          "required": true
+        },
+        {
+          "fieldId": "f5",
+          "label": "Scoring scale in use",
+          "type": "checklist",
+          "prompt": "Tick each item once it is confirmed for this assessment: likelihood scale defined, severity scale defined, band table defined, band actions defined.",
+          "guidance": "All four items are ticked before any row is scored.",
+          "required": true
+        },
+        {
+          "fieldId": "f6",
+          "label": "Hazard register",
+          "type": "table",
+          "prompt": "One row per hazard. Columns: hazard, who could be affected, how harm could occur, likelihood (1 to 5), severity (1 to 5), risk value (likelihood multiplied by severity), band, existing controls ranked highest to lowest, residual likelihood, residual severity, residual band, action or hold, owner and due date.",
+          "guidance": "Each hazard is named by mechanism. The risk value is recalculated, not estimated. Residual scores count only controls verified as in place.",
+          "required": true
+        },
+        {
+          "fieldId": "f7",
+          "label": "Hazard categories considered",
+          "type": "checklist",
+          "prompt": "Tick each hazard category reviewed: chemicals and spills, slips and trips, stairs and elevated work, electrical, sharps and body fluids, infection and rodents, dust, machinery and tools, manual handling, noise and vibration, traffic and pedestrians, lighting, lone working, harassment, emergencies, welfare, mobile phones.",
+          "guidance": "Tick every category considered, including those that do not apply.",
+          "required": true
+        },
+        {
+          "fieldId": "f8",
+          "label": "Categories that do not apply and why",
+          "type": "longtext",
+          "prompt": "For each category not ticked as a hazard on the register, state the reason it does not apply to this site.",
+          "guidance": "The reason is specific to the site, such as no outdoor areas in the scope.",
+          "required": true
+        },
+        {
+          "fieldId": "f9",
+          "label": "Actions and holds before work starts",
+          "type": "longtext",
+          "prompt": "List each action and each hold required before work starts. For each, state the person responsible, the due date and what must be verified.",
+          "guidance": "A hold states what stops, who decides when it lifts, and how the lifting is recorded.",
+          "required": true
+        },
+        {
+          "fieldId": "f10",
+          "label": "Briefing record",
+          "type": "table",
+          "prompt": "One row per person briefed. Columns: name, role, date briefed, signature of the person briefed.",
+          "guidance": "Only people who attended the briefing on the current revision are entered.",
+          "required": true
+        },
+        {
+          "fieldId": "f11",
+          "label": "Briefing content and questions",
+          "type": "longtext",
+          "prompt": "Record the topics covered in the briefing and any questions raised, with how each question was answered.",
+          "guidance": "Topics match the register. Questions and answers are recorded, not summarised away.",
+          "required": true
+        },
+        {
+          "fieldId": "f12",
+          "label": "Next review date",
+          "type": "date",
+          "prompt": "Enter the date of the next scheduled review.",
+          "guidance": "Set by the business. A review also happens on any trigger event.",
+          "required": true
+        },
+        {
+          "fieldId": "f13",
+          "label": "Review triggers recorded",
+          "type": "checklist",
+          "prompt": "Tick each review trigger the crew has been told about: change of site or area, new chemical, new equipment, incident or near miss, complaint, change in building use or pattern, control not working, checked new guidance.",
+          "guidance": "All triggers are ticked, so the crew knows when the register must be revisited.",
+          "required": true
+        },
+        {
+          "fieldId": "f14",
+          "label": "Prepared by and approved by",
+          "type": "text",
+          "prompt": "Enter the name and role of the person who prepared the assessment and of the person who approved it.",
+          "guidance": "The approver has the authority for the work, and the approval is dated.",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "assessmentRubric": [
+    {
+      "criterion": "Document control and scope are complete and specific",
+      "levels": {
+        "meets": "All document control fields are complete. The scope names each area and task, and states the exclusions.",
+        "does_not_meet": "Any document control field is blank, or the scope says only general cleaning without named areas or exclusions."
+      }
+    },
+    {
+      "criterion": "Scoring scale is confirmed before scoring",
+      "levels": {
+        "meets": "All four scale items are ticked before the first row is scored, and the scales match the business scheme.",
+        "does_not_meet": "Rows are scored before the scale is confirmed, or the scale in use does not match the business scheme."
+      }
+    },
+    {
+      "criterion": "Every register row is scored and banded correctly",
+      "levels": {
+        "meets": "Each row has one hazard named by mechanism, and each risk value equals likelihood multiplied by severity, with the matching band.",
+        "does_not_meet": "A row names two hazards, has an unreproducible risk value, or has a band that does not match the scale."
+      }
+    },
+    {
+      "criterion": "Controls are ranked and residual risk is supported",
+      "levels": {
+        "meets": "Existing controls are listed highest to lowest with their type, and each residual score counts only controls verified as in place.",
+        "does_not_meet": "Controls are listed without rank, or a residual score is lowered for a control that has not been verified."
+      }
+    },
+    {
+      "criterion": "Medium and High rows have actions or holds",
+      "levels": {
+        "meets": "Every Medium or High row has an action or hold, with an owner and a due date, and each hold states how it is lifted.",
+        "does_not_meet": "A Medium or High row has no action or hold, or a hold has no owner or lifting condition."
+      }
+    },
+    {
+      "criterion": "Briefing and review records are accurate",
+      "levels": {
+        "meets": "The briefing record lists only people who were briefed on the current revision, and the review triggers and next review date are recorded.",
+        "does_not_meet": "A signature is entered for a person who was not briefed, or the review fields are missing."
+      }
+    }
+  ],
+  "outputDocument": {
+    "title": "{{business:business.display_name}} site risk assessment",
+    "format": "form",
+    "sections": [
+      {
+        "heading": "Document control",
+        "fieldIds": [
+          "f1",
+          "f2",
+          "f3",
+          "f14"
+        ]
+      },
+      {
+        "heading": "Scope and scoring",
+        "fieldIds": [
+          "f4",
+          "f5"
+        ]
+      },
+      {
+        "heading": "Hazard register",
+        "fieldIds": [
+          "f6",
+          "f7",
+          "f8"
+        ]
+      },
+      {
+        "heading": "Actions and holds",
+        "fieldIds": [
+          "f9"
+        ]
+      },
+      {
+        "heading": "Briefing and sign-off",
+        "fieldIds": [
+          "f10",
+          "f11"
+        ]
+      },
+      {
+        "heading": "Review",
+        "fieldIds": [
+          "f12",
+          "f13"
+        ]
+      }
+    ],
+    "footer": "Keep the signed copy with the site file. Filing and retention: {{business:quality.evidence_requirements}}."
+  },
+  "knowledgeChecks": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), Risk Matrix Table A.1 and Table A.2, the hazard register column structure, document control and the toolbox talk operative briefing record; rights: user-held. Blank form structure only; no sample entries or scores are carried into the template.",
+    "UNCONFIRMED: state and territory requirements for a site risk assessment, retention period and the legal effect of briefing signatures; not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

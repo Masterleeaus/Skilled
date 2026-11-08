@@ -1,0 +1,33 @@
+{
+  "lessonId": "OTI-01",
+  "knowledgeAnswers": [
+    {
+      "id": "OTI-01-K01",
+      "correctIndex": 1,
+      "rationale": "Standard precautions apply to every patient at all times, whatever the diagnosis. The other options restrict them to cases the baseline does not depend on."
+    },
+    {
+      "id": "OTI-01-K02",
+      "correctIndex": 0,
+      "rationale": "Airborne spread is an additional route that the plan addresses. Hand washing, linen handling and waste sorting are baseline tasks."
+    },
+    {
+      "id": "OTI-01-K03",
+      "correctIndex": 1,
+      "rationale": "The patient is treated the same way with the baseline, and the condition is kept confidential. The other options either single the patient out or are not required by the source."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a listed case, the learner names the baseline measures that apply whatever the diagnosis, and any additional measures the theatre plan adds.",
+    "Given a corridor discussion about a patient condition, the learner stops it and reports the concern to the co-ordinator."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of the baseline walk-through for a listed case",
+    "Co-ordinator notification record for the simulated concern"
+  ],
+  "stopWorkCriteria": [
+    "Baseline protection for a task involving fluid is not available: stop and obtain it before starting.",
+    "The additional-precaution plan for the case is unclear: stop and ask the co-ordinator before continuing."
+  ]
+}

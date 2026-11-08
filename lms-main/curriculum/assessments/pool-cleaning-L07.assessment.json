@@ -1,0 +1,36 @@
+{
+ "lessonId": "pool-cleaning-L07",
+ "knowledgeAnswers": [
+  {
+   "id": "pool-cleaning-L07-K01",
+   "correctIndex": 1,
+   "rationale": "Isolation and pressure relief come before opening any part of the system. Opening the lid under pressure or replacing parts does not address the cause."
+  },
+  {
+   "id": "pool-cleaning-L07-K02",
+   "correctIndex": 2,
+   "rationale": "Recording the positions before and after lets the system be restored correctly and shows what was changed."
+  },
+  {
+   "id": "pool-cleaning-L07-K03",
+   "correctIndex": 3,
+   "rationale": "Motor replacement is electrical work that the technician may not be licensed for. The learner records the symptoms and refers the replacement."
+  }
+ ],
+ "practicalCriteria": [
+  "Diagnostic order: on a supplied fault scenario, the learner checks the loop in the order intake, pump, filter, return and records the gauge reading before and after any cleaning. The assessor checks the order and the readings.",
+  "Isolation: before any lid or electrical part is touched, the learner records the isolation step and the pressure relief. The assessor checks that the record exists before the step.",
+  "Referral: the learner writes a referral for any fault outside scope, with the symptoms and readings. The assessor checks that the referral has no repair attempted."
+ ],
+ "passRule": "Knowledge checks: at least 2 of 3 correct (a reading result only, not verified practical competence). Practical sign-off is separate and is given by assessor review of the practical criteria.",
+ "evidenceRequired": [
+  "Knowledge check score recorded",
+  "Diagnostic record with before and after readings, valve positions and time",
+  "Assessor sign-off on the practical criteria"
+ ],
+ "stopWorkCriteria": [
+  "The learner is asked to open a pressurised filter or strainer lid",
+  "The learner is asked to touch a pump motor or electrical connection with the power on",
+  "The learner is asked to replace a motor or rewire the pump"
+ ]
+}

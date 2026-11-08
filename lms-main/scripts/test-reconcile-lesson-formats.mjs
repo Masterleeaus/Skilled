@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {normalize,buildIndex} from './reconcile-lesson-formats.mjs';
+const mk=(lesson)=>({id:'sample-L01',title:'Sample',status:'READY FOR REVIEW',content:{courseLessons:[{lesson}]}});
+let n=normalize(mk({id:'source-1',learning_outcome:'Understand the procedure',instruction:[{heading:'Step',text:'Follow approved procedure'}],course_slug:'course-1'}),'sample-L01.json');
+assert.equal(n.format,'source-course-lesson');assert.equal(n.learningOutcomes[0],'Understand the procedure');assert.equal(n.instructionSections[0].body,'Follow approved procedure');assert.deepEqual(n.courseIds,['course-1']);assert.equal(n.publicationApproved,false);
+n=normalize(mk({id:'source-1',learning_outcomes:['Check hazards'],instructional_sections:[{title:'Safety',body:'Inspect the worksite'}]}),'sample-L01.json');
+assert.equal(n.instructionSections[0].heading,'Safety');assert(n.reviewBlockers.includes('course mapping requires review'));
+n=normalize({id:'sample-L01',title:'Sample',status:'draft',content:{learner:{id:'sample-L01',title:'Sample',courseIds:['one'],learningOutcomes:['Know'],instructionSections:[{body:'Text'}]}}},'sample-L01.json');
+assert.equal(n.format,'native-learner');assert.equal(n.reviewBlockers.length,0);assert.equal(n.publicationApproved,false);
+const index=buildIndex();assert.equal(index.total,1016);assert.equal(index.formats['full-authoring'],1016);
+assert.equal(index.lessons.filter(l=>l.publicationApproved).length,0);
+console.log('PASS: 12 format, provenance, review-gate and 1016-file reconciliation assertions');

@@ -1,0 +1,38 @@
+{
+  "lessonId": "industrial-degreasing-L10",
+  "knowledgeAnswers": [
+    {
+      "id": "industrial-degreasing-L10-K01",
+      "correctIndex": 2,
+      "rationale": "A sign-off describes the machine before a change. After a change it is not current, so the learner stops and has the machine state and authority reconfirmed."
+    },
+    {
+      "id": "industrial-degreasing-L10-K02",
+      "correctIndex": 1,
+      "rationale": "An unexpected restart changes the energy state without the knowledge of those nearby, so it is a stop-and-reauthorise event. A tidy floor or a quiet shift is not a trigger."
+    },
+    {
+      "id": "industrial-degreasing-L10-K03",
+      "correctIndex": 2,
+      "rationale": "Handover is restricted until the owner confirms outstanding restricted work and who decides restart and chemical matters."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies the stop-and-reauthorise triggers in a fictional case: unexpected restart, contractor entry and shifted boundary.",
+    "Records a simulated machine change after sign-off with time, area, what changed, observation, source, people informed and restriction, and makes no safety claim.",
+    "Refers a simulated restart to the mock authorised person, and does not resume work on the earlier sign-off.",
+    "Restricts a simulated handover and names the owner of each outstanding decision."
+  ],
+  "passRule": "All four practical criteria observed as met in a desk exercise. The knowledge check result is not a practical pass, and this assessment is not a plant-safety sign-off, isolation authority or restart approval.",
+  "evidenceRequired": [
+    "Fictional change record",
+    "Restricted handover record with named decision owners",
+    "Assessor observation note for each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "Work continued after a simulated machine change",
+    "Earlier sign-off relied on after the change",
+    "Machine started or checked by trial start by the learner",
+    "Handover completed with outstanding decisions unassigned"
+  ]
+}

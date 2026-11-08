@@ -1,0 +1,167 @@
+{
+  "id": "POM-02",
+  "title": "Sanitiser choice and water balance: principles without target values",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 50,
+  "audience": "Pool service technicians who test pool water and support the operator's water-treatment decisions",
+  "prerequisites": [
+    "pool-cleaning-L04"
+  ],
+  "learningOutcomes": [
+    "Explain why pool water has to be sanitised and what the sanitiser is for",
+    "Compare chlorine and bromine as sanitisers in terms of odour, cost and use",
+    "Explain why correcting one water value can disturb another, and why the operator plan sets the order",
+    "Recognise that the textbook's target values are generic or US-based and are not used as Australian targets"
+  ],
+  "instruction": [
+    {
+      "heading": "Why the water is sanitised",
+      "body": "The textbook explains that keeping pool water chemically safe depends on controlling harmful bacteria that could be present. Sanitising is the treatment that destroys those organisms. Clear water is a separate aim, and filtration removes particles but does not kill organisms. Sanitising is therefore part of every treatment plan, and the operator decides which product is used and how it is applied."
+    },
+    {
+      "heading": "Chlorine and bromine",
+      "body": "The textbook names two sanitisers. Chlorine and bromine do broadly the same job. Chlorine is more likely to produce an odour that bothers bathers. Bromine is milder in odour but much dearer to run. Their proportions and reading ranges differ, so a plan written for one cannot simply switch to the other. The textbook discusses chlorine throughout. Whichever sanitiser is used, the plan must name the product, the test method and the target range for that product."
+    },
+    {
+      "heading": "Target values are not given here",
+      "body": "The sources in this set disagree about target ranges for free chlorine and for pH. The textbook gives generic figures, the UK handbook gives figures for UK pools, and the manufacturer manual gives figures for its own product. None of them is an Australian standard, and this lesson does not set a target. Refer any doubt to the operator."
+    },
+    {
+      "heading": "Why one correction disturbs another",
+      "body": "The textbook notes that sanitiser and pH have to be kept in step, and that correcting one can upset the other. That is why the order of adjustments matters, and the operator plan sets it. “Disinfection chemistry and pH interpretation” explains how to read results together and which reading drives the next action. A service worker follows the plan's order and records each change."
+    },
+    {
+      "heading": "Testing and recording",
+      "body": "A reading is useful only when the sample is taken correctly, the test follows the kit's method, and the result is logged with the time and the tester. Free chlorine is the value that controls sanitising, and total chlorine is a different measure. Confirm which one the plan uses before testing, and record each reading and each adjustment against the plan."
+    }
+  ],
+  "procedure": [
+    "Read the operator plan for the sanitiser, the test method and the target range.",
+    "Confirm which value the plan uses, such as free or total, before testing.",
+    "Take and test the sample using the method in the plan, and record the time, method and tester.",
+    "Compare the result with the plan. Avoid using a generic figure from a textbook or a foreign handbook.",
+    "Make only the adjustments the plan allows, in the order the plan gives.",
+    "Record the adjustment, its time and the next reading."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The owner says the textbook figure for chlorine is the correct target and asks you to dose to it.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not dose to a generic textbook figure. The target is set by the operator plan for this pool and the applicable Australian guidance. Tell the owner the textbook figure is generic, record the request, and refer the target to the operator."
+    },
+    {
+      "situation": "Free chlorine is within the plan, but the pH is outside it. A colleague says to add the sanitiser to reduce the pH.",
+      "decisionPrompt": "What is the correct action?",
+      "reasoning": "Avoid using the sanitiser to change the pH. Adjust the pH with the product and order the plan gives, then retest the sanitiser because the adjustment can change it. Record each step and its time."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Operator plan with sanitiser, test method and target range",
+    "Test kit with reagents within date",
+    "Gloves and eye protection for reagent and sample handling",
+    "Record sheet for readings with time, method and tester",
+    "Safety data sheet for each sanitiser and adjuster"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a textbook or foreign figure as the target",
+      "prevention": "Use only the operator plan target, and refer any gap."
+    },
+    {
+      "error": "Testing total chlorine when the plan uses free chlorine",
+      "prevention": "Confirm the value the plan uses before testing."
+    },
+    {
+      "error": "Using the sanitiser to fix a pH problem",
+      "prevention": "Follow the plan's order, and retest after each adjustment."
+    },
+    {
+      "error": "Substituting bromine for chlorine in a plan written for chlorine",
+      "prevention": "Refer any change of sanitiser to the operator."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Sanitisers and adjusters are hazardous chemicals. Read the label and the safety data sheet, and wear the protective equipment they name.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Avoid using a textbook, foreign or US target as an Australian target.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Water treatment for a public, commercial or licensed pool may require a licence or authority. This lesson grants none.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Never combine products before they are added to the water. Never dose without the plan's authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every reading has the plan's target beside it and the method and time recorded.",
+    "No target value from a generic or foreign source is used.",
+    "Adjustments follow the plan's order, with a retest recorded after each."
+  ],
+  "documentationEvidence": [
+    "Reading record with time, method, tester and plan target",
+    "Adjustment record with product, amount and order",
+    "Referral note where the plan does not cover the situation"
+  ],
+  "summary": [
+    "Sanitising controls bacteria; filtration removes particles. Both are needed.",
+    "Chlorine and bromine are not interchangeable without a new plan.",
+    "Target values come from the operator plan and Australian guidance, not from a textbook."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:materials.sds_links}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "POM-02-K01",
+      "question": "Where should the target value for pool water in Australia come from?",
+      "options": [
+        "From the operator plan and the applicable Australian guidance",
+        "From the owner's preference and the cost of the chemicals",
+        "From whichever chemical product has the strongest label warning",
+        "From a generic textbook figure and a guess from the supplier"
+      ]
+    },
+    {
+      "id": "POM-02-K02",
+      "question": "Why does the operator plan set the order of adjustments for pool water?",
+      "options": [
+        "Because the pump needs to be off for each adjustment",
+        "Because correcting one value can disturb another",
+        "Because the order makes the water look clearer",
+        "Because the plan is written for the owner's convenience"
+      ]
+    },
+    {
+      "id": "POM-02-K03",
+      "question": "Which statement about chlorine and bromine is correct?",
+      "options": [
+        "They can share one plan, since the test method is the same",
+        "Bromine smells weaker, so it needs no own plan",
+        "Each needs its own plan, test method and target range",
+        "Neither has any use in any pool water at all"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Swimming Pool Operations and Management (textbook), section Water Chemistry (sanitising, chlorine and bromine comparison, free chlorine concept, and the pH interaction); rights: user-held; reworded (no copying); checked 2026-11-02. Figures in the textbook are generic or US-origin and are UNCONFIRMED for Australia. None is used as a target.",
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), section 6 Chemical treatments (control of pH and of disinfection; target figures described only as UK guidance); rights: user-held; reworded (no copying); checked 2026-11-02. UK figures are not used. The three sources disagree on target ranges, so the plan governs.",
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section A (pool sanitation and balance advice) and the advice to consult a local pool service; rights: user-held; reworded (no copying); checked 2026-11-02. Product-level figures are not used as general rules.",
+    "UNCONFIRMED: Australian target values for free chlorine, pH and other water values, and the Australian standards or guidance that set them. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

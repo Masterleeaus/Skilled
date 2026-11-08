@@ -1,0 +1,30 @@
+{
+  "lessonId": "flood-water-restoration-L07",
+  "note": "Knowledge checks are a reading check only. A pass on them is not verified practical competence.",
+  "knowledgeAnswers": [
+    {
+      "id": "flood-water-restoration-L07-K01",
+      "correctIndex": 1,
+      "rationale": "Equipment is selected by contamination, location, supply and training, and recorded in the matrix."
+    },
+    {
+      "id": "flood-water-restoration-L07-K02",
+      "correctIndex": 0,
+      "rationale": "Comcare's guidance names electricity clearance before the electricity is used."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner selects equipment by contamination, location, supply and training, and not by capacity.",
+    "The learner refuses connection to an unverified supply.",
+    "Learner completes the procedure record for the mock case and names the stop-work trigger before any practical step."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed mock decision record for the lesson case",
+    "Assessor observation of the simulated scenario, with no real site work or hazardous material"
+  ],
+  "stopWorkCriteria": [
+    "The electrical supply has not been verified.",
+    "The operator is not trained on the equipment."
+  ]
+}

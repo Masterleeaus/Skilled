@@ -1,0 +1,40 @@
+{
+  "lessonId": "BST-01",
+  "knowledgeAnswers": [
+    {
+      "id": "BST-01-K01",
+      "correctIndex": 1,
+      "rationale": "The five values total $1,760, so the mean is $352, which the $1,100 office job inflates. The median is $170, the middle value once sorted, and it best describes a typical home carpet job. Option 3 is the largest job, not a summary of typical work."
+    },
+    {
+      "id": "BST-01-K02",
+      "correctIndex": 2,
+      "rationale": "The mean multiplied by the expected number of jobs gives a total that already contains the normal mix of big and small jobs. Option 1 describes the median, not the mean. Option 2 wrongly says the mean ignores large jobs; it does not."
+    },
+    {
+      "id": "BST-01-K03",
+      "correctIndex": 0,
+      "rationale": "A large gap between mean and median means a few unusual invoices are shaping the mean. Finding out what they were comes before any price change. Quoting the mean without checking ignores the cause, and deleting the largest invoice hides real work."
+    },
+    {
+      "id": "BST-01-K04",
+      "correctIndex": 3,
+      "rationale": "The choosing the right summary section says to use the median when the question is about the typical customer or the typical job."
+    }
+  ],
+  "practicalCriteria": [
+    "Given at least nine invoice values from the learner's own records or a supplied practice list, the learner produces a correct mean and median without assistance.",
+    "The learner names the largest and smallest values and explains the gap between mean and median in their own words.",
+    "The learner chooses the mean or the median for a quote and for a total, and states the reason for each choice."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Worksheet with the values used, the period covered, the mean, the median and any excluded jobs with reasons",
+    "Assessor observation of the learner explaining the choice of summary",
+    "Knowledge check attempt record"
+  ],
+  "stopWorkCriteria": [
+    "Stop and do not quote from a figure if the job records include duplicates or mix different service types, until they are cleaned and grouped.",
+    "Stop and refer to the owner if customer details are being shared in a worksheet outside the business and privacy duties have not been checked."
+  ]
+}

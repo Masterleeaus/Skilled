@@ -1,0 +1,169 @@
+{
+  "id": "F13-L06",
+  "title": "Measure and improve outcomes",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "W",
+  "estimatedMinutes": 25,
+  "audience": "Any owner or manager in any Titan Academy business who tracks the environmental and operational results of service work.",
+  "prerequisites": [
+    "F13-L01",
+    "F13-L04",
+    "F09-L05"
+  ],
+  "learningOutcomes": [
+    "Choose a small set of measures for product use, water, waste and rework that the business can record consistently.",
+    "Record the measures and review them against a baseline.",
+    "Decide on one improvement at a time and check its effect."
+  ],
+  "instruction": [
+    {
+      "heading": "Choose measures the business can keep",
+      "body": "A measure is only useful if it is recorded consistently. Choose a few measures that the team can record without extra work, such as the volume of product used per job or per dilution, the number of bags of general waste per job, the number of jobs needing rework, and the fuel or travel time per job. Record the baseline for each measure over a set period before making a change. Do not choose a measure that cannot be collected reliably, because the result will not be trusted."
+    },
+    {
+      "heading": "Review and decide",
+      "body": "Review the measures at a fixed interval, such as monthly. Compare the results with the baseline, look for the causes of the largest changes, and decide on one improvement. Record the decision and the reason. Check the effect after a fixed period, and keep the change only if it improves the measure without reducing safety or quality. A change that does not work is reviewed or reversed, and the record shows the decision."
+    },
+    {
+      "heading": "Report the results",
+      "body": "Share the results with the team so that people can see the effect of their work. Report the measures and the decision, not only the good results. Where the results are shared with customers, use only measures that are accurate and that the business can support. Do not make environmental claims that the measures do not show."
+    }
+  ],
+  "procedure": [
+    "Choose a small set of measures that the team can record consistently.",
+    "Record the baseline for each measure over a set period.",
+    "Review the measures at a fixed interval and compare them with the baseline.",
+    "Choose one improvement, record the decision and the reason.",
+    "Check the effect after a fixed period, and keep, review or reverse the change.",
+    "Share the results with the team, and state the measure rather than an unsupported claim."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The product-use measure for kitchen cleans rises after a new team member starts.",
+      "decisionPrompt": "What is the next step?",
+      "reasoning": "Check the dosing practice and the training record for the new member, rather than assuming the product is the cause. Observe a job, correct the dosing method if needed, record the change, and check the measure after the review period."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Measure record or spreadsheet",
+    "Job record for each job"
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing many measures that are not recorded consistently.",
+      "prevention": "Pick a small set and record it on every job."
+    },
+    {
+      "error": "Making environmental claims the measures do not support.",
+      "prevention": "Share the measure and the decision, and state only what the record shows."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Measures that record product use and waste are part of the record-keeping for hazardous substances. Records of hazardous substances must keep the current SDS accessible, as WorkSafe Victoria states for hazardous substances.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The measures are recorded consistently on every job.",
+    "Each change is linked to a baseline, a decision and a review date.",
+    "Shared results state the measure, not an unsupported claim."
+  ],
+  "documentationEvidence": [
+    "Measure log with the baseline, the results and the review dates.",
+    "Improvement decision record with the reason and the check result."
+  ],
+  "summary": [
+    "Choose a few measures the team can record reliably.",
+    "Review against the baseline and change one thing at a time.",
+    "Share the measures and do not claim more than the record shows."
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:materials.approved_products}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F13-L06-K01",
+      "question": "Why record a baseline before a change?",
+      "options": [
+        "So the effect of the change can be compared with the starting point.",
+        "To delay the change until the next audit date and the next review",
+        "Because the form requires it and the manager asks for it each month"
+      ]
+    },
+    {
+      "id": "F13-L06-K02",
+      "question": "A measure rises after a new starter joins. What is the best first step?",
+      "options": [
+        "Blame the product supplier and change to a different brand straight away",
+        "Check the dosing practice and training, observe a job and record the finding.",
+        "Stop recording the measure and tell nobody about the rise and the cause"
+      ]
+    },
+    {
+      "id": "F13-L06-K03",
+      "question": "Which of these does the lesson give as an example of a measure to record?",
+      "options": [
+        "The colour of the van",
+        "The number of bags of general waste per job",
+        "The staff's favourite products",
+        "The number of photos posted on social media"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/hazardous-substances (WorkSafe Victoria, reviewed 19/05/2026; checked 2026-11-02; SDS accessibility)",
+    "Titan Academy base source draft F13-L06 is not in the ready set; written from the catalogue description. No environmental statistics are stated because none are confirmed."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

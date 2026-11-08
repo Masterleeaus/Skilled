@@ -1,0 +1,38 @@
+{
+  "lessonId": "NEW-DEK-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-DEK-03-K01",
+      "correctIndex": 3,
+      "rationale": "The footing depth comes from the approved design and the ground conditions. A change is referred, not made on site, as the footings section of this lesson sets out."
+    },
+    {
+      "id": "NEW-DEK-03-K02",
+      "correctIndex": 0,
+      "rationale": "A post is loaded only after the concrete has cured for the period recorded from the supplier and the design."
+    },
+    {
+      "id": "NEW-DEK-03-K03",
+      "correctIndex": 1,
+      "rationale": "The service plan must be checked and responses on file before excavation, and the work stops if services are found [BYDA-DUTY]."
+    }
+  ],
+  "practicalCriteria": [
+    "In a supervised setting, sets a training post to a design height and plumb reference, braces it, and records plumb and level readings within the tolerance on the sample drawing.",
+    "Completes a service-check record for a sample excavation, showing the plan request, asset owner responses and the stop point if a service is found.",
+    "Writes a referral for a sample design change (for example, a footing depth that cannot be reached), without changing the depth on site."
+  ],
+  "passRule": "Assessor observation of the supervised post set and review of the service-check record and referral, with all three practical criteria met against the sample design. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Footing and post-setting record with readings",
+    "Service-check record with plan reference and responses",
+    "Photographs of the set post before backfilling, in a supervised setting",
+    "Referral note for the design change, with the reply"
+  ],
+  "stopWorkCriteria": [
+    "Services are found or suspected, and digging continues",
+    "A footing depth or post size is changed on site without a written referral",
+    "A post is loaded before its recorded cure time has passed",
+    "A brace is removed before the concrete has set, or a post is forced into line"
+  ]
+}

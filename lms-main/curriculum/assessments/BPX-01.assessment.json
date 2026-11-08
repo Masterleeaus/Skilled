@@ -1,0 +1,37 @@
+{
+  "lessonId": "BPX-01",
+  "knowledgeAnswers": [
+    {
+      "id": "BPX-01-K01",
+      "correctIndex": 2,
+      "rationale": "Gross margin uses gross profit, which is sales less direct job costs, as a share of sales. It is not profit after overheads."
+    },
+    {
+      "id": "BPX-01-K02",
+      "correctIndex": 0,
+      "rationale": "Sales belong on the statement net of GST where the business is registered."
+    },
+    {
+      "id": "BPX-01-K03",
+      "correctIndex": 1,
+      "rationale": "A profit that appears when sales sit below the break-even revenue built from the same inputs signals a conflict. Reconciliation is taught in MP-04."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner builds a twelve-month profit and loss from supplied figures, and every subtotal matches the assessor's recalculation to the dollar",
+    "Gross margin and net profit margin are both stated with the sales base named, and both recalculate correctly",
+    "Each line is labelled fact, target or assumption, and tax, superannuation and payroll lines are included only with a source",
+    "Learner finds the seeded error in an assessor-supplied statement and records the line, the reason and the fix"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed working document for the lesson, saved with its formulas or calculation notes",
+    "Assessor recalculation or review record",
+    "Knowledge check result (a quiz result is not a practical competence result)"
+  ],
+  "stopWorkCriteria": [
+    "Do not present a statement to a lender, investor or tax agent until every subtotal recalculates",
+    "Stop and escalate any figure that cannot be traced to a record or an assumption label",
+    "Escalate GST, superannuation and payroll treatment questions to a registered tax agent"
+  ]
+}

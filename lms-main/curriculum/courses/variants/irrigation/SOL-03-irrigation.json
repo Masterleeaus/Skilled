@@ -1,0 +1,208 @@
+{
+  "id": "SOL-03-irrigation",
+  "title": "Building an offer that justifies a higher rate for Irrigation servicing",
+  "courseSlugs": [
+    "irrigation"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 30,
+  "audience": "Irrigation servicing operators, including solo technicians, who sell seasonal checks and fault reporting at a price that reflects the work and the rules that apply.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Write an irrigation servicing offer with a clear promised result, a time frame, conditions and a return-visit guarantee",
+    "Identify the friction and risk an irrigation client carries and reduce them",
+    "Price a servicing offer on value and on cost, without relying on installation prices"
+  ],
+  "instruction": [
+    {
+      "heading": "A bad offer versus a good offer",
+      "body": "'I will check your sprinklers' is a service. 'I will test each zone against your schedule, record the run time and any fault, fix what is in scope, and send a written zone report within two working days' is an offer. The client buys a system that runs when it should, and a report they can act on. The two-day report time is example wording; set it from your own records."
+    },
+    {
+      "heading": "The five parts of an offer",
+      "body": "A clear outcome (every zone tested, each fault listed, and the controller set to the local watering window); a time frame (the seasonal visit date); the work the client must do (controller and meter access, the water supply turned on, pets and vehicles clear of the valves); the certainty you provide (a zone report with photos, taken with consent); and the risk you carry (a return visit to recheck a repaired zone, within scope). Put the scope and exclusions in writing. Exclude repairs outside the agreed list, supply problems outside your control, and backflow testing, for which no source was found. Some plumbing work is regulated, so see the registration section below before you quote a repair. In Western Australia a quote becomes binding once accepted (WA Consumer Protection, 4 September 2026). In Victoria a contract exists whether the agreement was verbal or written (Consumer Affairs Victoria, 9 July 2025)."
+    },
+    {
+      "heading": "Reducing friction and the watering window",
+      "body": "Record the access points, the controller location, the water meter and any valves the crew must not disturb, and send the visit window in one message. Plan test runs inside the watering window that applies. In Victoria, a watering system may run only between 6 pm and 10 am (Victorian Government, water.vic.gov.au, updated 13 January 2026). In NSW, Sydney Water allows drip and smart systems at any time, and sprinklers and irrigation before 10 am or after 4 pm (Sydney Water). The Hunter Water permanent rule in the Lower Hunter also allows irrigation before 10 am and after 4 pm (Bureau of Meteorology listing of Hunter Water, retrieved 8 November 2026). These sources do not confirm whether a test run counts as watering, so check with the water authority before testing outside the window."
+    },
+    {
+      "heading": "Guarantees and claims",
+      "body": "Consumer guarantees for services apply and cannot be removed by contract. In Victoria, a tradesperson guarantees due care and skill, fitness for any specified purpose and completion within a reasonable time where none is set (Consumer Affairs Victoria, 9 July 2025). A business must be given a reasonable chance to fix a minor fault free of charge (Consumer Victoria, 13 October 2023). Do not promise water savings or a percentage reduction unless you have measured it and can show the evidence. Check current ACCC guidance before publishing any measurable claim."
+    },
+    {
+      "heading": "Packages that step up in price",
+      "body": "Good: a seasonal zone check and written report. Better: the check, plus a controller reschedule to the local watering window and a written schedule the client signs. Best: the Better tier, plus fault reporting between visits and a second check in the peak season. Council scopes use this language: the Central Coast Council (Tasmania) three-year schedule of rates includes irrigation maintenance and fault reporting (closing 10 November 2025), so fault reporting is a recognised scope line. No independent servicing price was found. Do not use installation prices as a servicing price. The Melbourne cost guide lists multi-zone automatic installation at $2,250, $3,600 and $5,400, and single-zone drip on a tap timer at $720 to $1,975 (What's the Damage, verified 1 November 2026). Those are installation figures. Price each tier from your own cost per productive hour, and show one total with GST status stated (WA Consumer Protection, 4 September 2026)."
+    },
+    {
+      "heading": "Registration before you quote a repair",
+      "body": "The Victorian Building Authority lists non-agricultural irrigation as a registered plumbing class. Applicants must show relevant competencies and recent experience in irrigation plumbing work, or Certificate II knowledge plus at least two years working under a licensed irrigation plumber (VBA, undated). The page does not say whether a servicing visit needs that registration, so confirm it before you quote any plumbing repair in Victoria. NSW licensing for irrigation is not confirmed in this lesson. Check the rule for each state you work in, and refer any repair outside your registration."
+    }
+  ],
+  "procedure": [
+    "Write the outcome in one sentence, such as 'every zone runs on the schedule and each fault is listed in writing'.",
+    "Set a visit window inside the watering window that applies to the client's address.",
+    "List what the client must provide, such as controller and meter access, and reduce each step.",
+    "Add one certainty element: a zone report with photos, taken with consent.",
+    "Decide the return-visit guarantee and confirm you hold the registration for any repair in the offer.",
+    "Price from value, then check the rate against your own cost and time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A Melbourne client has a multi-zone system with front and back lawns and beds. The owner can offer a seasonal check, a check with a controller reschedule, or a check with fault reporting between visits. No independent servicing price is available to compare with.",
+      "decisionPrompt": "Which tier should the owner offer, and how should the price be set without a servicing benchmark?",
+      "reasoning": "The owner offers the Better tier, because the controller reschedule solves the client's scheduling problem inside the Victorian window, and the written schedule is evidence the client can keep. The price comes from the owner's own cost per productive hour plus the margin, with the test time as named lines, and not from the installation prices. Any repair found on the check is quoted separately, after the owner has confirmed that the repair is within scope and that the registration covers it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Zone test log with run time, pressure observations and fault notes",
+    "Controller schedule record with the old and new settings",
+    "Written zone report template",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing servicing from installation prices",
+      "prevention": "Build the servicing price from your own cost per productive hour, and keep installation figures separate."
+    },
+    {
+      "error": "Running test cycles outside the local watering window without checking the rule",
+      "prevention": "Check the state and utility rule before a test run, and record the window used."
+    },
+    {
+      "error": "Quoting plumbing repairs without confirming the registration",
+      "prevention": "Confirm the registration that applies before quoting any repair in Victoria, and refer work that is outside it."
+    },
+    {
+      "error": "Quoting with no exclusions",
+      "prevention": "List repairs outside the agreed list, supply problems and backflow testing as exclusions."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business guidance only. This lesson does not grant any licence, registration or authority. Check state rules before acting.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Watering rules are set by state and utility. Victoria: watering systems may run only between 6 pm and 10 am. NSW (Sydney Water): drip and smart systems at any time; sprinklers and irrigation before 10 am or after 4 pm. NSW (Hunter Water, Lower Hunter): irrigation before 10 am and after 4 pm. Check the rule for the address before you promise a schedule.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Irrigation registration in Victoria is a plumbing registration class, and this lesson does not say whether servicing needs it. NSW irrigation licensing is not confirmed. Do not offer a regulated repair until the registration that applies in that state is confirmed.",
+      "licenceNotice": true
+    },
+    {
+      "point": "No backflow testing rule was sourced for Victoria or NSW. Do not offer backflow testing until its rule is confirmed.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every servicing offer is written, states its exclusions, names the watering window used and says whether GST is included.",
+    "Each tier price is built from the operator's own costs, and no installation price is used as a servicing price."
+  ],
+  "documentationEvidence": [
+    "Written offer with the outcome, schedule, exclusions and return-visit terms",
+    "Zone report with run times, faults and photos, taken with consent",
+    "Controller schedule record with the reason for each change"
+  ],
+  "summary": [
+    "A good servicing offer promises a checked system, a written report and a schedule that complies with the local rule.",
+    "Price servicing from your own costs, not from installation prices.",
+    "Confirm the registration that applies before you quote any repair."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SOL-03-K01",
+      "question": "Which part of an irrigation servicing offer does the customer buy?",
+      "options": [
+        "Your hourly rate and fee",
+        "Your equipment list and kit",
+        "The outcome, with certainty",
+        "Your business age today"
+      ]
+    },
+    {
+      "id": "SOL-03-K02",
+      "question": "What should a return-visit guarantee on an irrigation check be?",
+      "options": [
+        "Unlimited, undefined and open-ended",
+        "Impossible to claim on in any case",
+        "Only for new customers and friends",
+        "Something you can deliver and afford"
+      ]
+    },
+    {
+      "id": "SOL-03-K03",
+      "question": "What must a measurable claim about water savings from a servicing visit have?",
+      "options": [
+        "Evidence that supports it",
+        "A famous endorsement",
+        "A price discount",
+        "No supporting evidence"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Setting prices: what's allowed (ACCC)",
+      "url": "https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed",
+      "pageDate": "page last modified 15 July 2026",
+      "checked": "2026-11-09 (team 4 research file; not reopened for this variant)",
+      "covers": "Says misleading statements about prices are prohibited. Publisher: ACCC."
+    },
+    {
+      "id": "R2",
+      "title": "Estimates, quotes and deposits (WA Consumer Protection)",
+      "url": "https://www.consumerprotection.wa.gov.au/estimates-quotes-and-deposits",
+      "pageDate": "last updated 4 September 2026",
+      "checked": "2026-11-09 (team 4 research file; not reopened for this variant)",
+      "covers": "Western Australia only. Says a quote binds once accepted and the total including GST should be shown. Not a Victorian or NSW rule."
+    },
+    {
+      "id": "R3",
+      "title": "Giving quotes: tradespeople and small works (Consumer Affairs Victoria)",
+      "url": "https://www.consumer.vic.gov.au/licensing-and-registration/builders-and-tradespeople/running-your-business/working-with-your-home-building-client/giving-quotes-tradespeople-and-small-works",
+      "pageDate": "updated 9 July 2025",
+      "checked": "2026-11-09 (team 4 research file; not reopened for this variant)",
+      "covers": "Victoria. Says a contract exists whether verbal or written, and sets out the due care, fitness and reasonable-time guarantees. Publisher: Consumer Affairs Victoria."
+    },
+    {
+      "id": "R4",
+      "title": "Services not done with due care and skill (Consumer Victoria)",
+      "url": "https://www.consumer.vic.gov.au/products-and-services/problem-with-a-service/services-not-done-with-due-care-and-skill",
+      "pageDate": "last updated 13 October 2023",
+      "checked": "2026-11-09 (team 4 research file; not reopened for this variant)",
+      "covers": "Says a business must be given a reasonable chance to fix a minor fault. Does not set a fix-window length. Publisher: Consumer Victoria."
+    },
+    {
+      "id": "R5",
+      "title": "Irrigation (non-agricultural) registration (Victorian Building Authority)",
+      "url": "https://www.vba.vic.gov.au/plumbing/registration-licensing/irrigation-non-agricultural",
+      "pageDate": "no date shown",
+      "checked": "2026-11-09 (team 4 research file; not reopened for this variant)",
+      "covers": "Lists non-agricultural irrigation as a registered plumbing class with entry requirements. Does not give a separate irrigation licence and does not say whether servicing needs registration. Publisher: VBA."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Jobber Academy, 'Good, Better, Best Pricing Examples', https://getjobber.com/academy/good-better-best-pricing-examples/, published May 2021, updated 8 October 2024. Older source; supports stepped packages.",
+    "business.gov.au, 'Prepare quotes', https://business.gov.au/people/contractors/prepare-quotes, last updated 1 August 2025. Supports: a quote should recover cost plus a margin. The binding-quote rule in these lessons is cited to Western Australia, not to this page.",
+    "business.gov.au, 'Warranties and refunds', https://www.business.gov.au/Products-and-services/Fair-trading/Warranties-and-refunds, last updated 27 May 2025. Supports: an optional warranty sits on top of consumer guarantees.",
+    "Business Queensland, 'Preparing a business quote: tips', https://www.business.qld.gov.au/running-business/marketing-sales/sales/preparing-quote/tips, last updated 16 November 2022. Supports: add-ons as separate quote lines.",
+    "WA Consumer Protection, 'Estimates, quotes and deposits', https://www.consumerprotection.wa.gov.au/estimates-quotes-and-deposits, last updated 4 September 2026. Western Australia only. Supports: binding quote; total including GST.",
+    "Consumer Affairs Victoria, 'Giving quotes, tradespeople and small works', https://www.consumer.vic.gov.au/licensing-and-registration/builders-and-tradespeople/running-your-business/working-with-your-home-building-client/giving-quotes-tradespeople-and-small-works, updated 9 July 2025. Victoria. Supports: contract whether verbal or written; due care, fitness and reasonable time.",
+    "Consumer Victoria, 'Services not done with due care and skill', https://www.consumer.vic.gov.au/products-and-services/problem-with-a-service/services-not-done-with-due-care-and-skill, last updated 13 October 2023. Supports: reasonable chance to fix a minor fault free of charge.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements are prohibited.",
+    "Victorian Government, 'Permanent water-saving rules', https://www.water.vic.gov.au/for-households/water-restrictions-and-rules/permanent-water-saving-rules, updated 13 January 2026. Supports: watering systems 6 pm to 10 am; a garden sprinkler connected to a tap counts as a watering system.",
+    "Sydney Water, 'Restrictions', https://sydneywater.com.au/restrictions, undated content with a 2026 footer. Supports: drip and smart systems anytime; sprinklers and irrigation before 10 am or after 4 pm.",
+    "Bureau of Meteorology, water restrictions listing for Hunter Water, https://www.bom.gov.au/water/restrictions/index.php?serviceArea=727, retrieved 8 November 2026. Supports: permanent rule from 1 October 2020 with no end date; irrigation before 10 am and after 4 pm.",
+    "What's the Damage, 'Landscaping cost Melbourne', https://whatsthedamage.com.au/landscaping-cost-melbourne/, verified 1 November 2026. Cost guide; not a regulator. Supports: multi-zone automatic installation $2,250 / $3,600 / $5,400; single-zone drip $720 to $1,975. Installation figures only.",
+    "Central Coast Council (Tasmania) gardening services tender, https://www.australiantenders.com.au/tenders/597825/triennial-tenders-2026-2028-gardening-services, closing 10 November 2025. Supports: scope includes irrigation maintenance and fault reporting in a schedule of rates.",
+    "Victorian Building Authority, 'Irrigation (non-agricultural)', https://www.vba.vic.gov.au/plumbing/registration-licensing/irrigation-non-agricultural, no date shown. Supports: registered plumbing class and entry requirements."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

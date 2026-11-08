@@ -1,0 +1,162 @@
+{
+  "id": "flood-water-restoration-L04",
+  "title": "Electrical, gas and solar system hazards",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and water-removal work after a flood or water event. Not a qualification or authority to enter a flood-affected building, energise its systems, or certify it as dry, safe or habitable.",
+  "prerequisites": [
+    "flood-water-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Identify electrical, gas and solar and battery hazards after water exposure, and refuse to energise any affected system without licensed clearance."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how water-affected electrical, gas and solar systems are recognised, kept de-energised and referred to licensed professionals. It does not authorise isolation, reconnection, testing or repair of any system. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "Electrical, gas and solar system hazards",
+      "body": "Water-exposed power outlets, damaged cables, gas appliances, and solar and battery systems can remain hazardous even when they appear to be switched off. A cleaner cannot certify that a system has been isolated. Create a utility verification checklist that names the authorised professional and the energisation that is prohibited. Do not energise any water-affected system until a licensed clearance has been issued. Do not attempt to isolate, reconnect or test electrical or gas equipment. Refer each hazard to the authorised professional and record the referral."
+    }
+  ],
+  "procedure": [
+    "Treat every water-affected outlet, cable, switchboard, gas appliance, and solar or battery system as unsafe until a licensed professional has cleared it.",
+    "Do not touch a switchboard that water has damaged.",
+    "Do not energise, isolate, reconnect or test any system.",
+    "Record each hazard on a utility verification checklist, naming the authorised professional.",
+    "Refer each hazard to the licensed professional in writing and record the referral.",
+    "Do not use a damaged electrical or gas appliance until an electrician or plumber declares it safe."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The power has been switched off at the switchboard, and a worker wants to plug in a dehumidifier.",
+      "decisionPrompt": "What must happen?",
+      "reasoning": "Stop. Apparent isolation is not verified isolation, and water-affected systems can remain hazardous. Do not energise the system. Refer to the licensed professional for clearance before any connection."
+    },
+    {
+      "situation": "A solar system on a flooded roof is still connected, and the owner asks the cleaner to switch the inverter off.",
+      "decisionPrompt": "What is correct?",
+      "reasoning": "Do not attempt isolation. Record the system, refer it to the authorised professional and do not work on it until that professional has given clearance."
+    }
+  ],
+  "equipmentAndPpe": [
+    "No PPE makes an energised or water-affected system safe to handle. Handling is for the licensed professional.",
+    "Utility verification checklist and referral record."
+  ],
+  "commonErrors": [
+    {
+      "error": "Energising a system that appears to be switched off after water exposure.",
+      "prevention": "Do not energise. Refer to the licensed professional for clearance."
+    },
+    {
+      "error": "Using a damaged appliance because it still works.",
+      "prevention": "Do not use it until an electrician or plumber declares it safe."
+    },
+    {
+      "error": "Trying to repair a switchboard to restore lighting.",
+      "prevention": "Do not repair. Refer and record the referral."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Re-energising a water-affected property needs licensed clearance. WorkSafe Victoria's flood guidance says not to put electricity or gas back on until a licensed electrician has tested the property wiring and a licensed gasfitter has checked the gas installation.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Under Comcare's flood clean-up duties, electricity clearance must be given before anyone attempts to use the electricity.",
+      "licenceNotice": false
+    },
+    {
+      "point": "SafeWork NSW advises avoiding damaged gas and electrical appliances until an electrician or plumber declares them safe.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Solar and battery systems need the licensed professional's assessment before anyone works on them.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner keeps water-affected systems de-energised and refers them.",
+    "The learner refuses to isolate, reconnect or test any system."
+  ],
+  "documentationEvidence": [
+    "Utility verification checklist naming the authorised professional and the prohibited energisation.",
+    "Referral record with the date and the person referred to."
+  ],
+  "summary": [
+    "Apparent isolation is not verified isolation.",
+    "No energising until licensed clearance is given.",
+    "Damaged appliances stay out of use until declared safe."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "flood-water-restoration-L04-K01",
+      "question": "The power has been switched off at the board, and a worker wants to plug in a dehumidifier. What is correct?",
+      "options": [
+        "Plug it in, because the power is off at the board and the dehumidifier needs to start drying the room now",
+        "Plug it in at the outlet that is still dry, since that outlet is far from the water on the floor",
+        "Stop. Apparent isolation is not verified isolation, and the system is not energised without licensed clearance."
+      ]
+    },
+    {
+      "id": "flood-water-restoration-L04-K02",
+      "question": "Under SafeWork NSW's flood guidance, what must happen before damaged electrical appliances are used?",
+      "options": [
+        "They are declared safe by an electrician or plumber",
+        "The owner signs a waiver",
+        "They are used briefly to test them"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR06-flood-water-restoration.json, instruction section 4 and learning outcome 4; first knowledge check HR06-K04. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: flood-water-restoration-lesson-04-instruction-pass68.json; flood-water-restoration-lesson-04-research-pass67.json; flood-water-restoration-lesson-04-assessment-pass69.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: re-energisation and clearance rules for solar and battery systems after a flood, in any state or territory.",
+    "UNCONFIRMED: Queensland and other jurisdictions' electrical regulators. Only Victorian, NSW and Commonwealth guidance was read.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Floods and other natural disasters",
+      "url": "https://www.worksafe.vic.gov.au/floods-and-other-natural-disasters",
+      "pageDate": "Reviewed on 20/01/2023 (the only date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Do not touch switchboards that have been damaged by water. Do not put electricity or gas back on until the property wiring has been tested by a licensed electrician and the gas installation has been checked by a licensed gasfitter. Wash hands after contact with mud, flood water and contaminated items and equipment. Wear enclosed footwear, protective eyewear, gloves and suitable clothing. Avoid contact with unknown substances or containers. Keep hazardous substances separate from general waste. WorkSafe Victoria always recommends a licensed asbestos removalist for any amount of asbestos. Victorian guidance only."
+    },
+    {
+      "id": "R2",
+      "title": "SafeWork NSW media release: urges workplaces to beware of hazards as flood cleanup begins",
+      "url": "https://www.safework.nsw.gov.au/news/safework-media-releases/safework-nsw-urges-workplaces-to-beware-of-hazards-as-flood-cleanup-begins",
+      "pageDate": "29 May 2025 (publication and modified date)",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Flood clean-up hazards include contaminated water, sewage containing harmful bacteria that may have overflowed inside a building, broken glass and debris, damaged electricity supplies, asbestos, wet, slippery and unstable surfaces, and wild animals. Buildings built before 1990 are likely to contain asbestos. Workers should take regular rest breaks to manage fatigue. Damaged gas and electrical appliances should be avoided until an electrician or plumber declares them safe. The release strongly recommends a licensed asbestos removalist for asbestos work. NSW guidance only."
+    },
+    {
+      "id": "R3",
+      "title": "Floods (extreme weather)",
+      "url": "https://www.comcare.gov.au/safe-healthy-work/prevent-harm/extreme-weather/floods",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Flood clean-up dangers include asbestos, flooded sewerage, toxic chemicals, bacteria and pollutants. Clean-up duties: electricity clearance has been given before attempting to use the electricity; any hazardous chemicals or likely asbestos-containing materials are identified; everyone involved is briefed on hazards and precautions, including PPE; first aid, clean drinking water and hand hygiene measures are available. Clean-up PPE listed: rubber-soled shoes, gloves, hats, sunscreen, sun protective clothing and high visibility vests. Commonwealth (Comcare) guidance."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a flood-affected building, to carry out regulated flood restoration, to energise or isolate electrical, gas or solar systems, to remove sewage or contaminated water, to dispose of waste, or to certify that a property is dry, hygienic, structurally sound or safe to occupy. Completing this lesson does not give a licence, certificate or approval. Some of the work described is restricted to licensed, authorised or specially trained people, including electrical and gas work, structural assessment, sewage handling and some disposal. The site controller, the owner, the insurer and the competent professionals each hold separate decisions, and none of them replaces the others. Where the controlling authority or the competent professional is not identified, stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever any of these is true: permission to enter or written safety clearance is missing; the contamination is unknown; a structural hazard, a slip or a confined space has not been cleared; an electrical, gas or solar system is water-exposed or has not been licensed for re-energisation; an exposure has occurred or controls are not in place; the equipment or operators are not suitable; porous material is in question; hidden microbial contamination is suspected; a waste route is not yet known; or a party asks for a dry, hygienic or occupancy statement. A stop-work decision is correct. Record it, and restart only after the competent party has confirmed the scope in writing."
+  }
+}

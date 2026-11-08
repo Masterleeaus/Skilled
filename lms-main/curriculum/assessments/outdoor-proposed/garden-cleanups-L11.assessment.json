@@ -1,0 +1,37 @@
+{
+  "lessonId": "garden-cleanups-L11",
+  "status": "PROPOSED REPLACEMENT - see report; the existing file at assessments/garden-cleanups-L11.assessment.json was overwritten by another batch with invalid correctIndex values",
+  "knowledgeAnswers": [
+    {
+      "id": "garden-cleanups-L11-K01",
+      "correctIndex": 2,
+      "rationale": "A planned, protected one-way route avoids damage to lawns and paving."
+    },
+    {
+      "id": "garden-cleanups-L11-K02",
+      "correctIndex": 0,
+      "rationale": "A person entering the zone is a stop-work trigger. Stop, let them leave, restore the barrier, then restart."
+    },
+    {
+      "id": "garden-cleanups-L11-K03",
+      "correctIndex": 1,
+      "rationale": "Loose material on footpaths is a public hazard and can block stormwater drains."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock site plan, the learner draws a work zone, an exclusion zone and a one-way material route that does not cross the footpath, within the assessor's set time.",
+    "The learner places covers and marker stakes on mock windows and irrigation fittings before a simulated cutting task begins.",
+    "The learner stops a simulated cutting task when the assessor enters the zone, restores the barrier and restarts only when the zone is clear."
+  ],
+  "passRule": "NOT SET",
+  "evidenceRequired": [
+    "Annotated mock site plan signed by the assessor.",
+    "Assessor observation record of the protection and barrier set-up.",
+    "Stop-event record for the simulated pedestrian entry."
+  ],
+  "stopWorkCriteria": [
+    "Cutting while the assessor is inside the simulated exclusion zone.",
+    "Driving or standing equipment on a marked fragile surface.",
+    "Continuing after the barrier has been removed."
+  ]
+}

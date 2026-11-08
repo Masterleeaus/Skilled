@@ -1,0 +1,33 @@
+{
+  "lessonId": "HLT-09",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-09-K01",
+      "correctIndex": 2,
+      "rationale": "The order is least contaminated first, high to low, with the floor last so that debris from above is collected at the end."
+    },
+    {
+      "id": "HLT-09-K02",
+      "correctIndex": 1,
+      "rationale": "Debris from the surfaces falls to the floor, and the floor is cleaned afterwards. The other options are not the reason."
+    },
+    {
+      "id": "HLT-09-K03",
+      "correctIndex": 1,
+      "rationale": "A wet floor needs a sign so that people do not slip on it. The other options create or fail to address the hazard."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a sample room, the learner orders the tasks correctly and states the reason for each step without prompts.",
+    "The learner completes a checklist for a room and ticks only the items that are finished."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of a room clean, with the order recorded",
+    "Completed checklist for the room"
+  ],
+  "stopWorkCriteria": [
+    "A wet floor is being left without a sign in a corridor used by people: stop and sign it.",
+    "The product label requires protective items that are not being worn: stop and put them on."
+  ]
+}

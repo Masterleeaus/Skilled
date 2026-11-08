@@ -1,0 +1,212 @@
+{
+  "id": "handyman-work-L02",
+  "title": "Site survey and pre-start risk control",
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, How to manage work health and safety risks: Code of Practice (dated December 2011, as shown in the document); NSW Government, Electrical licences and credentials (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting (last updated 31 July 2026; page metadata shows a later modified date); SafeWork NSW, Class B asbestos removal licence (published 12 November 2025; last modified 12 March 2026); WorkSafe Queensland, Asbestos licences (no date shown); Victorian Government (asbestos.vic.gov.au), Unlicensed asbestos removal (an 'Updated' label is shown; no date).",
+  "courseSlugs": [
+    "handyman"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Handyman workers and property maintenance workers working in occupied homes and buildings",
+  "prerequisites": [
+    "handyman-work-L01",
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "List the occupant, utility, finish, access and nearby-activity hazards that must be checked before an occupied-property task begins.",
+    "Set an exclusion zone and state the stop-work trigger for a task.",
+    "Record hazards, controls and the go, defer or refer decision before starting."
+  ],
+  "instruction": [
+    {
+      "heading": "Why the survey comes first",
+      "body": "Most avoidable harm in occupied properties happens because a task starts before the site has been read. The survey is the step that finds what the work order does not say: a child asleep in the next room, a cable behind the plaster, a fragile tiled floor, an access code that expired, or a neighbour's scaffold above the work. Survey before the first tool is switched on, and repeat the survey whenever the task or the occupants change."
+    },
+    {
+      "heading": "What to check on the walk-through",
+      "body": "Walk the route from the entry to the work area with the site contact. Identify occupants and their needs, including children, older people, people with limited mobility, and pets. Ask where concealed services run, because a cable, pipe or gas line is not visible in a wall and an assumption is not a check. Note fragile finishes such as glass, stone, old tiles and painted timber. Confirm access rules, including strata or building rules, lift bookings, key handling and parking. Note nearby activity such as other trades, traffic, machinery and weather. In older buildings, look for materials that may contain asbestos and do not disturb them. Refer any suspicion to the owner and to a competent specialist."
+    },
+    {
+      "heading": "Controls, exclusion zones and stop-work",
+      "body": "Apply controls in this order: eliminate the hazard, substitute a safer method or material, separate people from the hazard with barriers and timing, and use personal protective equipment only for what remains. Safe Work Australia's model code of practice (dated December 2011) sets the same order of controls and asks that risk be removed where that is reasonably practicable. Set an exclusion zone around the work, and agree with the occupants how it will be kept. Decide in advance what would stop the task. The usual trigger is that the exclusion zone cannot be kept, or that a new hazard appears that the survey did not cover. If the trigger is met, stop, make the area safe, and inform the supervisor or client before anything resumes."
+    }
+  ],
+  "procedure": [
+    "Confirm the work order, the approver and the authority to enter the property.",
+    "Walk the route from entry to work area with the site contact, noting occupants, pets and access restrictions.",
+    "Ask about and look for concealed services, fragile finishes and any older materials that should not be disturbed.",
+    "Set the exclusion zone and agree how occupants will be kept clear.",
+    "Define the stop-work triggers for this task in one or two sentences.",
+    "Record the hazards, controls and decision: go, defer, or refer.",
+    "Re-survey before starting if the occupants, the task or the conditions have changed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A hallway repair is booked while residents are moving furniture, and a toddler keeps walking into the work zone.",
+      "decisionPrompt": "Can the work start now, and what would make it safe to start?",
+      "reasoning": "The exclusion zone cannot be kept while the toddler is entering it, so the stop-work trigger is already met. Defer the task to a time when the work zone can be closed off, agree the exclusion zone with the household, and record the deferral. Starting now would rely on the child staying out of the area, which is not a control."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Work order and property access details",
+    "Barriers, signage and cones for the exclusion zone",
+    "Torch for checking concealed areas under sinks and behind fixtures",
+    "Site hazard record, kept with the work order",
+    "Personal protective equipment selected from the survey findings"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating the work order as the complete picture of the site.",
+      "prevention": "Walk the route and ask the occupant about hidden services, access rules and anything the order does not mention."
+    },
+    {
+      "error": "Relying on PPE when the hazard could be removed or separated.",
+      "prevention": "Work through the controls in order: eliminate, substitute, separate, then PPE."
+    },
+    {
+      "error": "Assuming an exclusion zone will hold because the occupants were told once.",
+      "prevention": "Confirm the zone with the occupants, check it during the work, and stop if it cannot be kept."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Concealed electrical, gas and water services must be treated as present until they are confirmed. Work that touches them needs a licensed trade: wiring needs a licence or certificate in New South Wales whatever the price (electrical page, last updated 23 June 2026), and plumbing, draining and gasfitting need a licence or certificate in New South Wales at any price (plumbing page, last updated 31 July 2026). See “Electrical boundaries and referral” and “Water, plumbing and gas boundaries”.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Older materials that may contain asbestos must not be disturbed during a survey. Removal above the state allowances is licensed work. In New South Wales, a Class B licence applies once the area of non-friable material passes 10 square metres (SafeWork NSW page, published 12 November 2025, modified 12 March 2026). In Queensland, non-friable jobs at or under 10 square metres need no licence (WorkSafe Queensland page, no date shown). In Victoria, unlicensed removal of non-friable asbestos is limited to 10 square metres in total, and to one hour in any period of seven days which is cumulative across all employees (asbestos.vic.gov.au page, which shows an 'Updated' label and no date). Friable asbestos has no unlicensed allowance, and work above these limits needs a licence. This lesson does not grant any asbestos licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing a survey does not make a site safe to work in. The worker must still apply the controls and stop-work triggers for each task.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The survey records at least five hazards across occupants, services, finishes, access and nearby activity, or states that none were found after a full walk-through.",
+    "The exclusion zone is set and the occupants have confirmed how it will be kept.",
+    "A stop-work trigger is written before the task starts."
+  ],
+  "documentationEvidence": [
+    "Pre-start hazard record with the date, the occupants addressed and the controls chosen",
+    "Go, defer or refer decision with the reason",
+    "Record of any re-survey and the change that triggered it"
+  ],
+  "summary": [
+    "The survey finds what the work order does not show.",
+    "Apply controls in order and do not rely on PPE alone.",
+    "Decide the stop-work trigger before starting, and stop if it is met."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:customers.access_instructions}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "handyman-work-L02-K01",
+      "question": "Before drilling a wall in an occupied home, what is the most important first step?",
+      "options": [
+        "Start drilling to test the wall, since a small hole shows what is behind it",
+        "Ask the occupant about hidden services and choose a point that does not rely on assumptions",
+        "Drill quickly before the residents return, so the job is finished on time",
+        "Assume the wall is empty because nobody has reported any cables or pipes in the wall"
+      ]
+    },
+    {
+      "id": "handyman-work-L02-K02",
+      "question": "When must work stop at an occupied property?",
+      "options": [
+        "Only when a supervisor is physically present on the site and watching the job",
+        "When the client asks for a short pause to take a call or move something",
+        "Never, because a stop loses the booking and the client may complain about the delay",
+        "When the exclusion zone cannot be kept safely or a new unassessed hazard appears"
+      ]
+    },
+    {
+      "id": "handyman-work-L02-K03",
+      "question": "Which control order is correct?",
+      "options": [
+        "Elimination or substitution, then separation, then personal protective equipment",
+        "Personal protective equipment first, then separation of the work area",
+        "Warning the occupants, then personal protective equipment, then separation of the work",
+        "Working faster to reduce exposure time, then separation of the area"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official sources, repeated for checking: Safe Work Australia, How to manage work health and safety risks: Code of Practice (dated December 2011, as shown in the document); NSW Government, Electrical licences and credentials (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting (last updated 31 July 2026; page metadata shows a later modified date); SafeWork NSW, Class B asbestos removal licence (published 12 November 2025; last modified 12 March 2026); WorkSafe Queensland, Asbestos licences (no date shown); Victorian Government (asbestos.vic.gov.au), Unlicensed asbestos removal (an 'Updated' label is shown; no date).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "How to manage work health and safety risks: Code of Practice",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1702/how_to_manage_whs_risks.pdf",
+      "pageDate": "Dated December 2011 (shown in document)",
+      "checked": "2026-11-03",
+      "covers": "Check the control hierarchy and the section on managing risk. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Electrical licences and credentials",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Check whether a licence or certificate applies to wiring work. The page sets no dollar threshold and does not mention solar or battery systems. Publisher: NSW Government."
+    },
+    {
+      "id": "R3",
+      "title": "Plumbing, draining and gasfitting",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+      "pageDate": "Last updated 31 July 2026 (page metadata shows a later modified date)",
+      "checked": "2026-11-03",
+      "covers": "Check the licence categories and the penalty amounts for unlicensed work. Publisher: NSW Government."
+    },
+    {
+      "id": "R4",
+      "title": "Class B asbestos removal licence",
+      "url": "https://www.safework.nsw.gov.au/licences-and-registrations/licences/class-b-asbestos-removal-licence",
+      "pageDate": "Published 12 November 2025; last modified 12 March 2026",
+      "checked": "2026-11-03",
+      "covers": "Check when a Class B licence is needed for non-friable asbestos. Publisher: SafeWork NSW."
+    },
+    {
+      "id": "R5",
+      "title": "Asbestos licences",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/asbestos",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the 10 square metre limit for non-friable asbestos. Publisher: WorkSafe Queensland."
+    },
+    {
+      "id": "R6",
+      "title": "Unlicensed asbestos removal",
+      "url": "https://www.asbestos.vic.gov.au/builders-and-trades/asbestos-removalists/unlicensed-asbestos-removal",
+      "pageDate": "'Updated' label shown; no date",
+      "checked": "2026-11-03",
+      "covers": "Check the 10 square metre and one-hour limits, which cover non-friable material only. Publisher: Victorian Government (asbestos.vic.gov.au)."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "lessons/ready/handyman-work-L02.json (source draft, hand28-02 and hand28-07 as cited in the draft; references not in this workspace, UNCONFIRMED)",
+    "research/trades/LICENCE-MATRIX.csv VIC-31, VIC-32 (checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX-NSW-QLD.csv NSW-15, QLD-10 (checked 2026-11-02)",
+    "Hierarchy of controls and survey method: internal course guidance, UNCONFIRMED against any named standard"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-03.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-04.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    }
+  ]
+}

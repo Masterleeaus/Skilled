@@ -1,0 +1,39 @@
+{
+ "lessonId": "PBP-05",
+ "knowledgeAnswers": [
+  {
+   "id": "PBP-05-K01",
+   "correctIndex": 1,
+   "rationale": "A task is assigned only when the training, sign-off and operator instruction are in place. A certificate alone is not authority."
+  },
+  {
+   "id": "PBP-05-K02",
+   "correctIndex": 2,
+   "rationale": "A CHECKED entry needs a source and a date. Without them it is not accepted as checked."
+  },
+  {
+   "id": "PBP-05-K03",
+   "correctIndex": 3,
+   "rationale": "Chemicals are separated by type, locked and kept away from fuel and people. The Australian rules must be checked."
+  }
+ ],
+ "practicalCriteria": [
+  "Operating process names the person and the record for each step",
+  "Task and training matrix shows who may do each task, and the supervision in place",
+  "Equipment register shows maintenance and chemical storage",
+  "Compliance register entries each show a source, a date and a status"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Operating process chart and task matrix",
+  "Compliance register extract",
+  "Assessor review"
+ ],
+ "stopWorkCriteria": [
+  "Restricted task assigned to an untrained or unlicensed worker",
+  "Compliance entry shown as CHECKED with no source",
+  "Chemicals stored with fuel or in the cabin"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

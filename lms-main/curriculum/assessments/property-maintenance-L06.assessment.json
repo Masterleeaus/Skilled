@@ -1,0 +1,33 @@
+{
+  "lessonId": "property-maintenance-L06",
+  "knowledgeAnswers": [
+    {
+      "id": "property-maintenance-L06-K01",
+      "correctIndex": 0,
+      "rationale": "A loose roof item is observed from the ground, access is controlled below, and a competent roofing trade is referred. Climbing or fixing is not appropriate for this role."
+    },
+    {
+      "id": "property-maintenance-L06-K02",
+      "correctIndex": 1,
+      "rationale": "A visual inspection supports only a statement of what was seen and what was not inspected."
+    },
+    {
+      "id": "property-maintenance-L06-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says not to push, lean on, or test a balustrade, wall or structure to see how it moves."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated facade with a crack and a loose fixing, the worker records both from the ground without climbing or testing.",
+    "The worker writes a referral that states what was seen and what was not inspected."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Ground-level observation record with photographs",
+    "Referral note"
+  ],
+  "stopWorkCriteria": [
+    "The access needed to inspect requires climbing or a platform without authorisation",
+    "A loose item is above people and access below cannot be controlled"
+  ]
+}

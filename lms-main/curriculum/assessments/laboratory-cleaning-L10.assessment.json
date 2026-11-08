@@ -1,0 +1,44 @@
+{
+ "lessonId": "laboratory-cleaning-L10",
+ "knowledgeAnswers": [
+  {
+   "id": "laboratory-cleaning-L10-K01",
+   "correctIndex": 1,
+   "rationale": "Only the equipment owner authorises a changed scope such as moving a cabinet. The cleaner declines and redirects the request."
+  },
+  {
+   "id": "laboratory-cleaning-L10-K02",
+   "correctIndex": 1,
+   "rationale": "Housekeeping does not imply sterilisation, certification or clearance. The handover records the housekeeping done and the exclusions."
+  },
+  {
+   "id": "laboratory-cleaning-L10-K03",
+   "correctIndex": 2,
+   "rationale": "Resumption requires an updated authorised scope from the site authority and the cleaner's training and equipment for that scope."
+  },
+  {
+   "id": "laboratory-cleaning-L10-K04",
+   "correctIndex": 1,
+   "rationale": "The sash and the vent are left as found, recorded and reported to the owner. Adjusting controls or leaning into an enclosure are both excluded."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies access restrictions, the fume hood, the cabinet and the vents on a fictional floor plan, and marks the no-touch margins.",
+  "Declines a simulated request to move a cabinet near a live fume hood, and redirects it to the owner without adjusting the sash or the controls.",
+  "Produces a complete fictional deferral record with the zone, condition, excluded task, contact and time, and no clearance claim.",
+  "Writes a fictional housekeeping-only handover that lists the exclusions."
+ ],
+ "passRule": "Restrictions identified on the fictional plan, request declined and redirected without adjustment of equipment, and deferral record complete with no clearance claim. Observed by an assessor in a supervised desk exercise. A knowledge check result alone is not a practical pass.",
+ "evidenceRequired": [
+  "Fictional floor plan with restrictions and no-touch margins marked",
+  "Fictional deferral record",
+  "Fictional housekeeping-only handover with exclusions",
+  "Assessor observation note"
+ ],
+ "stopWorkCriteria": [
+  "Cabinet moved without written owner authority",
+  "Live fume hood cleaned, leaned into, or its sash adjusted by the cleaner",
+  "Sample, sharp or instrument handled",
+  "Handover or record describes the zone as sterile, certified or cleared"
+ ]
+}

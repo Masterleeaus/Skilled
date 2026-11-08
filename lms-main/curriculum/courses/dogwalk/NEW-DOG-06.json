@@ -1,0 +1,216 @@
+{
+  "id": "NEW-DOG-06",
+  "title": "Route planning, bookings and walk records",
+  "courseSlugs": [
+    "dogwalk"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 20,
+  "audience": "Dog walkers and pet taxi operators who plan daily routes, manage bookings and keep walk records",
+  "prerequisites": [
+    "F01-L04",
+    "F01-L01",
+    "F01-L02"
+  ],
+  "referencesAtStart": "Official sources: City of Port Phillip, Do I need a dog walking permit? (Dog walkers) (no date shown); City of Yarra, Commercial dog walkers (no date shown); City of Ryde, Application for dog minding (open space) form (July 2026, form footer); ACCC, Small business toolkit: consumer rights and guarantees (no date shown).",
+  "learningOutcomes": [
+    "Plan a daily route that stays inside each permitted place and within each group limit",
+    "Build a booking schedule that allows for pickups, walks, travel and records",
+    "Keep walk records that a council, client or insurer can rely on"
+  ],
+  "instruction": [
+    {
+      "heading": "Routes inside the permits",
+      "body": "A route is a list of places, and each place has its own rules. Before planning a route, identify each council park, reserve or footpath area on it, and check the permit for each place that requires one. Port Phillip's dog walker page (no date shown) requires a permit once a walker has four or more dogs, with limits of eight per walker and twelve in total. Yarra's page (no date shown) requires a permit for a paid dog-exercise business on council land, and caps the animals at one time at four. Ryde's form (July 2026) covers specific off-leash areas, with one commercial minder and up to four dogs. Where a route includes a place with no permit, or a place where the permit does not apply, the route must avoid it or the business must confirm the position. Plan the route so that the group size never exceeds the lowest limit for any place on the route, and record the plan."
+    },
+    {
+      "heading": "Booking so the day works",
+      "body": "A dog walking day has a time for each pickup, each walk, each drop-off and each journey between them. Build the booking from those steps, and leave a margin for delays such as a dog that needs a longer walk, a traffic delay or a client who is late. Record each booking with the client's name, the dog or dogs, the pickup and drop-off times, the access instructions and the cancellation rule. Where the business uses a group walk, record the group size and the permit for each place. The scheduling method is held in {{business:jobs.scheduling_method}}, and the time tracking method in {{business:jobs.time_tracking}}. Do not book a walk that cannot be completed inside the permit's hours. The Port Phillip page read for this review does not state walking hours, so any time limit must be confirmed with the council before the booking."
+    },
+    {
+      "heading": "Walk records that stand up to scrutiny",
+      "body": "A walk record shows what happened. It should include the date, the walker, the dogs walked, the places visited, the time the walk started and ended, the group size, any incident, any stop, the condition of each dog on return, and the handover to the client. Port Phillip's dog walker page (no date shown) expects a log of when each dog is in the walker's charge, the owner's name and how to reach them, and the council tag number. It also requires the permit to be available on the job, in paper or electronic form, and produced when a council officer or a member of the community asks. Record the permit reference for each walk. Photos of the dog can help a client see that the walk happened, but they must be taken and stored under the client's privacy consent, and the business must follow {{business:jobs.photo_requirements}}. Keep the records for as long as the business procedure or the council requires, and make them available to the client on request. Where a record has been changed, record the change, the date and who made it."
+    }
+  ],
+  "procedure": [
+    "Map each route stop by stop, and identify the council and the permit for each public place",
+    "Check the group size against the lowest limit for any place on the route, and split the route where needed",
+    "Build each booking from its pickups, walks, journeys and drop-offs, and add a margin for delay",
+    "Record each booking with the client details, access instructions, pickup and drop-off times and cancellation rule",
+    "Record each walk with the date, dogs, places, times, group size, incidents and the condition of each dog on return",
+    "Review the routes and the records each week, and remove any place where the permit no longer applies"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A walker plans a route that includes a Yarra park, a Port Phillip reserve and a footpath that crosses the boundary. The group has five dogs.",
+      "decisionPrompt": "Can the walker use the route as planned?",
+      "reasoning": "Yarra's permit allows a maximum of four animals at one time, so five dogs exceed the Yarra limit in the Yarra park. The walker must reduce the group to four for the Yarra section or split the walk. The Port Phillip reserve requires a permit for four or more dogs and allows eight per walker, so five dogs need the Port Phillip permit. The route must be planned so the lowest limit applies, and the plan should be recorded before the walk."
+    },
+    {
+      "situation": "A walker completes a walk but has not recorded the time of return or the condition of one dog, which seemed to limp slightly.",
+      "decisionPrompt": "What should the walker do now?",
+      "reasoning": "The record is incomplete and the dog's condition on return is important for the client and for any later claim. The walker should record the return time and the limp as observed, and inform the client. If the limp persists, the walker should follow the first-response steps in “Pet first aid and emergency vet referral” and advise the owner to contact the vet. The walker should not change the record later without a dated note of the change."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Route plan with each place, council, permit and group limit",
+    "Booking system or diary with the required fields",
+    "Walk record form, paper or digital, with a space for the condition on return",
+    "Permit copy for each council place, carried during the walk"
+  ],
+  "commonErrors": [
+    {
+      "error": "Planning a route through a council park with a group above that park's limit.",
+      "prevention": "Check the lowest limit for every place on the route, and split the route where needed."
+    },
+    {
+      "error": "Booking walks back to back with no margin for delay.",
+      "prevention": "Build each booking from its steps, and add a margin for delay and travel."
+    },
+    {
+      "error": "Leaving walk records incomplete or changing them without a dated note.",
+      "prevention": "Complete the record at the end of each walk, and record any later change with the date and the person who made it."
+    },
+    {
+      "error": "Using photos of a dog without the client's consent.",
+      "prevention": "Take and store photos only under the client's consent and the business's photo requirements."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Permit threshold by council: in City of Port Phillip, a dog walking permit is needed to walk four or more dogs at a time. With a permit, the maximum is eight dogs per person and twelve dogs in total, whatever the number of handlers. In City of Yarra, without a permit no more than four dogs or other animals may be exercised by one person at any one time. In City of Ryde, a commercial dog minder permit covers minding up to four dogs in off-leash areas. Work above these limits needs the council permit. All of these limits are council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Port Phillip's dog walker page requires a log of each dog's time in the walker's charge and of the owner's details, and requires the permit to be available on the job. This is council-specific to Port Phillip.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Yarra's permit limits a commercial walk to four animals at one time. Ryde's permit limits a commercial minder to four dogs. Both are council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Consumer guarantees under the Australian Consumer Law apply to services, which must be fit for purpose, carried out with proper care and skill, and provided within a reasonable period.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A route plan, a booking or a walk record does not grant a permit or registration. Those are obtained from the council.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every route is checked against the permit and group limit for every place on it",
+    "Every booking allows for the pickups, walks, journeys, drop-offs and a delay margin",
+    "Every walk has a complete record, with the condition of each dog on return",
+    "No photo of a dog is taken or stored without the client's consent"
+  ],
+  "documentationEvidence": [
+    "Route plan with the permit reference and group limit for each place",
+    "Booking record with the client details and times",
+    "Walk record for each walk, with incidents and the condition on return",
+    "Record of any later change to a walk record, with the date and author"
+  ],
+  "summary": [
+    "Check each place on the route, the permit and the group limit",
+    "Build bookings from the real steps, with a delay margin",
+    "Complete the walk record every time, including the condition of each dog on return",
+    "Permits and registrations are obtained from councils; this lesson grants neither"
+  ],
+  "referencesAtEnd": "Official sources to check: City of Port Phillip, Do I need a dog walking permit? (Dog walkers) (no date shown); City of Yarra, Commercial dog walkers (no date shown); City of Ryde, Application for dog minding (open space) form (July 2026, form footer); ACCC, Small business toolkit: consumer rights and guarantees (no date shown). Council limits apply in the named council only.",
+  "businessFields": [
+    "{{business:jobs.scheduling_method}}",
+    "{{business:jobs.time_tracking}}",
+    "{{business:jobs.photo_requirements}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:customers.access_instructions}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-DOG-06-K01",
+      "question": "A group of five dogs is planned to include a Yarra park, where the permit allows a maximum of four animals at one time. What should the walker do?",
+      "options": [
+        "Walk all five dogs, since the total is small and the route is short for the day",
+        "Walk the five dogs and tell the council afterwards, once the walk has finished",
+        "Reduce the group to four for the Yarra section, or split the walk, and record the plan"
+      ]
+    },
+    {
+      "id": "NEW-DOG-06-K02",
+      "question": "A walk record is missing the return time and a dog's condition on return. What is the correct action?",
+      "options": [
+        "Record the return time and the observed condition now, and inform the client; do not change the record later without a dated note",
+        "Leave it, since the walk is over and the record can be finished later when the dog is home and the client has called",
+        "Invent a time that matches the booking, so the record looks complete when the client reads it on the day and nothing is missing"
+      ]
+    },
+    {
+      "id": "NEW-DOG-06-K03",
+      "question": "What does the lesson say each booking must record?",
+      "options": [
+        "Only the date the payment was received",
+        "The client's name, the dog or dogs, the pickup and drop-off times, the access instructions and the cancellation rule",
+        "The walker's home address",
+        "Nothing, unless the client complains"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "City of Port Phillip, Dog walkers, https://www.portphillip.vic.gov.au/council-services/pets-and-animals/dog-walkers/, checked 2026-11-02 (DOG-VIC-02, COUNCIL-SPECIFIC; records and permit-carry conditions)",
+    "City of Yarra, Commercial dog walkers, https://www.yarracity.vic.gov.au/residents/pets-and-animals/commercial-dog-walkers, checked 2026-11-02 (DOG-VIC-03, COUNCIL-SPECIFIC)",
+    "City of Ryde, Application for dog minding (open space), https://www.ryde.nsw.gov.au/files/assets/public/forms-and-documents/2021-07-open-space-dog-minding.pdf, checked 2026-11-02 (DOG-NSW-01, COUNCIL-SPECIFIC)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (consumer-law rules UNCONFIRMED)",
+    "Shared lesson references: F01-L04 (job handover and escalation), F01-L01 (professional boundaries), F01-L02 (privacy, security and customer property), within curriculum/lessons/ready"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Do I need a dog walking permit? (Dog walkers)",
+      "url": "https://www.portphillip.vic.gov.au/council-services/pets-and-animals/dog-walkers/",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the record-keeping and permit-availability conditions for Port Phillip only. Publisher: City of Port Phillip."
+    },
+    {
+      "id": "R2",
+      "title": "Commercial dog walkers",
+      "url": "https://www.yarracity.vic.gov.au/residents/pets-and-animals/commercial-dog-walkers",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the four-animal limit for Yarra only. Publisher: City of Yarra."
+    },
+    {
+      "id": "R3",
+      "title": "Application for dog minding (open space) form",
+      "url": "https://www.ryde.nsw.gov.au/files/assets/public/v/5/forms-and-documents/2026-07-open-space-dog-minding.pdf",
+      "pageDate": "July 2026 (form footer)",
+      "checked": "2026-11-03",
+      "covers": "Check the one-minder limit and four-dog limit for Ryde only. Publisher: City of Ryde."
+    },
+    {
+      "id": "R4",
+      "title": "Small business toolkit: consumer rights and guarantees",
+      "url": "https://www.accc.gov.au/business/selling-products-and-services/small-business-toolkit/consumer-rights-and-guarantees/introduction",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read the services guarantee; the page does not set cancellation or package rules. Publisher: ACCC."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-11.jpg",
+      "alt": "Dog walking illustration",
+      "kind": "photo",
+      "origin": "dogwalk"
+    },
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-12.jpg",
+      "alt": "Dog walking illustration",
+      "kind": "photo",
+      "origin": "dogwalk"
+    }
+  ]
+}

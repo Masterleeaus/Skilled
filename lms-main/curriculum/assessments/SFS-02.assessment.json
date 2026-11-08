@@ -1,0 +1,35 @@
+{
+  "lessonId": "SFS-02",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-02-K01",
+      "correctIndex": 0,
+      "rationale": "A relocation role covers a temporary move with dates. A primary role is the usual home base, and a secondary role is for occasional cover."
+    },
+    {
+      "id": "SFS-02-K02",
+      "correctIndex": 1,
+      "rationale": "The guidance links area size to scheduling and dispatch, and a very large area makes both harder to manage."
+    },
+    {
+      "id": "SFS-02-K03",
+      "correctIndex": 0,
+      "rationale": "Travel calculations start from the home base. Without a map point the scheduler cannot know where the worker starts and finishes."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (service areas, sizing guidance and membership roles) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

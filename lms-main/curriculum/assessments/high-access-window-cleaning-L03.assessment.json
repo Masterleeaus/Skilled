@@ -1,0 +1,40 @@
+{
+  "lessonId": "high-access-window-cleaning-L03",
+  "knowledgeAnswers": [
+    {
+      "id": "high-access-window-cleaning-L03-K01",
+      "correctIndex": 1,
+      "rationale": "The scope section requires the work order, site controller details and method approval, with visible signs separated from engineered confirmation and open unknowns recorded. The decision section says not to infer structural soundness from a photograph."
+    },
+    {
+      "id": "high-access-window-cleaning-L03-K02",
+      "correctIndex": 1,
+      "rationale": "The area beneath cracked glazing is isolated, people are kept out, and the site controller is told. Removing the glass or continuing nearby work is wrong, and mentioning the crack only in a final report is too late."
+    },
+    {
+      "id": "high-access-window-cleaning-L03-K03",
+      "correctIndex": 2,
+      "rationale": "Personal protective equipment is the lowest level of the hierarchy. Elimination, isolation and engineering controls rank above it."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies, on a mock work order, which parts of the scope are above ground level and marks them as excluded.",
+    "Separates observations, inferences and approvals on a mock facade record, with no inference of structural soundness.",
+    "Identifies the stop-work trigger in the documented lesson case and applies it on paper.",
+    "Names the building specialist as the referral and records who was notified and when.",
+    "Writes a restricted handover that lists completed scope, excluded elevations and open decisions, with no unsupported safety or compliance claim."
+  ],
+  "passRule": "All criteria demonstrated on paper, with zero critical failures. A critical failure is any recommendation of unapproved work at height, any inference of structural soundness, or any safety or compliance claim without authority. A knowledge check result alone is not a pass.",
+  "evidenceRequired": [
+    "Mock facade record with observations, inferences and approvals kept separate",
+    "Notification record with the person told, the method and the time",
+    "Restricted handover with excluded elevations and referrals",
+    "Stop-work note for the lesson case"
+  ],
+  "stopWorkCriteria": [
+    "Recommends unapproved access or work at height",
+    "Assumes site permission, equipment clearance or competence without checking it",
+    "Omits protection of bystanders or the necessary specialist escalation",
+    "Claims safety, compliance or certification without authority"
+  ]
+}

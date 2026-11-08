@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';
+import path from 'node:path';
+const script=path.join(import.meta.dirname,'audit-curriculum.mjs');
+const run=spawnSync(process.execPath,[script,'--json'],{encoding:'utf8'});
+assert.equal(run.status,0,run.stderr+' '+run.stdout.slice(0,400));
+const report=JSON.parse(run.stdout);
+assert.equal(report.lessonCount,1016);
+assert.equal(report.parsedCount,1016);
+assert.ok(report.issueCount > 0);
+assert.ok(report.issues.some(x=>x.code==='MISSING_COURSE'));
+assert.equal(Object.keys(report.statuses).length,1);
+assert.equal(report.statuses['DRAFT'],1016);
+assert.equal(new Set(report.lessons.map(x=>x.id)).size,1016);
+assert.ok(report.lessons.every(x=>/^[a-f0-9]{64}$/.test(x.sha256)));
+console.log('PASS: 8 curriculum integrity assertions (existing content gaps detected)');

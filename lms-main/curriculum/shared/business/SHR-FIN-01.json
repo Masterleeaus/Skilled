@@ -1,0 +1,233 @@
+{
+  "id": "SHR-FIN-01",
+  "title": "Chart of accounts for a service business",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Business operations and finance",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Owners of small service businesses in Australia who keep their own books, or who brief a bookkeeper or tax agent, and who need a clear account list for the business.",
+  "referencesAtStart": "Official sources used: ATO, Record keeping tips (last updated 25 October 2022); ATO, Key superannuation rates and thresholds: super guarantee (last updated 17 April 2026, page metadata); ATO, Goods and services tax (GST) (last updated 1 April 2020); ATO, Registering for GST (last updated 14 September 2026); ATO, PAYG withholding (no visible date; page metadata shows modified 17 June 2024). Other tax points in this lesson have not yet been confirmed.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Set up a numbered chart of accounts for a service business, grouped by asset, liability, equity, income, cost of sales and expense.",
+    "Post a client deposit, a completed job and a staff payroll amount to the correct accounts.",
+    "Identify which tax points in the chart must be confirmed by a registered tax agent before use."
+  ],
+  "instruction": [
+    {
+      "heading": "What a chart of accounts does",
+      "body": "A chart of accounts is the numbered list of every account your business uses to record money. Each transaction, such as a card payment from a client, a receipt for cleaning products or a payment to a staff member, is posted to one account, so that the totals at month end mean something. For a small service business the list can be short, but it has to answer a few questions: how much cash you hold, what clients owe you, what you owe, what you earned, what each job cost in materials, and what the business spent on running costs. The numbers used in this lesson are an illustrative layout, grouped into assets, liabilities, equity, income, cost of sales and expenses. They are not an official standard, and your bookkeeper or accounting software may use a different scheme. What matters is that every account has a number, a plain description and one clear use, so that two people posting the same transaction choose the same account."
+    },
+    {
+      "heading": "The accounts a service business needs",
+      "body": "Start with assets. Cash at bank holds the balance of the business transaction account, and a small cash float is kept separately only for minor purchases. Trade debtors hold invoices that have been issued but not yet paid, for example a commercial client who pays on account. Consumables stock holds cleaning products, materials and supplies bought for future jobs, and the cost moves into cost of sales when the product is used on a job. Equipment such as a tool, a machine or a pressure washer, and any vehicle you own, sit in non-current assets, with accumulated depreciation recorded in a contra account. Liabilities include trade creditors, client deposits received in advance, GST collected, PAYG withholding payable for amounts held back from staff pay, and superannuation payable for staff. A client deposit for a booking is owed as work, so it is a liability and not income until the job is done. Equity holds the owner's capital and drawings. Income separates service sales from product sales and any call-out fees, so you can see which service earns money. Expenses group advertising, insurance, vehicle running costs, phone and internet, storage, wages, workers compensation premiums, licences and registrations, bank fees and depreciation."
+    },
+    {
+      "heading": "Australian terms and what still needs checking",
+      "body": "Use your ABN on invoices and in the accounts set-up. Keep GST and PAYG as separate ledger accounts. The ATO's record-keeping guidance says to set GST aside in a separate ledger account where GST credits are claimed, and it points to PAYG payment summaries for amounts withheld from payments. The ATO's GST guidance sets the rate at 10 per cent and applies it to most sales of goods and services in Australia. The ATO's registration page puts the GST turnover threshold at $75,000, so whether your business must register depends on its own turnover. The ATO's PAYG withholding guidance explains that a business may need to hold back an amount from some payments, pass it to the ATO on due dates set by its withholding status, and issue the right payment summary. The ATO superannuation page gives the general super guarantee rate as 12.00 per cent from 1 July 2025, so set up a superannuation payable account to hold the amount owed until it is paid to the fund. That page was last updated on 17 April 2026, so recheck the rate for the period you are recording. Ask a registered tax agent to confirm each of these before you rely on the chart."
+    }
+  ],
+  "procedure": [
+    "List every kind of money movement you expect in a typical month, including card receipts, deposits, supplies, vehicle costs, wages and tax payments.",
+    "Group the accounts into the six categories: assets, liabilities, equity, income, cost of sales and expenses.",
+    "Give each account a number, a short title and a one-line description of what belongs in it.",
+    "Set up the GST, PAYG withholding and superannuation payable accounts before the first invoice or payroll run.",
+    "Map each bank feed line or receipt to one account, and note any item you cannot place so it can be reviewed.",
+    "Review the chart at least once a quarter, and whenever you add a service, a vehicle, a staff member or a new supplier type."
+  ],
+  "workedExamples": [
+    {
+      "situation": "In an example, a regular client pays a $150 deposit on Monday for a service booked for the following Thursday. The job is completed on Thursday and the balance is invoiced. The $150 figure is invented for this example and is not a market price.",
+      "decisionPrompt": "Which accounts take the deposit on Monday, and which accounts take the income on Thursday?",
+      "reasoning": "On Monday, debit cash at bank and credit client deposits received in advance. This is a liability, because the work has not yet been done. On Thursday, when the job is completed, move the deposit out of the liability and into the service income account for the job amount. The balance is then recorded as trade debtors or as cash, depending on how the client pays."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Accounting software or a spreadsheet with a locked account list.",
+    "Bank statements, card settlement reports and the invoice book.",
+    "No personal protective equipment is needed for this desk-based lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Recording a client deposit as income on the day it is received.",
+      "prevention": "Post deposits to a liability account and move them to income when the job is completed."
+    },
+    {
+      "error": "Paying personal bills from the business account, so that drawings and expenses are mixed.",
+      "prevention": "Post owner withdrawals to the drawings account, and keep personal spending on a separate account."
+    },
+    {
+      "error": "Putting GST inside the income account without a separate GST account.",
+      "prevention": "Keep GST collected and GST paid in separate ledger accounts, as the ATO expects where credits are claimed."
+    },
+    {
+      "error": "Writing a full equipment price into expenses and treating the asset as used up in that year.",
+      "prevention": "Record equipment as a non-current asset and depreciate it, unless a tax agent confirms a different treatment for that year."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson gives general information about the chart of accounts and is not tax advice. Confirm the GST, depreciation, PAYG and superannuation treatment with a registered tax agent before you rely on the chart. ATO sources: record-keeping tips, last updated 25 October 2022; GST page, last updated 1 April 2020; GST registration page, last updated 14 September 2026; PAYG withholding page, no visible date; superannuation page, last updated 17 April 2026.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every account has a number, a title, a category and a one-line description.",
+    "A GST account, a PAYG withholding account and a superannuation payable account exist before the first invoice or payroll run.",
+    "A client deposit posts to a liability account and does not appear in income until the job is completed.",
+    "The chart is dated, has an owner and a version number, and every tax treatment still to be checked is listed."
+  ],
+  "documentationEvidence": [
+    "Chart of accounts file with version date and owner.",
+    "Written list of tax points still to be checked, with the name of the agent who confirmed each one and the date."
+  ],
+  "summary": [
+    "A chart of accounts is a numbered list of accounts, grouped by type, with a plain description for each account.",
+    "Deposits, GST and PAYG are the accounts most often set up wrongly, so set them up first.",
+    "Leave tax treatments out until a registered tax agent confirms them."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "SHR-FIN-01-K01",
+      "question": "A client pays a deposit before a job is booked. Where should the money be recorded first?",
+      "options": [
+        "As service income on the day it is received in the bank",
+        "As a liability for client deposits received in advance",
+        "As an owner's drawing from the account this week"
+      ]
+    },
+    {
+      "id": "SHR-FIN-01-K02",
+      "question": "Why keep GST collected in its own ledger account?",
+      "options": [
+        "It is the same as income, so no separate record is needed for the books, the bank, the accountant and the ATO",
+        "The ATO expects a separate GST ledger where GST credits are claimed, and it keeps the amount owed separate from sales",
+        "It is optional for every business, so it can be left in income and the sales total for the year"
+      ]
+    },
+    {
+      "id": "SHR-FIN-01-K03",
+      "question": "A staff member's pay has tax withheld from it. Which account holds that withheld amount until it is paid to the ATO?",
+      "options": [
+        "Wages expense, because it is part of pay",
+        "Owner's capital, because the owner funds the payroll",
+        "PAYG withholding payable, as a liability"
+      ]
+    },
+    {
+      "id": "SHR-FIN-01-K04",
+      "question": "What does the lesson say to use on invoices and in the accounts set-up?",
+      "options": [
+        "A personal email address",
+        "Your home address only",
+        "Nothing, if the business is small",
+        "Your ABN"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Record keeping tips",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/preparing-lodging-and-paying/record-keeping-for-business/detailed-business-record-keeping-requirements/record-keeping-tips",
+      "pageDate": "Last updated 25 October 2022",
+      "checked": "2026-11-03",
+      "covers": "ATO website: Record keeping for business. Check the current page before relying on the retention period or the GST ledger point. Publisher: Australian Taxation Office (ATO)."
+    },
+    {
+      "id": "R2",
+      "title": "Key superannuation rates and thresholds: super guarantee",
+      "url": "https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/super-guarantee?page=23",
+      "pageDate": "Last updated 17 April 2026 (page metadata)",
+      "checked": "2026-11-03",
+      "covers": "ATO website: Key superannuation rates and thresholds. The rate may change; check the rate for the period being recorded. Publisher: Australian Taxation Office (ATO)."
+    },
+    {
+      "id": "R3",
+      "title": "Goods and services tax (GST)",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/preparing-lodging-and-paying/business-activity-statements-bas/goods-and-services-tax-gst",
+      "pageDate": "Last updated 1 April 2020",
+      "checked": "2026-11-03",
+      "covers": "ATO website: Business activity statements, Goods and services tax (GST). Page date is old; check for later rate changes. Publisher: Australian Taxation Office (ATO)."
+    },
+    {
+      "id": "R4",
+      "title": "Registering for GST",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst",
+      "pageDate": "Last updated 14 September 2026",
+      "checked": "2026-11-03",
+      "covers": "ATO website: GST, Registering for GST. Non-profit threshold is different and is not covered here. Publisher: Australian Taxation Office (ATO)."
+    },
+    {
+      "id": "R5",
+      "title": "PAYG withholding",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/hiring-and-paying-your-workers/payg-withholding",
+      "pageDate": "No visible date; page metadata shows modified 17 June 2024",
+      "checked": "2026-11-03",
+      "covers": "ATO website: Hiring and paying your workers, PAYG withholding. Withholding schedules depend on the business's status. Publisher: Australian Taxation Office (ATO)."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: ATO, Record keeping tips (last updated 25 October 2022); ATO, Key superannuation rates and thresholds: super guarantee (last updated 17 April 2026, page metadata); ATO, Goods and services tax (GST) (last updated 1 April 2020); ATO, Registering for GST (last updated 14 September 2026); ATO, PAYG withholding (no visible date; page metadata shows modified 17 June 2024). Other tax points in this lesson have not yet been confirmed.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Service-business chart of accounts (upload 3919dda5-573933348-CHART-of-ACCOUNTS-Service-Business__1_.txt), account categories and structure only, generalised to Australian terms and renumbered; the Philippine tax items are replaced with GST, PAYG withholding and superannuation; rights: reworded (no copying)",
+    "[R1] https://www.ato.gov.au/businesses-and-organisations/preparing-lodging-and-paying/record-keeping-for-business/detailed-business-record-keeping-requirements/record-keeping-tips (page last updated 25 October 2022; checked 2026-11-03)",
+    "[R2] https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/super-guarantee?page=23 (last updated 17 April 2026; checked 2026-11-03)",
+    "[R3] https://www.ato.gov.au/businesses-and-organisations/preparing-lodging-and-paying/business-activity-statements-bas/goods-and-services-tax-gst (last updated 1 April 2020; checked 2026-11-03)",
+    "[R4] https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst (last updated 14 September 2026; checked 2026-11-03)",
+    "[R5] https://www.ato.gov.au/businesses-and-organisations/hiring-and-paying-your-workers/payg-withholding (no visible date; page metadata modified 17 June 2024; checked 2026-11-03)",
+    "UNCONFIRMED: equipment deduction and depreciation thresholds for the current year; GST timing on client deposits; workers compensation premium rules by state and territory; whether GST registration rules change for a given year.",
+    "Conditions vary by state, territory and business structure. A registered tax agent governs the final treatment, and this lesson does not replace that advice."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

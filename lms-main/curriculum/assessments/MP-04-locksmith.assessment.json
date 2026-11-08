@@ -1,0 +1,34 @@
+{
+  "lessonId": "MP-04-locksmith",
+  "knowledgeAnswers": [
+    {
+      "id": "MP-04-locksmith-K01",
+      "correctIndex": 2,
+      "rationale": "The lesson gives break-even revenue as fixed costs divided by one minus the variable cost percentage, which is the contribution margin. The other formulas do not give break-even."
+    },
+    {
+      "id": "MP-04-locksmith-K02",
+      "correctIndex": 2,
+      "rationale": "With 15 per cent variable cost the contribution margin is 0.85, and $3,800 divided by 0.85 is $4,470.59 AUD. The other options come from multiplying instead of dividing, or from skipping the margin."
+    },
+    {
+      "id": "MP-04-locksmith-K03",
+      "correctIndex": 2,
+      "rationale": "The lesson says to check each source's inputs, recalculate from your own costs, and keep only a reconciled figure. Using the larger figure, averaging, or the vendor price list does not do this."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied cost list for a home-service business, the learner labels each cost fixed or variable, and the assessor checks every label against the list.",
+    "The learner calculates break-even revenue for two supplied sets of inputs, shows the contribution margin for each, and the results match the assessor's key to the cent.",
+    "From a supplied plan extract with conflicting break-even figures, the learner identifies that the figures conflict, lists the inputs needed to reconcile them, and does not use any figure from the extract as a plan value."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off stays separate. A quiz pass is not verified practical competence.",
+  "evidenceRequired": [
+    "Labelled cost list",
+    "Calculation sheet showing each step",
+    "Reconciliation note for the conflicting figures"
+  ],
+  "stopWorkCriteria": [
+    "Stop using any break-even figure whose inputs, period or source are unknown."
+  ]
+}

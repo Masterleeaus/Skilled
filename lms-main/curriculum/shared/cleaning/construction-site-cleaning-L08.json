@@ -1,0 +1,139 @@
+{
+  "id": "construction-site-cleaning-L08",
+  "title": "Materials and surface protection",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Workload and cost",
+  "layer": "group",
+  "lessonType": "C",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners cleaning newly installed or delicate surfaces on construction and post-construction sites.",
+  "prerequisites": [
+    "construction-site-cleaning-L01"
+  ],
+  "learningOutcomes": [
+    "Distinguish cured from uncured coatings, delicate flooring, adhesives and new installations.",
+    "Obtain the finish schedule and manufacturer method before selecting an agent or tool.",
+    "Record defects and stop when no approved method or product specification is available."
+  ],
+  "instruction": [
+    {
+      "heading": "New surfaces need more care",
+      "body": "A newly installed surface may be uncured, porous or covered by a temporary protective film. An uncured coating can be damaged by a product that would be safe on the cured version. Porous stone takes up product and can stain. Protective films can be damaged by some solvents. Before you select an agent, pad or method, check whether the surface is cured, what it is, and whether it has a protective layer."
+    },
+    {
+      "heading": "Use the finish schedule",
+      "body": "Obtain the finish schedule and the manufacturer's cleaning instructions before you clean. The approved method is the one the schedule and the manufacturer give. A test on an inconspicuous approved area can confirm compatibility, but it does not override a missing SDS or an unsafe chemical combination, and it does not replace the approved method."
+    },
+    {
+      "heading": "When there is no specification",
+      "body": "A contractor may ask for adhesive removal on new stone without a product specification. Do not scrape the residue or apply a strong solvent to remove it. Record the residue and its location, and request the stone supplier's approved method through the site. Stone can be etched or stained by a method that seems reasonable, so the specification is the control."
+    },
+    {
+      "heading": "Photographs and protection of information",
+      "body": "Photograph pre-existing defects only with permission. Protect occupants and customer information in any photograph, and do not photograph people or private documents."
+    }
+  ],
+  "procedure": [
+    "Confirm whether the surface is cured, its material, and whether a protective film is in place.",
+    "Obtain the finish schedule and the manufacturer's cleaning method.",
+    "Test only on an inconspicuous approved area, and only where allowed.",
+    "Do not scrape or apply a strong solvent where no approved method is available.",
+    "Record defects and residues, with photographs only where permitted.",
+    "Request the approved method through the site when the specification is missing."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contractor asks for adhesive removal on new stone without a product specification.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not scrape or apply a strong solvent. Record the residue and its location, and request the stone supplier's approved method through the site. Clean only once the approved method is confirmed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Finish schedule and manufacturer instructions available on site.",
+    "Non-scratching pads and cloths approved for the surface.",
+    "Gloves and eye protection as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Cleaning new stone with the same product used on old tiles.",
+      "prevention": "Check the finish schedule and the manufacturer's method first."
+    },
+    {
+      "error": "Scraping adhesive to speed up the job.",
+      "prevention": "Record the residue and obtain the approved method."
+    },
+    {
+      "error": "Testing on a visible surface.",
+      "prevention": "Test only on an inconspicuous approved area."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Follow the product label and safety data sheet for dilution, dwell time and PPE.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Surface schedule completed with substrate, coating, approved method and prohibited tools.",
+    "Defects recorded and approved techniques selected in the simulated task.",
+    "No scraping or strong solvent used without an approved method."
+  ],
+  "documentationEvidence": [
+    "Surface schedule record.",
+    "Defect and residue record, with photographs where permitted."
+  ],
+  "summary": [
+    "New and delicate surfaces need the finish schedule first.",
+    "Do not scrape or use strong solvent without an approved method.",
+    "Test only on approved inconspicuous areas.",
+    "Record defects and request the approved method."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:materials.approved_products}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L08-K01",
+      "question": "A contractor asks you to remove adhesive from new stone with no product specification. What do you do?",
+      "options": [
+        "Scrape it off carefully with a metal blade and some water",
+        "Record the residue and request the stone supplier's approved method",
+        "Apply a strong solvent to be quick and rinse it off after"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L08-K02",
+      "question": "Why must you check whether a surface is cured?",
+      "options": [
+        "Because uncured surfaces are cleaner to start with, so the check is skipped",
+        "Because it changes the price and the cost of the work changes",
+        "Because a product safe on a cured surface can damage an uncured one"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L08-K03",
+      "question": "What does a test on an inconspicuous area do?",
+      "options": [
+        "Confirms compatibility, but does not override a missing SDS or the approved method",
+        "Replaces the finish schedule and the approved method for the whole job",
+        "Approves a product for every surface, once a test has passed, in the whole building"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L08.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

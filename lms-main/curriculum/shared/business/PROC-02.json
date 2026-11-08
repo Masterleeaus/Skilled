@@ -1,0 +1,209 @@
+{
+  "id": "PROC-02",
+  "title": "Cost types and budgeting for purchasing",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Business operations and finance",
+  "moduleNote": "High-risk cleaning is excluded from this module on purpose (owner decision, option B, recorded 2026-11-04 in research/OWNER-DECISIONS.md). The high-risk course does not receive PROC-01 to PROC-04. The construction slug was also removed from this module on 2026-11-04 because it has no course folder and is not in passed.json.",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners, managers and bookkeepers in a service business who set purchasing budgets, check actual spend against them and explain differences to the owner. Staff who raise purchase requests will also benefit.",
+  "referencesAtStart": "Official sources used: Commonwealth Procurement Rules 2025, paragraph 4.4(e) (procurements should be commensurate with the scale and scope of the business requirement; cover and commencement date 17 November 2025; re-read 2026-11-06). The cost-type and budgeting definitions are general management accounting concepts. Tax treatment of purchases has not yet been confirmed here.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify a cost as direct or indirect, and explain the basis used to share out an indirect cost.",
+    "Classify a cost as fixed, variable or mixed, and state the period and activity range the classification relies on.",
+    "Choose a budgeting method for a cost line and give a one-sentence reason.",
+    "Calculate a budget variance, label it favourable or unfavourable, and split it into volume and price effects."
+  ],
+  "instruction": [
+    {
+      "heading": "Direct and indirect costs",
+      "body": "A direct cost can be traced to one cost object, such as a job, a product batch or a client contract, in a way that is practical to record. The chemicals used on one job and the hours a technician records against that job are direct costs. An indirect cost supports several jobs or the whole business and cannot be traced to a single cost object without an allocation. Supervision, insurance, rent and the cost of the office system are typical examples. Indirect costs are shared out using a basis, such as hours worked, floor area or number of jobs. The basis matters, because it changes the cost recorded against each job and therefore the price a client should be quoted. Anyone who reads an all-in price should be able to see which costs were shared out and why. This distinction is about how a cost is traced to what it supports. It is separate from whether the cost moves with volume, which is covered next."
+    },
+    {
+      "heading": "Fixed and variable costs over a period",
+      "body": "A fixed cost stays the same in total across a range of activity over a stated period. A variable cost changes in total as activity changes. Rent for a month is fixed for that month, even when the number of jobs goes up or down. Materials used per job are variable: more jobs mean more materials. Many costs are mixed, with a fixed part and a variable part, and need splitting before they can be budgeted. The label depends on two things: the period being looked at and the range of activity expected. Over a longer period more costs become variable, because a lease can be renegotiated or a supervisor can be hired or let go. A cost can therefore be fixed for a quarter and variable over a year. When you label a cost, state both the period and the range, so the label is not mistaken for a permanent fact."
+    },
+    {
+      "heading": "Budgeting methods and when each fits",
+      "body": "An incremental budget starts from last period's spend and adds an allowance for change. It is quick to prepare, but it carries forward spending that nobody has tested. A zero-based budget requires every line to be justified again from nil at each cycle. It takes more effort, but it exposes spending that exists only because it always existed. An activity-based budget links costs to the activities that drive them, which helps show what a service really consumes. A fixed budget sets one amount for one planned level of activity. A flexible budget restates the allowed amount at the level of activity that actually occurred, which makes the comparison fairer when volumes move. A rolling budget is extended forward by a set period as each period closes, so it always covers the next interval. A common practical approach for a small business is a fixed annual budget, reviewed each quarter, with a flexible view for volume-driven lines such as consumables."
+    },
+    {
+      "heading": "Building a purchasing budget and reading a variance",
+      "body": "A purchasing budget starts with the expected volume of work, because volume drives most consumable and service purchasing. Past purchase prices give a baseline, but they should be adjusted for known supplier price changes and for market information. Supplier quotes and published price indices help check those adjustments. A variance is the actual result minus the budget. For a cost line, an actual below budget is a favourable variance and an actual above budget is an unfavourable one. Do not judge a variance by its sign alone. Split it into a volume effect, which is the change in activity multiplied by the budgeted cost per unit, and a price or usage effect, which is the change in cost per unit multiplied by the actual activity. The two parts show whether spending rose because more work was done or because each unit cost more. Budgets also carry a behavioural risk: managers may spend what is left in a line at the end of a period to protect next year's allowance, so review the reason for every large variance."
+    }
+  ],
+  "procedure": [
+    "List the cost lines for one month and label each as direct or indirect, using the job or product each one supports.",
+    "For each line, state the period and activity range, then label it fixed, variable or mixed. Split any mixed cost into its fixed and variable parts.",
+    "Choose a budgeting method for each line and write the reason in one sentence.",
+    "Set each budget from the expected volume, adjusted for known price changes, and record the source of every assumption.",
+    "At period end, calculate actual minus budget, label it favourable or unfavourable, and split it into a volume effect and a price or usage effect.",
+    "Record the reason for each variance above the threshold your business sets, and agree the action before the next budget cycle."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Invented example figures, not a real business or market price: a mobile detailing business budgets chemical cost at an invented $12 per job. It forecasts 40 jobs for the month, so the budget is $480. The actual month has 46 jobs, and the actual chemical cost is $598, which is an invented $13 per job.",
+      "decisionPrompt": "What is the total variance, and how much of it comes from doing more jobs and how much from a higher cost per job?",
+      "reasoning": "The total variance is $598 minus $480, which is $118, unfavourable. The volume effect is (46 minus 40) multiplied by $12, which is $72 unfavourable. The price or usage effect is ($13 minus $12) multiplied by 46 jobs, which is $46 unfavourable. The two parts add to $118. Most of the overspend came from doing more work, which is a volume matter. The rest came from a higher cost per job, which should be checked with the supplier before the next budget is set."
+    },
+    {
+      "situation": "Invented example, not a real business: one supervisor's pay covers three service teams. In the same week, one technician records six hours against a single client job.",
+      "decisionPrompt": "Which cost is direct and which is indirect, and what changes if the supervisor's pay is shared out by team hours?",
+      "reasoning": "The technician's recorded hours against the single job are a direct cost. The supervisor's pay supports three teams, so it is an indirect cost and must be allocated. Sharing it by team hours or by job count gives a different cost per job. The basis should be written down and used consistently, and it should be reviewed when team sizes change, because the basis sets the price a client is quoted."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A monthly budget sheet with columns for the period, activity range, budget method, assumptions and sources.",
+    "Supplier invoices and the job or activity log for the period.",
+    "No personal protective equipment is needed for this desk-based lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating every fixed cost as a permanent fact.",
+      "prevention": "State the period and activity range, and review each fixed line at every renewal or price change."
+    },
+    {
+      "error": "Calling a cost direct because it is large.",
+      "prevention": "Ask whether the cost can be traced in a practical way to one job or product. Size does not decide it."
+    },
+    {
+      "error": "Reading a variance by its sign alone.",
+      "prevention": "Label each variance favourable or unfavourable, then split it into volume and price effects before deciding what it means."
+    },
+    {
+      "error": "Setting the budget from last year's total without checking expected volume.",
+      "prevention": "Build the budget from the expected volume, then adjust the unit cost for known changes."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers general cost and budget concepts and does not give tax advice. See the chart of accounts lesson “Chart of accounts for a service business”, and confirm the treatment with a registered tax agent.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Wage and superannuation costs in a budget depend on current rules that this lesson does not check.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every cost line carries a direct or indirect label, and any allocation states its basis.",
+    "Every cost line carries a fixed, variable or mixed label, with its period and activity range.",
+    "Every variance is labelled favourable or unfavourable and split into a volume effect and a price or usage effect.",
+    "Each budget assumption has a recorded source and a review date."
+  ],
+  "documentationEvidence": [
+    "Budget sheet showing the period, activity range, budget method, assumptions and sources.",
+    "Variance report giving the reason and the agreed action for each large variance."
+  ],
+  "summary": [
+    "Direct costs trace to one job or product. Indirect costs are shared out using a stated basis.",
+    "Fixed and variable labels depend on the period and the activity range, so state both.",
+    "A variance is actual minus budget. Read it as favourable or unfavourable and split it into volume and price effects."
+  ],
+  "businessFields": [
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PROC-02-K01",
+      "question": "A technician records four hours against one specific client job, and the hours are paid at a set rate. How should that cost be classed?",
+      "options": [
+        "Direct cost, because it traces to one job",
+        "Indirect cost, because it is paid through payroll",
+        "Fixed overhead, because the rate was set in advance"
+      ]
+    },
+    {
+      "id": "PROC-02-K02",
+      "question": "Monthly rent stays the same whether a business completes a few jobs or many in the month. What is the best label for the rent over that month?",
+      "options": [
+        "Variable",
+        "Fixed cost",
+        "Direct cost"
+      ]
+    },
+    {
+      "id": "PROC-02-K03",
+      "question": "Which budgeting method requires every cost line to be justified again from nil at each cycle?",
+      "options": [
+        "Incremental budgeting",
+        "Zero-based budgeting",
+        "Rolling budgeting"
+      ]
+    },
+    {
+      "id": "PROC-02-K04",
+      "question": "A cost line finishes the period below its budget. How should the variance be recorded?",
+      "options": [
+        "As extra budget carried into the next period",
+        "As an unfavourable variance, because money was left over",
+        "As a favourable variance, with the reason checked"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Commonwealth Procurement Rules 2025",
+      "url": "https://www.finance.gov.au/sites/default/files/2025-10/Commonwealth-Procurement-Rules-2025.pdf",
+      "pageDate": "Cover and commencement date: 17 November 2025",
+      "checked": "2026-11-04",
+      "covers": "The Commonwealth Procurement Rules 2025 instrument has a cover and commencement date of 17 November 2025; its foreword says it commences on that date and repeals the Commonwealth Procurement Rules 1 July 2024 version (re-read 2026-11-06). Not confirmed by an official source: that the document contains no mention of a 2020 version was not re-checked. Publisher: Department of Finance."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: Commonwealth Procurement Rules 2025 (cover and commencement date 17 November 2025).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Defining business needs exam-style question set (upload d36859cc-462230744-Defining-business-needs-Exams.txt), topics only: cost types (direct and indirect, fixed and variable) and budgeting types; rights: user-held; reworded (no copying). No question, option or answer from the source is reproduced. The source has no answer key, so every answer and rationale is the drafter's own.",
+    "[R1] Commonwealth Procurement Rules 2025, paragraph 4.4(e): https://www.finance.gov.au/sites/default/files/2025-10/Commonwealth-Procurement-Rules-2025.pdf (cover and commencement 17 November 2025; checked 2026-11-03).",
+    "General management accounting concepts (direct and indirect costs, fixed and variable behaviour, incremental, zero-based, activity-based, fixed, flexible and rolling budgets, variance analysis): no source fetched in this draft. UNCONFIRMED as official or cited definitions.",
+    "Worked examples use invented figures and scenarios, labelled as examples. Tax treatment: see SHR-FIN-01 (UNCONFIRMED points listed there)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

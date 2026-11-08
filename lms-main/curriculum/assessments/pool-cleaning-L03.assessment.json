@@ -1,0 +1,41 @@
+{
+ "lessonId": "pool-cleaning-L03",
+ "knowledgeAnswers": [
+  {
+   "id": "pool-cleaning-L03-K01",
+   "correctIndex": 1,
+   "rationale": "An out-of-date reagent can give an unreliable result. The tester replaces it, retests and records the replacement. Recording the colour as valid is not acceptable."
+  },
+  {
+   "id": "pool-cleaning-L03-K02",
+   "correctIndex": 2,
+   "rationale": "The record must show that no valid test was done in that period, with the reason. Back-filling or estimating creates a false record."
+  },
+  {
+   "id": "pool-cleaning-L03-K03",
+   "correctIndex": 3,
+   "rationale": "Reagents are chemicals. They are stored away from acids and oxidisers, as the SDS directs, and never in food or drink containers."
+  },
+  {
+    "id": "pool-cleaning-L03-K04",
+    "correctIndex": 2,
+    "rationale": "The taking the sample section says to use the sampling location, depth and method in the operator plan."
+  }
+ ],
+ "practicalCriteria": [
+  "Sample record: on a supplied sampling scenario, the learner records the time, location, depth, method, unit and tester for each result. The assessor checks that each field is complete.",
+  "Correction: the learner corrects one supplied error by a single line, initials, date and reason, with the original still legible. The assessor checks that no entry was overwritten or deleted.",
+  "Invalid test: for a supplied expired reagent, the learner records the test as invalid, replaces the reagent and records the retest. The assessor checks that the expired result is not recorded as valid."
+ ],
+ "passRule": "Knowledge checks: at least 2 of 3 correct (a reading result only, not verified practical competence). Practical sign-off is separate and is given by assessor review of the practical criteria.",
+ "evidenceRequired": [
+  "Knowledge check score recorded",
+  "Completed sample record and correction log, saved and dated",
+  "Assessor sign-off on the practical criteria"
+ ],
+ "stopWorkCriteria": [
+  "The learner is asked to back-fill a missed test",
+  "A reagent is past expiry and the learner is asked to record the result as valid",
+  "Reagents are being stored beside acid or oxidiser products"
+ ]
+}

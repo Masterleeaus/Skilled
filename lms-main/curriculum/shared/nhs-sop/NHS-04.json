@@ -1,0 +1,166 @@
+{
+  "id": "NHS-04",
+  "title": "Training a cleaner to observed competence, task by task",
+  "courseSlugs": [
+    "healthcare",
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Growing and managing a team",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Team leads and supervisors who train new and existing cleaners, and who need to show that each person is trained for the specific tasks they are allocated.",
+  "prerequisites": [
+    "C01-L03",
+    "F12-L03"
+  ],
+  "learningOutcomes": [
+    "Describe the stages a cleaner moves through, from induction to observed competence in each task.",
+    "Keep a training record by person, task and date, and identify which tasks a person is not yet authorised to do.",
+    "Explain the difference between attending training and being assessed as competent in a task."
+  ],
+  "instruction": [
+    {
+      "heading": "Training is a sequence, not a single course",
+      "body": "A cleaner moves through several stages. Induction covers the site rules, hazards, equipment and the route for reporting problems. Mandatory training covers workplace safety and infection-prevention content the site requires. Supervised practice on live work puts the new cleaner beside a trained person who watches, corrects and signs off each task. Where the role calls for it, supervisory and leadership development follows. Each stage builds on the one before, and a later stage does not make up for a gap in an earlier one."
+    },
+    {
+      "heading": "Attendance is not the same as competence",
+      "body": "Attending a session shows the person received information. Competence is the demonstrated ability to carry out a task to the standard, and a supervisor records it by observation. The UK source refers to certificated competence through a UK qualification. This lesson therefore uses observation-based competence records, which work in any setting."
+    },
+    {
+      "heading": "Matching each person to the tasks they are authorised for",
+      "body": "Each person's record should list the tasks they are authorised to do. A cleaner who is competent in dusting and damp mopping is not automatically authorised for machine scrubbing, chemical mixing or a specialist job. The supervisor keeps the list current, shows it on the roster or the job sheet, and removes a task from the list when training lapses or the method changes."
+    },
+    {
+      "heading": "Keeping the record current",
+      "body": "Record the date, the trainer, the task, the method used, the outcome and the next review. Refresh the training when a method, product or piece of equipment changes, and after an incident or a repeated defect that suggests a gap. A record that has not been reviewed is a record that cannot show current competence."
+    }
+  ],
+  "procedure": [
+    "Complete induction before a new cleaner works without direct supervision. Cover the site rules, the hazards, the equipment and the reporting route.",
+    "Schedule the mandatory training the site requires, and record attendance by name and date.",
+    "Pair the new cleaner with a trained person for supervised practice on live work. The supervisor watches, corrects and signs off each task as it is observed.",
+    "Assess each task by observation against the procedure's quality standard. Record the result as competent, not yet competent, or needs more practice.",
+    "Set the person's authorised-task list and show it on the roster or job sheet.",
+    "Repeat the training for a task when the method, product or equipment changes, or when a defect or incident suggests a gap.",
+    "Review each record at set intervals, and before any person is put forward for a supervisory role."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A new cleaner has completed induction and a product safety session, but has not yet been observed on a damp mop. The roster now asks them to strip and seal a hard floor.",
+      "decisionPrompt": "Are they authorised for the stripping and sealing?",
+      "reasoning": "No. Induction and a product session are not observed competence in a machine or chemical task. Keep the cleaner on tasks they are signed off for, and schedule supervised practice before any stripping or sealing work is allocated."
+    },
+    {
+      "situation": "A supervisor's record shows a cleaner was trained in dusting two years ago, but the site has since moved to a different product and a microfibre system.",
+      "decisionPrompt": "Is the earlier training still valid?",
+      "reasoning": "Not for the changed method. A change in product or equipment is a trigger for retraining. Observe the cleaner using the new method, record the result, and update the authorised-task list before the method is used on the roster."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Training record or competence register",
+    "Current procedure for each authorised task",
+    "Observation checklist for each supervised task",
+    "Equipment and products used in training, handled as the product label directs"
+  ],
+  "commonErrors": [
+    {
+      "error": "Recording attendance at a session as competence in a task.",
+      "prevention": "Record competence only after the task has been observed and judged against the task standard."
+    },
+    {
+      "error": "Allocating a cleaner to a task that is not on their authorised list.",
+      "prevention": "Check the list at allocation, and keep it on the roster or job sheet."
+    },
+    {
+      "error": "Never refreshing training after a method or product change.",
+      "prevention": "Make any change in product, equipment or procedure a trigger for retraining, and record it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The UK source names its own training stages and a UK qualification. The qualification is not an Australian one and is not used in this lesson.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson or any training session does not give a licence, a certificate or authority to perform regulated work. Where a task needs a licence or authorisation, that requirement applies separately.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The WHS duty to inform, train and supervise workers is set out in the general duties lesson (shared/team/“WHS duties and consultation”).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every cleaner has a completed induction record before working without direct supervision.",
+    "Each authorised task has an observed competence entry.",
+    "The authorised-task list matches the roster and is reviewed at set intervals.",
+    "Retraining is recorded after each method, product or equipment change."
+  ],
+  "documentationEvidence": [
+    "Induction record",
+    "Mandatory training attendance record",
+    "Observed competence entries, by task",
+    "Authorised-task list",
+    "Retraining log with the trigger noted"
+  ],
+  "summary": [
+    "Training runs from induction through to observed competence in each task.",
+    "Attendance is not competence.",
+    "The authorised-task list controls allocation, and a method change triggers retraining."
+  ],
+  "businessFields": [
+    "{{business:staff.role}}",
+    "{{business:staff.authorised_tasks}}",
+    "{{business:staff.supervisor_contact}}",
+    "{{business:procedures.approved_sop}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NHS-04-K01",
+      "question": "Which record shows that a cleaner can carry out a task safely?",
+      "options": [
+        "A certificate showing attendance at a general session.",
+        "An observed competence entry for that task, made by a supervisor.",
+        "The induction sign-off from the first day and the first week"
+      ]
+    },
+    {
+      "id": "NHS-04-K02",
+      "question": "A cleaner completed induction last month but has not been observed on machine work. What should the supervisor do?",
+      "options": [
+        "Allocate machine work, because induction covered it and the cleaner is keen",
+        "Keep the cleaner off machine work until supervised practice is signed off.",
+        "Let the cleaner learn on the job from the first shift with a colleague nearby"
+      ]
+    },
+    {
+      "id": "NHS-04-K03",
+      "question": "When does an existing cleaner need retraining?",
+      "options": [
+        "Only at induction, and again after each new contract and never after that for the cleaner",
+        "When a product, piece of equipment or procedure changes, or when a defect suggests a gap.",
+        "Only when the cleaner asks for it and only after a formal complaint is made by the client"
+      ]
+    },
+    {
+      "id": "NHS-04-K04",
+      "question": "What does the lesson say a training record must include?",
+      "options": [
+        "Only the cleaner's wage",
+        "Nothing, if the cleaner attended",
+        "The cleaner's home address",
+        "The date, the trainer, the task, the method used, the outcome and the next review"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning of the Environment: Standard Operating Procedure, v1.0 (approved 18/02/2016), section 4.5 Supervisors with responsibility for housekeeping staff and section 6.1 Facilities and Estates commitments (training stages); rights: user-held; reworded (no copying). Read for this lesson on 2026-11-02.",
+    "Cross-checked against shared/induction/C01-L03.json (first-job practical demonstration and sign-off) for the observed-competence point. Checked 2026-11-02.",
+    "Safe Work Australia, duties under WHS laws: cited via shared/team/F12-L03.json (URL https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws, checked 2026-11-02 as recorded in that file). Site-specific training duty UNCONFIRMED.",
+    "UK-only items not applied: the UK NVQ-style certificated competence route and the UK training stage names as a regulatory set. Australian nationally recognised pathways UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

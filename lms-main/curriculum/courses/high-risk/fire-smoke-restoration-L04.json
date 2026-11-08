@@ -1,0 +1,172 @@
+{
+  "id": "fire-smoke-restoration-L04",
+  "title": "Asbestos and legacy hazardous materials",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and salvage after a fire or smoke event. Not a qualification or authority to enter a fire-damaged building, release it, or certify it as safe.",
+  "prerequisites": [
+    "fire-smoke-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Recognise when a building may contain asbestos or legacy hazardous materials, stop work and refer for competent assessment."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how to recognise when fire-affected building materials may contain asbestos, stop work and refer for competent assessment. It does not allow anyone to disturb, remove or clean asbestos-suspect material. Completing it does not give an asbestos licence or any authority to remove asbestos."
+    },
+    {
+      "heading": "Asbestos and legacy hazardous materials",
+      "body": "Before touching any material, determine the age of the building and check any prior records of hazardous materials. Fire-damaged asbestos-containing material may become friable, so ceiling sheeting and insulation of unknown composition must not be disturbed. Qualified investigation and, where the local rules require it, licensed removal may be needed. Requirements differ between states and territories. In training, prepare an asbestos-suspect stop-work notification based on a fictional site record, and identify the competent assessment that is missing."
+    }
+  ],
+  "procedure": [
+    "Stop work. Do not disturb ceiling sheeting, insulation or any product of unknown composition.",
+    "Check the age of the building and any prior records of hazardous materials. Record what is known and what is not.",
+    "Where the condition is uncertain or access is restricted, treat fire-affected asbestos-suspect material as friable, as the guidance for this lesson advises.",
+    "Keep debris contained. Do not sweep or vacuum it.",
+    "Request a competent assessment in writing, and ask who will decide whether the material is friable or non-friable.",
+    "Issue a stop-work notification naming the material, its location, the assessment still needed and the people who must be told."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A burned older building has damaged ceiling sheeting and insulation of unknown composition.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Do not disturb the material. Issue a stop-work notification for suspected asbestos and identify the competent assessment still required. Any removal is carried out by a licensed removalist where the rules require it."
+    },
+    {
+      "situation": "A cleaner wants to pull down the damaged sheeting before the assessor arrives, because it is in the way.",
+      "decisionPrompt": "What must happen?",
+      "reasoning": "Refuse. Pulling down unknown sheeting may disturb asbestos. The material stays as found, the area is kept restricted, and the assessor is asked to attend."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Respiratory protection and protective clothing are set by the approved plan. Western Australian guidance advises a P2 face mask and protective clothing where asbestos may be present, but PPE is not a clearance and does not permit disturbance.",
+    "Asbestos warning signage and barrier tape."
+  ],
+  "commonErrors": [
+    {
+      "error": "Disturbing ceiling sheeting or insulation of unknown composition in an older building.",
+      "prevention": "Stop, do not disturb the material, and refer for competent asbestos assessment."
+    },
+    {
+      "error": "Doing do-it-yourself clean-up because a professional is not yet available.",
+      "prevention": "Leave the asbestos where it is or keep it contained until a professional can help."
+    },
+    {
+      "error": "Assuming fire-damaged asbestos is non-friable.",
+      "prevention": "Fire can change the condition of asbestos. Treat it as friable where uncertain and let the competent person decide."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Asbestos removal is restricted to licensed people, with limited exceptions. WorkSafe Victoria's bushfire guidance says friable asbestos clean-up must be done by a Class A licence holder, and non-friable clean-up can be done by a Class B licence holder. Completing this lesson does not give either licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "NSW guidance says all fire-damaged asbestos removal works must be undertaken by Class A licensed asbestos removalists, and that fire-impacted asbestos is considered friable.",
+      "licenceNotice": false
+    },
+    {
+      "point": "WorkSafe Victoria's bushfire guidance says work must stop immediately if asbestos is found or suspected during clean-up.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Clean-up should only begin once the property has been made safe.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner recognises asbestos-suspect material from the building's age and the fire damage, and stops work.",
+    "The learner does not disturb suspect material and does not propose do-it-yourself clean-up.",
+    "The learner identifies the competent assessment that is still missing."
+  ],
+  "documentationEvidence": [
+    "Asbestos-suspect stop-work notification with the material, location, photographs and the assessment requested.",
+    "Competent assessment record, when received, showing the friable or non-friable decision and the assessor."
+  ],
+  "summary": [
+    "Older buildings and fire-damaged materials may contain asbestos. Stop and refer.",
+    "Do not disturb unknown material or clean it up yourself.",
+    "Clean-up needs a competent assessment and, where required, a licensed removalist."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "fire-smoke-restoration-L04-K01",
+      "question": "A 1970s fire-damaged building has damaged ceiling sheeting and insulation of unknown composition. What is correct?",
+      "options": [
+        "Remove the sheeting quickly before it falls, since the ceiling is a risk to the crew and occupants",
+        "Do not disturb the material. Issue a stop-work notification and identify the competent assessment still required.",
+        "Remove only the insulation, which is probably safe to handle once it is wet and bagged on site today"
+      ]
+    },
+    {
+      "id": "fire-smoke-restoration-L04-K02",
+      "question": "In Victoria, which licence class does WorkSafe guidance give for friable asbestos clean-up?",
+      "options": [
+        "Class A",
+        "Class B",
+        "No licence is needed for friable asbestos"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR05-fire-smoke-restoration.json, instruction section 4 and learning outcome 4; first knowledge check HR05-K04. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: fire-smoke-restoration-lesson-04-instruction-pass65.json; fire-smoke-restoration-lesson-04-research-pass64.json; fire-smoke-restoration-lesson-04-assessment-pass66.json (rights: user-held; reworded, no copying).",
+    "The 1970s building in the worked example is a scenario. It is not a legal date.",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: licence classes and clean-up rules in the Australian Capital Territory, Queensland, South Australia, Tasmania and the Northern Territory. Only Victorian, NSW and Western Australian pages were read.",
+    "UNCONFIRMED: fit-test and medical-fitness requirements for respirators used with asbestos-suspect debris.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Bushfire recovery: asbestos clean-up",
+      "url": "https://www.worksafe.vic.gov.au/bushfire-recovery-asbestos-clean",
+      "pageDate": "Reviewed on 04/05/2023 (4 May 2023); no later date shown",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Friable post-bushfire asbestos clean-up must be done by a Class A (friable) licence holder or an employee directly engaged by one; non-friable clean-up can be done by a Class B (non-friable) licence holder or an employee directly engaged by one. Fire can break down non-friable asbestos into friable material. A documented site risk assessment by a competent person is required before make-safe or clean-up work. If asbestos is inaccessible or its condition is uncertain, treat it as friable. Work must stop immediately if asbestos is found or suspected. Signs and barricades stay in place until an independent person inspects the site and issues a clearance certificate. Waste transport and disposal is directed to the Environment Protection Authority. Victorian guidance only."
+    },
+    {
+      "id": "R2",
+      "title": "Demolition of fire-damaged buildings containing non-friable asbestos-containing material",
+      "url": "https://www.worksafe.vic.gov.au/demolition-buildings-or-structures-fire-damaged-non-friable-asbestos-containing-material",
+      "pageDate": "Reviewed on 08/11/2023 (appears twice on the page)",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. A competent person should decide whether fire-damaged asbestos-containing material is friable or non-friable. Fire can cause non-friable material to become friable when the binding matrix breaks down. If the condition is hard to determine, or likely asbestos is in inaccessible areas, assume all asbestos-containing material is friable. Non-friable material may be removed by a Class B licence holder; fire-damaged friable material must be removed by a Class A licence holder. Victorian guidance only."
+    },
+    {
+      "id": "R3",
+      "title": "Managing asbestos in emergencies and disasters",
+      "url": "https://www.asbestos.nsw.gov.au/safety/managing-asbestos-in-emergencies-and-disasters",
+      "pageDate": "No date shown (footer reads Copyright 2020)",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Asbestos-containing material directly impacted by fire is considered friable. Clean-up should only begin after properties are made safe. All fire-damaged asbestos removal works must be undertaken by Class A licensed asbestos removalists. Where professional help is not available, it is safest to leave asbestos where it is or keep it contained until a professional can help. NSW guidance only; other jurisdictions not covered."
+    },
+    {
+      "id": "R4",
+      "title": "Asbestos safety after an emergency or disaster",
+      "url": "https://www.wa.gov.au/organisation/worksafe/asbestos-safety-after-emergency-or-disaster",
+      "pageDate": "Last updated: 29 May 2026",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Do not enter a property until authorities confirm it is safe. Avoid spreading ash or moving debris by sweeping or vacuuming. Never use high-pressure sprays; dampen ash and debris lightly to limit dust. Wear a P2 face mask and protective clothing such as sturdy boots and gloves, even if unsure whether asbestos is present. Contact a competent person or licensed asbestos assessor before clean-up starts. If asbestos is confirmed, a licensed asbestos removalist carries out the clean-up. Urgent removal: notify WorkSafe and submit the notification within 24 hours. Emergency work still requires a clearance. WA guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "Fire-scene release, structural and utility isolation, asbestos assessment and removal, and some waste handling are restricted to competent and, where the law requires, licensed people, and may be controlled by fire investigators, the police, structural engineers, utilities or the building owner. Insurer and owner permission do not replace a release from the authority that controls the site. Where that authority is not identified, do not proceed."
+  },
+  "stopWorkAndReferral": [
+    "Stop and refer when asbestos or legacy hazardous material may be present.",
+    "A stop-work decision is correct, so record it and restart only once the competent party confirms the scope in writing."
+  ]
+}

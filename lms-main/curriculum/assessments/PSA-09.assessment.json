@@ -1,0 +1,34 @@
+{
+  "lessonId": "PSA-09",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-09-K01",
+      "correctIndex": 0,
+      "rationale": "Section 9.1 and section 2 (superchlorination): free chlorine is raised to at least 10 mg/L while nobody is using the pool."
+    },
+    {
+      "id": "PSA-09-K02",
+      "correctIndex": 1,
+      "rationale": "Section 9.1: the superchlorination dose is applied while nobody is using the pool."
+    },
+    {
+      "id": "PSA-09-K03",
+      "correctIndex": 1,
+      "rationale": "Section 9.1: algae found in chlorinated water signals that free chlorine has slipped below the needed level."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied pool, confirms no bathers and a secured access route before dosing, and records this first.",
+    "Brushes and removes dead algae in a supplied scenario, and records the retest that must pass before reopening."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Algae treatment record for the assessed pool",
+    "Assessor observation of the bather-free check"
+  ],
+  "stopWorkCriteria": [
+    "Bathers present during superchlorination: stop dosing and clear the pool.",
+    "Dead algae still in the water at reopening: do not reopen; escalate.",
+    "Chemical splash to skin or eyes: flush, follow the first-aid procedure and the safety data sheet, and report."
+  ]
+}

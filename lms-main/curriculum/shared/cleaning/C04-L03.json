@@ -1,0 +1,157 @@
+{
+  "id": "C04-L03",
+  "title": "Complete kitchen practical and verification",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Quality, evidence and handover",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 55,
+  "audience": "Cleaners completing the end-to-end kitchen practical, verification and handover.",
+  "prerequisites": [
+    "kitchen-cleaning-L02",
+    "kitchen-cleaning-L05",
+    "kitchen-cleaning-L06",
+    "F07-L03",
+    "F07-L05",
+    "C04-L01"
+  ],
+  "learningOutcomes": [
+    "Explain the hazards, boundaries and quality standards for kitchen competency and handover.",
+    "Complete the kitchen practical and verification using authorised methods.",
+    "Record results and escalate unsafe or out-of-scope conditions."
+  ],
+  "instruction": [
+    {
+      "heading": "Context and safety boundaries",
+      "body": "An occupied home kitchen has dishes, food preparation areas, an appliance exterior and mixed surface finishes. Plan a safe sequence that protects the food, respects the client's property, and separates food-contact cleaning from general cleaning. Follow the site-specific procedures, the current product labels and supervision, and stop if the task becomes unsafe or outside authorisation."
+    },
+    {
+      "heading": "Preparation and method",
+      "body": "Confirm the scope, allergies or site restrictions before you start, and protect the food and personal items. Identify the materials and soils, and clean the general and food-contact areas with dedicated tools. Sanitise only where it is specified and authorised. Check the sinks, taps, benches, handles and floors, and inspect for residue, odour and damage. Hand over any exceptions."
+    },
+    {
+      "heading": "Reasoned workplace decision",
+      "body": "The assessor reveals a contaminated cloth used on a preparation bench. Stop, re-clean with the correct tool and sanitise as the procedure requires, and explain the corrective reporting."
+    },
+    {
+      "heading": "Quality standards and records",
+      "body": "The kitchen should meet the food protection, cross-contamination control, surface compatibility, scope and final inspection requirements. Record the product used where required, the exceptions, the corrective actions and the final supervisor sign-off. Do not describe the kitchen as food-safe beyond the service scope and the inspection performed."
+    }
+  ],
+  "procedure": [
+    "Confirm scope, allergies and site restrictions, then protect food and personal items.",
+    "Identify materials and soils, and assign dedicated tools to food-contact areas.",
+    "Clean general and food-contact areas separately, and sanitise only where authorised.",
+    "Inspect sinks, taps, benches, handles and floors for residue, odour and damage.",
+    "Recover from any contaminated-cloth event, record it, and hand over exceptions."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An occupied home kitchen has dishes, food preparation areas, an appliance exterior and mixed surface finishes.",
+      "decisionPrompt": "What do you do first, which hazard could require stopping, and how do you verify completion?",
+      "reasoning": "First confirm scope and protect the food. Stop if a cross-contamination or unsafe appliance condition appears, or if the product is outside authorisation. Verify completion with the inspection and the checklist, then record and hand over."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Dedicated food-contact and general cleaning tools, colour-coded per site procedure.",
+    "Approved product with label and SDS available.",
+    "Gloves and eye protection as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a general cloth on a food-contact bench.",
+      "prevention": "Use dedicated tools and recover by re-cleaning when a mix-up happens."
+    },
+    {
+      "error": "Claiming the kitchen is food-safe after a surface clean.",
+      "prevention": "Describe the work done and the inspection performed only."
+    },
+    {
+      "error": "Skipping the inspection because the kitchen looks clean.",
+      "prevention": "Complete the inspection route and record it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Scope and food protection confirmed before the practical starts.",
+    "Contaminated-cloth event recovered and recorded.",
+    "Final inspection passed, with defects and exceptions handed over."
+  ],
+  "documentationEvidence": [
+    "Completed pre-start hazard and scope check.",
+    "Assessor observation against the critical steps.",
+    "Inspection, correction and documented handover with supervisor sign-off."
+  ],
+  "summary": [
+    "Protect the food and confirm scope first.",
+    "Keep food-contact cleaning separate from general cleaning.",
+    "Recover from cross-contamination and record it.",
+    "Inspect, hand over and do not overstate the result."
+  ],
+  "businessFields": [
+    "{{business:procedures.task_steps}}",
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:procedures.completion_checklist}}",
+    "{{business:quality.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C04-L03-K01",
+      "question": "A contaminated cloth is found on a food-contact bench during the practical. What is the first action?",
+      "options": [
+        "Wipe the bench with the same cloth and move on quickly",
+        "Stop, re-clean with the correct tool, and report the event",
+        "Continue, because the inspection comes later and the bench is fine"
+      ]
+    },
+    {
+      "id": "C04-L03-K02",
+      "question": "Which kitchen areas must be protected first?",
+      "options": [
+        "The client's car keys",
+        "The rubbish bin outside",
+        "Food and personal items"
+      ]
+    },
+    {
+      "id": "C04-L03-K03",
+      "question": "What may be said about the kitchen at handover?",
+      "options": [
+        "Only the work done and the inspection performed",
+        "That it is food-safe in every respect",
+        "That it has been sanitised throughout"
+      ]
+    },
+    {
+      "id": "C04-L03-K04",
+      "question": "What must be confirmed before starting the kitchen clean?",
+      "options": [
+        "The client's favourite recipe",
+        "The brand of the kettle",
+        "Nothing, if the kitchen looks clean",
+        "The scope, allergies or site restrictions"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/C04-L03.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises. The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

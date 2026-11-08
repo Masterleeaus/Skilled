@@ -1,0 +1,37 @@
+{
+  "lessonId": "kitchen-exhaust-L09",
+  "knowledgeAnswers": [
+    {
+      "id": "kitchen-exhaust-L09-K01",
+      "correctIndex": 1,
+      "rationale": "The discharge is stopped at source, the water is contained, and the site operator is told at once. Draining to a stormwater grate is an unapproved discharge."
+    },
+    {
+      "id": "kitchen-exhaust-L09-K02",
+      "correctIndex": 1,
+      "rationale": "The site operator decides the route, through a lawful waste contractor. The cleaner's judgement or the cheapest price does not set the disposal route."
+    },
+    {
+      "id": "kitchen-exhaust-L09-K03",
+      "correctIndex": 2,
+      "rationale": "Closed, labelled containers away from heat sources and electrical outlets reduce the fire and contamination risk while the waste waits for collection."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies the waste streams from a sample exhaust clean and stores each in a closed, labelled container separated from heat sources.",
+    "Stops a simulated unapproved greasy discharge at source, contains it with absorbent material, and writes the containment note with the time, location and person told, without adding product to any drain.",
+    "Confirms a sample contractor's details against the approved list before a simulated handover, and records the handover with a signature."
+  ],
+  "passRule": "All three criteria met with no unapproved discharge and no product added to a drain, and the records complete. Observed in a supervised exercise using inert or simulated materials only. A pass does not confer any licence or authority to transport or dispose of regulated waste.",
+  "evidenceRequired": [
+    "Waste stream log for the sample clean",
+    "Containment and incident note for the simulated discharge",
+    "Waste collection record with contractor details and signature"
+  ],
+  "stopWorkCriteria": [
+    "Greasy washwater directed to a stormwater grate, an unconnected drain or a neighbouring property",
+    "Greasy waste stored next to a heat source or electrical outlet",
+    "Waste handed to a contractor without checking its details against the approved list",
+    "Pre-treatment device opened, bypassed or blocked by the cleaner without site authority"
+  ]
+}

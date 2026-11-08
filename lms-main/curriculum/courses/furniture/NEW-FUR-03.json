@@ -1,0 +1,206 @@
+{
+  "id": "NEW-FUR-03",
+  "title": "Screen for lead and asbestos: test, stop and refer",
+  "referencesAtStart": "Official references for this lesson: Safe Work Australia, Inorganic lead: WHS duties (no date shown); NSW Government, LeadSmart NSW: renovating and maintenance (published 18 May 2026; modified 20 July 2026); WorkSafe Queensland, Asbestos removal and licensing (no date shown); SafeWork SA, Asbestos licences (no date shown). Only part of the LeadSmart NSW guidance has been confirmed.",
+  "courseSlugs": [
+    "furniture"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Furniture restorers and staff who handle old finishes, paint layers and upholstery backings.",
+  "prerequisites": [
+    "NEW-FUR-02",
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "Explain why old finishes and backings are screened for lead and asbestos before they are disturbed.",
+    "Apply the stop-and-refer rule when a result is positive or unknown.",
+    "Record a screening decision that a reviewer can follow."
+  ],
+  "instruction": [
+    {
+      "heading": "Lead in old paint and finishes",
+      "body": "NSW's house guidance links lead-based paint to homes built before 1970 and says the risk rises when old paint is disturbed (page metadata modified 20 July 2026). Lead can be a hazard without renovation too, but disturbing old paint raises the risk. That same house guidance allows intact paint to be left or painted over, and it mentions furniture only in its cleaning advice. Safe Work Australia's lead page treats sanding, grinding and welding as lead processes when they throw off lead-bearing dust or smoke, and it names abrasive blasting and water-jet treatment of lead-based paint. It does not mention heat stripping or furniture. This course therefore does not rely on that gap. Until a finish is screened or reviewed, do not sand, heat strip, dry scrape or use an open flame on it. Where a test is available through the approved method, use it and record the result. Where the result is positive or unknown, stop and refer to a person trained in lead work practices."
+    },
+    {
+      "heading": "Asbestos in old furniture",
+      "body": "Asbestos can be found in some older backings, adhesives, insulation and fibrous or board-like layers. The rule in this course is simple. If you suspect asbestos, stop. Do not disturb the material further, keep people and pets away from it, record where it is, and refer it. Removal is licensed work, and the rules depend on the state or territory. Queensland requires a Class A licence even for small amounts of friable asbestos, and a Class B licence once non-friable asbestos exceeds ten square metres (no page date shown). South Australia places friable and non-friable removal under Class A with no area cap, and reserves Class B for non-friable material above ten square metres (no page date shown). Ten square metres or less of non-friable material needs no licence in Queensland, though safe work procedures still apply. The restorer does not make the call from memory. The business refers the material to the right licensed person or business."
+    },
+    {
+      "heading": "Records and the stop decision",
+      "body": "A screening record states the item, the method used, the result, the decision, and who was told. A positive or unknown result stops the job. Work resumes only when the decision is written, the basis for it is recorded, and the client has been told about the delay or refusal. A quick look does not count as a screening result. Do not tell a client that an item is lead-free or asbestos-free without a result that supports it."
+    }
+  ],
+  "procedure": [
+    "Stop. Do not sand, strip, scrape, cut or heat the finish or backing.",
+    "Record the age and origin clues, the finish layers and the backing.",
+    "Choose the approved screening route: a test through the business's approved method, or referral for testing.",
+    "Keep people and pets away from the area, and use the business's approved PPE {{business:safety.required_ppe}}.",
+    "Record the result and the decision.",
+    "If the result is positive or unknown, stop the work, refer the material, and tell the client.",
+    "If the result is negative and the basis is recorded, continue with the conservative controls for the method chosen."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A 1950s timber desk has a flaking cream finish. The client wants a sand-back before a weekend open home.",
+      "decisionPrompt": "What do you tell the client, and what do you do with the desk?",
+      "reasoning": "The flaking finish is a screening trigger and the age is a prompt. Sanding cannot go ahead on the planned date. Refer the finish for testing, record the decision, and tell the client plainly. Do not offer to sand a small area to check."
+    },
+    {
+      "situation": "An upholstered armchair is being stripped. Under the black bitumen-backed hessian is a grey fibrous layer that crumbles when touched.",
+      "decisionPrompt": "What is the correct action now?",
+      "reasoning": "Stop. The fibrous layer may be asbestos, and its condition suggests it may be friable. Do not disturb it further. Close off the area, record the location and photographs, and refer it to the right licensed business. Removal is not work this course grants."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Camera for location and condition photographs",
+    "Barrier tape or a sign to keep people away from the area",
+    "Business PPE as set out in the approved list {{business:safety.required_ppe}}",
+    "Screening record form from the business's approved set"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a finish is safe after a quick look.",
+      "prevention": "Screen or refer first, and record the result before work starts."
+    },
+    {
+      "error": "Sanding a small area to see what is underneath.",
+      "prevention": "Stop before any disturbing work. The screening step comes first."
+    },
+    {
+      "error": "Pulling off a suspect backing to check what it is.",
+      "prevention": "Leave suspect material undisturbed, record it, and refer it."
+    },
+    {
+      "error": "Telling a client that an item is asbestos-free without a result.",
+      "prevention": "Tell the client only what the result shows, and say when no result exists."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Stop before sanding, heat stripping, dry scraping or cutting a finish or backing of unknown age or origin.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Asbestos removal above the no-licence limits is licensed work, and the state or territory regulator issues the licence. Queensland requires a Class A licence for small amounts of friable asbestos, and a Class B licence once non-friable asbestos exceeds ten square metres. This lesson does not grant a licence or any authority to remove asbestos.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Assessor licences cover air monitoring and clearance work, not removal. Queensland issues them to individuals for five years, and South Australia describes a similar scope. This lesson does not grant an assessor licence or clearance authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Safe Work Australia's lead page says biological monitoring should be completed one month before a worker starts lead risk work, and that a worker must come off such work when blood lead levels exceed set limits. This course does not teach monitoring.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every item has a recorded screening decision before any disturbing work starts.",
+    "No suspect material is disturbed to confirm what it is.",
+    "Every positive or unknown result has a recorded referral and client notice."
+  ],
+  "documentationEvidence": [
+    "Screening record with item, method, result, decision and date",
+    "Photographs of the finish or backing and its location",
+    "Referral note and client notice for any positive or unknown result"
+  ],
+  "summary": [
+    "Old finishes and backings are screened before they are disturbed.",
+    "Positive or unknown results stop the work and are referred.",
+    "Asbestos removal is licensed work, and this course does not grant a licence."
+  ],
+  "businessFields": [
+    "{{business:compliance.licence_requirements}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FUR-03-K01",
+      "question": "A 1950s painted timber cabinet is to be sanded and its finish is unknown. What is the correct first step?",
+      "options": [
+        "Stop and screen or refer before sanding, and record the decision",
+        "Sand a small area to see what is underneath before deciding",
+        "Heat strip the paint because it is faster for the whole piece"
+      ]
+    },
+    {
+      "id": "NEW-FUR-03-K02",
+      "question": "An old armchair's backing looks fibrous under the fabric. What should the restorer do?",
+      "options": [
+        "Pull the backing off to check it and its fibres",
+        "Stop, leave it undisturbed, record it and refer it",
+        "Remove it with a stronger tool so it comes away faster"
+      ]
+    },
+    {
+      "id": "NEW-FUR-03-K03",
+      "question": "Based on the Queensland regulator's page, which statement is correct?",
+      "options": [
+        "Ten square metres or less of non-friable asbestos never needs any safe work procedure",
+        "Only a Class B licence is needed for any asbestos removal",
+        "Any amount of friable asbestos needs a Class A licence in Queensland"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: the four sources listed at the start. Only part of the LeadSmart NSW guidance has been confirmed.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance (checked 2026-11-02; house guidance only)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/inorganic-lead/whs-duties (checked 2026-11-02; no page date)",
+    "https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/asbestos (checked 2026-11-02; no page date)",
+    "https://safework.sa.gov.au/licence-and-registration/apply-renew/asbestos (checked 2026-11-02; no page date)",
+    "UNCONFIRMED: asbestos thresholds for other states and territories; furniture as lead risk work; furniture lead test method. Research brief: /home/claude/work/team/research-topics/furniture.md, sections 3 and 4."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Inorganic lead: WHS duties",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/inorganic-lead/whs-duties",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Lead process list, lead risk work, biological monitoring and removal duties. Furniture and heat stripping are not named. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "LeadSmart NSW: renovating and maintenance",
+      "url": "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance",
+      "pageDate": "No date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20",
+      "checked": "2026-11-03",
+      "covers": "House lead paint guidance only, not furniture. Read the heat gun, torch and respirator advice on the page before any related statement. Publisher: NSW Government (LeadSmart NSW)."
+    },
+    {
+      "id": "R3",
+      "title": "Asbestos removal and licensing",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/asbestos-removal-and-licensing/asbestos",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Queensland only: Class A and Class B thresholds, and the ten square metre limit for non-friable asbestos with no licence needed at or below it. Publisher: WorkSafe Queensland (Queensland Government)."
+    },
+    {
+      "id": "R4",
+      "title": "Asbestos licences",
+      "url": "https://safework.sa.gov.au/licence-and-registration/apply-renew/asbestos",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "South Australia only: Class A, Class B and assessor licence scope. The page lists licence types and does not state a separate removal-licence rule in one sentence. Publisher: SafeWork SA (South Australian Government)."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-05.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-06.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    }
+  ]
+}

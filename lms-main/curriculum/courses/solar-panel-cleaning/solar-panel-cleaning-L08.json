@@ -1,0 +1,234 @@
+{
+  "id": "solar-panel-cleaning-L08",
+  "title": "Water application and equipment separation",
+  "courseSlugs": [
+    "solar"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Trainees and workers on the solar panel cleaning track, working under supervision, who set up water, products and equipment for a PV clean.",
+  "prerequisites": [
+    "solar-panel-cleaning-L05"
+  ],
+  "learningOutcomes": [
+    "Apply water and spray controls that keep water away from electrical components during a PV clean.",
+    "Separate chemical, clean-water and pressure equipment so that products and tools do not cross-contaminate.",
+    "Select only approved products and equipment, and record them against the manufacturer's instructions."
+  ],
+  "referencesAtStart": "Official sources for this lesson: WorkSafe Victoria, High-pressure water jetting safety alert (published 14 September 2022; reviewed 11 May 2023); Safe Work Australia, Code of Practice: Preparation of safety data sheets for hazardous chemicals (version 2; cover dated February 2016); WorkSafe Victoria, Safety data sheets (reviewed 30 July 2022).",
+  "instruction": [
+    {
+      "heading": "Official sources (start of lesson)",
+      "body": "Official sources for this lesson: WorkSafe Victoria, High-pressure water jetting safety alert (page date: Published 14 September 2022; reviewed 11/05/2023); Safe Work Australia, Code of Practice: Preparation of safety data sheets for hazardous chemicals (version 2) (page date: Cover dated February 2016); WorkSafe Victoria, Safety data sheets (page date: Reviewed on 30/07/2022)."
+    },
+    {
+      "heading": "Keep water away from electrical parts",
+      "body": "The most important water control in a PV clean is to keep water off electrical parts. That means connectors, junction boxes, cable entries, inverters and the electrical side of any mounting. Direct the spray along the module face, not at the joints between modules, and do not aim a jet at a junction box or an inverter to rinse it. Where water reaches an electrical part, stop, and refer the equipment to a licensed electrician before the job continues."
+    },
+    {
+      "heading": "Low-pressure methods and the manufacturer's limits",
+      "body": "Where the manufacturer's instructions allow water cleaning, use the lowest effective method that they specify. Pressure equipment is not approved for panels by default. WorkSafe Victoria's high-pressure jetting alert (published 14 September 2022; reviewed 11 May 2023) says jetting equipment and its attachments should not be altered unless the manufacturer or a competent person approves in writing. Do not select a pressure from memory."
+    },
+    {
+      "heading": "Separate the equipment",
+      "body": "Keep chemical tools, clean-water tools and any pressure equipment separate. Use separate buckets, brushes and cloths for each product, and label them. Do not use a brush that has touched a strong product on a panel, and do not return unused product to a clean-water container. Separation prevents cross-contamination, keeps each product to its approved use, and makes an incident easier to trace."
+    },
+    {
+      "heading": "Water quality and residue",
+      "body": "Water quality and mineral deposits can affect the surface of a panel. Where the instructions require a particular water quality, record the water source used, and do not assume that the water supply is suitable. Do not use water that the manufacturer does not allow."
+    },
+    {
+      "heading": "Approved products and safety data sheets",
+      "body": "Use only products that the manufacturer allows, and keep the label and the safety data sheet on site. Safe Work Australia's SDS code (cover dated February 2016) makes the maker or importer responsible for sending an up-to-date SDS to people who may be exposed. The same code places incompatible materials under section 10, which covers stability and reactivity. WorkSafe Victoria's SDS page (reviewed 30 July 2022) says the employer has to make the sheets reachable by the workforce and by emergency responders. Do not mix products. Do not use a strong acid, a solvent or an unidentified mixture on a panel. Record the product name, its concentration as directed on the label, and the time it was applied."
+    },
+    {
+      "heading": "Limits of this lesson",
+      "body": "This lesson covers water and product application for cleaning only. It does not authorise any work on the electrical system, the inverter, the battery or the wiring. It does not authorise roof access, and it does not set a pressure, concentration or dwell time that the manufacturer has not approved."
+    },
+    {
+      "heading": "Licence and authority boundary",
+      "body": "Licence notice: This lesson does not grant an electrical licence, a solar installation licence or authority to use pressure equipment on a PV array. WorkSafe Victoria's alert says Class B jetting systems (output above 5,600 bar-litres per minute) need operator training and assessment, delivered by registered training organisations, with refresher training on a two-year cycle (alert reviewed 11 May 2023). This course does not provide that training."
+    },
+    {
+      "heading": "Official sources (end of lesson)",
+      "body": "Official sources for this lesson (end): WorkSafe Victoria, High-pressure water jetting safety alert (page date: Published 14 September 2022; reviewed 11/05/2023); Safe Work Australia, Code of Practice: Preparation of safety data sheets for hazardous chemicals (version 2) (page date: Cover dated February 2016); WorkSafe Victoria, Safety data sheets (page date: Reviewed on 30/07/2022)."
+    }
+  ],
+  "procedure": [
+    "Identify the electrical parts of the array, including connectors, junction boxes, cable entries and inverters, and mark them.",
+    "Choose the lowest effective approved water method, using the manufacturer's instructions.",
+    "Set up separate, labelled equipment for each product and for clean water.",
+    "Check that the product is approved and its safety data sheet is on site.",
+    "Direct the spray along the module face, and keep it away from marked electrical parts.",
+    "Stop and refer if water reaches an electrical part, and do not restart near it until a licensed person has confirmed it is safe.",
+    "Record the water source, the products, the equipment and any water contact."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker is about to rinse a row of panels with a hose, and the hose nozzle is set to a hard jet. The inverter and a junction box are on the same wall.",
+      "decisionPrompt": "What must change before the rinse?",
+      "reasoning": "Change the nozzle to the lowest approved setting and direct the spray along the module face, away from the inverter and the junction box. Mark those parts before spraying. The hard jet is not approved unless the manufacturer's instructions allow it, and the instructions must be checked first. Record the change."
+    },
+    {
+      "situation": "A worker uses the same brush for a detergent and then for a clean-water rinse on a panel, and does not label the buckets.",
+      "decisionPrompt": "What must be corrected?",
+      "reasoning": "Separate and label the equipment before the next panel is cleaned. The brush and bucket used for the detergent must not be used for clean water, and the record must show which equipment was used for each product. Check the product is approved and that its safety data sheet is on site."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Labelled buckets, brushes and cloths for each approved product and for clean water",
+    "Low-pressure nozzle or applicator approved by the manufacturer",
+    "Approved product with its safety data sheet kept on site",
+    "Eye protection, gloves and footwear as specified in the job pack"
+  ],
+  "commonErrors": [
+    {
+      "error": "Aiming the spray at a junction box or inverter to rinse it.",
+      "prevention": "Mark electrical parts and keep the spray away from them."
+    },
+    {
+      "error": "Using a jet setting because it is faster.",
+      "prevention": "Use the lowest approved method, and check the manufacturer's instructions."
+    },
+    {
+      "error": "Using one brush for several products.",
+      "prevention": "Separate and label the equipment, and record the product used."
+    },
+    {
+      "error": "Mixing products to strengthen the clean.",
+      "prevention": "Use only the approved product, as its label and safety data sheet direct."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A jetting unit and its fittings should not change without written approval from the manufacturer or a competent person, according to WorkSafe Victoria's jetting alert (published 14 September 2022).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Safe Work Australia's SDS code (cover dated February 2016) places the duty to supply the current SDS on manufacturers and importers.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: This lesson does not grant an electrical licence, solar installation licence or authority to use high-pressure equipment on a PV array. Class B jetting operator training is delivered by registered training organisations, according to the WorkSafe Victoria alert.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Electrical parts are marked, and the spray is kept away from them during the clean.",
+    "The lowest approved water method is used, and the instruction source is recorded.",
+    "Products and equipment are separated and labelled, and each product has its safety data sheet on site.",
+    "Any water contact with an electrical part is stopped, recorded and referred."
+  ],
+  "documentationEvidence": [
+    "Record of the electrical parts marked and the spray direction used",
+    "Water method and the manufacturer instruction used",
+    "Product name, label directions and safety data sheet reference",
+    "Record of any water contact with an electrical part, and the referral"
+  ],
+  "summary": [
+    "Keep water away from connectors, junction boxes, cable entries and inverters.",
+    "Use only the lowest approved method and the manufacturer's permitted equipment.",
+    "Separate and label products and equipment, and keep safety data sheets on site.",
+    "This lesson grants no electrical licence or authority to use high-pressure equipment on a PV array."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.handling_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "solar-panel-cleaning-L08-K01",
+      "question": "Where should spray be kept during a solar clean?",
+      "options": [
+        "Away from connectors, inverters and junction boxes",
+        "Directly onto the inverter to cool it down quickly",
+        "At the junction box to rinse it off quickly",
+        "Onto the cable run to rinse the dirt away quickly"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L08-K02",
+      "question": "Why should chemical tools be separated from clean-water tools?",
+      "options": [
+        "To save time on the job and the travel between sites each day",
+        "To avoid cross-contamination and keep products to their approved use",
+        "Because the colour of the tool matters on the day of the job itself",
+        "No reason at all for the separation of the tools on the van shelf"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L08-K03",
+      "question": "A pressure cleaner attachment is not listed in the manufacturer's instructions. What should the worker do?",
+      "options": [
+        "Use it on low settings to see how it behaves on the panels and the frame today",
+        "Fit it, since it is a common tool that most crews carry in their vans today",
+        "Not fit it without written approval from the manufacturer or a competent person",
+        "Fit it only on sunny days when the light is good and the roof is dry and clear"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L08-K05",
+      "question": "Which product choice is consistent with this draft's boundary?",
+      "options": [
+        "Only an approved product with a safety data sheet, as the manufacturer allows",
+        "Any detergent found in the van, if it looks mild and smells fresh to the worker",
+        "A strong acid for the tough marks on the glass, the frame, the rails and the clips",
+        "A mixture of unknown products from the shelf in the van and the garage at home"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WorkSafe Victoria, High-pressure water jetting safety alert: https://www.worksafe.vic.gov.au/safety-alerts/high-pressure-water-jetting (READ; checked 2026-11-02)",
+    "research/topics/solar.md sections 2, 3, 5 and 7 (draft brief, checked 2026-11-02): water quality and manufacturer guidance UNCONFIRMED",
+    "Safe Work Australia, Safety data sheets: https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets (PRIOR, fetch refused, not re-checked)",
+    "research/trades/LICENCE-MATRIX.csv VIC-20, NSW-09, QLD-12 (all UNCONFIRMED), checked 2026-11-02",
+    "solar-panel-cleaning-lesson-08-research-pass100.json (PRIOR, draft pending expert review)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "High-pressure water jetting safety alert",
+      "url": "https://www.worksafe.vic.gov.au/safety-alerts/high-pressure-water-jetting",
+      "pageDate": "Published 14 September 2022; reviewed 11/05/2023",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria jetting alert; check for later updates. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Code of Practice: Preparation of safety data sheets for hazardous chemicals (version 2)",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1705/mcop-preparation-of-safety-data-sheets-for-hazardous-chemicals-v2.pdf",
+      "pageDate": "Cover dated February 2016",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia SDS code; check for a later edition. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R3",
+      "title": "Safety data sheets",
+      "url": "https://www.worksafe.vic.gov.au/safety-data-sheets",
+      "pageDate": "Reviewed on 30/07/2022",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria safety data sheets page. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Official sources for this lesson (end): WorkSafe Victoria, High-pressure water jetting safety alert (published 14 September 2022; reviewed 11 May 2023); Safe Work Australia, Code of Practice: Preparation of safety data sheets for hazardous chemicals (version 2; cover dated February 2016); WorkSafe Victoria, Safety data sheets (reviewed 30 July 2022).",
+  "images": [
+    {
+      "src": "/academy/library/photos/exterior-cleaning/pressure-photo-39826191-09.jpg",
+      "alt": "Solar panel cleaning illustration",
+      "kind": "photo",
+      "origin": "solar"
+    },
+    {
+      "src": "/academy/library/photos/exterior-cleaning/pressure-photo-39826191-10.jpg",
+      "alt": "Solar panel cleaning illustration",
+      "kind": "photo",
+      "origin": "solar"
+    }
+  ]
+}

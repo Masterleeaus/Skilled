@@ -1,0 +1,141 @@
+{
+  "id": "RAS-07",
+  "title": "Dust, airborne particles and eye irritation",
+  "courseSlugs": [
+    "commercial",
+    "strata",
+    "residential"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Cleaning operatives working in offices, corridors and communal areas where dust settles and is moved by cleaning.",
+  "prerequisites": [
+    "F03-L03",
+    "TJS-18",
+    "ECO-04"
+  ],
+  "learningOutcomes": [
+    "Identify how cleaning can put dust into the air and into the eyes of the crew and occupants.",
+    "Choose a damp or dry-wipe method that does not raise dust for each surface.",
+    "Select and use filtered vacuum equipment where the register requires it.",
+    "Stop work in windy or blustery conditions where dust or debris would be moved."
+  ],
+  "instruction": [
+    {
+      "heading": "How cleaning raises dust",
+      "body": "Dust in an office or a common area is a mix of settled particles, fibres, skin cells, paper and the debris from the building. Cleaning can lift it into the air and into the breathing zone of the crew and occupants, and it can get into the eyes. The register identifies two effects. One is respiratory irritation from airborne dust. The other is foreign matter in the eye, such as grit or fibre. Both can be reduced by the method chosen, so the first control is to choose a method that does not raise the dust in the first place. Working near people, and cleaning in a sequence that moves dust back on to cleaned surfaces, increases the exposure for everyone in the space."
+    },
+    {
+      "heading": "Choosing the method for the surface",
+      "body": "Dry sweeping is not used where a damp or wet method can do the job, because it lifts dust into the air. Dusting uses a damp or dry-wipe method chosen for the surface, and the dust is captured on the cloth rather than dispersed. Work top to bottom, so dust falls onto surfaces that are cleaned later. Where a vacuum is needed, use a vacuum with a HEPA filter if the register requires one for the area, and keep its filters and bags in good condition so that fine dust is not blown back into the room. WARNING: Do not blow dust into the air to clear it, and do not shake a cloth or duster in an occupied room. Eye protection is worn where the register requires it, and it must meet the standard the register names for that task."
+    },
+    {
+      "heading": "Weather, eyes and the cleaning programme",
+      "body": "Outdoor cleaning stops during strong gusts that would carry dust or debris, which applies to entrances, car parks and open walkways. If an eye is affected by dust or grit, the first step is to follow the first aid instruction on the relevant safety data sheet and the site procedure, and to report the event. An eyewash station or kit is provided where the register requires one, and its location is known to the crew. The cleaning programme itself reduces dust. A regular schedule that stops dust and waste from building up in corners, grilles and ledges means less dust is disturbed during each clean. WARNING: If a person has a persistent eye problem after exposure, they seek medical advice and do not continue the task that caused it."
+    }
+  ],
+  "procedure": [
+    "Identify which surfaces and areas will produce dust when cleaned, and plan the method for each.",
+    "Choose damp or dry-wipe methods and avoid dry sweeping where a damp method will do the job.",
+    "Work top to bottom and clean the dust in the order that stops it settling on finished areas.",
+    "Use a filtered vacuum where the register requires one, and check its filters and bag before use.",
+    "Wear the eye protection the register requires for the task.",
+    "Pause outdoor cleaning during strong gusts, and report and treat any eye irritation under the site procedure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A return-air vent in a corridor is heavily dusted, and the crew is about to clean the corridor floor with a dry broom.",
+      "decisionPrompt": "Decide the method for the floor and the vent, and what is done about the dust already in the air.",
+      "reasoning": "A dry broom would lift the dust into the breathing zone, so the floor is cleaned with a damp method or a filtered vacuum if the register requires one. The vent is dusted with a damp cloth from the top down so the dust is captured. The crew waits for settled dust to be removed before others enter the corridor, and eye protection is worn while the vent is cleaned."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Damp and dry-wipe cloths, with separate cloths for each area",
+    "Vacuum with a HEPA filter where the register requires one, with spare filters and bags",
+    "Eye protection meeting the standard named in the register for the task",
+    "Eyewash station or kit where the register requires one, and the first aid instruction for the chemicals in use"
+  ],
+  "commonErrors": [
+    {
+      "error": "Dry sweeping a corridor while other people are working near it.",
+      "prevention": "Use a damp method, or a filtered vacuum where required, and keep occupants away from the area."
+    },
+    {
+      "error": "Shaking a cloth or duster in an occupied room.",
+      "prevention": "Capture dust on the cloth and bag it in the area where it was collected."
+    },
+    {
+      "error": "Working outdoors in strong wind and letting debris blow into walkways.",
+      "prevention": "Pause outdoor cleaning in strong gusts and resume when they pass."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Stop outdoor cleaning when gusts would carry dust or debris into people's path.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check occupational exposure limits for airborne dust and the eye protection standard under Australian law.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Dry sweeping is not used where a damp or wet method is suitable.",
+    "Filtered vacuum equipment is used where the register requires it, with filters in good condition.",
+    "Eye protection and eyewash arrangements match the register for the task and site."
+  ],
+  "documentationEvidence": [
+    "Equipment record for filtered vacuums, including filter checks",
+    "Incident record for any eye irritation, with the first aid given"
+  ],
+  "summary": [
+    "Cleaning can lift dust into the air and into the eyes, so the method is chosen first.",
+    "Use damp or dry-wipe methods, and filtered vacuums where the register requires them.",
+    "Do not shake dusters or blow dust into the air in occupied rooms.",
+    "Pause outdoor cleaning during strong gusts and report any eye irritation."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:equipment.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-07-K01",
+      "question": "Which method is preferred for cleaning a corridor floor when a damp method is suitable?",
+      "options": [
+        "Dry sweeping, since it is quicker.",
+        "A damp or wet method, instead of dry sweeping.",
+        "Blowing the dust off with compressed air."
+      ]
+    },
+    {
+      "id": "RAS-07-K02",
+      "question": "What should the operative do before using a vacuum where the register requires a filtered machine?",
+      "options": [
+        "Remove the filter so the suction is stronger.",
+        "Use it without checking because it was used last week.",
+        "Check that the filter and bag are in good condition."
+      ]
+    },
+    {
+      "id": "RAS-07-K03",
+      "question": "Outdoor cleaning at an entrance is planned on a day with strong gusts. What is the right action?",
+      "options": [
+        "Stop outdoor cleaning until the wind drops, because dust and debris would be carried.",
+        "Continue, since the work is outdoors anyway and the gusts will pass soon",
+        "Continue but wave people away from the area and keep the dust away from the door"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard row 7 (dust, airborne dusts and particulates, foreign matter in the eye); rights: user-held",
+    "UNCONFIRMED: Australian exposure standards for airborne dust and eye protection standards; not checked in this pass.",
+    "Cross-check: existing lessons F03-L03 (exposure controls), TJS-18 (dusting safety) and ECO-04 (dry sweeping) cover the same methods in cleaning terms; this lesson adds the register link.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. European (EN) product standards named in the register kept as reference only; Australian equivalent is the AS/NZS standard for the same product type, number UNCONFIRMED; no European figure is used"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

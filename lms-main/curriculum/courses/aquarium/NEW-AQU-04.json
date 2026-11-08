@@ -1,0 +1,258 @@
+{
+  "id": "NEW-AQU-04",
+  "title": "Heaters, filters, lights and electrical safety",
+  "courseSlugs": [
+    "aquarium"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 50,
+  "audience": "Aquarium maintenance technicians who check or service heaters, filters, pumps, air pumps, lights and controllers",
+  "prerequisites": [
+    "F17-L04",
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "Identify the electrical hazards in aquarium heaters, pumps, filters, lights and controllers, and explain how water raises the risk",
+    "Isolate and check each item before any inspection or cleaning in the water area",
+    "Recognise a damaged heater, cord, plug or outlet, and take it out of service",
+    "Refer any wiring, repair, fixed lighting or controller work to a licensed person, without implying that this lesson grants any licence"
+  ],
+  "referencesAtStart": "Official sources for this lesson: NSW Government, Electrical licences and certificates (last updated 23 June 2026); Electrical Safety Office Queensland, Electricity around water (no date shown); Standards Australia, Wiring Rules (AS/NZS 3000:2018) (copyright 2026 in page footer; no revision date shown).",
+  "instruction": [
+    {
+      "heading": "Water and mains power",
+      "body": "Aquarium heaters, pumps, lights, controllers and filters work in water or beside it, and they are powered from mains outlets. Water on a connection, a damaged cord or an unsuitable outlet can cause an electric shock or a fire. Common causes described in the sources include a heater running out of water, a cracked heater, a cord hanging into the water, and several devices on one double adaptor. Treat every aquarium electrical item as live until it has been unplugged or isolated, and check it before you use it."
+    },
+    {
+      "heading": "Heaters and thermostats",
+      "body": "A heater must be fully submerged, or used only as the manufacturer directs, because a heater that runs out of water can overheat and crack. Check the heater for cracks, discolouration, loose parts and a damaged cord before it is used, and take a damaged heater out of service. Set the heater within the range the livestock plan gives (see the system types lesson). Keep a separate thermometer where it can be read easily, away from the heater, and compare the two readings at each visit. Do not repair a heater by taping or wrapping a damaged part. Replace it with a suitable unit, as the owner's plan and the product instructions direct."
+    },
+    {
+      "heading": "Filters, pumps and air",
+      "body": "Filters and pumps need a clear intake and a working impeller. Check both for blockage before you reconnect the power, and never run a pump dry. A power filter that is opened or refilled must be full of water before it is plugged in. Check the flow at the outlet against the filter's rating on its label. Air pumps, air lines and air stones supply oxygen and circulation. Check the air line for kinks and leaks, and clean air stones as the manufacturer directs. A battery air pump is a useful backup in a power failure, and that choice belongs to the owner."
+    },
+    {
+      "heading": "Lights and timers",
+      "body": "The light period is set by the owner's plan. Leaving the light on for long periods encourages algae, and a timer is commonly used to keep the period steady. The sources do not agree on the exact hours, so use the plan. Unplug a light before you remove it from the tank or clean it. Metal halide lamps run very hot, and a lamp must cool before it is handled, or be handled with gloves as the manufacturer directs. Bulbs are replaced at the manufacturer's interval."
+    },
+    {
+      "heading": "Cords, outlets and layout",
+      "body": "Keep cords out of the water and away from splash zones. Make a drip loop, so that water runs down the cord and drips away rather than into the outlet. Do not use damaged cords, and do not use double adaptors that overload the outlet. Use one suitable power point, or a power board whose rating is checked against the load, and keep the outlet dry and above splash level where practical. Do not plug equipment into an outlet that is wet or looks damaged."
+    },
+    {
+      "heading": "Isolating before work",
+      "body": "Unplug or isolate equipment before you remove it from the water, clean a filter, change media or check a connection. Check that the device is off before you put a hand in the tank. Wet hands, metal tools and water on the floor increase the risk, so dry your hands and keep the area dry. A safety switch, or residual current device, reduces the risk on the circuit, but it does not make live work safe and does not make the work allowed."
+    },
+    {
+      "heading": "Repairs and licensed work",
+      "body": "Repairing or rewiring a mains connection, a controller or a fixed lighting installation is electrical work. In New South Wales, electrical wiring work, repairs included, needs a licence or certificate whatever its cost, except for electrical equipment operating at not more than 50 volts AC or 120 volts ripple-free DC (last updated 23 June 2026). A maintenance worker's role is to isolate, inspect the outside of the equipment, report the fault and refer it. Completing this lesson does not give electrical authority."
+    }
+  ],
+  "procedure": [
+    "Isolate and unplug equipment before any handling in the water area.",
+    "Inspect each heater, pump, filter, air line, light, cord and outlet for damage, water on connections and loose parts.",
+    "Take any damaged item out of service, and label it.",
+    "Check that each heater is fully submerged, or set as the manufacturer directs, before it is switched on.",
+    "Check the cord layout and drip loops, and remove any double adaptor that overloads the outlet.",
+    "Refer any wiring, controller or fixed lighting fault to a licensed person, in writing.",
+    "Record the inspection, the items taken out of service and the referral."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A heater in a small tank is cracked and has been running. The owner asks the technician to tape it so it can keep running until the weekend.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "A cracked heater is a shock and overheating hazard. The technician unplugs it, does not tape it, takes it out of service, labels it, and recommends a suitable replacement under the owner's plan. The cracked heater, the owner's request and the referral are recorded."
+    },
+    {
+      "situation": "A tank's filter cord hangs down the front of the tank, and there is a drip on the outlet.",
+      "decisionPrompt": "What should the technician do?",
+      "reasoning": "The technician isolates the outlet, creates a drip loop so that water runs off the cord, moves the cord away from the splash zone, checks the outlet for damage and dries it. If the outlet itself is damaged, the technician takes it out of use and refers the repair to a licensed person."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Insulated tools and dry cloths",
+    "Drip loop cable ties or clips",
+    "Label or tag for equipment out of service",
+    "Owner's inspection checklist",
+    "PPE as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Running a heater out of water.",
+      "prevention": "Keep the heater submerged as directed, and check the water level first."
+    },
+    {
+      "error": "Taping or wrapping a cracked heater or cord.",
+      "prevention": "Take the item out of service and replace it."
+    },
+    {
+      "error": "Plugging several devices into one double adaptor.",
+      "prevention": "Use suitable outlets, and do not overload them."
+    },
+    {
+      "error": "Working on a connection while it is still plugged in.",
+      "prevention": "Unplug or isolate first, then prove the device is off."
+    },
+    {
+      "error": "Relying on a safety switch to make live work safe.",
+      "prevention": "A safety switch reduces risk only. Isolate the equipment before work, and refer any live work."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Water and mains power together create a shock and fire risk. Isolate before handling, take damaged equipment out of service, and keep cords out of the water.",
+      "licenceNotice": false
+    },
+    {
+      "point": "In New South Wales, electrical wiring work, repairs included, needs a licence or certificate whatever its cost, except for electrical equipment operating at not more than 50 volts AC or 120 volts ripple-free DC (last updated 23 June 2026). This lesson does not grant any licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Queensland Electrical Safety Office page on electricity around water is written for pools. It recommends that electrical equipment be used through a safety switch and that cords and appliances be kept out of the water (no date shown).",
+      "licenceNotice": false
+    },
+    {
+      "point": "AS/NZS 3000, known as the Wiring Rules, is the Standards Australia title for the technical guidance used when installations are designed and checked (copyright 2026 in the page footer; no revision date shown).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Equipment is isolated before any handling in the water area",
+    "Damaged equipment is labelled and taken out of service",
+    "Each heater is confirmed submerged, or set as the manufacturer directs, before power is restored",
+    "Electrical faults are referred to a licensed person in writing"
+  ],
+  "documentationEvidence": [
+    "Equipment inspection record",
+    "Items taken out of service, with label and date",
+    "Electrical referral with the fault description"
+  ],
+  "summary": [
+    "Treat aquarium electrical equipment as live until it has been unplugged or isolated.",
+    "Keep heaters submerged, cords out of the water, and use drip loops.",
+    "Take damaged heaters and cords out of service. Do not tape them.",
+    "Refer wiring, repair and fixed lighting to a licensed person, and remember this lesson grants no licence."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-AQU-04-K01",
+      "question": "An aquarium heater is cracked. What is the correct response?",
+      "options": [
+        "Tape it and keep it running, since the crack is small and the heater still works",
+        "Run it at a lower setting, so the crack does not get worse over time",
+        "Unplug it, take it out of service, and recommend a suitable replacement",
+        "Leave it in the tank with the lid off so that the crack can cool down"
+      ]
+    },
+    {
+      "id": "NEW-AQU-04-K02",
+      "question": "Why keep a cord out of the water and use a drip loop?",
+      "options": [
+        "It stops water running down the cord into the outlet",
+        "It looks neater on the bench and in the tank room",
+        "It makes the pump quieter, which owners notice most",
+        "It changes the water temperature in the tank over time"
+      ]
+    },
+    {
+      "id": "NEW-AQU-04-K03",
+      "question": "Who should repair or rewire a mains connection on an aquarium system?",
+      "options": [
+        "Any technician who has time to look at the wiring this week",
+        "The owner, using a double adaptor to get the power to the heater",
+        "The livestock supplier, who knows the tank and its equipment best",
+        "A licensed person, as electrical work is licensed in many circumstances"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electrical licences and certificates",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Open the page under When you will need a licence. It defines electrical wiring work to include repairing, says cost makes no difference, and does not mention cleaning or maintenance. Publisher: NSW Government."
+    },
+    {
+      "id": "R2",
+      "title": "Electricity around water",
+      "url": "https://www.electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it is written for pools. It recommends using electrical equipment through a safety switch and keeping cords and appliances out of the water. Publisher: Electrical Safety Office, Queensland."
+    },
+    {
+      "id": "R3",
+      "title": "electrical licensing outside NSW and whether a given aquarium task is electrical work",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Check with the state or territory electrical regulator before the work. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was found or fetched for this entry in this pass."
+    },
+    {
+      "id": "R4",
+      "title": "Wiring Rules (AS/NZS 3000:2018)",
+      "url": "https://www.standards.org.au/flagship-projects/wiring-rules",
+      "pageDate": "Copyright 2026 in page footer; no revision date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page to confirm the title and the 2018 edition it names. The full text is sold by Standards Australia and was not read in this pass. Publisher: Standards Australia."
+    },
+    {
+      "id": "R5",
+      "title": "replacement and maintenance intervals, and filter turnover rates",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Use the manufacturer's instructions and the owner's plan. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was found or fetched for this entry in this pass."
+    },
+    {
+      "id": "R6",
+      "title": "tank stand and glass load standards, and the application of AS/NZS 3000 to aquarium equipment",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Check the manufacturer's stand and load guidance, and the Standards Australia text for AS/NZS 3000. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was found or fetched for this entry in this pass."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NSW-07 CONFIRMED row, research/trades/LICENCE-MATRIX-NSW-QLD.csv, checked 2026-11-02. Source: https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical. The matrix notes that the page does not name cleaning or maintenance.",
+    "Electrical Safety Office Queensland, Electricity around water, https://www.electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water, checked 2026-11-02 (as recorded in research/topics/aquarium.md section 5); not re-read in this pass.",
+    "Retailer freshwater handbook (uploaded file 718107ab-729706926), heater-submerged, power-filter priming and lighting points; rights: not held by user; reworded (no copying). Product names are not used.",
+    "Setting up a new aquarium guide (uploaded file 6d9db04b-466577148), electrical layout and lighting timer points; rights: reworded (no copying); printed 22 February 2020, US-origin.",
+    "Aquarium keeping student presentation (uploaded file c5a0d0ad-367752036), filter, light and air pump types; rights: reworded (no copying).",
+    "Reef aquarium maintenance checklist (uploaded file b2159574-37005063), dated 14 August 2009, reef-specific US retailer source; rights: reworded (no copying). Bulb and heater replacement intervals are treated as UNCONFIRMED.",
+    "UNCONFIRMED: electrical licensing for aquarium equipment wiring and repairs in states other than NSW (QLD-06 covers plumbing only); whether a given aquarium task is electrical work in each state; application of AS/NZS 3000; bulb and heater replacement intervals; filter turnover rule of thumb.",
+    "R1: Electrical licences and certificates (NSW Government), https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical; page date: Last updated 23 June 2026; read 2026-11-03; status CONFIRMED.",
+    "R2: Electricity around water (Electrical Safety Office, Queensland), https://www.electricalsafety.qld.gov.au/electrical-safety-home/electricity-around-water; page date: No date shown; read 2026-11-03; status PARTIAL.",
+    "R3: UNCONFIRMED, electrical licensing outside NSW and whether a given aquarium task is electrical work; no official page read in this pass.",
+    "R4: Wiring Rules (AS/NZS 3000:2018) (Standards Australia), https://www.standards.org.au/flagship-projects/wiring-rules; page date: Copyright 2026 in page footer; no revision date shown; read 2026-11-03; status PARTIAL.",
+    "R5: UNCONFIRMED, replacement and maintenance intervals, and filter turnover rates; no official page read in this pass.",
+    "R6: UNCONFIRMED, tank stand and glass load standards, and the application of AS/NZS 3000 to aquarium equipment; no official page read in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-07.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-08.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    }
+  ]
+}

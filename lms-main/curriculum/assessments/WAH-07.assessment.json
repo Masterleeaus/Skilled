@@ -1,0 +1,39 @@
+{
+  "lessonId": "WAH-07",
+  "knowledgeAnswers": [
+    {
+      "id": "WAH-07-K01",
+      "correctIndex": 1,
+      "rationale": "The walk-round is a daily pre-use check covering the machine, the basket, the controls, the ground and the overhead hazards."
+    },
+    {
+      "id": "WAH-07-K02",
+      "correctIndex": 1,
+      "rationale": "Appearance is not confirmation. A line stays live until it is confirmed as isolated by its owner or the network."
+    },
+    {
+      "id": "WAH-07-K03",
+      "correctIndex": 0,
+      "rationale": "A safety-related defect or a failed warning device stops use. Gloves, cleanliness and daylight are not stop conditions."
+    }
+  ],
+  "practicalCriteria": [
+    "Completes the full walk-round of a supplied platform, and records a planted defect",
+    "Checks overhead and ground hazards and records the decision on whether to proceed",
+    "Connects the harness and restraint lanyard to the basket before the basket is raised"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check record (all three checks)",
+    "Completed daily pre-use record",
+    "Operator authority check against the business register",
+    "Assessor observation of the walk-round"
+  ],
+  "stopWorkCriteria": [
+    "A platform with a safety-related defect is tagged out and not used",
+    "Any overhead line not cleared under the business plan stops the operation",
+    "No operator authority recorded means the platform does not operate"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

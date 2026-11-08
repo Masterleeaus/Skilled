@@ -1,0 +1,135 @@
+{
+  "id": "C14-L03",
+  "title": "Product and ventilation selection",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Equipment and materials",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who choose products and ventilation for appliance cleaning in residential and commercial settings.",
+  "prerequisites": [
+    "C14-L01"
+  ],
+  "learningOutcomes": [
+    "Select a product approved for the appliance surface and for the soil.",
+    "Set ventilation appropriately before using a product with fumes.",
+    "Refuse an unapproved product, and escalate for an approved alternative."
+  ],
+  "instruction": [
+    {
+      "heading": "Matching product to surface and soil",
+      "body": "Appliance surfaces include stainless steel, painted metal, glass, enamel, plastic and seals, and each reacts differently to products. Oven cleaners, degreasers and general cleaners are different products, and an oven-specific product is used only on an oven interior that it is approved for. Read the label and the appliance manufacturer's guidance to confirm the product suits the surface and the soil."
+    },
+    {
+      "heading": "Ventilation and fumes",
+      "body": "Some cleaning products give off fumes, particularly oven and heavy-degreasing products. Open windows or switch on extraction where the site allows, and keep the cleaning area ventilated during and after use. Do not use a product in a closed space without ventilation, and keep people who are not involved out of the area. The SDS sets the ventilation requirements for each product."
+    },
+    {
+      "heading": "Refusing an unapproved product",
+      "body": "If a client or colleague asks for a product that is not approved for the appliance, refuse it, explain the surface risk, and ask the supervisor for an approved alternative. Do not test a product on an appliance surface unless the procedure allows it, because a damaged finish is hard to reverse."
+    }
+  ],
+  "procedure": [
+    "Confirm the appliance surface and the soil before choosing a product.",
+    "Use only products approved for the surface, and check the label and the manufacturer's guidance.",
+    "Set ventilation as the SDS requires before using a product with fumes.",
+    "Refuse unapproved products, and request an approved alternative.",
+    "Record the product used and the ventilation in place."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client asks you to use an oven-specific product on a stainless-steel cooktop.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Refuse the oven-specific product on the cooktop, explain that it is not approved for the surface, and request an approved product from the supervisor. Confirm ventilation before using any product with fumes."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved products for each appliance surface, with labels and SDS.",
+    "Gloves and eye protection as set by the SDS.",
+    "Ventilation equipment or open windows as the site allows."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using an oven-specific product on a cooktop or a finish that it is not approved for.",
+      "prevention": "Match the product to the surface and check the label."
+    },
+    {
+      "error": "Cleaning with fumes in a closed room.",
+      "prevention": "Ventilate as the SDS requires before starting."
+    },
+    {
+      "error": "Testing an unapproved product on a visible finish.",
+      "prevention": "Test only where the procedure allows, on an inconspicuous area."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The SDS sets the product requirements.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Product matched to the surface and soil for each appliance in the practical.",
+    "Ventilation confirmed before any product with fumes is used.",
+    "Unapproved product refused, with an approved alternative requested."
+  ],
+  "documentationEvidence": [
+    "Product and ventilation record for the job.",
+    "Refusal and alternative-request record."
+  ],
+  "summary": [
+    "Match the product to the appliance surface and the soil.",
+    "Ventilate as the SDS requires.",
+    "Refuse unapproved products and request an alternative."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C14-L03-K01",
+      "question": "Can an oven-specific product be used on a stainless-steel cooktop?",
+      "options": [
+        "Yes, it is stronger and cuts grease faster",
+        "Yes, if the cooktop is cold and dry",
+        "Only if it is approved for that surface"
+      ]
+    },
+    {
+      "id": "C14-L03-K02",
+      "question": "Why must ventilation be set before a product with fumes is used?",
+      "options": [
+        "To control exposure to fumes, as the SDS requires",
+        "It makes the product dry faster on the surface",
+        "It is not necessary if the room has a window"
+      ]
+    },
+    {
+      "id": "C14-L03-K03",
+      "question": "A colleague asks you to test an unapproved product on a visible finish. What do you do?",
+      "options": [
+        "Test it on a small corner first, then report the result afterwards",
+        "Refuse, and ask the supervisor for an approved alternative",
+        "Test it only on the back of the appliance"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and manufacturer review.",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

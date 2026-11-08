@@ -1,0 +1,175 @@
+{
+  "id": "BP-05-pt",
+  "title": "Pricing by hours per project for Personal and fitness training",
+  "courseSlugs": [
+    "pt"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Personal trainers who price multi-session programmes, workplace group sessions or on-site visits, and need a price that covers cost and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from your own training figures",
+    "Estimate project hours, including travel, set-up, assessment and session notes",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "A 12-week programme, a workplace group session or a run of home visits uses time that a session fee does not show: travel, set-up, assessments, progress notes and checks. Working from hours makes that time visible. It also shows what a change in scope does to cost and margin, such as adding a second re-check or a second site. A flat price with no hours behind it hides both risk and waste, and it is hard to defend when a client asks why a programme costs what it does."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the year's total cost of running the business and divide it by the productive hours, meaning the hours with a client in front of you, not the paid hours on a roster. Include insurance, equipment, booking software, studio or room hire, vehicle running costs, marketing, accounting and, if you employ trainers, wages with on-costs. AUSactive says rebate-eligible trainers need public liability and professional indemnity cover (AUSactive, modified 23 June 2026), so those premiums belong in the total. business.gov.au says on-costs such as leave and superannuation belong in the hourly cost (1 October 2026). Xero says to divide by billable hours, not total hours (3 September 2026). As an illustration, a trainer paid for 40 hours who sees clients for 25 of them has a cost per productive hour well above the hourly wage."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each job into its parts: travel to the client, set-up, the session itself, the progress check, session notes and admin. Estimate each part at a standard speed and use a range where the job is uncertain. Add a set allowance for delays outside your control, such as a late room booking, a late client or wet weather for an outdoor session. Xero suggests adding 10 to 20 per cent to job estimates for unexpected work (Xero Australia, 3 September 2026). That range comes from a general business guide, not a fitness benchmark. After each programme, record the actual hours and the reason for any difference. A Carters article from New Zealand describes the same method: use the gap between quoted and actual labour to correct the next quote (Carters Trade Leader, 1 October 2025). Use it for the method only."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the trainer's hours by the cost per productive hour to get the cost of the job. Then add a margin that reflects your target and the risk, such as a client who needs a longer intake, an unfamiliar site or a tight start date. Apply your equipment policy and your minimum charge. The result has a visible basis. If a client wants a lower price, show which hours or which part of the scope they are asking you to remove. That keeps the conversation on the work, not on the person. Say whether the price is for each session, each client or the whole group, because a group booking is not priced per person by default."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote states the scope (number of sessions, session lengths and locations), the hours or price basis, the exclusions, what the client must provide and how long the quote is valid. Exclusions might include medical advice or treatment, or a nutrition plan you do not offer. Do not show the internal cost per hour unless your policy says to. Re-quote whenever the scope changes, such as adding a session or a second site. Quotes issued without exclusions can lead to disputes. The ACCC says misleading price statements are prohibited (ACCC, Setting prices: what's allowed, last modified 15 July 2026)."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten programmes of each type. If the variance is consistently above your agreed threshold, change the standard time, the margin or the scope rules. Xero recommends reviewing prices at least once a year (Xero Australia, 3 September 2026). A method is finished only when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the productive hours delivered in the same period.",
+    "Divide total costs by productive hours to get the cost per productive hour.",
+    "Break the job into tasks and estimate each task time as a range.",
+    "Add set-up, travel, assessment and session notes as named lines.",
+    "Multiply total trainer hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the equipment policy and the minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, client inputs and validity.",
+    "Record actual hours after each programme and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. A trainer runs a 12-week workplace programme for a team of eight. Each group session takes 60 minutes, plus 30 minutes of travel and 15 minutes of set-up and checking, so 1.75 hours per session. The trainer's cost per productive hour is $70 AUD (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What does one session cost, what is the price with a 25 per cent margin on price, and what changes if the room is not ready and the trainer waits one extra hour?",
+      "reasoning": "The cost is 1.75 hours multiplied by $70 AUD, which is $122.50 AUD. A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $163.33 AUD a session. If the room delay adds one hour, the cost becomes $192.50 AUD and the price becomes $256.67 AUD, but only if the quote's access terms allow the delay to be charged. For comparison, City of Sydney Leisure lists a single 60-minute session at $112.60 as a public price for one client at a council facility. That comparison is only a reference: the quote must say whether $163.33 AUD is the price for the whole group, and the trainer checks the access terms before adding the delay to the bill."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each session, with estimated and actual columns",
+    "Travel log with start and finish times",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly rate alone",
+      "prevention": "Include on-costs, vehicle, equipment, software, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use session hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel, set-up and session notes",
+      "prevention": "Add these as named lines on every estimate."
+    },
+    {
+      "error": "Quoting a group booking with no price basis",
+      "prevention": "State whether the price is per session, per client or for the whole group, and whether it covers the whole programme."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each programme and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The Australian Consumer Law applies to pricing statements, and the ACCC says misleading price statements are prohibited. State or territory fair trading rules also apply and differ, so check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "If you employ trainers, pay rates, allowances and on-costs may be set by an award or enterprise agreement. Check which one applies to each worker before using any cost figure. This lesson does not state those rates.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Insurance: AUSactive says rebate-eligible trainers need public liability and professional indemnity cover. Premiums are not sourced in this lesson, so take them from your own quotes.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the trainer's own records and dated.",
+    "Actual hours are recorded for at least the first ten programmes of each type and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Session time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make the work visible, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Travel, set-up and session notes are named lines, not hidden extras.",
+    "Compare estimates with actual hours, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-K01-pt",
+      "question": "Which costs belong in the cost per productive hour?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the client pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of competitors in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, equipment, consumables, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-K02-pt",
+      "question": "A 12-week programme is estimated at 14 hours and takes 19. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid and the programme has finished",
+        "Reduce the trainer's paid hours on the next job and skip the break",
+        "Raise the price for this client's next job only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-K03-pt",
+      "question": "Why does a quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client and to keep the rates a secret from the trainer",
+        "To make the quote longer and to fill up the page with more text and words for the client",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the client's expectations and to make the job seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Supports: on-costs such as leave and superannuation in the hourly cost.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements are prohibited.",
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Supports: divide by billable hours; a 10 to 20 per cent allowance for unexpected work; review prices at least once a year.",
+    "Carters Trade Leader (New Zealand), 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, 1 October 2025. General method only.",
+    "AUSactive, 'Private health fund rebates for personal trainers', https://ausactive.org.au/private-health-fund-rebates-for-personal-trainers/, modified 23 June 2026. Supports: public liability and professional indemnity cover for rebate-eligible trainers.",
+    "City of Sydney Leisure, 'Personal training', https://cityofsydneyleisure.com.au/health-and-wellbeing/personal-training, page date not shown, fetched 9 November 2026. Used as a public reference price only.",
+    "Illustrative figures in the worked example ($70 AUD an hour, 25 per cent margin, 1.75 hours a session) are invented for this lesson and are not market rates.",
+    "Not verified: award and enterprise agreement rates for trainers; state fair trading rules on pricing; Fitness Australia rules on insurance."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

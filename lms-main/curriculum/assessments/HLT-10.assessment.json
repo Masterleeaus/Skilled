@@ -1,0 +1,34 @@
+{
+  "lessonId": "HLT-10",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-10-K01",
+      "correctIndex": 1,
+      "rationale": "The guide calls for a surgical mask and eye protection, then a gown and gloves, before the clean begins. The other options skip protection or the order of work."
+    },
+    {
+      "id": "HLT-10-K02",
+      "correctIndex": 1,
+      "rationale": "A two-in-one clean combines the detergent and disinfectant in one product. The first option describes the two-step method instead."
+    },
+    {
+      "id": "HLT-10-K03",
+      "correctIndex": 0,
+      "rationale": "The guide sequence moves from mopping to removing the protective items, hand hygiene and fresh gloves, then equipment cleaning. The other options break that order."
+    }
+  ],
+  "practicalCriteria": [
+    "In a simulated room, the learner completes the terminal clean steps in the stated order, with protective items on at entry and hand hygiene at the end.",
+    "The learner names the products used from the facility list and states whether the method is a two-step or two-in-one clean."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of the simulated terminal clean",
+    "Completed terminal clean record for the simulation"
+  ],
+  "stopWorkCriteria": [
+    "The clinical team has not released the room: stop and do not begin the clean.",
+    "The product label or the facility list does not permit the product: stop and ask the supervisor.",
+    "Fumes or a skin reaction occurs during the clean: stop, ventilate if the product allows, and report."
+  ]
+}

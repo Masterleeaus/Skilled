@@ -1,0 +1,215 @@
+{
+  "id": "NEW-IRR-01",
+  "title": "Irrigation system components and inspection",
+  "courseSlugs": [
+    "irrigation"
+  ],
+  "moduleTitle": "Quality, evidence and handover",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Irrigation service technicians and crew members who inspect, run and record garden and lawn irrigation systems for clients.",
+  "prerequisites": [
+    "F04-L02",
+    "F04-L03",
+    "F02-L01",
+    "garden-cleanups-L02"
+  ],
+  "learningOutcomes": [
+    "Name the main components of a residential or commercial garden irrigation system and state the function of each.",
+    "Carry out a visual and functional inspection of a system, zone by zone, and identify faults such as leaks, blocked emitters and coverage gaps.",
+    "Recognise the boundary between servicing permitted under this business and plumbing, backflow and electrical work that needs a licence holder.",
+    "Record inspection findings so that the client can see what was checked, what was fixed and what needs referral."
+  ],
+  "instruction": [
+    {
+      "heading": "The parts of an irrigation system",
+      "body": "A garden irrigation system takes water from a supply point, controls it, distributes it through pipe and delivers it to plants through heads, drippers or emitters. The supply point is usually a tap or a connection that is part of the property's plumbing. Between the supply and the garden there is often a backflow prevention device, which stops water from returning to the supply. A filter and a pressure regulator protect the emitters. A controller, usually wall-mounted or in a shed, sends signals to electric valves, called solenoid valves, that open and close each zone. Each zone is a group of heads or drippers with similar water needs, fed by lateral pipe from a valve. Rain sensors and soil moisture sensors may be fitted to adjust the run times. Knowing these parts lets you work out where a fault is before you dig, and which parts you are allowed to service."
+    },
+    {
+      "heading": "Inspecting the system",
+      "body": "Start with the paperwork: the system drawing, the controller settings and any previous service record. Walk the garden and look for wet spots, dry spots, sunken ground, broken heads and damaged emitters. Check the condition of the controller, its enclosure and the visible wiring for damage, corrosion or moisture, but do not open the mains supply section or work on wiring inside the controller. Run each zone in turn using the controller's manual test function. Watch for even coverage, heads that do not rise or rotate correctly, heads that spray onto paths, walls or windows, and drippers that are blocked or leaking. Note the operating pressure at a convenient point if the business has the approved gauge. Check the filter and clean it if the business's procedure allows. Record every zone, the run result and the faults found. Do not change valve settings or repair the mains connection without authority."
+    },
+    {
+      "heading": "Backflow devices and the licence boundary",
+      "body": "Backflow prevention devices protect drinking water from contamination, and their installation, testing and repair are regulated. In some states, testing must be done by a person authorised for that work, and the test records must be lodged with the water authority. In New South Wales, the plumbing licence categories include urban irrigation water plumbing, which covers connecting an irrigation system to a water main (NSW Government page updated 31 July 2026). This lesson does not grant a plumbing, backflow or electrical licence. When you find a fault on the mains side of the system, a backflow device, a supply connection or the controller's wiring, stop, make the area safe, record the finding and refer the work to the licence holder under the business's referral procedure."
+    },
+    {
+      "heading": "Recording findings and handover",
+      "body": "A good inspection record lets the client and the next technician see what was done. Record the date, the property, the zones tested, the run results, the faults found, the parts removed or replaced, the parts left in place, and any referral to a licence holder. Take photographs of faults with the client's consent, and show the location and the fault clearly. Explain the findings to the client in plain language before leaving the site, including any faults that cannot be fixed under the current scope. Ask the client to sign or confirm the report. A report that says what was checked is more valuable than one that says the system works, because it describes evidence and leaves no room for a promise that the system is leak-free."
+    },
+    {
+      "heading": "Verification and escalation",
+      "body": "A supervisor should check the inspection method and the record. A competent technician can name the components on a drawing, run a zone test without damaging the valve or the head, identify a leak or coverage problem, and explain why a backflow or mains fault is referred. Escalate any suspected leak in the supply line, any exposed or damaged wiring, any backflow device that appears damaged or untested, and any system that is not safe to run."
+    }
+  ],
+  "procedure": [
+    "Review the system drawing, controller settings and previous service record before visiting.",
+    "Identify the supply point, backflow device, filter, pressure regulator, controller, valves and zones on the drawing and on site.",
+    "Check the controller, enclosure and visible wiring for damage or moisture, without opening mains supply sections.",
+    "Run each zone using the controller's test function, and observe coverage, rotation, leaks and blocked emitters.",
+    "Clean the filter if the approved procedure allows, and record the condition.",
+    "Mark each fault on the zone map and classify it as within scope or referred.",
+    "Explain the findings to the client, including any referral to a licence holder, and get the client's confirmation.",
+    "Record the inspection, the photographs taken with consent, and the referrals in the service report."
+  ],
+  "workedExamples": [
+    {
+      "situation": "During a zone test, a sprinkler head on the front lawn sprays onto the window and the zone shows a wet patch near a backflow device at the boundary.",
+      "decisionPrompt": "What is in scope, what is referred, and what is recorded?",
+      "reasoning": "Adjusting the head arc or replacing a head in the zone may be within scope if the business's procedure allows it and the work does not touch the supply side. The wet patch near the backflow device may indicate a leak on the supply side, which is plumbing work. Stop, do not open the backflow device, mark the area and refer the supply-side leak to a licence holder. Record both findings, the photographs taken with consent, and the client's confirmation."
+    },
+    {
+      "situation": "The controller display is flashing and the wiring inside the enclosure looks scorched.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not open the enclosure or touch the wiring. Note the condition, photograph it from outside the enclosure with consent, and turn off the controller at its external isolation point only if that is safe and within the procedure. Refer the electrical fault to a licensed electrician. Record the referral and tell the client that the controller is not to be used until the fault is cleared."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Inspection checklist and zone map",
+    "Pressure gauge, if approved by the business",
+    "Filter cleaning tools and a bucket",
+    "Eye protection and gloves",
+    "Sturdy footwear for wet and uneven ground",
+    "Camera or phone for recording faults, with consent",
+    "Location tool or service locating method approved by the business before any digging"
+  ],
+  "commonErrors": [
+    {
+      "error": "Opening the controller enclosure or touching mains wiring to find a fault.",
+      "prevention": "Inspect from outside the enclosure and refer any electrical fault to a licensed electrician."
+    },
+    {
+      "error": "Repairing a supply-side leak under the lawn without a licence.",
+      "prevention": "Stop at the supply side, record the leak and refer it to the licence holder."
+    },
+    {
+      "error": "Writing that the system is leak-free or working perfectly.",
+      "prevention": "Describe what was tested and what was found, and state any limits of the inspection."
+    },
+    {
+      "error": "Skipping the zone-by-zone run and relying on the controller's schedule.",
+      "prevention": "Run each zone and record the result, so that faults are found while the client is present."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Plumbing, backflow prevention and electrical work on an irrigation system is licensed or authorised work in many jurisdictions. This lesson grants no licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "New South Wales: the urban irrigation water plumbing category is listed on the NSW Government licence page (updated 31 July 2026).",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any backflow testing or lodgement authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Before any excavation, follow the service-locating procedure approved for the site. Buried services can be live or pressurised.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The inspection follows the Safe Work Australia approach of identifying hazards, assessing risks and controlling them (no date shown).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every zone is run and its result recorded, including coverage, leaks and blocked emitters.",
+    "No mains supply, backflow device or controller wiring has been opened or altered by the crew.",
+    "Every fault is classified as in scope or referred, and each referral is recorded.",
+    "The client has been told the findings and has confirmed the service report."
+  ],
+  "documentationEvidence": [
+    "Service report with the date, property, zones tested and run results.",
+    "Fault register with the location, the fault, the photographs taken with consent and the classification.",
+    "Referral record for any plumbing, backflow or electrical finding, with the licence holder named.",
+    "Client confirmation of the findings."
+  ],
+  "summary": [
+    "Know the components and the function of each, so that you can find the fault and the boundary of your work.",
+    "Run each zone and record what you find. Do not claim the system is leak-free.",
+    "Do not open the controller or work on the mains side of the system. Refer those faults to a licence holder.",
+    "A clear service report is the evidence for the client and the basis for any future work."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.manufacturer_manual_url}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:jobs.photo_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-IRR-01-K01",
+      "question": "During an inspection, the controller shows scorched wiring inside the enclosure. What is the correct action?",
+      "options": [
+        "Open the enclosure and tighten the connections to see if the fault clears once the wires are secure and the unit runs again",
+        "Do not open or touch the wiring, record the condition from outside, and refer the electrical fault to a licensed electrician.",
+        "Replace the controller with one from the van, since the spare is the same model and fits the same way and is ready to go"
+      ]
+    },
+    {
+      "id": "NEW-IRR-01-K02",
+      "question": "Which findings should be recorded in the service report?",
+      "options": [
+        "Only the zones that worked, so the report is positive and clear for the client to read today",
+        "The statement that the system is leak-free and fully working at every point of the garden",
+        "The zones tested, the run results, the faults found, the parts changed and any referrals."
+      ]
+    },
+    {
+      "id": "NEW-IRR-01-K03",
+      "question": "What does the backflow prevention device do in the system?",
+      "options": [
+        "It stops water from returning from the garden into the supply.",
+        "It increases the water pressure to the sprinkler heads.",
+        "It controls the timing of each zone during the cycle"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Catalogue decision NEW-IRR-01 (no source lesson). Written from scratch; irrigation appears only in the garden research notes.",
+    "NSW Government, Plumbing, draining and gasfitting licences, https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting. Recorded in research/trades/LICENCE-MATRIX.csv (NSW-06) as checked 2026-11-02, page dated 31 July 2026 per that file.",
+    "Backflow testing and authorised tester rules by state and territory: UNCONFIRMED (not checked in this draft).",
+    "Safe Work Australia, Managing WHS risks step by step (January 2023). https://www.safeworkaustralia.gov.au/sites/default/files/2023-01/managing_whs_risks_step_by_step_jan23.pdf. Checked 2026-11-02.",
+    "Official: Plumbing, draining and gasfitting licences, NSW Government, Building Commission NSW, https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting (checked 2026-11-03; page date: last updated 31 July 2026)",
+    "Official: A step-by-step approach to managing WHS risks, Safe Work Australia, https://www.safeworkaustralia.gov.au/doc/step-step-approach-managing-whs-risks (checked 2026-11-03; page date: no date shown)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Plumbing, draining and gasfitting licences",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+      "pageDate": "last updated 31 July 2026",
+      "checked": "2026-11-03",
+      "covers": "Confirms urban irrigation water plumbing; does not say whether backflow work needs its own licence. Publisher: NSW Government, Building Commission NSW."
+    },
+    {
+      "id": "R2",
+      "title": "A step-by-step approach to managing WHS risks",
+      "url": "https://www.safeworkaustralia.gov.au/doc/step-step-approach-managing-whs-risks",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Covers identify, assess and control; no state-level rules. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official references: NSW Government, Plumbing, draining and gasfitting licences (last updated 31 July 2026); Safe Work Australia, A step-by-step approach to managing WHS risks (no date shown).",
+  "referencesAtEnd": "For a supply-side or plumbing finding in New South Wales, the licence category is in Plumbing, draining and gasfitting licences (NSW Government, last updated 31 July 2026).",
+  "images": [
+    {
+      "src": "/academy/library/photos/garden-outdoor/deck-photo-0c443ed3-01.jpg",
+      "alt": "Irrigation servicing illustration",
+      "kind": "photo",
+      "origin": "irrigation"
+    },
+    {
+      "src": "/academy/library/photos/garden-outdoor/deck-photo-0c443ed3-02.jpg",
+      "alt": "Irrigation servicing illustration",
+      "kind": "photo",
+      "origin": "irrigation"
+    }
+  ]
+}

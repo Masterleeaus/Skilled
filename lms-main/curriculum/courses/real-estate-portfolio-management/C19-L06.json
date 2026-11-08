@@ -1,0 +1,176 @@
+{
+  "id": "C19-L06",
+  "title": "Agent handover",
+  "courseSlugs": [
+    "portfolio",
+    "handyman",
+    "residential",
+    "garden"
+  ],
+  "moduleTitle": "Quality, evidence and handover",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Home-based property managers handing a property to a letting agent, a new manager or the owner",
+  "prerequisites": [
+    "C19-L02",
+    "property-maintenance-L12"
+  ],
+  "learningOutcomes": [
+    "Write a factual completion note that states what was done, what was not, and what needs action.",
+    "Prepare a rework plan with owners and dates.",
+    "Avoid blame language and unverified claims in a handover."
+  ],
+  "referencesAtStart": "No legal or regulatory claims in this lesson. Handover practice is working practice, not a regulatory rule.",
+  "instruction": [
+    {
+      "heading": "Factual completion notes",
+      "body": "A handover note records what was done, what was not done, and what is still open. Write it as a list of facts that the next person can check against the file. For each completed item, state the work, the location, the date and the evidence held. For each excluded item, state the work that was left out and the reason. For each open item, state what has been observed, what evidence supports it, and what is not yet known. Keep the note short, factual and dated, and avoid conclusions that the evidence does not support."
+    },
+    {
+      "heading": "Wording: facts, not blame or certainty",
+      "body": "If an item is not known, write that it is unknown, and do not replace it with a likely cause."
+    },
+    {
+      "heading": "Rework plan and approval",
+      "body": "Any open item goes into a rework plan with the action, the owner of the action, the due date and the approval status. The owner of the action is a named person, not a team. The approval status states whether the owner or the property owner has approved the action and the spend. Where an open item involves electrical, gas, plumbing or structural work, the plan refers it to the licensed trade or competent person who must assess it. The note does not state that the item is safe or compliant. Send the handover note and the rework plan to the next person and to the owner, and ask for written acknowledgement. Keep the signed copy with the property file. A handover without acknowledgement is an assumption that the next person knows what is open."
+    }
+  ],
+  "procedure": [
+    "List the work completed, with its location and date, and the evidence held for each item.",
+    "List the work excluded, and the reason for each exclusion.",
+    "List each open item, with what has been observed, the evidence held, and what is not yet known.",
+    "Build a rework plan with the action, a named owner, a due date and the approval status for each open item.",
+    "Refer any open item that involves electrical, gas, plumbing or structural work to the licensed trade or competent person, and state that it has not been assessed.",
+    "Send the note and the plan to the next person and the owner.",
+    "File the signed acknowledgement with the property record."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A handover follows a repair where the stain under a window returned after the last rain, and the cause is still unknown.",
+      "decisionPrompt": "How should the handover describe the stain?",
+      "reasoning": "State the stain as an open item. Give the approval status for the investigation, and send the note to the owner for acknowledgement. Do not describe the repair as having resolved the stain until a rain event has tested it."
+    },
+    {
+      "situation": "During a handover, the next manager is told that a power point in the kitchen feels warm to touch. The property manager has not looked into it.",
+      "decisionPrompt": "How should the handover record the point, and what must it not say?",
+      "reasoning": "Record it as an open item, with the observation as reported and the date it was reported. Do not state a cause, and do not describe the point as safe. Refer the item to a licensed electrical worker for assessment, put the referral in the rework plan with a named owner and a due date, and state that the item has not been assessed. Do not use it in the note as a reason to blame anyone for the condition."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Handover note template with sections for completed work, exclusions and open items",
+    "Rework plan template with action, owner, due date and approval status",
+    "Photographs held with the property file, with dates",
+    "Acknowledgement form for the receiving party"
+  ],
+  "commonErrors": [
+    {
+      "error": "Guessing at a cause in the handover.",
+      "prevention": "State the cause as unknown, and list the investigation as a rework item with a named owner."
+    },
+    {
+      "error": "Describing a repair as resolved before its effect has been checked.",
+      "prevention": "State what was done, and say whether its effect has been checked and how."
+    },
+    {
+      "error": "Using blame language about a previous worker or occupant.",
+      "prevention": "State the facts and the evidence only. Name no person as the cause."
+    },
+    {
+      "error": "Handing over without written acknowledgement.",
+      "prevention": "Obtain written acknowledgement and file it with the property record."
+    },
+    {
+      "error": "Writing an open electrical, gas or structural item as safe because nobody has reported a problem.",
+      "prevention": "List the item as open, refer it to the licensed trade or competent person, and state that it has not been assessed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A handover note does not certify the property as safe or compliant. Open safety items must be listed as open and referred to the licensed trade or competent person for assessment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not give a licence, certificate or authority to perform or certify regulated work, and it does not authorise the worker to sign off any electrical, gas, plumbing or structural item.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The handover states completed work, exclusions and open items separately, each with its evidence.",
+    "Every open item has a named owner, a due date and an approval status.",
+    "No open item is described as resolved, safe or compliant without evidence and a recorded check.",
+    "The next person and the owner acknowledge the handover in writing."
+  ],
+  "documentationEvidence": [
+    "Signed handover note with completed work, exclusions and open items",
+    "Rework plan with named owners, due dates and approval status",
+    "Photographs and records held with the property file, with dates",
+    "Written acknowledgement from the receiving party"
+  ],
+  "summary": [
+    "Write facts in three groups: completed, excluded and open, each with its evidence.",
+    "Describe the condition, not the people.",
+    "Put every open item into a rework plan with a named owner, a due date and an approval status.",
+    "Refer open safety items to the licensed trade or competent person, and get written acknowledgement."
+  ],
+  "businessFields": [
+    "{{business:quality.defect_reporting}}",
+    "{{business:procedures.completion_checklist}}",
+    "{{business:jobs.signoff_procedure}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C19-L06-K01",
+      "question": "A stain has returned and the cause is not known. How should the handover state it?",
+      "options": [
+        "As resolved, because the repair was done and the surface looks fine now to the owner and tenant",
+        "As the previous worker's fault, since they did the earlier repair on the wall",
+        "As an open item with the cause unknown, and a rework plan with a named owner and due date",
+        "Left out of the note, since it is not a current issue at the house or the flat"
+      ]
+    },
+    {
+      "id": "C19-L06-K02",
+      "question": "What should happen after a handover note is sent?",
+      "options": [
+        "Nothing, because the note is enough to close the matter for now",
+        "Delete the earlier notes so the file is simpler and easier to read",
+        "Ask the owner to decide the wording of the note before it goes",
+        "Obtain written acknowledgement and file it with the property record"
+      ]
+    },
+    {
+      "id": "C19-L06-K03",
+      "question": "A warm power point is reported during a handover, and nobody has assessed it. How should it be recorded?",
+      "options": [
+        "As safe, because nobody has reported a fault with the power point at the house on the day of the handover",
+        "As an open item, not assessed, referred to a licensed electrical worker, with a named owner and due date",
+        "Left out, because electrical items are outside a handover note and the owner already knows about them",
+        "As caused by the tenant's appliance, since it was plugged in at the wall during the stay today"
+      ]
+    }
+  ],
+  "officialReferences": [],
+  "referencesAtEnd": "No legal or regulatory claims in this lesson.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "CATALOGUE-V2 row C19-L06 and the existing draft (rewrite; source lesson not in this workspace, so the content is written from the catalogue row)",
+    "Handover practice: internal course guidance, not checked against any regulator"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/property/portfolio-photo-0c292bc1-09.jpg",
+      "alt": "Real estate portfolio management illustration",
+      "kind": "photo",
+      "origin": "portfolio"
+    },
+    {
+      "src": "/academy/library/photos/property/portfolio-photo-0c292bc1-10.jpg",
+      "alt": "Real estate portfolio management illustration",
+      "kind": "photo",
+      "origin": "portfolio"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "RAS-01",
+  "title": "Scoring a hazard: likelihood, severity and the risk band",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Cleaning operatives, leading hands and supervisors who score or check site risk registers.",
+  "prerequisites": [
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "Score a hazard for likelihood and for severity using the five-point scales of the agreed scheme.",
+    "Calculate a risk value from the two scores and assign it to the correct band.",
+    "State the action each band requires before work starts.",
+    "Find a scoring or banding error in a completed register."
+  ],
+  "instruction": [
+    {
+      "heading": "Why score a hazard at all",
+      "body": "A risk assessment turns a list of hazards into a decision about what to do first. A hazard that scores high needs a different response from one that scores low, and the score is what lets a supervisor see where effort and authority should go. The register this lesson is built on scores every hazard twice: once for the risk as it stands with the routine controls in place, and once for the residual risk after any further controls are added. Scoring is a trained judgement, written down, so everyone on the team uses the same method and a second person can follow the reasoning. The scheme is a business choice."
+    },
+    {
+      "heading": "The two scales",
+      "body": "Likelihood asks how often the harm could happen in the circumstances of the job, on a scale from 1 for something that almost never happens up to 5 for exposure that happens often and routinely. Severity asks how bad the outcome would be if the harm happened, on a scale from 1 for a minor injury with no lost days up to 5 for a death. Score likelihood by thinking about the task as it is actually done on that site, not about every conceivable accident. Score severity by thinking about the most likely serious outcome of the hazard, not the best case. Two errors appear often. The first is lowering likelihood because a control is listed, before that control has been checked. The second is scoring severity for a minor event that could easily have been far worse. Write one short line of reasons next to each score so a reviewer can see how it was reached."
+    },
+    {
+      "heading": "Multiplying and banding",
+      "body": "The risk value is likelihood multiplied by severity. Because both scales run from 1 to 5, the only products that can occur are the whole numbers 1 to 6, 8 to 10, 12, 15, 16, 20 and 25. The scheme places 1 to 6 in the Low band, 8 to 12 in the Medium band and 15 to 25 in the High band. Every value a pair of scores can produce falls into one band, so no row is left without a band. A likelihood of 4 with a severity of 4 gives 16, which is High. A likelihood of 3 with a severity of 3 gives 9, which is Medium. Check the arithmetic on every row. A register whose numbers cannot be reproduced from the two scales cannot be relied on, however sensible the wording looks."
+    },
+    {
+      "heading": "What each band requires",
+      "body": "A Low result may be tolerable, but it is still worth re-examining the job to see whether the exposure can be lowered, and where one job brings several hazardous activities together, a method statement is prepared for that job. A Medium result means the job is reworked, or the exposure reduced, before it begins, and the scheme may need senior sign-off once specialist advice has been sought. A High result is not acceptable as it stands. The job must be redesigned or extra controls added, and those controls must be assessed for suitability before work starts. A high score is never a reason to begin early with a warning sign in place. Work does not start until the band's requirement has been met and recorded."
+    }
+  ],
+  "procedure": [
+    "Write the task, the place and the people who share the space at the top of the row.",
+    "Score likelihood from 1 to 5 against the agreed scale and write one line of reasons.",
+    "Score severity from 1 to 5 against the agreed scale and write one line of reasons.",
+    "Multiply likelihood by severity and enter the product in the score column.",
+    "Find the band for that product and write the action the band requires next to it.",
+    "Have a second person recheck the arithmetic and the band on every row before the register is used."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner must wet-mop a foyer floor during the lunch period, when visitors walk through the section that is still wet.",
+      "decisionPrompt": "Score likelihood and severity, calculate the value, and decide what the band requires before the mopping starts.",
+      "reasoning": "Likelihood is high because visitors pass the wet section repeatedly and the floor stays slippery for a while after mopping. Severity is judged from the most likely serious outcome of a fall on a hard floor. The product is then placed in its band, and the band action decides what happens first. Whatever band results, the controls such as barriers, timing the work away from peak movement and drying the floor are checked and written down before the job starts. This example deliberately does not give the final scores; the learner applies the scale to the real site."
+    }
+  ],
+  "equipmentAndPpe": [
+    "The agreed likelihood and severity scales, printed or held on the site file",
+    "The hazard register being scored, with the band table visible",
+    "A pen or tablet for scores and one-line reasons",
+    "{{business:safety.required_ppe}} for any walk that involves cleaning tasks"
+  ],
+  "commonErrors": [
+    {
+      "error": "Lowering likelihood because a control is listed, before the control has been checked.",
+      "prevention": "Score with the controls as they actually stand, and record a reduction only after the control has been verified on site."
+    },
+    {
+      "error": "Writing a product without checking it against the band table.",
+      "prevention": "Find the band on every row, then have a second person check the arithmetic before the register is signed."
+    },
+    {
+      "error": "Scoring severity on the best outcome rather than the likely serious one.",
+      "prevention": "Ask what would most likely happen if the hazard caused harm, and score that outcome."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: A low score does not mean a hazard can be ignored. A hazard that stays on the register must still be controlled, briefed and reviewed.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The scales and bands in this lesson come from one cleaning company's risk assessment and are a business scheme, not a legal formula. Confirm the work health and safety duties on this point with the regulator in the state or territory where the work is done.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every hazard row has a likelihood score, a severity score and a one-line reason for each.",
+    "Every risk value equals likelihood multiplied by severity and sits in the band the scale gives.",
+    "Each band result has its required action written against it, and a second person has checked the row."
+  ],
+  "documentationEvidence": [
+    "Hazard register with likelihood, severity, risk value, band, band action and reasons for each row",
+    "Names and dates of the person who scored the register and the person who checked it"
+  ],
+  "summary": [
+    "Likelihood and severity are each scored from 1 to 5 against the agreed scales, with a reason.",
+    "The risk value is likelihood multiplied by severity, and the band sets the required action.",
+    "A High band means the work waits until the controls are redefined and checked."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-01-K01",
+      "question": "A hazard is scored likelihood 4 and severity 4. Which band does it fall into under the scheme in this lesson?",
+      "options": [
+        "Low.",
+        "High",
+        "Mid."
+      ]
+    },
+    {
+      "id": "RAS-01-K02",
+      "question": "Under this scheme, what must happen before a task with a Medium result starts?",
+      "options": [
+        "The task starts and is reviewed at the end of the week and the score is not checked before the start of work",
+        "The score is written on the register and the job passes to the next shift and the crew starts the work the same day",
+        "The task is redefined or the risk is reduced before it starts, with management authority where the scheme requires it."
+      ]
+    },
+    {
+      "id": "RAS-01-K03",
+      "question": "A supervisor finds a row where likelihood was lowered because a control is listed, but nobody has checked that control. What is the correct response?",
+      "options": [
+        "Restore the score that reflects the controls as they stand, and record a reduction only after the control is verified.",
+        "Accept the lower score, since the control is listed and the crew says it is in place and it is working fine",
+        "Delete the row, because the listed control makes the hazard irrelevant and nobody needs to see the old score"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), Risk Matrix Table A.1 (likelihood and severity scales, risk value grid) and Table A.2 (action by band); rights: user-held",
+    "UNCONFIRMED: state and territory work health and safety duties on this point were not checked in this pass; confirm with the regulator in the state or territory where the work is done."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

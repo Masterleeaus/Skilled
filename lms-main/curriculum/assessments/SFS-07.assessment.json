@@ -1,0 +1,35 @@
+{
+  "lessonId": "SFS-07",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-07-K01",
+      "correctIndex": 1,
+      "rationale": "The visit was attempted but not finished. Recording the reason keeps the history and supports a follow-up."
+    },
+    {
+      "id": "SFS-07-K02",
+      "correctIndex": 0,
+      "rationale": "Not yet scheduled is the stage before a worker and time are confirmed."
+    },
+    {
+      "id": "SFS-07-K03",
+      "correctIndex": 0,
+      "rationale": "The parent tells the office which job, asset or account the trip relates to."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (visit records and their status stages) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

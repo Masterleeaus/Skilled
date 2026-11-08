@@ -1,0 +1,35 @@
+{
+ "lessonId": "kitchen-exhaust-L02",
+ "knowledgeAnswers": [
+  {
+   "id": "kitchen-exhaust-L02-K01",
+   "correctIndex": 2,
+   "rationale": "Visible cleanliness does not show the duct is safe; the record is escalated."
+  },
+  {
+   "id": "kitchen-exhaust-L02-K02",
+   "correctIndex": 0,
+   "rationale": "Grease deposits act as fuel for a fire."
+  },
+  {
+   "id": "kitchen-exhaust-L02-K03",
+   "correctIndex": 1,
+   "rationale": "Inaccessible sections are not cleaned without authority, and no interval is invented."
+  }
+ ],
+ "practicalCriteria": [
+  "Separates observed, recorded and unknown conditions in a fictional canopy case.",
+  "Reports a clean canopy without describing the system as safe.",
+  "Escalates a simulated grease record with no fire-risk assessment."
+ ],
+ "passRule": "Conditions separated, no safety claim made from appearance, and escalation made. Observed in a desk exercise. Not a fire-safety certification.",
+ "evidenceRequired": [
+  "Fictional observation record",
+  "Escalation record"
+ ],
+ "stopWorkCriteria": [
+  "Inaccessible duct sections cleaned without authority",
+  "System described as safe from appearance",
+  "Grease accumulation not escalated"
+ ]
+}

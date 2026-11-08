@@ -1,0 +1,186 @@
+{
+  "id": "BST-02",
+  "title": "Spread and outliers in job times and invoices",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners, supervisors and schedulers of home and commercial service businesses in Australia who set standard job times or quote from past invoices.",
+  "prerequisites": [
+    "BST-01"
+  ],
+  "learningOutcomes": [
+    "Calculate the range and the interquartile range (IQR) for a set of job times or invoice totals.",
+    "Apply a simple rule to flag an unusually long job and state the reason it was flagged.",
+    "Use the spread to decide whether a standard time or quote needs a buffer."
+  ],
+  "instruction": [
+    {
+      "heading": "Where the jobs sit, and how far they wander",
+      "body": "A middle figure tells you where most jobs land but nothing about how far apart they are. Picture two gardeners who each average two hours a job. One finishes almost every visit in about two hours. The other ranges from forty minutes to four hours. Both have the same average, yet only one of them can be scheduled and quoted with confidence. The spread is the measure of that predictability. The simplest spread measure is the range, which is the largest value minus the smallest. It is quick to work out, but a single odd job can set it by itself. A steadier measure looks only at the middle half of the jobs. To get the interquartile range, which people usually call the IQR, find the value a quarter of the way up the sorted list and the value three quarters of the way up, then subtract the first from the second. The IQR ignores the extremes at both ends, so one odd job has much less effect on it."
+    },
+    {
+      "heading": "Finding a job that runs long",
+      "body": "A job is worth a second look when its time or its invoice sits well above the rest. A common rule of thumb in statistics, which is a general convention and not a legal or market standard, marks any value more than one and a half times the IQR above the upper quartile. Take the upper quartile, add one and a half times the IQR, and any value above that line is flagged. A flag does not mean the job was wrong. It might have run long because the gate was locked, the scope grew, a second person was needed, or the time was entered in the wrong unit. The useful question is what caused the job to run long, and whether that cause will come up again. Only then should it change your standard time or your quote."
+    },
+    {
+      "heading": "Putting the spread to work",
+      "body": "A narrow spread lets you promise a time with confidence. A wide spread tells you to add a buffer, to split the service into sub-types such as a standard clean and a heavy-soil clean, or to ask better questions at intake. Keep the cause of each flagged job in the job record, so the next quote for a similar site carries the risk forward. Spread also helps when you compare crews. A crew that is occasionally quicker but often much slower may be a worse bet for your schedule than a crew that is a little slower but steady."
+    }
+  ],
+  "procedure": [
+    "Choose one job type and collect the times or invoice totals for at least nine jobs.",
+    "Sort the values from smallest to largest.",
+    "Subtract the smallest value from the largest to get the range.",
+    "Find the lower quartile (about a quarter of the way up the list) and the upper quartile (about three quarters up). For a short list, use the median of each half.",
+    "Subtract the lower quartile from the upper quartile to get the IQR.",
+    "Multiply the IQR by one and a half, add the result to the upper quartile, and flag any value above that line.",
+    "For each flagged job, write down the cause and whether the cause should change your standard time or your price."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pool service records the time for nine filter services: 1.5, 1.75, 1.75, 2.0, 2.0, 2.25, 2.5, 2.5 and 4.5 hours. These figures are invented for this lesson.",
+      "decisionPrompt": "What is the range and the IQR, and which job should be checked?",
+      "reasoning": "The range is 3.0 hours (4.5 minus 1.5). The lower half is 1.5, 1.75, 1.75 and 2.0, with a median of 1.75. The upper half is 2.25, 2.5, 2.5 and 4.5, with a median of 2.5. The IQR is 0.75 hours (2.5 minus 1.75). The upper line is 2.5 plus 1.125, which is 3.625 hours. The 4.5-hour job is above that line and should be checked. A review might find a seized housing that added an hour, which is a cause worth recording for future quotes."
+    },
+    {
+      "situation": "A lawn-mowing business has an IQR of 15 minutes for standard mows, with an upper quartile of 60 minutes. One block took 95 minutes.",
+      "decisionPrompt": "Should the standard time for this type of mow increase to 95 minutes?",
+      "reasoning": "The upper line is 60 plus 22.5, which is 82.5 minutes, so the 95-minute job is flagged. Before changing the standard, find out why it ran long. If the turf had gone two weeks without mowing, the job was unusual and should be quoted separately next time. The standard time stays where it is unless flagged jobs begin to repeat."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Job time records or an invoice list for one service type",
+    "Calculator or spreadsheet",
+    "A notes field in the job record for the cause of any flagged job",
+    "No site PPE is needed for this lesson; site safety is covered in other lessons"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating every flagged job as a mistake.",
+      "prevention": "Find the cause before changing a standard time or price, and record the cause with the job."
+    },
+    {
+      "error": "Judging reliability from the range alone.",
+      "prevention": "Read the range next to the IQR. A single odd job can drive the range by itself."
+    },
+    {
+      "error": "Putting different job types in one list.",
+      "prevention": "Group only comparable jobs. A lawn mow and a hedge trim have different spreads and should be measured separately."
+    },
+    {
+      "error": "Entering a time in the wrong unit, such as minutes in an hours field.",
+      "prevention": "Check the units in the export before calculating anything."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers statistics on job records. It does not cover licensed or authorised work and does not grant any licence or authority.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The one-and-a-half times IQR rule is a general statistical convention. It is not a legal requirement or a market benchmark.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Job notes that record customer or site details are subject to privacy duties.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner calculates the range and the IQR for at least nine values using the steps in the procedure.",
+    "The learner applies the flag rule correctly and writes a cause for each flagged value.",
+    "The learner states how the spread changes a quote, a buffer or a crew schedule, with a reason."
+  ],
+  "documentationEvidence": [
+    "Worksheet showing the sorted values, the range, both quartiles, the IQR and the flag line.",
+    "Outlier notes for each flagged job, with the cause and the action decided."
+  ],
+  "summary": [
+    "The range is the simplest spread measure, but one odd job can drive it.",
+    "The IQR looks at the middle half of the jobs and is steadier.",
+    "A flagged job needs a cause before it changes anything.",
+    "Use the spread to decide on buffers, sub-types and quote notes."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "BST-02-K01",
+      "question": "A list of job times runs from 1.5 hours to 4.5 hours. What is the range?",
+      "options": [
+        "0.75 hours",
+        "2.5 hours",
+        "3.0 hours"
+      ]
+    },
+    {
+      "id": "BST-02-K02",
+      "question": "Using the rule in this lesson, which value in the pool example is flagged?",
+      "options": [
+        "The 2.0-hour job, which is the median of the whole pool of jobs",
+        "The 4.5-hour job, which sits above the upper line of 3.625 hours",
+        "Any job below 1.5 hours in the pool of the jobs recorded for the month"
+      ]
+    },
+    {
+      "id": "BST-02-K03",
+      "question": "What is the best first step when a job has been flagged?",
+      "options": [
+        "Check the cause, such as hidden extra work, access problems or a recording error, before changing any standard",
+        "Delete the job so the averages look tidy in the report, the file, the accounts, the books and the totals",
+        "Charge every future job of that type at the flagged time for every customer on the whole list"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "General statistical method knowledge; Business Statistics: Australia and New Zealand (Selvanathan and Keller), 7th ed., contents page only; no text used; rights: user-held (upload contains contents only)",
+    "UNCONFIRMED: privacy duties for job notes under Australian law; not checked against current legislation in this draft"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

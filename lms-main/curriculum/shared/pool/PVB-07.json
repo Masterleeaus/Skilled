@@ -1,0 +1,164 @@
+{
+  "id": "PVB-07",
+  "title": "Victorian suction outlets, main drains and entrapment",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Pool and spa service technicians, builders and inspectors working on suction and recirculation systems in Victoria. Plumbing and electrical work are licensed where a licence applies. The rules are Victorian.",
+  "prerequisites": [
+    "PVB-01",
+    "pool-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Explain how suction outlets and main drains can trap a bather.",
+    "Describe the Victorian checks on main drain covers and suction spacing.",
+    "Identify which pool drainage connections need a VBA drainage inspection and compliance certificate under SP 02."
+  ],
+  "instruction": [
+    {
+      "heading": "How entrapment happens",
+      "body": "Building Practice Note SP 02 (Version 3, 26 September 2023) refers to AS 1926.3-2010 for water reticulation; that standard is named here but was not read for this lesson. A suction outlet or main drain can hold a bather, along with hair or a limb, when its cover is missing, cracked or fitted wrongly. Treat a missing, cracked or loose outlet cover as an immediate hazard."
+    },
+    {
+      "heading": "Main drain covers and their paperwork",
+      "body": "SP 02 says designers must supply the manufacturer's design and test data for the main drain cover. Check that this data is on file before the cover is accepted."
+    },
+    {
+      "heading": "Suction spacing",
+      "body": "SP 02 says suction points must be at least 600 mm apart. Compare the spacing drawn on the plans with this figure, and record any difference."
+    },
+    {
+      "heading": "Recirculation and drainage connections",
+      "body": "SP 02 says recirculation and filtration designs must be given to the relevant building surveyor with the building permit application. It also says a below-ground backwash connection to sewer needs a VBA drainage inspection and compliance certificate, and an above-ground backwash connection valued at $750 or more needs a compliance certificate. Electrical work on the pool equipment is a separate matter and is licensed where a licence applies."
+    }
+  ],
+  "procedure": [
+    "Check that every suction outlet and main drain cover is in place, undamaged and fixed down.",
+    "Confirm the cover has the manufacturer's test records on file, and record its identification.",
+    "Compare the suction point spacing with the approved drawings, and record any difference.",
+    "Take any pool with a missing or damaged cover out of service, and report it in writing."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A pool's main drain cover has a crack across one slot, and a bather reports the cover moves underfoot.",
+      "decisionPrompt": "What should happen to the pool?",
+      "reasoning": "A cracked or loose cover is an entrapment hazard. Take the pool out of service, keep bathers out, and report the cover to the owner in writing. Do not fit a different cover unless its test records confirm it is suitable, and any permanent replacement needs the correct approval."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Manufacturer test records for the cover, on file",
+    "Approved drawings showing suction points",
+    "Gloves and eye protection",
+    "Lock-out device for pump isolation"
+  ],
+  "commonErrors": [
+    {
+      "error": "Running a pool with a missing or cracked outlet cover.",
+      "prevention": "Take the pool out of service and report it until a tested cover is fitted."
+    },
+    {
+      "error": "Fitting an untested replacement cover.",
+      "prevention": "Confirm the cover has the required test records before fitting it."
+    },
+    {
+      "error": "Assuming every pipe connection is plumbing work.",
+      "prevention": "Recirculation joins differ from below-ground backwash connections to sewer, which need a VBA drainage inspection and compliance certificate under SP 02."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Suction entrapment can drown a bather. A missing or damaged outlet cover is a stop-use hazard.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Sewer connections for pool backwash need a VBA drainage inspection and compliance certificate under SP 02. Plumbing work is for licensed plumbers in Victoria, and this lesson does not grant a plumbing licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Electrical work on pool pumps, including isolation and repair, is licensed where a licence applies. Isolate before inspection.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Figures are Victorian (VBA Building Practice Note SP 02, 2023). AS 1926.3-2010 is named only and was not read.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each outlet cover is logged as in place, intact and secured before use.",
+    "Suction point spacing is recorded against the approved drawings.",
+    "The plumbing or electrical boundary is recorded for any connection work."
+  ],
+  "documentationEvidence": [
+    "Outlet cover check record with identification and test record reference",
+    "Suction spacing record against the drawings",
+    "Out-of-service record for any damaged cover"
+  ],
+  "summary": [
+    "Suction outlets and main drains can trap a bather. Keep covers in place, undamaged and fixed.",
+    "Suction points shown on the drawings need 600 mm or more between them, and designers supply main drain cover test data.",
+    "Recirculation and filtration designs go to the building surveyor with the permit application; a below-ground backwash connection to sewer needs a VBA drainage inspection."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PVB-07-K01",
+      "question": "How far apart does the note require drawn suction points to be?",
+      "options": [
+        "At least 600 mm apart",
+        "At least 100 mm apart",
+        "No minimum applies",
+        "At least 3 m apart"
+      ]
+    },
+    {
+      "id": "PVB-07-K02",
+      "question": "What should happen to a pool with a cracked main drain cover?",
+      "options": [
+        "Keep it open with a warning sign",
+        "Take it out of service and report it in writing",
+        "Continue, because the crack is only cosmetic",
+        "Replace it with any cover available"
+      ]
+    },
+    {
+      "id": "PVB-07-K03",
+      "question": "Under SP 02, which connection needs a VBA drainage inspection and compliance certificate?",
+      "options": [
+        "Recirculation piping to the pump",
+        "A drain line connected to the sewer",
+        "A pool cover to a motor and a sensor",
+        "A solar blanket on the pool deck"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Practice notes (Victorian Building Authority), practice note SP 5 index page",
+      "url": "https://www.vba.vic.gov.au/building/building-resource-hub/practice-notes/practice-note-sp-5",
+      "pageDate": "no date shown in the read summary",
+      "checked": "2026-11-03",
+      "covers": "Read via summary fetch in this pass. This index page does not contain Practice Note 05-2018 (Swimming Pool and Spa Safety), so its drain, suction spacing and pipework sections are not confirmed here. It lists the earlier swimming pool notes SP 01 and SP 02 as superseded, and refers to a council guide. Practice Note 05-2018 has not been located on an official page in this pass: UNCONFIRMED. AS 1926.3-2010 was not read: UNCONFIRMED. Publisher: Victorian Building Authority."
+    },
+    {
+      "id": "R2",
+      "title": "Building Practice Note SP 02, Swimming pool barriers and other requirements (Victorian Building Authority), Version 3",
+      "url": "https://www.vba.vic.gov.au/__data/assets/pdf_file/0008/135728/Building-SP-02-Swimming-pool-barriers-and-other-requirements-CURRENT-26-Sep-2023.pdf",
+      "pageDate": "26 September 2023",
+      "checked": "2026-11-04",
+      "covers": "Building Practice Note SP 02 (VBA), Version 3, published 26 September 2023; the note shows no review date. It cites AS1926.3-2010 (Water Recirculation Systems) under related documentation. Designers must provide the manufacturer's design and test data for the main drain cover and show that suction points will not be less than 600 mm apart. Recirculation and filtration designs must be supplied with the building permit application. For below-ground backwash piping to the sewer, a VBA drainage inspection must be made available and a compliance certificate given. The $750 figure is a threshold for above-ground backwash piping to a sanitary drain, not a fee. The plumbing-work classification for backwash piping and the suction-line blockage test remain UNCONFIRMED."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Victorian Building Authority, Building Practice Note SP 02, Swimming pool barriers and other requirements (Version 3, 26 September 2023), water reticulation, main drain cover, suction spacing and backwash connection points; rights: user-held; reworded (no copying). Under Building Practice Note SP 02 (Version 3, 26 September 2023, page 10), connecting pool backwash piping to a sewerage system is regulated plumbing work that must be undertaken by a registered or licensed plumber, while recirculation and filtration piping is not defined as plumbing work in the Plumbing Regulations 2018. The cover-fitting and blockage-test points previously attributed to Practice Note 05-2018 are not in SP 02.",
+    "Priority: official Victorian Building Authority source. It overrides other pool sources on the points it covers, for Victoria only. Dated: 26 September 2023 (Version 3); read through a summary tool on 2026-11-03. Victorian requirement. UNCONFIRMED for other states and territories, and the current edition of AS 1926.1 is UNCONFIRMED.",
+    "Cross-checked against pool-cleaning-L02 for the general entrapment principle only. Victorian figures come from the note alone.",
+    "UNCONFIRMED: AS 1926.3-2010 clauses (named, not read); plumbing and electrical licensing in other states and territories."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,30 @@
+{
+  "lessonId": "NEW-TIL-05",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-TIL-05-K01",
+      "correctIndex": 0,
+      "rationale": "A wet saw outside or in a ventilated area keeps silica dust in the slurry and keeps occupants clear."
+    },
+    {
+      "id": "NEW-TIL-05-K02",
+      "correctIndex": 1,
+      "rationale": "Damp methods or extraction clean up tile dust without spreading it."
+    },
+    {
+      "id": "NEW-TIL-05-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says many tiles, especially porcelain and natural stone, contain crystalline silica, and that cutting them dry releases fine silica dust."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated porcelain cut, the worker sets up a wet saw with adequate water and cleans up with damp methods, with no dry sweeping."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Cutting record with controls"
+  ],
+  "stopWorkCriteria": [
+    "Dry cutting is planned in an occupied room without extraction"
+  ]
+}

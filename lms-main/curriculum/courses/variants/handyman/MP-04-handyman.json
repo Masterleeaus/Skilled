@@ -1,0 +1,142 @@
+{
+  "id": "MP-04-handyman",
+  "title": "Break-even analysis with a worked calculation for Handyman",
+  "courseSlugs": [
+    "handyman"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Handyman operators who set visit prices or plan monthly work, including sole traders who run a van, tools and software on their own.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a handyman business as fixed or variable",
+    "Calculate monthly break-even revenue and the number of visits it needs",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a handyman",
+      "body": "Break-even revenue covers all costs exactly, so profit is zero. For a handyman, the figure shows how many visits a month are needed before the van, insurance and software are paid for. It is a planning tool, and it is only as good as the costs and percentages behind it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs stay the same whatever the number of visits. For a handyman they include van finance or lease, registration, insurance, phone, software, and any workshop or storage rent. Variable costs move with each visit. They include fixings and sealant used on a job, consumables, card and payment fees on each sale, and any fuel you charge per visit. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss. Express variable cost as a share of sales for the same period, and check the share across at least three months."
+    },
+    {
+      "heading": "Calculate the break-even",
+      "body": "Contribution margin is one minus the variable percentage, written as a decimal. Break-even revenue is the fixed costs divided by the contribution margin. Xero's glossary sets out the same method and rounds a job count up to whole jobs. Divide break-even revenue by the average visit price, and round up, because a part visit does not cover its costs."
+    },
+    {
+      "heading": "Decide how materials are treated",
+      "body": "If you bill materials at cost, their value sits in both sales and variable cost, and that can distort the percentage. Decide whether materials are counted in the variable percentage, apply the same rule in every period, and write the choice beside the figure."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, check that each fixed cost is a monthly amount, that the variable percentage is a share of sales, and that the result is revenue rather than profit. Write down the reconciled figure with its inputs and drop the others. A figure that cannot be checked should not be used to set a price."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a share of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable share to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average visit price after discounts, and round up to whole visits.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A one-person handyman business (illustrative figures, invented for this lesson) has fixed costs of $3,200 a month, variable costs of 12 per cent of sales, and an average visit price of $280 after discounts.",
+      "decisionPrompt": "How many visits must the business complete each month to break even, and what should be checked before the figure is used?",
+      "reasoning": "The contribution margin is 1 minus 0.12, which is 0.88. Break-even revenue is $3,200 divided by 0.88, which is $3,636.36 a month. At $280 a visit, that is 12.99 visits, so the business needs 13 visits. Each visit contributes $246.40 ($280 multiplied by 0.88) towards fixed costs. Before the figure is used, check that the 12 per cent includes card fees and consumables, that the $3,200 is a monthly figure, and that $280 is the average price actually charged. As a cross-check only, the Quote Yard's Queensland vendor estimates give per-job handyman prices of $80 to $500 and monthly retainers of $200 to $800 (vendor estimates, published 10 May 2026). The average visit price must come from your own invoices, not from those ranges."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, split into fixed and variable",
+    "Calculator or spreadsheet",
+    "Invoice record of the visit prices actually charged after discounts"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures, such as an annual insurance premium",
+      "prevention": "Convert every cost to a monthly figure before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Copying a break-even figure from a plan without its inputs",
+      "prevention": "Recalculate from your own inputs and record the source and date of each input before using the result."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority. Licence and registration fees vary by state, so use the fee for your own state in the cost list.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout the calculation.",
+    "Recalculate from your own inputs. Do not copy another plan's break-even figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-handyman-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-handyman-K02",
+      "question": "Fixed costs are $3,200 a month and variable costs are 12 per cent of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$384.00 AUD",
+        "$3,200.00 AUD",
+        "$3,636.36 AUD",
+        "$12,000.00 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-handyman-K03",
+      "question": "Two sources give different break-even figures for the same handyman business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the other",
+        "Average the two figures and quote the result to the client",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Rely on the price list and skip the break-even check"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; job counts are rounded up. The glossary's own examples are not used.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Definitions of fixed and variable costs; costs must be covered to avoid operating at a loss.",
+    "The Quote Yard, Handyman services QLD, https://www.thequoteyard.com.au/services/handyman-services-qld, published 10 May 2026. Vendor per-job and retainer estimates used only as a cross-check.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Include total overheads in the price check; review prices about every three months."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

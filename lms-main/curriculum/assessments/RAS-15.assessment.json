@@ -1,0 +1,40 @@
+{
+  "lessonId": "RAS-15",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-15-K01",
+      "correctIndex": 0,
+      "rationale": "The rule is to stop, report and move to the assembly point, without using the lift."
+    },
+    {
+      "id": "RAS-15-K02",
+      "correctIndex": 1,
+      "rationale": "Phones are limited to the rest room and emergencies, and are not used while operating equipment."
+    },
+    {
+      "id": "RAS-15-K03",
+      "correctIndex": 2,
+      "rationale": "The client's premises are inspected before workers are placed, so welfare arrangements are confirmed."
+    }
+  ],
+  "practicalCriteria": [
+    "Stops work on a simulated alarm, reports it and moves to the named assembly point without using the lift",
+    "Keeps a phone out of a work area and uses it only where the rule permits",
+    "Records a welfare check for a simulated new site, with each facility noted",
+    "Washes hands and face before a simulated break, and covers a simulated cut"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "site induction record",
+    "welfare check record",
+    "drill or alarm record",
+    "assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "Work continues during a simulated alarm",
+    "A person re-enters the building before the building facilities team confirms it is safe",
+    "A phone is used while operating equipment"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

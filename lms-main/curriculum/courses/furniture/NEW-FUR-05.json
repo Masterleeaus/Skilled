@@ -1,0 +1,203 @@
+{
+  "id": "NEW-FUR-05",
+  "title": "Wood dust and sanding controls",
+  "referencesAtStart": "Official references for this lesson: WorkSafe Victoria, Wood dust: health hazards and control (reviewed 17 April 2026); LeadSmart NSW: renovating and maintenance (no date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20); AS/NZS 1716:2012, Respiratory protective devices; WorkSafe ACT, Electrical equipment (in-service inspection and repair) (no date shown).",
+  "courseSlugs": [
+    "furniture"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Furniture restorers who sand, clean or service extraction equipment in the workshop.",
+  "prerequisites": [
+    "NEW-FUR-03",
+    "F02-L02"
+  ],
+  "learningOutcomes": [
+    "Set up on-tool extraction and a dust collector to the minimum dust class in the guidance.",
+    "Clean sanding areas without compressed air.",
+    "Choose and fit a respirator as the last control, not the first."
+  ],
+  "instruction": [
+    {
+      "heading": "Why sanding dust matters",
+      "body": "Sanding makes fine dust that can be breathed deep into the lungs. WorkSafe Victoria's wood dust guidance (reviewed 17 April 2026) includes sanding in its list of common wood-dust sources and asks that extraction sit as near as practicable to every dust source. The guidance covers wood dust generally, so this course applies it to furniture sanding as well. Timber floor sanding has its own controls, which are taught in the timber floor restoration course."
+    },
+    {
+      "heading": "Extraction first",
+      "body": "For portable sanders, use on-tool extraction connected to a portable collector. WorkSafe Victoria recommends a minimum Dust Class M for that collector, and the same class for an industrial vacuum used in cleaning. A dust bag alone does not meet the at-source approach that page describes. Inspect the extraction system for leaks, because a leaking hose or joint lets dust out at the work area. Keep the extraction running while sanding."
+    },
+    {
+      "heading": "Cleaning up without lifting the dust",
+      "body": "Do not use compressed air to clean sanding areas, because it can put settled dust back into the air as a second exposure. Use a HEPA-filtered vacuum with the required dust class, or a wet cleaning method. Clean the area at the end of each session, and keep food and drinks out of the sanding area."
+    },
+    {
+      "heading": "Respirators are the backup",
+      "body": "WorkSafe Victoria treats respiratory protection as the backup for when higher controls cannot keep exposure within the exposure standards, and it usually points to a reusable half-face model with P2 filtering. Respirators should meet the Australian Standard named on that page, AS/NZS 1716:2012. NSW's house guidance names AS/NZS 1716 for respirators and masks with P1 or P2 filters. NSW's guidance also describes simple paper masks as a poor fit that offers little protection from fine dust. The exposure figures WorkSafe Victoria lists are set out in the safety notes below."
+    }
+  ],
+  "procedure": [
+    "Set up the sander with on-tool extraction, and connect it to a collector with the required dust class.",
+    "Check the extraction for leaks and check the filter.",
+    "Choose the respirator from {{business:safety.required_ppe}}, shave where a tight-fitting type is used, and do a fit check.",
+    "Sand with the extraction running.",
+    "Clean the area with a HEPA-filtered vacuum or a wet method, not compressed air.",
+    "Record the controls used for the job."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker sands a timber chair in an enclosed garage. The sander has a dust bag only, and the worker clears the dust with a leaf blower at the end.",
+      "decisionPrompt": "What must change before the next session?",
+      "reasoning": "Stop the job. Change to on-tool extraction connected to a collector with the required dust class, and clean with a HEPA-filtered vacuum or wet method. Remove the leaf blower from the method. Record the change and check the extraction before sanding resumes."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Orbital or belt sander with on-tool extraction",
+    "Portable dust collector at the required minimum dust class",
+    "HEPA-filtered vacuum at the required dust class",
+    "Respirator with P2 filter that meets an Australian Standard, as set out in {{business:safety.required_ppe}}",
+    "Clean shaving kit for tight-fitting respirators"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a dust bag alone on a power sander.",
+      "prevention": "Fit on-tool extraction connected to a collector at the required dust class."
+    },
+    {
+      "error": "Blowing dust out of the work area with compressed air.",
+      "prevention": "Use a HEPA-filtered vacuum or a wet method."
+    },
+    {
+      "error": "Wearing a tight-fitting respirator with stubble.",
+      "prevention": "Shave where needed, and do a fit check every time the respirator is worn."
+    },
+    {
+      "error": "Sanding a finish that has not been screened for lead.",
+      "prevention": "Complete the screening in “Screen for lead and asbestos: test, stop and refer” before any sanding starts."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Respirators should meet the Australian Standard AS/NZS 1716, which WorkSafe Victoria names, and NSW's guidance cites AS/NZS 1716. Use an approved type and record the fit check.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The exposure standards that WorkSafe Victoria lists are 5 mg/m³ TWA for softwood dust (10 mg/m³ STEL) and 1 mg/m³ TWA for some hardwoods, including beech and oak (page reviewed 17 April 2026). Check the current national list before any figure is quoted to a client.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Fine dust can present a dust explosion risk. Follow the approved procedure and the equipment manufacturer's instructions.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Electrical extraction and sanding equipment should be tested as the business procedure sets out. WorkSafe ACT says a licence-holding electrician, or a certified competent person, carries out inspections, and it names AS 3760:2022.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Extraction is running for all power sanding, and the collector meets the required dust class.",
+    "Respirator fit check is recorded for every session where a tight-fitting respirator is used.",
+    "No compressed air is used for cleaning sanding areas."
+  ],
+  "documentationEvidence": [
+    "Dust control record: extraction type, collector dust class and check date",
+    "Respirator fit check record",
+    "Cleaning method record for the sanding area"
+  ],
+  "summary": [
+    "Extraction at the dust source comes first. A dust bag alone is not enough.",
+    "Compressed air is not used to clean up. Use a HEPA vacuum or a wet method.",
+    "A respirator is the backup, and it needs a fit check every time."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:quality.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FUR-05-K01",
+      "question": "Why is a dust bag alone not enough for sanding extraction?",
+      "options": [
+        "It is too heavy to fit a sander, so the sander cannot hold it steady during the job",
+        "It is only for floor sanding and is not used on furniture pieces at all in the shop",
+        "It does not capture fine dust efficiently, so on-tool extraction connected to a collector is needed"
+      ]
+    },
+    {
+      "id": "NEW-FUR-05-K02",
+      "question": "What is the correct way to clean a sanding area?",
+      "options": [
+        "A HEPA-filtered vacuum or a wet cleaning method",
+        "Compressed air, which blows the loose dust off quickly",
+        "Dry sweeping, which gathers the loose dust into a pile"
+      ]
+    },
+    {
+      "id": "NEW-FUR-05-K03",
+      "question": "A worker has stubble and a loose disposable mask on a sanding job. What does the course say?",
+      "options": [
+        "It is fine for a short job, since the dust is only present for a few minutes and the worker is careful",
+        "Tight-fitting respirators need clean shaving and a fit check each time, so this set-up is not acceptable",
+        "Stubble does not matter for any respirator, since the seal is made by the strap on the head of the worker"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references (repeated for the end of the lesson): WorkSafe Victoria, Wood dust: health hazards and control (reviewed 17 April 2026); LeadSmart NSW: renovating and maintenance (no date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20); AS/NZS 1716:2012, Respiratory protective devices; WorkSafe ACT, Electrical equipment (in-service inspection and repair) (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/wood-dust-health-hazards-and-control (checked 2026-11-02; page shows review date 17/04/2026)",
+    "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance (checked 2026-11-02; respirator and paper mask advice)",
+    "UNCONFIRMED: exposure standard values for wood dust; dust explosion guidance; run-on time after sanding; electrical testing wording (AS/NZS 3760, LISTED, not read). Research brief: /home/claude/work/team/research-topics/furniture.md, sections 6 and 7."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Wood dust: health hazards and control",
+      "url": "https://www.worksafe.vic.gov.au/wood-dust-health-hazards-and-control",
+      "pageDate": "Reviewed 17 April 2026",
+      "checked": "2026-11-03",
+      "covers": "Dust class, extraction, compressed air and respirator guidance, and the exposure figures it lists from Safe Work Australia. Recheck the national list before quoting any figure. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "LeadSmart NSW: renovating and maintenance",
+      "url": "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance",
+      "pageDate": "No date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20",
+      "checked": "2026-11-03",
+      "covers": "House lead paint guidance only, not furniture. Read the heat gun, torch and respirator advice on the page before any related statement. Publisher: NSW Government (LeadSmart NSW)."
+    },
+    {
+      "id": "R3",
+      "title": "AS/NZS 1716:2012 Respiratory protective devices",
+      "url": "https://www.worksafe.vic.gov.au/wood-dust-health-hazards-and-control",
+      "pageDate": "Reviewed 17 April 2026",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria names AS/NZS 1716:2012 where it asks for Australian Standard markings on respirators. The page does not describe what the standard specifies; its fit-check wording relates to respiratory protective equipment in general. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R4",
+      "title": "Electrical equipment (in-service inspection and repair)",
+      "url": "https://www.worksafe.act.gov.au/health-and-safety-portal/managing-safety/electrical-equipment",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "ACT guidance: inspection by a licensed electrician or a certified competent person; unsafe equipment repaired by an authorised repairer or competent person. Names AS 3760:2022 by title. Publisher: WorkSafe ACT."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-09.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-10.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    }
+  ]
+}

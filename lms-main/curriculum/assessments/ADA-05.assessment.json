@@ -1,0 +1,33 @@
+{
+  "lessonId": "ADA-05",
+  "knowledgeAnswers": [
+    {
+      "id": "ADA-05-K01",
+      "correctIndex": 1,
+      "rationale": "Used items travel in a sealed, hard-walled box. The other options allow spills or contamination in transit."
+    },
+    {
+      "id": "ADA-05-K02",
+      "correctIndex": 0,
+      "rationale": "General waste goes into the facility's general waste, separated from clinical waste and sharps. The other options are wrong."
+    },
+    {
+      "id": "ADA-05-K03",
+      "correctIndex": 0,
+      "rationale": "Rinsing and sealing before transport is the required sequence. The other options expose the impression or reuse a container unsafely."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock visit kit, the learner packs clean and used items into the correct containers and checks each seal.",
+    "The learner rinses a mock impression and seals it for transport."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor checklist for the mock visit kit",
+    "Completed mock visit record"
+  ],
+  "stopWorkCriteria": [
+    "A sharps container is overfilled and cannot be sealed",
+    "Clinical waste would have to be left in a facility bin"
+  ]
+}

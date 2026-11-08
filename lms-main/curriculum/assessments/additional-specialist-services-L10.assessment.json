@@ -1,0 +1,34 @@
+{
+  "lessonId": "additional-specialist-services-L10",
+  "knowledgeAnswers": [
+    {
+      "id": "additional-specialist-services-L10-K01",
+      "correctIndex": 3,
+      "rationale": "Model answer from source: Identify task-specific unknown hazards, qualifications, permissions and controls; place work on hold until verified."
+    },
+    {
+      "id": "additional-specialist-services-L10-K02",
+      "correctIndex": 0,
+      "rationale": "Model answer from source: No. Relevant licences, employer/site authorisation and independent competence verification remain required."
+    },
+    {
+      "id": "additional-specialist-services-L10-K03",
+      "correctIndex": 3,
+      "rationale": "The allocate roles and supervision section says a worker who is new, or not yet verified for a method, works under supervision and does not perform a task alone that they have not been signed off for."
+    }
+  ],
+  "practicalCriteria": [
+    "type: supervised tabletop simulation; task: Create a sequenced work plan and responsibility matrix.; deliverable: Prepare an interface schedule and stop/restart authority list.; criteria: Specific work and exclusions correctly identified; Unknown hazards and regulated boundaries escalated; Controls and approver recorded; Customer communication contains no unsupported assurance"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Prepare an interface schedule and stop/restart authority list.",
+    "Signed task scope, controls and excluded activities",
+    "Reviewer identity, role, date, evidence references and location"
+  ],
+  "stopWorkCriteria": [
+    "Performs work without required site or legal authorisation",
+    "Treats unidentified hazards or regulated activities as routine cleaning",
+    "Falsifies approvals, inspection findings or customer assurances"
+  ]
+}

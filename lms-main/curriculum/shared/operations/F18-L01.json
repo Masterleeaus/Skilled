@@ -1,0 +1,181 @@
+{
+  "id": "F18-L01",
+  "title": "Kit classes",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Any worker, supervisor or owner in any Titan Academy business who builds, carries or checks the kit used for jobs.",
+  "prerequisites": [
+    "F04-L01",
+    "F03-L01"
+  ],
+  "learningOutcomes": [
+    "Describe the classes of kit used in service work: tools, equipment, products, protective equipment, consumables and documents.",
+    "Explain why each class needs different storage, checks and handling.",
+    "Assign each item in the business's kit to a class."
+  ],
+  "instruction": [
+    {
+      "heading": "The kit classes",
+      "body": "A job kit is the set of items a team takes to a job. Group the items into classes so that each is handled correctly. Tools and equipment are the machines and hand tools that are used and maintained. Products are the cleaning and maintenance chemicals, which carry labels and SDS. Protective equipment is the gloves, eye protection, respirators and other items that protect people. Consumables are the cloths, bags, dressings and sponges used up on each job. Documents are the work orders, SDS copies, checklists and records. Each class has different rules for storage, transport and checks."
+    },
+    {
+      "heading": "Why the classes matter",
+      "body": "Products must be kept with their labels and SDS, separated by incompatibility, and secured in transport. Protective equipment must be kept clean, dry and in date. Tools and equipment must be inspected before use. Consumables are used up and must be counted. Documents must be current and confidential. A kit that mixes these classes without a rule leads to lost SDS, mixed products, damaged equipment and missing protection. Keep a list of the classes and the items in each class for the kit."
+    },
+    {
+      "heading": "Assign and review the kit",
+      "body": "For each item in the kit, decide its class, its storage place and its check. Record the list and update it when items are added or removed. Review the kit each time the job type changes, so that the team takes what the job needs and nothing that it does not, and so that an item that is no longer used is removed from the kit and its products are returned to the store."
+    }
+  ],
+  "procedure": [
+    "List every item in the job kit and assign each to a class: tools, equipment, products, protective equipment, consumables or documents.",
+    "Record the storage place and the check for each class.",
+    "Check that each product is labelled and that its SDS is in the documents class.",
+    "Review the kit when the job type changes and remove items no longer needed.",
+    "Store the kit so that products are separated by incompatibility and secured in transport."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A kit contains a spray bottle of acid cleaner next to a bucket of bleach solution and a box of gloves with no SDS in the documents box.",
+      "decisionPrompt": "What must be corrected?",
+      "reasoning": "Separate the acid cleaner from the bleach solution, which are incompatible, and secure both. Add the SDS for each product to the documents class. Check the gloves against the product label requirements and record the kit change."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Labelled kit containers or bags for each class",
+    "Kit list"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing products and consumables in one container without separation.",
+      "prevention": "Use a separate container for products and keep incompatible products apart."
+    },
+    {
+      "error": "Carrying a product without its SDS.",
+      "prevention": "Keep the SDS for each product in the kit's documents class."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Safe Work Australia states that a register of hazardous chemicals used or stored at the workplace must be kept, with the current SDS for each listed chemical. The kit's product list and SDS must be consistent with that register.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Transport of some products may be subject to dangerous goods rules in some states and territories.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every item in the kit is assigned to a class and listed.",
+    "Products in the kit are labelled and have an SDS in the documents class.",
+    "The kit is reviewed when the job type changes."
+  ],
+  "documentationEvidence": [
+    "Kit list with the class, storage place and check for each item.",
+    "Kit change record when items are added or removed."
+  ],
+  "summary": [
+    "Group kit items into classes with different storage and checks.",
+    "Keep products labelled, separated and with their SDS.",
+    "Review the kit when the job changes."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.storage_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F18-L01-K01",
+      "question": "Which item belongs in the protective equipment class?",
+      "options": [
+        "Eye protection named in a product label.",
+        "A bucket with a graduated scale printed on its side",
+        "A work order."
+      ]
+    },
+    {
+      "id": "F18-L01-K02",
+      "question": "Two products in the kit are incompatible. What should you do?",
+      "options": [
+        "Keep them together to save space in the same box",
+        "Separate and secure them in different positions.",
+        "Mix them together to use them up quickly"
+      ]
+    },
+    {
+      "id": "F18-L01-K03",
+      "question": "Which kit class do cleaning and maintenance chemicals belong to?",
+      "options": [
+        "Products",
+        "Tools and equipment",
+        "Protective equipment",
+        "Documents"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (Safe Work Australia, no page date shown; checked 2026-11-02; register and SDS)",
+    "Titan Academy base source draft F18-L01 is not in the ready set; written from the catalogue description. Dangerous goods transport rules are UNCONFIRMED in this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemicals register",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "no date shown",
+      "checked": "2026-11-04",
+      "covers": "Says a register of hazardous chemicals used, handled or stored at the workplace must be prepared and kept in a location readily accessible to workers, and must include the current safety data sheet for each listed chemical. Does not cover dangerous goods transport rules. The page shows no date; its only year reference is 2011, when the model WHS laws were created. Publisher: Safe Work Australia."
+    }
+  ]
+}

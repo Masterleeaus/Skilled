@@ -1,0 +1,162 @@
+{
+  "id": "NEW-RES-01",
+  "title": "Mattress cleaning and drying (residential only)",
+  "courseSlugs": [
+    "residential"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 25,
+  "audience": "Residential cleaners offering mattress cleaning and drying as an add-on service.",
+  "prerequisites": [
+    "C11-L01"
+  ],
+  "learningOutcomes": [
+    "Assess a mattress for stains, odour and moisture before offering a treatment.",
+    "Choose a method and product that suit the mattress fabric and the soil, and test first.",
+    "Refer mould, heavy contamination or moisture damage rather than treating it as routine."
+  ],
+  "instruction": [
+    {
+      "heading": "Assess before offering",
+      "body": "Inspect the mattress before any treatment. Check the fabric and the label, the stains, the odour and whether the mattress is damp. A damp mattress that smells musty may have a moisture or mould problem, which is outside routine mattress cleaning. Record the condition with the client before work starts, and set the expectation that some stains may not come out."
+    },
+    {
+      "heading": "Method, product and drying",
+      "body": "Use a method and product suited to the fabric, and test on an inconspicuous area first. Do not over-wet the mattress, because excess moisture can soak into the core and be slow to dry. Allow the mattress to dry fully before it is used, and use air movement where the setting allows. Keep the product out of the eyes and off the skin."
+    },
+    {
+      "heading": "Referral",
+      "body": "Refer visible mould, heavy contamination, bodily fluid stains of unknown origin, and any mattress that will not dry within a reasonable time. These are specialist or out-of-scope tasks. Do not treat them as routine mattress cleaning, and do not promise removal. Conditions vary by state, territory and country, and the local rules and the manufacturer's instructions govern. This lesson does not substitute for them."
+    }
+  ],
+  "procedure": [
+    "Inspect the fabric, label, stains, odour and dampness, and record the condition before work.",
+    "Set the expectation that some stains may not come out.",
+    "Test the product on an inconspicuous area, and choose a method that suits the fabric.",
+    "Avoid over-wetting, and allow the mattress to dry fully before use.",
+    "Refer mould, heavy contamination, unknown bodily fluid stains and mattresses that will not dry."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A mattress smells musty and shows dark patches that may be mould.",
+      "decisionPrompt": "What do you offer?",
+      "reasoning": "Do not offer routine mattress cleaning for suspected mould. Record the patches and the odour, explain that this is outside routine cleaning, and refer the client to a qualified service. Do not promise removal."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved mattress product with label and SDS.",
+    "Gloves and eye protection as set by the SDS.",
+    "Air movement equipment, where the setting allows."
+  ],
+  "commonErrors": [
+    {
+      "error": "Over-wetting the mattress so it stays damp.",
+      "prevention": "Use minimal moisture and dry fully before use."
+    },
+    {
+      "error": "Treating suspected mould as a routine clean.",
+      "prevention": "Refer suspected mould to a qualified service."
+    },
+    {
+      "error": "Promising that every stain will come out.",
+      "prevention": "Set the expectation before work starts."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Mould and moisture problems are outside routine cleaning and may need specialist assessment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Product-specific dilution, dwell time and PPE come from the product label and SDS.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Keep the SDS for every product you use, and make sure workers can get at it easily (Safe Work Australia SDS page; page date: no date shown).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Condition recorded before work and expectations set in the simulation.",
+    "Suspected mould referred and not cleaned as routine in the case study.",
+    "Mattress dried fully before release."
+  ],
+  "documentationEvidence": [
+    "Pre-work condition record with photographs, where permitted.",
+    "Referral record for any mould or contamination."
+  ],
+  "summary": [
+    "Assess the mattress and record its condition first.",
+    "Use minimal moisture and dry fully.",
+    "Refer mould and heavy contamination."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-RES-01-K01",
+      "question": "A mattress shows dark patches and a musty smell. What is correct?",
+      "options": [
+        "Clean it as routine, since it is a small patch",
+        "Spray it heavily with a strong product",
+        "Refer suspected mould to a qualified service"
+      ]
+    },
+    {
+      "id": "NEW-RES-01-K02",
+      "question": "Why avoid over-wetting a mattress?",
+      "options": [
+        "Excess moisture soaks into the core and dries slowly",
+        "It is more expensive for the client overall and the business",
+        "It makes the stain darker and harder to lift"
+      ]
+    },
+    {
+      "id": "NEW-RES-01-K03",
+      "question": "When can the mattress be used again?",
+      "options": [
+        "As soon as it looks dry",
+        "When it has dried fully",
+        "After one hour"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/NEW-RES-01.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory requirements for mould remediation.",
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Using safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the duty to keep SDS and make them easy for workers to access. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources: Safe Work Australia, Using safety data sheets (no date shown).",
+  "referencesAtEnd": "Check the current rule on each official page: Safe Work Australia, Using safety data sheets (no date shown): https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets.",
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-07.jpg",
+      "alt": "Residential cleaning illustration",
+      "kind": "photo",
+      "origin": "residential"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-08.jpg",
+      "alt": "Residential cleaning illustration",
+      "kind": "photo",
+      "origin": "residential"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "medical-dental-clinic-L07",
+  "knowledgeAnswers": [
+    {
+      "id": "medical-dental-clinic-L07-K01",
+      "correctIndex": 2,
+      "rationale": "Access to the operatory does not confer authority. The room release must be given by the designated professional, so the cleaner does not start and waits for the release."
+    },
+    {
+      "id": "medical-dental-clinic-L07-K02",
+      "correctIndex": 0,
+      "rationale": "A contradiction between a notice and a dental team member is a stop condition. The cleaner does not enter until the clinical team confirms the status, and the designated professional is notified."
+    },
+    {
+      "id": "medical-dental-clinic-L07-K03",
+      "correctIndex": 1,
+      "rationale": "The cleaning record holds the approved room identifier, the surfaces cleaned, any exclusions and the handover recipient, with no patient information. A clearance statement is not part of the cleaner's record."
+    }
+  ],
+  "practicalCriteria": [
+    "Given an operatory offered before room release is confirmed, the learner does not enter, notifies the designated professional, and records the time and the person notified.",
+    "Given a notice that says the room is clear while a dental assistant says a barrier must still be checked, the learner stops, does not enter, and records the contradiction with the time.",
+    "The learner's cleaning record contains the room identifier, surfaces cleaned, exclusions and handover recipient, and no patient name or appointment detail."
+  ],
+  "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+  "evidenceRequired": [
+    "Record of the notification and release wait with time and person",
+    "Record of the contradiction stop",
+    "Completed operatory cleaning record reviewed by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Learner enters an operatory before release is confirmed",
+    "Learner cleans clinician-owned equipment such as the chair, handpiece or delivery unit",
+    "Learner records patient details or describes the room as pathogen-free"
+  ]
+}

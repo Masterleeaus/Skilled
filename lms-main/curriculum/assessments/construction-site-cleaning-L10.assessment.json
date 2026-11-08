@@ -1,0 +1,36 @@
+{
+ "lessonId": "construction-site-cleaning-L10",
+ "knowledgeAnswers": [
+  {
+   "id": "construction-site-cleaning-L10-K01",
+   "correctIndex": 0,
+   "rationale": "Damaged equipment is tagged out and reported for competent inspection."
+  },
+  {
+   "id": "construction-site-cleaning-L10-K02",
+   "correctIndex": 1,
+   "rationale": "The method depends on the material collected."
+  },
+  {
+   "id": "construction-site-cleaning-L10-K03",
+   "correctIndex": 2,
+   "rationale": "A log must reflect the inspection actually done."
+  }
+ ],
+ "practicalCriteria": [
+  "Completes a pre-start inspection of each listed part on a simulated extractor.",
+  "Tags out a simulated damaged seal and reports it.",
+  "Completes a sample equipment log with inspection, quarantine and approval fields."
+ ],
+ "passRule": "Full inspection completed, damaged item tagged out, and log complete with no improvised repair. Observed by an assessor.",
+ "evidenceRequired": [
+  "Completed equipment log",
+  "Tag-out record",
+  "Assessor observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Damaged equipment used",
+  "Improvised electrical or filtration repair",
+  "Decontamination method chosen by appearance"
+ ]
+}

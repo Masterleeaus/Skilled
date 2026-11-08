@@ -1,0 +1,36 @@
+{
+  "lessonId": "garden-cleanups-L12",
+  "status": "PROPOSED REPLACEMENT - see report; the existing file at assessments/garden-cleanups-L12.assessment.json was overwritten by another batch with invalid correctIndex values",
+  "knowledgeAnswers": [
+    {
+      "id": "garden-cleanups-L12-K01",
+      "correctIndex": 0,
+      "rationale": "Remove the bag if safe and record the missing receipt as open. Do not state disposal without a receipt."
+    },
+    {
+      "id": "garden-cleanups-L12-K02",
+      "correctIndex": 1,
+      "rationale": "Every incident is recorded in full at the time, including first-aid events."
+    },
+    {
+      "id": "garden-cleanups-L12-K03",
+      "correctIndex": 2,
+      "rationale": "Describe what was done and record unconfirmed status as open."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock completed site with three planted defects, the learner finds all three during a walk-through against the supplied scope within the assessor's set time.",
+    "The learner completes an incident record for a supplied minor-cut scenario with all required fields.",
+    "The learner completes a handover statement that lists one open item and does not certify any unconfirmed removal."
+  ],
+  "passRule": "NOT SET",
+  "evidenceRequired": [
+    "Completed final inspection checklist signed by the assessor.",
+    "Incident record for the supplied scenario.",
+    "Handover statement with open-items list, reviewed by the assessor."
+  ],
+  "stopWorkCriteria": [
+    "A handover statement certifying removal or disposal without evidence.",
+    "Recording an incident as not requiring a record when the assessor has specified that it does."
+  ]
+}

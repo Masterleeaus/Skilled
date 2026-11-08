@@ -1,0 +1,151 @@
+{
+  "id": "BPX-03",
+  "title": "Writing the assumptions register behind a projection",
+  "courseSlugs": [
+    "handyman",
+    "deck",
+    "flatpack",
+    "locksmith",
+    "painting",
+    "plastering",
+    "tiling"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Owners and planners of handyman and property trade businesses who have a draft projection and need to show what it rests on",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Label each projection input as a fact, a target or an assumption, with the reason for the label",
+    "Complete an assumptions register with value, basis, source, date checked, owner and the next check date",
+    "Rank assumptions by how much a change would move profit, and choose the first three to verify"
+  ],
+  "instruction": [
+    {
+      "heading": "Why a projection needs a register",
+      "body": "Every projection rests on inputs: prices, job counts, costs, wages, interest rates and tax rates. A sample plan can present those inputs as a short table with no basis, date or owner, and a reader then has no way to tell which numbers were measured and which were guessed. An assumptions register fixes that. It is a single list of the inputs behind the statements, each with enough detail that someone else could check it. The register is the first thing a lender, partner or assessor will look for, and it is where a careless projection is exposed first."
+    },
+    {
+      "heading": "Three labels for every input",
+      "body": "A fact comes from a record you can point to: a signed invoice, a supplier bill, a bank statement or a government rate published with a date. A target is what you intend to achieve, such as six jobs a month before the first quarter closes. An assumption is a belief you have not yet tested, such as the claim that one in five enquiries will become a booked job. The labels matter because they change how much weight a number can carry. Targets and assumptions should never be presented as facts, and they should always have a named check. Interest rates and tax rates in a sample plan are not facts for your business. Replace them with the rate in your loan offer or a current rate from an Australian source, or leave the rate blank until you have one."
+    },
+    {
+      "heading": "Columns and sensitivity",
+      "body": "The register needs these columns: the input, its value and unit, its label, its basis, its source and the date checked, the person responsible, the next date it will be checked, and what changes in the plan if it is wrong. The last column is the most useful. Once every row has a value, change each important assumption by a fixed amount, for example ten percent lower job count or a higher material cost, and watch the effect on operating profit. The assumptions that move profit most are the first ones to verify. Those that move it very little can stay as they are until the next review."
+    }
+  ],
+  "procedure": [
+    "List every input used in the projection, including prices, job counts, direct cost per job, each overhead, wages, interest and tax.",
+    "Give each input a value and unit, and assign one of three labels: fact, target or assumption.",
+    "For each fact, record the document it comes from and the date it was checked.",
+    "For each target or assumption, record the reason it was chosen and the evidence that would confirm or reject it.",
+    "Name an owner and a next check date for every row, and leave any rate with no current Australian source blank.",
+    "Change each key input by a fixed amount, record the change in operating profit, and rank the inputs by that change.",
+    "Choose the top three inputs to verify first and set a date for each check."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Hypothetical figures, not market data: a handyman owner plans for five jobs a week at an average of $420 each. Their invoice records for the last eight weeks show an average of 3.2 jobs a week at $395 each. The projection also uses a loan interest rate copied from a sample plan.",
+      "decisionPrompt": "How should the three inputs be labelled, and which one should be verified first?",
+      "reasoning": "The average job value from invoices is a fact for the recent period, although the owner should confirm the figure is GST-consistent. Five jobs a week is a target, not a fact, and the recorded 3.2 jobs a week is the evidence that tests it. The interest rate is an assumption with no valid source, so it stays blank until a loan offer is in hand. The job count moves profit most, so it is verified first, and the plan is rerun at the recorded rate before any hiring decision is made."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet with an assumptions tab, or the business plan template",
+    "Invoice records, supplier bills, bank statements and any loan offers for the period",
+    "No physical PPE is required for this lesson"
+  ],
+  "commonErrors": [
+    {
+      "error": "Copying tax, interest or wage rates from a sample plan or another country without checking.",
+      "prevention": "Replace every borrowed rate with a current Australian or lender source, or leave it blank until it is checked."
+    },
+    {
+      "error": "Presenting a target as if it had already been achieved.",
+      "prevention": "Use the labels fact, target and assumption, and show the recorded evidence next to each target."
+    },
+    {
+      "error": "Writing a register with values but no basis, so no one can check the figures.",
+      "prevention": "Require a source and a date for every fact, and a stated reason for every target and assumption."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Interest, tax and wage rates change over time. The rates in the sample plans used for this course are not Australian and are not used.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Figures in a register may be shared with lenders or business partners. Keep personal and customer details out of the register and store only the business figures needed for the projection.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not give financial or tax advice, and completing it does not qualify the learner to prepare projections for lending or investment.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every input in the projection appears in the register, with no hidden inputs",
+    "Every fact has a document and a date; every target and assumption has a reason and a check",
+    "No borrowed rate is used without a current source.",
+    "The three most sensitive inputs are named, with a check date for each"
+  ],
+  "documentationEvidence": [
+    "A completed assumptions register with label, basis, source, date checked, owner and next check date for every input",
+    "A sensitivity table showing the change in operating profit for each key input",
+    "A list of rates still to be checked, with the person who will check each one"
+  ],
+  "summary": [
+    "A projection is only as reliable as the inputs behind it, and the register makes those inputs checkable",
+    "Label every input as a fact, a target or an assumption, and never present a target as a fact",
+    "Sensitivity testing shows which inputs deserve verification first",
+    "Borrowed rates from sample plans are replaced or left blank"
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:assessment.business_question_set}}",
+    "{{business:business.name}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BPX-03-K01",
+      "question": "Which label fits the statement 'we completed 42 jobs last year, as shown on our invoice records'?",
+      "options": [
+        "Fact",
+        "Goal",
+        "Plan",
+        "Idea"
+      ]
+    },
+    {
+      "id": "BPX-03-K02",
+      "question": "What is the main purpose of a sensitivity test on an assumptions register?",
+      "options": [
+        "To make the plan longer and more detailed for the bank review",
+        "To prove that the plan is correct and final before the bank meets",
+        "To show which inputs change profit most if they turn out to be wrong",
+        "To replace the break-even check in the plan and the forecast"
+      ]
+    },
+    {
+      "id": "BPX-03-K03",
+      "question": "A tax rate taken from a sample plan for another country is about to be placed in your projection. What is the right action?",
+      "options": [
+        "Use it, because sample plans are reliable sources of rates for projections",
+        "Leave the rate out of the projection until an Australian source is checked",
+        "Round it to the nearest whole number and use it in the plan today",
+        "Delete the assumptions table so that no rate is shown at all"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Handyman business plan sample (0db29e53-657849233-handyman-business-plan.txt), section Important assumptions; rights: not held by user (vendor sample, vendor watermark present); reworded (no copying). The sample's rate values are not used.",
+    "Cleaning company business plan sample (7886acdc-603394611-cleaning-company-business-plan.txt), section Important assumptions; rights: not held by user (vendor sample); reworded (no copying). Structure only.",
+    "BP-01 How a cleaning business plan is structured (labelling numbers as fact, target or assumption), cross-checked; overlap recorded, method extended to a register.",
+    "Current Australian interest, tax and wage rates: UNCONFIRMED (not checked against a current source in this draft; each must be checked on the day it is used)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

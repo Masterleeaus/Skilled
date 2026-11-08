@@ -1,0 +1,44 @@
+{
+  "lessonId": "C07-L02",
+  "knowledgeAnswers": [
+    {
+      "id": "C07-L02-K01",
+      "correctIndex": 2,
+      "rationale": "Shaking used linen spreads contamination into the air and onto clean surfaces, so the linen is gathered and bagged without shaking."
+    },
+    {
+      "id": "C07-L02-K02",
+      "correctIndex": 0,
+      "rationale": "The stained item is isolated, marked and reported. Covering it with clean linen or washing it outside the approved procedure both conceal the defect or spread the problem."
+    },
+    {
+      "id": "C07-L02-K03",
+      "correctIndex": 1,
+      "rationale": "Only products named on the approved inventory are used for amenities. Products from home and unlabelled refills are not approved."
+    },
+    {
+      "id": "C07-L02-K04",
+      "correctIndex": 3,
+      "rationale": "The sorting section says to read the care label on each item before loading it."
+    }
+  ],
+  "practicalCriteria": [
+    "Bags a simulated used linen set without shaking, after inspecting it for sharps and visible contamination, and escalates a simulated sharp or heavy contamination.",
+    "Launders a sample set by its care label and the approved setting, and reports a simulated machine fault without working around it.",
+    "Prepares a bed with clean hands, a checked protector and correctly fitted linen, kept clear of the floor.",
+    "Replenishes simulated amenities from the approved inventory, checking seal, expiry and cleanliness.",
+    "Isolates and reports a simulated stain and a stock shortfall, without covering or concealing either."
+  ],
+  "passRule": "Used linen handled without shaking and escalated where required, bed prepared correctly, amenities from the approved inventory only, and defect and shortage reported without concealment. Observed in a supervised simulation. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Linen and stock count record",
+    "Defect and shortage report",
+    "Record of any simulated sharp or heavy contamination escalated"
+  ],
+  "stopWorkCriteria": [
+    "Used linen shaken or sharp removed by hand",
+    "Stain covered and not reported",
+    "Unapproved refill or personal product used",
+    "Machine loaded beyond its rated load or fault worked around"
+  ]
+}

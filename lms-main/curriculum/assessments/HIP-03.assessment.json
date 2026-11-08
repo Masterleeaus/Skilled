@@ -1,0 +1,33 @@
+{
+  "lessonId": "HIP-03",
+  "knowledgeAnswers": [
+    {
+      "id": "HIP-03-K01",
+      "correctIndex": 0,
+      "rationale": "The construction team cleans inside the works zone. The hospital clean starts outside the hoarding and is done by facility staff."
+    },
+    {
+      "id": "HIP-03-K02",
+      "correctIndex": 0,
+      "rationale": "The class comes from the combination of activity type and patient area, read from the approved matrix."
+    },
+    {
+      "id": "HIP-03-K03",
+      "correctIndex": 1,
+      "rationale": "Barrier removal waits for inspection and clearance by the infection prevention team, so dust is not spread from the works zone."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock works zone with barriers and a dust mat, the learner checks each barrier and records the gap they find.",
+    "The learner names the vacuum type the plan requires and explains why a broom is not used in a clinical area."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Barrier check log for the mock zone",
+    "Assessor observation record"
+  ],
+  "stopWorkCriteria": [
+    "A barrier has a gap or a broken seal and the infection prevention team cannot be reached",
+    "A request is made to remove a barrier before inspection clearance"
+  ]
+}

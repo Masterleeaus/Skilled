@@ -1,0 +1,139 @@
+{
+  "id": "HCG-13",
+  "title": "Reusable equipment: risk categories",
+  "courseSlugs": [
+    "healthcare",
+    "medequip"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaning staff who work near reusable clinical devices, and staff who must recognise which items are outside their role.",
+  "prerequisites": [
+    "HCG-01",
+    "HCG-06"
+  ],
+  "learningOutcomes": [
+    "Name the three risk categories used for patient-care items.",
+    "Match a category to the contact site it describes.",
+    "Explain why a cleaner must not classify an item by appearance."
+  ],
+  "instruction": [
+    {
+      "heading": "The three categories",
+      "body": "Equipment that touches patients falls into three categories by infection hazard. The top category is critical, the middle one is semi-critical, and the lowest is non-critical. Critical devices penetrate sterile areas of the body and need sterility at the moment they are used. Semi-critical devices meet mucosa or damaged skin; they are disposable or undergo sterilisation after every use. Non-critical devices touch only unbroken skin, where careful cleaning is usually adequate."
+    },
+    {
+      "heading": "Examples from the guideline",
+      "body": "Scalpels and other surgical tools, urinary and cardiac catheters, implants and probes placed inside sterile cavities fall under critical. Breathing-support and anaesthetic kit, certain endoscopes and laryngoscope blades are semi-critical. Stethoscopes, blood pressure cuffs, non-invasive ultrasound heads and commodes are non-critical."
+    },
+    {
+      "heading": "Single-use and reusable devices",
+      "body": "Devices meant for repeat use have to appear on the Therapeutic Goods Administration register. Anything labelled disposable is never reprocessed. A site that chooses to reprocess such items needs a TGA licence, takes on a manufacturer's responsibilities and must submit to audit. This lesson does not confer any right to reprocess."
+    },
+    {
+      "heading": "Why appearance is not enough",
+      "body": "Two items can look alike yet fall into different categories. A blood pressure cuff and a flexible device that goes into the body may both be grey plastic objects beside a bed, but one touches intact skin and the other does not. The category depends on the contact site and the maker's labelling, so a cleaner checks the facility list rather than guessing."
+    }
+  ],
+  "procedure": [
+    "Find the facility's list of equipment categories for your area.",
+    "Identify the item and read its label or the category on the list.",
+    "Confirm the contact site: intact skin, mucous membrane, broken skin or sterile tissue.",
+    "Apply the cleaning method that the category and the facility's procedure set for that item.",
+    "If the category is unclear, leave the item and refer it to the supervisor.",
+    "Record the item and its category if the facility requires it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "You need to clean a stethoscope and a bronchoscope cart in a clinic. The cart has a label you cannot fully read.",
+      "decisionPrompt": "What should you do with the bronchoscope?",
+      "reasoning": "Do not clean or reprocess the bronchoscope unless the facility has authorised it in writing. Leave it, refer the unreadable label to the supervisor, and clean the stethoscope with the approved method for non-critical items."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Disposable gloves suited to the item type",
+    "Facility category list for the area"
+  ],
+  "commonErrors": [
+    {
+      "error": "Judging the category by how an item looks.",
+      "prevention": "Use the facility list and the item's label."
+    },
+    {
+      "error": "Reprocessing a disposable item because it appears spotless.",
+      "prevention": "Single-use items are not reprocessed. Remove them under the waste rules."
+    },
+    {
+      "error": "Assuming a non-critical item needs no cleaning.",
+      "prevention": "Non-critical items still need cleaning after each use, as the category sets."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A facility that reprocesses single-use devices must hold a TGA licence and is treated as a manufacturer. A cleaner does not gain that authority by completing this lesson (licence notice).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Prions, the agents behind diseases such as cCJD, survive the methods listed for ordinary reprocessing. The guideline advises single-use items where possible and destruction by incineration afterwards. Follow the facility's specialist advice.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Learner names the three categories and one example of each.",
+    "Learner states what to do with an item whose category is unclear.",
+    "Learner does not reprocess an item outside their authorised role."
+  ],
+  "documentationEvidence": [
+    "Category list reference for the area",
+    "Referral record for any item with an unclear category"
+  ],
+  "summary": [
+    "The three bands track where the item touches the body and how much infection risk that contact carries.",
+    "Reusable devices return to service only if TGA-registered; disposables are never run through reprocessing.",
+    "Categories are read from the facility list and the label, not from appearance."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HCG-13-K01",
+      "question": "Which category applies to an item that touches only intact skin?",
+      "options": [
+        "Critical kit.",
+        "Semi-critical.",
+        "Non-critical.",
+        "Sterile tissue."
+      ]
+    },
+    {
+      "id": "HCG-13-K02",
+      "question": "What does the guideline say about single-use devices?",
+      "options": [
+        "They should be reprocessed carefully after each patient and then stored with the clean kit",
+        "They stay out of reprocessing unless the facility holds a TGA licence covering that work.",
+        "They can be reused if they look clean and they are sold back to the supplier",
+        "They should be sterilised at home by the staff member on their own time each week"
+      ]
+    },
+    {
+      "id": "HCG-13-K03",
+      "question": "Why must a cleaner not classify an item by its appearance?",
+      "options": [
+        "Because all items look identical under the light and the room lights are always dim",
+        "Because the category depends on the contact site and labelling, which appearance does not reveal.",
+        "Because the manufacturer forbids touching any item and no one may open the drawer at all",
+        "Because categories are assigned by the shift supervisor only and not by the facility list"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, B1.5.1, B1.5.2 (Table B1.13), B1.5.6 (Table B1.14, storage); rights: not held by user; reworded (no copying)",
+    "Source priority: the NHMRC guideline is an official Australian source. Where it conflicts with informal or in-house cleaning advice, the guideline governs the points this lesson relies on.",
+    "Australian Guidelines for Prevention and Control of Infection in Healthcare, edition note: the 2019 edition is the current edition (NHMRC, https://www.safetyandquality.gov.au/sites/default/files/2026-05/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf; CONFIRMED in the figures register, checked 2026-11-02); the uploaded copy read on 2026-11-02 is the 2010 edition, so points taken from it are UNCONFIRMED against the 2019 text. The existing aged-care and medical-equipment lessons cite the 2019 edition.",
+    "Cross-checked against medical-equipment-cleaning-L02 (existing curriculum lesson): both teach the critical, semi-critical and non-critical categories and the rule that appearance is not a classification. The existing medical-equipment lessons cite AS 5369:2023, which replaces AS/NZS 4187:2014 (superseded December 2023; Australian Commission on Safety and Quality in Health Care advisory, checked 2026-11-02).",
+    "CONFIRMED: AS/NZS 4187:2014 is replaced by AS 5369:2023 (checked 2026-11-02); the uploaded text names only AS/NZS 4187."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

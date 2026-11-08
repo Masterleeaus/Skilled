@@ -1,0 +1,178 @@
+{
+  "id": "car-detailing-L01",
+  "title": "Service boundaries and consent",
+  "courseSlugs": [
+    "cardetail"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Car detailers who take bookings, agree the work order and decide what is in and out of scope.",
+  "referencesAtStart": "Official sources: EPA Victoria, Car wash wastewater (information page) (reviewed 5 October 2023); ACCC, False or misleading claims (no date in body; page metadata shows 28 June 2026); ACCC, Consumer rights and guarantees (no date in body; page metadata shows 17 July 2026).",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Verify consent, scope and the vehicle condition before any work starts.",
+    "Separate routine washing from correction and restoration in a two-tier work order.",
+    "Stop and obtain authorisation before changing the scope of the work."
+  ],
+  "instruction": [
+    {
+      "heading": "Agreeing the scope",
+      "body": "Begin with the agreed work order, the vehicle condition record, the product instructions and the site risk assessment. Before work, verify the consent, the scope, the surroundings, access, weather, the surface condition, and whether the activity is permitted at this site. A booking that says basic wash does not include paint correction or stain removal, and the difference is written into the work order."
+    },
+    {
+      "heading": "Routine work and specialist work",
+      "body": "Prepare a two-tier work order. The first tier lists the authorised wash tasks, with the price and estimated duration. The second tier lists the specialist work, such as paint correction or stain removal, that needs its own agreement, its own price and its own assessment. Record the protected personal possessions and any unresolved damage before the vehicle is touched. Show the specialist tier as its own price line, because the Australian Consumer Law stops a business making false claims about price or about what a service will achieve (ACCC, false or misleading claims, metadata 28 June 2026)."
+    },
+    {
+      "heading": "When the scope changes",
+      "body": "If a customer expects work that was not agreed, such as paint correction at no extra cost, do not absorb it into a routine wash. Record what is known, what is uncertain, the immediate safe action, and who has authority to approve the next step. Do not continue on assumptions. Services must be performed competently and must suit a purpose the customer has told you about (ACCC, consumer rights and guarantees, metadata 17 July 2026). The customer decides the extra work only after it has been priced and agreed. Conditions vary by state, territory and country. The local law and the manufacturer's instructions govern, and this lesson does not substitute for them."
+    },
+    {
+      "heading": "Stop rules",
+      "body": "Stop when equipment is defective, when a substance is unidentified, when wastewater cannot be lawfully controlled, when exposed vehicle electronics could be damaged, when the public cannot be protected, or when the task exceeds your demonstrated competence. Isolate the hazard and seek a competent supervisor or specialist."
+    }
+  ],
+  "procedure": [
+    "Verify consent, scope, surroundings, access, weather, surface condition and whether the site permits the work.",
+    "Prepare a two-tier work order: authorised wash tasks and specialist work, each priced.",
+    "Record protected possessions, estimated duration and unresolved damage.",
+    "Stop and record any request outside the agreed scope, and obtain authorisation before changing it.",
+    "Apply the stop rules, isolate any hazard and seek a competent supervisor."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A customer books a basic wash but expects paint correction and stain removal at no extra cost.",
+      "decisionPrompt": "How do you respond?",
+      "reasoning": "Explain that paint correction and stain removal are specialist tasks outside the basic wash. Present them as a separately priced tier on the work order. Record the request, and do not start the specialist work until the customer has agreed the price and the scope."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Two-tier work order template.",
+    "Vehicle condition record and camera for pre-existing defects, with permission."
+  ],
+  "commonErrors": [
+    {
+      "error": "Absorbing paint correction into a basic wash.",
+      "prevention": "Put specialist work on a separate priced tier."
+    },
+    {
+      "error": "Starting work on an assumption about the condition.",
+      "prevention": "Record the condition and confirm before starting."
+    },
+    {
+      "error": "Continuing when wastewater cannot be controlled.",
+      "prevention": "Stop and seek approved wastewater controls."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Vehicle-wash wastewater can carry detergent, oil and grime into stormwater drains and waterways. The EPA Victoria page reports that car washes were inspected for failing to capture, treat or properly dispose of wash water, and it does not name a numeric limit (EPA Victoria, reviewed 5 Oct 2023). The same page identifies no legal obligation on people who wash cars at home, and it recommends a commercial wash instead. Discharge follows the local rules and the site's controls.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Claims about price, results or consumer remedies must be accurate, and leaving out a material detail can itself mislead (ACCC, false or misleading claims, metadata 28 Jun 2026). Services carry a guarantee of competent performance (ACCC, consumer rights and guarantees, metadata 17 Jul 2026).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Two-tier work order completed with price and duration on each tier.",
+    "Out-of-scope request identified and held until authorised, in the case study.",
+    "Stop rules stated and applied in the simulated scenario."
+  ],
+  "documentationEvidence": [
+    "Signed two-tier work order.",
+    "Record of protected possessions, unresolved damage and any scope change."
+  ],
+  "summary": [
+    "Agree the scope in writing before work starts.",
+    "Keep specialist work on a separate priced tier.",
+    "Stop and obtain authority for any change in scope."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:services.service_description}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "car-detailing-L01-K01",
+      "question": "A customer expects paint correction in a basic wash booking. What is correct?",
+      "options": [
+        "Include it at no charge, since it is a small extra for the customer",
+        "Do it quietly during the wash, without mentioning it to the customer",
+        "Put it on a separate priced tier and agree it before starting"
+      ]
+    },
+    {
+      "id": "car-detailing-L01-K02",
+      "question": "When must you stop work?",
+      "options": [
+        "When a substance is unidentified or wastewater cannot be controlled",
+        "Only when the customer complains about the finish after the wash",
+        "Never during a wash, even if the customer asks for a change"
+      ]
+    },
+    {
+      "id": "car-detailing-L01-K03",
+      "question": "What must be recorded before the vehicle is touched?",
+      "options": [
+        "Nothing, since the vehicle can be touched straight away",
+        "Protected possessions, estimated duration and unresolved damage",
+        "Only the price the customer agreed to pay on the day here"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Car wash wastewater (information page)",
+      "url": "https://www.epa.vic.gov.au/about-epa/news-media-and-updates/media-releases-and-news/what-really-goes-down-the-drain-when-you-wash-your-car",
+      "pageDate": "Reviewed 5 October 2023",
+      "checked": "2026-11-03",
+      "covers": "EPA Victoria website: car wash wastewater information page. Other states: their EPA or environment agency. Publisher: EPA Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "False or misleading claims",
+      "url": "https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims",
+      "pageDate": "No date in body; page metadata 28 June 2026",
+      "checked": "2026-11-03",
+      "covers": "ACCC website: Advertising and promotions, false or misleading claims. Publisher: Australian Competition and Consumer Commission (ACCC)."
+    },
+    {
+      "id": "R3",
+      "title": "Consumer rights and guarantees",
+      "url": "https://www.accc.gov.au/business/selling-products-and-services/consumer-rights-and-guarantees",
+      "pageDate": "No date in body; page metadata 17 July 2026",
+      "checked": "2026-11-03",
+      "covers": "ACCC website: Selling products and services, consumer rights and guarantees (services section). Publisher: Australian Competition and Consumer Commission (ACCC)."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: Car wash wastewater (information page); False or misleading claims; Consumer rights and guarantees.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/car-detailing-L01.json (draft pass, not technically reviewed)",
+    "PARTIAL: Victoria wastewater position from EPA Victoria (R1); NSW and other state and territory rules: UNCONFIRMED.",
+    "UNCONFIRMED: this draft describes general practice and is not a verified legal or manufacturer requirement.",
+    "R1 https://www.epa.vic.gov.au/about-epa/news-media-and-updates/media-releases-and-news/what-really-goes-down-the-drain-when-you-wash-your-car (page date: Reviewed 5 October 2023; checked 2026-11-03)",
+    "R2 https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims (page date: No date in body; page metadata 28 June 2026; checked 2026-11-03)",
+    "R3 https://www.accc.gov.au/business/selling-products-and-services/consumer-rights-and-guarantees (page date: No date in body; page metadata 17 July 2026; checked 2026-11-03)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-08.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    },
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-09.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    }
+  ]
+}

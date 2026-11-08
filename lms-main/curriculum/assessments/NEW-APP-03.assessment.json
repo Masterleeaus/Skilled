@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-APP-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-APP-03-K01",
+      "correctIndex": 3,
+      "rationale": "Stored heat, oil and energy can remain after switch-off. Isolation at the supply point is the control that removes the risk."
+    },
+    {
+      "id": "NEW-APP-03-K02",
+      "correctIndex": 0,
+      "rationale": "Stillness is confirmed by observation and listening after isolation. Pressing start to test the machine is the wrong method."
+    },
+    {
+      "id": "NEW-APP-03-K03",
+      "correctIndex": 1,
+      "rationale": "Switchboards are not opened by cleaners. If the isolator is not reachable under the site procedure, the job is stopped and referred."
+    },
+    {
+      "id": "NEW-APP-03-K04",
+      "correctIndex": 2,
+      "rationale": "The machine is turned off, allowed to stop, then isolated before cleaning near moving or powered parts."
+    },
+    {
+      "id": "NEW-APP-03-K05",
+      "correctIndex": 3,
+      "rationale": "Only the person who applied the isolation removes it, and only after checking that the machine is clear."
+    }
+  ],
+  "practicalCriteria": [
+    "Turns the appliance off by its control, then isolates at the supply point per the site procedure",
+    "Confirms stillness by observation and listening without pressing start",
+    "Does not open a switchboard, remove a panel or defeat an interlock",
+    "Records isolation applied and removed, with names and times"
+  ],
+  "passRule": "Knowledge checks: at least 4 of 5 correct (80%). Practical sign-off is separate: an assessor observes the practical criteria and records the result. A knowledge pass is not practical competence and does not grant any licence or authority.",
+  "evidenceRequired": [
+    "Isolation record with method, times and names",
+    "Lock or tag applied where the site provides them",
+    "Referral record where isolation was not possible"
+  ],
+  "stopWorkCriteria": [
+    "Machine still moving after isolation",
+    "Isolator not reachable under the site procedure, and the worker proceeds",
+    "Any attempt to reset a tripped device to test the machine"
+  ]
+}

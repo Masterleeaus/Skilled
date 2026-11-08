@@ -1,0 +1,37 @@
+{
+ "lessonId": "PBP-01",
+ "knowledgeAnswers": [
+  {
+   "id": "PBP-01-K01",
+   "correctIndex": 1,
+   "rationale": "Heater repair needs a licensed person and is outside the regular service. It is excluded and referred."
+  },
+  {
+   "id": "PBP-01-K02",
+   "correctIndex": 2,
+   "rationale": "A service that depends on a product not yet listed in the operator plan is deferred or referred, with the reason and a review date recorded."
+  },
+  {
+   "id": "PBP-01-K03",
+   "correctIndex": 3,
+   "rationale": "The sample offers a structure only. Its descriptions, prices and times are hypothetical and must not be reused."
+  }
+ ],
+ "practicalCriteria": [
+  "Service list states inclusions, exclusions and dependencies for each service",
+  "Referral list names each excluded task and its route",
+  "No sample figure, promised outcome or response time appears in the offer",
+  "Each licence-dependent service is marked as referred or left out"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Completed service list and referral list",
+  "Assessor review against the scope rules"
+ ],
+ "stopWorkCriteria": [
+  "Service offered that requires a licence the business does not hold",
+  "Sample prices or response times used as the business's own"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

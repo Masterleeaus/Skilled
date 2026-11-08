@@ -1,0 +1,190 @@
+{
+  "id": "NEW-STR-01",
+  "title": "Strata by-laws, common property and access rules",
+  "courseSlugs": [
+    "strata"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners working in strata and common-area buildings who must follow the building's rules.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Identify the building's by-laws, the common property and the access rules before work.",
+    "Distinguish common property from private lots, and clean only what is in scope.",
+    "Follow the access and notice rules and escalate any conflict with the owners' corporation or manager."
+  ],
+  "instruction": [
+    {
+      "heading": "Reading the rules",
+      "body": "A strata or common-area building has rules set out in its by-laws and its access arrangements. Before work, obtain the relevant rules: what the common property is, who controls access to it, when work may be done, and what notice is needed. The by-laws differ between buildings, and the building manager or the owners' corporation can confirm them. In NSW, the owners corporation, working through the strata committee, is responsible for repairing and maintaining common property, while owners handle repairs inside their own lot (NSW Government strata repairs page; last updated 22 June 2026). Victoria's Owners Corporations Act 2006 is in force, and its current version shows an effective date of 9 September 2026 (legislation page; duty wording not read). Victoria also lets an owners corporation restrict short stays through a rule backed by three quarters of lot owners (Consumer Affairs Victoria page; last updated 8 January 2025)."
+    },
+    {
+      "heading": "Common property and private lots",
+      "body": "Common property includes the lobby, the stairs, the lifts, the corridors and the shared facilities. Private lots belong to individual owners or tenants. Clean only the common property you are contracted for, and do not enter a private lot unless the owner or the manager has authorised it in writing. Do not move residents' property in common areas."
+    },
+    {
+      "heading": "Access and conflict",
+      "body": "Follow the access and notice rules, including key and fob control, quiet hours and the route for deliveries. If a resident objects, or if a rule conflicts with the work order, stop that part of the task and refer the conflict to the building manager. Record the conflict and the decision, and do not resolve it yourself."
+    }
+  ],
+  "procedure": [
+    "Obtain the building rules, common property boundaries, access arrangements and notice requirements.",
+    "Clean only the contracted common property.",
+    "Do not enter a private lot without written authority.",
+    "Follow the key, fob, quiet-hour and delivery rules.",
+    "Refer any conflict between a rule, a resident and the work order to the manager, and record it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A resident asks you to clean the inside of their private balcony during the lobby clean.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Explain that the private balcony is not in the contracted common-area scope. Refer the request to the building manager, and do not clean the balcony unless it is authorised in writing."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Building rules and access sheet.",
+    "Key or fob record for the access control."
+  ],
+  "commonErrors": [
+    {
+      "error": "Cleaning a private lot because the owner asked.",
+      "prevention": "Refer to the manager and require written authority."
+    },
+    {
+      "error": "Propping a fire door or fob-controlled door open.",
+      "prevention": "Follow the access rules and do not prop doors."
+    },
+    {
+      "error": "Resolving a resident complaint yourself.",
+      "prevention": "Refer the conflict to the manager and record it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Strata rules differ by state and territory and by building. The building's by-laws and the manager's instructions govern the work.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Content is general cleaning practice and needs subject-matter and regulator review before use.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The NSW planning notice (version dated 22 December 2025) makes it an offence to obstruct or interfere with the operation of fire doors, but it does not name propping them open. Keep fire doors clear and follow the building's access rules (page version dated 22 December 2025).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Building rules obtained and common-property scope confirmed in the simulation.",
+    "Private-lot request referred and not actioned in the case study."
+  ],
+  "documentationEvidence": [
+    "Building rules and access record.",
+    "Conflict and referral record."
+  ],
+  "summary": [
+    "Obtain the building rules before work.",
+    "Clean only the contracted common property.",
+    "Refer conflicts to the manager and record them."
+  ],
+  "businessFields": [
+    "{{business:customers.access_instructions}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-STR-01-K01",
+      "question": "A resident asks you to clean their private balcony. What is correct?",
+      "options": [
+        "Clean it, since the resident asked for it on the day of the visit",
+        "Refer to the manager and clean only with written authority",
+        "Clean it quickly and move on to the next unit today"
+      ]
+    },
+    {
+      "id": "NEW-STR-01-K02",
+      "question": "What is common property?",
+      "options": [
+        "Each owner's flat and its contents inside the door",
+        "The manager's office only, and its desk and files",
+        "Shared areas such as the lobby, stairs and lifts"
+      ]
+    },
+    {
+      "id": "NEW-STR-01-K03",
+      "question": "A rule conflicts with the work order. What is correct?",
+      "options": [
+        "Stop that part and refer it to the manager",
+        "Decide it yourself on the spot, since you can",
+        "Ignore the rule, since it is not your job"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use.",
+    "UNCONFIRMED: applicable state and territory strata legislation.",
+    "Conditions vary by state, territory and country, and the local rules and the manufacturer's instructions govern. This lesson does not substitute for them."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Strata repairs and maintenance (NSW)",
+      "url": "https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance",
+      "pageDate": "Last updated 22 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Check which repairs fall to the owners corporation and which fall to owners. Publisher: NSW Government."
+    },
+    {
+      "id": "R2",
+      "title": "Body Corporate and Community Management Act 1997 (Qld)",
+      "url": "https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1997-028",
+      "pageDate": "in-force version dated 1 August 2025",
+      "checked": "2026-11-03",
+      "covers": "Read the full Act. Section 36 was seen only in part, and the by-law provisions were not seen. Publisher: Queensland Legislation."
+    },
+    {
+      "id": "R3",
+      "title": "Owners Corporations Act 2006 (Vic)",
+      "url": "https://www.legislation.vic.gov.au/in-force/acts/owners-corporations-act-2006",
+      "pageDate": "version 024 effective 9 September 2026",
+      "checked": "2026-11-03",
+      "covers": "Read the Act itself. The status page shows no duty wording. Publisher: Victorian Legislation."
+    },
+    {
+      "id": "R4",
+      "title": "Making rules to ban short stay accommodation (Vic)",
+      "url": "https://www.consumer.vic.gov.au/housing/owners-corporations/rules/making-rules-to-ban-short-stay-accommodation",
+      "pageDate": "Last updated 8 January 2025",
+      "checked": "2026-11-03",
+      "covers": "Check the special resolution threshold and the 1 January 2025 commencement. Publisher: Consumer Affairs Victoria."
+    },
+    {
+      "id": "R5",
+      "title": "Offence relating to fire exits (NSW planning notice)",
+      "url": "https://www.planning.nsw.gov.au/sites/default/files/2023-03/fire-safety-notice-offence-relating-to-fire-exits.pdf",
+      "pageDate": "Version 22 December 2025",
+      "checked": "2026-11-03",
+      "covers": "Read the full notice. Propping open is not named on the part read. Publisher: NSW Department of Planning."
+    }
+  ],
+  "referencesAtStart": "Official sources: NSW Government, Strata repairs and maintenance (last updated 22 June 2026); Queensland Legislation, Body Corporate and Community Management Act 1997 (in-force version dated 1 August 2025); Victorian Legislation, Owners Corporations Act 2006 (version 024, effective 9 September 2026); Consumer Affairs Victoria, Making rules to ban short stay accommodation (last updated 8 January 2025); NSW Planning, Offence relating to fire exits (version 22 December 2025).",
+  "referencesAtEnd": "Check the current rule on each official page: Strata repairs and maintenance (https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance); Body Corporate and Community Management Act 1997 (https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1997-028); Owners Corporations Act 2006 (https://www.legislation.vic.gov.au/in-force/acts/owners-corporations-act-2006); Making rules to ban short stay accommodation (https://www.consumer.vic.gov.au/housing/owners-corporations/rules/making-rules-to-ban-short-stay-accommodation); Offence relating to fire exits (https://www.planning.nsw.gov.au/sites/default/files/2023-03/fire-safety-notice-offence-relating-to-fire-exits.pdf).",
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-01.jpg",
+      "alt": "Strata and common-area cleaning illustration",
+      "kind": "photo",
+      "origin": "strata"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-02.jpg",
+      "alt": "Strata and common-area cleaning illustration",
+      "kind": "photo",
+      "origin": "strata"
+    }
+  ]
+}

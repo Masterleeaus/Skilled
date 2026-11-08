@@ -1,0 +1,145 @@
+{
+  "id": "C03-L01",
+  "title": "Toilet and shower detailed procedures",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "strata"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Revenue and growth",
+  "layer": "group",
+  "lessonType": "RH",
+  "estimatedMinutes": 55,
+  "audience": "Cleaners doing toilet and shower work in residential, commercial, bond, short-stay and strata settings.",
+  "prerequisites": [
+    "F06-L02",
+    "F06-L03",
+    "F06-L04"
+  ],
+  "learningOutcomes": [
+    "Explain the hazards and quality standards for toilet and shower hygiene.",
+    "Apply a toilet and shower procedure that keeps toilet tools apart from other surfaces.",
+    "Stop and correct a cross-use of tools, and record the event."
+  ],
+  "instruction": [
+    {
+      "heading": "Reading the bathroom before you start",
+      "body": "A residential bathroom with a toilet, a shower screen, chrome fittings and a porous grout line presents several surfaces that respond differently. Visible soap film and an odour point to a combination of soap residue and organic soil. Before work, identify the fixture materials, confirm the agreed scope, check ventilation, and read the product labels. The grout is porous, so it takes up soil and product, which is one reason to keep the cleaning sequence and the product choice deliberate."
+    },
+    {
+      "heading": "Setting up and working in order",
+      "body": "Prepare a designated toilet-only tool set and keep it apart from every other tool. Remove loose debris first. Apply approved products to compatible surfaces, following the label directions, and work from less contaminated areas to more contaminated ones. Use separate cloths for the toilet exterior and the bowl. Avoid aerosol-generating methods, which spread fine droplets, and rinse where the label instructs. Finish by drying and inspecting the surfaces."
+    },
+    {
+      "heading": "When a tool crosses zones",
+      "body": "A worker may want to use the toilet cloth on a shower tap to save time. Stop, replace the cloth with a clean one from the correct zone, and explain the contamination pathway: soil from the toilet can move onto a surface people touch with their hands. Record the correction. The time saved is never worth the transfer."
+    },
+    {
+      "heading": "Quality standard and records",
+      "body": "The finished bathroom has no cross-use of toilet tools, no unapproved chemical mixing, no damaged finish, visible soil removed, and fixtures inspected. Record the product used where required, any exceptions, the corrective actions and the supervisor's sign-off."
+    }
+  ],
+  "procedure": [
+    "Identify fixture materials, confirm scope, ventilation and product labels.",
+    "Prepare a toilet-only tool set and keep it apart from other tools.",
+    "Remove loose debris, then apply approved products to compatible surfaces following the label.",
+    "Clean from less contaminated to more contaminated, using separate cloths for the exterior and the bowl.",
+    "Avoid aerosol-generating methods, rinse as instructed, dry and inspect.",
+    "If a tool crosses zones, stop, replace the tool and record the correction."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A residential bathroom has a toilet, shower screen, chrome fittings and a porous grout line. The client reports visible soap film and an odour.",
+      "decisionPrompt": "What do you do first, and what would make you stop?",
+      "reasoning": "Identify the fixture materials and confirm the scope and product labels. Stop if the cleaning needs an unapproved chemical, if the tools cannot be kept apart, or if a damaged finish is found. Verify completion by inspecting each fixture against the checklist."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Toilet-only tools and cloths, colour-coded per site procedure.",
+    "Approved toilet and bathroom products, with labels and SDS available.",
+    "Gloves and eye protection as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using the toilet cloth on a shower tap.",
+      "prevention": "Keep toilet tools in their own zone and replace any tool that crosses."
+    },
+    {
+      "error": "Using a spray method that throws droplets around the room.",
+      "prevention": "Use a method that avoids aerosols, as the procedure directs."
+    },
+    {
+      "error": "Mixing products to remove soap film faster.",
+      "prevention": "Use one approved product at a time."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Follow the product label and safety data sheet for dilution, dwell time and PPE.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "No cross-use of toilet tools during the practical.",
+    "No unapproved chemical mixing.",
+    "No damage to the finish, and visible soil removed and fixtures inspected."
+  ],
+  "documentationEvidence": [
+    "Product record where required.",
+    "Exceptions and corrective-action record.",
+    "Supervisor sign-off."
+  ],
+  "summary": [
+    "Read the fixtures and scope before starting.",
+    "Keep toilet tools in their own zone and work from less to more contaminated.",
+    "Stop and replace any tool that crosses zones.",
+    "Inspect and record the result."
+  ],
+  "businessFields": [
+    "{{business:procedures.task_steps}}",
+    "{{business:materials.approved_products}}",
+    "{{business:quality.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C03-L01-K01",
+      "question": "Why must toilet cloths not be used on a shower tap?",
+      "options": [
+        "Because toilet soil can move onto a surface people touch",
+        "Because the tap finish scratches easily under a damp cloth",
+        "Because the cloth will be too wet"
+      ]
+    },
+    {
+      "id": "C03-L01-K02",
+      "question": "Why are aerosol-generating methods avoided in a bathroom?",
+      "options": [
+        "They use too much product on each surface",
+        "They spread fine droplets around the room",
+        "They are slower and tire the cleaner out"
+      ]
+    },
+    {
+      "id": "C03-L01-K03",
+      "question": "What should you do if a tool crosses zones during a toilet clean?",
+      "options": [
+        "Rinse it at the sink and continue the toilet clean today",
+        "Use it on the floor only, then carry on with the basin and the mirror",
+        "Replace the tool, stop the transfer, and record the correction"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/C03-L01.json (editorial pass, not technically reviewed)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

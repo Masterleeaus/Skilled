@@ -1,0 +1,201 @@
+{
+  "id": "pond-cleaning-L04",
+  "title": "Water chemistry and pH interpretation for ponds",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Pond maintenance workers who read water-test results and support client decisions about water quality in ponds and water features",
+  "prerequisites": [
+    "F03-L01",
+    "pond-cleaning-L03"
+  ],
+  "learningOutcomes": [
+    "Explain how pH, ammonia, nitrite, nitrate and carbonate hardness are linked in a pond, and why they are read together",
+    "Interpret a set of pond test results and identify which reading drives the next step under the client plan",
+    "Refuse to add pool or other non-pond chemicals to a pond, and explain why",
+    "Refer a result or a fish-health concern that the client plan does not cover, rather than experimenting with treatment"
+  ],
+  "instruction": [
+    {
+      "heading": "A pond is a living chemical system",
+      "body": "A pond holds fish, plants, bacteria and decaying matter in one body of water. The chemistry shifts as these change. Fish waste and uneaten feed release ammonia. Bacteria in the filter and in the pond convert ammonia to nitrite and then nitrite to nitrate. Plants take up some nitrogen and carbon dioxide, and their photosynthesis and respiration change the pH over a day. Because these processes are linked, one reading on its own rarely explains a problem. Read the set of results together, against the last visit, and against the client plan. Do not work from numbers remembered from another system; use the target set for this pond."
+    },
+    {
+      "heading": "Reading the results together",
+      "body": "Ammonia and nitrite are both harmful to fish, and the level of ammonia that matters depends on pH and temperature, because a higher pH shifts more ammonia into its more harmful form. This is a technique point and no source is checked for it in this draft. Nitrate is the end product of the normal filter cycle, and a rising nitrate with falling ammonia and nitrite usually means the cycle is working. Carbonate hardness, often called KH, buffers pH, so unstable pH readings often point to low buffering. Green water usually reflects algae growth from nutrients and light rather than a fault in one chemical. Dissolved oxygen matters most after warm nights and heavy feeding, and where the client has a test for it, read it alongside the rest (“Water sampling and record integrity for ponds” and “Water-quality checks: temperature, dissolved oxygen, pH, clarity, hardness”). Look at the whole set, the trend and the fish behaviour before deciding what the next step is."
+    },
+    {
+      "heading": "No sanitiser, no pool chemicals, and tap water first",
+      "body": "Pool sanitisers and pool chemicals are not for ponds. A sanitiser that kills microorganisms in a pool can also harm fish, plants and the bacteria that keep the pond working. Chlorine and chloramine in tap water are harmful to fish and must be removed before tap water is added to a pond. Keep pool chemicals, acids and any pond product in separate storage, and do not mix products in one container. Many pool sanitisers are oxidisers. The Safe Work Australia guide treats oxidisers and flammable chemicals as incompatible and suggests keeping incompatible goods at least 3 metres apart when the chance of a reaction is small; that guide does not address acids, so each product's safety data sheet states its own incompatibilities, including with acids. The same separation applies in a pond service vehicle."
+    },
+    {
+      "heading": "Adjusting in the plan's order, and referring when the plan does not cover it",
+      "body": "The client plan sets which products may be used, in what order and at what dose. Add one product at a time, at the point and in the manner the label directs, and allow the water to mix before retesting. Record each reading and each product added, with amount and time. If readings do not respond as expected, do not add a larger dose to force a result. Recheck the sample and the reagent, compare with the trend, and follow the plan. If the plan does not cover the situation, stop the chemical adjustment and refer to the responsible person. Fish that are gasping, lying still at the surface, or showing sores or unusual colour need a qualified person."
+    }
+  ],
+  "procedure": [
+    "Read the client plan for target ranges, the adjustment order and the products the client has approved.",
+    "Confirm the sample is valid and the reagents are in date, as set out in the sampling lesson.",
+    "Read ammonia, nitrite, nitrate, pH and carbonate hardness, and any other test the plan asks for.",
+    "Compare the set of results with the last visit and identify the reading that drives the next step under the plan.",
+    "Check the safety data sheet and label for any product, and confirm it is approved for pond use.",
+    "Make one adjustment at a time, using the PPE set by {{business:safety.required_ppe}}, and keep pool chemicals out of the pond area.",
+    "Allow mixing time, retest and record each reading and each product added.",
+    "Refer to the responsible person if the plan does not cover the situation, or if the fish show distress."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client asks you to add pool chlorine tablets to a fish pond because the water has turned green.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Refuse to add the pool chlorine. Pool sanitisers are not for ponds, and they can harm the fish, the plants and the bacteria that keep the pond working. Explain the reason to the client, record the request and the refusal, and check the client plan for an approved approach to the algae. If there is no approved approach, refer the client to a qualified aquatic specialist."
+    },
+    {
+      "situation": "Ammonia reads slightly above zero the morning after the client fed the fish heavily. The client wants a bottled product poured in straight away.",
+      "decisionPrompt": "What is the correct response, and what does the record show?",
+      "reasoning": "Record the reading with the feeding time and amount, because feeding explains the reading. Do not add a product that is not in the client plan. Follow the plan's advice on feeding, retest after the plan's interval, and record the result. If the reading keeps rising, or the fish show distress, stop and refer. The record should show that the decision followed the plan and the readings, not the request alone."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Pond test kit or meter, with reagents in date",
+    "Client water-quality plan and approved product list",
+    "Safety data sheet and label for each product on site",
+    "Gloves and eye protection as set by {{business:safety.required_ppe}}",
+    "Dosing and test record form or system"
+  ],
+  "commonErrors": [
+    {
+      "error": "Adding sanitiser or pool chlorine to a pond to clear water.",
+      "prevention": "Pool sanitisers are not used in ponds. Refuse the request, record it and follow the client plan."
+    },
+    {
+      "error": "Acting on one value, such as a high nitrate, without reading the rest.",
+      "prevention": "Read ammonia, nitrite, nitrate, pH and hardness together, and compare with the trend."
+    },
+    {
+      "error": "Adding more product when a reading does not respond.",
+      "prevention": "Recheck the sample and reagent, then follow the plan or refer."
+    },
+    {
+      "error": "Storing pool chemicals or acids near pond products or in the same container.",
+      "prevention": "Store and carry each product separately, as its safety data sheet directs."
+    },
+    {
+      "error": "Adding untreated tap water to the pond.",
+      "prevention": "Remove chlorine and chloramine first, using the method on the product label and in the client plan."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The Safe Work Australia guide treats oxidisers and flammable chemicals as incompatible. Store, carry and dose pool products apart from acids and other incompatible products, as each product's safety data sheet states. Pool-product rules do not set the pond rule; the client plan and the product label do.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Applying algaecides or other pesticides for hire is outside this lesson. Do not apply any pesticide or algaecide until the state rules have been checked.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Medicines and fish treatments: this lesson does not authorise any treatment. Refer any treatment question to a qualified person.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Use the client plan or a qualified specialist for targets.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every adjustment follows the client plan, and the order of adjustment is recorded.",
+    "Each product added is recorded with amount, time and point of addition.",
+    "No pool chemical is used in a pond, and any refusal is recorded.",
+    "A result the plan does not cover is referred, with a written description of the readings and the symptoms."
+  ],
+  "documentationEvidence": [
+    "Test results set, with time, location and tester",
+    "Each product added, with amount, time and point of addition",
+    "Retest result after mixing",
+    "Referral record where the plan did not cover the situation"
+  ],
+  "summary": [
+    "Ammonia, nitrite, nitrate, pH and hardness are read together, against the trend and the plan.",
+    "Pool sanitisers and untreated tap water are not added to a pond.",
+    "Adjust one product at a time, in the plan's order, and retest before the next step.",
+    "Refer when the plan does not cover the result or when the fish show distress."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.handling_procedure}}",
+    "{{business:materials.sds_links}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:compliance.jurisdiction}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pond-cleaning-L04-K01",
+      "question": "Why does a higher pH matter when a pond is being assessed for ammonia?",
+      "options": [
+        "It makes the water taste better to the fish that live in it",
+        "A higher pH shifts more ammonia into its more harmful form",
+        "It stops the ammonia test from working properly on the sample",
+        "It has no effect on ammonia in the water at any level"
+      ]
+    },
+    {
+      "id": "pond-cleaning-L04-K02",
+      "question": "A client asks for pool chlorine to be added to a fish pond to clear green water. What is the correct response?",
+      "options": [
+        "Add a small dose, because it is only a little and the pond can easily take it today",
+        "Add the chlorine at night when the fish are asleep, so they are not disturbed at all",
+        "Refuse, record the request, and follow the client plan or refer to a qualified specialist",
+        "Mix the chlorine with the pond product in one bucket to save time on the visit today"
+      ]
+    },
+    {
+      "id": "pond-cleaning-L04-K03",
+      "question": "One reading in a set of pond results looks out of range. What is the best next step?",
+      "options": [
+        "Add a large dose immediately to correct it before the next visit comes around",
+        "Drain the pond to start again with fresh water from the tap at the site today",
+        "Ignore the reading because one result is not enough to act on at all",
+        "Read the full set of results, recheck the sample and reagent, and follow the plan"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Managing risks of storing chemicals in the workplace (PDF)",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1902/managing-risks-of-storing-chemicals-in-the-workplace_0.pdf",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Open Safe Work Australia's guide on managing risks of storing chemicals in the workplace and read the section on incompatible chemicals and separation methods. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Managing risks of storing chemicals in the workplace (PDF) (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-P1 Safe Work Australia, Managing risks of storing chemicals in the workplace (PDF), https://www.safeworkaustralia.gov.au/system/files/documents/1902/managing-risks-of-storing-chemicals-in-the-workplace_0.pdf, checked 2026-11-02, no edition date shown. Used for the principle that flammable and oxidising chemicals are incompatible and should be separated. The guide does not address acids specifically.",
+    "The safety data sheet for each pool product on site is the source for that product's incompatibilities and is read for each product. No product is named or recommended in this lesson.",
+    "research/topics/pond.md sections 2, 4 and 7, checked 2026-11-02: chemistry and tap-water treatment are technique points with no source checked in that pass.",
+    "UNCONFIRMED: numeric pond water-quality targets; the method for removing chlorine and chloramine from tap water; which professions may dose fish treatments; state pesticide and algaecide rules for hire; the effect of pH on ammonia as a quantified target.",
+    "Official references in officialReferences were read on 2026-11-03 (R1 to R1). The SRC entries above remain as the earlier source trail."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Check the current rule for each point on these official pages: Safe Work Australia, Managing risks of storing chemicals in the workplace (PDF) (no date shown).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-06.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/pond-photo-82213c7c-07.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    }
+  ]
+}

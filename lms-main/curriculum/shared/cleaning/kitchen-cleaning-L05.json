@@ -1,0 +1,142 @@
+{
+  "id": "kitchen-cleaning-L05",
+  "title": "Chemicals, SDS, labels and food-contact compatibility",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who select, dispense and store cleaning chemicals in kitchens.",
+  "prerequisites": [
+    "kitchen-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Verify product approval, dilution, contact time, rinsing and incompatible agents from the label and SDS.",
+    "Identify an unlabelled or unknown product and stop its use.",
+    "Keep chemicals separate from food and food-contact items during storage and use."
+  ],
+  "instruction": [
+    {
+      "heading": "Reading the product before using it",
+      "body": "Every chemical in a kitchen must be traceable to its label and its safety data sheet. Before you use a product, read the original container label for the intended use, the dilution, the contact time, the rinsing requirement, and any food-contact statement. Then check the SDS and the site's chemical register, where the site keeps one. If you cannot confirm the product, you do not use it. An unidentified bottle is not a cleaning product until someone can name it and show its label."
+    },
+    {
+      "heading": "Storage, dispensing and labelling",
+      "body": "Store chemicals below and apart from food, ingredients and food-contact items. Keep incompatible products apart, and never store a cleaning product near an open food container. Dispense only from the original container or from a labelled secondary container that carries the product name and hazard information as the site procedure requires. Never transfer a cleaning chemical into a food container, a drink bottle or any unlabelled vessel."
+    },
+    {
+      "heading": "Compatibility and mixing",
+      "body": "Do not mix products to improve performance. Mixing can produce hazardous gases or reduce the effectiveness of the product. If a product is not suited to the surface or the food-contact condition, do not use it, and escalate for an approved alternative. Where a product is food-contact approved, use it only as its label and the site procedure direct."
+    },
+    {
+      "heading": "Stopping when something is unknown",
+      "body": "When you find an unlabelled spray bottle beside uncovered food, quarantine the product, keep it away from the food, and prevent anyone from using it. Identify the source by asking the supervisor and checking the site's records, consult the SDS and the label where you can, and report the event under the site procedure. The supervisor decides whether the surrounding food or surfaces need to be discarded or re-cleaned. Your role is to isolate, identify and report."
+    }
+  ],
+  "procedure": [
+    "Read the original container label for use, dilution, contact time, rinsing and food-contact status.",
+    "Check the SDS and the site chemical register before first use.",
+    "Do not use an unidentified or unlabelled product. Quarantine it and report it.",
+    "Store and dispense chemicals apart from food, ingredients and food-contact items.",
+    "Never mix products, and never transfer a product into a food container.",
+    "Record the product used, its dilution and any exception."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An unlabelled spray bottle is found beside uncovered food on a preparation bench.",
+      "decisionPrompt": "What do you do before any other task?",
+      "reasoning": "Keep the bottle away from the food and prevent use. Do not open it or test it. Notify the supervisor, identify the source using the site's records, and let the supervisor decide what to do with the food and surfaces. Record the time, the location and who was told."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Gloves and eye protection as set by the product SDS.",
+    "Labelled spray bottles and dispensers for approved products only.",
+    "Secure chemical storage away from food.",
+    "Site chemical register and SDS folder accessible to the cleaner."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a product from an unlabelled bottle because it smells like the usual cleaner.",
+      "prevention": "Never use an unidentified product. Quarantine it and report it."
+    },
+    {
+      "error": "Mixing two products to get a stronger effect.",
+      "prevention": "Use one approved product at a time, rinsing as the label directs."
+    },
+    {
+      "error": "Decanting a product into a drink bottle.",
+      "prevention": "Use only labelled secondary containers approved by the site procedure."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Label, dilution and contact time verified before use in the simulated kitchen.",
+    "Unlabelled product identified and quarantined without use.",
+    "Storage and dispensing demonstrated away from food and food-contact items."
+  ],
+  "documentationEvidence": [
+    "Product record with label, dilution and contact time.",
+    "Report of any unidentified product, with time, location and who was informed."
+  ],
+  "summary": [
+    "Verify the product from the label and SDS before use.",
+    "Store and dispense chemicals apart from food.",
+    "Never mix products or decant them into food containers.",
+    "Quarantine and report anything unidentified."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.storage_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-cleaning-L05-K01",
+      "question": "An unlabelled spray bottle is found near uncovered food. What is the correct first action?",
+      "options": [
+        "Test a small amount on a surface to identify it",
+        "Keep it away from the food, prevent use, and notify the supervisor",
+        "Use it on the bench because it is probably the usual cleaner"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L05-K02",
+      "question": "Why must cleaning chemicals not be mixed to improve performance?",
+      "options": [
+        "Mixing stretches each product further, so it is thrifty",
+        "Mixing only matters for natural stone floors",
+        "Mixing can create hazards or reduce effectiveness"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L05-K03",
+      "question": "Where should a cleaning chemical be stored in a kitchen?",
+      "options": [
+        "Away from food, ingredients and food-contact items",
+        "On the top shelf above the food prep area",
+        "In an empty food container to save space"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-cleaning-L05.json (editorial pass, not technically reviewed)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises. The operator's food safety program governs the site. This lesson does not confer a food handling qualification."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,172 @@
+{
+  "id": "warehouse-deep-cleaning-L04",
+  "title": "Loading docks, trailers and vehicle movement",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners working around loading docks, trailers and vehicle movements in warehouses.",
+  "prerequisites": [
+    "warehouse-deep-cleaning-L10"
+  ],
+  "learningOutcomes": [
+    "Identify reversing vehicles, open dock edges and trailer movement as separate access risks.",
+    "Mark vehicle approach zones and dock-edge restrictions on a site plan.",
+    "Stop and refer any cleaning beside an active dock without approved segregation."
+  ],
+  "instruction": [
+    {
+      "heading": "Three different access risks",
+      "body": "Reversing delivery vehicles, open dock edges and trailer movement are separate hazards, and each needs its own control. A reversing vehicle can strike a person who is out of sight. An open dock edge can produce a fall. A trailer can move when it is not secured. Treat each as a distinct risk on the site plan and do not assume that one control covers the others."
+    },
+    {
+      "heading": "The decision gate",
+      "body": "Before work starts, review the work order, the named supervisor, the risk controls and the site movement plan. Compare what you see with the authorised plan. If the plan and the observed conditions diverge, suspend the affected task and document the difference. A wet-cleaning job scheduled beside reversing vehicles and an open dock edge is a stop-work condition until documented authority and specialist controls are in place."
+    },
+    {
+      "heading": "Scope and referral",
+      "body": "A cleaner may identify and report hazards, but may not stand in for a traffic controller, a plant isolation officer, an engineer or a hazardous-material specialist. Do not cross or clean an active loading dock without approved segregation. Leave the affected area restricted until the authority is documented."
+    },
+    {
+      "heading": "Recording",
+      "body": "Record the time, the location, the work-order identifier, what was observed as distinct from what was inferred, the supporting record, the person notified and any response. Keep the referral traceable, so that the site can see why the area remained restricted."
+    }
+  ],
+  "procedure": [
+    "Review the work order, supervisor, controls and movement plan before starting.",
+    "Mark vehicle approach zones and dock-edge restrictions on the site plan.",
+    "Compare observed conditions with the authorised plan, and suspend on divergence.",
+    "Do not cross or clean an active dock without approved segregation.",
+    "Refer matters outside your authority, and do not isolate plant or enter danger zones.",
+    "Record observations, inferences, the person notified and the restriction in place."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A wet-cleaning job is scheduled beside reversing delivery vehicles and an open dock edge.",
+      "decisionPrompt": "What is the restricted-scope response?",
+      "reasoning": "Stop. Leave the area restricted pending documented authority and the approved segregation. Record the conditions, the time and the person notified, and refer the job to the supervisor for a separated work zone."
+    }
+  ],
+  "equipmentAndPpe": [
+    "High-visibility clothing and safety footwear as the site requires.",
+    "Site movement plan.",
+    "Barriers and signs supplied by the site."
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating reversing vehicles and dock edges as one risk.",
+      "prevention": "Mark each hazard separately on the site plan."
+    },
+    {
+      "error": "Crossing an active dock to reach a corner.",
+      "prevention": "Do not cross without approved segregation."
+    },
+    {
+      "error": "Recording an inference as an observation.",
+      "prevention": "Separate what was seen from what was assumed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Vehicle movement and loading dock work are controlled by the site's traffic plan and the work health and safety duties that apply.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Operating forklifts or directing vehicles may require a licence or authority that this lesson does not grant. In NSW, you must have a high risk work licence in the relevant class to operate a forklift, and the LF class covers a forklift truck equipped with a mast and an elevating load carriage (SafeWork NSW forklift licences page; no visible date). The page states no capacity or load threshold.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Vehicle approach zones and dock-edge restrictions marked on the mock site plan.",
+    "Decision gate identified and the wet-clean job stopped in the case study.",
+    "Referral record traceable, distinguishing observed from unverified conditions."
+  ],
+  "documentationEvidence": [
+    "Mock site plan with restrictions.",
+    "Restricted-scope referral record with the authorising officer named or the authority shown as missing."
+  ],
+  "summary": [
+    "Treat reversing vehicles, dock edges and trailer movement as separate risks.",
+    "Suspend the task where the observed conditions differ from the plan.",
+    "Do not cross an active dock without approved segregation.",
+    "Refer, record and keep the area restricted."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:jobs.arrival_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "warehouse-deep-cleaning-L04-K01",
+      "question": "A wet-cleaning job is scheduled beside reversing delivery vehicles and an open dock edge. What do you do?",
+      "options": [
+        "Start early before the trucks arrive and clean the whole area at once",
+        "Clean the side away from the trucks only, since the other side is clear",
+        "Stop, leave the area restricted, and refer for documented authority"
+      ]
+    },
+    {
+      "id": "warehouse-deep-cleaning-L04-K02",
+      "question": "Why are reversing vehicles and dock edges treated as separate risks?",
+      "options": [
+        "Each needs its own control, and one control may not cover the other",
+        "They are not separate, since one control covers both of them",
+        "Only the dock edge is a real risk, since the trucks are slow and quiet"
+      ]
+    },
+    {
+      "id": "warehouse-deep-cleaning-L04-K03",
+      "question": "What may a cleaner do about a hazard that is outside their authority?",
+      "options": [
+        "Fix it yourself, since it is quick",
+        "Identify it, report it and refer it",
+        "Ignore it and carry on working"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Forklift licences",
+      "url": "https://www.safework.nsw.gov.au/licences-and-registrations/licences/high-risk-work-licences/hrw-accordions/forklift-licences",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Confirms the NSW rule only; check your state or territory regulator. Publisher: SafeWork NSW."
+    },
+    {
+      "id": "R2",
+      "title": "High risk work licence classes",
+      "url": "https://www.safework.sa.gov.au/licence-and-registration/apply-renew/high-risk-work-licences/hrw-classes",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Confirms the SA class LF entry only; check your state or territory regulator. Publisher: SafeWork SA."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: SafeWork NSW, Forklift licences (no date shown); SafeWork SA, High risk work licence classes (no date shown).",
+  "referencesAtEnd": "Check the current rule on these official pages: SafeWork NSW, Forklift licences (no date shown); SafeWork SA, High risk work licence classes (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/warehouse-deep-cleaning-L04.json (editorial or draft pass, not technically reviewed)",
+    "UNCONFIRMED: no source draft or research note specific to this site type. Content is general cleaning practice and needs subject-matter and site review.",
+    "UNCONFIRMED: state and territory traffic-management requirements at loading docks, and operator licence requirements for forklifts."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/postcon-photo-ea5db6cd-10.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/postcon-photo-ea5db6cd-11.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

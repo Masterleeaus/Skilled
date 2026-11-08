@@ -1,0 +1,167 @@
+{
+  "id": "C13-L05",
+  "title": "Machine and moisture control",
+  "courseSlugs": [
+    "carpet"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Carpet and upholstery cleaners who operate extraction and cleaning machines.",
+  "referencesAtStart": "Official sources: Safe Work Australia, Electrical risks at the workplace (fact sheet) (no date shown); Energy Safe Victoria, Electrical licences (reviewed 19 August 2024).",
+  "prerequisites": [
+    "C13-L03"
+  ],
+  "learningOutcomes": [
+    "Set up and check an extraction machine before use, including hoses, tools and the water recovery.",
+    "Control moisture so that the item is not over-wetted.",
+    "Stop and act on electrical or moisture faults during the job."
+  ],
+  "instruction": [
+    {
+      "heading": "Checking the machine",
+      "body": "Check the machine before use: the cord, the plug, the hoses, the tools, the seals and the recovery tank. Confirm that the water recovery works and that the tank is emptied as the procedure requires. Keep the cord clear of the work area, and keep the machine away from water on the floor. Do not use a machine with a damaged cord or a cracked hose. Portable equipment used in harsh conditions should be checked and tested on a regular basis by a qualified person, and commercial cleaning equipment should be tested at least every six months (Safe Work Australia, electrical risks fact sheet, no date shown). Equipment that has not been tested should stay out of use until it has been tested (same fact sheet)."
+    },
+    {
+      "heading": "Controlling moisture",
+      "body": "Use the least water that gives the result, and extract well after each pass. Over-wetting leaves water in the backing, which can cause shrinkage, colour bleed, odour and mould. Monitor the moisture, and do not leave the item wet overnight. Use air movement where the setting allows."
+    },
+    {
+      "heading": "Stopping on faults",
+      "body": "Stop and make the item safe if the machine trips, sparks, smells of burning or leaks into the power connection. Disconnect the machine as the procedure directs, and report it. Do not repair the machine or the electrical parts yourself. Unsafe electrical equipment must be disconnected or isolated and kept out of service until it is made safe by repair, testing, replacement or permanent removal (Safe Work Australia, electrical risks fact sheet, no date shown). In Victoria, doing electrical work requires an Energy Safe Victoria licence (Energy Safe Victoria, reviewed 19 August 2024). This lesson does not grant any electrical licence."
+    }
+  ],
+  "procedure": [
+    "Check the cord, plug, hoses, tools, seals and recovery tank before use.",
+    "Keep the cord clear of the work area and away from water.",
+    "Use the least water that gives the result, and extract well after each pass.",
+    "Monitor moisture, and use air movement where the setting allows.",
+    "Stop and disconnect as directed for any fault, and report it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "During an extraction job, the machine sparks and the cord is warm near the plug.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Stop the machine, disconnect it as the procedure directs, and move the water away from the connection. Do not use it again. Report the fault and take the machine out of service for a qualified check."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Extraction machine with a current pre-use check.",
+    "Eye protection and non-slip footwear."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a machine with a cracked hose.",
+      "prevention": "Check the hoses and seals before use."
+    },
+    {
+      "error": "Leaving the item over-wet overnight.",
+      "prevention": "Extract well and dry the item fully."
+    },
+    {
+      "error": "Repairing a warm cord yourself.",
+      "prevention": "Stop, disconnect and report."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Unsafe electrical equipment must be disconnected or isolated and kept out of service until it is made safe. Commercial cleaning equipment should be tested at least every six months, and equipment should be retested after any repair or servicing that might change its electrical safety (Safe Work Australia, electrical risks fact sheet, no date shown). This lesson does not grant any electrical licence. The licence that applies in Victoria covers doing electrical work there, and Energy Safe Victoria's licensing page is the reference (reviewed 19 August 2024).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Content is general cleaning practice and needs subject-matter and regulator review before use.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Pre-use check completed on the machine in the practical.",
+    "Moisture controlled and the item extracted in the simulated job.",
+    "Simulated electrical fault stopped and reported."
+  ],
+  "documentationEvidence": [
+    "Pre-use machine check record.",
+    "Fault report and out-of-service record."
+  ],
+  "summary": [
+    "Check the machine before use, and keep water away from the cord.",
+    "Use the least water and extract well.",
+    "Stop, disconnect and report electrical faults."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C13-L05-K01",
+      "question": "Why use the least water possible?",
+      "options": [
+        "Over-wetting can cause shrinkage, bleed and mould",
+        "It is cheaper only, since less product is used",
+        "It makes the item softer and easier to handle"
+      ]
+    },
+    {
+      "id": "C13-L05-K02",
+      "question": "A machine's cord is warm near the plug. What is correct?",
+      "options": [
+        "Keep using it carefully while the cord works",
+        "Stop, disconnect as directed, and report it",
+        "Tape the cord and carry on with the job"
+      ]
+    },
+    {
+      "id": "C13-L05-K03",
+      "question": "What must be checked before using the machine?",
+      "options": [
+        "Only the colour of the machine and its handle",
+        "The brand of the machine and its carry box",
+        "The cord, plug, hoses, seals and recovery tank"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electrical risks at the workplace (fact sheet)",
+      "url": "https://www.safeworkaustralia.gov.au/sites/default/files/2024-11/electrical-risks.pdf",
+      "pageDate": "No date shown on the fact sheet",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia website: electrical safety resources. Testing rules vary by state; check your WHS regulator. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Electrical licences",
+      "url": "https://www.energysafe.vic.gov.au/licensing/electrical-licences",
+      "pageDate": "Reviewed 19 August 2024",
+      "checked": "2026-11-03",
+      "covers": "Energy Safe Victoria website: electrical licences page. Victoria only. Publisher: Energy Safe Victoria."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: Electrical risks at the workplace (fact sheet); Electrical licences.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use.",
+    "PARTIAL: Safe Work Australia fact sheet and Energy Safe Victoria licensing page (R1, R2); state and territory testing and licensing rules outside Victoria: UNCONFIRMED.",
+    "Conditions vary by state, territory and country, and the local rules and the manufacturer's instructions govern. This lesson does not substitute for them.",
+    "R1 https://www.safeworkaustralia.gov.au/sites/default/files/2024-11/electrical-risks.pdf (page date: No date shown on the fact sheet; checked 2026-11-03)",
+    "R2 https://www.energysafe.vic.gov.au/licensing/electrical-licences (page date: Reviewed 19 August 2024; checked 2026-11-03)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-09.jpg",
+      "alt": "Carpet and upholstery cleaning illustration",
+      "kind": "photo",
+      "origin": "carpet"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-10.jpg",
+      "alt": "Carpet and upholstery cleaning illustration",
+      "kind": "photo",
+      "origin": "carpet"
+    }
+  ]
+}

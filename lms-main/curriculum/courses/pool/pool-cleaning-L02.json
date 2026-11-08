@@ -1,0 +1,237 @@
+{
+  "id": "pool-cleaning-L02",
+  "title": "Pre-start inspection and drowning prevention",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Quality, evidence and handover",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Pool and spa technicians and cleaners who inspect a site before starting work, in any state or territory",
+  "prerequisites": [
+    "pool-cleaning-L01",
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "Complete a pre-start inspection of the pool barrier, gates, signage and access",
+    "Identify suction outlet and entrapment hazards and isolate them without altering the outlet",
+    "Confirm the pool is closed to users before entering the water area",
+    "Record defects and escalate them to the responsible person before work starts"
+  ],
+  "instruction": [
+    {
+      "heading": "Drowning prevention is the first control",
+      "body": "Drowning is the most serious hazard around pools, and it is not limited to chemical work. The December 2025 WA guide reports 19 fatal and 174 non-fatal drownings of children under five in swimming and spa pools in WA over the period July 2012 to June 2022. Before any task near the water, check what controls access: the barrier or fence, the gate and its latch, any self-closing function, the depth markings and the signage. Also check whether children, pets or other swimmers could reach the water while you work. Your inspection records what you observed. It does not certify compliance with the law. Certification is done by the authority named for each state: in NSW the certificates come from councils or registered inspectors (NSW owner page, last updated 16 March 2026), and in Victoria the inspector completes the Form 23 barrier compliance certificate (page updated 30 June 2026). Use the visual barrier check in “Safety barrier visual check and escalation”, and the authority table in “Pool-barrier rules by state and territory: where to check” for the state or territory of the site."
+    },
+    {
+      "heading": "Isolating the water body",
+      "body": "Do not enter the water area while swimmers are present. Confirm with the responsible person that the pool is closed or that the operator has taken the isolation step. If the pool is still in use, ask the operator to close it, and do not start a task that requires entering the water. Keep covers secured while work is done, and confirm that any emergency information and rescue equipment the operator provides is present and accessible. Do not rely on a sign alone to keep people out."
+    },
+    {
+      "heading": "Suction outlets and entrapment",
+      "body": "Check suction outlets, main drains and their covers. A missing, cracked or loose outlet cover is a serious entrapment hazard. Do not remove or replace a suction cover unless the work order covers that task and you are competent to do it. Report and isolate a damaged cover according to the operator's instruction, and record its location and condition. Do not leave a damaged cover in service, and do not test suction by placing a body or a limb over an outlet. The Australian Standard AS 1926.3 is named in this course for water recirculation and outlets."
+    },
+    {
+      "heading": "Surfaces, footwear and access",
+      "body": "Pool decks, steps and tiles are slippery when wet. Wear footwear with grip, keep hoses and chemical containers out of walkways, and mark wet areas. Confirm that the access route to the plant room and the chemical store is clear. Where a route involves stairs or a steep bank, plan the handling of equipment before you carry it (see the shared lesson “Ergonomics and manual handling”, ergonomics and manual handling)."
+    },
+    {
+      "heading": "Recording and escalation",
+      "body": "Record the inspection time, the observed defects, what was isolated, the person told and whether the pool was open to users at the time. Escalate any barrier failure, missing cover, open gate or water-entry risk to the responsible person before you start work. A pre-start record is not a compliance certificate. It records what you checked and what you did about what you found. Record a barrier defect in the same way as the visual check described in “Safety barrier visual check and escalation”, and do not describe the barrier as compliant."
+    }
+  ],
+  "procedure": [
+    "Confirm the work order and the site classification from “Scope, site classification and authority”.",
+    "Run the visual barrier check in “Safety barrier visual check and escalation”: barrier, gate, latch, signage and climbable objects. Note any defect with its location. Do not certify the barrier.",
+    "Confirm with the responsible person that the pool is closed to users or the isolation has been made.",
+    "Check suction outlet covers and drains for damage. Report and isolate any defect; do not alter the cover.",
+    "Check deck, steps and walking routes for wet or slippery areas. Control hoses and containers.",
+    "Confirm emergency information and contacts are on site. Record {{business:safety.emergency_contact}}.",
+    "Record the inspection and any escalation before starting the task."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contractor arrives at a residential pool for a clean. The side gate latch is broken and two children are playing near the fence.",
+      "decisionPrompt": "Should the contractor start work, and what should be recorded?",
+      "reasoning": "The barrier defect and the presence of children mean the water area is not controlled. The contractor does not start, does not enter the water, asks the owner to secure the gate or to supervise, and records the defect, the time and the owner's response. Work resumes only when the barrier is secured, and the record says the check was visual and is not a certificate."
+    },
+    {
+      "situation": "During a pre-start check at a commercial spa, the main drain cover is cracked and a guest is in the spa.",
+      "decisionPrompt": "What is the correct first action?",
+      "reasoning": "A cracked main drain cover is an entrapment hazard while the spa is in use. The contractor asks the operator to close the spa immediately, does not remove the cover or enter the water, records the defect and the time, and refers the repair to a competent person."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Pre-start checklist",
+    "Torch for checking under covers and in corners",
+    "Contact sheet",
+    "Basic PPE: closed footwear with grip, gloves as set by {{business:safety.required_ppe}}",
+    "Recording device"
+  ],
+  "commonErrors": [
+    {
+      "error": "Starting work with the pool open to swimmers.",
+      "prevention": "Confirm closure before any task that involves the water area."
+    },
+    {
+      "error": "Treating the barrier check as a compliance certificate.",
+      "prevention": "Record observations only. Barrier compliance is set by law and the local authority."
+    },
+    {
+      "error": "Removing a suction cover to test flow.",
+      "prevention": "Report and isolate. Cover removal is outside scope unless the work order says so and you are competent."
+    },
+    {
+      "error": "Assuming the owner has closed the gate.",
+      "prevention": "Check the gate yourself and record its state."
+    },
+    {
+      "error": "Treating a lockable pool cover as a barrier.",
+      "prevention": "A cover, even a lockable one, is not a barrier. Record its presence, do not rely on it, and escalate."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Drowning and entrapment are the main hazards. Never leave a damaged suction outlet cover in service; report it and isolate it under the operator's instruction.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pool barrier rules differ by state, territory and council; the ACT and Tasmania, for example, use different start dates and coverage rules. This lesson does not give barrier heights or gap sizes for any state. This lesson does not grant authority to certify a barrier. The authority and status for each jurisdiction are in “Pool-barrier rules by state and territory: where to check”.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The WA figures quoted in “Safety barrier visual check and escalation” come from the December 2025 WA guide and apply in WA only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Wet pool surfaces are slippery. Use footwear with grip and keep walkways clear.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The pool is confirmed closed to users, or the operator has isolated it, before any task near the water",
+    "Every barrier, gate or cover defect is recorded with location and escalated before work starts",
+    "The inspection record states what was checked and what was not inspected"
+  ],
+  "documentationEvidence": [
+    "Pre-start inspection record with time",
+    "Defects found, their location and the person told",
+    "Confirmation of closure or isolation and who gave it",
+    "Visual barrier check record (“Safety barrier visual check and escalation”), where the barrier was in view"
+  ],
+  "summary": [
+    "Drowning prevention is checked before any water-side work.",
+    "The barrier check is visual and non-certifying. Record defects and escalate them; do not certify the barrier as compliant.",
+    "Do not alter or remove a suction cover unless the work order covers it and you are competent."
+  ],
+  "businessFields": [
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "pool-cleaning-L02-K01",
+      "question": "A pool technician finds a suction outlet cover is cracked and the pool is still open to swimmers. What is the correct first action?",
+      "options": [
+        "Ask the operator to close the pool and report the cover without entering the water",
+        "Remove the cover and fit a spare, since the spare is in the van and the job is quick",
+        "Test the suction by placing a hand over the outlet to feel the flow and the pull",
+        "Start the planned chemical task and report the cover later, once the job is done"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L02-K02",
+      "question": "What does a completed pre-start inspection record show?",
+      "options": [
+        "That the barrier complies with the pool safety law",
+        "What was checked, what was found, and who was told",
+        "That the pool is safe to open for swimmers today",
+        "That the operator approved the work in writing"
+      ]
+    },
+    {
+      "id": "pool-cleaning-L02-K03",
+      "question": "Which item is a correct reason to refuse to start work at a pool?",
+      "options": [
+        "The owner is in a hurry to get the whole job done",
+        "The work order is printed on paper and not on screen",
+        "The side gate is open and children are near the water",
+        "The contractor has not had their morning coffee yet"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WA-GUIDE: WA Rules for Pools and Spas, December 2025 edition, checked 2026-11-03. Replaces the May 2016 guide. The drowning figures and barrier figures in this course come from the 2025 edition; the 2016 figures are no longer used.",
+    "NSW-OWN: NSW Government, Owning a pool or spa: your obligations, checked 2026-11-03 (last updated 16 March 2026).",
+    "VIC-BPC: Building and Plumbing Commission, Pool and spa safety barrier inspections, checked 2026-11-03 (updated 30 June 2026).",
+    "ACT-PLAN: ACT Planning, Home swimming pool safety reforms, checked 2026-11-03 (no date shown).",
+    "TAS-CBOS: Consumer, Building and Occupational Services Tasmania, Pool safety barriers, checked 2026-11-03 (last updated 8 December 2023).",
+    "AS 1926.3 (water recirculation and outlets): named in this course. Title and content UNCONFIRMED; the Standards Australia store page could not be read in this pass.",
+    "Pool-cleaning-L14 (NEW-POOL-02): state and territory barrier authorities, with page dates and status, checked 2026-11-03.",
+    "UNCONFIRMED: state, territory and council pool barrier, pool safety certificate and public pool registration rules, except as recorded in pool-cleaning-L14."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Rules for Pools and Spas: a guide to the requirements for safety barriers in Western Australia",
+      "url": "https://wa.gov.au/media/60087/download",
+      "pageDate": "December 2025 (document date; supersedes the 2016 edition)",
+      "checked": "2026-11-03",
+      "covers": "Search wa.gov.au for 'Rules for Pools and Spas' and open the December 2025 PDF; check each figure in the PDF. Publisher: Government of Western Australia, Building and Energy."
+    },
+    {
+      "id": "R2",
+      "title": "Owning a pool or spa: your obligations",
+      "url": "https://www.nsw.gov.au/housing-and-construction/building-or-renovating-a-home/pools-and-pool-safety/owner-obligations",
+      "pageDate": "last updated 16 March 2026",
+      "checked": "2026-11-03",
+      "covers": "nsw.gov.au: Pools and pool safety, then Owner obligations. Publisher: NSW Government."
+    },
+    {
+      "id": "R3",
+      "title": "Pool and spa safety barrier inspections",
+      "url": "https://www.bpc.vic.gov.au/surveyors/audits-and-inspections/pool-and-spa-safety-barrier-inspections",
+      "pageDate": "last updated 30 June 2026",
+      "checked": "2026-11-03",
+      "covers": "bpc.vic.gov.au: Surveyors, Audits and inspections, Pool and spa safety barrier inspections. Publisher: Victoria, Building and Plumbing Commission."
+    },
+    {
+      "id": "R4",
+      "title": "Home swimming pool safety reforms",
+      "url": "https://www.planning.act.gov.au/planning-projects/building-regulatory-system/home-swimming-pool-safety-reforms",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "planning.act.gov.au: search 'home swimming pool safety reforms'. Publisher: ACT Government, Planning."
+    },
+    {
+      "id": "R5",
+      "title": "Pool safety barriers",
+      "url": "https://cbos.tas.gov.au/topics/products-services/safety/pool-safety-barriers",
+      "pageDate": "last updated 8 December 2023",
+      "checked": "2026-11-03",
+      "covers": "cbos.tas.gov.au: Topics, Products and services, Safety, Pool safety barriers. Publisher: Consumer, Building and Occupational Services Tasmania."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Western Australian Government, Rules for Pools and Spas: a guide to the requirements for safety barriers in Western Australia (December 2025; supersedes the 2016 edition); NSW Government, Owning a pool or spa: your obligations (last updated 16 March 2026); Victorian BPC, Pool and spa safety barrier inspections (last updated 30 June 2026); ACT Government, Home swimming pool safety reforms (no date shown); Tasmania CBOS, Pool safety barriers (last updated 8 December 2023).",
+  "referencesAtEnd": "Official sources to check at the end of this lesson: Western Australian Government, Rules for Pools and Spas: a guide to the requirements for safety barriers in Western Australia (December 2025; supersedes the 2016 edition); NSW Government, Owning a pool or spa: your obligations (last updated 16 March 2026); Victorian BPC, Pool and spa safety barrier inspections (last updated 30 June 2026); ACT Government, Home swimming pool safety reforms (no date shown); Tasmania CBOS, Pool safety barriers (last updated 8 December 2023).",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-03.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-04.jpg",
+      "alt": "Pool and spa servicing illustration",
+      "kind": "photo",
+      "origin": "pool"
+    }
+  ]
+}

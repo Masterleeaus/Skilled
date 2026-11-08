@@ -1,0 +1,128 @@
+{
+  "id": "fire-smoke-restoration-L08",
+  "title": "Controlled cleaning methods and limitations",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and salvage after a fire or smoke event. Not a qualification or authority to enter a fire-damaged building, release it, or certify it as safe.",
+  "prerequisites": [
+    "fire-smoke-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Identify cleaning methods that are unsuitable for fire-affected finishes and recognise when a compatibility test or referral is needed."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how to test whether a cleaning method suits a fire-affected finish, and when a method must not proceed. It does not give cleaning formulas and does not approve any destructive method. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "Controlled cleaning methods and limitations",
+      "body": "Before selecting any cleaning method, assess the stability of the substrate, the contamination and any manufacturer restrictions. High-value or fragile finishes need controlled testing by an authorised specialist. Document any damage that was there before the work. A technician who proposes abrasive scrubbing of painted historic timber to remove staining is proposing a destructive method, and it must not proceed without approval and evidence that it is suitable. In training, evaluate three fictional materials and record a compatibility-test or referral decision for each one."
+    }
+  ],
+  "procedure": [
+    "Assess the stability of the surface and the nature of the contamination before choosing any method.",
+    "Check manufacturer restrictions and the owner's requirements for the finish.",
+    "Record existing damage with dated photographs before any work.",
+    "For fragile or high-value finishes, run a compatibility test or refer the item to an authorised specialist.",
+    "Reject abrasive or destructive methods without written approval and evidence that the method is suitable.",
+    "Record the test result, the decision and any referral."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A technician proposes abrasive scrubbing of painted historic timber to remove smoke staining.",
+      "decisionPrompt": "Can it proceed?",
+      "reasoning": "No. Abrasive scrubbing is a destructive method. It does not proceed without approval and evidence that it is suitable. Test or refer first."
+    },
+    {
+      "situation": "A crew proposes a strong solvent on a painted ceiling that has not been tested.",
+      "decisionPrompt": "What should happen?",
+      "reasoning": "Refuse until a compatibility test and approval are recorded. A stronger product needs its own test and approval."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Protective equipment selected from the product and hazard information, once the method is approved.",
+    "Test patch records and photographs."
+  ],
+  "commonErrors": [
+    {
+      "error": "Scrubbing a finish without testing it first.",
+      "prevention": "Run a compatibility test or refer to an authorised specialist first."
+    },
+    {
+      "error": "Using a stronger product because the first one did not work.",
+      "prevention": "Stop and reassess. A stronger method needs its own approval and test."
+    },
+    {
+      "error": "Not recording damage that was already there.",
+      "prevention": "Photograph the condition before any work."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not give any cleaning formula, product or dilution. Completing it does not give a licence, certificate or approval.",
+      "licenceNotice": true
+    },
+    {
+      "point": "A destructive method must not proceed without approval and evidence that it is suitable.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner rejects an untested destructive method.",
+    "The learner records pre-existing damage before work begins."
+  ],
+  "documentationEvidence": [
+    "Compatibility test record: substrate, method tested, result and approver.",
+    "Pre-existing damage photo log."
+  ],
+  "summary": [
+    "Assess, record, then test.",
+    "Destructive methods need approval and evidence.",
+    "A fragile finish goes to an authorised specialist."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "fire-smoke-restoration-L08-K01",
+      "question": "A technician proposes abrasive scrubbing of painted historic timber to remove staining. What is correct?",
+      "options": [
+        "Scrub it, because it is the fastest way to remove the staining from the historic timber today",
+        "Scrub a small hidden area, then decide whether the rest of the timber can be treated",
+        "Do not proceed without approval and evidence that the method is suitable. Test or refer first."
+      ]
+    },
+    {
+      "id": "fire-smoke-restoration-L08-K02",
+      "question": "Before cleaning fire-affected painted timber, what is the first step?",
+      "options": [
+        "Scrub the whole surface to see what comes off",
+        "Record the pre-existing damage and run a compatibility test or refer to an authorised specialist",
+        "Apply the strongest product available"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR05-fire-smoke-restoration.json, instruction section 8 and learning outcome 8; first knowledge check HR05-K08. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: fire-smoke-restoration-lesson-08-instruction-pass65.json; fire-smoke-restoration-lesson-08-research-pass64.json; fire-smoke-restoration-lesson-08-assessment-pass66.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: manufacturer restrictions for specific fire-affected finishes. No product or manufacturer is named.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "Fire-scene release, structural and utility isolation, asbestos assessment and removal, and some waste handling are restricted to competent and, where the law requires, licensed people, and may be controlled by fire investigators, the police, structural engineers, utilities or the building owner. Insurer and owner permission do not replace a release from the authority that controls the site. Where that authority is not identified, do not proceed."
+  },
+  "stopWorkAndReferral": [
+    "Stop and refer when a destructive method is proposed without approval and evidence of suitability.",
+    "A stop-work decision is correct, so record it and restart only once the competent party confirms the scope in writing."
+  ]
+}

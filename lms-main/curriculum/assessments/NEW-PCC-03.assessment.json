@@ -1,0 +1,38 @@
+{
+  "lessonId": "NEW-PCC-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-PCC-03-K01",
+      "correctIndex": 0,
+      "rationale": "The scratch is listed with its location and assigned to the responsible trade or person. Ignoring it or painting over it without a record both hide an open item."
+    },
+    {
+      "id": "NEW-PCC-03-K02",
+      "correctIndex": 1,
+      "rationale": "The sign-off covers the cleaning checked against the agreed criteria, with exceptions listed. It is not a regulatory clearance or a statement that the building is finished."
+    },
+    {
+      "id": "NEW-PCC-03-K03",
+      "correctIndex": 2,
+      "rationale": "Open items are listed, not hidden, and only the checked work is signed off. A verbal or written request from the client does not change this."
+    }
+  ],
+  "practicalCriteria": [
+    "Compiles a defect list for a mock area, with a number, location, factual description and category for each item.",
+    "Separates cleaning, trade, damage and unknown items, and names the responsible trade or person for each.",
+    "Checks the mock work against written acceptance criteria before the sign-off.",
+    "Signs off only the checked work, lists the exceptions, and does not use clearance or guarantee wording.",
+    "Reissues the list with a date after a simulated item is resolved, rather than editing the old list."
+  ],
+  "passRule": "Defect list complete, items categorised and assigned, sign-off limited to checked work with exceptions listed, and no clearance wording. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Defect and punch list with categories and responsible persons",
+    "Acceptance criteria sheet",
+    "Handover sign-off with exceptions attached"
+  ],
+  "stopWorkCriteria": [
+    "Sign-off completed with items open or hidden",
+    "Sign-off described as a clearance, certificate or guarantee",
+    "Ladder or platform used to inspect high points without training or site authority"
+  ]
+}

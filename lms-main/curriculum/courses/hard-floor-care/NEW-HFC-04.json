@@ -1,0 +1,165 @@
+{
+  "id": "NEW-HFC-04",
+  "title": "Water control and slip prevention on hard floors",
+  "courseSlugs": [
+    "hardfloor"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who wet-clean hard floors in residential, commercial and turnover settings.",
+  "prerequisites": [
+    "F17-L03"
+  ],
+  "learningOutcomes": [
+    "Control water so that it does not pool, run into joins or create slip hazards.",
+    "Use signs, barriers and drying to keep people safe during and after wet cleaning.",
+    "Check that a floor is dry and safe before releasing it to traffic."
+  ],
+  "instruction": [
+    {
+      "heading": "Controlling water",
+      "body": "Use only as much water as the method needs, and change the solution when it is dirty. Standing water on a hard floor is a slip hazard and can run into joins, edges and electrical outlets. Keep the mop damp rather than wet, and work in sections so that each section can dry before traffic returns."
+    },
+    {
+      "heading": "Signs, barriers and routes",
+      "body": "Set out wet-floor signs and barriers before you start, and keep a safe route open for people where the site allows it. A sign alone does not stop a person from walking onto a wet floor, so use a barrier or supervision at busy points. Plan the route so that you do not have to walk over the wet floor you have just cleaned."
+    },
+    {
+      "heading": "Release",
+      "body": "Release the floor to traffic only when it is dry and safe to walk on. Check the edges, corners and joins, which dry last. If the floor is still slippery, keep it closed and record the time and the reason."
+    }
+  ],
+  "procedure": [
+    "Use minimal water, change solution when dirty, and work in sections.",
+    "Set signs and barriers before starting, and keep a safe route open where possible.",
+    "Keep water away from joins, edges and electrical outlets.",
+    "Check the floor, including edges and corners, before release.",
+    "Keep the floor closed and record the reason if it is still slippery."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The lobby is busy, and a section of the floor you cleaned is still damp near the entrance.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Keep the damp section barricaded and keep people off it. Offer a safe route, and wait until the floor is dry at the edges and corners before release. Record the time and the reason for keeping it closed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Wet-floor signs and barriers.",
+    "Non-slip footwear and gloves as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Relying on a sign alone at a busy entrance.",
+      "prevention": "Use a barrier or supervision."
+    },
+    {
+      "error": "Releasing a floor while the edges are still wet.",
+      "prevention": "Check the edges and corners before release."
+    },
+    {
+      "error": "Flooding the floor to finish faster.",
+      "prevention": "Use minimal water and work in sections."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Slip and trip control is a work health and safety duty. A business must work to remove slip and trip risks where possible and to reduce any that remain (Safe Work Australia slips page; page date: no date shown). That page names drying the floor once cleaned, cleaning up spills, and keeping power leads out of walkways as controls, but it does not mention signs or barriers, so the signs and barriers in this lesson are good practice rather than a stated legal requirement. Victoria has not adopted the model WHS laws (Safe Work Australia legislation page; page date: no date shown).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Content is general cleaning practice and needs subject-matter and regulator review before use.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Signs and barriers set before the simulated wet clean.",
+    "Floor checked dry at the edges before release in the practical.",
+    "Closure and reason recorded when the floor is still wet."
+  ],
+  "documentationEvidence": [
+    "Release record with time and dryness check.",
+    "Closure record where the floor was kept closed."
+  ],
+  "summary": [
+    "Keep water minimal and work in sections.",
+    "Use barriers and a safe route; a sign alone is not enough.",
+    "Release only when the floor, including the edges, is dry."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:quality.inspection_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-HFC-04-K01",
+      "question": "A busy entrance has a damp floor. What is the best control?",
+      "options": [
+        "A sign alone, with no barrier in place",
+        "Let people walk on it, since it is only damp",
+        "A barrier or supervision, with a safe route"
+      ]
+    },
+    {
+      "id": "NEW-HFC-04-K02",
+      "question": "Which part of a floor dries last and must be checked before release?",
+      "options": [
+        "The edges, corners and joins",
+        "The middle of the room floor",
+        "The door frame and the sill"
+      ]
+    },
+    {
+      "id": "NEW-HFC-04-K03",
+      "question": "When is a wet floor released to traffic?",
+      "options": [
+        "When the mop has passed",
+        "When it is dry and safe to walk on",
+        "When the supervisor is not looking"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/NEW-HFC-04.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use.",
+    "UNCONFIRMED: state and territory slip-resistance and wet-floor requirements."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Model WHS laws: adoption dates by jurisdiction",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/legislation",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the adoption table and the note that Victoria has not adopted the model laws. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Slips, trips and falls",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/slips-trips-and-falls",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the duty and the listed controls; signs and barriers are not named on the page. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources: Safe Work Australia, Model WHS laws: adoption dates by jurisdiction (no date shown); Safe Work Australia, Slips, trips and falls (no date shown).",
+  "referencesAtEnd": "Check the current rule on each official page: Safe Work Australia, Model WHS laws: adoption dates by jurisdiction (no date shown); Safe Work Australia, Slips, trips and falls (no date shown).",
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-07.jpg",
+      "alt": "Hard floor care illustration",
+      "kind": "photo",
+      "origin": "hardfloor"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-08.jpg",
+      "alt": "Hard floor care illustration",
+      "kind": "photo",
+      "origin": "hardfloor"
+    }
+  ]
+}

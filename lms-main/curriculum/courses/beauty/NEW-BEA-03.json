@@ -1,0 +1,196 @@
+{
+  "id": "NEW-BEA-03",
+  "title": "Client consent, patch testing and contraindications",
+  "courseSlugs": [
+    "beauty"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Mobile beauty therapists who take client histories, obtain consent, and decide whether a treatment is suitable",
+  "prerequisites": [
+    "F14-L01",
+    "F01-L02",
+    "F01-L01"
+  ],
+  "learningOutcomes": [
+    "Complete a written client intake that records allergies, previous reactions, medical conditions and current treatments",
+    "Identify the contraindications in the business's approved list that require the service to be postponed or refused",
+    "Explain what the therapist can and cannot decide about a client's medical condition"
+  ],
+  "referencesAtStart": "Official references for this lesson: Victorian Department of Health, Hair, beauty, tattooing and skin penetration industries (updated 26 October 2026); WA Health, Guideline for the hairdressing industry (last reviewed February 2024).",
+  "instruction": [
+    {
+      "heading": "Consent starts before the first product touches the skin",
+      "body": "Consent is the client's agreement to a service after being told what it involves, what it does, what the risks are, and what the alternatives are. In a mobile setting the therapist is often in a home the client has chosen, and the client may feel pressure to agree. The therapist must explain the service in plain words, answer questions, and give the client time to decide. The consent is recorded on the intake form before the service starts, and it can be withdrawn at any time. The business's consent form and intake questions are held in {{business:procedures.approved_sop}}. Where the client is under a guardian or has a substitute decision-maker, the business procedure must say how consent is recorded. The business must check the consent form and wording for each location."
+    },
+    {
+      "heading": "Contraindications and the duty to refer",
+      "body": "A contraindication is a condition or circumstance where a treatment should not go ahead, or should be changed or postponed. Common examples in beauty work include an open wound, a skin infection, a recent reaction to a product, and a skin condition the therapist cannot assess. The WA hairdressing guideline (last reviewed February 2024) does not require formal health screening of staff or clients. For a client with an open wound, an infection or a skin condition, it advises that the hairdresser recommend a visit to a general practitioner, and it allows the service to go ahead only where the operator believes it can be appropriately provided around the condition and infection-prevention processes are in place. That is a WA position for hairdressing, used here as practical good practice for beauty work. The therapist must not diagnose a condition. The safe action for any unclear condition is to postpone the service and refer the client."
+    },
+    {
+      "heading": "Patch tests and what the record must show",
+      "body": "A patch test checks a client's reaction to a product before a full treatment. The product's instructions set the method, and where the instructions say a test is needed, the test is required. Record the product name, the site on the skin, the time applied, the time read, the result and the client's response. If there is a reaction, stop, do not apply the product, advise the client to seek medical advice, and record the decision. A client who has had the same product before should still be tested if the instructions say so, because a reaction can develop with repeated exposure."
+    }
+  ],
+  "procedure": [
+    "Give the client the intake form and explain each question before the client completes it",
+    "Explain the treatment, its purpose, the products used and the alternatives, and answer the client's questions",
+    "Check the client's answers against the contraindication list in the approved procedure",
+    "Postpone or refuse the treatment where a contraindication is present, and refer the client as the procedure says",
+    "Carry out a patch test where the product instructions require one, and read it at the time stated",
+    "Obtain and record the client's consent before the treatment starts"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client has a visible rash on the cheek and wants a facial with a new product. She says the rash is 'just dry skin' and does not want to see a doctor.",
+      "decisionPrompt": "Should the facial go ahead, and what should be recorded?",
+      "reasoning": "The therapist cannot tell whether the rash is dry skin or a condition that needs medical attention. The WA hairdressing guideline advises recommending a general practitioner visit, and allows a service only where the operator believes it can be appropriately provided around the condition. The therapist cannot make that judgement for an unexplained rash, so under the business procedure the facial should be postponed. The therapist should record the rash, the client's explanation, the advice given and the postponement. The client may decide to reschedule when the rash has been reviewed."
+    },
+    {
+      "situation": "A client has had a facial with the same product once before without a reaction. This time she wants the product on a larger area of skin.",
+      "decisionPrompt": "Is a patch test needed again?",
+      "reasoning": "The product's instructions determine whether a patch test is needed. If the instructions require a test for each new area or each new client, the test must be carried out. A previous service without reaction does not replace a test when the instructions require one. The therapist should record the test, or record why the instructions do not require one, and proceed only after the test result is clear."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Intake form with the client's health, allergy and product history questions",
+    "Patch test materials and the product's instructions for the test method",
+    "Timer for the patch test reading time",
+    "Consent form for signature or the approved digital equivalent",
+    "Gloves and clean towels for the application"
+  ],
+  "commonErrors": [
+    {
+      "error": "Accepting the client's word that a rash is nothing and proceeding.",
+      "prevention": "Do not diagnose. Postpone the service, refer the client and record the decision."
+    },
+    {
+      "error": "Skipping the patch test because the client has used the product before.",
+      "prevention": "Follow the product instructions. A past service does not replace a required test."
+    },
+    {
+      "error": "Recording consent as a tick on the booking without the client's signature or agreement.",
+      "prevention": "Record consent in the form the procedure requires, dated and signed or confirmed."
+    },
+    {
+      "error": "Stating that screening is legally required in every state.",
+      "prevention": "State only what the source confirms."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The Victorian Department of Health names the 2019 infection prevention and control guidelines for these industries.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The WA hairdressing guideline does not require formal health screening of staff or clients, and advises a general practitioner visit for an open wound, infection or skin condition. This is confirmed for WA hairdressing and is used here as practical good practice for beauty work.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The business's consent form must be checked against the local position.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not give the therapist any clinical authority, diagnostic role or licence to treat a medical condition.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Intake form is completed and checked before every treatment",
+    "Every contraindication found is recorded with the action taken",
+    "Every patch test required by the product instructions is carried out, read at the stated time and recorded",
+    "Consent is recorded before the treatment starts"
+  ],
+  "documentationEvidence": [
+    "Client intake form with answers, date and therapist name",
+    "Consent record for each treatment",
+    "Patch test record with product, site, time applied, time read, result and client response",
+    "Postponement or referral record with the reason and advice given"
+  ],
+  "summary": [
+    "Consent comes first, and it is recorded before any product touches the skin",
+    "Postpone and refer where a condition is unclear; do not diagnose",
+    "Patch test requirements follow the product instructions.",
+    "Completing this lesson does not give clinical authority or a licence"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:materials.approved_products}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-BEA-03-K01",
+      "question": "A client has an unexplained rash and says it is just dry skin. What is the correct action?",
+      "options": [
+        "Proceed with a gentle product, since the therapist can judge the skin",
+        "Postpone the treatment, refer the client, and record the decision",
+        "Proceed and ask the client to sign a waiver"
+      ]
+    },
+    {
+      "id": "NEW-BEA-03-K02",
+      "question": "A product's instructions say a patch test is required before each treatment. The client has had the product before. What should happen?",
+      "options": [
+        "Skip the test, since the client has had the product before",
+        "Test only if the client asks for one",
+        "Carry out the test as the instructions state, and record it"
+      ]
+    },
+    {
+      "id": "NEW-BEA-03-K03",
+      "question": "Which of these does the lesson give as a common example of a contraindication?",
+      "options": [
+        "Dry skin on the elbows",
+        "An open wound",
+        "A client who has had the product before",
+        "A client who asks for a lighter pressure"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: Victorian Department of Health, Hair, beauty, tattooing and skin penetration industries (updated 26 October 2026); WA Health, Guideline for the hairdressing industry (last reviewed February 2024).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hair, beauty, tattooing and skin penetration industries",
+      "url": "https://health.vic.gov.au/infectious-diseases/hair-beauty-tattooing-and-skin-penetration-industries",
+      "pageDate": "Updated 26 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Department of Health Victoria page; names the 2019 infection prevention and control guidelines. Guideline text was not read. Publisher: Department of Health Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Guideline for the hairdressing industry",
+      "url": "https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf",
+      "pageDate": "Last reviewed February 2024",
+      "checked": "2026-11-03",
+      "covers": "WA Health PDF; mobile operators (13.1), home-based operators (13.2), open wounds (7.3), disinfection (10 and 11). Publisher: WA Health (Chief Health Officer guideline, Public Health Act 2016)."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Dept of Health Victoria, Hair, beauty, tattooing and skin penetration industries, https://health.vic.gov.au/infectious-diseases/hair-beauty-tattooing-and-skin-penetration-industries, checked 2026-11-02 (MBEAU-VIC-05; screening content UNCONFIRMED)",
+    "WA Health, Guideline for the hairdressing industry, https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf, last reviewed Feb 2024, checked 2026-11-02 (NAT-HAIR-WA-05)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (beauty consent and patch-test requirements UNCONFIRMED)",
+    "Checked 2026-11-03: official references R1, R2 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-05.jpg",
+      "alt": "Mobile beauty illustration",
+      "kind": "photo",
+      "origin": "beauty"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-06.jpg",
+      "alt": "Mobile beauty illustration",
+      "kind": "photo",
+      "origin": "beauty"
+    }
+  ]
+}

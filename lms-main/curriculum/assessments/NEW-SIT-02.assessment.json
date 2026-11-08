@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-SIT-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-SIT-02-K01",
+      "correctIndex": 0,
+      "rationale": "A missed dose is not doubled without vet direction. The sitter calls the owner or vet for guidance and records the refusal and the call."
+    },
+    {
+      "id": "NEW-SIT-02-K02",
+      "correctIndex": 1,
+      "rationale": "A change in health takes priority over the routine. The sitter records the observations, calls the owner and vet, and follows their advice."
+    },
+    {
+      "id": "NEW-SIT-02-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says a pet sitter follows the owner's written routine, not the sitter's own habits."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor observes the candidate follow a simulated written routine and record each step with the time",
+    "Assessor observes the candidate check a simulated medicine label against the written instructions before a dose, and record the dose",
+    "Assessor presents a simulated change in health and observes the candidate record it, call the simulated owner and vet, and follow the advice"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Visit log with the routine steps and times",
+    "Medication dose log with label check and time",
+    "Record of the simulated call to the owner or vet, and the advice given"
+  ],
+  "stopWorkCriteria": [
+    "A human medicine is given to an animal",
+    "A missed dose is doubled without written vet direction",
+    "A change in health is not reported to the owner or vet"
+  ]
+}

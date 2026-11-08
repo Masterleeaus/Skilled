@@ -1,0 +1,140 @@
+{
+  "id": "kitchen-cleaning-L02",
+  "title": "Food contamination pathways and zoning",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners working in kitchens in residential, commercial, bond and short-stay settings, including food premises.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Distinguish biological, chemical, physical and allergen cross-contact risks in a kitchen.",
+    "Map raw-food, ready-to-eat, waste and wash-up zones before moving equipment.",
+    "Decide to stop or isolate when a contamination pathway appears."
+  ],
+  "instruction": [
+    {
+      "heading": "Why contamination is not only visible dirt",
+      "body": "A kitchen can look clean and still carry contamination. Microorganisms, chemical residues, physical fragments, and allergens such as nuts or dairy can move from one surface to another on a cloth, a mop, a glove or a tool. A cleaner who is careless with a tool can carry raw-food residues across to a ready-to-eat bench in seconds. Contamination is therefore a question of pathways, not just of visible soil. The cleaner's job is to prevent transfer."
+    },
+    {
+      "heading": "Zoning the kitchen before you move equipment",
+      "body": "Before you move any equipment or open any product, identify the zones: raw food handling, ready-to-eat preparation, waste, and wash-up. Confirm whether food preparation is under way, which surfaces are food-contact surfaces, and who approves release of an area back to use. Allocate tools to zones, carry contaminated tools in closed containers, and work in a sequence that moves from cleaner areas toward dirtier ones. Colour coding helps identify tools, but a colour is not a sanitising process, and a contaminated tool must be cleaned appropriately before reuse."
+    },
+    {
+      "heading": "Deciding when to stop",
+      "body": "Stop and isolate the area when a tool or cloth has crossed from a raw-food zone to a ready-to-eat zone, when food is in an area being cleaned, or when you do not know what a residue is. Notify the food safety supervisor or the site contact and follow the site corrective-action procedure. Do not return the area to use on your own judgement, and do not claim food safety verification without authorised evidence."
+    },
+    {
+      "heading": "Handover and the limits of appearance",
+      "body": "At handover, separate dirty equipment and failed work from the areas ready for use, and record the method, the observations, any exceptions, and who accepted or rejected the handover. A successful appearance is not enough to prove that a surface is sanitary. Sanitising, where required, and verification are separate steps set by the site's food safety plan. Your record shows what you did, and it lets the supervisor verify the outcome."
+    }
+  ],
+  "procedure": [
+    "Obtain the approved job scope and confirm with the on-site supervisor whether food preparation is under way.",
+    "Map raw-food, ready-to-eat, waste and wash-up zones, and identify food-contact surfaces.",
+    "Allocate tools to zones and keep contaminated tools in closed containers.",
+    "Work from cleaner areas toward dirtier areas, avoiding crossing zones.",
+    "Stop and isolate on any cross-zone transfer, and notify the supervisor.",
+    "At handover, record the method, observations, exceptions and who accepted the area."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A mop used near raw poultry is placed beside a ready-to-eat preparation bench.",
+      "decisionPrompt": "What do you do, and what do you record?",
+      "reasoning": "Remove the mop from the ready-to-eat area, isolate the bench, and treat the mop as contaminated. Notify the food safety supervisor. Clean and sanitise the equipment as the site procedure requires before reuse, and do not return the bench to use until the supervisor has released it. Record the event, the corrective action and the release decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Colour-coded cloths and tools, as set by the site code.",
+    "Closed containers for contaminated tools.",
+    "Gloves, changed between zones, with hand hygiene at each change.",
+    "Approved food-contact cleaning products, with label and SDS available."
+  ],
+  "commonErrors": [
+    {
+      "error": "Carrying a tool from raw meat to a ready-to-eat bench.",
+      "prevention": "Allocate tools to zones and carry contaminated tools in closed containers."
+    },
+    {
+      "error": "Assuming a surface is sanitary because it looks clean.",
+      "prevention": "Verify with the site procedure and record the result."
+    },
+    {
+      "error": "Returning an area to use on your own decision.",
+      "prevention": "Escalate and wait for release by the food safety supervisor."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The operator's food safety program governs the site. This lesson does not confer any food handling qualification.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals used must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Zones identified and tools allocated before any work starts in the simulated kitchen.",
+    "Cross-zone transfer identified and stopped during the simulated task.",
+    "Handover record completed with method, observations and release decision."
+  ],
+  "documentationEvidence": [
+    "Zone map and tool allocation for the job.",
+    "Corrective-action and release record for any cross-zone event."
+  ],
+  "summary": [
+    "Contamination moves through pathways, so prevent transfer.",
+    "Zone the kitchen and allocate tools before moving equipment.",
+    "Stop and escalate on any cross-zone event.",
+    "Verification comes from authorised evidence, not appearance."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-cleaning-L02-K01",
+      "question": "Which is the most important first step in a kitchen clean?",
+      "options": [
+        "Open the strongest product first on the nearest bench today",
+        "Identify zones and food-contact surfaces before moving equipment",
+        "Start with the floor so that it dries early and the walls are done last"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L02-K02",
+      "question": "A tool has been used on raw food and is now next to a ready-to-eat bench. What is the correct action?",
+      "options": [
+        "Wipe the bench with the same cloth and carry on working there",
+        "Use the tool on the bench because the colour code allows it",
+        "Remove the tool, isolate the bench and notify the food safety supervisor"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L02-K03",
+      "question": "Does a clean-looking surface prove that it is sanitary?",
+      "options": [
+        "No, cleaning, sanitising where required and verification are separate",
+        "Yes, appearance is sufficient for the bench and the floor too",
+        "Yes, if the cleaner signs the record and the supervisor is happy"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-cleaning-L02.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises.",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

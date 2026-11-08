@@ -1,0 +1,35 @@
+{
+ "lessonId": "C14-L02",
+ "knowledgeAnswers": [
+  {
+   "id": "C14-L02-K01",
+   "correctIndex": 1,
+   "rationale": "Hot surfaces cause burns, and the cool check prevents them."
+  },
+  {
+   "id": "C14-L02-K02",
+   "correctIndex": 2,
+   "rationale": "Cleaners use the control and the approved procedure. Fixed disconnection is for licensed people."
+  },
+  {
+   "id": "C14-L02-K03",
+   "correctIndex": 0,
+   "rationale": "Unclear isolation is escalated, not assumed."
+  }
+ ],
+ "practicalCriteria": [
+  "Confirms the surface is cool and the controls are off before cleaning a simulated oven interior.",
+  "Declines to disconnect a simulated fixed appliance, and escalates.",
+  "Records the isolation decision with the time."
+ ],
+ "passRule": "Cool-surface check made, no disconnection by the cleaner, and unclear isolation escalated. Observed by an assessor. Not an electrical or gas licence.",
+ "evidenceRequired": [
+  "Isolation and temperature record",
+  "Assessor observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Interior cleaned while hot",
+  "Fixed appliance disconnected by the cleaner",
+  "Panel behind an appliance opened"
+ ]
+}

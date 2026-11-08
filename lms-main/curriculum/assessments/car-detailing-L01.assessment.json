@@ -1,0 +1,35 @@
+{
+ "lessonId": "car-detailing-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "car-detailing-L01-K01",
+   "correctIndex": 2,
+   "rationale": "Specialist work is priced and agreed separately."
+  },
+  {
+   "id": "car-detailing-L01-K02",
+   "correctIndex": 0,
+   "rationale": "Unidentified substances and uncontrolled wastewater are stop conditions."
+  },
+  {
+   "id": "car-detailing-L01-K03",
+   "correctIndex": 1,
+   "rationale": "The pre-work record protects the business and the customer."
+  }
+ ],
+ "practicalCriteria": [
+  "Prepares a two-tier work order for a sample booking, with price, duration and possessions recorded.",
+  "Holds a simulated out-of-scope request until it is priced and authorised.",
+  "Identifies the stop conditions in a simulated wash."
+ ],
+ "passRule": "Two-tier work order complete, out-of-scope request held until authorised, and stop conditions identified. Observed by an assessor.",
+ "evidenceRequired": [
+  "Two-tier work order",
+  "Scope-change record"
+ ],
+ "stopWorkCriteria": [
+  "Specialist work done without agreement",
+  "Unidentified substance used",
+  "Uncontrolled wastewater"
+ ]
+}

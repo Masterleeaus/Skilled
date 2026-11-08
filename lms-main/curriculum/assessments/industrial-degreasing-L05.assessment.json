@@ -1,0 +1,34 @@
+{
+ "lessonId": "industrial-degreasing-L05",
+ "knowledgeAnswers": [
+  {
+   "id": "industrial-degreasing-L05-K01",
+   "correctIndex": 0,
+   "rationale": "Solvent vapour near these ignition sources is a stop condition."
+  },
+  {
+   "id": "industrial-degreasing-L05-K02",
+   "correctIndex": 1,
+   "rationale": "Product selection is referred to the competent specialist."
+  },
+  {
+   "id": "industrial-degreasing-L05-K03",
+   "correctIndex": 2,
+   "rationale": "Vapour can build up in restricted spaces."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies ignition sources and ventilation limits in a fictional plant room.",
+  "Withholds a simulated solvent proposal near hot equipment and refers it.",
+  "Records the proposal and the referral."
+ ],
+ "passRule": "Ignition sources identified, solvent withheld, and referral recorded. Observed in a desk exercise. Not a chemical-use authority.",
+ "evidenceRequired": [
+  "Annotated fictional plant room",
+  "Proposal and referral record"
+ ],
+ "stopWorkCriteria": [
+  "Solvent used near hot equipment or electrical panel",
+  "Product chosen without the specialist"
+ ]
+}

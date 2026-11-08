@@ -1,0 +1,34 @@
+{
+  "lessonId": "HLT-11",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-11-K01",
+      "correctIndex": 0,
+      "rationale": "Suitable suction and a vented or ducted design limit dust release. The other options spread dust or misuse the vacuum."
+    },
+    {
+      "id": "HLT-11-K02",
+      "correctIndex": 1,
+      "rationale": "The guide requires cleaning between clients using the manufacturer method. The other options fail to clean the item or delay the clean."
+    },
+    {
+      "id": "HLT-11-K03",
+      "correctIndex": 0,
+      "rationale": "Fumes from chemicals or spillages are one of the hazards the guide lists. The other options are not hazards in the guide list."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a vacuum with a full bag, the learner closes and replaces the bag without spilling and checks the filter.",
+    "Given a shared item such as a walking frame, the learner cleans it between clients using the manufacturer method and approved product."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of the vacuum bag change and filter check",
+    "Assessor observation of the shared-item clean on a simulated item"
+  ],
+  "stopWorkCriteria": [
+    "Dust is being released from a vacuum that is damaged or overfilled: stop, switch off and report.",
+    "A product is not listed for the item: stop and check with the supervisor.",
+    "Chemical fumes or a skin reaction occur: stop, ventilate if possible, and report."
+  ]
+}

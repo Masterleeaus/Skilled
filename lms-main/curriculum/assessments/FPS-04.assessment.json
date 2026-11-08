@@ -1,0 +1,37 @@
+{
+  "lessonId": "FPS-04",
+  "knowledgeAnswers": [
+    {
+      "id": "FPS-04-K01",
+      "correctIndex": 2,
+      "rationale": "Air-drying avoids re-contamination from a cloth or hands. The other options introduce a new contamination route or a non-sanitised rinse."
+    },
+    {
+      "id": "FPS-04-K02",
+      "correctIndex": 3,
+      "rationale": "Hot-water sanitising depends on reaching a set temperature for a set time, so the temperature is checked rather than estimated."
+    },
+    {
+      "id": "FPS-04-K03",
+      "correctIndex": 0,
+      "rationale": "A sanitised item can pick up microorganisms from an unclean surface, so storage must be clean and separate."
+    }
+  ],
+  "practicalCriteria": [
+    "Observer confirms the learner checks temperature or concentration and starts the contact timer (pass: both recorded).",
+    "Observer confirms that all surfaces are covered for the full contact time (pass: no part missed).",
+    "Learner air-dries the item on a clean rack and stores it apart from raw materials (pass: no towel used; storage recorded)."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Observer checklist for the sanitising sequence",
+    "Batch record with temperature or concentration and contact time",
+    "Photo of the storage rack, taken with consent"
+  ],
+  "stopWorkCriteria": [
+    "The item still carries visible soil.",
+    "The water temperature or concentration cannot be confirmed.",
+    "The contact time cannot be maintained because the surface will dry or the solution is spent.",
+    "A sprayer or tank is leaking near the worker."
+  ]
+}

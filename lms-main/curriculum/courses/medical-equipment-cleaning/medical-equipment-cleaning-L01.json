@@ -1,0 +1,219 @@
+{
+  "id": "medical-equipment-cleaning-L01",
+  "title": "Scope, authority and prohibited tasks",
+  "courseSlugs": [
+    "medequip"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and cleaning supervisors who may be asked to clean the external surfaces of medical equipment in a healthcare facility, in any Australian state or territory.",
+  "referencesAtStart": "Official sources for this lesson: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34 (no page date shown; document dated 2019); ACIPC Position Statement: Single-use Devices, version 4.0 (dated February 2024); Safe Work Australia, Duties of a person conducting a business or undertaking (PCBU) (no date shown). Only part of the first two sources has been confirmed.",
+  "prerequisites": [
+    "F01-L01",
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "Explain that this course covers external cleaning only, and name the tasks that are outside the course.",
+    "Identify the written authority needed before any medical equipment task starts.",
+    "Classify a requested task as permitted, needs authorisation, or prohibited, and state the action for each.",
+    "State when and how to stop work and escalate a request that goes beyond the authorised scope.",
+    "Recognise that completing this lesson does not grant a licence, certificate or authority to reprocess or disinfect medical devices."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson: external cleaning only",
+      "body": "This lesson covers external cleaning only. External cleaning means removing visible soil from the outside of equipment or environmental surfaces, using a product and method that the manufacturer and the facility have approved for that item. Reprocessing, disinfection for reusable devices and sterilisation are outside this course. They are authorised only by the manufacturer's instructions and the facility's written procedure, and are carried out by staff who hold that authority. Nothing in this lesson describes how to reprocess, disinfect for re-use or sterilise a device, and nothing here should be read as a method for those tasks. If a task appears to involve any of them, treat it as outside your scope and stop."
+    },
+    {
+      "heading": "Why the boundary matters",
+      "body": "The Australian Guidelines for the Prevention and Control of Infection in Healthcare, published by the National Health and Medical Research Council, distinguish cleaning from disinfection and set out how shared clinical equipment is handled between patient uses. The guidelines (document dated 2019) recommend cleaning with detergent and disinfecting where indicated, and they place the decision on the facility's infection prevention and control arrangements. The same device can need different processes depending on whether it contacts intact skin, mucous membranes or sterile tissue. A cleaner who treats a device that needs validated reprocessing as if it needed a wipe can damage the device, leave it unsafe for the next patient, and create a false record that the item is ready for clinical use. The boundary protects the patient, the worker and the facility."
+    },
+    {
+      "heading": "Where authority comes from",
+      "body": "Authority to work on medical equipment comes from a written instruction that names the task, the equipment or equipment class, the approved product and method, the location, and the person who gave the direction. A verbal instruction from a nurse, doctor or site manager may be a real request, but it is not authority to change what the written procedure permits. The facility decides who may do which task. For a cleaner, that usually means a short list of authorised tasks, such as cleaning the exterior of named noncritical items with named products. If the list does not name the item, the product or the method, the task is not authorised until someone with authority adds it in writing. You may not authorise yourself, and you may not extend your authority because a task looks similar to one you are allowed to do. Record the source of your authority on the work record. Facility procedures are reflected in {{business:staff.authorised_tasks}}, and the facility contact for direction is {{business:staff.supervisor_contact}}."
+    },
+    {
+      "heading": "Permitted, authorised-only and prohibited tasks",
+      "body": "Sort every requested task into one of three groups before you touch anything. Permitted tasks are on your written authorised list, for the named equipment, with the approved product and method. Authorised-only tasks need a specific written decision each time, such as an electrical check or an unusual surface, and you may not start them until that decision is recorded. Prohibited tasks are never yours to do under this course. These include reprocessing or disinfecting any reusable device for return to clinical use, sterilising any item, opening or disassembling equipment, cleaning inside a lumen or channel, reusing a single-use device, touching patient-connected equipment or changing its settings, testing or repairing electrical equipment, and returning any equipment to clinical service. When a task falls in the middle, choose the more restrictive group and ask."
+    },
+    {
+      "heading": "Licences, permissions and the limit of this lesson",
+      "body": "Completing this lesson does not give you a licence, a certificate or any authority to do regulated work. Some reprocessing activity is regulated under the Therapeutic Goods Administration framework. The ACIPC position statement on single-use devices, version 4.0 of February 2024, states that reprocessing of single-use devices in a health service facility must not be undertaken unless the facility is licensed as a manufacturer, and that the TGA treats reprocessing or reuse of a single-use medical device as remanufacture. Check any state or territory requirements for your role with your employer and the relevant state health authority before work begins. Your facility's licence and permission requirements are recorded in {{business:compliance.licence_requirements}}, under {{business:compliance.jurisdiction}}."
+    }
+  ],
+  "procedure": [
+    "Before starting, check the written work order and confirm the equipment, the location, the product and the method all appear on your authorised list.",
+    "Identify each item by its asset label or description and confirm it is an item named on your authorised list.",
+    "Sort the requested task into permitted, authorised-only or prohibited. If you are unsure, treat it as prohibited.",
+    "For a permitted task, follow the approved external cleaning method only. Do not change product, concentration, contact time or method from memory.",
+    "If the task is authorised-only or prohibited, stop, leave the item as it is, make it safe, and tell your supervisor. Do not complete the task to avoid delay.",
+    "Record the decision, the source of the instruction, the item, and who you escalated to on the work record.",
+    "Report any request to reprocess, disinfect for re-use, or sterilise a device to your supervisor and to the facility infection prevention and control contact, using {{business:safety.escalation_contact}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "In a day-procedure unit, a nurse asks you to give a flexible endoscope a quick disinfectant wipe so that it can go back into the cupboard for tomorrow's list. Your written list covers only the exterior of wall-mounted monitors and bed-side tables.",
+      "decisionPrompt": "Is this task yours to do, and what do you do next?",
+      "reasoning": "The endoscope is not on the authorised list, and disinfecting a reusable invasive device for return to clinical use is a prohibited task under this course. Even if the nurse is trying to help, a wipe is not a validated process for that device. Stop, do not touch the endoscope further, leave it in the place it was found or with the designated team, tell the supervisor and the infection prevention contact, and record the request and the decision."
+    },
+    {
+      "situation": "A site manager asks you to clean the exterior of a portable infusion pump that is on your authorised list, using the facility's approved detergent wipe. The pump is in use on a patient.",
+      "decisionPrompt": "What must be checked before you start?",
+      "reasoning": "The item is on your list, but the patient is connected to it. Touching patient-connected equipment or changing its settings is prohibited. Check with the clinical team that the pump is safe to be touched and can be left running and unplugged where required, and only clean the exterior of an item that is not in use on a patient unless the facility procedure says otherwise. If the clinical team cannot confirm this, do not start and record the decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Facility-approved detergent or product listed for external cleaning: {{business:materials.approved_products}}",
+    "Safety data sheets for each product: {{business:materials.sds_links}}",
+    "Personal protective equipment as required by the task: {{business:safety.required_ppe}}",
+    "Work order or written task authorisation for the item"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a verbal request as authority to change the authorised task.",
+      "prevention": "Ask for the request in writing, or record it and check it with the supervisor before starting. A request does not change your list."
+    },
+    {
+      "error": "Assuming that a device looks like one on the authorised list, so the same product and method apply.",
+      "prevention": "Match the asset label and model to the written list. Similar appearance is not authority."
+    },
+    {
+      "error": "Describing a wipe as cleaning and so treating it as allowed for a device that needs reprocessing.",
+      "prevention": "Check the task against the prohibited list before you start. If the item may need reprocessing, stop."
+    },
+    {
+      "error": "Re-using a single-use item after it has been wiped.",
+      "prevention": "Single-use labelled items must not be reused. Set them aside as the facility procedure directs."
+    },
+    {
+      "error": "Continuing with a task that is partly outside scope to avoid delay.",
+      "prevention": "Stop the whole task, make the item safe, and escalate. Partial completion is not a safe outcome."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the facility procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Reuse of single-use labelled medical devices is prohibited. Used single-use devices must not be reprocessed or reused, as stated in the ACIPC position statement on single-use devices, version 4.0, February 2024.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Reprocessing single-use devices in a health service facility is restricted to a facility licensed as a manufacturer under TGA arrangements, as summarised in the ACIPC position statement of February 2024. This lesson does not grant any manufacturer licence, reprocessing authority or permission to reprocess. Check the current requirement with the TGA before any facility activity.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Confirm each state and territory before a worker is placed.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The primary duty of a person conducting a business or undertaking is to ensure, so far as is reasonably practicable, the health and safety of workers and others affected by the work. The duty includes applying the hierarchy of control where risks cannot be eliminated. Safe Work Australia summarises these duties (page with no date shown); state adoption of the model WHS laws should be confirmed for each state and territory.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner names the external-only boundary and at least three tasks outside the course.",
+    "The learner sorts five supplied task descriptions into permitted, authorised-only and prohibited groups with a reason for each.",
+    "The learner states the escalation route for a prohibited request without starting the task.",
+    "The learner records the source of authority for a permitted task on a work record."
+  ],
+  "documentationEvidence": [
+    "Work record showing the written authority or work order used, the item, the location and the time.",
+    "Record of any stopped or escalated request, with the person contacted and the decision made.",
+    "Confirmation that the learner has read the facility's authorised task list."
+  ],
+  "summary": [
+    "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside it.",
+    "Authority is written, specific and given by the facility. Similar equipment or a verbal request does not extend it.",
+    "When a task is unclear or prohibited, stop, make the item safe, and escalate with a record.",
+    "Completing this lesson does not grant a licence, a certificate or any authority to do regulated work."
+  ],
+  "businessFields": [
+    "{{business:staff.authorised_tasks}}",
+    "{{business:staff.supervisor_contact}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:compliance.jurisdiction}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-equipment-cleaning-L01-K01",
+      "question": "A colleague asks you to disinfect a reusable flexible endoscope so it can be used again on the next patient. What is the correct response?",
+      "options": [
+        "Wipe it with the approved detergent so that it is ready for the next patient, since the detergent is approved for use",
+        "Use a stronger disinfectant wipe because the endoscope is more contaminated than other equipment in the room and needs it",
+        "Refuse the task as prohibited, leave the item as it is, and escalate the request to the supervisor and infection prevention contact."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L01-K02",
+      "question": "Which statement about written authority is correct?",
+      "options": [
+        "Authority to clean a device comes from a written instruction naming the task, the equipment, the approved product and method.",
+        "A verbal request from a senior nurse is sufficient to start any cleaning task on medical equipment.",
+        "Two devices that look alike share the same cleaning authority, so you may treat them the same."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L01-K03",
+      "question": "Completing this lesson gives a cleaner which of the following?",
+      "options": [
+        "A licence to reprocess reusable medical devices in any clinical setting, which the lesson confers",
+        "No licence, certificate or authority; it does not change what the facility has authorised.",
+        "A confirmed authority to clean any device in a facility, whatever the device's category is"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "no page date shown; document dated 2019 (CD34)",
+      "checked": "2026-11-03",
+      "covers": "Read: sections on environmental cleaning, spills, hand hygiene, standard precautions and sharps. Not read: section 3.1.4 (reprocessing), 3.1.7 (waste), 4.1.2 (roles) and Appendix 6.1 (frequencies). Check those in the full PDF. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R2",
+      "title": "ACIPC Position Statement: Single-use Devices, version 4.0",
+      "url": "https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf",
+      "pageDate": "version 4.0, dated February 2024",
+      "checked": "2026-11-03",
+      "covers": "A professional body statement. The TGA's own text was not read in this session; check the TGA website for the primary rule on reprocessing and reuse of single-use devices. Publisher: Australasian College for Infection Prevention and Control (professional body; not a government source)."
+    },
+    {
+      "id": "R3",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Confirms the PCBU duty to workers and others so far as reasonably practicable, and refers to the hierarchy of control. It does not say PPE is a last resort. Check your state or territory WHS regulator for the adopted law. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34 (no page date shown; document dated 2019); ACIPC Position Statement: Single-use Devices, version 4.0 (dated February 2024); Safe Work Australia, Duties of a person conducting a business or undertaking (PCBU) (no date shown). Only part of the first two sources has been confirmed, so check each on the official site before use.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34. https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf (checked 2026-11-02; hosted copy of the 2019 edition)",
+    "ACIPC, Position Statement: Single-use Devices, version 4.0, February 2024. https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf (checked 2026-11-02)",
+    "Safe Work Australia, Duties of a PCBU. https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu (checked 2026-11-02; page undated)",
+    "UNCONFIRMED: state and territory licence, registration or check requirements for cleaning staff in healthcare facilities. Not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-01.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-02.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "lessonId": "BPX-02",
+  "knowledgeAnswers": [
+    {
+      "id": "BPX-02-K01",
+      "correctIndex": 0,
+      "rationale": "A balance sheet is dated and shows assets, liabilities and equity at that date. Cash received over a year belongs to a cash record, not a balance sheet."
+    },
+    {
+      "id": "BPX-02-K02",
+      "correctIndex": 2,
+      "rationale": "A receivable exists only after work is done and invoiced. Quotes, accepted or not, are not assets."
+    },
+    {
+      "id": "BPX-02-K03",
+      "correctIndex": 1,
+      "rationale": "Equity equals total assets less total liabilities: 50,000 less 30,000 gives 20,000."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner produces a balance sheet at one stated date in which total assets equal total liabilities plus equity",
+    "No uninvoiced quote or unaccepted job appears as a receivable",
+    "Each long-term asset is shown after depreciation, with the method stated",
+    "Learner finds the seeded imbalance in an assessor-supplied statement and traces it to a specific line"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed working document for the lesson, saved with its formulas or calculation notes",
+    "Assessor recalculation or review record",
+    "Knowledge check result (a quiz result is not a practical competence result)"
+  ],
+  "stopWorkCriteria": [
+    "Do not present a balance sheet that does not balance",
+    "Stop and escalate any receivable that is not backed by an issued invoice",
+    "Escalate depreciation and drawings treatment to a registered tax agent"
+  ]
+}

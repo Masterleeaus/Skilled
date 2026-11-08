@@ -1,0 +1,151 @@
+{
+  "id": "MP-04-shortstay",
+  "title": "Break-even analysis with a worked calculation for short-stay turnover",
+  "courseSlugs": [
+    "shortstay"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners of short-stay turnover businesses, including solo operators, who set a fixed price per turnover or plan monthly income from host contracts.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a home-service business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a turnover business",
+      "body": "Break-even revenue is the monthly sales that cover all costs, so profit is zero. For a turnover business it shows how many turnovers must be done each month before any profit is made. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss. Turnover work depends on booking patterns, so check the figures over several months."
+    },
+    {
+      "heading": "Split the costs for a turnover business",
+      "body": "Fixed costs stay the same whatever the number of turnovers: vehicle registration and loan repayments, insurance, phone and software, and storage for linen and supplies. Variable costs move with each turnover: consumables and cleaning products, laundry, bin liners and card or payment fees, along with any casual cleaner's hours. Casual wages rise with the work, so they belong in the variable share. Express variable cost as a share of sales for the same months."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable share of sales. The result after variable cost is the contribution margin (Xero Australia glossary, 23 July 2026). The answer is revenue, not profit. Divide it by the average turnover price you actually charge, and round up to whole turnovers, because a part turnover does not cover costs."
+    },
+    {
+      "heading": "Watch the levy and other pass-through amounts",
+      "body": "If your business is liable for any amount that a host or platform does not pay, such as a registration cost, put it in the fixed or variable costs after you have checked who pays it. The research did not state the Victorian short-stay levy rate, so no levy figure is used here (SRO Victoria, 4 March 2025)."
+    },
+    {
+      "heading": "Reconcile two figures before you use either",
+      "body": "When two figures disagree, check whether fixed costs are monthly or annual, whether the variable share is of sales or of cost, and whether the output is revenue or profit. Keep only the reconciled figure, with its inputs. The turnover price bands from Beyond Pricing are vendor references. Use your own average turnover price once you have invoices."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost for the turnover business and label each one fixed or variable.",
+    "Count casual wages and any per-turnover consumables and payment fees as variable.",
+    "Work out variable cost as a share of sales for the same months, and check it across several months.",
+    "Calculate one minus the variable share, then divide monthly fixed costs by it.",
+    "Divide break-even revenue by the average turnover price you actually charge, and round up to whole turnovers.",
+    "Compare any other figure, reconcile the inputs, and keep only the reconciled one."
+  ],
+  "workedExamples": [
+    {
+      "situation": "[ILLUSTRATIVE] A solo turnover cleaner charges a fixed $120 per turnover. The same vendor source uses $120 as an illustrative fixed rate (Beyond Pricing, 28 October 2026). Fixed costs are $2,000 a month and variable costs are 12 per cent of sales, both illustrative. The owner works alone.",
+      "decisionPrompt": "How many turnovers must be done each month to break even, and what should be checked first?",
+      "reasoning": "The contribution margin is 1 - 0.12, which is 0.88. Break-even revenue is $2,000 divided by 0.88, which is $2,272.73 a month (CALC). At $120 a turnover that is 18.9, so 19 turnovers are needed. Check: 18 turnovers give $1,900.80 of contribution, short of $2,000, and 19 give $2,006.40. Each turnover contributes $105.60. Before the price is used, check that the 12 per cent includes consumables, laundry and payment fees, and that any casual wages are added. If the owner pays any levy amount, add it before the calculation is repeated."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating casual wages as a fixed cost.",
+      "prevention": "Track hours per turnover and include them in the variable share."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales.",
+      "prevention": "Divide by sales for the same months, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Using a vendor price band as the average price.",
+      "prevention": "Use the average you actually invoice. Label any vendor figure as a reference."
+    },
+    {
+      "error": "Leaving out a cost the business really pays, such as a registration fee.",
+      "prevention": "Check who pays each amount, then add the ones the business pays."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or accountant. The research did not confirm the tax treatment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Victorian short-stay levy applies to stays under 28 consecutive days from 1 January 2025 (SRO Victoria). The rate is not stated in the research, and this example does not include it.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence or registration.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable share of sales.",
+    "Use real invoice prices and the costs your business pays. Vendor bands are references.",
+    "Gaps: turnover cost ratios and the levy rate were not found in the research. Every input here is illustrative."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-shortstay-K01",
+      "question": "Break-even revenue for a turnover business is calculated as:",
+      "options": [
+        "Fixed costs multiplied by the variable percentage",
+        "Fixed costs divided by (1 minus the variable share of sales)",
+        "Sales minus fixed costs, shown as a percentage of the price",
+        "Fixed costs plus variable costs for the month"
+      ]
+    },
+    {
+      "id": "MP-04-shortstay-K02",
+      "question": "Fixed costs are $2,000 a month, variable costs are 12 per cent of sales, and each turnover is $120. What is the monthly break-even revenue?",
+      "options": [
+        "$2,272.73",
+        "$240.00",
+        "$2,000.00",
+        "$16,666.67"
+      ]
+    },
+    {
+      "id": "MP-04-shortstay-K03",
+      "question": "Two sources give different break-even figures for the same business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe",
+        "Recalculate from your own costs, and check each source's inputs before using any figure",
+        "Average the two figures and quote the result",
+        "Skip the check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs; costs must be covered to avoid running at a loss.",
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; job counts are rounded up to whole jobs.",
+    "Beyond Pricing, 'Short-term rental cleaning fees (Australia)', https://beyondpricing.com/au/blog/how-much-should-you-charge-for-cleaning-fees-in-your-australian-holiday-rental, dated 28 October 2026. Vendor source; short-stay fee data. Supports: per-turnover bands by property size; move-in and move-out bands by bedroom count; a $120 per-turnover illustration; city labour benchmarks; fixed rates suit smaller properties and hourly rates suit larger or luxury homes.",
+    "State Revenue Office Victoria, 'Register now for the short-stay levy', https://sro.vic.gov.au/news/register-now-short-stay-levy, published 4 March 2025. Victoria. Supports: the levy applies to stays under 28 consecutive days from 1 January 2025; booking platforms and owners or tenants who accept bookings directly must register. The page does not state the rate.",
+    "Fair Work Commission, Cleaning Services Award (MA000022), https://awards.fairwork.gov.au/MA000022.html, variation effective 1 July 2025. Supports: Level 1 adult minimum hourly rate of $25.85 and a 25 per cent casual loading. The 1 July 2026 position was not checked.",
+    "Notes: the $2,000 fixed costs and 12 per cent variable share are illustrative. The $120 turnover price is a vendor illustration. The levy rate was not stated in the source. CALC marks arithmetic on those inputs."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

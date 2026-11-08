@@ -1,0 +1,196 @@
+{
+  "id": "aged-care-infection-control-L03",
+  "title": "Risk assessment and IPC instructions",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and cleaning supervisors working in residential aged care, clinics, dental practices and NDIS settings in any Australian state or territory.",
+  "referencesAtStart": "Official sources for this lesson: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34 (no page date shown; document dated 2019); NDIS Practice Standards and Quality Indicators, Version 4 (November 2021), Core Module (cover date November 2021; no page date shown). Only part of these sources has been confirmed.",
+  "prerequisites": [
+    "aged-care-infection-control-L01",
+    "F02-L01",
+    "F02-L02"
+  ],
+  "learningOutcomes": [
+    "Explain what the facility risk assessment and infection prevention and control (IPC) instructions are for, and who owns them.",
+    "Read an IPC instruction and identify the parts that apply to a cleaner's task.",
+    "Recognise a hazard or mismatch between the risk assessment, the instruction and the work order, and state the stop-and-refer step.",
+    "Record the instruction source, its effective time and any postponed task."
+  ],
+  "instruction": [
+    {
+      "heading": "What the risk assessment is for",
+      "body": "A facility risk assessment identifies where infection could move and what controls reduce that risk. It considers the people in the setting, the activities carried out, the shared spaces, the equipment, and the products and waste handled. For a cleaner, the risk assessment explains why one room is cleaned before another, why some touch points are cleaned more often, and why certain items must stay separate. The assessment is owned by the facility, usually by its infection prevention and control lead, and it is reviewed when conditions change. The cleaner's job is to understand the parts that affect their work, and to follow them."
+    },
+    {
+      "heading": "What an IPC instruction is",
+      "body": "An IPC instruction is a direction from the facility, a clinical team or the IPC lead that sets how a task must be done in a given area or situation. It may set the product, the sequence, the frequency, the protective equipment, the entry rules or the waste process. It may be a standing procedure, a unit notice on a door, or an outbreak direction. Where it is written, read it fully. Where it is verbal, ask for it to be confirmed in writing before you act on it, unless it is an immediate safety direction, which you follow and then confirm. The NHMRC Australian Guidelines for the Prevention and Control of Infection in Healthcare treat environmental cleaning as part of a wider control framework, so an IPC instruction applies the guideline to the facility."
+    },
+    {
+      "heading": "Reading an instruction for your task",
+      "body": "Read the instruction and sort it into three groups: what you must do, what you must not do, and what you must refer. The must-do items are your task steps, such as the cleaning sequence and the product to use. The must-not items include products not on the list, entry to restricted rooms, and handling of clinical equipment. The refer items include any clinical decision, any change to precautions, and any situation the instruction does not cover. If the instruction does not give a product, a contact condition or a method, do not invent one. Ask for it, and record that you asked."
+    },
+    {
+      "heading": "Spotting a hazard or a mismatch",
+      "body": "A hazard or mismatch is any difference between the risk assessment, the IPC instruction, the work order and what you see on the ground. Examples include a room booked for routine cleaning that has a notice on the door, a product on the trolley that is not on the approved list, a high-touch surface missing from the schedule, or a resident whose situation has changed since the assessment was written. When you see one, stop the affected task, do not resolve it yourself by choosing whichever document is easier, and tell the nurse in charge or IPC contact. Postpone the affected task, record the hazard and the time, and do not diagnose the cause."
+    },
+    {
+      "heading": "Recording the instruction you followed",
+      "body": "Your record should show which instruction you followed, who gave it, when it became effective, and any task you postponed and why. This matters because the facility may later need to show what was done and under which direction. Do not record a clinical reason you were not given."
+    }
+  ],
+  "procedure": [
+    "Read the facility risk assessment summary and the current IPC instruction for the area before starting.",
+    "Sort the instruction into must-do, must-not and refer items, and confirm your task falls within the must-do items.",
+    "Check the work order, product list and schedule against the instruction, and note any mismatch.",
+    "If a mismatch or hazard is found, stop the affected task, do not choose between documents yourself, and tell the nurse in charge or IPC contact.",
+    "Postpone the affected task and record the hazard, the time and the person referred to.",
+    "Once the instruction is confirmed in writing, carry out the task exactly as instructed and record the instruction used and its effective time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Your schedule lists a routine clean of a shared lounge. On arrival, a notice on the lounge door says the area is restricted pending an IPC review and asks for no cleaning until further notice.",
+      "decisionPrompt": "Do you clean the lounge?",
+      "reasoning": "No. The current IPC instruction on the door overrides the schedule. Do not enter or clean the lounge. Tell the nurse in charge, postpone the task, record the notice, the time, and the person you referred to. Clean the rest of your round as the instruction permits, and return to the lounge only when the restriction is lifted in writing."
+    },
+    {
+      "situation": "The IPC instruction says to use a named product for the bathroom surfaces. The product is not on your trolley, and a different product that is on the trolley is labelled for the same use.",
+      "decisionPrompt": "Can you use the product on the trolley?",
+      "reasoning": "Do not substitute. The instruction names the approved product, and a different product may not carry the same approval or contact condition. Stop the affected surfaces, tell the supervisor so the named product is supplied, and record the postponed task and the time."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Current facility risk assessment summary for the area",
+    "Current IPC instruction, unit notice or outbreak direction",
+    "Approved product list for the area: {{business:materials.approved_products}}",
+    "Protective equipment for the task: {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Following the schedule when a current IPC instruction or door notice says otherwise.",
+      "prevention": "The current instruction governs. Check the notice and confirm with the nurse before starting."
+    },
+    {
+      "error": "Substituting a product because the named one is missing.",
+      "prevention": "Use only the named approved product. Postpone the affected surfaces and report the shortfall."
+    },
+    {
+      "error": "Acting on a verbal instruction without confirming it in writing.",
+      "prevention": "Ask for it in writing. If it is an immediate safety direction, follow it and confirm it afterwards."
+    },
+    {
+      "error": "Recording a clinical reason that you were not given.",
+      "prevention": "Record only what you were told and the source of the instruction."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The facility risk assessment and IPC instructions are owned by the facility and its infection prevention and control arrangements. Cleaning staff follow them and refer any clinical decision. The NHMRC Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019) provide the national framework on which facility procedures are based.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The NDIS Practice Standards, Version 4 of November 2021, Core Module, require that the risk management system includes measures to prevent and control infections and outbreaks, where relevant. Where the facility is an NDIS provider, that requirement applies to the facility.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Reading an IPC instruction does not grant any authority to make infection prevention decisions, set precautions or change a clinical restriction. This lesson does not grant any licence or authority.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner sorts a supplied IPC instruction into must-do, must-not and refer items, with no item left unsorted.",
+    "The learner identifies the mismatch in each of three supplied scenarios and states the stop and referral step.",
+    "The learner postpones a task correctly under a supplied restriction notice, and records the reason and time without a clinical diagnosis.",
+    "The learner records the instruction followed, its source and its effective time on a completed record."
+  ],
+  "documentationEvidence": [
+    "The instruction followed, its source, who gave it and its effective time",
+    "Any hazard or mismatch identified, the task postponed, and the person referred to",
+    "Confirmation that a verbal instruction was confirmed in writing or noted as pending"
+  ],
+  "summary": [
+    "The risk assessment and IPC instruction explain why and how work is done. The facility owns them.",
+    "Sort every instruction into must-do, must-not and refer. Do not invent a product or method.",
+    "When a hazard or mismatch appears, stop the affected task, refer it, and do not choose between documents yourself.",
+    "Record the instruction followed, its source and its effective time."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "aged-care-infection-control-L03-K01",
+      "question": "A door notice restricts a room that is on your schedule for routine cleaning. What should you do?",
+      "options": [
+        "Clean the room as scheduled, because the schedule was issued first and the notice is less important",
+        "Do not clean the room. Tell the nurse in charge, postpone the task, and record the notice and the time.",
+        "Clean the room quickly before the notice is checked, so the schedule is kept on time for the day"
+      ]
+    },
+    {
+      "id": "aged-care-infection-control-L03-K02",
+      "question": "The IPC instruction names a product that is not on your trolley. What is the correct action?",
+      "options": [
+        "Use a similar product that is labelled for the same use, which should be close enough",
+        "Use the product on the trolley with a stronger dilution to compensate for the missing item",
+        "Do not substitute. Postpone the affected surfaces, tell the supervisor, and record the shortfall."
+      ]
+    },
+    {
+      "id": "aged-care-infection-control-L03-K03",
+      "question": "What should a record show for an instruction you followed?",
+      "options": [
+        "The instruction followed, who gave it, its effective time, and any task postponed and why.",
+        "Only that the task was completed and signed off by the cleaner on the day of the visit",
+        "A clinical reason for the instruction, even if you were not given one by the nurse"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "no page date shown; document dated 2019 (CD34)",
+      "checked": "2026-11-03",
+      "covers": "Read: sections on environmental cleaning, spills, hand hygiene, standard precautions and sharps. Not read: section 3.1.4 (reprocessing), 3.1.7 (waste), 4.1.2 (roles) and Appendix 6.1 (frequencies). Check those in the full PDF. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R2",
+      "title": "NDIS Practice Standards and Quality Indicators, Version 4 (November 2021), Core Module",
+      "url": "https://ndiscommission.gov.au/sites/default/files/2024-10/ndis-practice-standards-and-quality-indicators.pdf",
+      "pageDate": "cover date November 2021 (Version 4); no page date shown",
+      "checked": "2026-11-03",
+      "covers": "Read: Provision of Supports environment, Safe environment, Management of Waste, Risk Management and Human Resource Management indicators. The last 12,026 characters of the PDF were not read. Check indicator numbers in the PDF. Publisher: NDIS Quality and Safeguards Commission."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34 (no page date shown; document dated 2019); NDIS Practice Standards and Quality Indicators, Version 4 (November 2021), Core Module (cover date November 2021; no page date shown). Only part of these sources has been confirmed, so check each on the official site before use.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34, section 2.2. https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf (checked 2026-11-02; hosted copy of the 2019 edition)",
+    "NDIS Practice Standards and Quality Indicators, Version 4, November 2021, Core Module, Risk Management requirements. https://ndiscommission.gov.au/sites/default/files/2024-10/ndis-practice-standards-and-quality-indicators.pdf (checked 2026-11-02)",
+    "UNCONFIRMED: the content and format of a facility risk assessment in each state and territory, and any mandated IPC plan for residential aged care. Not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-07.jpg",
+      "alt": "Healthcare cleaning (aged care, medical, dental, NDIS) illustration",
+      "kind": "photo",
+      "origin": "healthcare"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-08.jpg",
+      "alt": "Healthcare cleaning (aged care, medical, dental, NDIS) illustration",
+      "kind": "photo",
+      "origin": "healthcare"
+    }
+  ]
+}

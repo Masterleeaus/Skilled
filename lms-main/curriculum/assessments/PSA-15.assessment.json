@@ -1,0 +1,41 @@
+{
+  "lessonId": "PSA-15",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-15-K01",
+      "correctIndex": 1,
+      "rationale": "Appendix B: hydrotherapy water is capped at 38 degrees Celsius, and 28 to 35 degrees is the aim."
+    },
+    {
+      "id": "PSA-15-K02",
+      "correctIndex": 2,
+      "rationale": "Appendix B and table 2: free chlorine of at least 2.0 mg/L is the floor for hydrotherapy water."
+    },
+    {
+      "id": "PSA-15-K03",
+      "correctIndex": 1,
+      "rationale": "Appendix B lists unstable heart conditions, active infections and open wounds as reasons to refuse hydrotherapy."
+    },
+    {
+      "id": "PSA-15-K04",
+      "correctIndex": 0,
+      "rationale": "The stabilisers and microbial growth section says stabilisers are barred from indoor hydrotherapy water."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied hydrotherapy pool, reads water and air conditions and states whether each is within the standard's limits.",
+    "Compares a supplied disinfectant reading with the minimum and the recommended heavy-use level, and escalates the shortfall.",
+    "Applies an exclusion from a supplied scenario and records it."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Hydrotherapy daily record for the assessed pool",
+    "Exclusion record in a supplied scenario",
+    "Assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "Water above 38 degrees: keep the pool closed to users and escalate.",
+    "Free chlorine below 2.0 mg/L: keep the pool closed until corrected and retested.",
+    "User with an open wound or acute infection: refuse entry and record it."
+  ]
+}

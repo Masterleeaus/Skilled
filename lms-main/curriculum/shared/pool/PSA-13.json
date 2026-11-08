@@ -1,0 +1,164 @@
+{
+  "id": "PSA-13",
+  "title": "Public spa pools: temperature, replacement and cleaning",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "RH",
+  "estimatedMinutes": 25,
+  "audience": "Trained pool and spa technicians and operators servicing public spa pools in SA. Heater, pump and dosing wiring is licensed where a licence applies. Figures apply under the state standard.",
+  "prerequisites": [
+    "PSA-03",
+    "PSA-04",
+    "PSA-12"
+  ],
+  "learningOutcomes": [
+    "State the temperature limits, alarm point and control accuracy for a public spa.",
+    "Explain the spa filtration, skimming, replacement and cleaning requirements.",
+    "Give the spa disinfectant minimums for chlorine and bromine."
+  ],
+  "instruction": [
+    {
+      "heading": "Why spas need stricter control",
+      "body": "Public spas carry much more suspended material per litre than swimming pools. The reasons are the small volume, a high bather load for that volume, the raised temperature, aeration, and heavy organic loading. Infection is usually linked to high microbial levels in poorly maintained spas, because the warm, aerated environment supports many kinds of harmful organism. Those are the reasons the spa rules are tighter than the swimming pool rules."
+    },
+    {
+      "heading": "Temperature and alarm",
+      "body": "Water should stay at or below 40 degrees Celsius, with 35 to 37 degrees as the aim. The thermostatic control has to hold the set temperature within 0.5 degrees either way. An over-temperature alarm must be fitted so the operator is warned if water passes 40 degrees. Heat stress is a real risk at high temperatures and long exposure, so a heater fault that pushes the water above the limit is a closure event."
+    },
+    {
+      "heading": "Filtration, skimming and turnover",
+      "body": "The spa needs a filter that circulates water continuously, and its full volume has to be cycled every half hour or sooner. A weir or skimmer must draw off surface water nonstop while the spa is running. Auto-dosing and sensing must keep pH and disinfectant within the spa ranges."
+    },
+    {
+      "heading": "Replacement and weekly cleaning",
+      "body": "On every day it operates, swap out a minimum of 20 percent of the spa water, or empty the spa fully each week. The spa also needs cleaning no less often than weekly during weeks it operates. Water replacement has to follow the regulations for spas, not the swimming pool practice."
+    },
+    {
+      "heading": "Disinfectant minimums for spas",
+      "body": "A chlorinated spa needs free chlorine of 4.0 mg/L or more, and total chlorine can sit no higher than 1.0 mg/L above the free value. The pH band is 7.2 and 7.6, and total alkalinity is 60 and 200 mg/L, or 150 and 200 mg/L where BCDMH or gaseous chlorine is involved. Bromine in a spa needs at least 8.0 mg/L, with pH held between 7.2 and 7.8. Stabilisers are not permitted in spa pools."
+    }
+  ],
+  "procedure": [
+    "Check the spa water temperature against the 40 degree limit and the 35 to 37 degree ideal, and confirm the alarm is working.",
+    "Confirm the filter and skimmer are running and that turnover meets the 30-minute limit.",
+    "Test free chlorine or bromine, total chlorine, pH plus total alkalinity against the spa minimums.",
+    "Check the replacement and cleaning records for the week and confirm they meet the rules.",
+    "Record all readings, and escalate any reading above 40 degrees, any fault in the skimmer or filter, or any shortfall in disinfectant."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A public spa reads 41 degrees Celsius after a heater controller fault. Bathers are still in the spa.",
+      "decisionPrompt": "What is the first action?",
+      "reasoning": "Water above 40 degrees is a heat stress hazard, and the over-temperature alarm ought to have gone off. Clear the spa of bathers, isolate the heater as the procedure allows without opening live equipment, notify the operator, and keep the spa closed until the temperature is controlled and retested."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Calibrated spa thermometer or the spa's own sensor, verified against a reference",
+    "Free chlorine, bromine, total chlorine, pH and alkalinity test kit",
+    "Chemical-resistant gloves and eye protection",
+    "Lock-out device for heater and pump isolation"
+  ],
+  "commonErrors": [
+    {
+      "error": "Applying swimming pool turnover or replacement practice to a spa.",
+      "prevention": "Spas have a 30-minute turnover and daily or weekly replacement rules."
+    },
+    {
+      "error": "Ignoring the high-temperature alarm.",
+      "prevention": "Treat an alarm as an event to escalate and act on before reopening."
+    },
+    {
+      "error": "Using stabiliser in a spa.",
+      "prevention": "Stabilisers are not permitted in spa pools."
+    },
+    {
+      "error": "Running the spa with the skimmer or weir blocked.",
+      "prevention": "Check the skimmer or weir before use."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Water above 40 degrees Celsius can cause heat stress, especially with long exposure or heart conditions. Keep the spa closed until the temperature is controlled.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Heater, pump and dosing equipment work is licensed where a licence applies. Isolate and lock out before any inspection. This lesson does not grant a licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Chlorine, bromine and BCDMH are hazardous chemicals with safety data sheets. Keep them separated from incompatible products.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Figures are South Australian standard values (revised 2013). Confirm the current regulation text.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Spa temperature is recorded against the 40 degree limit at each check, and the alarm is confirmed working.",
+    "Water replacement or drainage and weekly cleaning are recorded against the rule.",
+    "Disinfectant readings meet the spa minimums before reopening."
+  ],
+  "documentationEvidence": [
+    "Spa daily record with temperature, disinfectant, pH, alkalinity and turnover check",
+    "Weekly record of water replacement or drain, and cleaning"
+  ],
+  "summary": [
+    "Keep spa water at or below 40 degrees Celsius, with an ideal of 35 to 37 degrees, and a working alarm.",
+    "Turnover every 30 minutes, skimming while in use, 20 percent replacement on open days or a weekly drain, and weekly cleaning.",
+    "Spa minimums are 4.0 mg/L of free chlorine or 8.0 mg/L of bromine."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PSA-13-K01",
+      "question": "What is the highest temperature the standard allows a public spa to reach?",
+      "options": [
+        "35 degrees Celsius",
+        "37 degrees Celsius",
+        "40 degrees Celsius",
+        "45 degrees Celsius"
+      ]
+    },
+    {
+      "id": "PSA-13-K02",
+      "question": "How often must a public spa's full volume cycle through the filter?",
+      "options": [
+        "Once every six hours",
+        "Once per two-hour window",
+        "Once every 30 minutes",
+        "Once a day"
+      ]
+    },
+    {
+      "id": "PSA-13-K03",
+      "question": "What does the standard say about stabilisers in spa pools?",
+      "options": [
+        "They are required for every spa",
+        "They are not permitted in spa pools",
+        "They are recommended above 50 mg/L",
+        "They are only needed in winter"
+      ]
+    },
+    {
+      "id": "PSA-13-K04",
+      "question": "What does the lesson say about replacing public spa water?",
+      "options": [
+        "Never replace it",
+        "Replace it once a year",
+        "Replace 90 percent every hour",
+        "Replace a minimum of 20 percent on every day it operates, or empty it fully each week"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 7.2 Public spa pools, Appendix C Public spa pools, tables 3, 6 and 8; rights: user-held; reworded (no copying)",
+    "Priority: official South Australian source. It overrides informal, foreign or generic pool advice that conflicts with it. Figures are dated (standard revised 2013); checked against the uploaded copy 2026-11-02; current regulation text UNCONFIRMED.",
+    "UNCONFIRMED: heater and electrical licensing for spa equipment in each state or territory."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

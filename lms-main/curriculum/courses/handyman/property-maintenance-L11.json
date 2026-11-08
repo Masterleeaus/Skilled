@@ -1,0 +1,157 @@
+{
+  "id": "property-maintenance-L11",
+  "title": "Contractors, residents and site coordination",
+  "referencesAtStart": "Official sources: none confirmed for this lesson.",
+  "courseSlugs": [
+    "handyman",
+    "residential",
+    "garden"
+  ],
+  "moduleTitle": "Property manager partner (module)",
+  "layer": "group",
+  "lessonType": "W",
+  "estimatedMinutes": 35,
+  "audience": "Property manager partner workers who coordinate contractors and communicate with residents during permitted work",
+  "prerequisites": [
+    "property-maintenance-L04",
+    "C01-L02"
+  ],
+  "learningOutcomes": [
+    "Confirm notice, permission and access before any contractor or worker enters an occupied property.",
+    "Coordinate sequencing and work instructions so that residents and contractors are not put at risk.",
+    "Protect the privacy and accessibility needs of residents during the work."
+  ],
+  "instruction": [
+    {
+      "heading": "Permission is separate from competence",
+      "body": "A contractor's competence does not replace the property's access permission. Before anyone enters, confirm that the resident has been notified in the way the tenancy or building arrangements require, that the owner or manager has approved the entry, and that the contractor has been given the access details. Record the notice, the approval and the time of entry."
+    },
+    {
+      "heading": "Coordinate the work and protect the occupant",
+      "body": "Issue a written work instruction that states the scope, the area, the time, the access route and the exclusion zone. Agree how the occupant will be kept clear of the work area. Where a resident has limited mobility, check the access route, the need for an accompanying person, and any evacuation constraints before work starts. Protect privacy: a contractor should not enter rooms or open personal items beyond the scope, and should keep any information about the resident confidential."
+    },
+    {
+      "heading": "Sequence and communicate",
+      "body": "Sequence the trades so that one does not undo the work of another, and so that services are not disconnected without notice. Keep a single point of contact for the resident and the contractors. When something changes, tell everyone affected in writing. A change in the sequence that is not communicated is a common cause of damage and of disputes."
+    }
+  ],
+  "procedure": [
+    "Confirm the notice, the owner or manager approval and the access details before entry.",
+    "Issue a written work instruction with scope, area, time, access route and exclusion zone.",
+    "Check accessibility needs and any accompaniment or evacuation constraints for the resident.",
+    "Agree the privacy boundaries with the contractor and the resident.",
+    "Sequence the trades and tell everyone affected of any change in writing.",
+    "Record the notice, the access, the entry time and the close of the visit."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contractor needs to enter an occupied flat to replace a fitting, and the resident uses a mobility aid and asks for the visit to be in the morning.",
+      "decisionPrompt": "What must be confirmed before the contractor enters?",
+      "reasoning": "Confirm the notice and the owner or manager approval, and agree a morning time with the resident. Check the access route is clear for the mobility aid, arrange for an accompanying person where the resident asks for one, and set the exclusion zone. Record the notice and the entry."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Written work instruction template",
+    "Access details kept confidential",
+    "Barriers or signage for the work area",
+    "Contact list for the resident, the owner and the contractors"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a qualified contractor can enter without the resident's notice or the owner's approval.",
+      "prevention": "Confirm notice and approval, and record them before entry."
+    },
+    {
+      "error": "Letting the contractor work outside the agreed scope or enter private areas.",
+      "prevention": "Issue a written scope and keep to it."
+    },
+    {
+      "error": "Changing the sequence without telling the other trades or the resident.",
+      "prevention": "Tell everyone affected in writing when the sequence changes."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Access and entry rules come from the tenancy, the building and the owner's authority.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not give a contractor licence, a property management licence or any authority to enter a property or to perform regulated work.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Notice, approval and access are confirmed and recorded before any entry.",
+    "A written work instruction states the scope, area, time, route and exclusion zone.",
+    "Every change to the sequence is communicated in writing."
+  ],
+  "documentationEvidence": [
+    "Entry record with notice, approval, time and the person who entered",
+    "Written work instruction with scope and exclusion zone",
+    "Record of any change to the sequence and who was told"
+  ],
+  "summary": [
+    "Confirm notice and approval before entry, because competence does not replace permission.",
+    "Write the work instruction and protect the resident's access and privacy.",
+    "Sequence the trades and communicate every change in writing."
+  ],
+  "businessFields": [
+    "{{business:customers.access_instructions}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:jobs.arrival_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "property-maintenance-L11-K01",
+      "question": "A licensed contractor arrives to work in an occupied flat. What must be confirmed first?",
+      "options": [
+        "The resident's notice and the owner or manager's approval, recorded before entry",
+        "That the contractor has a van parked outside the flat, which shows the job is booked",
+        "That the contractor is licensed, which is enough to start the job in the flat",
+        "Nothing, because the contractor is qualified and has done this work many times before"
+      ]
+    },
+    {
+      "id": "property-maintenance-L11-K02",
+      "question": "The sequence of trades changes on the day. What should happen?",
+      "options": [
+        "Change it without telling anyone",
+        "Wait and see whether anyone notices",
+        "Let the contractors sort it out",
+        "Tell everyone affected in writing"
+      ]
+    },
+    {
+      "id": "property-maintenance-L11-K03",
+      "question": "Where a resident has limited mobility, what does the lesson say to check before work starts?",
+      "options": [
+        "Nothing, the contractor will manage",
+        "The access route, the need for an accompanying person, and any evacuation constraints",
+        "Only the contractor's parking space",
+        "The resident's shopping list"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official sources: none confirmed for this lesson.",
+  "officialReferences": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "lessons/ready/property-maintenance-L11.json (source draft, pm31-au02 as cited; reference not in this workspace, UNCONFIRMED)",
+    "Entry and coordination practice: internal course guidance; tenancy and building access rules UNCONFIRMED in this course"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/locksmith-photo-5761ccff-11.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/locksmith-photo-5761ccff-12.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    }
+  ]
+}

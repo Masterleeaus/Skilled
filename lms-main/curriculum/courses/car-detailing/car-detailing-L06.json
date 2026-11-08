@@ -1,0 +1,168 @@
+{
+  "id": "car-detailing-L06",
+  "title": "Pre-wash and equipment control",
+  "courseSlugs": [
+    "cardetail"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Car detailers operating pressure, pre-wash and rinse equipment on vehicles.",
+  "referencesAtStart": "Official sources: WorkSafe Victoria, High-pressure water jetting (safety alert) (published 14 September 2022; reviewed 11 May 2023); Safe Work Australia, Guide for managing risks from high pressure water jetting (document dated December 2013).",
+  "prerequisites": [
+    "car-detailing-L02"
+  ],
+  "learningOutcomes": [
+    "Remove loose grit with non-contact methods before any contact with the paint.",
+    "Inspect hoses, couplings and spray pattern, and keep pressure away from sensitive parts.",
+    "De-energise equipment before servicing it."
+  ],
+  "instruction": [
+    {
+      "heading": "Grit before contact",
+      "body": "Loose grit can scratch paint when a cloth or brush moves over it. Remove the loose grit first, using a non-contact pre-wash and the product's own instructions, before the paint is touched. A heavily soiled car with loose stone chips needs this step before anything else."
+    },
+    {
+      "heading": "Equipment and spray",
+      "body": "Inspect hoses and couplings before use, and check that the spray pattern and pressure suit the surface. Do not direct pressure into seals, sensors, electrical connectors, damaged paint or occupants. Keep the spray away from camera housings and fragile trim, and use a low-risk test area or a gentler method where a fragile component is close to the work. Hoses and fittings should be rated for at least the equipment's maximum operating pressure. A jet of water at high pressure can puncture the skin, and a loose hose can whip and strike someone (WorkSafe Victoria, high-pressure water jetting alert, reviewed 11 May 2023). Depressurise and secure the equipment when a component is being replaced or repaired, and isolate it with locking and tagging before maintenance (Safe Work Australia guide, December 2013)."
+    },
+    {
+      "heading": "Stop and check",
+      "body": "Stop if the equipment is defective, if a seal is damaged, or if the spray is reaching a sensor or connector. Check the pre-use condition each shift, and record any defect and the equipment taken out of service. Operators should be retrained, and the retraining recorded, at intervals no longer than two years (WorkSafe Victoria, reviewed 11 May 2023). Operators should limit themselves to minor adjustments and swapping listed parts; anything more belongs with the manufacturer or a suitably qualified person (Safe Work Australia guide, December 2013)."
+    }
+  ],
+  "procedure": [
+    "Remove loose grit with a non-contact pre-wash before touching the paint.",
+    "Inspect hoses, couplings and the spray pattern before use.",
+    "Keep pressure away from seals, sensors, connectors, damaged paint and occupants.",
+    "Use a low-risk test area or a gentler method near fragile components.",
+    "Depressurise and isolate (lock and tag) equipment before servicing, and take defective equipment out of service."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A heavily soiled car has loose stone chips and sensitive camera housings near the grille.",
+      "decisionPrompt": "How do you start the pre-wash?",
+      "reasoning": "Remove the loose chips with a non-contact pre-wash, keeping the spray away from the camera housings. Test a low-pressure method on a low-risk area first, and adjust the method if the housings are at risk."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Pre-wash product with label and SDS.",
+    "Hoses, couplings and spray nozzle checked before use.",
+    "Eye protection and non-slip footwear."
+  ],
+  "commonErrors": [
+    {
+      "error": "Wiping the paint before removing grit.",
+      "prevention": "Use a non-contact pre-wash first."
+    },
+    {
+      "error": "Spraying high pressure at camera housings or seals.",
+      "prevention": "Keep pressure away from sensitive parts."
+    },
+    {
+      "error": "Servicing equipment that is still pressurised or powered.",
+      "prevention": "Depressurise and isolate, with locking and tagging, before servicing."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "High-pressure equipment can inject fluid into the body and can whip a loose hose (WorkSafe Victoria, high-pressure water jetting alert, reviewed 11 May 2023).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Product-specific dilution, dwell time and PPE come from the product label and SDS.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Loose grit removed before any contact in the practical.",
+    "Equipment inspected and spray pattern checked before use.",
+    "No pressure directed at sensitive components in the case study."
+  ],
+  "documentationEvidence": [
+    "Pre-use equipment inspection record.",
+    "Defect and out-of-service record."
+  ],
+  "summary": [
+    "Remove loose grit before any contact with the paint.",
+    "Check hoses and spray pattern; keep pressure off sensitive parts.",
+    "Depressurise and isolate before servicing, and take defective equipment out of service."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.assigned_items}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "car-detailing-L06-K01",
+      "question": "Why remove loose grit before touching the paint?",
+      "options": [
+        "It makes the wash faster, so the grit is cleared before the rinse",
+        "Grit can scratch the paint when a cloth or brush moves over it",
+        "It is not needed, because the wash removes all grit by itself"
+      ]
+    },
+    {
+      "id": "car-detailing-L06-K02",
+      "question": "Where must high pressure not be directed?",
+      "options": [
+        "The paint on the door and the sill",
+        "The wheel rims and the tyre walls too",
+        "Seals, sensors, connectors and occupants"
+      ]
+    },
+    {
+      "id": "car-detailing-L06-K03",
+      "question": "When is equipment de-energised?",
+      "options": [
+        "Before any servicing",
+        "Only at the end of the day",
+        "Never"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "High-pressure water jetting (safety alert)",
+      "url": "https://www.worksafe.vic.gov.au/safety-alerts/high-pressure-water-jetting",
+      "pageDate": "Published 14 September 2022; reviewed 11 May 2023",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria website: safety alerts, high-pressure water jetting. Other states: their WHS regulator. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Guide for managing risks from high pressure water jetting",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1702/guide-managing-high-pressure-water-jetting.pdf",
+      "pageDate": "Document dated December 2013",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia website: resources and publications, search high pressure water jetting. Dated guide: check for a newer version. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: High-pressure water jetting (safety alert); Guide for managing risks from high pressure water jetting.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/car-detailing-L06.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: this draft describes general practice and is not a verified legal or manufacturer requirement.",
+    "UNCONFIRMED: state and territory requirements for high-pressure cleaning equipment.",
+    "R1 https://www.worksafe.vic.gov.au/safety-alerts/high-pressure-water-jetting (page date: Published 14 September 2022; reviewed 11 May 2023; checked 2026-11-03)",
+    "R2 https://www.safeworkaustralia.gov.au/system/files/documents/1702/guide-managing-high-pressure-water-jetting.pdf (page date: Document dated December 2013; checked 2026-11-03)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-01.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    },
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-02.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    }
+  ]
+}

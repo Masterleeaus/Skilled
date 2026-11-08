@@ -1,0 +1,33 @@
+{
+  "lessonId": "THS-06",
+  "knowledgeAnswers": [
+    {
+      "id": "THS-06-K01",
+      "correctIndex": 0,
+      "rationale": "A missed calibration means the chemical uses in that period could have been compromised, so they are logged."
+    },
+    {
+      "id": "THS-06-K02",
+      "correctIndex": 1,
+      "rationale": "Industrial chemicals and glass instruments are an unsafe combination, so the sample forbids the practice."
+    },
+    {
+      "id": "THS-06-K03",
+      "correctIndex": 2,
+      "rationale": "The interval should come from the maker's instructions and the product's directions, checked against the business's own rule."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner checks a supplied calibration record, identifies any missed entry and writes the corrective action note.",
+    "The learner moves a supplied incompatible glass measure to a safe location and records why."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Calibration record review",
+    "Corrective action note"
+  ],
+  "stopWorkCriteria": [
+    "Stop mixing with any instrument whose calibration is missing or unknown until it is checked.",
+    "Stop mixing any product where the compatibility of the instrument cannot be checked."
+  ]
+}

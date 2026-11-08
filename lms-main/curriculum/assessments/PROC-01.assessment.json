@@ -1,0 +1,42 @@
+{
+ "lessonId": "PROC-01",
+ "knowledgeAnswers": [
+  {
+   "id": "PROC-01-K01",
+   "correctIndex": 0,
+   "rationale": "The buyer fixes the result and the measures and leaves the method open, which is the output or performance style. A conformance style would fix the design, and a brand-name style would fix the product, so both remove the supplier's room to propose a design."
+  },
+  {
+   "id": "PROC-01-K02",
+   "correctIndex": 1,
+   "rationale": "A single named brand tells suppliers that equal alternatives will not be considered, even if one would meet the performance measures. Naming a brand does not make the supplier responsible for the design, and it does not guarantee a low price."
+  },
+  {
+   "id": "PROC-01-K03",
+   "correctIndex": 1,
+   "rationale": "Early discussion with potential suppliers and with users tests assumptions about what the market offers and what the work involves. Past invoices show only what was bought before, and a competitor's confidential response must never be used."
+  },
+  {
+   "id": "PROC-01-K04",
+   "correctIndex": 0,
+   "rationale": "Features that add nothing to the outcome are paid for in the price. Over-specification tends to narrow competition and can increase disputes or maintenance effort, so the other two options describe the opposite effects."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner writes one requirement for a real or invented purchase and states the specification style with a one-line reason that names who carries the design risk. Pass: the reason is present and is consistent with the style chosen.",
+  "Learner's draft contains no unexplained brand name. Pass: any brand that remains is followed by an equivalent clause and at least one performance criterion, or has a recorded reason for a single brand.",
+  "Learner's requirements are testable. Pass: every requirement states a measure, a test or an observable result, and the assessor can tick each one without needing the learner to explain it."
+ ],
+ "passRule": "80% on knowledge checks. A quiz pass is not verified practical competence; the assessor signs off the practical criteria separately.",
+ "evidenceRequired": [
+  "Completed specification draft saved with a version date and owner",
+  "Record of at least one user and one potential supplier consulted, with the change made",
+  "Assessor record of knowledge check result",
+  "Assessor sign-off against the three practical criteria"
+ ],
+ "stopWorkCriteria": [
+  "Learner treats the three specification styles as official definitions, when they are general concepts",
+  "Learner uses confidential information from one organisation to shape a request sent to another",
+  "Learner treats the Commonwealth Procurement Rules as binding on a private business without checking the scope of paragraphs 3.7 to 3.10"
+ ]
+}

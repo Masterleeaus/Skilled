@@ -1,0 +1,164 @@
+{
+  "id": "HBM-12-locksmith",
+  "title": "Setting your hourly rate and minimum charge for Locksmith and door installation",
+  "courseSlugs": [
+    "locksmith"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 40,
+  "audience": "Owners of small Australian locksmith and door installation businesses who need a base rate, an attendance fee and an after-hours line before they quote.",
+  "prerequisites": [
+    "HBM-01",
+    "HBM-03"
+  ],
+  "learningOutcomes": [
+    "Separate billable hours from non-billable hours, and calculate the time available to bill",
+    "Calculate a base hourly rate from the owner's own costs and income target, then compare it with local evidence",
+    "Set an attendance fee and an after-hours line, and explain both to a client before the visit"
+  ],
+  "instruction": [
+    {
+      "heading": "Factors that move the rate",
+      "body": "A locksmith's rate depends on licence class, emergency and planned work, after-hours availability, the stock held, experience and local competition. The research did not find a government price source for locksmith work. The Victorian vendor listing gives market estimates for attendance and work, and it gives no hourly rate. Treat those ranges as market estimates, not as regulator data."
+    },
+    {
+      "heading": "Count only the hours that can be billed",
+      "body": "Dispatch, quoting, buying stock, van maintenance, training needed to meet licence conditions, and waiting between calls are not billable. Jobber says billable time typically makes up 60 to 80 per cent of working hours, which is a general range rather than an Australian figure. An on-call locksmith may fall below that range, so log one month before you choose a figure."
+    },
+    {
+      "heading": "Build the rate from costs and income",
+      "body": "Add annual running costs, including insurance, licence fees, stock, the van, phone, dispatch software and marketing, and the income you need, including on-costs such as leave and superannuation where they apply. Divide the total by billable hours. Confirm the tax and leave treatment with a registered tax agent before the rate is published. Business.gov.au says on-costs belong in the hourly figure."
+    },
+    {
+      "heading": "Set an attendance fee and an after-hours line",
+      "body": "The attendance fee covers travel and the start of work, and it must be stated before the visit. Vendor estimates for Victoria give a business-hours callout of $95 to $190 and an after-hours callout of $190 to $460 (The Quote Yard, 26 September 2026). The same page warns that a lockout advertised at $29 or $45 usually covers attendance only. Name the after-hours line in writing, and explain what it pays for."
+    },
+    {
+      "heading": "Review the rate",
+      "body": "Review the rate about every three months (Business Victoria, undated). Give regular clients notice of a rise, and honour quotes that were already approved at the old rate. Keep a dated record of each change and the reason for it."
+    }
+  ],
+  "procedure": [
+    "Log one month of paid hours and billable hours to find the billable share.",
+    "List the annual running costs, including insurance, licence fees, stock, van, phone, dispatch software and marketing.",
+    "Add the income you need, including on-costs for leave and superannuation as confirmed by a registered tax agent.",
+    "Divide the total by the billable hours to find the base rate.",
+    "Set an attendance fee that covers travel and start-up, and an after-hours line, and state both in writing.",
+    "Review the rate each quarter, and record any change and the reason for it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only. A locksmith has 2,000 paid hours in a year and expects 60 per cent of them to be billable (illustrative), which gives 1,200 billable hours. Annual running costs are $45,000 and the income target before tax is $75,000 (both illustrative).",
+      "decisionPrompt": "What is the base rate, and what goes wrong if the attendance fee leaves out travel time?",
+      "reasoning": "The total to recover is $120,000. Divided by 1,200 billable hours, the base rate is $100 an hour (illustrative). A business-hours attendance of 1.5 hours including travel would cost $150 at that rate, which sits inside the Victorian vendor business-hours callout range of $95 to $190 (vendor estimate). That is a check, not the basis. If the owner leaves travel out and prices the attendance at 1 hour, the attendance is $100, and the business loses $50 on each call. Naming travel as its own line stops that loss."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Annual costs and income worksheet",
+    "Log of paid and billable hours for one month",
+    "Price sheet with the base rate, the attendance fee and the after-hours line"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting a rate from a published average or a competitor's advertised fee without checking the costs.",
+      "prevention": "Build the base rate from the owner's own costs and billable hours, then compare it with local evidence."
+    },
+    {
+      "error": "Pricing as though every paid hour could be billed.",
+      "prevention": "Subtract the non-billable time before dividing."
+    },
+    {
+      "error": "Quoting an attendance that leaves out travel and start-up time.",
+      "prevention": "Set and state an attendance fee that covers travel and start-up, and name the after-hours line."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The ACCC says misleading price statements are prohibited, and that a single advertised price should include any additional charges. The material read for this variant does not address attendance or after-hours charges. Check those points with current ACCC guidance or a legal adviser before publishing a price sheet.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Confirm the tax treatment of leave and superannuation for your own situation with a registered tax agent before the rate is published.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licensing: Victoria's locksmith licence position is unresolved, so do not set a Victorian rate on the assumption that a licence is or is not needed. New South Wales and Queensland both require a locksmith licence, and the licence fee belongs in the running costs. Check your state's position before you publish a rate.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Billable hours are calculated from a logged month, not assumed.",
+    "The base rate is built from the owner's costs and income target, and is compared with local evidence.",
+    "An attendance fee and an after-hours line are set and stated before any visit."
+  ],
+  "documentationEvidence": [
+    "Annual costs and income worksheet, with the source and date of each cost",
+    "Billable hours calculation showing the non-billable deductions",
+    "Price sheet showing the base rate, the attendance fee, the after-hours line and the review date"
+  ],
+  "summary": [
+    "Price from billable hours, not from paid hours.",
+    "Build the rate from costs and a stated income target, then check it against local evidence.",
+    "Name the attendance fee and the after-hours line, and state both before the visit."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-12-locksmith-K01",
+      "question": "An owner can bill only some of the paid hours. How should the rate be built?",
+      "options": [
+        "From all paid hours, so the rate looks lower",
+        "From billable hours, so the costs and income are covered by the work that can be billed",
+        "From the fee a competitor advertises this week",
+        "From the rate the owner would like the market to pay"
+      ]
+    },
+    {
+      "id": "HBM-12-locksmith-K02",
+      "question": "Why should an attendance fee cover travel and start-up time?",
+      "options": [
+        "Because travel and start-up take no time at all",
+        "Because travel and start-up time does not shrink with the size of the job",
+        "Because clients expect every attendance to cost the same amount",
+        "Because an attendance fee replaces a written quote"
+      ]
+    },
+    {
+      "id": "HBM-12-locksmith-K03",
+      "question": "What is the best basis for checking a locksmith's base hourly rate?",
+      "options": [
+        "The lowest advertised lockout fee on a bidding site",
+        "A friend's rate, without checking the costs",
+        "The owner's own costs and billable hours, compared with local evidence",
+        "A single national average with no stated basis"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "The Quote Yard, Emergency locksmith Victoria, https://www.thequoteyard.com.au/services/emergency-locksmith-vic, published 26 September 2026. Vendor; Victorian estimates for business-hours and after-hours callout; no hourly rate given; warning that a $29 or $45 lockout quotes attendance only.",
+    "Jobber Academy, 'What are billable hours', https://getjobber.com/academy/what-are-billable-hours/, published 5 November 2024, last modified 20 July 2026. Billable time typically 60 to 80 per cent of working hours; general range, not Australian.",
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. On-costs belong in the hourly figure.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Review prices about every three months.",
+    "Parliament of Victoria, petition 654, https://www.parliament.vic.gov.au/get-involved/petitions/reduce-scam-locksmith-operators/, presented 5 February 2026. Victorian licence position not settled.",
+    "NSW Police Force, Locksmiths information sheet, https://www.police.nsw.gov.au/__data/assets/pdf_file/0007/277981/LOCKSMITHS_July_18.pdf, no publication date stated. Locksmiths must be licensed in NSW.",
+    "Queensland Government Fair Trading, 'Slam the door shut on dodgy locksmiths', https://www.qld.gov.au/law/laws-regulated-industries-and-accountability/queensland-laws-and-regulations/fair-trading-services-programs-and-resources/fair-trading-latest-news/media-statements/slam-the-door-shut-on-dodgy-locksmiths, no publication date shown. Security equipment installer licence in Queensland."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Setting prices: what's allowed (ACCC)",
+      "url": "https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed",
+      "pageDate": "last modified 15 July 2026",
+      "checked": "2026-11-09 (as recorded in the team4 HBM-12 research file; the page itself was not opened for this variant)",
+      "covers": "As summarised in the research file: misleading price statements are prohibited, and a single advertised price should include additional charges. It does not address attendance or after-hours charges in the material read. Publisher: ACCC."
+    }
+  ]
+}

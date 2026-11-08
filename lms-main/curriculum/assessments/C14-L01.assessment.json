@@ -1,0 +1,35 @@
+{
+ "lessonId": "C14-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "C14-L01-K01",
+   "correctIndex": 0,
+   "rationale": "Identification sets the scope and the approved method."
+  },
+  {
+   "id": "C14-L01-K02",
+   "correctIndex": 1,
+   "rationale": "Without identification, the cleaning is limited to the safest approved scope."
+  },
+  {
+   "id": "C14-L01-K03",
+   "correctIndex": 2,
+   "rationale": "Electrical controls are not cleaned with liquid."
+  }
+ ],
+ "practicalCriteria": [
+  "Records appliance type, make and model from a sample label.",
+  "Marks in-scope and excluded parts for a sample appliance.",
+  "Escalates a simulated unidentified appliance and cleans only the exterior."
+ ],
+ "passRule": "Identification recorded, scope marked, and unidentified appliance escalated without guessing. Observed by an assessor.",
+ "evidenceRequired": [
+  "Identification record",
+  "Scope marking on the job record"
+ ],
+ "stopWorkCriteria": [
+  "Liquid applied to controls or openings",
+  "Electrical panel opened",
+  "Unidentified appliance cleaned with an unknown method"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+  "lessonId": "kitchen-exhaust-L11",
+  "knowledgeAnswers": [
+    {
+      "id": "kitchen-exhaust-L11-K01",
+      "correctIndex": 1,
+      "rationale": "The area is kept clear, the hatch is not opened, and the hazard is escalated at once. Opening or untaping the hatch, or deferring the matter, is outside scope and unsafe."
+    },
+    {
+      "id": "kitchen-exhaust-L11-K02",
+      "correctIndex": 1,
+      "rationale": "The owner and the competent person set intervals, based on the system and the requirements that apply. A cleaner's impression on the day or a previous job card does not set the interval."
+    },
+    {
+      "id": "kitchen-exhaust-L11-K03",
+      "correctIndex": 1,
+      "rationale": "A recurrence log shows patterns across visits so that the owner and the competent person can review them. It does not set intervals and does not prove compliance."
+    }
+  ],
+  "practicalCriteria": [
+    "Describes three sample signs (seepage, non-operating fan, damaged access panel) in plain language with location and time, and gives no cause.",
+    "Stops work in a simulated escalation scenario, keeps people clear, and tells the supervisor and site operator at once, without resetting, opening or repairing any component.",
+    "Adds a simulated recurrence to a log with date, location, sign, action and response, and writes a review recommendation with no interval or approval stated."
+  ],
+  "passRule": "All three criteria met, with no component touched outside scope and no interval, approval or cause stated. Observed in a supervised desk exercise using simulated records and photographs. A pass does not qualify the assessee to assess or repair fire-system defects.",
+  "evidenceRequired": [
+    "Defect and escalation note for the simulated signs",
+    "Escalation timing record for the simulated hazard",
+    "Recurrence log entry with the review recommendation"
+  ],
+  "stopWorkCriteria": [
+    "Access hatch opened, or tape removed, outside the written scope",
+    "Fan, electrical connection or suppression component reset, repaired or covered by the cleaner",
+    "Known fire or integrity hazard left unescalated until the end of the shift",
+    "Maintenance interval or safety approval written into a record by the cleaner"
+  ]
+}

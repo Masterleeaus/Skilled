@@ -1,0 +1,132 @@
+{
+  "id": "HSE-04",
+  "title": "Corrective action time frames and the maintenance boundary",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaning supervisors, ward and department managers, and contract managers in healthcare facilities",
+  "prerequisites": [
+    "F09-L04",
+    "SAH-09"
+  ],
+  "learningOutcomes": [
+    "Match an audit finding to a corrective action time frame",
+    "Separate a cleaning fault from a maintenance fault",
+    "Write a maintenance request that states the infection risk"
+  ],
+  "instruction": [
+    {
+      "heading": "Time frames follow risk",
+      "body": "The Irish manual ties corrective action to the risk category of the area. Findings in the highest risk areas are to be acted on immediately and the cleaning kept constant, while lower risk findings move to a routine, lower-intensity response. The manual also separates maintenance issues that create a risk to infection control or to safety from those that do not. The time frame table in the uploaded text is garbled, so no hour counts are quoted here. Use the facility's own time frames, and do not apply any Irish figures in Australia without checking them."
+    },
+    {
+      "heading": "The maintenance boundary",
+      "body": "A fault that cannot be cleaned away and that holds soil, such as a cracked tile in a shower room, is a maintenance matter with an infection control risk, so it is reported for urgent action. A fault that does not create that risk goes on the planned maintenance list. The boundary between cleaning and maintenance for each item, such as light fittings and ventilation units, should be written into the service agreement with a named responsible person or department, and reviewed when a dispute arises."
+    },
+    {
+      "heading": "Writing the request",
+      "body": "A useful maintenance request states what the item is, where it is, why it cannot be cleaned, what risk it creates, and when the fault was first reported. Keep a copy, and check at the following audit that the fault was closed."
+    }
+  ],
+  "procedure": [
+    "Record the finding with its risk category.",
+    "Decide whether the cause is cleaning or maintenance.",
+    "If the fault creates an infection or safety risk, report it to the supervisor for urgent action.",
+    "If the issue is not time-critical, add it to the planned maintenance list with the date.",
+    "Check closure at the following audit and record it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner finds a cracked wall tile in a shower room. The crack traps soil and the cleaning cannot remove it.",
+      "decisionPrompt": "Is this a cleaning or maintenance issue, and how urgent is it?",
+      "reasoning": "It is a maintenance issue because cleaning cannot fix it. It creates an infection control risk because it holds soil, so it goes on the urgent list and is reported at once with its exact location and the risk it creates."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Maintenance request form",
+    "Written description or photo of the fault, where local policy allows"
+  ],
+  "commonErrors": [
+    {
+      "error": "Leaving the fault for the next clean",
+      "prevention": "Report at once when the fault creates a risk."
+    },
+    {
+      "error": "Writing 'broken tap' with no location, risk or date",
+      "prevention": "Give the item, location, risk and date every time."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Do not attempt electrical or structural repairs. Isolate the item under local rules and report it.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The facility's own time frames apply.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner separates a cleaning fault from a maintenance fault in sample cases",
+    "The learner writes a request that gives the item, location, risk and date"
+  ],
+  "documentationEvidence": [
+    "Maintenance request with item, location, risk and date",
+    "Closure record checked at the following audit"
+  ],
+  "summary": [
+    "Corrective action time frames follow the area's risk category",
+    "A fault that cannot be cleaned and holds soil is a maintenance matter with a risk",
+    "The cleaning and maintenance boundary is written down for each item"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HSE-04-K01",
+      "question": "A fault cannot be cleaned away and holds soil. What is it?",
+      "options": [
+        "A cleaning issue only and nothing more for the whole ward today",
+        "A maintenance issue that may create an infection control risk",
+        "Not a concern if the area is low risk and the staff are not worried"
+      ]
+    },
+    {
+      "id": "HSE-04-K02",
+      "question": "What should a maintenance request include?",
+      "options": [
+        "Only the cleaner's name and the name of the ward",
+        "The item, its location, the risk it creates and the date",
+        "A guess at the repair cost and a guess at the time it takes"
+      ]
+    },
+    {
+      "id": "HSE-04-K03",
+      "question": "Where should the cleaning and maintenance boundary for an item be recorded?",
+      "options": [
+        "In the cleaner's memory and in the notes the cleaner keeps at home for the week",
+        "In the service agreement or specification, with a named responsible person or department",
+        "Nowhere, because the boundary is understood from the room layout and the staff already know it"
+      ]
+    },
+    {
+      "id": "HSE-04-K04",
+      "question": "How soon should findings in the highest risk areas be acted on, according to the lesson?",
+      "options": [
+        "At the next annual audit",
+        "Only when the client asks",
+        "After six months",
+        "Immediately"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "HSE National Cleaning Standards Manual (National Hospitals Office, Ireland, Cleaning Manual for Acute Hospitals, 2006), section 1.7 (infrastructure and maintenance), section 1.8 (associated responsibilities) and section 1.15 (action and time frames for corrective action); rights: user-held; reworded (no copying); Irish source, not the UK Health and Safety Executive; Irish and UK legal and procurement references are not applicable in Australia and are marked UNCONFIRMED; practice content only; no URL in source; date checked 2026-11-02",
+    "cross-checked against F09-L04 (nonconformance and corrective action)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

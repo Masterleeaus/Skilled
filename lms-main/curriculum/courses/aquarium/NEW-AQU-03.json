@@ -1,0 +1,254 @@
+{
+  "id": "NEW-AQU-03",
+  "title": "Livestock stress, quarantine and animal welfare boundaries",
+  "courseSlugs": [
+    "aquarium"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Aquarium maintenance technicians who handle, feed, move or observe aquarium livestock",
+  "prerequisites": [
+    "NEW-AQU-01",
+    "F14-L01"
+  ],
+  "learningOutcomes": [
+    "Recognise common signs of stress and illness in aquarium livestock, and record them with the time and the conditions",
+    "Explain why new stock is quarantined, and how the owner's quarantine plan is applied",
+    "Separate the contractor's role from the role of the owner and of any animal health professional",
+    "Refuse to medicate, move or release animals without written authority"
+  ],
+  "referencesAtStart": "Official sources for this lesson: WA DPIRD, Importing and keeping live fish: translocation (no date in the page body; page metadata shows 2 October 2024); NSW DPI, Aquarium owners and trade (no date shown); Queensland Government, Your legal obligation for invasive freshwater animals (last updated 28 May 2026); NSW Legislation, Prevention of Cruelty to Animals Act 1979 No 200 (section 11) (no in-force date shown in the extract; amendments listed up to 2024 No 85).",
+  "instruction": [
+    {
+      "heading": "Signs of stress",
+      "body": "Stress in fish and invertebrates shows as hiding, clamped fins, gasping at the surface, pale or dark colouring, erratic swimming, rubbing on surfaces, loss of appetite, sitting on the bottom or hovering near the top. Some of these signs are normal for a short time in an animal that has just been introduced. A pattern that continues or gets worse needs attention. Stress often follows a change in water conditions, temperature, handling, transport or crowding. Record the signs, the number of animals affected, the time and the conditions, rather than assuming the behaviour is normal. The sources also describe signs of disease, including white spots, red streaks, open sores, cloudy eyes, white growths on fins and damaged fins. Record and refer these. Do not diagnose them yourself."
+    },
+    {
+      "heading": "Quarantine",
+      "body": "New or returned livestock is commonly held in a separate quarantine system before it joins the main tank, so that disease or parasites can be seen before they spread. A quarantine system is a separate tank or container with its own equipment, which must not be shared with the main system without cleaning. The set-up, the length of quarantine and any treatment are set by the owner's plan and by the species guidance the owner uses. A contractor does not start, stop or change a quarantine without the owner's instruction, and does not move stock between systems without a plan (see the system types lesson)."
+    },
+    {
+      "heading": "Your role and the owner's role",
+      "body": "A contractor or technician observes, records, feeds where the plan authorises it, cleans, and reports. Diagnosis, treatment, medication, euthanasia and any decision to move or release animals belong to the owner and, where needed, to a qualified animal health professional. Do not treat an animal with a medication or chemical without authority, and do not use a pool product as a treatment. Report what you observed and when, and refer the decision in writing."
+    },
+    {
+      "heading": "Movement and release",
+      "body": "Moving live fish between waterways is regulated. The Western Australian page says authority is needed to move fish within the state, and the detail varies by fish type (page metadata dated 2 October 2024, no date in the body). The New South Wales Department of Primary Industries says that listed prohibited and notifiable species may not be kept, purchased, sold or transported, and that releasing fish into public waters needs a fish stocking permit under the Fisheries Management Act (no date shown). In Queensland, listed prohibited species must not be held or brought in, and a person who has or suspects one should inform Biosecurity Queensland without delay (last updated 28 May 2026). Releasing an aquarium animal into a natural waterway can introduce disease and non-native species, and it is never a contractor decision."
+    },
+    {
+      "heading": "Welfare and handling",
+      "body": "Minimise handling. Use the owner's nets and containers, handle animals in ways that avoid injury, and keep them in water as far as possible. Where an animal has died, record it, and handle the remains as the owner directs. Record deaths and suspected disease in writing, and refer them. Do not put remains down a drain or into a waterway."
+    }
+  ],
+  "procedure": [
+    "Observe each animal, and record any sign of stress or illness with the time and the conditions.",
+    "Check the water test record and the recent changes before attributing the signs to a cause.",
+    "Confirm whether the animal is in quarantine, and whether the owner's plan covers it.",
+    "Minimise handling. Use the owner's equipment and handle the animals safely.",
+    "Refer any suspected disease, death or need for treatment to the owner and, where needed, to an animal health professional.",
+    "Do not medicate, move or release any animal without written authority.",
+    "Record the observations, the referral and the owner's decision."
+  ],
+  "workedExamples": [
+    {
+      "situation": "After a supplier restock, a technician sees white spots on several fish in the main tank, and the owner asks the technician to add a medication immediately.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "The technician does not add a medication without the owner's written authority and an animal health decision. The technician records the signs, the number of animals affected and the time, tells the owner, advises that the new stock should be quarantined under the owner's plan, and recommends a qualified specialist. The treatment decision belongs to the owner."
+    },
+    {
+      "situation": "An owner asks the technician to release two unwanted fish into the local creek near the house.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Releasing aquarium fish into a natural waterway is not a contractor decision and may be regulated. The technician declines, explains the disease and non-native species risk, and refers the owner to the state or territory authority for guidance on rehoming or disposal. The request and the refusal are recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Owner's quarantine and treatment plan",
+    "Owner's nets and containers",
+    "Observation record",
+    "Contact sheet for the owner and the animal health professional",
+    "PPE as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Adding medication without authority.",
+      "prevention": "Refer the treatment decision to the owner and, where needed, an animal health professional."
+    },
+    {
+      "error": "Moving stock between systems without quarantine.",
+      "prevention": "Follow the owner's quarantine plan, and record any move."
+    },
+    {
+      "error": "Releasing animals into a creek or drain.",
+      "prevention": "Refuse and refer. Release is not a contractor decision."
+    },
+    {
+      "error": "Treating stress signs as normal without recording them.",
+      "prevention": "Record the signs with the time and the conditions, and refer them if they continue."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Medicating, moving or releasing live animals needs the owner's authority and may be regulated. This lesson does not grant any authority to treat or move animals.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Moving live fish within Western Australia needs authority (page metadata dated 2 October 2024, no date in the body). Releasing aquarium animals into waterways is not permitted under this lesson.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The New South Wales Department of Primary Industries treats discarding an unwanted pet fish as an offence under section 11 of the Prevention of Cruelty to Animals Act 1979 (no date shown) (no in-force date shown in the extract; amendments listed to 2024 No 85). That section makes abandoning an animal an offence, with penalties of up to 50 penalty units or six months' imprisonment, or both, for an individual (no in-force date shown in the extract; amendments listed to 2024 No 85).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pool chemicals are not used as animal treatments.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Signs of stress are recorded with the time and the conditions",
+    "No treatment, movement or release happens without the owner's written authority",
+    "Deaths and suspected disease are recorded and referred"
+  ],
+  "documentationEvidence": [
+    "Observation record with the signs, the number of animals and the time",
+    "Referral to the owner and, where needed, the animal health professional",
+    "Owner's decision with the date"
+  ],
+  "summary": [
+    "Record stress signs with the time and conditions. A pattern that continues or worsens needs referral.",
+    "Quarantine follows the owner's plan.",
+    "Treatment, movement and release are decisions for the owner and may be regulated.",
+    "Refuse to release or medicate without authority, and record the refusal."
+  ],
+  "businessFields": [
+    "{{business:staff.authorised_tasks}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:customers.complaint_escalation}}",
+    "{{business:staff.supervisor_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-AQU-03-K01",
+      "question": "After a restock, several fish show white spots. What is the correct first action?",
+      "options": [
+        "Add a medication straight away, since a quick dose stops the spread",
+        "Record the signs and tell the owner, who decides the treatment and quarantine",
+        "Move the fish to a pond, since the outdoor water is cooler and cleaner",
+        "Ignore it because the fish are eating, and the spots will fade on their own"
+      ]
+    },
+    {
+      "id": "NEW-AQU-03-K02",
+      "question": "What is the correct response to a request to release aquarium fish into a creek?",
+      "options": [
+        "Release them because the owner asked, and the owner has the right to decide",
+        "Release them at night when nobody is around to see it happen",
+        "Put them down the drain, since that is the quickest way to get rid of them",
+        "Decline, explain the risk, and refer the owner to the relevant authority"
+      ]
+    },
+    {
+      "id": "NEW-AQU-03-K03",
+      "question": "Which of these is a sign of stress that needs recording?",
+      "options": [
+        "Hiding with clamped fins and gasping at the surface",
+        "Normal feeding and a steady appetite at each visit",
+        "Swimming around the tank at a steady, relaxed pace",
+        "Bright colour and active swimming in a healthy fish"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Importing and keeping live fish: translocation",
+      "url": "https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation",
+      "pageDate": "No date in the page body; page metadata shows 2 October 2024",
+      "checked": "2026-11-03",
+      "covers": "Open the page and read the section on moving fish within Western Australia. Authority is needed, the approval type depends on the case, and the page covers non-endemic fish. Publisher: Department of Primary Industries and Regional Development (WA)."
+    },
+    {
+      "id": "R2",
+      "title": "Aquarium owners and trade",
+      "url": "https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "NSW Department of Primary Industries, Aquarium owners and trade (no date shown). The page says to check which species are illegal to possess, buy, sell or move; that releasing fish into NSW public waters is illegal without a fish stocking permit under the Fisheries Management Act; that buying fish, plants or live rock from overseas on the internet is illegal; and that dumping an unwanted pet fish is an illegal act. It names the Prevention of Cruelty to Animals Act 1979 for animal welfare. The page uses the word illegal for these points, not warning. Publisher: NSW Department of Primary Industries."
+    },
+    {
+      "id": "R3",
+      "title": "Your legal obligation for invasive freshwater animals",
+      "url": "https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations",
+      "pageDate": "Last updated 28 May 2026",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it refers to the Biosecurity Regulation 2016 for the full list of prohibited species and says whom to contact about a suspected one. It does not name aquarium species or set a release rule for aquarium fish. Publisher: Queensland Government."
+    },
+    {
+      "id": "R4",
+      "title": "Prevention of Cruelty to Animals Act 1979 No 200 (section 11)",
+      "url": "https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1979-200",
+      "pageDate": "No in-force date shown in the extract; amendments listed up to 2024 No 85",
+      "checked": "2026-11-03",
+      "covers": "Open the Act and go to section 11, which concerns abandoning an animal. The penalty figures are in the penalty provisions for that section on the same page. Publisher: NSW Legislation."
+    },
+    {
+      "id": "R5",
+      "title": "state and territory rules for keeping, moving, releasing, medicating and disposing of aquarium fish",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Check with the state or territory authority responsible for aquatic biosecurity before the work. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was fetched for this point in this pass, so url is left null."
+    },
+    {
+      "id": "R6",
+      "title": "which professions may prescribe or dose animal medicines",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Check with the state or territory animal health authority. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was fetched for this point in this pass, so url is left null."
+    },
+    {
+      "id": "R7",
+      "title": "animal welfare codes that apply to aquarium fish",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Check the animal welfare authority in your state or territory. Publisher: No official page read in this pass. Not confirmed by an official source: no official page was fetched for this point in this pass, so url is left null."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-E: Department of Primary Industries and Regional Development (WA), Importing and keeping live fish: translocation, https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation, page dated 2 October 2024, checked 2026-11-02 (as recorded in the existing draft). States that authority is needed to move fish within WA. Does not cover aquarium fish or penalties.",
+    "NSW Department of Primary Industries, Aquarium owners and trade, https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade, checked 2026-11-02 (as recorded in research/topics/aquarium.md section 5). No page date shown. Possession, sale, movement and release rules, and the dumping offence.",
+    "Queensland Government, Your legal obligation for invasive freshwater animals, https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations, checked 2026-11-02, page last updated 28 May 2026 (as recorded in research/topics/aquarium.md section 5). Prohibited high-risk aquarium species.",
+    "Aquarium keeping student presentation (uploaded file c5a0d0ad-367752036) and aquarium types reference (uploaded file e65220ee-328158963), stress and quarantine points; rights: reworded (no copying).",
+    "Retailer freshwater handbook (uploaded file 718107ab-729706926), disease sign points only; rights: not held by user; reworded (no copying). Product recommendations are not used.",
+    "UNCONFIRMED: state and territory rules for keeping, moving, releasing or medicating aquarium and pond fish outside WA, NSW and QLD; which professions may prescribe or dose animal medicines; animal welfare codes that apply to aquarium fish.",
+    "R1: Importing and keeping live fish: translocation (Department of Primary Industries and Regional Development (WA)), https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation; page date: No date in the page body; page metadata shows 2 October 2024; read 2026-11-03; status PARTIAL.",
+    "R2: Aquarium owners and trade (NSW Department of Primary Industries), https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade; page date: No date shown; read 2026-11-03; status CONFIRMED.",
+    "R3: Your legal obligation for invasive freshwater animals (Queensland Government), https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations; page date: Last updated 28 May 2026; read 2026-11-03; status PARTIAL.",
+    "R4: Prevention of Cruelty to Animals Act 1979 No 200 (section 11) (NSW Legislation), https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1979-200; page date: No in-force date shown in the extract; amendments listed up to 2024 No 85; read 2026-11-03; status CONFIRMED.",
+    "R5: UNCONFIRMED, state and territory rules for keeping, moving, releasing, medicating and disposing of aquarium fish; no official page read in this pass.",
+    "R6: UNCONFIRMED, which professions may prescribe or dose animal medicines; no official page read in this pass.",
+    "R7: UNCONFIRMED, animal welfare codes that apply to aquarium fish; no official page read in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-05.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-06.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    }
+  ]
+}

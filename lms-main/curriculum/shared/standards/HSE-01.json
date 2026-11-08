@@ -1,0 +1,121 @@
+{
+  "id": "HSE-01",
+  "title": "Writing a cleaning element specification as an outcome",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaning supervisors, ward leaders plus infection control staff writing or checking cleaning specifications",
+  "prerequisites": [
+    "F09-L01"
+  ],
+  "learningOutcomes": [
+    "Write an outcome statement for a named element",
+    "Explain the difference between a task instruction and an outcome statement",
+    "Judge an element as acceptable or unacceptable against its written outcome"
+  ],
+  "instruction": [
+    {
+      "heading": "Describe the outcome, not only the task",
+      "body": "A cleaning element specification describes the state an item must be in when cleaning is finished, not only the steps taken to get there. The Irish manual builds its approach on element specifications, roughly fifty-five elements for a typical ward, each with a short statement of the result required. For a radiator, for example, the statement describes the whole unit, including its parts, as clean and in good repair with no visible residue. A statement written that way can be checked by two different people and give the same answer."
+    },
+    {
+      "heading": "What a good statement contains",
+      "body": "A good statement is patient-focused, clear to the staff who clean the element, measurable, in line with infection control requirements, and comparable with similar facilities. It sets out a pass condition and a fail condition in plain words. Keep one element to one statement, so that a score is not argued over two items at once. Test each statement by asking whether a trained person could look at the element and say yes or no."
+    },
+    {
+      "heading": "Scoring against the statement",
+      "body": "The auditor scores each element as acceptable (1) or unacceptable (0), and leaves out any element that is not present in a room. A failed element is recorded with its reason and a time set for fixing it. Faults that belong to maintenance rather than cleaning are noted as findings for the maintenance route."
+    }
+  ],
+  "procedure": [
+    "Pick one element from the room list, such as a bed rail or a sink.",
+    "Write the outcome as the condition the item must be in when cleaning is complete.",
+    "List the pass and fail conditions in plain words.",
+    "Check that the statement can be judged by sight or touch, and that the infection prevention team agrees with it.",
+    "Use the statement for scoring and for training."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A team writes an outcome for door handles. Two auditors disagree on a handle with a smear on its plate.",
+      "decisionPrompt": "What in the statement should settle the disagreement?",
+      "reasoning": "The statement needs a measurable pass condition, such as no visible smears, marks or residue on the handle and the plate. With that written down, the auditors can agree on the score. A failed element then gets a recorded reason and a time for action."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Element list for the room",
+    "Score sheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing a task such as 'wipe the door' instead of an outcome",
+      "prevention": "Describe the finished state of the item."
+    },
+    {
+      "error": "Combining several elements into one statement",
+      "prevention": "Write one statement per element."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Scores are a measure of cleaning quality. They are not a fair basis for judging an individual without a proper process.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Irish element numbers do not apply in Australia. Write statements for the facility's own element list.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner writes one outcome statement with pass and fail conditions",
+    "The learner names two features that make a statement measurable"
+  ],
+  "documentationEvidence": [
+    "Element specification sheet with outcome, pass and fail conditions",
+    "Score sheet with the reason for each failed element"
+  ],
+  "summary": [
+    "An element specification describes the outcome",
+    "A good statement has a measurable pass and fail condition",
+    "Each element is scored 1 or 0 and failures are given reasons"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HSE-01-K01",
+      "question": "What does a cleaning element specification describe?",
+      "options": [
+        "The brand of product to buy and the price per litre",
+        "The result to be achieved when the element is cleaned",
+        "The staff roster for the week and the shift times"
+      ]
+    },
+    {
+      "id": "HSE-01-K02",
+      "question": "An auditor marks an element as acceptable. What score is recorded?",
+      "options": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "HSE-01-K03",
+      "question": "Which statement is most useful for scoring?",
+      "options": [
+        "Clean the door well and make sure it looks good to everyone who passes by the door",
+        "All visible marks removed from the door and handle, with a reason recorded for any mark left behind",
+        "Use the usual method for every door in the building and all the handles and the frames"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "HSE National Cleaning Standards Manual (National Hospitals Office, Ireland, Cleaning Manual for Acute Hospitals, 2006), section 1.2 (cleaning element standards) and section 1.14 (scoring of the cleaning audit tool); rights: user-held; reworded (no copying); Irish source, not the UK Health and Safety Executive; Irish and UK legal and procurement references are not applicable in Australia and are marked UNCONFIRMED; practice content only; no URL in source; date checked 2026-11-02",
+    "cross-checked against F09-L01 (define acceptance criteria)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

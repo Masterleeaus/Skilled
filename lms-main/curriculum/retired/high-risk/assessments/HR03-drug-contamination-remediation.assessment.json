@@ -1,0 +1,92 @@
+{
+  "lessonId": "HR03-drug-contamination-remediation",
+  "knowledgeAnswers": [
+    {
+      "id": "HR03-K01",
+      "correctIndex": 1,
+      "rationale": "Same-day service without site history or assessment cannot be supported. Access pauses until competent screening, authority and a written scope exist."
+    },
+    {
+      "id": "HR03-K02",
+      "correctIndex": 2,
+      "rationale": "Signs of a possible laboratory mean leaving, not touching or identifying materials, and escalating to emergency services or the police and the authorised specialist."
+    },
+    {
+      "id": "HR03-K03",
+      "correctIndex": 0,
+      "rationale": "Neither a clean look nor a customer's word substitutes for an authorised assessment."
+    },
+    {
+      "id": "HR03-K04",
+      "correctIndex": 1,
+      "rationale": "Containment is planned before anything moves, so that shared and occupied spaces are not contaminated."
+    },
+    {
+      "id": "HR03-K05",
+      "correctIndex": 2,
+      "rationale": "A single result has no representativeness and no custody record. It must be validated before reliance."
+    },
+    {
+      "id": "HR03-K06",
+      "correctIndex": 0,
+      "rationale": "PPE is chosen from a formal assessment and used by trained workers. Improvised protection is not an acceptable control."
+    },
+    {
+      "id": "HR03-K07",
+      "correctIndex": 1,
+      "rationale": "Former-laboratory debris is not household waste. Licensed handling with written arrangements is required first."
+    },
+    {
+      "id": "HR03-K08",
+      "correctIndex": 2,
+      "rationale": "Blanket salvage cannot be supported. Each item needs a specialist decision, and any exception is documented and approved."
+    },
+    {
+      "id": "HR03-K09",
+      "correctIndex": 0,
+      "rationale": "Current rules for the applicable jurisdiction govern. Older standards and other countries' rules are not substituted."
+    },
+    {
+      "id": "HR03-K10",
+      "correctIndex": 1,
+      "rationale": "A zero-contamination statement cannot be made from a visit or a wipe. Clearance needs an independent competent verification."
+    },
+    {
+      "id": "HR03-K11",
+      "correctIndex": 2,
+      "rationale": "Personal medical and drug-use information is sensitive. Disclosure is governed by privacy law and the record holder's authority."
+    },
+    {
+      "id": "HR03-K12",
+      "correctIndex": 0,
+      "rationale": "A possible exposure ends the activity and starts the employer's procedure. Self-treatment and delay are not acceptable."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies the controlling authority, the written release and the unknowns in a simulated same-day request, and chooses a hold decision with the owner named.",
+    "Recognises, from a paper scenario, the signs that require leaving the area and escalating, without touching or identifying any material.",
+    "Produces a containment and handoff diagram for a fictional property, with supervised zones and approval status recorded.",
+    "Refuses a zero-contamination statement and specifies the independent competent verification required.",
+    "Writes a privacy-conscious, scope-limited handover for a fictional job with no personal information disclosed."
+  ],
+  "passRule": "Competent only if all five observable tasks are demonstrated correctly in supervised paper or training-only simulation with no critical safety failure. Critical failures include unauthorised entry to a suspected contaminated property, any sampling or decontamination, any clearance claim, touching a suspected laboratory item, or falsified records. A written quiz pass is not practical competence. Not approved for use until specialist, legal and jurisdiction review is complete.",
+  "evidenceRequired": [
+    "Written scope and authority decision for each simulated case, with the owner named.",
+    "Observation and escalation record for each simulated scenario.",
+    "Annotated containment and handoff diagram for a fictional property.",
+    "Written refusal of a statement without a source, with the required verification specified.",
+    "Privacy-conscious handover from the simulated job file.",
+    "Assessor observation record signed by an organisation-authorised competent assessor."
+  ],
+  "stopWorkCriteria": [
+    "Any entry or work where the authority or written release is missing or unclear.",
+    "Any touching, moving or identification of a suspected laboratory or manufacturing item.",
+    "Any sampling, testing or decontamination by someone not qualified and authorised to do it.",
+    "Any PPE that has not been formally assessed and approved.",
+    "Any waste removal without a licensed handler and written arrangements.",
+    "Any request to sign a clearance or zero-contamination statement.",
+    "Any disclosure of personal medical or drug-use information."
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

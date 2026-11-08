@@ -1,0 +1,177 @@
+{
+  "id": "HBM-12-dogwalk",
+  "title": "Setting your hourly rate and minimum charge for Dog walking",
+  "courseSlugs": [
+    "dogwalk"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 40,
+  "audience": "Dog walkers who need a base hourly rate for walks and a minimum charge for short bookings before they quote.",
+  "prerequisites": [
+    "HBM-01",
+    "HBM-03"
+  ],
+  "learningOutcomes": [
+    "Separate billable hours from non-billable hours, and calculate the time available to bill.",
+    "Calculate a base hourly rate from the owner's own costs and income target, then compare it with local evidence.",
+    "Set a minimum charge for short jobs, and explain it to a client before the visit."
+  ],
+  "instruction": [
+    {
+      "heading": "What moves the rate for a walker",
+      "body": "The rate depends on the service you offer and on the local market. Vendor listings show wide ranges by length: a 15-minute walk is listed at $15 to $25, and a 60-minute walk at $45 to $70, across Australia (Airtasker, vendor, 19 May 2026). A listing range shows what is on offer, not what your costs require. Experience, reliability, insurance and the range of services offered also matter. Do not cut your rate to win work; review it on a fixed schedule instead."
+    },
+    {
+      "heading": "Counting the hours that can be billed",
+      "body": "Walking hours are not all billable. Travel between homes, pick-up admin, messages, invoicing, marketing, training, vehicle upkeep, sick days and leave are not billable. Estimate the paid hours in a year, subtract the non-billable time, and you have billable hours. A Jobber guide puts billable time at about 60 to 80 per cent of working hours. That is a general range, not an Australian figure, so check your own log against it (Jobber Academy, 5 November 2024, last modified 20 July 2026)."
+    },
+    {
+      "heading": "Building the rate from costs and income",
+      "body": "Add the annual costs of running the business, including insurance, the vehicle, phone and app fees, bags and consumables, any council permit fee and accounting, to the income you need. business.gov.au says on-costs such as superannuation, leave and tax belong in the hourly figure (1 October 2026). Divide the total by billable hours to reach the base rate. Have a registered tax agent confirm how leave and superannuation apply to you before the rate is published. Business Victoria recommends reviewing prices about every three months (no date shown on the page)."
+    },
+    {
+      "heading": "Setting a minimum charge for short walks",
+      "body": "A 15-minute walk does not shrink the travel. A minimum charge covers the trip, the start of the walk and the admin. Set it from your own cost of one visit. A contractor pricing guide proposes working it out from the full cost of the visit, divided by one minus the target margin, and that guide labels its own figures as illustrative (Contractor+, 23 September 2026). The research found no sourced minimum charge for dog walking in Australia, so the figure is yours to set and test. Tell the owner the minimum before the first booking, in plain terms."
+    }
+  ],
+  "procedure": [
+    "Estimate paid hours in a year, then subtract travel, admin, marketing, training and leave to find billable hours.",
+    "List annual running costs, including insurance, vehicle, phone, app fees, consumables and any permit fee.",
+    "Add the income you need, with on-costs and tax confirmed by a registered tax agent.",
+    "Divide the total by billable hours to find the base rate.",
+    "Set a minimum charge for short walks that covers travel and admin, and state it in writing.",
+    "Review the rate each quarter, and record any change and its reason."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only. A walker finds that only 60 of every 100 paid hours can be billed once travel between homes and admin are removed. She plans to price as if every paid hour were billable, which is how she has priced so far.",
+      "decisionPrompt": "What is the effect on the rate if she keeps that assumption, and how should she build it instead?",
+      "reasoning": "If she prices from all paid hours, the same annual costs are spread over more hours than she can bill, so the rate comes out too low. The costs of 100 paid hours must be recovered from the 60 billable hours, so the rate must be about 1.67 times the rate for a fully billable week. She builds the rate from billable hours, checks it against the listing ranges and her own costs, and sets a minimum for a 15-minute walk that covers her travel."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Annual costs and income worksheet, with the source and date of each cost",
+    "Log of paid and billable hours for one month, with travel time shown separately",
+    "Price sheet with the base rate, the minimum charge and the review date"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting a rate from a listing average or a competitor's price without checking your costs",
+      "prevention": "Build the base rate from your own costs and billable hours, then compare it with local listings."
+    },
+    {
+      "error": "Pricing as though every paid hour could be billed",
+      "prevention": "Subtract the non-billable time, including travel, before dividing."
+    },
+    {
+      "error": "Taking short walks at the same rate, without covering travel and admin",
+      "prevention": "Set and state a minimum charge that covers travel and admin."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Price display rules come from the Australian Consumer Law. The ACCC says misleading price statements are prohibited (15 July 2026). The sources read do not cover minimum or call-out charges or what counts as a fair term, so check those points before you publish a price sheet. Minimum-charge rules for dog walking are UNCONFIRMED.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Tax treatment of leave, superannuation and self-employed income is UNCONFIRMED in this lesson. Confirm it with a registered tax agent.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Council permit fees for commercial dog walking differ by council and are separate from your hourly rate. Include the current council fee as a named cost, and confirm it with the council.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Billable hours are calculated from a logged or estimated month, not assumed.",
+    "The base rate is built from costs and an income target, and is compared with local listings.",
+    "A minimum charge is set and stated before any short walk."
+  ],
+  "documentationEvidence": [
+    "Annual costs and income worksheet, with the source and date of each cost",
+    "Billable hours calculation showing the non-billable deductions",
+    "Price sheet showing the base rate, the minimum charge and the review date"
+  ],
+  "summary": [
+    "Price from billable hours, not from paid hours.",
+    "Build the rate from costs and a stated income target, then check it against local listings.",
+    "Set and state a minimum charge for short walks."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-12-dogwalk-K01",
+      "question": "A dog walker can bill only some of the paid hours. How should the rate be built?",
+      "options": [
+        "From all paid hours, so the rate looks lower and the owner pays less per walk",
+        "From billable hours, so the costs and income are covered by the work that can be billed",
+        "From the average listing price and the nearest competitor's rate",
+        "From the rate the walker wishes the market would pay"
+      ]
+    },
+    {
+      "id": "HBM-12-dogwalk-K02",
+      "question": "Why set a minimum charge for short walks?",
+      "options": [
+        "Because short walks need travel but no set-up or admin at all",
+        "Because travel, set-up and admin time does not shrink with the size of the job",
+        "Because owners expect every walk to cost the same, whatever its length",
+        "Because a minimum charge replaces a written quote for every booking"
+      ]
+    },
+    {
+      "id": "HBM-12-dogwalk-K03",
+      "question": "What is the best source for checking a base hourly rate?",
+      "options": [
+        "A single published national average from a trade body",
+        "The owner's own costs and billable hours, compared with local evidence",
+        "A friend's rate, without checking the costs or the local market",
+        "The price on the first page of a listing site this week"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026.",
+    "Jobber Academy, 'What are billable hours', https://getjobber.com/academy/what-are-billable-hours/, published 5 November 2024, last modified 20 July 2026. General range, not an Australian figure.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown.",
+    "Contractor+, 'Minimum Service Call Charge: A Contractor's Pricing Guide', https://contractorplus.app/blog/minimum-service-call-charge, 23 September 2026. Figures labelled illustrative by the source.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, page last modified 15 July 2026.",
+    "Airtasker, 'How much does dog walking cost', https://www.airtasker.com/dog-walkers/price/how-much-does-dog-walking-cost, page updated 19 May 2026. Vendor source.",
+    "Gap: no Australian minimum-charge or call-out source for dog walking was found.",
+    "Gap: tax treatment of leave and superannuation for a self-employed walker is UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "business.gov.au, Choose a pricing strategy",
+      "url": "https://business.gov.au/products-and-services/choose-a-pricing-strategy",
+      "pageDate": "1 October 2026 (page metadata)",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 hourly-rate research file, not reopened: wages are only the floor; on-costs such as superannuation, leave and tax belong in the hourly figure."
+    },
+    {
+      "id": "R2",
+      "title": "Business Victoria, Develop a pricing strategy",
+      "url": "https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy",
+      "pageDate": "no date shown",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 research files, not reopened: review prices about every three months; test prices against total overheads and sales costs."
+    },
+    {
+      "id": "R3",
+      "title": "ACCC, Setting prices: what's allowed",
+      "url": "https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed",
+      "pageDate": "15 July 2026",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 research files, not reopened: misleading statements about prices are prohibited."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "lessonId": "SFS-10",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-10-K01",
+      "correctIndex": 0,
+      "rationale": "Scheduling plans the visit. Dispatch delivers it to the worker."
+    },
+    {
+      "id": "SFS-10-K02",
+      "correctIndex": 0,
+      "rationale": "Each visit waits for the previous one to finish before it is sent."
+    },
+    {
+      "id": "SFS-10-K03",
+      "correctIndex": 0,
+      "rationale": "A direct message plus confirmation avoids the worker arriving to an outdated plan."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (dispatch of scheduled visits and drip-feed release) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

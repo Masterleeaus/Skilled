@@ -1,0 +1,221 @@
+{
+  "id": "medical-equipment-cleaning-L02",
+  "title": "Medical equipment classification and infection risk",
+  "courseSlugs": [
+    "medequip",
+    "healthcare"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Cleaners and cleaning supervisors who may encounter medical equipment in a healthcare facility, in any Australian state or territory. This course covers external cleaning only.",
+  "referencesAtStart": "Official sources for this lesson: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019) (no page date shown); ACSQHC, advisory: transitioning from AS/NZS 4187:2014 to AS 5369:2023 (dated August 2024); ACIPC, Position Statement: Single-use Devices, version 4.0 (dated February 2024). Only part of the NHMRC guidelines and the ACIPC statement has been confirmed.",
+  "prerequisites": [
+    "medical-equipment-cleaning-L01",
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "Describe the difference between critical, semicritical and noncritical equipment categories by the tissue or skin contact they involve.",
+    "Explain why a classification decision belongs to the facility and cannot be made from appearance.",
+    "Identify the evidence needed before any medical equipment task starts, and the point at which work must stop.",
+    "Explain why a noncritical external surface and a reusable invasive device need different processes, without describing those processes."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson: external cleaning only",
+      "body": "This lesson covers external cleaning only. It teaches you to recognise the categories that facilities use to decide which equipment a cleaner may touch and which equipment is outside your role. Reprocessing, disinfection for reusable devices and sterilisation are outside this course. They are authorised only by the manufacturer's instructions and the facility's written procedure, and they are carried out by staff with that authority. This lesson does not describe how to process any device in the critical or semicritical categories."
+    },
+    {
+      "heading": "The three categories",
+      "body": "The Spaulding classification, as used in the United States Centers for Disease Control and Prevention (CDC) framework, is an international reference and not an Australian requirement, but it is a useful guide to why equipment is handled differently."
+    },
+    {
+      "heading": "Why appearance is not a classification",
+      "body": "Two items can look almost identical and sit in different categories. A blood pressure cuff and a flexible endoscope may both be grey plastic objects beside a bed, but one contacts intact skin and the other passes into a body cavity. Appearance does not show the contact site, the reprocessing history, the manufacturer's labelling, or whether the item is single-use. Clean-looking equipment can still carry microorganisms. The lesson for a cleaner is simple: a classification comes from documented facility information, and where that information is missing, the item is treated as unknown and left for the responsible team."
+    },
+    {
+      "heading": "Professional decision process",
+      "body": "Before you touch any item, decide three things from the written record: what the item is, what it touches, and whether your written authority covers an external clean of that item. If the item is in the critical or semicritical category, or its category cannot be confirmed, the task is outside your role. If the item is noncritical and on your authorised list, you may perform only the external clean the facility has approved. Keep environmental touchpoints separate from reusable instruments, and never move an unknown item to a cleaner's trolley to sort it later. The facility is responsible for classifying each device and for deciding who may clean which class. Your task is to confirm, not to reclassify."
+    },
+    {
+      "heading": "Worked case: a cuff beside an endoscope",
+      "body": "You are cleaning the bedside area of a procedure room and find a blood pressure cuff sitting next to a flexible endoscope in its carry case. The cuff may be on your authorised list for external cleaning with an approved product. The endoscope is not. Do not clean either item until you have confirmed the authority for each one separately. Do not wipe the endoscope to tidy the room. Leave it where the team placed it, tell the nurse in charge, and ask for the endoscope to be collected by staff who hold the reprocessing authority. Record which items were present, what you did, and who you escalated to."
+    }
+  ],
+  "procedure": [
+    "Read the work order and confirm the room, the items named in it, and your written authority for each.",
+    "For each item, identify it by its asset label or model and check the facility classification record.",
+    "Decide the category from the record: noncritical and on your list, or critical, semicritical or unknown.",
+    "If the item is noncritical and authorised, perform only the approved external clean with the approved product, and keep it separate from items you have not cleared.",
+    "If the item is critical, semicritical or unknown, stop work on that item, leave it as found, and tell the responsible person. Do not move it to a clean area.",
+    "Inspect the outcome against the approved procedure. If any condition is not met, record it as incomplete rather than signing it off.",
+    "Record the item identity, the category source, the action taken, the escalation recipient and the time."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A ward cleaner is asked to clean the bed space. Next to the bed is a pulse oximeter probe in a labelled bag and an unlabelled cylinder with a fine tube attached.",
+      "decisionPrompt": "Which items may you clean, and what do you do with the unlabelled cylinder?",
+      "reasoning": "The probe may be on your list if the facility classifies it as noncritical and approves an external clean; check the classification record and the product before you touch it. The unlabelled item with a fine tube cannot be classified from appearance, may contact internal tissue, and is outside your role. Do not clean it or move it. Report it to the nurse in charge, record it as unidentified, and leave the decision to the responsible team."
+    },
+    {
+      "situation": "A dental assistant asks you to wipe a handpiece on a tray during a quick turnover, saying it only needs a wipe because it is going back into the cupboard.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "A dental handpiece is an item that is reused and is not on your authorised list for this course. Its processing is a reprocessing task, and it belongs to staff with the facility's reprocessing authority. Decline, do not wipe it, leave it in the designated location, escalate, and record the request."
+    }
+  ],
+  "equipmentAndPpe": [
+    "The facility's current equipment classification record, which must be checked before any task: {{business:equipment.assigned_items}}",
+    "Approved external cleaning products for noncritical items only: {{business:materials.approved_products}}",
+    "Personal protective equipment as required by the task: {{business:safety.required_ppe}}",
+    "Asset label check card or list supplied by the facility"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assigning a category from how the item looks, or from what a colleague says it is.",
+      "prevention": "Use only the documented classification record. If none exists, the item is unknown and outside your role."
+    },
+    {
+      "error": "Treating all equipment in a room as the same because the room is one cleaning area.",
+      "prevention": "Assess each item separately against the work order. A room can hold items in different categories."
+    },
+    {
+      "error": "Moving an unknown item to a cleaning area so that it can be sorted later.",
+      "prevention": "Leave the item where it is, make the area safe, and escalate. Moving it spreads uncertainty and risk."
+    },
+    {
+      "error": "Assuming a wipe that is approved for one item is approved for another.",
+      "prevention": "Check the product label and facility record for each item's category and approved method."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the facility procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Critical items enter sterile tissue or the vascular system. Semicritical items contact mucous membranes or nonintact skin. Noncritical items contact intact skin only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Shared clinical equipment should be cleaned with detergent between patient uses and disinfected where indicated, as recommended in the NHMRC Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019). The decision to disinfect sits with the facility's infection prevention and control arrangements.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Work on reprocessing reusable medical devices is restricted to authorised facility staff and, for certain single-use device processing, to a facility licensed as a manufacturer under TGA arrangements. This lesson does not grant any reprocessing authority or licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner explains the three categories using contact site and tissue, without using appearance as the reason.",
+    "The learner decides the category of five supplied item descriptions from a supplied record, and stops on any unknown item.",
+    "The learner identifies the escalation recipient and the record entries for a stopped item.",
+    "The learner does not describe any reprocessing or sterilisation method as part of the answer."
+  ],
+  "documentationEvidence": [
+    "Item identity (asset label, model or description), and the source of the category decision",
+    "Action taken for each item, including items stopped and left in place",
+    "Escalation recipient, time and the outcome of the escalation"
+  ],
+  "summary": [
+    "Classification comes from the facility record, not from appearance. Unknown items are outside your role.",
+    "Critical, semicritical and noncritical categories are defined by the tissue or skin an item contacts.",
+    "Noncritical items may be cleaned only if your written authority covers the item and the approved method.",
+    "When an item is unknown, critical or semicritical, stop, leave it as found, and escalate with a record."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:materials.approved_products}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:staff.supervisor_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-equipment-cleaning-L02-K01",
+      "question": "Which description best matches a semicritical item?",
+      "options": [
+        "An item that contacts mucous membranes or nonintact skin, such as some endoscopes.",
+        "An item that contacts intact skin only, such as a blood pressure cuff.",
+        "An item that enters sterile tissue or the vascular system."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L02-K02",
+      "question": "A cleaner says an item must be noncritical because it looks like a blood pressure cuff. What is the correct response?",
+      "options": [
+        "Accept it, because similar appearance means the same category and the same contact site",
+        "Treat it as unknown until the facility record confirms its category and contact site.",
+        "Clean it with the strongest product on the trolley to be safe, since it is the only one left"
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L02-K03",
+      "question": "Where should an unidentified item be left when the cleaner is unsure of its category?",
+      "options": [
+        "In the clean-stock cupboard, so that it is kept safe until it can be sorted.",
+        "In the cleaning trolley, so that it can be cleaned at the end of the shift.",
+        "In the place it was found, with the area made safe, and escalated to the responsible team."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L02-K04",
+      "question": "What three things must be decided from the written record before touching any item?",
+      "options": [
+        "Its price, colour and brand",
+        "Who owns the building",
+        "Only whether it is turned on",
+        "What the item is, what it touches, and whether the written authority covers an external clean of that item"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "no page date shown; document dated 2019 (CD34)",
+      "checked": "2026-11-03",
+      "covers": "Read: sections on environmental cleaning, spills, hand hygiene, standard precautions and sharps. Not read: section 3.1.4 (reprocessing), 3.1.7 (waste), 4.1.2 (roles) and Appendix 6.1 (frequencies). Check those in the full PDF. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R2",
+      "title": "ACSQHC advisory: transitioning from AS/NZS 4187:2014 to AS 5369:2023",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/transitioning_from_as_nzs_4187_2014_to_as_5369_2023.pdf",
+      "pageDate": "dated August 2024",
+      "checked": "2026-11-03",
+      "covers": "Confirms the replacement and the December 2023 supersession date, with no transition period. The text of AS 5369:2023 itself was not read; check it through Standards Australia. Publisher: Australian Commission on Safety and Quality in Health Care."
+    },
+    {
+      "id": "R3",
+      "title": "ACIPC Position Statement: Single-use Devices, version 4.0",
+      "url": "https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf",
+      "pageDate": "version 4.0, dated February 2024",
+      "checked": "2026-11-03",
+      "covers": "Professional body statement. The TGA text was not read in this session; check the TGA website for the primary rule. Publisher: Australasian College for Infection Prevention and Control (professional body; not a government source)."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page listed at the start of this lesson before use. Only part of the NHMRC guidelines and the ACIPC statement has been confirmed.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "US CDC, A Rational Approach to Disinfection and Sterilization (Spaulding classification: critical, semicritical and noncritical items). https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html (checked 2026-11-02; international reference, not an Australian authority)",
+    "NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34, Recommendations 9 and 10. https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf (checked 2026-11-02; hosted copy of the 2019 edition)",
+    "ACIPC, Position Statement: Single-use Devices, version 4.0, February 2024. https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf (checked 2026-11-02)",
+    "UNCONFIRMED: the Australian classification standard and the facility-level categories used in Australian healthcare. AS 5369:2023 is the current reprocessing standard that superseded AS/NZS 4187:2014 in December 2023 (IHEA article; the ACSQHC advisory dated August 2024 [R2] confirms this, and the standard text was not read). Its classification content was not checked in this pass.",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. US CDC framework kept as an international reference; Australian classification UNCONFIRMED (AS 5369:2023 named, not read)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-03.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-04.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    }
+  ]
+}

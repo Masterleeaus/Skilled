@@ -1,0 +1,34 @@
+{
+  "lessonId": "NEW-PCC-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-PCC-01-K01",
+      "correctIndex": 1,
+      "rationale": "The release comes from the site, in writing."
+    },
+    {
+      "id": "NEW-PCC-01-K02",
+      "correctIndex": 2,
+      "rationale": "Dry sweeping disturbs settled dust."
+    },
+    {
+      "id": "NEW-PCC-01-K03",
+      "correctIndex": 0,
+      "rationale": "Floors are finished last."
+    }
+  ],
+  "practicalCriteria": [
+    "Confirms a written release for each area of a mock job.",
+    "Removes simulated dust from high to low without dry sweeping.",
+    "Checks a finished surface under good light and records the result."
+  ],
+  "passRule": "Release confirmed, dust sequence correct, and finish checked. Observed by an assessor. Not a clearance.",
+  "evidenceRequired": [
+    "Release record",
+    "Finish check record"
+  ],
+  "stopWorkCriteria": [
+    "Area entered without release",
+    "Dry sweeping of settled dust"
+  ]
+}

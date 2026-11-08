@@ -1,0 +1,138 @@
+{
+  "id": "construction-site-cleaning-L07",
+  "title": "Debris segregation and waste containment",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Workload and cost",
+  "layer": "group",
+  "lessonType": "C",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners managing debris and waste on construction and post-construction sites.",
+  "prerequisites": [
+    "construction-site-cleaning-L03"
+  ],
+  "learningOutcomes": [
+    "Separate authorised ordinary waste, recyclables, sharps, chemical residues and suspected hazardous waste.",
+    "Use labelled containers and approved routes that prevent dust release.",
+    "Secure unidentified contaminated debris and seek a corrected waste plan."
+  ],
+  "instruction": [
+    {
+      "heading": "Streams of waste",
+      "body": "Construction debris falls into several streams: authorised ordinary waste, offcuts, recyclable materials, sharp objects, chemical residues and suspected hazardous waste. Keep the streams apart in labelled containers. The site waste classification and disposal plan decides which stream a material goes into. If the classification is missing, quarantine the area and ask the site controller before moving anything."
+    },
+    {
+      "heading": "Handling sharps and containers",
+      "body": "Do not compress bags by hand, and do not retrieve sharp debris without an approved method. Use containers and routes that prevent dust from escaping and stop unauthorised members of the public from getting into the waste. Keep lids closed and loads secured on the way to the container."
+    },
+    {
+      "heading": "When a skip is wrong",
+      "body": "A skip marked general waste may contain suspect insulation and broken glass. Do not re-sort it by hand. Record the issue, the location and the contents as far as you can see them without disturbing them, and seek a corrected waste-management plan. The skip is a waste problem for the site to resolve with the right people."
+    },
+    {
+      "heading": "Waste classification and transport",
+      "body": "Classification, transport and disposal rules vary by state and territory and by waste type. Follow the site plan and the approved route."
+    }
+  ],
+  "procedure": [
+    "Confirm the waste classification and disposal plan before moving any material.",
+    "Separate ordinary waste, offcuts, recyclables, sharps, chemical residues and suspected hazardous waste.",
+    "Use labelled containers and the approved routes, keeping dust contained.",
+    "Do not compress bags by hand or retrieve sharps without an approved method.",
+    "Secure and report any contaminated or misclassified waste, and seek a corrected plan."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A skip marked general waste contains suspect insulation and broken glass.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not re-sort the skip by hand. Record the issue and what you can see, keep others away, and seek a corrected waste-management plan from the site. The skip is a waste problem for the site to resolve."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Labelled waste containers for each stream.",
+    "Cut-resistant gloves for sharps handling by an approved method, and eye protection.",
+    "Lids and secure covers for transport."
+  ],
+  "commonErrors": [
+    {
+      "error": "Compressing bags by hand to fit more in.",
+      "prevention": "Do not compress by hand. Use the approved method."
+    },
+    {
+      "error": "Mixing sharps and chemical residue into general waste.",
+      "prevention": "Keep each stream apart in its labelled container."
+    },
+    {
+      "error": "Re-sorting a suspect skip by hand.",
+      "prevention": "Record and seek a corrected plan."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Waste classification, transport and disposal are regulated and vary by state and territory and by waste type. The site waste plan governs the work.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Five streams separated correctly in the practical.",
+    "Suspect skip recorded and secured without re-sorting.",
+    "Disposal approver named for each stream."
+  ],
+  "documentationEvidence": [
+    "Waste segregation record for the job.",
+    "Report of any misclassified or suspect waste, with the corrected plan reference."
+  ],
+  "summary": [
+    "Keep waste streams apart in labelled containers.",
+    "Do not compress or hand-sort suspect or sharp waste.",
+    "Quarantine and report anything without a classification.",
+    "The site waste plan decides disposal."
+  ],
+  "businessFields": [
+    "{{business:materials.waste_procedure}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:procedures.approved_sop}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L07-K01",
+      "question": "A skip marked general waste contains broken glass and suspect insulation. What do you do?",
+      "options": [
+        "Record the issue, and seek a corrected waste plan without re-sorting",
+        "Sort out the glass by hand and put the rest in the skip",
+        "Compress the load to fit the skip and leave the rest on the ground"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L07-K02",
+      "question": "How should sharp debris be retrieved?",
+      "options": [
+        "By hand, quickly",
+        "By an approved method",
+        "By pushing it with the foot"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L07-K03",
+      "question": "Who decides which waste stream a material goes into?",
+      "options": [
+        "The cleaner, by appearance and feel alone",
+        "The nearest neighbour on the same site today",
+        "The site waste classification and disposal plan"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L07.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "UNCONFIRMED: state and territory waste classification, transport and disposal rules for construction waste.",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

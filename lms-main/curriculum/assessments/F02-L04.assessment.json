@@ -1,0 +1,37 @@
+{
+ "lessonId": "F02-L04",
+ "knowledgeAnswers": [
+  {
+   "id": "F02-L04-K01",
+   "correctIndex": 1,
+   "rationale": "The lesson says to reassess whenever a new occupant, contractor, spill, electrical fault or weather change could invalidate the initial plan."
+  },
+  {
+   "id": "F02-L04-K02",
+   "correctIndex": 0,
+   "rationale": "The go or no-go decision means work does not start if the job cannot be made safe within training and authority. The worker reports and waits."
+  },
+  {
+    "id": "F02-L04-K03",
+    "correctIndex": 0,
+    "rationale": "The instruction says to check the work environment, product compatibility, ventilation, access, emergency exits and available equipment."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies relevant hazards, scope and site conditions",
+  "Selects and explains suitable controls and methods",
+  "Performs the sequence without unsafe contamination transfer",
+  "Verifies the outcome and documents exceptions",
+  "Escalates situations outside training or authority"
+ ],
+ "passRule": "Assessor must observe every safety-critical criterion; any failure requires remediation and reassessment.",
+ "evidenceRequired": [
+  "Record of procedure step 2: Verify site access, and check that exits and emergency arrangements are clear.",
+  "Record of procedure step 6: If the job cannot be made safe, isolate where possible, report the reason and wait for instructions."
+ ],
+ "stopWorkCriteria": [
+  "Stop work if procedure step 3 is not done: Check the work environment, ventilation, and any new occupants, contractors or hazards on site.",
+  "Stop work if procedure step 5 is not done: Make a go or no-go decision, and start only when the hazards are controlled within your training and authority.",
+  "Stop work if procedure step 6 is not done: If the job cannot be made safe, isolate where possible, report the reason and wait for instructions."
+ ]
+}

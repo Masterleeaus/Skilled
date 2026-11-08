@@ -1,0 +1,36 @@
+{
+  "lessonId": "PSA-16",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-16-K01",
+      "correctIndex": 0,
+      "rationale": "Appendix A: a volume equal to the waterslide pool has to be filtered no less often than hourly."
+    },
+    {
+      "id": "PSA-16-K02",
+      "correctIndex": 1,
+      "rationale": "Appendix A (General): if inspection finds a faulty or damaged flume, close the waterslide until repairs are done."
+    },
+    {
+      "id": "PSA-16-K03",
+      "correctIndex": 2,
+      "rationale": "Appendix A (Management): an observer at the head of each flume and one at the receiving pool are the minimum staff."
+    }
+  ],
+  "practicalCriteria": [
+    "In a supplied waterslide scenario, confirms observer positions and the clear-flume signal before a rider starts.",
+    "Carries out a full flume inspection on a supplied flume and records the result, closing the slide for a supplied fault.",
+    "Checks the bather warning signs at the entry and the flume and states what is missing, if anything."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Daily flume inspection record",
+    "Attendant roster and communication check",
+    "Assessor observation of the clear-flume signal"
+  ],
+  "stopWorkCriteria": [
+    "Faulty or damaged flume found: close the waterslide and report.",
+    "Top observer cannot see the full flume and no clear-flume device works: do not start riders.",
+    "Warning signs missing at the entry or flume: do not open until replaced."
+  ]
+}

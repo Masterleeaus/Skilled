@@ -1,0 +1,39 @@
+{
+  "lessonId": "RAS-10",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-10-K01",
+      "correctIndex": 1,
+      "rationale": "Hand hygiene breaks the route at the point where the hands would carry the infection to the mouth, nose or eyes."
+    },
+    {
+      "id": "RAS-10-K02",
+      "correctIndex": 2,
+      "rationale": "Cuts are covered before work and standing water is not worked through without the controls. The water is reported."
+    },
+    {
+      "id": "RAS-10-K03",
+      "correctIndex": 0,
+      "rationale": "Dated guidance is checked against current advice before reuse, and the check is recorded."
+    }
+  ],
+  "practicalCriteria": [
+    "Maps a named infection route to the control that breaks it",
+    "Washes hands at the points the register names, and bags a contaminated cloth without reusing it",
+    "Covers a simulated cut before entering a waste area",
+    "Reports a simulated rodent sighting and a standing water hazard to the building facilities team"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "infection entry review record",
+    "waste area report",
+    "assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "Work begins in standing water in a waste area without the register's controls",
+    "A contaminated cloth or item is reused",
+    "An infection entry is changed without a recorded check of current guidance"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-equipment-cleaning-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L01-K01",
+   "correctIndex": 2,
+   "rationale": "Disinfecting a reusable flexible endoscope for return to clinical use is a prohibited task under this course. The correct action is to refuse, leave the item, and escalate. Options 0 and 2 both treat a wipe as a valid process for a device that needs validated reprocessing."
+  },
+  {
+   "id": "medical-equipment-cleaning-L01-K02",
+   "correctIndex": 0,
+   "rationale": "Authority is written and specific, and it is given by the facility. Verbal requests do not extend it and similar appearance does not extend it."
+  },
+  {
+   "id": "medical-equipment-cleaning-L01-K03",
+   "correctIndex": 1,
+   "rationale": "The lesson confers no licence, certificate or authority. Option 0 implies a licence the lesson does not grant."
+  }
+ ],
+ "practicalCriteria": [
+  "Given five task cards, the learner sorts each into permitted, authorised-only or prohibited, and gives one reason per card with no more than one error.",
+  "Given a prohibited request, the learner stops, leaves the item in a safe state, and states the escalation contact without starting the task.",
+  "On a permitted task, the learner records the source of authority, item, location and time on the work record before starting."
+ ],
+ "passRule": "Practical competence requires facility-observed assessment against the criteria above. A pass on the knowledge checks is not practical competence.",
+ "evidenceRequired": [
+  "Completed sorting sheet for five task cards, signed by the assessor",
+  "Observation note of the stop-and-escalate response",
+  "Copy of a completed work record for a permitted task"
+ ],
+ "stopWorkCriteria": [
+  "Learner begins a prohibited task, including any reprocessing, disinfection for re-use, sterilisation or internal cleaning",
+  "Learner works on patient-connected equipment or changes its settings",
+  "Learner starts a task without written authority for the item"
+ ]
+}

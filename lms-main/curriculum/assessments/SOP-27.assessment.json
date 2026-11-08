@@ -1,0 +1,39 @@
+{
+ "lessonId": "SOP-27",
+ "knowledgeAnswers": [
+  {
+   "id": "SOP-27-K01",
+   "correctIndex": 2,
+   "rationale": "A worker must be shown the hazards and controls for their own tasks on the site before they start. The pay rate, rostered hours and head office name do not make a worker safe on a site, so those options are wrong."
+  },
+  {
+   "id": "SOP-27-K02",
+   "correctIndex": 0,
+   "rationale": "Only the part of the induction that covers the new task counts, and the clearance is recorded once that part is covered. An earlier induction for different work does not cover the window task, and starting first with the induction later is not acceptable."
+  },
+  {
+   "id": "SOP-27-K03",
+   "correctIndex": 1,
+   "rationale": "A change of task, site or hazard, or an incident that shows a gap, calls for the changed part of the induction to be repeated. A fixed yearly date or an on-request refresher alone does not cover a change, so those options are incomplete."
+  }
+ ],
+ "practicalCriteria": [
+  "The candidate, acting as the supervisor, walks a supplied site and covers each topic on the induction checklist in the order of the site walk. Pass condition: every checklist topic is covered during the walk, observed by the assessor.",
+  "At each stop of the walk, the candidate asks the worker to name a hazard and its control in the worker's own words. Pass condition: the assessor hears a hazard and a control named at no fewer than four stops.",
+  "The candidate completes a supplied induction record for a worker cleared for two tasks and not cleared for a third. Pass condition: the record lists the two cleared tasks, states the third as not cleared, and carries the worker and supervisor signature fields.",
+  "Given a mock change of task from hard-floor work to window work, the candidate identifies the part of the induction to repeat and records the new clearance only after that part is covered. Pass condition: the record shows the window clearance dated after the window topics, observed by the assessor."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Completed knowledge checks",
+  "Assessor observation record for each practical criterion",
+  "Completed induction record from the practical scenario",
+  "Site walk-through notes listing the hazard and control named at each stop"
+ ],
+ "stopWorkCriteria": [
+  "Candidate clears a worker for a task that the induction record does not cover",
+  "Candidate lets a worker start work in an area that has not been shown to them",
+  "Candidate signs the induction record without both the worker and supervisor signatures",
+  "Candidate lets a worker handle a chemical without the product label and data sheet having been found"
+ ]
+}

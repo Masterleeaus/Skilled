@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-REP-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-REP-01-K01",
+      "correctIndex": 2,
+      "rationale": "A recommendation is shown as a recommendation, separate from completed work, with its supporting estimate. Showing it as completed, or leaving it out, misstates the property's condition."
+    },
+    {
+      "id": "NEW-REP-01-K02",
+      "correctIndex": 3,
+      "rationale": "Citing a dated record lets each statement be checked against its source, which is the basis of a report the owner can rely on."
+    },
+    {
+      "id": "NEW-REP-01-K03",
+      "correctIndex": 2,
+      "rationale": "Rent handling is outside this course. The response notes the boundary and agrees the process in writing once the state rules and the licence position are confirmed. Showing the figure without a source or as income breaks the boundary."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated month of records, the worker builds a report in which each line cites a dated record, and completed work is separate from recommendations and open items",
+    "Given a simulated opinion from a contractor, the worker labels it as an opinion, names its source and states the evidence it rests on",
+    "Given a simulated request to show rent received, the worker records the boundary, states that the figure is not covered, and does not report the figure"
+  ],
+  "passRule": "Assessor observes every practical criterion and records it as met or not met. The knowledge checks are not a practical pass. The minimum knowledge score is 80%, so all three checks must be correct.",
+  "evidenceRequired": [
+    "Simulated monthly owner report with a record reference for each line",
+    "Record of the simulated opinion, with its source and evidence",
+    "Note of the boundary stated for the simulated rent request"
+  ],
+  "stopWorkCriteria": [
+    "A financial handling request is acted on before the state rules and the licence position are confirmed",
+    "A proposed repair is reported as completed",
+    "A report line has no dated record behind it"
+  ]
+}

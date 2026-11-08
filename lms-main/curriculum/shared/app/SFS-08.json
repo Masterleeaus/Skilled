@@ -1,0 +1,111 @@
+{
+  "id": "SFS-08",
+  "title": "Scheduling rules: priority, emergencies and dependencies",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-07"
+  ],
+  "learningOutcomes": [
+    "Set a priority for urgent and routine visits.",
+    "Explain how a dependency holds one visit until another finishes.",
+    "Describe the steps for booking an emergency visit."
+  ],
+  "instruction": [
+    {
+      "heading": "Priority",
+      "body": "Priority tells the scheduler which visits matter most when the day is full. It can be a fixed value set on a job or a visit, or a calculated value, such as the days left before a due date. The scheduler looks at the visit's own priority first and falls back to the job's. When no free slot exists, a higher-priority visit can displace a lower one. Choose a small scale that the office can remember, and write down what each level means."
+    },
+    {
+      "heading": "Dependencies and emergencies",
+      "body": "A dependency links two visits so one cannot start before the other is finished. This suits multi-stage work, such as strip-out before a fit-out. An emergency booking uses a view of nearby workers, so the office can send the closest suitable person straight away. Use emergency booking sparingly, because each one moves other visits, and the customers affected must be told."
+    }
+  ],
+  "procedure": [
+    "Agree a priority scale and write down what each level means.",
+    "Set priority on the job, and on individual visits where they differ.",
+    "Create a dependency wherever one visit must finish before another starts.",
+    "For an emergency, check nearby workers who have the right skills and availability.",
+    "Book the visit, then list any routine visits that moved and tell those customers."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A gate latch is broken on a property with pets, so the gate must be fixed today. A routine pool clean is booked for the same afternoon.",
+      "decisionPrompt": "What priority does each visit get, and how is the clean handled?",
+      "reasoning": "The gate repair takes the higher priority and can displace the routine clean. The clean is moved and the customer is told before the change is confirmed."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting every visit to the highest priority.",
+      "prevention": "Reserve the top level for real emergencies only."
+    },
+    {
+      "error": "Creating a dependency without checking the first visit's window.",
+      "prevention": "Check the first visit's window before adding the second."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The priority scale is written down and used the same way by everyone.",
+    "Every dependency has a clearly identified first visit and second visit."
+  ],
+  "documentationEvidence": [
+    "Priority scale sheet",
+    "Emergency booking note with the list of moved visits"
+  ],
+  "summary": [
+    "Priority decides which visits win when the day is tight.",
+    "A dependency holds a visit until its predecessor is complete.",
+    "Emergency bookings that move routine work need customer notice."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-08-K01",
+      "question": "What does a dependency between two visits do?",
+      "options": [
+        "It stops the second visit from starting before the first is finished",
+        "It doubles the price of both visits in the plan for the whole month",
+        "It deletes the first visit from the plan for good and the notes"
+      ]
+    },
+    {
+      "id": "SFS-08-K02",
+      "question": "When the day is full and an urgent visit must go in, what can the scheduler do?",
+      "options": [
+        "Move a lower-priority visit to make room",
+        "Reject all new bookings for the day",
+        "Change the worker's skills on the list"
+      ]
+    },
+    {
+      "id": "SFS-08-K03",
+      "question": "What is the main sign that the top priority level is over-used?",
+      "options": [
+        "It stops emergencies from being booked at all",
+        "It stops the scale from telling urgent work apart",
+        "It makes travel times longer for the crew"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 118-132 (scheduling and priorities); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: visit priority; visit dependency; emergency booking; scheduling rules (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

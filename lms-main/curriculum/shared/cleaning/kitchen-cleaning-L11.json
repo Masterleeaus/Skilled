@@ -1,0 +1,135 @@
+{
+  "id": "kitchen-cleaning-L11",
+  "title": "Cleaning schedules and verification records",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Workload and cost",
+  "layer": "group",
+  "lessonType": "W",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and supervisors who keep cleaning schedules and verification records in kitchens.",
+  "prerequisites": [
+    "kitchen-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Record each planned cleaning control with item, area, method, responsible worker, time and result.",
+    "Identify a false or prefilled sanitising record as a control failure.",
+    "Record unsuccessful results and corrective action instead of signing them off."
+  ],
+  "instruction": [
+    {
+      "heading": "What a verification record is for",
+      "body": "A cleaning schedule lists the controls that the site relies on. A verification record shows that each control was carried out and checked. For each planned control, the record should show the item, the area, the method, the worker responsible, the date and time, the observations, any exceptions, and the verification result. The record is useful only if it is true. A record that shows work that was not done gives the site false confidence, and it removes the chance to correct the problem."
+    },
+    {
+      "heading": "Who signs",
+      "body": "The person who signs a record must have observed the work or reliably verified it. A supervisor who asks a cleaner to sign off a sanitising check they have not performed is asking for a false record. Refuse the sign-off, document the real result, and state who must verify the control. Where a control has failed, the failure is recorded as a failure, with the corrective action and the person informed."
+    },
+    {
+      "heading": "Keeping records",
+      "body": "Maintain records under the location's retention policy, and keep them accessible for the people who need them. Do not pre-fill entries. Do not alter a record after the fact without a clear note of the change, who made it, and why. Honest records, including records of failures, are what let a site improve."
+    }
+  ],
+  "procedure": [
+    "Record the item, area, method, worker, date and time for each planned control.",
+    "Record observations and exceptions as they happen, not from memory later.",
+    "Sign only for work that you observed or reliably verified.",
+    "Refuse any request to sign for work not done, and document the real result.",
+    "Record unsuccessful results and corrective action, and notify the responsible person."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor asks a cleaner to sign off a sanitising check that the cleaner has not performed.",
+      "decisionPrompt": "What is the correct decision?",
+      "reasoning": "Refuse the false sign-off. Record the real status of the check as not performed, and state who must verify the control. Tell the supervisor and the responsible person, so the control can be carried out and recorded correctly."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Schedule and record sheet, or the site's digital record.",
+    "Pen or device for recording on site."
+  ],
+  "commonErrors": [
+    {
+      "error": "Pre-filling a sanitising check before the work is done.",
+      "prevention": "Record only what has been observed or verified."
+    },
+    {
+      "error": "Signing for a control to avoid an argument with a supervisor.",
+      "prevention": "Record the real result and escalate the disagreement."
+    },
+    {
+      "error": "Leaving out failed results so that the record looks clean.",
+      "prevention": "Record failures with the corrective action."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Record accuracy matters for any food safety or work health and safety evidence. The location's retention policy applies.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every planned control in the simulated schedule has a complete record entry.",
+    "A simulated refused false sign-off is recorded accurately.",
+    "No entries are pre-filled in the simulated record."
+  ],
+  "documentationEvidence": [
+    "Completed schedule with item, area, method, worker, time and result.",
+    "Corrective-action and failure records with the person informed."
+  ],
+  "summary": [
+    "A record shows what was done and checked.",
+    "Only the person who observed or verified the work signs for it.",
+    "Refuse false sign-offs and record real results.",
+    "Record failures with corrective action."
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:procedures.completion_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-cleaning-L11-K01",
+      "question": "A supervisor asks you to sign for a sanitising check you did not perform. What do you do?",
+      "options": [
+        "Sign it, since the supervisor has authority over sign-off",
+        "Refuse, and record the real status and who must verify it",
+        "Sign it now and ask for the check to be scheduled later"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L11-K02",
+      "question": "Who may sign a verification record?",
+      "options": [
+        "Anyone who was on site that day and who saw the work",
+        "The supervisor only, since they sign off every task",
+        "The person who observed or reliably verified the work"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L11-K03",
+      "question": "A control fails during the shift. How should it be recorded?",
+      "options": [
+        "Record the failure with the corrective action and the person informed",
+        "Leave the entry blank until the supervisor has time to check it",
+        "Record it as passed if it was fixed later and sign the record today"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-cleaning-L11.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory record-retention requirements for food premises.",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises. The operator's food safety program governs the site. This lesson does not confer a food handling qualification."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

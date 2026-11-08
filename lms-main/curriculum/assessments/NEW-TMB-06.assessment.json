@@ -1,0 +1,48 @@
+{
+  "lessonId": "NEW-TMB-06",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-TMB-06-K01",
+      "correctIndex": 1,
+      "rationale": "WorkSafe Victoria states that respiratory protection is needed where higher controls do not keep exposures at or below the standards. It is the last layer."
+    },
+    {
+      "id": "NEW-TMB-06-K02",
+      "correctIndex": 2,
+      "rationale": "WorkSafe Victoria states that a half-face, non-disposable respirator with a P2 filter is usually sufficient for wood dust."
+    },
+    {
+      "id": "NEW-TMB-06-K03",
+      "correctIndex": 3,
+      "rationale": "A facial-seal respirator needs a fit check each time it is put on to confirm a good seal against the face."
+    },
+    {
+      "id": "NEW-TMB-06-K04",
+      "correctIndex": 0,
+      "rationale": "A bearded worker cannot be fit checked on a facial-seal respirator, so the assessment selects another option, such as a PAPR, or the task waits."
+    },
+    {
+      "id": "NEW-TMB-06-K05",
+      "correctIndex": 1,
+      "rationale": "NSW LeadSmart warns that simple paper masks may not protect against fine dust, and advises an AS-1716-approved respirator or P1 or P2 filters."
+    }
+  ],
+  "practicalCriteria": [
+    "Candidate selects a respirator and filter from the assessment and checks its markings against AS/NZS 1716 or an equivalent.",
+    "Candidate completes a fit check on a facial-seal respirator before use, and records it.",
+    "Candidate identifies a user with facial hair that breaks the seal, and stops the task until another option is selected.",
+    "Candidate cleans and stores the respirator outside the work area and records the issue and training."
+  ],
+  "passRule": "Knowledge checks: at least 80% correct (4 of 5). Practical sign-off is separate. A knowledge pass does not establish practical competence, and the practical criteria must be observed and recorded by an assessor. Fit testing is assessed only where the program allows it.",
+  "evidenceRequired": [
+    "Respirator issue and fit test record",
+    "Fit check record before use",
+    "Training record for the respirator program",
+    "Assessor observation of the fit check"
+  ],
+  "stopWorkCriteria": [
+    "Facial-seal respirator used without a fit check",
+    "Facial-seal respirator used on a user with facial hair that breaks the seal",
+    "Paper mask used in place of the assessed respirator"
+  ]
+}

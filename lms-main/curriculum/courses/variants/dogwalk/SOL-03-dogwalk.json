@@ -1,0 +1,191 @@
+{
+  "id": "SOL-03-dogwalk",
+  "title": "Building an offer that justifies a higher rate for Dog walking",
+  "courseSlugs": [
+    "dogwalk"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 30,
+  "audience": "Dog walkers who run their own walking business, including solo walkers who want to move from a single per-walk price to clear packages.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Write an offer with a clear promised outcome, time frame and conditions",
+    "Identify the friction and risk the customer carries and reduce them",
+    "Price the offer on value and cost, not only time"
+  ],
+  "instruction": [
+    {
+      "heading": "A per-walk quote versus a clear package",
+      "body": "'I will walk your dog' describes a service. 'A 30-minute solo walk on your weekdays, a photo and a short note after each walk, and a return visit if I cannot reach the walk inside the pick-up window' is an offer. The owner buys the result and the certainty of getting it. A walker who quotes only a per-walk price is compared on price alone, and the owner cannot see what makes one walk worth more. Airtasker's price guide, a vendor source, lists a 30-minute walk at $20 to $35 across Australia (updated 19 May 2026), so a bare price competes with every listing on the same page."
+    },
+    {
+      "heading": "The five parts of a walking offer",
+      "body": "Name the outcome: a dog exercised, toileted, watered and returned at a set time. Set the time frame: the walk length and the pick-up window. List what the owner must do: provide a lead, medication or behaviour notes, and tell you about any change of routine. Add one certainty element, such as a photo or a short note after each walk. State the risk you carry, such as a return visit when a walk is missed, and only within what your insurance and any permit allow. Put the scope and exclusions in writing, because a written quote can become binding once it is accepted (business.gov.au, 1 August 2025)."
+    },
+    {
+      "heading": "Packages that step up",
+      "body": "Three levels work well for walks: one solo walk a week, three walks a week, and five walks a week with a photo after each one. Airtasker lists two 30-minute walks a week at $50 to $70, three at $55 to $100, and five at $125 to $175 (vendor, 19 May 2026). These are vendor ranges, not a regulator's benchmark, so set your own prices from your costs and show what each level adds. Jobber describes stepped packages in which each higher level adds something the customer can see (updated 8 October 2024). One non-trade study found that reversing the order of three plans moved more buyers to the top plan (INSEAD Knowledge, 2 October 2025). That study used a virtual assistant rather than a dog walker, so test the order on your own quotes."
+    },
+    {
+      "heading": "Guarantees, claims and the total",
+      "body": "A guarantee you offer must be one you can deliver. Consumer guarantees under the Australian Consumer Law apply to services and cannot be removed by contract, and a 'no refunds' line does not override a customer's rights for services (business.gov.au, 27 May 2025). Do not claim that a walk makes a dog calmer, or that it cuts a behaviour problem by a percentage, unless you have measured it. Show one total and say whether GST is included, as Western Australia's consumer agency asks (WA Consumer Protection, 4 September 2026)."
+    },
+    {
+      "heading": "Price on value, then check cost",
+      "body": "Price the package from what the owner gets and the risk you carry, then check it against your cost per hour and your travel time. Government guidance says a quote should recover every cost and add a margin (business.gov.au, 1 August 2025). Check council permit rules before you add dogs to a round. In Victoria the rules differ by council: Yarra requires a permit for commercial walking on council land and caps a walker at four dogs, while Port Phillip requires a permit once you walk four or more dogs (see the safety section for fees and conditions). The research found no sourced figure for holiday or peak-season walk pricing in Australia, so do not add a peak surcharge without your own evidence."
+    }
+  ],
+  "procedure": [
+    "Write the outcome in one sentence an owner would repeat, such as a dog exercised and returned on time.",
+    "Set the walk length and the pick-up window, and check that a real route can meet them.",
+    "List what the owner must provide and reduce each step, such as the lead, food notes and a contact number.",
+    "Add one certainty element, such as a photo or a note after each walk.",
+    "Write the package levels and check the number of dogs against any council limit that applies.",
+    "Price from value, check the rate against cost and travel time, and state one total with GST status."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A solo walker in Melbourne's inner north quotes $30 per 30-minute walk (an illustrative quote, not a market rate), which is close to what the listings show. Owners ask for a weekly plan, and she loses two regular enquiries to a cheaper listing. Her quote says nothing about what happens if a walk is missed.",
+      "decisionPrompt": "Rewrite the offer as three levels and set a price for each. What must the offer say about a missed walk?",
+      "reasoning": "She writes three levels: one solo 30-minute walk a week; three walks a week with a photo after each walk; and five walks a week with a note on each walk and a return visit if a walk is missed. Airtasker lists Melbourne 30-minute walks at $25 to $40, and five walks a week at $125 to $175 (vendor, 19 May 2026). She sets each level from her own costs and travel time rather than from the listing range, and states one total with GST status. The missed-walk promise is one she can keep, because her route allows a return visit inside the pick-up window. The prices are her decision; the research gives no price she must charge."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Written offer template with three levels",
+    "Price list showing cost per walk and travel time",
+    "Phone or camera for the photo after each walk",
+    "Route map showing pick-up windows"
+  ],
+  "commonErrors": [
+    {
+      "error": "Quoting one per-walk price with no outcome, so the owner compares on price alone",
+      "prevention": "Write the outcome, the pick-up window and the certainty element into the offer."
+    },
+    {
+      "error": "Promising a behaviour result you cannot show, such as a calmer dog after a set number of walks",
+      "prevention": "Promise only what you record: the time, the route and the photo."
+    },
+    {
+      "error": "Offering more dogs than a council permit allows",
+      "prevention": "Check the council rule for the number of dogs before you accept a booking."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business guidance only. A council permit for commercial dog walking is a separate authority. This lesson does not grant any permit, licence or registration.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Victorian councils set their own commercial dog walking rules. Yarra's fee is not settled: its council page shows $153 and a government listing shows $155 for 2025-26. The council page requires public liability insurance of at least $20 million naming the council as an interested party, but the government listing does not mention insurance, so that requirement is not settled. Confirm the fee and the insurance requirement with the council before you publish a price.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Australian Consumer Law applies to pricing statements, and misleading price statements are prohibited (ACCC, 15 July 2026). State and territory rules also apply and differ.",
+      "licenceNotice": false
+    },
+    {
+      "point": "No Australian state-wide licence for dog walkers was found in the research. The Inner West Council (NSW) permit fee of $552 a year was a proposal in 2023 and its current status is not verified, so do not present it as settled.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each package states the outcome, walk length, pick-up window, owner duties and one total price with GST status.",
+    "Each price is checked against cost and travel time, and against the council rule for the number of dogs.",
+    "Each guarantee is one the walker can deliver."
+  ],
+  "documentationEvidence": [
+    "Written offer with the three levels, dated",
+    "Price check showing cost, travel time and margin",
+    "Council permit status for each council served, with the date checked"
+  ],
+  "summary": [
+    "A good walking offer promises a result with a time window, a certainty element and a guarantee you can keep.",
+    "Listing ranges are a starting point, not a standard, and each level should show what the owner gets.",
+    "Check council permit rules before you add dogs to a package."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SOL-03-dogwalk-K01",
+      "question": "Which part of a dog-walking offer does the owner buy?",
+      "options": [
+        "Your hourly rate and fee",
+        "Your leads, bags and kit list",
+        "The walk outcome, with certainty",
+        "How long you have been walking dogs"
+      ]
+    },
+    {
+      "id": "SOL-03-dogwalk-K02",
+      "question": "What should a guarantee for a walk be?",
+      "options": [
+        "Unlimited and open-ended, with no limit on the visit",
+        "Impossible to claim on in any case",
+        "Only for new clients and friends",
+        "Something you can deliver and afford"
+      ]
+    },
+    {
+      "id": "SOL-03-dogwalk-K03",
+      "question": "What must a measurable claim, such as a calmer dog after five walks, have?",
+      "options": [
+        "Evidence that supports it",
+        "A well-known pet brand's endorsement",
+        "A discount on the next walk",
+        "No supporting evidence"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "business.gov.au, Prepare quotes",
+      "url": "https://business.gov.au/people/contractors/prepare-quotes",
+      "pageDate": "1 August 2025",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 SOL-03 research file, not reopened for this variant: a written quote can become binding once accepted, and a quote should recover every cost and add a margin."
+    },
+    {
+      "id": "R2",
+      "title": "business.gov.au, Warranties and refunds",
+      "url": "https://www.business.gov.au/Products-and-services/Fair-trading/Warranties-and-refunds",
+      "pageDate": "27 May 2025",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 SOL-03 research file, not reopened: an optional workmanship warranty sits on top of the consumer guarantees, and a no-refunds line does not override a service customer's rights."
+    },
+    {
+      "id": "R3",
+      "title": "WA Consumer Protection, Estimates, quotes and deposits",
+      "url": "https://www.consumerprotection.wa.gov.au/estimates-quotes-and-deposits",
+      "pageDate": "4 September 2026",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 SOL-03 research file, not reopened: Western Australia only; asks that the total including GST is shown and that it says whether GST is included; sets deposit guidance."
+    },
+    {
+      "id": "R4",
+      "title": "ACCC, Setting prices: what's allowed",
+      "url": "https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed",
+      "pageDate": "15 July 2026",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 research files, not reopened: misleading statements about prices are prohibited."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Jobber Academy, 'Good, Better, Best Pricing Examples', https://getjobber.com/academy/good-better-best-pricing-examples/, published May 2021, updated 8 October 2024. Older source, updated after 2022.",
+    "INSEAD Knowledge, 'Small Change, Big Rewards', https://knowledge.insead.edu/marketing/small-change-big-rewards, 2 October 2025. Non-trade study (virtual assistant, first purchase only).",
+    "business.gov.au, 'Prepare quotes', https://business.gov.au/people/contractors/prepare-quotes, last updated 1 August 2025.",
+    "business.gov.au, 'Warranties and refunds', https://www.business.gov.au/Products-and-services/Fair-trading/Warranties-and-refunds, last updated 27 May 2025.",
+    "WA Consumer Protection, 'Estimates, quotes and deposits', https://www.consumerprotection.wa.gov.au/estimates-quotes-and-deposits, last updated 4 September 2026. Western Australia only.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, page last modified 15 July 2026.",
+    "Airtasker, 'How much does dog walking cost', https://www.airtasker.com/dog-walkers/price/how-much-does-dog-walking-cost, page updated 19 May 2026. Vendor source.",
+    "City of Yarra, 'Commercial dog walkers', https://www.yarracity.vic.gov.au/residents/pets-and-animals/commercial-dog-walkers, no date shown. Council source.",
+    "ABLIS, 'Commercial animal walker permit, City of Yarra', https://ablis.business.gov.au/service/vic/commercial-animal-walker-permit-city-of-yarra/31443, fees for 2025-26; no last-updated date shown.",
+    "Pedestrian.TV, 'Inner West Council dog walking permit', https://www.pedestrian.tv/news/inner-west-council-sydney-dog-walking-permit/, 10 September 2023. Proposal only; current status not verified.",
+    "Gap: no Australian source on repeat-booking or referral rates for dog walkers was found. No holiday or peak pricing source was found.",
+    "Conflict flagged: Dogster (vendor, 4 July 2026, updated 18 October 2026, https://www.dogster.com/lifestyle/how-much-does-dog-sitting-dog-boarding-cost-australia) gives $25 to $45 for an at-home visit and walk per dog per day, which does not match Airtasker's 30-minute band. Airtasker is used as the primary figure."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

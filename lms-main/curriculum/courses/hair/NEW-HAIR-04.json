@@ -1,0 +1,254 @@
+{
+  "id": "NEW-HAIR-04",
+  "title": "Barbering techniques and skin care",
+  "courseSlugs": [
+    "hair"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Mobile barbers who offer cutting, beard work and skin care services at a client's location",
+  "prerequisites": [
+    "F01-L01",
+    "F08-L02",
+    "F02-L01"
+  ],
+  "learningOutcomes": [
+    "Describe the cutting and trimming techniques the business offers and the hygiene steps that come with each",
+    "Decide whether a skin-care service is inside the approved service list before offering it",
+    "Explain how a higher-rate service earns more per hour without adding unapproved risk"
+  ],
+  "referencesAtStart": "Official references for this lesson: NSW Health, Skin penetration (current as at 10 August 2023); ACT Government, Skin penetration procedures (no date shown); WA Health, Guideline for the hairdressing industry (last reviewed February 2024). The technique descriptions are working practice and are not drawn from these sources.",
+  "instruction": [
+    {
+      "heading": "What a higher-rate barbering service is",
+      "body": "A barbering service that pays more per hour does so because it takes more skill and time, or because the client values it more, not because it cuts more corners. Examples include a beard shape with a hot towel finish, a full-head cut with a detailed fade, or a scalp and face treatment that uses an approved product. The extra revenue comes from the higher price, and the risk stays the same or grows. A barber who offers a premium service must still follow the consultation, hygiene and set-up steps in “Mobile salon setup, hygiene and tool sterilisation” and “Client consultation, allergy patch test and consent”. The service list the business uses is recorded as {{business:services.service_description}}. Any premium service that is not on that list is outside the approved scope and must not be offered until the business has reviewed it."
+    },
+    {
+      "heading": "Cutting and trimming techniques",
+      "body": "Cutting uses clippers, guards and scissors to shape hair to a set length and style. Work from the consultation, so the length and the shape agreed with the client are the target. Check each side against the other, and step back to view the cut from the client's angle. Trimming refines the outline of the hair and the beard. Use a trimmer and check the neckline and the sideburns with the client seated upright. If the skin is broken during a cut or trim, stop, clean the area and record the incident as the steps below direct. These are working techniques, not regulatory requirements. The hygiene steps that go with them are set out in the next sections."
+    },
+    {
+      "heading": "What the business offers and the skin-penetration question",
+      "body": "This business offers cutting, trimming, beard work and approved skin-care services. It does not offer blade shaving, and a client who asks for one should be offered a cut, trim or approved service instead. The ACT Government's page on skin penetration procedures treats skin penetration as a procedure that breaks the skin, and it excludes cutting from that definition. The page requires a licence for businesses that perform skin penetration procedures and covers mobile practitioners. NSW Health's page, current as at 10 August 2023, explains that hairdressing is not regulated under its skin penetration rules unless the work deliberately breaks the skin, and that other activities may be regulated by the local council under different legislation. Neither page is a licence, and neither settles the position in every state. If any work during a cut or trim breaks the skin, treat it as an incident and record it."
+    },
+    {
+      "heading": "Skin conditions, open wounds and referral",
+      "body": "Before any tool or product touches the skin, check for a rash, an open wound, an infection, open sores, abrasions or a skin condition. The WA Health guideline says that a hairdresser who is uneasy about serving a client with one of these should steer the client toward a general practitioner and treatment before the next visit. The guideline also says the hairdresser may still go ahead where they judge the service can be given safely around the condition, with controls that stop spread to other clients. The business procedure decides which course applies, and the default for any work over broken or irritated skin should be to postpone and refer. Record the check, the decision and the reason."
+    },
+    {
+      "heading": "Mobile set-up and hygiene at the client's location",
+      "body": "A mobile barber works away from a fixed salon, so the set-up must be checked at each location. The WA guideline expects basin access at each location, stocked with drinking-quality warm water, soap and paper towels, and hand hygiene before and after each client. The treatment space must be fit for purpose, and a space that is untidy or otherwise unfit is not used for treatments. Tools need cleaning between each client. A sharps container and disposable gloves are both needed on site. Keep clean and used equipment apart, and hold linen and waste in separate receptacles. A vehicle used for the service needs a sewer connection or a holding tank, and the tank's contents go to the sewer rather than stormwater. These are WA requirements."
+    },
+    {
+      "heading": "Skin care products and the limits of a claim",
+      "body": "Skin-care add-ons can include a cleanser, a moisturiser or a beard oil. Each product must come from the approved product list, {{business:materials.approved_products}}, and must have a safety data sheet on file. Do not make medical claims about a product. A claim that a product treats acne, rashes or any other condition is outside what a barber is qualified to say in this course, and it may breach the business's own policy and consumer rules. Describe the product by its ingredients and its label instructions. Where a client has a skin condition, an open wound or an infection, follow the referral step above and do not proceed with the skin-care service."
+    }
+  ],
+  "procedure": [
+    "Confirm that the service is on the approved service list before quoting it to the client.",
+    "Complete the consultation in “Client consultation, allergy patch test and consent”, including the skin check, before any tool or product is used.",
+    "Set up the station as the WA guideline and the business's SOP require, with hand washing, clean towels and a sharps container in place.",
+    "Clean and disinfect clippers, trimmer heads, guards and scissors by the approved method before the first client and between clients.",
+    "Apply the cut or trim in the approved order. Stop if the skin is broken, clean the area, and record the incident.",
+    "Use only approved skin-care products, applied according to their label instructions.",
+    "Clean and disinfect all tools after the service, and record the method used.",
+    "Store clean and used equipment separately, put linen and waste in their own containers, and discharge any wastewater as the local rules require."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client with a rash on the neck asks for a neck trim with clippers. The barber is trained in cutting but has no written procedure for work over broken or irritated skin.",
+      "decisionPrompt": "Should the trim go ahead today?",
+      "reasoning": "No. The rash is a skin condition that the consultation in “Client consultation, allergy patch test and consent” should catch. The WA guideline advises that the client see a general practitioner for a skin condition, and it says the operator may still go ahead where they believe the service can be given safely around the condition, with processes in place to prevent spread to other clients. A trim over a rash risks irritation and spread to other clients, which is a hygiene matter. The business procedure should postpone the trim and refer the client, and the barber should record the decision and the reason. The business should write a procedure for work over broken or irritated skin and confirm it for the local regulator before offering that work."
+    },
+    {
+      "situation": "A mobile barber wants to add a premium scalp treatment to the menu for a higher price.",
+      "decisionPrompt": "Can the barber start offering the service next week?",
+      "reasoning": "No. A service not on the approved list is outside scope. The barber should first ask the business to review the service, check the product and its safety data sheet, and confirm the hygiene steps for the treatment. Only after that review should the service be added to the list and priced. The higher rate should not be used to justify a service the business has not reviewed."
+    },
+    {
+      "situation": "Example figures only, not prices. A standard cut takes 30 minutes and is priced at 40. A premium beard service takes 60 minutes and is priced at 90 after the same set-up and hygiene steps.",
+      "decisionPrompt": "Which service earns more per hour, and what must be true before the premium service is offered?",
+      "reasoning": "On the example figures, the standard cut earns 80 an hour (40 for 0.5 of an hour) and the premium beard service earns 90 an hour (90 for 1 hour). The premium service earns more per hour, but only because it has more time and skill in it. Its hygiene steps are the same, and the approved list must include it before it is offered. Price the premium service with the business's pricing method, {{business:pricing.pricing_method}}, and do not let the price stand in for the scope review."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Clippers and attachments, cleaned and disinfected between clients",
+    "Clean towels, neck strips and a hot towel system that meets the business's hygiene method",
+    "Hand washing supply for each location, stocked as the WA guideline sets",
+    "Approved skin-care products with safety data sheets on file",
+    "Disposable gloves for close work and for handling products",
+    "Sharps container for any sharp waste, used and emptied as the business procedure directs",
+    "Separate containers for clean equipment, used equipment, linen and waste"
+  ],
+  "commonErrors": [
+    {
+      "error": "Adding a premium service to the menu before the business has checked its scope.",
+      "prevention": "Add a service only after it is on the approved list, and record the review date."
+    },
+    {
+      "error": "Continuing a trim after a nick because the client says it is minor.",
+      "prevention": "Stop the service, clean the area, record the cut as an incident, and decide with the business whether the client should see a general practitioner."
+    },
+    {
+      "error": "Making a medical claim about a skin product.",
+      "prevention": "Describe ingredients and label instructions only. Refer any skin condition to a general practitioner."
+    },
+    {
+      "error": "Reusing clipper blades or trimmer heads on several clients without a cleaning method.",
+      "prevention": "Clean and disinfect clipper blades and trimmer heads between clients by the approved method, and record it."
+    },
+    {
+      "error": "Setting up at a client's location without checking the hand washing, the treatment area and the wastewater arrangement.",
+      "prevention": "Check the set-up at every location before the first client, using the business's pre-start checklist and the WA guideline for mobile operators."
+    },
+    {
+      "error": "Assuming the NSW or ACT position applies in every state.",
+      "prevention": "Record the state of the work, check the local regulator's position, and treat any work that breaks the skin as a scope question until it is confirmed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "NSW Health's position is that hairdressing is not regulated under its skin penetration rules unless the work deliberately breaks the skin, and that other activities may be regulated by the local council. The page is current as at 10 August 2023. This is confirmed for NSW only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The ACT Government's page excludes cutting, shaving and hair dyeing from its definition of skin penetration, and it requires a licence for businesses that perform skin penetration procedures. This lesson does not grant any licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Any service that breaks the skin needs a confirmed regulatory position in the business's state or territory before it is offered. This lesson does not grant that position, and it does not approve any service.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The WA Health guideline sets out mobile operator requirements and the advice for clients with skin conditions or open wounds.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Consumer rules for product claims and pricing were not researched for this course.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every service on the menu is on the approved list, with a review date",
+    "Every cut, trim and skin-care service records a skin check before it starts, and any cut is recorded as an incident",
+    "Every product used has a safety data sheet and a label check recorded",
+    "No product claim goes beyond the label or the approved product description",
+    "Every mobile set-up is checked for hand washing, the treatment area and wastewater before the first client"
+  ],
+  "documentationEvidence": [
+    "Approved service list with the review date for each service",
+    "Consultation and skin-check record for each cut, trim and skin-care service",
+    "Incident record for any cut or broken skin",
+    "Product list with safety data sheets on file",
+    "Set-up check record for each location, including hand washing and wastewater"
+  ],
+  "summary": [
+    "A higher-rate service earns more by skill and time, and its risk does not fall.",
+    "This business does not offer blade shaving, and work that breaks the skin stays a scope question until the local regulator confirms the position.",
+    "Skin conditions and broken skin call for a general practitioner referral, and the business procedure decides on postponement.",
+    "Mobile set-up needs hand washing, a suitable treatment area and correct wastewater handling at every location.",
+    "Completing this lesson does not approve any service or product claim."
+  ],
+  "businessFields": [
+    "{{business:services.service_description}}",
+    "{{business:materials.approved_products}}",
+    "{{business:procedures.approved_sop}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:pricing.pricing_method}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-HAIR-04-K01",
+      "question": "Under the NSW position recorded in this course, when is hairdressing regulated under the skin penetration rules?",
+      "options": [
+        "Only when the work is done in a licensed salon",
+        "Whenever a tool touches the skin of any client",
+        "Only when the work deliberately breaks the skin",
+        "Only when the client asks for a skin-care product"
+      ]
+    },
+    {
+      "id": "NEW-HAIR-04-K02",
+      "question": "A client has a rash on the neck and asks for a neck trim with clippers. What is the correct action?",
+      "options": [
+        "Trim lightly with clean clippers, because a rash is not a wound and the clippers are clean",
+        "Trim the other side only and say nothing about the rash to the client at all today",
+        "Postpone the trim, refer the client as the procedure directs, and record the decision and reason"
+      ]
+    },
+    {
+      "id": "NEW-HAIR-04-K03",
+      "question": "A premium service is not on the approved service list. What should the barber do before offering it?",
+      "options": [
+        "Offer it at a higher price, since the price covers the risk of any extra steps",
+        "Offer it to regular clients only, since they already know the barber well",
+        "Ask the business to review the service and confirm its scope and hygiene steps first"
+      ]
+    },
+    {
+      "id": "NEW-HAIR-04-K04",
+      "question": "Under the WA guideline, what hygiene step applies before and after each client at a mobile location?",
+      "options": [
+        "Hand hygiene",
+        "Wipe the chair",
+        "Towel change",
+        "Nothing needed"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: Skin penetration, NSW Health (current as at 10 August 2023): https://www.health.nsw.gov.au/environment/skinpenetration; Skin penetration procedures, ACT Government (no date shown): https://www.act.gov.au/health/businesses/licences-permits-and-registration/infection-prevention-and-control/skin-penetration-procedures; Guideline for the hairdressing industry, WA Health (last reviewed February 2024): https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Skin penetration",
+      "url": "https://www.health.nsw.gov.au/environment/skinpenetration",
+      "pageDate": "Current as at 10 August 2023",
+      "checked": "2026-11-03",
+      "covers": "NSW Health skin penetration page; the local council may regulate hairdressing under other legislation. Publisher: NSW Health."
+    },
+    {
+      "id": "R2",
+      "title": "Skin penetration procedures",
+      "url": "https://www.act.gov.au/health/businesses/licences-permits-and-registration/infection-prevention-and-control/skin-penetration-procedures",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "ACT skin penetration procedures; ACT only. The page excludes cutting and shaving from its definition of skin penetration. Publisher: ACT Government (Health Directorate)."
+    },
+    {
+      "id": "R3",
+      "title": "Guideline for the hairdressing industry",
+      "url": "https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf",
+      "pageDate": "Last reviewed February 2024",
+      "checked": "2026-11-03",
+      "covers": "Sections 7.3 and 13.1. Disinfection sections were not read in this pass. Publisher: WA Health (Chief Health Officer guideline, Public Health Act 2016)."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NSW Health, Skin penetration (current as at 10 August 2023), https://www.health.nsw.gov.au/environment/skinpenetration, checked 2026-11-03 [R1]",
+    "ACT Government, Skin penetration procedures (no date shown), https://www.act.gov.au/health/businesses/licences-permits-and-registration/infection-prevention-and-control/skin-penetration-procedures, checked 2026-11-03 [R2]",
+    "WA Health, Guideline for the hairdressing industry (last reviewed February 2024), https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf, checked 2026-11-03 [R3]; rights: not held by user; facts and structure used, text reworded (no copying)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02: blade shaving scope in other states UNCONFIRMED; consumer rules not researched.",
+    "A search of Victorian council and Department of Health pages in this pass did not confirm the position on blade shaving in Victoria. It remains UNCONFIRMED.",
+    "Technique descriptions and the mobile set-up routine are working practice, not regulatory requirements.",
+    "UNCONFIRMED: blade shaving scope in states other than NSW and ACT; state equivalents of the WA mobile operator rules; consumer rules for product claims and pricing; the 2005 ACT infection control code's current status."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-07.jpg",
+      "alt": "Mobile hairdressing and barbering illustration",
+      "kind": "photo",
+      "origin": "hair"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-08.jpg",
+      "alt": "Mobile hairdressing and barbering illustration",
+      "kind": "photo",
+      "origin": "hair"
+    }
+  ]
+}

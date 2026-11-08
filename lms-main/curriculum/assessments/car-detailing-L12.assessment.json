@@ -1,0 +1,35 @@
+{
+ "lessonId": "car-detailing-L12",
+ "knowledgeAnswers": [
+  {
+   "id": "car-detailing-L12-K01",
+   "correctIndex": 1,
+   "rationale": "Slippery residue on pedals is a driving hazard."
+  },
+  {
+   "id": "car-detailing-L12-K02",
+   "correctIndex": 2,
+   "rationale": "Disputed defects are logged and assessed, not promised away."
+  },
+  {
+   "id": "car-detailing-L12-K03",
+   "correctIndex": 0,
+   "rationale": "Extra work is approved and priced first."
+  }
+ ],
+ "practicalCriteria": [
+  "Completes a final checklist on a sample vehicle, compared with start photographs.",
+  "Checks pedals and controls for residue, and records the result.",
+  "Logs a simulated disputed defect with an agreed assessment step."
+ ],
+ "passRule": "Checklist complete, controls confirmed free of residue, and disputed defect logged. Observed by an assessor.",
+ "evidenceRequired": [
+  "Start and end photographs",
+  "Signed checklist",
+  "Disputed-defect record"
+ ],
+ "stopWorkCriteria": [
+  "Vehicle handed over with residue on pedals",
+  "Defect attributed to the work without evidence"
+ ]
+}

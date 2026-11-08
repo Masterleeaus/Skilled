@@ -1,0 +1,35 @@
+{
+  "lessonId": "PSA-04",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-04-K01",
+      "correctIndex": 1,
+      "rationale": "Section 6.1 and the regulations: total chlorine above 10 mg/L means a public pool or spa has to be shut to bathers at once."
+    },
+    {
+      "id": "PSA-04-K02",
+      "correctIndex": 2,
+      "rationale": "Section 2 Definitions and section 6.1: free chlorine is the uncombined portion that kills organisms and destroys pollutants."
+    },
+    {
+      "id": "PSA-04-K03",
+      "correctIndex": 1,
+      "rationale": "Table 1: unstabilised pools at more than 26 degrees need at least 2.0 mg/L free chlorine; 1.0 mg/L applies at 26 degrees or cooler."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied pool, measures free and total chlorine and temperature, and states whether each reading is in range.",
+    "Given a total chlorine reading above 10 mg/L in a scenario, closes the pool, notifies the operator and records the time without delay."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Chlorine test record for the assessed pool",
+    "Closure record in a supplied scenario",
+    "Assessor observation of the test"
+  ],
+  "stopWorkCriteria": [
+    "Total chlorine above 10 mg/L: close the pool, do not dose further, and escalate.",
+    "Chlorine gas smell in an enclosure: leave, raise the alarm, follow the site emergency procedure.",
+    "Free chlorine below minimum: keep the pool closed until a passing retest is recorded."
+  ]
+}

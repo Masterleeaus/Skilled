@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-equipment-cleaning-L06",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L06-K01",
+   "correctIndex": 1,
+   "rationale": "The wet contact condition starts when the surface is visibly wet with the product. Starting at application, or after the rest of the room is done, does not meet the label's condition."
+  },
+  {
+   "id": "medical-equipment-cleaning-L06-K02",
+   "correctIndex": 2,
+   "rationale": "The condition was not achieved, so the record is Incomplete with the actual time, and the supervisor is told. A surface that looks clean has not met the condition."
+  },
+  {
+   "id": "medical-equipment-cleaning-L06-K03",
+   "correctIndex": 0,
+   "rationale": "Products are never mixed. Each is applied separately as its label directs, and the colleague's suggestion is reported, because mixing can create a hazard and change the approved effect."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a wipe on a monitor casing that dries before the label's contact condition is reached, the learner records the actual time, marks the task incomplete, and does not record it as achieved.",
+  "Given two approved products and a colleague's suggestion to mix them, the learner does not mix, applies each product separately, and reports the suggestion.",
+  "The learner starts the contact timer only when the surface is visibly wet with the product."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Work record showing the actual contact time and an incomplete tag",
+  "Report of the mixing suggestion to the supervisor",
+  "Observation note of the contact-time start"
+ ],
+ "stopWorkCriteria": [
+  "Learner records a contact condition as achieved when the surface dried early",
+  "Learner mixes two products in one container",
+  "Learner applies a product to a display, electronics or opening that the instruction says to keep dry"
+ ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "NEW-SIT-05",
+  "title": "Pricing and extended stays",
+  "courseSlugs": [
+    "petsit"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RV",
+  "estimatedMinutes": 25,
+  "audience": "Pet sitters and house sitters who price visits and stays, including longer stays that may move from house sitting into a boarding arrangement",
+  "prerequisites": [
+    "F01-L01",
+    "F01-L02",
+    "F01-L04"
+  ],
+  "referencesAtStart": "Official sources: Agriculture Victoria, Boarding establishments (updated 27 October 2025); Agriculture Victoria, Code of Practice for the Operation of Boarding Establishments (revision 1, updated October 2004; printed April 2025), boarding establishments only; City of Stonnington, Apply for a domestic animal business permit (no date shown); WorkSafe Victoria, Do I need to register for WorkCover insurance? (reviewed 19 May 2026).",
+  "learningOutcomes": [
+    "Price a visit or a stay from the time, the travel, the supplies and the risk of the arrangement",
+    "Identify the point at which an extended stay or a change of location may become boarding, and stop to confirm the position",
+    "Explain the insurance that the Victorian boarding code requires for boarding establishments."
+  ],
+  "instruction": [
+    {
+      "heading": "Pricing visits and stays",
+      "body": "A visit price should cover the travel, the time at the home, the time spent on the log and the report, the supplies used, and the business's share of the costs of any compliance step. A stay price should cover the nights, the number of visits, and the extra supplies and risk. A house sit with an overnight stay in the owner's home carries a different risk from a series of day visits. Build each price from its parts, and record the build. The business's pricing method is held in {{business:pricing.pricing_method}}, and the minimum charge in {{business:pricing.minimum_charge}}. Do not make a price depend on any statement about the animal's health, and do not promise outcomes."
+    },
+    {
+      "heading": "When an extended stay may become boarding",
+      "body": "The line between house sitting and boarding turns on where the animal is cared for. The Victorian boarding code describes boarding as holding one dog or cat for payment at a site other than where it normally lives, and it limits home boarding to two animals from one household. The boarding establishments page confirms the two-animal limit for home boarding. If a sitter takes an animal to the sitter's own home for a stay, the sitter may be running home boarding, and a council registration may be needed. Stonnington's permit page (no date shown) lists for-profit homecare boarding among the businesses that need a permit. The business must stop and confirm the position with Agriculture Victoria and the council before offering a stay in the sitter's own home, or any stay that could be treated as boarding."
+    },
+    {
+      "heading": "Insurance for boarding and what applies to sitters",
+      "body": "The Victorian boarding code sets public liability of $10,000,000 for boarding establishments. That is confirmed for boarding establishments. The business should not assume that a sitter is exempt, and should confirm the position with its insurer and the regulator before offering a stay that could be boarding. Where a council permit or registration applies, the council may set its own insurance condition, and the sitter must check it before the stay starts. In Victoria, WorkSafe Victoria's WorkCover page (reviewed 19/05/2026) indicates that registration is generally expected once a business takes on employees, and that a sole trader with no other workers does not need to register. Record each insurance check in {{business:compliance.policy_reference}}."
+    }
+  ],
+  "procedure": [
+    "Build each visit or stay price from its time, travel, supplies, records and compliance costs, and record the build",
+    "Identify where the animal will be cared for for each stay, and stop to confirm the position if it is the sitter's home or another property",
+    "Confirm the council registration or permit for any arrangement that could be boarding, and record the source and date",
+    "Confirm the insurance for the arrangement, including any council condition, and record it",
+    "Agree the stay terms in writing, including the location, the number of nights and the cancellation rule",
+    "Review the stay terms each season, and remove any term that is no longer supported by a confirmed position"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A sitter in Victoria offers a two-week stay in the sitter's own home for a client's dog, to save the client the cost of a house sit. The sitter has no council registration.",
+      "decisionPrompt": "Can the stay be offered as priced?",
+      "reasoning": "The dog would be cared for at a property other than its normal place of residence, for a fee, so the arrangement may be home boarding under the Victorian definition. Home boarding is limited to two animals from one household, and the council may require registration. The sitter should stop, confirm with the council and Agriculture Victoria, and not offer the stay until the position is confirmed. The price cannot be used to avoid the check."
+    },
+    {
+      "situation": "A house sitter is asked to stay in a client's home for a month, and the owner asks for a discount because the sitter will be away for part of the time.",
+      "decisionPrompt": "How should the stay be priced?",
+      "reasoning": "The stay should be priced from the nights, the visits, the supplies and the risk. The discount should be recorded as a business decision with the reason, and should not reduce any check or record. The stay terms should cover the nights when the sitter is away, and the cover for those nights."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Price build sheet for each visit and stay",
+    "Written stay terms, approved by the business",
+    "Council registration or permit reference where it applies",
+    "Insurance certificate for the business, held on file"
+  ],
+  "commonErrors": [
+    {
+      "error": "Offering a home stay for another household's animal without confirming the position.",
+      "prevention": "Stop and confirm the council and state position before the stay. Home boarding is limited to two animals from one household in Victoria."
+    },
+    {
+      "error": "Assuming the boarding insurance rule does not apply to sitters.",
+      "prevention": "Confirm the sitter insurance position with the insurer and the regulator before accepting the work."
+    },
+    {
+      "error": "Using a discount to skip a check or a record.",
+      "prevention": "Price the discount as a business decision and keep every check and record."
+    },
+    {
+      "error": "Stating that every extended stay is boarding.",
+      "prevention": "The position depends on where the animal is cared for. Confirm the position for each place."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The Victorian boarding code sets public liability of $10,000,000 for boarding establishments.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Stonnington lists for-profit homecare boarding among businesses that need a permit. The wording is council-specific and does not define homecare boarding.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Check whether an in-home stay counts as boarding where the work is done before you offer it.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not register the business, grant a boarding licence, or confirm that an arrangement is not boarding.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every price is built from its parts and recorded",
+    "Every stay states where the animal is cared for, and the position is confirmed before the stay is offered",
+    "Every stay that could be boarding has a council and state check recorded",
+    "Every insurance check is recorded, including any council condition"
+  ],
+  "documentationEvidence": [
+    "Price build sheet for each visit and stay",
+    "Written stay terms, with the location, nights and cancellation rule",
+    "Council and state position record for each stay, with source and date",
+    "Insurance check record for each arrangement"
+  ],
+  "summary": [
+    "Price from time, travel, supplies, records and compliance, not from a health claim",
+    "A stay in the sitter's own home may be home boarding; confirm the position first",
+    "The boarding insurance amount is confirmed for boarding establishments.",
+    "Completing this lesson does not confirm that any arrangement is not boarding"
+  ],
+  "referencesAtEnd": "Official sources, as listed at the start of this lesson. The boarding insurance and home-boarding rules have been confirmed for boarding establishments only.",
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:compliance.jurisdiction}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-SIT-05-K01",
+      "question": "A sitter wants to offer a two-week stay in the sitter's own home for a client's dog, with no council registration. What should happen first?",
+      "options": [
+        "Stop and confirm the council and state position, since the stay may be home boarding",
+        "Offer the stay, since it is cheaper for the client and the sitter has room at home",
+        "Offer the stay and register later if asked, since the sitter has done it before"
+      ]
+    },
+    {
+      "id": "NEW-SIT-05-K03",
+      "question": "Under the Victorian definition, how many animals from one household can be home boarded at one time?",
+      "options": [
+        "Six",
+        "Ten",
+        "Two"
+      ]
+    },
+    {
+      "id": "NEW-SIT-05-K04",
+      "question": "What does the lesson say a visit price should cover?",
+      "options": [
+        "The sitter's favourite treats only",
+        "Travel, time at the home, log and report time, supplies, and the share of compliance costs",
+        "Nothing but the time at the home",
+        "Only the client's postcode"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Agriculture Victoria, Boarding establishments, https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/domestic-animal-businesses/boarding-establishments, updated 27 Oct 2025, checked 2026-11-02 (SIT-VIC-01, CONFIRMED)",
+    "Agriculture Victoria, Boarding Code (PDF), https://agriculture.vic.gov.au/__data/assets/pdf_file/0018/1173600/Animal-Welfare-CoP-Boarding-Establishments-2025-Web.pdf, Revision 1 (Oct 2004), printed Apr 2025, checked 2026-11-02 (SIT-VIC-04, CONFIRMED for boarding establishments)",
+    "City of Stonnington, Apply for a domestic animal business permit, https://www.stonnington.vic.gov.au/Business/Business-permits-and-approvals/Apply-for-a-domestic-animal-business-permit, checked 2026-11-02 (SIT-VIC-02, COUNCIL-SPECIFIC)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (SIT-VIC-03, NAT-SIT-NSW-02, NAT-SIT-ACT-02, NAT-SIT-SA-02, NAT-SIT-WA-02 UNCONFIRMED)",
+    "WorkSafe Victoria, Do I need to register for WorkCover insurance, https://www.worksafe.vic.gov.au/pdf/do-i-need-register-workcover-insurance, last updated 19 May 2026, checked 2026-11-02 (PT-VIC-07 rule)",
+    "localised to Australian practice; Australian equivalents UNCONFIRMED where marked. currency stated in AUD; thresholds and sources unchanged"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Boarding establishments",
+      "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/domestic-animal-businesses/boarding-establishments",
+      "pageDate": "updated 27 Oct 2025",
+      "checked": "2026-11-03",
+      "covers": "Read the two-animal home boarding limit and the registration rule. Publisher: Agriculture Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Code of Practice for the Operation of Boarding Establishments (PDF)",
+      "url": "https://agriculture.vic.gov.au/__data/assets/pdf_file/0018/1173600/Animal-Welfare-CoP-Boarding-Establishments-2025-Web.pdf",
+      "pageDate": "Revision 1, updated October 2004; printed April 2025",
+      "checked": "2026-11-03",
+      "covers": "Read the introduction (public liability), section 2.1 (definition) and section 10 (home boarding); boarding establishments only. Publisher: Agriculture Victoria."
+    },
+    {
+      "id": "R3",
+      "title": "Apply for a domestic animal business permit",
+      "url": "https://www.stonnington.vic.gov.au/Business/Business-permits-and-approvals/Apply-for-a-domestic-animal-business-permit",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Check the list of permit businesses; homecare boarding is listed and not defined. Publisher: City of Stonnington."
+    },
+    {
+      "id": "R4",
+      "title": "Do I need to register for WorkCover insurance?",
+      "url": "https://www.worksafe.vic.gov.au/do-i-need-register-workcover-insurance",
+      "pageDate": "reviewed 19/05/2026",
+      "checked": "2026-11-03",
+      "covers": "Check the employee rule and the sole trader section. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-09.jpg",
+      "alt": "Pet and house sitting illustration",
+      "kind": "photo",
+      "origin": "petsit"
+    },
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-10.jpg",
+      "alt": "Pet and house sitting illustration",
+      "kind": "photo",
+      "origin": "petsit"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "BP-05",
+  "title": "Pricing by hours per project",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors who write quotes for cleaning projects and need a price that covers cost and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures",
+    "Estimate project hours, including set-up, travel and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "The sample business plan says its prices will be based on the expected number of hours per project. Hours are a sound starting point for cleaning work, because the crew, the travel, the set-up and the quality checks all become time. Once you know the hours, you can see the cost, the margin and the effect of a change in scope. A flat price with no hours behind it hides both risk and waste, and it cannot be defended when a client asks why a job costs what it does."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in that period. Total cost includes wages with on-costs such as leave and superannuation, where your staff arrangements require them, vehicle running costs, equipment, consumables, insurance, administration and premises. Productive hours are the hours a crew is doing chargeable work, not the paid hours on a roster. Use billable hours as the divisor, not the full working week. For example, if you pay for 40 hours and 30 of them are chargeable, the cost per productive hour is higher than the hourly wage."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each job into tasks, such as a room, a bathroom, a window or an area. Estimate the time for each task at a standard speed, then add set-up, pack-down, travel between sites and a checking allowance. Use ranges where the job is uncertain. Add a set allowance for delays outside your control, such as delivery delays, staff absence and weather, and size it from your own records. After each job, record the actual hours and the reason for any difference, and use the gap to correct the next estimate. Over time, your standard times become reliable for your own team and your own methods."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the job. Add a margin that reflects your target and the risk in the job, such as difficult access, poor condition or a tight deadline. Apply your materials policy and your minimum charge. The result is a price with a visible basis. If a client wants a lower price, you can show which hours or which part of the scope they are asking you to remove, which keeps the discussion on the work rather than on the person."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote should state the scope, the hours or price basis, the exclusions, what the client must provide, and how long the quote is valid. Do not show the internal cost per hour to the client unless your policy says to. Record every change to the scope and re-quote when the scope changes. Quotes issued without a scope or without exclusions can lead to disputes."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten jobs of each type. If the variance is consistently above an agreed threshold, change the standard time, the margin or the scope rules. A pricing method is not finished when it is written. It is finished when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the productive hours achieved in the same period.",
+    "Divide total costs by productive hours to get the cost per productive hour.",
+    "Break the job into tasks and estimate each task time as a range.",
+    "Add set-up, pack-down, travel and checking time as named lines.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy and the minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, client inputs and validity.",
+    "Record actual hours after each job and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. An office of about 120 square metres needs a one-off clean. The estimate is 6 crew-hours on site, including set-up and checking. The owner's cost per productive hour is $60 AUD (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the cost of the job, what is the price with a 25 per cent margin on price, and what changes if the building has a 2-hour access delay?",
+      "reasoning": "The cost is 6 crew-hours multiplied by $60 AUD, which is $360 AUD. A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $480 AUD. A 2-hour access delay adds 2 crew-hours, so the cost becomes $480 AUD and the price becomes $640 AUD, but only if the quote's access terms allow the delay to be charged. The owner checks those terms before adding the time to the bill."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each job, with estimated and actual columns",
+    "Measuring tape or laser measure for area estimates",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, equipment, consumables, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel, set-up and checking time",
+      "prevention": "Add these as named lines on every estimate."
+    },
+    {
+      "error": "Quoting with no exclusions",
+      "prevention": "List what is excluded, what the client provides, and the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each job and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The Australian Consumer Law applies to pricing statements, and the ACCC says misleading statements about prices are prohibited. State or territory fair trading rules also apply and differ between states and territories, so check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement. Check which one applies to each worker before using any cost figure. This lesson does not state those rates.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten jobs of each type and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Job time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make the work visible, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Travel, set-up and checking time are named lines, not hidden extras.",
+    "Compare estimates with actual hours, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-K01",
+      "question": "Which costs belong in the cost per productive hour?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the client pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of competitors in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, equipment, consumables, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-K02",
+      "question": "A job is estimated at 5 crew-hours and takes 8. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid and the crew has finished",
+        "Reduce paid hours for the crew on the next job and skip the morning break",
+        "Raise the price for this client's next job only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-K03",
+      "question": "Why does a quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client and to keep the rates a secret from the crew",
+        "To make the quote longer and to fill up the page with more text and words for the client",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the client's expectations and to make the job seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning-Services-Business-plan.txt (ddf3b731-315667945), Marketing Mix (Pricing: hours per project); rights: user-held; reworded (no copying)",
+    "Cleaning-Services-Business-plan.txt, Financial Objectives (margin context only); historical, undated, non-Australian; not used as a pricing benchmark",
+    "Award and enterprise agreement coverage, on-costs, state fair trading and Australian consumer law pricing points: UNCONFIRMED (not checked against a current source in this draft; no date checked)",
+    "Award and enterprise agreement coverage and state fair trading rules: not checked against a current source; check the rules for your state or territory. The ACCC pricing page and the business.gov.au pricing page are cited below for the points they support.",
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Supports: on-costs such as leave and superannuation in the hourly cost.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, page last modified 15 July 2026. Supports: misleading price statements are prohibited.",
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Supports: divide by billable hours, not total hours; add a set allowance for delays.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. Supports: use the gap between quoted and actual labour to correct the next quote. New Zealand publisher; general method only."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

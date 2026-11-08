@@ -1,0 +1,42 @@
+{
+  "lessonId": "NEW-PNT-05",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-PNT-05-K01",
+      "correctIndex": 0,
+      "rationale": "A colour change is a variation. It may need more coats and a different price, so it is recorded and approved in writing before painting."
+    },
+    {
+      "id": "NEW-PNT-05-K02",
+      "correctIndex": 1,
+      "rationale": "A painting quote states the scope, the system, the coats and the exclusions, so the client knows what the price covers."
+    },
+    {
+      "id": "NEW-PNT-05-K03",
+      "correctIndex": 2,
+      "rationale": "Damp repairs found during preparation are excluded unless they are priced as a variation. The brand and coat count are inclusions, not exclusions."
+    },
+    {
+      "id": "NEW-PNT-05-K04",
+      "correctIndex": 0,
+      "rationale": "The extra price and the client's approval are recorded in writing before the extra work starts. The NSW guidance on residential building contracts says the same."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated painting job with a room schedule, the worker writes a quote that states the scope, surfaces, preparation, system, coats, exclusions, colour approval route and validity date.",
+    "Given a simulated mid-job request for a darker colour, the worker records a variation with its price and its effect on coats and time, and does not apply the colour until written approval is shown.",
+    "The worker records the licence check for the simulated job value and state, with the date and the page checked, before the quote is issued."
+  ],
+  "passRule": "Pass when all three practical criteria are observed by the assessor on the simulated job, with each document complete and signed or approved in the exercise, and no stop-work criterion met. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Written quote with scope, exclusions and approval route",
+    "Colour approval record with product, colour code or sample reference, and sheen",
+    "Variation record with price and written approval",
+    "Licence check record for the simulated job"
+  ],
+  "stopWorkCriteria": [
+    "A colour change or extra work is requested and carried out without written approval",
+    "A quote is issued for a job whose licence position has not been checked",
+    "A quote is issued without an exclusions section"
+  ]
+}

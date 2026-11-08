@@ -1,0 +1,39 @@
+{
+  "lessonId": "GCM-03",
+  "knowledgeAnswers": [
+    {
+      "id": "GCM-03-K01",
+      "correctIndex": 1,
+      "rationale": "Standing the board on its edge lets both faces drain and dry. Water that sits in the grooves supports residue and odour."
+    },
+    {
+      "id": "GCM-03-K02",
+      "correctIndex": 1,
+      "rationale": "Sanitiser must come from an approved product at the label dilution. Topping up with another product, or using a stronger mix, is not an acceptable substitute."
+    },
+    {
+      "id": "GCM-03-K03",
+      "correctIndex": 0,
+      "rationale": "A board whose crack holds residue that the sequence cannot clear is taken out of use and reported for replacement, and it is not stored with boards in service."
+    }
+  ],
+  "practicalCriteria": [
+    "Puts on the PPE that the approved label lists before opening the sanitiser, observed by the assessor.",
+    "Runs a supplied board through scrape, wash, rinse, sanitise at the label dilution and contact time, rinse, and dry on edge, in that order, observed by the assessor.",
+    "Declines to mix products when the sanitiser runs out, and makes up a labelled fresh batch from the approved product instead, observed by the assessor.",
+    "Identifies a supplied board with a crack, takes it out of use, and completes a written report, observed by the assessor."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge-check result",
+    "Assessor observation sheet for the board sequence",
+    "Labelled sanitiser batch record for the practical run",
+    "Report of the board taken out of use"
+  ],
+  "stopWorkCriteria": [
+    "The sanitiser container is unlabelled, or its product is not on the approved list",
+    "A worker is about to mix the sanitiser with another product or top it up",
+    "A worker has a skin reaction, eye contact or breathing symptoms from a product: stop, follow the first aid steps on the label, and report it",
+    "A board is about to be sanitised at a strength above the label dilution"
+  ]
+}

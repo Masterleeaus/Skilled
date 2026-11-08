@@ -1,0 +1,172 @@
+{
+  "id": "biohazard-trauma-cleaning-L10",
+  "title": "Equipment segregation and transport",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Coordinators, supervisors and trained workers who may triage, refer, document or support biohazard and trauma-related work. This lesson does not grant authority to enter, assess, clean, decontaminate, release, transport or dispose of anything in a regulated setting.",
+  "prerequisites": [
+    "biohazard-trauma-cleaning-L09"
+  ],
+  "learningOutcomes": [
+    "Label equipment used on a suspect task as dirty or quarantined.",
+    "Explain why a tool is not booked for another job until its release is documented.",
+    "Refuse improvised cleaning of powered or sensitive equipment."
+  ],
+  "instruction": [
+    {
+      "heading": "Equipment segregation and transport",
+      "body": "Reusable equipment and vehicles can carry contamination from one zone or site to another. Equipment choice, handling, decontamination, storage and vehicle segregation need approved protocols and competent oversight. Do not improvise cleaning methods for contaminated tools, especially powered or sensitive equipment, because an improvised method can damage the tool or leave contamination behind. Equipment used on a suspected contamination task is not booked for another job until its release is documented. Keep a clean and a dirty equipment register, store items separately and labelled, and treat any item without a documented history as quarantined."
+    }
+  ],
+  "procedure": [
+    "Label every item used on a suspect task as dirty or quarantined.",
+    "Keep it out of shared storage and out of vehicles used for other work.",
+    "Check the approved decontamination method and the manufacturer's instructions.",
+    "Record release only after the competent party has signed.",
+    "Keep the register current."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A vacuum used on a suspect task is scheduled for a domestic job the next morning.",
+      "decisionPrompt": "Can it be used?",
+      "reasoning": "No. It is quarantined until its release is documented and the competent party approves it."
+    },
+    {
+      "situation": "A team member wants to wipe a powered tool with an unapproved solvent.",
+      "decisionPrompt": "What is the response?",
+      "reasoning": "Stop. An improvised solvent can damage the tool and leave contamination behind. Only the approved method and the manufacturer's instructions apply."
+    }
+  ],
+  "equipmentAndPpe": [
+    "PPE for handling dirty equipment as set by the plan.",
+    "Labelled containers and dedicated transport containment.",
+    "Training-only fictional asset list."
+  ],
+  "commonErrors": [
+    {
+      "error": "Reusing tools straight after a suspect job.",
+      "prevention": "Quarantine until release is documented."
+    },
+    {
+      "error": "Improvising cleaning for a powered tool.",
+      "prevention": "Use the approved method and the manufacturer's instructions."
+    },
+    {
+      "error": "Storing clean and dirty items together.",
+      "prevention": "Use separate, labelled storage."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Release of contaminated equipment is decided by a competent party. Completing this lesson gives no authority to release equipment.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Manufacturer instructions govern equipment cleaning and must be checked before use.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Vehicles used for contaminated material need segregation under the approved protocol.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every item on the register has a clean or quarantined status and a named release decision.",
+    "No item leaves quarantine without documented release."
+  ],
+  "documentationEvidence": [
+    "Equipment register with status and release record.",
+    "Vehicle segregation checklist."
+  ],
+  "summary": [
+    "Equipment can carry contamination.",
+    "Quarantine until released in writing.",
+    "No improvised cleaning of powered tools."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "biohazard-trauma-cleaning-L10-K01",
+      "question": "A vacuum used on a suspect task is due for a domestic job. What is correct?",
+      "options": [
+        "Quarantine it until its release is documented and approved.",
+        "Use it, after a quick wipe.",
+        "Use it, as long as it is not used in the bedroom."
+      ]
+    },
+    {
+      "id": "biohazard-trauma-cleaning-L10-K02",
+      "question": "Why are improvised cleaning methods for powered tools a problem?",
+      "options": [
+        "They are slower than the approved method.",
+        "They can damage the tool or leave contamination behind.",
+        "They use too much water."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "biohazard-trauma-cleaning-lesson-01 to -12 instruction files (WordPress source, premium-01, passes 52 to 54); editorial drafts, not approved; rights: reworded (no copying).",
+    "HR01-biohazard-trauma-cleaning.json, course bundle instruction sections 1 to 12 (read this pass); rights: reworded (no copying).",
+    "UNCONFIRMED: state and territory licensing, waste-classification, transport and WHS requirements for trauma and biohazard work. Not checked for each state and territory in this pass.",
+    "UNCONFIRMED: US OSHA 29 CFR 1910.1030 and CDC environmental cleaning guidance named in the source list. Not Australian law; not read in this pass.",
+    "UNCONFIRMED: Australian disinfection clearance criteria and any disinfectant percentage or contact time. None are given in the learner text.",
+    "biohazard-trauma-cleaning-lesson-10 and HR01 section 10; checked 2026-11-03."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. The PCBU must protect workers and others so far as reasonably practicable; hazards are eliminated where possible and otherwise minimised; for certain hazards a hierarchy of control applies (the page does not list its levels); duties cannot be contracted out. The page does not cover trauma cleaning, waste or PPE rules. Publisher: Safe Work Australia. The state or territory regulator confirms the adopted law."
+    },
+    {
+      "id": "R2",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019)",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "publication date May 2019 (front matter); copyright 2019",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, first 100,000 of 133,773 characters only. Read: section 2.2 (standard precautions apply to all people), section 3.1.2 recommendations 7 and 8 (sharps handled minimally, never recapped, bent or broken, disposed of at point of use in an approved container not filled past its maximum fill line), section 3.1.3 recommendation 12 (spill response with gloves and protective equipment, containment, absorbent removal, detergent cleaning). Healthcare-setting guidance, applied here by analogy. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R3",
+      "title": "Managing spills of blood and body fluids and substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-spills-of-blood-and-body-fluids-and-substances",
+      "pageDate": "Updated 21 August 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Standard precautions and PPE for all spill cleaning; clear up the spill before cleaning the area and do not add liquid to a spill; avoid aerosols; leak-proof bags and containers for waste; sodium hypochlorite generally unnecessary for spill management. Victorian guidance only."
+    },
+    {
+      "id": "R4",
+      "title": "Managing exposures to blood and body fluids or substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-exposures-to-blood-and-body-fluids-or-substances",
+      "pageDate": "Updated 8 October 2015",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. First response: remove contaminated clothing, wash with soap and water, flush mucous membranes, rinse eyes gently, report immediately; remove from duty and carry out a risk assessment; medical evaluation with post-exposure prophylaxis where appropriate; document date, time, type and circumstances. Victorian guidance only. The page shows its last update as 2015."
+    },
+    {
+      "id": "R5",
+      "title": "Cleaning and waste disposal procedures for infection control",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/cleaning-and-waste-disposal-procedures-infection-control",
+      "pageDate": "Updated 14 December 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Three waste groups (general, clinical, pharmaceutical); clinical waste in biohazard bags shown as yellow; sharps into containers that meet the Australian and New Zealand standards named on the page; clinical and pharmaceutical waste collected by waste companies licensed by the EPA and taken to EPA-licensed facilities. Victorian guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter, assess, clean, decontaminate, release, transport or dispose of anything at a scene or in any regulated setting. Completing this lesson does not give a licence, certificate, clearance or permission to do restricted work. Some of the work described here is restricted to licensed, authorised or specially trained people, and some of it may not be done by a general cleaner at all. Where legal, police, coronial, insurer, property-owner or occupational-health authority applies, that authority must be obtained and recorded before any step is taken. Nothing in this lesson replaces the employer's written procedure, the site-specific assessment or the decision of the competent, authorised party. Where you cannot identify who holds that authority, the answer is to stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop work and refer whenever any of the following is true: the biological hazard is uncertain or the contamination status is unverified; the required authorisation, release or competence is missing; the handling, transport, waste or exposure protocol is unknown; a sharp has been found or might be present; a worker may have been exposed; entry has been offered without written release; a party asks you to certify clearance or unrestricted re-entry. A stop-work decision is not a failure. Restart only after the authorised supervisor has documented the procedure and a qualified review has been completed."
+  }
+}

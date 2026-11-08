@@ -1,0 +1,157 @@
+{
+  "id": "kitchen-exhaust-L02",
+  "title": "Fire triangle and grease accumulation",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and supervisors working near commercial cooking equipment and exhaust systems.",
+  "prerequisites": [
+    "kitchen-cleaning-L08"
+  ],
+  "learningOutcomes": [
+    "Explain how cooking heat, ignition sources, exhaust airflow and grease deposits contribute to fire risk.",
+    "Recognise that a clean-looking canopy is not evidence of a clean, safe duct.",
+    "Escalate visible or reported grease accumulation for an approved fire-risk assessment."
+  ],
+  "instruction": [
+    {
+      "heading": "Why grease is a fire risk",
+      "body": "A fire needs fuel, heat and an oxygen source, and in a kitchen exhaust system the grease deposit is the fuel. Cooking produces heat, the exhaust carries grease vapour into the hood and duct, and the vapour condenses on the cooler surfaces. Over time a layer of grease builds up in the filters, the hood and the duct. Visible grease is a warning. Food premises rules also expect grease buildup to be controlled rather than left to collect (FSANZ, page updated 30 September 2025). Grease in sections you cannot see is a risk you cannot judge from the kitchen floor."
+    },
+    {
+      "heading": "Appearance is not evidence",
+      "body": "A canopy can look clean while a maintenance record lists inaccessible, grease-laden duct sections. Do not treat the visible part as proof of the whole system. Separate what you can see, what a record says, and what remains unknown, and label each. Where the records and the appearance disagree, the disagreement is itself a reason to stop and escalate."
+    },
+    {
+      "heading": "Escalation",
+      "body": "Escalate immediately for visible or reported grease accumulation where there is no approved fire-risk assessment. Record what you observed, where, and when, and inform the site operator. Do not clean the inaccessible sections yourself, and do not invent a maintenance interval or a safe grease level. This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist."
+    }
+  ],
+  "procedure": [
+    "Identify the cooking heat, the exhaust path and the visible grease deposits.",
+    "Separate observed condition, recorded information and unknown sections.",
+    "Do not treat a clean canopy as evidence of a clean duct.",
+    "Escalate visible or reported grease accumulation with no approved fire-risk assessment.",
+    "Record the location, time, observation and the person informed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A canopy looks clean, but a maintenance record lists grease-laden duct sections that you cannot access.",
+      "decisionPrompt": "What do you report?",
+      "reasoning": "Report that the visible canopy looks clean, but the duct sections are not accessible and the record lists grease. Do not state that the system is safe. Escalate to the site operator for an approved fire-risk assessment."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Access and scope record from the work order.",
+    "Gloves and eye protection for accessible surfaces only."
+  ],
+  "commonErrors": [
+    {
+      "error": "Reporting the system as safe because the canopy is clean.",
+      "prevention": "Report only what was inspected, and refer the rest."
+    },
+    {
+      "error": "Cleaning inaccessible sections without authority.",
+      "prevention": "Refer inaccessible sections to the responsible specialist."
+    },
+    {
+      "error": "Ignoring a grease record because the surface looks fine.",
+      "prevention": "Treat a recorded deposit as a reason to escalate."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not grant a licence, competency or fire-authority approval for commercial exhaust-system work.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Observed, recorded and unknown conditions separated in the case study.",
+    "Clean canopy not reported as a safe system.",
+    "Escalation made for accumulation with no approved fire-risk assessment."
+  ],
+  "documentationEvidence": [
+    "Dated observation record with zone, time and person informed.",
+    "Escalation record for grease accumulation."
+  ],
+  "summary": [
+    "Grease is the fuel; visible and recorded grease are reasons to escalate.",
+    "A clean canopy is not evidence of a clean duct.",
+    "Escalate for an approved fire-risk assessment, and do not certify."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-exhaust-L02-K01",
+      "question": "A canopy looks clean but a record lists grease in inaccessible ducts. What is the correct report?",
+      "options": [
+        "The system is safe to use, since the canopy is clean and the grease is out of sight in the duct",
+        "Nothing needs reporting, since the canopy is clean and the duct looks fine from the hood opening",
+        "The canopy looks clean, the duct sections are inaccessible, and the record lists grease, which needs escalation"
+      ]
+    },
+    {
+      "id": "kitchen-exhaust-L02-K02",
+      "question": "Which is a component of the fire triangle in this context?",
+      "options": [
+        "Grease as fuel",
+        "Clean water",
+        "Paper towels"
+      ]
+    },
+    {
+      "id": "kitchen-exhaust-L02-K03",
+      "question": "What must you not do with inaccessible grease-laden sections?",
+      "options": [
+        "Escalate them to the site contact for a decision on the day",
+        "Invent a maintenance interval or clean them without authority",
+        "Record them in the log and leave them for the next shift"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Cleaning and sanitising",
+      "url": "https://www.foodstandards.gov.au/business/food-safety/cleaning-and-sanitising",
+      "pageDate": "page last updated 30 September 2025",
+      "checked": "2026-11-03",
+      "covers": "Summarises Standard 3.2.2 for food premises; it does not cover industrial plant. Publisher: Food Standards Australia New Zealand."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: FSANZ, Cleaning and sanitising (page last updated 30 September 2025).",
+  "referencesAtEnd": "Check the current rule on this official page: FSANZ, Cleaning and sanitising (page last updated 30 September 2025).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-exhaust-L02.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory licence, competency and fire-authority requirements for commercial exhaust-system work were not sourced for this lesson.",
+    "UNCONFIRMED: this draft describes a general boundary and is not a verified legal requirement."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/hardfloor-photo-d1d55e00-15.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/healthcare-photo-15ec060c-01.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

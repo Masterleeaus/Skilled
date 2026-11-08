@@ -1,0 +1,35 @@
+{
+  "lessonId": "F03-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "F03-L01-K01",
+      "correctIndex": 2,
+      "rationale": "The procedure says to match the exact product and formulation to its current SDS, because a similar brand name can carry a different dilution."
+    },
+    {
+      "id": "F03-L01-K02",
+      "correctIndex": 2,
+      "rationale": "The field decision rule says to pause, protect the area and seek supervisor guidance when the answer is unclear. That is the only option that follows it; choosing the product with the client or guessing from the label are not the rule."
+    },
+    {
+      "id": "F03-L01-K03",
+      "correctIndex": 1,
+      "rationale": "The core procedure says to locate product identity, hazard pictograms, directions, first-aid, storage and disposal on the container."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies correct product, site-approved use, PPE and emergency information without guessing.",
+    "Explains applicable scope and site procedures",
+    "Demonstrates hazard controls and safe stop-work decisions",
+    "Records results and limitations accurately"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation record covering procedure steps 1-7"
+  ],
+  "stopWorkCriteria": [
+    "Stop work if procedure step 1 is not done: Read the product identity, hazard pictograms, directions, first-aid, storage and disposal details on the container.",
+    "Stop work if procedure step 2 is not done: Match the exact product and formulation to its current safety data sheet (SDS), and do not rely on a similar brand name or a product family.",
+    "Stop work if procedure step 3 is not done: Read the SDS sections on hazards, handling, exposure controls, first aid and spills."
+  ]
+}

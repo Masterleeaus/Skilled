@@ -1,0 +1,29 @@
+{
+  "lessonId": "biohazard-trauma-cleaning-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "biohazard-trauma-cleaning-L01-K01",
+      "correctIndex": 0,
+      "rationale": "Classification and a hold notice come first. The client's description does not establish the material present or the authority to work."
+    },
+    {
+      "id": "biohazard-trauma-cleaning-L01-K02",
+      "correctIndex": 1,
+      "rationale": "A written release from the controlling authority, with its boundaries, is needed. A manager's statement and the appearance of the site do not establish release."
+    }
+  ],
+  "practicalCriteria": [
+    "From a fictional request, the learner writes a triage record that names the classification, the reason, the missing authorities and a hold decision. Pass: all four fields are completed and checked by the supervisor.",
+    "For a fictional job, the learner identifies at least three unknowns and marks each as open, without assigning work. Pass: each unknown has an owner."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed triage record for a fictional job",
+    "Supervisor review of the hold notice"
+  ],
+  "stopWorkCriteria": [
+    "Authority to access or work is not in writing.",
+    "The classification is unknown.",
+    "A party asks for work to start before the scope is confirmed."
+  ]
+}

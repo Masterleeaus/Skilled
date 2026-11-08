@@ -1,0 +1,4868 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "scripts/audit-assessment-inventory.mjs",
+  "assessmentCount": 357,
+  "sourceJsonScanned": 432,
+  "issues": 165,
+  "issueCounts": {
+    "missing_practical_criteria": 16,
+    "unmatched_lesson_source": 141,
+    "no_knowledge_answers": 8
+  },
+  "findings": [
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C05-L01.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C05-L02.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C05-L03.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C06-L01.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C06-L02.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C06-L03.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C07-L01.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C07-L02.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C07-L03.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C09-L01.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C09-L02.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C09-L03.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C10-L01.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C10-L02.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/C10-L03.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C14-L01.assessment.json",
+      "detail": "No source identified for C14-L01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C14-L02.assessment.json",
+      "detail": "No source identified for C14-L02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C14-L03.assessment.json",
+      "detail": "No source identified for C14-L03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C14-L04.assessment.json",
+      "detail": "No source identified for C14-L04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C14-L05.assessment.json",
+      "detail": "No source identified for C14-L05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C14-L06.assessment.json",
+      "detail": "No source identified for C14-L06"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C19-L01.assessment.json",
+      "detail": "No source identified for C19-L01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C19-L02.assessment.json",
+      "detail": "No source identified for C19-L02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C19-L03.assessment.json",
+      "detail": "No source identified for C19-L03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C19-L05.assessment.json",
+      "detail": "No source identified for C19-L05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/C19-L06.assessment.json",
+      "detail": "No source identified for C19-L06"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/HR01-biohazard-trauma-cleaning.assessment.json",
+      "detail": "No source identified for HR01-biohazard-trauma-cleaning"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/HR02-crime-scene-cleaning.assessment.json",
+      "detail": "No source identified for HR02-crime-scene-cleaning"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/HR03-drug-contamination-remediation.assessment.json",
+      "detail": "No source identified for HR03-drug-contamination-remediation"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/HR04-mould-remediation.assessment.json",
+      "detail": "No source identified for HR04-mould-remediation"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/HR05-fire-smoke-restoration.assessment.json",
+      "detail": "No source identified for HR05-fire-smoke-restoration"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/HR06-flood-water-restoration.assessment.json",
+      "detail": "No source identified for HR06-flood-water-restoration"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/HR07-hoarding-squalor.assessment.json",
+      "detail": "No source identified for HR07-hoarding-squalor"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-AQU-01.assessment.json",
+      "detail": "No source identified for NEW-AQU-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-AQU-02.assessment.json",
+      "detail": "No source identified for NEW-AQU-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-AQU-03.assessment.json",
+      "detail": "No source identified for NEW-AQU-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-AQU-04.assessment.json",
+      "detail": "No source identified for NEW-AQU-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-BEA-01.assessment.json",
+      "detail": "No source identified for NEW-BEA-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-BEA-02.assessment.json",
+      "detail": "No source identified for NEW-BEA-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-BEA-03.assessment.json",
+      "detail": "No source identified for NEW-BEA-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-BEA-04.assessment.json",
+      "detail": "No source identified for NEW-BEA-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-BEA-05.assessment.json",
+      "detail": "No source identified for NEW-BEA-05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DEK-01.assessment.json",
+      "detail": "No source identified for NEW-DEK-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DEK-02.assessment.json",
+      "detail": "No source identified for NEW-DEK-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DEK-03.assessment.json",
+      "detail": "No source identified for NEW-DEK-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DEK-04.assessment.json",
+      "detail": "No source identified for NEW-DEK-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DOG-01.assessment.json",
+      "detail": "No source identified for NEW-DOG-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DOG-02.assessment.json",
+      "detail": "No source identified for NEW-DOG-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DOG-03.assessment.json",
+      "detail": "No source identified for NEW-DOG-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DOG-04.assessment.json",
+      "detail": "No source identified for NEW-DOG-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DOG-05.assessment.json",
+      "detail": "No source identified for NEW-DOG-05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-DOG-06.assessment.json",
+      "detail": "No source identified for NEW-DOG-06"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-FIT-01.assessment.json",
+      "detail": "No source identified for NEW-FIT-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-FIT-02.assessment.json",
+      "detail": "No source identified for NEW-FIT-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-FIT-03.assessment.json",
+      "detail": "No source identified for NEW-FIT-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-FIT-04.assessment.json",
+      "detail": "No source identified for NEW-FIT-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-FIT-05.assessment.json",
+      "detail": "No source identified for NEW-FIT-05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-FLP-01.assessment.json",
+      "detail": "No source identified for NEW-FLP-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-FLP-02.assessment.json",
+      "detail": "No source identified for NEW-FLP-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-FLP-03.assessment.json",
+      "detail": "No source identified for NEW-FLP-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-GAR-01.assessment.json",
+      "detail": "No source identified for NEW-GAR-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-GAR-02.assessment.json",
+      "detail": "No source identified for NEW-GAR-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-GAR-03.assessment.json",
+      "detail": "No source identified for NEW-GAR-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-GRO-01.assessment.json",
+      "detail": "No source identified for NEW-GRO-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-GRO-02.assessment.json",
+      "detail": "No source identified for NEW-GRO-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-GRO-03.assessment.json",
+      "detail": "No source identified for NEW-GRO-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-GRO-04.assessment.json",
+      "detail": "No source identified for NEW-GRO-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-GRO-05.assessment.json",
+      "detail": "No source identified for NEW-GRO-05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-HAIR-01.assessment.json",
+      "detail": "No source identified for NEW-HAIR-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-HAIR-02.assessment.json",
+      "detail": "No source identified for NEW-HAIR-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-HAIR-03.assessment.json",
+      "detail": "No source identified for NEW-HAIR-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-HAIR-04.assessment.json",
+      "detail": "No source identified for NEW-HAIR-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-HAIR-05.assessment.json",
+      "detail": "No source identified for NEW-HAIR-05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-HAIR-06.assessment.json",
+      "detail": "No source identified for NEW-HAIR-06"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-HLC-01.assessment.json",
+      "detail": "No source identified for NEW-HLC-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-IRR-01.assessment.json",
+      "detail": "No source identified for NEW-IRR-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-IRR-02.assessment.json",
+      "detail": "No source identified for NEW-IRR-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-IRR-03.assessment.json",
+      "detail": "No source identified for NEW-IRR-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-IRR-04.assessment.json",
+      "detail": "No source identified for NEW-IRR-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LAW-01.assessment.json",
+      "detail": "No source identified for NEW-LAW-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LAW-02.assessment.json",
+      "detail": "No source identified for NEW-LAW-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LAW-03.assessment.json",
+      "detail": "No source identified for NEW-LAW-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LAW-04.assessment.json",
+      "detail": "No source identified for NEW-LAW-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LCK-01.assessment.json",
+      "detail": "No source identified for NEW-LCK-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LCK-02.assessment.json",
+      "detail": "No source identified for NEW-LCK-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LCK-03.assessment.json",
+      "detail": "No source identified for NEW-LCK-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LCK-04.assessment.json",
+      "detail": "No source identified for NEW-LCK-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LSC-01.assessment.json",
+      "detail": "No source identified for NEW-LSC-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LSC-02.assessment.json",
+      "detail": "No source identified for NEW-LSC-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LSC-03.assessment.json",
+      "detail": "No source identified for NEW-LSC-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-LSC-04.assessment.json",
+      "detail": "No source identified for NEW-LSC-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-MAS-01.assessment.json",
+      "detail": "No source identified for NEW-MAS-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-MAS-02.assessment.json",
+      "detail": "No source identified for NEW-MAS-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-MAS-03.assessment.json",
+      "detail": "No source identified for NEW-MAS-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-MAS-04.assessment.json",
+      "detail": "No source identified for NEW-MAS-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-MAS-05.assessment.json",
+      "detail": "No source identified for NEW-MAS-05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-PLS-01.assessment.json",
+      "detail": "No source identified for NEW-PLS-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-PLS-02.assessment.json",
+      "detail": "No source identified for NEW-PLS-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-PLS-03.assessment.json",
+      "detail": "No source identified for NEW-PLS-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-PLS-04.assessment.json",
+      "detail": "No source identified for NEW-PLS-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-PNT-01.assessment.json",
+      "detail": "No source identified for NEW-PNT-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-PNT-02.assessment.json",
+      "detail": "No source identified for NEW-PNT-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-PNT-03.assessment.json",
+      "detail": "No source identified for NEW-PNT-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-PNT-04.assessment.json",
+      "detail": "No source identified for NEW-PNT-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-PNT-05.assessment.json",
+      "detail": "No source identified for NEW-PNT-05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-POND-01.assessment.json",
+      "detail": "No source identified for NEW-POND-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-POND-02.assessment.json",
+      "detail": "No source identified for NEW-POND-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-POND-03.assessment.json",
+      "detail": "No source identified for NEW-POND-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-REP-01.assessment.json",
+      "detail": "No source identified for NEW-REP-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-REP-02.assessment.json",
+      "detail": "No source identified for NEW-REP-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-REP-03.assessment.json",
+      "detail": "No source identified for NEW-REP-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-REP-04.assessment.json",
+      "detail": "No source identified for NEW-REP-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-SIT-01.assessment.json",
+      "detail": "No source identified for NEW-SIT-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-SIT-02.assessment.json",
+      "detail": "No source identified for NEW-SIT-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-SIT-03.assessment.json",
+      "detail": "No source identified for NEW-SIT-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-SIT-04.assessment.json",
+      "detail": "No source identified for NEW-SIT-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-SIT-05.assessment.json",
+      "detail": "No source identified for NEW-SIT-05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-TIL-01.assessment.json",
+      "detail": "No source identified for NEW-TIL-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-TIL-02.assessment.json",
+      "detail": "No source identified for NEW-TIL-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-TIL-03.assessment.json",
+      "detail": "No source identified for NEW-TIL-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-TIL-04.assessment.json",
+      "detail": "No source identified for NEW-TIL-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-TIL-05.assessment.json",
+      "detail": "No source identified for NEW-TIL-05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-TIL-06.assessment.json",
+      "detail": "No source identified for NEW-TIL-06"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-TIL-07.assessment.json",
+      "detail": "No source identified for NEW-TIL-07"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-YOG-01.assessment.json",
+      "detail": "No source identified for NEW-YOG-01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-YOG-02.assessment.json",
+      "detail": "No source identified for NEW-YOG-02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-YOG-03.assessment.json",
+      "detail": "No source identified for NEW-YOG-03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/NEW-YOG-04.assessment.json",
+      "detail": "No source identified for NEW-YOG-04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/aged-care-infection-control-L01.assessment.json",
+      "detail": "No source identified for aged-care-infection-control-L01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/car-detailing-L10.assessment.json",
+      "detail": "No source identified for car-detailing-L10"
+    },
+    {
+      "severity": "review",
+      "code": "no_knowledge_answers",
+      "file": "curriculum/assessments/construction-site-cleaning-L01.assessment.json",
+      "detail": "No answer keys"
+    },
+    {
+      "severity": "review",
+      "code": "no_knowledge_answers",
+      "file": "curriculum/assessments/construction-site-cleaning-L02.assessment.json",
+      "detail": "No answer keys"
+    },
+    {
+      "severity": "review",
+      "code": "no_knowledge_answers",
+      "file": "curriculum/assessments/construction-site-cleaning-L03.assessment.json",
+      "detail": "No answer keys"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/construction-site-cleaning-L04.assessment.json",
+      "detail": "No source identified for construction-site-cleaning-L04"
+    },
+    {
+      "severity": "review",
+      "code": "no_knowledge_answers",
+      "file": "curriculum/assessments/construction-site-cleaning-L05.assessment.json",
+      "detail": "No answer keys"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/construction-site-cleaning-L06.assessment.json",
+      "detail": "No source identified for construction-site-cleaning-L06"
+    },
+    {
+      "severity": "review",
+      "code": "no_knowledge_answers",
+      "file": "curriculum/assessments/construction-site-cleaning-L07.assessment.json",
+      "detail": "No answer keys"
+    },
+    {
+      "severity": "review",
+      "code": "no_knowledge_answers",
+      "file": "curriculum/assessments/construction-site-cleaning-L08.assessment.json",
+      "detail": "No answer keys"
+    },
+    {
+      "severity": "review",
+      "code": "no_knowledge_answers",
+      "file": "curriculum/assessments/construction-site-cleaning-L10.assessment.json",
+      "detail": "No answer keys"
+    },
+    {
+      "severity": "review",
+      "code": "no_knowledge_answers",
+      "file": "curriculum/assessments/construction-site-cleaning-L11.assessment.json",
+      "detail": "No answer keys"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/garden-cleanups-L06.assessment.json",
+      "detail": "No source identified for garden-cleanups-L06"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/handyman-work-L01.assessment.json",
+      "detail": "No source identified for handyman-work-L01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/handyman-work-L06.assessment.json",
+      "detail": "No source identified for handyman-work-L06"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/handyman-work-L07.assessment.json",
+      "detail": "No source identified for handyman-work-L07"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/handyman-work-L08.assessment.json",
+      "detail": "No source identified for handyman-work-L08"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/handyman-work-L09.assessment.json",
+      "detail": "No source identified for handyman-work-L09"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/handyman-work-L10.assessment.json",
+      "detail": "No source identified for handyman-work-L10"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/industrial-degreasing-L12.assessment.json",
+      "detail": "No source identified for industrial-degreasing-L12"
+    },
+    {
+      "severity": "review",
+      "code": "missing_practical_criteria",
+      "file": "curriculum/assessments/medical-dental-clinic-L07.assessment.json",
+      "detail": "No practical criteria"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/medical-dental-clinic-L09.assessment.json",
+      "detail": "No source identified for medical-dental-clinic-L09"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L01.assessment.json",
+      "detail": "No source identified for medical-equipment-cleaning-L01"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L04.assessment.json",
+      "detail": "No source identified for medical-equipment-cleaning-L04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L07.assessment.json",
+      "detail": "No source identified for medical-equipment-cleaning-L07"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L08.assessment.json",
+      "detail": "No source identified for medical-equipment-cleaning-L08"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L10.assessment.json",
+      "detail": "No source identified for medical-equipment-cleaning-L10"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/pool-cleaning-L02.assessment.json",
+      "detail": "No source identified for pool-cleaning-L02"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/pool-cleaning-L03.assessment.json",
+      "detail": "No source identified for pool-cleaning-L03"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/pool-cleaning-L04.assessment.json",
+      "detail": "No source identified for pool-cleaning-L04"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/pool-cleaning-L06.assessment.json",
+      "detail": "No source identified for pool-cleaning-L06"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/pool-cleaning-L07.assessment.json",
+      "detail": "No source identified for pool-cleaning-L07"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/pool-cleaning-L10.assessment.json",
+      "detail": "No source identified for pool-cleaning-L10"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/pool-cleaning-L11.assessment.json",
+      "detail": "No source identified for pool-cleaning-L11"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/property-maintenance-L05.assessment.json",
+      "detail": "No source identified for property-maintenance-L05"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/property-maintenance-L06.assessment.json",
+      "detail": "No source identified for property-maintenance-L06"
+    },
+    {
+      "severity": "review",
+      "code": "unmatched_lesson_source",
+      "file": "curriculum/assessments/warehouse-deep-cleaning-L05.assessment.json",
+      "detail": "No source identified for warehouse-deep-cleaning-L05"
+    }
+  ],
+  "assessments": [
+    {
+      "lessonId": "C01-L01",
+      "file": "curriculum/assessments/C01-L01.assessment.json",
+      "sha256": "a0f551f148983dade9f0f7ad34c0edf1311ee60b8f8af6cd769c1fdbb8c6b4a1",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C01-L01.json",
+        "curriculum/lessons/ready/C01-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C01-L02",
+      "file": "curriculum/assessments/C01-L02.assessment.json",
+      "sha256": "a61539e0380ce98ec41eb0146217812d8dbdc6055a3632285b7fb11db57c1bfc",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C01-L02.json",
+        "curriculum/lessons/ready/C01-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C01-L03",
+      "file": "curriculum/assessments/C01-L03.assessment.json",
+      "sha256": "156c88a1fbb3e15dc7c3324d0791e1f5bceba2f076dbc41bd2bb07ccfbef991c",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C01-L03.json",
+        "curriculum/lessons/ready/C01-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C02-L01",
+      "file": "curriculum/assessments/C02-L01.assessment.json",
+      "sha256": "48251c09b4bfd5cf3fa540d578063dd4fe7c925fef97035af89beb89c79a2986",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C02-L01.json",
+        "curriculum/lessons/ready/C02-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C02-L02",
+      "file": "curriculum/assessments/C02-L02.assessment.json",
+      "sha256": "05cfd40b22104d8a59ed8125ec25a1101c91cd89c280d0efc4a35e85dfc1ae5e",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C02-L02.json",
+        "curriculum/lessons/ready/C02-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C02-L03",
+      "file": "curriculum/assessments/C02-L03.assessment.json",
+      "sha256": "dfef91efff658a1e30684d54fb5ec9321da29a4c9a2b87bb827574ad68a57799",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C02-L03.json",
+        "curriculum/lessons/ready/C02-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C03-L01",
+      "file": "curriculum/assessments/C03-L01.assessment.json",
+      "sha256": "78d244ec8a3adcbd24da41d2ecb2df7edcaca521f91afe34fcf9b6967795c2d4",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C03-L01.json",
+        "curriculum/lessons/ready/C03-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C03-L03",
+      "file": "curriculum/assessments/C03-L03.assessment.json",
+      "sha256": "7543c9fd13fda1c90d8901fab67c972cea1aa1db633a25d6286a960045b76011",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C03-L03.json",
+        "curriculum/lessons/ready/C03-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C04-L01",
+      "file": "curriculum/assessments/C04-L01.assessment.json",
+      "sha256": "35b8525b5900ef3ef8a1dc2ef7e82c82dd5d8982e5b665e09384d4923db14f99",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C04-L01.json",
+        "curriculum/lessons/ready/C04-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C04-L03",
+      "file": "curriculum/assessments/C04-L03.assessment.json",
+      "sha256": "ec217df6961251aaa1fdd1ef1d952f683c6f15f9b3d7f3b0b61c5737aa717038",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C04-L03.json",
+        "curriculum/lessons/ready/C04-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C05-L01",
+      "file": "curriculum/assessments/C05-L01.assessment.json",
+      "sha256": "ae3601946c6613dbf982a921996d02ed819c3505fc69fa531f391d42806b0604",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C05-L01.json",
+        "curriculum/lessons/ready/C05-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C05-L02",
+      "file": "curriculum/assessments/C05-L02.assessment.json",
+      "sha256": "802a101388b6555a8d7e288c6c20930928f7f8c9360bf2809a943081f9d06143",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C05-L02.json",
+        "curriculum/lessons/ready/C05-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C05-L03",
+      "file": "curriculum/assessments/C05-L03.assessment.json",
+      "sha256": "ca4864638e2477e19806e4f31f419fee17a269cf709bebed2b34bcaafa6624df",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C05-L03.json",
+        "curriculum/lessons/ready/C05-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C06-L01",
+      "file": "curriculum/assessments/C06-L01.assessment.json",
+      "sha256": "ea44c07f5bee1e56a79c2a96f26fa796319cbc07cafdc46aac55adaa6d7e7c52",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C06-L01.json",
+        "curriculum/lessons/ready/C06-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C06-L02",
+      "file": "curriculum/assessments/C06-L02.assessment.json",
+      "sha256": "308c97f03020260339e21df4aee386ab24a1659d6e6b9eb0162054f58bd23fbc",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C06-L02.json",
+        "curriculum/lessons/ready/C06-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C06-L03",
+      "file": "curriculum/assessments/C06-L03.assessment.json",
+      "sha256": "9c33bb409e6ea5e54ab1db881bf817041ce621549043eea2201bff736e7f5e40",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C06-L03.json",
+        "curriculum/lessons/ready/C06-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C07-L01",
+      "file": "curriculum/assessments/C07-L01.assessment.json",
+      "sha256": "b3ee4644cf751fd1626681963f53ad29d4399583c526de18777136a7040e24bb",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C07-L01.json",
+        "curriculum/lessons/ready/C07-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C07-L02",
+      "file": "curriculum/assessments/C07-L02.assessment.json",
+      "sha256": "61256f5641d704e1199707463f25227a08eff4ed48bd546b608eb915276f22bb",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C07-L02.json",
+        "curriculum/lessons/ready/C07-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C07-L03",
+      "file": "curriculum/assessments/C07-L03.assessment.json",
+      "sha256": "5920f0148eb28b1929b80c2b791cd70e246d449e257f92c978a2f3f03b543715",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C07-L03.json",
+        "curriculum/lessons/ready/C07-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C08-L01",
+      "file": "curriculum/assessments/C08-L01.assessment.json",
+      "sha256": "a2ea7b0b49ccf5578a6e6217db77ff51f9f321841eb87d827f3c134127774a32",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C08-L01.json",
+        "curriculum/lessons/ready/C08-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C08-L02",
+      "file": "curriculum/assessments/C08-L02.assessment.json",
+      "sha256": "fb98c15ab0f7678596269e069d6037650be2a27031e665c291f8e15d76596dc8",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C08-L02.json",
+        "curriculum/lessons/ready/C08-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C08-L03",
+      "file": "curriculum/assessments/C08-L03.assessment.json",
+      "sha256": "121ad327db6070118ae715231e3a2a954e340ad3bfba2d69f6e1e933526ed907",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C08-L03.json",
+        "curriculum/lessons/ready/C08-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C09-L01",
+      "file": "curriculum/assessments/C09-L01.assessment.json",
+      "sha256": "383ab4ba779a2015d192c2fa4b3fc7a0102106818dccae00b516d9ceba75f8da",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C09-L01.json",
+        "curriculum/lessons/ready/C09-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C09-L02",
+      "file": "curriculum/assessments/C09-L02.assessment.json",
+      "sha256": "23ca4d8d87543849b3612b8ccdafeace7db1d83df4d5e5f0a051caab77ce53e7",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C09-L02.json",
+        "curriculum/lessons/ready/C09-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C09-L03",
+      "file": "curriculum/assessments/C09-L03.assessment.json",
+      "sha256": "18048bbb5515a7db0c6bc1acf9286f9a94d413f2f9aedeb961bb212306a5a4b4",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C09-L03.json",
+        "curriculum/lessons/ready/C09-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C10-L01",
+      "file": "curriculum/assessments/C10-L01.assessment.json",
+      "sha256": "79d1185a46e2d816214a497709ee559817ce42a06c7e78c184d171635ac5ccfa",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C10-L01.json",
+        "curriculum/lessons/ready/C10-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C10-L02",
+      "file": "curriculum/assessments/C10-L02.assessment.json",
+      "sha256": "d28077694b661687b7bfe2894469ebf9700ac1429659e9fa5982e6c6013300df",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C10-L02.json",
+        "curriculum/lessons/ready/C10-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C10-L03",
+      "file": "curriculum/assessments/C10-L03.assessment.json",
+      "sha256": "fc45419eaa4a909ba923b5174646ac1bf7341748882a4e77a8b5d780156366e9",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/C10-L03.json",
+        "curriculum/lessons/ready/C10-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C14-L01",
+      "file": "curriculum/assessments/C14-L01.assessment.json",
+      "sha256": "a0f52fae14510e1b1f992d6a69bfcb474f6826213ca61f09ea19288a70c77aa7",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C14-L02",
+      "file": "curriculum/assessments/C14-L02.assessment.json",
+      "sha256": "8a583d7aa529c902ccf6b1d4a370c11a770a3ab1e988dd289e79ed4af02f7958",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C14-L03",
+      "file": "curriculum/assessments/C14-L03.assessment.json",
+      "sha256": "d96f3f20c9930c12d91c2d5d6b2e32f54f5b6d9c0603d4f841a9e88381f95caa",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C14-L04",
+      "file": "curriculum/assessments/C14-L04.assessment.json",
+      "sha256": "59ccd53a37f94ba8f412bd36e760af813c7c9eb85881bff388e93cb9d96e5dfe",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C14-L05",
+      "file": "curriculum/assessments/C14-L05.assessment.json",
+      "sha256": "18da4751419cc3c0c1b73d47850f4ece3ca90023de351bcd30e8bac57e2a2111",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C14-L06",
+      "file": "curriculum/assessments/C14-L06.assessment.json",
+      "sha256": "9d7844bb068187b1930075151b2b415056eb5f1b139b9f58f4ab55b93c84d309",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C19-L01",
+      "file": "curriculum/assessments/C19-L01.assessment.json",
+      "sha256": "1de7d9364dafb771e47ab403e2f35f4b05a5c5b1834d6eedf3045a4821b769a7",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C19-L02",
+      "file": "curriculum/assessments/C19-L02.assessment.json",
+      "sha256": "bff8849736b6df11d3e0088c22429147ad630b94b2b540fcf6ed76d43f87a528",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C19-L03",
+      "file": "curriculum/assessments/C19-L03.assessment.json",
+      "sha256": "0bb65b5aa523af936d4a705ff1b310f03b7d91dfc41904e80658ffbe1a8b2e6f",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C19-L05",
+      "file": "curriculum/assessments/C19-L05.assessment.json",
+      "sha256": "1df174ee2efeb023754b848be6ee7b405caac465876eb9ccddc04548494791a0",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "C19-L06",
+      "file": "curriculum/assessments/C19-L06.assessment.json",
+      "sha256": "80d9d29f63cef90b14500fab2698ec9194e2b88b20b0bd360fe66ccfe94facb9",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F01-L01",
+      "file": "curriculum/assessments/F01-L01.assessment.json",
+      "sha256": "5d7cbd286f91b814b8d4a692c1e9340b1cc2afc4cf82da61bafea2cd58e478d8",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F01-L01.json",
+        "curriculum/lessons/ready/F01-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F01-L02",
+      "file": "curriculum/assessments/F01-L02.assessment.json",
+      "sha256": "75c4f6dbefa835bb311557a95a628361912155d81d2fc0d21d00290541137480",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F01-L02.json",
+        "curriculum/lessons/ready/F01-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F01-L03",
+      "file": "curriculum/assessments/F01-L03.assessment.json",
+      "sha256": "00b285a242c58adb2cb6f40a07f222edd62fe2cfcdf1a5c5c10ede7790abf57b",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F01-L03.json",
+        "curriculum/lessons/ready/F01-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F01-L04",
+      "file": "curriculum/assessments/F01-L04.assessment.json",
+      "sha256": "d6d81761e4a9450c191c9202ff31a8501effff5266c288e27488d288cc1ed27e",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F01-L04.json",
+        "curriculum/lessons/ready/F01-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F02-L01",
+      "file": "curriculum/assessments/F02-L01.assessment.json",
+      "sha256": "8b4b9520333bebc1c3107720fc3dc138646032f4421b5595d2a248013f93146b",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F02-L01.json",
+        "curriculum/lessons/ready/F02-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F02-L02",
+      "file": "curriculum/assessments/F02-L02.assessment.json",
+      "sha256": "33157464d9525b4b33dbdb2166244028370b85e6fec46d73d033a4a73b573dd3",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F02-L02.json",
+        "curriculum/lessons/ready/F02-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F02-L03",
+      "file": "curriculum/assessments/F02-L03.assessment.json",
+      "sha256": "8c0df52746cce7cbee94d7492e5ce366dfe1cb81d97a7736e6ccc0ec70b77c0d",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F02-L03.json",
+        "curriculum/lessons/ready/F02-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F02-L04",
+      "file": "curriculum/assessments/F02-L04.assessment.json",
+      "sha256": "c8dad702efcba731c96fa8f5a4b8fceaa1255560f88b0f629bf893a1b496b332",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F02-L04.json",
+        "curriculum/lessons/ready/F02-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F03-L01",
+      "file": "curriculum/assessments/F03-L01.assessment.json",
+      "sha256": "01bd2d3866d1ae6d1298f20a38c8276f235a55a11db2e8433de6a0bbb090f13a",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F03-L01.json",
+        "curriculum/lessons/ready/F03-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F03-L02",
+      "file": "curriculum/assessments/F03-L02.assessment.json",
+      "sha256": "a44b92ba0231fa8699e7da9c92b23c6fb137144077b44ae2dbe72fdfab65cf15",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F03-L02.json",
+        "curriculum/lessons/ready/F03-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F03-L03",
+      "file": "curriculum/assessments/F03-L03.assessment.json",
+      "sha256": "03dca822287475221a919c81f701b7e74cc9310d13271fa04d7a2708bdb92f05",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F03-L03.json",
+        "curriculum/lessons/ready/F03-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F03-L04",
+      "file": "curriculum/assessments/F03-L04.assessment.json",
+      "sha256": "f6df108fad8a9a87aaae9353ada8dba251fadff19b5a13b2a54b43ef9780df90",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F03-L04.json",
+        "curriculum/lessons/ready/F03-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F04-L01",
+      "file": "curriculum/assessments/F04-L01.assessment.json",
+      "sha256": "909248a5d33f90613753b3972e0026b37bf780a1a5c185d1e60b36faba3a45b6",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F04-L01.json",
+        "curriculum/lessons/ready/F04-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F04-L02",
+      "file": "curriculum/assessments/F04-L02.assessment.json",
+      "sha256": "c4bc24f5d0174bfeb5e0c39ce52921679ef88adb5ee398173cef4955a28233ea",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F04-L02.json",
+        "curriculum/lessons/ready/F04-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F04-L03",
+      "file": "curriculum/assessments/F04-L03.assessment.json",
+      "sha256": "487d368e91365ae520adc2a4e459f4008d2d0cd965f0d902e20b4915124d02a9",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F04-L03.json",
+        "curriculum/lessons/ready/F04-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F04-L04",
+      "file": "curriculum/assessments/F04-L04.assessment.json",
+      "sha256": "e767de82fd5136d070cfdb3955487d8aea70b26f2117c5406c9d4907e7871321",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F04-L04.json",
+        "curriculum/lessons/ready/F04-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F05-L01",
+      "file": "curriculum/assessments/F05-L01.assessment.json",
+      "sha256": "6a48cee7f60d4a8361f54b56ff2ae5ead69f47e8f6772e00549fa2967876d982",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F05-L01.json",
+        "curriculum/lessons/ready/F05-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F05-L02",
+      "file": "curriculum/assessments/F05-L02.assessment.json",
+      "sha256": "74751d3b8a7114fdd887ac8b8fed253fb469dd56924b6243bfc97ba726cdc97c",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F05-L02.json",
+        "curriculum/lessons/ready/F05-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F05-L03",
+      "file": "curriculum/assessments/F05-L03.assessment.json",
+      "sha256": "0279fc3e0f87b45c9d5f6953149d2c04a779d1c31e561e19504cf6da39577b3f",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F05-L03.json",
+        "curriculum/lessons/ready/F05-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F06-L01",
+      "file": "curriculum/assessments/F06-L01.assessment.json",
+      "sha256": "3dfb6cd463460a1e2cf03148daded05091df90d9b76be034fa38d1f1a4e8cfc6",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F06-L01.json",
+        "curriculum/lessons/ready/F06-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F06-L02",
+      "file": "curriculum/assessments/F06-L02.assessment.json",
+      "sha256": "d38a1eae78ba4774818269394f4827b282e34fcb56cc832948d117b6e8253fc5",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F06-L02.json",
+        "curriculum/lessons/ready/F06-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F06-L03",
+      "file": "curriculum/assessments/F06-L03.assessment.json",
+      "sha256": "68709f6115691f993667f5f609382d11aa2b483fc74fa91136e14d3de959d079",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F06-L03.json",
+        "curriculum/lessons/ready/F06-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F06-L04",
+      "file": "curriculum/assessments/F06-L04.assessment.json",
+      "sha256": "7d62c8996d425c8e0e307093eb2501aded2b4ae86d30076c13657d4893b0a797",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F06-L04.json",
+        "curriculum/lessons/ready/F06-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F06-L05",
+      "file": "curriculum/assessments/F06-L05.assessment.json",
+      "sha256": "16aaf1958cf715b2da563bce6e68d91fe71a16f2ba1555b5585e07d321146051",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F06-L05.json",
+        "curriculum/lessons/ready/F06-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F07-L01",
+      "file": "curriculum/assessments/F07-L01.assessment.json",
+      "sha256": "7785ba46b165f64d825c57de101e98c1b2e6433be5acd1dbfde87948fba6371e",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F07-L01.json",
+        "curriculum/lessons/ready/F07-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F07-L03",
+      "file": "curriculum/assessments/F07-L03.assessment.json",
+      "sha256": "eeb2247b1efe2d88d08bf709bf16cc2451720775457d8d3c0fe8a10291bc4d3f",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F07-L03.json",
+        "curriculum/lessons/ready/F07-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F07-L05",
+      "file": "curriculum/assessments/F07-L05.assessment.json",
+      "sha256": "3429de52f15b5e5843a63bc089133c23a93a9acdb5730a0959bcc31008d167b1",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F07-L05.json",
+        "curriculum/lessons/ready/F07-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F08-L01",
+      "file": "curriculum/assessments/F08-L01.assessment.json",
+      "sha256": "0caee57c47be490004714b5ed38d31e3ea8d94f5e4a59e166fe3dddc340629ae",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F08-L01.json",
+        "curriculum/lessons/ready/F08-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F08-L02",
+      "file": "curriculum/assessments/F08-L02.assessment.json",
+      "sha256": "24784d4a5a051d145a077d048dac1521478a1537fb2e65d9742e568252d987f0",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F08-L02.json",
+        "curriculum/lessons/ready/F08-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F08-L03",
+      "file": "curriculum/assessments/F08-L03.assessment.json",
+      "sha256": "757218f823909a5ba527ec6f4e0db5638e42f9ac5cf16a5dfabaa69f2eaf72cf",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F08-L03.json",
+        "curriculum/lessons/ready/F08-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F08-L04",
+      "file": "curriculum/assessments/F08-L04.assessment.json",
+      "sha256": "1f62de667d5a159cd94b5e4a3348e4b35d9ba23fcee438b34d3bc5062995f561",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F08-L04.json",
+        "curriculum/lessons/ready/F08-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F08-L05",
+      "file": "curriculum/assessments/F08-L05.assessment.json",
+      "sha256": "b603eab3b66b3d6b08162011fe92d0e461705c13724ae833214de09edde085c0",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F08-L05.json",
+        "curriculum/lessons/ready/F08-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F09-L01",
+      "file": "curriculum/assessments/F09-L01.assessment.json",
+      "sha256": "36b5c0a8e13569c3d6c0e124cd7e150312ca418a7f1c3ec4170c274b042f7558",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F09-L01.json",
+        "curriculum/lessons/ready/F09-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F09-L02",
+      "file": "curriculum/assessments/F09-L02.assessment.json",
+      "sha256": "621fb266b04d5d1aed7ed4d2527c3aa9ed3206d4ab585f9f5619560f9cf30850",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F09-L02.json",
+        "curriculum/lessons/ready/F09-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F09-L03",
+      "file": "curriculum/assessments/F09-L03.assessment.json",
+      "sha256": "49044e669af79afab450bd32384f1024a1385bf82f9f5680e04153635acf6173",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F09-L03.json",
+        "curriculum/lessons/ready/F09-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F09-L04",
+      "file": "curriculum/assessments/F09-L04.assessment.json",
+      "sha256": "6ab3f194c9a27a6d03374e5ae85fc1410dfb764760890462ee48dcea5a7e036d",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F09-L04.json",
+        "curriculum/lessons/ready/F09-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F09-L05",
+      "file": "curriculum/assessments/F09-L05.assessment.json",
+      "sha256": "d7fe87e72b58fb409089fbfc5cd2f5e7acf13b0852d31f99546a3fb07979b926",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F09-L05.json",
+        "curriculum/lessons/ready/F09-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F10-L01",
+      "file": "curriculum/assessments/F10-L01.assessment.json",
+      "sha256": "4fadca075e780bdecb33f97deca1f4c33e1f7ac1dd5bd9bac8d3e5ee49a323a1",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F10-L01.json",
+        "curriculum/lessons/ready/F10-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F10-L02",
+      "file": "curriculum/assessments/F10-L02.assessment.json",
+      "sha256": "b8a0a43dfd6a705ee913ccbbeb24957eb09729d91eb3776b6cc84d53ccb97a0e",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F10-L02.json",
+        "curriculum/lessons/ready/F10-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F10-L03",
+      "file": "curriculum/assessments/F10-L03.assessment.json",
+      "sha256": "cb57a629d042d54447badc53b5e8e219666c6638821e7a0ddcbfc1d9f2f0883c",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F10-L03.json",
+        "curriculum/lessons/ready/F10-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F10-L04",
+      "file": "curriculum/assessments/F10-L04.assessment.json",
+      "sha256": "dbdb08076266b7f3a8c64703ec0cd2f5d5e7e3599a5b6004766d8957d28f578b",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F10-L04.json",
+        "curriculum/lessons/ready/F10-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F10-L05",
+      "file": "curriculum/assessments/F10-L05.assessment.json",
+      "sha256": "202c477cffe20813eb53ce6e7a41875efdb619a30dda70bd0af7daf524b4db71",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F10-L05.json",
+        "curriculum/lessons/ready/F10-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F14-L01",
+      "file": "curriculum/assessments/F14-L01.assessment.json",
+      "sha256": "b16b682834fccb7316b48a6829e46b08a4577dcfd3e71e6d8b398474a99b64f0",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F14-L01.json",
+        "curriculum/lessons/ready/F14-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F14-L02",
+      "file": "curriculum/assessments/F14-L02.assessment.json",
+      "sha256": "f12da2c7a982b1a21d88a3dd36ba06fabfdd588ffe161428eda97ef6bfe3bfff",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F14-L02.json",
+        "curriculum/lessons/ready/F14-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F14-L04",
+      "file": "curriculum/assessments/F14-L04.assessment.json",
+      "sha256": "44f3e70faa99c3639809287c13581ad98c2853430c7585a99f495c65fa3b2c5d",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F14-L04.json",
+        "curriculum/lessons/ready/F14-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F14-L05",
+      "file": "curriculum/assessments/F14-L05.assessment.json",
+      "sha256": "99e9b09f7c7d400b585f307d4af72b31b3145bba737a348d78600fc2133253e5",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F14-L05.json",
+        "curriculum/lessons/ready/F14-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F15-L01",
+      "file": "curriculum/assessments/F15-L01.assessment.json",
+      "sha256": "029925bff593cabe0fe87944ea2fe637a5f50e1812719f6a631b2ef95c1d8b92",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F15-L01.json",
+        "curriculum/lessons/ready/F15-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F15-L02",
+      "file": "curriculum/assessments/F15-L02.assessment.json",
+      "sha256": "98b85a842f0a8fbc89d9a3e182c058de8492b3e66bbbc4b5e6dcff787f6d8120",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F15-L02.json",
+        "curriculum/lessons/ready/F15-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F15-L03",
+      "file": "curriculum/assessments/F15-L03.assessment.json",
+      "sha256": "e36ebe428eb7452f36f23f1a33f462b6426ab385fe7fccecff81825ac477c732",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F15-L03.json",
+        "curriculum/lessons/ready/F15-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F15-L04",
+      "file": "curriculum/assessments/F15-L04.assessment.json",
+      "sha256": "0197fe5afc55f9f26c9cb7c3808fe2efbfc197fd6af3e1ca20777a3c72644c6d",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F15-L04.json",
+        "curriculum/lessons/ready/F15-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F15-L05",
+      "file": "curriculum/assessments/F15-L05.assessment.json",
+      "sha256": "098e1f06ce33ce58d036e3017057cd73215a5cfbf69039297432eafc4c22e09b",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F15-L05.json",
+        "curriculum/lessons/ready/F15-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F15-L06",
+      "file": "curriculum/assessments/F15-L06.assessment.json",
+      "sha256": "8fd33112b60537940ac909c5582c273ac5a995ebda406d296890bb8b96b92fc0",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F15-L06.json",
+        "curriculum/lessons/ready/F15-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F16-L01",
+      "file": "curriculum/assessments/F16-L01.assessment.json",
+      "sha256": "e90fbace23c51c7a534995fc306a1a07d56b3ec912f6f46b910785c2508ac744",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F16-L01.json",
+        "curriculum/lessons/ready/F16-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F16-L03",
+      "file": "curriculum/assessments/F16-L03.assessment.json",
+      "sha256": "fc7bc9f49d262edc68a4b5a5355f216ede1b9ea294082fda2b45cdbe2aadf620",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F16-L03.json",
+        "curriculum/lessons/ready/F16-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F17-L01",
+      "file": "curriculum/assessments/F17-L01.assessment.json",
+      "sha256": "121b92a63f81791ebaca14e1a37c9abae48bad4b954287885ff8293e27f3f809",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F17-L01.json",
+        "curriculum/lessons/ready/F17-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F17-L02",
+      "file": "curriculum/assessments/F17-L02.assessment.json",
+      "sha256": "2b922d2b87aedd6e33e62a44c720cc94464d29a0d7cba4c33b77092309fc3407",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F17-L02.json",
+        "curriculum/lessons/ready/F17-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F17-L03",
+      "file": "curriculum/assessments/F17-L03.assessment.json",
+      "sha256": "a09f36ce23b01efdba143bff5811ddf4f640ffcf135df708d15fa50a08339a4f",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F17-L03.json",
+        "curriculum/lessons/ready/F17-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F17-L04",
+      "file": "curriculum/assessments/F17-L04.assessment.json",
+      "sha256": "d74fe15783afd113a0424e41878a3f68ba15a3c18d92a3f17d4071e59fc71df9",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F17-L04.json",
+        "curriculum/lessons/ready/F17-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F17-L05",
+      "file": "curriculum/assessments/F17-L05.assessment.json",
+      "sha256": "beb6a796da0b6ec671063e95c8dd18eb57ddd0c078ae520e2310086764912285",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F17-L05.json",
+        "curriculum/lessons/ready/F17-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F19-L01",
+      "file": "curriculum/assessments/F19-L01.assessment.json",
+      "sha256": "7d7eeb94fe96cf081007cd20959ea0944d6ee1ba896f1eba90ed6eee6c130a56",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F19-L01.json",
+        "curriculum/lessons/ready/F19-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F19-L05",
+      "file": "curriculum/assessments/F19-L05.assessment.json",
+      "sha256": "4bc1b9581187070424ca4a1e28298a957ccb9ea91635aad0cde783ce5e16c1f6",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F19-L05.json",
+        "curriculum/lessons/ready/F19-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "F19-L06",
+      "file": "curriculum/assessments/F19-L06.assessment.json",
+      "sha256": "4711e300de6dd1096c9afe8d82a68b4b43daf84de5a565718ee3fbd9a7dd0e6a",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/F19-L06.json",
+        "curriculum/lessons/ready/F19-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "HR01-biohazard-trauma-cleaning",
+      "file": "curriculum/assessments/HR01-biohazard-trauma-cleaning.assessment.json",
+      "sha256": "f6527cd3d3813a7edadb9627d771e0c1780fd2d8c5d073ec5859222b89ad2e42",
+      "knowledgeAnswerCount": 12,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "HR02-crime-scene-cleaning",
+      "file": "curriculum/assessments/HR02-crime-scene-cleaning.assessment.json",
+      "sha256": "3b317ed196f1aa5f9584cd4385fe00c7504528339f7a6c17925b2ef9e9b02030",
+      "knowledgeAnswerCount": 12,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "HR03-drug-contamination-remediation",
+      "file": "curriculum/assessments/HR03-drug-contamination-remediation.assessment.json",
+      "sha256": "a21f8a3fb18cfe70de561896d2821aaa63b90f73667e1f4eff7d8e2f5f5fdfcd",
+      "knowledgeAnswerCount": 12,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "HR04-mould-remediation",
+      "file": "curriculum/assessments/HR04-mould-remediation.assessment.json",
+      "sha256": "cd5b357d1393c6faced0bae774bc59f6edb62ccecc94b5a50567386d16d1b942",
+      "knowledgeAnswerCount": 12,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "HR05-fire-smoke-restoration",
+      "file": "curriculum/assessments/HR05-fire-smoke-restoration.assessment.json",
+      "sha256": "00dde33009ad9c7d506d992e70ebf184f932f8fe7b6f9148d2447b4fb694e64b",
+      "knowledgeAnswerCount": 12,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "HR06-flood-water-restoration",
+      "file": "curriculum/assessments/HR06-flood-water-restoration.assessment.json",
+      "sha256": "5ed971be17c78f779e72de8ee4392ec9df201b270907fd3a5e67b43273c2d393",
+      "knowledgeAnswerCount": 12,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "HR07-hoarding-squalor",
+      "file": "curriculum/assessments/HR07-hoarding-squalor.assessment.json",
+      "sha256": "0c10298a950f4c2ab10cf54ca994e01cd911199d0c328719e3d79570c684e4a2",
+      "knowledgeAnswerCount": 12,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-AQU-01",
+      "file": "curriculum/assessments/NEW-AQU-01.assessment.json",
+      "sha256": "17f611d16f03483a38876775f8ee35696adb160a2a66227e445aa3919daa2433",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-AQU-02",
+      "file": "curriculum/assessments/NEW-AQU-02.assessment.json",
+      "sha256": "5dcac929d62ba92f36f2f9fbc2479716b24c6615b656f7843f704fede5fb2812",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-AQU-03",
+      "file": "curriculum/assessments/NEW-AQU-03.assessment.json",
+      "sha256": "153c83887d35a3f438d5155edb4712c818897a68e3f3dcd70c52042be42283a2",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-AQU-04",
+      "file": "curriculum/assessments/NEW-AQU-04.assessment.json",
+      "sha256": "925cec502ebd5fe908d4ce72c1bceb281966f1451f507e01294a441a48ffc00f",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-BEA-01",
+      "file": "curriculum/assessments/NEW-BEA-01.assessment.json",
+      "sha256": "34cb3395c131fc9584a5c83db0235a1e3466e9606a1c678dbaac77ea72b07f17",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-BEA-02",
+      "file": "curriculum/assessments/NEW-BEA-02.assessment.json",
+      "sha256": "0bcc44bac8784619f4a7418bceb335a719b9ce938b1459f9905511cd4c269a39",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-BEA-03",
+      "file": "curriculum/assessments/NEW-BEA-03.assessment.json",
+      "sha256": "c39dc0a2d89f4512e3d61c591bc826baadeb4f9222d154573391d8aa85193405",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-BEA-04",
+      "file": "curriculum/assessments/NEW-BEA-04.assessment.json",
+      "sha256": "b14c953662bdc41158344dd453960f043054f525a640380a82bd08428e7466ae",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-BEA-05",
+      "file": "curriculum/assessments/NEW-BEA-05.assessment.json",
+      "sha256": "403e588df5654622095f6c64549a50888ccc5a2402dde4907460d9189a6fb067",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DEK-01",
+      "file": "curriculum/assessments/NEW-DEK-01.assessment.json",
+      "sha256": "9bb58c3c03da26d1b10b704a9c4e9f984b8263b8ec800b1bd73455fafd9e20aa",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DEK-02",
+      "file": "curriculum/assessments/NEW-DEK-02.assessment.json",
+      "sha256": "b90819e12b94671b9628fc62f8a325f91d16e31ac3d798ea57b9d272f81b0218",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DEK-03",
+      "file": "curriculum/assessments/NEW-DEK-03.assessment.json",
+      "sha256": "2811f7eebd86365c76f31fb31cd3fa3594c9f863f2b9f9ab21434f015c143ce1",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DEK-04",
+      "file": "curriculum/assessments/NEW-DEK-04.assessment.json",
+      "sha256": "e10cfa0cde4476c595cdbf13ef681dca088391b6eb4b9464e93bf02dd8b4d0ab",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DOG-01",
+      "file": "curriculum/assessments/NEW-DOG-01.assessment.json",
+      "sha256": "f5d2ae99fcadb3f0567ba506195c3caec92be3878f75f097222ed8b06f26f8a6",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DOG-02",
+      "file": "curriculum/assessments/NEW-DOG-02.assessment.json",
+      "sha256": "febaffc0e93bc9d01114bbdb18341921221dd737f8b4e5baaada0e2180c14552",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DOG-03",
+      "file": "curriculum/assessments/NEW-DOG-03.assessment.json",
+      "sha256": "94aa689bc88670e7e315ea2b08dc5651a59fb647c8f32958c0edc67bf3d8de5e",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DOG-04",
+      "file": "curriculum/assessments/NEW-DOG-04.assessment.json",
+      "sha256": "3bff01a9afa3522857481159c4d41eca0205707165bf3f0b41d02e2e32e0ced5",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DOG-05",
+      "file": "curriculum/assessments/NEW-DOG-05.assessment.json",
+      "sha256": "a39381af057c7923a69b77cf5dd84e2935bf3686b8694a0e91bdd857c91ac5fc",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-DOG-06",
+      "file": "curriculum/assessments/NEW-DOG-06.assessment.json",
+      "sha256": "bc56f0485c2b1a8a7a4990d6d01ed989035ac15cef8d784eccc1f118f00c06f7",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-FIT-01",
+      "file": "curriculum/assessments/NEW-FIT-01.assessment.json",
+      "sha256": "b31f750108f0266528ca4dd5f277f43bf13e08161ca822d756a38bce95868689",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-FIT-02",
+      "file": "curriculum/assessments/NEW-FIT-02.assessment.json",
+      "sha256": "af6b8029fd768b2fc73bc2a37ad1bffac37bb689491b2d3ebf0e8f95cd190ebf",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-FIT-03",
+      "file": "curriculum/assessments/NEW-FIT-03.assessment.json",
+      "sha256": "b730a239f6ca144303c52b78b6984e1b4878dc557cca17e77b37ecab0c5a2813",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-FIT-04",
+      "file": "curriculum/assessments/NEW-FIT-04.assessment.json",
+      "sha256": "18b633165137d441e26eaa09b117845a0f8ebf1ad5787b4271576e9016e703d8",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-FIT-05",
+      "file": "curriculum/assessments/NEW-FIT-05.assessment.json",
+      "sha256": "c12085866ae02bb8c7d39872320106b65205da180ec34622d7707dc14c780e94",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-FLP-01",
+      "file": "curriculum/assessments/NEW-FLP-01.assessment.json",
+      "sha256": "eff0cc5d3435dff0e94de14e36b9a309c55aec36c69e8ebaace5c993df1469fd",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-FLP-02",
+      "file": "curriculum/assessments/NEW-FLP-02.assessment.json",
+      "sha256": "97e0087eea3d70f26833bf284f271c5391f67ecafa506779e35bf034206c44f0",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-FLP-03",
+      "file": "curriculum/assessments/NEW-FLP-03.assessment.json",
+      "sha256": "c2082d35ac5cf0f14eb2e29c269759b952b26bcc4a1fb4960088e91c1f59748c",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-GAR-01",
+      "file": "curriculum/assessments/NEW-GAR-01.assessment.json",
+      "sha256": "af9104850b38b6505d5579aa23eb25fb831ba0f7d4e2a89b9cf32466c1d98395",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-GAR-02",
+      "file": "curriculum/assessments/NEW-GAR-02.assessment.json",
+      "sha256": "b4583c99ccbd3e9b6c7c97c16f5b9e5e89fe11fbcca1f11dfadeb1a234ffaa97",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-GAR-03",
+      "file": "curriculum/assessments/NEW-GAR-03.assessment.json",
+      "sha256": "b86f97bef701b7c28be51d48a61d94279126e7093d2b6da4f294ff077600a9a6",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-GRO-01",
+      "file": "curriculum/assessments/NEW-GRO-01.assessment.json",
+      "sha256": "c69b5ef2ea247244acce8c96e329364b92a5732931f525d92ca81d53860ba2fe",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-GRO-02",
+      "file": "curriculum/assessments/NEW-GRO-02.assessment.json",
+      "sha256": "7bc58743ba452d618c4c0b50a6603a0ed50ab0dbed495785f423ce4e977926d2",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-GRO-03",
+      "file": "curriculum/assessments/NEW-GRO-03.assessment.json",
+      "sha256": "d169af0f24959ded04730edc73b57955ac4d01109f6be3d347ba36a693eed059",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-GRO-04",
+      "file": "curriculum/assessments/NEW-GRO-04.assessment.json",
+      "sha256": "1a01381e29d93432b45c5a6bc6998fdac6c9e11bf7ffea1d418ba027a527f1fc",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-GRO-05",
+      "file": "curriculum/assessments/NEW-GRO-05.assessment.json",
+      "sha256": "852890efe67f8d691135dc4daeff7226dca4d6dfc946799cd066781e11a236d1",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-HAIR-01",
+      "file": "curriculum/assessments/NEW-HAIR-01.assessment.json",
+      "sha256": "443cec9870190a01d0cadc4d0296c97663c4db482c98222d22f797d514b1e85d",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-HAIR-02",
+      "file": "curriculum/assessments/NEW-HAIR-02.assessment.json",
+      "sha256": "c91dadad3f208f5fea229330e9b45934f7af80ae0e497e09ad878812654a2788",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-HAIR-03",
+      "file": "curriculum/assessments/NEW-HAIR-03.assessment.json",
+      "sha256": "8fc3cc02815e4126963bfb38ba6d099de9be0b38178f2df1ce78b133964fa654",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-HAIR-04",
+      "file": "curriculum/assessments/NEW-HAIR-04.assessment.json",
+      "sha256": "5f60ca5275318e190c4184ebd3c1f302da3e3e4d51c1ad41a022bd2ebc1a4630",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-HAIR-05",
+      "file": "curriculum/assessments/NEW-HAIR-05.assessment.json",
+      "sha256": "ed50a4195e9d09764e88e7ad0baa349463e8ad9adee11dc95e901544f904cbb5",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-HAIR-06",
+      "file": "curriculum/assessments/NEW-HAIR-06.assessment.json",
+      "sha256": "29085eb3f9e41e2f8f897223866ed7e1ba1e854b5ad2c7b172cea93fcd8f918f",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-HLC-01",
+      "file": "curriculum/assessments/NEW-HLC-01.assessment.json",
+      "sha256": "69d10a5750c5d1e8c602349e49b914d6ee9922536577efd6353b47a9f6cd493a",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-IRR-01",
+      "file": "curriculum/assessments/NEW-IRR-01.assessment.json",
+      "sha256": "05fc94a9f16b531f3d6a2453926164b784164f95931a379f551477005953d375",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-IRR-02",
+      "file": "curriculum/assessments/NEW-IRR-02.assessment.json",
+      "sha256": "596336f22aafe37049f9fbac6066f59ef8ee73b21d680f1532a1417bbde8ddb7",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-IRR-03",
+      "file": "curriculum/assessments/NEW-IRR-03.assessment.json",
+      "sha256": "38f32804897ce8b1b9535473e4886e5b301fdb46e0cb788b57eff473a5cd1a43",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-IRR-04",
+      "file": "curriculum/assessments/NEW-IRR-04.assessment.json",
+      "sha256": "dbd3339f5d965c5e35418dd65868387e3f7774bb0a0e71314cf8d80f252b3c83",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LAW-01",
+      "file": "curriculum/assessments/NEW-LAW-01.assessment.json",
+      "sha256": "c69ab57dcd8a0093cec6460a490984acabaec5ffd58d50ea7527e9684fb9dc8b",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LAW-02",
+      "file": "curriculum/assessments/NEW-LAW-02.assessment.json",
+      "sha256": "a07a36a2f2ad14f31a1dc80fe1c796a7289e7380314d39099b2ce33a9e149c2b",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LAW-03",
+      "file": "curriculum/assessments/NEW-LAW-03.assessment.json",
+      "sha256": "4885d620a767612ceb3b772591b80d84edbbd67109de661db7271d49489eece8",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LAW-04",
+      "file": "curriculum/assessments/NEW-LAW-04.assessment.json",
+      "sha256": "07d8bb1251aca07b3bf43cca4a0c7d9b44057725c6a3ebab02a5888a82fb15a9",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LCK-01",
+      "file": "curriculum/assessments/NEW-LCK-01.assessment.json",
+      "sha256": "0d073e012858a6d5ebfed680b4e7d749df864c1173d933e45001639861a6f9b2",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LCK-02",
+      "file": "curriculum/assessments/NEW-LCK-02.assessment.json",
+      "sha256": "93615ef6203fb205d15845121c0ddbd0cf6cccb6aae21ab6ab9b98eca6b1bc05",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LCK-03",
+      "file": "curriculum/assessments/NEW-LCK-03.assessment.json",
+      "sha256": "90e20d40d2a0643f59026d6f716833de87ad48b676db10081980a3da3bf4e0ed",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LCK-04",
+      "file": "curriculum/assessments/NEW-LCK-04.assessment.json",
+      "sha256": "2be587cb7f1a7af82317888aaf4fd5837d6cf6b4a180fe5a689a72b2b7933023",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LSC-01",
+      "file": "curriculum/assessments/NEW-LSC-01.assessment.json",
+      "sha256": "6059d7d9bc1fb51794dcf8ae12939648e6f875832d1905d9261ff75e15438c32",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LSC-02",
+      "file": "curriculum/assessments/NEW-LSC-02.assessment.json",
+      "sha256": "987c3c61e54f8a4fe4fb115f9bdae78672f7a0eb3a25b8b1c979e1306926a7c8",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LSC-03",
+      "file": "curriculum/assessments/NEW-LSC-03.assessment.json",
+      "sha256": "b47a7a5795a6c91d8b7451c3267f37fd5bf5e6e37dcb8e1229055df4b2cddaff",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-LSC-04",
+      "file": "curriculum/assessments/NEW-LSC-04.assessment.json",
+      "sha256": "d7be6b1e9b215e8d560c1c0e232405ec1d5e11f18c7931e17e1b478853534f68",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-MAS-01",
+      "file": "curriculum/assessments/NEW-MAS-01.assessment.json",
+      "sha256": "6b38330a4e8ca82022ef8faa1d58b3eb139395098cdb947f4b16f1dde49a1706",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-MAS-02",
+      "file": "curriculum/assessments/NEW-MAS-02.assessment.json",
+      "sha256": "c1e8919d9fea304f707d07f04dfab258910c087abb2e3cd6f7614e2c8def80a5",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-MAS-03",
+      "file": "curriculum/assessments/NEW-MAS-03.assessment.json",
+      "sha256": "50b07c90e6a6fb1f9e2c1dde674f85de5ee62616eb300df509bdc7aca57a4143",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-MAS-04",
+      "file": "curriculum/assessments/NEW-MAS-04.assessment.json",
+      "sha256": "de70b04d5a11f02d5cfba0ac8293b3862e712eaa5ad7a25aac3a1a43651578bc",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-MAS-05",
+      "file": "curriculum/assessments/NEW-MAS-05.assessment.json",
+      "sha256": "81cc1d31bfa712e4fb329e4f67d66a3b782860dd44c26cdf9ea87736774ca3c0",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-PLS-01",
+      "file": "curriculum/assessments/NEW-PLS-01.assessment.json",
+      "sha256": "9afac7019685af8d3afbaacbaa158d118e2f4a97e70eea1184df08a9579369dd",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-PLS-02",
+      "file": "curriculum/assessments/NEW-PLS-02.assessment.json",
+      "sha256": "0d641c9d27ec20e10c15ee8cb2af6609dfd29964ab45935820c70b70791db5c8",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-PLS-03",
+      "file": "curriculum/assessments/NEW-PLS-03.assessment.json",
+      "sha256": "327b080615885c770e7761d6d73dc257b46c33517079478432e0352813f7616a",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-PLS-04",
+      "file": "curriculum/assessments/NEW-PLS-04.assessment.json",
+      "sha256": "ac3711935b65276d6b11ceded849739c1d75e9fae9cc9e5d5e0dd838e58bfe4e",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-PNT-01",
+      "file": "curriculum/assessments/NEW-PNT-01.assessment.json",
+      "sha256": "671af027490c27460857d0e9c82aa8893f02017e1ce5cac0ef686d723ec013c1",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-PNT-02",
+      "file": "curriculum/assessments/NEW-PNT-02.assessment.json",
+      "sha256": "7e464c5acfd9b71223d30f500506ded86b8b608bfeaf93377732f2cf38b9aa49",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-PNT-03",
+      "file": "curriculum/assessments/NEW-PNT-03.assessment.json",
+      "sha256": "e364ade6a50c5dccc88c8d0ec96e2ef232917fc86588545e6ca9852889dda84c",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-PNT-04",
+      "file": "curriculum/assessments/NEW-PNT-04.assessment.json",
+      "sha256": "258d65bf04cebf3502112052fbfde32a70329a2aae43a9f25a6f5cff471f0753",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-PNT-05",
+      "file": "curriculum/assessments/NEW-PNT-05.assessment.json",
+      "sha256": "2ce628fd71077a5540e368f1b9786f016e08219fb186cb0107405f6d6405bebe",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-POND-01",
+      "file": "curriculum/assessments/NEW-POND-01.assessment.json",
+      "sha256": "d13fec964f9f192513bdd97c5614f80d9d9f12a58ff26e06cb129436cd5e69da",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-POND-02",
+      "file": "curriculum/assessments/NEW-POND-02.assessment.json",
+      "sha256": "857b6f2efff11a55d89b789cfa32bc6f1cf8c5f696f4bccd952aaf03cf04fbc8",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-POND-03",
+      "file": "curriculum/assessments/NEW-POND-03.assessment.json",
+      "sha256": "1e9637d089a5a14967a491445234accd30800888be241563446d5fc4ee02b52d",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-REP-01",
+      "file": "curriculum/assessments/NEW-REP-01.assessment.json",
+      "sha256": "dfb5cae9b6a33080e74309b0d1a301a80449b72e757f7aed8f7b71945bcff405",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-REP-02",
+      "file": "curriculum/assessments/NEW-REP-02.assessment.json",
+      "sha256": "b3eff24ebad4262ecbb2f38714f0d5d370ba09f43c58338b5f0af46f974057a4",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-REP-03",
+      "file": "curriculum/assessments/NEW-REP-03.assessment.json",
+      "sha256": "40a4f23b65e0503f879d756fa1aba3d3071b2a60ae6669096ab4c2986e9c6e39",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-REP-04",
+      "file": "curriculum/assessments/NEW-REP-04.assessment.json",
+      "sha256": "d1086b1da7712425bd57bb52aae9ce6465cf5d66c232d665c6f5725152b920ed",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-SIT-01",
+      "file": "curriculum/assessments/NEW-SIT-01.assessment.json",
+      "sha256": "28f2155b8bf37deb3b17a0ffa7a132698672dceb65d8e8132e6bd19f0b25ddf4",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-SIT-02",
+      "file": "curriculum/assessments/NEW-SIT-02.assessment.json",
+      "sha256": "9ec98251b8e1b5df17acad08b4f0297333461216ec5ec1cb34f42495869a59b8",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-SIT-03",
+      "file": "curriculum/assessments/NEW-SIT-03.assessment.json",
+      "sha256": "aa587b78c69138ccd3334ca7719240eb038c0177b97a264e5b707ed80926daa3",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-SIT-04",
+      "file": "curriculum/assessments/NEW-SIT-04.assessment.json",
+      "sha256": "f88a27f5909078f435312996e7cdfe8e12e7734a2a2838f15489e7f410ee5de2",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-SIT-05",
+      "file": "curriculum/assessments/NEW-SIT-05.assessment.json",
+      "sha256": "dee53df8763c8c37f76f4efcd7308618ec7e05f4b56180c1d0db31c10efb6562",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-TIL-01",
+      "file": "curriculum/assessments/NEW-TIL-01.assessment.json",
+      "sha256": "68cd1a0c1c1da376b376cd07f3fff84a8e8514080dd0f99e7a8fe41a2c0ed2c4",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-TIL-02",
+      "file": "curriculum/assessments/NEW-TIL-02.assessment.json",
+      "sha256": "1585e99c58149e91c520e246d9c3b6c5a05149da47413a3d9d51e3d52b230e0c",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-TIL-03",
+      "file": "curriculum/assessments/NEW-TIL-03.assessment.json",
+      "sha256": "0f4b4b92389ef95cdfc7cf8ab0810d4a687291b62b85dbd6a7243213b976b98c",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-TIL-04",
+      "file": "curriculum/assessments/NEW-TIL-04.assessment.json",
+      "sha256": "a703fb400f80c0f84d3312f078b7d7a204c14545382c13daed8a4f5339fc9720",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-TIL-05",
+      "file": "curriculum/assessments/NEW-TIL-05.assessment.json",
+      "sha256": "251619bfcf9bad5c7b18a8856e27005d99b8da45d7a03f3a4dedf4c62805ca4a",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-TIL-06",
+      "file": "curriculum/assessments/NEW-TIL-06.assessment.json",
+      "sha256": "8c96141edf91997055f0b5a0c4f527603edfc654590b7bd61f5fa4c491975442",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-TIL-07",
+      "file": "curriculum/assessments/NEW-TIL-07.assessment.json",
+      "sha256": "ba5e359d081100da58f4a5f86d14770d5fd302e8373eafa00fe3a121db516dbb",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-YOG-01",
+      "file": "curriculum/assessments/NEW-YOG-01.assessment.json",
+      "sha256": "1514a2a695b48bb0c1b79589138cb17e672d25c1671ce1b611727e1304ce8990",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-YOG-02",
+      "file": "curriculum/assessments/NEW-YOG-02.assessment.json",
+      "sha256": "4efce820d63c3b5e5013b255e47b53e046a3f3167048fb6e1796b8d6bffe398b",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-YOG-03",
+      "file": "curriculum/assessments/NEW-YOG-03.assessment.json",
+      "sha256": "b4714dbf30140d43b83f30ecde2aebe9f23fc8e619ce584551952db20dcc21cf",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "NEW-YOG-04",
+      "file": "curriculum/assessments/NEW-YOG-04.assessment.json",
+      "sha256": "3d7124cdc3ee673c3dcd46a1f36cf611b8b6fdb52798dcfd4be32c6889075aee",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "S12-L03",
+      "file": "curriculum/assessments/S12-L03.assessment.json",
+      "sha256": "70fb8bc407715d321122252987e84f13121bf176cbdaa2ce2d1008abeba44320",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/S12-L03.json",
+        "curriculum/lessons/ready/S12-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "S12-L08",
+      "file": "curriculum/assessments/S12-L08.assessment.json",
+      "sha256": "576d1b6596384c8d0e051471d597acc2c2d869a5cdfa3493a14d4d192e185a09",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/S12-L08.json",
+        "curriculum/lessons/ready/S12-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "S14-L03",
+      "file": "curriculum/assessments/S14-L03.assessment.json",
+      "sha256": "39493468a35eb260476881834f0f61cb25963e6cd09dbb4ca40bec1c167f24b5",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/S14-L03.json",
+        "curriculum/lessons/ready/S14-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "S14-L04",
+      "file": "curriculum/assessments/S14-L04.assessment.json",
+      "sha256": "233bcb2438e70e328e3a160369d846cb9a4ca93f3bf64d089d403670b2de218f",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/S14-L04.json",
+        "curriculum/lessons/ready/S14-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "S14-L05",
+      "file": "curriculum/assessments/S14-L05.assessment.json",
+      "sha256": "a5a654793a052d026ff33317a32fd6f903f16efb2577bd9b2c7bbf57c447b315",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/S14-L05.json",
+        "curriculum/lessons/ready/S14-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "S14-L07",
+      "file": "curriculum/assessments/S14-L07.assessment.json",
+      "sha256": "cbe72f24e9bf6ed8ff73b93da77c05a81e0c3a0bc0817e9152271efa698272d1",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/S14-L07.json",
+        "curriculum/lessons/ready/S14-L07.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "S14-L08",
+      "file": "curriculum/assessments/S14-L08.assessment.json",
+      "sha256": "903db54f2024038bf9d07fe7d860a52ff5b57ca20a87d28c0886246138adf6df",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/S14-L08.json",
+        "curriculum/lessons/ready/S14-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "additional-specialist-services-L01",
+      "file": "curriculum/assessments/additional-specialist-services-L01.assessment.json",
+      "sha256": "86fdd6a9ed58fc77e43665f8fb140122feacc7c8f8f2cb39b28f13dba63088f3",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/additional-specialist-services-L01.json",
+        "curriculum/lessons/ready/additional-specialist-services-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "additional-specialist-services-L04",
+      "file": "curriculum/assessments/additional-specialist-services-L04.assessment.json",
+      "sha256": "ab1ddc1dbdb88cd39081ed447377166ea0914f64d1553a53e80b3cf69066a4db",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/additional-specialist-services-L04.json",
+        "curriculum/lessons/ready/additional-specialist-services-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "additional-specialist-services-L10",
+      "file": "curriculum/assessments/additional-specialist-services-L10.assessment.json",
+      "sha256": "9d684d9d553676569bb16656f82867d83d1060cf5e42b1d093c1e5194751e99f",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/additional-specialist-services-L10.json",
+        "curriculum/lessons/ready/additional-specialist-services-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "additional-specialist-services-L12",
+      "file": "curriculum/assessments/additional-specialist-services-L12.assessment.json",
+      "sha256": "c7a11edbff8a784899a7ec2dd3256d3b173b33c4bdf163015e83e388c7eb878a",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/additional-specialist-services-L12.json",
+        "curriculum/lessons/ready/additional-specialist-services-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L01",
+      "file": "curriculum/assessments/aged-care-infection-control-L01.assessment.json",
+      "sha256": "f1b5916fbea9fc2f1094550605b938e7a907367e84e4600d07947b84ec9c38fd",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L02",
+      "file": "curriculum/assessments/aged-care-infection-control-L02.assessment.json",
+      "sha256": "d78b45640e4b46b17c33a31de31d45c56f06b44a89e123beff21f44fd6d4b70a",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L02.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L03",
+      "file": "curriculum/assessments/aged-care-infection-control-L03.assessment.json",
+      "sha256": "6e6615fffdeb1f50e30fabb87a738db30c4dee896da5b1bb5ed5d30f0cb25086",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L03.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L04",
+      "file": "curriculum/assessments/aged-care-infection-control-L04.assessment.json",
+      "sha256": "bffda334cefb7308e771dee2afbcc272e7fc4e439cdc9ad05ab51673de8b18c6",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L04.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L05",
+      "file": "curriculum/assessments/aged-care-infection-control-L05.assessment.json",
+      "sha256": "2d0d814c0994584a145d8180d1f8351fa1ba5199f7d8bce9bfa540c20ee173ea",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L05.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L06",
+      "file": "curriculum/assessments/aged-care-infection-control-L06.assessment.json",
+      "sha256": "699a9050bd2f9c322632ddf6c58727e8869b4115604bab21d611f7d55a42e014",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L06.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L07",
+      "file": "curriculum/assessments/aged-care-infection-control-L07.assessment.json",
+      "sha256": "85f36894ff0a8cef306334aaf76b0fbe0a1465f006ad49dea9baaa637cf4c04c",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L07.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L07.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L08",
+      "file": "curriculum/assessments/aged-care-infection-control-L08.assessment.json",
+      "sha256": "467267afed4a47e34e5e37f26a2df5b4a07d57f84f1db6ca72640c58abd8d4b0",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L08.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L09",
+      "file": "curriculum/assessments/aged-care-infection-control-L09.assessment.json",
+      "sha256": "ad0940c28b7a899d751a8f6f2fdf770cc6767eec304539b458388a6c40e1947f",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L09.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L10",
+      "file": "curriculum/assessments/aged-care-infection-control-L10.assessment.json",
+      "sha256": "0db04cd3f507e1303415e050e73adf8c99ef3398010a44d541f8dc050a4213b1",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L10.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "aged-care-infection-control-L12",
+      "file": "curriculum/assessments/aged-care-infection-control-L12.assessment.json",
+      "sha256": "bc750593d9ddea8f70d1e00c59b353e1935618c2cf4564bfa534f879c6134532",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/aged-care-infection-control-L12.json",
+        "curriculum/lessons/ready/aged-care-infection-control-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L01",
+      "file": "curriculum/assessments/car-detailing-L01.assessment.json",
+      "sha256": "3ea850d8fc39dfbfe03b41da8ec28ce638361f25267321f61f5846aa533940b5",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/car-detailing-L01.json",
+        "curriculum/lessons/ready/car-detailing-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L02",
+      "file": "curriculum/assessments/car-detailing-L02.assessment.json",
+      "sha256": "5f2034c2a7ec7eb757a1e6087f9166f9c4056519cada49ceb107fdc5fe1b2b3f",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/car-detailing-L02.json",
+        "curriculum/lessons/ready/car-detailing-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L03",
+      "file": "curriculum/assessments/car-detailing-L03.assessment.json",
+      "sha256": "39a7611de285120db9210a091accf2f13b6346827ac0a5be1fb2ee1ca36978f7",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/car-detailing-L03.json",
+        "curriculum/lessons/ready/car-detailing-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L04",
+      "file": "curriculum/assessments/car-detailing-L04.assessment.json",
+      "sha256": "78d7189d10af5fbd2a81dd23946baa9b4de910ff517f369c91c73330af435843",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/car-detailing-L04.json",
+        "curriculum/lessons/ready/car-detailing-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L06",
+      "file": "curriculum/assessments/car-detailing-L06.assessment.json",
+      "sha256": "468bea7a50acb068dee004db64754612c3ce20f8487e0106ff991284a810db8f",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/car-detailing-L06.json",
+        "curriculum/lessons/ready/car-detailing-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L07",
+      "file": "curriculum/assessments/car-detailing-L07.assessment.json",
+      "sha256": "e63d9970f0a09931ba9259e756da1bde55ee66978cbc9f8e7eedb0d5e0dd19e5",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/car-detailing-L07.json",
+        "curriculum/lessons/ready/car-detailing-L07.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L08",
+      "file": "curriculum/assessments/car-detailing-L08.assessment.json",
+      "sha256": "948e51ee4a59c76e0bfa9937ef0dc56d8a8f41ec2b3a9e0a07e66bb40e18ba63",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/car-detailing-L08.json",
+        "curriculum/lessons/ready/car-detailing-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L09",
+      "file": "curriculum/assessments/car-detailing-L09.assessment.json",
+      "sha256": "169c7832082e6aeae1abf07fb40616929443224dd7a7c4b75a0238ee7e0317d0",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/car-detailing-L09.json",
+        "curriculum/lessons/ready/car-detailing-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L10",
+      "file": "curriculum/assessments/car-detailing-L10.assessment.json",
+      "sha256": "a0c9eb934b22b1945ca1d3dc892e414af80e679a00727121aac7b5f8a3aa3f79",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "car-detailing-L12",
+      "file": "curriculum/assessments/car-detailing-L12.assessment.json",
+      "sha256": "a1818c12113039039867e4d35088c5317ecffef84656532f0489a2eb2ef06156",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/car-detailing-L12.json",
+        "curriculum/lessons/ready/car-detailing-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L01",
+      "file": "curriculum/assessments/construction-site-cleaning-L01.assessment.json",
+      "sha256": "3b471fadd598607a0fd370bcaaa2050056031a96ec3c067559431f3cdc4dbcd6",
+      "knowledgeAnswerCount": 0,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/construction-site-cleaning-L01.json",
+        "curriculum/lessons/ready/construction-site-cleaning-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L02",
+      "file": "curriculum/assessments/construction-site-cleaning-L02.assessment.json",
+      "sha256": "74b6fcc2fa3a7149d07a4cb55a3183ad98a9166b7be15eb830678a82e058dece",
+      "knowledgeAnswerCount": 0,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/construction-site-cleaning-L02.json",
+        "curriculum/lessons/ready/construction-site-cleaning-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L03",
+      "file": "curriculum/assessments/construction-site-cleaning-L03.assessment.json",
+      "sha256": "89d6bedbf98aeb7058449505c734b711efd21e16359541e26a40b7c78afc5682",
+      "knowledgeAnswerCount": 0,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/construction-site-cleaning-L03.json",
+        "curriculum/lessons/ready/construction-site-cleaning-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L04",
+      "file": "curriculum/assessments/construction-site-cleaning-L04.assessment.json",
+      "sha256": "906c189141af4d13dbd338442c90dc20036ab228a174fe1efb32b685b7c9b29c",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L05",
+      "file": "curriculum/assessments/construction-site-cleaning-L05.assessment.json",
+      "sha256": "30f7149b61b38231613e8a5e66c5f573e9d543b728f9acc89c6da97d38458209",
+      "knowledgeAnswerCount": 0,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/construction-site-cleaning-L05.json",
+        "curriculum/lessons/ready/construction-site-cleaning-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L06",
+      "file": "curriculum/assessments/construction-site-cleaning-L06.assessment.json",
+      "sha256": "b0040c5c9e4df3947a225fb5a9213ff5a9ecdb5f7341a59a4c4598f1c05768ad",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L07",
+      "file": "curriculum/assessments/construction-site-cleaning-L07.assessment.json",
+      "sha256": "9fd982a519dfc5fb703f7fbed1d56320ab396dc457c8f70eeaf993628500ac71",
+      "knowledgeAnswerCount": 0,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/construction-site-cleaning-L07.json",
+        "curriculum/lessons/ready/construction-site-cleaning-L07.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L08",
+      "file": "curriculum/assessments/construction-site-cleaning-L08.assessment.json",
+      "sha256": "f4443863c4a09735034e3a0562a89a2ea43ca234395b011dbae01008d111a9aa",
+      "knowledgeAnswerCount": 0,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/construction-site-cleaning-L08.json",
+        "curriculum/lessons/ready/construction-site-cleaning-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L10",
+      "file": "curriculum/assessments/construction-site-cleaning-L10.assessment.json",
+      "sha256": "35d987b772087de26f8e82e0e04e13822e981b29e8bf15de097ac7a65acd76c9",
+      "knowledgeAnswerCount": 0,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/construction-site-cleaning-L10.json",
+        "curriculum/lessons/ready/construction-site-cleaning-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "construction-site-cleaning-L11",
+      "file": "curriculum/assessments/construction-site-cleaning-L11.assessment.json",
+      "sha256": "86f03436e6eb508c5ff5d47efd486b6b60e1a975f5e9fc63eb3af0a1354ed5d3",
+      "knowledgeAnswerCount": 0,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/construction-site-cleaning-L11.json",
+        "curriculum/lessons/ready/construction-site-cleaning-L11.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "custom-eco-cleaning-products-L03",
+      "file": "curriculum/assessments/custom-eco-cleaning-products-L03.assessment.json",
+      "sha256": "eeef74abc49693ec96ab9fb501ace7457878ecf7f48f488fbcc5f0d700183f6d",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/custom-eco-cleaning-products-L03.json",
+        "curriculum/lessons/ready/custom-eco-cleaning-products-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "custom-eco-cleaning-products-L10",
+      "file": "curriculum/assessments/custom-eco-cleaning-products-L10.assessment.json",
+      "sha256": "8ae411ba4f1a110401976c00ff6c2f1266ca36a9652bf92f0209ef031c076bb9",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/custom-eco-cleaning-products-L10.json",
+        "curriculum/lessons/ready/custom-eco-cleaning-products-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "food-processing-sanitation-L01",
+      "file": "curriculum/assessments/food-processing-sanitation-L01.assessment.json",
+      "sha256": "588b0152cf3f66ba15b5b27c29acc548b53243c348e4cc1ca4dcdb7908b8f377",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/food-processing-sanitation-L01.json",
+        "curriculum/lessons/ready/food-processing-sanitation-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "food-processing-sanitation-L08",
+      "file": "curriculum/assessments/food-processing-sanitation-L08.assessment.json",
+      "sha256": "31855405f824c9994d264ce126eb759c094a7586f36d5be07922dd80a8b5b4bc",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/food-processing-sanitation-L08.json",
+        "curriculum/lessons/ready/food-processing-sanitation-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "food-processing-sanitation-L09",
+      "file": "curriculum/assessments/food-processing-sanitation-L09.assessment.json",
+      "sha256": "cf1f92a5917a6a278168e4ae72d1f51f043056972b377e842ef1f30bc2848d5a",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/food-processing-sanitation-L09.json",
+        "curriculum/lessons/ready/food-processing-sanitation-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "food-processing-sanitation-L10",
+      "file": "curriculum/assessments/food-processing-sanitation-L10.assessment.json",
+      "sha256": "ec322b1313040f255ce3568d1cd63280bd01fcc6c2dba73b5e2ed46b1aea1f66",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/food-processing-sanitation-L10.json",
+        "curriculum/lessons/ready/food-processing-sanitation-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "food-processing-sanitation-L12",
+      "file": "curriculum/assessments/food-processing-sanitation-L12.assessment.json",
+      "sha256": "9824c3681eeae28fee98976131ee52342fb31dfa528f9fd83e87d93ba0664787",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/food-processing-sanitation-L12.json",
+        "curriculum/lessons/ready/food-processing-sanitation-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L01",
+      "file": "curriculum/assessments/garden-cleanups-L01.assessment.json",
+      "sha256": "3de4ac9218ee876a371f4c762acd116dbd2521095384d46e4fe38a21fba78994",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/garden-cleanups-L01.json",
+        "curriculum/lessons/ready/garden-cleanups-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L02",
+      "file": "curriculum/assessments/garden-cleanups-L02.assessment.json",
+      "sha256": "413400e55710dda5bbfd9ee62abfb8bfd3fa6db1a0892a1b181e1c3412da4ba1",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/garden-cleanups-L02.json",
+        "curriculum/lessons/ready/garden-cleanups-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L04",
+      "file": "curriculum/assessments/garden-cleanups-L04.assessment.json",
+      "sha256": "ed34cf34072d34f2feeebfe6c7d203baa3e4b9ffe103dd39bf1205afdd5c3182",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/garden-cleanups-L04.json",
+        "curriculum/lessons/ready/garden-cleanups-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L06",
+      "file": "curriculum/assessments/garden-cleanups-L06.assessment.json",
+      "sha256": "01f6c0b082d6aa9cbf5f5a9145a00c1b7a676124d5ddc76fdbb8f9d322589f7d",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L07",
+      "file": "curriculum/assessments/garden-cleanups-L07.assessment.json",
+      "sha256": "77e873e11109f93ba31c271e745fd8a32a88f0ca33f16f170469c3c1fa3f9e56",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/garden-cleanups-L07.json",
+        "curriculum/lessons/ready/garden-cleanups-L07.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L08",
+      "file": "curriculum/assessments/garden-cleanups-L08.assessment.json",
+      "sha256": "396bbf768ce093a0599b539620f71488c93784b328e1f0b7c22a56bc8f9704d5",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/garden-cleanups-L08.json",
+        "curriculum/lessons/ready/garden-cleanups-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L09",
+      "file": "curriculum/assessments/garden-cleanups-L09.assessment.json",
+      "sha256": "8aab91f58f9fcda22442e084e44a554d5e09dd0698e8a7cc5b6f099a56c991c7",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/garden-cleanups-L09.json",
+        "curriculum/lessons/ready/garden-cleanups-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L10",
+      "file": "curriculum/assessments/garden-cleanups-L10.assessment.json",
+      "sha256": "dc8475e5693b9705c3a0707b0b98bacd6b1ae499e09d1df474abaa20b7a23052",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/garden-cleanups-L10.json",
+        "curriculum/lessons/ready/garden-cleanups-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L11",
+      "file": "curriculum/assessments/garden-cleanups-L11.assessment.json",
+      "sha256": "b0f843627891a3fa1b0452cc9d3c76e11f46d848fa03a7175e0114fb66c78042",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/garden-cleanups-L11.json",
+        "curriculum/lessons/ready/garden-cleanups-L11.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "garden-cleanups-L12",
+      "file": "curriculum/assessments/garden-cleanups-L12.assessment.json",
+      "sha256": "b8b558c72dcdb3df24fa436113570b413cbe4cca6fb2a71e587ff813722d2e01",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/garden-cleanups-L12.json",
+        "curriculum/lessons/ready/garden-cleanups-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L01",
+      "file": "curriculum/assessments/handyman-work-L01.assessment.json",
+      "sha256": "91dce69af49724b70838858532130f809d46c75d1613146f2b53e7fa43fba1b5",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 2,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L02",
+      "file": "curriculum/assessments/handyman-work-L02.assessment.json",
+      "sha256": "02873741b6d5df5804a0ec564d207f4da28a4f8a9ad5ca55b5375673743bdc3c",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/handyman-work-L02.json",
+        "curriculum/lessons/ready/handyman-work-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L03",
+      "file": "curriculum/assessments/handyman-work-L03.assessment.json",
+      "sha256": "79cff456e8dc9597e671bb21bb1eb90bd0d7de7501f69914d11614289e9b781e",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/handyman-work-L03.json",
+        "curriculum/lessons/ready/handyman-work-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L04",
+      "file": "curriculum/assessments/handyman-work-L04.assessment.json",
+      "sha256": "279ee3c6f8a25ecb08b77510c95c277a63c311aeb46d39e67577bd545e52e75f",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/handyman-work-L04.json",
+        "curriculum/lessons/ready/handyman-work-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L05",
+      "file": "curriculum/assessments/handyman-work-L05.assessment.json",
+      "sha256": "00c27f9b3133c9f2c8ad93132f89d84a42952caa681e6d617c17166af1fa8627",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/handyman-work-L05.json",
+        "curriculum/lessons/ready/handyman-work-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L06",
+      "file": "curriculum/assessments/handyman-work-L06.assessment.json",
+      "sha256": "0cbebb6288948d155d960782543891f83689c52309810b4a449e1bef674c648f",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 2,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L07",
+      "file": "curriculum/assessments/handyman-work-L07.assessment.json",
+      "sha256": "ea9bc20c8cc758f7aff4443dc3fe0c64b3f24e9eff12a0b6c579d574959ed769",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 2,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L08",
+      "file": "curriculum/assessments/handyman-work-L08.assessment.json",
+      "sha256": "1c2cbc22756e8de036b9f8491e8704c25db5560d91cd64b43ce307a54dd0b335",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 2,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L09",
+      "file": "curriculum/assessments/handyman-work-L09.assessment.json",
+      "sha256": "85aa778329dbd7c2eb891f692646882ab8825316f3bec7b6e1ac91c07995b37c",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 2,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L10",
+      "file": "curriculum/assessments/handyman-work-L10.assessment.json",
+      "sha256": "d64b63ce094261355ce8474f137a5e84a6ce9e00b69f5bc8a5b30a7c306a032f",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 2,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L11",
+      "file": "curriculum/assessments/handyman-work-L11.assessment.json",
+      "sha256": "e88cb315e38798534c3f0668f3fc20a23b4e57dfb5a9656b7a016d5424c625c5",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/handyman-work-L11.json",
+        "curriculum/lessons/ready/handyman-work-L11.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "handyman-work-L12",
+      "file": "curriculum/assessments/handyman-work-L12.assessment.json",
+      "sha256": "b7509ebca9b8746cafd8298bbc89ac389ca475116c25c3b9f62b54e6430b301f",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/handyman-work-L12.json",
+        "curriculum/lessons/ready/handyman-work-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "high-access-window-cleaning-L02",
+      "file": "curriculum/assessments/high-access-window-cleaning-L02.assessment.json",
+      "sha256": "0988759eee58665b1144a3c72ddbe75d6da0b6ac5ab814e34f1cf98ef615c1e0",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/high-access-window-cleaning-L02.json",
+        "curriculum/lessons/ready/high-access-window-cleaning-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "high-access-window-cleaning-L03",
+      "file": "curriculum/assessments/high-access-window-cleaning-L03.assessment.json",
+      "sha256": "fb9fae7b266b0c64933d7ea11b76fc6c4a54f5885767a318679422101cda6062",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/high-access-window-cleaning-L03.json",
+        "curriculum/lessons/ready/high-access-window-cleaning-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "high-access-window-cleaning-L04",
+      "file": "curriculum/assessments/high-access-window-cleaning-L04.assessment.json",
+      "sha256": "78421014ecfcb9eaa0407d096c6564d1603e251713cbd478dcd30ca6bee5c8c5",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/high-access-window-cleaning-L04.json",
+        "curriculum/lessons/ready/high-access-window-cleaning-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "high-access-window-cleaning-L05",
+      "file": "curriculum/assessments/high-access-window-cleaning-L05.assessment.json",
+      "sha256": "4778b7bd295a270bbd294a03441786586c00da086580a8f64585ba5be511e867",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/high-access-window-cleaning-L05.json",
+        "curriculum/lessons/ready/high-access-window-cleaning-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "high-access-window-cleaning-L10",
+      "file": "curriculum/assessments/high-access-window-cleaning-L10.assessment.json",
+      "sha256": "7a9de68cea8f6c011fc9f0178a7fa34240bbc5bc6854fbc77984efe610c310da",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/high-access-window-cleaning-L10.json",
+        "curriculum/lessons/ready/high-access-window-cleaning-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "high-access-window-cleaning-L11",
+      "file": "curriculum/assessments/high-access-window-cleaning-L11.assessment.json",
+      "sha256": "14954fcc77a7c46c04172428737174244c8616abec9f674bb899ed547bdf53d7",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/high-access-window-cleaning-L11.json",
+        "curriculum/lessons/ready/high-access-window-cleaning-L11.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "high-access-window-cleaning-L12",
+      "file": "curriculum/assessments/high-access-window-cleaning-L12.assessment.json",
+      "sha256": "65e546e82838a3d97815ea62e7241a60100dbd2c1f14fbf2327623325e0d59a2",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/high-access-window-cleaning-L12.json",
+        "curriculum/lessons/ready/high-access-window-cleaning-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "industrial-degreasing-L02",
+      "file": "curriculum/assessments/industrial-degreasing-L02.assessment.json",
+      "sha256": "11b06ab9fc056e0ff6828a68591a3857ce4bc8a12e9d4a21c08536f2508683c9",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/industrial-degreasing-L02.json",
+        "curriculum/lessons/ready/industrial-degreasing-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "industrial-degreasing-L05",
+      "file": "curriculum/assessments/industrial-degreasing-L05.assessment.json",
+      "sha256": "99ae4f0043dedc0b9b7a0da76e95328e317ca3d8af783bd9857fd75fec1ecca3",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/industrial-degreasing-L05.json",
+        "curriculum/lessons/ready/industrial-degreasing-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "industrial-degreasing-L06",
+      "file": "curriculum/assessments/industrial-degreasing-L06.assessment.json",
+      "sha256": "3354b05dece4457355fd174a224abcb98707982de8fc996421c3b80ea565def2",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/industrial-degreasing-L06.json",
+        "curriculum/lessons/ready/industrial-degreasing-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "industrial-degreasing-L09",
+      "file": "curriculum/assessments/industrial-degreasing-L09.assessment.json",
+      "sha256": "3218a31dc47b94b42d6206e7b23a754ec06a871c53d9a743b37237252d774b28",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/industrial-degreasing-L09.json",
+        "curriculum/lessons/ready/industrial-degreasing-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "industrial-degreasing-L10",
+      "file": "curriculum/assessments/industrial-degreasing-L10.assessment.json",
+      "sha256": "3a51154cd8baa3c50385b210a88b82fa8bbbcf79b560bd1d37570b11debef4b4",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/industrial-degreasing-L10.json",
+        "curriculum/lessons/ready/industrial-degreasing-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "industrial-degreasing-L12",
+      "file": "curriculum/assessments/industrial-degreasing-L12.assessment.json",
+      "sha256": "567840933977c6e5e0432dd57547c102f7b1b25e35f5e8fac2cd7f2d9da31dc3",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-cleaning-L02",
+      "file": "curriculum/assessments/kitchen-cleaning-L02.assessment.json",
+      "sha256": "208717d23fe8dafdb945c347a16db614fe8d8d650560f9cd622c697e5c65316a",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 6,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-cleaning-L02.json",
+        "curriculum/lessons/ready/kitchen-cleaning-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-cleaning-L05",
+      "file": "curriculum/assessments/kitchen-cleaning-L05.assessment.json",
+      "sha256": "0f8f6b100ded12a3ebb6c815470f264106ff8a0d9ea575386d7fad3a58f9c9b6",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 6,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-cleaning-L05.json",
+        "curriculum/lessons/ready/kitchen-cleaning-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-cleaning-L06",
+      "file": "curriculum/assessments/kitchen-cleaning-L06.assessment.json",
+      "sha256": "fe4784c616c39874413d3501bb4d555c03c51d1fc192238e00fea96e5471c83f",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 6,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-cleaning-L06.json",
+        "curriculum/lessons/ready/kitchen-cleaning-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-cleaning-L07",
+      "file": "curriculum/assessments/kitchen-cleaning-L07.assessment.json",
+      "sha256": "fe03e061ed032bb5efcbc9b9e2d1711242a6b84cd1d2a72cc948c30e35454829",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 6,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-cleaning-L07.json",
+        "curriculum/lessons/ready/kitchen-cleaning-L07.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-cleaning-L08",
+      "file": "curriculum/assessments/kitchen-cleaning-L08.assessment.json",
+      "sha256": "6cc3899e7513497e23a6ef0e9dc0190a6d99c1cad6736d34933f53eae7bec3c3",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 6,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-cleaning-L08.json",
+        "curriculum/lessons/ready/kitchen-cleaning-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-cleaning-L09",
+      "file": "curriculum/assessments/kitchen-cleaning-L09.assessment.json",
+      "sha256": "31e1bd64183fc2983fdef2ee21bf07d3fbcdb826675cca3fc39d19f2ee938d22",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 6,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-cleaning-L09.json",
+        "curriculum/lessons/ready/kitchen-cleaning-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-cleaning-L10",
+      "file": "curriculum/assessments/kitchen-cleaning-L10.assessment.json",
+      "sha256": "f62bba923bf329059071e8bcc8e7e1c9efa7c76257766e9c04a5658ea205e11c",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 6,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-cleaning-L10.json",
+        "curriculum/lessons/ready/kitchen-cleaning-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-cleaning-L11",
+      "file": "curriculum/assessments/kitchen-cleaning-L11.assessment.json",
+      "sha256": "70427f1b7b1895a05f7bc460368b6678a17af5cd87383af725bb2007b8d8746d",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 6,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-cleaning-L11.json",
+        "curriculum/lessons/ready/kitchen-cleaning-L11.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-exhaust-L02",
+      "file": "curriculum/assessments/kitchen-exhaust-L02.assessment.json",
+      "sha256": "d03f0c051456f6fd9742bc339417f7ed71101d567a4a386f2e9b966e1efef038",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-exhaust-L02.json",
+        "curriculum/lessons/ready/kitchen-exhaust-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-exhaust-L03",
+      "file": "curriculum/assessments/kitchen-exhaust-L03.assessment.json",
+      "sha256": "dd688bd9e7bd0a8b5247bc3ebded553c918789cf73b9ea6db8eac108ebbd23e9",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-exhaust-L03.json",
+        "curriculum/lessons/ready/kitchen-exhaust-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-exhaust-L05",
+      "file": "curriculum/assessments/kitchen-exhaust-L05.assessment.json",
+      "sha256": "fa38d57d2d632ebc18849f288cba8bc9f118695a1bf429de638d4e2d3bbc6c5b",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-exhaust-L05.json",
+        "curriculum/lessons/ready/kitchen-exhaust-L05.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-exhaust-L06",
+      "file": "curriculum/assessments/kitchen-exhaust-L06.assessment.json",
+      "sha256": "35c0dabc820fa1ddc4506cc34e642bea539dd8fdc8c19a99900960cff3aaae45",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-exhaust-L06.json",
+        "curriculum/lessons/ready/kitchen-exhaust-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-exhaust-L09",
+      "file": "curriculum/assessments/kitchen-exhaust-L09.assessment.json",
+      "sha256": "f9dc8908309c3f73b4eadbd9d7a40a88f0b9691b25a3b012f995f99c06385b0b",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-exhaust-L09.json",
+        "curriculum/lessons/ready/kitchen-exhaust-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-exhaust-L10",
+      "file": "curriculum/assessments/kitchen-exhaust-L10.assessment.json",
+      "sha256": "7e96359888178eab8b12c962a294d46bde7119b42ccbe914ced75cfc62b1309c",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-exhaust-L10.json",
+        "curriculum/lessons/ready/kitchen-exhaust-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "kitchen-exhaust-L11",
+      "file": "curriculum/assessments/kitchen-exhaust-L11.assessment.json",
+      "sha256": "9bd5e9d9508a744d34fce948558bd95c6e00de283dbce479d4ca843e5c3fc342",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/kitchen-exhaust-L11.json",
+        "curriculum/lessons/ready/kitchen-exhaust-L11.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "laboratory-cleaning-L01",
+      "file": "curriculum/assessments/laboratory-cleaning-L01.assessment.json",
+      "sha256": "4ad175c93f881b35770707b8fa91ebe18783448552a71f13caf45d2f2c7382ef",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/laboratory-cleaning-L01.json",
+        "curriculum/lessons/ready/laboratory-cleaning-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "laboratory-cleaning-L02",
+      "file": "curriculum/assessments/laboratory-cleaning-L02.assessment.json",
+      "sha256": "f828e6f29b4dc17510eeb53fc3223508fb8b00cd5cb3acbd540d3c3cbb17f171",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/laboratory-cleaning-L02.json",
+        "curriculum/lessons/ready/laboratory-cleaning-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "laboratory-cleaning-L06",
+      "file": "curriculum/assessments/laboratory-cleaning-L06.assessment.json",
+      "sha256": "69f4fd6f7500d2f3b1c8d279c41a4064e975eef56e9167fdda5c7e61a37455f2",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/laboratory-cleaning-L06.json",
+        "curriculum/lessons/ready/laboratory-cleaning-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "laboratory-cleaning-L10",
+      "file": "curriculum/assessments/laboratory-cleaning-L10.assessment.json",
+      "sha256": "a3f36145e3386c9dc5378092a03a20ae3e1d7bed4a62421c6dd8f49700bac656",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/laboratory-cleaning-L10.json",
+        "curriculum/lessons/ready/laboratory-cleaning-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "laboratory-cleaning-L12",
+      "file": "curriculum/assessments/laboratory-cleaning-L12.assessment.json",
+      "sha256": "05383932c3a04d7a0735b15a453ae2743b5de83c98586b380cf2dc9185c8f2de",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/laboratory-cleaning-L12.json",
+        "curriculum/lessons/ready/laboratory-cleaning-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-dental-clinic-L07",
+      "file": "curriculum/assessments/medical-dental-clinic-L07.assessment.json",
+      "sha256": "7d6d6b72f0af64f408a78e656b89e65c930f3ea95d2c64af07416f1e533a5e1e",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 0,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/medical-dental-clinic-L07.json",
+        "curriculum/lessons/ready/medical-dental-clinic-L07.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-dental-clinic-L09",
+      "file": "curriculum/assessments/medical-dental-clinic-L09.assessment.json",
+      "sha256": "800eca74ce58c8cdba753e6940770165ab984f207d0da2a2cce73b54d372a56d",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L01",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L01.assessment.json",
+      "sha256": "cd26729a217b4105b94a1f35fdc6ae2f72ec6c815b958ee95ab4891a6a4eb4ad",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L02",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L02.assessment.json",
+      "sha256": "379640f65e106eb5e64315d6adf2cde2653707629f890b265746a200ef795de4",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/medical-equipment-cleaning-L02.json",
+        "curriculum/lessons/ready/medical-equipment-cleaning-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L03",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L03.assessment.json",
+      "sha256": "d528912e0204f47aa531ccda6f54e317702455612dd38d15ce7b257e40d1495a",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/medical-equipment-cleaning-L03.json",
+        "curriculum/lessons/ready/medical-equipment-cleaning-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L04",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L04.assessment.json",
+      "sha256": "f4dc1d4b3d6edba2c96382aabfb84e3e1cb267b046893cded80c79467881401a",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L06",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L06.assessment.json",
+      "sha256": "32f2ceb5ee67192373147d2c995b6951812c7819e977e82356d17d7a8a5b31f9",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/medical-equipment-cleaning-L06.json",
+        "curriculum/lessons/ready/medical-equipment-cleaning-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L07",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L07.assessment.json",
+      "sha256": "3ee57735ce743dc771f518ace608565610348be0daafdda317ce81d7a16dfd01",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L08",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L08.assessment.json",
+      "sha256": "df04461b1f4c2e6c9be654d50dcf404c8f8fc0e645b6d9c3c9def24b9dec04c5",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L09",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L09.assessment.json",
+      "sha256": "5cf339a41be5662eae32fde9ed30db67dbcac1462a54f54e7e3e2288a055e40a",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/medical-equipment-cleaning-L09.json",
+        "curriculum/lessons/ready/medical-equipment-cleaning-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L10",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L10.assessment.json",
+      "sha256": "633bbc15d41196b22840f5e73b505baf3b73f261ab2547183ed31426296d7783",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L11",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L11.assessment.json",
+      "sha256": "957fa09dc901bdd0a0653d21a73d993c36a5d484370974d44d9fdf96c0bc062c",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/medical-equipment-cleaning-L11.json",
+        "curriculum/lessons/ready/medical-equipment-cleaning-L11.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "medical-equipment-cleaning-L12",
+      "file": "curriculum/assessments/medical-equipment-cleaning-L12.assessment.json",
+      "sha256": "3d7ac741beb722dd5801486dcf066ad5a9c4f85f635e677d2a61682f8047f7e8",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 5,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/medical-equipment-cleaning-L12.json",
+        "curriculum/lessons/ready/medical-equipment-cleaning-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L01",
+      "file": "curriculum/assessments/pool-cleaning-L01.assessment.json",
+      "sha256": "de1db93fd6f40e1996e0da895780ec803dbe8d75490a08447526171004d2ddaa",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pool-cleaning-L01.json",
+        "curriculum/lessons/ready/pool-cleaning-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L02",
+      "file": "curriculum/assessments/pool-cleaning-L02.assessment.json",
+      "sha256": "cac74b91f3d2bf97c840fdaa3ce034093ed16f6493f44716b3810dd1b018db5d",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L03",
+      "file": "curriculum/assessments/pool-cleaning-L03.assessment.json",
+      "sha256": "dc631698293882664649a28fddc540811bbb0460ac3aa697ac9b6737b968fe76",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L04",
+      "file": "curriculum/assessments/pool-cleaning-L04.assessment.json",
+      "sha256": "f5f1b315f06b7baca63cc60a5b40fcd5e295333b596c9de6502b467db911b4ff",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L06",
+      "file": "curriculum/assessments/pool-cleaning-L06.assessment.json",
+      "sha256": "57b99d1c5c8b5d8fe0bae956bc24ae7e8db924723bbe02b6dd2cbf12b0c35f10",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L07",
+      "file": "curriculum/assessments/pool-cleaning-L07.assessment.json",
+      "sha256": "4f8c34a7796dfc390bf681260e65ca466db7787aea2a7e6e2eed156d8d68501e",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L08",
+      "file": "curriculum/assessments/pool-cleaning-L08.assessment.json",
+      "sha256": "fd9628f7222eb0a13173839fd56be5eb3ee839c23872632ef74c7b6facf57a27",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pool-cleaning-L08.json",
+        "curriculum/lessons/ready/pool-cleaning-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L09",
+      "file": "curriculum/assessments/pool-cleaning-L09.assessment.json",
+      "sha256": "3e08b5250a4769c6228ee0881ed450de611a8c302728dcb864e6a0fce7304024",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pool-cleaning-L09.json",
+        "curriculum/lessons/ready/pool-cleaning-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L10",
+      "file": "curriculum/assessments/pool-cleaning-L10.assessment.json",
+      "sha256": "986ffdcd2b8a1308f690303659d411df5160ac47b53fc804c9ec57036954e6c7",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L11",
+      "file": "curriculum/assessments/pool-cleaning-L11.assessment.json",
+      "sha256": "6e4a07ede31f22a1c8b3301a48c97a8333f9303b14dbac535968be38b06e6d03",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pool-cleaning-L12",
+      "file": "curriculum/assessments/pool-cleaning-L12.assessment.json",
+      "sha256": "6032b5752cf1a5bea1853d356fe1080af11f7a20fe361e68a4d9877b7b49765c",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pool-cleaning-L12.json",
+        "curriculum/lessons/ready/pool-cleaning-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pressure-cleaning-L01",
+      "file": "curriculum/assessments/pressure-cleaning-L01.assessment.json",
+      "sha256": "fcda5a6e1aa6092015b4cd881a2adc2363aec857381183b191d72093318c8f56",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pressure-cleaning-L01.json",
+        "curriculum/lessons/ready/pressure-cleaning-L01.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pressure-cleaning-L02",
+      "file": "curriculum/assessments/pressure-cleaning-L02.assessment.json",
+      "sha256": "026d1721388c9bcd12665c1bb6af71060ec955974f8659c566f3259976dcd457",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pressure-cleaning-L02.json",
+        "curriculum/lessons/ready/pressure-cleaning-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pressure-cleaning-L03",
+      "file": "curriculum/assessments/pressure-cleaning-L03.assessment.json",
+      "sha256": "cdc0f3ca2553bd8a005baf7c1e125ffa1c8c0055d3d85016868260b9956ab066",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pressure-cleaning-L03.json",
+        "curriculum/lessons/ready/pressure-cleaning-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pressure-cleaning-L06",
+      "file": "curriculum/assessments/pressure-cleaning-L06.assessment.json",
+      "sha256": "7aba6bab9ae0cc1025fc6a79b416860f2c675a5339f1e0ab9410853a7cec78ac",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pressure-cleaning-L06.json",
+        "curriculum/lessons/ready/pressure-cleaning-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pressure-cleaning-L10",
+      "file": "curriculum/assessments/pressure-cleaning-L10.assessment.json",
+      "sha256": "129220e31f8af23f32eb86b8de6fd935482cd8dad662ed48de256c1955791f45",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pressure-cleaning-L10.json",
+        "curriculum/lessons/ready/pressure-cleaning-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pressure-cleaning-L11",
+      "file": "curriculum/assessments/pressure-cleaning-L11.assessment.json",
+      "sha256": "f1ccdd2e78a13cbb5b2c6594ea02b35676451206fc69d701c573db17addde427",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pressure-cleaning-L11.json",
+        "curriculum/lessons/ready/pressure-cleaning-L11.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "pressure-cleaning-L12",
+      "file": "curriculum/assessments/pressure-cleaning-L12.assessment.json",
+      "sha256": "ec2ac62b2313837b5e84b20b1aee49dd685aa987ec49c552488ec2e47e9adf6b",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 1,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/pressure-cleaning-L12.json",
+        "curriculum/lessons/ready/pressure-cleaning-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L02",
+      "file": "curriculum/assessments/property-maintenance-L02.assessment.json",
+      "sha256": "05d029081e4b8b8a85c5e3d3d3a635935b40854d08fa51ea39e5e5b27e67b729",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/property-maintenance-L02.json",
+        "curriculum/lessons/ready/property-maintenance-L02.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L03",
+      "file": "curriculum/assessments/property-maintenance-L03.assessment.json",
+      "sha256": "e48fdaccdc8acba3667d1814ebf54b49f8c8e5950a04a42e87fb3aa45fb9c2b0",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/property-maintenance-L03.json",
+        "curriculum/lessons/ready/property-maintenance-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L04",
+      "file": "curriculum/assessments/property-maintenance-L04.assessment.json",
+      "sha256": "2ee587e0a953d2d2530e1b1baa7e2b8ffda8bfeb732bf6eb9a9f11b37f5f2569",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/property-maintenance-L04.json",
+        "curriculum/lessons/ready/property-maintenance-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L05",
+      "file": "curriculum/assessments/property-maintenance-L05.assessment.json",
+      "sha256": "ce9dc4dec4d27a8c7da2d6b83d4e58e4d36d7014e567fe716ebe09d69c31510b",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 2,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L06",
+      "file": "curriculum/assessments/property-maintenance-L06.assessment.json",
+      "sha256": "cd466530a5896ae479a10bb1bdfacc298c79f8e6d3bf274f8a99b76b8832d12d",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 2,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L08",
+      "file": "curriculum/assessments/property-maintenance-L08.assessment.json",
+      "sha256": "073a2e13a69c23f82c872979ab656577b919c3ac219da56e9a25cd52e5a6d591",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/property-maintenance-L08.json",
+        "curriculum/lessons/ready/property-maintenance-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L09",
+      "file": "curriculum/assessments/property-maintenance-L09.assessment.json",
+      "sha256": "e2494e362013e31079d30004599c0b97a9923ef0acb3e743aabec1f1fbb6f257",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/property-maintenance-L09.json",
+        "curriculum/lessons/ready/property-maintenance-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L10",
+      "file": "curriculum/assessments/property-maintenance-L10.assessment.json",
+      "sha256": "18a44ae40482b327e622c8813a6b4feae6ec4e7cea705ab6fa4cad5be4c50414",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/property-maintenance-L10.json",
+        "curriculum/lessons/ready/property-maintenance-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L11",
+      "file": "curriculum/assessments/property-maintenance-L11.assessment.json",
+      "sha256": "8531e8e5b9e8ff822ccb4a283a9b9359a70b7491fa70457fb75f71de0dc1fd3b",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/property-maintenance-L11.json",
+        "curriculum/lessons/ready/property-maintenance-L11.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "property-maintenance-L12",
+      "file": "curriculum/assessments/property-maintenance-L12.assessment.json",
+      "sha256": "60668fe084586746c4bfd6cfd9869c7bf9809cf64761aa42a56e269f628ee2f9",
+      "knowledgeAnswerCount": 1,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/property-maintenance-L12.json",
+        "curriculum/lessons/ready/property-maintenance-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "roof-cleaning-soft-washing-L03",
+      "file": "curriculum/assessments/roof-cleaning-soft-washing-L03.assessment.json",
+      "sha256": "416507750593262c733c9556d8213e4468678ca7c95ab9187bdadb1cd2918fcd",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/roof-cleaning-soft-washing-L03.json",
+        "curriculum/lessons/ready/roof-cleaning-soft-washing-L03.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "roof-cleaning-soft-washing-L07",
+      "file": "curriculum/assessments/roof-cleaning-soft-washing-L07.assessment.json",
+      "sha256": "47be12c98a2493ce00bce1b18e8a69d61510da2a18a5187355ece9d14cb49229",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/roof-cleaning-soft-washing-L07.json",
+        "curriculum/lessons/ready/roof-cleaning-soft-washing-L07.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "roof-cleaning-soft-washing-L08",
+      "file": "curriculum/assessments/roof-cleaning-soft-washing-L08.assessment.json",
+      "sha256": "8a6584bc6392dd0b9de78a511250c2f385f8800ae32484e358b9730991db5e46",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/roof-cleaning-soft-washing-L08.json",
+        "curriculum/lessons/ready/roof-cleaning-soft-washing-L08.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "roof-cleaning-soft-washing-L09",
+      "file": "curriculum/assessments/roof-cleaning-soft-washing-L09.assessment.json",
+      "sha256": "5b5d9c1bf926f4341c42287124d3075e532e8ef748d763e7d75d7cd22275d90a",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/roof-cleaning-soft-washing-L09.json",
+        "curriculum/lessons/ready/roof-cleaning-soft-washing-L09.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "roof-cleaning-soft-washing-L12",
+      "file": "curriculum/assessments/roof-cleaning-soft-washing-L12.assessment.json",
+      "sha256": "8b092afb8261ecbc291697ab7b245fa126a2c1b9b21783d477d1a03a1e64105a",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/roof-cleaning-soft-washing-L12.json",
+        "curriculum/lessons/ready/roof-cleaning-soft-washing-L12.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "warehouse-deep-cleaning-L04",
+      "file": "curriculum/assessments/warehouse-deep-cleaning-L04.assessment.json",
+      "sha256": "faa90dc5ddefe591e5a1487f0c1321f987055ee0405f6de39e5b27444a42bf60",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/warehouse-deep-cleaning-L04.json",
+        "curriculum/lessons/ready/warehouse-deep-cleaning-L04.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "warehouse-deep-cleaning-L05",
+      "file": "curriculum/assessments/warehouse-deep-cleaning-L05.assessment.json",
+      "sha256": "930eb601bd60fdb138a2389d9fb0cdd204427e76778d1638d3d4695515d5597a",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "warehouse-deep-cleaning-L06",
+      "file": "curriculum/assessments/warehouse-deep-cleaning-L06.assessment.json",
+      "sha256": "a6df66dbc426c41865b1a027c9ed73aa4979bb9eb3e3326182001e97d28c3712",
+      "knowledgeAnswerCount": 3,
+      "practicalCriteriaCount": 3,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/warehouse-deep-cleaning-L06.json",
+        "curriculum/lessons/ready/warehouse-deep-cleaning-L06.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    },
+    {
+      "lessonId": "warehouse-deep-cleaning-L10",
+      "file": "curriculum/assessments/warehouse-deep-cleaning-L10.assessment.json",
+      "sha256": "4e2cbbc82f48daa64b6e89522870996994f93867d665c9d426712e04768e5b3e",
+      "knowledgeAnswerCount": 2,
+      "practicalCriteriaCount": 4,
+      "sourceCandidates": [
+        "curriculum/lessons/converted/warehouse-deep-cleaning-L10.json",
+        "curriculum/lessons/ready/warehouse-deep-cleaning-L10.json"
+      ],
+      "publicationStatus": "requires_editorial_approval"
+    }
+  ],
+  "publicationApproved": 0
+}

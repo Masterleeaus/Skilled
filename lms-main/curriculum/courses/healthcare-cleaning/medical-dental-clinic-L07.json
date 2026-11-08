@@ -1,0 +1,189 @@
+{
+  "id": "medical-dental-clinic-L07",
+  "title": "Dental aerosols and operatory access control",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and cleaning supervisors who clean dental operatories and surgeries in Australia. This lesson covers the environmental cleaning of the operatory, and the boundary with clinical equipment.",
+  "referencesAtStart": "Official sources for this lesson: ACIPC, Position Statement: Single-use Devices (version 4.0, dated February 2024), which has only been partly confirmed.",
+  "prerequisites": [
+    "aged-care-infection-control-L01",
+    "aged-care-infection-control-L03",
+    "medical-equipment-cleaning-L01"
+  ],
+  "learningOutcomes": [
+    "Explain that environmental cleaning of a dental operatory is a facility-controlled task, and that access to the room alone does not confer authority.",
+    "Recognise post-procedure restrictions, aerosol or splash contamination, and barriers set by the dental clinical team.",
+    "Identify the stop-work triggers in an operatory, including patient presence, unknown contamination, sharps, restricted room status and contradictory instructions.",
+    "Record a room task without certifying that the room is clinically ready or pathogen-free, and without recording patient information."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and clinical boundaries",
+      "body": "Environmental cleaning of a dental operatory is a task the facility delegates to cleaning staff under its own infection prevention and control procedure. It is not clinical care. Dental equipment, instruments, handpieces, suction and delivery systems, and any device the dental team uses on patients are clinician-owned or reprocessing matters, and they are outside your role unless the clinic policy authorises a specific task in writing. This lesson covers the environmental surfaces you may clean within your written scope. Reprocessing, disinfection for reusable devices and sterilisation are outside this course and are authorised only by the manufacturer's instructions and the clinic procedure. Never infer authority from access to the room alone. Being allowed into the room does not mean you may clean everything in it."
+    },
+    {
+      "heading": "Aerosols, splashes and post-procedure restrictions",
+      "body": "Dental procedures can produce aerosols and splashes that settle on surfaces around the chair, the light, the bench and the floor. The dental team decides the post-procedure restriction, which can include a period in which the room must not be entered, a barrier that must not be removed, or a waiting time before the room is opened for cleaning. The period is set by the clinic's procedure and the clinical team, and this lesson does not set a time. Do not enter a restricted operatory, do not remove a barrier the clinical team has placed, and do not start cleaning until the room has been released to you in the way the clinic specifies. Ask if you are unsure whether a room is released."
+    },
+    {
+      "heading": "Stop-work triggers in the operatory",
+      "body": "Pause work and notify the designated professional when a patient is present, when the contamination is unknown, when sharps or instruments are visible, when the room is restricted, or when two instructions contradict each other. Use the site risk plan to distinguish the environmental surfaces you are authorised to clean from clinician-owned equipment. If the chair, light, handpiece, delivery unit or suction is not on your written list, leave it as found. A contradictory instruction, such as a notice saying the room is clear and a clinician saying it is not, is a stop condition. Do not choose the instruction that lets you finish the room."
+    },
+    {
+      "heading": "Preparing the approved workflow",
+      "body": "Before the first task in an operatory, confirm the room is released, check the hand hygiene station, read the product instructions for the approved surfaces, and select the protective equipment the task requires. Keep clean supplies and used cloths separate, and plan the route out of the room so that used items do not cross clean areas. Follow the clinic's actual contact time, dilution and compatibility instructions. Do not use a generic recipe from a website or from memory. If an instruction is missing for a surface, record it as missing and refer, rather than inventing one."
+    },
+    {
+      "heading": "Controlled cleaning and documentation",
+      "body": "Within your authorised environmental scope, follow the clinic's risk-based cleaning sequence and frequency. Do not handle instruments, sharps, blood spills or medical devices unless you have been trained and expressly authorised under the clinic policy. Record the task you completed, the surfaces covered, any exclusion, any incident and the person you handed over to. Enter only the approved room identifier and non-patient information. Do not record patient names, appointment details or clinical notes in the cleaning record. Record an unresolved issue as unresolved. Never certify that a dental operatory is pathogen-free or ready for clinical use, because the cleaning record is not a clinical clearance."
+    }
+  ],
+  "procedure": [
+    "Confirm the written work order, the room identifier, the clinic IPC procedure and your responsible supervisor before entering.",
+    "Confirm the room has been released for cleaning in the way the clinic specifies, and that no patient is present.",
+    "Check the room for visible sharps, instruments, blood, or any clinician-owned equipment outside your list, and leave those items as found.",
+    "Perform hand hygiene, select the protective equipment for the task, and check the approved product instructions for each surface.",
+    "Clean the authorised environmental surfaces in the clinic's sequence, keeping used cloths separate from clean supplies.",
+    "Stop and notify the designated professional at any stop-work trigger, including a contradictory instruction.",
+    "Record the room identifier, the surfaces covered, exclusions, incidents, unresolved issues and the handover recipient, without patient information."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A dental operatory is offered to you for cleaning immediately after a procedure.",
+      "decisionPrompt": "Do you start the clean?",
+      "reasoning": "No. Do not start. Notify the designated professional, wait for the release, and record the time and the person notified. Once released, clean only the authorised environmental surfaces. The spray pattern does not change your scope."
+    },
+    {
+      "situation": "A notice on the operatory door says the room is clear, but the dental assistant tells you the room still needs a barrier to be checked before anyone enters.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Treat the contradiction as a stop condition. Do not enter until the clinical team confirms the status. Notify the designated professional, record the contradiction, and the time. Do not choose the instruction that lets you finish the room."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Clinic approved product list for environmental surfaces: {{business:materials.approved_products}}",
+    "Protective equipment as stated on the product safety data sheet and the clinic procedure: {{business:safety.required_ppe}}",
+    "Clinic risk plan or site instruction for the operatory: {{business:procedures.approved_sop}}",
+    "Designated professional contact for release and escalation: {{business:safety.escalation_contact}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Entering an operatory because access to the room has been given, without room release.",
+      "prevention": "Access does not confer authority. Confirm release from the designated professional."
+    },
+    {
+      "error": "Cleaning the chair, handpiece or delivery unit because they look dirty.",
+      "prevention": "Clinician-owned equipment is outside your scope unless the clinic authorises it in writing."
+    },
+    {
+      "error": "Recording a patient name or appointment detail in the cleaning record.",
+      "prevention": "Record only the approved room identifier and non-patient information."
+    },
+    {
+      "error": "Certifying the operatory as pathogen-free or ready for clinical use.",
+      "prevention": "The cleaning record is not a clinical clearance. Record the task and any unresolved issue."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Environmental cleaning of a dental operatory is a facility-controlled, delegated task. The clinic's infection prevention and control procedure and the responsible dental professional govern release of the room and the post-procedure restrictions.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the clinic procedure. The ACIPC position statement on single-use devices (version 4.0, February 2024) states that single-use devices must not be reused.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Completing this lesson does not grant any authority to perform clinical dental work, to handle dental instruments or sharps, or to clear a room for clinical use. Dental practice and the handling of clinical waste are regulated and outside this lesson.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner states, for a supplied operatory scenario, that access alone does not confer authority, and identifies the release that must be confirmed.",
+    "The learner identifies the stop-work triggers in a supplied operatory scenario, including a contradictory instruction, and states the notification step.",
+    "The learner leaves clinician-owned equipment as found in a supplied scenario and does not clean it.",
+    "The learner records a completed room task with the room identifier and no patient information, and does not certify the room as clinically ready."
+  ],
+  "documentationEvidence": [
+    "Room identifier, surfaces cleaned, exclusions and the time",
+    "Stop-work or contradiction record, the designated professional notified and the time",
+    "Handover recipient and any unresolved issue, recorded as unresolved"
+  ],
+  "summary": [
+    "Access to a dental operatory does not confer cleaning authority. Confirm release from the designated professional.",
+    "Clinician-owned equipment, instruments and sharps are outside your role unless authorised in writing.",
+    "Stop and notify at any trigger, including a contradictory instruction.",
+    "Record the task without patient information, and never certify a room as clinically ready."
+  ],
+  "businessFields": [
+    "{{business:customers.access_instructions}}",
+    "{{business:procedures.approved_sop}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:staff.authorised_tasks}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-dental-clinic-L07-K01",
+      "question": "You have been given access to a dental operatory, but the clinician has not given the room release. What should you do?",
+      "options": [
+        "Start cleaning, since you have access to the room and the clinic has given you the key",
+        "Clean only the floor, since it is outside the clinical area.",
+        "Do not start. Notify the designated professional and wait for the release."
+      ]
+    },
+    {
+      "id": "medical-dental-clinic-L07-K02",
+      "question": "A notice says the room is clear, but a dental assistant says a barrier must still be checked. What is the correct response?",
+      "options": [
+        "Treat the contradiction as a stop, do not enter until the clinical team confirms, and notify the designated professional.",
+        "Choose the notice, since it is written down, and finish the room before the next patient arrives at the clinic today",
+        "Ask the patient in the next room which instruction is correct, since they will know the status of the room"
+      ]
+    },
+    {
+      "id": "medical-dental-clinic-L07-K03",
+      "question": "Which entry is correct in the cleaning record for a completed operatory task?",
+      "options": [
+        "The patient's name and the appointment time, for traceability, so the clinic can match each task to a visit",
+        "The approved room identifier, surfaces cleaned, exclusions and the handover recipient, with no patient information.",
+        "A statement that the room is pathogen-free and ready for clinical use, once the cleaning has been completed"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "ACIPC Position Statement: Single-use Devices, version 4.0",
+      "url": "https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf",
+      "pageDate": "version 4.0, dated February 2024",
+      "checked": "2026-11-03",
+      "covers": "A professional body statement. The TGA's own text was not read in this session; check the TGA website for the primary rule on reprocessing and reuse of single-use devices. Publisher: Australasian College for Infection Prevention and Control (professional body; not a government source)."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page listed at the start: ACIPC, Position Statement: Single-use Devices (version 4.0, dated February 2024). This has only been partly confirmed and must be checked on the official site before use.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ACIPC, Position Statement: Single-use Devices, version 4.0, February 2024. https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf (checked 2026-11-02)",
+    "NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34, Recommendations 9 and 10. https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf (checked 2026-11-02; hosted copy of the 2019 edition)",
+    "UNCONFIRMED: dental operatory post-procedure waiting periods, room release requirements, and the aerosol-related controls required by Australian dental practice standards. Not checked in this pass; the clinic procedure governs."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-10.jpg",
+      "alt": "Healthcare cleaning (aged care, medical, dental, NDIS) illustration",
+      "kind": "photo",
+      "origin": "healthcare"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-11.jpg",
+      "alt": "Healthcare cleaning (aged care, medical, dental, NDIS) illustration",
+      "kind": "photo",
+      "origin": "healthcare"
+    }
+  ]
+}

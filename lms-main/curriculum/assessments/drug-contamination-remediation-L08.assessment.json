@@ -1,0 +1,28 @@
+{
+  "lessonId": "drug-contamination-remediation-L08",
+  "knowledgeAnswers": [
+    {
+      "id": "drug-contamination-remediation-L08-K01",
+      "correctIndex": 2,
+      "rationale": "Each item needs its own specialist decision. A blanket request is refused."
+    },
+    {
+      "id": "drug-contamination-remediation-L08-K02",
+      "correctIndex": 0,
+      "rationale": "The reason and the approver are required for an exception."
+    }
+  ],
+  "practicalCriteria": [
+    "For a fictional set of five items, the learner marks which need a specialist decision and holds each one out of use. Pass: each item is classified and held.",
+    "The learner writes a refusal note for a blanket salvage request. Pass: the note refers each item to the specialist path."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Material register (fictional)",
+    "Refusal note (fictional)"
+  ],
+  "stopWorkCriteria": [
+    "A blanket salvage request is made.",
+    "An item is to be reused without a specialist decision."
+  ]
+}

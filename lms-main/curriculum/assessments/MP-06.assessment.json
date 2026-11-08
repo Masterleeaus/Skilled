@@ -1,0 +1,34 @@
+{
+  "lessonId": "MP-06",
+  "knowledgeAnswers": [
+    {
+      "id": "MP-06-K01",
+      "correctIndex": 0,
+      "rationale": "$120,000 AUD multiplied by 0.06 is $7,200 AUD. The distractors are a decimal error ($720 AUD), a 60% reading ($72,000 AUD) and an unrelated figure ($20,000 AUD)."
+    },
+    {
+      "id": "MP-06-K02",
+      "correctIndex": 1,
+      "rationale": "A line holding most of a group's spend cannot be judged until its contents are named and broken down. Accepting, deleting or topping it up skips that check."
+    },
+    {
+      "id": "MP-06-K03",
+      "correctIndex": 0,
+      "rationale": "Monthly comparison shows variances while they can still be corrected. It is a control, not a proof of the original estimate, and it is not set by law."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied planned-sales figure and percentages, the learner calculates the budget total and each line, and the assessor confirms the lines add up to the total.",
+    "From three supplied years of budget and sales, the learner calculates the percentage of sales for each year to two decimal places, and the assessor checks each figure.",
+    "The learner completes a monthly actual-versus-budget table for a supplied set of spend, with the variance in dollars and as a percentage, and the assessor checks each variance."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off stays separate. A quiz pass is not verified practical competence.",
+  "evidenceRequired": [
+    "Budget table with lines, amounts and percentages",
+    "Percentage workings for three years",
+    "Monthly variance table"
+  ],
+  "stopWorkCriteria": [
+    "Stop approving spend on any budget line that has no name or definition."
+  ]
+}

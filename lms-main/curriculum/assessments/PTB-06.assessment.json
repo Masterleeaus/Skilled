@@ -1,0 +1,40 @@
+{
+  "lessonId": "PTB-06",
+  "knowledgeAnswers": [
+    {
+      "id": "PTB-06-K01",
+      "correctIndex": 0,
+      "rationale": "Sender identification and a working unsubscribe are required for commercial electronic messages. A discount code or photo is not a legal requirement."
+    },
+    {
+      "id": "PTB-06-K02",
+      "correctIndex": 0,
+      "rationale": "The ACMA guidance in this lesson sets five business days for acting on opt-out requests."
+    },
+    {
+      "id": "PTB-06-K03",
+      "correctIndex": 1,
+      "rationale": "Buying a list does not remove the duty to confirm consent for each address."
+    },
+    {
+      "id": "PTB-06-K04",
+      "correctIndex": 2,
+      "rationale": "The plan the cadence section gives a note of thanks after a milestone, a birthday card, or a check-in after a long absence as examples of personal touches."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a sample contact list with consent sources, the learner sorts each contact into eligible or not eligible for electronic messages with a reason",
+    "The learner completes a newsletter template with sender identity and a working unsubscribe, and the assessor checks both elements",
+    "The learner records an opt-out and the date it was actioned, within five business days"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Sorted contact list with reasons",
+    "Completed newsletter template",
+    "Opt-out log entry with dates"
+  ],
+  "stopWorkCriteria": [
+    "Stop sending any electronic message to a contact with no consent record",
+    "Stop any message missing the sender identity or unsubscribe option"
+  ]
+}

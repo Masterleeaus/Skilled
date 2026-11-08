@@ -1,0 +1,147 @@
+{
+  "id": "PTB-13",
+  "title": "Setting up the business: name, structure, break-even and cash flow",
+  "courseSlugs": [
+    "pt",
+    "yoga",
+    "massage"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "People starting or restructuring a fitness or massage business",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Pick a trading name and check it for conflicts and implied credentials",
+    "Calculate break-even sessions from fixed costs and contribution per session",
+    "Build a three-month cash-flow view and list the registration, tax and insurance points that have not yet been confirmed"
+  ],
+  "instruction": [
+    {
+      "heading": "Name and brand",
+      "body": "A business name ought to describe the service and be memorable. Check that no other business already uses it, and whether it can be protected as a trade mark. Avoid names that suggest a qualification, accreditation or affiliation you do not hold. A simple logo and a consistent set of colours build credibility more than an elaborate design."
+    },
+    {
+      "heading": "Structure and registrations",
+      "body": "Choose a legal structure, such as sole trader, partnership or company, with advice on liability and tax. An Australian Business Number, GST registration, business insurance and any industry registration are separate questions. On industry registration: an AUSactive page checked on 2026-11-02 describes a route into its Register of Exercise Professionals that requires a relevant qualification, current first aid and agreement to its code."
+    },
+    {
+      "heading": "Break-even and cash flow",
+      "body": "Break-even sessions equal fixed costs divided by the contribution each session makes, where contribution is the session price minus the variable cost of that session. Fixed costs include rent, insurance and software. Variable costs include venue hire per session and consumables. A profitable business can still run short of cash when income arrives late, so build a monthly cash-flow view for at least three months. Sample figures in business plan templates are not used; every figure here is the learner's own."
+    }
+  ],
+  "procedure": [
+    "Shortlist three names and run conflict and implied-credential checks, and do not treat a name as cleared until the trade mark search is done.",
+    "List monthly fixed costs and the variable cost per session.",
+    "Calculate break-even sessions per month: fixed costs divided by contribution per session.",
+    "Build a three-month cash-flow table with the timing of income and payments.",
+    "List every registration, tax and insurance point still to be checked and pass it to an accountant or adviser."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A hypothetical trainer has fixed costs of 1,200 units per month and a contribution of 60 units per session.",
+      "decisionPrompt": "How many sessions a month break even, and what else should the trainer check?",
+      "reasoning": "1,200 divided by 60 is 20 sessions a month. Break-even is not profit. The trainer should also check the cash-flow timing, the GST position and the insurance cost before relying on them. The figures are hypothetical, in units, and are not a benchmark."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet for break-even and cash flow",
+    "Name-check record"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating break-even as profit",
+      "prevention": "Break-even only covers costs; profit comes after."
+    },
+    {
+      "error": "Choosing a name that implies a qualification or affiliation",
+      "prevention": "Check the name against any credential claim before use."
+    },
+    {
+      "error": "Forgetting cash timing",
+      "prevention": "Build a monthly cash-flow view with payment dates."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not grant registration, a licence, an ABN, GST registration, a trade mark or insurance cover.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Industry registration: the AUSactive page checked on 2026-11-02 (https://ausactive.org.au/membership/personal_trainer/) describes a route to its Register of Exercise Professionals.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Check ABN, GST threshold and registration timing against ATO guidance.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each name has a recorded conflict and credential check",
+    "Break-even uses the learner's own figures and is labelled as a calculation",
+    "Every point still to be checked is listed with an owner for checking"
+  ],
+  "documentationEvidence": [
+    "Name check record",
+    "Break-even calculation with inputs",
+    "Three-month cash-flow table",
+    "Checklist of points to check"
+  ],
+  "summary": [
+    "Check the name for conflicts and implied credentials.",
+    "Break-even sessions = fixed costs divided by contribution per session.",
+    "Cash timing matters, so check registration, GST and insurance before relying on them."
+  ],
+  "businessFields": [
+    "{{business:business.name}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PTB-13-K01",
+      "question": "Break-even sessions are calculated as:",
+      "options": [
+        "Fixed costs divided by contribution per session",
+        "Price multiplied by members and the hours worked",
+        "Annual income divided by 12 and the tax paid"
+      ]
+    },
+    {
+      "id": "PTB-13-K02",
+      "question": "Which naming choice does this lesson warn against?",
+      "options": [
+        "A name that describes the service and the area it covers in town",
+        "A name that implies a qualification or affiliation the business does not hold",
+        "A simple logo in one colour, drawn by the owner's relative and printed on the van"
+      ]
+    },
+    {
+      "id": "PTB-13-K03",
+      "question": "Why can a profitable business still run short of cash?",
+      "options": [
+        "Because profit is shown only on the accounts at year end",
+        "Because income can arrive later than costs fall due",
+        "Because break-even is zero"
+      ]
+    },
+    {
+      "id": "PTB-13-K04",
+      "question": "Which of these does the lesson list as a fixed cost?",
+      "options": [
+        "Venue hire per session",
+        "The session price",
+        "Contribution per session",
+        "Rent, insurance and software"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "The Six-figure Trainer Program Manual (15e0a28f-206588649-The-Six-figure-Trainer-Program-Manual.txt), Naming Your Business and Creating A Logo; rights: user-held; reworded (no copying); trade mark advice not adopted",
+    "Personal trainer business plan (79064a6d-655201221-personal-trainer-business-plan.txt), Company Ownership, Startup summary, Break-even and Projected Cash Flow headings only; sample figures not used; rights: user-held; reworded (no copying)",
+    "https://ausactive.org.au/membership/personal_trainer/ checked 2026-11-02 (registration route; requirement UNCONFIRMED); ATO GST threshold: UNCONFIRMED; not checked; IP Australia trade mark search: UNCONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

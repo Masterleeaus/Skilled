@@ -1,0 +1,179 @@
+{
+  "id": "BP-05-cardetail",
+  "title": "Pricing by hours per project for Car detailing",
+  "courseSlugs": [
+    "cardetail"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors who write quotes for cleaning projects and need a price that covers cost and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures",
+    "Estimate project hours, including set-up, travel and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "A detailing job's time moves with the panel count, the paint condition, the interior soil and the travel to a mobile client. Hours make that visible, so you can see the cost, the margin and the effect of a change in scope. No source read for this course gives detailing hours. Vendor price lists give package ranges by vehicle size, which are prices, not time. So the hours on each package must come from your own time logs."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in the same period. Include wages with on-costs such as leave and superannuation where your arrangements need them (business.gov.au, 1 October 2026), vehicle running costs, water and power, polishes, pads, microfibre and coating products as consumables, insurance, administration and premises. Productive hours are chargeable hours on a job, not the paid hours on a roster. If you pay for 40 hours and 30 are chargeable, the cost per productive hour is higher than the hourly wage."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each package into stages, such as a wash, decontamination, paint correction, interior, glass, and protection. Estimate each stage at a standard speed, then add set-up, pack-down, travel between sites and a checking allowance. Xero's guide suggests adding 10 to 20 percent to job estimates for unexpected work (Xero Australia, 3 September 2026). That is a starting range to test against your own records, not a figure sourced for detailing. Record the actual hours for each job and the reason for any difference, and correct the next estimate with it."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the job. Add a margin that reflects your target and the risk in the job, such as a poorly maintained paint surface or a tight return time. A generic Jobber flat-rate example, which is not a detailing example, builds a quote from materials, labour hours times rate, travel, and then a margin: $3,500 of materials, 60 hours at $50 plus $100 of travel, and a 20 percent margin gives $7,920 (Jobber, 30 August 2024, modified 7 August 2025). Use the same build order for a package, with your own figures. Apply your materials policy and minimum charge last."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote states the scope, the hours or price basis, the exclusions, what the client must provide, and how long the quote is valid. Exclusions for this course usually include paint correction beyond the stated stage, heavy pet hair or soil, and any wash-water handling or disposal cost that applies in the state where you work (see the safety section). Do not show the internal cost per hour to the client unless your policy says to. Re-quote when the scope changes."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten jobs of each package. If the variance is consistently above your agreed threshold, change the standard time, the margin or the scope rules. A pricing method is finished only when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the chargeable hours achieved in the same period.",
+    "Divide total costs by chargeable hours to get the cost per productive hour.",
+    "Break each package into stages and estimate each stage time as a range.",
+    "Add set-up, pack-down, travel and checking time as named lines.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy, the wash-water exclusion check and the minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, client inputs and validity.",
+    "Record actual hours after each job and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. A mobile detailer does a Basic-package job on a sedan. The estimate is 4 crew-hours on site, including set-up and checking. The cost per productive hour is $60 AUD (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the cost of the job, what is the price, and does that price sit where the sourced Basic range says it should?",
+      "reasoning": "The cost is 4 crew-hours multiplied by $60 AUD, which is $240 AUD. A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $320 AUD. The sourced Basic range is $120 to $180 depending on vehicle size (Schmicko, vendor source). The illustrative price sits above that range, so the detailer checks three things: whether the job is really a Mid-level package, whether the 4 hours are right, and whether the cost per productive hour includes costs the business does not carry. The gap is the lesson, not a price to publish."
+    },
+    {
+      "situation": "Illustrative: the same sedan turns up with heavy interior soiling. The estimate rises from 4 to 6 crew-hours, and the quote's terms say that interior soiling above a stated level is charged as an extra.",
+      "decisionPrompt": "What is the revised price, and what must be true before the extra is added to the bill?",
+      "reasoning": "Six crew-hours at the illustrative $60 AUD an hour cost $360 AUD. Divided by 0.75, the illustrative price is $480 AUD. The extra can be added only if the quote's terms allow it and the client agreed the change in writing before the extra work started. Otherwise the detailer records the time and reviews the terms for the next quote."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet with package stages and hours",
+    "Time log for each job, with estimated and actual columns",
+    "Rate card showing vehicle size bands",
+    "PPE as listed in {{business:safety.required_ppe}}, and the safety data sheet for each product"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone.",
+      "prevention": "Include on-costs, vehicle, water, consumables, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours.",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel to mobile clients and the time for set-up and checking.",
+      "prevention": "Add these as named lines on every estimate."
+    },
+    {
+      "error": "Quoting without exclusions for paint correction, heavy soiling or wash-water handling.",
+      "prevention": "List what is excluded, what the client provides, such as water and power access, and the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours. Gap: the research found no sourced detailing hour standards.",
+      "prevention": "Record actual hours after each job and review the variance monthly, starting with the first ten jobs of each package."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The ACCC says misleading statements about prices are prohibited under the Australian Consumer Law (ACCC, 15 July 2026). State or territory fair trading rules also apply and differ, so check your state's rules.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Victoria only: a 2007 EPA Victoria guide for mobile detailers says wash water from vehicle washing counts as industrial waste, that detergent washing should use a mobile wash mat, and that discharge to sewer may need a trade waste agreement. The guide is dated and cites an Act that has since been replaced, so check current Victorian law before you price wash-water handling. A 2015 EPA Victoria publication for fixed car repair sites says vehicle washing should happen in a bunded area connected to sewer. It does not cover mobile detailers.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement. Check which one applies to each worker before using any cost figure. This lesson does not state those rates.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten jobs of each package and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Job time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make detailing work visible, so start every package quote from hours.",
+    "Cost per productive hour uses chargeable time, and includes consumables and any wash-water cost that applies.",
+    "Gap: no sourced detailing hours exist in the research, so use your own time logs and check the Victorian wash-water rule before pricing it."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-cardetail-K01",
+      "question": "Which costs belong in the cost per productive hour for a mobile detailer?",
+      "options": [
+        "Only the price the client paid last week",
+        "Wages with on-costs, vehicle, consumables, insurance and administration, divided by chargeable hours",
+        "The average price of other detailers' packages for the year",
+        "Only the cost of the car shampoo"
+      ]
+    },
+    {
+      "id": "BP-05-cardetail-K02",
+      "question": "A Basic job is estimated at 4 crew-hours and takes 7. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid",
+        "Cut the crew's break on the next job to recover the time",
+        "Raise the price for this client only and change nothing else"
+      ]
+    },
+    {
+      "id": "BP-05-cardetail-K03",
+      "question": "Why does a detailing quote need an exclusions list?",
+      "options": [
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To hide the margin from the client",
+        "To make the quote longer",
+        "To lower the client's expectations of the result"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Used for the 10 to 20 percent allowance for unexpected work, stated as a range to test, and for dividing by billable hours.",
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Used for on-costs such as leave and superannuation in the hourly cost.",
+    "Jobber Academy, 'Flat rate vs hourly', https://www.getjobber.com/academy/flat-rate-vs-hourly/, published 30 August 2024, modified 7 August 2025. Generic trade example (not detailing); used for the build order and the example figures.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Used for misleading price statements being prohibited.",
+    "EPA Victoria, 'Reducing Stormwater Pollution: A Guide for Mobile Auto Repairers and Detailers', Publication 988.1, https://www.epa.vic.gov.au/-/media/epa/files/publications/988-1.pdf, August 2007. Dated; used only to show what the guide says, with current law to be checked.",
+    "EPA Victoria, 'Stormwater management for car repair industry', Publication 1333.1, https://www.epa.vic.gov.au/-/media/epa/files/publications/1333-1.pdf, March 2015. Covers fixed sites, not mobile detailers.",
+    "SafeWork SA, 'Safety data sheets', https://safework.sa.gov.au/workplaces/chemicals-and-substances/exposure-to-hazardous-chemicals/safety-data-sheets, published 6 April 2020, modified 7 April 2025. South Australian regulator; used for the duty to hold and use safety data sheets for hazardous chemicals.",
+    "Trade research: /home/claude/tasks/team4-V-specialist-restoration.md, section 1 (car detailing), research date 9 November 2026. Gap: no detailing hours source; award and enterprise agreement coverage not checked."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

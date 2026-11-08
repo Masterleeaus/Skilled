@@ -1,0 +1,169 @@
+{
+  "id": "BP-05-healthcare",
+  "title": "Pricing by hours per project for Healthcare cleaning (aged care, medical, dental, NDIS)",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors who quote cleaning in aged care homes, medical and dental clinics and NDIS-funded settings, and who need a price that covers cost, induction and checking time and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures, including training and PPE costs",
+    "Estimate project hours for a care or clinical site, including induction, set-up, travel between sites and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis, exclusions and what the facility must provide"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "Healthcare sites are scheduled tightly, often outside clinic hours or between care routines. Hours make visible the crew's time, the travel between sites, the induction the facility requires and the checking that the schedule demands. The sample business plan that the base lesson draws on is not a healthcare source, so no healthcare price or hours figure is taken from it. A flat price with no hours behind it hides risk, and it cannot be defended when a facility asks why a job costs what it does."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the chargeable hours in that period. Total cost includes wages with the on-costs your staff arrangements require, such as leave and superannuation (business.gov.au, 1 October 2026), along with vehicle running costs, equipment, consumables, PPE, infection-control training time, insurance, administration and premises. Chargeable hours are the hours a crew spends on billable work, not the paid roster. Billable time is often about 60 to 80 per cent of working hours, a general range from Jobber rather than an Australian figure, so check your own log against it. The cleaning award rates were not retrieved for this course, so confirm which award or enterprise agreement applies to each worker before using any cost figure."
+    },
+    {
+      "heading": "Estimate the hours by room and area",
+      "body": "Break each site into tasks: each treatment room, each bathroom, the waiting area, the high-touch surfaces on the facility's list and any medical equipment on the schedule. Estimate each task at a standard speed, then add set-up, pack-down, travel between sites, the induction the facility requires and a checking allowance. Add a delay allowance for things outside your control, such as late access, staff absence or a changed roster. A general service guide suggests adding 10 to 20 per cent to job estimates for unexpected work (Xero Australia, 3 September 2026). That range is not a healthcare benchmark, so set your own allowance from your job records. After each job, record actual hours and the reason for any difference."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost, then add the delay allowance. Add a margin for the risk in the site, such as after-hours access, a short window between clinic sessions or a list of equipment that needs careful handling. Apply your materials and PPE policy and your minimum charge. The result is a price with a visible basis. If a facility asks for a lower price, show which rooms or hours it is asking you to remove, which keeps the discussion on the work."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote states the scope by area, the hours or price basis, the exclusions (for example, clinical waste handling, sharps, instrument work and any equipment the facility has not authorised), what the facility must provide, the induction and access terms, and how long the quote is valid. Do not show your internal cost per hour unless your policy says to. Re-quote any change to the scope in writing before the work starts."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten jobs of each type, and separate aged care, medical, dental and NDIS-funded sites if the work differs. If the variance is consistently above an agreed threshold, change the standard time, the allowance or the scope rules. The method is finished only when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs, including PPE and training, and the chargeable hours in the same period.",
+    "Divide total costs by chargeable hours to get the cost per productive hour, and date the worksheet.",
+    "Break the site into rooms and areas, and estimate each task at a standard speed.",
+    "Add induction, set-up, pack-down, travel between sites and checking as named lines.",
+    "Add the delay allowance, multiply crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials and PPE policy and the minimum charge.",
+    "Write the quote with scope by area, hours basis, exclusions, facility inputs and validity.",
+    "Record actual hours after each job and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not healthcare rates. A medical suite of about 60 square metres needs an after-hours clean. The estimate is 5 crew-hours, including one hour of induction and checking. The owner's cost per productive hour is $60 AUD (a placeholder, not a market rate). A 10 per cent delay allowance is added, at the low end of the general 10 to 20 per cent range. The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the cost of the job, what is the price with a 25 per cent margin on price, and what changes if the induction takes an extra hour?",
+      "reasoning": "Five crew-hours at $60 AUD is $300 AUD, and a 10 per cent allowance adds $30 AUD, so the cost is $330 AUD. A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $440 AUD. If the induction adds an hour, the crew hours become six, the cost becomes $396 AUD and the price becomes $528 AUD, but only if the quote's induction and access terms allow that time to be charged. The owner checks those terms before adding the time to the bill."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each job, with estimated and actual columns",
+    "Measuring tape or laser measure for area estimates",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, PPE, training, vehicle, equipment, consumables, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out induction, travel between sites and checking time",
+      "prevention": "Add these as named lines on every estimate."
+    },
+    {
+      "error": "Quoting with no exclusions",
+      "prevention": "List what is excluded, including clinical waste and sharps unless the facility's procedure sets them, what the facility provides, and the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each job and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The Australian Consumer Law applies to pricing statements, and misleading statements about prices are prohibited (ACCC, 15 July 2026). State or territory fair trading rules also apply. This lesson gives no healthcare rate, because the research did not find one.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement. The cleaning award rates were not retrieved for this course. Check the instrument that applies to each worker before using any cost figure.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope by area, hours or price basis, exclusions, facility inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten jobs of each type and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Job time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make the work visible, so start every quote from the rooms and hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Induction, travel and checking time are named lines, not hidden extras.",
+    "Compare estimates with actual hours, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-healthcare-K01",
+      "question": "Which costs belong in the cost per productive hour for a healthcare cleaning business?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the client pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of competitors in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, equipment, consumables, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-healthcare-K02",
+      "question": "A medical suite job is estimated at 5 crew-hours and takes 8. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid and the crew has finished",
+        "Reduce paid hours for the crew on the next job and skip the morning break",
+        "Raise the price for this client's next job only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-healthcare-K03",
+      "question": "Why does a quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client and to keep the rates a secret from the crew",
+        "To make the quote longer and to fill up the page with more text and words for the client",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the client's expectations and to make the job seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Used for: on-costs such as leave and superannuation in the hourly cost. Source: team4-R-hourly-rate-tactics.md, A1.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, page last modified 15 July 2026. Used for: misleading price statements are prohibited. Source: team4-R-sol03-tactics.md, tactic 11.",
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Used for: divide by billable hours; 10 to 20 per cent allowance for unexpected work; set allowance for delays. Source: team4-R-pricing-hours-tactics.md, items 3 to 5.",
+    "Jobber Academy, 'What are billable hours', https://getjobber.com/academy/what-are-billable-hours/, published 5 November 2024, last modified 20 July 2026. Used for: billable time about 60 to 80 per cent of working hours; general range, not Australian. Source: team4-R-hourly-rate-tactics.md, A4.",
+    "Markel Direct, 'How to price a job as a tradesperson', https://www.markeluk.com/knowledge-centre/how-to-price-a-job-as-a-tradesperson, dated 12 August 2026. Used for: list every task before estimating hours. Source: team4-R-pricing-hours-tactics.md, item 1.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. Used for: use the gap between estimated and actual labour to correct the next quote. New Zealand publisher; general method only. Source: team4-R-pricing-hours-tactics.md, item 2."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

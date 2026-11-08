@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {buildIndex} from './reconcile-lesson-formats.mjs';
+import {createQueue,csv} from './build-curriculum-review-queue.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const index=buildIndex();const queue=createQueue(index);
+let count=0;const check=(condition,message)=>{assert.ok(condition,message);count++};
+check(index.total===1016,'all 1016 drafts indexed');
+check(queue.summary.requiringReview===index.lessons.filter(x=>x.reviewBlockers.length).length,'queue includes exactly blocked lessons');
+check(queue.summary.byPriority.P0+queue.summary.byPriority.P1+queue.summary.byPriority.P2===queue.lessons.length,'priority totals reconcile');
+check(queue.lessons.every(x=>x.publicationApproved===false&&x.reviewStatus==='needs-human-review'),'no auto-approval');
+check(queue.lessons.every(x=>/^[a-f0-9]{64}$/.test(x.sourceHash)),'source hashes recorded');
+check(queue.lessons.every(x=>fs.existsSync(path.join(root,x.sourceFile))),'source references exist');
+check(queue.lessons.every(x=>x.issues.length===x.suggestedAction.length),'every issue has suggested remediation');
+check(queue.lessons.every(x=>x.issues.length>0),'no clean lessons in queue');
+check(new Set(queue.lessons.map(x=>x.id)).size===queue.lessons.length,'unique lesson IDs');
+check(queue.lessons.every(x=>x.priority==='P2'),'course-mapping blockers rank P2');
+check(queue.lessons.every((x,i)=>i===0||({P0:0,P1:1,P2:2}[queue.lessons[i-1].priority]<={P0:0,P1:1,P2:2}[x.priority])),'priority order stable');
+check(csv(queue).split('\n').length===queue.lessons.length+2,'CSV row count');
+check(fs.readFileSync(path.join(root,'curriculum/lesson-review-queue.json'),'utf8')===JSON.stringify(queue,null,2)+'\n','generated JSON reproducible');
+check(fs.readFileSync(path.join(root,'curriculum/lesson-review-queue.csv'),'utf8')===csv(queue),'generated CSV reproducible');
+console.log(`${count} runtime assertions passed; ${queue.lessons.length} lessons queued`);

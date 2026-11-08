@@ -1,0 +1,178 @@
+{
+  "id": "PFM-02",
+  "title": "Pump and filter installation checks",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 50,
+  "audience": "Pool service technicians who check or assist with the installation of a pump and sand filter on a pool",
+  "prerequisites": [
+    "PFM-01"
+  ],
+  "learningOutcomes": [
+    "Check the base, placement and access for a pump and filter before the unit is connected",
+    "Confirm that the filter sand, the valve and the clamp match the manufacturer's specification",
+    "Use thread sealant and fittings that suit plastic pipe and avoid petroleum-based products",
+    "Refuse to connect the unit to any pump that exceeds the filter or the valve pressure limit"
+  ],
+  "instruction": [
+    {
+      "heading": "Siting and access",
+      "body": "The manual asks for a level, firm base, near the pool, with room and light for routine maintenance. A sand filter holding water and media is heavy, so plan the lift and use help and suitable equipment. Keep electrical controls off the filter. Whoever starts the pump must be able to move away from the filter before it runs."
+    },
+    {
+      "heading": "Media and internal parts",
+      "body": "Use only the sand type the manufacturer names, in the quantity on the nameplate. Substituting other media changes how the filter performs and is not allowed. Before pouring sand, check the underdrain at the base for cracked or loose laterals, which can be damaged in transit. Half fill the tank with water first, pour the sand slowly so that its weight does not break the laterals, and take out the sand guide once the level is right. Wipe any sand off the upper section of the tank, plus the valve seat."
+    },
+    {
+      "heading": "Valve seating and clamp",
+      "body": "Place the valve on the tank flange with its o-ring in position, orienting it so the ports face where you need them. Push the valve fully down so the two flanges meet. Fit the plastic clamp across both flanges, seating the screws and nuts in the retainer slots. Tighten the clamp screws and check the joint by eye. The manual warns that a badly assembled tank valve can come off and cause serious injury or damage, so check the clamp before every start."
+    },
+    {
+      "heading": "Ports, pressure ceiling and fittings",
+      "body": "Each valve port is marked for its connection: pump discharge to the pump port, waste line to the waste port, pool return to the return port. The nameplate gives the top working pressure, and the manual forbids connecting the filter or its valve to any pump that could exceed it. Use sealant on tapered pipe threads, but only a type suited to plastic. Avoid petroleum-based products. Tighten threaded fittings by hand and then a small further turn, without forcing them, because tapered plastic threads crack under excess force. Fit the pressure gauge in the port opposite the pump port. The suction line should be no narrower than the pump inlet."
+    },
+    {
+      "heading": "Chemical storage distance",
+      "body": "The manual asks that pool chemicals never be stored within a stated distance of the pump, filter or valve, and that they be kept cool, dry and well ventilated. Fumes and spills from chemicals corrode filter and pump parts, and weakened parts can come loose. The distance in the manual is product-specific and is not used here."
+    }
+  ],
+  "procedure": [
+    "Confirm the base is level and solid, and the unit can be reached for maintenance.",
+    "Confirm the filter model, the nameplate maximum pressure and the sand type and quantity.",
+    "Check the underdrain laterals before sand is added. Replace any broken part.",
+    "Fill the tank part way with water, add the sand slowly, and remove the sand guide.",
+    "Seat the valve, check the o-ring and flange alignment, fit the clamp and tighten the screws.",
+    "Connect the ports as labelled, using the correct sealant and fittings, without over-tightening.",
+    "Confirm the pump is no stronger than the filter and its valve maximum pressure.",
+    "Confirm the chemical storage location meets the separation rule and record it.",
+    "Record every check and any part replaced before start-up."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The installer proposes a pump larger than the filter's nameplate maximum pressure, because it is the one in the shed.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Refuse the connection. The manual says the filter and its valve must never be connected to a pump that can exceed their operating pressure. Record the mismatch, the nameplate figure and the pump details, and refer the choice to the supplier or the manufacturer."
+    },
+    {
+      "situation": "A plumber uses a petroleum-based jointing product on the threads of the valve connections.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Stop the work on those connections. The manual prohibits petroleum-based products and requires sealant suited to plastic. Replace the jointing product with one suited to plastic, check the connection, and record the change."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Manufacturer manual and filter nameplate",
+    "Sand of the type and quantity the manufacturer names",
+    "Sealant suited to plastic pipe, and plastic-compatible fittings",
+    "Gloves and eye protection for sand and sealant",
+    "Lifting aid or helper for the tank and sand",
+    "Torque or hand-tightening check on fittings"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a sand type or quantity not named by the manufacturer",
+      "prevention": "Use only the media and quantity on the nameplate and in the manual."
+    },
+    {
+      "error": "Connecting a pump that exceeds the filter maximum pressure",
+      "prevention": "Compare the pump rating with the nameplate before connection and refuse a mismatch."
+    },
+    {
+      "error": "Over-tightening valve or pipe threads",
+      "prevention": "Hand-tighten with sealant and a small turn only."
+    },
+    {
+      "error": "Storing chemicals too close to the equipment",
+      "prevention": "Check the separation rule and record the storage location."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A badly assembled tank valve can make the valve to come off and cause serious injury or damage to property. Check the clamp and the seal before every start-up.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not operate the filter or the valve beyond the top operating pressure on the nameplate. Never connect the unit to any pump that can exceed that pressure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Avoid petroleum-based products on connections. Use sealant suited to plastic and avoid over-tightening tapered threads.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemical fumes and spills cause corrosive attack. Store chemicals a set distance from the filter unit, pump, and valve, in a ventilated place that stays cool and dry.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do avoid mounting electrical controls above the filter. The person starting the pump must be able to move away.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson grants no licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The filter model, nameplate pressure and sand specification are recorded before assembly.",
+    "The clamp, o-ring and port connections are checked and recorded before start-up.",
+    "The pump rating is confirmed as no greater than the filter and its valve maximum."
+  ],
+  "documentationEvidence": [
+    "Installation check record with model, nameplate pressure, sand type and quantity",
+    "Record of sealant, fittings and clamp checks",
+    "Chemical storage location check"
+  ],
+  "summary": [
+    "Use only the sand and fittings the manufacturer names.",
+    "Never connect a pump that can exceed the filter or the valve maximum pressure.",
+    "Check the clamp and seal before start-up, because an unseated valve can blow off."
+  ],
+  "businessFields": [
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PFM-02-K01",
+      "question": "A pump rated higher than the filter's nameplate maximum pressure is offered for connection. What is the correct action?",
+      "options": [
+        "Connect it and start the motor slowly and watch the gauge for a minute",
+        "Remove the nameplate so the mismatch is not recorded and fit the pump anyway",
+        "Connect it, since the pump is the stronger one and the filter can take the extra load",
+        "Refuse the connection and refer the mismatch to the supplier or manufacturer"
+      ]
+    },
+    {
+      "id": "PFM-02-K02",
+      "question": "Which sealant is correct for the threaded connections of a plastic pool filter?",
+      "options": [
+        "A sealant suited to plastic pipe, used on tapered threads without over-tightening",
+        "No sealant, with the fittings tightened as hard as possible and a rubber washer",
+        "A petroleum-based jointing product and it is left to set overnight",
+        "Any household tape with the fittings tightened fully and a drop of oil"
+      ]
+    },
+    {
+      "id": "PFM-02-K03",
+      "question": "What must be checked before a tank valve is started?",
+      "options": [
+        "The sand has been replaced with gravel and the filter has been rinsed",
+        "The clamp and the seal are correctly assembled and the joint is visually checked",
+        "The gauge has been removed for transport and the pump has been left running",
+        "The filter was drained of water and the lid was left off until the end"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section B Installation (placement, sand specification and quantity, underdrain check, valve assembly, clamp, ports, pressure limit, sealant, chemical storage distance); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), cross-checked against section C item 3 and the chemical storage points in section B; rights: user-held; reworded (no copying); checked 2026-11-02. Both point to the same chemical storage separation principle.",
+    "UNCONFIRMED: Australian requirements for pressure equipment installation, plumbing, chemical storage separation and sand specification. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

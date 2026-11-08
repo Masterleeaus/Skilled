@@ -1,0 +1,25 @@
+{
+  "pass": 8,
+  "modified": [
+    "lms-main/apps/backend/prisma/schema.prisma",
+    "lms-main/apps/backend/src/modules/curriculum/curriculum.routes.ts"
+  ],
+  "added": [
+    "lms-main/PASS8-TENANCY-NOTES.md",
+    "lms-main/apps/backend/prisma/migrations/20261102080000_academy_organisations_training/migration.sql"
+  ],
+  "removed": [],
+  "modified_line_diffs": [
+    [
+      "lms-main/apps/backend/prisma/schema.prisma",
+      46,
+      0
+    ],
+    [
+      "lms-main/apps/backend/src/modules/curriculum/curriculum.routes.ts",
+      56,
+      0
+    ]
+  ],
+  "verification": "source and archive only; no database or compiler runtime"
+}

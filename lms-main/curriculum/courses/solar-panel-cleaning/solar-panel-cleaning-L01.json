@@ -1,0 +1,237 @@
+{
+  "id": "solar-panel-cleaning-L01",
+  "title": "Client permissions and system ownership",
+  "courseSlugs": [
+    "solar"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Trainees and workers on the solar panel cleaning track, and quoting staff who take bookings for PV array cleaning. Completing this lesson does not grant electrical, roof-work or cleaning licences.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Identify who must give permission for roof or ground access to a PV array, and record that permission.",
+    "Explain why occupancy and system ownership can differ, and why both must be considered before a job is booked.",
+    "Apply a hold or referral decision to a booking where permission, warranty or licence questions are unresolved."
+  ],
+  "referencesAtStart": "Official sources for this lesson: Energy Safe Victoria, Safely installing photovoltaic (PV) systems (reviewed 15 April 2025); NSW Government, Installing solar panels (last updated 19 October 2026); ACCC, Consumer rights and guarantees (no date visible on the page; page metadata shows 17 July 2026).",
+  "instruction": [
+    {
+      "heading": "Official sources (start of lesson)",
+      "body": "Official sources for this lesson: Energy Safe Victoria, Safely installing photovoltaic (PV) systems (page date: Reviewed 15 April 2025); NSW Government (nsw.gov.au), Installing solar panels (page date: Last updated 19 October 2026); Australian Competition and Consumer Commission (ACCC), Consumer rights and guarantees (page date: No date visible on the page (page metadata shows 17 July 2026))."
+    },
+    {
+      "heading": "Who must give permission",
+      "body": "A solar array is usually fixed to a roof or a ground frame that belongs to someone, and the array may belong to a different person. Before a cleaning job is booked, identify the owner of the property, the person who controls access to the roof or the ground, and the owner of the array. The property owner and any person who controls the roof or the system should confirm the job in writing. A booking taken from a tenant, an agent or a phone call alone does not establish that the owner has agreed to roof access or to any work on the system."
+    },
+    {
+      "heading": "Ownership is not the same as occupancy",
+      "body": "An occupant may live in a house where the array is owned by a finance company, a body corporate, a previous occupant or an energy services provider. In those cases, the owner's consent and any terms of the arrangement may matter. Do not assume that the person paying the invoice owns the system. Record each party, the basis on which you believe they have authority, and the approval you received. Where ownership cannot be confirmed, hold the booking."
+    },
+    {
+      "heading": "Warranty and manufacturer conditions",
+      "body": "Manufacturer instructions and warranty conditions may restrict the cleaning methods, products or equipment that are acceptable for a model of panel. Ask the customer for the model reference or the installer's documents, and check the manufacturer's cleaning instructions before a method is approved. Under the ACCC's consumer guidance (page metadata dated 17 July 2026; no date visible), the basic consumer guarantees stay in force whatever a business states, and a manufacturer's warranty adds promises above those guarantees. The worker does not certify that a warranty is valid or void."
+    },
+    {
+      "heading": "Licence questions to resolve before booking",
+      "body": "Victorian guidance treats PV installation and maintenance as electrical installation work that licensed electrical workers perform (Energy Safe Victoria page reviewed 15 April 2025). Before booking, confirm that the job will not involve electrical work, switching, isolation, inverter or battery work. If the customer asks for any of these, record the request and refer it to a licensed person."
+    },
+    {
+      "heading": "Hold and refer",
+      "body": "Write the hold notice with the missing approval, the person who must give it, and the date. Do not schedule the job until the approval is recorded."
+    },
+    {
+      "heading": "Licence and authority boundary",
+      "body": "Licence notice: This lesson does not grant an electrical licence, a solar installation licence or any authority to access a roof, switch or isolate a PV system, or make a warranty statement."
+    },
+    {
+      "heading": "Official sources (end of lesson)",
+      "body": "Official sources for this lesson (end): Energy Safe Victoria, Safely installing photovoltaic (PV) systems (page date: Reviewed 15 April 2025); NSW Government (nsw.gov.au), Installing solar panels (page date: Last updated 19 October 2026); Australian Competition and Consumer Commission (ACCC), Consumer rights and guarantees (page date: No date visible on the page (page metadata shows 17 July 2026))."
+    }
+  ],
+  "procedure": [
+    "Identify the property owner, the person who controls roof or ground access, and the owner of the array.",
+    "Record each party and the approval given, in writing, with the date.",
+    "Ask for the array model and the installer's documents, and check the manufacturer's cleaning instructions and any warranty conditions.",
+    "Confirm that the job does not include electrical work, switching, isolation, inverter or battery work.",
+    "Hold the booking if any approval, ownership detail or warranty instruction is missing.",
+    "Refer any electrical, defect or warranty question to the appropriate person in writing.",
+    "Record the booking decision, the approvals and the outstanding items."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A tenant books a solar panel clean for a rented house and says the landlord has agreed. The tenant does not know who owns the array.",
+      "decisionPrompt": "Can the booking be confirmed?",
+      "reasoning": "Hold the booking. The tenant's statement is not the landlord's written approval, and the array's owner is unknown. Ask the landlord, the agent and, if known, the array owner to confirm access and ownership in writing. Record the hold, the missing approvals and the person who must give them. Do not schedule the job until the approvals are on file."
+    },
+    {
+      "situation": "A customer asks the cleaner to check the inverter because the output seems low and to say whether the clean will restore output.",
+      "decisionPrompt": "How should this be handled?",
+      "reasoning": "Record the request and refer it. Inverter checks, energy-output testing and system repair are outside this course, and energy-output claims are not offered. The cleaner may state that the request is outside the cleaning scope and refer the customer to a licensed electrician or the installer."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Booking form with fields for owner, roof controller and array owner",
+    "Written approval template for roof or ground access",
+    "Manufacturer and warranty reference record for the array model",
+    "Hold notice and referral template"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming the person paying the invoice owns the system.",
+      "prevention": "Confirm ownership and approval separately, in writing."
+    },
+    {
+      "error": "Accepting a verbal booking as approval for roof access.",
+      "prevention": "Hold the booking until the written approval is on file."
+    },
+    {
+      "error": "Stating that the clean will not affect the warranty.",
+      "prevention": "Check the instructions, record them, and refer warranty questions. Do not certify."
+    },
+    {
+      "error": "Taking on an inverter or electrical request at the same time as a clean.",
+      "prevention": "Record the request and refer it, because it is outside the cleaning scope."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Victorian guidance treats PV installation and maintenance as electrical installation work (Energy Safe Victoria, reviewed 15 April 2025).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Licence notice: This lesson does not grant an electrical licence, solar installation licence, roof-work authority or warranty certification.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Check the manufacturer's instructions for each model before approving a method.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The property owner, roof controller and array owner are identified, and each approval is recorded in writing.",
+    "The manufacturer instructions and warranty conditions are checked before a method is approved, or recorded as unknown.",
+    "No electrical, switching or warranty statement is made to the customer.",
+    "The booking is held until all approvals are on file."
+  ],
+  "documentationEvidence": [
+    "Booking record with the owner, roof controller and array owner named",
+    "Written approval for roof or ground access",
+    "Model reference and manufacturer instruction record",
+    "Hold or referral record with the outstanding approval"
+  ],
+  "summary": [
+    "Permission for roof or ground access must be confirmed in writing by the people who control it.",
+    "Occupancy and ownership of the array can differ, so confirm both.",
+    "Check manufacturer and warranty conditions before approving a method, and do not certify a warranty.",
+    "This lesson grants no electrical, solar installation or roof-work licence or authority."
+  ],
+  "businessFields": [
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:customers.access_instructions}}",
+    "{{business:procedures.prestart_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "solar-panel-cleaning-L01-K01",
+      "question": "Before a PV array clean is booked, who must confirm permission for roof or ground access?",
+      "options": [
+        "Only the installer's sales team, by phone or email on the day of the clean today",
+        "The property owner and any person who controls the roof or the system, in writing",
+        "The electricity retailer's call centre by phone only, with a note on file",
+        "Nobody, if the panels look clean from the ground, the path, the roof and the drive"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L01-K02",
+      "question": "Which statement about system ownership is correct?",
+      "options": [
+        "The worker can assume the customer owns the panels on the roof they live under today",
+        "Ownership does not matter for a clean on the roof of any home or building at all",
+        "Ownership may differ from occupancy, and the owner's permission must be confirmed",
+        "Ownership is always shown on the roof of the house in plain view to the worker"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L01-K03",
+      "question": "Before approving a cleaning method, what must the worker check?",
+      "options": [
+        "Only the customer's preference for the look of the panels and the finish they want",
+        "The colour of the frame, the mounting brackets and the roof tiles below them today",
+        "The number of panels only, counted from the ground at the site on the day of the job",
+        "The manufacturer's cleaning instructions and any warranty conditions for the model"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L01-K04",
+      "question": "Which statement about licensing for solar panel cleaning is correct in this draft?",
+      "options": [
+        "This course grants no electrical licence, and the worker must check cleaning licence rules for each state",
+        "A cleaning worker may isolate the array if the customer agrees to it in writing on the day of the clean",
+        "Completing this lesson grants an electrical licence for solar work in every state and territory",
+        "A solar cleaning licence is confirmed in every state and territory of the country already"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L01-K05",
+      "question": "A customer asks the worker to fix a wiring fault and to quote on the spot. What is the correct response?",
+      "options": [
+        "Quote the work on the spot, including the electrical repair",
+        "Record the request, and refer electrical, warranty or defect questions",
+        "Tell the customer the panels are compliant with all the rules on the site",
+        "Ignore the request and carry on with the clean as planned for the day"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "research/topics/solar.md sections 1, 2, 5 and 7 (draft brief, checked 2026-11-02): manufacturer and warranty conditions UNCONFIRMED; out-of-scope list",
+    "research/trades/LICENCE-MATRIX.csv VIC-20 (UNCONFIRMED), VIC-24 (CONFIRMED), NSW-09 (UNCONFIRMED), QLD-12 (UNCONFIRMED), checked 2026-11-02",
+    "Energy Safe Victoria, Safely installing photovoltaic (PV) systems: https://www.energysafe.vic.gov.au/industry-guidance/electrical/electrical-technical-information/safely-installing-photovoltaic-pv (READ, checked 2026-11-02)",
+    "solar-panel-cleaning-research-pass100.json (PRIOR, draft pending expert review; desk-based boundary)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Safely installing photovoltaic (PV) systems",
+      "url": "https://www.energysafe.vic.gov.au/industry-guidance/electrical/electrical-technical-information/safely-installing-photovoltaic-pv",
+      "pageDate": "Reviewed 15 April 2025",
+      "checked": "2026-11-03",
+      "covers": "Energy Safe Victoria PV technical information page; check the Reviewed date shown on the page. Publisher: Energy Safe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Installing solar panels",
+      "url": "https://www.nsw.gov.au/housing-and-construction/compliance-and-regulation/installing-solar-panels",
+      "pageDate": "Last updated 19 October 2026",
+      "checked": "2026-11-03",
+      "covers": "nsw.gov.au solar page; it covers installation and wiring, but not cleaning or isolation. Publisher: NSW Government (nsw.gov.au)."
+    },
+    {
+      "id": "R3",
+      "title": "Consumer rights and guarantees",
+      "url": "https://www.accc.gov.au/business/selling-products-and-services/consumer-rights-and-guarantees",
+      "pageDate": "No date visible on the page (page metadata shows 17 July 2026)",
+      "checked": "2026-11-03",
+      "covers": "ACCC consumer guarantees pages; check state fair trading rules for specific services. Publisher: Australian Competition and Consumer Commission (ACCC)."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Official sources for this lesson (end): Energy Safe Victoria, Safely installing photovoltaic (PV) systems (reviewed 15 April 2025); NSW Government, Installing solar panels (last updated 19 October 2026); ACCC, Consumer rights and guarantees (no date visible on the page; page metadata shows 17 July 2026).",
+  "images": [
+    {
+      "src": "/academy/library/photos/exterior-cleaning/pressure-photo-39826191-01.jpg",
+      "alt": "Solar panel cleaning illustration",
+      "kind": "photo",
+      "origin": "solar"
+    },
+    {
+      "src": "/academy/library/photos/exterior-cleaning/pressure-photo-39826191-02.jpg",
+      "alt": "Solar panel cleaning illustration",
+      "kind": "photo",
+      "origin": "solar"
+    }
+  ]
+}

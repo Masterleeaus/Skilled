@@ -1,0 +1,40 @@
+{
+ "lessonId": "PFM-06",
+ "knowledgeAnswers": [
+  {
+   "id": "PFM-06-K01",
+   "correctIndex": 3,
+   "rationale": "The manual requires replacement of corroded or bent components, which can otherwise blow off under pressure."
+  },
+  {
+   "id": "PFM-06-K02",
+   "correctIndex": 0,
+   "rationale": "The manual permits silicone grease or soapy solution and forbids petroleum-based products."
+  },
+  {
+   "id": "PFM-06-K03",
+   "correctIndex": 1,
+   "rationale": "The manual advises a dry or weatherproof location and warns that wrapping the motor in plastic can trap condensation."
+  }
+ ],
+ "practicalCriteria": [
+  "Each component is inspected and each finding is recorded with a decision to keep, replace or refer",
+  "Valve top replacement follows the stated order, uses the correct lubricant and is tightened in a crossing sequence without over-tightening",
+  "Pressure is shown to be relieved before service begins",
+  "Shutdown steps are recorded against the operator's written instruction"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Inspection and replacement record from one supervised service",
+  "Photo of the valve seal surface where the owner agrees",
+  "Assessor observation sign-off"
+ ],
+ "stopWorkCriteria": [
+  "Filter serviced while pressurised",
+  "Petroleum-based lubricant used on valve parts",
+  "Over-tightened valve top or a cracked component left in service",
+  "Motor wrapped in plastic or non-propylene-glycol antifreeze used"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}
