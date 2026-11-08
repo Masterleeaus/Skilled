@@ -55,7 +55,7 @@ export function inventory({ root = workspace, repo = repoRoot } = {}) {
     for (const specifier of importSpecifiers(source)) {
       const resolved = specifier.startsWith('.') ? path.resolve(path.dirname(file), specifier) : null;
       const normalized = resolved && rel(root, resolved);
-      const matches = rules.filter(rule => normalized && (normalized === rule.dir || normalized.startsWith(rule.dir + '/')));
+      const matches = rules.filter(rule => normalized && (normalized === rule.dir || normalized.startsWith(rule.dir + '/')) && !(from === rule.dir || from.startsWith(rule.dir + '/')));
       if (matches.length) imports.push({ file: from, specifier, targets: matches.map(x => x.label) });
     }
   }
