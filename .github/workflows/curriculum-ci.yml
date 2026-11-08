@@ -61,7 +61,7 @@ jobs:
 
       - name: Generate read-only legacy branding inventory (issue 86)
         if: always()
-        run: node scripts/audit-curriculum-brand.mjs --report build/issue-86-brand-inventory.json
+        run: node scripts/audit-curriculum-brand.mjs --report build/issue-86-brand-inventory.json --fail-on-learner
 
       - name: Run curriculum CI gate
         if: always()
