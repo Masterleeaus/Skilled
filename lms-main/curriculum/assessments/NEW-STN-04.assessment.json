@@ -1,0 +1,41 @@
+{
+  "lessonId": "NEW-STN-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STN-04-K01",
+      "correctIndex": 3,
+      "rationale": "The control hierarchy places engineering controls such as wet methods, extraction and isolation before personal protective equipment."
+    },
+    {
+      "id": "NEW-STN-04-K02",
+      "correctIndex": 0,
+      "rationale": "A fan moves dust around the room and does not capture it at its source, so it is not a dust control for honing."
+    },
+    {
+      "id": "NEW-STN-04-K03",
+      "correctIndex": 1,
+      "rationale": "Compressed air is named as a method that must not be used to clean surfaces or clothing, because it spreads the dust."
+    },
+    {
+      "id": "NEW-STN-04-K04",
+      "correctIndex": 2,
+      "rationale": "A failed water feed means the wet method has stopped. The cut stops, the method is restored and the dust control is checked before work continues."
+    }
+  ],
+  "practicalCriteria": [
+    "Sets up the water feed or extraction at the point of cut before the first pass",
+    "Keeps the wet method running for the whole pass and at each grit change",
+    "Cleans up with approved methods only",
+    "Records the equipment and water checks"
+  ],
+  "passRule": "Knowledge checks: 4 of 5 correct (80%). Practical sign-off is separate and is not granted by the knowledge check: an assessor must observe every critical practical criterion and record it.",
+  "evidenceRequired": [
+    "Equipment and extraction record with make, model and rating",
+    "Water flow check before start and at each grit change"
+  ],
+  "stopWorkCriteria": [
+    "Wet method or extraction not running",
+    "Area not isolated where other people are nearby",
+    "The only cleaning method available is dry or uses compressed air"
+  ]
+}

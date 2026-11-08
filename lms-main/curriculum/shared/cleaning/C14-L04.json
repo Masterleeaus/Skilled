@@ -1,0 +1,144 @@
+{
+  "id": "C14-L04",
+  "title": "Removable components",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who remove and clean racks, filters, trays and other removable appliance parts.",
+  "prerequisites": [
+    "C14-L01"
+  ],
+  "learningOutcomes": [
+    "Identify which removable parts the manufacturer allows a cleaner to remove.",
+    "Remove and clean removable parts without damaging seals, fittings or wiring.",
+    "Stop before any step that needs tools, dismantling or a technician."
+  ],
+  "instruction": [
+    {
+      "heading": "Which parts come out",
+      "body": "Racks, shelves, trays, crumb trays, grease filters and some door panels are commonly removable by the user. Whether a specific part can be removed is set by the manufacturer's guidance and the work order. A part that is held by screws, clips that need force, or a fixed connection is not removed by a cleaner unless the procedure says so. When you are unsure, leave the part where it is and check."
+    },
+    {
+      "heading": "Removing and cleaning without damage",
+      "body": "Remove parts carefully, supporting heavy items and keeping track of small fittings. Clean removable parts at a sink or in a suitable area away from electrical controls, and dry them before they are refitted. Do not force a part out of its housing. Check seals and gaskets for tears or deformation and report them."
+    },
+    {
+      "heading": "Stopping before dismantling",
+      "body": "Stop before any step that requires tools, dismantling the appliance, removing a panel, or disconnecting a wire or hose. These steps are beyond routine cleaning. Record the part that you could not safely remove, and escalate to the supervisor for the appropriate person."
+    }
+  ],
+  "procedure": [
+    "Check the manufacturer's guidance and the work order for removable parts.",
+    "Remove only the parts that are user-removable, supporting heavy items.",
+    "Clean removable parts away from electrical controls, and dry them before refitting.",
+    "Check seals and gaskets for damage and report any defect.",
+    "Stop before any step requiring tools, dismantling, panel removal or disconnection."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A rangehood filter is removable, but the housing behind it is held by screws and a wiring connection is visible.",
+      "decisionPrompt": "What do you remove?",
+      "reasoning": "Remove only the filter, since it is user-removable. Leave the housing and the wiring alone, because they need tools and a licensed person. Record that the housing was not cleaned and why."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Sink or suitable cleaning area for removable parts.",
+    "Non-scratching cleaning tools and approved products.",
+    "Gloves and eye protection as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Forcing a part out of its housing.",
+      "prevention": "If a part does not come out easily, stop and check the guidance."
+    },
+    {
+      "error": "Refitting a part while it is still wet.",
+      "prevention": "Dry parts fully before refitting."
+    },
+    {
+      "error": "Dismantling the housing to clean behind it.",
+      "prevention": "Stop. Dismantling is beyond routine cleaning."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In Victoria, electrical installation work is carried out under an electrical licence from Energy Safe Victoria. A cleaner must not open, disconnect, repair or alter fixed electrical equipment or wiring. This lesson grants no electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Dismantling a fixed appliance and disconnecting its services is not routine cleaning. This lesson does not authorise it.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Only user-removable parts removed in the practical, with heavy items supported.",
+    "Parts dried before refitting, and seals checked.",
+    "Dismantling step stopped and escalated."
+  ],
+  "documentationEvidence": [
+    "Record of removable parts cleaned and parts left in place.",
+    "Defect report for any damaged seal or gasket."
+  ],
+  "summary": [
+    "Remove only what the manufacturer and the work order allow.",
+    "Clean removable parts away from controls, and dry before refitting.",
+    "Stop before any dismantling or disconnection."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C14-L04-K01",
+      "question": "A part will not come out of its housing without force. What do you do?",
+      "options": [
+        "Stop and check the guidance, because the part may be fixed",
+        "Pull the part with steady force, then check it for damage later",
+        "Remove the housing screws and lift the cover off straight away"
+      ]
+    },
+    {
+      "id": "C14-L04-K02",
+      "question": "When can a removable part be refitted?",
+      "options": [
+        "Straight after washing",
+        "When it is fully dry",
+        "When no one is looking"
+      ]
+    },
+    {
+      "id": "C14-L04-K03",
+      "question": "A step needs a screwdriver to open the housing. What is the correct decision?",
+      "options": [
+        "Open it and clean behind the panel now that it is open",
+        "Open it only if the client agrees in writing",
+        "Stop, because dismantling is beyond routine cleaning"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and manufacturer review.",
+    "UNCONFIRMED: state and territory electrical rules for appliance disconnection."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electricians licence (Energy Safe Victoria)",
+      "url": "https://www.energysafe.vic.gov.au/licensing/electrical-licences/licence-types/electricians-licence-aae",
+      "pageDate": "Reviewed 30 June 2025 (no 'last updated' label on the page)",
+      "checked": "2026-11-03",
+      "covers": "Says the holder of this licence can perform electrical installation work in Victoria, and that the licence allows electrical installation work as an employee. Says the licence does not allow the holder to contract for electrical installation work for profit or reward. The page was reviewed on 30 June 2025. Publisher: Energy Safe Victoria."
+    }
+  ]
+}

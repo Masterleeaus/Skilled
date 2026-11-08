@@ -1,0 +1,39 @@
+{
+  "lessonId": "NHS-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NHS-02-K01",
+      "correctIndex": 1,
+      "rationale": "A deep clean is enhanced work that runs alongside routine cleaning, which continues. Option 0 wrongly replaces routine cleaning; option 2 wrongly stops routine work until the deep clean ends."
+    },
+    {
+      "id": "NHS-02-K02",
+      "correctIndex": 1,
+      "rationale": "A worn finish that keeps collecting soil is a finish defect. Record it and request repair or replacement. More scrubbing (option 0) drives soil further into the damage; option 2 ignores the problem."
+    },
+    {
+      "id": "NHS-02-K03",
+      "correctIndex": 0,
+      "rationale": "An agreed access plan and a written method with a sign-off step are the controls for occupied areas. Option 1 is not a control; option 2 wrongly stops the routine schedule."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a deep-clean scenario, the learner writes a method that names the equipment, the approved product, the order of work and a stopping point for each stage; the assessor checks each element is present.",
+    "Given a site scenario with an occupied area, the learner states the access time and barrier plan they would agree with the site lead, and the assessor confirms routine service is kept running in the other areas.",
+    "Given a worn-finish scenario, the learner records the defect, states the repair or replacement request, and does not propose more aggressive scrubbing as the fix; the assessor observes the record.",
+    "The learner completes a sign-off record with the scope, method, defects and both signatures, and the assessor confirms the record matches the scenario."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed knowledge checks",
+    "Assessor observation record for each practical criterion",
+    "Written deep-clean method from the scenario",
+    "Completed sign-off record"
+  ],
+  "stopWorkCriteria": [
+    "Learner starts an enhanced task in an occupied area without an agreed access plan",
+    "Learner continues the enhanced work on a damaged finish without recording the defect",
+    "Learner uses a product or machine they are not trained or authorised to use",
+    "Learner stops routine cleaning in other areas to make time for the deep clean"
+  ]
+}

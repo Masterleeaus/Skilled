@@ -1,0 +1,184 @@
+{
+  "id": "NEW-LCK-04",
+  "title": "Key control, records and client identity verification",
+  "courseSlugs": [
+    "locksmith"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 35,
+  "audience": "Locksmith and door installation workers who issue, hold or record keys and access details",
+  "prerequisites": [
+    "NEW-LCK-01",
+    "C19-L01"
+  ],
+  "learningOutcomes": [
+    "Keep a key register that records each key, its holder and every issue and return.",
+    "Verify the client's identity and authority before any key is cut, issued or a lock is changed.",
+    "Store key records securely and limit access to them."
+  ],
+  "instruction": [
+    {
+      "heading": "Key control is a record, not a memory",
+      "body": "Every key that is cut, issued, changed or returned must be recorded. A key register holds the key or lock identifier, the holder, the date of issue and return, and the authority under which it was issued. Without it, nobody can say who holds a key to a property, and a lost key becomes a security problem for the whole site. Keep the register current, and reconcile it at the end of each job."
+    },
+    {
+      "heading": "Verify identity and authority",
+      "body": "Before a key is cut or a lock is changed, verify that the person asking holds the authority to ask. Check identification against the property record, and confirm that the owner or the authorised manager has approved the work in writing. A phone call that cannot be verified is not sufficient. Refuse the job where identity or authority cannot be verified."
+    }
+  ],
+  "procedure": [
+    "Confirm the job is within the state licence position recorded in “Locksmith licence scope and restricted work”.",
+    "Verify the client's identity against the property record, and confirm the owner's written authority.",
+    "Record the key or lock identifier, the holder and the authority relied on.",
+    "Store the key record securely and limit access to it.",
+    "Record each key issue and return in the register.",
+    "Refuse the job and record the reason where identity or authority cannot be verified."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A caller asks for a spare key to be cut for a rental property and says they are the tenant, but the owner is not named on the job.",
+      "decisionPrompt": "Should the key be cut?",
+      "reasoning": "No. The identity and the authority cannot be verified from the property record, and the owner has not approved the work in writing. Refuse the job, record the call and the reason, and refer the request to the owner or manager for written approval."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Key register in the agreed format",
+    "Secure storage for keys and records",
+    "Identity check against the property record"
+  ],
+  "commonErrors": [
+    {
+      "error": "Cutting a key for a caller without verifying identity.",
+      "prevention": "Verify identity and authority against the property record before cutting or issuing."
+    },
+    {
+      "error": "Leaving key issues unrecorded.",
+      "prevention": "Record every issue and return in the register at the time."
+    },
+    {
+      "error": "Keeping key records in an unsecured place.",
+      "prevention": "Store key records securely and limit access."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Key cutting and key records fall under the state position. Queensland: retail key cutting is exempt, and other lock work may need a security equipment installer licence (page updated 21 October 2026). New South Wales: individual locksmiths need a Class 2C licence (page shows no date).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Keep only the personal information the record needs.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not give a locksmith licence or authority to issue keys or change locks.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every key cut, issued, changed or returned is recorded in the register.",
+    "Identity and authority are verified before any key or lock work.",
+    "The register is reconciled at the end of each job."
+  ],
+  "documentationEvidence": [
+    "Key register entries for each issue and return",
+    "Identity and authority check record",
+    "Record of any refused job with the reason"
+  ],
+  "summary": [
+    "Record every key in a register with its holder and authority.",
+    "Verify identity and written owner authority before any key or lock work.",
+    "Refuse and record any job where identity or authority cannot be verified."
+  ],
+  "businessFields": [
+    "{{business:customers.access_instructions}}",
+    "{{business:staff.authorised_tasks}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-LCK-04-K01",
+      "question": "A caller asks for a spare key to be cut but cannot be verified against the property record. What is correct?",
+      "options": [
+        "Refuse the job, record the reason, and refer for written owner approval",
+        "Cut the key to keep the client happy and the caller calm today",
+        "Cut the key and verify later, once the job is done for the day",
+        "Give the caller a key without cutting one, since a spare is already in the house"
+      ]
+    },
+    {
+      "id": "NEW-LCK-04-K02",
+      "question": "What must a key register record for each key?",
+      "options": [
+        "Only the colour and head shape of the key, plus its finish and weight",
+        "The key identifier, the holder, the issue and return dates, and the authority",
+        "Only the price paid for the key, the cut and the date it was paid",
+        "Nothing, if the client has the key and the house is secure already"
+      ]
+    },
+    {
+      "id": "NEW-LCK-04-K03",
+      "question": "When does the lesson say the key register should be reconciled?",
+      "options": [
+        "Once a year",
+        "Only when a key is lost",
+        "At the end of each job",
+        "Never after the first job"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "CATALOGUE-V2 row NEW-LCK-04 (new lesson; no source lesson; checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX-NSW-QLD.csv NSW-10, QLD-04 (checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX.csv VIC-07 (checked 2026-11-02, UNCONFIRMED)",
+    "Key register and identity practice: internal course guidance, UNCONFIRMED against any privacy or security regulator",
+    "Official: Apply for a security equipment installer licence, Queensland Government, fair trading security industry licensing, https://www.qld.gov.au/community/fair-trading/regulated-industries-licensing-and-legislation/security-industry-regulation/security-technical-licence/apply-for-a-security-equipment-installer-licence (checked 2026-11-03; page date: last updated 21 October 2026)",
+    "Official: Locksmith licence FAQ (master licence qualifications page), NSW Police Force, SLED, https://www.police.nsw.gov.au/online_services/sled/security_licences/class_1_licences/frequently_asked_questions/master_licence_faqs_contents/q._we_are_a_locksmith_company._do_we_need_any_qualifications_to_apply_for_a_master_licence (checked 2026-11-03; page date: no date shown)",
+    "Official: Private security licence types, Victoria Police, Licensing and Regulation Division, https://www.police.vic.gov.au/private-security (checked 2026-11-03; page date: last updated 26 October 2026)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Apply for a security equipment installer licence",
+      "url": "https://www.qld.gov.au/community/fair-trading/regulated-industries-licensing-and-legislation/security-industry-regulation/security-technical-licence/apply-for-a-security-equipment-installer-licence",
+      "pageDate": "last updated 21 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Check the retail key cutting exemption before each key job. Publisher: Queensland Government, fair trading security industry licensing."
+    },
+    {
+      "id": "R2",
+      "title": "Locksmith licence FAQ (master licence qualifications page)",
+      "url": "https://www.police.nsw.gov.au/online_services/sled/security_licences/class_1_licences/frequently_asked_questions/master_licence_faqs_contents/q._we_are_a_locksmith_company._do_we_need_any_qualifications_to_apply_for_a_master_licence",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Confirm the Class 2C position on the SLED Public Register. Publisher: NSW Police Force, SLED."
+    },
+    {
+      "id": "R3",
+      "title": "Private security licence types",
+      "url": "https://www.police.vic.gov.au/private-security",
+      "pageDate": "last updated 26 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Locksmith and key-cutting position still UNCONFIRMED. Publisher: Victoria Police, Licensing and Regulation Division."
+    }
+  ],
+  "referencesAtStart": "Official references: Queensland, Apply for a security equipment installer licence (last updated 21 October 2026); NSW SLED, Locksmith licence FAQ (master licence qualifications page) (no date shown); Victoria Police, Private security licence types (last updated 26 October 2026).",
+  "referencesAtEnd": "The key register and identity checks are internal practice. The licence positions come from Queensland, Apply for a security equipment installer licence (last updated 21 October 2026); NSW SLED, Locksmith licence FAQ (master licence qualifications page) (no date shown); and Victoria Police, Private security licence types (last updated 26 October 2026).",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-07.jpg",
+      "alt": "Locksmith and door installation illustration",
+      "kind": "photo",
+      "origin": "locksmith"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/flatpack-photo-21edbd14-08.jpg",
+      "alt": "Locksmith and door installation illustration",
+      "kind": "photo",
+      "origin": "locksmith"
+    }
+  ]
+}

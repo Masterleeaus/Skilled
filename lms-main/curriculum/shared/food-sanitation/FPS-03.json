@@ -1,0 +1,161 @@
+{
+  "id": "FPS-03",
+  "title": "Detergent choice, application and residue removal in processing areas",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and supervisors who choose, dilute or apply detergents in food-processing or food-service areas.",
+  "prerequisites": [
+    "F03-L01",
+    "F03-L03"
+  ],
+  "learningOutcomes": [
+    "Choose a detergent by soil type, surface, water quality and application method.",
+    "Explain why dwell time and mechanical action matter before rinsing.",
+    "Rinse detergent away completely, since leftover traces can make people ill.",
+    "Keep incompatible detergent types apart and follow the label and SDS for each product."
+  ],
+  "instruction": [
+    {
+      "heading": "Match the detergent to the soil and the surface",
+      "body": "A detergent is picked for the job it must do. Five things decide the choice: the type of soil (fat, protein, raw residue, baked-on food or chemical scale), the surface (solid, mesh, stainless or galvanised), the hardness of the water (hard or soft), the method available (spray, foam or manual) and the price of the product and its use. Alkaline products are generally used for fats and proteins, while acid products are used for mineral scale. Low-foaming products suit high-pressure equipment, and high-foaming products suit foam application or manual work. These are general chemistry points; the product's label and SDS, and the supplier's technical information, confirm what a particular product is for."
+    },
+    {
+      "heading": "Apply, allow dwell time and agitate",
+      "body": "A detergent works through its chemistry and through time. High-pressure systems meter detergent into the water stream, and the force of the spray lifts residue from the surface. Foam is applied and left for several minutes before rinsing, so the foam can loosen the soil. Stubborn soil on parts that cannot be sprayed is brushed or scrubbed with pads. Disassembled parts such as mixers, whisks and beaters are first soaked in warm water to loosen debris; the source uses warm water for this soak, and no Australian soak temperature is confirmed here. A commercial kitchen commonly runs a sink with four bays: the first compartment removes large soil, the second holds the detergent wash at the temperature set by the product label, the third rinses and the fourth sanitises."
+    },
+    {
+      "heading": "Rinse until no detergent remains",
+      "body": "Detergent residue is a food-safety problem in its own right. The source warns that even trace detergent left in food may upset the stomach and intestines, with symptoms that look like food poisoning, so every trace has to go. Rinse using water that is clean and fit to drink. Foam left on a surface after the rinse means the rinse has not finished. Where the site procedure requires a rinse check, perform it and record the result. A surface that is only partly rinsed must be rinsed again before the sanitising step begins."
+    }
+  ],
+  "procedure": [
+    "Identify the soil, the surface, the water quality and the application method, and select the product from the approved list.",
+    "Read the label and SDS for dilution, dwell time, protective equipment and any incompatibility.",
+    "Apply the detergent by the approved method and allow the dwell time on the label.",
+    "Agitate the surface with brushes or pads where needed, and disassemble parts that cannot be cleaned in place.",
+    "Rinse with water that is clean and drinkable until no foam or detergent remains.",
+    "Record the product, dilution, dwell time and rinse check, then pass the surface to the sanitising step."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A commercial kitchen's combi oven has baked-on grease on the door seal and a racked tray set. The worker has an alkaline product and an acid descaler on the trolley.",
+      "decisionPrompt": "Which product is used on the grease, and what must happen before the acid descaler is used?",
+      "reasoning": "The alkaline product suits grease. The surface is rinsed completely before any other product is brought to it, and the two products are never mixed. Each product is used only for the soil its label names."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved detergents with label and SDS available",
+    "Brushes and non-scratch pads suited to the surface",
+    "Timer for dwell time",
+    "Clean drinking-quality water for rinsing",
+    "Gloves and eye protection as the SDS directs"
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing a detergent by price alone.",
+      "prevention": "Choose by soil, surface, water and method, then confirm on the label and the approved list."
+    },
+    {
+      "error": "Removing the product before the dwell time ends.",
+      "prevention": "Time the dwell with a timer, and let foam or detergent act for the full period."
+    },
+    {
+      "error": "Leaving detergent residue after the rinse.",
+      "prevention": "Rinse until no foam or detergent remains, and repeat the rinse when in doubt."
+    },
+    {
+      "error": "Mixing a detergent with another product or a leftover solution.",
+      "prevention": "Never mix products. Empty and rinse the container before changing product."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Detergents are chemicals. Read the label and SDS before use, and wear the protective equipment the SDS specifies. High-pressure spray can cause splash and aerosol, so eye protection is required.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Alkaline and acid products must not be mixed. The combination can generate heat or hazardous fumes.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Detergent residue is a food-safety control.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Wastewater from detergent cleaning may fall under trade-waste rules.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The detergent matches the soil, the surface and the method.",
+    "Dwell time from the label is observed with a timer.",
+    "No foam or detergent remains after the rinse.",
+    "No two products are mixed at any point."
+  ],
+  "documentationEvidence": [
+    "Product name, dilution, dwell time and application method.",
+    "Rinse check result where the site requires one.",
+    "Any surface that needed a second rinse and the reason."
+  ],
+  "summary": [
+    "Pick the detergent by soil, surface, water and method.",
+    "Allow dwell time and use mechanical action where needed.",
+    "Rinse completely, since leftover traces can make people ill.",
+    "Never mix products; follow the label and SDS."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "FPS-03-K01",
+      "question": "Which factors should decide the choice of a detergent for a processing area?",
+      "options": [
+        "The colour of the container and the size of the label on the front",
+        "The soil type, the surface, the water quality and the application method",
+        "Whichever product has the strongest fragrance on the label",
+        "The product that foams the most in every case and the one with the bright colour"
+      ]
+    },
+    {
+      "id": "FPS-03-K02",
+      "question": "Why must detergent be rinsed away completely?",
+      "options": [
+        "Residues make the sanitiser stronger in the rinse water",
+        "Residues are only a visual issue on the bench top",
+        "Small residues in food can upset the stomach and gut",
+        "The next step removes residues anyway so rinsing is optional"
+      ]
+    },
+    {
+      "id": "FPS-03-K03",
+      "question": "Why are hard-to-clean parts disassembled before washing?",
+      "options": [
+        "Because disassembly is required for every job",
+        "So the parts can dry in the sun after the wash each day",
+        "To change the chemical balance of the detergent",
+        "So the detergent and water can reach the soil underneath"
+      ]
+    },
+    {
+      "id": "FPS-03-K04",
+      "question": "How long does the lesson say foam is left before rinsing?",
+      "options": [
+        "Rinsed off at once",
+        "Left for a week",
+        "Never rinsed",
+        "For several minutes before rinsing"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning, Sanitizing, and Pest Control in Food Processing, Storage and Service Areas (University of Georgia Cooperative Extension, Bulletin 927, reprinted June 1999; US source, not Australian), sections: General Cleaning, step 3 (Detergent Application) and step 4 (Rinse); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Cross-checked against F03-L01 and F03-L03 (label and SDS, dilution); Australian residue limits and trade-waste rules UNCONFIRMED.",
+    "UNCONFIRMED for Australia: no Australian wash or soak temperature confirmed in this pass (figures register, FPS-03, checked 2026-11-02); the Queensland document referred to gives no wash temperature."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

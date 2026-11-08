@@ -1,0 +1,157 @@
+{
+  "id": "mould-remediation-L04",
+  "title": "Occupant health and communication",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Supervisors, coordinators and trained cleaners who may be asked to triage, refer or document mould-related work in homes, rentals and commercial buildings, under an approved plan. Not a qualification or authority to remediate, demolish, or certify any building or room.",
+  "prerequisites": [
+    "mould-remediation-L03"
+  ],
+  "learningOutcomes": [
+    "Identify occupants the WA guideline names as susceptible and agree how they are kept away from the work.",
+    "Give a scope-based answer to a health or safety question without making a clearance.",
+    "Refer health questions to a clinician and record the referral."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson",
+      "body": "This lesson covers communication and referral. It does not give medical advice, and it does not give a clearance that a space is safe for any person. Health questions go to a clinician."
+    },
+    {
+      "heading": "Who is more sensitive",
+      "body": "The WA Department of Health guideline names people with existing respiratory, immunocompromising and allergic conditions as susceptible, and it also names infants, children and older people. It notes an association between mould exposure in pregnancy and poorer outcomes in offspring. Its flood appendix says susceptible people should avoid mould exposure. Plan the communication and the separation of these occupants before work starts, so that they are kept away from the work area."
+    },
+    {
+      "heading": "Keep three things apart",
+      "body": "Keep observations, medical advice and clearance decisions apart. The guideline states there are no defined quantitative or qualitative exposure thresholds for mould or dampness, and that evidence suggests any mould or dampness may pose a risk. A worker therefore cannot describe a level as acceptable. When an occupant with respiratory symptoms asks whether the room is now safe, the worker does not answer with a clearance. Record the scope of the work, state what has and has not been verified, and refer the health question to a clinician. Explain the controls and closed areas in plain language, and make sure the answer is written down."
+    }
+  ],
+  "procedure": [
+    "Identify occupants who are susceptible, and agree how they will be kept away from the work.",
+    "Explain the scope, the timing and the closed areas in plain language.",
+    "Do not make any medical, safety or clearance statement.",
+    "Record the occupant's question, the answer given and the scope of the work.",
+    "Refer health questions to a clinician, and clearance questions to the reviewer named in the plan.",
+    "Record what has been verified and what has not."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An occupant with respiratory symptoms asks a cleaner whether the room is now safe.",
+      "decisionPrompt": "What is said?",
+      "reasoning": "No clearance is given. Record the scope of the work, state what has and has not been verified, and refer the health question to a clinician."
+    },
+    {
+      "situation": "A child's bedroom is next to the work area, and the family asks whether the child can sleep there during the work.",
+      "decisionPrompt": "How is the request handled?",
+      "reasoning": "Do not make a safety statement. Explain the controls and closed areas agreed in the plan, and refer the question to the responsible remediation manager and to a clinician if the family has health concerns. Record the question and the referral."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Occupant communication record with fields for questions, answers and referrals.",
+    "Plain-language scope summary for occupants, agreed with the responsible manager.",
+    "Training-only role-play cards. No real occupant is involved in this lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Telling an occupant with respiratory symptoms that the room is safe.",
+      "prevention": "Make no clearance or medical statement. Refer health questions to a clinician."
+    },
+    {
+      "error": "Describing the level of mould as acceptable.",
+      "prevention": "Say that the guideline sets no defined threshold, and refer the question."
+    },
+    {
+      "error": "Leaving susceptible occupants close to the work.",
+      "prevention": "Plan their separation before work starts, using the approved plan."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson gives no medical advice and no clearance. Health questions go to a clinician.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The WA guideline says there are no defined exposure thresholds for mould or dampness. Health statements about any level are outside a cleaner's role.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner identifies susceptible occupants and agrees how they are kept away from the work.",
+    "The learner gives a scope-based answer to a safety question and makes no clearance.",
+    "The learner refers health questions to a clinician and records the referral."
+  ],
+  "documentationEvidence": [
+    "Occupant communication record with questions, answers and referrals.",
+    "Scope record showing what has and has not been verified."
+  ],
+  "summary": [
+    "Keep observations, medical advice and clearance decisions apart.",
+    "Susceptible people are kept away from the work.",
+    "No clearance, and no medical statement.",
+    "Refer health questions to a clinician."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "mould-remediation-L04-K01",
+      "question": "An occupant with respiratory symptoms asks if the room is now safe. What should the worker say?",
+      "options": [
+        "Yes, the room is safe now.",
+        "Describe the scope of the work and what is unverified, and refer the health question to a clinician.",
+        "No, do not sleep in there, and that is final."
+      ]
+    },
+    {
+      "id": "mould-remediation-L04-K02",
+      "question": "Which group does the WA guideline name as susceptible?",
+      "options": [
+        "Only people who have had surgery in the last year.",
+        "No group, because mould affects everyone equally.",
+        "People with existing respiratory, immunocompromising or allergic conditions, and infants, children and older people."
+      ]
+    },
+    {
+      "id": "mould-remediation-L04-K03",
+      "question": "What does the WA guideline say about exposure thresholds for mould or dampness?",
+      "options": [
+        "It says there are no defined quantitative or qualitative exposure thresholds.",
+        "It sets a safe level of spores per cubic metre.",
+        "It sets a threshold that applies only in commercial buildings."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Internal draft: curriculum/courses/high-risk/HR04-mould-remediation.json, section 4 (reworded; no source text copied).",
+    "WA Department of Health, Guidelines for managing mould and dampness, April 2024 edition, sections 2.1 and 3.5 and Appendix E, read 2026-11-03 through a page-summary tool.",
+    "UNCONFIRMED: clinical advice on mould exposure was not read for this lesson. Health questions are referred to clinicians."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Guidelines for managing mould and dampness: related public health risks in buildings (WA Department of Health)",
+      "url": "https://smhs.health.wa.gov.au/~/media/Corp/Documents/Health-for/Mould/Guidelines-for-Managing-Mould-and-Dampness-Related-Public-Health-Risks-in-BuildingsV20.pdf",
+      "pageDate": "April 2024 (version control table); publication code ENV-0014702 MAY'24; no separate last-updated date shown",
+      "checked": "2026-11-03",
+      "covers": "Read through a page-summary tool on 2026-11-03 (PDF, Environmental Health Directorate, WA Department of Health). Section 1.4 sets out a general public health duty, a workplace duty and a residential tenancies duty. Section 2.1 names people with existing respiratory, immunocompromising and allergic conditions, and infants, children and older people. Section 3.2.2 says porous items are often not economically salvageable and must be thrown out. Section 3.3 says the source must be located to address the cause and prevent recurrence. Section 3.4.1 defines simple contamination as new, isolated and visible, no greater than one square metre, with easily identified causes, and its footnote calls the one-square-metre size arbitrary. Section 3.4.2 defines complex contamination as larger than one square metre or found in multiple rooms or places. Section 3.5 states there are no defined quantitative or qualitative exposure thresholds for mould or dampness. Section 4.1 lists containment, drying and source repair as principles. Section 4.2.2 advises scrubbing hard surfaces with soapy water, avoiding dry brushing, cleaning at least 30 to 50 cm beyond the visible mould, removing or discarding porous items that cannot be adequately cleaned, stating that mould is not considered hazardous waste, and not painting, sealing or covering surfaces until dry. Section 4.3 recommends a site-specific plan with professionals for complex contamination, isolation with heavy grade plastic and negative pressure, and evacuation of occupants. Section 4.4 lists no recurrence within two to four weeks after remediation as an indicator of success, recommends the evaluation be done by a different entity, and states there are no legal requirements for a post-remediation assessment. Appendix B recommends a P2 or N95 respirator and says PAPRs should be used for complex remediation. Appendix E says mould can grow within 24 to 48 hours in flood-affected homes."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": [
+    {
+      "heading": "Module authority and restricted work",
+      "body": "This module is training content. It does not grant authority to remediate, demolish, disturb building materials, handle contaminated water or waste, or certify that a building, room or occupant area is safe or free of mould or pathogens. Completing this lesson does not give a licence, certificate or approval. Restricted or high-exposure remediation is carried out only by an appropriately qualified and competent professional under an approved plan, and some related work, including asbestos and lead disturbance and certain waste handling, is restricted to licensed or specially authorised people. The owner, manager, tenant or contract may define what work is permitted, but where the contract covers only routine cleaning, that is the limit of the task. Where the controlling authority or the competent supervisor is not identified, stop and refer."
+    }
+  ],
+  "stopWorkAndReferral": [
+    {
+      "heading": "Stop-work and referral rules for this module",
+      "body": "Stop and refer whenever any of these is true: the hazards are unknown or changing; the work is destructive or hazardous and outside the authorised scope; exposure is uncontrolled or the building is unsafe to occupy; supervision, equipment or permissions are insufficient; flood, sewage, asbestos or lead may be present; a worker's PPE or respirator readiness has not been verified; a client asks for a clearance or pathogen-free statement; or a waste route is unauthorised. A stop-work decision is correct. Record it and restart only after the competent supervisor has confirmed the scope in writing."
+    }
+  ]
+}

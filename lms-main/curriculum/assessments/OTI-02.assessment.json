@@ -1,0 +1,34 @@
+{
+  "lessonId": "OTI-02",
+  "knowledgeAnswers": [
+    {
+      "id": "OTI-02-K01",
+      "correctIndex": 1,
+      "rationale": "The approved method is a sharps dish with one sharp at a time. The other options involve direct handover or unsafe storage."
+    },
+    {
+      "id": "OTI-02-K02",
+      "correctIndex": 2,
+      "rationale": "The cleaner stops, keeps others clear and alerts the team, who retrieve the sharp with an approved tool. The other options risk injury or leave the hazard in place."
+    },
+    {
+      "id": "OTI-02-K03",
+      "correctIndex": 1,
+      "rationale": "Used needles are not resheathed or recapped, and go into a facility-approved bin. The other options create injury risks."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated transfer, the clinician uses a sharps dish with one sharp at a time and does not hand a sharp directly to another person.",
+    "Given a simulated sharp found on the floor, the cleaner stops, keeps others clear, alerts the theatre team and records the hazard."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of the simulated sharps transfer",
+    "Assessor observation of the cleaner response to a simulated sharp",
+    "Hazard record for the simulation"
+  ],
+  "stopWorkCriteria": [
+    "A sharp is found loose in the field or on the floor: stop and alert the team before anyone moves.",
+    "A glove splits during a task: stop, scrub the hands, and replace the glove before continuing."
+  ]
+}

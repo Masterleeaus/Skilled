@@ -1,0 +1,223 @@
+{
+  "id": "NEW-APP-04",
+  "title": "Electrical hazards on appliance jobs and the stop-and-refer rule",
+  "referencesAtStart": "Official references for this lesson: WorkSafe ACT, Electrical equipment (in-service inspection and repair) (no date shown); NSW Government, Electricians (last updated 1 December 2025); WorkSafe Queensland, Classes of electrical work licences (no date shown); Electrical Licensing Board (WA), Electrical licensing (last updated 22 October 2026).",
+  "courseSlugs": [
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Workers who clean powered appliances, including those who use water, pressure equipment or cloths near controls and leads",
+  "prerequisites": [
+    "F17-L04",
+    "NEW-APP-03"
+  ],
+  "learningOutcomes": [
+    "Identify the electrical hazards that appear when water, cleaning products and cords meet powered appliances",
+    "Carry out a pre-use visual check of leads, plugs and safety switches",
+    "Keep water and cleaning products away from controls, sockets, motors and terminals",
+    "Apply the stop-and-refer criteria for any electrical fault found during a clean"
+  ],
+  "instruction": [
+    {
+      "heading": "Where the electrical hazard sits on an appliance job",
+      "body": "Most electrical injuries on appliance jobs come from water reaching a live part, a damaged lead, or a missing protective device. A cleaning cloth that is too wet, a spray that drifts onto a control panel, a lead that has been run under a machine, or a socket that is warm to the touch can each create a shock or fire path. Commercial appliances often draw more current and have more connections than domestic ones, so the effect of a fault can be larger. Electrical hazards also sit on the equipment you bring: extension leads, pressure cleaners, vacuums and lights. Treat every powered item you bring to a job as part of the electrical risk, and check each one before use."
+    },
+    {
+      "heading": "Pre-use checks and protective devices",
+      "body": "Before you use any powered item near an appliance, check the plug, the lead, the housing and the switch. Look for cracked insulation, exposed conductors, a damaged plug or socket, a cord that is pinched or crushed, a missing earth pin, and any sign of heat or scorching. Check that the item suits the environment, because a standard indoor item is not suitable for a wet floor or outdoor use. Where the site has a residual current device (RCD), also called a safety switch, confirm it is in place and test it using the site's procedure before you use water on the job. Tag and remove from service any item that fails the check, and tell the supervisor. AS 3760:2022 covers the testing and tagging of portable equipment (text not read here). WorkSafe ACT's view is that a licence-holding electrician, or a certified competent person, carries out those inspections. Do not assume that a worker may test and tag their own equipment unless the business compliance record confirms it."
+    },
+    {
+      "heading": "Keeping water and product away from live parts, and stopping when a fault appears",
+      "body": "Use the least amount of water that does the job, apply it to a cloth rather than the machine, and wipe away from the control panel. Keep product and water away from sockets, switches, terminal blocks, motor housings, fan vents and any data plate that has an electrical connection. Never use a hose or pressure jet near an appliance's electrical parts. When a fault appears, stop. Signs that require you to stop and refer include a tripping safety switch, a burning smell, scorch marks, sparks, a warm plug or socket, a flickering display after cleaning, a cord that is damaged or heated, water visible inside a control panel or housing, and any exposed wire. Do not reset the safety switch to continue the job, do not open a housing, and do not repair a cord yourself. Make the machine safe if you can do so without touching the fault, by isolating the supply as in lesson “Making a machine safe before cleaning: isolation, stored energy and moving parts”, and then refer the fault."
+    }
+  ],
+  "procedure": [
+    "Before the job, inspect each powered item you bring: plug, lead, housing and switch. Tag and remove from service any item that fails.",
+    "Confirm the site's residual current device or safety switch is present and test it using the site procedure before you use water.",
+    "Lay leads so that they are not under the machine, not crossing the floor where water will run, and not pinched by doors or drawers.",
+    "Apply the isolation from “Making a machine safe before cleaning: isolation, stored energy and moving parts” before you clean near any control panel, socket, switch or motor.",
+    "Use a damp cloth, not a spray, near electrical parts, and wipe away from the control panel.",
+    "Watch for the stop-and-refer signs during the clean, including a tripping switch, heat, smell, sparks or water inside a housing.",
+    "If a sign appears, stop, isolate if you can do so safely, record what you saw and refer the fault to the site contact and the owner's service provider.",
+    "Record the pre-use check, the RCD test, and any fault or refusal in the job record."
+  ],
+  "workedExamples": [
+    {
+      "situation": "You are cleaning the exterior of a commercial ice machine. You notice the power lead is cracked near the plug and there is a small puddle under the machine at the lead's entry point.",
+      "decisionPrompt": "Do you continue cleaning and how do you deal with the lead?",
+      "reasoning": "A cracked lead with water at its entry point is a stop-and-refer sign. Do not continue near the lead, do not move it, and do not tape or repair it. Isolate the supply at the isolator if it is safe to do so under “Making a machine safe before cleaning: isolation, stored energy and moving parts”, keep people away from the puddle, record the fault with a photograph, and refer it to the site contact and the owner's service provider. Do not clean around the lead with water until the fault is cleared."
+    },
+    {
+      "situation": "You are using a plug-in pressure washer on the exterior of a commercial dishwasher. The RCD at the site's socket trips when you start the washer.",
+      "decisionPrompt": "Do you reset the RCD and try again?",
+      "reasoning": "A tripping safety switch is a fault signal. Do not reset it to keep working. Stop the tool, unplug it, and do not use water on the appliance until the cause is known. Tag the washer, record the trip, and tell the supervisor. Do not change to a different socket without the site's agreement, because that can hide a fault."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Residual current device (RCD) test procedure from the site or the business",
+    "Tags and labels for removing equipment from service",
+    "Gloves and eye protection as set by the business; dry hands before handling any plug",
+    "Cable management aids that keep leads off the floor and out of doorways"
+  ],
+  "commonErrors": [
+    {
+      "error": "Resetting a tripped safety switch so that the job can continue.",
+      "prevention": "A trip is a fault signal. Stop, find the cause, and refer if you cannot identify and clear it safely."
+    },
+    {
+      "error": "Spraying water near a control panel because the cleaner is quicker than a cloth.",
+      "prevention": "Use a damp cloth near electrical parts. Keep sprays away from sockets, switches and motor vents."
+    },
+    {
+      "error": "Using an unchecked extension lead or a damaged plug because it is the one that is on the van.",
+      "prevention": "Check every item before use, and tag and remove from service any item that fails."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electrical hazards on appliance jobs include shock, burns and fire. Water near live parts increases the risk considerably.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Repair of fixed electrical installations, wiring and switchboards is regulated electrical work that needs a licence. NSW requires a licence before any electrical wiring work. Appliance internal electrical parts are treated differently by state: Queensland's open electrical work licence allows repairs to electrical equipment of any kind; Western Australia defines electrical work to include work on appliances; and the ACT's guidance points unsafe equipment towards an authorised repairer or a competent individual. This lesson does not grant that licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Who may test and tag portable equipment under AS 3760:2022 depends on state rules. Do not assume a worker may test and tag without confirmation in the business compliance record.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every powered item is checked and recorded before it is used",
+    "No water reaches a socket, switch, terminal or motor housing during the clean",
+    "No RCD is reset to continue work after a trip"
+  ],
+  "documentationEvidence": [
+    "The pre-use check record for each powered item, including any item removed from service",
+    "The RCD test result from the site procedure",
+    "The fault record, photograph and referral for any stop-and-refer event"
+  ],
+  "summary": [
+    "Water, damaged leads and missing protection create the main electrical hazards on appliance jobs.",
+    "Check every powered item before use, and test the site RCD where the site provides one.",
+    "A trip, heat, smell, sparks or water in a housing means stop, isolate if safe, record and refer."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-APP-04-K01",
+      "question": "A safety switch trips as you start a pressure washer near a commercial dishwasher. What is the correct response?",
+      "options": [
+        "Stop, unplug the tool, do not use water on the appliance, tag the tool, and report the trip",
+        "Reset the switch and continue if it does not trip again within the next few minutes of use",
+        "Move the washer to another socket and continue, since the fault was clearly in the wall outlet",
+        "Open the dishwasher's control panel to find the cause, then reset whatever looks like the source"
+      ]
+    },
+    {
+      "id": "NEW-APP-04-K02",
+      "question": "Which item must be removed from service during a pre-use check?",
+      "options": [
+        "A lead with an intact outer sheath and a secure plug",
+        "A plug with a missing earth pin and a damaged cord",
+        "A cloth that is slightly damp",
+        "A cleaning brush with a worn bristle"
+      ]
+    },
+    {
+      "id": "NEW-APP-04-K03",
+      "question": "Where should a worker use a damp cloth rather than a spray?",
+      "options": [
+        "On the stainless steel side panels, away from any electrical part",
+        "On the floor under the machine",
+        "Near a control panel, socket, switch or motor vent",
+        "On the outside of a glass door"
+      ]
+    },
+    {
+      "id": "NEW-APP-04-K04",
+      "question": "A cracked lead is found at the plug of an ice machine, with water at the lead's entry point. What should happen next?",
+      "options": [
+        "Tape over the crack and finish the clean, since the lead is still able to carry the power",
+        "Move the lead under the machine so it is out of the way while you finish the clean and dry the floor",
+        "Pour a dry powder over the water and continue, since the powder soaks up the moisture quickly",
+        "Keep clear, isolate the supply if it is safe to do so, record with a photograph, and refer the fault"
+      ]
+    },
+    {
+      "id": "NEW-APP-04-K05",
+      "question": "Which statement about electrical work on appliances is correct?",
+      "options": [
+        "Repairing fixed wiring and switchboards is regulated electrical work that needs a licence holder",
+        "Completing this lesson gives the worker authority to repair a fixed electrical circuit",
+        "Any cleaner can open an appliance's control box if the power is off",
+        "Testing and tagging is always permitted for any worker in every state"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: WorkSafe ACT, Electrical equipment (in-service inspection and repair) (no date shown); NSW Government, Electricians (last updated 1 December 2025); WorkSafe Queensland, Classes of electrical work licences (no date shown); Electrical Licensing Board (WA), Electrical licensing (last updated 22 October 2026).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "AS/NZS 3760:2022 In-service safety inspection and testing of electrical equipment and RCDs: https://store.standards.org.au/product/as-nzs-3760-2022 (checked 2026-11-02; title and edition seen in search results, store page not read)",
+    "https://www.worksafe.act.gov.au/health-and-safety-portal/managing-safety/electrical-equipment (checked 2026-11-02; found in search, not read; example regulator guidance only)",
+    "Electrical licence classes and testing competence by state: UNCONFIRMED in this draft (see research brief sections 4 and 7)",
+    "F17-L04 (shared safety lesson on electrical checks) for the general pre-use check background"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electrical equipment (in-service inspection and repair)",
+      "url": "https://www.worksafe.act.gov.au/health-and-safety-portal/managing-safety/electrical-equipment",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "ACT guidance: inspection by a licensed electrician or a certified competent person; unsafe equipment repaired by an authorised repairer or competent person. Names AS 3760:2022 by title. Publisher: WorkSafe ACT."
+    },
+    {
+      "id": "R2",
+      "title": "Electricians",
+      "url": "https://www.nsw.gov.au/housing-and-construction/compliance-and-regulation/electricians",
+      "pageDate": "Last updated 1 December 2025",
+      "checked": "2026-11-03",
+      "covers": "An electrical licence is needed before any electrical wiring work. Building Commission NSW manages the licence. Publisher: NSW Government (Building Commission NSW)."
+    },
+    {
+      "id": "R3",
+      "title": "Classes of electrical work licences",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/electrical-licences/classes-of-licences",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Six licence classes. The open electrical work licence can repair electrical equipment. The page does not name the administering body. Publisher: WorkSafe Queensland."
+    },
+    {
+      "id": "R4",
+      "title": "Electrical licensing",
+      "url": "https://wa.gov.au/organisation/service-delivery/electrical-licensing",
+      "pageDate": "Last updated 22 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Electrical work is licensed by the Electrical Licensing Board. Its definition of electrical work covers work on appliances powered by electricity. Publisher: Government of Western Australia."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-07.jpg",
+      "alt": "Specialty appliance and machine cleaning illustration",
+      "kind": "photo",
+      "origin": "appliance"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-08.jpg",
+      "alt": "Specialty appliance and machine cleaning illustration",
+      "kind": "photo",
+      "origin": "appliance"
+    }
+  ]
+}

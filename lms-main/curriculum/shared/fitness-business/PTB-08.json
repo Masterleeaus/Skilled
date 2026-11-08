@@ -1,0 +1,134 @@
+{
+  "id": "PTB-08",
+  "title": "Group-training format: definition, group size and layout",
+  "courseSlugs": [
+    "pt",
+    "yoga"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Trainers and studio owners considering or running a small-group service",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Define the format in terms of group size, individual coaching and programme",
+    "Identify design mistakes that turn a small group into a large class with fewer people",
+    "Plan a layout with zones sized to the group, and check the limits that apply"
+  ],
+  "instruction": [
+    {
+      "heading": "What the format is",
+      "body": "A small-group session is run by one trainer for a group of about four to six people, in which each person's programme is adjusted to their level, limits and goals. The group shares the session, but the coaching is individual. A good trainer can coach a beginner and an advanced member side by side, so neither feels left behind. Name the service clearly and describe it in the same terms everywhere."
+    },
+    {
+      "heading": "Avoid the common design mistakes",
+      "body": "Several mistakes are common. Running the session as a large class with fewer people, with loud music, a timer and everyone on the same machine, makes members ask why they pay more. Adding small-group sessions as one line on a price list, with no plan to market them, rarely fills a group. Charging a large-group price for a smaller group, and not organising the room for it, both erode value. Each has a design fix: a plan for each member, a clear offer, and a room laid out for the number of people."
+    },
+    {
+      "heading": "Use zones, not open floor",
+      "body": "Plan the room in zones, each sized for one group, with equipment within reach of that zone and clear walkways between zones. Crowding two groups into a small room, so that everyone works in one tight spot, makes coaching harder and raises the risk of collisions. Check the venue's and any council occupancy limits and fire egress rules."
+    }
+  ],
+  "procedure": [
+    "Write the group size range you will run and the reason for it.",
+    "Sketch the room with one zone per group, equipment inside each zone and clear walkways.",
+    "List the equipment each zone needs and check it against the design.",
+    "Test the design against the design mistakes listed in the instruction.",
+    "Run a trial with a few members, then review coaching coverage and member feedback."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A hypothetical trainer has a room that holds one zone of six people comfortably, and is considering squeezing a second group into the corner.",
+      "decisionPrompt": "What should the trainer decide about the second group?",
+      "reasoning": "Squeezing a second group into the corner creates the crowding and missed-coaching problem. The better decision is to run one zone at full quality, or to find a larger room or a second zone."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Floor plan sketch",
+    "Equipment list per zone",
+    "Venue occupancy and egress information"
+  ],
+  "commonErrors": [
+    {
+      "error": "Running a large-class style session with fewer people",
+      "prevention": "Plan each member's programme and coaching turns in advance."
+    },
+    {
+      "error": "Crowding two groups into one small space",
+      "prevention": "Size zones to the group and keep walkways clear."
+    },
+    {
+      "error": "Using the small-group label without a clear offer",
+      "prevention": "Describe the format, group size and coaching in one consistent description."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Check maximum group size and occupancy limits set by a venue, insurer or council in writing before running a group.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Supervision and emergency response are covered in the supervision lesson for the course. This lesson does not set supervision ratios.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check fire egress and clear walkway requirements for each venue.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "A group size range is written with its reason",
+    "The floor plan shows one zone per group with clear walkways",
+    "The occupancy limit is recorded as checked or left blank"
+  ],
+  "documentationEvidence": [
+    "Floor plan with zones and date",
+    "Venue occupancy confirmation, or a blank field",
+    "Pilot session review"
+  ],
+  "summary": [
+    "Small-group means one trainer, four to six people, individual coaching.",
+    "Avoid the large-class-with-fewer-people design.",
+    "Size zones to the group and check venue limits."
+  ],
+  "businessFields": [
+    "{{business:services.service_group}}",
+    "{{business:equipment.assigned_items}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PTB-08-K01",
+      "question": "In this lesson, a small-group session is best described as:",
+      "options": [
+        "A large class with fewer people and the same plan for everyone in it",
+        "One trainer coaching a group of about four to six, with each person individualised",
+        "Unsupervised independent training, where each person works alone at a desk"
+      ]
+    },
+    {
+      "id": "PTB-08-K02",
+      "question": "Which design error does the lesson name?",
+      "options": [
+        "Clear zones for each group and a fixed start time",
+        "Running a large-class style session with fewer people",
+        "Stating the group size on the offer and the price"
+      ]
+    },
+    {
+      "id": "PTB-08-K03",
+      "question": "Before settling on a maximum group size, the lesson says to check:",
+      "options": [
+        "The trainer's preferred music and the colour of the mats",
+        "Venue, insurer and safety limits, leaving any unchecked limit blank",
+        "Only the price list and the trainer's own preferences today"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Ultimate Guide to Small Group Personal Training (ba47f969-754604334-Ultimate-Guide-to-Small-Group-Personal-Training.txt), Small Group Defined, The 7 Deadly Sins of Small Group Training and How to Set Up Your Gym for Small Group (pods); rights: user-held; reworded (no copying); prices and capacity figures not used",
+    "Occupancy, egress and insurance limits: UNCONFIRMED; not checked on 2026-11-02"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

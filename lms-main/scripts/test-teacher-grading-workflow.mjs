@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { resolve, join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const read=p=>readFileSync(join(root,p),'utf8');
+const service=read('apps/backend/src/modules/quizzes/quiz.service.ts');
+const routes=read('apps/backend/src/modules/quizzes/quiz.routes.ts');
+const api=read('apps/frontend/src/lib/quiz.api.ts');
+const list=read('apps/frontend/src/app/teacher/courses/[slug]/quizzes/page.tsx');
+const grading=read('apps/frontend/src/app/teacher/courses/[slug]/quizzes/[quizId]/grading/page.tsx');
+const course=read('apps/frontend/src/app/teacher/courses/[slug]/page.tsx');
+let count=0;
+function check(value,name){assert.ok(value,name);count++;}
+check(service.includes('await assertQuizOwnership(quizId, userId, role);\n  return prisma.quizAttempt.findMany'), 'submission access gated by ownership');
+check(service.includes('take: 100'), 'submissions bounded');
+check(service.includes('status: { in: ["SUBMITTED", "GRADED"] }'), 'only submitted quiz attempts listed');
+check(service.includes('student: { select: { id: true, fullName: true } }'), 'minimal student identity only');
+check(service.includes('answers: {\n        select: {'), 'answers explicitly selected');
+check(routes.includes('"/:quizId/submissions"'), 'submissions endpoint');
+check(routes.includes('listQuizSubmissionsForTeacher(\n        req.params.quizId, req.user!.userId, req.user!.role'), 'endpoint binds authenticated identity');
+check(routes.includes('requirePermission("assignment:grade")'), 'requires grading permission');
+check(api.includes('api.get(`/quizzes/${quizId}/submissions`)'), 'frontend fetches owned submissions');
+check(api.includes('api.patch(`/quizzes/answers/${answerId}/grade`, { marksObtained })'), 'frontend grades through backend validation');
+check(list.includes('fetchQuizzesForCourse(course.data!.id)'), 'teacher course assessment list');
+check(list.includes('/grading`'), 'teacher links to marking');
+check(grading.includes('fetchQuizSubmissions(quizId)'), 'grader loads submissions');
+check(grading.includes('setError("Enter a whole-number grade within the question maximum.")'), 'client validates grade');
+check(grading.includes('void client.invalidateQueries({queryKey:["quiz-submissions",quizId]})'), 'reload after grading');
+check(grading.includes('Array.isArray(answer.selectedOptionIds)'), 'multi-select selections rendered');
+check(course.includes('Assessments & grading'), 'course navigation linked');
+console.log(`PASS: ${count} teacher assessment review and grading route/UI contract checks (source-level)`);

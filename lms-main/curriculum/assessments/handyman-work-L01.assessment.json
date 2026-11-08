@@ -1,0 +1,33 @@
+{
+  "lessonId": "handyman-work-L01",
+  "knowledgeAnswers": [
+    {
+      "id": "handyman-work-L01-K01",
+      "correctIndex": 1,
+      "rationale": "A warm power point is a possible electrical fault. Stopping and referring to a licensed electrical worker is the only option that avoids unlicensed electrical work."
+    },
+    {
+      "id": "handyman-work-L01-K02",
+      "correctIndex": 2,
+      "rationale": "Training evidence does not grant a licence or authority. The lesson must not be read as a licence or certificate."
+    },
+    {
+      "id": "handyman-work-L01-K03",
+      "correctIndex": 3,
+      "rationale": "Scope changes need a recorded request and approval from the person with authority before work starts. Presence on site is not approval."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a work order with at least one out-of-scope task, the worker classifies each task as within scope, outside scope or referred, with a written reason.",
+    "The worker pauses an unapproved variation and records the request, the approver and the time before any work on it."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed work order with classification of each task",
+    "Variation or referral record"
+  ],
+  "stopWorkCriteria": [
+    "The requested task involves electrical wiring, gas, sanitary plumbing or structural work",
+    "No approver with authority can be identified in writing"
+  ]
+}

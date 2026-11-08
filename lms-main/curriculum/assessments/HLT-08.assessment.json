@@ -1,0 +1,33 @@
+{
+  "lessonId": "HLT-08",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-08-K01",
+      "correctIndex": 1,
+      "rationale": "Sterile packs and medicine stock are clean-zone items. The other three are contaminated or soiled and belong in the contaminated area."
+    },
+    {
+      "id": "HLT-08-K02",
+      "correctIndex": 1,
+      "rationale": "Mandatory signs state an action that must be taken. Prohibition signs say what must not happen, danger signs warn of a hazard, and general information signs give neutral information."
+    },
+    {
+      "id": "HLT-08-K03",
+      "correctIndex": 1,
+      "rationale": "Keeping used items apart from sterile stock stops contamination from spreading. The other options are not the reason the guide gives."
+    }
+  ],
+  "practicalCriteria": [
+    "Given an area plan, the learner marks clean and soiled spaces and places five listed items correctly without prompts.",
+    "Given a scenario with a soiled item and a clean store, the learner routes each item correctly and changes gloves before entry."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation of zone sorting and routing on a workplace plan or simulation",
+    "Record of a sign report made during the simulation"
+  ],
+  "stopWorkCriteria": [
+    "Soiled material is about to pass into a clean store, or clean stock is about to be set down in a soiled space: stop and re-route.",
+    "A hazard sign is missing or unreadable in an area the worker has to enter: stop and report before entering."
+  ]
+}

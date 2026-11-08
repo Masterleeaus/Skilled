@@ -1,0 +1,136 @@
+{
+  "id": "warehouse-deep-cleaning-L10",
+  "title": "Approved cleaning equipment and floor compatibility",
+  "courseSlugs": [
+    "commercial",
+    "hardfloor"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Equipment and materials",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and supervisors assessing whether powered cleaning equipment is approved for a warehouse floor.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Identify the decision gate for powered cleaning equipment on a warehouse floor.",
+    "Recognise when the observed floor or the equipment does not match the authorised plan.",
+    "Write a restricted-scope referral that separates observed conditions from unverified ones."
+  ],
+  "instruction": [
+    {
+      "heading": "Reading the site and the job records",
+      "body": "Before any warehouse cleaning starts, review the documented work order, the named supervisor, the risk controls and the site movement plan. Pay particular attention to equipment authorisation and the condition of the surface."
+    },
+    {
+      "heading": "The equipment decision gate",
+      "body": "Confirm the equipment assignment, the operator's competency, the floor's load rating and its compatibility with the site plan. Compare what you observe with the site's current authorised plan. If the plan and the observed conditions differ, suspend the affected task and document the discrepancy. A large powered scrubber on a surface with an unknown load rating and pedestrian crossover is a case for stopping, not for proceeding."
+    },
+    {
+      "heading": "Scope and referral",
+      "body": "A cleaner may identify and report hazards, but may not stand in for a traffic controller, a plant isolation officer, an engineer or a hazardous-material specialist. Do not operate unapproved powered equipment on unsuitable flooring. Where the floor or the equipment is outside authority, the work is restricted and referred."
+    },
+    {
+      "heading": "Documentation",
+      "body": "Record the time, the location, the work-order identifier, what was observed as distinct from what was inferred, the supporting record, the person notified, and any response. Leave the affected area restricted until written authority has been given."
+    }
+  ],
+  "procedure": [
+    "Review the work order, the named supervisor, the risk controls and the movement plan.",
+    "Confirm equipment assignment, operator competency, floor load rating and site compatibility.",
+    "Compare observed conditions with the current authorised plan.",
+    "If they differ, suspend the affected task and document the discrepancy.",
+    "Refer matters outside your authority, and do not isolate plant or enter danger zones.",
+    "Record observations, inferences, the people notified and the restriction in place."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A large scrubber is requested on a surface with an unknown load rating and pedestrian crossover.",
+      "decisionPrompt": "What is the restricted-scope response?",
+      "reasoning": "Do not operate the scrubber. Record that the load rating is unknown and that pedestrians cross the route. Leave the area restricted pending documented authority from the site, and refer the question to the supervisor."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Site movement plan and work order.",
+    "High-visibility clothing and footwear as the site requires.",
+    "Record sheet for observations and referrals."
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a powered machine is safe on an unknown floor.",
+      "prevention": "Confirm the floor's load rating and the authorisation first."
+    },
+    {
+      "error": "Recording an inference as an observation.",
+      "prevention": "Separate what was seen from what was assumed, and record the source."
+    },
+    {
+      "error": "Entering a loading area to check the floor.",
+      "prevention": "Do not enter live forklift aisles or dock edges. Refer."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Powered equipment on a worksite is subject to work health and safety duties, and site traffic plans and permits need approval from the site.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not authorise isolation of plant, forklift operation or work at height. Those activities need their own authority and training.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Decision gate identified in the desk-based exercise.",
+    "Restricted-scope referral written with observed and unverified conditions kept apart.",
+    "No live warehouse entry in the simulation."
+  ],
+  "documentationEvidence": [
+    "Restricted-scope referral with the authorising officer named or the authority shown as missing.",
+    "Record of observed hazards, time and location, and the person notified."
+  ],
+  "summary": [
+    "Check authorisation and floor compatibility before any powered equipment is used.",
+    "Suspend the task where observed conditions differ from the plan.",
+    "Refer outside your authority; do not substitute for specialists.",
+    "Record observation separately from inference."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "warehouse-deep-cleaning-L10-K01",
+      "question": "A large scrubber is requested on a floor with an unknown load rating and pedestrian crossover. What do you do?",
+      "options": [
+        "Use it quickly while the aisle is quiet and keep pedestrians on the far side",
+        "Ask a pedestrian whether the floor is strong enough and then start the machine",
+        "Do not operate it, and leave the area restricted pending documented authority"
+      ]
+    },
+    {
+      "id": "warehouse-deep-cleaning-L10-K02",
+      "question": "What should you do when observed conditions differ from the authorised plan?",
+      "options": [
+        "Suspend the affected task and document the discrepancy",
+        "Continue, since the plan is usually correct today",
+        "Change the plan yourself and inform nobody else"
+      ]
+    },
+    {
+      "id": "warehouse-deep-cleaning-L10-K03",
+      "question": "Which person may isolate plant or direct traffic in a warehouse?",
+      "options": [
+        "The cleaner, if they are careful and the work is short and well planned by the team",
+        "The competent person the site authorises, such as a traffic controller or plant isolation officer",
+        "Any worker on the shift who has done the course, is on the rota, and is near the aisle"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/warehouse-deep-cleaning-L10.json (draft pending warehouse safety SME and local regulatory review)",
+    "UNCONFIRMED: state and territory requirements for powered cleaning equipment in warehouses, and the site traffic-plan obligations."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

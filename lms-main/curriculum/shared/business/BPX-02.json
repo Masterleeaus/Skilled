@@ -1,0 +1,151 @@
+{
+  "id": "BPX-02",
+  "title": "Reading a projected balance sheet",
+  "courseSlugs": [
+    "handyman",
+    "deck",
+    "flatpack",
+    "locksmith",
+    "painting",
+    "plastering",
+    "tiling"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners and planners of handyman and property trade businesses who are preparing a projection for a set date",
+  "prerequisites": [
+    "BPX-01"
+  ],
+  "learningOutcomes": [
+    "Classify assets, liabilities and equity as current or long-term, and explain the difference in one sentence each",
+    "Calculate owner equity from total assets and total liabilities, and check the result against a balanced statement",
+    "Explain why unpaid quotes and unpaid invoices must be treated differently on a balance sheet"
+  ],
+  "instruction": [
+    {
+      "heading": "A snapshot at one date",
+      "body": "A profit and loss covers a period, but a balance sheet records a single date. It lists what the business owns (assets), what it owes to others (liabilities), and what is left for the owner (equity). The three parts always agree: assets equal liabilities plus equity. This is the test that tells you whether the statement is sound. Profit from “Reading a profit and loss forecast” flows into equity over time, and the cash and equipment that the profit produces show up in assets. A projection that adds profit to equity without a matching change in assets or liabilities has a fault, and the imbalance points to where the fault is."
+    },
+    {
+      "heading": "Current and long-term lines",
+      "body": "Current assets are cash and items expected to turn into cash within about a year. For a trade business these are usually the bank balance, money owed by clients for completed and invoiced work, and materials held for jobs. Long-term assets include vehicles, tools and equipment, shown at their value after depreciation. Current liabilities are amounts due within about a year: supplier accounts, GST and other tax owing to the Australian Taxation Office, and the repayments due on a short-term loan. Long-term liabilities are borrowings repaid over more than a year, such as a vehicle loan or equipment finance. Equity for a sole trader is the owner's capital plus profit kept in the business, less drawings taken out. A company shows share capital and retained earnings instead."
+    },
+    {
+      "heading": "Money owed is not cash",
+      "body": "Trade businesses often carry a large balance of unpaid invoices. Those invoices count as current assets only once the work is done and an invoice has been issued. A quote that the client has not yet accepted is not an asset, and it does not belong on the balance sheet at all. Overdue invoices should be reviewed and, where the debt is doubtful, reduced in value rather than left at full face value. A balance sheet that looks strong because of high receivables can hide a cash problem, which is why the cash questions are tested separately in the cash planning lessons."
+    }
+  ],
+  "procedure": [
+    "Choose the date the statement describes and write it at the top, with the basis (for example, GST-exclusive values where the business is registered).",
+    "List current assets: bank balance, invoiced but unpaid work, and materials on hand, with the value of each.",
+    "List long-term assets: vehicles, tools and equipment at their value after depreciation.",
+    "List current liabilities: supplier accounts, tax owing, and short-term loan repayments due within a year.",
+    "List long-term liabilities: loans and finance repayable beyond a year.",
+    "Calculate equity as total assets less total liabilities, and then check that equity matches the owner's capital plus profit kept less drawings.",
+    "Confirm the balance check in writing, and record any difference as an error to fix before the statement is used."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Hypothetical figures, not market data: a handyman business at the end of its first year has a bank balance of $4,200, invoiced but unpaid work of $9,000, a van valued at $18,000 after depreciation, and tools valued at $6,500 after depreciation. It owes $2,800 to suppliers, $3,100 of GST and other tax, and has a $12,000 vehicle loan repayable over several years. The owner also wants to count a $6,000 quote that the client has not yet accepted.",
+      "decisionPrompt": "What are total assets, total liabilities and equity, and should the $6,000 quote go on the balance sheet?",
+      "reasoning": "Current assets are $13,200 and long-term assets are $24,500, so total assets are $37,700. Current liabilities are $5,900 and long-term liabilities are $12,000, so total liabilities are $17,900. Equity is $19,800. The quote is not an asset because the client has not accepted it and no work has been invoiced, so it stays off the statement. Counting it would raise assets and equity by $6,000 and make the statement look stronger than the business is."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet or the business plan template with a balance sheet tab",
+    "Current bank statement, supplier account statements and the list of tools and vehicles with their values",
+    "No physical PPE is required for this lesson"
+  ],
+  "commonErrors": [
+    {
+      "error": "Entering a quote, or work not yet invoiced, as a receivable.",
+      "prevention": "Count a receivable only after the work is complete and an invoice has been issued, and keep quotes on a separate list."
+    },
+    {
+      "error": "Carrying tools and vehicles at the purchase price for years, with no reduction for use.",
+      "prevention": "Show each long-term asset after its depreciation, and record the depreciation method used."
+    },
+    {
+      "error": "Forcing the statement to balance by changing the cash figure.",
+      "prevention": "Trace the origin of the difference, usually a missing liability or an incorrect equity entry, and correct that line."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "GST and other tax owing appear as liabilities. The ATO states that a business with GST turnover of $75,000 or more must register for GST (ATO GST registration page, checked 2026-11-02).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Depreciation methods and the values to use for vehicles and tools must be checked against current ATO guidance or with a tax agent.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson teaches how to read and build a balance sheet. It does not give accounting or financial advice, and completing it does not qualify the learner to prepare statements for lenders or the tax office.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Total assets equal total liabilities plus equity, and the difference is zero",
+    "Each asset is shown at its value after depreciation, with the method stated",
+    "No quote or uninvoiced job is counted as a receivable",
+    "Tax, depreciation and equity-treatment lines are left blank where no current check exists"
+  ],
+  "documentationEvidence": [
+    "A saved balance sheet at one stated date, with the balance check recorded",
+    "A short list of the assets and liabilities that depend on values still to be checked",
+    "A note of the questions for the tax agent about GST timing, depreciation and drawings"
+  ],
+  "summary": [
+    "A balance sheet is a snapshot at one date and must balance",
+    "Current items turn into cash or fall due within about a year; long-term items do not",
+    "Equity is what remains after liabilities are taken from assets, and it changes with profit and drawings",
+    "Unpaid quotes are not assets, and unpaid invoices are assets only once they are issued"
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:procedures.approved_sop}}",
+    "{{business:business.name}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BPX-02-K01",
+      "question": "Which description of a balance sheet is correct?",
+      "options": [
+        "A snapshot at one date showing assets, liabilities and equity",
+        "A record of every job booked in a given month of the year",
+        "A record of cash received across a full year in the bank",
+        "A forecast of the tax paid in the next financial year"
+      ]
+    },
+    {
+      "id": "BPX-02-K02",
+      "question": "A quote for $6,000 has been sent to a client, but the client has not accepted it and no work has started. Where does it belong on the balance sheet?",
+      "options": [
+        "In current assets as a receivable",
+        "In equity as owner capital",
+        "Nowhere, until the work is done and invoiced",
+        "In equity, as an owner's contribution to the business"
+      ]
+    },
+    {
+      "id": "BPX-02-K03",
+      "question": "A balance sheet shows total assets of $50,000 and total liabilities of $30,000. What should equity be?",
+      "options": [
+        "$80,000",
+        "$20,000",
+        "$50,000",
+        "$30,000"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Handyman business plan sample (0db29e53-657849233-handyman-business-plan.txt), section Projected balance sheet and cash flow headings; rights: not held by user (vendor sample, vendor watermark present); reworded (no copying). The sample's values are not used.",
+    "Cleaning company business plan sample (7886acdc-603394611-cleaning-company-business-plan.txt), section Projected balance sheet; rights: not held by user (vendor sample); reworded (no copying). Structure only.",
+    "ATO, GST registration page: https://www.ato.gov.au/api/public/content/0-bbbe7313-ba3c-44f8-a106-3b4081584b25, checked 2026-11-02; $75,000 GST turnover threshold confirmed.",
+    "Depreciation methods, GST timing on the balance sheet, drawings treatment and receivable write-down rules: UNCONFIRMED (not checked against a current source in this draft)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

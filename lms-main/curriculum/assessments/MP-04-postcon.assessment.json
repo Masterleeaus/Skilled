@@ -1,0 +1,34 @@
+{
+  "lessonId": "MP-04-postcon",
+  "knowledgeAnswers": [
+    {
+      "id": "MP-04-postcon-K01",
+      "correctIndex": 0,
+      "rationale": "The lesson gives break-even revenue as fixed costs divided by one minus the variable cost percentage. The other formulas do not produce the point where profit is zero."
+    },
+    {
+      "id": "MP-04-postcon-K02",
+      "correctIndex": 0,
+      "rationale": "With 15 per cent variable cost, the contribution margin is 0.85, and $3,000 divided by 0.85 is $3,529.41 AUD a month."
+    },
+    {
+      "id": "MP-04-postcon-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says to check each input and reconcile the figures before use, and to keep only the reconciled figure. Picking the larger figure or averaging the two is not the method given."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied cost list for a post-construction cleaning business, the learner labels each cost fixed or variable, and the assessor checks every label against the list.",
+    "The learner calculates break-even revenue for two supplied sets of inputs, shows the contribution margin for each, and the results match the assessor's key to the cent.",
+    "From a supplied plan extract with conflicting break-even figures, the learner identifies that the figures conflict, lists the inputs needed to reconcile them, and does not use any figure from the extract as a plan value."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off stays separate. A quiz pass is not verified practical competence.",
+  "evidenceRequired": [
+    "Labelled cost list",
+    "Calculation sheet showing each step",
+    "Reconciliation note for the conflicting figures"
+  ],
+  "stopWorkCriteria": [
+    "Stop using any break-even figure whose inputs, period or source are unknown."
+  ]
+}

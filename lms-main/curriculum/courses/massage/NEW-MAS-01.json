@@ -1,0 +1,225 @@
+{
+  "id": "NEW-MAS-01",
+  "title": "Massage scope, contraindications and referral",
+  "courseSlugs": [
+    "massage"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Mobile massage therapists who take client histories, decide whether a session is suitable, and refer clients to a medical practitioner",
+  "prerequisites": [
+    "F14-L02",
+    "F01-L01",
+    "F14-L01"
+  ],
+  "learningOutcomes": [
+    "Explain what this lesson does and does not grant, including the limits of any health or therapy authority",
+    "Apply a contraindication check from the approved list before any session, and postpone or refer where a contraindication is present",
+    "Describe the referral step, and the point at which a client must be advised to seek urgent medical care"
+  ],
+  "referencesAtStart": "Official references for this lesson: Department of Health (Victoria), Information for registered premises and environmental health officers (updated 22 May 2026); ACT Government, Skin penetration procedures (no date shown); Gold Coast City Council, Personal appearance services (no date shown); Queensland Health, Personal appearance services legislation (no date shown); Health information sheets for clients: massage (page updated 22 September 2025; sheet updated 16 Oct 2021).",
+  "instruction": [
+    {
+      "heading": "What this lesson grants, and what it does not",
+      "body": "Completing this lesson does not register you, does not give a licence to massage, and does not give clinical, diagnostic or therapeutic authority. It teaches a safe method for deciding whether a session is suitable and when to refer. In Victoria, the Department of Health's list of services that must register under the Public Health and Wellbeing Act 2008 names beauty therapy, cosmetic applications, colonic irrigation, hairdressing, skin penetration and tattooing, and does not name massage (page updated 22 May 2026). In the ACT, the government's skin penetration page lists massage as one of the services that need no infection control licence but must still follow the 2005 infection control Code of Practice for office practices and other community-based services (no date shown). In Queensland, Gold Coast City Council lists massage therapy among services that do not require a licence (no date shown). Your state and council position must be checked and recorded before the first visit."
+    },
+    {
+      "heading": "Contraindications: a check, not a diagnosis",
+      "body": "A contraindication is a reason a session should not go ahead as planned, or should be changed or postponed. The therapist's job is to identify the reason, not to decide the medical cause. Typical items on a massage contraindication list include recent surgery or injury, a bleeding or clotting condition, an infection or skin condition at the treatment site, a recent deep-vein or blood-clot concern, certain heart or circulation conditions, pregnancy, and medications that change how the body responds to pressure or heat. These examples come from general massage practice and are not a confirmed legal list. The business's approved contraindication list is held in {{business:procedures.approved_sop}}, and the therapist must use that list rather than a memory of it."
+    },
+    {
+      "heading": "Referral and when to stop",
+      "body": "Where a client's answers show a contraindication, the therapist should postpone or change the session and recommend that the client speaks to a general practitioner or the relevant medical professional before any further session. The therapist must not tell the client what the condition is, must not advise on medication, and must not promise that a session will help a condition. During a session, stop at once if the client reports chest pain, breathlessness, dizziness, sudden severe pain, numbness, or any sign of a serious reaction. Keep the client safe, do not leave them alone if they are unwell, and advise them to seek urgent medical care. Contact the emergency contact recorded in {{business:safety.emergency_contact}} and the escalation contact in {{business:safety.escalation_contact}}, and record the incident. Do not resume the session."
+    }
+  ],
+  "procedure": [
+    "Complete the intake health questionnaire with the client before the session, and check every answer against the approved contraindication list",
+    "Where a contraindication is present, postpone or change the session and recommend that the client see a medical practitioner first",
+    "Record each contraindication, the decision and the referral advice given, on the client record",
+    "During the session, watch for signs of distress or an adverse reaction, and stop if any appear",
+    "If a serious symptom appears, stop, keep the client safe, advise urgent medical care, contact the emergency contact, and record the incident",
+    "Repeat the health check at the start of each session, because a client's health can change between visits"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client books a deep-tissue session for her lower back. At intake she says she had abdominal surgery six weeks ago and that her doctor has not yet cleared her for physical treatment.",
+      "decisionPrompt": "Should the session go ahead as booked?",
+      "reasoning": "A recent surgery is a contraindication on the approved list, and the client has said her doctor has not cleared her. The therapist cannot decide the safe level of pressure after surgery, so the session should be postponed. The therapist should recommend that the client speak to her doctor, record the intake answer and the postponement, and offer to rebook once the client has medical clearance. The therapist should not offer a 'gentler' version as a substitute without the doctor's advice."
+    },
+    {
+      "situation": "A client is at the start of a session, and she says she is pregnant and asks for a full-body massage.",
+      "decisionPrompt": "What should the therapist do before proceeding?",
+      "reasoning": "Pregnancy is a listed item on the approved contraindication list in this course, so the therapist must not proceed on the basis of the client's wish alone. The therapist should check the approved procedure for pregnancy, ask the client to confirm with her midwife or doctor which treatments are suitable, and record the decision. If the procedure requires a change, the therapist applies that change. The therapist does not judge which treatments are safe in pregnancy from memory."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Intake health questionnaire with signature or confirmation",
+    "Approved contraindication list, printed or held in the kit",
+    "Emergency contact details for the client, held in the record",
+    "Clean towels and a mat for the table",
+    "Hand sanitiser or hand-washing set-up"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a client's assurance that she is fine as a screening result.",
+      "prevention": "Use the written questionnaire against the approved list, and record each answer."
+    },
+    {
+      "error": "Telling a client what a symptom means or advising on medication.",
+      "prevention": "Describe what you have observed and recommend that the client speak to a medical practitioner. Do not diagnose."
+    },
+    {
+      "error": "Presenting the lesson as a licence or a therapeutic qualification.",
+      "prevention": "State the limits in every client-facing statement. Completing a lesson grants no licence or clinical authority."
+    },
+    {
+      "error": "Continuing a session after a client reports chest pain or breathlessness.",
+      "prevention": "Stop at once, keep the client safe, advise urgent medical care and record the incident."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In Victoria, the Department of Health's list of registrable services names beauty therapy, cosmetic applications, colonic irrigation, hairdressing, skin penetration and tattooing, and does not name massage (page updated 22 May 2026). That absence is not proof that no requirement applies.",
+      "licenceNotice": true
+    },
+    {
+      "point": "In the ACT, massage is listed as a service that needs no infection control licence but must still follow the 2005 infection control Code of Practice (no date shown). This is confirmed for the ACT.",
+      "licenceNotice": false
+    },
+    {
+      "point": "In Queensland, Gold Coast City Council lists massage therapy among services that need no licence (no date shown).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not register the therapist, does not license massage, and does not give any clinical, diagnostic or therapeutic authority.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The contraindication examples in this lesson come from general massage practice, not a confirmed legal list. They must be replaced by the business's approved list.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every client has a completed intake questionnaire checked against the approved list before the session",
+    "Every contraindication found is recorded with the decision and the referral advice given",
+    "No session proceeds where a contraindication is present and unresolved",
+    "Every serious symptom during a session is recorded as an incident, with the action taken"
+  ],
+  "documentationEvidence": [
+    "Intake health questionnaire, signed or confirmed, with the date",
+    "Contraindication decision record, with the referral advice given",
+    "Incident record for any symptom during a session",
+    "Record of the state and council position checked, with source and date"
+  ],
+  "summary": [
+    "This lesson grants no licence and no clinical authority",
+    "Check your state and council rules for massage licensing before the first visit.",
+    "Screen with the written approved list, postpone where a contraindication is present, and refer",
+    "Stop at once for serious symptoms, keep the client safe and advise urgent medical care"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-MAS-01-K01",
+      "question": "Which statement about completing this lesson is correct?",
+      "options": [
+        "It registers the therapist with the state health department",
+        "It gives a licence to massage in every state",
+        "It grants no licence and no clinical or diagnostic authority"
+      ]
+    },
+    {
+      "id": "NEW-MAS-01-K02",
+      "question": "A client reports recent surgery, and her doctor has not cleared her for physical treatment. What should the therapist do?",
+      "options": [
+        "Postpone the session, recommend that she speaks to her doctor, and record the decision",
+        "Give a lighter session and record that pressure was reduced for the client",
+        "Ask her to sign a waiver and proceed with the session in the usual way"
+      ]
+    },
+    {
+      "id": "NEW-MAS-01-K03",
+      "question": "During a session the client reports chest pain and breathlessness. What is the correct action?",
+      "options": [
+        "Continue the session at lower pressure, since the pain should settle down",
+        "Stop, keep the client safe, advise urgent medical care, and record the incident",
+        "Tell the client it is probably muscle tension and carry on with the session"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: Department of Health (Victoria), Information for registered premises and environmental health officers (updated 22 May 2026): https://health.vic.gov.au/infectious-diseases/information-for-registered-premises-and-environmental-health-officers; ACT Government, Skin penetration procedures (no date shown): https://www.act.gov.au/health/businesses/licences-permits-and-registration/infection-prevention-and-control/skin-penetration-procedures; Gold Coast City Council, Personal appearance services (no date shown): https://www.goldcoast.qld.gov.au/Services/Report-pay-apply/Permits-licensing/Personal-appearance-services; Queensland Health, Personal appearance services legislation (no date shown): https://www.health.qld.gov.au/public-health/industry-environment/personal-appearance/services/legislation; Health information sheets for clients: massage (page updated 22 September 2025; sheet updated 16 Oct 2021): https://health.vic.gov.au/publications/health-information-sheets-for-clients-massage.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Information for registered premises and environmental health officers",
+      "url": "https://health.vic.gov.au/infectious-diseases/information-for-registered-premises-and-environmental-health-officers",
+      "pageDate": "Updated 22 May 2026",
+      "checked": "2026-11-03",
+      "covers": "Department of Health Victoria page; find the registrable services list and the mobile exemption note. Publisher: Department of Health Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Skin penetration procedures",
+      "url": "https://www.act.gov.au/health/businesses/licences-permits-and-registration/infection-prevention-and-control/skin-penetration-procedures",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "ACT Government page; infection control licence, mobile practitioners and the 2005 infection control Code of Practice. ACT only. Publisher: ACT Government (Health Directorate)."
+    },
+    {
+      "id": "R3",
+      "title": "Personal appearance services",
+      "url": "https://www.goldcoast.qld.gov.au/Services/Report-pay-apply/Permits-licensing/Personal-appearance-services",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Council page; licence classes for Gold Coast only. Publisher: Gold Coast City Council."
+    },
+    {
+      "id": "R4",
+      "title": "Personal appearance services legislation",
+      "url": "https://www.health.qld.gov.au/public-health/industry-environment/personal-appearance/services/legislation",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Queensland Health page; higher-risk services, HLTINF005 condition and infection control guidelines. Undated. Publisher: Queensland Health."
+    },
+    {
+      "id": "R5",
+      "title": "Health information sheets for clients: massage",
+      "url": "https://health.vic.gov.au/publications/health-information-sheets-for-clients-massage",
+      "pageDate": "Page updated 22 September 2025; sheet updated 16 Oct 2021",
+      "checked": "2026-11-03",
+      "covers": "Department of Health Victoria page; the linked PDF sheet was not read in this check. Publisher: Department of Health Victoria."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Dept of Health Victoria, Information for registered premises and EHOs, https://health.vic.gov.au/infectious-diseases/information-for-registered-premises-and-environmental-health-officers, page updated 26 Oct 2026, checked 2026-11-02 (MASS-VIC-01)",
+    "Dept of Health Victoria, Health information sheets for clients: massage, https://health.vic.gov.au/publications/health-information-sheets-for-clients-massage, sheet updated 16 Oct 2021, checked 2026-11-02 (MASS-VIC-03; contents not read, UNCONFIRMED)",
+    "ACT Government, Skin penetration procedures, https://www.act.gov.au/health/businesses/licences-permits-and-registration/infection-prevention-and-control/skin-penetration-procedures, checked 2026-11-02 (NAT-MASS-ACT-01)",
+    "Queensland Health, Personal appearance services legislation, https://www.health.qld.gov.au/public-health/industry-environment/personal-appearance/services/legislation, checked 2026-11-02 (MASS-QLD-01 status UNCONFIRMED for the state; Gold Coast reading in NAT-MASS-QLD-01 at https://www.goldcoast.qld.gov.au/Services/Report-pay-apply/Permits-licensing/Personal-appearance-services)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (MASS-VIC-01 to MASS-VIC-03, NAT-MASS-NT-01, NAT-MASS-SA-01, NAT-MASS-TAS-01, NAT-MASS-WA-01 UNCONFIRMED)",
+    "Checked 2026-11-03: official references R1, R2, R3, R4, R5 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-01.jpg",
+      "alt": "Mobile massage illustration",
+      "kind": "photo",
+      "origin": "massage"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-02.jpg",
+      "alt": "Mobile massage illustration",
+      "kind": "photo",
+      "origin": "massage"
+    }
+  ]
+}

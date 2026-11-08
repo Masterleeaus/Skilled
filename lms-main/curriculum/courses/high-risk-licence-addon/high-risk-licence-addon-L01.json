@@ -1,0 +1,108 @@
+{
+  "id": "high-risk-licence-addon-L01",
+  "title": "Licence classes and what this add-on does not grant",
+  "courseSlugs": [
+    "high-risk-licence-addon"
+  ],
+  "moduleTitle": "Optional add-on: high-risk work and platform licences",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Workers and supervisors who may be asked to work at height or on a platform. Optional add-on, taken alongside the main courses.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Identify the states in this add-on that list a boom-type elevating work platform class as a high-risk work licence.",
+    "State that this add-on grants no licence, certificate or authority."
+  ],
+  "instruction": [
+    {
+      "heading": "What a high-risk work licence is",
+      "body": "Some plant and platform work is licensed as high-risk work. WorkSafe Victoria's high risk work licence page names a boom-type elevating work platform operation licence as a class (page reviewed 30 June 2026). SafeWork NSW also lists a boom-type elevating work platform (WP) class among its high-risk work licences (page last modified 15 June 2026)."
+    },
+    {
+      "heading": "What this add-on does not do",
+      "body": "This add-on explains the licence rules. It does not grant a licence, certificate or authority for any regulated work, and finishing it does not qualify a learner to operate a boom-type platform. Check the rule for the state or territory where the work is done with that regulator before any work at height or on a platform."
+    },
+    {
+      "heading": "How to use this add-on",
+      "body": "Take this add-on alongside the main courses. Each lesson marks the points that no official source confirms, so that they are checked before anyone relies on them."
+    }
+  ],
+  "procedure": [
+    "Name the state or territory where the work will be done.",
+    "Open the regulator's high-risk work licence page for that state.",
+    "Record the page date and the rule before starting the job."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A tradesperson who has finished this add-on is asked to clean upper walls from a boom-type platform in Victoria.",
+      "decisionPrompt": "Does finishing the add-on allow the work to start?",
+      "reasoning": "No. The add-on grants no licence. Victoria's WP class is a high risk work licence class, and whether it applies to this platform depends on the boom length, which is not confirmed by an official source for Victoria (see lesson 3)."
+    }
+  ],
+  "equipmentAndPpe": [
+    "None for this lesson (knowledge only)."
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating the add-on as a licence.",
+      "prevention": "Read the licence notice at the start of every lesson before any licence question."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Licence notice: this add-on does not grant a licence, certificate or authority for regulated work. Completing it is not a licence for any high-risk work.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Check the licence rule with the state or territory regulator before any work above ground level or with a boom-type platform.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Learner states that the add-on grants no licence before answering any licence question."
+  ],
+  "documentationEvidence": [
+    "Date and URL of the regulator page checked for the state where the work is done."
+  ],
+  "summary": [
+    "A WP licence class is named by regulators in Victoria and New South Wales.",
+    "This add-on grants no licence or authority."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "high-risk-licence-addon-L01-K01",
+      "question": "What does completing this add-on give a learner?",
+      "options": [
+        "A high-risk work licence for boom-type platforms",
+        "Knowledge only; it does not grant a licence, certificate or authority",
+        "A licence number that is valid in every state"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/high-risk-work-licence (Reviewed 30 June 2026; checked 2026-11-04)",
+    "https://www.safework.nsw.gov.au/licences-and-registrations/licences/high-risk-work-licences (Last modified 15 June 2026 (page metadata; no date shown on page); checked 2026-11-04)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "High risk work licence (WorkSafe Victoria)",
+      "url": "https://www.worksafe.vic.gov.au/high-risk-work-licence",
+      "pageDate": "Reviewed 30 June 2026",
+      "checked": "2026-11-04",
+      "covers": "Names the boom-type elevating work platform operation licence class; states the class without a boom length; scissor lifts do not need the WP licence. Does not state whether the class applies at any boom length."
+    },
+    {
+      "id": "R2",
+      "title": "High-risk work licences (SafeWork NSW)",
+      "url": "https://www.safework.nsw.gov.au/licences-and-registrations/licences/high-risk-work-licences",
+      "pageDate": "Last modified 15 June 2026 (page metadata; no date shown on page)",
+      "checked": "2026-11-04",
+      "covers": "Lists the boom-type elevating work platform (WP) class; WP licence where the boom is 11 metres or more."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

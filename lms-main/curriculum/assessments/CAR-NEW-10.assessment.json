@@ -1,0 +1,53 @@
+{
+  "lessonId": "CAR-NEW-10",
+  "knowledgeAnswers": [
+    {
+      "id": "CAR-NEW-10-K01",
+      "correctIndex": 1,
+      "rationale": "A crack and moisture inside the lens are referral triggers. Surface restoration does not close a crack or dry a housing, so the lamp is recorded, referred and the owner is told in writing."
+    },
+    {
+      "id": "CAR-NEW-10-K02",
+      "correctIndex": 0,
+      "rationale": "Claims about benefits and performance must be provable, and omitting relevant details can mislead (ACCC guidance). A fixed clarity period with no evidence behind it is not a safe statement."
+    },
+    {
+      "id": "CAR-NEW-10-K03",
+      "correctIndex": 2,
+      "rationale": "Local controls such as wet methods and ventilation come first. A respirator is a last-line control, and it needs a fit test before first use and a fit check each time it is worn. A basic dust mask does not protect against small particles."
+    },
+    {
+      "id": "CAR-NEW-10-K04",
+      "correctIndex": 1,
+      "rationale": "Flicker and dimming are electrical faults. Restoration does not include electrical work, and only licensed or registered electricians should carry it out, so the fault is recorded and referred."
+    }
+  ],
+  "practicalCriteria": [
+    "Inspects two sample lamps in the same light, photographs each finding, and states a restore or refer decision for each lamp before any work starts.",
+    "Applies the referral rule correctly to a sample lamp with a simulated crack or internal moisture, and writes a referral note that says what restoration cannot fix.",
+    "Masks the paint, trim and seal around the sample lamp so that no product mark is left on the masked surfaces, as observed by the assessor at handover.",
+    "Works the sample lens wet, inspects between stages, and returns to an earlier stage when an area stays dull, without increasing pressure to speed up.",
+    "Names the SDS sections for handling, PPE and disposal of each product used, and states the PPE the SDS requires.",
+    "Collects slurry so none reaches a drain in the assessment area, and wet cleans the work area afterwards.",
+    "Writes a quote extract that states the limits of restoration and the protective coat conditions, and makes no durability promise beyond what the label supports."
+  ],
+  "passRule": "Pass when all practical criteria are met as observed by the assessor, the restore or refer decision is correct for every sample lamp, the before and after photographs and the confirmed scope are complete, and no stop-work criterion has occurred. A knowledge check result is not practical competence and does not count towards this pass. This pass is an internal assessment and does not give any licence or authority for electrical, glazing or vehicle repair work.",
+  "evidenceRequired": [
+    "Before and after photographs of each sample lamp, in matching light and from matching angles",
+    "Owner consent and confirmed scope record, including the stated limits",
+    "Product, label and SDS references for each product used",
+    "PPE and fit-check record, where a respirator was used",
+    "Referral note for any sample lamp that met a trigger",
+    "Assessor observation record for each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "A crack, internal moisture, housing damage or an electrical fault is found and the lamp is still being restored",
+    "Any wiring, connector, control unit or ballast work is attempted",
+    "A lamp is energised or its housing is opened during restoration",
+    "Sanding or polishing creates dust or slurry with no control in place where the risk assessment requires one",
+    "A respirator is needed and the worker has no current fit test or fit check",
+    "Product reaches paint, trim or seal outside the masked area",
+    "The lens becomes warm, cloudy, changes texture or appears thin during sanding",
+    "No SDS is available for a product in use"
+  ]
+}

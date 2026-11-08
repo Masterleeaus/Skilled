@@ -1,0 +1,41 @@
+{
+  "lessonId": "PSA-13",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-13-K01",
+      "correctIndex": 2,
+      "rationale": "Appendix C and table 3: spa water is capped at 40 degrees Celsius, with 35 to 37 degrees as the target."
+    },
+    {
+      "id": "PSA-13-K02",
+      "correctIndex": 2,
+      "rationale": "Section 7.2 and Appendix C: a public spa needs its full volume cycled through the filter every half hour or sooner."
+    },
+    {
+      "id": "PSA-13-K03",
+      "correctIndex": 1,
+      "rationale": "Table 3 note: stabilisers are not permitted in spa pools."
+    },
+    {
+      "id": "PSA-13-K04",
+      "correctIndex": 3,
+      "rationale": "The replacement and weekly cleaning section says to swap out a minimum of 20 percent of the spa water on every day it operates, or empty the spa fully each week."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied spa, reads the temperature, checks the alarm, and states whether the reading is within the 40 degree limit.",
+    "Tests disinfectant and pH on a supplied spa and compares them with the spa minimums, recording each value.",
+    "Stops and escalates a supplied scenario with a temperature above 40 degrees, without reopening the spa."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Spa daily record for the assessed spa",
+    "Weekly replacement or drain and cleaning record",
+    "Assessor observation of the temperature check"
+  ],
+  "stopWorkCriteria": [
+    "Spa temperature above 40 degrees: clear the spa, isolate heating as the procedure allows, and escalate.",
+    "Skimmer or weir blocked during use: stop the spa and clear it before bathers return.",
+    "Disinfectant below spa minimum: keep the spa closed until corrected and retested."
+  ]
+}

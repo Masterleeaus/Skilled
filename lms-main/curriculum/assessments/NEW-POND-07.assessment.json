@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-POND-07",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-POND-07-K01",
+      "correctIndex": 0,
+      "rationale": "At 17.8 mg/L per degree of carbonate hardness, 89 mg/L is about 5 °dKH."
+    },
+    {
+      "id": "NEW-POND-07-K02",
+      "correctIndex": 2,
+      "rationale": "Decay uses dissolved oxygen and warm water holds less of it, so the risk is highest on warm still nights."
+    },
+    {
+      "id": "NEW-POND-07-K03",
+      "correctIndex": 1,
+      "rationale": "A pH change is checked against trend and temperature, with an in-date reagent, and recorded before any action."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes procedure step 1: Read the owner's plan for the target ranges, the test frequency and the approved actions.",
+    "Learner completes procedure step 2: Record the air temperature and the time, then measure the water temperature in degrees Celsius at the planned depth.",
+    "Learner completes procedure step 3: Assess clarity with the marked disc, and record colour, surface film, odour and any visible algae as observations.",
+    "Learner completes procedure step 4: Test dissolved oxygen, pH and each hardness part in the kit's sequence, after checking reagent expiry and calibration."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Record of procedure step 2: Record the air temperature and the time, then measure the water temperature in degrees Celsius at the planned depth.",
+    "Record of procedure step 3: Assess clarity with the marked disc, and record colour, surface film, odour and any visible algae as observations.",
+    "Record of procedure step 5: Convert any hardness reading to the unit the plan uses, using the arithmetic in this lesson, and record both values with their units."
+  ],
+  "stopWorkCriteria": [
+    "Stop work if procedure step 7 is not done: Take the plan's action if there is one, otherwise refer, and record the readings and the decision. Wear the PPE set by {{business:safety.required_ppe}}."
+  ]
+}

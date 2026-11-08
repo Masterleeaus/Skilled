@@ -1,0 +1,35 @@
+{
+  "lessonId": "SFS-16",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-16-K01",
+      "correctIndex": 0,
+      "rationale": "The fallback chain ends at the standard template, so a report can still be produced."
+    },
+    {
+      "id": "SFS-16-K02",
+      "correctIndex": 0,
+      "rationale": "A signature records acknowledgement of the work. It does not record payment, and it does not confirm any licence."
+    },
+    {
+      "id": "SFS-16-K03",
+      "correctIndex": 0,
+      "rationale": "Without an active default, the fallback chain has no end point and reports can fail."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (service report templates, signatures and final files) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

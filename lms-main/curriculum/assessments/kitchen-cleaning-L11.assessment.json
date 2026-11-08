@@ -1,0 +1,34 @@
+{
+ "lessonId": "kitchen-cleaning-L11",
+ "knowledgeAnswers": [
+  {
+   "id": "kitchen-cleaning-L11-K01",
+   "correctIndex": 1,
+   "rationale": "A false record is a control failure. Refuse and record the real result."
+  },
+  {
+   "id": "kitchen-cleaning-L11-K02",
+   "correctIndex": 2,
+   "rationale": "The signer must have observed or reliably verified the recorded work."
+  },
+  {
+   "id": "kitchen-cleaning-L11-K03",
+   "correctIndex": 0,
+   "rationale": "Failures are recorded honestly with corrective action."
+  }
+ ],
+ "practicalCriteria": [
+  "Completes all fields of a simulated schedule entry for one control.",
+  "Refuses a simulated false sign-off and records the real status.",
+  "Records a simulated failed control with corrective action."
+ ],
+ "passRule": "Entry complete for the control, false sign-off refused, and failure recorded with corrective action. Observed by an assessor.",
+ "evidenceRequired": [
+  "Completed schedule entry",
+  "Failure and corrective-action record"
+ ],
+ "stopWorkCriteria": [
+  "Request to sign a control not performed",
+  "Pre-filled entry found"
+ ]
+}

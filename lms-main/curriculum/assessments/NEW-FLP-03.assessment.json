@@ -1,0 +1,32 @@
+{
+  "lessonId": "NEW-FLP-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-FLP-03-K01",
+      "correctIndex": 3,
+      "rationale": "Mounting only where structural is within scope. Wiring to a switch is referred to a licensed electrical worker."
+    },
+    {
+      "id": "NEW-FLP-03-K02",
+      "correctIndex": 0,
+      "rationale": "Stop, do not move the cable, record its location and refer."
+    },
+    {
+      "id": "NEW-FLP-03-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says connecting an item to a fixed circuit is electrical work and is referred to a licensed electrical worker."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated wall light that needs a fixed supply, the worker mounts only the structure and records the wiring referral."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Pre-mount check record",
+    "Referral note"
+  ],
+  "stopWorkCriteria": [
+    "A cable is found in the drilling position",
+    "The item needs a fixed supply that the worker would have to create"
+  ]
+}

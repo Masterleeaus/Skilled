@@ -1,0 +1,36 @@
+{
+  "lessonId": "PVB-03",
+  "knowledgeAnswers": [
+    {
+      "id": "PVB-03-K01",
+      "correctIndex": 1,
+      "rationale": "VBA note (2018), definitions: barrier height is measured at right angles to the settled ground surface."
+    },
+    {
+      "id": "PVB-03-K02",
+      "correctIndex": 3,
+      "rationale": "VBA note (2018), adjoining properties section: a boundary fence must reach at least 1800 mm on the pool side, with a zone measured 900 mm down."
+    },
+    {
+      "id": "PVB-03-K03",
+      "correctIndex": 1,
+      "rationale": "VBA note (2018), mesh section: openings above 13 mm and up to 100 mm need at least 1800 mm of height."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied barrier section, measures height from the ground surface and states whether it meets the rule for internal or boundary barriers.",
+    "Measures mesh openings and the bottom gap on a supplied sample, and states whether each meets the rule.",
+    "Identifies a supplied ledge or step that affects the zone and states the correction required."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Barrier measurement record for the assessed section",
+    "Mesh and gap record",
+    "Assessor observation of the measurement"
+  ],
+  "stopWorkCriteria": [
+    "Any gap under the barrier wider than 100 mm, or a climbable barrier next to the water: halt, secure the area, and report.",
+    "Change made to a permanent barrier without a permit: stop and report to the building surveyor.",
+    "Mesh opening above 100 mm: do not accept the barrier as compliant."
+  ]
+}

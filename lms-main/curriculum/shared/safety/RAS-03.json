@@ -1,0 +1,136 @@
+{
+  "id": "RAS-03",
+  "title": "Ranking controls and checking residual risk",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Supervisors and estimators who choose the controls for a cleaning hazard and record the residual risk after they are in place.",
+  "prerequisites": [
+    "F02-L02",
+    "RAS-01"
+  ],
+  "learningOutcomes": [
+    "Rank candidate controls from the most effective type to the least effective.",
+    "Choose controls for a named hazard and explain why higher-ranked options were used first.",
+    "Re-score a hazard for residual risk and justify the result.",
+    "Explain why a control on paper alone is not a control."
+  ],
+  "instruction": [
+    {
+      "heading": "The ranking of control types",
+      "body": "Controls are ranked from the most effective to the least effective. Elimination removes the hazard, for example by not using a product or not doing a task in that way. Substitution replaces the hazard with a less harmful option, for example a product that does not need mixing, a single concentrate diluted with water, or battery equipment instead of a noisy mains machine. Engineering controls change the workplace itself, for example a HEPA-filter vacuum, a guard, a physical barrier, good lighting or a cable management system. Administrative controls change how people work, for example a written procedure, a roster, supervision, signage, a briefing or an exclusion zone. Personal protective equipment is the last line. It protects the wearer but does not remove the hazard, so it never replaces a higher control. The source register relies heavily on administrative controls and PPE, so the reader should ask at every row whether a higher control is possible before accepting the lower one."
+    },
+    {
+      "heading": "Choosing controls for a named hazard",
+      "body": "Start with the highest-ranked option that can be applied to the task, then add lower-ranked controls only where the higher ones do not remove the risk enough. For a wet floor in a busy stairwell, the options include a barrier that closes one side, a sequence that cleans the stairs in a set direction while the public is kept off, timing the work outside peak movement, and footwear with good grip. The barrier and timing are higher than the footwear, so they are relied on first, and the footwear remains as a further layer. Write each control as an action the crew can check. Avoid phrases such as be careful or take care, because nobody can verify them. A control that depends on a person remembering something every time needs a check, such as a supervisor walk-through or a sign-off at the end of the task."
+    },
+    {
+      "heading": "Residual risk and what makes a control real",
+      "body": "After the controls are chosen, the hazard is re-scored with the controls in place. This is the residual risk. A residual score that is lower than the starting score is only credible when each control is in place and working. A control that is listed but never shown to the crew, never supplied, or never checked is not in place, and the residual score must not count it. If the residual score is the same as or higher than the starting score, the controls have not worked, and the task must not start until the controls are redefined and re-assessed. Completing this lesson does not make a learner the person who decides on controls for a business."
+    }
+  ],
+  "procedure": [
+    "List every candidate control for the hazard before choosing any of them.",
+    "Rank the candidates from elimination to PPE and mark each one with its type.",
+    "Choose the highest-ranked controls that can be applied to the task, and add lower ones where needed.",
+    "Write each control as a checkable action with a person responsible for it.",
+    "Re-score the hazard for residual likelihood and severity with the controls in place.",
+    "Confirm each control is in place on site before the task starts, and record the confirmation."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaning crew needs to clean a stairwell that the public uses during business hours.",
+      "decisionPrompt": "List the candidate controls, rank them, choose the set that will be relied on, and say what will be checked before the task starts.",
+      "reasoning": "A barrier that closes one side of the stairwell and a timing rule that moves the work away from peak use are ranked above the footwear and the warning signs. The crew relies on those first. The footwear stays on the list as a further layer. The check before start is that the barrier is in place, the signage is on both approaches, and the supervisor has walked the route. The residual score is only lowered once the barrier and timing have been seen working on the day."
+    }
+  ],
+  "equipmentAndPpe": [
+    "The hazard register, with the starting scores already recorded",
+    "The list of controls approved for the site",
+    "Barriers, signage and any equipment named in the controls",
+    "{{business:safety.required_ppe}} as the last-ranked control, not as a substitute for higher controls"
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing PPE first because it is quick to issue.",
+      "prevention": "Rank the candidates first and choose from the top down."
+    },
+    {
+      "error": "Writing controls as wishes, such as be careful.",
+      "prevention": "Write each control as an action that someone can check on site."
+    },
+    {
+      "error": "Lowering the residual score for a control that has not been seen working.",
+      "prevention": "Count a control only when it is in place and verified, and record how it was verified."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: A control must be in place before the task starts. If a control is missing, damaged or not supplied, the task is held and the supervisor is told.",
+      "licenceNotice": false
+    },
+    {
+      "point": "WARNING: Do not remove or bypass a barrier, guard or safety feature to speed up the work.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Candidate controls are listed and ranked before any are chosen.",
+    "Each chosen control is written as a checkable action with an owner.",
+    "The residual score is based only on controls verified as in place, and the verification is recorded."
+  ],
+  "documentationEvidence": [
+    "Control list showing rank and type for each control",
+    "Residual score with the reason it changed, and the verification record"
+  ],
+  "summary": [
+    "Rank controls from elimination and substitution down to PPE.",
+    "Choose the highest controls that work for the task and keep PPE as a further layer.",
+    "Re-score the residual risk only for controls verified on site.",
+    "A missing or unverified control means the task is held."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:procedures.prestart_checklist}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-03-K01",
+      "question": "Which control type sits highest in the ranking?",
+      "options": [
+        "Changing to a product that does not need mixing",
+        "Wearing eye protection during the task",
+        "Writing a procedure for the crew to read"
+      ]
+    },
+    {
+      "id": "RAS-03-K02",
+      "question": "A control is written on the register as in place, but the crew has never been shown it. What does the residual score assume if it counts that control?",
+      "options": [
+        "That the hazard has been removed from the site.",
+        "That the control is already working as intended.",
+        "Nothing, as the crew's record is left out"
+      ]
+    },
+    {
+      "id": "RAS-03-K03",
+      "question": "A residual score comes out higher than the starting score. What is the right response?",
+      "options": [
+        "Accept it, since the crew was briefed and the score is close enough",
+        "Record it and deal with it at the next scheduled review.",
+        "Hold the task until the controls are redefined and re-assessed."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), hazard register control columns and residual risk column across the hazard rows; rights: user-held",
+    "UNCONFIRMED: control hierarchy and duty to eliminate or minimise risk under state and territory work health and safety law; not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

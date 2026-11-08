@@ -1,0 +1,193 @@
+{
+  "id": "medical-equipment-cleaning-L03",
+  "title": "Manufacturer instructions and asset identification",
+  "courseSlugs": [
+    "medequip"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and cleaning supervisors who clean the external surfaces of authorised medical equipment in a healthcare facility, in any Australian state or territory. This course covers external cleaning only.",
+  "referencesAtStart": "Official sources for this lesson: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019) (no page date shown; document dated 2019), which has only been partly confirmed.",
+  "prerequisites": [
+    "medical-equipment-cleaning-L01",
+    "medical-equipment-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Identify a medical device by its model and serial label, and match it to the correct written instructions.",
+    "Explain why the manufacturer's current external cleaning instructions govern the product choice, contact conditions and limits.",
+    "Recognise a missing, illegible or conflicting instruction and state the stop condition that follows.",
+    "Record asset identity and the instruction version used on the work record."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson: external cleaning only",
+      "body": "This lesson covers external cleaning only. It explains how to identify the equipment and find the instructions that govern an approved external clean. Reprocessing, disinfection for reusable devices and sterilisation are outside this course. They are authorised only by the manufacturer's instructions and the facility's written procedure, and this lesson does not teach any of them."
+    },
+    {
+      "heading": "Why identity comes first",
+      "body": "A cleaning instruction belongs to a specific model, not to a family of devices that look alike. Two monitors from the same range can have different permitted surface products, different ingress protection ratings, and different rules about liquid near connectors. Before you open a product or wipe a surface, confirm the asset label: model number, serial number or asset tag, and the facility asset identifier if one is fitted. If the label is missing, worn or cannot be read, the item cannot be matched to its instructions. Treat it as unidentified and stop."
+    },
+    {
+      "heading": "Finding the instruction that governs",
+      "body": "The governing instruction is the current manufacturer document for that model, together with any facility supplement that adds a restriction. Check three things: the document matches the model and serial range on the label, the revision date or version is current, and the cleaning section covers the external surface you are asked to clean. A facility supplement may only tighten the manufacturer's instruction, never loosen it. If the manufacturer says no liquid on a surface and the facility supplement lists a product for that surface, stop and refer the conflict. Do not choose the more convenient of two instructions. The facility location of the current instructions is recorded in {{business:equipment.manufacturer_manual_url}}."
+    },
+    {
+      "heading": "What the instruction tells you",
+      "body": "A usable external cleaning instruction states the approved product or product class, the dilution or form of the product, the method of application, the wet contact condition if one applies, the surfaces and openings to keep dry, and the prohibited products or materials. Read every one of these before starting. Do not make up a concentration, substitute a stronger chemical, or apply a product to a surface that the instruction keeps dry. If an instruction requires a contact condition you cannot achieve on that surface, mark the task incomplete and escalate rather than adjusting the method."
+    },
+    {
+      "heading": "Worked case: two monitors that look alike",
+      "body": "Two patient monitors sit side by side on a ward. Their casings look identical, but one label gives a different model number and its instruction permits only a specific detergent wipe, while the other permits a different product. The first step is to read both labels, not the casings. Clean each unit only with the product its own model allows, and record the asset identity against each clean. If either label is illegible, leave that unit alone and report it."
+    }
+  ],
+  "procedure": [
+    "Read the asset label on the item and record the model, serial number or asset tag.",
+    "Find the current manufacturer instruction for that model and confirm its revision matches the label range.",
+    "Check the facility supplement, if any, and confirm it does not conflict with the manufacturer instruction.",
+    "Note the approved product, dilution or form, method, contact condition, dry surfaces and prohibited products.",
+    "If the label is unreadable, the instruction is missing, or the two documents conflict, stop, leave the item as found, and escalate.",
+    "Compare the product on your trolley with the approved list before opening it. Do not use a product that is not listed.",
+    "Record the asset identity, the instruction version, the product lot used, and any exception on the work record."
+  ],
+  "workedExamples": [
+    {
+      "situation": "You are asked to clean a portable ultrasound-style unit in a clinic. The label is partly scratched and shows a model number ending in a partly unreadable character. The facility binder has two instructions for similar models.",
+      "decisionPrompt": "Can you clean the unit, and what do you record?",
+      "reasoning": "The asset cannot be confirmed because the label is incomplete and two candidate instructions exist. Do not clean the unit with either product. Leave it as found, report the unreadable label to the clinical engineering or facility contact, and record the item, the attempt and the escalation. The task is incomplete until identity is confirmed."
+    },
+    {
+      "situation": "A bedside pump's instruction says to keep the display and connector dry. A colleague suggests a quick spray of disinfectant to speed up the clean.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "The instruction prohibits liquid on the display and connector, and spraying would breach it. A spray also means the product cannot be controlled as the instruction requires. Use only the approved method the instruction allows, avoid the keep-dry areas, and if the item cannot be cleaned as the instruction requires, stop and refer."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Current manufacturer instruction for each authorised model, held at the facility: {{business:equipment.manufacturer_manual_url}}",
+    "Facility asset register or label check list: {{business:equipment.inspection_checklist}}",
+    "Approved external cleaning products for the model: {{business:materials.approved_products}}",
+    "Personal protective equipment as required by the product safety data sheet: {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using the instruction for a similar model, or an older revision, because it is easier to find.",
+      "prevention": "Match the instruction to the model and serial range on the label, and check the revision before starting."
+    },
+    {
+      "error": "Choosing the convenient instruction when the manufacturer and facility documents conflict.",
+      "prevention": "Stop and refer conflicts. Never choose between instructions yourself."
+    },
+    {
+      "error": "Improvising a concentration or using a stronger product when the instructed product is not on the trolley.",
+      "prevention": "Use only the listed product at the listed dilution. If it is not available, stop and request it."
+    },
+    {
+      "error": "Spraying or soaking an item whose instruction says to keep certain surfaces dry.",
+      "prevention": "Apply the approved method only to the surfaces the instruction allows, and keep dry areas dry."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the facility procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Product selection and contact conditions must follow the product label and the manufacturer's instructions for the specific model. Do not vary them.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Some devices carry manufacturer conditions that restrict external cleaning products; a facility supplement may add restrictions but cannot remove manufacturer restrictions. This is a general principle from the course design and is not drawn from a cited standard; the specific product restrictions must be taken from each manufacturer.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Identifying an asset and reading a manufacturer instruction does not grant any authority to reprocess, repair or service a device.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner matches three supplied asset labels to the correct supplied instruction, and identifies the one that cannot be matched.",
+    "The learner states the approved product, dilution, method, contact condition and dry surfaces for one instruction without error.",
+    "The learner stops and escalates a conflicting instruction set without choosing between them.",
+    "The learner records the asset identity and the instruction version on a completed record."
+  ],
+  "documentationEvidence": [
+    "Asset identity: model, serial number or asset tag as shown on the label",
+    "Instruction version or revision used, and the facility supplement reference if any",
+    "Product used, lot or batch number, and the dilution or form",
+    "Any exception, unreadable label, missing instruction or conflict, with the escalation recipient and time"
+  ],
+  "summary": [
+    "Identity comes first: the label identifies the model, and the model identifies the instruction.",
+    "Use the current manufacturer instruction for that model, with any facility supplement that only tightens it.",
+    "Missing, illegible or conflicting instructions stop the task. Do not improvise.",
+    "Record the asset, the instruction version and the product used every time."
+  ],
+  "businessFields": [
+    "{{business:equipment.manufacturer_manual_url}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:materials.approved_products}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-equipment-cleaning-L03-K01",
+      "question": "Two monitors look identical. What determines which cleaning product may be used on each?",
+      "options": [
+        "The product the cleaner used on the last monitor, since it worked well and left no marks",
+        "The model and serial shown on each label, matched to its current manufacturer instruction.",
+        "Whichever product is stronger, so both are cleaned to the same standard."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L03-K02",
+      "question": "The manufacturer instruction and the facility supplement give different product choices for the same surface. What should you do?",
+      "options": [
+        "Use the product that is easier to find on the trolley, since it is nearest",
+        "Use half of each product to meet both documents on the same surface",
+        "Stop and refer the conflict to the responsible person before cleaning."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L03-K03",
+      "question": "The asset label is worn and the model number cannot be read. What is the correct action?",
+      "options": [
+        "Treat the item as unidentified, leave it as found, and escalate.",
+        "Guess the model from its shape and clean it with the matching product",
+        "Clean it with the product used on the most recent similar device."
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "no page date shown; document dated 2019 (CD34)",
+      "checked": "2026-11-03",
+      "covers": "Read: sections on environmental cleaning, spills, hand hygiene, standard precautions and sharps. Not read: section 3.1.4 (reprocessing), 3.1.7 (waste), 4.1.2 (roles) and Appendix 6.1 (frequencies). Check those in the full PDF. Publisher: National Health and Medical Research Council (NHMRC)."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page listed at the start: NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019) (no page date shown; document dated 2019). This has only been partly confirmed and must be checked on the official site before use.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NHMRC, Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019), CD34. https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf (checked 2026-11-02; hosted copy of the 2019 edition)",
+    "ACIPC, Position Statement: Single-use Devices, version 4.0, February 2024. https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf (checked 2026-11-02)",
+    "UNCONFIRMED: the specific manufacturer restrictions for any named device, and the facility supplement requirements. These must be taken from each manufacturer and the facility, and were not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-05.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-06.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    }
+  ]
+}

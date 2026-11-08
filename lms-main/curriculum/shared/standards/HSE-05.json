@@ -1,0 +1,130 @@
+{
+  "id": "HSE-05",
+  "title": "Microfibre systems: laundering, drying and damp-mop limits",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaning staff and supervisors in healthcare facilities where microfibre has been approved by the infection prevention team",
+  "prerequisites": [
+    "GCM-02",
+    "SAH-06"
+  ],
+  "learningOutcomes": [
+    "Apply the one-cloth-per-area rule in a microfibre system",
+    "State the laundering and drying rules for microfibre products",
+    "Set and observe a time limit for damp microfibre mops"
+  ],
+  "instruction": [
+    {
+      "heading": "The system and its approval",
+      "body": "A microfibre system holds soil through static attraction, which helps with awkward places. The Irish method statement uses it only where the local infection team has approved it, and it requires a trained operator. Use a single fresh cloth for each room or area, and a new mop head for every area. Keep dust control items and damp mop heads in labelled net bags so that areas do not mix."
+    },
+    {
+      "heading": "Laundering",
+      "body": "Launder microfibre products separately from other cloths and mops. Use a pre-wash, a main wash, then two rinses. Do not use fabric softener or bleach. Use only a neutral detergent and avoid recycled water systems. The method statement gives heat and time targets for the product, and an upper limit for drying heat. Check the supplier's current instructions and the Australian laundering requirements for the facility before using any figure."
+    },
+    {
+      "heading": "Drying and damp mops",
+      "body": "Dry microfibre mops after use. Because it is hard to monitor a damp mop, the safer rule is to dry it after use. Microfibre can also take a long time to dry when net bags constrict the mops during washing."
+    },
+    {
+      "heading": "Checking the area",
+      "body": "Record any area that cannot be reached, so that it is not left untreated for over a day. Measure the system's performance by looking for dust after cleaning."
+    }
+  ],
+  "procedure": [
+    "Confirm the infection prevention team has approved the system for this area.",
+    "Label net bags by area and keep them separate.",
+    "Use a single fresh cloth for each room or area, and a new mop head for every area.",
+    "Damp-mop from the far end toward the door, changing the mop head when it dries out.",
+    "Launder microfibre separately with a neutral detergent and no softener or bleach.",
+    "Dry mops after use, and record any area that could not be reached."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A team wants to save money by using one cloth for four patient rooms during a single shift.",
+      "decisionPrompt": "Is this allowed under the method?",
+      "reasoning": "No. The method calls for a single fresh cloth for each room or area. Sharing one cloth across four rooms spreads microorganisms from room to room, which defeats the purpose of the system. The team buys the cloths or changes the approach with the infection prevention team."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Gloves",
+    "Labelled net bags",
+    "Approved microfibre cloths or mop heads",
+    "Neutral detergent"
+  ],
+  "commonErrors": [
+    {
+      "error": "Washing microfibre with fabric softener to keep it soft",
+      "prevention": "Use neutral detergent only, with no softener or bleach."
+    },
+    {
+      "error": "Leaving damp mops overnight",
+      "prevention": "Dry mops after use, and never exceed the damp-mop time limit."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Microfibre is compatible with only some chemical products. Check the compatibility list before use, as the SA standard advises.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the supplier's instructions and facility policy.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner applies the one-cloth-per-area rule to a sample set-up",
+    "The learner names two laundering rules"
+  ],
+  "documentationEvidence": [
+    "Record of areas not reached and the action taken",
+    "Laundry record for microfibre batches"
+  ],
+  "summary": [
+    "Use a single fresh cloth for each room or area",
+    "Launder microfibre separately, with neutral detergent and no softener or bleach",
+    "Dry damp mops after use and record unreachable areas"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HSE-05-K01",
+      "question": "How many clean cloths does the method call for per room or area?",
+      "options": [
+        "One per shift for the whole ward today",
+        "A single fresh cloth for every room or area",
+        "As many as the team can share in the room"
+      ]
+    },
+    {
+      "id": "HSE-05-K02",
+      "question": "Which laundering choice is consistent with the method?",
+      "options": [
+        "Fabric softener to keep the fibres soft in every wash",
+        "Neutral detergent, with no softener and no bleach",
+        "Bleach at every wash and extra soap for the stains"
+      ]
+    },
+    {
+      "id": "HSE-05-K03",
+      "question": "How should a damp microfibre mop be handled after use?",
+      "options": [
+        "Keep it damp for up to a week",
+        "Dry it after use, as the method requires",
+        "Leave it damp overnight until it dries out"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "HSE National Cleaning Standards Manual (National Hospitals Office, Ireland, Cleaning Manual for Acute Hospitals, 2006), section 5 (microfibre cleaning system method statement) and section 4.2.4 of the SA standard (microfibre limits, referenced); rights: user-held; reworded (no copying); Irish source, not the UK Health and Safety Executive; Irish and UK legal and procurement references are not applicable in Australia and are marked UNCONFIRMED; practice content only; no URL in source; date checked 2026-11-02",
+    "cross-checked against GCM-02 (microfibre cloths, limits and retirement)",
+    "AS/NZS 4146:2000 laundry reference: UNCONFIRMED current status"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

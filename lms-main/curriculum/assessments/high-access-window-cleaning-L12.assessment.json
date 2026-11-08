@@ -1,0 +1,38 @@
+{
+  "lessonId": "high-access-window-cleaning-L12",
+  "knowledgeAnswers": [
+    {
+      "id": "high-access-window-cleaning-L12-K01",
+      "correctIndex": 3,
+      "rationale": "The handover records observed and authorised work, lists unresolved conditions and named referrals, and claims no safety certification. The other options are a certification claim, an unrecorded verbal summary, or a record with no open conditions."
+    },
+    {
+      "id": "high-access-window-cleaning-L12-K02",
+      "correctIndex": 1,
+      "rationale": "The statement is not supported by ground-level observation, so it is declined in writing with the reason. The observed scope, the limits and a specialist referral are recorded."
+    },
+    {
+      "id": "high-access-window-cleaning-L12-K03",
+      "correctIndex": 1,
+      "rationale": "Under the consumer rules, extra work needs the customer's permission before it is done, and the agreement is recorded. Starting first and billing later, or acting on a verbal instruction alone, are both wrong."
+    }
+  ],
+  "practicalCriteria": [
+    "Compares a mock work order with a mock observation record, and separates completed scope from excluded elevations.",
+    "Writes a restricted handover with completed scope, excluded elevations, unresolved conditions and named referrals, and with a limits statement.",
+    "Declines a simulated request for an all-windows-certified-safe statement in writing, with the reason and a referral.",
+    "Refers a simulated extra-scope request to the supervisor, and records the written agreement required before any work."
+  ],
+  "passRule": "Restricted handover complete with no unsupported claim, unsupported certificate declined in writing, and extra scope held until written agreement is recorded. Observed on paper or in a supervised tabletop exercise. A knowledge check result alone is not a pass.",
+  "evidenceRequired": [
+    "Restricted handover with the four sections and limits statement",
+    "Written decline for the simulated certificate request",
+    "Scope change record showing written agreement or refusal"
+  ],
+  "stopWorkCriteria": [
+    "Recommends unapproved access or work at height",
+    "Assumes site permission, equipment clearance or competence without checking it",
+    "Signs or issues a certificate or statement of safety without authority",
+    "Starts extra scope before written agreement is recorded"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lessonId": "NEW-LCK-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-LCK-01-K01",
+      "correctIndex": 1,
+      "rationale": "Queensland requires a licence to remove and reinstall household locks unless the building is under construction, repair or renovation. The worker refuses or refers and records the reason."
+    },
+    {
+      "id": "NEW-LCK-01-K02",
+      "correctIndex": 2,
+      "rationale": "The Victorian locksmith licence position is not established, so work is referred until the Licensing and Regulation Division sets it."
+    },
+    {
+      "id": "NEW-LCK-01-K03",
+      "correctIndex": 0,
+      "rationale": "The lesson states that a Class 2C licence applies to locksmiths, citing the NSW Police Force SLED locksmith FAQ page."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated lock job in a stated state, the worker checks the state position and records accept, refuse or refer with the reason."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Licence check record for the simulated job"
+  ],
+  "stopWorkCriteria": [
+    "The worker cannot state the state position, or does not hold the required licence"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "PHM-03",
+  "title": "Sand filter backwash, rinse and return to filter",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 50,
+  "audience": "Pool service technicians who backwash and check sand filters on home pools",
+  "prerequisites": [
+    "pool-cleaning-L07"
+  ],
+  "learningOutcomes": [
+    "Explain what a sand filter removes and why the pressure gauge decides when to backwash",
+    "Carry out a backwash, rinse and return-to-filter sequence in the order set by the manufacturer manual",
+    "State the rule that the multiport valve is never moved while the pump runs, and explain why",
+    "Record the reference pressure on a clean filter and the post-backwash pressure, and refer a filter that will not clean"
+  ],
+  "instruction": [
+    {
+      "heading": "What the filter is for",
+      "body": "A sand filter holds back the fine material that the skimmer plus the baskets let through. Water moves down through a bed of sand, then climbs a central pipe on its way back. Debris builds up in the bed over time, the gauge reading goes up, and the return flow shrinks. The UK handbook behind this lesson asks for a daily turnover in the bathing season and gives run times for it. The product manual sets a minimum turnover of its own and defers to local health rules. The operator plan and the equipment maker's manual are the references for run time."
+    },
+    {
+      "heading": "Deciding that a backwash is due",
+      "body": "Backwash when the gauge has climbed past the reference reading you took after the previous backwash, or when a flow meter shows the drop that the manual names as the trigger. The handbook and the manual use different pressure increases, and the manual also gives a flow-based trigger, so use the manual for the unit in front of you. The manual cautions against backwashing on a timer, since frequent backwashing reduces filtration. Rain, pollen, wind and bather load all change how fast the bed fills. Write the reference reading, the trigger you used and the date on the record."
+    },
+    {
+      "heading": "Running the valve through its settings",
+      "body": "Stop the pump, the heater and any cleaner before the valve is touched. Attach the waste hose if one is fitted. Put the handle on backwash, start the pump and let it run until the sight glass shows clear water. Stop the pump, turn the handle to rinse, run the pump briefly to settle the bed, then halt it. Put the handle on filter, open the return line, open the air bleeder, switch the pump on, then close the bleeder once the outflow is steady. Read the gauge and note it. Both sources use the same order: backwash, rinse, then filter, with the pump stopped at each change."
+    },
+    {
+      "heading": "Why the handle is never moved under flow",
+      "body": "The multiport handle must not be moved while the unit is running. The handbook says so plainly, and the manual asks for the pump to be stopped before any valve change. Moving the handle under flow can wear the spider gasket and damage the valve seal. The manual also warns that a clamp which is not fully closed can let the valve top come off under pressure. Turn the handle in one direction only, since reversing it wears the gasket. Stop the pump at its switch, check that it has stopped, and only then move the handle."
+    },
+    {
+      "heading": "Early runs in a new pool",
+      "body": "Once a new pool is filled, backwash the filter, then clean it again after the first few runs, because construction debris can clog the bed. The manual asks for a longer first backwash, because transport can wear the sand. After any backwash, hold the filter in filter position until the water is clear, and then go back to the routine. If the water remains cloudy after backwashing, look at the chemistry before extending the run time."
+    },
+    {
+      "heading": "When the bed will not clean",
+      "body": "If the pressure remains well above the reference after a proper backwash, or the flow stays weak, the bed may need a chemical clean. “Backwash triggers, rinse and chemical cleaning for the sand bed” covers that work, which needs the product named in the manual, its safety data sheet and a safe method. Do not add cleaner while the filter is connected to the circuit. Do not open or service the tank before the pressure has been released, as “Component care, inspection and seasonal shutdown of a pump and filter” describes. If the fault persists after a correct backwash, refer it to the owner or operator."
+    }
+  ],
+  "procedure": [
+    "Read the reference pressure on a clean filter from the record. If there is none, note the current reading as the first reference.",
+    "Confirm the trigger: a gauge rise above the reference or a flow fall that the manual names.",
+    "Stop the pump, heater and cleaner, and confirm the pump has stopped before touching the valve.",
+    "Open the waste line as fitted and confirm the suction and return lines are clear.",
+    "Turn the valve to backwash, start the pump, then run it until the sight glass water runs clear.",
+    "Stop the pump, turn the valve to rinse, run briefly and stop again.",
+    "Turn the valve to filter, open the return line, open the air bleeder, start the pump, and close the bleeder when water flows steadily.",
+    "Record the post-backwash pressure, the time, the trigger and the result.",
+    "If the pressure stays above the limit, stop and refer."
+  ],
+  "workedExamples": [
+    {
+      "situation": "During a visit the gauge reads well above the reference you noted last week. The owner asks you to backwash twice in a row so the pool 'shines' before a party.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "The gauge reading is the trigger, and the trigger has been reached. Backwash once in the correct order, then check the post-backwash reading. Extra backwashing does not improve filtration and wastes water. A second backwash is justified only if the first did not clear the sight glass or the bed, and the second run must be recorded. Tell the owner which trigger you used."
+    },
+    {
+      "situation": "You turn the valve to backwash and the pump is still running on its timer. The handle is stiff.",
+      "decisionPrompt": "What is the correct step?",
+      "reasoning": "Stop the pump at its switch first. Do not force the handle on a running pump. Confirm the pump is off, then move the handle slowly through the positions. If the handle is still stiff, leave the valve in its current position, record the problem and refer it for inspection. Avoid using tools or force on the valve."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Manufacturer manual for the filter and its valve model, with its clean-running pressure note",
+    "Pressure gauge record for this filter",
+    "Gloves and eye protection for splashes",
+    "Non-slip footwear and a dry mat near wet equipment",
+    "Waste line and hose as fitted to the unit"
+  ],
+  "commonErrors": [
+    {
+      "error": "Moving the valve while the unit is on",
+      "prevention": "Stop the pump at its switch, confirm it has stopped, and then move the handle."
+    },
+    {
+      "error": "Backwashing on a timer alone",
+      "prevention": "Use the gauge or flow trigger and record it."
+    },
+    {
+      "error": "Skipping the rinse step",
+      "prevention": "Follow the four valve positions in order and note each one on the record."
+    },
+    {
+      "error": "Leaving the air bleeder closed on restart",
+      "prevention": "Open the bleeder before the start, move clear as the manual directs, and close it only when water flows steadily."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Avoid moving the multiport valve handle while the unit is on. Changing position under flow can damage the valve and its seal.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Turn the pump switched off before any valve is moved, as both the handbook and the manual direct.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Before restarting after any valve change, open the air bleeder and move away from the filter. Keep it open until a constant flow of water comes out. Trapped air or a valve clamp that is not fully closed can let the valve top blow off, with risk of serious injury or damage to property.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The filter counts as a pressurised vessel. Do not service it while it is under pressure. Relieve the tank pressure, then open the air bleeder first.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Never test a filter, or pressurise it, with air or gas. Gas is compressible, so can cause serious injury or damage to property.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not force or modify a valve, clamp or filter top. Repairs to pressure components are outside a routine backwash.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant a licence for plumbing, gas or pressure-equipment work.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Trigger, pre-backwash and post-backwash pressure are recorded for every backwash.",
+    "The valve sequence is completed in order, with the pump off at each change.",
+    "A filter that does not clean after a proper backwash is referred, not opened or altered."
+  ],
+  "documentationEvidence": [
+    "Backwash record with date, trigger, pressure readings, valve sequence and duration",
+    "Referral note for valve, gauge or bed problems",
+    "Equipment reference for the filter model and its clean-running pressure"
+  ],
+  "summary": [
+    "The gauge or flow trigger decides when to backwash, not the calendar.",
+    "Backwash, rinse, then filter, with the pump off for every valve change.",
+    "A filter is a pressurised vessel and must never be serviced under pressure."
+  ],
+  "businessFields": [
+    "{{business:procedures.task_steps}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:jobs.signoff_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PHM-03-K01",
+      "question": "A sand filter gauge has risen clearly above the reference recorded after the last clean. What is the correct reason to backwash?",
+      "options": [
+        "The calendar shows that it is that day of the week today",
+        "The owner asked for a backwash before a party on the day",
+        "The pressure trigger has been reached and the reading is recorded",
+        "The pump sounds louder than usual and the water looks dull"
+      ]
+    },
+    {
+      "id": "PHM-03-K02",
+      "question": "Why must the pump be off before the multiport valve is moved?",
+      "options": [
+        "The gauge cannot be read while the unit is on",
+        "The handle is too stiff to move while the unit is on",
+        "The water would become cloudy if the valve moved under flow",
+        "Moving the valve under flow can damage the valve and its seal"
+      ]
+    },
+    {
+      "id": "PHM-03-K03",
+      "question": "After a backwash, what is the correct step before filtering resumes?",
+      "options": [
+        "Open the air bleeder, stand clear, and close it when a constant flow of water emerges",
+        "Shut the air bleeder at once, without looking at the outflow and carry on",
+        "Move the valve over to the waste setting and leave the pump on for an hour",
+        "Pour cleaning chemical into the strainer while the pump runs and then close the lid"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), section 5 Filtration (sand filter backwashing, backwash steps, run times and the multiport valve rule); rights: user-held; reworded (no copying); checked 2026-11-02. UK handbook; not an Australian source.",
+    "Swimming Pool Pump and Filter System, Installation, Operational and Service Manual (manufacturer, California, 15-2928 Rev. B 5/01), section A valve positions, section C start-up, section E cleaning frequency and section F backwash procedure; rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Homeowners Swimming Pool Online Handbook (SPATA, UK, September 2011), cross-checked against the manual section F; rights: user-held; reworded (no copying); checked 2026-11-02. The handbook and the manual agree on the order backwash, rinse, filter.",
+    "UNCONFIRMED: Australian requirements for pressure equipment, plumbing and filter maintenance, and any licence needed for that work. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

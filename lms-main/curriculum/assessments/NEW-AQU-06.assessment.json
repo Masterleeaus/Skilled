@@ -1,0 +1,42 @@
+{
+  "lessonId": "NEW-AQU-06",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-AQU-06-K01",
+      "correctIndex": 1,
+      "rationale": "Observation and equipment checks come first, then the test, then the planned change, then the record. The test comes before the change because its result can change what the change should be."
+    },
+    {
+      "id": "NEW-AQU-06-K02",
+      "correctIndex": 3,
+      "rationale": "Biological media is rinsed in tank water removed during the change, so that the bacteria survive. Tap water and detergent are wrong, and the media is not left uncleaned."
+    },
+    {
+      "id": "NEW-AQU-06-K03",
+      "correctIndex": 2,
+      "rationale": "The test is done first. Any change beyond the plan is refused or referred, and the request and the decision are recorded."
+    },
+    {
+      "id": "NEW-AQU-06-K04",
+      "correctIndex": 3,
+      "rationale": "The fixed order section says a good order ends by completing the records, after the livestock, equipment, testing, water change, cleaning, filter and equipment steps."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes a training checklist in the set order, marking each task as done, skipped or referred with a reason",
+    "Learner carries out a staged partial water change on a training tank with conditioned water, without returning siphoned water to the tank",
+    "Learner rinses filter media in removed tank water, replaces only the part the plan directs, and records what was replaced"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed checklist with done, skipped or referred status",
+    "Water change record with volume and conditioning",
+    "Filter care record with what was rinsed and what was replaced",
+    "Assessor observation of the water change"
+  ],
+  "stopWorkCriteria": [
+    "Biological media rinsed in tap water, or cleaned with household detergent",
+    "Siphoned water returned to the tank",
+    "A water change or treatment the owner's plan does not cover"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+ "lessonId": "PFM-04",
+ "knowledgeAnswers": [
+  {
+   "id": "PFM-04-K01",
+   "correctIndex": 1,
+   "rationale": "The manual gives gauge and flow triggers and warns against backwashing on a timer alone. The trigger is recorded."
+  },
+  {
+   "id": "PFM-04-K02",
+   "correctIndex": 2,
+   "rationale": "The manual says the solution must stay beyond the pool edge, and that valves are closed when the filter sits below the pool level."
+  },
+  {
+   "id": "PFM-04-K03",
+   "correctIndex": 3,
+   "rationale": "Chemical cleaning is for a bed that does not return to its start pressure after a proper backwash. Cloudiness has other causes."
+  }
+ ],
+ "practicalCriteria": [
+  "Trigger is named and recorded before backwash, with the reading compared against the manual",
+  "Valve sequence and rinse are carried out in order, with the pump off at each change",
+  "Chemical cleaning uses a labelled product with recorded protective equipment, and no solution reaches the pool",
+  "Pressure after the process is recorded, and a bed that does not clean is referred"
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Backwash record from one supervised backwash",
+  "Chemical cleaning record where chemical cleaning was carried out",
+  "Assessor observation sign-off"
+ ],
+ "stopWorkCriteria": [
+  "Backwash carried out on a timer alone with no trigger recorded",
+  "Cleaning solution allowed into the pool",
+  "Chemical cleaning without the labelled product, safety data sheet or protective equipment",
+  "Valve moved while the pump operates"
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

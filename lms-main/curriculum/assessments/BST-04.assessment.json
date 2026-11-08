@@ -1,0 +1,37 @@
+{
+  "lessonId": "BST-04",
+  "knowledgeAnswers": [
+    {
+      "id": "BST-04-K01",
+      "correctIndex": 2,
+      "rationale": "Six jobs per group with heavy overlap is too little evidence to call the gap real. Options 1 and 2 both claim certainty that the data does not give."
+    },
+    {
+      "id": "BST-04-K02",
+      "correctIndex": 0,
+      "rationale": "Similar job types over comparable periods reduce the influence of other changes. Options 2 and 3 compare unlike cases and bias the result."
+    },
+    {
+      "id": "BST-04-K03",
+      "correctIndex": 1,
+      "rationale": "Ten quotes per format is too small, and the groups were different customers. More similar quotes are needed before switching. Option 1 treats a small test as proof, and option 3 wrongly says quote acceptance cannot be compared."
+    }
+  ],
+  "practicalCriteria": [
+    "Before any data is collected, the learner writes a one-sentence question and names a measure that is recorded the same way for both methods.",
+    "The learner calculates the average and spread (range or IQR) for two groups of similar jobs and states whether the difference stands out from the normal variation.",
+    "The learner records a decision (change, keep testing or reject) with the sample sizes, the reason, and the result that would have changed the decision."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Test plan showing the question, measure, groups, dates and target number of jobs",
+    "Before and after records with counts, averages and spread for each group",
+    "Decision record with the reason and any other changes noted in the same period",
+    "Assessor observation of the learner explaining why the gap does or does not stand out",
+    "Knowledge check attempt record"
+  ],
+  "stopWorkCriteria": [
+    "Stop and do not switch a method for all jobs on the basis of a test with fewer jobs than the target set in the plan.",
+    "Stop if a method involves chemicals or equipment and its safety controls have not been checked; a test result does not change those controls."
+  ]
+}

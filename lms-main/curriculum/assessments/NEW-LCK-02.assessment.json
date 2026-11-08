@@ -1,0 +1,38 @@
+{
+  "lessonId": "NEW-LCK-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-LCK-02-K01",
+      "correctIndex": 2,
+      "rationale": "The frame and strike plate carry the load of a forced entry, so the frame is checked, remediation is recommended and quoted separately before a high-grade cylinder is fitted."
+    },
+    {
+      "id": "NEW-LCK-02-K02",
+      "correctIndex": 3,
+      "rationale": "Fire doors and their hardware are referred to a competent specialist. The lock is not fitted as standard hardware and the rating is not altered."
+    },
+    {
+      "id": "NEW-LCK-02-K03",
+      "correctIndex": 1,
+      "rationale": "The backset measured on the door must match the lock specification. A mismatch means the lock will not fit the door as specified."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated door and frame, the worker measures the door thickness, the backset and the cylinder length, and records them against the lock specification from the manufacturer data.",
+    "Given a simulated frame with a movable strike plate, the worker identifies the weakness, recommends remediation and records the recommendation without fitting the high-grade cylinder.",
+    "Given a simulated request for a master-keyed set, the worker refers the job and records the key plan and licence questions, without fitting the set."
+  ],
+  "passRule": "Measurements recorded and matched to the manufacturer data for the model. Frame weakness identified, recorded and remediation recommended. Master-keyed request referred, not fitted. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Lock selection record for the simulated door, with the measurements and the manufacturer data reference",
+    "Frame and strike check record for the simulated frame",
+    "Referral note for the simulated master-keyed request",
+    "Assessor observation sheet"
+  ],
+  "stopWorkCriteria": [
+    "The frame cannot take the strike fixings and is used anyway",
+    "The door is a fire door and is fitted as ordinary hardware",
+    "A master-keyed or access installation is fitted without a key plan and a confirmed licence position",
+    "A household lock is swapped on a building that is not under construction, repair or renovation, without a confirmed licence position"
+  ]
+}

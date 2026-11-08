@@ -1,0 +1,34 @@
+{
+  "lessonId": "MP-04-aquarium",
+  "knowledgeAnswers": [
+    {
+      "id": "MP-04-K01",
+      "correctIndex": 0,
+      "rationale": "The lesson says break-even revenue equals fixed costs divided by one minus the variable cost percentage, which is the contribution margin."
+    },
+    {
+      "id": "MP-04-K02",
+      "correctIndex": 0,
+      "rationale": "The contribution margin is 1 minus 0.12, which is 0.88, and $1,200 divided by 0.88 is $1,363.64 AUD. The other options come from wrong formulas or from skipping the margin."
+    },
+    {
+      "id": "MP-04-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says that when two figures disagree, go back to the inputs, confirm the periods and definitions, and write down one reconciled figure with its inputs. Choosing the larger figure, averaging, or skipping the check does not test the inputs."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied cost list for a home-service business, the learner labels each cost fixed or variable, and the assessor checks every label against the list.",
+    "The learner calculates break-even revenue for two supplied sets of inputs, shows the contribution margin for each, and the results match the assessor's key to the cent.",
+    "From a supplied plan extract with conflicting break-even figures, the learner identifies that the figures conflict, lists the inputs needed to reconcile them, and does not use any figure from the extract as a plan value."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off stays separate. A quiz pass is not verified practical competence.",
+  "evidenceRequired": [
+    "Labelled cost list",
+    "Calculation sheet showing each step",
+    "Reconciliation note for the conflicting figures"
+  ],
+  "stopWorkCriteria": [
+    "Stop using any break-even figure whose inputs, period or source are unknown."
+  ]
+}

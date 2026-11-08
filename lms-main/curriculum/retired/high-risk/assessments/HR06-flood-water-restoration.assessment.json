@@ -1,0 +1,92 @@
+{
+ "lessonId": "HR06-flood-water-restoration",
+ "knowledgeAnswers": [
+  {
+   "id": "HR06-K01",
+   "correctIndex": 2,
+   "rationale": "The customer request, the insurer authorisation and the safety clearance are separate documents. Work does not start until the outstanding ones are on file."
+  },
+  {
+   "id": "HR06-K02",
+   "correctIndex": 0,
+   "rationale": "Appearance, odour and an owner's statement cannot prove biological safety. Contamination is classified by a competent person."
+  },
+  {
+   "id": "HR06-K03",
+   "correctIndex": 1,
+   "rationale": "Water can undermine a floor that looks sound. Visual inspection is not structural clearance, so the area is excluded and assessed."
+  },
+  {
+   "id": "HR06-K04",
+   "correctIndex": 2,
+   "rationale": "Water-exposed systems can remain hazardous when apparently off. They are not energised without licensed clearance."
+  },
+  {
+   "id": "HR06-K05",
+   "correctIndex": 0,
+   "rationale": "A single moisture reading depends on instrument, material and reference conditions. It cannot prove drying or occupancy alone."
+  },
+  {
+   "id": "HR06-K06",
+   "correctIndex": 1,
+   "rationale": "Capacity is not a selection criterion. Equipment is chosen for contamination suitability, location, supply and trained operators."
+  },
+  {
+   "id": "HR06-K07",
+   "correctIndex": 2,
+   "rationale": "A wipe-down is not evidence of restoration for porous items. They are quarantined and referred to an authorised, competent assessment."
+  },
+  {
+   "id": "HR06-K08",
+   "correctIndex": 0,
+   "rationale": "Early covering traps moisture and hides damage. Drying is a measured trend confirmed before reinstatement."
+  },
+  {
+   "id": "HR06-K09",
+   "correctIndex": 1,
+   "rationale": "Concealed damage and possible microbial growth go to specialist investigation. Suspect material is not disturbed to test a hypothesis."
+  },
+  {
+   "id": "HR06-K10",
+   "correctIndex": 2,
+   "rationale": "Flood debris can include regulated substances and chemical containers. Hazardous streams are separated and routed only lawfully."
+  },
+  {
+   "id": "HR06-K11",
+   "correctIndex": 0,
+   "rationale": "Cleaning, drying, hygienic release and occupancy are separate claims with different responsible professionals. None is certified by cleaning alone."
+  },
+  {
+   "id": "HR06-K12",
+   "correctIndex": 1,
+   "rationale": "A possible exposure stops the work and starts the employer's procedure. Self-treatment without a record is not acceptable."
+  }
+ ],
+ "practicalCriteria": [
+  "Separates a customer request, an insurer authorisation and a safety clearance in a simulated file, and names the outstanding documents before any scope is set.",
+  "Records a contamination uncertainty log for a simulated floodwater case without assigning a category from odour or colour.",
+  "Excludes a simulated undermined area, records the exclusion zones and evacuation paths, and writes the structural referral.",
+  "Completes a utility verification checklist that refuses energisation of a water-exposed system without licensed clearance.",
+  "Writes a handover that separates cleaning completion, drying verification, hygienic release and occupancy clearance, and refers each claim."
+ ],
+ "passRule": "Competent only if all five observable tasks are demonstrated correctly in supervised paper or training-only simulation with no critical safety failure. Critical failures include entering an uncleared structure, energising a water-affected system, classifying contamination without competent assessment, sending hazardous waste to ordinary collection, or claiming dryness, hygiene or occupancy clearance. A written quiz pass is not practical competence. Not approved for use until specialist, legal and jurisdiction review is complete.",
+ "evidenceRequired": [
+  "Scope sheet with the outstanding document list for each simulated case.",
+  "Contamination uncertainty log and referral.",
+  "Exclusion zone, evacuation path and structural referral record.",
+  "Completed utility verification checklist.",
+  "Limited handover that separates the four claims, from the simulated job file.",
+  "Assessor observation record signed by an organisation-authorised competent assessor."
+ ],
+ "stopWorkCriteria": [
+  "Any entry without written permission or safety clearance, or into an uncleared structural or confined area.",
+  "Any energisation, isolation or reconnection of a water-affected electrical, gas or solar system.",
+  "Any contamination classification made from appearance or odour.",
+  "Any exposure without suitable controls or hygiene facilities.",
+  "Any moisture claim based on a single unrecorded reading.",
+  "Any disposal of hazardous streams by a route the job does not approve.",
+  "Any statement that the property is dry, hygienic, structurally sound or safe to occupy."
+ ],
+ "status": "DRAFT",
+ "reviewStatus": "NOT REVIEWED"
+}

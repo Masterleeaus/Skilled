@@ -1,0 +1,211 @@
+{
+  "id": "medical-equipment-cleaning-L11",
+  "title": "Records, incidents and failed processes",
+  "courseSlugs": [
+    "medequip"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and cleaning supervisors who keep work records for medical equipment cleaning in a healthcare facility, in any Australian state or territory. This course covers external cleaning only.",
+  "referencesAtStart": "Official sources for this lesson: NDIS Practice Standards and Quality Indicators, Version 4 (November 2021), Core Module (no page date shown); Aged Care Quality Standards, Action 3.17 (guidance resource): reprocessing reusable equipment and devices (no date shown). Only part of each of these sources has been confirmed.",
+  "prerequisites": [
+    "medical-equipment-cleaning-L03",
+    "medical-equipment-cleaning-L06",
+    "F09-L03"
+  ],
+  "learningOutcomes": [
+    "Complete a work record for an external clean with the asset, product, instruction version, observed condition, exceptions and handoff.",
+    "Explain why a record must not state that a condition was achieved when it was not.",
+    "Identify a failed or interrupted process, tag it, and escalate it under the facility incident procedure.",
+    "Describe how records support traceability, audit and review without changing what happened."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson: external cleaning only",
+      "body": "This lesson covers external cleaning only. It explains the records you keep for an external clean and how to respond when a step fails. Reprocessing, disinfection for reusable devices and sterilisation are outside this course. They are authorised only by the manufacturer's instructions and the facility's written procedure, and their records are kept under that procedure rather than under this lesson."
+    },
+    {
+      "heading": "What a complete work record contains",
+      "body": "A complete record lets another person understand what was done without asking you. For each item it should show the asset identity from the label, the location, the date and time, the product and lot used, the dilution or form, the instruction and its version, the contact condition achieved where one applies, the observed condition before and after, any exception, and the handoff or the person who signed. The exact form is set by the facility, but these fields are the minimum. Write the record at the time of the work, not from memory at the end of the shift, and use the same asset identity as the label."
+    },
+    {
+      "heading": "Honest records: what was achieved and what was not",
+      "body": "A record is a statement that something happened. If a contact condition was not achieved because the surface dried, the record must say so. Do not sign for a disinfection condition that was not achieved, do not round a time up to meet the minimum, and do not fill a field with a value you did not observe. An honest incomplete record is useful: it shows the team where to focus and it protects the patient, the worker and the facility. A false complete record is the most serious error in this lesson, because the next person will rely on it."
+    },
+    {
+      "heading": "Failed or interrupted processes",
+      "body": "A process fails when a required step cannot be completed as the instruction requires: the product runs out, the surface dries early, a label is unreadable, an item is damaged, a person is called away mid-task, or the environment changes. Stop the affected step, leave the item in a safe state, and tag it as incomplete or failed using the facility's tag or label. Record the failure, the step that failed, the reason and the time. Escalate to your supervisor the same shift, and follow the facility incident procedure where the failure could affect a patient, a worker or equipment. The failure is recorded, not hidden, and the decision to repeat the work is made by the responsible person."
+    },
+    {
+      "heading": "Worked case: the wipe that dried early",
+      "body": "A wipe dries before the product's required wet contact time is reached on a bed-side monitor. The worker must not record the surface as treated. The correct record shows the product and lot, the actual contact time, the step that could not be completed, the tag applied, the supervisor told and the time. The item is then assessed by the responsible team and cleaned again only under the procedure that applies."
+    }
+  ],
+  "procedure": [
+    "Complete the record at the time of the work, using the asset identity from the label.",
+    "Record the product, lot, dilution or form, instruction version, and the contact condition actually achieved.",
+    "Record the observed condition before and after the clean, and any exception.",
+    "If any step fails, stop the affected step, leave the item safe, and tag it incomplete or failed.",
+    "Tell your supervisor the same shift, and follow the facility incident procedure where a patient, worker or equipment could be affected.",
+    "Record the failure, the step, the reason, the person notified and the time.",
+    "Check the record for accuracy before you sign it, and do not sign any field you did not observe."
+  ],
+  "workedExamples": [
+    {
+      "situation": "At the end of a round, you realise the record for a monitor shows the contact condition as achieved, but you remember the surface dried after about a minute.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Correct the record now. Change the entry to show the condition was not achieved, record the actual time, and tag the item incomplete. Tell the supervisor. A record that is corrected at the time is honest; a record that is left as complete is a false statement and must not stand."
+    },
+    {
+      "situation": "A product runs out halfway through cleaning a trolley of items. A colleague offers to top up the bottle with a weaker product to finish the round.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Do not top up with a different product or a different strength. Stop the round at the item where the product ran out, leave the remaining items as they are, tag the incomplete items, and record the failure with the time. Tell the supervisor so the product can be resupplied. The round is resumed only when the approved product is available."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Work record form or electronic record as provided by the facility",
+    "Incomplete or failed tags and labels as provided by the facility",
+    "Asset label check card or list supplied by the facility: {{business:equipment.inspection_checklist}}",
+    "Protective equipment for the task: {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Recording a contact condition as achieved when the surface dried early.",
+      "prevention": "Record the actual time and mark the task incomplete. Never sign for a condition that was not met."
+    },
+    {
+      "error": "Writing the record at the end of the shift from memory.",
+      "prevention": "Record at the time of the work, while the details are fresh and accurate."
+    },
+    {
+      "error": "Hiding a failed step to avoid repeat work or questions.",
+      "prevention": "Tag the failure, record it and escalate. Honest failure records protect everyone."
+    },
+    {
+      "error": "Topping up a product with another product or a different strength to finish the round.",
+      "prevention": "Stop at the failed step, tag the remaining items, and wait for the approved product."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the facility procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The NDIS Practice Standards, Version 4 of November 2021, Core Module, require that incidents involving infectious material are reported, recorded, investigated and reviewed, and that the risk management system includes, where relevant, measures to prevent and control infections. Where the facility is an NDIS provider, these apply to the facility; the cleaner's role is to report and record.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Aged Care Quality Standards Action 3.17 guidance resource (no date shown) refers to traceability of reprocessed items.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Records must be accurate, complete and kept for the period the facility's procedure and any applicable law requires.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner completes a supplied record for an external clean with every required field, using the label identity.",
+    "The learner corrects a supplied record that shows an unmet contact condition as achieved, and tags the item incomplete.",
+    "The learner records a failed step in a supplied scenario, with the reason, time and person notified.",
+    "The learner does not sign any field that was not observed."
+  ],
+  "documentationEvidence": [
+    "Asset identity, product and lot, dilution, instruction version and contact condition achieved",
+    "Observed condition before and after the clean, and any exception",
+    "Failure tag, the step that failed, the reason, the person notified and the time"
+  ],
+  "summary": [
+    "Records are written at the time of the work, from observation, and use the asset identity on the label.",
+    "A condition that was not achieved is recorded as not achieved. A false complete record is the most serious error.",
+    "When a step fails, stop, make the item safe, tag it, record it and escalate the same shift.",
+    "Honest records protect the patient, the worker and the facility."
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:jobs.signoff_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-equipment-cleaning-L11-K01",
+      "question": "A surface dried before the required wet contact time was reached. What should the record show?",
+      "options": [
+        "Not achieved, with the actual time recorded and the item tagged incomplete.",
+        "Achieved, because the surface was wiped correctly and looked clean to the eye",
+        "Achieved, with the time rounded up to the minimum to keep the record tidy"
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L11-K02",
+      "question": "A product runs out during a round. What is the correct response?",
+      "options": [
+        "Top up with a different product to finish the round, since the surfaces must be cleaned today",
+        "Stop at the failed step, tag the remaining items, record the failure, and tell the supervisor.",
+        "Continue with the next item and record the round as complete, since time is short today"
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L11-K03",
+      "question": "When should a work record be completed?",
+      "options": [
+        "At the end of the shift, from memory, once the round is finished and the team has gone",
+        "Only when a supervisor asks for it, since the record is needed for the audit",
+        "At the time of the work, from observation, using the asset identity on the label."
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L11-K04",
+      "question": "What does the lesson say a record is?",
+      "options": [
+        "A guess about what might happen",
+        "A replacement for the work order",
+        "A marketing document",
+        "A statement that something happened"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "NDIS Practice Standards and Quality Indicators, Version 4 (November 2021), Core Module",
+      "url": "https://ndiscommission.gov.au/sites/default/files/2024-10/ndis-practice-standards-and-quality-indicators.pdf",
+      "pageDate": "cover date November 2021 (Version 4); no page date shown",
+      "checked": "2026-11-03",
+      "covers": "Read: Provision of Supports environment, Safe environment, Management of Waste, Risk Management and Human Resource Management indicators. The last 12,026 characters of the PDF were not read. Check indicator numbers in the PDF. Publisher: NDIS Quality and Safeguards Commission."
+    },
+    {
+      "id": "R2",
+      "title": "Aged Care Quality Standards, Action 3.17 (guidance resource): reprocessing reusable equipment and devices",
+      "url": "https://www.agedcarequality.gov.au/quality-standards/action-317-reprocessing-reusable-equipment-and-devices",
+      "pageDate": "'Last updated' label with no date",
+      "checked": "2026-11-03",
+      "covers": "The page is headed Action 3.17 and is a guidance resource that readers should consider in their own context. It does not describe residential aged care specifically. Check the Quality Standards text for any binding obligation. Publisher: Aged Care Quality Standards website (guidance resource; not a Commission publication)."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page listed at the start of this lesson before use. Only part of each of these sources has been confirmed.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "NDIS Practice Standards and Quality Indicators, Version 4, November 2021, Core Module, Risk Management and Management of Waste requirements. https://ndiscommission.gov.au/sites/default/files/2024-10/ndis-practice-standards-and-quality-indicators.pdf (checked 2026-11-02)",
+    "Aged Care Quality Standards, Action 3.17 (guidance resource), Reprocessing reusable equipment and devices. https://www.agedcarequality.gov.au/quality-standards/action-317-reprocessing-reusable-equipment-and-devices (checked 2026-11-02)",
+    "UNCONFIRMED: record retention periods and the required content of incident reports in each state and territory. Not checked in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-04.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-05.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    }
+  ]
+}

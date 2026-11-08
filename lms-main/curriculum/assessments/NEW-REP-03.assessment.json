@@ -1,0 +1,30 @@
+{
+  "lessonId": "NEW-REP-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-REP-03-K01",
+      "correctIndex": 0,
+      "rationale": "A calendar records dates and owners. Compliance is shown by the certificate on file."
+    },
+    {
+      "id": "NEW-REP-03-K02",
+      "correctIndex": 1,
+      "rationale": "An open requirement is recorded as open and checked with the authority, not given an invented due date."
+    },
+    {
+      "id": "NEW-REP-03-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says a compliance calendar records when each certificate or inspection falls due, who issues it, and who arranges it, and that it does not show that the property is compliant."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated property with a pool in New South Wales, the worker marks each certificate entry with its status and source, and refers the inspection to the correct issuer."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Compliance calendar extract with status and source"
+  ],
+  "stopWorkCriteria": [
+    "The worker is asked to record a certificate as current without the document on file"
+  ]
+}

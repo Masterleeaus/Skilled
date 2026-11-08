@@ -1,0 +1,133 @@
+{
+  "id": "C14-L06",
+  "title": "Functional handover",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Quality, evidence and handover",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and supervisors handing over cleaned appliances to a client or site.",
+  "prerequisites": [
+    "C14-L05"
+  ],
+  "learningOutcomes": [
+    "Check the appliance is clean, dry, correctly reassembled and free of left-behind items.",
+    "Describe the appliance's state at handover without claiming function that has not been tested.",
+    "Hand over with a record, and escalate any appliance that is not safe to return to use."
+  ],
+  "instruction": [
+    {
+      "heading": "What handover covers",
+      "body": "At handover, check that the appliance is clean, dry, correctly reassembled, and free of cloths, products and tools. Check that the work order's items are complete and that the surrounding area is left safe. The handover describes what was cleaned and what was not. It does not describe the appliance as working or safe unless someone with the authority to test and confirm function has done so."
+    },
+    {
+      "heading": "Function is not the cleaner's claim",
+      "body": "A cleaner does not normally test the electrical or gas function of an appliance. Switching an appliance on to see whether it works is a test that the cleaner may not be authorised or trained to carry out. Where function is part of the work order, the appropriate person tests it under the procedure. Otherwise, the record says that function was not tested."
+    },
+    {
+      "heading": "When an appliance is not ready",
+      "body": "If an appliance has a fault, a torn seal, a displaced connection or a hazard, do not hand it over as ready. Record the defect and the hold, tell the supervisor, and tell the client what is not yet done. A handover that hides a defect is a false record."
+    }
+  ],
+  "procedure": [
+    "Check the appliance is clean, dry, correctly reassembled and free of left-behind items.",
+    "Confirm the work order items are complete and the area is left safe.",
+    "Record what was cleaned and what was not.",
+    "Do not test electrical or gas function unless the work order and the authorised person direct it.",
+    "Hold any appliance with a defect, and report the hold to the supervisor."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaned oven is ready, but the cleaner notices a loose door seal after reassembly.",
+      "decisionPrompt": "What do you hand over, and how?",
+      "reasoning": "Do not hand it over as ready. Record the loose seal and the hold, tell the supervisor, and tell the client that the seal needs attention before the oven is returned to use. Describe only what has been cleaned."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Handover checklist and defect record.",
+    "Gloves for final check."
+  ],
+  "commonErrors": [
+    {
+      "error": "Switching an appliance on to prove it works.",
+      "prevention": "Function testing is done only by the authorised person under the procedure."
+    },
+    {
+      "error": "Handing over an appliance with a known defect as ready.",
+      "prevention": "Hold it, record the defect, and escalate."
+    },
+    {
+      "error": "Describing the appliance as safe beyond what was checked.",
+      "prevention": "Describe only the work done and the checks made."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In New South Wales, wiring work needs an electrical licence or certificate whatever its price, except for electrical equipment operating at not more than 50 volts AC or 120 volts ripple-free DC (NSW Government electrical page, last updated 23 June 2026). Check with the relevant regulator in your state or territory before relying on this point. This lesson does not grant any electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Gas appliances are not tested for function by a cleaner. Work on gas appliances needs a licensed gasfitter in Victoria (Energy Safe Victoria, reviewed 31 May 2026), and gas fitting building work needs a QBCC licence of any value in Queensland (QBCC page, last reviewed 11 August 2021). This lesson does not grant any gas licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Handover check completed for cleanliness, dryness, reassembly and left-behind items.",
+    "Defect hold recorded and the client informed in the role-play.",
+    "No function claim made without authorised testing."
+  ],
+  "documentationEvidence": [
+    "Handover checklist with cleaned and not-cleaned items.",
+    "Defect hold and client notification record."
+  ],
+  "summary": [
+    "Check clean, dry, reassembled and free of left-behind items.",
+    "Do not claim function without authorised testing.",
+    "Hold and record any appliance with a defect."
+  ],
+  "businessFields": [
+    "{{business:procedures.completion_checklist}}",
+    "{{business:quality.inspection_checklist}}",
+    "{{business:customers.communication_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C14-L06-K01",
+      "question": "Can a cleaner describe a cleaned appliance as working because it powers on?",
+      "options": [
+        "Yes, if it powers on and the display and lights come on properly",
+        "Yes, if the client asks and is happy with the result today",
+        "No, function is tested by the authorised person under the procedure"
+      ]
+    },
+    {
+      "id": "C14-L06-K02",
+      "question": "An oven has a loose door seal after reassembly. What is the right handover?",
+      "options": [
+        "Hold it, record the defect, and tell the client what is outstanding",
+        "Hand it over as ready and say nothing about the seal today",
+        "Hide the seal under a cloth so it does not show at handover"
+      ]
+    },
+    {
+      "id": "C14-L06-K03",
+      "question": "What must the handover record cover?",
+      "options": [
+        "Only the price charged to the client",
+        "What was cleaned and what was not",
+        "The client's personal details"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and manufacturer review.",
+    "UNCONFIRMED: state and territory licence classes for electrical and gas function testing."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

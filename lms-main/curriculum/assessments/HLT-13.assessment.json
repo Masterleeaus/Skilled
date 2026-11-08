@@ -1,0 +1,33 @@
+{
+  "lessonId": "HLT-13",
+  "knowledgeAnswers": [
+    {
+      "id": "HLT-13-K01",
+      "correctIndex": 0,
+      "rationale": "A risk record names the controls and a timeframe. The other options do not belong in a risk record for an infection hazard."
+    },
+    {
+      "id": "HLT-13-K02",
+      "correctIndex": 1,
+      "rationale": "The supervisor is the first contact for a breach, and the report is made verbally at once. Other people are told only as the situation requires."
+    },
+    {
+      "id": "HLT-13-K03",
+      "correctIndex": 0,
+      "rationale": "The guide describes the responsible authority as the regulator that creates and enforces rules and investigates breaches. The other options do not hold that role."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated hazard, the learner completes a hazard report with type, location, risk, who is at risk and action taken.",
+    "Given a simulated breach, the learner tells the supervisor verbally and records the time, names and witnesses."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed risk record for a simulated activity",
+    "Completed hazard report and breach record for the simulation"
+  ],
+  "stopWorkCriteria": [
+    "A hazard presents an immediate threat of infection or injury: pause the task and report to the supervisor before going on.",
+    "A breach puts another person at risk and the supervisor cannot be reached: stop, make the area safe, and follow the escalation procedure."
+  ]
+}

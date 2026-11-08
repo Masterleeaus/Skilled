@@ -1,0 +1,39 @@
+{
+  "lessonId": "RAS-04",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-04-K01",
+      "correctIndex": 1,
+      "rationale": "Product selection is the first control. Combining or over-diluting products is the wrong approach."
+    },
+    {
+      "id": "RAS-04-K02",
+      "correctIndex": 2,
+      "rationale": "The safety data sheet gives the product's own spill response, and a general rule may be wrong for that chemical."
+    },
+    {
+      "id": "RAS-04-K03",
+      "correctIndex": 0,
+      "rationale": "Ventilation and immediate resealing reduce exposure. An unlabelled container creates a wrong-product risk."
+    }
+  ],
+  "practicalCriteria": [
+    "Checks the label and safety data sheet for a named product before opening it",
+    "Dilutes the stated amount in a ventilated area and reseals the concentrate straight away",
+    "Contains a simulated spill with the kit and the protective equipment listed, and reads the spill section of the safety data sheet before acting",
+    "Labels and records the spill and reports it to the supervisor"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "dilution and spill record",
+    "safety data sheet reference",
+    "assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "Two products are combined during the task",
+    "A spill is cleaned up using a general rule instead of the safety data sheet for that product",
+    "An unlabelled container is used"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

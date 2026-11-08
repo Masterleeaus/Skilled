@@ -1,0 +1,141 @@
+{
+  "id": "kitchen-cleaning-L09",
+  "title": "Cold rooms, refrigerators and drainage",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who clean cold rooms, refrigerators and floor drains in kitchens.",
+  "prerequisites": [
+    "kitchen-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Plan a cold-room or refrigerator clean that does not disrupt food temperature control.",
+    "Clean reachable surfaces without blocking drains or contaminating stored goods.",
+    "Stop and escalate before disconnecting equipment that holds high-risk food."
+  ],
+  "instruction": [
+    {
+      "heading": "Protecting the food first",
+      "body": "A cold room or refrigerator holds food under temperature control, and the cleaner's task must not interrupt that control. Before you move food or switch off any cold storage, coordinate with the site management, who confirm the temporary storage arrangements and who is responsible for monitoring temperatures. A cleaner does not have the authority to shut down refrigeration or to move high-risk food on their own decision."
+    },
+    {
+      "heading": "Cleaning reachable surfaces",
+      "body": "Clean the reachable interior surfaces, shelves, door seals and handles according to the approved procedure. Keep water and product away from stored goods, and do not let water run into drains in a way that contaminates food or blocks the drain. Report damaged seals, leaks, odours and blocked drains to the supervisor. Never perform restricted refrigeration servicing, such as work on the refrigerant circuit or the electrical controls."
+    },
+    {
+      "heading": "When the unit must be switched off",
+      "body": "Do not disconnect a refrigerator holding high-risk food without a validated temperature-control plan. Where the plan exists, the site manager confirms the temperature monitoring, the temporary storage and the time limits before the power is interrupted. Record the temperature before and after the work, and record who approved the interruption."
+    }
+  ],
+  "procedure": [
+    "Coordinate with management before moving food or switching off cold storage.",
+    "Confirm temporary storage and temperature-monitoring responsibilities.",
+    "Clean reachable surfaces and seals without contaminating stored goods or blocking drains.",
+    "Report damaged seals, leaks, odours and blocked drains.",
+    "Do not perform restricted refrigeration servicing.",
+    "Record the work, the temperatures and who approved any interruption."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A deep clean requires unplugging a refrigerator that contains high-risk food.",
+      "decisionPrompt": "What do you do before unplugging?",
+      "reasoning": "Stop. Do not unplug the unit. Tell the site manager, who must confirm a validated temperature-control plan and the temporary storage before any interruption. The cleaner's role is to raise the request, not to decide it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved cleaning product, with label and SDS available.",
+    "Gloves, and slip-resistant footwear on wet floors.",
+    "Temperature record sheet, or the site's monitoring device."
+  ],
+  "commonErrors": [
+    {
+      "error": "Unplugging a refrigerator without asking the site manager.",
+      "prevention": "Escalate first. The site controls temperature decisions."
+    },
+    {
+      "error": "Washing water into a drain so that it blocks or contaminates food.",
+      "prevention": "Keep water and product controlled and report blocked drains."
+    },
+    {
+      "error": "Attempting refrigerant or electrical repair while cleaning.",
+      "prevention": "Stop and report. Restricted servicing is outside cleaning scope."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Servicing or maintaining refrigeration and air-conditioning equipment needs a Refrigerant Handling Licence under the national scheme, even where no refrigerant is present. The only exemption the ARC page lists is for certain marine engineers at sea (ARC FAQ page; no current date shown). Electrical work on refrigeration equipment is not covered by that check. This lesson does not authorise any of that work.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Management confirmation and temperature plan in place before any interruption, in the simulated task.",
+    "Surfaces and seals cleaned without contaminating stored goods.",
+    "Defects and blocked drains reported."
+  ],
+  "documentationEvidence": [
+    "Temperature record before and after the work.",
+    "Approval record for any interruption, with the name of the approver."
+  ],
+  "summary": [
+    "Protect the food before cleaning the unit.",
+    "Management decides whether a unit can be switched off.",
+    "Clean reachable surfaces; do not work on refrigeration.",
+    "Record temperatures and approvals."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-cleaning-L09-K01",
+      "question": "A refrigerator holds high-risk food and needs a deep clean. Who decides whether it can be switched off?",
+      "options": [
+        "The cleaner, if the job is short and the fridge is empty",
+        "The first person who notices, and anyone who is nearby on the shift",
+        "The site management, under a validated temperature-control plan"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L09-K02",
+      "question": "Which task is outside a cleaner's scope in a cold room?",
+      "options": [
+        "Restricted refrigeration servicing",
+        "Cleaning reachable shelves and door seals",
+        "Reporting a damaged seal"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L09-K03",
+      "question": "What should be recorded for a cold-room clean that involves interrupting power?",
+      "options": [
+        "Nothing, because the clean is routine and the clean is quick",
+        "Temperatures before and after, and who approved the interruption",
+        "Only the name of the product used and the time the work started"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-cleaning-L09.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: licensing or authority for refrigeration servicing and electrical work on refrigeration equipment, by state and territory.",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises. The operator's food safety program governs the site. This lesson does not confer a food handling qualification."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

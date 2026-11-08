@@ -1,0 +1,36 @@
+{
+ "lessonId": "F17-L02",
+ "knowledgeAnswers": [
+  {
+   "id": "F17-L02-K01",
+   "correctIndex": 0,
+   "rationale": "Unknown dust may be hazardous, so it is escalated and not vacuumed with an unsuitable machine."
+  },
+  {
+   "id": "F17-L02-K02",
+   "correctIndex": 1,
+   "rationale": "A damaged cord is a shock hazard, so the machine is removed from service."
+  },
+  {
+   "id": "F17-L02-K03",
+   "correctIndex": 2,
+   "rationale": "Machines are rated for specific materials, and a dry vacuum is not rated for liquid."
+  }
+ ],
+ "practicalCriteria": [
+  "Checks the machine rating and inspects cord, hose, bag, filter and seals before use.",
+  "Selects attachments for three surfaces.",
+  "Stops and escalates a simulated unknown dust, and does not vacuum it."
+ ],
+ "passRule": "Pre-use inspection complete, attachments correct for three surfaces, and unknown dust escalated rather than vacuumed. Observed by an assessor.",
+ "evidenceRequired": [
+  "Pre-use inspection record",
+  "Assessor observation sheet",
+  "Escalation record for the simulated dust"
+ ],
+ "stopWorkCriteria": [
+  "Machine with a damaged cord used",
+  "Unknown or hazardous dust vacuumed with an unsuitable machine",
+  "Machine used outside its rating"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "lessonId": "aged-care-infection-control-L12",
+ "knowledgeAnswers": [
+  {
+   "id": "aged-care-infection-control-L12-K01",
+   "correctIndex": 1,
+   "rationale": "An audit finds a missed area, so the record shows it as found, and the correction is recorded with its own time. A completion time that was not observed must not be added."
+  },
+  {
+   "id": "aged-care-infection-control-L12-K02",
+   "correctIndex": 2,
+   "rationale": "A handover must carry the restriction, the notice, and the person who confirmed it, because the incoming cleaner cannot be assumed to know."
+  },
+  {
+   "id": "aged-care-infection-control-L12-K03",
+   "correctIndex": 0,
+   "rationale": "A repeated finding is reported to the supervisor in writing with the evidence. The cleaner does not change the schedule; the responsible person decides."
+  }
+ ],
+ "practicalCriteria": [
+  "Given an audit finding a scheduled surface with no cleaning record, the learner records it as a missed area as found, performs the correction under the approved procedure, and records the correction with its own time.",
+  "Given a room under a restriction notice, the learner's handover states the restriction, the notice and the person who confirmed it.",
+  "Given a surface missed on several weeks, the learner writes a report to the supervisor with the dates and evidence, without changing the schedule."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Audit record showing the missed area as found and the correction with its time",
+  "Written handover entry naming the restriction and the confirming person",
+  "Written repeated-finding report with the evidence"
+ ],
+ "stopWorkCriteria": [
+  "Learner adds a completion time for a task that was not observed",
+  "Learner hands over a restricted room without stating the restriction",
+  "Learner changes the schedule to cover a repeatedly missed surface"
+ ]
+}

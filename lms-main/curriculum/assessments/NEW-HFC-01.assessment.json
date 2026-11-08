@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-HFC-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-HFC-01-K01",
+      "correctIndex": 2,
+      "rationale": "Acid reacts with calcium-based stone such as marble, etching the surface. The dull marks are not removed by ordinary cleaning, so the choice of acid on a possible stone floor is the error."
+    },
+    {
+      "id": "NEW-HFC-01-K02",
+      "correctIndex": 2,
+      "rationale": "An unidentified floor is treated as sensitive, the most conservative approved method is used, and the flooring information is requested. Guessing, using the strongest product, or testing with acid are all excluded."
+    },
+    {
+      "id": "NEW-HFC-01-K03",
+      "correctIndex": 0,
+      "rationale": "Water taken up by unsealed timber can swell the boards and cause staining, which is why a minimal-moisture method is used."
+    }
+  ],
+  "practicalCriteria": [
+    "Given five sample floor pieces, the worker identifies the type of each by appearance and feel, and states the reasons. A sample is recorded as unidentified where the reasons are not enough.",
+    "Given one sample with no information, the worker selects the most conservative approved method and applies no acid, solvent, steam or abrasive pad.",
+    "The worker runs a water-drop test on an inconspicuous area of a sample, records the result, and tests the chosen product on the same area before wider use."
+  ],
+  "passRule": "Five samples identified with reasons, or recorded as unidentified where the reasons are not enough. Conservative method used for the unknown sample. Water-drop and product test recorded. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Floor identification sheet for the five samples",
+    "Test record for the water-drop and the product test",
+    "Assessor observation sheet"
+  ],
+  "stopWorkCriteria": [
+    "Acid or a strong solvent used on an unidentified sample",
+    "Unsealed timber soaked or left wet",
+    "Product used without a label and SDS on hand"
+  ]
+}

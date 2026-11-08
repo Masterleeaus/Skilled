@@ -1,0 +1,153 @@
+{
+  "id": "DIP-03",
+  "title": "Dental radiography: barrier envelopes, holders and imaging touch points",
+  "courseSlugs": [
+    "healthcare",
+    "medequip"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Dental assistants and cleaners who work around intraoral imaging and imaging equipment.",
+  "prerequisites": [
+    "HCG-11",
+    "HCG-16"
+  ],
+  "learningOutcomes": [
+    "Describe the handling sequence for a digital receptor and a film holder for one patient.",
+    "Explain why the clinician, not the assistant, positions the holder inside the mouth.",
+    "Clean the imaging unit's touch points and replace damaged barrier covers."
+  ],
+  "instruction": [
+    {
+      "heading": "Why imaging is a cross-infection point",
+      "body": "Intraoral imaging puts receptors, film packets and holders into the mouth. Those items touch saliva and sometimes blood, and the hands that handle them can carry organisms onward to the next person. The controls described cover the glove, the holder, the envelope, and the disposal route."
+    },
+    {
+      "heading": "Routine imaging",
+      "body": "Gloves without powder are worn for every imaging task and changed between patients. Each patient receives a clean holder that is sterilised or heat-treated, and digital receptors go inside a barrier envelope. The clinician seats the holder inside the mouth, and fingers never go in to position it. Once the procedure ends, the envelope comes off the receptor and goes into clinical waste. The holder is then cleaned. If it cannot go through the autoclave, it is disinfected before its next use. Film packets used without a barrier are cleaned along with the holder, then disinfected before they go for processing."
+    },
+    {
+      "heading": "Patients at higher risk",
+      "body": "The source gives an extra set of steps for patients identified as high risk. Those steps are not reproduced in this lesson. Follow the practice protocol for those patients."
+    },
+    {
+      "heading": "The imaging unit and the cleaner",
+      "body": "The handles and controls of the imaging unit are touch points that “Shared clinical equipment and surface barriers” says should be wiped between patients. A barrier cover that is torn or soiled is replaced. Developer and fixer solutions and other imaging chemicals follow the practice's chemical waste route. The Malaysian sewer route for X-ray solutions is not adopted here (see “Waste rules that differ between countries: reading a foreign guideline against Australian rules”)."
+    }
+  ],
+  "procedure": [
+    "Put on non-powdered gloves before any imaging task, and swap them for new ones between patients.",
+    "Give each patient a clean holder, and confirm every digital receptor sits inside a barrier envelope.",
+    "Let the clinician place the holder. Do not handle the patient's mouth.",
+    "Send the used envelope out as clinical waste, then wipe down the holder.",
+    "Disinfect any holder that cannot go through the autoclave before its next use.",
+    "Wipe the imaging unit's touch points and replace any torn barrier cover.",
+    "Route imaging chemicals to the practice's documented chemical waste route."
+  ],
+  "workedExamples": [
+    {
+      "situation": "After an imaging session, a used barrier envelope is still on a sensor in the tray.",
+      "decisionPrompt": "What now?",
+      "reasoning": "Remove the sensor carefully with gloves, send the envelope out as clinical waste; then wipe down the holder. Do not reuse the envelope. Check that the sensor is safe to handle before the following patient."
+    },
+    {
+      "situation": "The clinician asks the assistant to hold the holder by hand inside the mouth to save time.",
+      "decisionPrompt": "What do you say?",
+      "reasoning": "Keep fingers out of the patient's mouth. Ask the clinician to use the holder as the protocol requires, or to choose another positioning method the protocol allows."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Non-powdered disposable gloves",
+    "Clean holder for every patient, sterilised or heat-treated",
+    "Barrier envelopes for digital receptors",
+    "Disinfectant at the level the protocol sets, and a drying towel"
+  ],
+  "commonErrors": [
+    {
+      "error": "Reusing a barrier envelope.",
+      "prevention": "Use one envelope per patient and dispose of it as clinical waste."
+    },
+    {
+      "error": "Using fingers to place the holder.",
+      "prevention": "Use the holder only, and let the clinician place it."
+    },
+    {
+      "error": "Leaving a holder that cannot go through the autoclave unprocessed between patients.",
+      "prevention": "Disinfect it before the following patient."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Gloves are a barrier, not a sharps control. Keep the holder and receptors away from sharps lying in the tray.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Imaging chemical disposal follows local rules.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Radiation safety rules are not covered in this lesson.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The source cites Malaysian statutes, which are not used here.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each patient has a new barrier envelope and a clean holder.",
+    "Gloves are swapped for new ones between patients."
+  ],
+  "documentationEvidence": [
+    "Session record that the imaging unit's touch points were wiped",
+    "Record of any torn barrier cover replaced"
+  ],
+  "summary": [
+    "Each patient gets a new barrier envelope and a clean holder, and gloves are swapped for new ones between patients.",
+    "The clinician positions the holder; fingers never go in.",
+    "Imaging touch points are wiped, and imaging chemicals follow the documented route."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "DIP-03-K01",
+      "question": "After a digital sensor has been used, what happens to its barrier envelope?",
+      "options": [
+        "It is reused on the following patient after a quick wipe with a clean cloth and a little spray",
+        "The sensor is removed, the envelope goes out as clinical waste; then the holder is cleaned.",
+        "The envelope is washed in the sink and dried on the bench for reuse later today",
+        "Both stay in the tray until the day closes and are then cleaned with the rest of the room"
+      ]
+    },
+    {
+      "id": "DIP-03-K02",
+      "question": "Who should position the film holder during imaging?",
+      "options": [
+        "The cleaner, if the dentist is busy and the room is quiet",
+        "The clinician, using the holder rather than fingers.",
+        "A family member of the patient who is sitting in the room",
+        "Anyone in the room who has clean gloves today"
+      ]
+    },
+    {
+      "id": "DIP-03-K03",
+      "question": "A holder cannot go through the autoclave. When is it disinfected?",
+      "options": [
+        "Before it is used on someone else.",
+        "At the close of the week today.",
+        "Only at the end of the working week",
+        "Only if the patient complains."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Guidelines on Infection Control in Dental Practice, 3rd ed. (Malaysian Dental Council, February 2017; text taken by OCR from the uploaded PDF), section 6 (infection control during imaging: 6.1 standard precautions and 6.2 identified high-risk patients) and section 8.3.6 (X-ray solutions and disinfectants); rights: user-held; reworded (no copying)",
+    "Cross-checked against HCG-11 (wiping shared equipment between patients) and HCG-16 (gloves and PPE). The Malaysian sewer route for X-ray solutions is not adopted. Source priority: the Australian NHMRC guideline, as summarised in HCG-01 to HCG-20, and the Australian dental source (ADA) govern where they conflict with this source.",
+    "Read 2026-11-02 from the uploaded PDF by OCR. The OCR text was not checked against the page images, so figures and wording should be verified. The source is Malaysian and no Australian currency check was run; applicability to Australia is UNCONFIRMED.",
+    "The source cites Malaysian statutes, which are not used here. Australian legal requirements are UNCONFIRMED in this lesson."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

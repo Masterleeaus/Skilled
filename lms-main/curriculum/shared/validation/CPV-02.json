@@ -1,0 +1,180 @@
+{
+  "id": "CPV-02",
+  "title": "Protocol content and approval for a cleaning study",
+  "courseSlugs": [
+    "appliance",
+    "aquarium",
+    "beauty",
+    "bond",
+    "cardetail",
+    "carpet",
+    "commercial",
+    "construction",
+    "deck",
+    "dogwalk",
+    "flatpack",
+    "furniture",
+    "garden",
+    "groom",
+    "hair",
+    "handyman",
+    "hardfloor",
+    "healthcare",
+    "irrigation",
+    "landscaping",
+    "lawn",
+    "locksmith",
+    "massage",
+    "medequip",
+    "painting",
+    "petsit",
+    "plastering",
+    "pond",
+    "pool",
+    "portfolio",
+    "postcon",
+    "pressure",
+    "pt",
+    "residential",
+    "roof",
+    "shortstay",
+    "solar",
+    "stone",
+    "strata",
+    "tiling",
+    "timber",
+    "window",
+    "yoga"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Quality leads and technical staff who would write or review a formal cleaning validation protocol.",
+  "prerequisites": [
+    "CPV-01",
+    "F09-L01"
+  ],
+  "learningOutcomes": [
+    "Set out the elements that a validation protocol for cleaning must contain.",
+    "Explain why the test methods are shown to work before the study is run.",
+    "Explain why several successive runs are used to show a method works.",
+    "State who must approve the protocol before it is executed."
+  ],
+  "instruction": [
+    {
+      "heading": "What a protocol holds",
+      "body": "A validation protocol records, in advance, how the study will be run, so that the results can be judged against a written plan. The guide sets out the content in detail. It covers the objective and scope; the people who perform and approve the study; the equipment details; the procedure for cleaning each product and system; the named cleaning agent; how many consecutive cycles; the number of runs needed to complete the study; the sampling method, with the reason for choosing it; the sample locations; acceptance criteria with the reason they were set; and the test methods and the data that support them. Each element is written so that a second person can follow the study without asking the author."
+    },
+    {
+      "heading": "Test methods come first",
+      "body": "The guide is clear that the test methods used on the samples must be shown to work before the study begins. A protocol that relies on an unproven test cannot demonstrate anything, because the result itself is uncertain. The protocol names each test method and states its the lowest amount it can detect and the lowest it can quantify reliably."
+    },
+    {
+      "heading": "Repeat the cycle and gain approval",
+      "body": "Cleaning is usually shown to work by running the procedure several times in succession. The guide typically expects three successful applications in a row. The runs should mirror the most demanding conditions the equipment will meet, such as the largest number of consecutive runs of one product. Management must approve the protocol before any run takes place. A protocol approved after the study is over does not govern that study."
+    }
+  ],
+  "procedure": [
+    "Write the objective and scope in a single paragraph.",
+    "Name who carries out the study and who signs it off.",
+    "Document the equipment, the cleaning procedure and the cleaning agent for each item.",
+    "State the cycles, runs, sampling method, sample locations and acceptance criteria, with reasons.",
+    "Cite the test methods and confirm each one is validated.",
+    "Obtain management approval before the study is run."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A mixer is used for two products. The quality lead must draft the protocol before the study.",
+      "decisionPrompt": "Which items must be settled before the first run?",
+      "reasoning": "The objective, the responsible people, the cleaning agent, the number of successive runs, the sampling plan with reasons, the pass limits with their basis, and the test methods shown to work, must all be written and approved first."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Equipment description and drawings",
+    "Current cleaning procedure",
+    "Validated analytical method references"
+  ],
+  "commonErrors": [
+    {
+      "error": "Running the study before the protocol is approved.",
+      "prevention": "Obtain approval first, and record the approval date."
+    },
+    {
+      "error": "Relying on a test method whose performance has never been shown.",
+      "prevention": "Validate the methods before the study begins."
+    },
+    {
+      "error": "Stating a sampling method without a reason.",
+      "prevention": "Write the reason for each sampling method and location in the protocol."
+    },
+    {
+      "error": "Using a single run to show the method works.",
+      "prevention": "Plan for several consecutive runs under the hardest realistic conditions."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Use the practice content only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pharmaceutical validation protocols are a regulated activity for medicines manufacturers. This lesson does not grant any licence or authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The protocol contains each element listed in the lesson.",
+    "The test methods are named, and evidence that they perform is on file.",
+    "Management approval is recorded before the study is run."
+  ],
+  "documentationEvidence": [
+    "Approved protocol with the approval date and approver.",
+    "Record that the analytical methods were validated."
+  ],
+  "summary": [
+    "A protocol states the objective, people, equipment, procedure, cycles, sampling and acceptance criteria in advance.",
+    "Validate the analytical methods before the study runs.",
+    "Plan several consecutive runs under realistic worst-case conditions.",
+    "Management approves the protocol before execution."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "CPV-02-K01",
+      "question": "Before a cleaning study is started, what must already be true?",
+      "options": [
+        "The test methods applied to the samples have been validated",
+        "The cleaner has completed a first-aid course this year",
+        "The product has been on the shelf for a year and is cheap",
+        "The protocol has no approval signature from the client"
+      ]
+    },
+    {
+      "id": "CPV-02-K02",
+      "question": "Why are several consecutive cleaning cycles commonly used in a validation study?",
+      "options": [
+        "To use up more cleaning product for the study",
+        "To show the method succeeds repeatedly, not by chance",
+        "Because the first cycle is recorded and then deleted",
+        "To make the study cost more and take much longer"
+      ]
+    },
+    {
+      "id": "CPV-02-K03",
+      "question": "What should a validation protocol define for sampling?",
+      "options": [
+        "Only the brand of swab and the swab size and the date it was made",
+        "The date of the next holiday for the whole team of cleaners",
+        "The sample locations, the method and the reason it was chosen",
+        "Nothing, because sampling is chosen by the cleaner on the day"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Processes and Cleaning Validation, Guidance Document SGD-105-CLN Rev. 10 (Validation in Partnership Ltd, 25 May 2007; pharmaceutical and biological CGMP with US and EU references, not Australian), sections: 6.3 Cleaning Validation Protocols (content list and 6.3.1 General); 6.2 Analytical Test Methods; 6.3.1 (consecutive applications); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Pharmaceutical scope; Australian requirement UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

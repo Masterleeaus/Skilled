@@ -1,0 +1,35 @@
+{
+  "lessonId": "PTB-01",
+  "knowledgeAnswers": [
+    {
+      "id": "PTB-01-K01",
+      "correctIndex": 1,
+      "rationale": "A specialty names the client group and the result. A full service list does not tell a prospect whether the service fits them, and price alone is not a specialty."
+    },
+    {
+      "id": "PTB-01-K02",
+      "correctIndex": 0,
+      "rationale": "Explaining the fit and referring on keeps the prospect informed without a refusal based on a protected attribute. Declining by age is the pattern the anti-discrimination point warns about."
+    },
+    {
+      "id": "PTB-01-K03",
+      "correctIndex": 1,
+      "rationale": "Records of clients who stayed and reached their goals show the traits that predict a good match. Guesses and competitor prices do not."
+    }
+  ],
+  "practicalCriteria": [
+    "Given ten anonymised client records, the learner builds a profile table in which each trait is counted from the records, and the assessor recounts two traits and agrees",
+    "The learner writes an ideal-client sentence that names a working pattern or concern from the records and no protected attribute",
+    "The learner writes a referral note for one out-of-scope enquiry with a reason tied to the service"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed profile table with record counts",
+    "Signed ideal-client sentence",
+    "Referral note for one out-of-scope enquiry"
+  ],
+  "stopWorkCriteria": [
+    "Stop if the learner proposes refusing people on a protected attribute; the assessor redirects before the profile is accepted",
+    "Stop if the records include identifying details beyond what the profile needs"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+ "lessonId": "solar-panel-cleaning-L12",
+ "knowledgeAnswers": [
+  {
+   "id": "solar-panel-cleaning-L12-K01",
+   "correctIndex": 1,
+   "rationale": "A record with before-and-after photographs, the method, the product and the time gives evidence of what was done and what was observed."
+  },
+  {
+   "id": "solar-panel-cleaning-L12-K02",
+   "correctIndex": 2,
+   "rationale": "A template reduces repeated admin while keeping evidence consistent. It does not remove the checks, and it does not hide exclusions or defects."
+  },
+  {
+   "id": "solar-panel-cleaning-L12-K03",
+   "correctIndex": 3,
+   "rationale": "A written handover states what was done, what was excluded and any defect referred. A verbal compliance assurance or an energy promise is not acceptable."
+  },
+  {
+   "id": "solar-panel-cleaning-L12-K04",
+   "correctIndex": 0,
+   "rationale": "An electrical or structural concern is escalated in writing to the owner and a qualified person. Keeping it quiet, fixing it on the spot or deleting a photo is not acceptable."
+  },
+  {
+   "id": "solar-panel-cleaning-L12-K05",
+   "correctIndex": 1,
+   "rationale": "A template with fields for scope, exclusions, approvals and defects, reviewed by a person, reduces workload without removing checks. Auto-approval or hidden defects are not acceptable."
+  }
+ ],
+ "practicalCriteria": [
+  "The learner completes a supplied job record with owner, approvals, scope, exclusions, method and photographs.",
+  "The learner writes a customer handover that states what was done, what was excluded and what is referred, with no guarantee.",
+  "The learner marks unknown or not-applicable fields rather than leaving them blank.",
+  "The learner adds a correction as a dated entry and does not delete or alter a photograph or record."
+ ],
+ "passRule": "Knowledge checks: 80% correct (4 of 5). Practical sign-off is assessed separately on a completed job record. A knowledge pass does not verify record quality on real jobs.",
+ "evidenceRequired": [
+  "Completed job record with owner, approvals, scope, exclusions, method and photographs",
+  "Written customer handover with exclusions and referrals",
+  "Escalation log with the person told and the date",
+  "Dated correction entries where needed"
+ ],
+ "stopWorkCriteria": [
+  "The learner writes a compliance or performance guarantee in a handover.",
+  "The learner deletes or alters a photograph or record.",
+  "The learner leaves an exclusion or defect out of the record.",
+  "The learner uses a template that auto-approves work without checking it."
+ ]
+}

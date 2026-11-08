@@ -1,0 +1,59 @@
+{
+  "lessonId": "CAR-NEW-03",
+  "knowledgeAnswers": [
+    {
+      "id": "CAR-NEW-03-K01",
+      "correctIndex": 3,
+      "rationale": "A finishing polish removes micro-marring, haze and very light swirls. It does not remove deep scratches, replace clear coat or give a long-term seal. Sourced concept: Auto-Detailing guide, reworded."
+    },
+    {
+      "id": "CAR-NEW-03-K02",
+      "correctIndex": 1,
+      "rationale": "Colour transferring onto the pad suggests single-stage paint, because the pigment runs through the whole layer. Working practice: the pad test is a field check, so the result is confirmed by the test spot. Sourced concept: show-car sample, reworded."
+    },
+    {
+      "id": "CAR-NEW-03-K03",
+      "correctIndex": 3,
+      "rationale": "Step up one variable at a time, record the test, and stop if the next step is not agreed. Working practice. The guides describe the same dial-in method (show-car sample, reworded)."
+    },
+    {
+      "id": "CAR-NEW-03-K04",
+      "correctIndex": 1,
+      "rationale": "A reading well above the other panels can indicate filler, a respray or another prior repair. The correct response is to record it, check the neighbouring panels and refer before any correction, because cutting could go through the colour or change the repair. Working practice: the referral trigger is the business's own threshold. Sourced concept: thin and prior-repair caution from the show-car sample, reworded."
+    }
+  ],
+  "practicalCriteria": [
+    "Calibrates the thickness gauge on its reference shim before taking readings, and records the gauge model, calibration method and date.",
+    "Takes several readings on each assessed panel, away from edges, trim, badges and stickers, and records each reading and the average. The reading count is set in the assessor's brief.",
+    "Inspects a sample panel under a directional light from more than one angle, and records each defect by type and location.",
+    "Identifies the paint system on a sample panel with the pad test, and records the result.",
+    "Sets up and runs a test spot with the least aggressive combination on a low-visibility area, and records the area, product, pad, machine setting range from the label or tool manual, passes and result.",
+    "Given a simulated clear-coat failure, or a simulated high reading on one panel, records a referral or decline and the owner notification, and does not start any abrasive work on that panel.",
+    "Reads the SDS for the product in use, names the PPE it lists, and puts that PPE on before starting the machine.",
+    "Checks the cords, plug, pad fitting and backing plate before use, and reports any missing part before running the machine.",
+    "Stops the machine at the first sign of breakdown haze or a hot panel, wipes the residue, and re-inspects under the same light before continuing.",
+    "Completes a final inspection panel by panel, and applies a protectant listed for the surface as its label directs, with the record completed."
+  ],
+  "passRule": "Paint system recorded; thickness record complete with a calibration entry; test spot record complete; referral or decline correct for the simulated trigger; SDS and PPE check completed before work; no stop-work criterion met. An assessor observes each criterion. Numeric thresholds for referral or pass: set by the owner before use. A quiz pass is not a practical pass.",
+  "evidenceRequired": [
+    "Paint system note",
+    "Thickness record with calibration entry, gauge model, date, each reading and the average",
+    "Test spot record: area, product, pad, machine setting range, passes and result",
+    "Referral or decline record with owner notification",
+    "Photographs under a directional light: before, after the test, and final",
+    "SDS check record for the product used, with the PPE named",
+    "Assessor observation record against each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "Aggressive product started without a test spot",
+    "Rotary machine used by an untrained operator",
+    "Clear-coat failure polished or abraded",
+    "Thickness readings skipped on a panel that a referral trigger requires measured, or the gauge used without calibration",
+    "Machine run with a missing guard or backing plate, or with a damaged cord or plug",
+    "Product used with no SDS available on site, or with the PPE the SDS names not worn",
+    "Work continued past breakdown haze, or on a panel that has become hot",
+    "Solvent-based product used without the ventilation its SDS requires",
+    "Electrical equipment used near water",
+    "Sanding, wet abrasive work or a respray attempted under this lesson"
+  ]
+}

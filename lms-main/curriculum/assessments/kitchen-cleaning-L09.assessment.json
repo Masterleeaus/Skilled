@@ -1,0 +1,36 @@
+{
+ "lessonId": "kitchen-cleaning-L09",
+ "knowledgeAnswers": [
+  {
+   "id": "kitchen-cleaning-L09-K01",
+   "correctIndex": 2,
+   "rationale": "Temperature control decisions belong to the site management with a validated plan."
+  },
+  {
+   "id": "kitchen-cleaning-L09-K02",
+   "correctIndex": 0,
+   "rationale": "Restricted refrigeration servicing is not cleaning work."
+  },
+  {
+   "id": "kitchen-cleaning-L09-K03",
+   "correctIndex": 1,
+   "rationale": "Temperatures and approvals are the evidence that food was protected."
+  }
+ ],
+ "practicalCriteria": [
+  "Stops and escalates a simulated request to unplug a unit holding high-risk food.",
+  "Cleans reachable surfaces and seals without contaminating stored goods.",
+  "Reports a simulated blocked drain and a damaged seal."
+ ],
+ "passRule": "Escalation made before any interruption, surfaces cleaned without contamination, and defects reported. Observed by an assessor.",
+ "evidenceRequired": [
+  "Escalation record",
+  "Temperature record",
+  "Assessor observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Unit switched off without approval",
+  "Request to perform refrigeration servicing",
+  "Water reaching stored food"
+ ]
+}

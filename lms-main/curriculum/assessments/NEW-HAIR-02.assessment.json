@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-HAIR-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-HAIR-02-K01",
+      "correctIndex": 0,
+      "rationale": "The WA hairdressing guideline advises recommending a general practitioner visit. It allows the operator to continue only if they believe the service can be appropriately provided around the condition, so the recommendation is the first action."
+    },
+    {
+      "id": "NEW-HAIR-02-K02",
+      "correctIndex": 1,
+      "rationale": "The WA guideline does not require formal health screening. That position is confirmed for WA only."
+    },
+    {
+      "id": "NEW-HAIR-02-K03",
+      "correctIndex": 2,
+      "rationale": "A patch test record needs the product, site, time, result and client response to show what was checked and what happened."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor observes the candidate run the full consultation questions in the approved order and record the answers on the job record",
+    "Assessor observes the candidate identify a simulated open wound or skin condition, stop the service, and write a referral or postponement record with the reason",
+    "Assessor checks a completed patch test record for the five required fields: product, site, time, result and client response"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed consultation form from a simulated client, with answers recorded",
+    "Referral or postponement record with the reason",
+    "Patch test record with the five required fields"
+  ],
+  "stopWorkCriteria": [
+    "A client presents with an open wound, infection or skin condition and the candidate proceeds with a chemical service",
+    "The candidate applies colour without completing the consultation",
+    "The candidate applies a product without a patch test where the product method requires one"
+  ]
+}

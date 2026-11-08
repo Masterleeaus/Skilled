@@ -1,0 +1,191 @@
+{
+  "id": "NEW-POND-07",
+  "title": "Water-quality checks: temperature, dissolved oxygen, pH, clarity, hardness",
+  "courseSlugs": [
+    "pond"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 45,
+  "audience": "Pond maintenance workers who carry out routine water-quality checks and record readings for pond and water-feature clients",
+  "prerequisites": [
+    "pond-cleaning-L03",
+    "NEW-POND-01"
+  ],
+  "learningOutcomes": [
+    "Carry out simple visual checks of clarity, colour and surface condition, and record them as observations rather than diagnoses",
+    "Measure water temperature in degrees Celsius and dissolved oxygen, and explain why both fall or rise with the season, the weather and the load",
+    "Read pH and hardness results, and convert hardness between mg/L as calcium carbonate and German degrees using the arithmetic in this lesson",
+    "Compare each reading with the owner's plan and the previous visit, and decide the next step without adding any product that is not in the plan"
+  ],
+  "instruction": [
+    {
+      "heading": "Visual checks come first",
+      "body": "Begin with what you can see and smell before you test. Clarity is the depth to which light penetrates the water. A simple check is to lower a pale, marked disc on a cord and record the depth at which the mark is no longer visible. Particles reduce clarity, and in a pond they are usually algae or fine sediment. Record colour, surface film, odour and any visible algae, but treat colour as an indicator rather than a diagnosis. The aquaculture source describes green and blue water as dominated by phytoplankton, golden or yellow-brown water as rich in diatoms, and red water as high in iron."
+    },
+    {
+      "heading": "Temperature and dissolved oxygen",
+      "body": "Measure water temperature in degrees Celsius at a set depth and time, and record it with the air temperature. Warm water holds less dissolved oxygen than cool water, and decay of organic matter uses up oxygen, so both warm weather and heavy organic load can lower the oxygen that fish and other animals need. Dissolved oxygen is most at risk after warm, still nights and after heavy feeding or a large debris load. Check it with the test kit or meter in the way its instructions direct, and read it at a depth where the animals are, not only at the surface. The aquaculture document gives a threshold below which oxygen is said to harm pond life. Use the owner's plan and the trend and the fish's behaviour instead, and refer any sign of distress. Do not use that figure as a target."
+    },
+    {
+      "heading": "pH and why it moves",
+      "body": "pH measures how acid or alkaline the water is. In a pond, pH moves over a day because plants and algae take up carbon dioxide in daylight and release it at night. Carbonate hardness (KH) buffers pH, so a low KH allows large swings. The pH also controls how much ammonia is in its more harmful form, which is why a reading should be read with the temperature and the ammonia result (“Water chemistry and pH interpretation for ponds”). Use the owner's plan for the target range."
+    },
+    {
+      "heading": "Hardness, its two parts and the units",
+      "body": "Water hardness has two parts that the test kit may report separately. General hardness (GH) mainly reflects calcium and magnesium. Carbonate hardness (KH) reflects the bicarbonate and carbonate that buffer pH. Test kits report hardness in different units, so the unit must be recorded with every reading. The common units are mg/L as calcium carbonate, which is the same as parts per million for dilute water; German degrees, written as °dGH for general hardness and °dKH for carbonate hardness; and millimoles per litre. The arithmetic conversions are: 1 °d equals 10 mg/L of calcium oxide, which is 17.8 mg/L as calcium carbonate. So to convert mg/L as calcium carbonate into degrees, divide by 17.8. One millimole per litre equals about 100 mg/L as calcium carbonate, or about 5.6 °d. For example, a carbonate reading of 89 mg/L is about 5.0 °dKH, and a general reading of 120 mg/L is about 6.7 °dGH. These are unit conversions, not targets, and they are not a regulatory claim. The owner's plan sets the target."
+    },
+    {
+      "heading": "Recording and out-of-range results",
+      "body": "Record each reading with its value, unit, time, depth, the instrument or kit used, the reagent batch and expiry date, and any observation. Follow the rules for valid results and corrections in the sampling lesson (“Water sampling and record integrity for ponds”). Compare each result with the last visit and the owner's plan. A single out-of-range result is a reason to recheck the sample and the reagent, not to add a product. If the plan sets an action for the reading, take that action and record it. If the plan does not cover the reading, refer it to the responsible person with the full set of results."
+    }
+  ],
+  "procedure": [
+    "Read the owner's plan for the target ranges, the test frequency and the approved actions.",
+    "Record the air temperature and the time, then measure the water temperature in degrees Celsius at the planned depth.",
+    "Assess clarity with the marked disc, and record colour, surface film, odour and any visible algae as observations.",
+    "Test dissolved oxygen, pH and each hardness part in the kit's sequence, after checking reagent expiry and calibration.",
+    "Convert any hardness reading to the unit the plan uses, using the arithmetic in this lesson, and record both values with their units.",
+    "Compare the set of results with the previous visit and the plan, and identify the reading that drives the next step.",
+    "Take the plan's action if there is one, otherwise refer, and record the readings and the decision. Wear the PPE set by {{business:safety.required_ppe}}."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A test kit reports a carbonate hardness of 89 mg/L as calcium carbonate, and the owner's plan asks for the result in German degrees.",
+      "decisionPrompt": "What value do you record?",
+      "reasoning": "Divide 89 mg/L by 17.8 to get about 5.0 °dKH. Record both values with their units, the instrument and the time, so that the next visit can compare like with like. Compare the result with the plan's target. If the plan has no target, refer for the target rather than setting one from memory."
+    },
+    {
+      "situation": "After heavy rain, the pH reading is lower than the previous visit, and the water is slightly cloudy. The client wants a product added straight away.",
+      "decisionPrompt": "What is the correct next step?",
+      "reasoning": "Record the temperature, the clarity and the time. Check the trend and the carbonate hardness, and recheck the sample with an in-date reagent. Do not add a product that is not in the plan. If the plan covers the reading, follow its action and record it. If the reading stays out of range, or fish show distress, refer to the responsible person with the full set of results."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Test kit or meter with reagents in date, and calibration checked where required",
+    "Calibrated thermometer reading in degrees Celsius",
+    "Marked pale disc on a cord for clarity",
+    "Conversion table or calculator for hardness units",
+    "Gloves and eye protection as set by {{business:safety.required_ppe}}",
+    "Reading form or system with fields for unit, depth and reagent batch"
+  ],
+  "commonErrors": [
+    {
+      "error": "Recording a hardness value without its unit.",
+      "prevention": "Record the unit with every value, and convert only with the arithmetic in the lesson."
+    },
+    {
+      "error": "Using a production threshold from an aquaculture document as a garden-pond target.",
+      "prevention": "Use the owner's plan for targets."
+    },
+    {
+      "error": "Reading dissolved oxygen only at the surface, or only in the afternoon.",
+      "prevention": "Record the depth and time, and check after warm, still nights and heavy feeding."
+    },
+    {
+      "error": "Testing straight after a dose, a feed or a top-up.",
+      "prevention": "Record the dose, feed or top-up with its time, and allow the water to mix before retesting."
+    },
+    {
+      "error": "Adding a product because one reading is out of range.",
+      "prevention": "Recheck the sample and reagent, compare with the trend, then follow the plan or refer."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Test reagents are chemicals. Read the safety data sheet and the kit's instructions, store reagents as the sheet directs, and never keep them in a food or drink container.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Use the owner's plan or a qualified aquatic specialist to set targets.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Any treatment or adjustment that the plan does not cover is outside this lesson.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every reading has a value, a unit, a time, a depth and an instrument or kit reference",
+    "Hardness is recorded in the unit the plan uses, with the conversion shown where one was made",
+    "No product is added on the basis of one reading without the plan's action or a referral"
+  ],
+  "documentationEvidence": [
+    "Reading set with value, unit, time, depth and instrument, and the reagent batch and expiry check",
+    "Visual observations of clarity, colour, odour and surface film",
+    "Action taken under the plan, or the referral record for any reading the plan does not cover"
+  ],
+  "summary": [
+    "Look and smell first, then test, and record colour as an indicator rather than a diagnosis.",
+    "Temperature in Celsius and dissolved oxygen move with the weather and the organic load, so check them after warm, still nights.",
+    "Hardness has two parts, and each reading needs its unit; mg/L as calcium carbonate divided by 17.8 gives degrees of hardness.",
+    "The owner's plan sets the targets, and an out-of-range result is rechecked and referred, not treated from memory."
+  ],
+  "businessFields": [
+    "{{business:materials.sds_links}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:procedures.task_steps}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-POND-07-K01",
+      "question": "A test kit reads 89 mg/L as calcium carbonate. What is this, approximately, in German degrees of carbonate hardness (°dKH)?",
+      "options": [
+        "About 5 °dKH",
+        "About 89 °dKH",
+        "About 1.6 °dKH",
+        "About 17 °dKH"
+      ]
+    },
+    {
+      "id": "NEW-POND-07-K02",
+      "question": "Why should dissolved oxygen be checked after a warm, still night with heavy feeding or much decaying matter?",
+      "options": [
+        "Oxygen rises in these conditions, so the risk is low",
+        "Oxygen is only measured in winter, when the pond is cold",
+        "Decay uses oxygen, and warm water holds less of it",
+        "Feeding adds oxygen directly to the water"
+      ]
+    },
+    {
+      "id": "NEW-POND-07-K03",
+      "question": "A pH reading differs from the last visit. What is the best next step?",
+      "options": [
+        "Adjust the pH straight away with a large dose of the product to correct it before the fish are harmed",
+        "Compare with the trend and the temperature, retest with an in-date reagent, and record the result",
+        "Ignore the difference because pH never changes in a healthy pond, even over a whole season of use",
+        "Drain half the pond to reset the reading and start the test again from the beginning of the day"
+      ]
+    }
+  ],
+  "officialReferences": [],
+  "referencesAtStart": "No legal or regulatory claims in this lesson.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-U3 Pond Management 2023 (uploaded file 628639e9), sections on transparency, colour, dissolved oxygen, pH and temperature; the numeric figures in that document are aquaculture figures and are not used as targets; rights: reworded (no copying).",
+    "SRC-U5 Fish pond management (uploaded file be5d4348), aquaculture document: used only for the general point that dissolved oxygen falls with warm water and organic decay; rights: reworded (no copying).",
+    "SRC-U1 Garden pond product guide (uploaded file 8b16ba4a), sections on carbonate and general hardness and pH swings; general points only, no products or hardness targets used; rights: reworded (no copying).",
+    "pond-cleaning-L03 and pond-cleaning-L04 in this course, checked 2026-11-02: sampling, reagent validity, and the ammonia and pH relationship.",
+    "Unit conversion (arithmetic, not a regulatory claim): 1 °d = 10 mg/L calcium oxide = 17.8 mg/L calcium carbonate; 1 mmol/L calcium carbonate = 100 mg/L approximately. Standard chemistry constants, checked 2026-11-02.",
+    "UNCONFIRMED: numeric target ranges for clarity, dissolved oxygen, pH and hardness in Australian garden ponds; whether colour indicators apply to garden ponds; the effect of acid rain on local pond pH by location; hardness targets in product guides.",
+    "No official reference was needed for the legal points in this lesson; the state-rule points are UNCONFIRMED. Read on 2026-11-03."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "No official source is cited for this lesson.",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-13.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-14.jpg",
+      "alt": "Pond and water-feature maintenance illustration",
+      "kind": "photo",
+      "origin": "pond"
+    }
+  ]
+}

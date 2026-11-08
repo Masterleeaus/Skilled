@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-HAIR-05",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-HAIR-05-K01",
+      "correctIndex": 0,
+      "rationale": "The booking must be moved so the full processing time, set-up and clean-down are allowed. The label time is not shortened."
+    },
+    {
+      "id": "NEW-HAIR-05-K02",
+      "correctIndex": 1,
+      "rationale": "A health-related cancellation is a referral decision under the consultation procedure, recorded with the reason, not a no-show."
+    },
+    {
+      "id": "NEW-HAIR-05-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says to use the lone-worker check-in for each visit and to record the time the operator arrives and leaves."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor checks that a sample booking includes set-up, consultation, processing, clean-down and travel time",
+    "Assessor observes the candidate complete a lone-worker check-in on arrival and on departure at a simulated visit",
+    "Assessor checks that a simulated cancellation is recorded with notice given, reason and decision"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Sample booking record with the time breakdown",
+    "Check-in times for the simulated visit",
+    "Cancellation record with notice, reason and decision"
+  ],
+  "stopWorkCriteria": [
+    "A booking is confirmed with a processing time shorter than the label time",
+    "A visit starts with no check-in method in place",
+    "A client's address is unsafe and the candidate enters without contacting the escalation contact"
+  ]
+}

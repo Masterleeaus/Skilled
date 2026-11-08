@@ -1,0 +1,488 @@
+id,family,title,decision,target
+F01-L01,F01,Professional boundaries and expectations,General,Base shared pool or group
+F01-L02,F01,"Privacy, security and customer property",General,Base shared pool or group
+F01-L03,F01,Presentation and conduct,General,Base shared pool or group
+F01-L04,F01,Job handover and escalation,General,Base shared pool or group
+F15-L01,F15,Dress for the site,General,Base shared pool or group
+F15-L02,F15,Footwear and grip,General,Base shared pool or group
+F15-L03,F15,PPE is task-specific,General,Base shared pool or group
+F15-L04,F15,Hygiene and grooming,General,Base shared pool or group
+F15-L05,F15,Identification and customer trust,General,Base shared pool or group
+F15-L06,F15,Care and replacement,Specific,cleaner-01
+C01-L01,C01,First-shift walkthrough,General,Base shared pool or group
+C01-L02,C01,Understanding a work order and service boundaries,General,Base shared pool or group
+C01-L03,C01,First-job practical demonstration and signoff,General,Base shared pool or group
+F02-L01,F02,Identify hazards before starting,General,Base shared pool or group
+F02-L02,F02,Risk controls and safe movement,General,Base shared pool or group
+F02-L03,F02,Incident response and reporting,General,Base shared pool or group
+F02-L04,F02,Task-specific pre-start assessment,General,Base shared pool or group
+F05-L01,F05,Plan the cleaning sequence,Specific,"cleaner-02,cleaner-06"
+F05-L02,F05,Remove soil before disinfecting,Adapt,"surface -> handyman, floor care, property maintenance, carpet; chemical -> pool and spa, car detailing, garden, pet grooming"
+F05-L03,F05,Prevent cross-contamination,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+F05-L04,F05,Inspect and document quality,General,Base shared pool or group
+C02-L01,C02,Identify surfaces and finishes before cleaning,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+C02-L02,C02,Choose a method for soil and finish,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+C02-L03,C02,Complete safe cleaning demonstration,Specific,cleaner-02
+F06-L01,F06,Bathroom risk assessment,Specific,cleaner-03
+F06-L02,F06,Zone and cloth segregation,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+F06-L03,F06,"Fixtures, soils and material compatibility",Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+F06-L04,F06,Sanitary cleaning sequence,Specific,cleaner-03
+F06-L05,F06,Final inspection and handover,General,Base shared pool or group
+F08-L01,F08,Transmission pathways,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+F08-L02,F08,Hand hygiene and PPE changes,General,Base shared pool or group
+F08-L03,F08,Cleaning versus disinfection,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+F08-L04,F08,High-touch surfaces and equipment,Adapt,"surface -> handyman, floor care, property maintenance, carpet; powered -> handyman, garden, car detailing; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+F08-L05,F08,Exposure and contamination response,Specific,"cleaner-03,cleaner-04"
+C03-L01,C03,Toilet and shower detailed procedures,Specific,cleaner-03
+C03-L02,C03,Stubborn soils and material protection,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+C03-L03,C03,Complete bathroom practical and inspection,Specific,cleaner-03
+F07-L01,F07,Food-contact safety and scope,Specific,cleaner-04
+F07-L02,F07,Separate raw and ready-to-eat zones,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+F07-L03,F07,Degreasing without damage,Specific,cleaner-04
+F07-L04,F07,Cleaning and sanitising are distinct,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+F07-L05,F07,Appliance and handover checks,Specific,cleaner-04
+C04-L01,C04,Food-contact cleaning and sanitising workflow,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+C04-L02,C04,Appliance cleaning boundaries and safe access,Specific,cleaner-04
+C04-L03,C04,Complete kitchen practical and verification,Specific,cleaner-04
+F03-L01,F03,Read labels and SDS,General,Base shared pool or group
+F03-L02,F03,Never mix incompatible products,Adapt,"surface -> handyman, floor care, property maintenance, carpet; chemical -> pool and spa, car detailing, garden, pet grooming"
+F03-L03,F03,"Dilution, ventilation and exposure controls",Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming; moisture -> property maintenance, carpet, construction-site clean-up"
+F03-L04,F03,"Storage, spills and disposal",General,Base shared pool or group
+F04-L01,F04,Select equipment for surface and task,Adapt,"surface -> handyman, floor care, property maintenance, carpet; powered -> handyman, garden, car detailing"
+F04-L02,F04,Pre-use inspection,General,Base shared pool or group
+F04-L03,F04,Safe operation and shutdown,Specific,cleaner-05
+F04-L04,F04,"Cleaning, maintenance and records",General,Base shared pool or group
+F16-L01,F16,Product categories,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+F16-L02,F16,Labels and safety data,General,Base shared pool or group
+F16-L03,F16,Surface compatibility,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+F16-L04,F16,Dilution and dosing,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+F16-L05,F16,Disinfectant use,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+F16-L06,F16,Storage and transport,General,Base shared pool or group
+F17-L01,F17,Manual tools,Adapt,manual -> every business (general)
+F17-L02,F17,Vacuum systems,Specific,cleaner-05
+F17-L03,F17,Wet cleaning systems,Specific,cleaner-05
+F17-L04,F17,Electrical pre-start,General,Base shared pool or group
+F17-L05,F17,Ergonomics and manual handling,General,Base shared pool or group
+F17-L06,F17,Cleaning and storing tools,Specific,cleaner-05
+C05-L01,C05,Chemical compatibility and SDS decision exercises,General,Base shared pool or group
+C05-L02,C05,"Safe measuring, dilution and dispensing demonstration",Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+C05-L03,C05,"Equipment inspection, isolation and fault-response simulation",General,Base shared pool or group
+F09-L01,F09,Define acceptance criteria,Specific,"cleaner-06,cleaner-07,cleaner-08,cleaner-09"
+F09-L02,F09,Inspect systematically,Specific,"cleaner-06,cleaner-07,cleaner-08,cleaner-09"
+F09-L03,F09,Evidence integrity and privacy,General,Base shared pool or group
+F09-L04,F09,Nonconformance and corrective action,General,Base shared pool or group
+F09-L05,F09,Customer handover and continuous improvement,General,Base shared pool or group
+F19-L01,F19,Read the job scope,General,Base shared pool or group
+F19-L02,F19,Site risk assessment,General,Base shared pool or group
+F19-L03,F19,Match equipment to site,Adapt,"powered -> handyman, garden, car detailing"
+F19-L04,F19,Pre-start checks,General,Base shared pool or group
+F19-L05,F19,Set safe work zones,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+F19-L06,F19,Record and communicate readiness,General,Base shared pool or group
+C06-L01,C06,"Bond-clean scope, inclusions and exclusions",Specific,cleaner-06
+C06-L02,C06,Room-by-room deep-clean execution and sequencing,Specific,cleaner-06
+C06-L03,C06,"Bond-clean verification, defects and photographic handover",Specific,cleaner-06
+C07-L01,C07,Short-stay departure-to-arrival turnover planning,Specific,cleaner-07
+C07-L02,C07,"Linen handling, bed preparation and guest amenities",Specific,cleaner-07
+C07-L03,C07,Timed guest-ready turnover and final property release,Specific,cleaner-07
+F10-L01,F10,Site induction and access,General,Base shared pool or group
+F10-L02,F10,Shift planning and service-level scope,General,Base shared pool or group
+F10-L03,F10,Public and occupied-area safety,Specific,cleaner-08
+F10-L04,F10,Equipment logistics and storage,General,Base shared pool or group
+F10-L05,F10,Supervisor handover and verification,General,Base shared pool or group
+C08-L01,C08,"Workstations, shared electronics and office fixtures",Specific,cleaner-08
+C08-L02,C08,"Office access, keys, alarms and confidentiality",Specific,cleaner-08
+C08-L03,C08,"Occupied-office cleaning, shift handover and quality verification",Specific,cleaner-08
+S12-L01,S12,Inspection methods and acceptance standards,General,Base shared pool or group
+S12-L02,S12,Selecting appropriate inspection tools,General,Base shared pool or group
+S12-L03,S12,Objective defect classification,General,Base shared pool or group
+S12-L04,S12,Photographic evidence and client privacy,General,Base shared pool or group
+S12-L05,S12,Recording inspection findings,General,Base shared pool or group
+S12-L06,S12,Corrective action and reinspection,General,Base shared pool or group
+S12-L07,S12,Evidence integrity and audit trails,General,Base shared pool or group
+S12-L08,S12,Practical inspection and evidence assessment,General,Base shared pool or group
+C09-L01,C09,Complete site inspection case study,General,Base shared pool or group
+C09-L02,C09,Defect rectification and reinspection exercise,General,Base shared pool or group
+C09-L03,C09,Final quality evidence portfolio,General,Base shared pool or group
+F14-L01,F14,"Consent, dignity and boundaries",General,Base shared pool or group
+F14-L02,F14,Safeguarding and escalation,General,Base shared pool or group
+F14-L03,F14,Infection and environmental risks,General,Base shared pool or group
+F14-L04,F14,"Falls, access and mobility awareness",General,Base shared pool or group
+F14-L05,F14,Communication and cultural respect,General,Base shared pool or group
+F14-L06,F14,"Privacy, keys and handover",General,Base shared pool or group
+S14-L01,S14,Site-specific hazard identification,General,Base shared pool or group
+S14-L02,S14,Risk assessment and control selection,General,Base shared pool or group
+S14-L03,S14,Dynamic risk assessment and stop-work authority,General,Base shared pool or group
+S14-L04,S14,Lone-worker safety and check-ins,General,Base shared pool or group
+S14-L05,S14,Emergency procedures and evacuation,General,Base shared pool or group
+S14-L06,S14,"Injury, chemical exposure and incident response",General,Base shared pool or group
+S14-L07,S14,"Threats, unsafe environments and escalation",General,Base shared pool or group
+S14-L08,S14,Practical emergency and escalation scenarios,General,Base shared pool or group
+C10-L01,C10,Lone-worker safety and check-in scenario,General,Base shared pool or group
+C10-L02,C10,Escalation decision-making under pressure,Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond"
+C10-L03,C10,Practical incident reporting and handover,General,Base shared pool or group
+additional-specialist-services-L01,additional-specialist-services,Service request intake and classification,General,Base shared pool or group
+additional-specialist-services-L02,additional-specialist-services,Site survey and scope confirmation,General,Base shared pool or group
+additional-specialist-services-L03,additional-specialist-services,Task-based hazard assessment,General,Base shared pool or group
+additional-specialist-services-L04,additional-specialist-services,"Licences, permissions and restricted work",General,Base shared pool or group
+additional-specialist-services-L05,additional-specialist-services,Chemical identity and exposure screening,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+additional-specialist-services-L06,additional-specialist-services,"Tools, access and equipment suitability",General,Base shared pool or group
+additional-specialist-services-L07,additional-specialist-services,Cross-contamination and sensitive environments,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+additional-specialist-services-L08,additional-specialist-services,Waste streams and environmental management,General,Base shared pool or group
+additional-specialist-services-L09,additional-specialist-services,Property protection and client consent,General,Base shared pool or group
+additional-specialist-services-L10,additional-specialist-services,"Work planning, teams and interfaces",Specific,UNASSIGNED
+additional-specialist-services-L11,additional-specialist-services,"Quality checks, incidents and corrective action",General,Base shared pool or group
+additional-specialist-services-L12,additional-specialist-services,"Handover, competency and specialist referrals",General,Base shared pool or group
+aged-care-infection-control-L01,aged-care-infection-control,Work authorisation and resident-centred scope,Specific,"Healthcare (aged care, medical, dental, NDIS)"
+aged-care-infection-control-L02,aged-care-infection-control,Transmission pathways in residential aged care,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+aged-care-infection-control-L03,aged-care-infection-control,Risk assessment and IPC instructions,General,Base shared pool or group
+aged-care-infection-control-L04,aged-care-infection-control,Hand hygiene and personal protective equipment,General,Base shared pool or group
+aged-care-infection-control-L05,aged-care-infection-control,Cleaning versus disinfection and product selection,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+aged-care-infection-control-L06,aged-care-infection-control,High-touch surfaces and risk-based frequencies,General,Base shared pool or group
+aged-care-infection-control-L07,aged-care-infection-control,Clean-to-dirty flow and equipment segregation,Adapt,"powered -> handyman, garden, car detailing; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+aged-care-infection-control-L08,aged-care-infection-control,"Bathrooms, shared areas and resident equipment boundaries",Adapt,"powered -> handyman, garden, car detailing"
+aged-care-infection-control-L09,aged-care-infection-control,"Linen, waste and spill escalation",Specific,"Healthcare (aged care, medical, dental, NDIS)"
+aged-care-infection-control-L10,aged-care-infection-control,Outbreaks and transmission-based precautions,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+aged-care-infection-control-L11,aged-care-infection-control,"Resident dignity, consent and communication",Specific,"Healthcare (aged care, medical, dental, NDIS)"
+aged-care-infection-control-L12,aged-care-infection-control,"Audit, handover and quality improvement",General,Base shared pool or group
+biohazard-trauma-cleaning-L01,biohazard-trauma-cleaning,Professional scope and restricted-work triage,Exclude,High-hazard family
+biohazard-trauma-cleaning-L02,biohazard-trauma-cleaning,Pathogen and exposure risk fundamentals,Exclude,High-hazard family
+biohazard-trauma-cleaning-L03,biohazard-trauma-cleaning,Scene entry permissions and site isolation,Exclude,High-hazard family
+biohazard-trauma-cleaning-L04,biohazard-trauma-cleaning,Sharps and concealed hazards recognition,Exclude,High-hazard family
+biohazard-trauma-cleaning-L05,biohazard-trauma-cleaning,Blood and bodily fluid exposure control,Exclude,High-hazard family
+biohazard-trauma-cleaning-L06,biohazard-trauma-cleaning,"PPE selection, fit and removal",Exclude,High-hazard family
+biohazard-trauma-cleaning-L07,biohazard-trauma-cleaning,Cleaning and disinfection boundaries,Exclude,High-hazard family
+biohazard-trauma-cleaning-L08,biohazard-trauma-cleaning,Porous surfaces and unsalvageable materials,Exclude,High-hazard family
+biohazard-trauma-cleaning-L09,biohazard-trauma-cleaning,Regulated waste identification and handoff,Exclude,High-hazard family
+biohazard-trauma-cleaning-L10,biohazard-trauma-cleaning,Equipment segregation and transport,Exclude,High-hazard family
+biohazard-trauma-cleaning-L11,biohazard-trauma-cleaning,Incident reporting and exposure escalation,Exclude,High-hazard family
+biohazard-trauma-cleaning-L12,biohazard-trauma-cleaning,"Verification, records and release boundaries",Exclude,High-hazard family
+car-detailing-L01,car-detailing,Service boundaries and consent,General,Base shared pool or group
+car-detailing-L02,car-detailing,Vehicle condition and evidence,Specific,Car detailing
+car-detailing-L03,car-detailing,Product selection and SDS,General,Base shared pool or group
+car-detailing-L04,car-detailing,Skin and eye exposure,Specific,Car detailing
+car-detailing-L05,car-detailing,Washwater containment,Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond"
+car-detailing-L06,car-detailing,Pre-wash and equipment control,Adapt,"powered -> handyman, garden, car detailing"
+car-detailing-L07,car-detailing,Paint and clear-coat care,Specific,Car detailing
+car-detailing-L08,car-detailing,"Wheels, tyres and trim",Specific,Car detailing
+car-detailing-L09,car-detailing,Cabin air and vapour exposure,Specific,Car detailing
+car-detailing-L10,car-detailing,Interior materials and electronics,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+car-detailing-L11,car-detailing,Body mechanics and electrical tools,Adapt,"powered -> handyman, garden, car detailing; manual -> every business (general)"
+car-detailing-L12,car-detailing,Quality assurance and handover,General,Base shared pool or group
+construction-site-cleaning-L01,construction-site-cleaning,"Scope, project phases and authority",General,Base shared pool or group
+construction-site-cleaning-L02,construction-site-cleaning,Construction induction and simultaneous operations,Specific,Construction-site clean-up and Post-construction clean
+construction-site-cleaning-L03,construction-site-cleaning,Hazard recognition and unknown materials,General,Base shared pool or group
+construction-site-cleaning-L04,construction-site-cleaning,Silica dust exposure fundamentals,Adapt,"moisture -> property maintenance, carpet, construction-site clean-up"
+construction-site-cleaning-L05,construction-site-cleaning,Dust suppression and extraction,Adapt,"moisture -> property maintenance, carpet, construction-site clean-up"
+construction-site-cleaning-L06,construction-site-cleaning,Respiratory protection and fit,Adapt,"moisture -> property maintenance, carpet, construction-site clean-up"
+construction-site-cleaning-L07,construction-site-cleaning,Debris segregation and waste containment,General,Base shared pool or group
+construction-site-cleaning-L08,construction-site-cleaning,Materials and surface protection,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+construction-site-cleaning-L09,construction-site-cleaning,Zoned clean sequence and cross-contamination,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+construction-site-cleaning-L10,construction-site-cleaning,Equipment inspection and decontamination,General,Base shared pool or group
+construction-site-cleaning-L11,construction-site-cleaning,Client handover and quality evidence,General,Base shared pool or group
+construction-site-cleaning-L12,construction-site-cleaning,"Stop-work, incident response and reassessment",General,Base shared pool or group
+crime-scene-cleaning-L01,crime-scene-cleaning,Scope and referral boundaries,Exclude,High-hazard family
+crime-scene-cleaning-L02,crime-scene-cleaning,Scene release and evidence preservation,Exclude,High-hazard family
+crime-scene-cleaning-L03,crime-scene-cleaning,"Consent, dignity and privacy",Exclude,High-hazard family
+crime-scene-cleaning-L04,crime-scene-cleaning,Exposure pathways and occupational controls,Exclude,High-hazard family
+crime-scene-cleaning-L05,crime-scene-cleaning,Sharps and concealed hazards,Exclude,High-hazard family
+crime-scene-cleaning-L06,crime-scene-cleaning,PPE assessment and doffing boundaries,Exclude,High-hazard family
+crime-scene-cleaning-L07,crime-scene-cleaning,Containment and contamination zoning,Exclude,High-hazard family
+crime-scene-cleaning-L08,crime-scene-cleaning,Surface and porous material decisions,Exclude,High-hazard family
+crime-scene-cleaning-L09,crime-scene-cleaning,Waste identification and chain of custody,Exclude,High-hazard family
+crime-scene-cleaning-L10,crime-scene-cleaning,Equipment controls and decontamination limits,Exclude,High-hazard family
+crime-scene-cleaning-L11,crime-scene-cleaning,Exposure incidents and worker wellbeing,Exclude,High-hazard family
+crime-scene-cleaning-L12,crime-scene-cleaning,"Documentation, verification and handover",Exclude,High-hazard family
+custom-eco-cleaning-products-L01,custom-eco-cleaning-products,Define product categories and authorised work,General,Base shared pool or group
+custom-eco-cleaning-products-L02,custom-eco-cleaning-products,"Understand hazards, labels and safety data sheets",General,Base shared pool or group
+custom-eco-cleaning-products-L03,custom-eco-cleaning-products,Evaluate ingredients without relying on natural claims,Specific,"Base shared: chemicals (BS-08, BS-09)"
+custom-eco-cleaning-products-L04,custom-eco-cleaning-products,Assess surfaces and material compatibility,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+custom-eco-cleaning-products-L05,custom-eco-cleaning-products,Read dilution and manufacturer use instructions,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+custom-eco-cleaning-products-L06,custom-eco-cleaning-products,Prevent incompatible chemical mixing,Adapt,"surface -> handyman, floor care, property maintenance, carpet; chemical -> pool and spa, car detailing, garden, pet grooming"
+custom-eco-cleaning-products-L07,custom-eco-cleaning-products,"Select PPE, ventilation and exposure controls",General,Base shared pool or group
+custom-eco-cleaning-products-L08,custom-eco-cleaning-products,Assess environmental and sustainability claims,Specific,"Base shared: chemicals (BS-08, BS-09)"
+custom-eco-cleaning-products-L09,custom-eco-cleaning-products,Distinguish cleaning claims from disinfectant claims,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+custom-eco-cleaning-products-L10,custom-eco-cleaning-products,"Control procurement, decanting and storage",General,Base shared pool or group
+custom-eco-cleaning-products-L11,custom-eco-cleaning-products,"Evaluate packaging, wastewater and disposal",General,Base shared pool or group
+custom-eco-cleaning-products-L12,custom-eco-cleaning-products,Verify product performance and maintain evidence,General,Base shared pool or group
+drug-contamination-remediation-L01,drug-contamination-remediation,"Scope, scene history and limits",Exclude,High-hazard family
+drug-contamination-remediation-L02,drug-contamination-remediation,"Scene authority, permissions and release",Exclude,High-hazard family
+drug-contamination-remediation-L03,drug-contamination-remediation,Contamination routes and uncertainty,Exclude,High-hazard family
+drug-contamination-remediation-L04,drug-contamination-remediation,Laboratory versus residue-only properties,Exclude,High-hazard family
+drug-contamination-remediation-L05,drug-contamination-remediation,Independent sampling and chain of custody,Exclude,High-hazard family
+drug-contamination-remediation-L06,drug-contamination-remediation,Worker exposure prevention and PPE decisions,Exclude,High-hazard family
+drug-contamination-remediation-L07,drug-contamination-remediation,Containment and cross-contamination,Exclude,High-hazard family
+drug-contamination-remediation-L08,drug-contamination-remediation,Material classification and specialist decisions,Exclude,High-hazard family
+drug-contamination-remediation-L09,drug-contamination-remediation,Waste and environmental obligations,Exclude,High-hazard family
+drug-contamination-remediation-L10,drug-contamination-remediation,Country-specific rules and thresholds,Exclude,High-hazard family
+drug-contamination-remediation-L11,drug-contamination-remediation,Independent verification and clearance claims,Exclude,High-hazard family
+drug-contamination-remediation-L12,drug-contamination-remediation,"Handover, health concerns and privacy",Exclude,High-hazard family
+fire-smoke-restoration-L01,fire-smoke-restoration,Authorisation and fire-scene release,Exclude,High-hazard family
+fire-smoke-restoration-L02,fire-smoke-restoration,Post-fire structural and utility hazards,Exclude,High-hazard family
+fire-smoke-restoration-L03,fire-smoke-restoration,"Ash, soot and combustion-residue exposure",Exclude,High-hazard family
+fire-smoke-restoration-L04,fire-smoke-restoration,Asbestos and legacy hazardous materials,Exclude,High-hazard family
+fire-smoke-restoration-L05,fire-smoke-restoration,Site zoning and occupant protection,Exclude,High-hazard family
+fire-smoke-restoration-L06,fire-smoke-restoration,PPE and respiratory protection decisions,Exclude,High-hazard family
+fire-smoke-restoration-L07,fire-smoke-restoration,Content salvage and material suitability,Exclude,High-hazard family
+fire-smoke-restoration-L08,fire-smoke-restoration,Controlled cleaning methods and limitations,Exclude,High-hazard family
+fire-smoke-restoration-L09,fire-smoke-restoration,Chemical and odour-treatment boundaries,Exclude,High-hazard family
+fire-smoke-restoration-L10,fire-smoke-restoration,Waste segregation and environmental controls,Exclude,High-hazard family
+fire-smoke-restoration-L11,fire-smoke-restoration,"Records, damage mapping and insurer handoff",Exclude,High-hazard family
+fire-smoke-restoration-L12,fire-smoke-restoration,Verification and safe handover boundaries,Exclude,High-hazard family
+flood-water-restoration-L01,flood-water-restoration,"Site release, permissions and restoration scope",Exclude,High-hazard family
+flood-water-restoration-L02,flood-water-restoration,Floodwater origin and contamination screening,Exclude,High-hazard family
+flood-water-restoration-L03,flood-water-restoration,"Structural instability, slips and confined spaces",Exclude,High-hazard family
+flood-water-restoration-L04,flood-water-restoration,"Electrical, gas and solar system hazards",Exclude,High-hazard family
+flood-water-restoration-L05,flood-water-restoration,"PPE, hygiene and biological exposure",Exclude,High-hazard family
+flood-water-restoration-L06,flood-water-restoration,Moisture mapping and baseline records,Exclude,High-hazard family
+flood-water-restoration-L07,flood-water-restoration,Water removal planning and equipment limitations,Exclude,High-hazard family
+flood-water-restoration-L08,flood-water-restoration,"Porous contents, salvage and contamination",Exclude,High-hazard family
+flood-water-restoration-L09,flood-water-restoration,Drying principles and monitoring logs,Exclude,High-hazard family
+flood-water-restoration-L10,flood-water-restoration,Mould prevention and concealed damage,Exclude,High-hazard family
+flood-water-restoration-L11,flood-water-restoration,"Wastewater, debris and lawful disposal",Exclude,High-hazard family
+flood-water-restoration-L12,flood-water-restoration,"Verification, documentation and handover limits",Exclude,High-hazard family
+food-processing-sanitation-L01,food-processing-sanitation,Site authorization and sanitation task boundaries,General,Base shared pool or group
+food-processing-sanitation-L02,food-processing-sanitation,Food safety hazards and contamination routes,Specific,Commercial and office cleaning (lessons)
+food-processing-sanitation-L03,food-processing-sanitation,Food-contact versus non-food-contact surfaces,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+food-processing-sanitation-L04,food-processing-sanitation,"Cleaning, sanitising and approved chemical controls",Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+food-processing-sanitation-L05,food-processing-sanitation,Allergen segregation and changeover decisions,General,Base shared pool or group
+food-processing-sanitation-L06,food-processing-sanitation,Raw-to-ready-to-eat zoning and movement,Specific,Commercial and office cleaning (lessons)
+food-processing-sanitation-L07,food-processing-sanitation,"Equipment shutdown, energy isolation and guarded machinery",Adapt,"powered -> handyman, garden, car detailing"
+food-processing-sanitation-L08,food-processing-sanitation,"Water use, drainage and environmental control",Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond"
+food-processing-sanitation-L09,food-processing-sanitation,"Pest evidence, waste and by-product management",General,Base shared pool or group
+food-processing-sanitation-L10,food-processing-sanitation,Pre-operational inspection and sanitation records,General,Base shared pool or group
+food-processing-sanitation-L11,food-processing-sanitation,Deviation escalation and corrective action,General,Base shared pool or group
+food-processing-sanitation-L12,food-processing-sanitation,"Safe handover, audit and jurisdiction review",General,Base shared pool or group
+garden-cleanups-L01,garden-cleanups,"Scope, client approval and exclusions",General,Base shared pool or group
+garden-cleanups-L02,garden-cleanups,Site walk-through and dynamic risk assessment,General,Base shared pool or group
+garden-cleanups-L03,garden-cleanups,Ergonomic lifting and manual handling,General,Base shared pool or group
+garden-cleanups-L04,garden-cleanups,"Hand tools, cutting tools and sharp waste",General,Base shared pool or group
+garden-cleanups-L05,garden-cleanups,Powered garden machinery,Adapt,"powered -> handyman, garden, car detailing"
+garden-cleanups-L06,garden-cleanups,"Electrical, battery and fuel safety",Adapt,"powered -> handyman, garden, car detailing"
+garden-cleanups-L07,garden-cleanups,"Weather, heat, ultraviolet and wildlife",General,Base shared pool or group
+garden-cleanups-L08,garden-cleanups,"Plant hazards, allergens and hazardous contamination",General,Base shared pool or group
+garden-cleanups-L09,garden-cleanups,Biosecurity and invasive species,General,Base shared pool or group
+garden-cleanups-L10,garden-cleanups,Waste stream separation and lawful disposal,General,Base shared pool or group
+garden-cleanups-L11,garden-cleanups,"Work sequence, property protection and public safety",Specific,Garden maintenance and clean-ups
+garden-cleanups-L12,garden-cleanups,"Final inspection, handover and incidents",General,Base shared pool or group
+handyman-work-L01,handyman-work,"Scope, consent and trade boundaries",General,Base shared pool or group
+handyman-work-L02,handyman-work,Site survey and pre-start risk control,General,Base shared pool or group
+handyman-work-L03,handyman-work,"Hand tools, PPE and safe work area",General,Base shared pool or group
+handyman-work-L04,handyman-work,Portable power tools and energy isolation,Adapt,"powered -> handyman, garden, car detailing"
+handyman-work-L05,handyman-work,"Ladders, elevated access and fall prevention",General,Base shared pool or group
+handyman-work-L06,handyman-work,Electrical boundaries and referral,General,Base shared pool or group
+handyman-work-L07,handyman-work,"Water, plumbing and gas boundaries",General,Base shared pool or group
+handyman-work-L08,handyman-work,Surface fastening and concealed services,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+handyman-work-L09,handyman-work,"Paint, patch and surface compatibility",Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+handyman-work-L10,handyman-work,"Doors, hinges and hardware upkeep",Specific,Handyman
+handyman-work-L11,handyman-work,"Waste, housekeeping and client protection",General,Base shared pool or group
+handyman-work-L12,handyman-work,"Quality control, records and handover",General,Base shared pool or group
+high-access-window-cleaning-L01,high-access-window-cleaning,Job authority and high-access scope,General,Base shared pool or group
+high-access-window-cleaning-L02,high-access-window-cleaning,Avoiding work at height,Adapt,"height -> window (all heights), roof, handyman, solar"
+high-access-window-cleaning-L03,high-access-window-cleaning,Facade and glazing risk screening,General,Base shared pool or group
+high-access-window-cleaning-L04,high-access-window-cleaning,Public protection and falling objects,Adapt,"height -> window (all heights), roof, handyman, solar"
+high-access-window-cleaning-L05,high-access-window-cleaning,Weather and changing conditions,General,Base shared pool or group
+high-access-window-cleaning-L06,high-access-window-cleaning,Water-fed poles and ground-based operations,Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond"
+high-access-window-cleaning-L07,high-access-window-cleaning,Ladders and platform equipment boundaries,General,Base shared pool or group
+high-access-window-cleaning-L08,high-access-window-cleaning,Rope access and anchor certification,General,Base shared pool or group
+high-access-window-cleaning-L09,high-access-window-cleaning,Elevated work platforms and competence,General,Base shared pool or group
+high-access-window-cleaning-L10,high-access-window-cleaning,Emergency and rescue planning,General,Base shared pool or group
+high-access-window-cleaning-L11,high-access-window-cleaning,Chemical selection and runoff boundaries,General,Base shared pool or group
+high-access-window-cleaning-L12,high-access-window-cleaning,Inspection evidence and restricted handover,General,Base shared pool or group
+hoarding-squalor-L01,hoarding-squalor,"Scope, goals and client-defined success",Exclude,High-hazard family
+hoarding-squalor-L02,hoarding-squalor,"Consent, belongings and decision authority",Exclude,High-hazard family
+hoarding-squalor-L03,hoarding-squalor,Respectful communication and coordinated support,Exclude,High-hazard family
+hoarding-squalor-L04,hoarding-squalor,"Fire loads, heating and electrical ignition",Exclude,High-hazard family
+hoarding-squalor-L05,hoarding-squalor,Safe egress and emergency access,Exclude,High-hazard family
+hoarding-squalor-L06,hoarding-squalor,Structural instability and unstable piles,Exclude,High-hazard family
+hoarding-squalor-L07,hoarding-squalor,"Pests, contamination and hygiene triage",Exclude,High-hazard family
+hoarding-squalor-L08,hoarding-squalor,"Sharps, chemicals and unknown materials",Exclude,High-hazard family
+hoarding-squalor-L09,hoarding-squalor,Safe handling and staged work zones,Exclude,High-hazard family
+hoarding-squalor-L10,hoarding-squalor,"Waste, reuse and property records",Exclude,High-hazard family
+hoarding-squalor-L11,hoarding-squalor,"Privacy, tenant rights and multidisciplinary handoff",Exclude,High-hazard family
+hoarding-squalor-L12,hoarding-squalor,"Verification, follow-up and recurrence prevention",Exclude,High-hazard family
+industrial-degreasing-L01,industrial-degreasing,"Authorisation, task limits and contractor interface",General,Base shared pool or group
+industrial-degreasing-L02,industrial-degreasing,"Plant hazards, guarding and exclusion zones",General,Base shared pool or group
+industrial-degreasing-L03,industrial-degreasing,Energy isolation and verification boundaries,General,Base shared pool or group
+industrial-degreasing-L04,industrial-degreasing,Chemical inventory and safety data sheets,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+industrial-degreasing-L05,industrial-degreasing,"Solvent, vapour and ignition risks",General,Base shared pool or group
+industrial-degreasing-L06,industrial-degreasing,"PPE, hygiene and exposure escalation",General,Base shared pool or group
+industrial-degreasing-L07,industrial-degreasing,"Approved surfaces, seals and machine components",Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+industrial-degreasing-L08,industrial-degreasing,"Spills, leaks and unexpected contamination",General,Base shared pool or group
+industrial-degreasing-L09,industrial-degreasing,"Waste oil, absorbents and environmental controls",General,Base shared pool or group
+industrial-degreasing-L10,industrial-degreasing,"Work coordination, change control and simultaneous operations",Specific,Commercial and office cleaning (lessons)
+industrial-degreasing-L11,industrial-degreasing,Inspection evidence and nonconformance records,General,Base shared pool or group
+industrial-degreasing-L12,industrial-degreasing,"Release, handover and no-certification claims",General,Base shared pool or group
+kitchen-cleaning-L01,kitchen-cleaning,"Service scope, site handover and food safety boundaries",Specific,Group lesson: kitchen (residential and commercial)
+kitchen-cleaning-L02,kitchen-cleaning,Food contamination pathways and zoning,Specific,Group lesson: kitchen (residential and commercial)
+kitchen-cleaning-L03,kitchen-cleaning,"Personal hygiene, PPE and illness reporting",General,Base shared pool or group
+kitchen-cleaning-L04,kitchen-cleaning,Cleaning versus sanitising,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+kitchen-cleaning-L05,kitchen-cleaning,"Chemicals, SDS, labels and food-contact compatibility",Adapt,"surface -> handyman, floor care, property maintenance, carpet; chemical -> pool and spa, car detailing, garden, pet grooming"
+kitchen-cleaning-L06,kitchen-cleaning,"Utensils, smallwares and dishwashing",Specific,Group lesson: kitchen (residential and commercial)
+kitchen-cleaning-L07,kitchen-cleaning,"Benches, preparation surfaces and allergen cross-contact",Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+kitchen-cleaning-L08,kitchen-cleaning,"Grease, extraction and hot kitchen hazards",Specific,Group lesson: kitchen (residential and commercial)
+kitchen-cleaning-L09,kitchen-cleaning,"Cold rooms, refrigerators and drainage",Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond"
+kitchen-cleaning-L10,kitchen-cleaning,"Floors, spills, waste and pest signs",General,Base shared pool or group
+kitchen-cleaning-L11,kitchen-cleaning,Cleaning schedules and verification records,General,Base shared pool or group
+kitchen-cleaning-L12,kitchen-cleaning,"Inspection, corrective action and customer handover",General,Base shared pool or group
+kitchen-exhaust-L01,kitchen-exhaust,"Authority, scope and specialist eligibility",General,Base shared pool or group
+kitchen-exhaust-L02,kitchen-exhaust,Fire triangle and grease accumulation,Specific,Commercial and office cleaning (lessons)
+kitchen-exhaust-L03,kitchen-exhaust,System anatomy and access boundaries,General,Base shared pool or group
+kitchen-exhaust-L04,kitchen-exhaust,"Standards, local codes and contract scope",General,Base shared pool or group
+kitchen-exhaust-L05,kitchen-exhaust,Initial survey and access planning,General,Base shared pool or group
+kitchen-exhaust-L06,kitchen-exhaust,Plant shutdown and protected systems,Adapt,"plant -> garden, lawn, landscaping, irrigation"
+kitchen-exhaust-L07,kitchen-exhaust,Chemical and surface compatibility,Adapt,"surface -> handyman, floor care, property maintenance, carpet; chemical -> pool and spa, car detailing, garden, pet grooming"
+kitchen-exhaust-L08,kitchen-exhaust,Specialist cleaning method boundaries,General,Base shared pool or group
+kitchen-exhaust-L09,kitchen-exhaust,"Grease waste, runoff and environmental controls",General,Base shared pool or group
+kitchen-exhaust-L10,kitchen-exhaust,"Inspection, photos and access limitations",General,Base shared pool or group
+kitchen-exhaust-L11,kitchen-exhaust,"Defects, fire-risk escalation and scheduling",General,Base shared pool or group
+kitchen-exhaust-L12,kitchen-exhaust,"Handover, records and honest compliance claims",General,Base shared pool or group
+laboratory-cleaning-L01,laboratory-cleaning,Site authority and laboratory access,Specific,Commercial and office cleaning (lessons)
+laboratory-cleaning-L02,laboratory-cleaning,Risk assessment and hazard signage,General,Base shared pool or group
+laboratory-cleaning-L03,laboratory-cleaning,Chemical hazards and safety data sheets,General,Base shared pool or group
+laboratory-cleaning-L04,laboratory-cleaning,Biological agents and exposure boundaries,General,Base shared pool or group
+laboratory-cleaning-L05,laboratory-cleaning,Hand hygiene and site PPE,General,Base shared pool or group
+laboratory-cleaning-L06,laboratory-cleaning,Approved surfaces and equipment boundaries,General,Base shared pool or group
+laboratory-cleaning-L07,laboratory-cleaning,Routine cleaning workflows and segregation,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+laboratory-cleaning-L08,laboratory-cleaning,Chemical spills and emergency escalation,General,Base shared pool or group
+laboratory-cleaning-L09,laboratory-cleaning,"Sharps, glass and biological waste",General,Base shared pool or group
+laboratory-cleaning-L10,laboratory-cleaning,"Ventilation, cabinets and specialist zones",Adapt,"moisture -> property maintenance, carpet, construction-site clean-up; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+laboratory-cleaning-L11,laboratory-cleaning,Incident documentation and confidentiality,General,Base shared pool or group
+laboratory-cleaning-L12,laboratory-cleaning,"Verification, audit and restricted handover",General,Base shared pool or group
+medical-dental-clinic-L01,medical-dental-clinic,Clinical work authorisation and staff boundaries,Specific,"Healthcare (aged care, medical, dental, NDIS)"
+medical-dental-clinic-L02,medical-dental-clinic,Infection transmission pathways in clinics,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+medical-dental-clinic-L03,medical-dental-clinic,Facility risk assessment and cleaning schedules,General,Base shared pool or group
+medical-dental-clinic-L04,medical-dental-clinic,Hand hygiene and worker protective equipment,General,Base shared pool or group
+medical-dental-clinic-L05,medical-dental-clinic,Cleaning versus disinfection and product authorisation,General,Base shared pool or group
+medical-dental-clinic-L06,medical-dental-clinic,High-touch surfaces and clinical-contact boundaries,Adapt,"surface -> handyman, floor care, property maintenance, carpet; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+medical-dental-clinic-L07,medical-dental-clinic,Dental aerosols and operatory access control,General,Base shared pool or group
+medical-dental-clinic-L08,medical-dental-clinic,Clean-to-dirty workflow and equipment segregation,Adapt,"powered -> handyman, garden, car detailing; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+medical-dental-clinic-L09,medical-dental-clinic,"Sharps, blood and clinical waste escalation",Specific,"Healthcare (aged care, medical, dental, NDIS)"
+medical-dental-clinic-L10,medical-dental-clinic,Outbreaks and additional precautions,Specific,"Healthcare (aged care, medical, dental, NDIS)"
+medical-dental-clinic-L11,medical-dental-clinic,"Patient dignity, privacy and appointment flow",General,Base shared pool or group
+medical-dental-clinic-L12,medical-dental-clinic,"Inspection, audit and safe handover",General,Base shared pool or group
+medical-equipment-cleaning-L01,medical-equipment-cleaning,"Scope, authority and prohibited tasks",General,Base shared pool or group
+medical-equipment-cleaning-L02,medical-equipment-cleaning,Medical equipment classification and infection risk,Adapt,"powered -> handyman, garden, car detailing; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+medical-equipment-cleaning-L03,medical-equipment-cleaning,Manufacturer instructions and asset identification,Specific,Medical equipment cleaning
+medical-equipment-cleaning-L04,medical-equipment-cleaning,"PPE, hand hygiene and exposure prevention",General,Base shared pool or group
+medical-equipment-cleaning-L05,medical-equipment-cleaning,Surface cleaning before disinfection,Adapt,"surface -> handyman, floor care, property maintenance, carpet; chemical -> pool and spa, car detailing, garden, pet grooming; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+medical-equipment-cleaning-L06,medical-equipment-cleaning,Disinfectant compatibility and contact conditions,Adapt,"surface -> handyman, floor care, property maintenance, carpet; chemical -> pool and spa, car detailing, garden, pet grooming"
+medical-equipment-cleaning-L07,medical-equipment-cleaning,Reusable-device reprocessing boundaries,General,Base shared pool or group
+medical-equipment-cleaning-L08,medical-equipment-cleaning,"Single-use items, damaged items and quarantine",Specific,Medical equipment cleaning
+medical-equipment-cleaning-L09,medical-equipment-cleaning,"Clean/dirty workflow, transport and traceability",Specific,Medical equipment cleaning
+medical-equipment-cleaning-L10,medical-equipment-cleaning,Medical electrical systems and powered equipment,Adapt,"powered -> handyman, garden, car detailing"
+medical-equipment-cleaning-L11,medical-equipment-cleaning,"Records, incidents and failed processes",General,Base shared pool or group
+medical-equipment-cleaning-L12,medical-equipment-cleaning,Competency demonstration and patient safety,General,Base shared pool or group
+mould-remediation-L01,mould-remediation,"Scope, competence and site authority",Exclude,High-hazard family
+mould-remediation-L02,mould-remediation,Moisture sources and building history,Exclude,High-hazard family
+mould-remediation-L03,mould-remediation,"Inspection, concealed damage and escalation",Exclude,High-hazard family
+mould-remediation-L04,mould-remediation,Occupant health and communication,Exclude,High-hazard family
+mould-remediation-L05,mould-remediation,Hazard screening and contaminated water,Exclude,High-hazard family
+mould-remediation-L06,mould-remediation,"PPE, respiratory protection and worker readiness",Exclude,High-hazard family
+mould-remediation-L07,mould-remediation,Containment and cross-contamination prevention,Exclude,High-hazard family
+mould-remediation-L08,mould-remediation,"Porous, semi-porous and hard material decisions",Exclude,High-hazard family
+mould-remediation-L09,mould-remediation,Cleaning methods and equipment limits,Exclude,High-hazard family
+mould-remediation-L10,mould-remediation,Waste segregation and environmental handover,Exclude,High-hazard family
+mould-remediation-L11,mould-remediation,"Moisture correction, drying and recurrence prevention",Exclude,High-hazard family
+mould-remediation-L12,mould-remediation,"Verification, records and release boundaries",Exclude,High-hazard family
+pool-cleaning-L01,pool-cleaning,"Scope, site classification and authority",General,Base shared pool or group
+pool-cleaning-L02,pool-cleaning,Pre-start inspection and drowning prevention,General,Base shared pool or group
+pool-cleaning-L03,pool-cleaning,Water sampling and record integrity,General,Base shared pool or group
+pool-cleaning-L04,pool-cleaning,Disinfection chemistry and pH interpretation,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+pool-cleaning-L05,pool-cleaning,"Chemical receipt, labelling and segregation",General,Base shared pool or group
+pool-cleaning-L06,pool-cleaning,Dosing systems and chlorine-gas prevention,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+pool-cleaning-L07,pool-cleaning,Filtration and circulation diagnostics,Specific,Pool and spa servicing
+pool-cleaning-L08,pool-cleaning,Surface cleaning and equipment hygiene,General,Base shared pool or group
+pool-cleaning-L09,pool-cleaning,Biological contamination and incident escalation,General,Base shared pool or group
+pool-cleaning-L10,pool-cleaning,"Electrical, mechanical and confined-space boundaries",General,Base shared pool or group
+pool-cleaning-L11,pool-cleaning,Water conservation and environmental release,Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond"
+pool-cleaning-L12,pool-cleaning,"Handover, periodic care and records",General,Base shared pool or group
+pressure-cleaning-L01,pressure-cleaning,Scope and surface survey,General,Base shared pool or group
+pressure-cleaning-L02,pressure-cleaning,Pre-start hazard assessment,General,Base shared pool or group
+pressure-cleaning-L03,pressure-cleaning,Equipment suitability and inspection,General,Base shared pool or group
+pressure-cleaning-L04,pressure-cleaning,Injection injury prevention and site exclusion,General,Base shared pool or group
+pressure-cleaning-L05,pressure-cleaning,Electrical power and exhaust safety,Adapt,"powered -> handyman, garden, car detailing"
+pressure-cleaning-L06,pressure-cleaning,"Chemicals, PPE and exposure prevention",General,Base shared pool or group
+pressure-cleaning-L07,pressure-cleaning,Surface compatibility and test areas,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+pressure-cleaning-L08,pressure-cleaning,Wastewater and stormwater containment,General,Base shared pool or group
+pressure-cleaning-L09,pressure-cleaning,Hazardous or unidentified contaminants,General,Base shared pool or group
+pressure-cleaning-L10,pressure-cleaning,"Workflow, zoning and people management",Specific,Pressure cleaning (all heights)
+pressure-cleaning-L11,pressure-cleaning,Shutdown and equipment care,Adapt,"powered -> handyman, garden, car detailing"
+pressure-cleaning-L12,pressure-cleaning,Quality control and handover,General,Base shared pool or group
+property-maintenance-L01,property-maintenance,Service scope and exclusions,General,Base shared pool or group
+property-maintenance-L02,property-maintenance,Asset inventory and maintenance records,General,Base shared pool or group
+property-maintenance-L03,property-maintenance,Structured property inspections,General,Base shared pool or group
+property-maintenance-L04,property-maintenance,Risk prioritisation and escalation,General,Base shared pool or group
+property-maintenance-L05,property-maintenance,Moisture ingress and mould warning signs,Adapt,"moisture -> property maintenance, carpet, construction-site clean-up"
+property-maintenance-L06,property-maintenance,"Structural, roof and facade warning signs",Adapt,"height -> window (all heights), roof, handyman, solar"
+property-maintenance-L07,property-maintenance,"Electrical, gas and plumbing boundaries",General,Base shared pool or group
+property-maintenance-L08,property-maintenance,Minor repairs and materials suitability,Adapt,"surface -> handyman, floor care, property maintenance, carpet"
+property-maintenance-L09,property-maintenance,"Tools, access equipment and manual tasks",General,Base shared pool or group
+property-maintenance-L10,property-maintenance,Preventive maintenance scheduling,Specific,Handyman (planned upkeep lessons)
+property-maintenance-L11,property-maintenance,"Contractors, residents and site coordination",Specific,Handyman (planned upkeep lessons)
+property-maintenance-L12,property-maintenance,"Closeout, quality evidence and follow-up",General,Base shared pool or group
+roof-cleaning-soft-washing-L01,roof-cleaning-soft-washing,"Job scope, ownership and safe authorisation",General,Base shared pool or group
+roof-cleaning-soft-washing-L02,roof-cleaning-soft-washing,Ground-based alternatives and work-at-height hierarchy,Adapt,"height -> window (all heights), roof, handyman, solar"
+roof-cleaning-soft-washing-L03,roof-cleaning-soft-washing,"Roof condition, skylights and fragile surfaces",Adapt,"surface -> handyman, floor care, property maintenance, carpet; height -> window (all heights), roof, handyman, solar"
+roof-cleaning-soft-washing-L04,roof-cleaning-soft-washing,"Gutters, roof edges and public exclusion zones",Adapt,"height -> window (all heights), roof, handyman, solar; hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+roof-cleaning-soft-washing-L05,roof-cleaning-soft-washing,"Electrical, solar and overhead services",Adapt,"powered -> handyman, garden, car detailing"
+roof-cleaning-soft-washing-L06,roof-cleaning-soft-washing,"Weather, wet surfaces and stop-work decisions",General,Base shared pool or group
+roof-cleaning-soft-washing-L07,roof-cleaning-soft-washing,"Water pressure, roof materials and damage prevention",Adapt,"surface -> handyman, floor care, property maintenance, carpet; water -> pressure cleaning, car detailing, garden, pool and pond; height -> window (all heights), roof, handyman, solar"
+roof-cleaning-soft-washing-L08,roof-cleaning-soft-washing,"Soft-wash chemicals, SDS and exposure boundaries",General,Base shared pool or group
+roof-cleaning-soft-washing-L09,roof-cleaning-soft-washing,"Stormwater, vegetation and runoff protection",Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond; plant -> garden, lawn, landscaping, irrigation"
+roof-cleaning-soft-washing-L10,roof-cleaning-soft-washing,Specialist access equipment and rescue readiness,General,Base shared pool or group
+roof-cleaning-soft-washing-L11,roof-cleaning-soft-washing,"Biological growth, asbestos and unexpected hazards",General,Base shared pool or group
+roof-cleaning-soft-washing-L12,roof-cleaning-soft-washing,Inspection evidence and restricted client handover,General,Base shared pool or group
+solar-panel-cleaning-L01,solar-panel-cleaning,Client permissions and system ownership,General,Base shared pool or group
+solar-panel-cleaning-L02,solar-panel-cleaning,Electrical hazards and live-generation assumptions,General,Base shared pool or group
+solar-panel-cleaning-L03,solar-panel-cleaning,Ground-based alternatives and height risk,General,Base shared pool or group
+solar-panel-cleaning-L04,solar-panel-cleaning,"Fragile roofs, skylights and roof condition",Adapt,"height -> window (all heights), roof, handyman, solar"
+solar-panel-cleaning-L05,solar-panel-cleaning,"Module damage, exposed wiring and faults",Specific,Solar panel cleaning
+solar-panel-cleaning-L06,solar-panel-cleaning,"Weather, heat and changing conditions",General,Base shared pool or group
+solar-panel-cleaning-L07,solar-panel-cleaning,Manufacturer instructions and warranties,Specific,Solar panel cleaning
+solar-panel-cleaning-L08,solar-panel-cleaning,Water application and equipment separation,Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond; powered -> handyman, garden, car detailing"
+solar-panel-cleaning-L09,solar-panel-cleaning,"Vegetation, nests and biological hazards",General,Base shared pool or group
+solar-panel-cleaning-L10,solar-panel-cleaning,Ground protection and environmental runoff,Specific,Solar panel cleaning
+solar-panel-cleaning-L11,solar-panel-cleaning,"Defects, performance claims and referrals",Specific,Solar panel cleaning
+solar-panel-cleaning-L12,solar-panel-cleaning,"Job records, handover and escalation",General,Base shared pool or group
+warehouse-deep-cleaning-L01,warehouse-deep-cleaning,Work authorisation and warehouse operating boundaries,Specific,Commercial and office cleaning (lessons)
+warehouse-deep-cleaning-L02,warehouse-deep-cleaning,Forklift traffic routes and pedestrian segregation,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+warehouse-deep-cleaning-L03,warehouse-deep-cleaning,Pallet racking and stored-load instability,Specific,Commercial and office cleaning (lessons)
+warehouse-deep-cleaning-L04,warehouse-deep-cleaning,"Loading docks, trailers and vehicle movement",Specific,Commercial and office cleaning (lessons)
+warehouse-deep-cleaning-L05,warehouse-deep-cleaning,"Slip, trip and housekeeping priorities",Specific,Commercial and office cleaning (lessons)
+warehouse-deep-cleaning-L06,warehouse-deep-cleaning,"Dust, airborne contaminants and exposure uncertainty",Adapt,"moisture -> property maintenance, carpet, construction-site clean-up"
+warehouse-deep-cleaning-L07,warehouse-deep-cleaning,Chemical storage and spill response boundaries,General,Base shared pool or group
+warehouse-deep-cleaning-L08,warehouse-deep-cleaning,Powered conveyors and machinery interfaces,Adapt,"powered -> handyman, garden, car detailing"
+warehouse-deep-cleaning-L09,warehouse-deep-cleaning,"Elevated work, mezzanines and overhead hazards",General,Base shared pool or group
+warehouse-deep-cleaning-L10,warehouse-deep-cleaning,Approved cleaning equipment and floor compatibility,Adapt,"surface -> handyman, floor care, property maintenance, carpet; powered -> handyman, garden, car detailing"
+warehouse-deep-cleaning-L11,warehouse-deep-cleaning,Waste segregation and environmental handover,General,Base shared pool or group
+warehouse-deep-cleaning-L12,warehouse-deep-cleaning,"Inspection, incident escalation and restricted handover",General,Base shared pool or group
+F11-L01,F11,Define the service offer,Specific,Not in any course
+F11-L02,F11,Customer discovery and site assessment,General,Base shared pool or group
+F11-L03,F11,Price for sustainable delivery,Specific,Not in any course
+F11-L04,F11,Job planning and scheduling,Specific,Not in any course
+F11-L05,F11,Customer communication and records,General,Base shared pool or group
+F11-L06,F11,Service improvement and growth,General,Base shared pool or group
+F12-L01,F12,Employment relationship awareness,Specific,Not in any course
+F12-L02,F12,Pay and recordkeeping fundamentals,General,Base shared pool or group
+F12-L03,F12,WHS duties and consultation,Specific,Not in any course
+F12-L04,F12,Equal opportunity and respectful work,Specific,Not in any course
+F12-L05,F12,Privacy and customer confidentiality,General,Base shared pool or group
+F12-L06,F12,Compliance change and verification,General,Base shared pool or group
+F13-L01,F13,Environmental impact across the job,Specific,Not in any course
+F13-L02,F13,Product selection and evidence,General,Base shared pool or group
+F13-L03,F13,Correct dosing and dilution,Adapt,"chemical -> pool and spa, car detailing, garden, pet grooming"
+F13-L04,F13,Water and energy efficiency,Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond; powered -> handyman, garden, car detailing"
+F13-L05,F13,Waste segregation and wastewater,General,Base shared pool or group
+F13-L06,F13,Measure and improve outcomes,Specific,Not in any course
+F18-L01,F18,Kit classes,Specific,Not in any course
+F18-L02,F18,Task-to-item mapping,Specific,Not in any course
+F18-L03,F18,Segregation and colour coding,Adapt,"hygiene -> healthcare, mobile beauty, mobile massage, pet grooming"
+F18-L04,F18,Consumable quantities,Specific,Not in any course
+F18-L05,F18,Transport and containment,Adapt,"water -> pressure cleaning, car detailing, garden, pool and pond"
+F18-L06,F18,Kit handover and reconciliation,General,Base shared pool or group
+F20-L01,F20,Routine cleaning,Specific,Not in any course
+F20-L02,F20,Inspection and defect isolation,General,Base shared pool or group
+F20-L03,F20,Preventive maintenance,Specific,Not in any course
+F20-L04,F20,Chemical and equipment storage,General,Base shared pool or group
+F20-L05,F20,Inventory movements,Specific,Not in any course
+F20-L06,F20,Replacement and lifecycle,Specific,Not in any course

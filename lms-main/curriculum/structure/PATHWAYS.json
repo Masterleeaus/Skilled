@@ -1,0 +1,139 @@
+{
+ "schema": "titan-academy.pathways/1",
+ "status": "DRAFT - role pathways; content mapping to confirm",
+ "pathways": [
+  {
+   "id": "PATH-SOLO",
+   "title": "Solo operator",
+   "summary": "Runs a business alone. Covers safety, job delivery, the business basics and marketing, plus the service course(s) they choose.",
+   "sharedModules": [
+    "Professional induction and standards",
+    "Workplace safety and risk",
+    "Tools, equipment and maintenance",
+    "Chemicals and materials",
+    "Quality and job documentation",
+    "Job management and service delivery",
+    "Customer communication and privacy",
+    "Starting a business",
+    "Quoting and pricing",
+    "Business operations and finance",
+    "Marketing and sales"
+   ],
+   "serviceCourses": "Chosen by the learner (one or more)",
+   "excludesModules": [
+    "Growing and managing a team"
+   ],
+   "status": "DRAFT",
+   "sharedModuleTitles": [
+    "Shared: Professional induction and standards",
+    "Shared: Workplace safety and risk",
+    "Shared: Tools, equipment and maintenance",
+    "Shared: Chemicals and materials",
+    "Shared: Quality and job documentation",
+    "Shared: Job management and service delivery",
+    "Shared: Customer communication and privacy",
+    "Shared: Starting a business",
+    "Shared: Quoting and pricing",
+    "Shared: Business operations and finance",
+    "Shared: Marketing and sales"
+   ],
+   "excludesModuleTitles": [
+    "Shared: Growing and managing a team"
+   ],
+   "courseSlugsNamed": [],
+   "validation": {
+    "validatedAgainst": "structure/COURSES-MODULES.json",
+    "sharedModuleTitlesMissing": [],
+    "pass": "Pass 42"
+   }
+  },
+  {
+   "id": "PATH-TEAM-MEMBER",
+   "title": "Team member",
+   "summary": "Works for an owner. Covers the safety, equipment, chemicals, quality, job and customer lessons they need on site, plus their service course. No business or pricing modules.",
+   "sharedModules": [
+    "Professional induction and standards",
+    "Workplace safety and risk",
+    "Tools, equipment and maintenance",
+    "Chemicals and materials",
+    "Quality and job documentation",
+    "Job management and service delivery",
+    "Customer communication and privacy"
+   ],
+   "serviceCourses": "Chosen by the learner (one or more)",
+   "excludesModules": [
+    "Starting a business",
+    "Quoting and pricing",
+    "Business operations and finance",
+    "Marketing and sales",
+    "Growing and managing a team"
+   ],
+   "status": "DRAFT",
+   "sharedModuleTitles": [
+    "Shared: Professional induction and standards",
+    "Shared: Workplace safety and risk",
+    "Shared: Tools, equipment and maintenance",
+    "Shared: Chemicals and materials",
+    "Shared: Quality and job documentation",
+    "Shared: Job management and service delivery",
+    "Shared: Customer communication and privacy"
+   ],
+   "excludesModuleTitles": [
+    "Shared: Starting a business",
+    "Shared: Quoting and pricing",
+    "Shared: Business operations and finance",
+    "Shared: Marketing and sales",
+    "Shared: Growing and managing a team"
+   ],
+   "courseSlugsNamed": [],
+   "validation": {
+    "validatedAgainst": "structure/COURSES-MODULES.json",
+    "sharedModuleTitlesMissing": [],
+    "pass": "Pass 42"
+   }
+  },
+  {
+   "id": "PATH-TEAM-OWNER",
+   "title": "Team owner",
+   "summary": "Runs a team of workers. Covers everything the solo operator takes, plus hiring, supervision, rostering and team management.",
+   "sharedModules": [
+    "Professional induction and standards",
+    "Workplace safety and risk",
+    "Tools, equipment and maintenance",
+    "Chemicals and materials",
+    "Quality and job documentation",
+    "Job management and service delivery",
+    "Customer communication and privacy",
+    "Starting a business",
+    "Quoting and pricing",
+    "Business operations and finance",
+    "Marketing and sales",
+    "Growing and managing a team"
+   ],
+   "serviceCourses": "Chosen by the learner (one or more)",
+   "excludesModules": [],
+   "status": "DRAFT",
+   "sharedModuleTitles": [
+    "Shared: Professional induction and standards",
+    "Shared: Workplace safety and risk",
+    "Shared: Tools, equipment and maintenance",
+    "Shared: Chemicals and materials",
+    "Shared: Quality and job documentation",
+    "Shared: Job management and service delivery",
+    "Shared: Customer communication and privacy",
+    "Shared: Starting a business",
+    "Shared: Quoting and pricing",
+    "Shared: Business operations and finance",
+    "Shared: Marketing and sales",
+    "Shared: Growing and managing a team"
+   ],
+   "excludesModuleTitles": [],
+   "courseSlugsNamed": [],
+   "validation": {
+    "validatedAgainst": "structure/COURSES-MODULES.json",
+    "sharedModuleTitlesMissing": [],
+    "pass": "Pass 42"
+   }
+  }
+ ]
+}

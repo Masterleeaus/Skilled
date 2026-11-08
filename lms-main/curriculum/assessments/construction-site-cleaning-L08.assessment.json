@@ -1,0 +1,35 @@
+{
+ "lessonId": "construction-site-cleaning-L08",
+ "knowledgeAnswers": [
+  {
+   "id": "construction-site-cleaning-L08-K01",
+   "correctIndex": 1,
+   "rationale": "Without an approved method, scraping or strong solvent can damage new stone."
+  },
+  {
+   "id": "construction-site-cleaning-L08-K02",
+   "correctIndex": 2,
+   "rationale": "Uncured coatings can be damaged by a product that suits the cured surface."
+  },
+  {
+   "id": "construction-site-cleaning-L08-K03",
+   "correctIndex": 0,
+   "rationale": "A test informs compatibility; it does not replace the specification or SDS."
+  }
+ ],
+ "practicalCriteria": [
+  "Builds a surface schedule listing substrate, coating, approved method, prohibited tools and defect escalation.",
+  "Records a simulated adhesive residue and does not scrape or use strong solvent.",
+  "Selects an approved non-damaging technique for a simulated delicate surface."
+ ],
+ "passRule": "Surface schedule complete, residue recorded, no scraping or strong solvent, and approved technique selected. Observed by an assessor.",
+ "evidenceRequired": [
+  "Surface schedule",
+  "Defect and residue record"
+ ],
+ "stopWorkCriteria": [
+  "Scraping or strong solvent used without an approved method",
+  "Untested product used on an uncured surface",
+  "Missing SDS for a product in use"
+ ]
+}

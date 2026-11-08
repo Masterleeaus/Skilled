@@ -1,0 +1,133 @@
+{
+  "id": "fire-smoke-restoration-L09",
+  "title": "Chemical and odour-treatment boundaries",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and salvage after a fire or smoke event. Not a qualification or authority to enter a fire-damaged building, release it, or certify it as safe.",
+  "prerequisites": [
+    "fire-smoke-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Treat chemical and odour-treatment proposals as separate exposure decisions, and refuse unverified treatments in occupied spaces."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how to review proposed chemical and odour treatments as separate exposure decisions, and when to refuse them. It does not select, dilute or approve any product, and it gives no method. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "Chemical and odour-treatment boundaries",
+      "body": "Treat each proposed chemical or air-treatment method as its own exposure decision. Review the safety data, the label permissions, the ventilation, the exclusion of occupants and the evidence that the method works. Some odour treatments create additional hazardous by-products, so a method that removes one odour may create another hazard. A vendor who recommends ozone treatment and solvent fogging while residents remain inside has proposed something that must be refused. No chemical mixing, fogging or ozone use in occupied spaces is permitted without verification and authority. In training, audit mock chemical treatment proposals for missing permissions, missing exposure controls and missing manufacturer instructions. No product, dilution or method is given in this lesson."
+    }
+  ],
+  "procedure": [
+    "Stop any proposed treatment in an occupied space until the controlling party has verified it.",
+    "Obtain the safety data and the product label, and check that the label permits the use proposed.",
+    "Check ventilation, the exclusion of occupants and the exposure controls for other workers.",
+    "Ask for evidence that the method works and a statement of what it does not treat.",
+    "Audit the proposal for missing permissions, missing controls and missing manufacturer instructions.",
+    "Refuse the proposal in writing if any element is missing, and record the refusal."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A vendor recommends ozone treatment and solvent fogging while residents remain inside.",
+      "decisionPrompt": "How should the proposal be treated?",
+      "reasoning": "Refuse. Each treatment is a separate exposure decision. Neither can proceed in an occupied space without verification, permissions and exposure controls."
+    },
+    {
+      "situation": "A vendor sends a one-page leaflet with no safety data and asks for approval to fog the whole house.",
+      "decisionPrompt": "What should happen?",
+      "reasoning": "Refuse. There is no safety data and no evidence of permission for the use. Record the refusal."
+    }
+  ],
+  "equipmentAndPpe": [
+    "No chemical PPE is selected in this lesson. Selection follows the safety data for an approved product.",
+    "Ventilation and occupant-exclusion controls agreed with the site controller."
+  ],
+  "commonErrors": [
+    {
+      "error": "Fogging or using ozone while residents remain inside.",
+      "prevention": "Refuse unverified treatments in occupied spaces."
+    },
+    {
+      "error": "Using a product without its safety data.",
+      "prevention": "Obtain the safety data and check the permissions before any use."
+    },
+    {
+      "error": "Assuming a treatment that removes one odour is harmless.",
+      "prevention": "Review each treatment as its own exposure decision."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson gives no chemical method, dilution or product. Completing it does not give a licence, certificate or approval.",
+      "licenceNotice": true
+    },
+    {
+      "point": "No chemical mixing, fogging or ozone use in occupied spaces is permitted without verification and authority.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A treatment chosen to remove one hazard can add another, so each proposal is reviewed on its own evidence.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner treats each chemical or air-treatment proposal as a separate exposure decision.",
+    "The learner refuses unverified treatments in occupied spaces."
+  ],
+  "documentationEvidence": [
+    "Treatment proposal audit: permissions, exposure controls, manufacturer information and evidence.",
+    "Refusal record for any treatment refused."
+  ],
+  "summary": [
+    "Each treatment is its own exposure decision.",
+    "Refuse fogging and ozone in occupied spaces without verification.",
+    "Missing safety data is a stop."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "fire-smoke-restoration-L09-K01",
+      "question": "A vendor recommends ozone treatment and solvent fogging while residents remain inside. What is correct?",
+      "options": [
+        "Refuse. Each treatment is an exposure decision, and it cannot proceed in occupied spaces without verification and permissions.",
+        "Proceed, because odour treatment is needed urgently and the residents have asked for the work to be done now",
+        "Proceed if the residents leave the house for an hour or two, so the treatment can be done safely and quickly"
+      ]
+    },
+    {
+      "id": "fire-smoke-restoration-L09-K02",
+      "question": "Which information must be checked before any chemical treatment is approved?",
+      "options": [
+        "The product's safety information, label permissions, ventilation and occupant exclusion",
+        "The colour of the product",
+        "The vendor's reputation only"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR05-fire-smoke-restoration.json, instruction section 9 and learning outcome 9; first knowledge check HR05-K09. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: fire-smoke-restoration-lesson-09-instruction-pass65.json; fire-smoke-restoration-lesson-09-research-pass64.json; fire-smoke-restoration-lesson-09-assessment-pass66.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: that some odour treatments create additional hazardous by-products. This is a general principle from the earlier composite and was not checked against an official page.",
+    "UNCONFIRMED: permissions for ozone and fogging use by jurisdiction. No product or dilution is named.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "Fire-scene release, structural and utility isolation, asbestos assessment and removal, and some waste handling are restricted to competent and, where the law requires, licensed people, and may be controlled by fire investigators, the police, structural engineers, utilities or the building owner. Insurer and owner permission do not replace a release from the authority that controls the site. Where that authority is not identified, do not proceed."
+  },
+  "stopWorkAndReferral": [
+    "Stop and refer when an unknown chemical or odour treatment is proposed.",
+    "A stop-work decision is correct, so record it and restart only once the competent party confirms the scope in writing."
+  ]
+}

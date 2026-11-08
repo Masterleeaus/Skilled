@@ -1,0 +1,170 @@
+{
+  "id": "BP-05-postcon",
+  "title": "Pricing by hours per project for Post-construction clean",
+  "courseSlugs": [
+    "postcon"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors who quote post-construction and handover cleans and need a price that covers cost and earns a margin. No sourced pricing benchmark exists for this trade in the research.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures for a handover crew",
+    "Estimate handover hours, including dust and residue work, set-up, travel, access waits and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "Post-construction work is uneven. Dust, adhesive residue, paint marks, protective film and fittings take more or less time than the floor area suggests. Hours show where that time goes, so you can defend the price, see the cost and margin, and check the effect of a scope change, such as adding the external glass. The research found no sourced pricing benchmark for this trade, so hours from your own records are the only defensible basis for now. A flat price with no hours behind it hides risk and cannot be explained when a builder asks why a handover costs what it does."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in that period. Total cost includes wages with on-costs such as leave and superannuation, vehicle running costs, equipment, consumables, insurance, administration and premises. Post-construction work may need more consumables and more specialist tools, such as high-reach equipment, so cost them from your own records. Productive hours are the hours a crew spends on chargeable work on site, not the paid hours on a roster. Use billable hours as the divisor, not the full working week."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each handover into areas, such as each room, the kitchens, the bathrooms, the glass, the floors and the corridors. Estimate each area at a standard speed from your own records, then add set-up, pack-down, travel, site induction, waiting for access, a re-clean allowance and a checking allowance as named lines. Use ranges where the site is uncertain. Add a set allowance for unexpected work, such as an area that is not ready for cleaning. Xero's guide suggests 10 to 20 per cent added to job estimates for unexpected work (3 September 2026). A Carters article suggests comparing quoted and actual labour to correct the next quote (1 October 2025). Its statement that 17 per cent of people estimate accurately is the article's own citation, which was not checked, so rely on your own records."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the job. Add a margin that reflects your target and the risk in the handover, such as a site that is not ready or a tight inspection window. Spread your monthly overheads into the job, including vehicle, tools, insurance and software (Markel Direct, 12 August 2026). Check the price against total overheads, not only materials and labour (Business Victoria, undated). A 20 per cent gross margin floor appears in one Carters article, but that is one author's view, not a standard. Apply your materials policy and your minimum charge."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote should state the scope, the hours basis, the exclusions, what the builder must provide, such as cleared access, water, power and removal of trade debris, and how long the quote is valid. Exclusions often include waste removal, paint touch-up, repairs and protective-film removal, if they are outside the scope. A written quote can become binding once it is accepted (business.gov.au, 'Prepare quotes', last updated 1 August 2025), so record every scope change and re-quote when the scope changes."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten handovers, and track the return visits separately. If the variance is consistently above an agreed threshold, change the standard time, the margin or the scope rules. Review prices about every three months (Business Victoria, undated). A pricing method is finished when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the productive hours achieved in the same period.",
+    "Divide total costs by productive hours to get the cost per productive hour.",
+    "Break the handover into areas and estimate each area's time as a range.",
+    "Add set-up, pack-down, travel, site induction, access waits and checking time as named lines.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy and the minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, builder inputs and validity.",
+    "Record actual hours and return visits after each job, and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, with no sourced benchmark. A 180 m² office fit-out handover is estimated at 12 crew-hours on site, including set-up and checking. An allowance of 10 per cent is added for unexpected work. The cost per productive hour is $55 (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the price for the handover, and what must the quote exclude?",
+      "reasoning": "With the 10 per cent allowance, the time is 13.2 crew-hours, so the cost is 13.2 multiplied by $55, which is $726. A 25 per cent margin on price means the price is the cost divided by 0.75, which is $968. Because no post-construction pricing source exists, these are teaching figures only, and your own records must replace them. The quote should exclude waste removal and any repair unless the scope says it is included, and it should list what the builder must clear and provide first."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each job, with estimated and actual columns, and a column for return visits",
+    "Measuring tape or laser measure for floor area estimates",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, equipment, consumables, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel, induction, access waits and return visits",
+      "prevention": "Add these as named lines on every estimate."
+    },
+    {
+      "error": "Quoting with no exclusions, such as waste removal, repairs or touch-up painting",
+      "prevention": "List what is excluded, what the builder provides, and the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each job and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The Australian Consumer Law applies to pricing statements, and the ACCC says misleading statements about prices are prohibited (ACCC, last modified 15 July 2026). State and territory fair trading rules also apply and differ between states, so check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates and on-costs for workers may be set by an award or enterprise agreement, and the award that applies to construction work may differ from the cleaning award. The research did not confirm the rates for either. Whether a handover clean is construction work is not settled, so check the construction WHS rules and WorkSafe guidance for your state, and the Victorian OHS rules if you work in Victoria, before you price the work.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, builder inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours and return visits are recorded for at least the first ten handovers and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Job time log with estimated and actual hours and return visits",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make a handover visible, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Access waits, induction and return visits are named lines, not hidden extras.",
+    "No post-construction benchmark was found, so compare your estimates with actual hours and keep your own record."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-postcon-K01",
+      "question": "Which costs belong in the cost per productive hour for a handover crew?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the builder pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of competitors in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, equipment, consumables, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-postcon-K02",
+      "question": "A handover is estimated at 5 crew-hours and takes 8. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the builder has already paid and the crew has finished",
+        "Reduce paid hours for the crew on the next job and skip the morning break",
+        "Raise the price for this builder's next job only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-postcon-K03",
+      "question": "Why does a quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the builder and to keep the rates a secret from the crew",
+        "To make the quote longer and to fill up the page with more text and words for the builder",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the builder's expectations and to make the handover seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Supports: divide by billable hours; a set allowance of 10 to 20 per cent for unexpected work.",
+    "Markel Direct, 'How to price a job as a tradesperson', https://www.markeluk.com/knowledge-centre/how-to-price-a-job-as-a-tradesperson, dated 12 August 2026. Supports: list every task; spread monthly overheads into each job.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. Supports: compare quoted and actual labour. New Zealand publisher; general method only. The 20 per cent margin floor is one author's view.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Supports: test price against total overheads; review prices about every three months.",
+    "business.gov.au, 'Prepare quotes', https://business.gov.au/people/contractors/prepare-quotes, last updated 1 August 2025. Supports: a written quote becomes binding once accepted.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements are prohibited.",
+    "Work Health and Safety (Construction Work) Code of Practice 2015, F2016L00394, https://www.legislation.gov.au/F2016L00394/asmade/2016-03-30/text/original/epub/OEBPS/document_1/document_1.html, approved 17 December 2015. Supports: a check is needed on whether the work is construction work. Not settled by the research file."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

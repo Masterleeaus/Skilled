@@ -1,0 +1,38 @@
+{
+  "lessonId": "CL2-01",
+  "knowledgeAnswers": [
+    {
+      "id": "CL2-01-K01",
+      "correctIndex": 0,
+      "rationale": "The required standard states the finished result. The equipment list and timing guide do not define what finished looks like."
+    },
+    {
+      "id": "CL2-01-K02",
+      "correctIndex": 1,
+      "rationale": "The product must come from the site's approved list and be used as its label directs. Substituting a nearby product (option 0) or using first and recording later (option 2) are not acceptable."
+    },
+    {
+      "id": "CL2-01-K03",
+      "correctIndex": 1,
+      "rationale": "A timing guide assumes conditions that may not be present on a given site, so the business should measure its own rates and record actual times. It is not a legal target (option 0) and is not always wrong (option 2)."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a one-page cleaning procedure, the learner locates the purpose, required standard, hazard controls, timing guide and steps within one minute, and the assessor confirms each has been found.",
+    "Given a procedure step that names a product not on the site list, the learner stops and names the team leader as the person to ask, and records the query on the job record.",
+    "At the end of a supervised task, the learner completes the close-out in order: equipment cleaned and stored, cords and pads stored as stated, PPE removed, hand hygiene performed and the job record completed with the procedure version noted; the assessor observes each step."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed knowledge checks",
+    "Assessor observation record for each practical criterion",
+    "Completed job record showing the procedure version used",
+    "Completed close-out checklist from the supervised task"
+  ],
+  "stopWorkCriteria": [
+    "Learner uses a product that is not on the approved list",
+    "Learner works to the step count and signs off an area that does not meet the required standard",
+    "Learner leaves equipment unattended or unstored at the end of a task",
+    "Learner continues a step that cannot be done as written, without asking the team leader"
+  ]
+}

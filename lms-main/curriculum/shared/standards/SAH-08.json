@@ -1,0 +1,133 @@
+{
+  "id": "SAH-08",
+  "title": "Checking that cleaning worked: visual, white glove, UV markers and ATP",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Cleaning supervisors, cleaning staff who verify their own work, and infection prevention staff in SA healthcare facilities",
+  "prerequisites": [
+    "HCG-12"
+  ],
+  "learningOutcomes": [
+    "Name the verification methods listed in the SA standard",
+    "Explain the limit of a visual check",
+    "Describe where verification records are kept"
+  ],
+  "instruction": [
+    {
+      "heading": "A look is not enough",
+      "body": "Microorganisms cannot be seen, so a surface can look clean and still carry them. Verification gathers evidence that the method worked and that the schedule was followed. A visual inspection is the first tool. Supervisors also observe cleaning technique against written procedures, to verify that the method is followed as written and not only that the result looks acceptable."
+    },
+    {
+      "heading": "Methods with their limits",
+      "body": "A white glove test can show dust: a gloved hand wiped across a surface picks up residue that the eye may miss. Fluorescent markers are placed on high-touch surfaces before cleaning, then checked under a UV light afterwards; if the marker has gone, the marked soil was removed. ATP tests measure residual organic matter and are common in food processing. Each method has a limit. White glove and marker checks show that dust or marked soil is gone, and ATP shows organic residue. None of them proves that microorganisms are gone."
+    },
+    {
+      "heading": "Sampling and records",
+      "body": "Routine environmental microbiological sampling has considerable limits and is not routinely advised for routine use. It has a place in outbreak investigation and in validating a cleaning system; see “Checking cleaning quality without over-relying on sampling” for the wider sampling discussion. Whichever method is used, keep the checklists and reports together in one central place, so that results can be compared over time."
+    }
+  ],
+  "procedure": [
+    "Choose the verification method that matches the purpose of the check.",
+    "If using fluorescent markers, mark the surfaces before cleaning.",
+    "Clean the area to the standard.",
+    "Check the surfaces with the chosen method, in the light conditions the method requires.",
+    "Record the result and any element missed, and act on it.",
+    "File the records in the central location."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A supervisor wants to check whether the bed rails in a busy bay were cleaned properly during a shift.",
+      "decisionPrompt": "Which method suits the question, and what does a pass show?",
+      "reasoning": "A fluorescent marker placed on the rails before cleaning, then checked under UV afterwards, shows whether the marked soil was removed from those surfaces. It does not show that the surfaces are sterile, so the record must say what was tested."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Gloves for the white glove test",
+    "UV torch and fluorescent markers if used",
+    "ATP test kit where the facility holds one"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a clean-looking surface as disinfected",
+      "prevention": "Use a named method and record what it shows."
+    },
+    {
+      "error": "Reading a UV marker check in bright light",
+      "prevention": "Use the dim conditions the method requires and follow the instructions."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Use UV devices as the instructions say and avoid looking directly into the source.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Markers and ATP products need a SDS and facility approval before use.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner names each method and states its limit",
+    "The learner states where the verification records are kept"
+  ],
+  "documentationEvidence": [
+    "Verification checklist with method, area, result and date",
+    "Central record location noted on the schedule"
+  ],
+  "summary": [
+    "A visual check cannot show that microorganisms are gone",
+    "Each verification method has a stated limit",
+    "Keep verification records in one central location"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SAH-08-K01",
+      "question": "Why can a surface that looks clean still carry microorganisms?",
+      "options": [
+        "Because microorganisms are large and float",
+        "Because microorganisms are too small to see",
+        "Because products leave a film over them"
+      ]
+    },
+    {
+      "id": "SAH-08-K02",
+      "question": "What does a fluorescent marker check test?",
+      "options": [
+        "That the surface is sterile after one pass of the cloth",
+        "That the marked soil was removed from the surface",
+        "That the cleaner has completed training today"
+      ]
+    },
+    {
+      "id": "SAH-08-K03",
+      "question": "What is the standard's position on routine microbiological sampling?",
+      "options": [
+        "It should be done weekly for every ward by the cleaning contractor and the ward manager",
+        "It is not routinely advised for routine use, but it can help in outbreaks or system validation",
+        "It replaces visual audits entirely and removes the need for any checks at all in the ward"
+      ]
+    },
+    {
+      "id": "SAH-08-K04",
+      "question": "What does verification gather evidence of, according to the lesson?",
+      "options": [
+        "That the surface is sterile",
+        "That the cleaner is happy with the work",
+        "Nothing; a look is enough",
+        "That the method worked and the schedule was followed"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Standard for South Australian Healthcare Facilities (SA Health, 2014, updated 2017), section 6.8 (internal verification and assessment) and 6.7 (record keeping); rights: user-held; reworded (no copying); source priority: the SA state standard overrides informal or conflicting cleaning advice where this lesson relies on it; figures dated 2014 (updated 2017) are historical; URL www.sahealth.sa.gov.au/infectionprevention; date checked 2026-11-02",
+    "cross-checked against HCG-12 (quality checks and sampling)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

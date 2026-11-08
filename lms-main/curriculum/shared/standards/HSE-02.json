@@ -1,0 +1,122 @@
+{
+  "id": "HSE-02",
+  "title": "Full clean versus check clean: choosing the right work for an element",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Cleaners, supervisors and schedule planners in SA healthcare facilities",
+  "prerequisites": [
+    "SAH-02",
+    "HSE-01"
+  ],
+  "learningOutcomes": [
+    "Define a full clean and a check clean",
+    "Choose which kind of clean applies to an element on a given day",
+    "Explain why over-cleaning wastes resources without adding infection control value"
+  ],
+  "instruction": [
+    {
+      "heading": "Two kinds of work",
+      "body": "A full clean means the whole element is cleaned every time it is scheduled, to its written specification. A check clean means the operator inspects each aspect of the item and cleans only the aspects that fall short of the standard. The element is then in the same state as after a full clean. The two terms describe the work itself. The schedule tells you when each one applies."
+    },
+    {
+      "heading": "Use the cue of use and soil",
+      "body": "The Irish manual's principle is that an element which is clearly clean and has had no use since the last clean does not need cleaning again. An element that looks dirty does need it, even if nobody has used it. This is the heart of a daily routine. Over-cleaning uses staff time and product without adding infection control value, so frequency should follow how often an element gets dirty and how many people use it."
+    },
+    {
+      "heading": "Where the Australian standard overrides",
+      "body": "The Irish frequencies are minimums that local practice applies, and they are not Australian requirements. In SA public healthcare facilities the SA standard governs. Its standard clean is required routinely even when a surface looks clean, so a check clean does not replace a scheduled standard clean in a SA facility. Where a SA schedule lists a standard clean, clean at the scheduled frequency regardless of appearance. The check-clean approach can apply only where the local schedule allows it."
+    }
+  ],
+  "procedure": [
+    "Read the element's frequency on the local schedule.",
+    "Decide whether the schedule calls for a full clean or a check clean.",
+    "For a check clean, inspect each aspect and clean only what does not meet the standard.",
+    "Record the type of clean and the result.",
+    "Where the SA schedule calls for a standard clean, clean at the scheduled frequency even when the element looks clean."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A bed table in a ward area looks clean and has had no use since the last clean.",
+      "decisionPrompt": "Is a check clean enough?",
+      "reasoning": "It depends on the schedule. If the SA schedule calls for a standard clean for that area, the table is cleaned at the scheduled frequency regardless of appearance. A check clean is an option only where the local schedule allows it. The worker records which kind of clean was done."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Gloves",
+    "Local cleaning schedule"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a check clean as permission to skip a scheduled standard clean",
+      "prevention": "Follow the schedule's clean type for each element."
+    },
+    {
+      "error": "Cleaning a clean-looking element on every visit when the schedule does not require it",
+      "prevention": "Use the cue and the schedule, and keep the record."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Check cleaning does not remove the need for hand hygiene, nor for the right protective gear for the task.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Irish frequency tables are in appendices that are not in the uploaded text, so no Irish frequency is quoted here. The SA standard (2014, updated 2017) governs SA facilities.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner defines both clean types",
+    "The learner states when a standard clean applies despite a clean appearance"
+  ],
+  "documentationEvidence": [
+    "Schedule entry showing clean type and result for each element"
+  ],
+  "summary": [
+    "A full clean cleans the whole element to specification",
+    "A check clean cleans only what fails the inspection",
+    "In SA a scheduled standard clean is not replaced by a check clean"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HSE-02-K01",
+      "question": "In a check clean, what does the operator do?",
+      "options": [
+        "Cleans every aspect in full, without inspecting first today",
+        "Inspects every aspect and cleans only what does not meet the standard",
+        "Skips the element if it looks clean and moves on to the next one"
+      ]
+    },
+    {
+      "id": "HSE-02-K02",
+      "question": "Why is over-cleaning a concern?",
+      "options": [
+        "It improves infection control at no cost for the whole ward and staff",
+        "It uses time and product without adding infection control value",
+        "It is required by every cleaning standard for each ward in the building"
+      ]
+    },
+    {
+      "id": "HSE-02-K03",
+      "question": "An SA healthcare area is scheduled for a standard clean. What applies?",
+      "options": [
+        "Clean only if the area is visibly dirty and the staff agree",
+        "Clean at the scheduled frequency even if it looks clean",
+        "Skip the clean if the room was quiet and nobody is in the bed"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "HSE National Cleaning Standards Manual (National Hospitals Office, Ireland, Cleaning Manual for Acute Hospitals, 2006), section 1.12 (minimum cleaning frequencies, full clean and check clean); rights: user-held; reworded (no copying); Irish source, not the UK Health and Safety Executive; Irish and UK legal and procurement references are not applicable in Australia and are marked UNCONFIRMED; practice content only; no URL in source; date checked 2026-11-02",
+    "SA standard section 5.3 (standard clean) governs SA facilities",
+    "cross-checked against HCG-03 (documented cleaning schedules)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

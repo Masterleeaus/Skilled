@@ -1,0 +1,38 @@
+{
+  "lessonId": "RAS-01",
+  "knowledgeAnswers": [
+    {
+      "id": "RAS-01-K01",
+      "correctIndex": 1,
+      "rationale": "4 multiplied by 4 gives 16, which sits in the High band of 15 to 25."
+    },
+    {
+      "id": "RAS-01-K02",
+      "correctIndex": 2,
+      "rationale": "A Medium result requires redefinition or risk reduction before start, and management authority where the scheme requires it."
+    },
+    {
+      "id": "RAS-01-K03",
+      "correctIndex": 0,
+      "rationale": "A control that has not been verified does not justify a lower likelihood. The score is kept until the control is checked on site."
+    }
+  ],
+  "practicalCriteria": [
+    "Scores likelihood and severity on each row, with a one-line reason for each score",
+    "Calculates each risk value correctly as likelihood multiplied by severity",
+    "Assigns each value to the correct band and writes the band action",
+    "Finds a deliberately planted arithmetic or banding error in a sample register"
+  ],
+  "passRule": "Knowledge checks are a reading check only and are not verified practical competence. Assessor must observe every practical criterion; any failure requires remediation and reassessment.",
+  "evidenceRequired": [
+    "completed scored register",
+    "second-person check recorded",
+    "assessor observation of scoring"
+  ],
+  "stopWorkCriteria": [
+    "Any High band row with no redefined task or verified controls means work does not start",
+    "A score that cannot be reproduced from the scales is returned for correction before the register is used"
+  ],
+  "status": "DRAFT",
+  "reviewStatus": "NOT REVIEWED"
+}

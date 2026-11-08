@@ -1,0 +1,179 @@
+{
+  "id": "BP-05-stone",
+  "title": "Pricing by hours per project for Stone and terrazzo restoration",
+  "courseSlugs": [
+    "stone"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors who write quotes for cleaning projects and need a price that covers cost and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures",
+    "Estimate project hours, including set-up, travel and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "Stone and terrazzo work is slow and stage-based: measuring, cleaning, grinding or honing, filling, polishing, sealing and checking. Each room carries the same measuring and set-up steps whatever its size, so hours show where the time goes. No source read for this course gives terrazzo or stone restoration hours, and the research found no sourced dollar rate. The hours on each room must come from your own time logs."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in the same period. Include wages with on-costs such as leave and superannuation where your arrangements need them (business.gov.au, 1 October 2026), vehicle running costs, water and dust-control equipment, abrasives and pads, sealers, insurance, administration and premises. Productive hours are chargeable hours on site, not the paid hours on a roster. If you pay for 40 hours and 30 are chargeable, the cost per productive hour is higher than the hourly wage."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each room into stages, such as measuring, protection, grinding or honing, filling, polishing, sealing and clean-down. Estimate each stage at a standard speed, then add set-up, pack-down, travel between jobs and a checking allowance. Xero's guide suggests adding 10 to 20 percent to job estimates for unexpected work (Xero Australia, 3 September 2026). That is a range to test against your own records, not a figure sourced for stone. Record the actual hours for each room and the reason for any difference, and correct the next estimate."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the job. Add a margin that reflects your target and the risk in the job, such as cracks, uneven substrate or difficult access. Apply your materials policy and your minimum charge. Price each room as its own line, so a small room that needs the same measuring and set-up time is not hidden inside a large room's price. The sourced terrazzo charge is per square metre for each separate room (Tile Cleaners, no date shown), so show the area beside each room's hours."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote states the scope, the hours or price basis, the exclusions, what the client must provide, and how long the quote is valid. Exclusions for stone work usually include crack repair, grout replacement and substrate repair unless you price them. Do not show the internal cost per hour to the client unless your policy says to. Re-quote when the scope changes."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten rooms or jobs of each type. If the variance is consistently above your agreed threshold, change the standard time, the margin or the scope rules. A pricing method is finished only when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the chargeable hours achieved in the same period.",
+    "Divide total costs by chargeable hours to get the cost per productive hour.",
+    "Break each room into stages and estimate each stage time as a range.",
+    "Add set-up, pack-down, travel and checking time as named lines for each room.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy, the exclusions for repairs and the minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, client inputs and validity.",
+    "Record actual hours after each job and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, not market rates. A home has three terrazzo rooms of 12, 9 and 15 square metres. The owner estimates 3.0, 2.5 and 4.0 crew-hours for the rooms, including measuring, set-up and checking. The cost per productive hour is $60 AUD (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the cost of the job, what is the price with a 25 per cent margin on price, and how should each room appear on the quote?",
+      "reasoning": "The total is 9.5 crew-hours. Multiplied by $60 AUD, the cost is $570 AUD. A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $760 AUD. Each room appears as its own line with its area, its hours and its confirmed total, because the sourced charge is per room. The owner checks the per-room lines against the job total before sending the quote. Any crack repair not in the scope is excluded and priced separately if the client asks for it."
+    },
+    {
+      "situation": "Illustrative: a small 3 square metre entry takes 1.5 crew-hours, because it needs the same measuring, protection and clean-down as a large room.",
+      "decisionPrompt": "What does the small room cost, and why should it not be priced as a share of the larger rooms?",
+      "reasoning": "At the illustrative $60 AUD an hour, the cost is $90 AUD, and at a 25 per cent margin on price the price is $120 AUD. The small room carries a full set of set-up and measuring steps, so it should be its own line with its own minimum check, not a few dollars added to a larger room. This is the reason per-room pricing matters."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet with room-by-room stages and hours",
+    "Time log for each room, with estimated and actual columns",
+    "Measuring tape or laser measure for area estimates",
+    "PPE as listed in {{business:safety.required_ppe}}, and the safety data sheet for each product"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone.",
+      "prevention": "Include on-costs, equipment, abrasives, sealers, dust controls, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours.",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out measuring, set-up and checking time for small rooms.",
+      "prevention": "Add these as named lines on every room, however small."
+    },
+    {
+      "error": "Quoting with no exclusions for crack repair, grout replacement or substrate repair. Gap: no sourced stone hour standard exists.",
+      "prevention": "List what is excluded, what the client provides, and the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours.",
+      "prevention": "Record actual hours after each job and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The ACCC says misleading statements about prices are prohibited under the Australian Consumer Law (ACCC, 15 July 2026). State or territory fair trading rules also apply and differ, so check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Silica dust (analogy only): a WorkSafe WA safety alert from 9 November 2018 says cutting, grinding and polishing can release high levels of respirable crystalline silica, and that wet methods are required. The alert covers stone benchtops and engineered stone. A WorkSafe Tasmania benchtop page says uncontrolled dry cutting, grinding or polishing of artificial or engineered stone benchtops must not happen, and that dry sweeping must not be used for cleaning. Both are benchtop rules applied here as an analogy. The Safe Work Australia silica page could not be checked, so confirm the silica rule that applies to terrazzo and concrete polishing with your state regulator before pricing dust controls.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for employees may be set by an award or enterprise agreement. Check which one applies to each worker before using any cost figure. This lesson does not state those rates.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten rooms or jobs of each type and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Job time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Start every stone quote from hours, room by room.",
+    "Cost per productive hour uses chargeable time, and includes abrasives, sealers and dust-control costs.",
+    "Gap: no sourced terrazzo hours or dollar rate exists. The silica rule for terrazzo is unverified, so check it with your state regulator."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-stone-K01",
+      "question": "Which costs belong in the cost per productive hour for a terrazzo job?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker",
+        "Wages with on-costs, equipment, abrasives, sealers, dust controls and administration, divided by chargeable hours",
+        "The average hourly rate of competitors in the local area",
+        "The deposit and the late fee the client paid"
+      ]
+    },
+    {
+      "id": "BP-05-stone-K02",
+      "question": "A room is estimated at 3 crew-hours and takes 5. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid",
+        "Reduce the crew's paid hours on the next job",
+        "Raise the price for this client only and change nothing else"
+      ]
+    },
+    {
+      "id": "BP-05-stone-K03",
+      "question": "Why does a terrazzo quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To make the quote longer",
+        "To lower the client's expectations of the finish"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Used for the 10 to 20 percent allowance for unexpected work, stated as a range to test, and for dividing by billable hours.",
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Used for on-costs in the hourly cost.",
+    "Tile Cleaners, 'How will you charge me for polishing my terrazzo tiles', https://www.tilecleaners.com.au/faqs/Terrazzo/Polishing-Natural-Stone/How_will_you_charge_me_for_polishing_my_terrazzo_tiles, no date shown. Vendor FAQ. Used for per-square-metre, per-room charging.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Used for misleading price statements being prohibited.",
+    "WorkSafe WA, 'Safety Alert 11/2018: Stone benchtop workers at risk of silicosis', https://worksafe.wa.gov.au/publications/safety-alert-112018-stone-benchtop-workers-risk-silicosis, published 9 November 2018. Benchtop and engineered stone; used as an analogy only.",
+    "WorkSafe Tasmania, stone benchtop page, https://www.worksafe.tas.gov.au/?a=537910, original publication November 2018 per the page. Benchtop rule; used as an analogy only.",
+    "SafeWork SA, 'Safety data sheets', https://safework.sa.gov.au/workplaces/chemicals-and-substances/exposure-to-hazardous-chemicals/safety-data-sheets, published 6 April 2020, modified 7 April 2025. South Australian regulator.",
+    "Trade research: /home/claude/tasks/team4-V-specialist-restoration.md, section 2 (stone and terrazzo), research date 9 November 2026. Gap: Safe Work Australia silica page not verified (blocked); no terrazzo hour standard; award and enterprise agreement coverage not checked."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

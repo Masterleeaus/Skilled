@@ -1,0 +1,35 @@
+{
+  "lessonId": "SFS-08",
+  "knowledgeAnswers": [
+    {
+      "id": "SFS-08-K01",
+      "correctIndex": 0,
+      "rationale": "A dependency is an ordering rule. The second visit waits on the first."
+    },
+    {
+      "id": "SFS-08-K02",
+      "correctIndex": 0,
+      "rationale": "Priority is the basis for displacing lower-priority visits when no free slot exists."
+    },
+    {
+      "id": "SFS-08-K03",
+      "correctIndex": 1,
+      "rationale": "When everything is urgent, the scale no longer separates real emergencies from routine work."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes the core task of this lesson in the training environment (priority settings, dependencies and emergency bookings) and the assessor confirms each record matches the procedure.",
+    "Learner explains, in their own words, what each record is for and which record they would change in a given situation.",
+    "Learner shows one correction they made to a sample record and says why it was needed."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Knowledge check result recorded for the learner",
+    "Assessor observation of the practical criteria in the training environment",
+    "Sample record (screenshot or printed copy) kept by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Stop before dispatch or booking if a visit window, worker or site detail cannot be confirmed.",
+    "Stop and tell the owner if a record shows a customer or site hazard that is not yet in the job record."
+  ]
+}

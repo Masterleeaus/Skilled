@@ -1,0 +1,35 @@
+{
+  "lessonId": "CGC-01",
+  "knowledgeAnswers": [
+    {
+      "id": "CGC-01-K01",
+      "correctIndex": 0,
+      "rationale": "The briefing must match the current policy, so confirming it comes first. Equipment and family approval are not the first step."
+    },
+    {
+      "id": "CGC-01-K02",
+      "correctIndex": 0,
+      "rationale": "Regular sharing with an opportunity to ask keeps the information current and used."
+    },
+    {
+      "id": "CGC-01-K03",
+      "correctIndex": 1,
+      "rationale": "Defining terms in plain words in a glossary lets staff follow and look them up later."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a sample policy and task list, the learner runs a short briefing, and the assessor checks each control is linked to a named risk",
+    "The learner records the briefing with the policy version and each question raised, with an answer or owner",
+    "The learner checks understanding with a question round, and the assessor confirms at least two questions were answered correctly"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Briefing record with policy version",
+    "Question log",
+    "Assessor observation of the briefing"
+  ],
+  "stopWorkCriteria": [
+    "Stop a briefing if the policy version cannot be confirmed; escalate instead",
+    "Stop any briefing that gives a control without its risk"
+  ]
+}

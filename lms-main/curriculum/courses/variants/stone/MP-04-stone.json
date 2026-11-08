@@ -1,0 +1,146 @@
+{
+  "id": "MP-04-stone",
+  "title": "Break-even analysis with a worked calculation for Stone and terrazzo restoration",
+  "courseSlugs": [
+    "stone"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Any home-service operator who sets prices or plans monthly revenue, including solo operators.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a home-service business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means",
+      "body": "Break-even revenue is the amount of sales that covers all costs exactly, so profit is zero. Below that level a restoration business loses money. Above it, each further dollar of sales adds to profit. For a stone and terrazzo restorer the figure helps you set room prices, decide whether to buy a second grinder, and judge whether a builder account can pay for itself. It is only as good as the costs and percentages that go into it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of rooms in a month. They can include the vehicle loan or lease, registration (paid yearly, so divide it by twelve), insurance, phone and software, a workshop or storage share, and equipment finance on grinders and polishers. Variable costs move with each job. They include diamond pads, abrasives, polishing compounds, sealers, water, fuel for the mobile unit, and card or payment fees on each sale. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss (ANZ, 21 February 2025, modified 22 July 2025). Express variable cost as a percentage of sales in the same period, and check that percentage across at least three months."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. One minus the variable percentage is the contribution margin, the share of each dollar of sales left to cover fixed costs. Xero's glossary states the same method (Xero Australia, 23 July 2026). Use the variable percentage as a decimal, so 18 per cent becomes 0.18 and the contribution margin is 0.82."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write the inputs first, each with its source and date. Compute the contribution margin, then divide fixed costs by it. Convert the result into a number of rooms or jobs at your average job price, and round up to whole jobs, because a part job does not cover costs on its own. The average job price must be the price you actually charged after discounts. The research found no sourced stone job price, so every input here must come from your own records."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount and not an annual one. Confirm that the variable percentage is a share of sales and not of cost. Confirm that the output is revenue and not profit. Write down the reconciled figure with its inputs, and drop the others. A figure that cannot be checked should not be used to set prices."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a percentage of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average job price, and round up to whole jobs.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A one-person terrazzo restoration business. All figures are hypothetical, invented for this lesson and not market data: fixed costs of $2,400 AUD a month, variable costs of 18 per cent of sales, and an average job price of $300 AUD.",
+      "decisionPrompt": "How many jobs must the business complete each month to break even, and what should it check before setting prices?",
+      "reasoning": "The contribution margin is 1 minus 0.18, which is 0.82. Break-even revenue is $2,400 AUD divided by 0.82, which is $2,926.83 AUD a month. At $300 AUD a job, that is 9.76 jobs, so the business needs 10 jobs to cover its costs. Each job contributes $246.00 AUD ($300 AUD multiplied by 0.82) towards fixed costs. Before setting prices, check that the 18 per cent includes every abrasive, sealer and water cost, that the $2,400 is a monthly figure, and that $300 is the average job price actually charged."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, split into fixed and variable",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures, such as yearly registration added to monthly costs.",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales.",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Copying a break-even figure from a plan without its inputs. Gap: no sourced stone job price or cost figure exists in the research.",
+      "prevention": "Recalculate from your own inputs and record the source and date of each input before using the result."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "GST: the ATO says a business must register once its GST turnover reaches the threshold, which it states as $75,000 (ATO, last updated 14 September 2026). Once registered, GST is included in the selling price. Confirm your own position with a registered tax agent.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout, and the average job price you actually charge.",
+    "Gap: no sourced stone cost, margin or job-price figure exists. Recalculate from your own records."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-stone-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-stone-K02",
+      "question": "Fixed costs are $2,400 AUD a month and variable costs are 18% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$2,926.83 AUD",
+        "$432.00 AUD",
+        "$2,400.00 AUD",
+        "$13,333.33 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-stone-K03",
+      "question": "Two sources give different break-even figures for the same restoration business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure entirely",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the client today",
+        "Skip the break-even check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, labelled published 23 July 2026. Used for the contribution margin and the fixed-cost division. The glossary's own examples are not used.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Used for the definitions of fixed and variable costs.",
+    "ATO, 'Registering for GST', https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst, last updated 14 September 2026. Used for the $75,000 threshold and for GST in the selling price.",
+    "Hypothetical figures ($2,400 AUD fixed costs, 18 per cent variable costs, $300 AUD average job price) are invented for this lesson and are not market data.",
+    "Trade research: /home/claude/tasks/team4-V-specialist-restoration.md, section 2 (stone and terrazzo), research date 9 November 2026. Gap: no sourced cost, margin or job-price figure."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

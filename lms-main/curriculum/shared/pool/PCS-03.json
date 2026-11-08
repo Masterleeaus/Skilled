@@ -1,0 +1,170 @@
+{
+  "id": "PCS-03",
+  "title": "Pool service records, invoices and customer paperwork",
+  "courseSlugs": [
+    "pool",
+    "residential",
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Business operations and finance",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Pool service operators and office staff who prepare invoices, keep visit records and manage customer paperwork",
+  "prerequisites": [
+    "PCS-01"
+  ],
+  "learningOutcomes": [
+    "Prepare an invoice with the details needed for pool service work, and leave the tax and business number status blank where not checked.",
+    "Keep copies of quotes, agreements, visit records and enquiries in an organised, retrievable way",
+    "Connect each invoice to the visit record and agreement it relates to",
+    "Explain the privacy and retention points that apply to customer records, and check each one for Australia."
+  ],
+  "instruction": [
+    {
+      "heading": "What an invoice must show",
+      "body": "The US guide advises that invoices are used to bill clients and that each form should carry the business's contact information and a licence number. An invoice in Australia should show the business name, contact details, the date, a unique invoice number, the client, a description of the service and the price, and the total. Do not add a number to an invoice that you have not confirmed."
+    },
+    {
+      "heading": "Linking invoices to visits",
+      "body": "Every invoice should link to the agreement and to the visit record that supports it. A visit record shows the date, the time, the services done, the readings taken, the tasks not done and the referrals made. The record is the evidence for the charge. Without it, a dispute about the service is hard to resolve. Keep the record and the invoice together, using the same job number."
+    },
+    {
+      "heading": "Keeping copies and organising files",
+      "body": "The US guide advises keeping copies of every business dealing, including enquiries about the services, in a file that can be accessed when needed. Use one file per client, with the agreement, the visit records, the invoices, the payments and any correspondence. Keep a calendar of visits so that each visit can be matched to its record."
+    },
+    {
+      "heading": "Privacy and customer details",
+      "body": "Customer records contain names, addresses, phone numbers and access details, such as gate codes. Limit access to people who need it, store records securely, and share customer details only for the service."
+    },
+    {
+      "heading": "Corrections and disputes",
+      "body": "Never change a past record silently. If an entry is wrong, make a dated correction that states what was changed and why. Keep the original. Send any dispute to the owner or the business owner for decision, and keep the record of the dispute with the job."
+    }
+  ],
+  "procedure": [
+    "Open the job file with the agreement and the client details.",
+    "Complete each visit record on the day, with the times, the readings and the tasks done or not done.",
+    "Prepare the invoice from the agreement and the visit record, with a unique number.",
+    "Leave any tax or business number field blank until checked.",
+    "File the invoice, payment and correspondence in the client file.",
+    "Keep the calendar in step with the visit records.",
+    "Record any correction as a dated amendment with the reason."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client disputes an invoice for a visit they say did not happen. The visit record shows a time and readings but no client signature.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not change the record. Show the client the visit record, the readings and the time, and explain the method. If the client has a concern about a specific task, record the concern and send it to the business owner for decision. Keep the original record and the dispute record together."
+    },
+    {
+      "situation": "An office assistant wants to put a licence number on invoices because the US guide says every form should carry one.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Do not add a licence number. Use the business name and the confirmed contact details, and leave any business number field blank until checked against the authority."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Invoice template with unique numbering",
+    "Client file system, paper or electronic, with secure storage",
+    "Visit record form or app",
+    "Calendar for visits",
+    "Secure storage for customer access details"
+  ],
+  "commonErrors": [
+    {
+      "error": "Invoices issued without a visit record behind them",
+      "prevention": "Link each invoice to its visit record and job number."
+    },
+    {
+      "error": "Changing a past record without a dated amendment",
+      "prevention": "Make a dated correction, keep the original and record the reason."
+    },
+    {
+      "error": "Sharing customer access details widely",
+      "prevention": "Limit access to people who need it, and store the details securely."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Check business number, licence and goods and services tax treatment on invoices with the relevant regulator before relying on this point. Do not show a number that has not been confirmed.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Privacy, notification and record retention duties must be checked before customer records are stored or shared.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Customer access details, such as gate codes, must be stored securely and shared only for the service.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every invoice has a unique number and is linked to a visit record and an agreement.",
+    "Every visit record shows date, time, tasks done, tasks not done, readings and referrals.",
+    "No unconfirmed licence, registration or tax treatment is shown as confirmed."
+  ],
+  "documentationEvidence": [
+    "Invoice copies linked to visit records",
+    "Client file with agreement, visit records, invoices and correspondence",
+    "Dated correction log"
+  ],
+  "summary": [
+    "An invoice is only as good as the visit record behind it.",
+    "Show only confirmed numbers and leave out any other figure.",
+    "Keep records secure, and correct them by dated amendment only."
+  ],
+  "businessFields": [
+    "{{business:jobs.time_tracking}}",
+    "{{business:customers.access_instructions}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:jobs.signoff_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PCS-03-K01",
+      "question": "A visit record shows a time and readings, and a client disputes the invoice. What is the correct first step?",
+      "options": [
+        "Delete the record and issue a new invoice and tell the client it is corrected",
+        "Refuse to discuss the matter with the client on the phone",
+        "Change the record so that it matches the client's account",
+        "Show the visit record and explain the method, and keep the original"
+      ]
+    },
+    {
+      "id": "PCS-03-K02",
+      "question": "Which statement about a licence or registration number on an invoice is correct?",
+      "options": [
+        "Only confirmed numbers are shown, and unconfirmed fields are left blank",
+        "A number is shown whenever the client asks for one and the business name",
+        "A number is shown once the business has been running for a year",
+        "Any number from a US guide can be shown once the invoice is paid"
+      ]
+    },
+    {
+      "id": "PCS-03-K03",
+      "question": "How should a past visit record be corrected?",
+      "options": [
+        "Delete the entry and rewrite it from memory for the client file and the accounts",
+        "Make a dated amendment that states what changed and why, and keep the original",
+        "Leave the entry and add a new invoice and a note for the client to read",
+        "Overwrite the entry so the original is lost and the date is changed as well"
+      ]
+    },
+    {
+      "id": "PCS-03-K04",
+      "question": "What does the lesson say about access to customer records?",
+      "options": [
+        "Share them with anyone who asks",
+        "Post them on social media",
+        "Keep them on a public board",
+        "Limit access to people who need it"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "How to Start a Pool Cleaning Service (US start-up guide), section 'How to draft a simple contract for cleaning services' step 2 (contact and licence number on documents), step 1 (keeping copies of every business dealing) and the section on the 'You will need' list (invoices and calendar); rights: user-held; reworded (no copying); checked 2026-11-02. US source; the licence-number requirement is not applicable and is replaced by UNCONFIRMED Australian business number checks.",
+    "UNCONFIRMED: Australian invoice content, goods and services tax treatment, business number, record retention and privacy obligations for pool service work. Not checked in this draft."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

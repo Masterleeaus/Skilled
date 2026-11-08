@@ -1,0 +1,37 @@
+{
+  "lessonId": "C08-L03",
+  "knowledgeAnswers": [
+    {
+      "id": "C08-L03-K01",
+      "correctIndex": 1,
+      "rationale": "Faulty equipment is isolated, taken out of use and reported. Using it, or taping it, puts the next person at risk."
+    },
+    {
+      "id": "C08-L03-K02",
+      "correctIndex": 2,
+      "rationale": "Occupied rooms are rescheduled to an authorised time and the change is recorded. The team does not clean around people in the room."
+    },
+    {
+      "id": "C08-L03-K03",
+      "correctIndex": 1,
+      "rationale": "A handover must let the next worker act without guessing, so it includes completed tasks, exceptions, faults, stock, keys and unresolved issues."
+    }
+  ],
+  "practicalCriteria": [
+    "Plans a zone route (example: five zones) from a sample service specification, with exclusions and windows shown.",
+    "Performs a supervised occupied-site simulation with segregated tools, and keeps the public route open or signed.",
+    "Finds and records planted quality defects, isolates a simulated faulty item, and completes a shift handover with unresolved issues recorded."
+  ],
+  "passRule": "Route planned from the specification, occupied-site controls applied, defects found and recorded, faulty item removed from use, and handover complete with unresolved issues. Observed by an assessor in a supervised simulation. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Shift route plan",
+    "Pre-start risk assessment and defect log",
+    "Shift handover record"
+  ],
+  "stopWorkCriteria": [
+    "Electrical item with doubtful insulation used",
+    "Public access route blocked or hazardous equipment left in a walkway",
+    "Product with no SDS on the register used",
+    "Handover signed off with unresolved issues omitted"
+  ]
+}

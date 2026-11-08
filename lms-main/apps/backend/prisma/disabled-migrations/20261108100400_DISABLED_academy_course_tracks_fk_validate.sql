@@ -1,0 +1,10 @@
+-- DISABLED. DO NOT RUN until preflight-20261108100100-course-tracks-fk.sql returns zero orphan rows. Static, unverified.
+--
+-- Validates the NOT VALID foreign key added by 20261108100100_academy_course_tracks_course_fk.
+-- VALIDATE takes a SHARE UPDATE EXCLUSIVE lock, so reads and writes continue. It scans the table and fails if orphans exist.
+--
+-- To enable: copy this into a NEW migration folder with a later timestamp, remove the comment markers,
+-- and do not edit the applied migration.
+-- Do NOT place it inside migrations/ while disabled, for the same checksum reason as the identity drop.
+--
+-- ALTER TABLE "academy_course_tracks" VALIDATE CONSTRAINT "academy_course_tracks_courseId_fkey";

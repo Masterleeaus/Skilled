@@ -1,0 +1,184 @@
+{
+  "id": "NEW-FUR-06",
+  "title": "Stripping timber furniture: choosing and controlling the method",
+  "referencesAtStart": "Official references for this lesson: LeadSmart NSW: renovating and maintenance (no date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20); Safe Work Australia, Using safety data sheets (no date shown).",
+  "courseSlugs": [
+    "furniture"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Furniture restorers who strip timber pieces and need to choose, control and record the method.",
+  "prerequisites": [
+    "NEW-FUR-04",
+    "NEW-FUR-05"
+  ],
+  "learningOutcomes": [
+    "Choose a stripping method after identification and screening, starting with the least aggressive method that does the job.",
+    "Apply chemical, abrasive and heat methods within their controls.",
+    "Record the method, the controls and the reason for the choice."
+  ],
+  "instruction": [
+    {
+      "heading": "Choosing a method is a decision",
+      "body": "Stripping methods fall into three groups: chemical (apply a product, allow it to dwell, then remove the softened finish), abrasive (sanding or scraping), and heat (a heat gun to lift the finish). Each group has its own hazards, and the choice is made only after identification in “Identify timber, finish and fabric before any work” and screening in “Screen for lead and asbestos: test, stop and refer”. The first choice is the least aggressive method that does the job on that piece. Sanding is the most dust-producing method. Heat carries a fire and a veneer risk. Chemical methods carry product hazards. The method is recorded with the reason for the choice."
+    },
+    {
+      "heading": "Chemical stripping",
+      "body": "Follow the product's label and SDS for application, dwell time, removal and any neutralising step. Safe Work Australia's SDS guidance expects the SDS to be easy to reach for workers who use the product. Test the product on a hidden area first. Keep the product off skin and out of the eyes. Collect the softened residue and dispose of it as the SDS sets out. Do not scrape spent residue into a drain, and do not leave residue on the timber, because it can stop the next finish from bonding."
+    },
+    {
+      "heading": "Abrasive stripping",
+      "body": "Sanding produces the most dust, so the extraction and respirator controls in “Wood dust and sanding controls” apply in full. If the finish has not been screened for lead, do not sand until the screening is done. Work with the grain, use the coarsest grit that does the job, and keep to the depth needed. Over-sanding removes veneer and changes the shape of mouldings and edges. Stop and reassess when the timber shows through in some places and not others."
+    },
+    {
+      "heading": "Heat stripping",
+      "body": "NSW's house guidance on lead paint sets a heat gun to its lowest setting, asks users not to linger in one spot, and warns against open-flame torches, which release lead fumes (no page date shown). That guidance is written for houses, so this course applies the same caution to furniture until screening says otherwise. Apply the same caution to furniture until screening says otherwise. Keep an extinguisher and a water source nearby, and keep solvent rags away from the heat. Heat can lift veneer and soften heat-sensitive adhesive, so test a hidden area before using heat near veneer edges or joints."
+    }
+  ],
+  "procedure": [
+    "Confirm the identification in “Identify timber, finish and fabric before any work” and the screening result in “Screen for lead and asbestos: test, stop and refer”.",
+    "Choose the method and record the reason.",
+    "Set the controls and PPE for the method from {{business:safety.required_ppe}}.",
+    "Test the method on a hidden area, and check the result.",
+    "Work in stages, and check the progress at each stage.",
+    "Neutralise or clean the residue, and dispose of waste as the SDS and local rules set out.",
+    "Record the method, product or tool, controls, test result and disposal."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A solid timber table has a dark shellac finish and a lifted veneer edge on one side. The client wants the finish removed for a new colour.",
+      "decisionPrompt": "Which method do you start with, and what do you avoid?",
+      "reasoning": "Start with a chemical method, tested on a hidden area first, because the veneer edge rules out heat near it. Keep any abrasive work light, and do not sand through the veneer. Stop and reassess if the test shows a lead-suspect or unknown finish, and confirm the screening result first."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Product SDS and label for each stripper",
+    "Business PPE as set out in {{business:safety.required_ppe}}",
+    "Scraper, abrasive pads and sanding equipment with extraction (“Wood dust and sanding controls”)",
+    "Heat gun, only after the hidden-area test, with an extinguisher and water source nearby",
+    "Closed metal container for solvent rags and labelled waste container"
+  ],
+  "commonErrors": [
+    {
+      "error": "Starting with sanding because it is familiar.",
+      "prevention": "Choose the least aggressive method that does the job, and record the reason."
+    },
+    {
+      "error": "Using heat close to veneer edges or joints.",
+      "prevention": "Test heat on a hidden area first, and keep it away from veneer edges."
+    },
+    {
+      "error": "Leaving stripper residue on the timber.",
+      "prevention": "Neutralise or clean residue as the SDS sets out before the next stage."
+    },
+    {
+      "error": "Sanding through the veneer.",
+      "prevention": "Work with the grain, keep to the depth needed, and check the surface often."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Stripper dwell time, dilution and PPE come from the product label and SDS.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Do not start stripping a suspect or unknown finish until the screening in “Screen for lead and asbestos: test, stop and refer” is complete and recorded.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Heat stripping near flammable residue and solvent vapour increases the risk of fire. Keep an extinguisher and water source ready.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The method and its reason are recorded before work starts.",
+    "The hidden-area test result is recorded before the method is used on the visible surface.",
+    "Residue is removed, and the surface is ready for the repair step."
+  ],
+  "documentationEvidence": [
+    "Method record with product or tool, controls and reason",
+    "Photograph of the hidden-area test patch",
+    "Waste disposal record for residue and rags"
+  ],
+  "summary": [
+    "Choose the least aggressive method that does the job, after identification and screening.",
+    "Chemical, abrasive and heat methods each have their own controls, and all are recorded.",
+    "Residue is removed and waste is disposed of as the SDS sets out."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:materials.handling_procedure}}",
+    "{{business:materials.waste_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-FUR-06-K01",
+      "question": "Which stripping method should be considered first for a timber piece?",
+      "options": [
+        "The least aggressive method that does the job, chosen after identification and screening",
+        "The most aggressive method, to save time on the job and get it finished in a single day",
+        "Heat, because it always works on every timber finish and paint type the shop receives"
+      ]
+    },
+    {
+      "id": "NEW-FUR-06-K02",
+      "question": "Why does the lesson warn against using heat near a veneer edge?",
+      "options": [
+        "Heat makes timber smell sweet while it is being worked on",
+        "Heat can lift the veneer and soften heat-sensitive adhesive",
+        "Heat changes the colour of the client's room around the piece"
+      ]
+    },
+    {
+      "id": "NEW-FUR-06-K03",
+      "question": "What should happen to spent stripper residue?",
+      "options": [
+        "Rinse it down the drain with water, since the drain carries it away",
+        "Leave it on the timber to dry in the workshop air overnight",
+        "Collect it and dispose of it as the SDS and local rules set out"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: LeadSmart NSW: renovating and maintenance (no date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20); Safe Work Australia, Using safety data sheets (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance (checked 2026-11-02; house lead guidance; heat gun and torch advice)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets (checked 2026-11-02; no page date)",
+    "UNCONFIRMED: method standards for stripping; product dwell and dilution values; heat-gun standard; fire standard for heat-stripping. Research brief: /home/claude/work/team/research-topics/furniture.md, sections 2 and 5."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "LeadSmart NSW: renovating and maintenance",
+      "url": "https://www.nsw.gov.au/environment-land-and-water/pollution-contamination/leadsmart-nsw/being-leadsmart/renovating-maintenance",
+      "pageDate": "No date in page body; page metadata shows published 2026-05-18 and modified 2026-07-20",
+      "checked": "2026-11-03",
+      "covers": "House lead paint guidance only, not furniture. Read the heat gun, torch and respirator advice on the page before any related statement. Publisher: NSW Government (LeadSmart NSW)."
+    },
+    {
+      "id": "R2",
+      "title": "Using safety data sheets",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/safety-data-sheets/using-safety-data-sheets",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Workplace duty to keep SDS in the hazardous chemical register, and to make them easy to access for the people named on the page. Publisher: Safe Work Australia."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-11.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-12.jpg",
+      "alt": "Furniture restoration illustration",
+      "kind": "photo",
+      "origin": "furniture"
+    }
+  ]
+}

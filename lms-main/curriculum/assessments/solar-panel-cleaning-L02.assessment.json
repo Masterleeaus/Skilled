@@ -1,0 +1,49 @@
+{
+  "lessonId": "solar-panel-cleaning-L02",
+  "knowledgeAnswers": [
+    {
+      "id": "solar-panel-cleaning-L02-K01",
+      "correctIndex": 2,
+      "rationale": "A PV array generates whenever light falls on it, so it is treated as live for the whole job, including when the mains is off."
+    },
+    {
+      "id": "solar-panel-cleaning-L02-K02",
+      "correctIndex": 3,
+      "rationale": "Energy Safe Victoria guidance (reviewed 15 April 2025) says DC supply cables from the array can still be live after the power is switched off."
+    },
+    {
+      "id": "solar-panel-cleaning-L02-K03",
+      "correctIndex": 0,
+      "rationale": "No official source reviewed in this draft confirms that switching off the inverter makes the array safe, so the safe rule is to treat the array as live."
+    },
+    {
+      "id": "solar-panel-cleaning-L02-K04",
+      "correctIndex": 1,
+      "rationale": "Energy Safe Victoria guidance (reviewed 15 April 2025) describes isolation at the main switchboard with lock-out and tag-out, and treats PV installation and maintenance as licensed electrical installation work."
+    },
+    {
+      "id": "solar-panel-cleaning-L02-K05",
+      "correctIndex": 2,
+      "rationale": "Energy Safe Victoria refers to AS/NZS 4836 for safe working on low-voltage installations. AS/NZS 1891.4 and the cleaning clauses of AS/NZS 5033 are not cited here."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner states, for a scenario, that the array is treated as live while light falls on it.",
+    "The learner keeps the spray away from marked connectors, junction boxes and inverters during a supervised demonstration.",
+    "The learner stops and refers on sight of exposed wiring or a burnt connector in a scenario, without touching the component.",
+    "The learner records the hazard observation with a photograph and a position."
+  ],
+  "passRule": "Knowledge checks: 80% correct (4 of 5). Practical sign-off is assessed separately by observation of a supervised scenario. A knowledge pass does not verify electrical hazard control on a live array.",
+  "evidenceRequired": [
+    "Pre-clean hazard checklist with the live-array assumption recorded",
+    "Photographs and sketch marking connectors, junction boxes and cable runs",
+    "Stop and referral record for any electrical concern",
+    "Referral outcome from a licensed electrician or installer"
+  ],
+  "stopWorkCriteria": [
+    "The learner treats the array as dead because the mains or inverter is off.",
+    "The learner touches a cable or connector to test whether it is live.",
+    "The learner sprays water onto a junction box or inverter.",
+    "The learner offers to isolate or repair the system."
+  ]
+}

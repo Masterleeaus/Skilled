@@ -1,0 +1,40 @@
+{
+ "lessonId": "C05-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "C05-L01-K01",
+   "correctIndex": 1,
+   "rationale": "Where the method or authorisation is uncertain, the lesson says to stop, not infer compatibility, and escalate. Testing by mixing is named as an error."
+  },
+  {
+   "id": "C05-L01-K02",
+   "correctIndex": 2,
+   "rationale": "The lesson's documentation step lists the product, label directions, surface, PPE, hazards and controls. A reading statement or a photo does not record the decision."
+  },
+  {
+   "id": "C05-L01-K03",
+   "correctIndex": 3,
+   "rationale": "Out-of-scope requests are referred, and the supervisor reviews decisions before independent use. Acting first and reporting later is not the approach."
+  },
+  {
+    "id": "C05-L01-K04",
+    "correctIndex": 2,
+    "rationale": "The test the compatibility decision section says acidic descalers may damage acid-sensitive stone, and oxidisers may affect some finishes."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner cites a specific label or SDS section for every decision on each exercise item.",
+  "Learner identifies the incompatibility statement in the SDS for each product pair presented and refers any pair the SDS does not clear.",
+  "Learner gives a use, use-with-controls or refer decision for each item and states one reason that the assessor can check against the source.",
+  "Learner corrects each decision the supervisor finds unsupported by the label or SDS, and records the correction."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Completed decision record with the cited section for each answer",
+  "Supervisor review record with the corrections made"
+ ],
+ "stopWorkCriteria": [
+  "Learner approves a product pair that the SDS marks as incompatible",
+  "Learner decides from memory without citing the label or SDS"
+ ]
+}

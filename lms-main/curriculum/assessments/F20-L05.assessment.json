@@ -1,0 +1,33 @@
+{
+ "lessonId": "F20-L05",
+ "knowledgeAnswers": [
+  {
+   "id": "F20-L05-K01",
+   "correctIndex": 2,
+   "rationale": "The lesson says movements are recorded at the time they happen, because a late record cannot show when a loss occurred. Recording at the end of the week (option 0) and recording only losses (option 2) are both ruled out."
+  },
+  {
+   "id": "F20-L05-K02",
+   "correctIndex": 0,
+   "rationale": "The lesson says every difference between the balance and the count is investigated, as it may be a loss, a recording error or waste. Adjusting without investigating (option 0) and ignoring small differences (option 2) are both named as wrong."
+  },
+  {
+    "id": "F20-L05-K03",
+    "correctIndex": 2,
+    "rationale": "The lesson says that from the movement record, a running balance is kept for each product and key item."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner records a supplied set of equipment and product movements with date, item, quantity, job or vehicle and person.",
+  "Learner keeps a running balance for a supplied product and compares it with a supplied stock count.",
+  "Learner investigates a difference in the count, records its cause and the action taken."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Movement record with date, item, quantity, job or vehicle and person",
+  "Stock count record with the balance, count and explanation of any difference"
+ ],
+ "stopWorkCriteria": [
+  "Stop work if procedure step 1 is not done: Record each movement of equipment and products out, in, to a job or vehicle, and returned."
+ ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "PSA-09",
+  "title": "Algae control and superchlorination with no bathers",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Pool service workers who treat algae at public pools in SA. Figures apply under the state standard.",
+  "prerequisites": [
+    "PSA-04",
+    "PSA-08"
+  ],
+  "learningOutcomes": [
+    "Explain how algae reduce disinfectant efficiency and create hazards on the pool surface.",
+    "State the South Australian superchlorination level and the condition under which it is applied.",
+    "Describe the post-treatment steps that must be complete before a pool reopens."
+  ],
+  "instruction": [
+    {
+      "heading": "Why algae are a problem",
+      "body": "Algae are one of the main contributors to pool pollution. They can shelter bacteria, and they reduce how well disinfectants work, chlorine included. Algae tie up chlorine and generate smells, murkiness, staining and slime. Slime on surfaces is also a trip-and-fall risk on the surrounds. If algae turn up in chlorinated water, the standard reads that as a sign that free chlorine has fallen short."
+    },
+    {
+      "heading": "Superchlorination for heavy growth",
+      "body": "Heavy algal growth can be treated by superchlorinating the pool. That means holding the free chlorine level above 10 mg/L while nobody is using the pool. After treatment, dead algae ought to come away with brushing. If it does not, repeat the dose until the algae is gone. Take dead algae out by hand or with equipment before users return. Algaecide is another option, but it is a chemical in its own right and must be handled and dosed according to its safety data sheet and the operator plan."
+    },
+    {
+      "heading": "Why no bathers may be present",
+      "body": "Superchlorination takes free chlorine well above normal operating levels. Only run it while nobody is using the pool, with the access route secured. Shock dosing in general, and the bromine version in particular, is also restricted to times with no swimmers present. Treat any request to dose a pool still in use as a stop."
+    },
+    {
+      "heading": "Before the pool reopens",
+      "body": "Reopening needs three checks: the algae has been removed or killed and dead material is gone, the free chlorine (or bromine) has returned to the band for the pool type, and the clarity check in “Pool water clarity and seeing submerged bathers” passes. The reopening decision belongs to the operator, but the evidence has to show all three points."
+    }
+  ],
+  "procedure": [
+    "Confirm the pool is closed to bathers and the access route is secured.",
+    "Measure the current free chlorine and pH, and record the starting values.",
+    "Dose to the superchlorination level in the operator plan, which must be at least 10 mg/L free chlorine, and circulate.",
+    "Brush the surfaces, and check the next day whether algae has released or still clings.",
+    "Repeat the dose if necessary, then remove dead algae physically.",
+    "Retest the chlorine, pH and clarity, and record that all readings are in range before the operator reopens the pool."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An outdoor public pool has green water and slime on the walls. Its cyanuric acid reads 45 mg/L and free chlorine reads 0.5 mg/L. The pool was due to open on Saturday.",
+      "decisionPrompt": "What should happen, and what affects how much chlorine is needed?",
+      "reasoning": "The pool stays closed. Stabiliser at 45 mg/L holds chlorine in a less active form, so more chlorine is needed to reach a free level of at least 10 mg/L during superchlorination. Dose as the operator plan sets, brush and remove dead algae, retest, and only reopen when the readings and the clarity check pass."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Free chlorine and pH test kit, in date",
+    "Stiff pool brush and skimmer net",
+    "Chemical-resistant gloves, eye protection and non-slip footwear",
+    "Safety data sheet for each chlorine and algaecide product"
+  ],
+  "commonErrors": [
+    {
+      "error": "Dosing a superchlorination level while bathers are still in the pool.",
+      "prevention": "Clear the pool, secure the access route and confirm before dosing."
+    },
+    {
+      "error": "Reopening with dead algae still in the water or on the floor.",
+      "prevention": "Remove dead algae physically before reopening."
+    },
+    {
+      "error": "Using algaecide in place of disinfectant.",
+      "prevention": "Algaecide controls algae; it does not replace the disinfectant the standard requires."
+    },
+    {
+      "error": "Testing only once, the day before opening.",
+      "prevention": "Check the next day and retest before reopening."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Superchlorinated water is a strong oxidiser and can burn skin and eyes. Keep bathers out, and wear gloves and eye protection during dosing.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Algae slime makes surfaces slippery. Use non-slip footwear and clean up spills promptly.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A licence or authorisation may apply to handling or storing pool chemicals, including algaecide, in your state or territory. This lesson does not grant one.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Figures are South Australian standard values (revised 2013). Confirm the current regulation text.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Superchlorination is applied only with no bathers present, and the access route is recorded as secured.",
+    "Dead algae is removed before reopening.",
+    "Reopening follows a retest showing the chlorine, pH and clarity are in range."
+  ],
+  "documentationEvidence": [
+    "Algae treatment record with dates, starting and ending chlorine, dose, product and retest values",
+    "Reopening checklist showing algae removed and readings in range"
+  ],
+  "summary": [
+    "Algae reduce disinfectant efficiency and create slip hazards.",
+    "Superchlorinate to at least 10 mg/L free chlorine only while no bathers are present.",
+    "Remove dead algae and retest before the operator reopens the pool."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PSA-09-K01",
+      "question": "Under the standard, what free chlorine level is used when superchlorinating for heavy algae?",
+      "options": [
+        "Above 10 mg/L",
+        "1.0 mg/L only",
+        "Below minimum",
+        "Bather load"
+      ]
+    },
+    {
+      "id": "PSA-09-K02",
+      "question": "When should superchlorination be carried out?",
+      "options": [
+        "While bathers are present",
+        "While nobody is using the pool",
+        "Only in the middle of the day",
+        "Every time the pool is opened"
+      ]
+    },
+    {
+      "id": "PSA-09-K03",
+      "question": "Algae appear in a chlorinated pool. What does the standard say this indicates?",
+      "options": [
+        "The chlorine dose is too high and the pH is too high",
+        "Free chlorine has dropped below the level needed",
+        "The pH is too low for algae and the filter is blocked",
+        "The pool is over-filtered and the pump runs too long"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 9.1 Algae, section 2 Definitions (shock dose, superchlorination), section 6.4 for the no-bather rule; rights: user-held; reworded (no copying)",
+    "Priority: official South Australian source. It overrides informal, foreign or generic pool advice that conflicts with it. Figures are dated (standard revised 2013); checked against the uploaded copy 2026-11-02; current regulation text UNCONFIRMED.",
+    "UNCONFIRMED: algaecide product rules and reopening sign-off requirements in other states and territories."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

@@ -1,0 +1,158 @@
+{
+  "id": "PSA-07",
+  "title": "Bromine, BCDMH and bromamines in public pools",
+  "courseSlugs": [
+    "pool"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Pool and spa service workers and operators using bromine or BCDMH at public pools in SA. Figures apply under the state standard.",
+  "prerequisites": [
+    "PSA-03",
+    "PSA-04"
+  ],
+  "learningOutcomes": [
+    "Describe how bromine disinfects and why its pH band differs from chlorine.",
+    "State the bromine minimums that apply to ordinary, hydrotherapy and spa pools.",
+    "Explain bromamine build-up and the shock-dose rule."
+  ],
+  "instruction": [
+    {
+      "heading": "How bromine disinfects",
+      "body": "Every bromine disinfectant forms hypobromous acid in water, and that acid is the working disinfectant. Bromine is less pungent than chlorine, tolerates a broader pH band, and kills at a comparable rate. No stabiliser can shield it from ultraviolet light, so outdoor bromine pools shed disinfectant faster in sun. Compare this with the stabiliser rules in “Stabilised chlorine and cyanuric acid limits”."
+    },
+    {
+      "heading": "Ways bromine gets into the water",
+      "body": "One approach combines a bromide salt with a strong oxidant, like a hypochlorite solution or a persulphate product. Another uses BCDMH, which comes as tablets or granules. BCDMH is acidic, around pH 4.5, so it drags total alkalinity down quickly, and wherever it is dosed, total alkalinity needs to sit between 150 and 200 mg/L. Some of the chlorine released with BCDMH can remain active alongside the bromine, especially after a fill with fresh water."
+    },
+    {
+      "heading": "Bromine minimums",
+      "body": "For ordinary swimming, wading and waterslide water, bromine should read 2.0 mg/L or more below 26 degrees Celsius, and 4.0 mg/L or more from 26 degrees up. Hydrotherapy pools need at least 4.0 mg/L, and under heavy loads near the top temperature the suggested level is 8.0 mg/L. Spa pools need at least 8.0 mg/L. Bromine pH must sit between 7.2 and 7.8."
+    },
+    {
+      "heading": "Bromamines and when to replace water",
+      "body": "Bromamines arise when bromine encounters ammonia or organic nitrogen-bearing compounds. Ammonia-based bromamines still kill organisms, produce no harsh smell or eye sting, and so breakpoint treatment is usually not needed for bromine. Organic bromamines from bathers are more stable and can build up, hindering disinfection. Replace part of the water to reduce them. Spa water exchange has to follow the regulations, as “Public spa pools: temperature, replacement and cleaning” explains."
+    },
+    {
+      "heading": "Shock dosing only when the pool is empty of bathers",
+      "body": "Shock dosing breaks down organic build-up that water replacement cannot shift. For bromine, the standard's superbromination level is at least 20 mg/L, and it is only permitted while the water holds no swimmers. Bromine-chlorine systems may also need superchlorination to break down chloramines, which converts bromide into active bromine."
+    }
+  ],
+  "procedure": [
+    "Confirm the sanitiser is bromine or BCDMH, and check the pH band for bromine.",
+    "Test bromine, pH plus total alkalinity, and record the pool temperature alongside it.",
+    "Compare the bromine reading with the minimum for the pool type and temperature.",
+    "If BCDMH is in use, confirm total alkalinity sits between 150 and 200 mg/L.",
+    "Shock dose only when the operator has confirmed no bathers are in the pool, then clear the pool until the level has settled as the plan requires."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A public hydrotherapy pool at 33 degrees Celsius is treated with bromine. The reading is 3.0 mg/L.",
+      "decisionPrompt": "Is the reading acceptable, and what might be needed?",
+      "reasoning": "The minimum for hydrotherapy is 4.0 mg/L, so 3.0 mg/L is below the requirement. At upper temperatures under heavy use the standard recommends 8.0 mg/L. Escalate, follow the operator plan to raise the bromine, and keep the pool closed until the level is in range."
+    },
+    {
+      "situation": "A public pool at 24 degrees Celsius reads bromine 1.8 mg/L with BCDMH total alkalinity at 120 mg/L.",
+      "decisionPrompt": "What two things need attention?",
+      "reasoning": "Bromine at 24 degrees needs at least 2.0 mg/L, so 1.8 mg/L is below the minimum. Total alkalinity at 120 mg/L is below the 150 and 200 mg/L range that BCDMH requires. Correct alkalinity first, as the operator plan sets, then raise bromine and retest."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Test kit for bromine, pH, alkalinity and temperature, in date",
+    "Chemical-resistant gloves and eye protection",
+    "Safety data sheets for bromide, oxidiser and BCDMH products"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using the chlorine pH band for a bromine pool.",
+      "prevention": "Bromine uses 7.2 and 7.8."
+    },
+    {
+      "error": "Shock dosing with bathers in the water.",
+      "prevention": "Shock dosing waits until no bathers are present."
+    },
+    {
+      "error": "Ignoring the alkalinity fall caused by BCDMH.",
+      "prevention": "Keep BCDMH pools between 150 and 200 mg/L total alkalinity."
+    },
+    {
+      "error": "Treating bromamine build-up as an odour problem only.",
+      "prevention": "Bromamines hinder disinfection. Replace part of the water as the plan sets."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "BCDMH and oxidiser products are hazardous chemicals with safety data sheets. Do not store them together with incompatible products.",
+      "licenceNotice": true
+    },
+    {
+      "point": "A licence or authorisation may apply to handling or storing pool chemicals in your state or territory. This lesson does not grant one.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The standard says shock dosing should only be carried out when no bathers are in the pool. Keep bathers out until the operator confirms the pool is safe.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Figures are South Australian standard values (revised 2013). Confirm the current regulation text.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Bromine is measured against the minimum for the pool type and temperature.",
+    "BCDMH pools hold total alkalinity between 150 and 200 mg/L.",
+    "Shock dosing records show that no bathers were present."
+  ],
+  "documentationEvidence": [
+    "Bromine test record with pool type, temperature, pH, alkalinity and result",
+    "Shock dose record with time, product, bather-free confirmation and retest"
+  ],
+  "summary": [
+    "Bromine disinfects through hypobromous acid and works across pH 7.2 and 7.8.",
+    "Bromine minimums are 2.0 mg/L below 26 degrees and 4.0 mg/L from 26 degrees for swimming pools; spas need 8.0 mg/L.",
+    "Shock dose only with no bathers present, and keep BCDMH alkalinity at 150 and 200 mg/L."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "PSA-07-K01",
+      "question": "Which pH band applies to a bromine-treated public swimming pool under the standard?",
+      "options": [
+        "6.8 to 7.0",
+        "7.2 and 7.6",
+        "7.2 and 7.8",
+        "7.8 to 8.2"
+      ]
+    },
+    {
+      "id": "PSA-07-K02",
+      "question": "A public pool under 26 degrees Celsius is treated with bromine. What is the minimum bromine level?",
+      "options": [
+        "0.5 mg/L",
+        "2.0 mg/L",
+        "4.0 mg/L",
+        "8.0 mg/L"
+      ]
+    },
+    {
+      "id": "PSA-07-K03",
+      "question": "When is shock dosing with bromine appropriate?",
+      "options": [
+        "While bathers swim, to speed clean-up",
+        "Only while the water is free of swimmers",
+        "Every hour during all opening times",
+        "Only in indoor spas and hot tubs"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 6.4 Bromine, sections 6.4.1 Bromamine formation, table 4 and table 6; rights: user-held; reworded (no copying)",
+    "Standard for the Operation of Swimming Pools and Spa Pools in SA (revised 2013), section 2 Definitions (superbromination, shock dose); rights: user-held; reworded (no copying)",
+    "Priority: official South Australian source. It overrides informal, foreign or generic pool advice that conflicts with it. Figures are dated (standard revised 2013); checked against the uploaded copy 2026-11-02; current regulation text UNCONFIRMED.",
+    "Cross-checked against pool-cleaning-L04 for chemical separation only."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

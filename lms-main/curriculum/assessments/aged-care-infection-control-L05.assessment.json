@@ -1,0 +1,36 @@
+{
+ "lessonId": "aged-care-infection-control-L05",
+ "knowledgeAnswers": [
+  {
+   "id": "aged-care-infection-control-L05-K01",
+   "correctIndex": 0,
+   "rationale": "Soil stops a disinfectant from working, so the approved sequence is to clean first to remove soil and then disinfect where the facility requires it. Disinfecting first, or treating one product as doing both jobs, is not the approved sequence."
+  },
+  {
+   "id": "aged-care-infection-control-L05-K02",
+   "correctIndex": 1,
+   "rationale": "The facility's approved list governs product selection. A familiar product that is not on the list is not approved for this use, so the cleaner does not use it, asks for the approved product and records the shortfall."
+  },
+  {
+   "id": "aged-care-infection-control-L05-K03",
+   "correctIndex": 2,
+   "rationale": "The NHMRC guidance advises against routine use of hydrogen peroxide vapour and ultraviolet light. It allows ultraviolet light to be considered in high-risk settings and during outbreaks, so the other options overstate routine use."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a visibly soiled bedside rail on a schedule that lists cleaning only, the learner cleans with the approved detergent first and does not add disinfection unless the schedule or an instruction calls for it.",
+  "Given a label contact time that the surface cannot keep wet, the learner records the contact condition as not achieved with the actual time and does not record the surface as disinfected.",
+  "Given a familiar disinfectant that is not on the approved list, the learner does not use it and records the product requested and the time."
+ ],
+ "passRule": "Knowledge checks: 80% pass mark, which for three checks means all three correct. Practical competence needs facility-observed assessment against the practical criteria, and a knowledge pass does not count as practical competence.",
+ "evidenceRequired": [
+  "Observation note of the clean-then-disinfect sequence",
+  "Shortfall record for the unapproved product",
+  "Completed record showing a contact condition not achieved, with the actual time"
+ ],
+ "stopWorkCriteria": [
+  "Learner disinfects over visible soil without cleaning first",
+  "Learner uses a product that is not on the approved list",
+  "Learner applies any product to a clinical device interface or keep-dry area"
+ ]
+}

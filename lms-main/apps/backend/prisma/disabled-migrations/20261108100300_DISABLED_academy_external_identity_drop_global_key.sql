@@ -1,0 +1,18 @@
+-- DISABLED. DO NOT RUN AS-IS. Static, unverified.
+--
+-- Drops the global unique key on academy_external_identities(service, externalUserRef).
+-- After this, the same external ref may exist in more than one company, and uniqueness is per company
+-- through academy_external_identities_svc_org_ref_key on (service, "companyId", "externalUserRef") (migration 20261108100000).
+--
+-- Preconditions, all required before enabling:
+--   1. preflight-20261108100000-external-identity-scope.sql run and reviewed. Check 1 returns zero rows.
+--   2. The application provisions new identities with companyId ("companyId" column) set. Legacy NULL rows are handled by a human.
+--   3. A human accepts the cross-company behaviour change (ACA-028).
+--
+-- To enable: copy this into a NEW migration folder with a timestamp later than the latest migration
+-- (for example migrations/20261108103000_academy_external_identity_drop_global_key/migration.sql), remove the comment
+-- markers, and do not edit the applied migration.
+-- Do NOT place it inside migrations/ while disabled. Prisma would record it as applied, and enabling it later would
+-- change a recorded checksum.
+--
+-- DROP INDEX IF EXISTS "academy_external_identities_service_externalUserRef_key";

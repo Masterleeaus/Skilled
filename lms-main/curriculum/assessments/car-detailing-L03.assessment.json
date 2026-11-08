@@ -1,0 +1,35 @@
+{
+  "lessonId": "car-detailing-L03",
+  "knowledgeAnswers": [
+    {
+      "id": "car-detailing-L03-K01",
+      "correctIndex": 1,
+      "rationale": "An unidentified product is quarantined and reported, never tested, decanted or identified by smell."
+    },
+    {
+      "id": "car-detailing-L03-K02",
+      "correctIndex": 3,
+      "rationale": "Approval for the surface and task comes from the label and SDS, not from appearance or habit."
+    },
+    {
+      "id": "car-detailing-L03-K03",
+      "correctIndex": 1,
+      "rationale": "Food and drink containers are never reused for chemicals, and the product stays in its labelled container."
+    }
+  ],
+  "practicalCriteria": [
+    "Given three labelled products and one unlabelled container, identifies the approved surfaces for each labelled product and quarantines the unlabelled one.",
+    "Finds the PPE and first-aid sections of a supplied SDS and states the gloves and eye protection required.",
+    "Records a rejection on the product-use register with a reason."
+  ],
+  "passRule": "All three checks completed without error, observed by an assessor. A quiz pass is not a practical pass.",
+  "evidenceRequired": [
+    "Completed product-use register entry",
+    "Quarantine and rejection record"
+  ],
+  "stopWorkCriteria": [
+    "Unidentified product used or tested",
+    "Product decanted into a food or drink container",
+    "Product used on a surface its label does not list"
+  ]
+}

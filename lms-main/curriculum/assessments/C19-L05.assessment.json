@@ -1,0 +1,36 @@
+{
+  "lessonId": "C19-L05",
+  "knowledgeAnswers": [
+    {
+      "id": "C19-L05-K01",
+      "correctIndex": 0,
+      "rationale": "The asset identifier lets the history of one item be found reliably, from its own file, across properties."
+    },
+    {
+      "id": "C19-L05-K02",
+      "correctIndex": 2,
+      "rationale": "A correction is a dated addition that states the change, and the original is kept. Overwriting or deleting removes the audit trail."
+    },
+    {
+      "id": "C19-L05-K03",
+      "correctIndex": 1,
+      "rationale": "The service record refers to the certificate that the licensed trade or authorised person issued, by its number and date. It does not replace the certificate and is not signed by the worker as one."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated service visit, the worker completes the standard checklist, marks any item not applicable with a reason, dates the entry, names the worker and records the asset identifier.",
+    "Given a simulated entry with an error, the worker adds a dated correction that states the change and leaves the original unchanged.",
+    "Given a simulated regulated item, the worker refers to the licensed trade's certificate by its number and date and does not describe the service record as a certificate."
+  ],
+  "passRule": "Assessor observes every practical criterion and records it as met or not met. The knowledge checks are not a practical pass. The minimum knowledge score is 80%, so all three checks must be correct.",
+  "evidenceRequired": [
+    "Completed service checklist for the simulated visit",
+    "Dated correction for the simulated error, with the original retained",
+    "Owner summary for the simulated visit, showing no certificate claim"
+  ],
+  "stopWorkCriteria": [
+    "The record would be filed without an asset identifier",
+    "An original entry is overwritten or deleted",
+    "A service record is presented as a regulated certificate"
+  ]
+}

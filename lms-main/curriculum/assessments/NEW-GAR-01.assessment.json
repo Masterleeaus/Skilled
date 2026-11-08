@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-GAR-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-GAR-01-K01",
+      "correctIndex": 2,
+      "rationale": "A planting above the excluded height that comes near an overhead line is excluded. The correct response records the exclusion and refers the work without starting any part of it."
+    },
+    {
+      "id": "NEW-GAR-01-K02",
+      "correctIndex": 0,
+      "rationale": "A sharp reduction is a renovation. It is quoted separately and planned over more than one season, because cutting to bare wood may not regrow on some species."
+    },
+    {
+      "id": "NEW-GAR-01-K03",
+      "correctIndex": 1,
+      "rationale": "Access must be an authorised method for the height. Improvised access such as chairs or unapproved ladders is unsafe, and work beyond the authorised method is referred."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied mock planting card with a height and a line-proximity note, the learner decides whether the planting is in scope or excluded and records the decision within the assessor's set time.",
+    "The learner sets a target height and width with a string line on a mock hedge and checks the line at two intervals while trimming.",
+    "The learner produces a written quote for a supplied renovation scenario that separates the renovation from routine trimming and lists the exclusions."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Scope decision record for the mock planting, signed by the assessor.",
+    "Assessor observation record of the string-line trimming, including interval checks.",
+    "Written quote for the renovation scenario, reviewed by the assessor."
+  ],
+  "stopWorkCriteria": [
+    "Any cutting of a mock planting identified as excluded during the assessment.",
+    "Use of an access method not authorised by the assessor for the mock height.",
+    "Any trimming within the simulated exclusion distance of a power line."
+  ]
+}

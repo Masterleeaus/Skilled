@@ -1,0 +1,226 @@
+{
+  "id": "solar-panel-cleaning-L05",
+  "title": "Module damage, exposed wiring and faults",
+  "courseSlugs": [
+    "solar"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Trainees and workers on the solar panel cleaning track, working under supervision, who inspect arrays before and during a clean.",
+  "prerequisites": [
+    "solar-panel-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Inspect an array for visible module damage, exposed wiring and faults, and separate what is seen from what is unknown.",
+    "Apply a stop-and-report decision to damaged modules, exposed cables and burnt or discoloured components.",
+    "Write a referral record that a licensed person or the owner can act on."
+  ],
+  "referencesAtStart": "Official sources for this lesson: Energy Safe Victoria, Safely installing photovoltaic (PV) systems (reviewed 15 April 2025); NSW Government (nsw.gov.au), Building and trades licences and credentials: electrical (last updated 23 June 2026).",
+  "instruction": [
+    {
+      "heading": "Official sources (start of lesson)",
+      "body": "Official sources for this lesson: Energy Safe Victoria, Safely installing photovoltaic (PV) systems (page date: Reviewed 15 April 2025); NSW Government (nsw.gov.au), Building and trades licences and credentials: electrical (page date: Last updated 23 June 2026); Standards Australia, AS/NZS 5033: installation of photovoltaic (PV) arrays."
+    },
+    {
+      "heading": "Inspect before cleaning",
+      "body": "Before any cleaning, walk the array from the ground with binoculars or a camera where access is possible, and record what can be seen. Look for cracked or chipped glass, delamination, discoloration, burn marks, bent frames, loose or lifted modules, exposed cable, damaged junction boxes and connectors, and any sign of water ingress. Do not climb or step onto the array to inspect it. Mark each item as observed, and record the parts of the array that you could not see as unknowns."
+    },
+    {
+      "heading": "Module damage",
+      "body": "A cracked or chipped module may have an exposed or damaged internal part, and the surface wash can drive water into the damage. A module that is discoloured, bubbling, hot or smelling of burning may have an internal fault. Do not clean a damaged module with a jet or with a product. Hold it, record it, and report it to the owner in writing with a dated photograph."
+    },
+    {
+      "heading": "Exposed wiring and burnt components",
+      "body": "Exposed wiring, a damaged cable sheath, or a connector with a black or burnt mark is an electrical hazard. Energy Safe Victoria guidance (reviewed 15 April 2025) says DC supply cables can remain live after the supply is switched off, so the damage is treated as live. Do not touch the cable or connector to check it. Keep people and animals clear, keep spray away, and stop the work near the affected part. Refer the damage to a licensed electrician or the installer."
+    },
+    {
+      "heading": "Standards and records",
+      "body": "AS/NZS 5033 is the Australian standard for installing photovoltaic arrays. Do not cite a clause of AS/NZS 5033 for a cleaning method. Record the array's make and model, the date of inspection, and any damage found, so that the owner and any specialist have a clear record."
+    },
+    {
+      "heading": "Stop and refer",
+      "body": "Stop and refer when a module is cracked or its glass is open, when a cable is exposed or damaged, when a connector is burnt or discoloured, when a module is hot or smells of burning, or when water is found in a connector or junction box. Tell the owner in writing, and do not continue cleaning the affected row or string until a competent person has confirmed the next step."
+    },
+    {
+      "heading": "Licence and authority boundary",
+      "body": "Licence notice: This lesson does not grant an electrical licence, solar installation licence or authority to repair, replace or isolate any module, cable or connector. Victorian guidance treats PV installation and maintenance as electrical installation work (reviewed 15 April 2025). In New South Wales, the government's licence page (last updated 23 June 2026) treats repairing as part of electrical wiring work, which needs a contractor licence or certificate."
+    },
+    {
+      "heading": "Official sources (end of lesson)",
+      "body": "Official sources for this lesson (end): Energy Safe Victoria, Safely installing photovoltaic (PV) systems (page date: Reviewed 15 April 2025); NSW Government (nsw.gov.au), Building and trades licences and credentials: electrical (page date: Last updated 23 June 2026); Standards Australia, AS/NZS 5033: installation of photovoltaic (PV) arrays."
+    }
+  ],
+  "procedure": [
+    "Walk the array from the ground, where access is possible, and record visible damage without climbing onto it.",
+    "Photograph each damaged module, cable or connector with its location marked on a sketch.",
+    "Record any part of the array not visible from the ground as an unknown.",
+    "Do not clean a damaged module, exposed cable or burnt component.",
+    "Stop work near any affected part, keep people and animals clear, and keep spray away.",
+    "Tell the owner in writing, with the photographs and the location, and record the date and the person told.",
+    "Refer the damage to a licensed electrician or the installer, and record the outcome."
+  ],
+  "workedExamples": [
+    {
+      "situation": "During a ground-level inspection, a worker sees a cracked module at the top of the array and a cable hanging loose from a junction box on the lower row.",
+      "decisionPrompt": "What must the worker do, and what can be cleaned?",
+      "reasoning": "Do not clean the cracked module or the row with the loose cable. Photograph both with their positions, and record the unknown parts of the array. Tell the owner in writing and refer the damage to a licensed electrician. Cleaning of undamaged rows can continue only if the owner agrees and the cable is clear of the spray path."
+    },
+    {
+      "situation": "A connector shows a brown, discoloured mark and a faint smell of burning, but the array is otherwise intact.",
+      "decisionPrompt": "Can the clean go ahead on the other rows?",
+      "reasoning": "Stop near the connector, keep the spray away, and do not touch the connector. Record the mark and the smell with the location. Refer the connector to a licensed electrician before any further work near it. Other rows may be cleaned only if the owner agrees and the risk is controlled."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Binoculars or camera for ground-level inspection",
+    "Sketch of the array marking modules, strings and connector positions",
+    "Stop-work and damage report template",
+    "PPE as specified in the job pack, with no contact with exposed or burnt components"
+  ],
+  "commonErrors": [
+    {
+      "error": "Jetting a cracked module to clean it.",
+      "prevention": "Hold the damaged module, record it and report it to the owner."
+    },
+    {
+      "error": "Touching an exposed cable to see if it is live.",
+      "prevention": "Treat it as live, stop, and refer it."
+    },
+    {
+      "error": "Recording a module as sound because it looks clean.",
+      "prevention": "Record only what was seen, and mark the rest as unknown."
+    },
+    {
+      "error": "Citing a clause of AS/NZS 5033 for a cleaning method.",
+      "prevention": "Do not cite clauses until the current edition is confirmed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Energy Safe Victoria guidance (reviewed 15 April 2025) says DC cables can remain live after the supply is switched off. Treat exposed or damaged cables as live.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: This lesson does not grant an electrical licence, solar installation licence or authority to repair, replace or isolate any module, cable or connector. Victorian guidance treats PV installation and maintenance as electrical installation work. New South Wales treats repairing as part of electrical wiring work, which needs a contractor licence or certificate (page last updated 23 June 2026).",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each damaged module, cable or connector is recorded with photographs and its position.",
+    "No damaged or burnt component is cleaned, touched or repaired by a worker.",
+    "Unseen parts of the array are recorded as unknown.",
+    "The owner is told in writing and the referral outcome is recorded."
+  ],
+  "documentationEvidence": [
+    "Inspection record with observed damage and unknowns, separately",
+    "Dated photographs with positions marked on a sketch",
+    "Make and model of the array and the inspection date",
+    "Referral and owner notification record with the outcome"
+  ],
+  "summary": [
+    "Inspect the array from the ground and record what is seen, separately from what is unknown.",
+    "Do not clean, touch or repair a damaged module, exposed cable or burnt connector.",
+    "Stop, photograph, report and refer, and keep the spray away from the fault.",
+    "This lesson grants no authority to repair or replace any module, cable or connector."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:quality.evidence_requirements}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "solar-panel-cleaning-L05-K01",
+      "question": "A cracked module has exposed wiring beside it. What is the correct response?",
+      "options": [
+        "Tape the wiring and keep cleaning the rest of the panels on the roof today to finish the job",
+        "Stop, keep people clear, do not touch, and report to the owner and a licensed electrician",
+        "Clean the cracked glass with a jet to remove the dirt quickly and finish the whole job today",
+        "Remove the module yourself to check the wiring behind it, the frame, the bolts and the rail"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L05-K02",
+      "question": "A connector shows a burnt mark. What is the correct first action?",
+      "options": [
+        "Clean it with the approved product and move on",
+        "Continue cleaning around it and keep the jet moving",
+        "Mark it as an unknown and stop, without touching it",
+        "Pull the connector out to check the burn mark"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L05-K04",
+      "question": "A module is damaged and water is running toward a junction box. What should the worker do?",
+      "options": [
+        "Stop, keep the spray away, and report",
+        "Keep spraying the module to rinse it",
+        "Dry the box by hand",
+        "Continue, because the module is not the box"
+      ]
+    },
+    {
+      "id": "solar-panel-cleaning-L05-K05",
+      "question": "Which record best supports a damage referral?",
+      "options": [
+        "A verbal note given to the owner on the day of the clean at the site and the house",
+        "A dated photograph and written description of the damage, with the owner informed",
+        "Nothing; the customer will remember what was seen on the roof that day",
+        "A quote for replacement of the whole array, the wiring, the inverter and the frame"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "research/topics/solar.md sections 2, 3, 5 and 7 (draft brief, checked 2026-11-02): AS/NZS 5033 edition and clauses UNCONFIRMED",
+    "AS/NZS 5033 store listing, Standards Australia: https://store.standards.org.au/product/as-nzs-5033-2021 (LISTED; store page not read, checked 2026-11-02)",
+    "Energy Safe Victoria, Safely installing photovoltaic (PV) systems: https://www.energysafe.vic.gov.au/industry-guidance/electrical/electrical-technical-information/safely-installing-photovoltaic-pv (READ, checked 2026-11-02)",
+    "research/trades/LICENCE-MATRIX.csv VIC-24 (CONFIRMED), VIC-26 (CONFIRMED), NSW-07 (CONFIRMED), checked 2026-11-02",
+    "solar-panel-cleaning-lesson-05 entries in solar-panel-cleaning-research-pass100.json (PRIOR, draft pending expert review)"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Safely installing photovoltaic (PV) systems",
+      "url": "https://www.energysafe.vic.gov.au/industry-guidance/electrical/electrical-technical-information/safely-installing-photovoltaic-pv",
+      "pageDate": "Reviewed 15 April 2025",
+      "checked": "2026-11-03",
+      "covers": "Energy Safe Victoria PV technical information page; check the Reviewed date shown on the page. Publisher: Energy Safe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Building and trades licences and credentials: electrical",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "nsw.gov.au electrical licence page; check the licence class before any electrical work. Publisher: NSW Government (nsw.gov.au)."
+    },
+    {
+      "id": "R3",
+      "title": "AS/NZS 5033: installation of photovoltaic (PV) arrays",
+      "url": "https://worksafe.nt.gov.au/forms-and-resources/news-and-events/technical-updates/2021/revised-australian-standard-for-solar-pv-installations",
+      "pageDate": "No last-updated date shown; technical update dated 2021 (fetched 2026-11-04)",
+      "checked": "2026-11-03",
+      "covers": "Not yet confirmed. The Standards Australia store page could not be fetched in this session, so the current edition and any cleaning clauses are not confirmed. Publisher: Standards Australia."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "referencesAtEnd": "Official sources for this lesson (end): Energy Safe Victoria, Safely installing photovoltaic (PV) systems (reviewed 15 April 2025); NSW Government (nsw.gov.au), Building and trades licences and credentials: electrical (last updated 23 June 2026).",
+  "images": [
+    {
+      "src": "/academy/library/photos/exterior-cleaning/pressure-photo-39826191-05.jpg",
+      "alt": "Solar panel cleaning illustration",
+      "kind": "photo",
+      "origin": "solar"
+    },
+    {
+      "src": "/academy/library/photos/exterior-cleaning/pressure-photo-39826191-06.jpg",
+      "alt": "Solar panel cleaning illustration",
+      "kind": "photo",
+      "origin": "solar"
+    }
+  ]
+}

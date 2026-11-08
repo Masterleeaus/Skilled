@@ -1,0 +1,31 @@
+{
+  "lessonId": "NEW-FLP-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-FLP-01-K01",
+      "correctIndex": 1,
+      "rationale": "Missing specified parts are recorded and obtained. Nails and substitutes are not used for shelves that will carry load."
+    },
+    {
+      "id": "NEW-FLP-01-K02",
+      "correctIndex": 2,
+      "rationale": "Misalignment usually means a step was missed or a part is wrong. The worker stops and checks."
+    },
+    {
+      "id": "NEW-FLP-01-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says to open the delivery and count the parts against the parts list and the packing list before assembly, and not to assemble from a partial set."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated flat-pack delivery with one missing part, the worker counts the parts against the list, records the missing item and does not substitute."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Delivery check record"
+  ],
+  "stopWorkCriteria": [
+    "A part is missing and substitution is requested",
+    "A part is damaged in a way that affects safe use"
+  ]
+}

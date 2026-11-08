@@ -1,0 +1,212 @@
+{
+  "id": "NEW-APP-03",
+  "title": "Making a machine safe before cleaning: isolation, stored energy and moving parts",
+  "referencesAtStart": "Official references for this lesson: Safe Work Australia, Managing the risks of plant in the workplace (model code of practice) (no date shown; publication date field blank); Electricians (last updated 1 December 2025); Classes of electrical work licences (WorkSafe Queensland) (no date shown).",
+  "courseSlugs": [
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Workers who clean any powered appliance or machine, including dishwashers, fryers, ovens, drum machines, coffee and ice machines, and workshop machines",
+  "prerequisites": [
+    "NEW-APP-02"
+  ],
+  "learningOutcomes": [
+    "Identify the energy sources and moving parts that can stay active on a machine after it is turned off",
+    "Apply the site's isolation procedure before cleaning near powered parts",
+    "Confirm that a machine is off and cannot restart during the clean",
+    "Explain when isolation needs a qualified person, and what to do when no safe isolation point is available"
+  ],
+  "instruction": [
+    {
+      "heading": "Why switching off is not enough",
+      "body": "Turning a machine off with its control switch does not always make it safe. Many machines keep energy in them after the switch is turned off. An electrical capacitor can hold a charge. A water or steam system can stay under pressure. A heated element, a fryer's oil, a dishwasher's rinse water and an oven's walls stay hot for some time. A motor, fan, drum, conveyor, slicer or pump can keep moving while it spins down, and a spring-loaded door or lid can close or swing. A control switch can also fail, be bypassed or be pressed by accident. For these reasons, isolation means removing the supply at a point the machine cannot override, and then confirming the machine is off by a method that does not involve touching live or moving parts. The Safe Work Australia model code on managing risks of plant includes appliances in its definition of plant (no page date shown). The page does not describe isolation or stored energy. The duty to manage those risks applies to the cleaning work, and an isolation step is one of the controls that reduces the risk."
+    },
+    {
+      "heading": "The isolation sequence",
+      "body": "The first step is to switch the machine off using its normal control. The second is to isolate the supply at the isolator, switchboard or plug, as set out in the site's procedure. Where the site provides a lock and tag, apply your own lock and tag to the isolator so that nobody can re-energise the circuit while you work. Where there is no lock, use the site's alternative procedure, such as a notice and a person at the switchboard. The third step is to confirm the machine is off. Look at the display and the indicator lights, and listen for fans or pumps. Do not press start to test the machine. The fourth step is to allow stored energy to dissipate. Let hot surfaces cool and let any pressure or stored water settle, following the manufacturer's sequence. The fifth step is to keep the isolation in place until the cleaning is complete and all people have moved clear of the machine. Only the person who applied the isolation removes it, and only after checking that the machine is clear and that the handover is complete."
+    },
+    {
+      "heading": "When isolation is not safe or not possible",
+      "body": "Some machines have no accessible isolator, the isolator is inside a locked switchboard, or the site procedure requires a qualified person to isolate. In those cases stop. Do not open a switchboard, do not remove a panel to reach a breaker, and do not bridge or defeat an interlock. Record the situation, tell the site contact, and refer the job. Never reset a tripped breaker or safety device to test whether the machine is working. Moving parts such as fans and drums need a second point of control: the power must be off, and the part must be stopped or held before your hands go near it. Guards and covers are not removed to make cleaning easier. If a guard is missing or damaged when you arrive, record it and refer it, because cleaning near an exposed moving part is a risk you should not take."
+    }
+  ],
+  "procedure": [
+    "Confirm from lesson “Identifying the appliance and reading the manufacturer's care instructions” that the machine is not running, and record its state before you start.",
+    "Switch the machine off using the normal control, and wait for any moving part to stop.",
+    "Isolate the supply at the isolator, switchboard or plug as set out in the site's procedure. If the isolator is not accessible or the procedure needs a qualified person, stop and refer the job.",
+    "Apply your own lock and tag if the site provides them, or follow the site's alternative procedure and record the method used.",
+    "Confirm the machine is off by looking at the display and indicator lights and listening for fans or pumps. Do not press start to test it.",
+    "Let hot surfaces cool and let any stored pressure or water settle, following the manufacturer's sequence.",
+    "Keep the isolation in place until the cleaning is complete and the area is clear. Only the person who applied it removes it, after checking the machine is clear.",
+    "Record the isolation method, the time it was applied and removed, and the name of the person who applied and removed it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "You are asked to clean the exterior of a commercial drum washing machine. The machine's display is blank, but the drum is still turning slowly when you arrive, and the isolator is on the wall behind the machine, reachable without moving the machine.",
+      "decisionPrompt": "What is the first step, and when can you start cleaning?",
+      "reasoning": "The drum is still moving, so the machine has not stopped. Do not reach near the drum. Turn the machine off using its normal control, wait for the drum to stop, then isolate the supply at the wall isolator using the site procedure. Confirm the drum has stopped without pressing start. Only then start the external clean, keeping water away from the door lock, control panel and motor vents. Record the isolation and the time."
+    },
+    {
+      "situation": "A fryer's external clean is booked. The isolator for the fryer is inside a locked switchboard, and the site contact says the electrician has the key and is off site until tomorrow.",
+      "decisionPrompt": "Do you clean the fryer today?",
+      "reasoning": "There is no safe isolation point that you can reach under the site procedure, and the procedure requires a qualified person to isolate. Do not open the switchboard and do not clean the fryer near live parts. Record the reason, tell the site contact, and reschedule or refer the job. Do not switch the fryer off at the wall plug while it is hot and holding oil."
+    }
+  ],
+  "equipmentAndPpe": [
+    "The site's isolation procedure and any lock, tag and notice supplied by the site",
+    "Gloves rated for the hot or cold surfaces expected on the machine, as set by the business",
+    "Eye protection and non-slip footwear for the work area"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming a machine is off because the display is blank or the control switch is in the off position.",
+      "prevention": "Isolate at the supply point and confirm stillness by observation and listening. Do not press start to test."
+    },
+    {
+      "error": "Opening a switchboard or removing a panel to find the right breaker.",
+      "prevention": "Do not open switchboards or panels. If the isolator is not accessible, stop and refer."
+    },
+    {
+      "error": "Leaving the machine isolated after the job without telling anyone, so the site staff cannot tell whether it is safe to use.",
+      "prevention": "Record the isolation and its removal, and tell the site contact before you leave."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Isolation reduces the risk of unexpected start-up and stored energy release. It does not replace the site's own isolation and lock-out rules, which govern where they apply.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The plant code page does not cover isolation.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Isolating a fixed electrical installation, switchboard or circuit is regulated electrical work where it goes beyond switching off an accessible isolator under a site procedure. This lesson does not grant a licence to do it. In NSW, an electrical licence is needed before any electrical wiring work, and Queensland's open electrical work licence covers repair of electrical equipment.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The machine is confirmed off and still before any cleaning starts",
+    "Isolation is applied at the isolator or per the site's alternative procedure, and the method is recorded",
+    "No guard, cover or safety device is removed, bypassed or reset"
+  ],
+  "documentationEvidence": [
+    "The isolation method used, and whether a lock, tag or notice was applied",
+    "The times the isolation was applied and removed, and the names of the people involved",
+    "Any situation where isolation was not possible, with the reason and the referral made"
+  ],
+  "summary": [
+    "A machine can hold energy and keep moving after it is switched off.",
+    "Isolate at the supply point using the site procedure, and confirm stillness without pressing start.",
+    "Stop and refer when no safe isolation point is reachable. Never open a switchboard or defeat an interlock."
+  ],
+  "businessFields": [
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-APP-03-K01",
+      "question": "A commercial fryer's control display is blank. Why is this not enough to show that the fryer is safe to clean?",
+      "options": [
+        "A blank display always means the fryer is unplugged, so no stored energy or hot oil can be present",
+        "The display only shows the time, so a blank screen tells you nothing useful about whether the fryer is safe",
+        "Fryers cannot be cleaned while the display is on, so a blank display means the fryer is safe to clean",
+        "Stored heat, oil and energy can remain, and the display does not show isolation at the supply"
+      ]
+    },
+    {
+      "id": "NEW-APP-03-K02",
+      "question": "What is the correct way to confirm that a machine is off before you clean it?",
+      "options": [
+        "Look at the display and indicator lights, listen for fans or pumps, and confirm it has been isolated at the supply",
+        "Press the start button briefly to see whether it responds, then switch it off again once you have confirmed it",
+        "Ask the customer to confirm verbally that it is off, since they operate the machine every day and know its state",
+        "Assume it is off if you turned the control switch off yourself, because the control switch shows the machine status"
+      ]
+    },
+    {
+      "id": "NEW-APP-03-K03",
+      "question": "The isolator is inside a locked switchboard and the site procedure needs a qualified person to isolate. What should you do?",
+      "options": [
+        "Open the switchboard and switch off the nearest breaker to make the machine safe",
+        "Stop, do not open the switchboard, record the reason, and refer the job",
+        "Clean the machine quickly, since it is switched off for now",
+        "Remove the machine's back panel to reach the wiring and isolate it from there"
+      ]
+    },
+    {
+      "id": "NEW-APP-03-K04",
+      "question": "A drum washing machine is still turning slowly when you arrive. What should happen first?",
+      "options": [
+        "Start cleaning the outside of the drum while it turns, since the drum is only slowly moving",
+        "Open the door to see the drum properly, since the drum is easy to check once the door is open",
+        "Turn the machine off with its control, wait until the drum stops, then isolate at the supply",
+        "Reset the drum's speed control so the machine slows down and then stops on its own without isolation"
+      ]
+    },
+    {
+      "id": "NEW-APP-03-K05",
+      "question": "Who removes an isolation from a machine once cleaning is finished?",
+      "options": [
+        "Any worker on the site, after the customer agrees to the removal of the isolation",
+        "The first person who asks for the machine to be switched on again",
+        "The owner, without telling the worker who applied the isolation at all",
+        "Only the person who applied the isolation, after checking the machine is clear"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references (repeated for the end of the lesson): Safe Work Australia, Managing the risks of plant in the workplace (model code of practice) (no date shown; publication date field blank); Electricians (last updated 1 December 2025); Classes of electrical work licences (WorkSafe Queensland) (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/doc/model-code-practice-managing-risks-plant-workplace (checked 2026-11-02; page undated; defines plant to include appliances; isolation section not seen on the page)",
+    "Lock-out and isolation requirements for Australian plant: UNCONFIRMED in this draft (see research brief section 7)",
+    "/home/claude/work/team/research-topics/appliance.md sections 3 and 7"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Managing the risks of plant in the workplace (model code of practice)",
+      "url": "https://www.safeworkaustralia.gov.au/doc/model-code-practice-managing-risks-plant-workplace",
+      "pageDate": "No date shown (publication date field blank)",
+      "checked": "2026-11-03",
+      "covers": "Its definition of plant includes appliances. The page does not cover isolation or stored energy; check the state or territory WHS authority. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "Electricians",
+      "url": "https://www.nsw.gov.au/housing-and-construction/compliance-and-regulation/electricians",
+      "pageDate": "Last updated 1 December 2025",
+      "checked": "2026-11-03",
+      "covers": "An electrical licence is needed before any electrical wiring work. Building Commission NSW manages the licence. Publisher: NSW Government (Building Commission NSW)."
+    },
+    {
+      "id": "R3",
+      "title": "Classes of electrical work licences",
+      "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/electrical-licences/classes-of-licences",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Six licence classes. The open electrical work licence can repair electrical equipment. The page does not name the administering body. Publisher: WorkSafe Queensland."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-05.jpg",
+      "alt": "Specialty appliance and machine cleaning illustration",
+      "kind": "photo",
+      "origin": "appliance"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-06.jpg",
+      "alt": "Specialty appliance and machine cleaning illustration",
+      "kind": "photo",
+      "origin": "appliance"
+    }
+  ]
+}

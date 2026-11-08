@@ -1,0 +1,180 @@
+{
+  "id": "CPV-08",
+  "title": "Validation reports, records and revalidation after change",
+  "courseSlugs": [
+    "appliance",
+    "aquarium",
+    "beauty",
+    "bond",
+    "cardetail",
+    "carpet",
+    "commercial",
+    "construction",
+    "deck",
+    "dogwalk",
+    "flatpack",
+    "furniture",
+    "garden",
+    "groom",
+    "hair",
+    "handyman",
+    "hardfloor",
+    "healthcare",
+    "irrigation",
+    "landscaping",
+    "lawn",
+    "locksmith",
+    "massage",
+    "medequip",
+    "painting",
+    "petsit",
+    "plastering",
+    "pond",
+    "pool",
+    "portfolio",
+    "postcon",
+    "pressure",
+    "pt",
+    "residential",
+    "roof",
+    "shortstay",
+    "solar",
+    "stone",
+    "strata",
+    "tiling",
+    "timber",
+    "window",
+    "yoga"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Quality leads who write validation reports, keep cleaning records and decide when a validation must be repeated.",
+  "prerequisites": [
+    "CPV-02",
+    "CPV-06"
+  ],
+  "learningOutcomes": [
+    "State what a validation report must conclude, including its limitations.",
+    "Explain why cleaning and use records are written as the work happens.",
+    "Identify the changes that trigger a review or repeat of a validation.",
+    "Explain why a non-sterile process may need a data review rather than a full repeat."
+  ],
+  "instruction": [
+    {
+      "heading": "The report reaches a verdict",
+      "body": "A validation study closes with a final report, approved by management, that states whether the method passed validation. The evidence must show that residues were brought down to a tolerable amount. The report also records the limits governing the method, such as the analytical floor below which cleanliness cannot be judged. A report that lists figures without reaching a verdict is incomplete, and a report that claims more validity than the data show is wrong."
+    },
+    {
+      "heading": "Records made as the work happens",
+      "body": "The cleaning record is completed while the cleaning takes place, showing what was done, when, by whom and with which agent. The guide expects these logs to be kept for each event as it occurs. An entry written later from memory, or filled in ahead of time, does not show what was done. Each record links the cleaning to the job, batch or run it followed, so a result can be traced back."
+    },
+    {
+      "heading": "Review or repeat after a change",
+      "body": "A validation does not last forever. The guide expects a review, and sometimes a repeat, whenever equipment, product, cleaning agent, procedure or analytical method changes. For a non-sterile process run on standard plant, a review of existing data may give enough assurance that control is maintained, provided the sanitation regime remains suitable. A change of cleaning agent or procedure usually calls for a fresh look at residues and their limits. Every change is logged, and the decision to review or repeat is signed."
+    }
+  ],
+  "procedure": [
+    "Write the conclusion of the study: valid or not valid, with the data that support it.",
+    "State the boundaries of the method once validated, including its analytical floor.",
+    "Record each cleaning event at the time it happens, with the agent and the person.",
+    "List each planned change and decide whether it needs a review or a repeat.",
+    "Sign the decision and file it with the validation record."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A commercial kitchen changes from one detergent to a new detergent with a different sanitiser. The validated method was written for the old products.",
+      "decisionPrompt": "Does the change need a review, a repeat, or nothing?",
+      "reasoning": "Because the agent and the procedure both change, the residue limits and the rinse need a data-based review. Whether a repeat is needed is decided by the reviewer, and the decision, the data and the sign-off are recorded before the new products are used."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Validation report template",
+    "Equipment cleaning log for each event",
+    "Change control record"
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing a report that lists results but gives no conclusion.",
+      "prevention": "State whether the process is valid, and why, in the report."
+    },
+    {
+      "error": "Completing cleaning records after the shift from memory.",
+      "prevention": "Record each event at the time it happens."
+    },
+    {
+      "error": "Changing a cleaning agent without a review.",
+      "prevention": "Record each change and decide on review or repeat before the change is used."
+    },
+    {
+      "error": "Claiming validity beyond the method's limits.",
+      "prevention": "State the analytical limits and the conditions under which the conclusion holds."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Use the practice content only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pharmaceutical validation reports are regulated documents for medicines makers. This lesson does not grant any licence or authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The report states valid or not valid and gives the limitations.",
+    "Each cleaning event is recorded at the time it happens.",
+    "Each change is reviewed, and the decision is signed."
+  ],
+  "documentationEvidence": [
+    "Approved validation report with conclusion and limitations.",
+    "Cleaning log entries written as each event occurs.",
+    "Change record with the review or repeat decision and sign-off."
+  ],
+  "summary": [
+    "The report states the conclusion and its limits.",
+    "Record each cleaning event when it happens.",
+    "Review or repeat the validation after any change to equipment, product, agent, procedure or method.",
+    "A non-sterile process may need a data review rather than a full repeat, if its hygiene programme is still appropriate."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "CPV-08-K01",
+      "question": "What must a validation report state?",
+      "options": [
+        "Only the number of pages and the font size and the paper colour used",
+        "The names of products sold last month and the staff who sold them",
+        "Whether the process passed validation, and the limits that apply",
+        "Nothing about results, only signatures and the date of the next visit"
+      ]
+    },
+    {
+      "id": "CPV-08-K02",
+      "question": "When is a revalidation or review considered?",
+      "options": [
+        "Only when a customer complains and then only when a manager asks",
+        "Only after the method has been used for a full year and the staff agree",
+        "Every day before the shift and at the start of every week",
+        "After a change to equipment, product, agent, procedure or method"
+      ]
+    },
+    {
+      "id": "CPV-08-K03",
+      "question": "Why must cleaning records be made when the cleaning happens?",
+      "options": [
+        "So they show what was actually done, when, and by whom",
+        "So they can be typed up from memory after the shift",
+        "Because blank forms are required by the lab each day",
+        "So the cleaner can avoid signing the record each day"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Processes and Cleaning Validation, Guidance Document SGD-105-CLN Rev. 10 (Validation in Partnership Ltd, 25 May 2007; pharmaceutical and biological CGMP with US and EU references, not Australian), sections: 6.11 Cleaning Validation Reports (conclusion, limitations, management approval); 5.6 Cleaning Records; 6.2 Equipment Cleaning and Use Record; 6.6 Re-validation (lower priority for non-sterile processes); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Pharmaceutical scope; Australian record-keeping and revalidation rules UNCONFIRMED. Cross-checked against kitchen-cleaning-L11 (verification records made at the time) for the Australian practice position."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

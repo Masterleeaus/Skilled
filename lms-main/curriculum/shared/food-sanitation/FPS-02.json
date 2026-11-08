@@ -1,0 +1,160 @@
+{
+  "id": "FPS-02",
+  "title": "Choosing a sanitiser for food-contact and processing surfaces",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and supervisors who select or use sanitisers on food-contact or plant surfaces.",
+  "prerequisites": [
+    "C04-L01",
+    "F03-L02"
+  ],
+  "learningOutcomes": [
+    "Explain why a sanitiser cannot work on a surface that still carries food soil.",
+    "Name the main classes of sanitiser and state where each one is unsuitable.",
+    "Apply the selection factors of contact time, temperature, organic load, pH, surface compatibility and cost.",
+    "Choose a product only from the label and the site's approved list, not from habit."
+  ],
+  "instruction": [
+    {
+      "heading": "What a sanitiser does and does not do",
+      "body": "Sanitising lowers the count of microorganisms on a surface that has already been cleaned. It is a second step, not a replacement for cleaning. Soil acts as a shield: when a sanitiser meets fat, protein or mineral deposits, it is used up on that material and reaches fewer microorganisms. Sanitising is also not a substitute for pest control. A surface that is sanitised while pests remain active can be re-contaminated soon afterwards, so the pest question is settled first (see “Pest control principles for food plants, stores and food-service zones”)."
+    },
+    {
+      "heading": "Classes of sanitiser and where they fit",
+      "body": "The main classes are the halogens, a group that includes chlorine, bromine and iodine, plus phenol-based products and quaternary ammonium compounds. Chlorine-based products are among the most widely used in food settings. Iodine-based products can stain belts and other absorbent materials. Phenol-based products should not be used in food processing areas, because their odour can pass into food and the strong smell can hide whether a room has actually been cleaned. Quaternary ammonium compounds have a place in food processing, but their cost usually limits how much they are used."
+    },
+    {
+      "heading": "Five selection factors and surface compatibility",
+      "body": "Choose a sanitiser by weighing five factors. The first is contact time: if an item will be soaked, the speed of action matters less than the total time in contact. The second is temperature: chlorine becomes less effective as the temperature rises. The third is organic load: a surface with much food residue uses up the sanitiser on the residue. The fourth is acidity: chlorine works better when the solution is more acidic. The fifth is price, which limits how much of a sanitiser a site can use. Compatibility with the surface sits beside these factors. Chlorine in high concentration forms an acid in solution and can pit stainless steel over time, so the surface material decides how strong the solution can be. Mineral deposits and milkstone also block a sanitiser from reaching the microorganisms beneath, so they are removed first."
+    }
+  ],
+  "procedure": [
+    "Confirm the cleaning step is finished and no visible soil remains.",
+    "Read the label and the SDS for the candidate sanitiser, and check that it is on the site's approved list.",
+    "Confirm the surface material is compatible with the sanitiser and its concentration.",
+    "Check the temperature the sanitiser will be used at and whether the label sets a limit.",
+    "Set the contact time from the label and time it with a timer.",
+    "Record the product, the concentration, the contact time and the surface treated."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A bakery wants one sanitiser for stainless steel bench tops and a rubber conveyor belt. A worker proposes using the strongest product in the store for both.",
+      "decisionPrompt": "What decides whether the one product is suitable?",
+      "reasoning": "The team checks the label for each surface, the contact time, and whether the product stains or attacks the belt material. If one product is not confirmed for both surfaces, separate products are used and the label governs each."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Product label and SDS for each sanitiser in use",
+    "Site approved product list",
+    "Timer for the contact time",
+    "Gloves and eye protection as the SDS directs",
+    "Colour-coded tools kept for each zone"
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing the strongest product for every surface.",
+      "prevention": "Match the product to the surface material, the label and the approved list."
+    },
+    {
+      "error": "Applying a sanitiser over visible food soil.",
+      "prevention": "Clean first, confirm no soil is visible, then sanitise."
+    },
+    {
+      "error": "Assuming a stronger solution works faster or better.",
+      "prevention": "Use the label concentration. The label governs strength and contact time, not guesswork."
+    },
+    {
+      "error": "Using a phenol-based product in a food processing area.",
+      "prevention": "Do not use phenol-based products in food areas unless the approved list and label confirm it is permitted."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Mixing sanitisers with each other or with detergent residues can release hazardous gases or cause reactions. Never mix products; see “Never mix incompatible products”.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chlorine-based and other sanitisers can irritate the eyes, skin and airways. Ventilate the area and follow the SDS for protective equipment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The lesson does not confirm that any named product is permitted.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Cross-checked against “Food-contact cleaning and sanitising workflow” and “Choosing approved products and prohibited chemicals”, which both state that the label governs concentration and contact time. Where the US source gives a figure, the label figure is used instead.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The surface is clean, with no visible soil, before the sanitiser is applied.",
+    "The product is on the approved list and matches the surface material.",
+    "Label concentration and full contact time are used, timed with a timer.",
+    "The product, concentration and contact time are recorded."
+  ],
+  "documentationEvidence": [
+    "Product name, concentration, contact time and surface treated.",
+    "The approved-list check for the product.",
+    "Any surface that was not compatible and what was done instead."
+  ],
+  "summary": [
+    "A sanitiser works only on a clean surface.",
+    "Choose by label, surface material, contact time, temperature, organic load, pH and cost.",
+    "Stronger does not mean better; the label governs strength.",
+    "Do not use phenol-based products in food processing areas."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "FPS-02-K01",
+      "question": "A sanitiser is applied to a surface that still shows a visible food film. What is the likely result?",
+      "options": [
+        "The sanitiser has less effect, because the soil shields microorganisms",
+        "The sanitiser works faster because it has more to act on",
+        "No effect at all, because sanitisers only work on wet surfaces",
+        "The sanitiser removes the soil itself before anyone wipes the surface"
+      ]
+    },
+    {
+      "id": "FPS-02-K02",
+      "question": "What happens to chlorine's effectiveness as the temperature rises?",
+      "options": [
+        "It becomes more effective",
+        "It becomes less effective",
+        "Heat has no effect at all",
+        "Only cold water is ever used"
+      ]
+    },
+    {
+      "id": "FPS-02-K03",
+      "question": "Why should high chlorine concentrations be avoided on stainless steel?",
+      "options": [
+        "They make the steel magnetic",
+        "They coat the steel in a layer of acid",
+        "They can pit the surface over time",
+        "They remove the stainless finish in one use"
+      ]
+    },
+    {
+      "id": "FPS-02-K04",
+      "question": "What does the lesson say sanitising is?",
+      "options": [
+        "A replacement for cleaning",
+        "A step done before soil is removed",
+        "Only a colour change on the surface",
+        "A second step after cleaning, not a replacement for it"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning, Sanitizing, and Pest Control in Food Processing, Storage and Service Areas (University of Georgia Cooperative Extension, Bulletin 927, reprinted June 1999; US source, not Australian), sections: Definitions, Sanitize (selection factors and classes), and Calculation (label-based strength); rights: user-held; reworded (no copying); checked 2026-11-02",
+    "Cross-checked against C04-L01 and HCG-08 (label governs concentration and contact time); Australian product approval UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

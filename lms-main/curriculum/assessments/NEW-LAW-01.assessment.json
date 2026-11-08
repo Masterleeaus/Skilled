@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-LAW-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-LAW-01-K01",
+      "correctIndex": 1,
+      "rationale": "Scalping a stressed lawn or setting the lowest height removes too much leaf and weakens the turf. Raising the height and lowering it gradually, with stress signs recorded, is the correct approach."
+    },
+    {
+      "id": "NEW-LAW-01-K02",
+      "correctIndex": 2,
+      "rationale": "A sharp blade cuts cleanly. A blunt blade tears the leaf, leaving brown edges and extra stress."
+    },
+    {
+      "id": "NEW-LAW-01-K03",
+      "correctIndex": 0,
+      "rationale": "Mowing up and down a slope can tip the machine. The safe method is across the face where stable, and stopping when the machine is unsafe."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied mock lawn card with a species description, the learner names the most likely turf type or records the uncertainty, and states the height they would set and why, within the assessor's set time.",
+    "The learner walks a supplied mock lawn, identifies at least two signs of stress from a supplied list, and records them on the job sheet.",
+    "The learner completes a pre-mow check on a supplied mock mowing zone, removing the simulated hazards before the mower starts."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed species and height record for the mock lawn, signed by the assessor.",
+    "Assessor observation record of the stress-sign walk.",
+    "Pre-mow hazard check record for the mock zone."
+  ],
+  "stopWorkCriteria": [
+    "Mowing the simulated zone with a person or pet inside it.",
+    "Mowing up and down the simulated slope with the mower the assessor has identified as unstable.",
+    "Clearing a simulated blockage without switching off the mower."
+  ]
+}

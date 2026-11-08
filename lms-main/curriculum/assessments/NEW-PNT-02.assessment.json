@@ -1,0 +1,41 @@
+{
+  "lessonId": "NEW-PNT-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-PNT-02-K01",
+      "correctIndex": 1,
+      "rationale": "The data sheets are checked for compatibility. An old gloss finish can stop a water-based topcoat from bonding, so a bonding primer, scuff and clean, or a test patch may be needed."
+    },
+    {
+      "id": "NEW-PNT-02-K02",
+      "correctIndex": 2,
+      "rationale": "Rough and porous surfaces take more paint than smooth ones, so the coverage figure needs an allowance for the surface type."
+    },
+    {
+      "id": "NEW-PNT-02-K03",
+      "correctIndex": 0,
+      "rationale": "The coverage figure is the area one litre covers at the stated film thickness, which is why the film thickness is part of the figure."
+    },
+    {
+      "id": "NEW-PNT-02-K04",
+      "correctIndex": 1,
+      "rationale": "Application conditions such as temperature, humidity and sun affect drying and film quality, so the data sheet limits are checked before painting."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated substrate and the data sheets for a primer and topcoat, the worker selects a compatible system, states the data sheet reference for each layer, and identifies any layer that needs a test patch.",
+    "Given a simulated room with stated dimensions and openings, the worker calculates the area, the litres needed from the coverage figure, the allowance, and the container size, and shows the working. The assessor checks the arithmetic against the stated figures.",
+    "The worker records the application conditions and the recoat window for the simulated job, and states whether the planned conditions are inside the data sheet limits."
+  ],
+  "passRule": "Pass when all three practical criteria are observed or checked against the assessor's figures, with a compatible system chosen and the arithmetic correct within the stated allowance, and no stop-work criterion met. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Paint system record with product names, batch numbers (simulated where needed) and data sheet references",
+    "Quantity estimate showing area, coats, coverage figure and allowance",
+    "Application record with the conditions and recoat window"
+  ],
+  "stopWorkCriteria": [
+    "The data sheets show that the layers are incompatible, and the worker proceeds anyway",
+    "The worker applies paint outside the stated conditions",
+    "The worker recoats before the data sheet's recoat window has passed"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "pass": 21,
+  "changes": [
+    "integration API returns externalUserRef rather than internal learnerId",
+    "dependency-free integration regression script"
+  ],
+  "tests": {
+    "integration_contract": "11/11 passed",
+    "migration_structural": "0 errors, 1 warning",
+    "typescript_compile": "blocked: npm offline cache missing @prisma/client",
+    "postgresql": "not run"
+  }
+}

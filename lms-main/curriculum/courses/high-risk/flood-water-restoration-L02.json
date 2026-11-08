@@ -1,0 +1,144 @@
+{
+  "id": "flood-water-restoration-L02",
+  "title": "Floodwater origin and contamination screening",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and water-removal work after a flood or water event. Not a qualification or authority to enter a flood-affected building, energise its systems, or certify it as dry, safe or habitable.",
+  "prerequisites": [
+    "flood-water-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Explain why water appearance cannot prove biological safety, and record contamination as an uncertainty until it is classified by a competent person."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how to screen floodwater and debris for contamination, and how to record the uncertainty until a competent person classifies it. It does not classify water from its look or smell, and it gives no treatment method. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "Floodwater origin and contamination screening",
+      "body": "Water appearance cannot prove that the water is biologically safe. Consider the possible sources of contamination before selecting a work scope: sewage entry, outdoor floodwater, chemical release, the time since the intrusion and the risk of cross-contamination. Produce a contamination uncertainty log. Do not assign a contamination category on the basis of odour or colour. Treat unknown contamination as a stop-work concern and refer its classification to competent personnel. Pass the observations, the uncertainties and the next authorised decision to the receiving supervisor."
+    }
+  ],
+  "procedure": [
+    "Stop work in any area where the contamination is unknown.",
+    "Record the water source, the time since the intrusion and any sewage indicators.",
+    "Log each owner or witness statement as an uncertainty, not as a classification.",
+    "Do not classify contamination from odour or colour.",
+    "Refer the classification to a competent person in writing.",
+    "Pass the observations, the uncertainties and the next decision to the receiving supervisor."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Floodwater looks clear and has no unusual smell, and the owner says it is clean river water.",
+      "decisionPrompt": "Can the water be treated as safe?",
+      "reasoning": "No. Appearance and smell cannot prove biological safety. Record the owner's statement as an uncertainty, consider the water source and the time since the intrusion, and refer the classification to a competent person."
+    },
+    {
+      "situation": "A crew finds a sewage line on the lower wall after a flood and a strong smell from the wet carpet.",
+      "decisionPrompt": "What should happen?",
+      "reasoning": "Stop in that area. Record the sewage indicators and the carpet condition, and refer for classification. Do not begin the carpet removal until the referral is answered."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Gloves, enclosed footwear and eye protection for screening, selected from the site hazard assessment."
+  ],
+  "commonErrors": [
+    {
+      "error": "Classifying water as clean because it looks clear.",
+      "prevention": "Record contamination as uncertain and refer the classification."
+    },
+    {
+      "error": "Accepting the owner's word as the classification.",
+      "prevention": "Record the statement as an uncertainty, not a result."
+    },
+    {
+      "error": "Ignoring the water source and the time since the intrusion.",
+      "prevention": "Record the source and the time, and include them in the referral."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Flood clean-up may involve sewage and contaminated water. NSW guidance lists sewage containing harmful bacteria that may have overflowed inside a building.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not classify water and gives no treatment method. Completing it does not give a licence, certificate or approval.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner records contamination as uncertain until a competent person classifies it.",
+    "The learner does not classify water from appearance or odour."
+  ],
+  "documentationEvidence": [
+    "Contamination uncertainty log with source, indicators, statements and the referral.",
+    "Handover to the receiving supervisor."
+  ],
+  "summary": [
+    "Appearance and smell do not prove safety.",
+    "Unknown contamination stops work.",
+    "Classification comes from a competent person."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "flood-water-restoration-L02-K01",
+      "question": "Floodwater looks clear and has no odour, and the owner says it is clean river water. What is the correct response?",
+      "options": [
+        "Record the owner's statement as an uncertainty and refer the classification to a competent person.",
+        "Treat it as safe, because it looks clean and the water has no smell at all in the room today",
+        "Treat it as safe if the owner signs a statement, since the owner knows where the water came from"
+      ]
+    },
+    {
+      "id": "flood-water-restoration-L02-K02",
+      "question": "Which hazard does NSW flood clean-up guidance list?",
+      "options": [
+        "Sewage containing harmful bacteria that may have overflowed inside a building",
+        "Only dust from dried mud",
+        "No biological hazard once the water has drained"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR06-flood-water-restoration.json, instruction section 2 and learning outcome 2; first knowledge check HR06-K02. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: flood-water-restoration-lesson-02-instruction-pass68.json; flood-water-restoration-lesson-02-research-pass67.json; flood-water-restoration-lesson-02-assessment-pass69.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: contamination categories and the qualifications of the competent person who classifies water. No official classification is given in this lesson.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "SafeWork NSW media release: urges workplaces to beware of hazards as flood cleanup begins",
+      "url": "https://www.safework.nsw.gov.au/news/safework-media-releases/safework-nsw-urges-workplaces-to-beware-of-hazards-as-flood-cleanup-begins",
+      "pageDate": "29 May 2025 (publication and modified date)",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Flood clean-up hazards include contaminated water, sewage containing harmful bacteria that may have overflowed inside a building, broken glass and debris, damaged electricity supplies, asbestos, wet, slippery and unstable surfaces, and wild animals. Buildings built before 1990 are likely to contain asbestos. Workers should take regular rest breaks to manage fatigue. Damaged gas and electrical appliances should be avoided until an electrician or plumber declares them safe. The release strongly recommends a licensed asbestos removalist for asbestos work. NSW guidance only."
+    },
+    {
+      "id": "R2",
+      "title": "Floods (extreme weather)",
+      "url": "https://www.comcare.gov.au/safe-healthy-work/prevent-harm/extreme-weather/floods",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Flood clean-up dangers include asbestos, flooded sewerage, toxic chemicals, bacteria and pollutants. Clean-up duties: electricity clearance has been given before attempting to use the electricity; any hazardous chemicals or likely asbestos-containing materials are identified; everyone involved is briefed on hazards and precautions, including PPE; first aid, clean drinking water and hand hygiene measures are available. Clean-up PPE listed: rubber-soled shoes, gloves, hats, sunscreen, sun protective clothing and high visibility vests. Commonwealth (Comcare) guidance."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a flood-affected building, to carry out regulated flood restoration, to energise or isolate electrical, gas or solar systems, to remove sewage or contaminated water, to dispose of waste, or to certify that a property is dry, hygienic, structurally sound or safe to occupy. Completing this lesson does not give a licence, certificate or approval. Some of the work described is restricted to licensed, authorised or specially trained people, including electrical and gas work, structural assessment, sewage handling and some disposal. The site controller, the owner, the insurer and the competent professionals each hold separate decisions, and none of them replaces the others. Where the controlling authority or the competent professional is not identified, stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever any of these is true: permission to enter or written safety clearance is missing; the contamination is unknown; a structural hazard, a slip or a confined space has not been cleared; an electrical, gas or solar system is water-exposed or has not been licensed for re-energisation; an exposure has occurred or controls are not in place; the equipment or operators are not suitable; porous material is in question; hidden microbial contamination is suspected; a waste route is not yet known; or a party asks for a dry, hygienic or occupancy statement. A stop-work decision is correct. Record it, and restart only after the competent party has confirmed the scope in writing."
+  }
+}

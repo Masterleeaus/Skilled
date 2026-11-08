@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+const read = p => readFileSync(new URL(p, import.meta.url), 'utf8');
+const api = read('../src/modules/curriculum/integration.routes.ts');
+const provision = read('../prisma/provision-titan-integration.ts');
+const schema = read('../prisma/schema.prisma');
+const migration = read('../prisma/migrations/20261102190000_academy_identity_tenant_scope/migration.sql');
+assert.match(api, /identity\.companyId !== company\.id/);
+assert.match(api, /service: service\.caller, externalUserRef/);
+assert.match(provision, /companyId: company\.id/);
+assert.match(provision, /existing\.companyId !== company\.id/);
+assert.match(schema, /companyId String\?/);
+assert.match(migration, /ADD COLUMN "organisationId" TEXT/);
+console.log('6 tenant identity source-contract assertions passed');

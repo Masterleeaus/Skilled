@@ -1,0 +1,191 @@
+{
+  "id": "F13-L05",
+  "title": "Waste segregation and wastewater",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Chemicals and materials",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Any worker who handles, separates or disposes of waste and wash water from a job in any Titan Academy business.",
+  "prerequisites": [
+    "F03-L04"
+  ],
+  "learningOutcomes": [
+    "Separate waste into general, recycling, sharps and hazardous streams as the site and the rules require.",
+    "Describe the points to check before wash water or product residue is discharged.",
+    "Identify when waste must be referred to a specialist or to the customer's own disposal route."
+  ],
+  "instruction": [
+    {
+      "heading": "Waste streams",
+      "body": "Waste from service work usually falls into several streams: general waste, recycling, green or garden waste, sharps, hazardous product residue and empty chemical containers, and wash water. Each stream has its own container, colour and disposal route set by the site, the council and the state or territory. Keep the streams separate so that hazardous material does not end up in general waste or recycling. Do not put sharps, chemical containers or liquids in general waste bins, and do not overfill bags."
+    },
+    {
+      "heading": "Wash water and discharge",
+      "body": "Wash water from cleaning can carry product residue, oils, soil and detergent. Whether that water may go to a drain, a sewer, a stormwater drain or a garden depends on the rules of the council, the water authority and the state or territory. In many places, discharge to a stormwater drain is not allowed, and discharge to a sewer may need approval. Where there is no approved route, collect the water and refer it to the supervisor."
+    },
+    {
+      "heading": "Specialist and customer waste",
+      "body": "Some waste, such as contaminated material from a spill, unidentified residue, sharps found on a site or large quantities of a product, must go to a specialist or to a disposal route approved by the customer and the business. Do not take such waste home or put it in a customer's bin unless the procedure allows it. Record what the waste is, how much there is, where it was put and who received it."
+    }
+  ],
+  "procedure": [
+    "Sort waste at the point of generation into the correct stream.",
+    "Seal full bags and keep them out of the work area.",
+    "Do not place sharps, chemical containers or liquids in general waste.",
+    "Check the discharge rules for the location before discharging wash water.",
+    "Collect wash water where no approved discharge route exists, and refer it.",
+    "Record specialist or hazardous waste, its quantity and the route used."
+  ],
+  "workedExamples": [
+    {
+      "situation": "At the end of a kitchen clean you have a bucket of degreaser wash water and an empty product container.",
+      "decisionPrompt": "Where do they go?",
+      "reasoning": "Do not pour the wash water down the outside drain without checking the location's rules. Use the approved route, which may be collection or the sewer where allowed. Dispose of the empty container in the designated chemical waste route, and do not put it in general waste or recycling."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Labelled waste streams and containers",
+    "Sealed bags",
+    "Protective equipment named in the SDS for the residue",
+    "Collection container for wash water"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pouring wash water into a stormwater drain.",
+      "prevention": "Check the discharge rules before using any drain, and collect where no route is approved."
+    },
+    {
+      "error": "Putting chemical containers or sharps in general waste.",
+      "prevention": "Use the designated hazardous or sharps stream."
+    },
+    {
+      "error": "Taking a customer's hazardous waste home.",
+      "prevention": "Refer hazardous waste to the approved route and record it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Transport permission threshold: under Victorian rules, reportable priority waste needs a permit (A10a, for high-risk waste) or a registration (A10b, for other reportable priority waste) before it is transported. The duty does not apply only to a net load of less than 50 kilograms or litres moved for no reward or fee. A larger load, or any load moved for a reward or fee, needs the permit or registration. This lesson does not grant either one.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Wastewater and trade waste discharge rules are set by councils, water authorities and state or territory laws.",
+      "licenceNotice": false
+    },
+    {
+      "point": "In Victoria, transporting reportable priority waste needs permission from EPA Victoria: a permit for high-risk reportable priority waste, or a registration for other reportable priority waste. The duty does not apply to a net load of less than 50 kilograms or litres carried for no reward or fee. This lesson grants no permit or registration to transport such waste, so check that any transporter you use holds the required permission.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Waste is sorted into the correct streams at the point of generation.",
+    "No wash water is discharged to a drain without confirming the route.",
+    "Specialist or hazardous waste is recorded with its quantity and route."
+  ],
+  "documentationEvidence": [
+    "Waste record for hazardous or specialist waste, with quantity, route and receiver.",
+    "Record of any wash water collected and where it was taken."
+  ],
+  "summary": [
+    "Keep waste streams separate and out of general bins.",
+    "Confirm the discharge route for wash water before using any drain.",
+    "Refer hazardous and specialist waste to an approved route and record it."
+  ],
+  "businessFields": [
+    "{{business:materials.waste_procedure}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:materials.sds_links}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F13-L05-K01",
+      "question": "Where should an empty chemical container go?",
+      "options": [
+        "General waste bin, lid closed",
+        "The recycling bin without rinsing.",
+        "The designated chemical waste route."
+      ]
+    },
+    {
+      "id": "F13-L05-K02",
+      "question": "Before discharging wash water to a drain, what should you do?",
+      "options": [
+        "Check the discharge rules for the location and collect if no route is approved.",
+        "Discharge it straight away into the drain, since it is clean and cool",
+        "Pour it onto the garden bed near the house wall, the lawn and the path"
+      ]
+    },
+    {
+      "id": "F13-L05-K03",
+      "question": "What does the lesson say about discharging wash water to a stormwater drain?",
+      "options": [
+        "It is always allowed",
+        "In many places it is not allowed",
+        "It needs no check of the rules",
+        "It is required for all wash water"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (Safe Work Australia, no page date shown; checked 2026-11-02; waste from chemical use is covered by the register)",
+    "Wastewater and trade waste rules are UNCONFIRMED in this lesson; the lesson makes no specific council or water authority claim."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Duty of persons transporting reportable priority waste (EPA Victoria)",
+      "url": "https://www.epa.vic.gov.au/duty-persons-transporting-reportable-priority-waste",
+      "pageDate": "Last updated on 28 October 2024 (page shows 'Updated 28 October 2024'; no other date shown)",
+      "checked": "2026-11-03",
+      "covers": "Says a person transporting reportable priority waste must have the appropriate permission: a permit for high-risk reportable priority waste (A10a) or a registration for other reportable priority waste (A10b). Says the duty does not apply to a net load of less than 50 kilograms or litres transported for no reward or fee. Says a person who causes or permits such transport must ensure the transporter holds the permission. The page was last updated on 28 October 2024. Publisher: EPA Victoria."
+    }
+  ]
+}

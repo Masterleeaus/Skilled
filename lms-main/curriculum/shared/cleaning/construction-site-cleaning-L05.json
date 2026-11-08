@@ -1,0 +1,139 @@
+{
+  "id": "construction-site-cleaning-L05",
+  "title": "Dust suppression and extraction",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Revenue and growth",
+  "layer": "group",
+  "lessonType": "RH",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and supervisors choosing dust-suppression and extraction methods on construction and post-construction sites.",
+  "prerequisites": [
+    "construction-site-cleaning-L04"
+  ],
+  "learningOutcomes": [
+    "Compare wet methods, site-approved on-tool extraction and hazard-appropriate industrial vacuums.",
+    "Identify the runoff, electrical and slip hazards that wet methods introduce.",
+    "Reject equipment that is not approved for the hazard, and obtain a documented alternative."
+  ],
+  "instruction": [
+    {
+      "heading": "Choosing from the site risk assessment",
+      "body": "The dust control is selected from the documented site risk assessment and the equipment instructions. A general rule that a HEPA filter is safe is not a basis for choosing equipment. The hazard, the material and the jurisdiction determine what is suitable. Filtration, seal integrity, maintenance and waste handling all vary, so the equipment must be the kind that the risk assessment names."
+    },
+    {
+      "heading": "Wet methods and their side effects",
+      "body": "Compatible controlled wet methods can reduce dust, but they introduce other hazards. Water on the floor creates slip risk. Water near electrical equipment creates an electrical hazard. Runoff can carry contamination into drains and onto neighbouring property, and water can damage some materials. Plan the route of the runoff and the protections that stop it leaving the work area, before the water is used."
+    },
+    {
+      "heading": "Extraction equipment",
+      "body": "Industrial vacuums and on-tool extraction need the right filtration for the material, intact seals, and maintenance records. A household canister vacuum with a new HEPA filter but no approval for silica is rejected for the task. Never empty a suspected hazardous-dust collector unless you have the approved training and the approved method for it. Obtain a documented suitable alternative from the responsible supervisor."
+    },
+    {
+      "heading": "Choosing and recording",
+      "body": "Compare the equipment against the risk assessment, check the evidence that the equipment is approved for the material, quarantine any item that is not approved, and record the water protections in place. Keep the choice and the reason on the job record."
+    }
+  ],
+  "procedure": [
+    "Identify the control method from the documented site risk assessment and equipment instructions.",
+    "Compare wet methods, approved on-tool extraction and approved industrial vacuums.",
+    "Plan the runoff route and the protections before any water is used.",
+    "Reject any equipment not approved for the material, and quarantine it.",
+    "Obtain a documented alternative from the responsible supervisor.",
+    "Record the method, the equipment, the approval and the water protections."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An old canister vacuum has a newly fitted HEPA filter but no manufacturer approval for silica dust.",
+      "decisionPrompt": "Can you use it for the task?",
+      "reasoning": "No. The equipment is not approved for silica, and a filter alone does not make it suitable. Reject it for the task, quarantine it, and obtain a documented suitable alternative from the responsible supervisor."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Industrial vacuum or extractor approved for the material, with filter and seal checked.",
+    "Wet-cleaning equipment with runoff containment.",
+    "Slip-resistant footwear and eye protection as the site requires."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a household vacuum on silica because it has a HEPA filter.",
+      "prevention": "Use only equipment approved for the material, by the site and the manufacturer."
+    },
+    {
+      "error": "Using water without planning the runoff route.",
+      "prevention": "Plan the runoff and protections before the water is used."
+    },
+    {
+      "error": "Emptying a suspected hazardous-dust collector without training.",
+      "prevention": "Only emptied by trained personnel using the approved method."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Dust control must follow the documented risk assessment and the equipment manufacturer's instructions.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Electrical equipment used near water must be safe for that use and inspected.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Equipment choice matched to the risk assessment in the practical.",
+    "Runoff route and protections planned before water is used.",
+    "Unapproved equipment rejected and an alternative documented."
+  ],
+  "documentationEvidence": [
+    "Equipment and method record with the approval reference.",
+    "Runoff and water-protection record, and the quarantine record for rejected equipment."
+  ],
+  "summary": [
+    "Select dust control from the documented risk assessment, not a general rule.",
+    "Wet methods bring slip, electrical and runoff hazards.",
+    "Reject equipment not approved for the material.",
+    "Record the method, the approval and the protections."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:safety.site_hazards}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L05-K01",
+      "question": "An old vacuum has a new HEPA filter but no approval for silica. What is the right decision?",
+      "options": [
+        "Use it because HEPA is safe for any dust on any site today",
+        "Reject it for the task and obtain a documented approved alternative",
+        "Use it only on dry days and only for light sweeping jobs"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L05-K02",
+      "question": "What must be planned before using water for dust suppression?",
+      "options": [
+        "Nothing, because water is harmless on any surface and needs no planning",
+        "The colour and size of the bucket used, and the brand of the mop head on this job",
+        "The runoff route and the protections against slips and electrical hazards"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L05-K03",
+      "question": "Who may empty a suspected hazardous-dust collector?",
+      "options": [
+        "Only trained personnel using the approved method",
+        "Any cleaner who is on the crew roster for that day",
+        "The client's own staff, who know the dust collector best"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L05.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "UNCONFIRMED: approval standards for extraction equipment used on silica, by state and territory.",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

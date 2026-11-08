@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-FUR-10",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-FUR-10-K01",
+      "correctIndex": 1,
+      "rationale": "Screening could change the work, so the restoration price is conditional on the result."
+    },
+    {
+      "id": "NEW-FUR-10-K02",
+      "correctIndex": 2,
+      "rationale": "A hazard finding is a stop and a condition, not an upsell. Removal is outside scope unless the business holds the licence."
+    },
+    {
+      "id": "NEW-FUR-10-K03",
+      "correctIndex": 0,
+      "rationale": "Approval is a required step before any quote is sent, and it is recorded."
+    }
+  ],
+  "practicalCriteria": [
+    "Quote shows the assessment and screening as a separate stage",
+    "Assumptions, exclusions and price-changing conditions listed",
+    "Approval recorded before the quote is sent"
+  ],
+  "passRule": "Knowledge checks: 80% or higher. With three checks this means all three must be correct. Practical sign-off is separate: every practical criterion must be observed and met by the assessor. A knowledge pass is not practical competence and does not count toward sign-off.",
+  "evidenceRequired": [
+    "Quote with stages, assumptions and conditions",
+    "Linked assessment and screening record",
+    "Approval record"
+  ],
+  "stopWorkCriteria": [
+    "Fixed restoration price issued before screening",
+    "Quote sent without approval"
+  ]
+}

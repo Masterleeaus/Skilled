@@ -1,0 +1,33 @@
+{
+  "lessonId": "PSA-01",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-01-K01",
+      "correctIndex": 0,
+      "rationale": "Section 2 Definitions: the standard describes a knowledgeable person by the know-how needed to run a public pool within the regulations."
+    },
+    {
+      "id": "PSA-01-K02",
+      "correctIndex": 1,
+      "rationale": "Section 1 and the foreword describe the public-pool scope under the regulations. Applicability to private pools must be checked before use."
+    },
+    {
+      "id": "PSA-01-K03",
+      "correctIndex": 2,
+      "rationale": "Section 3 Management: while the facility is open, the owner and operator both answer for water quality under the regulations."
+    }
+  ],
+  "practicalCriteria": [
+    "For a supplied site scenario, records pool type, public or private status and state on the site sheet without prompting.",
+    "For a supplied site with no named operator, escalates the gap to the operator in writing and does not start work on the water."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed site record sheet for a supplied scenario",
+    "Written escalation note, observed or reviewed by the assessor"
+  ],
+  "stopWorkCriteria": [
+    "Operator for a public pool cannot be identified: do not start work on the water; escalate.",
+    "Public or private status is unclear: stop and confirm before any chemical or water work."
+  ]
+}

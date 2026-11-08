@@ -1,0 +1,171 @@
+{
+  "id": "BP-05-strata",
+  "title": "Pricing by hours per project for Strata and common-area cleaning",
+  "courseSlugs": [
+    "strata"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors who quote strata and common-area cleaning and need a price that covers cost, earns a margin and can be compared with other quotes.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures for a common-area crew",
+    "Estimate visit hours for a building, including set-up, travel between buildings, fob admin and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "A committee comparing quotes needs to see what each price covers. Hours show the crew time, travel, set-up, access and checks behind a price, so you can defend it and show the effect of a scope change, such as adding the car park or the bin room to a weekly clean. A flat price with no hours behind it hides risk and waste, and it cannot be explained to a committee that asks why one building costs more than another."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in that period. Total cost includes wages with on-costs such as leave and superannuation, vehicle running costs, equipment, consumables, insurance, administration and premises. Productive hours are the hours a crew spends on chargeable work in the building, not the paid hours on a roster. Time spent travelling between buildings and on fob and key administration is a cost, so decide whether it is billed or recovered in the price. Use billable hours as the divisor, not the full working week."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each visit into areas, such as the foyer, stairs, corridors, lift, bin room and car park entry. Estimate each area at a standard speed from your own records, then add set-up, pack-down, travel, fob or key handling and a checking allowance as named lines. Use ranges where the building is uncertain. Add a set allowance for unexpected work, such as a blocked bin room or a spill in the car park. Xero's guide suggests 10 to 20 per cent added to job estimates for unexpected work (3 September 2026). After each visit, record the actual hours and the reason for any difference. A Carters article cites research that only 17 per cent of people estimate task time accurately, but that figure is the article's own citation, which was not checked, so rely on your own records."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the visit, then add a margin that reflects your target and the risk, such as a poor-condition building or after-hours access. Spread your monthly overheads into the price, including vehicle, tools, insurance and software (Markel Direct, 12 August 2026). Check the price against total overheads, not only materials and labour (Business Victoria, undated). Use the per-square-metre figure only as a cross-check. Clean Group gives common areas at $1.80 to $3.00 per square metre per clean, but its mid-rise monthly range does not reconcile with that figure (updated 15 March 2026). Find the basis of each figure before you rely on either one."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote should state the scope, the hours basis, the exclusions, what the committee must provide, such as fob or key access, bin-room access, water and power, and how long the quote is valid. Exclusions often include lift repairs, window cleaning, bulk waste removal and garden work, if they are outside the scope. A written quote can become binding once it is accepted (business.gov.au, 'Prepare quotes', last updated 1 August 2025), so record every scope change and re-quote when the scope changes. Do not show the internal cost per hour to the committee unless your policy says to."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten visits of each type, such as a weekly foyer clean or a fortnightly deep clean. If the variance is consistently above an agreed threshold, change the standard time, the margin or the scope rules. Review prices about every three months (Business Victoria, undated). A pricing method is finished when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the productive hours achieved in the same period.",
+    "Divide total costs by productive hours to get the cost per productive hour.",
+    "Break the building into areas and estimate each area's time as a range.",
+    "Add set-up, pack-down, travel between buildings, fob or key admin and checking time as named lines.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy and the minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, committee inputs and validity.",
+    "Record actual hours after each visit and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only. A 600 m² common area (foyer, stairs, corridors, bin room and car park entry) is cleaned weekly, which is 4 visits a month. The estimate is 5 crew-hours per visit, plus a 10 per cent allowance for unexpected work. The cost per productive hour is $40 (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the price per visit and per month, and what does the per-square-metre cross-check show?",
+      "reasoning": "With the 10 per cent allowance, the time is 5.5 crew-hours, so the cost is $220 a visit. A 25 per cent margin on price means the price is the cost divided by 0.75, which is $293.33 a visit, or $1,173.33 a month for 4 visits (illustrative). That monthly figure sits inside the vendor's mid-rise range of $800 to $2,500 a month. The per-square-metre cross-check gives $0.49 per square metre per clean, which is well below the vendor's $1.80 to $3.00 range for common areas (Clean Group, updated 15 March 2026). The two vendor figures do not agree with each other, and the hours or the vendor's scope basis may be wrong. Find out which before the quote goes to the committee."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each visit, with estimated and actual columns",
+    "Measuring tape or laser measure for area estimates",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, equipment, consumables, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel between buildings, fob or key admin and checking time",
+      "prevention": "Add these as named lines on every estimate."
+    },
+    {
+      "error": "Quoting with no exclusions, such as lift repairs, window cleaning or bulk waste",
+      "prevention": "List what is excluded, what the committee provides, and the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each visit and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The Australian Consumer Law applies to pricing statements, and the ACCC says misleading statements about prices are prohibited (ACCC, last modified 15 July 2026). State and territory fair trading rules also apply and differ between states, so check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates and on-costs for cleaners may be set by an award or enterprise agreement. Check which one applies to each worker before using any cost figure. Quote and contract rules for owners corporations (Victoria) and strata committees (NSW) are not stated in this lesson; check the Act for your state before you rely on any rule.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, committee inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten visits of each type and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Visit time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make a building's clean visible, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Travel between buildings, fob admin and checking time are named lines, not hidden extras.",
+    "Compare estimates with actual hours, and check any per-square-metre figure against its basis."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-strata-K01",
+      "question": "Which costs belong in the cost per productive hour for a common-area crew?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the committee pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of competitors in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, equipment, consumables, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-strata-K02",
+      "question": "A weekly building clean is estimated at 5 crew-hours and takes 8. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the committee has already paid and the crew has finished",
+        "Reduce paid hours for the crew on the next visit and skip the morning break",
+        "Raise the price for this building's next visit only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-strata-K03",
+      "question": "Why does a quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the committee and to keep the rates a secret from the crew",
+        "To make the quote longer and to fill up the page with more text and words for the committee",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the committee's expectations and to make the building seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Supports: divide by billable hours; a set allowance of 10 to 20 per cent for unexpected work.",
+    "Markel Direct, 'How to price a job as a tradesperson', https://www.markeluk.com/knowledge-centre/how-to-price-a-job-as-a-tradesperson, dated 12 August 2026. Supports: list every task; spread monthly overheads into each job.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. Supports: compare quoted and actual labour to correct the next quote. New Zealand publisher; general method only.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Supports: test price against total overheads; review prices about every three months.",
+    "business.gov.au, 'Prepare quotes', https://business.gov.au/people/contractors/prepare-quotes, last updated 1 August 2025. Supports: a written quote becomes binding once accepted.",
+    "Clean Group, 'Commercial cleaning pricing guide', https://www.clean-group.com.au/how-much-does-workplace-cleaning-cost-in-australia, updated 15 March 2026. Vendor source. Supports: strata common areas at $1.80 to $3.00 per square metre per clean; mid-rise residential at $800 to $2,500 a month. The two figures do not reconcile.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements are prohibited.",
+    "Owners Corporations Act 2006 (Vic), table of provisions, AustLII, https://www.austlii.edu.au/au/legis/vic/consol_act/oca2006260/index.html, undated. Index only; used to flag that quote and contract rules need checking against the Act."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

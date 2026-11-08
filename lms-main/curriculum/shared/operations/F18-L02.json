@@ -1,0 +1,167 @@
+{
+  "id": "F18-L02",
+  "title": "Task-to-item mapping",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "W",
+  "estimatedMinutes": 25,
+  "audience": "Any supervisor or worker who prepares the kit for a job in any Titan Academy business.",
+  "prerequisites": [
+    "F18-L01",
+    "F05-L01"
+  ],
+  "learningOutcomes": [
+    "Map each task in a job to the items needed to carry it out safely.",
+    "Build a kit for a specific job from the task map, rather than from habit.",
+    "Identify missing or extra items before the team leaves the store."
+  ],
+  "instruction": [
+    {
+      "heading": "Build the map from the tasks",
+      "body": "Start from the tasks in the work order and the procedure. For each task, list the tools, equipment, products, protective equipment, consumables and documents it needs. A bathroom clean needs a toilet brush, a bucket, a cloth for the basin, a cloth for the toilet, a separate cloth for the glass, the approved products, the gloves named on the labels and the work order. Mapping from the tasks prevents the team taking items they do not need, and forgetting items they do need."
+    },
+    {
+      "heading": "Use the map to check the kit",
+      "body": "Compare the kit to the map before leaving the store. Check that each task has its items and that each item is in its class. Check that any product in the kit has its SDS and label, that the protective equipment named for each product is included, and that the cloths and equipment are separated by zone. Record any item that is missing or extra, and resolve it before the team leaves."
+    },
+    {
+      "heading": "Update the map when the job changes",
+      "body": "When a new task is added, a surface changes or a product is replaced, update the map and the kit list. A map that is not updated becomes wrong, and the team will either take items they do not need or miss items they do. Keep one approved map for each job type, and record the version and the date."
+    }
+  ],
+  "procedure": [
+    "List the tasks from the work order and the procedure.",
+    "For each task, list the tools, equipment, products, protective equipment, consumables and documents needed.",
+    "Compare the kit with the map before leaving the store, and record missing or extra items.",
+    "Check each product has its label, SDS and the protection named on the label.",
+    "Update the map when the job type, surface or product changes, and record the version."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A job includes a stone floor and a window, but the kit map is for a standard bathroom and has no stone-safe product or window cloth.",
+      "decisionPrompt": "What do you do before leaving the store?",
+      "reasoning": "Update the map for the stone and window tasks. Add a stone-compatible product from the approved list, a window cloth and the protection named for each product. Check the kit against the updated map, and record the change."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved job-type task maps",
+    "Kit checklist"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using the same kit for every job regardless of the tasks.",
+      "prevention": "Build the kit from the task map for each job."
+    },
+    {
+      "error": "Leaving the store without checking the kit against the map.",
+      "prevention": "Check and record missing or extra items before leaving."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The protective equipment named on each product label and SDS must be in the kit for the task that uses the product. A kit without the named protection is not ready for the job.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each job has a task map that is current and approved.",
+    "The kit is checked against the map before the team leaves.",
+    "Each product in the kit has its label, SDS and the protection named on the label."
+  ],
+  "documentationEvidence": [
+    "Task map for the job type, with its version and date.",
+    "Kit check record showing missing or extra items and their resolution."
+  ],
+  "summary": [
+    "Build the kit from the tasks, not from habit.",
+    "Check the kit against the map before leaving and record any gap.",
+    "Update the map when the job or product changes."
+  ],
+  "businessFields": [
+    "{{business:procedures.task_steps}}",
+    "{{business:equipment.assigned_items}}",
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:materials.approved_products}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F18-L02-K01",
+      "question": "How should the job kit be built?",
+      "options": [
+        "The same kit as last time, since it covered earlier jobs",
+        "From the task map for the job, with the items for each task.",
+        "The stock currently in the van, sorted by size"
+      ]
+    },
+    {
+      "id": "F18-L02-K02",
+      "question": "The kit does not match the map before leaving. What should you do?",
+      "options": [
+        "Leave and fix it at the job.",
+        "Leave it, since a near match is close enough for the job.",
+        "Record the gap and resolve it before leaving the store."
+      ]
+    },
+    {
+      "id": "F18-L02-K03",
+      "question": "Which item does the lesson list for a bathroom clean?",
+      "options": [
+        "A ladder",
+        "A separate cloth for the glass",
+        "A leaf blower",
+        "A pressure washer"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.worksafe.vic.gov.au/managing-hazardous-substances-and-irritants-hairdressing-and-beauty-industry (WorkSafe Victoria, reviewed 12/09/2025; checked 2026-11-02; protection and label duties)",
+    "Titan Academy base source draft F18-L02 is not in the ready set; written from the catalogue description."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

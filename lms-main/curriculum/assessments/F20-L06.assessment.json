@@ -1,0 +1,34 @@
+{
+ "lessonId": "F20-L06",
+ "knowledgeAnswers": [
+  {
+   "id": "F20-L06-K01",
+   "correctIndex": 0,
+   "rationale": "The lesson says a safety-related fault is not a cost question, so the item is removed from use and retired or repaired by a qualified person regardless of cost. Repair cost alone (option 0) and how long the team wants to keep it (option 2) are not the test."
+  },
+  {
+   "id": "F20-L06-K02",
+   "correctIndex": 1,
+   "rationale": "The lesson says to remove the retired item from the kit and store, label it and dispose of it by the approved route, and not leave it where it could be used by mistake. Keeping it in case (option 0) and selling it to a customer (option 2) are both ruled out."
+  },
+  {
+    "id": "F20-L06-K03",
+    "correctIndex": 1,
+    "rationale": "The lesson says to use the maintenance record to compare the cost of repair with the cost of replacement, including the downtime of the item."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner records the purchase date, expected life and maintenance schedule for a supplied item.",
+  "Learner compares repair cost, replacement cost and downtime for a supplied maintenance record and states a decision with its reason.",
+  "Learner removes a supplied item with a simulated safety-related fault from use, labels it and records the retirement."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Lifecycle record for each item with purchase, maintenance, repair and retirement dates",
+  "Retirement record with reason, disposal route and replacement if any"
+ ],
+ "stopWorkCriteria": [
+  "Learner keeps using an item with a safety-related fault",
+  "Learner sells or gives away a retired unsafe item"
+ ]
+}

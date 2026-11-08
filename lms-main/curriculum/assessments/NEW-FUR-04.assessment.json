@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-FUR-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-FUR-04-K01",
+      "correctIndex": 1,
+      "rationale": "The SDS and label give the product's dilution, PPE and first aid. Other sources do not set the product's controls."
+    },
+    {
+      "id": "NEW-FUR-04-K02",
+      "correctIndex": 2,
+      "rationale": "A mixture can create hazards that neither product has alone, so mixing is refused unless the label or SDS allows it."
+    },
+    {
+      "id": "NEW-FUR-04-K03",
+      "correctIndex": 0,
+      "rationale": "Solvent-soaked rags carry fire and vapour risk. A closed metal container away from heat is the approved approach."
+    }
+  ],
+  "practicalCriteria": [
+    "SDS and label checked, and controls identified, before any product is opened",
+    "Products not mixed, and any proposed mixture refused and recorded",
+    "Rags and residue stored and disposed of as the procedure sets out"
+  ],
+  "passRule": "Knowledge checks: 80% or higher. With three checks this means all three must be correct. Practical sign-off is separate: every practical criterion must be observed and met by the assessor. A knowledge pass is not practical competence and does not count toward sign-off.",
+  "evidenceRequired": [
+    "Chemical register entry with SDS reference",
+    "Storage and PPE check record",
+    "Waste and rag disposal record"
+  ],
+  "stopWorkCriteria": [
+    "Products mixed without label or SDS approval",
+    "Product used without its SDS controls",
+    "Solvent rags stored in an open or hot area"
+  ]
+}

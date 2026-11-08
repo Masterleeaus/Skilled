@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-SIT-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-SIT-04-K01",
+      "correctIndex": 2,
+      "rationale": "The visit log is written at the visit, with the times and the routine steps, so it is the strongest evidence."
+    },
+    {
+      "id": "NEW-SIT-04-K02",
+      "correctIndex": 0,
+      "rationale": "Photos need the owner's written consent for the specific use before they are posted or used anywhere."
+    },
+    {
+      "id": "NEW-SIT-04-K03",
+      "correctIndex": 1,
+      "rationale": "A handover report states that no observation was made, rather than guessing. Guessing is not evidence."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor checks a simulated visit log written at the visit, with arrival and departure times and each routine step",
+    "Assessor checks that a simulated photo has written owner consent, a date label and a deletion date",
+    "Assessor checks a simulated handover report for dates, routine, medication, observations, calls and tasks not completed"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Simulated visit log with times and steps",
+    "Written owner consent for the simulated photo, with the deletion date",
+    "Simulated handover report, with the owner's acknowledgement"
+  ],
+  "stopWorkCriteria": [
+    "A photo of a client's pet is posted without written consent",
+    "A handover report presents a guess as an observation"
+  ]
+}

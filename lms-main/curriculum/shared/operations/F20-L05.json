@@ -1,0 +1,179 @@
+{
+  "id": "F20-L05",
+  "title": "Inventory movements",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Job management and service delivery",
+  "layer": "base",
+  "lessonType": "W",
+  "estimatedMinutes": 25,
+  "audience": "Any owner, supervisor or worker who records the movement of equipment and products into and out of the store in any Titan Academy business.",
+  "prerequisites": [
+    "F10-L04",
+    "F18-L06"
+  ],
+  "learningOutcomes": [
+    "Record each movement of equipment and products into and out of the store.",
+    "Keep a running balance that shows what is on hand, what is in use and what is missing.",
+    "Use the movement record to find losses, waste and reorder needs."
+  ],
+  "instruction": [
+    {
+      "heading": "Record each movement",
+      "body": "Every movement of equipment and products should be recorded: what was taken out, to which job or vehicle, by whom and when, and what came back. The same applies to returns, transfers between vehicles, disposal and damage write-off. A simple movement record with these fields is enough for most businesses. Record movements at the time they happen, not at the end of the week, because a late record cannot show when a loss occurred."
+    },
+    {
+      "heading": "Keep a running balance",
+      "body": "From the movement record, keep a running balance for each product and key item. The balance shows what should be on hand, and a stock count checks it. A difference between the balance and the count is a loss, a recording error or waste, and each must be investigated. Use the balance to plan reorders, and to see which products are used fastest and which sit unused."
+    },
+    {
+      "heading": "Use the record to act",
+      "body": "Use the movement record to find patterns: a product that disappears at one site, a product that is wasted through over-mixing, or an item that is out for long periods and may be lost. Act on the pattern and record what was done. Products that are approaching expiry or that have been damaged should be moved to a separate location and recorded as such, so that they are not used by mistake."
+    }
+  ],
+  "procedure": [
+    "Record each movement of equipment and products out, in, to a job or vehicle, and returned.",
+    "Record damage, disposal and write-off with the reason.",
+    "Keep a running balance for each product and key item.",
+    "Carry out a stock count at a set interval and investigate any difference.",
+    "Review the movement record to find losses, waste and reorder needs.",
+    "Move expired or damaged products to a separate, labelled location and record the move."
+  ],
+  "workedExamples": [
+    {
+      "situation": "The balance for a degreaser shows twenty litres should be in the store, but the count shows twelve litres.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Check the movement record for the period, including jobs and vehicle transfers. Check for an unrecorded use, a spill or a recording error. If the difference cannot be explained, record it as a loss, investigate, and check that no product is leaking or spilled in the store."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Movement record or stock register",
+    "Labelled storage for expired or damaged items"
+  ],
+  "commonErrors": [
+    {
+      "error": "Recording movements at the end of the week from memory.",
+      "prevention": "Record each movement at the time it happens."
+    },
+    {
+      "error": "Ignoring a difference between the balance and the count.",
+      "prevention": "Investigate each difference and record the cause."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Safe Work Australia's hazardous chemicals register page states that the register must be kept up to date and must include the current safety data sheet (SDS) for each chemical listed. Movement records can help keep the register current.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every movement is recorded at the time it happens.",
+    "A running balance is kept and checked by stock count at a set interval.",
+    "Every difference is investigated and its cause recorded."
+  ],
+  "documentationEvidence": [
+    "Movement record with the date, item, quantity, job or vehicle, and the person.",
+    "Stock count record with the balance, the count and the explanation of any difference."
+  ],
+  "summary": [
+    "Record every movement at the time it happens.",
+    "Keep a running balance and check it by count.",
+    "Investigate differences and act on patterns."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:materials.approved_products}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "F20-L05-K01",
+      "question": "When should a movement of a product be recorded?",
+      "options": [
+        "At the end of the week.",
+        "Only if the product is lost.",
+        "At the time it happens."
+      ]
+    },
+    {
+      "id": "F20-L05-K02",
+      "question": "The balance and the stock count do not match. What is correct?",
+      "options": [
+        "Investigate the difference and record its cause.",
+        "Adjust the balance to match the count without investigating.",
+        "Accept it if the difference is small enough to round out."
+      ]
+    },
+    {
+      "id": "F20-L05-K03",
+      "question": "What does the lesson say to keep from the movement record?",
+      "options": [
+        "A monthly photo only",
+        "A list of staff birthdays",
+        "A running balance for each product and key item",
+        "Nothing, if the stock count is right"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (Safe Work Australia, no page date shown; checked directly 2026-11-03; register kept up to date and includes the current SDS)",
+    "UNCONFIRMED: that the hazardous chemicals register must reflect the stock held on site.",
+    "Titan Academy base source draft F20-L05 is not in the ready set; written from the catalogue description."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemicals register (Safe Work Australia; page title shown as Model WHS Laws)",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "no date shown",
+      "checked": "2026-11-04",
+      "covers": "The hazardous chemicals register must be kept up to date and must include the current safety data sheet for each chemical listed. The page says the register covers chemicals used, handled or stored at the workplace. It does not say the register should reflect stock held."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "MP-04-cardetail",
+  "title": "Break-even analysis with a worked calculation for Car detailing",
+  "courseSlugs": [
+    "cardetail"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Any home-service operator who sets prices or plans monthly revenue, including solo operators.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a home-service business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means",
+      "body": "Break-even revenue is the amount of sales that covers all costs exactly, so profit is zero. Below that level a detailing business loses money. Above it, each further dollar of sales adds to profit. For a car detailer the figure helps you set package prices, decide when to add a second van or a helper, and judge whether a dealer account is worth its discount. It is only as good as the costs and percentages that go into it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs do not change with the number of packages in a month. For a mobile detailer they can include vehicle loan or lease repayments, registration (paid yearly, so divide it by twelve), insurance, phone and software, a yard or premises share, and equipment finance. Variable costs move with each job. They include polishes, pads, microfibre, coating products, water and fuel for the mobile unit, and card or payment fees on each sale. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss (ANZ, 21 February 2025, modified 22 July 2025). Express the variable cost as a percentage of sales in the same period, and check that percentage across at least three months before relying on it."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable cost percentage. One minus the variable percentage is the contribution margin, the share of each dollar of sales left to cover fixed costs. Xero's glossary states the same method (Xero Australia, 23 July 2026). Use the variable percentage as a decimal, so 18 per cent becomes 0.18 and the contribution margin is 0.82."
+    },
+    {
+      "heading": "Work the calculation in order",
+      "body": "Write the inputs first, each with its source and date. Compute the contribution margin, then divide fixed costs by it. Convert the result into a number of packages at your average package price, and round up to whole packages, because a part job does not cover costs on its own. The average package price must be the price you actually charged after discounts. The sourced package ranges are vendor advertised prices, so they are not a substitute for your own average."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, go back to the inputs. Confirm that each fixed cost is a monthly amount and not an annual one. Confirm that the variable percentage is a share of sales and not of cost. Confirm that the output is revenue and not profit. Write down the reconciled figure with its inputs, and drop the others. A figure that cannot be checked should not be used to set prices."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a percentage of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable percentage to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average package price, and round up to whole packages.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A one-person mobile detailing business. All figures are hypothetical, invented for this lesson and not market data: fixed costs of $2,400 AUD a month, variable costs of 18 per cent of sales, and an average package price of $240 AUD.",
+      "decisionPrompt": "How many packages must the business sell each month to break even, and what should it check before setting prices?",
+      "reasoning": "The contribution margin is 1 minus 0.18, which is 0.82. Break-even revenue is $2,400 AUD divided by 0.82, which is $2,926.83 AUD a month. At $240 AUD a package, that is 12.2 packages, so the business needs 13 packages to cover its costs. Each package contributes $196.80 AUD ($240 AUD multiplied by 0.82) towards fixed costs. Before setting prices, check that the 18 per cent includes every product, water and fuel cost, that the $2,400 is a monthly figure, and that $240 is the average price actually charged. Then check the package prices against the sourced ranges, and explain any difference."
+    },
+    {
+      "situation": "Illustrative: the same business takes more dealer work, and the average package price falls to $200 AUD because of the dealer discount. The 18 per cent and the $2,400 are unchanged.",
+      "decisionPrompt": "How many packages now break even, and is the dealer discount worth it on these numbers alone?",
+      "reasoning": "Break-even revenue stays at $2,926.83 AUD. At $200 AUD a package that is 14.6 packages, so the business needs 15 packages a month. The discount raises the number of packages needed. Whether the dealer volume makes up for that depends on the dealer's expected volume, which the research does not source. Record the volume assumption in writing before taking the account."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, split into fixed and variable",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures, such as yearly registration added to monthly costs.",
+      "prevention": "Convert every cost to the same period before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales.",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Copying a break-even figure from a plan without its inputs.",
+      "prevention": "Recalculate from your own inputs and record the source and date of each input before using the result. Gap: no sourced car detailing cost or margin figure exists in the research, so every number in this lesson is hypothetical."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "GST: the ATO says a business must register once its GST turnover reaches the threshold, which it states as $75,000 (ATO, last updated 14 September 2026). Once registered, GST is included in the selling price. Confirm your own position with a registered tax agent.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout, and use the average price you actually charge.",
+    "Gap: no sourced car detailing cost, margin or dealer volume figure exists, so recalculate from your own records."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-cardetail-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-cardetail-K02",
+      "question": "Fixed costs are $2,400 AUD a month and variable costs are 18% of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$2,926.83 AUD",
+        "$432.00 AUD",
+        "$2,400.00 AUD",
+        "$13,333.33 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-cardetail-K03",
+      "question": "Two sources give different break-even figures for the same detailing business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe and ignore the smaller figure entirely",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Average the two figures together and quote the result to the client today",
+        "Skip the break-even check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, labelled published 23 July 2026. Used for the contribution margin and the fixed-cost division. The glossary's own examples are not used.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Used for the definitions of fixed and variable costs.",
+    "ATO, 'Registering for GST', https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst, last updated 14 September 2026. Used for the $75,000 threshold and for GST in the selling price.",
+    "Schmicko, 'Car Detailing Prices Sydney', https://schmicko.com.au/car-care/car-detailing-prices-sydney/, modified 8 August 2026. Vendor advertised ranges, used only to show that they are not the business's own average price.",
+    "Hypothetical figures ($2,400 AUD fixed costs, 18 per cent variable costs, $240 AUD and $200 AUD average package prices) are invented for this lesson and are not market data.",
+    "Trade research: /home/claude/tasks/team4-V-specialist-restoration.md, section 1 (car detailing), research date 9 November 2026. Gap: no sourced cost, margin or dealer volume figure."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

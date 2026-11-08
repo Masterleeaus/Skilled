@@ -1,0 +1,181 @@
+{
+  "id": "NEW-MAS-05",
+  "title": "Premium session pricing and memberships",
+  "courseSlugs": [
+    "massage"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 20,
+  "audience": "Mobile massage therapists who price longer or specialised sessions and offer membership or prepaid plans",
+  "prerequisites": [
+    "F01-L01",
+    "F01-L02",
+    "F01-L04"
+  ],
+  "learningOutcomes": [
+    "Price a premium session from the time, the skill and the costs, and state what the session does not promise",
+    "Design a membership or prepaid plan that keeps each session's screening, consent and set-up steps",
+    "Identify the consumer-law and advertising points to check before the plan is sold."
+  ],
+  "referencesAtStart": "Official references for this lesson: NSW Government, Fitness and gyms (published 18 Oct 2024; modified 15 Apr 2026).",
+  "instruction": [
+    {
+      "heading": "Why a premium session can earn more per hour",
+      "body": "A premium massage session earns more per hour when it takes more skill, more time, or more specialised training, and when the business has the experience to deliver it safely. The price should cover the time for the intake and consent, the set-up and clean-down, the products, the linen, the travel and the cost of any compliance step. A session that is longer but has the same set-up time earns more per hour only if the extra time is real. A premium price must never remove the contraindication check in “Massage scope, contraindications and referral”. The approved list of premium sessions is held in {{business:services.service_description}}, and the pricing method is set out in {{business:pricing.pricing_method}}."
+    },
+    {
+      "heading": "What a premium session must not claim",
+      "body": "A premium session can be described by its length, its technique and its products. It must not be described as curing a condition, reducing a medical risk or treating an injury. Claims about health outcomes must not appear in an advertisement or a menu unless the business has a source for them. Advertising rules and consumer-law rules for health claims were not researched for this course. The safe practice is to describe the session as a relaxation or wellbeing service, state its length and what is included, and tell the client that the session does not replace medical treatment. The therapist must not promise that a session will help a condition."
+    },
+    {
+      "heading": "Memberships and prepaid plans",
+      "body": "A membership gives a client a set number of sessions for a fixed period, often paid in advance. The plan must state the sessions included, the period it covers, what happens to unused sessions, how it can be cancelled, and how it is refunded. Each session under a membership needs its own intake, consent and contraindication check, because a client's health can change between sessions. Record each session against the membership so that the business can show what was delivered and when. The membership terms should be checked by the business before they are sold."
+    }
+  ],
+  "procedure": [
+    "Build the price for each premium session from its time, skill, products, linen, travel and compliance costs",
+    "Describe the session by its length, technique and included products, and avoid any health outcome claim",
+    "Write the membership terms, including the sessions, period, unused-session rule, cancellation and refund, as the business has approved them",
+    "Run the full intake, consent and contraindication check at every session under a membership",
+    "Record each session against the membership, with the date and the services delivered",
+    "Check the membership terms against the consumer-law position before the plan is sold, and record the check"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A therapist wants to advertise a premium session as able to ease chronic back pain, and to price it at a higher rate because of the claim.",
+      "decisionPrompt": "Can the claim be used in the advertisement?",
+      "reasoning": "The claim is a health outcome that the therapist cannot promise, and the sources in this course do not support it. The therapist should describe the session as a relaxation or wellbeing service, state its length and products, and tell the client that the session does not replace medical treatment. The higher price should be justified by the time, skill and costs, not the claim."
+    },
+    {
+      "situation": "A client buys a ten-session membership at the start of the year and then moves interstate after three sessions, asking for a refund of the remaining sessions.",
+      "decisionPrompt": "What should the business check before responding?",
+      "reasoning": "The membership terms set out the business's refund and cancellation position, and that position must be read first. The business should record the request, the terms, the sessions used and the decision, and it should respond in writing."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Written membership terms, approved by the business",
+    "Premium session description with length, techniques and included products",
+    "Price build sheet showing time, skill, products, linen, travel and compliance costs",
+    "Client record for each membership with the sessions delivered"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a health outcome in an advertisement without a source.",
+      "prevention": "Describe the session by length, technique and products. Do not claim a condition is treated or a risk is reduced."
+    },
+    {
+      "error": "Skipping the intake for a session because the client has a membership.",
+      "prevention": "Run the full intake, consent and contraindication check at every session."
+    },
+    {
+      "error": "Selling a membership without terms for unused sessions or cancellation.",
+      "prevention": "Write the terms first, and check them against the consumer-law position before selling."
+    },
+    {
+      "error": "Stating that refunds are required by law for prepaid services.",
+      "prevention": "Describe refunds as the business policy, and check the consumer-law position with the regulator."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The New South Wales summary states the general rule against false or misleading claims.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A premium session or a membership does not register the business, grant a licence or authorise any treatment.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Each session under a membership must complete the contraindication check in “Massage scope, contraindications and referral”.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every premium session price is built from its time, skill and costs, and recorded",
+    "No advertisement or menu makes a health outcome claim without a source",
+    "Every membership has written terms, checked against the consumer-law position",
+    "Every session under a membership has its own intake and consent record"
+  ],
+  "documentationEvidence": [
+    "Price build sheet for each premium session",
+    "Advertising and menu review record",
+    "Signed or acknowledged membership terms",
+    "Session record for each membership visit"
+  ],
+  "summary": [
+    "Price a premium session on time, skill and costs, never on a health claim",
+    "Describe sessions as relaxation or wellbeing services that do not replace medical treatment",
+    "Completing this lesson does not register the business or grant any licence"
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:services.service_description}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-MAS-05-K01",
+      "question": "Which description of a premium massage session is appropriate for an advertisement under this course?",
+      "options": [
+        "It is a relaxation or wellbeing service with stated length and products, and does not replace medical treatment",
+        "It cures chronic back pain in most clients who book the premium session and attend every week for a full year",
+        "It reduces the risk of heart conditions for regular clients who attend every month for the whole year"
+      ]
+    },
+    {
+      "id": "NEW-MAS-05-K02",
+      "question": "A premium price is set. What must the price never remove?",
+      "options": [
+        "The travel time to the client's home address",
+        "The contraindication check and the consent step",
+        "The rounding of the final price for the client"
+      ]
+    },
+    {
+      "id": "NEW-MAS-05-K03",
+      "question": "What does the lesson say a premium price should cover?",
+      "options": [
+        "Only the therapist's hourly wage",
+        "The intake and consent time, set-up and clean-down, products, linen, travel and any compliance step",
+        "Only the cost of the products",
+        "Nothing that the client cannot see"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: NSW Government, Fitness and gyms (published 18 Oct 2024; modified 15 Apr 2026).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Fitness and gyms",
+      "url": "https://www.nsw.gov.au/legal-and-justice/consumer-rights-and-protection/services/fitness-and-gyms",
+      "pageDate": "Published 18 Oct 2024; modified 15 Apr 2026",
+      "checked": "2026-11-03",
+      "covers": "NSW Government page; direct debit notice and Australian Consumer Law summary. NSW only; no cooling-off days stated. Publisher: NSW Government."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (consumer-law, advertising and refund rules not researched; UNCONFIRMED)",
+    "Shared lesson references: F01-L01 (professional boundaries and expectations), F01-L02 (privacy and customer property), F01-L04 (job handover and escalation), within curriculum/lessons/ready",
+    "Checked 2026-11-03: official references R1 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-09.jpg",
+      "alt": "Mobile massage illustration",
+      "kind": "photo",
+      "origin": "massage"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-10.jpg",
+      "alt": "Mobile massage illustration",
+      "kind": "photo",
+      "origin": "massage"
+    }
+  ]
+}

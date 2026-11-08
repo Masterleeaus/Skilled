@@ -1,0 +1,170 @@
+{
+  "id": "BP-05-commercial",
+  "title": "Pricing by hours per project for Commercial and office cleaning",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors who quote one-off and recurring commercial and office cleaning and need a price that covers cost and earns a margin.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures for an office crew",
+    "Estimate project hours for an office, including set-up, travel between sites, lift access and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "Office clients compare quotes on visible scope, so hours give you a defensible basis. Crew time, travel, set-up, access and quality checks all become hours. Once you know the hours, you can see the cost, the margin and the effect of a scope change, such as adding a fourth floor to a nightly clean. A flat price with no hours behind it hides both risk and waste, and it cannot be defended when a facilities manager asks why a job costs what it does."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in that period. Total cost includes wages with on-costs such as leave and superannuation, vehicle running costs, equipment, consumables, insurance, administration and premises. Productive hours are the hours a crew spends on chargeable work on site, not the paid hours on a roster. Decide whether travel between buildings is billed. If it is not, its cost must be recovered somewhere in the price, and the divisor should not include it. Use billable hours as the divisor, not the full working week."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each job into areas, such as floors, kitchens, amenities, glass, bins and the entry. Estimate each area at a standard speed from your own records, then add set-up, pack-down, travel between sites, lift booking and a checking allowance as named lines. Use ranges where the job is uncertain. Add a set allowance for delays outside your control, such as access delays, staff absence and weather. Xero's guide suggests 10 to 20 per cent added to job estimates for unexpected work (Xero Australia, 3 September 2026). After each job, record the actual hours and the reason for any difference. A Carters article cites research that only 17 per cent of people estimate task time accurately, but that figure is the article's own citation, which was not checked, so use your own records instead."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the job. Add a margin that reflects your target and the risk in the job, such as difficult after-hours access, a poor condition or a tight handover. Spread your monthly overheads into the job, including vehicle, tools, insurance and software (Markel Direct, 12 August 2026). Check the price against total overheads, not only materials and labour (Business Victoria, undated). A 20 per cent gross margin floor appears in one Carters article, but that is one author's view, not a standard. Apply your materials policy and your minimum charge. If a facilities manager wants a lower price, show which hours or which part of the scope they are asking you to remove, which keeps the talk on the work."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote should state the scope, the hours or price basis, the exclusions, what the client must provide, such as after-hours access, power and bin locations, and how long the quote is valid. Do not show the internal cost per hour to the client unless your policy says to. A written quote can become binding once it is accepted (business.gov.au, 'Prepare quotes', last updated 1 August 2025), so record every change to the scope and re-quote when the scope changes."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten jobs of each type, such as a nightly office clean or a one-off post-move clean. If the variance is consistently above an agreed threshold, change the standard time, the margin or the scope rules. Review prices about every three months (Business Victoria, undated). A pricing method is not finished when it is written. It is finished when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the productive hours achieved in the same period.",
+    "Divide total costs by productive hours to get the cost per productive hour.",
+    "Break the job into areas and estimate each area's time as a range.",
+    "Add set-up, pack-down, travel between sites, lift booking and checking time as named lines.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy and the minimum charge.",
+    "Write the quote with scope, hours basis, exclusions, client inputs and validity.",
+    "Record actual hours after each job and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only. A 150 m² office suite is cleaned after a tenant moves out. The estimate is 5 crew-hours on site, including set-up and checking. The owner's cost per productive hour is $40 (illustrative). The target margin on price is 25 per cent (illustrative).",
+      "decisionPrompt": "What is the price, what is the implied rate per hour, and does it sit inside the vendor range? What changes if the building has a 2-hour access delay?",
+      "reasoning": "The cost is 5 crew-hours multiplied by $40, which is $200. A 25 per cent margin on price means the price is the cost divided by 0.75, which gives $266.67. That is an implied $53.33 an hour, which sits inside the vendor's $35 to $65 per hour range for most office premises (Clean Group, updated 15 March 2026). That range is a sales source, so it is a check only. A 2-hour access delay adds 2 crew-hours, so the cost becomes $280 and the price becomes $373.33, but only if the quote's access terms allow the delay to be charged. Check those terms before adding the time to the bill."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each job, with estimated and actual columns",
+    "Measuring tape or laser measure for floor area estimates",
+    "PPE as listed in {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, equipment, consumables, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out travel between buildings, lift booking and checking time",
+      "prevention": "Add these as named lines on every estimate."
+    },
+    {
+      "error": "Quoting with no exclusions, such as after-hours access, supplies or waste removal",
+      "prevention": "List what is excluded, what the client provides, and the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each job and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The Australian Consumer Law applies to pricing statements, and the ACCC says misleading statements about prices are prohibited (ACCC, last modified 15 July 2026). State and territory fair trading rules also apply and differ between states, so check the rules for each state where you work.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Pay rates, allowances and on-costs for cleaners may be set by an award or enterprise agreement. Check which one applies to each worker before using any cost figure. A third-party cleaner pay calculator was read in the research, but its figure must be confirmed against the official Fair Work instrument before use. This lesson does not state those rates.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, client inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten jobs of each type and compared with the estimate.",
+    "No quote is issued without a margin decision and a minimum-charge check."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Job time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make an office clean visible, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Travel between buildings, lift booking and checking time are named lines, not hidden extras.",
+    "Compare estimates with actual hours, and change the method when they diverge."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-commercial-K01",
+      "question": "Which costs belong in the cost per productive hour for an office cleaning crew?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the client pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of competitors in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, equipment, consumables, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-commercial-K02",
+      "question": "A one-off office clean is estimated at 5 crew-hours and takes 8. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the client has already paid and the crew has finished",
+        "Reduce paid hours for the crew on the next job and skip the morning break",
+        "Raise the price for this client's next job only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-commercial-K03",
+      "question": "Why does a quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the client and to keep the rates a secret from the crew",
+        "To make the quote longer and to fill up the page with more text and words for the client",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the client's expectations and to make the job seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Supports: divide by billable hours, not total hours; a set allowance of 10 to 20 per cent for unexpected work.",
+    "Markel Direct, 'How to price a job as a tradesperson', https://www.markeluk.com/knowledge-centre/how-to-price-a-job-as-a-tradesperson, dated 12 August 2026. Supports: list every task; spread monthly overheads into each job.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. Supports: compare quoted and actual labour to correct the next quote. New Zealand publisher; general method only. The 20 per cent margin floor is one author's view.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Supports: test price against total overheads; review prices about every three months.",
+    "business.gov.au, 'Prepare quotes', https://business.gov.au/people/contractors/prepare-quotes, last updated 1 August 2025. Supports: a written quote becomes binding once accepted.",
+    "Clean Group, 'Commercial cleaning pricing guide', https://www.clean-group.com.au/how-much-does-workplace-cleaning-cost-in-australia, updated 15 March 2026. Vendor source. Supports: $35 to $65 per hour for most office and business premises.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements are prohibited."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

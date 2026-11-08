@@ -1,0 +1,170 @@
+{
+  "id": "BP-05-construction",
+  "title": "Pricing by hours per project for Construction-site clean-up",
+  "courseSlugs": [
+    "construction"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 35,
+  "audience": "Owners and supervisors who quote construction-site clean-up and need a price that covers cost and earns a margin. No sourced site labour or skip pricing exists in the research.",
+  "prerequisites": [
+    "BP-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a cost per productive hour from the owner's own figures for a site crew",
+    "Estimate site hours, including induction, travel, bin runs, waiting for access and checking time",
+    "Build a quote from hours, a rate and a margin, and state its basis and exclusions"
+  ],
+  "instruction": [
+    {
+      "heading": "Why hours are the starting unit",
+      "body": "Site clean-up work changes with the trades. The waste from a plastering stage is not the waste from a demolition stage, so hours from your own records are the most defensible basis. Hours show the cost, the margin and the effect of a change in scope, such as adding a second bin run each day. The research found no sourced pricing for site clean-up, so your own records are the only evidence for now. A flat price with no hours behind it hides risk and cannot be explained when a principal contractor asks why one stage costs more than another."
+    },
+    {
+      "heading": "Build the cost per productive hour",
+      "body": "Take the total cost of running the business over a period and divide it by the productive hours in that period. Total cost includes wages with on-costs such as leave and superannuation, vehicle running costs, equipment, consumables, insurance, administration and premises. Productive hours are the hours a crew spends on chargeable work on site, not the paid hours on a roster. Time spent on site induction, travel between sites and waiting for access is real cost, so decide whether it is billed or recovered in the price. Use billable hours as the divisor, not the full working week."
+    },
+    {
+      "heading": "Estimate the hours",
+      "body": "Break each visit into tasks, such as the amenities, walkways, the waste area, the bin runs and the diary sign-off. Estimate each task at a standard speed from your own records, then add set-up, pack-down, travel, the induction for each new worker, waiting for access and a checking allowance as named lines. Use ranges where the site is uncertain. Add a set allowance for unexpected work, such as a bin that is full before the scheduled collection. Xero's guide suggests 10 to 20 per cent added to job estimates for unexpected work (3 September 2026). A Carters article suggests comparing quoted and actual labour to correct the next quote (1 October 2025). Its statement that 17 per cent of people estimate accurately is the article's own citation, which was not checked, so rely on your own records."
+    },
+    {
+      "heading": "Turn hours into a price",
+      "body": "Multiply the crew hours by the cost per productive hour to get the cost of the visit, then add a margin that reflects your target and the risk, such as a site with restricted access or a tight program. Spread your monthly overheads into the price, including vehicle, tools, insurance and software (Markel Direct, 12 August 2026). Check the price against total overheads, not only materials and labour (Business Victoria, undated). Skip hire and waste disposal are separate costs, so price them from your own supplier as separate lines, because the research did not source their rates. A 20 per cent gross margin floor appears in one Carters article, but that is one author's view, not a standard."
+    },
+    {
+      "heading": "Keep the quote honest",
+      "body": "A quote should state the scope, the hours basis, the exclusions, what the principal contractor must provide, such as the bin location, site induction, access and water, and how long the quote is valid. Exclusions often include skip hire, waste disposal fees, cleaning of finished surfaces after trades, and any work the site rules place on another trade. A written quote can become binding once it is accepted (business.gov.au, 'Prepare quotes', last updated 1 August 2025), so record every scope change and re-quote when the scope changes."
+    },
+    {
+      "heading": "Review your estimates",
+      "body": "Compare estimated and actual hours for at least the first ten site visits of each type, such as a weekly housekeeping visit or a stage clean-up. If the variance is consistently above an agreed threshold, change the standard time, the margin or the scope rules. Review prices about every three months (Business Victoria, undated). A pricing method is finished when actual hours match quoted hours closely enough for the work to make money."
+    }
+  ],
+  "procedure": [
+    "Gather the year's total business costs and the productive hours achieved in the same period.",
+    "Divide total costs by productive hours to get the cost per productive hour.",
+    "Break the site visit into tasks and estimate each task's time as a range.",
+    "Add set-up, travel, induction, bin runs, access waits and checking time as named lines.",
+    "Multiply total crew hours by the cost per productive hour, then apply the margin for risk and target.",
+    "Apply the materials policy, the minimum charge, and separate skip and waste lines.",
+    "Write the quote with scope, hours basis, exclusions, principal contractor inputs and validity.",
+    "Record actual hours after each visit and compare them with the estimate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only, with no sourced site rate. A weekly housekeeping visit to a renovation site is estimated at 8 crew-hours, including bin runs and the diary sign-off. An allowance of 10 per cent is added for unexpected work. The cost per productive hour is $55 (illustrative). The target margin on price is 25 per cent (illustrative). Skip hire is quoted separately.",
+      "decisionPrompt": "What is the weekly price, and what should be kept off the labour price?",
+      "reasoning": "With the 10 per cent allowance, the time is 8.8 crew-hours, so the labour cost is 8.8 multiplied by $55, which is $484. A 25 per cent margin on price means the price is the cost divided by 0.75, which is $645.33 a week (illustrative). Skip hire and waste disposal are not in this figure. They are separate lines priced from your own supplier, because the research did not source their rates. The research also does not source a site labour rate, so the $55 figure is for practice only and must be replaced with your own records."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quote worksheet or spreadsheet",
+    "Time log for each visit, with estimated and actual columns",
+    "Site diary or checklist sheet for sign-off",
+    "PPE as listed in {{business:safety.required_ppe}} and the principal contractor's site rules"
+  ],
+  "commonErrors": [
+    {
+      "error": "Pricing from the hourly wage alone",
+      "prevention": "Include on-costs, vehicle, equipment, consumables, insurance and administration in the cost per productive hour."
+    },
+    {
+      "error": "Counting paid hours as productive hours",
+      "prevention": "Use chargeable hours only when calculating the cost per productive hour."
+    },
+    {
+      "error": "Leaving out induction, travel, bin runs and access waits",
+      "prevention": "Add these as named lines on every estimate."
+    },
+    {
+      "error": "Quoting with no exclusions, such as skip hire or work that the site rules place on another trade",
+      "prevention": "List what is excluded, what the principal contractor provides, and the access assumptions."
+    },
+    {
+      "error": "Never comparing estimates with actual hours",
+      "prevention": "Record actual hours after each visit and review the variance monthly."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This is pricing guidance only. The Australian Consumer Law applies to pricing statements, and the ACCC says misleading statements about prices are prohibited (ACCC, last modified 15 July 2026). State and territory fair trading rules also apply and differ between states, so check the rules for your state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The FairWorkMate cleaner pay rate in the research is for cleaning services and is not a building and construction award rate. Check which award or enterprise agreement applies to each worker, and do not use the cleaner rate as a site labour rate. Waste and EPA rules for skips and disposal were not checked for this lesson.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each quote shows scope, hours or price basis, exclusions, principal contractor inputs and validity.",
+    "The cost per productive hour is calculated from the owner's own records and dated.",
+    "Actual hours are recorded for at least the first ten site visits of each type and compared with the estimate.",
+    "No quote is issued without a margin decision, a minimum-charge check and separate skip and waste lines."
+  ],
+  "documentationEvidence": [
+    "Cost per productive hour worksheet, dated, with the source of each figure",
+    "Quote showing scope, hours basis, exclusions and validity",
+    "Site visit time log with estimated and actual hours",
+    "Variance review record"
+  ],
+  "summary": [
+    "Hours make site work visible, so start every quote from hours.",
+    "Cost per productive hour uses chargeable time, not paid time.",
+    "Induction, bin runs and skip hire are named lines, not hidden extras.",
+    "No sourced site labour rate exists in the research, so keep your own estimate-to-actual record."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}",
+    "{{business:staff.role}}",
+    "{{business:jobs.time_tracking}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "BP-05-construction-K01",
+      "question": "Which costs belong in the cost per productive hour for a site crew?",
+      "options": [
+        "Only the hourly wage of the lowest-paid worker and nothing else from the accounts or the rent",
+        "The price the principal contractor pays, plus the deposit, the late fee and the crew bonus paid",
+        "The average hourly rate of competitors in the local area and their fees for the whole year",
+        "Wages with on-costs, vehicle, equipment, consumables, insurance and administration, divided by chargeable hours"
+      ]
+    },
+    {
+      "id": "BP-05-construction-K02",
+      "question": "A weekly site visit is estimated at 5 crew-hours and takes 8. What is the right response?",
+      "options": [
+        "Record the actual hours, find the cause, and adjust the estimate and future quotes",
+        "Leave the estimate, since the principal contractor has already paid and the crew has finished",
+        "Reduce paid hours for the crew on the next visit and skip the morning break",
+        "Raise the price for this site's next visit only and no one else is charged more"
+      ]
+    },
+    {
+      "id": "BP-05-construction-K03",
+      "question": "Why does a quote need an exclusions list?",
+      "options": [
+        "To hide the margin from the principal contractor and to keep the rates a secret from the crew",
+        "To make the quote longer and to fill up the page with more text and words for the client",
+        "To show what the price covers, so scope changes can be priced and disputes are reduced",
+        "To lower the client's expectations and to make the site seem much smaller than it is"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'How to price services', https://www.xero.com/au/guides/how-to-price-services/, dated 3 September 2026. Supports: divide by billable hours; a set allowance of 10 to 20 per cent for unexpected work.",
+    "Markel Direct, 'How to price a job as a tradesperson', https://www.markeluk.com/knowledge-centre/how-to-price-a-job-as-a-tradesperson, dated 12 August 2026. Supports: list every task; spread monthly overheads into each job.",
+    "Carters Trade Leader, 'Estimating how many hours a job will take', https://tradeleader.carters.co.nz/trade-skills/estimating-how-many-hours-a-job-will-take-why-83-get-it-wrong/, dated 1 October 2025. Supports: compare quoted and actual labour. New Zealand publisher; general method only. The 20 per cent margin floor is one author's view.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Supports: test price against total overheads; review prices about every three months.",
+    "business.gov.au, 'Prepare quotes', https://business.gov.au/people/contractors/prepare-quotes, last updated 1 August 2025. Supports: a written quote becomes binding once accepted.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, last modified 15 July 2026. Supports: misleading price statements are prohibited.",
+    "FairWorkMate, 'Cleaner pay rate calculator', https://fairworkmate.com.au/tools/pay-rates/cleaner, verified 19 July 2026. Third-party calculator. Read only to show that its cleaner rate is not a construction site rate; not used as a figure."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

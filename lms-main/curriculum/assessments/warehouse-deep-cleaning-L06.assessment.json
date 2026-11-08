@@ -1,0 +1,46 @@
+{
+  "lessonId": "warehouse-deep-cleaning-L06",
+  "knowledgeAnswers": [
+    {
+      "id": "warehouse-deep-cleaning-L06-K01",
+      "correctIndex": 1,
+      "rationale": "Unknown powder near bulk chemicals is a stop condition. People are kept out, the residue is not disturbed, and it is referred. Dry-sweeping, and sampling by the cleaner, are both refused."
+    },
+    {
+      "id": "warehouse-deep-cleaning-L06-K02",
+      "correctIndex": 2,
+      "rationale": "Dry sweeping lifts fine material into the air, where it can be breathed in or form a combustible cloud. Floor slipperiness and broom damage are not the reason."
+    },
+    {
+      "id": "warehouse-deep-cleaning-L06-K03",
+      "correctIndex": 0,
+      "rationale": "The restriction lasts until a documented authority releases it. A quick wipe or the passing of time does not end it."
+    },
+    {
+      "id": "warehouse-deep-cleaning-L06-K04",
+      "correctIndex": 0,
+      "rationale": "The hazardous chemicals register lists the hazardous chemicals on site, each with an SDS. Memory, or a loose label, is not a record."
+    },
+    {
+      "id": "warehouse-deep-cleaning-L06-K05",
+      "correctIndex": 1,
+      "rationale": "The signs that a source is uncertain section lists a visible haze in the air that was not there earlier as a warning sign."
+    }
+  ],
+  "practicalCriteria": [
+    "On a fictional site plan, the worker lists each uncertain particulate source with the reason it is uncertain, and separates observation from inference on the observation sheet.",
+    "In a simulated unknown-powder case beside a chemical store, the worker refuses dry sweeping and compressed air, keeps people out, and does not disturb the residue.",
+    "The worker completes a restricted-scope referral that names the authorising officer, or records that none has yet been named, and does not claim the area is clear."
+  ],
+  "passRule": "Pass when all three practical criteria are observed and recorded by the assessor in a supervised desk exercise, with no stop-work criterion met. The exercise is not sampling, identification or clearance. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Fictional dust observation sheet with observations and inferences separated",
+    "Restricted-scope referral with the authorising officer named or recorded as not yet named"
+  ],
+  "stopWorkCriteria": [
+    "Unknown powder is dry-swept or cleared with compressed air",
+    "The area is reopened without documented authority",
+    "The cleaner takes or describes a sample as identifying the material"
+  ],
+  "completionRule": "Practical sign-off by an assessor only. This assessment does not confer any licence, certificate or authority for dust sampling, hazardous-materials work or fire-safety approval."
+}

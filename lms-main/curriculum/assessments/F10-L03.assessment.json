@@ -1,0 +1,35 @@
+{
+ "lessonId": "F10-L03",
+ "knowledgeAnswers": [
+  {
+   "id": "F10-L03-K01",
+   "correctIndex": 1,
+   "rationale": "Pausing and rerouting keeps people safe. A sign alone does not stop entry."
+  },
+  {
+   "id": "F10-L03-K02",
+   "correctIndex": 2,
+   "rationale": "A sign warns. A barrier or supervision controls access."
+  },
+  {
+   "id": "F10-L03-K03",
+   "correctIndex": 0,
+   "rationale": "Occupied areas change, so the assessment is repeated."
+  }
+ ],
+ "practicalCriteria": [
+  "Assesses a mock occupied corridor before starting, including exits and accessible paths.",
+  "Uses barriers and supervision, not signs alone, at the access point.",
+  "Pauses and reroutes when a simulated occupancy change occurs, and reopens only when safe."
+ ],
+ "passRule": "Zone assessed, accessible paths kept open, and occupancy change met by pausing and rerouting. Observed by an assessor.",
+ "evidenceRequired": [
+  "Zone assessment record",
+  "Assessor observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Accessible exit blocked",
+  "Spraying near people or food",
+  "Area reopened while the floor is unsafe"
+ ]
+}

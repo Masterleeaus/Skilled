@@ -1,0 +1,12 @@
+{
+  "pass": 14,
+  "checks": {
+    "scope parser": true,
+    "fail closed": true,
+    "tenant authorization before lookup": true,
+    "secret validation retained": true,
+    "expiry filter retained": true
+  },
+  "runtimeTests": "not run",
+  "sourceBase": "Pass13"
+}

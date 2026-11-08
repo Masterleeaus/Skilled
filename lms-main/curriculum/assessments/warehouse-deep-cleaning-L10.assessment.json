@@ -1,0 +1,35 @@
+{
+ "lessonId": "warehouse-deep-cleaning-L10",
+ "knowledgeAnswers": [
+  {
+   "id": "warehouse-deep-cleaning-L10-K01",
+   "correctIndex": 2,
+   "rationale": "Unknown load rating and pedestrian crossover require a stop and documented authority."
+  },
+  {
+   "id": "warehouse-deep-cleaning-L10-K02",
+   "correctIndex": 0,
+   "rationale": "A divergence means the task is suspended and the discrepancy documented."
+  },
+  {
+   "id": "warehouse-deep-cleaning-L10-K03",
+   "correctIndex": 1,
+   "rationale": "Traffic control and plant isolation belong to authorised specialists."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies the decision gate in a fictional site plan.",
+  "Writes a restricted-scope referral that separates observed conditions from assumed ones.",
+  "Does not assume competency or authority in the desk-based scenario."
+ ],
+ "passRule": "Decision gate identified, restriction wording correct, and referral traceable, observed in the desk-based exercise. Not a site authorisation.",
+ "evidenceRequired": [
+  "Restricted-scope referral record",
+  "Trainer observation sheet"
+ ],
+ "stopWorkCriteria": [
+  "Powered equipment requested on an unsuitable floor",
+  "Live forklift aisle or dock edge entered",
+  "Plant isolated by an unqualified cleaner"
+ ]
+}

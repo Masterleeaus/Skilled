@@ -1,0 +1,142 @@
+{
+  "id": "kitchen-cleaning-L08",
+  "title": "Grease, extraction and hot kitchen hazards",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners working in commercial kitchens and residential kitchens with range hoods.",
+  "prerequisites": [
+    "kitchen-cleaning-L02"
+  ],
+  "learningOutcomes": [
+    "Identify hot surfaces, sharp sheet metal, slippery grease and fire-risk build-up near cooking equipment.",
+    "Decide which extraction and hood components are within an accessible external-clean scope.",
+    "Stop and escalate for internal ductwork, fire suppression or interlocked equipment."
+  ],
+  "instruction": [
+    {
+      "heading": "Recognising the hazards",
+      "body": "Kitchen extraction and cooking equipment combines heat, grease and moving parts. Surfaces near ovens, fryers and cooktops can stay hot for a long time after the equipment is switched off. Sheet metal in hoods and filters has sharp edges. Grease that has built up on hoods, filters and ductwork is slippery underfoot and can be a fire risk when it reaches heat. Before you touch equipment, check that it is cool, switched off and secured, and that the work is within your authorised scope."
+    },
+    {
+      "heading": "The accessible external clean",
+      "body": "Where the site authorises it, a cleaner may clean accessible external surfaces of a range hood and the removable grease filters, using an approved degreaser. Confirm the equipment is cool and that controls are locked out or switched off as the procedure requires. Assess the chemical compatibility of the product with the metal finish and any coating. Keep water and product away from electrical controls and lights. Work with the filter removed on a safe surface, not balanced on a hot hob."
+    },
+    {
+      "heading": "The limits of the job",
+      "body": "Internal duct cleaning and complex extraction systems are not routine work for a general cleaner. Do not enter or scrape powered ductwork, do not defeat fire suppression or interlocks, and do not remove access panels that the procedure does not allow you to remove. Where the system is complex, the work is referred to a competent specialist. This lesson does not grant any such licence or authority."
+    },
+    {
+      "heading": "Escalating grease that could start a fire",
+      "body": "Escalate immediately where grease build-up appears to be an imminent fire concern, such as thick grease in a duct or near an open flame, or where you notice damaged fire suppression components. Do not attempt to clear it yourself. Notify the supervisor and the site contact, keep people away from the equipment, and record what you saw with the time and location."
+    }
+  ],
+  "procedure": [
+    "Confirm the equipment is cool, switched off and secured before any external cleaning.",
+    "Identify sharp sheet metal, slippery grease and any hot surfaces, and use suitable gloves.",
+    "Clean only the accessible external surfaces and removable filters within the authorised scope.",
+    "Keep water and product away from electrical controls, lights and openings.",
+    "Stop and escalate for internal ducts, fire suppression, interlocks or access panels outside scope.",
+    "Record the work completed, the limits, and any fire-risk observation with time and location."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker is asked to scrape grease from inside a powered commercial extraction duct.",
+      "decisionPrompt": "What is the correct decision?",
+      "reasoning": "Stop. Internal powered ductwork is outside routine cleaning scope. Confirm the isolation, the competent personnel and the site fire-safety arrangements with the supervisor, and refer the duct work to a competent specialist. Do not scrape the duct yourself. Record the request and the decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cut-resistant gloves for sheet metal, and chemical gloves for degreaser.",
+    "Eye protection for splashes.",
+    "Non-slip footwear and a stable step for access where the procedure allows.",
+    "Approved degreaser with label and SDS available."
+  ],
+  "commonErrors": [
+    {
+      "error": "Cleaning a hood while it is still hot.",
+      "prevention": "Confirm the equipment is cool and switched off before starting."
+    },
+    {
+      "error": "Spraying product into an electrical control or a light fitting.",
+      "prevention": "Keep product away from controls and openings."
+    },
+    {
+      "error": "Removing a fire suppression component to get access.",
+      "prevention": "Never defeat fire suppression or interlocks. Escalate."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not grant any licence or authority to clean ducts, and it does not describe any work as certified.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Chemicals used on hoods must be managed under the label, SDS and hazardous chemicals register where one applies.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Equipment confirmed cool and switched off before any work in the simulated kitchen.",
+    "Accessible external surfaces cleaned within scope, with no product reaching a control.",
+    "Out-of-scope request for duct work refused and escalated with a record."
+  ],
+  "documentationEvidence": [
+    "Equipment isolation check and scope confirmation.",
+    "Escalation record for any fire-risk observation, with time and location."
+  ],
+  "summary": [
+    "Hot surfaces, sharp metal and grease are the main hazards.",
+    "Clean only the accessible external surfaces within authorised scope.",
+    "Internal ductwork and fire suppression are outside routine scope.",
+    "Escalate imminent fire-risk grease and record what you saw."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "kitchen-cleaning-L08-K01",
+      "question": "Before cleaning the external surface of a range hood, what must be confirmed?",
+      "options": [
+        "That the hood is still warm, so grease loosens",
+        "That the equipment is cool, switched off and secured",
+        "That the duct cover is removed and the filters are still in"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L08-K02",
+      "question": "You are asked to scrape inside a powered extraction duct. What do you do?",
+      "options": [
+        "Scrape it carefully, because it is only grease and the duct is not live",
+        "Switch the fan on to clear the grease while you scrape and the hood stays open",
+        "Stop, and refer the work to a competent specialist after supervisor confirmation"
+      ]
+    },
+    {
+      "id": "kitchen-cleaning-L08-K03",
+      "question": "Grease near a cooking appliance appears thick enough to be an imminent fire concern. What do you do?",
+      "options": [
+        "Keep people away, notify the supervisor, and record the location",
+        "Clean it quickly before the shift ends and then report it",
+        "Spray a degreaser on it to dissolve it and leave it to work"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/kitchen-cleaning-L08.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory licensing or competency requirements for cleaning commercial extraction ductwork.",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

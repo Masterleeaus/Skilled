@@ -1,0 +1,182 @@
+{
+  "id": "crime-scene-cleaning-L06",
+  "title": "PPE assessment and doffing boundaries",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 20,
+  "audience": "Intake coordinators, supervisors and trained workers who may triage, refer, document or support work at a scene where police, coronial or other official authority may apply. This lesson does not grant authority to enter, control or work on any scene, or to handle evidence.",
+  "prerequisites": [
+    "crime-scene-cleaning-L05"
+  ],
+  "learningOutcomes": [
+    "Select PPE from a documented hazard assessment rather than from a standard kit.",
+    "Explain why a worker is not permitted to enter until PPE is approved and competence is verified.",
+    "Describe the boundary between clean and contaminated areas for removal."
+  ],
+  "instruction": [
+    {
+      "heading": "PPE assessment and doffing",
+      "body": "PPE is selected from a documented hazard assessment for the specific task. It is not chosen from a one-size kit or from appearance. Check product compatibility, each worker's training, the fit requirements where a respirator is needed, the limits of each item and the boundary between clean and contaminated areas. Incorrect removal can transfer contamination onto the worker and beyond, so removal is taught and assessed by a supervisor using clean training equipment and no infectious substance. A new worker who offers ordinary gloves and a disposable mask for an unidentified incident scene is not equipped for the job. Entry waits until the responsible qualified person has approved the PPE and verified the worker's competence."
+    }
+  ],
+  "procedure": [
+    "Read the hazard assessment for the specific area and task.",
+    "Select the PPE the plan specifies and check it against the product compatibility information.",
+    "Verify each worker's training, and the fit check where a respirator is used.",
+    "Mark the clean and contaminated boundary before work starts.",
+    "Remove PPE in the trained sequence, in the designated zone.",
+    "Record the approval, the verification and any deficiency."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A new worker offers to wear ordinary gloves and a disposable mask for an unidentified incident scene.",
+      "decisionPrompt": "Can the worker enter?",
+      "reasoning": "No. The PPE has not been approved against the assessment, and the worker's competence and fit are not verified. Entry waits for the responsible qualified person's approval."
+    },
+    {
+      "situation": "A supervisor asks a trainee to practise removal on a real contaminated item.",
+      "decisionPrompt": "Is that acceptable?",
+      "reasoning": "No. Removal practice uses clean training equipment and no infectious substance. The trainee practises with training equipment under supervision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "PPE items named by the approved assessment, in sizes the fit check confirms.",
+    "Respirator program and fit-check records where a respirator is used.",
+    "Clean training equipment for supervised removal practice."
+  ],
+  "commonErrors": [
+    {
+      "error": "Choosing PPE from a standard kit.",
+      "prevention": "PPE comes from the assessment."
+    },
+    {
+      "error": "Entering before PPE and competence are approved.",
+      "prevention": "Hold until approval and verification are recorded."
+    },
+    {
+      "error": "Removing PPE in the work zone.",
+      "prevention": "Remove in the designated zone in the trained sequence."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "PPE selection and respirator use are restricted to trained workers under the employer's respirator program. Completing this lesson gives no authority to use respiratory protection.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Victorian spill guidance says PPE is worn for all cleaning and is then disposed of or cleaned.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A worker without an approved PPE selection and verified competence does not enter.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each PPE item is linked to an assessment entry and a training record.",
+    "No worker enters before approval and verification are recorded."
+  ],
+  "documentationEvidence": [
+    "PPE approval linked to the assessment.",
+    "Training and fit-check record."
+  ],
+  "summary": [
+    "PPE is approved against the assessment before entry.",
+    "Removal is trained and supervised.",
+    "Improvised protection is refused."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "crime-scene-cleaning-L06-K01",
+      "question": "A new worker offers ordinary gloves and a disposable mask for an unidentified scene. What is correct?",
+      "options": [
+        "Accept, because the worker is willing.",
+        "Hold entry until the responsible qualified person approves the PPE and verifies competence.",
+        "Accept with extra tape added."
+      ]
+    },
+    {
+      "id": "crime-scene-cleaning-L06-K02",
+      "question": "Where should PPE be removed?",
+      "options": [
+        "In the work zone, to save time.",
+        "In a vehicle parked near the scene.",
+        "In the designated zone, in the trained sequence."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "crime-scene-cleaning-lesson-01 to -12 instruction and research files and crime-scene-cleaning-assessment-pass57 (premium-02, passes 55 to 57); editorial drafts, not approved; rights: reworded (no copying).",
+    "HR02-crime-scene-cleaning.json, course bundle instruction sections 1 to 12 (read this pass); rights: reworded (no copying).",
+    "UNCONFIRMED: police, coronial and evidence-handling authority in each Australian state and territory. No Australian police or coronial source was read in this pass.",
+    "UNCONFIRMED: state and territory licensing, waste-classification, transport and WHS requirements for crime-scene work.",
+    "Reference only, not Australian rules: US OSHA 29 CFR 1910.1030 and US CDC environmental cleaning guidance; UK NHS England infection-prevention manual and national standards of healthcare cleanliness; UK Skills for Health occupational standard. Link checks were not confirmed in this pass (UNCONFIRMED).",
+    "UNCONFIRMED: an Australian occupational standard equivalent to the UK occupational standard for body-fluid cleaning. None was found in this pass.",
+    "crime-scene-cleaning-lesson-06 and HR02 section 6; checked 2026-11-03."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Duties of a person conducting a business or undertaking (PCBU)",
+      "url": "https://www.safeworkaustralia.gov.au/law-and-regulation/duties-under-whs-laws/duties-pcbu",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. The PCBU must protect workers and others so far as reasonably practicable; hazards are eliminated where possible and otherwise minimised; for certain hazards a hierarchy of control applies (the page does not list its levels); duties cannot be contracted out. The page does not cover trauma cleaning, waste or PPE rules. Publisher: Safe Work Australia. The state or territory regulator confirms the adopted law."
+    },
+    {
+      "id": "R2",
+      "title": "Australian Guidelines for the Prevention and Control of Infection in Healthcare (2019)",
+      "url": "https://www.safetyandquality.gov.au/sites/default/files/2024-08/australian-guidelines-for-the-prevention-and-control-of-infection-in-healthcare.pdf",
+      "pageDate": "publication date May 2019 (front matter); copyright 2019",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03, first 100,000 of 133,773 characters only. Read: section 2.2 (standard precautions apply to all people), section 3.1.2 recommendations 7 and 8 (sharps handled minimally, never recapped, bent or broken, disposed of at point of use in an approved container not filled past its maximum fill line), section 3.1.3 recommendation 12 (spill response with gloves and protective equipment, containment, absorbent removal, detergent cleaning). Healthcare-setting guidance, applied here by analogy. Publisher: National Health and Medical Research Council (NHMRC)."
+    },
+    {
+      "id": "R3",
+      "title": "Managing spills of blood and body fluids and substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-spills-of-blood-and-body-fluids-and-substances",
+      "pageDate": "Updated 21 August 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Standard precautions and PPE for all spill cleaning; clear up the spill before cleaning the area and do not add liquid to a spill; avoid aerosols; leak-proof bags and containers for waste; sodium hypochlorite generally unnecessary for spill management. Victorian guidance only."
+    },
+    {
+      "id": "R4",
+      "title": "Forensic cleaning services guidelines",
+      "url": "https://www.worksafe.vic.gov.au/forensic-cleaning-services-guidelines",
+      "pageDate": "Reviewed on 17/11/2025 (no published or updated date shown)",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Victorian scheme for forensic (trauma) cleaning after a work-related death: providers must be registered with WorkSafe, hold a recognised forensic or trauma cleaning certification and hold the required insurance; pre-approval is not required because cleaning must start as soon as possible. Certifications named on the page include the IICRC Trauma and Crime Scene Technician Certification. Not covered: cleaning by an unapproved family member, uncertified providers, deceased estate clean-up including personal belongings, clutter removal, structural repair and non-cleaning costs. The page does not describe PPE, waste handling or a licence for this work, and does not confirm any authority to enter or clean a scene. Victorian guidance only."
+    },
+    {
+      "id": "R5",
+      "title": "Cleaning and waste disposal procedures for infection control",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/cleaning-and-waste-disposal-procedures-infection-control",
+      "pageDate": "Updated 14 December 2023",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. Three waste groups (general, clinical, pharmaceutical); clinical waste in biohazard bags shown as yellow; sharps into containers that meet the Australian and New Zealand standards named on the page; clinical and pharmaceutical waste collected by waste companies licensed by the EPA and taken to EPA-licensed facilities. Victorian guidance only."
+    },
+    {
+      "id": "R4-2",
+      "title": "Managing exposures to blood and body fluids or substances",
+      "url": "https://www.health.vic.gov.au/infectious-diseases/managing-exposures-to-blood-and-body-fluids-or-substances",
+      "pageDate": "Updated 8 October 2015",
+      "checked": "2026-11-03",
+      "covers": "Read via WebFetch on 2026-11-03. First response: remove contaminated clothing, wash with soap and water, flush mucous membranes, rinse eyes gently, report immediately; remove from duty and carry out a risk assessment; medical evaluation with post-exposure prophylaxis where appropriate; document date, time, type and circumstances. Victorian guidance only. The page shows its last update as 2015."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "This module is training content. It does not grant authority to enter a scene, to take control of a scene, to disturb or remove anything that may be evidence, or to carry out regulated remediation, transport or disposal. Completing this lesson does not give a licence, certificate, forensic clearance or any other authority. Police, coronial and other official authority controls many scenes, and their release must be obtained in writing before any work starts, whether or not the property owner or manager agrees. Insurer, property-owner and employer authority is also needed where it applies. Some of the work described here is restricted to licensed, authorised or specially trained people. Where you cannot identify who holds the authority, stop and refer."
+  },
+  "stopWorkAndReferral": {
+    "heading": "Stop-work and referral rules for this module",
+    "body": "Stop and refer whenever the scene release is unclear, the applicable jurisdiction or the worker's authorisation is unknown, a potentially relevant object has been found, a sharp is present or suspected, a worker may have been exposed, the PPE has not been approved, a waste route is unauthorised, equipment has an unknown exposure history, or a party asks for a clearance or safety claim the work cannot support. Do not handle evidence or regulated material beyond your remit. A stop-work decision is a correct decision and is recorded as one."
+  }
+}

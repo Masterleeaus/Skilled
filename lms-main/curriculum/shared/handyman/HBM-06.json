@@ -1,0 +1,154 @@
+{
+  "id": "HBM-06",
+  "title": "Business registration and licence checks by state and territory",
+  "courseSlugs": [
+    "handyman",
+    "deck",
+    "flatpack",
+    "locksmith",
+    "painting",
+    "plastering",
+    "tiling"
+  ],
+  "moduleTitle": "Shared: Starting a business",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Owners of small property trade businesses in any state or territory who are setting up the business identity and checking their work against licence rules",
+  "prerequisites": [
+    "handyman-work-L01",
+    "HBM-03"
+  ],
+  "learningOutcomes": [
+    "Identify which registrations and licences the state or territory may require for each task on the planned service list.",
+    "Check each task against the state or territory rule, and record the source, the date and the result of the check.",
+    "Set out the business identity steps (name, structure, Australian Business Number and GST timing), with each step marked as checked or still to be checked."
+  ],
+  "instruction": [
+    {
+      "heading": "Start with the work, not the paperwork",
+      "body": "Licence rules usually depend on the type and value of the work, so begin by writing down the work the business plans to do. Break each service into the tasks it involves. Then check each task against the rules in your own state or territory. The guide this lesson draws on describes a contractor licence process in one US state: check the state rules, choose a business name, complete training, sit an exam and apply. Those steps do not apply in Australia. Each state and territory has its own licensing and registration rules, with different thresholds, categories and fees. The existing lesson “Scope, consent and trade boundaries” sets out the trade boundary and the licence notice, so read it first, then check the current rules with the state authority."
+    },
+    {
+      "heading": "Setting up the business identity",
+      "body": "Choose a business name you are entitled to use. A trading name that differs from the owner's legal name is a question to check with the state or territory. Decide the business structure. A sole trader, a company, a partnership and a trust each carry different tax and liability features, so the choice should be made with a registered tax agent or an accountant. Confirm the current steps and any fees before applying for an Australian Business Number. Register for GST when GST turnover reaches the threshold. The ATO states that a GST turnover of $75,000 or more requires registration, as checked on 2026-11-02."
+    },
+    {
+      "heading": "Checking licences and renewals",
+      "body": "If a state or territory requires a licence or registration for a task, record the licence category, the holder's obligations, the renewal date and any conditions. Some categories allow only certain work, so a licence may not cover everything on the service list. Keep the licence or a verified register entry in the business file, with the expiry date. Check for each licence category whether it can transfer to a business or an employee. Completing a course, passing an exam or finishing an apprenticeship is not the same as holding a licence. The licence is the authority issued by the state or territory, and this lesson does not issue, grant or confirm any licence."
+    },
+    {
+      "heading": "Keeping a compliance record",
+      "body": "Record every check: the state or territory rule, the source and the date checked, the decision, and who made it. Repeat the checks each year and whenever a new service is added. A record shows a client or an auditor that the rules were looked at before the work was accepted, and it helps the owner notice when a change affects the business."
+    }
+  ],
+  "procedure": [
+    "List every service you plan to offer, and break each service into its individual tasks.",
+    "Check each task against the state or territory licence and registration rules, and record the source and date.",
+    "Mark any task that needs a licence you do not hold as a referral, and remove it from the own-trade service list.",
+    "Choose a business name, check whether it needs registration, and record the result.",
+    "Discuss the business structure, the Australian Business Number and the GST timing with a registered tax agent or accountant.",
+    "Save each licence or registration with its expiry date, and set a renewal reminder at least a month before it falls due."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A handyman plans to replace a section of fencing and install a new gate, and also to connect a new outdoor light to the house wiring.",
+      "decisionPrompt": "Which parts of the plan can the handyman offer as their own work?",
+      "reasoning": "The fencing and gate tasks depend on the state or territory rules for building work, which turn on the type and value of the job, so they must be checked against the rules and the threshold before they are offered. Connecting a new outdoor light to house wiring is licensed electrical work, so it becomes a referral to a licensed electrician. The handyman records each check with its source and date before taking the fencing job."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Service list broken into individual tasks",
+    "State or territory licence and registration check record",
+    "Business file for licences, registration documents and the Australian Business Number"
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming that a course certificate, or a licence held while working for someone else, covers the owner's own business.",
+      "prevention": "Check the holder, the category and the authority that issued the licence, and keep a copy of the licence document."
+    },
+    {
+      "error": "Using a licence threshold from another state or territory, or from a guide written for another country.",
+      "prevention": "Check the rule for the state or territory where the work is done, and record the source and date."
+    },
+    {
+      "error": "Letting a licence expire while jobs are already booked.",
+      "prevention": "Record each expiry date and set a reminder at least a month before renewal."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The existing “Scope, consent and trade boundaries” lesson and the state-by-state licence checks record the state positions, and each one should be confirmed before use.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant a licence, registration or authority to perform any regulated work. Completing it is not a licence and does not make any task lawful for the learner.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Business structure, the Australian Business Number, GST and tax obligations depend on individual circumstances. Confirm them with the ATO or a registered tax agent. The GST threshold of $75,000 is confirmed from the ATO page checked on 2026-11-02.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each planned task is checked against the state or territory rule, and the source and date are recorded.",
+    "Each task needing a licence the owner does not hold is listed as a referral.",
+    "Each business identity step (name, structure, Australian Business Number, GST) is recorded as checked or left open."
+  ],
+  "documentationEvidence": [
+    "Task-by-task state or territory rule check with source, date and decision",
+    "Copy of each licence or registration, with its expiry date where one is held",
+    "Record of the business name, the structure decision and the tax advice received"
+  ],
+  "summary": [
+    "Check the rules task by task, in the state or territory where the work is done.",
+    "A course or an exam is not a licence; the state or territory issues any licence required.",
+    "Keep a dated record of every check and every renewal."
+  ],
+  "businessFields": [
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:business.name}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-06-K01",
+      "question": "Why does this lesson start with the tasks the owner plans to do?",
+      "options": [
+        "Because a licence is issued for the paperwork, not the work and the paperwork is the same for all",
+        "Because state and territory licensing rules depend on the type and value of each task",
+        "Because customers usually ask about licences before they book and the booking is then confirmed",
+        "Because licences cannot be checked and every trade is licensed in the same way"
+      ]
+    },
+    {
+      "id": "HBM-06-K02",
+      "question": "A learner completes a training course. Which statement is correct?",
+      "options": [
+        "The course grants a licence to perform regulated work once the owner has passed the exam",
+        "The course is not a licence, and the state or territory issues any licence that is required",
+        "The course replaces the state licence for any task the owner chooses to do",
+        "The course issues a registration number that covers every service in every state"
+      ]
+    },
+    {
+      "id": "HBM-06-K03",
+      "question": "Which step should come before offering a licensed task to a client?",
+      "options": [
+        "Ask a friend whether the task is allowed and then take their word on the rules",
+        "Check the state or territory rule, then hold the required licence or refer the work",
+        "Offer the work and check the rules later and then take the job on the day",
+        "Assume the task is fine if it looks small and the client has not asked about a licence"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Starting a Handyman Business guide (dca133d1-Starting-a-Handyman-Business.pdf), Chapter Two (pp. 12-13) and the set-up introduction on p. 19; rights: user-held; reworded (no copying). The US exam and application steps are not carried over.",
+    "Cross-checked against handyman-work-L01 (trade boundary and licence notice), additional-specialist-services-L04 (licences, permissions and restricted work) and BP-01 (business identity mention); overlap recorded",
+    "ATO, GST registration: https://www.ato.gov.au/api/public/content/0-bbbe7313-ba3c-44f8-a106-3b4081584b25 (checked 2026-11-02; $75,000 threshold confirmed)",
+    "State and territory licence categories, fees, Australian Business Number steps and business name registration: UNCONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

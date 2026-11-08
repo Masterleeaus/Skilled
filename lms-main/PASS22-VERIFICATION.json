@@ -1,0 +1,15 @@
+{
+  "pass": 22,
+  "base": "Titan-Academy-TypeScript-Upgrade-Pass21-Cumulative.zip",
+  "changed": [
+    "apps/backend/src/modules/curriculum/integration.routes.ts"
+  ],
+  "added": [
+    "apps/backend/tests/pass22-inactive-identity.test.cjs",
+    "PASS22-INACTIVE-LEARNER-SECURITY.md",
+    "PASS22-VERIFICATION.json"
+  ],
+  "test": "PASS: 11 integration security source checks",
+  "runtimePostgresql": false,
+  "typescriptBuild": false
+}

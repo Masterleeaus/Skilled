@@ -1,0 +1,121 @@
+{
+  "id": "SFS-14",
+  "title": "Parts and stock on the job",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "RH",
+  "estimatedMinutes": 30,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-05"
+  ],
+  "learningOutcomes": [
+    "Attach required parts to a template or job so the right items travel with the worker.",
+    "Explain how a request, a transfer and a used-parts record connect.",
+    "Record a return with its reason."
+  ],
+  "instruction": [
+    {
+      "heading": "Required parts",
+      "body": "Parts can be listed on a template or on an individual job. A worker sent to a repair without the right part wastes a visit, so the aim is to know what is needed before dispatch. A template's parts list covers the usual need, and a job can add parts it specifically requires. If a part is missing, raise a request linked to the job, so stock and the job stay in step."
+    },
+    {
+      "heading": "Requests, transfers and use",
+      "body": "A stock request asks for items to be moved to where they are needed, with a date and a location. A transfer shifts stock between two places, for example a depot and a van, and the stock levels update. When a worker uses an item, log it against the job immediately, so the stock count is right and the invoice can include it. Shipments track items in transit, and returns handle items sent back, each with a reason."
+    }
+  ],
+  "procedure": [
+    "List the required parts on the template or the job.",
+    "Check stock at the worker's van or depot before dispatch.",
+    "Raise a request for any missing part, linked to its job.",
+    "Create a transfer to move the part to the van or depot.",
+    "Log used parts against the job as they are used, and log any return with its reason."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker arrives to fit a door lock and finds the lock set is not on the van.",
+      "decisionPrompt": "How should the visit and the stock record be handled?",
+      "reasoning": "Mark the visit cannot complete with the reason. Raise a stock request linked to the job and create a transfer so the part reaches the van. Book a return visit once the part is on the van."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using a part and not recording it.",
+      "prevention": "Record it on the job straight after use."
+    },
+    {
+      "error": "Raising a request without linking it to a job.",
+      "prevention": "Always link a request to the job it serves."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each job lists the parts it needs before dispatch.",
+    "Each used part has a job link and a quantity."
+  ],
+  "documentationEvidence": [
+    "Parts list per job",
+    "Transfer and used-parts log"
+  ],
+  "summary": [
+    "Parts on the template or job prevent wasted visits.",
+    "Requests and transfers move stock to where it is needed.",
+    "Used parts and returns must be recorded to keep stock accurate."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-14-K01",
+      "question": "A part is needed for a job and is not on the van. What is the right next step?",
+      "options": [
+        "Raise a request linked to the job and arrange a transfer",
+        "Use another job's part and say nothing",
+        "Cancel the job and ask the customer to buy the part directly"
+      ]
+    },
+    {
+      "id": "SFS-14-K02",
+      "question": "Why record a used part on the job straight after use?",
+      "options": [
+        "So the stock count and the job's cost are correct",
+        "So the worker's phone stores a photo of the part",
+        "So the customer can cancel the job at any time"
+      ]
+    },
+    {
+      "id": "SFS-14-K03",
+      "question": "What does a stock transfer do?",
+      "options": [
+        "Shifts items between two places and updates the levels",
+        "Sets the price of each part",
+        "Copies the job to another visit and removes the stock record"
+      ]
+    },
+    {
+      "id": "SFS-14-K04",
+      "question": "When a worker uses an item, when should it be logged against the job?",
+      "options": [
+        "Immediately",
+        "At the end of the month",
+        "Only if the customer asks",
+        "Never"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 55-60 (inventory set-up); pp. 141-151 (managing inventory); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: required parts (on template and job); stock request; stock transfer; used-parts record; return (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

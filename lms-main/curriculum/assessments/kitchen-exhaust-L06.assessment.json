@@ -1,0 +1,35 @@
+{
+ "lessonId": "kitchen-exhaust-L06",
+ "knowledgeAnswers": [
+  {
+   "id": "kitchen-exhaust-L06-K01",
+   "correctIndex": 0,
+   "rationale": "Suppression bypass is a stop-work trigger, and verbal agreement is not authority."
+  },
+  {
+   "id": "kitchen-exhaust-L06-K02",
+   "correctIndex": 1,
+   "rationale": "Appearance does not show the safety of the system."
+  },
+  {
+   "id": "kitchen-exhaust-L06-K03",
+   "correctIndex": 2,
+   "rationale": "Shutdown is referred to the authorised competent person."
+  }
+ ],
+ "practicalCriteria": [
+  "Separates observed facts from assumptions in the fictional case.",
+  "Refuses a simulated suppression bypass and identifies the stop-work trigger.",
+  "Completes a fictional services-isolation form with a stop, hold or refer decision."
+ ],
+ "passRule": "Observations and assumptions separated, bypass refused and escalated, and the form completed with a refer decision. Observed by an assessor. Not a certification.",
+ "evidenceRequired": [
+  "Fictional services-isolation form",
+  "Handover note with exclusions"
+ ],
+ "stopWorkCriteria": [
+  "Suppression or interlock bypass proposed or accepted",
+  "Live electrical or mechanical plant",
+  "Unauthorised duct entry or equipment isolation proposed"
+ ]
+}

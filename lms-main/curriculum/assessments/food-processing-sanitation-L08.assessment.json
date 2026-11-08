@@ -1,0 +1,36 @@
+{
+  "lessonId": "food-processing-sanitation-L08",
+  "knowledgeAnswers": [
+    {
+      "id": "food-processing-sanitation-L08-K01",
+      "correctIndex": 1,
+      "rationale": "Water carries contamination toward product, drains and the environment, so its path is traced before use."
+    },
+    {
+      "id": "food-processing-sanitation-L08-K02",
+      "correctIndex": 1,
+      "rationale": "Overflow is a stop trigger. Pressure is not used to force the drain, and the area is protected and escalated."
+    },
+    {
+      "id": "food-processing-sanitation-L08-K03",
+      "correctIndex": 2,
+      "rationale": "Clearance or release statements need an authorised decision. The cleaner records the hold, not a clearance."
+    }
+  ],
+  "practicalCriteria": [
+    "Traces the water path on a fictional site drawing, including drain capacity and the drain map reference.",
+    "Identifies aerosol, overflow and unapproved-water stop triggers in a case study.",
+    "Records a complete hold and referral, with the pending decision, and makes no clearance claim."
+  ],
+  "passRule": "Water path traced, stop triggers identified, and a complete hold and referral recorded without any clearance claim. Observed in an inert tabletop simulation with a fictional drawing. Not a site authorisation, discharge permit, food safety clearance or qualification. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Annotated fictional site drawing",
+    "Hold and referral record"
+  ],
+  "stopWorkCriteria": [
+    "High-pressure spray used near exposed product",
+    "Drain overflow ignored or forced with more pressure",
+    "Unapproved water use",
+    "Area recorded as clean, sanitised or released by the cleaner"
+  ]
+}

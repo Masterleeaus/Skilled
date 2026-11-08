@@ -1,0 +1,38 @@
+{
+  "lessonId": "handyman-work-L09",
+  "knowledgeAnswers": [
+    {
+      "id": "handyman-work-L09-K01",
+      "correctIndex": 1,
+      "rationale": "Painting over damp or staining hides the cause. The cause must be found and recorded, and the surface dried, before painting."
+    },
+    {
+      "id": "handyman-work-L09-K02",
+      "correctIndex": 2,
+      "rationale": "Older surfaces may contain lead or asbestos. Disturbing them before assessment is not acceptable."
+    },
+    {
+      "id": "handyman-work-L09-K03",
+      "correctIndex": 3,
+      "rationale": "The Victorian source records the 10 square metre and one hour in any seven days limit for non-friable asbestos (asbestos.vic.gov.au page, no date shown). The limit does not apply to friable asbestos."
+    },
+    {
+      "id": "handyman-work-L09-K04",
+      "correctIndex": 3,
+      "rationale": "The patch and prime section says filler suits shallow gaps in painted surfaces, and that deeper repairs may need a different material."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated wall with a stain and flaking paint, the worker records the moisture finding and does not paint until the cause is recorded.",
+    "The worker selects a primer and patch material for a stated substrate and states the reason."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Surface condition record for the simulated wall",
+    "Product selection record"
+  ],
+  "stopWorkCriteria": [
+    "Damp or active staining is present and the cause is not known",
+    "The surface may contain lead or asbestos and has not been assessed"
+  ]
+}

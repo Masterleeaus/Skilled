@@ -1,0 +1,180 @@
+{
+  "id": "CAR-BUS-04",
+  "title": "Pricing and quoting for detailing packages",
+  "courseSlugs": [
+    "cardetail"
+  ],
+  "moduleTitle": "Quoting and pricing",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 45,
+  "audience": "Car detailers who set package prices, write quotes for clients and need to show the basis for each price to themselves, their bookkeeper and the client.",
+  "referencesAtStart": "Official source: ATO, GST registration: when circumstances change (published 2 December 2025; no separate last-updated date shown). No market price is presented as fact in this lesson.",
+  "prerequisites": [
+    "SHR-FIN-01",
+    "SHR-PLN-02"
+  ],
+  "learningOutcomes": [
+    "Build the variable cost of one detailing package from labour, consumables, travel, water and power.",
+    "State the pricing basis on every quote, and show whether a price is quoted with or without GST.",
+    "Calculate break-even jobs per month and compare the figure with the jobs the business can realistically book."
+  ],
+  "instruction": [
+    {
+      "heading": "Build the cost before the price",
+      "body": "A price is only as good as the cost it covers. Start with the cost of one job of each package. Labour is the time on site, plus the time to travel to and from the client, plus set-up and pack-down, multiplied by the hourly cost you need to earn. Consumables are the chemicals, pads, towels and small items used on that job. Travel is the distance driven for the job multiplied by your running cost per kilometre, which you should take from your own vehicle records rather than from a generic figure. Water and power are the amounts used on site, and they matter most for mobile work where the client supplies them. Fixed costs are the costs that do not change with one job: insurance, phone, storage, software, licence and registration costs, bookkeeping fees, and depreciation on equipment. Keep the two groups separate. Variable costs go into the price of each job. Fixed costs are spread across the number of jobs you expect to book in a month. A package that looks profitable when fixed costs are ignored may not cover the business's running costs at all."
+    },
+    {
+      "heading": "Choose a pricing basis and state it",
+      "body": "A pricing basis is the reason a price is what it is. Common bases are cost-plus, where a margin is added to the variable cost; time-based, where a rate per hour is applied; package pricing, where the price reflects the result the package delivers; and market-referenced pricing, where you compare with prices you have verified yourself. The mobile car wash business plan uploaded for this course describes a market-price approach and a decision to avoid price wars, and that approach is a model for thinking about the choice, not a source of figures. Whichever basis you use, write it on the quote, for example that the price reflects the package scope, travel within a stated radius and the consumables used. Do not state a competitor's price as a market fact unless you have a dated record of it. Decide how travel is charged: as a call-out fee, as part of the package, or with a minimum charge that covers the time lost on a short job. State whether the price includes GST. A GST-exclusive price and a GST-inclusive price can differ by the GST amount, and a quote that does not say which one it is will be misunderstood. The ATO page on GST registration gives $75,000 in GST turnover as the point at which registration is required."
+    },
+    {
+      "heading": "Break-even and the written quote",
+      "body": "Break-even tells you how many jobs you must book in a month before the business covers its fixed costs. Divide the monthly fixed costs by the contribution per job, which is the price excluding GST minus the variable cost of that job. Then compare the answer with the jobs you can realistically do in a week, allowing for travel, weather and rest. If the break-even figure is higher than your capacity, the price, the costs or the mix of packages has to change. A written quote should include the package and its scope, the included items, the excluded items, the conditions the client must meet for water, power and access, the price and whether GST is included, the validity period, any deposit, and the payment terms. Keep the quote short enough for the client to read, and long enough that a later dispute can be settled from the document. Review each price after three months, using the actual costs recorded on the job cards."
+    }
+  ],
+  "procedure": [
+    "List the fixed monthly costs of the business, including insurance, phone, storage, software and depreciation.",
+    "List the variable costs of one package: labour time, consumables, travel, water and power.",
+    "Choose the pricing basis and write it down before setting the price.",
+    "Set the price excluding GST, then state whether the quote shows the GST-inclusive figure as well.",
+    "Divide the fixed monthly costs by the contribution per job to find the break-even number of jobs per month.",
+    "Compare the break-even number with realistic weekly capacity, and change the price or the costs if the gap is too large.",
+    "Write the quote with scope, included and excluded items, conditions, GST statement, validity, deposit and payment terms.",
+    "Review the price after three months against the actual costs on the job cards."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A mobile full exterior and interior package. Illustrative inputs only, not market prices and not from any source: 3.0 hours of labour at a target $45 per hour ($135); consumables $12; travel of 25 km at an assumed $0.75 per km running cost ($18.75); water and power $5. Fixed costs are $1,200 a month, which includes depreciation. The owner can realistically book 12 of these packages a month.",
+      "decisionPrompt": "What is the variable cost, the contribution per job at a price of $250 excluding GST, the break-even jobs per month, and the price needed to book 12 jobs?",
+      "reasoning": "Variable cost is $135 + $12 + $18.75 + $5 = $170.75. Contribution per job at $250 excluding GST is $250 - $170.75 = $79.25. Break-even is $1,200 / $79.25 = 15.1, so 16 jobs a month. The owner can book only 12, so the $250 price does not cover fixed costs at that capacity. To book 12 jobs and still cover the $1,200, the price must cover the fixed cost share of $100 per job plus the variable cost of $170.75, which is about $271 excluding GST. Replace every illustrative input with your own timed job, your own vehicle record and your own cost figures before you set a price."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Spreadsheet or calculator for the cost sheet and break-even check.",
+    "Job timer, and a vehicle log for the kilometres driven to each job.",
+    "Quote template with scope, exclusions, conditions, GST statement and validity fields.",
+    "No personal protective equipment is needed for the desk work in this lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting a price by copying a competitor without knowing that competitor's costs.",
+      "prevention": "Set the price from your own cost sheet, and use competitor prices only as a dated check."
+    },
+    {
+      "error": "Leaving travel time, set-up and pack-down out of the labour cost.",
+      "prevention": "Time a full job from leaving base to returning, and cost every minute of it."
+    },
+    {
+      "error": "Quoting a price without saying whether GST is included.",
+      "prevention": "State GST-inclusive or GST-exclusive on the quote, and show both if the client needs them."
+    },
+    {
+      "error": "Not stating what is excluded, so the client expects extra work at the same price.",
+      "prevention": "List excluded items on the quote and confirm them with the client before the job."
+    },
+    {
+      "error": "Setting a minimum charge too low to cover travel on a short job.",
+      "prevention": "Set the minimum charge from the variable cost of the shortest job you accept."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Quotes and advertising must not make claims about results or prices that cannot be supported.",
+      "licenceNotice": false
+    },
+    {
+      "point": "GST registration is required once GST turnover reaches $75,000, according to the ATO page on GST registration. Check your own turnover and the registration rules with a registered tax agent before you quote with or without GST.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The worked example uses invented numbers for teaching only. It is not a market price, not a benchmark and not advice on what a detailing package should cost.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The cost sheet lists every variable cost for the package, with the source of each figure.",
+    "Every quote states its pricing basis, whether GST is included, what is excluded and how long the price holds.",
+    "The break-even number of jobs per month is compared with realistic capacity, and any gap is acted on.",
+    "No competitor price or market figure is quoted as fact without a dated record."
+  ],
+  "documentationEvidence": [
+    "Cost sheet with each variable and fixed cost, its source and the date.",
+    "Quote showing the scope, exclusions, conditions, GST statement, validity and payment terms.",
+    "Price review note recorded three months after the price was set, with the actual costs compared to the cost sheet."
+  ],
+  "summary": [
+    "Build the variable cost of each package before you set a price, and keep fixed costs separate.",
+    "State the pricing basis and the GST position on every quote.",
+    "Use break-even jobs per month to test whether a price works at the capacity you really have."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "CAR-BUS-04-K01",
+      "question": "Which of these is a variable cost of a single detailing job?",
+      "options": [
+        "Consumables and product used on that job",
+        "The monthly rent of the storage unit",
+        "The yearly insurance premium"
+      ]
+    },
+    {
+      "id": "CAR-BUS-04-K02",
+      "question": "A quote states a price of $250 and nothing else. What must be added for the client to rely on it?",
+      "options": [
+        "Nothing, because a number is enough for the client to accept the job",
+        "Whether GST is included, what is excluded and how long the price holds",
+        "The name of the product the detailer prefers to use for the job"
+      ]
+    },
+    {
+      "id": "CAR-BUS-04-K03",
+      "question": "How are break-even jobs per month found?",
+      "options": [
+        "Divide the owner's drawings by the number of weeks worked in the month, then add the GST that is due on each job",
+        "Divide the total hours in the year by the number of staff, then multiply by the hourly rate for each job",
+        "Divide the monthly fixed costs by the contribution per job, which is the price excluding GST minus the variable cost per job"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R3",
+      "title": "GST registration: when circumstances change",
+      "url": "https://www.ato.gov.au/api/public/content/0-bbbe7313-ba3c-44f8-a106-3b4081584b25",
+      "pageDate": "Publication date 2 December 2025; no separate last-updated date shown",
+      "checked": "2026-11-03",
+      "covers": "ATO website: search for GST registration and changes in circumstances. Confirm the $75,000 threshold on the current page before relying on it. Publisher: Australian Taxation Office (ATO)."
+    }
+  ],
+  "referencesAtEnd": "Recheck before use: ATO, GST registration: when circumstances change (published 2 December 2025).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Mobile car wash business plan (upload 5dcbad2a-445141841-Mobile-Car-Wash-Business-Plan.txt): pricing approach and the decision to avoid price wars used as a model for choosing a pricing basis. Its figures (start-up cost, revenue, break-even count, tax rate and currency) are not carried over because they are undated, relate to another country and are not confirmed; rights: reworded (no copying)",
+    "[R3] https://www.ato.gov.au/api/public/content/0-bbbe7313-ba3c-44f8-a106-3b4081584b25 (publication date 2 December 2025; checked 2026-11-03)",
+    "Worked example figures ($45 per hour, $12 consumables, $0.75 per km, $5 water and power, $1,200 fixed costs, 12 jobs capacity, $250 price): invented for teaching. Not market prices. Learner must replace them with own figures.",
+    "UNCONFIRMED: GST rate on taxable supplies (not checked on an ATO rates page in this draft); Australian Consumer Law obligations for quotes and advertising claims.",
+    "Conditions vary by state, territory and business structure. A registered tax agent governs the final treatment, and this lesson does not replace that advice."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-01.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    },
+    {
+      "src": "/academy/library/photos/vehicles/cardetail-photo-ebf6aaa6-02.jpg",
+      "alt": "Car detailing illustration",
+      "kind": "photo",
+      "origin": "cardetail"
+    }
+  ]
+}

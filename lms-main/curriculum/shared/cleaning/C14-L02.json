@@ -1,0 +1,135 @@
+{
+  "id": "C14-L02",
+  "title": "Isolation and temperature",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who clean ovens, cooktops and other appliances that heat or are connected to power or gas.",
+  "prerequisites": [
+    "C14-L01"
+  ],
+  "learningOutcomes": [
+    "Confirm that a hot or energised appliance is cool and isolated before cleaning.",
+    "Recognise isolation steps that a cleaner may use and those that only a licensed person may do.",
+    "Stop and escalate where isolation is unclear or disconnection would be needed."
+  ],
+  "instruction": [
+    {
+      "heading": "Temperature first",
+      "body": "Oven interiors, cooktop surfaces, grills and the glass of some appliances stay hot for a long time after they are switched off. Confirm the appliance is cool before you touch the interior, or clean a surface that is still warm. Heat also changes how a product behaves, so the cleaning method is chosen for a cool surface. A burn is a common and avoidable injury in appliance cleaning."
+    },
+    {
+      "heading": "Isolation: what a cleaner can and cannot do",
+      "body": "A cleaner may switch an appliance off at its own control, and may use the site's approved lock-out or tag-out step where the procedure gives one. A cleaner must not disconnect a fixed appliance from the electrical supply or the gas supply, must not open the panel behind the appliance, and must not remove a hard-wired connection. Those steps are for a licensed person, and the cleaner reports the need rather than carrying it out."
+    },
+    {
+      "heading": "When isolation is unclear",
+      "body": "If you cannot tell whether an appliance is switched off, or whether a control is live, stop, leave the controls alone and escalate to the supervisor. Do not assume that a dark display means that the appliance is isolated. Record the appliance, the time and the decision taken."
+    }
+  ],
+  "procedure": [
+    "Confirm that the appliance is switched off at its own control and that the surface is cool.",
+    "Use the site's approved lock-out or tag-out step only where the procedure gives it.",
+    "Do not disconnect fixed appliances, open the panel behind them, or remove hard-wired connections.",
+    "Stop and escalate if isolation is unclear or disconnection is needed.",
+    "Record the appliance, the time and the decision."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker is asked to clean the inside of an oven that is still warm and whose display is dark.",
+      "decisionPrompt": "What do you check first?",
+      "reasoning": "Do not assume the oven is isolated because the display is dark. Wait until the interior is cool, confirm the controls are off, and check with the supervisor if the isolation status is unclear. Do not disconnect the oven."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Heat-resistant gloves only where the procedure allows them for handling racks.",
+    "Lock-out or tag-out tags where the site provides them.",
+    "Eye protection and non-slip footwear."
+  ],
+  "commonErrors": [
+    {
+      "error": "Cleaning an oven interior that is still warm.",
+      "prevention": "Confirm the interior is cool before cleaning."
+    },
+    {
+      "error": "Assuming a dark display means the appliance is isolated.",
+      "prevention": "Confirm the isolation with the procedure, and escalate if unclear."
+    },
+    {
+      "error": "Pulling a plug from a fixed appliance to make it safe.",
+      "prevention": "Fixed appliances are isolated by the licensed person. Report the need."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In New South Wales, wiring work needs an electrical licence or certificate whatever its price, except for electrical equipment operating at not more than 50 volts AC or 120 volts ripple-free DC (NSW Government electrical page, last updated 23 June 2026). Check with the relevant regulator in your state or territory before relying on this point. This lesson does not grant any electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Gas fitting building work needs a QBCC licence of any value in Queensland (QBCC page, last reviewed 11 August 2021). In Victoria, Energy Safe Victoria says to always use a licensed gasfitter for any installation, repairs or renovations involving gas work (page reviewed 31 May 2026). Check the Victorian exclusion for cleaning pipes against an official page before relying on it. This lesson does not grant any gas licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Cool-surface check made before any interior cleaning in the simulated task.",
+    "Unclear isolation escalated in the role-play, with no disconnection by the cleaner."
+  ],
+  "documentationEvidence": [
+    "Isolation and temperature check recorded with the time.",
+    "Escalation record for any unclear isolation."
+  ],
+  "summary": [
+    "Check the surface is cool before touching the interior.",
+    "Cleaners switch off at the control; licensed people isolate fixed services.",
+    "Do not assume a dark display means isolated.",
+    "Escalate unclear isolation and record it."
+  ],
+  "businessFields": [
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.site_hazards}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C14-L02-K01",
+      "question": "Why is the oven interior checked for temperature before cleaning?",
+      "options": [
+        "The products work better when hot, and staff can clean it faster",
+        "To prevent burns from surfaces that stay hot after switch-off",
+        "The manufacturer requires it only on Mondays, not on other days"
+      ]
+    },
+    {
+      "id": "C14-L02-K02",
+      "question": "What may a cleaner do to isolate an appliance?",
+      "options": [
+        "Disconnect it from the wall and remove the hard-wired connection without asking the team leader first",
+        "Open the panel behind it and remove the fuse to isolate the circuit before you clean the inside of it",
+        "Switch it off at its own control, and use an approved lock-out only where the procedure gives it"
+      ]
+    },
+    {
+      "id": "C14-L02-K03",
+      "question": "A display is dark but isolation is unclear. What is the correct action?",
+      "options": [
+        "Stop, leave the controls alone, and escalate",
+        "Assume it is isolated and clean the display now",
+        "Restart the appliance to check it quickly"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and manufacturer review.",
+    "https://www.bpc.vic.gov.au/plumbers/plumber-classes-and-categories/gasfitting-work (checked 2026-11-02 via research/trades/LICENCE-MATRIX.csv row VIC-27)",
+    "UNCONFIRMED: state and territory electrical and gas licence classes for appliance connection and disconnection."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

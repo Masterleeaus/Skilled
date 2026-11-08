@@ -1,0 +1,184 @@
+{
+  "id": "SHR-FIN-05",
+  "title": "Trial balance, adjusting entries and closing the books",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay",
+    "carpet",
+    "hardfloor",
+    "construction",
+    "postcon",
+    "strata",
+    "cardetail",
+    "medequip",
+    "healthcare",
+    "window",
+    "pressure",
+    "roof",
+    "solar",
+    "pool",
+    "pond",
+    "aquarium",
+    "lawn",
+    "garden",
+    "irrigation",
+    "landscaping",
+    "handyman",
+    "locksmith",
+    "deck",
+    "flatpack",
+    "painting",
+    "plastering",
+    "tiling",
+    "portfolio",
+    "hair",
+    "beauty",
+    "massage",
+    "pt",
+    "yoga",
+    "dogwalk",
+    "petsit",
+    "groom",
+    "stone",
+    "timber",
+    "furniture",
+    "appliance"
+  ],
+  "moduleTitle": "Shared: Business operations and finance",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Owners and bookkeepers of small service businesses in Australia who close each period, prepare the statements and check that the figures are complete.",
+  "referencesAtStart": "No ATO figures are used in this lesson. Accounting cycle concepts are general teaching.",
+  "prerequisites": [
+    "SHR-FIN-03",
+    "SHR-FIN-04"
+  ],
+  "learningOutcomes": [
+    "Prepare an unadjusted trial balance from ledger balances, and explain what it does and does not prove.",
+    "Prepare adjusting entries for accrued expenses, prepaid expenses, depreciation and doubtful debts.",
+    "Place the closing entries in order, and explain what remains open in the post-closing trial balance."
+  ],
+  "instruction": [
+    {
+      "heading": "What the trial balance proves and what it does not",
+      "body": "An unadjusted trial balance lists every ledger account with its balance, placed in a debit or a credit column. If the two columns total the same, the debits and credits have been entered equally, which is a useful arithmetic check. It does not prove that each amount sits in the right account, that an entry was not missed, or that the period's items are complete. An error such as a payment posted to the wrong expense account still balances. The trial balance is therefore a checkpoint between the ledger and the financial statements, not a finished report, and it is the starting point for adjustments."
+    },
+    {
+      "heading": "Adjusting entries for items that belong to the period",
+      "body": "Adjusting entries are made at the end of a period so that income and expenses fall into the period they relate to. Accrued expenses are costs the business has incurred but not yet paid or billed, such as wages earned by staff up to the period end, and they are recorded against a liability. Prepaid expenses are payments made in advance, such as insurance for a year. Only the part used in the period is expensed, and the rest stays as an asset until it is used. Depreciation is the period's share of a non-current asset's cost, as set out in “Equipment, vehicles and depreciation for a service business”. An allowance for doubtful debts is an estimate of client invoices that may not be paid, shown as a contra-asset against trade debtors. Unearned income, such as a client deposit for work not yet done, is moved to income only as the work is performed, which links to the deposit treatment in “Chart of accounts for a service business”. Each adjustment needs a description and a note of the reason it is needed."
+    },
+    {
+      "heading": "Closing the books and preparing the statements",
+      "body": "Once the adjusted trial balance is agreed, the statements are prepared. The income statement shows the period's income less its expenses. The balance sheet shows assets, liabilities and equity at the period end. Closing entries then reset the temporary accounts to nil for the next period. Income and expense accounts are transferred to an income summary account, the income summary is transferred to owner's equity, and owner's drawings are transferred to equity, because drawings are not an expense. Balance sheet accounts are not closed. A post-closing trial balance is then prepared to show that only the permanent accounts still carry balances and that the debits and credits still agree. Some businesses also post reversing entries at the start of the next period for certain accruals, so that the first payment is recorded simply. Whether and how to do this is a bookkeeping choice, and it should be applied consistently."
+    }
+  ],
+  "procedure": [
+    "Prepare the unadjusted trial balance from the ledger, and confirm that the debit and credit totals agree.",
+    "Review each account for items that belong to the period but are not yet recorded, such as accrued wages, prepaid insurance, depreciation and doubtful debts.",
+    "Prepare each adjusting entry with a description and the supporting calculation, and post it.",
+    "Prepare the adjusted trial balance, and check that its totals agree.",
+    "Prepare the income statement and balance sheet from the adjusted balances.",
+    "Post the closing entries in order: income and expenses to income summary, income summary to equity, and drawings to equity.",
+    "Prepare the post-closing trial balance, and file it with the period's records."
+  ],
+  "workedExamples": [
+    {
+      "situation": "In an example, a business pays $1,200 for a 12-month insurance policy on 1 October, and its financial year ends on 31 December. The premium and dates are invented for this example. The payment was posted to prepaid insurance when it was made.",
+      "decisionPrompt": "How much insurance expense belongs to the period ended 31 December, and what is the adjusting entry?",
+      "reasoning": "Three of the twelve months have passed (October, November and December), so a quarter of the premium is used: $1,200 multiplied by 3/12 gives $300. Debit insurance expense for $300, so the period carries its share of the cost, and credit prepaid insurance for $300, which reduces the asset. The remaining $900 stays in prepaid insurance for the next nine months. If this adjustment is missed, expenses are understated and assets are overstated."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Ledger report or accounting software report showing each account balance.",
+    "Adjusting entry worksheet or spreadsheet with a column for each stage.",
+    "Supporting calculations, such as the insurance policy, the wage record and the asset register.",
+    "No personal protective equipment is needed for this desk-based lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a balanced trial balance as proof that every account is correct.",
+      "prevention": "Check each account against its source and review the period's items before the statements are prepared."
+    },
+    {
+      "error": "Forgetting accrued wages or other costs that were earned but not yet paid.",
+      "prevention": "Review the wage record, and supplier bills received after the period end, for costs that belong to the period."
+    },
+    {
+      "error": "Expensing a prepayment in full when it covers several periods.",
+      "prevention": "Record the prepayment as an asset, and move the used part to expense as time passes."
+    },
+    {
+      "error": "Closing drawings as an expense, so that the income statement is distorted.",
+      "prevention": "Transfer drawings to owner's equity at closing, because drawings are not an expense."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson is general accounting teaching and is not tax advice. Confirm it with a registered tax agent before the figures are used for a tax return.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The example figures are invented for this lesson and are not prices, rates or benchmarks.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The unadjusted trial balance agrees before any adjustments are made, and the adjusted trial balance agrees after them.",
+    "Every adjusting entry has a description and a supporting calculation.",
+    "After closing, only asset, liability and equity accounts carry balances in the post-closing trial balance."
+  ],
+  "documentationEvidence": [
+    "Unadjusted and adjusted trial balances for the period, with the adjusting entries and their calculations.",
+    "Income statement, balance sheet and closing entries, with the post-closing trial balance."
+  ],
+  "summary": [
+    "The trial balance checks the arithmetic of the ledger, not whether each amount is in the right account.",
+    "Adjusting entries move income and expenses into the period they belong to.",
+    "Closing resets the income, expense and drawings accounts to nil for the next period."
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "SHR-FIN-05-K01",
+      "question": "In an example, an unadjusted trial balance has equal debit and credit totals. What does that show?",
+      "options": [
+        "That every account is correct and no adjustments are needed at all in the period, the year or the books",
+        "That the debits and credits were entered equally, but not that each amount is in the right account",
+        "That the business has made a profit for the period, the whole year to date, the cash and the bank"
+      ]
+    },
+    {
+      "id": "SHR-FIN-05-K02",
+      "question": "In an example with an invented $1,200 premium, a 12-month insurance policy is paid on 1 September and the year ends on 31 December. What is the adjusting entry for the period?",
+      "options": [
+        "Debit insurance expense for $400, and credit prepaid insurance for $400",
+        "Debit prepaid insurance for $400, and credit insurance expense for $400",
+        "Debit insurance expense for $1,200, because the whole premium was paid in the period"
+      ]
+    },
+    {
+      "id": "SHR-FIN-05-K03",
+      "question": "After the closing entries are posted, which accounts still carry balances in the post-closing trial balance?",
+      "options": [
+        "Income and expense accounts only",
+        "Drawings and expense accounts only",
+        "Asset, liability and equity accounts"
+      ]
+    }
+  ],
+  "officialReferences": [],
+  "referencesAtEnd": "No ATO figures are used in this lesson.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Accounting cycle chapter (upload 92f31f65-522093213-SOL-MAN-CHAPTER-9-ACCTG-CYCLE-OF-A-SERVICE-BUSINESS.txt), concepts only: the trial balance, adjusting entries and the closing order. No problem text, worked figures or solutions are reproduced; the worked example is new and invented. rights: user-held upload; concepts only, reworded (the solutions manual is copyrighted)",
+    "General accounting teaching on accruals, prepayments, allowances and closing entries: not a legal claim; no figures are drawn from the uploads.",
+    "UNCONFIRMED: tax treatment of depreciation, bad debts and prepayments for the business's income year; whether any tax deduction follows book timing."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

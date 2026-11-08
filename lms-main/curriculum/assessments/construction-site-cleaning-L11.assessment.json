@@ -1,0 +1,35 @@
+{
+ "lessonId": "construction-site-cleaning-L11",
+ "knowledgeAnswers": [
+  {
+   "id": "construction-site-cleaning-L11-K01",
+   "correctIndex": 1,
+   "rationale": "A visual walkthrough cannot support a silica-free claim. Clearance is referred."
+  },
+  {
+   "id": "construction-site-cleaning-L11-K02",
+   "correctIndex": 2,
+   "rationale": "It means the agreed cleaning scope is complete, not that the site is cleared."
+  },
+  {
+   "id": "construction-site-cleaning-L11-K03",
+   "correctIndex": 0,
+   "rationale": "Exclusions are recorded explicitly so that the handover is accurate."
+  }
+ ],
+ "practicalCriteria": [
+  "Writes measurable acceptance criteria for a mock final clean.",
+  "Records defects and two unresolved exclusions at the mock walkthrough.",
+  "Declines a simulated silica-free certificate request, and refers it."
+ ],
+ "passRule": "Criteria written, exclusions recorded, and certification request declined and referred. Observed by an assessor. A cleaning completion is not a clearance.",
+ "evidenceRequired": [
+  "Acceptance criteria",
+  "Defect log",
+  "Handover record"
+ ],
+ "stopWorkCriteria": [
+  "Certificate signed on a visual walkthrough",
+  "Exclusions left out of handover"
+ ]
+}

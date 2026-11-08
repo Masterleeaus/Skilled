@@ -1,0 +1,36 @@
+{
+  "lessonId": "PVB-07",
+  "knowledgeAnswers": [
+    {
+      "id": "PVB-07-K01",
+      "correctIndex": 0,
+      "rationale": "VBA note (2018), drain-design section: drawn suction points must be spaced 600 mm or more from one another."
+    },
+    {
+      "id": "PVB-07-K02",
+      "correctIndex": 1,
+      "rationale": "VBA note (2018): outlet covers must be installed and tested as required; a damaged cover is a hazard to act on at once."
+    },
+    {
+      "id": "PVB-07-K03",
+      "correctIndex": 1,
+      "rationale": "VBA note (2018), pipework-connection section: drain lines joining the sewer are plumbing work for a licensed plumber."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied pool, checks each outlet cover is present, undamaged and fixed, and records the result.",
+    "For a supplied cracked cover, takes the pool out of service and records the report without operating the pool.",
+    "Identifies from a supplied connection scenario whether plumbing licensing applies, and gives the reason."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Outlet cover check record for the assessed pool",
+    "Out-of-service record in a supplied scenario",
+    "Assessor observation"
+  ],
+  "stopWorkCriteria": [
+    "Outlet cover missing, cracked or loose: take the pool out of service and report.",
+    "Untested replacement cover offered: do not fit it.",
+    "Sewer connection proposed without a licensed plumber: stop and escalate."
+  ]
+}

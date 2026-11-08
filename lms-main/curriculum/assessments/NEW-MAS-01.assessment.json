@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-MAS-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-MAS-01-K01",
+      "correctIndex": 2,
+      "rationale": "Completing the lesson does not register the therapist, license massage, or give clinical or diagnostic authority. It teaches a method for suitability checks and referral."
+    },
+    {
+      "id": "NEW-MAS-01-K02",
+      "correctIndex": 0,
+      "rationale": "A recent surgery without medical clearance is a contraindication on the approved list. The therapist does not judge the safe pressure, so the session is postponed and the client is referred."
+    },
+    {
+      "id": "NEW-MAS-01-K03",
+      "correctIndex": 1,
+      "rationale": "Chest pain and breathlessness are serious symptoms. The therapist stops, keeps the client safe, advises urgent medical care and records the incident. The therapist does not diagnose."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor observes the candidate complete an intake questionnaire with a simulated client, and check each answer against the approved contraindication list",
+    "Assessor presents a simulated contraindication and observes the candidate postpone the session, recommend medical advice and record the decision",
+    "Assessor presents a simulated serious symptom during a session and observes the candidate stop, keep the client safe, advise urgent medical care and record the incident"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed intake questionnaire for the simulated client",
+    "Contraindication decision record with the referral advice given",
+    "Incident record for the simulated serious symptom"
+  ],
+  "stopWorkCriteria": [
+    "The candidate proceeds with a session where a contraindication is present and unresolved",
+    "The candidate continues a session after a serious symptom",
+    "The candidate tells a client what a symptom means or advises on medication"
+  ]
+}

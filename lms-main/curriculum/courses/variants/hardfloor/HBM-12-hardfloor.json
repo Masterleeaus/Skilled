@@ -1,0 +1,173 @@
+{
+  "id": "HBM-12-hardfloor",
+  "title": "Setting your hourly rate and minimum charge for hard floor care",
+  "courseSlugs": [
+    "hardfloor"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 40,
+  "audience": "Owners of hard floor care businesses who need a base hourly rate and a per-job check before they quote.",
+  "prerequisites": [
+    "HBM-01",
+    "HBM-03"
+  ],
+  "learningOutcomes": [
+    "Separate billable hours from non-billable hours, and calculate the time available to bill.",
+    "Calculate a base hourly rate from the owner's own costs and income target, then compare it with local evidence.",
+    "Set a minimum charge for short jobs, and explain it to a client before the visit."
+  ],
+  "instruction": [
+    {
+      "heading": "What moves the rate for floor work",
+      "body": "The rate depends on the operator's skill, the equipment and finishes used, the condition of the floor, the range of services offered in one visit and the cost of running the business. Floor work is usually priced per square metre or per job, so the hourly rate is a tool for building those prices. Oneflare's Victorian labour cost of $20 to $30 per square metre is a vendor figure (undated, 2025 prices). The research did not find an Australian hourly rate for floor care."
+    },
+    {
+      "heading": "Counting the hours that can be billed",
+      "body": "Paid hours include travel, quoting and site visits, admin, marketing, training, equipment servicing, sick days and leave. Jobber's general guide puts billable time at about 60 to 80 per cent of working hours, which is not an Australian figure. If you can bill 60 of every 100 paid hours, the costs of all 100 must come from the 60, so the rate is about 1.67 times the rate for a fully billable week (CALC)."
+    },
+    {
+      "heading": "Building the rate from costs and income",
+      "body": "Add the annual running costs (machines and their servicing, vehicle, abrasives and finishes, insurance, phone, software, marketing and accounting) to the income you need, including leave and super where you pay wages. Business.gov.au says on-costs such as super, leave and tax belong in the hourly figure (1 October 2026). Divide the total by billable hours. Business Victoria advises including total overheads and reviewing prices about every three months (no date shown)."
+    },
+    {
+      "heading": "Test the rate against the per-square-metre labour range",
+      "body": "At an illustrative $55.56 an hour, the Victorian labour range of $1,000 to $1,500 for 50 square metres would pay for about 18 to 27 hours of your time (CALC on the Oneflare figures). If your job takes fewer hours than that, check whether the vendor range assumes more time or more margin. The source does not say. Do not copy the vendor range as your rate."
+    },
+    {
+      "heading": "Set a minimum for small jobs",
+      "body": "A small repair or a single room still needs travel, set-up and pack-down. Contractor+ suggests setting a minimum from the full visit cost, divided by one minus the target margin, with the minimum covering travel, set-up and cleanup. Its figures are illustrative. Gap: the research did not find a minimum charge for hard floor work. State your minimum in writing before the visit."
+    }
+  ],
+  "procedure": [
+    "Estimate paid working hours in a year, then subtract travel, visits, admin, marketing, training and leave to find billable hours.",
+    "List the annual running costs, including machines, vehicle, abrasives, finishes, insurance, phone, software and marketing.",
+    "Add the income needed, with leave and tax allowances confirmed by a registered tax agent.",
+    "Divide the total by billable hours to find the base rate.",
+    "Check the base rate against the time each job type takes, and against the vendor labour range, then state which figure the price uses.",
+    "Set and state a minimum for small jobs, and review the rate each quarter."
+  ],
+  "workedExamples": [
+    {
+      "situation": "[ILLUSTRATIVE] A solo floor-care operator plans for about 1,800 paid hours a year and expects to bill 60 per cent of them. Annual costs and the income needed total $60,000 (illustrative). A visit to a single small room costs about $45 in travel and set-up (illustrative).",
+      "decisionPrompt": "What base rate is needed, how long does a 50 square metre polish take at that rate, and what minimum should a small job carry?",
+      "reasoning": "Billable hours are 1,800 x 0.60, which is 1,080 (CALC). The base rate is $60,000 divided by 1,080, which is $55.56 an hour. A 12-hour polish of 50 square metres is then about $667 of labour (CALC), which is below the Oneflare Victorian labour range of $1,000 to $1,500 (vendor). The cleaner checks the 12 hours, and does not copy the vendor range. The minimum for a small room follows the Contractor+ method: $45 divided by 0.70 is $64.29 at a 30 per cent target margin (illustrative figures)."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Annual costs and income worksheet",
+    "Log of paid and billable hours for one month",
+    "Price sheet with the base rate and the minimum charge"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting the rate from a vendor per-square-metre range without the hours behind it.",
+      "prevention": "Build the rate from your costs and billable hours, then compare with the vendor range."
+    },
+    {
+      "error": "Pricing as though every paid hour could be billed.",
+      "prevention": "Subtract travel, visits, admin, marketing and leave before dividing."
+    },
+    {
+      "error": "Taking small rooms or repairs with no minimum.",
+      "prevention": "Set and state a minimum that covers travel, set-up and pack-down."
+    },
+    {
+      "error": "Assuming Jobber's 60 to 80 per cent range applies in Australia.",
+      "prevention": "Use your own log of paid and billable hours for a month."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Price display: show the total including GST (business.gov.au, 18 January 2024). The research did not confirm the rules for minimum or call-out charges, so check current ACCC guidance before publishing one.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Where you employ workers, the Cleaning Services Award may set their pay: Level 1 adult minimum of $25.85 an hour with 25 per cent casual loading from 1 July 2025 (Fair Work Commission). Whether it covers floor-polishing work was not checked. The 2026-27 rates were not checked.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Tax treatment of leave and super for a sole trader was not confirmed. Check it with a registered tax agent before publishing a rate.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant a licence or insurance. Licence rules for hard floor work were not researched, so check the rules for your state or territory.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Billable hours are calculated from a logged or estimated month, not assumed.",
+    "The base rate is built from the owner's costs and income target, and is compared with local evidence.",
+    "A minimum charge is set and stated before any short job."
+  ],
+  "documentationEvidence": [
+    "Annual costs and income worksheet, with the source and date of each cost",
+    "Billable hours calculation showing the non-billable deductions",
+    "Price sheet showing the base rate, the minimum charge and the review date"
+  ],
+  "summary": [
+    "Build the rate from billable hours, then test it against the time each job takes.",
+    "The vendor labour range is a reference. It does not show the hours behind it.",
+    "Gaps: no Australian hourly rate, minimum charge or floor-care cost ratio was found in the research."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-12-hardfloor-K01",
+      "question": "A floor-care operator can bill 60 of every 100 paid hours. How should the rate be built?",
+      "options": [
+        "From all paid hours, so the rate looks lower",
+        "From billable hours, so costs and income come from the work that can be billed",
+        "From the vendor per-square-metre range on the first search result",
+        "From the rate the owner would like the market to pay"
+      ]
+    },
+    {
+      "id": "HBM-12-hardfloor-K02",
+      "question": "Why should a small room or repair have a minimum charge?",
+      "options": [
+        "Travel and set-up time do not shrink with a small job",
+        "Clients expect every job to cost the same",
+        "A minimum replaces a written quote",
+        "Small jobs need no set-up time at all"
+      ]
+    },
+    {
+      "id": "HBM-12-hardfloor-K03",
+      "question": "What is the best way to use a vendor labour range?",
+      "options": [
+        "Copy it as your rate",
+        "Compare it with your own hours and rate, and note that its hours are not stated",
+        "Use the lowest figure in the range",
+        "Ignore it, because all vendor figures are wrong"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Supports: on-costs such as super, leave and tax belong in the hourly figure.",
+    "Jobber Academy, 'What are billable hours', https://getjobber.com/academy/what-are-billable-hours/, published 5 November 2024, last modified 20 July 2026. Supports: billable time is about 60 to 80 per cent of working hours; a general range, not an Australian figure.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Victoria. Supports: include total overheads and sales costs in the price; review prices about every three months.",
+    "Oneflare (Airtasker co-brand), 'Floor polishing cost', https://www.oneflare.com.au/costs/floor-polishing, undated ('2025 prices'). Vendor marketplace; covers polishing and sanding, not routine cleaning. Supports: per square metre ranges, state labour rates, finish prices, a poor-condition surcharge and whole-job totals.",
+    "Contractor+, 'Minimum Service Call Charge: A Contractor's Pricing Guide', https://contractorplus.app/blog/minimum-service-call-charge, 23 September 2026. Supports: a minimum can be set from the full visit cost divided by one minus the target margin, and should cover travel, set-up and cleanup. The page labels its figures illustrative; none are used here.",
+    "business.gov.au, 'Display prices', https://business.gov.au/legal/fair-trading/display-prices, page metadata 18 January 2024. Supports: displayed prices should show the total price, including GST.",
+    "Fair Work Commission, Cleaning Services Award (MA000022), https://awards.fairwork.gov.au/MA000022.html, variation effective 1 July 2025. Supports: Level 1 adult minimum hourly rate of $25.85 and a 25 per cent casual loading. The 1 July 2026 position was not checked.",
+    "Notes: 1,800 paid hours, the $60,000 target, the $45 visit cost, the 12-hour job and the 30 per cent margin are illustrative. The Oneflare figures are undated vendor data for polishing and sanding."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Display prices (business.gov.au)",
+      "url": "https://business.gov.au/legal/fair-trading/display-prices",
+      "pageDate": "page metadata 18 January 2024",
+      "checked": "2026-11-09",
+      "covers": "As recorded in team4-V-residential-bond-cleaning.md (rule R1): displayed prices should show the total price including GST. Does not address minimum or call-out charges. Not re-read for this variant."
+    }
+  ]
+}

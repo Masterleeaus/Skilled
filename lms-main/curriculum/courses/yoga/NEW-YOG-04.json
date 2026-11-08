@@ -1,0 +1,219 @@
+{
+  "id": "NEW-YOG-04",
+  "title": "Community class schedules and membership growth",
+  "courseSlugs": [
+    "yoga"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "RV",
+  "estimatedMinutes": 20,
+  "audience": "Yoga and Pilates instructors who run regular community classes and build membership or class-pass growth",
+  "prerequisites": [
+    "F01-L01",
+    "F01-L04",
+    "F01-L02"
+  ],
+  "learningOutcomes": [
+    "Plan a class schedule that keeps each class inside its venue, its permit and its group size",
+    "Identify when a children's class engages a Working with Children Check category.",
+    "Grow a membership without relying on health claims, and with the consumer-law points checked"
+  ],
+  "referencesAtStart": "Official references for this lesson: Victorian Government, Who requires a Working with Children Check (updated 12 October 2026); Victorian Government, Working with Children Check explained (updated 24 July 2026); Working with Children Check - Victoria, business listing (no date shown; fees labelled 2026-27); Hornsby Shire Council, Commercial group fitness and personal training (no date shown); Queensland Government, Join a gym or fitness provider (last updated 23 July 2024).",
+  "instruction": [
+    {
+      "heading": "Building a schedule inside its limits",
+      "body": "A community class schedule is a commitment to a venue and to participants. Each class must sit inside the venue's conditions, the council permit where it runs on public land, and the group size the business has set. Before adding a class to the schedule, check the venue's hours, the room size, the number of participants the room allows, and the permit for each public place. The schedule is held in {{business:jobs.scheduling_method}}. Keep the class capacity on the schedule, and do not sell a place beyond it. Where a class is moved to a new venue, the new venue's rules apply from the first session, and the permit must be checked again."
+    },
+    {
+      "heading": "Children's classes and the check categories",
+      "body": "A community class for children may engage the Working with Children Check. The Victorian government's list (updated 12 October 2026) names private tutoring and coaching aimed at children (code 28), commercial gyms and play venues aimed at children (code 32), and sport, recreation and culture clubs that deal with children (code 42). The government explainer states that a clearance is valid for five years (updated 24 July 2026). A business listing that copies the government text says self-employed workers are covered and refers to direct contact with under-18s (no date shown; secondary copy). Do not offer a children's class until the position is recorded for the venue and the state."
+    },
+    {
+      "heading": "Growing membership without a health promise",
+      "body": "Membership growth comes from a reliable schedule, a welcoming class, clear communication and good records of attendance. It does not come from claims that a class will cure a condition, improve a diagnosis or reduce a medical risk. Describe the class by its style, its level and its time. Membership terms must state the classes included, the period, the rule for unused classes, cancellation and refund. Queensland's fitness-agreement page (last updated 23 July 2024) sets a 48-hour cooling-off period, refunds of prepaid fees within 14 days, and a 12-month cap on prepayment, for Queensland only. Check the terms before the membership is sold, and record the check. The communication and cancellation policy is in {{business:customers.communication_policy}}, and the pricing method for memberships is in {{business:pricing.pricing_method}}."
+    }
+  ],
+  "procedure": [
+    "Check the venue's hours, room size and participant limit before adding a class to the schedule",
+    "Confirm the council permit for each public place, and record the permit reference on the schedule",
+    "Set the group size for each class and do not sell a place beyond it",
+    "Before offering a children's class, check the Working with Children Check position for the class and the state, and record the result",
+    "Write the membership terms, and check them against the consumer-law position before selling",
+    "Record each class, attendance and membership change, and review the schedule each term"
+  ],
+  "workedExamples": [
+    {
+      "situation": "An instructor plans to add a Saturday children's Pilates class in a community centre, and needs to confirm the children's check position.",
+      "decisionPrompt": "Can the class be added to the schedule now?",
+      "reasoning": "The class is for under-18s and may engage a Working with Children Check category. The Victorian list covers coaching for children, commercial gyms and play venues aimed at children, and sport, recreation and culture clubs that deal with children. The instructor should check the category for the class and the state, record the result, and then add the class. Adding it before the check is complete is not a safe decision."
+    },
+    {
+      "situation": "A membership advertisement says that joining the class will help members with their arthritis.",
+      "decisionPrompt": "Should the advertisement run?",
+      "reasoning": "The advertisement should be changed to describe the class's style, level and time, and should not refer to a condition. The change should be recorded in the review of communications."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Schedule with venue, room size, participant limit and permit reference for each class",
+    "Membership terms, approved by the business",
+    "Attendance record for each class",
+    "Working with Children Check position record for children's classes"
+  ],
+  "commonErrors": [
+    {
+      "error": "Selling places beyond the room or permit limit.",
+      "prevention": "Set the capacity on the schedule and do not sell beyond it."
+    },
+    {
+      "error": "Running a children's class before the check position is recorded.",
+      "prevention": "Check the category for the class and the state, and record the result before the first class."
+    },
+    {
+      "error": "Advertising a health outcome to grow membership.",
+      "prevention": "Describe the class by its style, level and time. Remove any condition claim."
+    },
+    {
+      "error": "Selling memberships with no refund or unused-class terms.",
+      "prevention": "Write the terms first and check them against the consumer-law position before selling."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Victoria: Working with Children Check categories 28, 32 and 42 are listed on the government page updated 12 October 2026.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Council permit conditions for classes on public land are council-specific.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Queensland's membership rules are state-specific.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A schedule, a membership or a children's class check does not register the business or grant a permit or a licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every class on the schedule has a venue, a participant limit and a permit reference where needed",
+    "Every children's class has a recorded Working with Children Check position before its first session",
+    "Every membership has written terms checked against the consumer-law position",
+    "No advertisement makes a health outcome claim"
+  ],
+  "documentationEvidence": [
+    "Class schedule with venue, participant limit and permit reference",
+    "Working with Children Check position record for each children's class",
+    "Membership terms, checked and dated",
+    "Attendance record for each class"
+  ],
+  "summary": [
+    "Schedule each class inside its venue, permit and participant limit",
+    "Check the Working with Children Check position before any children's class",
+    "Grow membership with a clear schedule, not a health promise",
+    "Completing this lesson grants no permit, check or licence"
+  ],
+  "businessFields": [
+    "{{business:jobs.scheduling_method}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:pricing.pricing_method}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-YOG-04-K01",
+      "question": "An instructor wants to add a children's Pilates class before checking the Working with Children Check position. What is the correct decision?",
+      "options": [
+        "Add the class, since children's classes always need no check at all in any state",
+        "Add the class and check later if a parent asks about the check on the day",
+        "Check the category for the class and the state, record the result, and then add the class"
+      ]
+    },
+    {
+      "id": "NEW-YOG-04-K02",
+      "question": "A membership advertisement says the class will help with arthritis. What should happen?",
+      "options": [
+        "Change the advertisement to describe the class's style, level and time, without a condition claim",
+        "Run the advertisement, since members want it and the business needs it right now at the start of term",
+        "Add a small print disclaimer and run it for members this term and the next two terms"
+      ]
+    },
+    {
+      "id": "NEW-YOG-04-K03",
+      "question": "Which Victorian Working with Children Check category covers private tutoring and coaching aimed directly at children?",
+      "options": [
+        "Code 42",
+        "Code 28",
+        "Code 32"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: Who requires a Working with Children Check (updated 12 October 2026): https://www.vic.gov.au/who-requires-WWC-clearance; Working with Children Check explained (updated 24 July 2026): https://www.vic.gov.au/check-explained; Working with Children Check - Victoria, ABLIS listing (no date shown; fees labelled 2026-27): https://ablis.business.gov.au/service/vic/working-with-children-check/24641; Commercial group fitness and personal training (no date shown): https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training; Join a gym or fitness provider (last updated 23 July 2024): https://www.qld.gov.au/law/your-rights/consumer-rights-complaints-and-scams/buying-products-and-services/buying-services/using-a-fitness-service/join-a-gym-or-fitness-provider.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Who requires a Working with Children Check",
+      "url": "https://www.vic.gov.au/who-requires-WWC-clearance",
+      "pageDate": "Updated 12 October 2026",
+      "checked": "2026-11-03",
+      "covers": "vic.gov.au page; category list with numbers. Self-employed status and direct contact are not stated on this page. Publisher: Victorian Government (vic.gov.au)."
+    },
+    {
+      "id": "R2",
+      "title": "Working with Children Check explained",
+      "url": "https://www.vic.gov.au/check-explained",
+      "pageDate": "Updated 24 July 2026",
+      "checked": "2026-11-03",
+      "covers": "vic.gov.au page; five-year validity of a clearance. Self-employed status is not addressed on this page. Publisher: Victorian Government (vic.gov.au)."
+    },
+    {
+      "id": "R3",
+      "title": "Working with Children Check - Victoria (ABLIS listing)",
+      "url": "https://ablis.business.gov.au/service/vic/working-with-children-check/24641",
+      "pageDate": "No date shown (fees labelled 2026-27)",
+      "checked": "2026-11-03",
+      "covers": "Secondary copy of government text. Use it only for self-employed and direct-contact wording; confirm on the vic.gov.au pages. Publisher: business.gov.au (ABLIS)."
+    },
+    {
+      "id": "R4",
+      "title": "Commercial group fitness and personal training",
+      "url": "https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Council page; group cap, designated areas, activities named, insurance and qualifications. Council only. Publisher: Hornsby Shire Council."
+    },
+    {
+      "id": "R5",
+      "title": "Join a gym or fitness provider",
+      "url": "https://www.qld.gov.au/law/your-rights/consumer-rights-complaints-and-scams/buying-products-and-services/buying-services/using-a-fitness-service/join-a-gym-or-fitness-provider",
+      "pageDate": "Last updated 23 July 2024",
+      "checked": "2026-11-03",
+      "covers": "Queensland Government page; cooling-off, refunds and prepayment rules. Queensland only; cites a 2003 regulation. Publisher: Queensland Government (Fair Trading)."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "vic.gov.au, Who requires a Working with Children Check, https://www.vic.gov.au/who-requires-WWC-clearance, updated 12 Oct 2026, checked 2026-11-02 (PT-VIC-05, YOGA-VIC-03; applicability to yoga UNCONFIRMED)",
+    "Hornsby Shire Council, Commercial group fitness and personal training, https://www.hornsby.nsw.gov.au/Community/Sports-and-recreation/Sporting-facilities/Sportsgrounds/Commercial-group-fitness-and-personal-training, checked 2026-11-02 (NAT-YOGA-NSW-01, COUNCIL-SPECIFIC)",
+    "Ablis (business.gov.au), Working with Children Check Victoria, https://ablis.business.gov.au/service/vic/working-with-children-check/24641, listing metadata 2017, checked 2026-11-02 (PT-VIC-06, secondary copy)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (children's-check positions outside Victoria, membership and consumer-law rules UNCONFIRMED)",
+    "Checked 2026-11-03: official references R1, R2, R3, R4, R5 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-07.jpg",
+      "alt": "Yoga and Pilates illustration",
+      "kind": "photo",
+      "origin": "yoga"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-08.jpg",
+      "alt": "Yoga and Pilates illustration",
+      "kind": "photo",
+      "origin": "yoga"
+    }
+  ]
+}

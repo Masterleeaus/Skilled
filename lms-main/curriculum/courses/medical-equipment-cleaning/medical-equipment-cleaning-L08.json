@@ -1,0 +1,193 @@
+{
+  "id": "medical-equipment-cleaning-L08",
+  "title": "Single-use items, damaged items and quarantine",
+  "courseSlugs": [
+    "medequip",
+    "healthcare"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaners and cleaning supervisors who handle or move medical equipment and supplies in a healthcare facility, in any Australian state or territory. This course covers external cleaning only.",
+  "referencesAtStart": "Official sources for this lesson: ACIPC, Position Statement: Single-use Devices (version 4.0, dated February 2024), which has only been partly confirmed.",
+  "prerequisites": [
+    "medical-equipment-cleaning-L01",
+    "medical-equipment-cleaning-L07"
+  ],
+  "learningOutcomes": [
+    "Identify single-use labelled items and state that they must not be reused or reprocessed.",
+    "Recognise a damaged, defective or unidentified item and state the stop condition that applies.",
+    "Describe how an item is placed in quarantine and labelled under the facility procedure, without repairing or testing it.",
+    "Record the item, its condition, its location and the escalation recipient on the work record."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson: external cleaning only",
+      "body": "This lesson covers external cleaning only. It explains how a cleaner recognises items that must not be cleaned for re-use, and how a damaged or doubtful item is kept separate until the responsible team decides what happens next. Reprocessing, disinfection for reusable devices and sterilisation are outside this course. They are authorised only by the manufacturer's instructions and the facility's written procedure, and this lesson does not teach any of them."
+    },
+    {
+      "heading": "Single-use items",
+      "body": "A device labelled single use is designed for one patient and one procedure. The ACIPC position statement on single-use devices, version 4.0 of February 2024, says that medical devices labelled as single use must not be reused, and that used single-use devices must not be reprocessed or reused. The statement also notes that a single-patient-use device may be reprocessed under the manufacturer's instructions only where it holds TGA approval and is on the Australian Register of Therapeutic Goods, and then only for reuse on the same patient. That is a reprocessing decision for authorised staff. A cleaner's role is to recognise the label, keep used single-use items out of stock, and escalate. An opened, expired or part-used single-use item is also not yours to return to stock."
+    },
+    {
+      "heading": "Recognising a damaged or defective item",
+      "body": "Damage changes what an item is safe to do. A cracked housing may expose internal components, a frayed cable may be an electrical hazard, a split seal may allow liquid into the device, and a bent connector may no longer fit its intended patient-care equipment. Stop work on any item that shows damage, a leak, a smell, heat, a broken label, an open package, or a component that is loose. Do not attempt to fix, tape, test or switch on the item to check it. Your role is to make the item safe, keep it separate, and tell the responsible team. A damaged item that is still in use on a patient is a clinical matter, and the clinical team decides what happens to it."
+    },
+    {
+      "heading": "Quarantine: keep it separate and labelled",
+      "body": "Quarantine means holding an item apart from clean stock and from routine use until a responsible person decides its status under the facility procedure. Place the item in the designated quarantine location or container, and do not place it on a clean trolley, shelf or in a clean-stock cupboard. Attach the facility's quarantine label, if one is provided, and complete it with the item identity, the date and time, your name and the reason. If the quarantine container is not available, keep the item in a clearly marked place and tell your supervisor the same shift. Quarantine does not mean the item is safe, and it does not mean the item is ready for re-use when it is moved."
+    },
+    {
+      "heading": "Worked case: a cleaning trolley and an opened pack",
+      "body": "During a round you find an opened sterile-looking pack, a half-used single-use cannula set and a cracked monitor cable on your trolley shelf, left there by someone else. Do not use any of them to clean. Do not return the pack or the set to stock. Move none of the items into clean areas. Make the trolley safe, tell your supervisor, and ask for the items to be collected under the quarantine or waste procedure. Record each item and its condition, and note where it was found."
+    }
+  ],
+  "procedure": [
+    "Check each item's label for single-use, do-not-reuse or quarantine markings before you handle it.",
+    "Treat any item labelled single use, opened, part-used or of unknown history as not for re-use. Do not return it to stock.",
+    "Inspect the item for visible damage, leaks, heat, smell, loose parts or a broken label, without testing or switching it on.",
+    "If the item is damaged, unidentified or doubtful, stop work on it, leave it in place or move it only to the designated quarantine location.",
+    "Attach the facility quarantine label and complete it with the item identity, date, time, your name and the reason.",
+    "Tell your supervisor the same shift, and follow the facility procedure for collection, waste or return.",
+    "Record the item, condition, location, quarantine action, the person notified and the time on the work record."
+  ],
+  "workedExamples": [
+    {
+      "situation": "On the way past a treatment room, you see a single-use blood-pressure sleeve still in its wrapper on a shelf. The wrapper is open and the sleeve has a faint mark on it.",
+      "decisionPrompt": "Can you return it to stock or wipe it for the next patient?",
+      "reasoning": "No. The item is single use and its package is open, so it cannot be treated as new and it must not be reused. Do not wipe it for reuse and do not return it to stock. Set it aside in the designated location or as the facility procedure directs, tell the supervisor, and record the item and location."
+    },
+    {
+      "situation": "A powered item on a shelf has a cracked housing and a cable that is partly split. The item has a label showing it was used on a patient yesterday.",
+      "decisionPrompt": "What must you do?",
+      "reasoning": "Do not switch it on, test it, tape it or try to clean inside. Damage plus an unknown history means the item is outside your role. Make the area safe, place it in the designated quarantine location with the label completed, tell the supervisor and the clinical team, and record the damage and the time."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Quarantine labels and containers as provided by the facility",
+    "Designated quarantine location, identified in the facility procedure",
+    "Protective equipment for handling used items: {{business:safety.required_ppe}}",
+    "Facility waste and quarantine procedure: {{business:materials.waste_procedure}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Returning a used or opened single-use item to stock because it looks unused.",
+      "prevention": "Single-use items that are opened, used, part-used or of unknown history are not returned to stock. Set them aside and escalate."
+    },
+    {
+      "error": "Trying to fix, tape or test a damaged item to see if it still works.",
+      "prevention": "Do not test or repair. Make the item safe, quarantine it and escalate."
+    },
+    {
+      "error": "Placing quarantined items on a clean trolley or shelf for convenience.",
+      "prevention": "Quarantine means separate from clean stock. Use the designated location."
+    },
+    {
+      "error": "Labelling a quarantined item with no reason, time or name.",
+      "prevention": "Complete the quarantine label with identity, date, time, your name and reason, so the next person can act on it."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This course covers external cleaning only. Reprocessing, disinfection for reusable devices and sterilisation are outside the course and are authorised only by the manufacturer's instructions and the facility procedure.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Medical devices labelled as single use must not be reused, and used single-use devices must not be reprocessed or reused (ACIPC position statement on single-use devices, version 4.0, February 2024).",
+      "licenceNotice": false
+    },
+    {
+      "point": "A single-patient-use device may be reprocessed only under the manufacturer's instructions, only if it holds TGA approval and is on the Australian Register of Therapeutic Goods, and only for reuse on the same patient (ACIPC, February 2024). Those decisions belong to authorised facility staff.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Licence notice: Handling quarantined or waste items does not grant any authority to dispose of regulated medical waste or to transport it. Waste transport and treatment may require a state or territory permit or licence.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "The learner identifies three supplied items as single use, damaged or doubtful, and gives the action for each without testing any item.",
+    "The learner places a supplied item in the quarantine location and completes the quarantine label correctly.",
+    "The learner records the item, condition, location and person notified, in the correct order, on a work record.",
+    "The learner does not return any used or opened single-use item to stock in any scenario."
+  ],
+  "documentationEvidence": [
+    "Item identity, condition on discovery and location found",
+    "Quarantine action taken, label details and location used",
+    "Person notified, time, and the outcome from the responsible team"
+  ],
+  "summary": [
+    "Single-use items must not be reused, and used or opened ones are not returned to stock.",
+    "Damaged, doubtful or unidentified items are not tested or repaired. Make them safe, quarantine them, and escalate.",
+    "Quarantine keeps an item separate from clean stock until the responsible person decides its status.",
+    "Record the item, its condition, its location and the person told every time."
+  ],
+  "businessFields": [
+    "{{business:materials.waste_procedure}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "medical-equipment-cleaning-L08-K01",
+      "question": "A single-use device is found with its package already opened. What is the correct action?",
+      "options": [
+        "Do not reuse it. Set it aside as the facility directs, and tell the supervisor.",
+        "Return it to stock, because the package can be resealed with tape easily",
+        "Wipe it and keep it for the next patient in the same room, since the room is clean"
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L08-K02",
+      "question": "A powered item has a cracked housing and a split cable. What should the cleaner do first?",
+      "options": [
+        "Switch it on to check whether it still works before deciding what the next step should be",
+        "Make the area safe, leave the item unpowered and untouched, and escalate for quarantine.",
+        "Tape the cracks so the item can be moved safely, then decide what to do with it next"
+      ]
+    },
+    {
+      "id": "medical-equipment-cleaning-L08-K03",
+      "question": "Which statement best describes quarantine?",
+      "options": [
+        "Placing an item on the clean trolley so it is easy to find later, since it is ready for use",
+        "Cleaning the item thoroughly so it can be used again straight away with the next patient",
+        "Holding an item apart from clean stock and routine use until the responsible person decides its status."
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "ACIPC Position Statement: Single-use Devices, version 4.0",
+      "url": "https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf",
+      "pageDate": "version 4.0, dated February 2024",
+      "checked": "2026-11-03",
+      "covers": "A professional body statement. The TGA's own text was not read in this session; check the TGA website for the primary rule on reprocessing and reuse of single-use devices. Publisher: Australasian College for Infection Prevention and Control (professional body; not a government source)."
+    }
+  ],
+  "referencesAtEnd": "Check the current rule on each official page listed at the start: ACIPC, Position Statement: Single-use Devices (version 4.0, dated February 2024). This has only been partly confirmed and must be checked on the official site before use.",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ACIPC, Position Statement: Single-use Devices, version 4.0, February 2024. https://www.acipc.org.au/wp-content/uploads/2024/03/Position-Statement-Single-use-Devices-Issued-03-2024.pdf (checked 2026-11-02)",
+    "UNCONFIRMED: state and territory requirements for transport and treatment of regulated medical waste and any permit or licence needed. Not checked in this pass.",
+    "UNCONFIRMED: specific quarantine labelling and location requirements in each facility. These must come from the facility procedure."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-13.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-14.jpg",
+      "alt": "Medical equipment cleaning (external only) illustration",
+      "kind": "photo",
+      "origin": "medequip"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "C11-L01",
+  "title": "Customer scope and access",
+  "courseSlugs": [
+    "residential"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Residential cleaners who agree scope and access with the household before the first visit.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Confirm the scope, the excluded rooms and the access arrangements before arriving.",
+    "Record the agreed access, the occupants and any alarms or pets.",
+    "Stop and confirm with the client before entering any room that is not in scope."
+  ],
+  "instruction": [
+    {
+      "heading": "Agreeing scope in writing",
+      "body": "Confirm the agreed scope before the first visit, room by room and task by task. Note which tasks are included, which are excluded, and any tasks that need the client's approval. A scope agreed verbally and not written down is the most common cause of a dispute."
+    },
+    {
+      "heading": "Access, occupants and security",
+      "body": "Confirm how you will get in, who will be home, and whether an alarm, a key safe, a gate code or a pet needs special handling. Record the access instructions, and do not share codes outside the approved channel. If the client is working from home, agree the working hours and the quiet times."
+    },
+    {
+      "heading": "Stopping at the boundary",
+      "body": "Do not enter a room that is excluded or unclear. Stop and confirm with the client before you go in. If the client asks for something outside the agreed scope, note the request, explain that it needs approval and pricing, and do not start it."
+    }
+  ],
+  "procedure": [
+    "Confirm the scope room by room and task by task, and write it down.",
+    "Record access arrangements, occupants, alarms, keys, gate codes and pets.",
+    "Do not share access codes outside the approved channel.",
+    "Confirm with the client before entering any unclear or excluded room.",
+    "Note out-of-scope requests and hold them until approved."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client's booking lists the kitchen and bathrooms, but on arrival asks you to clean the home office, which is marked as excluded.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not enter the office until the scope is confirmed. Explain that it is excluded from the booking, record the request, and offer to price it as an added task if the client wants it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Written scope and access record.",
+    "Gloves as set by the SDS for the products used."
+  ],
+  "commonErrors": [
+    {
+      "error": "Relying on a verbal scope.",
+      "prevention": "Write the scope down and confirm it on arrival."
+    },
+    {
+      "error": "Entering an excluded room because it looks untidy.",
+      "prevention": "Confirm before entering."
+    },
+    {
+      "error": "Sharing an access code with a friend or on a message board.",
+      "prevention": "Keep codes in the approved channel only."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Access codes and keys should be handled under the business's own privacy practice. Whether the federal Privacy Act applies depends on turnover: a small business with turnover of up to $3 million a year is generally not covered, but some businesses of any size are, such as health service providers and businesses that deal in personal information (OAIC small business page; published 10 March 2023).",
+      "licenceNotice": false
+    },
+    {
+      "point": "Content is general cleaning practice and needs subject-matter and regulator review before use.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Scope and access confirmed in writing before the first visit in the simulation.",
+    "Excluded room not entered, and the request held in the case study."
+  ],
+  "documentationEvidence": [
+    "Written scope, access record and client confirmation.",
+    "Out-of-scope request record with approval status."
+  ],
+  "summary": [
+    "Write the scope down before the first visit.",
+    "Confirm access, occupants and special arrangements.",
+    "Confirm before entering any unclear or excluded room."
+  ],
+  "businessFields": [
+    "{{business:customers.access_instructions}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C11-L01-K01",
+      "question": "The client asks for a room that is marked excluded. What is correct?",
+      "options": [
+        "Clean it because it is quick and the client will be pleased",
+        "Confirm the scope first and offer to price it as an added task",
+        "Clean it quietly, without saying anything to the client"
+      ]
+    },
+    {
+      "id": "C11-L01-K02",
+      "question": "Why write the scope down?",
+      "options": [
+        "It is not needed for the job or the client at all",
+        "To make the invoice longer and more detailed",
+        "A verbal scope is the most common source of disputes"
+      ]
+    },
+    {
+      "id": "C11-L01-K03",
+      "question": "How should an access code be handled?",
+      "options": [
+        "Kept within the approved channel",
+        "Shared with friends at the weekend",
+        "Posted in the van for the crew"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/C11-L01.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and regulator review before use.",
+    "UNCONFIRMED: state and territory privacy obligations for household access information."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Small business and the Privacy Act",
+      "url": "https://oaic.gov.au/agencies-and-organisations/faqs-for-agencies-orgs/businesses/small-business",
+      "pageDate": "published 10 March 2023; modified 5 September 2024 per page metadata",
+      "checked": "2026-11-03",
+      "covers": "Check the $3 million turnover threshold and the list of exceptions. Publisher: Office of the Australian Information Commissioner."
+    }
+  ],
+  "referencesAtStart": "Official sources: OAIC, Small business and the Privacy Act (published 10 March 2023; modified 5 September 2024 per page metadata).",
+  "referencesAtEnd": "Check the current rule on each official page: OAIC, Small business and the Privacy Act (published 10 March 2023; modified 5 September 2024 per page metadata).",
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-01.jpg",
+      "alt": "Residential cleaning illustration",
+      "kind": "photo",
+      "origin": "residential"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-residential/appliance-photo-153d2570-02.jpg",
+      "alt": "Residential cleaning illustration",
+      "kind": "photo",
+      "origin": "residential"
+    }
+  ]
+}

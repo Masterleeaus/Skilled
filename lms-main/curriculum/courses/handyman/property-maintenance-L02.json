@@ -1,0 +1,172 @@
+{
+  "id": "property-maintenance-L02",
+  "title": "Asset inventory and maintenance records",
+  "referencesAtStart": "Official sources for this lesson: NSW Government, Electrical licences and credentials (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting (last updated 31 July 2026).",
+  "courseSlugs": [
+    "handyman",
+    "residential",
+    "garden"
+  ],
+  "moduleTitle": "Property manager partner (module)",
+  "layer": "group",
+  "lessonType": "W",
+  "estimatedMinutes": 35,
+  "audience": "Property manager partner workers in handyman, residential cleaning and garden maintenance",
+  "prerequisites": [
+    "handyman-work-L01"
+  ],
+  "learningOutcomes": [
+    "Build an asset register that gives each item a unique identifier, a location and a condition record.",
+    "Keep service and repair history so that identical items are never confused.",
+    "Correct a record without overwriting the earlier entry."
+  ],
+  "instruction": [
+    {
+      "heading": "Why an asset register matters",
+      "body": "A property manager partner is asked, again and again, what is in a property, where it is, and when it was last serviced or repaired. Without a register, the answer depends on memory and the worker who last visited. An asset register gives each fixed item and piece of equipment a unique identifier, a location, a description, its condition and its service history. It turns a series of visits into a record that the owner, the manager and the next worker can rely on."
+    },
+    {
+      "heading": "What to record for each asset",
+      "body": "Record the unique asset identifier, the room or area, the item description, and the label details that identify the item, such as make, model and serial where visible. Record the condition on the day, the date of the record, the last service date where known, any manufacturer documentation held, and photographs taken with consent. Where two items look identical, the register must still hold two different records. Use the location and the label to tell them apart, and write down how each was identified."
+    },
+    {
+      "heading": "Keeping the record honest",
+      "body": "Never overwrite an older record. Add a new dated entry that shows the change, so the history stays visible. If you cannot identify an item, say so and record what you could see. An entry that says the pump was serviced needs evidence: the date, the worker, and the work done. An unverified entry is a risk, because the next person will rely on it."
+    }
+  ],
+  "procedure": [
+    "Assign a unique identifier to each item and record its room or area.",
+    "Record the make, model and serial from the label where visible, and note how the item was identified.",
+    "Record the condition, the date and any service history known.",
+    "Photograph the item with consent and store the photograph with the record.",
+    "Where an item is duplicated, confirm the identifier and location before adding a new entry.",
+    "Correct errors by adding a dated entry rather than overwriting."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Two identical pumps carry the same label, but are in different rooms and have different maintenance histories.",
+      "decisionPrompt": "How should the register hold the two pumps, and what must not be done?",
+      "reasoning": "Give each pump a separate identifier linked to its location, and record its own service history. Do not merge the two records or mark one as serviced because the other was. Record the location and label evidence that tells them apart, and keep the older record unchanged."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Asset register in the agreed format",
+    "Camera or phone for photographs, used with consent",
+    "Torch for reading labels in dim areas"
+  ],
+  "commonErrors": [
+    {
+      "error": "Merging two identical items into one record.",
+      "prevention": "Give each item its own identifier and location, and keep separate histories."
+    },
+    {
+      "error": "Overwriting an earlier service entry.",
+      "prevention": "Add a dated correction entry and keep the original."
+    },
+    {
+      "error": "Recording a service without evidence of it.",
+      "prevention": "Record only the work that was observed or documented, with the date and the worker."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "An asset register records history but does not confirm that equipment is safe or compliant. Work on fixed electrical, gas or plumbing systems is licensed: wiring needs a licence or certificate in New South Wales whatever the price, except for equipment at not more than 50 volts AC or 120 volts ripple-free DC (electrical page, last updated 23 June 2026), and plumbing, draining and gasfitting need one at any price (plumbing page, last updated 31 July 2026). That work is referred under “Electrical boundaries and referral” and “Water, plumbing and gas boundaries”.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not give any licence or authority to perform regulated work.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every registered item has a unique identifier, a location and a condition record dated on the day.",
+    "No record is overwritten; corrections are dated additions.",
+    "Service entries are backed by a documented date, worker and work done."
+  ],
+  "documentationEvidence": [
+    "Asset register entry with identifier, location, label details and condition",
+    "Dated correction entry where a record was amended",
+    "Photograph of the item and its label, taken with consent"
+  ],
+  "summary": [
+    "Give each item a unique identifier and a location.",
+    "Record condition, service history and the evidence behind each entry.",
+    "Correct records by adding dated entries, never by overwriting."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "property-maintenance-L02-K01",
+      "question": "Two identical pumps are in different rooms. How should they be recorded?",
+      "options": [
+        "As one record, and the older pump is removed from the register once the new one is listed",
+        "As one record, because they are the same model and sit on the same site",
+        "As two separate records with unique identifiers and their own locations and histories",
+        "As one record with the service history shared between them, so the team can see both"
+      ]
+    },
+    {
+      "id": "property-maintenance-L02-K02",
+      "question": "A service entry was recorded in error. What is the correct action?",
+      "options": [
+        "Overwrite the entry with the correct details",
+        "Add a dated correction entry and keep the original",
+        "Delete the entry so the register is clean",
+        "Ask the next worker to correct it"
+      ]
+    },
+    {
+      "id": "property-maintenance-L02-K03",
+      "question": "What evidence must an entry that says a pump was serviced include?",
+      "options": [
+        "Only the word serviced",
+        "The date, the worker, and the work done",
+        "The cost of the replacement part",
+        "The owner's signature only"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official sources, repeated for checking: NSW Government, Electrical licences and credentials (last updated 23 June 2026); NSW Government, Plumbing, draining and gasfitting (last updated 31 July 2026).",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electrical licences and credentials",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trades-licences-and-credentials/electrical",
+      "pageDate": "Last updated 23 June 2026",
+      "checked": "2026-11-03",
+      "covers": "Check whether a licence or certificate applies to wiring work. The page sets no dollar threshold and does not mention solar or battery systems. Publisher: NSW Government."
+    },
+    {
+      "id": "R2",
+      "title": "Plumbing, draining and gasfitting",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade/plumbing-draining-and-gasfitting",
+      "pageDate": "Last updated 31 July 2026 (page metadata shows a later modified date)",
+      "checked": "2026-11-03",
+      "covers": "Check the licence categories and the penalty amounts for unlicensed work. Publisher: NSW Government."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "lessons/ready/property-maintenance-L02.json (source draft, pm31-au02 as cited; reference not in this workspace, UNCONFIRMED)",
+    "Asset register practice: internal course guidance, UNCONFIRMED against any named standard"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/trades-building/handyman-photo-33b0fc7f-10.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    },
+    {
+      "src": "/academy/library/photos/trades-building/handyman-photo-33b0fc7f-11.jpg",
+      "alt": "Handyman illustration",
+      "kind": "photo",
+      "origin": "handyman"
+    }
+  ]
+}

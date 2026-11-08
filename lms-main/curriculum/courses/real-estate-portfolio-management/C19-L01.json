@@ -1,0 +1,202 @@
+{
+  "id": "C19-L01",
+  "title": "Portfolio intake",
+  "courseSlugs": [
+    "portfolio",
+    "handyman",
+    "residential",
+    "garden"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "group",
+  "lessonType": "W",
+  "estimatedMinutes": 40,
+  "audience": "Home-based property managers taking on a property or a portfolio of properties",
+  "prerequisites": [
+    "property-maintenance-L02",
+    "handyman-work-L01"
+  ],
+  "learningOutcomes": [
+    "Collect the intake details for a property: owner, address, access, authority and emergency contacts.",
+    "Confirm written authority before any key, code or account is used.",
+    "Store intake details securely and share only what each person needs."
+  ],
+  "referencesAtStart": "Official sources: NSW Government, Real estate agent licence (published 27 June 2025; last modified 20 October 2026); Queensland Government, Apply for a resident letting agent licence (last updated 26 October 2026); Consumer Affairs Victoria, Apply for an estate agent's licence (individual) (last updated 1 October 2026). The intake practice in this lesson is working practice, not a regulatory rule.",
+  "instruction": [
+    {
+      "heading": "What an intake must capture",
+      "body": "A property manager starts with a complete intake record, because later decisions depend on it. Capture the property address and a short description of the property, including the number of levels, the type of building and any shared areas. Record the owner's name, postal and email details, and the best number to reach them. Record the owner's written authority for the manager to act, which is covered in the next section. Note the access arrangements: who lets people in, at what times, and whether a tenant or occupier must be told before entry. Record the emergency contacts for the property, and the process for escalating an urgent issue such as water escaping or a lock failure. Attach any existing asset register, maintenance history and reports that the owner has provided. An intake that leaves any of these fields blank should show the gap and the date it is to be closed."
+    },
+    {
+      "heading": "Written authority and approval limits",
+      "body": "Do not use a key, code or account until written authority covers that use. The authority should say what the manager may approve, in what categories of work, and up to what amount. It should name the approval route for work above that amount, such as a quote sent to the owner for approval before the work starts. It should also say what happens in an emergency, and which work must always go back to the owner. A verbal instruction is a starting point for a conversation, but it does not authorise access or spending. Confirm the owner's approval for each category of work and record the date of each approval. Where the owner has not set a limit, record that as an open item and do not approve work that needs a quote until the limit is in writing."
+    },
+    {
+      "heading": "Keys, codes and accounts",
+      "body": "Record every key, code, card and online account that the property uses, and the person who holds each one. Keep the register in a secure location, and limit access to the people who need it for the job. Do not keep codes in an open message thread, a shared note or a sticky note. Where a code or key is handed to a contractor, record who received it, when, and the date it must be returned or changed. When the arrangement ends, return or change every key and code, and update the register with the date. Keep a copy of the owner's authority with the register, so that anyone checking the file can see what was permitted and when."
+    },
+    {
+      "heading": "Sharing information with the right people",
+      "body": "Share only what each person needs for their task. A plumber needs the address, the access arrangement and the fault. A contractor does not usually need the owner's full contact details or the tenant's personal information. Keep personal information about owners and tenants private, and use it only for the management task. Where privacy obligations apply to the business, they depend on the business's size and activities."
+    }
+  ],
+  "procedure": [
+    "Record the property address, description, owner and contact details.",
+    "Obtain and file the owner's written authority, including what the manager may approve, the spending limit and the approval route.",
+    "Record the access arrangements, the key holders and any codes, and store them securely.",
+    "Record the emergency contacts and the process for escalating urgent issues.",
+    "Attach any existing asset register, maintenance history and reports.",
+    "Confirm the intake with the owner in writing, and set the date of the next review.",
+    "Share each person only the details needed for their task, and record who received which details."
+  ],
+  "workedExamples": [
+    {
+      "situation": "An owner gives you a set of keys and a verbal instruction to handle repairs as needed, with no written limit.",
+      "decisionPrompt": "Can you start managing repairs on this basis?",
+      "reasoning": "Not on a verbal instruction alone. Obtain written authority that states what you may approve, the spending limit and the approval route for larger work. Record the keys and their holders, and store the keys securely until the written authority is in place. If a repair becomes urgent before the authority is signed, call the owner, record the call, and do not approve work beyond what the owner confirms in writing."
+    },
+    {
+      "situation": "A tenant asks you for the access code to the rear gate so that a gardener can work on Saturday. The owner's authority covers gardening but does not mention access codes.",
+      "decisionPrompt": "Can you give the gardener the code, and what must be recorded?",
+      "reasoning": "Not yet. The authority does not cover that use of the code. Ask the owner in writing whether the gardener may hold the code, and record the answer. If the owner agrees, give the code only to the gardener, record the holder and the date, and set the date when the code is to be changed or removed. The code is not sent to the tenant's message thread or to anyone else on the team."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Intake form in the agreed format",
+    "Secure storage for keys, with a lockable key cabinet or equivalent",
+    "Secure file for owner authority documents",
+    "Key and access register, kept in a restricted location"
+  ],
+  "commonErrors": [
+    {
+      "error": "Using keys or codes before written authority is in place.",
+      "prevention": "Obtain written authority that covers each category of access and work before use."
+    },
+    {
+      "error": "Keeping access codes in an unsecured note or message thread.",
+      "prevention": "Store codes securely and limit access to people who need them. Record each holder."
+    },
+    {
+      "error": "Leaving the spending limit unstated.",
+      "prevention": "Write a spending limit and an approval route into the owner's authority."
+    },
+    {
+      "error": "Sending the owner's full contact details and the tenant's details to every contractor.",
+      "prevention": "Share only the details each person needs for their task, and record what was shared."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Licence position for leasing and property management, by state. New South Wales: a real estate agent licence is needed to sell, lease and manage property for clients, and the NSW page lists collecting rent for a lease and providing property management services as licensed activities. Queensland: the resident letting agent page says a current licence is required to work as a resident letting agent, and the licence allows renting out and managing units in a building complex for owners and the body corporate. Do not begin any leasing or tenancy activity until the position is confirmed for the state where the property sits (see “Vacate and tenancy scope” and “Leasing and tenancy boundaries”).",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not give a real estate, property management or any other licence or authority, and it does not authorise access to a property or approval of work.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Written owner authority is on file before any access or approval is used.",
+    "Every key and access detail has a holder, a secure storage location and a return or change date.",
+    "The intake is confirmed with the owner in writing, and the next review date is set."
+  ],
+  "documentationEvidence": [
+    "Signed intake form with owner details and written authority",
+    "Key and access register with holders and dates",
+    "Written confirmation of the intake from the owner",
+    "Record of each person who received access details, and when"
+  ],
+  "summary": [
+    "Capture owner, property, access, authority, emergency contacts and existing records at intake.",
+    "Use no key or code until written authority covers it, including the spending limit and the approval route.",
+    "Store access details securely, record each holder, and share only what each person needs.",
+    "Confirm the licence position for the state before any leasing or tenancy activity."
+  ],
+  "businessFields": [
+    "{{business:customers.access_instructions}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:procedures.prestart_checklist}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C19-L01-K01",
+      "question": "An owner hands over keys with a verbal instruction to manage repairs. What comes first?",
+      "options": [
+        "Start managing repairs straight away, since the owner trusts you with the keys",
+        "Copy the keys for every contractor so the repairs can start earlier this week",
+        "Obtain written authority that states what you may approve and any spending limit",
+        "Ask a neighbour to confirm the owner's wishes before any action is taken"
+      ]
+    },
+    {
+      "id": "C19-L01-K02",
+      "question": "Where should access codes be kept?",
+      "options": [
+        "In an open message thread for the team, so everyone can see it quickly and easily",
+        "On a sticky note in the front office, next to the phone for the staff to see",
+        "In secure storage, with access limited to people who need them and each holder recorded",
+        "In the tenant's welcome pack, which they keep for the whole lease period and beyond"
+      ]
+    },
+    {
+      "id": "C19-L01-K03",
+      "question": "A repair needs a quote above the owner's approval limit. What should happen?",
+      "options": [
+        "Approve it, because the repair is urgent and the tenant is waiting",
+        "Send the quote to the owner for approval before the work starts",
+        "Split the quote into smaller amounts so it fits the limit",
+        "Wait for the tenant to decide before sending anything to the owner"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Real estate agent licence",
+      "url": "https://www.nsw.gov.au/business-and-economy/licences-and-credentials/becoming-a-property-agent/real-estate-agent-licence",
+      "pageDate": "Published 27 June 2025; last modified 20 October 2026 (page metadata)",
+      "checked": "2026-11-03",
+      "covers": "Activities that need the licence. Publisher: NSW Government (NSW Fair Trading)."
+    },
+    {
+      "id": "R2",
+      "title": "Apply for a resident letting agent licence",
+      "url": "https://www.qld.gov.au/community/fair-trading/regulated-industries-licensing-and-legislation/property-industry-regulation/get-a-property-industry-licence-or-registration/letting-agent-licence-or-registration/apply-for-a-resident-letting-agent-licence",
+      "pageDate": "Last updated 26 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Authorised activities section. Publisher: Queensland Government (Fair Trading, property industry regulation)."
+    },
+    {
+      "id": "R3",
+      "title": "Apply for an estate agent's licence (individual)",
+      "url": "https://www.consumer.vic.gov.au/licensing-and-registration/estate-agents/licensing/apply-for-a-licence/individual",
+      "pageDate": "Last updated 1 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Licensing requirement. Publisher: Consumer Affairs Victoria."
+    }
+  ],
+  "referencesAtEnd": "Official sources to check the current rule: Real estate agent licence, NSW Government (NSW Fair Trading) (published 27 June 2025; last modified 20 October 2026); Apply for a resident letting agent licence, Queensland Government (last updated 26 October 2026); Apply for an estate agent's licence (individual), Consumer Affairs Victoria (last updated 1 October 2026).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "CATALOGUE-V2 row C19-L01 and the existing draft (rewrite; source lesson not in this workspace, so the content is written from the catalogue row and the official pages listed in officialReferences)",
+    "research/trades/LICENCE-MATRIX.csv and NOTES: real estate licence position not in the trades research; the state positions here come from the official pages in officialReferences, checked 2026-11-03",
+    "Intake practice: internal course guidance, not checked against any regulator",
+    "UNCONFIRMED: property management licensing in Victoria; licence position in all states and territories other than NSW and Queensland (with the Victorian point above); privacy obligations for the business."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/property/portfolio-photo-0c292bc1-01.jpg",
+      "alt": "Real estate portfolio management illustration",
+      "kind": "photo",
+      "origin": "portfolio"
+    },
+    {
+      "src": "/academy/library/photos/property/portfolio-photo-0c292bc1-02.jpg",
+      "alt": "Real estate portfolio management illustration",
+      "kind": "photo",
+      "origin": "portfolio"
+    }
+  ]
+}

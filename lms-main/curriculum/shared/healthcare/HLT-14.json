@@ -1,0 +1,141 @@
+{
+  "id": "HLT-14",
+  "title": "Assessing infection risk: grading risks and ranking controls",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 40,
+  "audience": "Cleaning and support workers who help a supervisor assess infection risks and choose controls in healthcare and care settings.",
+  "prerequisites": [
+    "HLT-13"
+  ],
+  "learningOutcomes": [
+    "Place a risk into a likelihood and a consequence category and read the rating from a matrix.",
+    "Rank three control options from the most reliable to the least reliable.",
+    "Explain why protective equipment is a last layer and not the first choice."
+  ],
+  "instruction": [
+    {
+      "heading": "Likelihood and consequence",
+      "body": "Assessing a risk means looking at how likely it is to happen and what its consequence would be. The questions to ask include what influences the risk, its probability, its consequence, its rating, which controls can be used, which stakeholders must be told, the timeframe, who is responsible, what limits the analysis, and whether the plan creates a new risk. The guide uses five likelihood categories, from almost certain to rare, and five consequence categories, from insignificant to severe. A numerical scale, such as 1 to 5, can be used instead. Either system works, but the matrix has to be designed for the workplace and checked as the work goes on."
+    },
+    {
+      "heading": "Reading the matrix",
+      "body": "A risk matrix places likelihood on one axis and consequence on the other. The square where the two meet gives the rating, which the guide shows as low, medium, high or extreme. The guide presents its matrix as a template, so use the matrix your employer has adopted rather than copying the example. The organisation sets what each rating requires. A high or extreme rating normally needs a supervisor decision and a control before the work continues, but the exact response is set by the employer procedure and is not stated by the guide."
+    },
+    {
+      "heading": "Ranking controls by reliability",
+      "body": "The hierarchy ranks controls from the most reliable to the least reliable. At the top sits elimination, which takes away what creates the danger. Next is substitution, which replaces the hazard with a safer alternative, such as a single-use item in place of a reusable one where the procedure allows it. Isolation keeps the hazard away from people, for example by holding waste in a locked space. Engineering controls change the equipment or the environment, such as a ducted vacuum. Administrative controls are the policies, procedures, schedules and signs. Protective equipment is at the bottom. It matters, but it does not remove the hazard, so it is used on top of the higher controls and not in place of them."
+    },
+    {
+      "heading": "Reasonably practicable and organisational procedures",
+      "body": "The guide lists factors for deciding what is reasonably practicable: how probable the hazard is, how much damage it could do, how well the hazard and its controls are understood, whether suitable controls exist and can be used, and what the controls cost, including whether that cost is grossly out of line with the risk. Cost does not decide the matter on its own, and a control has to suit the hazard. The guide also lists specific controls that follow organisational procedures: removing a dangerous process altogether, wearing protective items properly, redesigning the way work is done, keeping the hazard apart, putting up signs, fitting protective devices, handling items safely, and following the infection control policy. These should be applied in the order the hierarchy sets."
+    }
+  ],
+  "procedure": [
+    "Describe the hazard and the task in which it occurs.",
+    "Estimate the likelihood and the consequence using the scale your organisation has adopted.",
+    "Read the rating from the matrix in the workplace procedure.",
+    "List the controls, starting at the top of the hierarchy, and choose the highest level that works for the hazard.",
+    "Set a timeframe and an owner for the control and confirm them with the supervisor.",
+    "Check that the chosen control does not create a new risk."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner must clean a bed rail visibly soiled with body fluid in a shared room where a person has an infection that needs added precautions.",
+      "decisionPrompt": "Which control is considered first?",
+      "reasoning": "Work down the hierarchy. Use the engineering and administrative controls first: the approved product, the schedule, and any enhanced cleaning the clinical team sets. Protective equipment is then added as a further layer, in line with the precautions for the room, which the clinical team sets."
+    },
+    {
+      "situation": "A supplier offers a cheaper gown that carries no fluid-resistance rating.",
+      "decisionPrompt": "Is it an acceptable control?",
+      "reasoning": "No. A control must suit the hazard, and the gown must give the fluid protection the facility list requires. Cost cannot override suitability."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Organisation risk matrix and rating scale",
+    "Risk record form (see “Recording risks, hazard reports and breaches”)",
+    "Facility list of controls and protective items"
+  ],
+  "commonErrors": [
+    {
+      "error": "Starting with protective equipment and stopping there.",
+      "prevention": "Work down the hierarchy from the top, and add protective equipment as a further layer."
+    },
+    {
+      "error": "Using a risk matrix copied from another workplace.",
+      "prevention": "Use the matrix your employer has adopted and check it as the work goes on."
+    },
+    {
+      "error": "Rejecting a control on cost alone.",
+      "prevention": "Use the reasonably practicable factors, and remember that cost alone does not decide."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "A risk matrix is a tool. It does not replace the employer risk management process or its duties under work health and safety law.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not grant a licence, certificate or authority to perform regulated work.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Learner places a sample risk into a likelihood and consequence category and reads the rating from the matrix.",
+    "Learner orders three controls correctly on the hierarchy.",
+    "Learner explains why protective equipment is used as a further layer."
+  ],
+  "documentationEvidence": [
+    "Risk rating record with the matrix rating, the controls, the timeframe and the reviewer."
+  ],
+  "summary": [
+    "A risk rating comes from the likelihood and consequence categories on the employer matrix.",
+    "Controls are ranked from elimination at the top down to protective equipment at the base.",
+    "Cost is considered, but a control has to suit the hazard and cannot be rejected on cost alone."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HLT-14-K01",
+      "question": "Which option ranks as the most reliable control?",
+      "options": [
+        "Protective equipment and gloves",
+        "Taking away what creates the danger",
+        "Warning signs on the door of the room",
+        "Training alone, given every year"
+      ]
+    },
+    {
+      "id": "HLT-14-K02",
+      "question": "Which control ranks at the base of the ranking?",
+      "options": [
+        "Isolation of the ward",
+        "Product substitution",
+        "Protective equipment",
+        "Engineering control"
+      ]
+    },
+    {
+      "id": "HLT-14-K03",
+      "question": "A risk is rated as likely and severe. What is the right action?",
+      "options": [
+        "Record it and continue, since it is unlikely to be serious and the manager reviews it later",
+        "Escalate it and apply the controls the organisation procedure requires for that rating before continuing",
+        "Mention it only at the annual review and keep it out of the daily logs and the checklist",
+        "Rate it as rare to avoid paperwork and do not report it to the team or the manager at all"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "HLTINF006 learner guide (file a4351252, V1.2), printed pp. 65-66 (assessing risks and questions to ask); rights: user-held; reworded (no copying)",
+    "HLTINF006 learner guide (file a4351252, V1.2), printed pp. 66-67 (likelihood and consequence categories, matrix); rights: user-held; reworded (no copying)",
+    "HLTINF006 learner guide (file a4351252, V1.2), printed pp. 68-70 (control measures, reasonably practicable factors, hierarchy of control, organisational procedures); rights: user-held; reworded (no copying)",
+    "UNCONFIRMED: the matrix categories and the reasonably practicable factors are not checked against Australian work health and safety guidance."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

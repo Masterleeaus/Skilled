@@ -1,0 +1,234 @@
+{
+  "id": "industrial-degreasing-L01",
+  "title": "Authorisation, task limits and contractor interface",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Cleaners and supervisors who work alongside other contractors on an industrial site.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Confirm the written authorisation and the limits of the degreasing task before starting.",
+    "Identify the interface with other contractors and who controls it.",
+    "Stop and refer any task that goes beyond the authorised limit."
+  ],
+  "instruction": [
+    {
+      "heading": "What an authorisation is",
+      "body": "An authorisation is the written permission that tells you what work you may do, where, with which product and method, under whose supervision, and for how long. It is the starting point for every degreasing task. A verbal instruction, a text message or a contractor's assumption is not an authorisation, however sensible it sounds. Before you touch a tool, a container or a surface, read the document in full. Check the named supervisor, the defined area on the site plan, the product and its SDS, the method, the hours, the isolations that the owner has put in place, and the list of exclusions. If any of these is missing or unclear, the task is not yet authorised. Record that and ask the supervisor to complete the document. This lesson does not grant an authorisation, and completing it does not make you the person who gives one."
+    },
+    {
+      "heading": "Reading the limits",
+      "body": "Limits tell you where your authority stops. A typical degreasing authorisation covers the external surfaces of a named machine, or a defined bay, and excludes the interior of tanks, electrical enclosures, guarding that is not yours to remove, and any product not listed. Read the exclusions as carefully as the scope. Some limits are obvious, such as a request to degrease inside a tank. Others are easy to miss. For example, a task that begins as wiping a panel can become removing a guard to reach a gearbox, and that is a change of scope. Any change needs approval from the named supervisor, in writing, before the new work starts. Confined spaces are a particular case. Where a task involves entering a tank or vessel, the Safe Work Australia confined spaces code requires an entry permit that a competent person issues before entry, specifying the space, the workers, the work period and the controls. A degreasing authorisation does not replace that permit."
+    },
+    {
+      "heading": "The contractor interface",
+      "body": "Industrial sites often have several contractors working in the same area at the same time, for example maintenance, electrical, production and cleaning. Each party has its own duties under the model WHS laws, and those duties can overlap. The Safe Work Australia guidance on managing WHS risks recognises that several parties can carry the same duty at once, and that a party sharing responsibility for a matter needs to talk with the others about it. It also warns against presuming that someone else has a matter covered, and asks each party to confirm who is doing what. In practice, identify each contractor on the job, the area each controls, and the person who releases each area. Agree the handover between contractors in writing, including the isolation status and any restriction. Do not start work in an area another contractor controls until that contractor has released it to you, and record the release. A release from one contractor does not cover an area they do not control."
+    },
+    {
+      "heading": "Duties you cannot hand off",
+      "body": "A business that engages you still carries its own duties. The Safe Work Australia WHS duties page sets out the business's core obligations: remove risks where that can be done, and otherwise reduce them to the lowest level that is reasonably practicable, while involving workers in decisions that affect them. The guidance on shared duties also makes clear that a party's obligations stay with that party when work is passed on. This matters for you in two ways. First, you keep your own duty of reasonable care for yourself and others, so you cannot rely on a contractor's word that a hazard is gone. Second, a supervisor cannot give away the duty to check the work by saying that the other party will check it. Each person in the chain needs the information to act on their own duty."
+    },
+    {
+      "heading": "Isolation and whose isolation it is",
+      "body": "Before cleaning or maintenance on plant, the plant should be isolated, or measures should be in place to prevent it operating by accident. The Safe Work Australia plant code of practice recommends isolating plant before cleaning starts, and where it cannot be isolated, using controlled procedures to prevent accidental operation. It also says that the isolation should cover all potentially hazardous energy, and that the process should include a verification step. Isolation is not something a cleaner can assume. If the isolation status is unknown, the machine is not authorised for your work. Ask the controlling contractor or the responsible supervisor for the isolation record, and confirm that the isolation covers your area."
+    },
+    {
+      "heading": "Stop and refer",
+      "body": "Stop and refer when a task goes beyond the authorised scope, when a contractor asks you to start without a written release, when isolation status is unclear, when you are asked to enter a confined space without a permit, when a chemical is not identified on the SDS register, or when you feel pressure to proceed before the question is settled. Stop means stop work in that area and keep people out of it where that is safe. Refer means tell the named supervisor, give them the facts you have observed, and say what you have not been able to verify. Record the request, the limit or gap, the person you informed and the time. Do not decide the question yourself, and do not accept a contractor's assurance in place of the supervisor's written decision."
+    }
+  ],
+  "procedure": [
+    "Read the written authorisation and confirm the named supervisor, the area, the product and its SDS, the method, the hours and the exclusions.",
+    "Check the site plan and confirm that the area is inside the authorised boundary.",
+    "Identify each contractor working in or near the area, and who controls each part.",
+    "Obtain the controlling contractor's written release for the area, including the isolation status, before starting.",
+    "If the task involves entry into a tank or vessel, confirm that a confined space entry permit has been issued by a competent person before anyone enters.",
+    "Stop and refer any task beyond the authorised limit, any change of scope, and any unclear isolation or release.",
+    "Record the authorisation check, the release, the request, the limit and the person informed."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contractor asks you to degrease the inside of a tank that sits outside the area named in your authorisation. The contractor says it will only take an hour. (Example scenario; the tank and times are fictional.)",
+      "decisionPrompt": "What do you do, and what does the tank request need before anyone enters?",
+      "reasoning": "Decline the tank. It is outside the authorised area, and the controlling contractor has not released it to you. Refer the request to the named supervisor, and record it with the time and the contractor's name. Because the job involves a tank interior, it is also a confined space task. Entry would need a confined space entry permit from a competent person, along with atmospheric testing and the other controls in that code. None of this can be assumed from an hour's estimate."
+    },
+    {
+      "situation": "A maintenance technician tells you the gearbox has been isolated and you can clean its outside. You can see a tag hanging from the isolator, but there is no record of a lock and no one from maintenance is nearby. (Example scenario.)",
+      "decisionPrompt": "Do you start the cleaning on the basis of the tag and the technician's word?",
+      "reasoning": "No. The plant code does not accept a tag on its own as an isolation device, and the isolation has not been verified by a person you can ask. Stop, do not start, and ask the controlling contractor or the supervisor to show the isolation record and confirm the lock-out and verification. Record what you saw, the technician's statement and the fact that you did not start."
+    },
+    {
+      "situation": "Your task is to wipe the exterior of a guard. The production supervisor asks you to remove the guard so that you can reach the drive housing, because it is quicker. (Example scenario.)",
+      "decisionPrompt": "Is the request within your authority?",
+      "reasoning": "No. Removing a guard changes the scope and the risk. Refuse to remove it. Refer the request to the named supervisor, who must decide whether the scope changes in writing. The plant code says that the energy source should be eliminated before guarding is removed for cleaning, and that plant should not restart until the guarding is back in place. Those steps belong to the person who controls the plant, and you should record the request."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Written authorisation and the site plan showing the defined area.",
+    "Interface log naming each contractor, the area they control and the release status.",
+    "Contact list for the named supervisor, the controlling contractor and the site emergency contact.",
+    "SDS for each product listed on the authorisation, kept readily accessible at the work area.",
+    "PPE as set by the SDS and the site procedure, including closed footwear and eye protection.",
+    "Confined space entry permit form, held by the site, which the cleaner checks but does not issue."
+  ],
+  "commonErrors": [
+    {
+      "error": "Accepting a verbal request for work outside the written area.",
+      "prevention": "Work only within the written authorisation, and refer any verbal request to the named supervisor in writing."
+    },
+    {
+      "error": "Starting in an area another contractor controls before a release is given.",
+      "prevention": "Obtain the controlling contractor's release, in writing, before starting, and record it."
+    },
+    {
+      "error": "Treating a contractor's request as an authorisation.",
+      "prevention": "Only the named supervisor authorises a change of scope, and the decision is recorded."
+    },
+    {
+      "error": "Assuming a machine is isolated because a tag is present.",
+      "prevention": "Ask for the isolation record, confirm the lock-out and verification, and do not start until it is confirmed."
+    },
+    {
+      "error": "Accepting an hour's estimate in place of a permit for a tank or vessel.",
+      "prevention": "Confirm that the confined space entry permit has been issued before any entry is discussed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Under the Safe Work Australia WHS duties page (undated), a person conducting a business or undertaking must eliminate risks where that is possible and otherwise minimise them so far as is reasonably practicable, and must consult workers on matters that affect them.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Safe Work Australia shared duties guidance (How to manage WHS risks, December 2011, section 1.3) covers several parties carrying one duty together, the need to consult, co-operate and co-ordinate when responsibility is shared, and the point that obligations remain with the party that holds them.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Safe Work Australia plant code (March 2016 as shown in the document) recommends isolating plant before cleaning and, where isolation is not possible, using controlled procedures to prevent accidental operation.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Entry into a confined space requires a permit issued by a competent person before entry, and the Safe Work Australia confined spaces code (December 2011, corrected 19 February 2014) sets out what the permit must contain. Tanks are listed among typical confined spaces.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any licence, certificate, plant-safety approval, isolation authority, confined space permit or specialist authority, and completing it does not make a cleaner a specialist.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Authorisation, named supervisor, area, product, method and exclusions confirmed against the document before any simulated start.",
+    "Interface log completed, showing each contractor, the area they control and the release status.",
+    "Out-of-area request and tank entry request declined and referred in the case study, with the permit requirement stated.",
+    "Isolation status treated as unknown until the record is shown, in the case study."
+  ],
+  "documentationEvidence": [
+    "Authorisation check record, with the date, the named supervisor and any gap found.",
+    "Contractor release record showing the controlling contractor, the area and the isolation status.",
+    "Referral record for each request beyond the limit, with the time and the person informed."
+  ],
+  "summary": [
+    "A written authorisation sets the area, product, method and exclusions; a verbal request does not.",
+    "Get the controlling contractor's written release before starting, and never assume another party has the matter in hand.",
+    "Stop and refer anything beyond the limit, including tank entry, guard removal and unclear isolation."
+  ],
+  "businessFields": [
+    "{{business:compliance.policy_reference}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:staff.authorised_tasks}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "industrial-degreasing-L01-K01",
+      "question": "A contractor asks you to degrease a tank outside your authorised area. What is correct?",
+      "options": [
+        "Do it, because the contractor asked and the work looks simple enough",
+        "Decline, and refer the request to the named supervisor in writing",
+        "Do it quickly before the supervisor notices, since the area is close"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L01-K02",
+      "question": "When can you start work in an area another contractor controls?",
+      "options": [
+        "Once you arrive on site and the gate has been opened for you",
+        "Any time the other contractor is not looking at the area or the work",
+        "Once the controlling contractor has released the area to you in writing"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L01-K03",
+      "question": "Who authorises a change to the scope of the work?",
+      "options": [
+        "The named supervisor, in writing",
+        "Any contractor on site",
+        "The cleaner, if the change seems small"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "How to manage work health and safety risks: Code of Practice",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1702/how_to_manage_whs_risks.pdf",
+      "pageDate": "December 2011 (cover page, as shown)",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia model codes page and the state WHS regulator. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "WHS duties: person conducting a business or undertaking",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/managing-health-and-safety/identify-assess-and-control-hazards/whs-duties",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia WHS duties pages and the state WHS Act. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R3",
+      "title": "Managing risks of plant in the workplace: Code of Practice",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1705/mcop-managing-risks-of-plant-in-the-workplace-v3.pdf",
+      "pageDate": "March 2016 (as shown in the document)",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia model codes page and the state WHS regulator. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R4",
+      "title": "Confined spaces: Code of Practice",
+      "url": "https://www.safeworkaustralia.gov.au/system/files/documents/1705/mcop-confined-spaces-v1.pdf",
+      "pageDate": "December 2011; list of amendments records a correction dated 19 February 2014",
+      "checked": "2026-11-03",
+      "covers": "Safe Work Australia model codes page and the state WHS regulator. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, How to manage work health and safety risks: Code of Practice (December 2011, cover page as shown); Safe Work Australia, WHS duties: person conducting a business or undertaking (no date shown); Safe Work Australia, Managing risks of plant in the workplace: Code of Practice (March 2016, as shown in the document); Safe Work Australia, Confined spaces: Code of Practice (December 2011; correction dated 19 February 2014).",
+  "referencesAtEnd": "Recheck before use: How to manage work health and safety risks: Code of Practice (December 2011, cover page as shown); WHS duties: person conducting a business or undertaking (no date shown); Managing risks of plant in the workplace: Code of Practice (March 2016, as shown in the document); Confined spaces: Code of Practice (December 2011; correction dated 19 February 2014).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "No source draft or research note exists for this lesson in lessons/ready or research/topics. The content was written from the Safe Work Australia sources listed above, checked 2026-11-03.",
+    "R1 Safe Work Australia, How to manage WHS risks (December 2011), sections 1.1, 1.3 and 4.3; rights: not held by user; reworded (no copying)",
+    "R2 Safe Work Australia, WHS duties page (no date shown); checked 2026-11-03",
+    "R3 Safe Work Australia, Managing risks of plant in the workplace (March 2016 as shown), section 3.7; checked 2026-11-03",
+    "R4 Safe Work Australia, Confined spaces (December 2011), sections 1.1 and 5.4; checked 2026-11-03",
+    "UNCONFIRMED: state and territory adoption of the Safe Work Australia codes, and the licence and competency requirements for industrial degreasing and isolation work.",
+    "UNCONFIRMED: state and territory environmental requirements for industrial degreasing.",
+    "Working practice (not regulatory text): the authorisation check routine, the interface log and the stop-and-refer script are site-practice guidance."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-12.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-a4b11e7a-13.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-MAS-03",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-MAS-03-K01",
+      "correctIndex": 1,
+      "rationale": "Returned product can carry skin cells and organisms into the whole container, so unused oil is never returned to the main bottle."
+    },
+    {
+      "id": "NEW-MAS-03-K02",
+      "correctIndex": 2,
+      "rationale": "Without a written laundering standard the hygiene level cannot be shown. Single-use sheets stay in use until the standard is confirmed."
+    },
+    {
+      "id": "NEW-MAS-03-K03",
+      "correctIndex": 0,
+      "rationale": "The lesson says single-use linen costs more per session but removes the laundering step, while reusable linen costs less per session but must be laundered to a standard."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor observes the candidate decant oil for a simulated client into a clean, labelled dispenser and discard or clean the dispenser after the session",
+    "Assessor checks that a safety data sheet is filed in the kit for each product in use",
+    "Assessor checks that the candidate's linen record names the method used for each session type"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Decanting and labelling record for the simulated session",
+    "Safety data sheet file with the date checked",
+    "Linen method record for each session type"
+  ],
+  "stopWorkCriteria": [
+    "Used oil is returned to the main bottle",
+    "Reusable linen is used with no confirmed laundering method",
+    "A product is in use with no safety data sheet on hand"
+  ]
+}

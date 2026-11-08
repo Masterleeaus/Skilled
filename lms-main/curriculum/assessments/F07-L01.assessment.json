@@ -1,0 +1,35 @@
+{
+ "lessonId": "F07-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "F07-L01-K01",
+   "correctIndex": 0,
+   "rationale": "Certification needs the authorised food premises process, not a cleaner's sign-off."
+  },
+  {
+   "id": "F07-L01-K02",
+   "correctIndex": 1,
+   "rationale": "Chemicals are kept off food surfaces to prevent contamination."
+  },
+  {
+   "id": "F07-L01-K03",
+   "correctIndex": 2,
+   "rationale": "The authorised site contact manages food arrangements."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies the kitchen type and the authority from two sample work orders.",
+  "Marks permitted tasks, exclusions and who must authorise release.",
+  "Refuses a simulated certification request and escalates it."
+ ],
+ "passRule": "Permitted tasks, exclusions and release authority marked correctly on both sample work orders, and certification request refused and escalated. Observed by an assessor. Not a certification.",
+ "evidenceRequired": [
+  "Marked sample work orders",
+  "Escalation record"
+ ],
+ "stopWorkCriteria": [
+  "Request to certify a food business",
+  "Exposed food handled without authorisation",
+  "Pesticide applied by the cleaner"
+ ]
+}

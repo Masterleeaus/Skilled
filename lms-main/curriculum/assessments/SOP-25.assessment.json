@@ -1,0 +1,39 @@
+{
+  "lessonId": "SOP-25",
+  "knowledgeAnswers": [
+    {
+      "id": "SOP-25-K01",
+      "correctIndex": 1,
+      "rationale": "Permission is obtained and the lift is isolated with the doors open, so the worker is not in a confined space and the car is safe to enter. Pressing a call button or dismantling the panel is not part of the procedure."
+    },
+    {
+      "id": "SOP-25-K02",
+      "correctIndex": 1,
+      "rationale": "The buttons are touched by many people, so they must be hygienic. During the clean, no call button may be pressed, because that could bring the lift into use."
+    },
+    {
+      "id": "SOP-25-K03",
+      "correctIndex": 2,
+      "rationale": "Opening the shaft or working on mechanisms is outside the lesson. Car walls, handrails, doors, tracks, the vacuum check and the floor are within scope."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner confirms permission with the building contact on a supplied scenario card, and states the isolation step before entering the car.",
+    "Learner selects a material for each supplied lift surface (walls, handrail, doors, control panel, floor, tracks) from the approved list, and states the reason for each choice.",
+    "Learner cleans a supplied lift car mock-up without pressing any call button, keeping liquid out of the panel.",
+    "Learner checks the car and landing for equipment and waste before returning the lift to service, and records the job."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Permission and timing record from the building contact",
+    "Assessor observation of the lift mock-up clean",
+    "Isolation and return-to-service record with time",
+    "Completed knowledge checks"
+  ],
+  "stopWorkCriteria": [
+    "Isolating the lift without permission",
+    "Lift does not isolate or return to service as the procedure requires",
+    "A call button activates during the work",
+    "Any task inside the shaft, pit or machine room is requested or started"
+  ]
+}

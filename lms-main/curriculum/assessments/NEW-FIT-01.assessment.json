@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-FIT-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-FIT-01-K01",
+      "correctIndex": 1,
+      "rationale": "A heart procedure is a medical question. The trainer postpones the start, refers the client to a medical practitioner and records the decision. The trainer does not judge the client's safety."
+    },
+    {
+      "id": "NEW-FIT-01-K02",
+      "correctIndex": 2,
+      "rationale": "The AusActive tool is industry guidance. The research found no statutory duty to use it, and its legal status is not established."
+    },
+    {
+      "id": "NEW-FIT-01-K03",
+      "correctIndex": 0,
+      "rationale": "Code 32 covers commercial gyms and play venues aimed at children, as the vic.gov.au categories list. Code 28 is private tutoring and coaching aimed at children, and code 42 is sport and recreation clubs for children."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor observes the candidate complete a health questionnaire with a simulated new client and identify each medical question",
+    "Assessor presents a simulated medical question and observes the candidate postpone the start and make a recorded referral, without giving a medical opinion",
+    "Assessor checks that the candidate states the children's-service check position for a simulated under-18 client, and names the check to make for the class position"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed questionnaire for the simulated client",
+    "Referral record showing the advice given and the postponement",
+    "Written children's-service check note for the simulated under-18 client"
+  ],
+  "stopWorkCriteria": [
+    "The candidate starts a programme for a client with an unreviewed medical question",
+    "The candidate gives a medical opinion or tells the client a symptom is harmless",
+    "The candidate runs a session for under-18s without checking the children's-service position"
+  ]
+}

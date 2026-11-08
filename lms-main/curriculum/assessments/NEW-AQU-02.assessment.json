@@ -1,0 +1,37 @@
+{
+  "lessonId": "NEW-AQU-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-AQU-02-K01",
+      "correctIndex": 3,
+      "rationale": "A swing is a signal to check the result. Retesting with an in-date kit and checking the equipment come before any action, and the plan decides the response."
+    },
+    {
+      "id": "NEW-AQU-02-K02",
+      "correctIndex": 0,
+      "rationale": "A consistent point and time let results be compared across visits. That comparison is the trend the record exists to show."
+    },
+    {
+      "id": "NEW-AQU-02-K03",
+      "correctIndex": 1,
+      "rationale": "When the plan does not cover a result, the response is a referral to the owner and a specialist. Guessing, changing several variables or recording nothing are all wrong."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner tests pH, ammonia, nitrite and nitrate on a training sample with an in-date kit, in the set order, and records each result with the time and temperature",
+    "Learner identifies an expired reagent and a meter with no current calibration, and records each as not valid",
+    "Learner responds to a simulated out-of-range result by retesting and checking the equipment, then changes one variable only as the plan directs"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Test record for the training sample, with time, temperature and method",
+    "Reagent expiry and meter calibration check",
+    "Response record with the retest and the single change made",
+    "Assessor observation of the test sequence"
+  ],
+  "stopWorkCriteria": [
+    "A reagent or meter that the learner uses without checking its status",
+    "A proposed large dose of any product to force a result",
+    "Several livestock showing distress with the plan not covering the response"
+  ]
+}

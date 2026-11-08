@@ -1,0 +1,203 @@
+{
+  "id": "NEW-GRO-03",
+  "title": "Pet-safe grooming products and dilution",
+  "courseSlugs": [
+    "groom"
+  ],
+  "moduleTitle": "Equipment and materials",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Pet groomers who choose, store, dilute and use shampoos, conditioners, sprays and other products on animals",
+  "prerequisites": [
+    "F03-L01",
+    "F03-L02",
+    "F03-L03"
+  ],
+  "referencesAtStart": "Official sources: WorkSafe Victoria, Safety data sheets (reviewed 30/07/2022); WorkSafe Victoria, Hazardous substances (reviewed 19/05/2026); WorkSafe Victoria, Globally Harmonized System (GHS) of classification and labelling of chemicals (reviewed 22/11/2022).",
+  "learningOutcomes": [
+    "Read the label and the safety data sheet for each product before first use, and file the sheet in the kit",
+    "Dilute products to the label ratio, and label every decanted or diluted product with its name, date and dilution",
+    "Apply the label and the safety data sheet to pet grooming products."
+  ],
+  "instruction": [
+    {
+      "heading": "The label and the safety data sheet come first",
+      "body": "A pet product is a chemical product, even when it is sold as a gentle shampoo. Before first use, read the label and the safety data sheet for each product. The label gives the dilution, the contact time and the warnings. The safety data sheet gives the hazards, the first aid and the handling controls. WorkSafe Victoria's safety data sheets page (reviewed 30/07/2022) says a business that uses or stores hazardous substances needs an up-to-date sheet for each product, and must make it reachable by workers, contractors and emergency responders. Its hazardous substances page (reviewed 19/05/2026) asks employers to obtain MSDSs for hazardous chemicals and dangerous goods, and to make them available to staff. The GHS page (reviewed 22/11/2022) assigns the labelling of hazardous substances to manufacturers or importers, who must do it before a product reaches a workplace. Keep each safety data sheet in the kit, and record the date it was checked. The approved products are listed in {{business:materials.approved_products}}, and their sheets are linked in {{business:materials.sds_links}}."
+    },
+    {
+      "heading": "Dilution, decanting and labelling",
+      "body": "Dilute to the label ratio, not to a feel. Measure the product with a measuring device, not by eye, and mix only the amount needed for the animal. Label every diluted or decanted container with its name, the date made, and the dilution. Never return unused diluted product to the main bottle, and discard or clean the container after the session. Do not mix products together unless the label allows it, because some combinations release gases or change the product's properties. Store products in the approved storage in {{business:materials.storage_procedure}}, away from food and out of reach of animals and children, and dispose of waste as the procedure in {{business:materials.waste_procedure}} says."
+    },
+    {
+      "heading": "Pet product rules",
+      "body": "Flea products may be regulated as medicines or as agricultural chemicals, and that position was not researched. A groomer should not apply a flea or tick product unless the owner has asked for it in writing and the product is one the business has approved, and the groomer must follow the product's label. Where the owner brings a product, the groomer checks the label and the safety data sheet before use, and records the product name in the job record. Where the groomer is not sure a product is suitable for the animal, the groomer does not use it and asks the owner to check with a vet."
+    }
+  ],
+  "procedure": [
+    "Read the label and the safety data sheet for each product before first use, and file the sheet in the kit",
+    "Check the dilution on the label, measure the product, and mix only the amount needed for the animal",
+    "Label every diluted or decanted container with its name, date and dilution",
+    "Store products in the approved storage, and keep lids closed when not in use",
+    "Never mix products unless the label allows it, and never return diluted product to the main bottle",
+    "Record the product, the dilution and the safety data sheet check in the job record"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A groomer makes up a shampoo by eye, adding what looks like a splash of concentrate to a bucket of water, because the label is hard to read.",
+      "decisionPrompt": "What should the groomer do?",
+      "reasoning": "Dilution by eye risks the wrong strength, which can irritate the animal's skin or leave residue. The groomer should stop, check the label or the safety data sheet, and measure the dilution with a measuring device. The groomer should label the container with the name, date and dilution, and tell the business so that the label copy can be improved. If the label cannot be read, the groomer should not use the product until the label is confirmed."
+    },
+    {
+      "situation": "An owner brings a flea spray and asks the groomer to apply it during the groom, saying their vet recommended it.",
+      "decisionPrompt": "Should the groomer apply it?",
+      "reasoning": "The groomer should check the label and safety data sheet, and ask the owner to confirm the application in writing. If the product is not on the approved list, the groomer should decline to apply it, and tell the owner to ask the vet to apply it or to confirm the method. The decision and the reason are recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Safety data sheets for each product, filed in the kit",
+    "Measuring device for dilution, clean and labelled",
+    "Labelled dispensers and containers for diluted product",
+    "Gloves and eye protection where the label or safety data sheet requires them",
+    "Storage cupboard or box with lid, away from food and out of reach"
+  ],
+  "commonErrors": [
+    {
+      "error": "Diluting a product by eye instead of to the label ratio.",
+      "prevention": "Measure every dilution with a measuring device, and check the label."
+    },
+    {
+      "error": "Returning diluted product to the main bottle.",
+      "prevention": "Decant only what is needed, and discard or clean the container after the session."
+    },
+    {
+      "error": "Applying a flea or tick product because the owner asked.",
+      "prevention": "Do not apply a product the business has not approved. Confirm the application with the owner in writing and check the label."
+    },
+    {
+      "error": "Stating that a pet shampoo is safe because it is sold for animals.",
+      "prevention": "Check the label and safety data sheet for each product."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The duty to hold a current safety data sheet for each product, and to make it accessible, is stated on WorkSafe Victoria's safety data sheets page (reviewed 30/07/2022).",
+      "licenceNotice": false
+    },
+    {
+      "point": "A hazardous substances register and labelling of decanted containers were not found on the pages read.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Flea products may fall under a medicines or chemicals regime that was not researched. The groomer must not apply such a product without the owner's written request and the business's approval.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Completing this lesson does not grant any licence or approval to use or apply any restricted product.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every product has a safety data sheet filed in the kit, with the check date recorded",
+    "Every dilution is measured to the label ratio, and every container is labelled",
+    "No diluted product is returned to the main bottle",
+    "No flea or tick product is applied without the owner's written request and the approved list"
+  ],
+  "documentationEvidence": [
+    "Safety data sheet file for each product, with the check date",
+    "Dilution and labelling record for each product used on a job",
+    "Owner's written request for any flea or tick product applied",
+    "Storage and disposal record for products and waste"
+  ],
+  "summary": [
+    "Read the label and the safety data sheet before first use",
+    "Measure dilution to the label ratio, and label every container",
+    "Completing this lesson grants no licence or approval to apply restricted products"
+  ],
+  "referencesAtEnd": "Official sources, as listed at the start: WorkSafe Victoria, Safety data sheets (reviewed 30/07/2022); WorkSafe Victoria, Hazardous substances (reviewed 19/05/2026); WorkSafe Victoria, Globally Harmonized System (GHS) of classification and labelling of chemicals (reviewed 22/11/2022).",
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:materials.sds_links}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:materials.waste_procedure}}",
+    "{{business:safety.required_ppe}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-GRO-03-K01",
+      "question": "A groomer needs a shampoo at the label dilution, but the label is hard to read. What is the correct action?",
+      "options": [
+        "Check the label or safety data sheet, measure the dilution, and label the container",
+        "Dilute by eye to a similar colour, since it looks about right to the groomer",
+        "Use the concentrate neat to save time and avoid measuring at the sink today"
+      ]
+    },
+    {
+      "id": "NEW-GRO-03-K02",
+      "question": "An owner asks the groomer to apply a flea spray that is not on the business's approved list. What should happen?",
+      "options": [
+        "Apply it, since the owner's vet recommended it and the product is widely used in the area today",
+        "Decline to apply an unapproved product, and ask the owner to confirm the application with a vet in writing",
+        "Apply it at a lower concentration to be safe, since a weaker mix reduces any risk to the cat or dog"
+      ]
+    },
+    {
+      "id": "NEW-GRO-03-K03",
+      "question": "When does the lesson say to read the label and the safety data sheet for a pet product?",
+      "options": [
+        "Only after an animal has reacted to the product",
+        "Before first use",
+        "Only if the label is missing",
+        "Once a year, at the start of the financial year"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WorkSafe Victoria, Hazardous substances, https://www.worksafe.vic.gov.au/hazardous-substances, reviewed 19/05/2026, checked 2026-11-02 (ALL-VIC-02, CHEM-VIC-01)",
+    "WorkSafe Victoria, Health and safety responsibilities, https://www.worksafe.vic.gov.au/office-health-and-safety-health-and-safety-responsibilities, reviewed 03/04/2025, checked 2026-11-02 (ALL-VIC-01)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (GROOM-VIC-03 product rules UNCONFIRMED)",
+    "Shared lesson references: F03-L01 (read labels and SDS), F03-L02 (never mix incompatible products), F03-L03 (dilution, ventilation and exposure controls), within curriculum/lessons/ready"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Safety data sheets",
+      "url": "https://www.worksafe.vic.gov.au/safety-data-sheets",
+      "pageDate": "reviewed 30/07/2022",
+      "checked": "2026-11-03",
+      "covers": "Read the duty to obtain a current SDS for each product and make it accessible. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R2",
+      "title": "Hazardous substances",
+      "url": "https://www.worksafe.vic.gov.au/hazardous-substances",
+      "pageDate": "reviewed 19/05/2026",
+      "checked": "2026-11-03",
+      "covers": "Read the hazard 2 section; no hazardous substances register or GHS workplace labelling duty is stated. Publisher: WorkSafe Victoria."
+    },
+    {
+      "id": "R3",
+      "title": "Globally Harmonized System (GHS) of classification and labelling of chemicals",
+      "url": "https://worksafe.vic.gov.au/globally-harmonized-system-ghs-classification-and-labelling-chemicals",
+      "pageDate": "reviewed 22/11/2022",
+      "checked": "2026-11-03",
+      "covers": "Read the supplier labelling duty; decanted-container labelling is not mentioned. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-05.jpg",
+      "alt": "Pet grooming illustration",
+      "kind": "photo",
+      "origin": "groom"
+    },
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-06.jpg",
+      "alt": "Pet grooming illustration",
+      "kind": "photo",
+      "origin": "groom"
+    }
+  ]
+}

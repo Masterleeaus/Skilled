@@ -1,0 +1,36 @@
+{
+  "lessonId": "C19-L06",
+  "knowledgeAnswers": [
+    {
+      "id": "C19-L06-K01",
+      "correctIndex": 2,
+      "rationale": "The open item is stated as open with the cause unknown, and a rework plan sets a named owner and a due date. Stating it as resolved, blaming a person or leaving it out are all wrong."
+    },
+    {
+      "id": "C19-L06-K02",
+      "correctIndex": 3,
+      "rationale": "Written acknowledgement confirms that the receiving party knows what is open, and it is filed with the property record. Deleting earlier notes removes the record."
+    },
+    {
+      "id": "C19-L06-K03",
+      "correctIndex": 1,
+      "rationale": "An unassessed electrical item is an open item. It is not called safe, is referred to a licensed electrical worker, and has a named owner and due date. Attributing the cause without evidence is wrong."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated repair with one open item, the worker writes a handover note that separates completed work, exclusions and open items, each with its evidence",
+    "Given the same simulated repair, the worker writes the rework plan with a named owner, a due date and an approval status for the open item",
+    "Given a simulated open electrical item, the worker records it as not assessed and refers it to the licensed trade, without calling it safe"
+  ],
+  "passRule": "Assessor observes every practical criterion and records it as met or not met. The knowledge checks are not a practical pass. The minimum knowledge score is 80%, so all three checks must be correct.",
+  "evidenceRequired": [
+    "Handover note for the simulated repair",
+    "Rework plan with named owners, due dates and approval status",
+    "Written acknowledgement from the simulated receiving party"
+  ],
+  "stopWorkCriteria": [
+    "The worker is asked to describe a cause as confirmed without checking it",
+    "An open electrical, gas or structural item is described as safe or compliant",
+    "A handover is sent without a named owner for each open item"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "kitchen-exhaust-L08",
+  "knowledgeAnswers": [
+    {
+      "id": "kitchen-exhaust-L08-K01",
+      "correctIndex": 1,
+      "rationale": "Brushing an internal duct reaches a concealed part of the system and is outside the routine boundary. Being part of the same system, or client agreement in conversation, does not make it routine or eligible."
+    },
+    {
+      "id": "kitchen-exhaust-L08-K02",
+      "correctIndex": 1,
+      "rationale": "The method boundary is set by the written scope, the site procedure and the approved product list. Experience and available tools do not set it."
+    },
+    {
+      "id": "kitchen-exhaust-L08-K03",
+      "correctIndex": 1,
+      "rationale": "The request is recorded, the specialist method is declined, and it is referred. A quick trial or a quote before written scope and eligibility are in place is not correct."
+    }
+  ],
+  "practicalCriteria": [
+    "Classifies five sample methods as routine or specialist, with a stated reason for each, and marks any unclear method as specialist until the site confirms it.",
+    "Declines a simulated specialist method request without offering a partial version, and writes a referral that names the person who can approve a change of scope.",
+    "Checks the safety data sheet of a sample product for handling, dilution, ventilation and disposal before use, and records the product reference."
+  ],
+  "passRule": "All five methods classified with reasons, the specialist request declined and referred with no partial work offered, and the product check recorded. Observed in a supervised desk exercise. A pass is not a method approval and does not confer any licence or specialist authority.",
+  "evidenceRequired": [
+    "Method classification record for the five sample methods",
+    "Referral record for the simulated specialist request",
+    "Safety data sheet check record for the sample product"
+  ],
+  "stopWorkCriteria": [
+    "Access point opened or internal duct touched on a routine-method assumption",
+    "Degreaser or sanitiser used without checking its safety data sheet or the approved list",
+    "Specialist method offered, quoted or partly performed without written scope and eligibility"
+  ]
+}

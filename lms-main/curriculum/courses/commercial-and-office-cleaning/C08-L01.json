@@ -1,0 +1,179 @@
+{
+  "id": "C08-L01",
+  "title": "Workstations, shared electronics and office fixtures",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Methods and technique",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 60,
+  "audience": "Cleaners doing workstation and shared-touchpoint cleaning in offices.",
+  "prerequisites": [
+    "F10-L03"
+  ],
+  "learningOutcomes": [
+    "Confirm workstation boundaries from the contract, induction and desk-cleaning policy before touching a desk.",
+    "Clean shared electronics and touchpoints with site-approved methods that keep liquid away from powered equipment.",
+    "Stop, withhold and report when a desk holds confidential material or an access issue exists."
+  ],
+  "instruction": [
+    {
+      "heading": "Setting the boundary before the desk",
+      "body": "Review the contract, the site induction and the desk-cleaning policy before the first desk. Identify the clear-desk rules, the occupied desks, the restricted offices and any surface that is excluded from the service. Confidential papers are not moved, drawers are not opened, and computer accounts are not accessed. If a desk holds a laptop left open, a spill and confidential documents, you do not touch the laptop or the papers. You report the spill and ask for the authorised instruction."
+    },
+    {
+      "heading": "Electronics and shared devices",
+      "body": "Clean screens, keyboards, phones and shared touchpoints only with site-approved methods. Do not spray liquid directly onto powered electronics, do not disconnect cables without authorisation, and do not use wet tools near outlets. Report damaged cords and equipment. A shared device is cleaned only where the site lists it as authorised for cleaning."
+    },
+    {
+      "heading": "Sequence and touchpoints",
+      "body": "Work from lower contamination risk toward higher risk, and change cloths as the procedure requires. Clean door handles, switches, meeting tables and authorised shared devices with products suited to each material. Where a disinfection product is used, follow its label directions for contact time, and do not describe the surface as disinfected unless the label supports that claim. Claims about cleaning and disinfection must be accurate and provable, because consumer law looks at the impression a claim creates rather than the intent behind it (ACCC, page metadata dated 28 June 2026)."
+    },
+    {
+      "heading": "Handover and exceptions",
+      "body": "Check for streaks, residue, missed high-touch points, unsecured cords and disturbed items. Log any desk that could not be accessed, and any incident, through the approved reporting channel. The handover says what was done and what was not."
+    }
+  ],
+  "procedure": [
+    "Confirm workstation boundaries, clear-desk rules and excluded surfaces before starting.",
+    "Do not move confidential papers, open drawers or access computer accounts.",
+    "Clean electronics with site-approved methods, keeping liquid off powered equipment.",
+    "Work from lower to higher contamination risk and change cloths as required.",
+    "Follow disinfection label directions where a disinfectant is used.",
+    "Inspect, log exceptions and report incidents through the approved channel."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker sees an unlocked laptop, confidential documents and a coffee spill on a desk.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Do not touch the laptop or the papers. Report the spill and request an authorised clearing or cleaning instruction. Record the desk as restricted and the time, and keep others away from the spill."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Site-approved screen and electronics cleaning products, with labels and SDS.",
+    "Microfibre cloths, changed as required.",
+    "Gloves as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Spraying liquid directly onto a keyboard or screen.",
+      "prevention": "Apply product to a cloth, and keep liquid off the device."
+    },
+    {
+      "error": "Moving confidential papers to clean under them.",
+      "prevention": "Clean around documents and do not move them."
+    },
+    {
+      "error": "Unplugging a cable to reach a surface.",
+      "prevention": "Do not disconnect cables without authorisation."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Safety details for every chemical, hazardous or not, need to reach all people on site, and they sit on the label and the SDS. The register has to cover hazardous chemicals that are used, handled or kept on site, each entry needs an up-to-date SDS attached, and the register must be easy for workers to reach (Safe Work Australia, no date shown). Check your state or territory regulator for extra rules.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Office privacy duties govern confidential information seen during cleaning. The Commonwealth Privacy Act covers businesses with turnover above $3 million, and the OAIC gives that threshold on a page dated 10 March 2023.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Desk boundaries classified as authorised or restricted in the simulated office.",
+    "Electronics cleaned with an approved method and no liquid ingress in the training keyboard exercise.",
+    "Missed-access and restricted desks logged."
+  ],
+  "documentationEvidence": [
+    "Desk classification and exception log.",
+    "Incident or spill report through the approved channel."
+  ],
+  "summary": [
+    "Confirm the workstation boundary before touching a desk.",
+    "Keep liquid off powered electronics and do not disconnect cables.",
+    "Report spills and confidential exposure, rather than handling them."
+  ],
+  "businessFields": [
+    "{{business:customers.communication_policy}}",
+    "{{business:procedures.task_steps}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C08-L01-K01",
+      "question": "A laptop is open and confidential papers are on a desk that has a spill. What do you do?",
+      "options": [
+        "Move the papers to clean under them, so the spill does not spread across the desk and the floor",
+        "Read the papers to find the owner, then return them to the right desk once the spill is cleaned and dry",
+        "Report the spill and request an authorised clearing instruction, without touching the laptop or papers"
+      ]
+    },
+    {
+      "id": "C08-L01-K02",
+      "question": "How should a keyboard be cleaned?",
+      "options": [
+        "Apply an approved product to a cloth, keeping liquid off the device",
+        "Spray it directly onto the keys so the cleaner reaches the gaps",
+        "Submerge it in water, then dry it on the desk for the next user"
+      ]
+    },
+    {
+      "id": "C08-L01-K03",
+      "question": "A desk cannot be accessed. What is the correct action?",
+      "options": [
+        "Skip it silently and move on to the next desk",
+        "Log the missed access through the approved channel",
+        "Enter the restricted office to finish it"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemical records and signs in workplaces: hazardous chemicals register",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Model WHS duties for registers and SDS; check your state or territory regulator for extra rules. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R2",
+      "title": "False or misleading claims",
+      "url": "https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims",
+      "pageDate": "28 June 2026 (page metadata; no visible date)",
+      "checked": "2026-11-03",
+      "covers": "Covers claims a business makes about its own services and products. Publisher: Australian Competition and Consumer Commission."
+    },
+    {
+      "id": "R3",
+      "title": "Small business (privacy guidance for organisations)",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/small-business",
+      "pageDate": "10 March 2023",
+      "checked": "2026-11-03",
+      "covers": "Check your annual turnover and the exception list before relying on the small business position. Publisher: Office of the Australian Information Commissioner."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Hazardous chemical records and signs in workplaces: hazardous chemicals register (no date shown); ACCC, False or misleading claims (28 June 2026, page metadata; no visible date); OAIC, Small business (privacy guidance for organisations) (10 March 2023).",
+  "referencesAtEnd": "Check the current rule on these official pages: Safe Work Australia, Hazardous chemical records and signs in workplaces: hazardous chemicals register (no date shown); ACCC, False or misleading claims (28 June 2026, page metadata; no visible date); OAIC, Small business (privacy guidance for organisations) (10 March 2023).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/C08-L01.json (editorial or draft pass, not technically reviewed)",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-01.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/commercial-photo-0eeb7a5f-02.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

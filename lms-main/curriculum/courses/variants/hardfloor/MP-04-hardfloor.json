@@ -1,0 +1,150 @@
+{
+  "id": "MP-04-hardfloor",
+  "title": "Break-even analysis with a worked calculation for hard floor care",
+  "courseSlugs": [
+    "hardfloor"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Owners of hard floor care businesses, including solo operators, who set job prices or plan monthly income from floor work.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a home-service business as fixed or variable",
+    "Calculate monthly break-even revenue from fixed costs and a variable cost percentage",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a floor-care business",
+      "body": "Break-even revenue is the monthly sales that cover all costs, so profit is zero. For a floor-care business it shows how many jobs must be completed each month before profit begins. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss. Floor work is lumpy, so use several months of figures and a stated average job price."
+    },
+    {
+      "heading": "Split the costs for a floor-care business",
+      "body": "Fixed costs stay the same whatever the number of jobs: the floor machine and its finance, vehicle registration and loan repayments, insurance, phone and software, and storage. Variable costs move with each job: abrasives and pads, finishes and sealers, consumables, waste and card or payment fees. Any casual worker paid by the hour has wages that rise with the work, so include them in the variable share. Express variable cost as a share of sales for the same months."
+    },
+    {
+      "heading": "The formula",
+      "body": "Break-even revenue equals fixed costs divided by one minus the variable share of sales. The result after variable cost is the contribution margin (Xero Australia glossary, 23 July 2026). The answer is revenue, not profit. Divide it by the average job price you actually charge, and round up to whole jobs."
+    },
+    {
+      "heading": "Reconcile the job price before you use it",
+      "body": "The Oneflare page gives two figures for a 50 square metre floor: a whole-job range of $1,250 to $3,000, and a Victorian labour range that works out to $1,000 to $1,500 (vendor, undated). The two do not reconcile, and the choice changes the answer. Pick one, state its source and label it. Replace it with your average invoice as soon as you have one."
+    },
+    {
+      "heading": "Check the inputs before you set a target",
+      "body": "When two figures disagree, check whether fixed costs are monthly or annual, whether the variable share is of sales or of cost, and whether the output is revenue or profit. Keep only the reconciled figure, with its inputs. The research did not find floor-care cost ratios, so every cost input must come from your own records."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost for the floor-care business and label each one fixed or variable.",
+    "Count casual wages, abrasives, finishes and consumables as variable.",
+    "Work out variable cost as a share of sales for the same months, and check it across several months.",
+    "Calculate one minus the variable share, then divide monthly fixed costs by it.",
+    "Divide break-even revenue by the average job price you have chosen and sourced, and round up to whole jobs.",
+    "Compare any other figure, reconcile the inputs, and keep only the reconciled one."
+  ],
+  "workedExamples": [
+    {
+      "situation": "[ILLUSTRATIVE] A solo floor-care operator's average job is priced at $1,000 for a 50 square metre floor. That is the low end of the Oneflare Victorian labour range (CALC on a vendor figure). Fixed costs are $3,000 a month and variable costs are 20 per cent of sales, both illustrative. The owner works alone.",
+      "decisionPrompt": "How many jobs must be completed each month to break even, and what changes if the average job is the $1,250 low end of the whole-job range?",
+      "reasoning": "The contribution margin is 1 - 0.20, which is 0.80. Break-even revenue is $3,000 divided by 0.80, which is $3,750 a month (CALC). At $1,000 a job that is 3.75, so 4 jobs are needed. Check: 3 jobs give $2,400 of contribution, short of $3,000, and 4 jobs give $3,200. At $1,250 a job, which is the low end of the whole-job range, break-even is exactly 3 jobs (check: 3 x $1,250 x 0.80 = $3,000). The source's two ranges therefore change the answer from 4 jobs to 3. The owner reconciles the average price before using it, and records which figure was used."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Treating a casual worker's hours as a fixed cost.",
+      "prevention": "Track their hours per job and include them in the variable share."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales.",
+      "prevention": "Divide by sales for the same months, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Using a vendor range as the average job price without reconciling it.",
+      "prevention": "Reconcile the vendor's ranges first, then use your average invoice."
+    },
+    {
+      "error": "Leaving out abrasives, finishes or waste.",
+      "prevention": "List every consumable and check it against invoices each month."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of equipment and costs with a registered tax agent or accountant. The research did not confirm the tax treatment.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The wage in any cost build is subject to the Cleaning Services Award where it applies: Level 1 adult minimum of $25.85 an hour with 25 per cent casual loading, from 1 July 2025. The 2026-27 rates were not checked.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence or registration.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable share of sales.",
+    "Reconcile the vendor's own ranges before you choose a job price, because the choice changes the job count.",
+    "Gaps: floor-care cost ratios and cleaning-only prices were not found in the research. Every input here is illustrative or a vendor figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-hardfloor-K01",
+      "question": "Break-even revenue for a floor-care business is calculated as:",
+      "options": [
+        "Fixed costs multiplied by the variable percentage",
+        "Fixed costs divided by (1 minus the variable share of sales)",
+        "Sales minus fixed costs, shown as a percentage of the price",
+        "Fixed costs plus variable costs for the month"
+      ]
+    },
+    {
+      "id": "MP-04-hardfloor-K02",
+      "question": "Fixed costs are $3,000 a month, variable costs are 20 per cent of sales, and an average job is $1,250. What is the monthly break-even revenue?",
+      "options": [
+        "$3,750.00",
+        "$600.00",
+        "$3,000.00",
+        "$15,000.00"
+      ]
+    },
+    {
+      "id": "MP-04-hardfloor-K03",
+      "question": "Two sources give different job prices for the same floor. What is the right response?",
+      "options": [
+        "Use the higher price to be safe",
+        "Reconcile the inputs, record which figure you used and why, and replace it with your own average invoice",
+        "Average the two figures and quote the result",
+        "Skip the check and rely on the owner's gut feel"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Supports: definitions of fixed and variable costs; costs must be covered to avoid running at a loss.",
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Supports: contribution margin is price minus variable cost; break-even revenue is fixed costs divided by the contribution ratio; job counts are rounded up to whole jobs.",
+    "Oneflare (Airtasker co-brand), 'Floor polishing cost', https://www.oneflare.com.au/costs/floor-polishing, undated ('2025 prices'). Vendor marketplace; covers polishing and sanding, not routine cleaning. Supports: per square metre ranges, state labour rates, finish prices, a poor-condition surcharge and whole-job totals.",
+    "Fair Work Commission, Cleaning Services Award (MA000022), https://awards.fairwork.gov.au/MA000022.html, variation effective 1 July 2025. Supports: Level 1 adult minimum hourly rate of $25.85 and a 25 per cent casual loading. The 1 July 2026 position was not checked.",
+    "Notes: the $3,000 fixed costs and 20 per cent variable share are illustrative. The $1,000 and $1,250 figures are vendor-derived inputs (CALC on the Oneflare ranges). The vendor figures are undated and cover polishing and sanding."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

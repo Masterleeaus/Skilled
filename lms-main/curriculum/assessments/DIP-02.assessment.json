@@ -1,0 +1,33 @@
+{
+  "lessonId": "DIP-02",
+  "knowledgeAnswers": [
+    {
+      "id": "DIP-02-K01",
+      "correctIndex": 1,
+      "rationale": "Rinsing, disinfecting and recording before transfer is the required sequence. The other options delegate the decontamination or misuse a container."
+    },
+    {
+      "id": "DIP-02-K02",
+      "correctIndex": 1,
+      "rationale": "Decontamination to the item's level, with a record, is required. The other options are inadequate or unsafe."
+    },
+    {
+      "id": "DIP-02-K03",
+      "correctIndex": 1,
+      "rationale": "Surgical items need sterilisation, heat where possible and chemical where it is not. The other options do not meet that standard."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock set of impressions with visible saliva, the learner rinses, records and seals the set in the correct container.",
+    "The learner refuses to send a mock item with no record and names the person to report it to."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed mock decontamination record",
+    "Assessor observation record"
+  ],
+  "stopWorkCriteria": [
+    "An item with unknown decontamination status is about to leave the practice",
+    "A sharp is found loose in a container meant for laboratory transport"
+  ]
+}

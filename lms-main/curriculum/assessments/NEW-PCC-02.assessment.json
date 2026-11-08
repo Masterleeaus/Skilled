@@ -1,0 +1,43 @@
+{
+  "lessonId": "NEW-PCC-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-PCC-02-K01",
+      "correctIndex": 2,
+      "rationale": "Without an approved method or a specification, the residue is recorded, work stops, and the approved method is requested in writing. Scraping and strong solvent are both refused."
+    },
+    {
+      "id": "NEW-PCC-02-K02",
+      "correctIndex": 0,
+      "rationale": "A test on an inconspicuous area shows whether the method changes the surface, before it is used across the area."
+    },
+    {
+      "id": "NEW-PCC-02-K03",
+      "correctIndex": 1,
+      "rationale": "A steel blade can scratch glass and glazed tile, so an approved non-scratching tool is used instead."
+    },
+    {
+      "id": "NEW-PCC-02-K04",
+      "correctIndex": 1,
+      "rationale": "An unidentified recent stone surface may be engineered stone, so the product is recorded, work on it stops, and the site controller is told. The cleaner does not grind the stone to identify it, and does not assume it is lawful."
+    }
+  ],
+  "practicalCriteria": [
+    "Identifies the residue and the surface on sample panels, and records both before any removal.",
+    "Tests an approved method on an inconspicuous area, leaves it for the stated time, and records the result.",
+    "Works gently in a bounded area, and stops at the edge of the released area.",
+    "Refuses a simulated scraping request or a simulated strong-solvent request, and records the request in writing."
+  ],
+  "passRule": "Residues and surfaces identified and recorded, method tested before use, and the unapproved method refused and recorded. Observed by an assessor. A knowledge check result is not a practical pass.",
+  "evidenceRequired": [
+    "Residue record with location and surface",
+    "Test-patch record",
+    "Approved-method request record"
+  ],
+  "stopWorkCriteria": [
+    "Scraper used on a sensitive finish without an approved method",
+    "Strong solvent used without an approved method",
+    "Engineered stone ground, sanded or scraped to identify it",
+    "Removal carried out outside the released area"
+  ]
+}

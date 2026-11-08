@@ -1,0 +1,142 @@
+{
+  "id": "C14-L01",
+  "title": "Appliance identification",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Methods and technique",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who clean kitchen and laundry appliances in residential, commercial, bond and short-stay work.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Identify the common appliance types and the parts that are within cleaning scope.",
+    "Recognise the manufacturer's labels and documents that set the cleaning method.",
+    "Stop and escalate for any appliance that is unidentified or has no cleaning guidance."
+  ],
+  "instruction": [
+    {
+      "heading": "Knowing what you are cleaning",
+      "body": "Appliances in a home or workplace include ovens, cooktops, rangehoods, dishwashers, microwaves, refrigerators, washing machines and dryers. Each has a different mix of accessible parts, electrical controls, heating elements, seals and moving parts. Before you clean one, identify the make and model from its data plate or label, and find the manufacturer's cleaning guidance if the site holds it. Identification sets which parts are cleaned, which are left alone, and which products are allowed."
+    },
+    {
+      "heading": "Scope and the parts you may clean",
+      "body": "Within routine cleaning, the accessible exterior, the interior surfaces that the manufacturer says can be cleaned, the removable racks and trays, and the door seals and handles are usually in scope, subject to the work order. Electrical panels, switches, sockets, fixed wiring, gas connections, motors and control boards are not cleaned with liquid, and are not opened or dismantled by a cleaner. The work order and the manufacturer's guidance mark the boundary."
+    },
+    {
+      "heading": "When identification fails",
+      "body": "If the appliance cannot be identified, or the manufacturer's guidance is not available, do not guess the method. Clean only the exterior with a mild, approved product that is suitable for the surface, leave the rest, and record the appliance as unidentified. Ask the supervisor for the manufacturer's guidance before cleaning further."
+    }
+  ],
+  "procedure": [
+    "Record the appliance type, make and model from its label, before cleaning.",
+    "Check the work order and the manufacturer's guidance for cleaning method and products.",
+    "Mark the in-scope parts and the excluded parts on the job record.",
+    "If the appliance cannot be identified, clean only the exterior with an approved mild product, and escalate."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner is asked to clean an unidentified built-in oven whose data plate is missing.",
+      "decisionPrompt": "What is the correct approach?",
+      "reasoning": "Do not guess the method or use an oven-specific product on an unknown appliance. Clean only the accessible exterior with an approved mild product, leave the interior and controls, and ask the supervisor for the manufacturer's guidance. Record the appliance as unidentified."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved mild cleaning products suitable for stainless steel and painted surfaces, with labels and SDS available.",
+    "Non-scratching cloths and soft brushes.",
+    "Gloves and eye protection as set by the SDS."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using an oven-specific product on a cooktop or a fridge.",
+      "prevention": "Identify the appliance and use only the approved product for its surface."
+    },
+    {
+      "error": "Spraying liquid into the controls to clean them.",
+      "prevention": "Keep liquid away from controls, switches and openings."
+    },
+    {
+      "error": "Guessing the appliance type to save time.",
+      "prevention": "Record the identification, or escalate for guidance."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "In Victoria, electrical installation work is carried out under an electrical licence from Energy Safe Victoria. A cleaner must not open, disconnect, repair or alter fixed electrical equipment or wiring. This lesson grants no electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Appliance identified and in-scope parts marked on the record in the practical.",
+    "No liquid applied to controls or openings.",
+    "Unidentified appliance escalated with the record."
+  ],
+  "documentationEvidence": [
+    "Appliance identification record with type, make and model.",
+    "In-scope and excluded parts list for the job."
+  ],
+  "summary": [
+    "Identify the appliance before cleaning, from its label and guidance.",
+    "Clean only the in-scope parts, and keep liquid away from controls.",
+    "Escalate unidentified appliances rather than guessing."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:equipment.manufacturer_manual_url}}",
+    "{{business:procedures.task_steps}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C14-L01-K01",
+      "question": "Why is the appliance identified before cleaning?",
+      "options": [
+        "To find the in-scope parts and the approved cleaning method",
+        "To write a nicer invoice for the client's records only",
+        "Because identification is optional for most quick jobs"
+      ]
+    },
+    {
+      "id": "C14-L01-K02",
+      "question": "An appliance has no data plate. What should you do?",
+      "options": [
+        "Use the strongest product you have on the whole appliance, inside and out",
+        "Clean only the exterior with an approved mild product, and escalate",
+        "Open the panel to find the model and check the label before cleaning"
+      ]
+    },
+    {
+      "id": "C14-L01-K03",
+      "question": "What should not be cleaned with liquid?",
+      "options": [
+        "The accessible exterior and handles",
+        "Removable racks, washed gently by hand",
+        "Switches, sockets and control boards"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: no source draft or research note exists for this lesson. Content is general cleaning practice and needs subject-matter and manufacturer review.",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)",
+    "UNCONFIRMED: state and territory electrical licence classes for work on fixed appliances."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Electricians licence (Energy Safe Victoria)",
+      "url": "https://www.energysafe.vic.gov.au/licensing/electrical-licences/licence-types/electricians-licence-aae",
+      "pageDate": "Reviewed 30 June 2025 (no 'last updated' label on the page)",
+      "checked": "2026-11-03",
+      "covers": "Says the holder of this licence can perform electrical installation work in Victoria, and that the licence allows electrical installation work as an employee. Says the licence does not allow the holder to contract for electrical installation work for profit or reward. The page was reviewed on 30 June 2025. Publisher: Energy Safe Victoria."
+    }
+  ]
+}

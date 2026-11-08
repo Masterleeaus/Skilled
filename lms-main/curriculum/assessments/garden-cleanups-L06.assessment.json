@@ -1,0 +1,36 @@
+{
+  "lessonId": "garden-cleanups-L06",
+  "knowledgeAnswers": [
+    {
+      "id": "garden-cleanups-L06-K01",
+      "correctIndex": 2,
+      "rationale": "A lead with exposed copper or cut sheath is a shock and fire risk. Taping it is not an acceptable control, and the damaged item must be removed from service and recorded."
+    },
+    {
+      "id": "garden-cleanups-L06-K02",
+      "correctIndex": 0,
+      "rationale": "Fuel vapour near a hot engine or a running engine is a fire risk. Refuelling must wait until the engine is off and cool, with no ignition sources nearby."
+    },
+    {
+      "id": "garden-cleanups-L06-K03",
+      "correctIndex": 1,
+      "rationale": "A swollen, warm battery can go into thermal runaway. It must come out of use, be moved to a safe area and be reported. Charging or disposing of it in general waste are both unsafe."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied set of three leads, one battery and one fuel container, the learner identifies each defect and tags the defective items within the assessor's set time.",
+    "The learner states, without prompting, that mains wiring defects are referred to a licence holder and does not attempt a repair.",
+    "The learner refuels a supplied engine with the engine switched off and the spill tray in place, and wipes any spill before restart."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed inspection checklist for the supplied leads, battery and fuel container, signed by the assessor.",
+    "Assessor observation record for the refuelling demonstration, including the engine state and spill tray use.",
+    "Referral record for the mains wiring scenario."
+  ],
+  "stopWorkCriteria": [
+    "Any attempt to repair a mains lead, switchboard or fixed wiring during the assessment.",
+    "Refuelling or starting a hot engine, or any fuel leak near an ignition source.",
+    "Charging a battery that shows swelling, heat or cracks."
+  ]
+}

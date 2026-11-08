@@ -1,0 +1,141 @@
+{
+  "id": "MP-04-flatpack",
+  "title": "Break-even analysis with a worked calculation for Flat-pack and fixture installation",
+  "courseSlugs": [
+    "flatpack"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Flat-pack and fixture installation operators who set visit prices or plan monthly work, including sole traders who run one van and their own tools.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Classify the costs of a flat-pack and fixture business as fixed or variable",
+    "Calculate monthly break-even revenue and the number of visits it needs",
+    "Explain why conflicting break-even figures must be reconciled before any of them is used"
+  ],
+  "instruction": [
+    {
+      "heading": "What break-even means for a visit-based business",
+      "body": "Break-even revenue covers all costs exactly, so profit is zero. For a flat-pack and fixture installer, the figure shows how many visits a month pay for the van, tools, insurance and software. It is a planning tool, and it is only as good as the costs and percentages behind it."
+    },
+    {
+      "heading": "Split costs into fixed and variable",
+      "body": "Fixed costs stay the same whatever the number of visits. They include van finance or lease, registration, insurance, phone, software and any storage rent. Tool replacement should be spread as a monthly amount. Variable costs move with each visit. They include fixings, anchors and consumables used on a job, card and payment fees on each sale, replacement parts that you cover when a visit goes wrong, and any fuel you charge per visit. ANZ defines fixed and variable costs and warns that costs must be covered to avoid running at a loss. Express variable cost as a share of sales for the same period, and check it across at least three months."
+    },
+    {
+      "heading": "Calculate the break-even",
+      "body": "Contribution margin is one minus the variable share, written as a decimal. Break-even revenue is fixed costs divided by the contribution margin. Xero's glossary sets out the same method and rounds a job count up to whole jobs. Divide break-even revenue by the average visit price, and round up, because a part visit does not cover its costs."
+    },
+    {
+      "heading": "Use your own average visit price",
+      "body": "Vendor per-job estimates for Queensland give TV wall mounting at $80 to $200, basic furniture assembly at $80 to $200 and picture hanging at $80 to $150 (The Quote Yard, 10 May 2026). Those are market estimates for single items. The average visit price must come from your own invoices, which will reflect how many items each visit covers."
+    },
+    {
+      "heading": "Reconcile before you use any figure",
+      "body": "When two figures disagree, check that each fixed cost is monthly, that the variable share is a share of sales, and that the result is revenue rather than profit. Keep only the reconciled figure, with its inputs written beside it."
+    }
+  ],
+  "procedure": [
+    "List every monthly cost and label each one fixed or variable.",
+    "Work out variable cost as a share of sales for the same period, and check it across at least three months.",
+    "Calculate one minus the variable share to find the contribution margin.",
+    "Divide monthly fixed costs by the contribution margin to get break-even revenue.",
+    "Divide break-even revenue by your average visit price from invoices, and round up to whole visits.",
+    "Compare any other break-even figure with your result, reconcile the inputs, and keep only the reconciled figure."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A one-person flat-pack and fixture business (illustrative figures, invented for this lesson) has fixed costs of $2,200 a month, variable costs of 12 per cent of sales, and an average visit price of $190 after discounts.",
+      "decisionPrompt": "How many visits must the business complete each month to break even, and what should be checked before the figure is used?",
+      "reasoning": "The contribution margin is 1 minus 0.12, which is 0.88. Break-even revenue is $2,200 divided by 0.88, which is $2,500 a month. At $190 a visit, that is 13.16 visits, so the business needs 14 visits. Check the arithmetic: 13 visits give $2,173.60 of contribution, which is below $2,200, and 14 visits give $2,340.80, which covers it. Before the figure is used, check that the 12 per cent includes fixings and card fees, and that any replacement parts the business covers are counted. Check that $190 is the average charged after discounts, from invoices."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Cost list for the last three months, split into fixed and variable",
+    "Calculator or spreadsheet",
+    "Invoice record of the visit prices actually charged"
+  ],
+  "commonErrors": [
+    {
+      "error": "Mixing monthly and annual figures, such as an annual insurance premium",
+      "prevention": "Convert every cost to a monthly figure before dividing, and label each input with its period."
+    },
+    {
+      "error": "Using variable cost as a share of cost instead of a share of sales",
+      "prevention": "Divide variable cost by sales for the same period, and write the denominator beside the percentage."
+    },
+    {
+      "error": "Leaving out replacement parts the business covers when a visit goes wrong",
+      "prevention": "Record those costs as variable costs, and check the percentage against the last three months."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Business planning only. This lesson gives no tax or accounting advice. Check the tax treatment of costs with a registered tax agent or qualified accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, registration or authority. Any licence or insurance cost for licensed work must be included in the fixed costs, and the state rule must be checked first.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every break-even figure shows its fixed costs, variable percentage, period and source.",
+    "Two figures that disagree are reconciled before either one is used in a plan or a price."
+  ],
+  "documentationEvidence": [
+    "Cost list split into fixed and variable, with source and date",
+    "Break-even calculation showing each step",
+    "Reconciliation note wherever two figures disagree"
+  ],
+  "summary": [
+    "Break-even revenue is fixed costs divided by one minus the variable cost percentage.",
+    "Use one period throughout the calculation.",
+    "Recalculate from your own inputs. Do not copy another plan's break-even figure."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "MP-04-flatpack-K01",
+      "question": "Break-even revenue is calculated as:",
+      "options": [
+        "Fixed costs multiplied by the variable cost percentage",
+        "Sales minus fixed costs, shown as a percentage of the cost",
+        "Fixed costs divided by (1 minus the variable cost percentage)",
+        "Fixed costs plus variable costs"
+      ]
+    },
+    {
+      "id": "MP-04-flatpack-K02",
+      "question": "Fixed costs are $2,200 a month and variable costs are 12 per cent of sales. What is the monthly break-even revenue?",
+      "options": [
+        "$264.00 AUD",
+        "$2,200.00 AUD",
+        "$2,500.00 AUD",
+        "$18,333.33 AUD"
+      ]
+    },
+    {
+      "id": "MP-04-flatpack-K03",
+      "question": "Two sources give different break-even figures for the same flat-pack business. What is the right response?",
+      "options": [
+        "Use the larger figure to be safe",
+        "Average the two figures and quote the result",
+        "Recalculate from your own costs and check each source's inputs before using any figure",
+        "Rely on the vendor price list and skip the check"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Xero Australia, 'Break-even point formula' glossary entry, https://www.xero.com/au/glossary/break-even-point-formula/, dated 23 July 2026. Contribution margin, break-even revenue as fixed costs divided by the contribution ratio, and rounding up job counts. The glossary's own examples are not used.",
+    "ANZ, 'Setting the right price for your product or service', https://www.anz.com.au/business/business-hub/starting-business/start/setting-the-right-price-for-your-product-or-service/, dated 21 February 2025, last modified 22 July 2025. Definitions of fixed and variable costs.",
+    "The Quote Yard, Handyman services QLD, https://www.thequoteyard.com.au/services/handyman-services-qld, published 10 May 2026. Vendor per-job estimates used only to show the market range for single items."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

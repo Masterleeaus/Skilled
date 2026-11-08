@@ -1,0 +1,31 @@
+{
+  "lessonId": "NEW-DEK-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-DEK-04-K01",
+      "correctIndex": 0,
+      "rationale": "The change is held until the referral is answered and recorded. The owner's statement does not establish compliance."
+    },
+    {
+      "id": "NEW-DEK-04-K02",
+      "correctIndex": 1,
+      "rationale": "Compliance is a referred question, which the worker cannot certify."
+    },
+    {
+      "id": "NEW-DEK-04-K03",
+      "correctIndex": 1,
+      "rationale": "The lesson says to record the measured height from the finished surface, the gaps through the balustrade, and the fixing method, with photographs and the date, and to record which person the matter was referred to."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a simulated balustrade, the worker records height, gaps and fixing method with a photograph, and does not state compliance."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Balustrade measurement record",
+    "Referral note"
+  ],
+  "stopWorkCriteria": [
+    "A change to the balustrade height is requested before the referral outcome is recorded"
+  ]
+}

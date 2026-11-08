@@ -1,0 +1,136 @@
+{
+  "id": "CGC-05",
+  "title": "Checking how well infection control works, and improving practice",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Caregiving: infection control (no course slug assigned)",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Supervisors responsible for monitoring infection control in a team",
+  "prerequisites": [
+    "CGC-01"
+  ],
+  "learningOutcomes": [
+    "Investigate an infection control event promptly and identify its cause",
+    "Set up a simple audit schedule and feed back results within a set time",
+    "Use aggregate reports to find hazards, improve controls and identify training needs"
+  ],
+  "instruction": [
+    {
+      "heading": "Investigate events promptly",
+      "body": "An infection control event, such as a missed hand hygiene moment, a sharps injury or a spill handled outside procedure, needs a prompt investigation. Find the cause in the system as well as in the person. Was the procedure clear, was the equipment available, was training current? Record the event, the cause and the action taken, and check later that the action worked."
+    },
+    {
+      "heading": "Audit on a schedule with simple tools",
+      "body": "Audits need not be complicated. Observation audits can be run weekly by a supervisor, covering items such as hand cleaning at each of the five moments and personal items that interfere with hand cleaning. Larger audits, such as a review of sharps handling, can be annual or more frequent. Build the audit tool from your organisation's own policy. The source gives examples from a UK hospital setting. Those examples and the figures in them are not used here."
+    },
+    {
+      "heading": "Feed back quickly and train where gaps appear",
+      "body": "Audit results help only when staff see them soon enough to act. Share results with the team within a short time, recognise what went well, and agree one fix for each gap. Where the same gap shows across the team, arrange a refresher on that topic. Core training topics are hand hygiene, personal protective equipment, sharps, waste, spills, equipment decontamination, and linen handling."
+    }
+  ],
+  "procedure": [
+    "Choose the audit items from the policy and the team's known risks.",
+    "Set the audit schedule and the person responsible for each audit.",
+    "Observe, record and count each audit item.",
+    "Feed back results to the team within a set time, with one agreed fix per gap.",
+    "Review trends each month and arrange training where a pattern appears."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A home-care team's supervisor observes ten personal-care tasks. Six have full hand hygiene, and four miss the moment after touching the client's surroundings.",
+      "decisionPrompt": "What should the supervisor do?",
+      "reasoning": "The pattern points to one moment. The supervisor gives a short refresher on that moment, agrees a reminder at the door, feeds back the result to the team, and re-audits at the interval the business sets. The supervisor does not single out one person unless the pattern is specific to that person, and then the coaching approach applies."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Audit tool with item list",
+    "Observation record sheet",
+    "Training attendance record"
+  ],
+  "commonErrors": [
+    {
+      "error": "Running audits with no feedback",
+      "prevention": "Feed back within a set time and agree one fix per gap."
+    },
+    {
+      "error": "Blaming an individual before checking the system",
+      "prevention": "Ask what in the system allowed the gap."
+    },
+    {
+      "error": "Keeping records that are never used",
+      "prevention": "Review trends each month and act on them."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Check the organisation's records policy and the applicable law for incident and audit records.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The UK figures and examples in the source are not used in this lesson, and no Australian statistic is claimed.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant an auditor's accreditation or any qualification.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Each event has a recorded cause and a planned next action",
+    "Audit results are fed back within the set time",
+    "Training is arranged where the same gap repeats"
+  ],
+  "documentationEvidence": [
+    "Audit records with date, observer and results",
+    "Event investigation record",
+    "Training record following a gap"
+  ],
+  "summary": [
+    "Investigate events promptly, starting with the system.",
+    "Audit with simple tools on a schedule.",
+    "Feed back quickly and train where gaps repeat."
+  ],
+  "businessFields": [
+    "{{business:quality.inspection_checklist}}",
+    "{{business:quality.defect_reporting}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "CGC-05-K01",
+      "question": "An infection control event that could have caused harm should be:",
+      "options": [
+        "Recorded in a diary, reviewed later",
+        "Investigated promptly to find its cause",
+        "Discussed only at the year end review"
+      ]
+    },
+    {
+      "id": "CGC-05-K02",
+      "question": "Audit results are most useful when they are:",
+      "options": [
+        "Kept private from staff",
+        "Shared promptly so staff can close gaps",
+        "Reported only to the owner's accountant"
+      ]
+    },
+    {
+      "id": "CGC-05-K03",
+      "question": "Aggregate infection control reports in this lesson are used to:",
+      "options": [
+        "Decorate the notice board in the office, the hall and the ward",
+        "Find hazards, improve controls and identify training needs",
+        "Replace the written policy with the meeting minutes"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Common competency caregiving learner guide (57359f07-706996033-common-competency-caregiving.txt), Philippine TESDA-style CBLM, Quality Care Training Center, Sorsogon City; not an Australian national unit; practice content only, Learning Outcome 3 (assessment criteria, information sheet 1.3-1, self-check 1.3-1); rights: user-held; reworded (no copying); UK statistics and examples not used",
+    "Records and privacy obligations: UNCONFIRMED; not checked on 2026-11-02"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

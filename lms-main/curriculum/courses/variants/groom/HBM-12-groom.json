@@ -1,0 +1,182 @@
+{
+  "id": "HBM-12-groom",
+  "title": "Setting your hourly rate and minimum charge for Pet grooming",
+  "courseSlugs": [
+    "groom"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 40,
+  "audience": "Groomers who need a base hourly rate, a size-based price and a minimum charge before they quote.",
+  "prerequisites": [
+    "HBM-01",
+    "HBM-03"
+  ],
+  "learningOutcomes": [
+    "Separate billable hours from non-billable hours, and calculate the time available to bill.",
+    "Calculate a base hourly rate from the owner's own costs and income target, then compare it with local evidence.",
+    "Set a minimum charge for short jobs, and explain it to a client before the visit."
+  ],
+  "instruction": [
+    {
+      "heading": "Factors that move the rate",
+      "body": "The rate depends on your skill, the coat work you take on, the local market and the cost of running the business. Vendor ranges show the market. Airtasker lists a wash and dry for a small dog at $30 to $40 and for a large dog at $50 to $60, and a large full clip at $100 to $120 (17 March 2025). Hepper lists an XL full summer cut at $120 in its table, but its text says upwards of $150, which conflicts (5 January 2026). Use these as checks, not as your rate. Experience with difficult coats and the range of services you offer can justify a higher rate."
+    },
+    {
+      "heading": "Counting the hours that can be billed",
+      "body": "Grooming time is not all billable. Set-up, clean-down, drive time for a mobile groom, booking and admin, cleaning the van, training, blade servicing, marketing, sick days and leave are not billable. Estimate the paid hours in a year, subtract the non-billable time, and divide your costs by what remains. A Jobber guide puts billable time at about 60 to 80 per cent of working hours. That is a general range, not an Australian figure (Jobber Academy, 5 November 2024, last modified 20 July 2026)."
+    },
+    {
+      "heading": "Building the rate from costs and income",
+      "body": "Add the annual costs of running the business, including rent or a salon share, the van, insurance, equipment and servicing, products, phone and booking software, and accounting, to the income you need. business.gov.au says on-costs such as superannuation, leave and tax belong in the hourly figure (1 October 2026). Divide the total by billable hours to get the base rate. Have a registered tax agent confirm how leave and superannuation apply before you publish the rate. Business Victoria recommends reviewing prices about every three months (no date shown on the page)."
+    },
+    {
+      "heading": "Size bands and coat work",
+      "body": "Use size bands (small, medium and large) and add a coat allowance for matting or de-shedding. Vendor guides show different prices by size, and Airtasker says costs can double for larger thick-coated breeds (17 March 2025). Set the coat allowance from your own records of the extra minutes that matting and de-shedding take."
+    },
+    {
+      "heading": "Setting a minimum charge",
+      "body": "A short service still pays for the trip, the set-up and the clean-down. Set the minimum from the full cost of one visit, divided by one minus your target margin. A contractor pricing guide proposes this method and labels its own figures as illustrative (Contractor+, 23 September 2026). State the minimum before the booking, and say what it covers, such as travel within a service area and a set amount of time on site. Check it against your own cost for a bath-only visit, because Airtasker's wash-and-dry band for a small dog is $30 to $40 (17 March 2025)."
+    }
+  ],
+  "procedure": [
+    "Estimate paid hours in a year, then subtract travel, admin, marketing, training and leave to find billable hours.",
+    "List annual running costs, including premises or van, insurance, equipment, products, phone and any registration fee.",
+    "Add the income you need, with on-costs and tax confirmed by a registered tax agent.",
+    "Divide the total by billable hours to find the base rate, then set size-band prices and a coat allowance.",
+    "Set a minimum charge that covers travel and set-up for a short service, and state it in writing.",
+    "Review the rates every quarter, and record each change and its reason."
+  ],
+  "workedExamples": [
+    {
+      "situation": "Illustrative figures only. A groomer finds that only 60 of every 100 paid hours can be billed, once cleaning, drive time and admin are removed. She plans to price as though every paid hour were billable, and she offers a short bath-only visit at the same rate as a full groom.",
+      "decisionPrompt": "What is the effect of keeping that assumption, and how should the rate and the minimum be set?",
+      "reasoning": "If she prices from all paid hours, the costs of 100 paid hours are spread over the 60 she can bill, so the rate comes out too low. She builds the rate from billable hours, which means a rate about 1.67 times the rate for a fully billable week. She then compares it with the vendor ranges and her own costs. For the bath-only visit, a fixed minimum covers set-up, clean-down and drive time, because those do not shrink with the length of the bath."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Annual costs and income worksheet, with the source and date of each cost",
+    "Log of paid, billable and travel time for one month",
+    "Price sheet with size-band prices, the coat allowance, the minimum charge and the review date"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting rates from a listing range or a competitor's price without checking your costs",
+      "prevention": "Build the base rate from your costs and billable hours, then compare it with local listings."
+    },
+    {
+      "error": "Pricing as though every paid hour could be billed",
+      "prevention": "Subtract the non-billable time, including drive time, before dividing."
+    },
+    {
+      "error": "Charging a bath-only visit the same as a full groom, without covering set-up and travel",
+      "prevention": "Set and state a minimum that covers set-up, clean-down and travel."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Price display rules come from the Australian Consumer Law. The ACCC says misleading price statements are prohibited (15 July 2026). The sources read do not cover minimum or call-out charges or what counts as a fair term, so check that before you publish a price sheet.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Tax treatment of leave, superannuation and self-employed income is UNCONFIRMED. Confirm it with a registered tax agent.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Mobile grooming rules and Victorian grooming rules are UNRESOLVED in this research. Check the council or state rule before you publish a price sheet for a mobile or Victorian service.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Billable hours are calculated from a logged or estimated month, including drive time.",
+    "The base rate is built from costs and an income target, and compared with local listings.",
+    "A minimum charge is set and stated before any short service."
+  ],
+  "documentationEvidence": [
+    "Annual costs and income worksheet with the source and date of each cost",
+    "Billable hours calculation showing the non-billable deductions, including drive time",
+    "Price sheet with size-band prices, minimum charge and review date"
+  ],
+  "summary": [
+    "Price from billable hours, including drive time, not from paid hours.",
+    "Build the rate from costs and an income target, then check it against local listings.",
+    "Set and state a minimum for short services."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-12-groom-K01",
+      "question": "A groomer can bill only some of her paid hours. How should the rate be built?",
+      "options": [
+        "From all paid hours, so the rate looks lower and the owner pays less",
+        "From billable hours, so the costs and income are covered by the work that can be billed",
+        "From the average price on a listing site and the nearest groomer's rate",
+        "From the rate the groomer wishes the market would pay"
+      ]
+    },
+    {
+      "id": "HBM-12-groom-K02",
+      "question": "Why set a minimum charge for a short service?",
+      "options": [
+        "Because a short service needs travel but no set-up or clean-down at all",
+        "Because travel, set-up and clean-down time does not shrink with the length of the service",
+        "Because owners expect every service to cost the same, whatever its length",
+        "Because a minimum charge replaces a written quote for every booking"
+      ]
+    },
+    {
+      "id": "HBM-12-groom-K03",
+      "question": "What is the best source for checking a base hourly rate?",
+      "options": [
+        "A single vendor's price list for one size band",
+        "Your own costs and billable hours, compared with local evidence",
+        "A friend's rate without checking costs or the local market",
+        "The price on the first page of a listing site this week"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026.",
+    "Jobber Academy, 'What are billable hours', https://getjobber.com/academy/what-are-billable-hours/, published 5 November 2024, last modified 20 July 2026. General range, not an Australian figure.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown.",
+    "Contractor+, 'Minimum Service Call Charge: A Contractor's Pricing Guide', https://contractorplus.app/blog/minimum-service-call-charge, 23 September 2026. Figures labelled illustrative by the source.",
+    "ACCC, 'Setting prices: what's allowed', https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed, page last modified 15 July 2026.",
+    "Airtasker, 'How much does dog grooming cost in Australia?', https://www.airtasker.com/dog-care/dog-grooming/price/dog-grooming-cost, last updated 17 March 2025. Vendor source.",
+    "Hepper, 'Cost of dog grooming in Australia', https://articles.hepper.com/cost-of-dog-grooming-australia/, published 3 March 2023, updated 5 January 2026. Vendor, affiliate publisher.",
+    "Gap: no Australian minimum-charge or call-out source for grooming was found.",
+    "Gap: tax treatment of leave and superannuation for a self-employed groomer is UNCONFIRMED."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "business.gov.au, Choose a pricing strategy",
+      "url": "https://business.gov.au/products-and-services/choose-a-pricing-strategy",
+      "pageDate": "1 October 2026 (page metadata)",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 hourly-rate research file, not reopened: wages are only the floor; on-costs such as superannuation, leave and tax belong in the hourly figure."
+    },
+    {
+      "id": "R2",
+      "title": "Business Victoria, Develop a pricing strategy",
+      "url": "https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy",
+      "pageDate": "no date shown",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 research files, not reopened: review prices about every three months; test prices against total overheads and sales costs."
+    },
+    {
+      "id": "R3",
+      "title": "ACCC, Setting prices: what's allowed",
+      "url": "https://www.accc.gov.au/business/pricing/setting-prices-whats-allowed",
+      "pageDate": "15 July 2026",
+      "checked": "2026-11-09",
+      "covers": "Recorded from the team4 research files, not reopened: misleading statements about prices are prohibited."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "BST-03",
+  "knowledgeAnswers": [
+    {
+      "id": "BST-03-K01",
+      "correctIndex": 2,
+      "rationale": "Fourteen divided by 40 is 0.35, which is 35 per cent. Option 1 uses the raw count of repeat customers as if it were a percentage, and option 2 is the sample size."
+    },
+    {
+      "id": "BST-03-K02",
+      "correctIndex": 0,
+      "rationale": "Sampling variation means a different group of customers naturally gives a slightly different share, especially when the sample is small. Options 2 and 3 are not reasons a repeat share would move."
+    },
+    {
+      "id": "BST-03-K03",
+      "correctIndex": 1,
+      "rationale": "A 12-customer batch gives a rough estimate with a wide margin. The sensible response is to keep counting over longer windows. A fixed-fact reading overstates what 12 customers show, and discarding the result throws away information."
+    }
+  ],
+  "practicalCriteria": [
+    "The learner writes a definition of repeat customer that a colleague could apply to the same records and get the same count.",
+    "Using at least 30 records, the learner calculates a repeat share and reports it with the window and the sample size.",
+    "The learner splits the sample into two batches, recalculates each share and explains the difference in their own words, including what it does and does not support."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Written definition with the date it was set",
+    "Worksheet showing the counts, window, share, sample size and two-batch comparison",
+    "Assessor observation of the learner explaining sampling variation",
+    "Knowledge check attempt record"
+  ],
+  "stopWorkCriteria": [
+    "Stop and do not report a rate if the definition has changed partway through the window without a note explaining why.",
+    "Stop if the customer records cannot be shared or stored in line with privacy duties that have been checked."
+  ]
+}

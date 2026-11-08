@@ -1,0 +1,153 @@
+{
+  "id": "PTB-09",
+  "title": "Pricing a small-group session against the one-to-one rate",
+  "courseSlugs": [
+    "pt",
+    "yoga"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Trainers and studio owners setting group rates alongside one-to-one rates",
+  "prerequisites": [
+    "PTB-08"
+  ],
+  "learningOutcomes": [
+    "Set a group rate as a percentage of the one-to-one rate and test it against hourly earnings",
+    "Calculate expected hourly earnings at a planned fill rate",
+    "Explain why unlimited group access and unclear inclusions reduce value and create compliance risk"
+  ],
+  "instruction": [
+    {
+      "heading": "Anchor to the one-to-one rate",
+      "body": "Set the group rate as a percentage of your one-to-one rate, then test whether a full group earns more per hour than one-to-one would. A group rate set too low can earn less than a single one-to-one session, even with a full group. The one-to-one rate is the anchor and the hourly test is the check. The percentage is a starting point for testing, not a fixed rule."
+    },
+    {
+      "heading": "Plan for a fill rate below full",
+      "body": "Not every session will be full. Estimate the average fill rate from your bookings and use that figure, not the maximum group size. Earnings per hour equal the group rate multiplied by the average number of paying members. Recalculate after each month of data."
+    },
+    {
+      "heading": "Avoid unlimited group access",
+      "body": "Unlimited access makes each session seem less valuable and reduces the average income per session. Use session packs or memberships with clear terms, and state the expiry, cancellation and inclusion terms before sale. Those terms must be fair and not misleading."
+    }
+  ],
+  "procedure": [
+    "Write down the one-to-one rate you charge.",
+    "Choose a group-rate percentage to test and calculate the group rate.",
+    "Calculate hourly earnings at four and six members, then at your average fill rate.",
+    "Compare each result with one-to-one hourly income.",
+    "Write the pack or membership terms and check them against the consumer-law point before use."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A hypothetical one-to-one rate of 90 units. The trainer tests a group rate of 40 per cent of that, for groups of five, with an average fill rate of 80 per cent.",
+      "decisionPrompt": "Does the group rate beat one-to-one per hour?",
+      "reasoning": "The group rate is 36 units per member. Four paying members, being 80 per cent of five, earn 144 units per hour, which is more than the 90 units from one-to-one. The result depends on the assumed rate and fill, so re-test with actual bookings. All figures are hypothetical and are not a recommended price."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Pricing calculator spreadsheet",
+    "At least one month of booking data"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting the group rate without comparing it to the one-to-one rate",
+      "prevention": "Run the hourly comparison before publishing any rate."
+    },
+    {
+      "error": "Calculating income at full capacity only",
+      "prevention": "Use the average fill rate from bookings."
+    },
+    {
+      "error": "Offering unlimited access without terms",
+      "prevention": "Use packs with clear expiry and inclusions, checked for consumer-law compliance."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Check ACCC guidance before publishing price and inclusion statements, which must not mislead under the Australian Consumer Law.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Check the GST treatment of group fees and packs with the ATO and an accountant.",
+      "licenceNotice": false
+    },
+    {
+      "point": "No price in this lesson is a market benchmark or a recommended price.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The group rate is tested against one-to-one hourly income",
+    "Income is calculated with the average fill rate",
+    "Pack or membership terms are written and checked"
+  ],
+  "documentationEvidence": [
+    "Pricing calculation with inputs and dates",
+    "Published terms with the open checks listed"
+  ],
+  "summary": [
+    "Anchor the group rate to the one-to-one rate and test hourly earnings.",
+    "Use the average fill rate, not the maximum.",
+    "Write clear pack terms, and check them before unlimited access is offered."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.quoting_approval}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "PTB-09-K01",
+      "question": "A group rate is first set by:",
+      "options": [
+        "The lowest competitor price in the local area this month",
+        "A percentage of the one-to-one rate, tested against hourly earnings",
+        "The price the members asked for on the first day and the same for all"
+      ]
+    },
+    {
+      "id": "PTB-09-K02",
+      "question": "Why does the lesson warn against unlimited group access?",
+      "options": [
+        "It makes sessions seem less valuable and cuts average income per session",
+        "It is illegal in every case and the trainer could be fined for it",
+        "It increases the number of groups needed and the sessions run late each week"
+      ]
+    },
+    {
+      "id": "PTB-09-K03",
+      "question": "A hypothetical one-to-one rate of 90 units, a group rate of 40 per cent, five members and 80 per cent fill. The hourly earnings are:",
+      "options": [
+        "144 units, more than one-to-one",
+        "90 units, the same as one-to-one",
+        "36 units, the price per member only"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Ultimate Guide to Small Group Personal Training (ba47f969-754604334-Ultimate-Guide-to-Small-Group-Personal-Training.txt), How Much to Charge for Small Group and Never Offer Unlimited for Small Group; rights: user-held; reworded (no copying); dollar figures and capacity assumptions not used",
+    "Australian Consumer Law pricing and GST: UNCONFIRMED; not checked on 2026-11-02"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "False or misleading claims",
+      "url": "https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims",
+      "pageDate": "Published and last modified 28 June 2026",
+      "checked": "2026-11-04",
+      "covers": "The ACCC page says a statement that creates a false impression about goods or services can breach the Australian Consumer Law, that it makes no difference whether the business intends to mislead, and that a business must be able to prove any claim it advertises. The page does not cover cancellation, expiry or pack-term rules."
+    },
+    {
+      "id": "R2",
+      "title": "Registering for GST",
+      "url": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst",
+      "pageDate": "Last updated 14 September 2026 (as shown on the page)",
+      "checked": "2026-11-04",
+      "covers": "ATO page: GST registration is required when GST turnover totals $75,000 or more, or $150,000 or more for non-profit organisations. The page does not mention fees for services, group fees, memberships or session packs; the GST treatment of these remains UNCONFIRMED. Publisher: Australian Taxation Office."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

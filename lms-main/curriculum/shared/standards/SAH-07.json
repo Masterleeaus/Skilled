@@ -1,0 +1,125 @@
+{
+  "id": "SAH-07",
+  "title": "Staying away from work when unwell, and vaccination for healthcare cleaners",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaning staff and contractors who enter patient areas in SA healthcare facilities",
+  "prerequisites": [
+    "HCG-15",
+    "F08-L01"
+  ],
+  "learningOutcomes": [
+    "Explain the illness policy that applies before a shift in clinical areas",
+    "Identify when a worker must not enter a healthcare area",
+    "Describe the immunisation support that a healthcare cleaner should be offered"
+  ],
+  "instruction": [
+    {
+      "heading": "Illness and entry to patient areas",
+      "body": "Everyday illnesses like colds, flu and stomach bugs can reach patients through touch, droplets or airborne particles. Healthcare settings should make it clear that workers should stay home with an acute illness that is probably infectious, such as fever, coughing or influenza-type symptoms, diarrhoea or vomiting. The SA standard ties this expectation to the stand-down periods in the NHMRC national guidance on infection control (2019 edition). Confirm the current exclusion periods for your role with the infection prevention team, because this lesson does not state them and the 2019 edition exclusion periods were not reviewed for this draft."
+    },
+    {
+      "heading": "Vaccination",
+      "body": "Healthcare workers, including cleaners, can face a raised risk of several diseases that vaccination can prevent, and they can carry community infections to patients and colleagues. Access to vaccination programs should be offered. The recommendation that applies to a given worker depends on how likely they are to touch patients or handle bodily fluids. The SA policy directive on immunisation for healthcare workers gives the detail; cite the current version rather than one remembered from earlier."
+    },
+    {
+      "heading": "After an exposure",
+      "body": "A worker who may have been exposed to bodily fluids or other infectious hazards needs a documented route. The facility should run a scheme against sharps injuries, with prompt follow-up and preventive treatment where indicated, a breathing-protection scheme for anyone entering an airborne isolation room, and a review and reporting process involving WHS staff and infection control coordinators. Your part is to report at once and follow that route."
+    }
+  ],
+  "procedure": [
+    "Before a shift, check your health against the facility illness policy.",
+    "If you are unwell with a likely infection, tell your supervisor and do not enter patient areas.",
+    "Check your immunisation record with the occupational health service.",
+    "After any exposure, report it at once and follow the post-exposure route.",
+    "Make sure the incident and the follow-up are recorded."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner starts the morning shift with a sore throat, a cough and a measured temperature of 38.4 degrees.",
+      "decisionPrompt": "Should the cleaner enter patient areas?",
+      "reasoning": "No. A fever with a cough is an acute illness that is probably infectious. The cleaner tells the supervisor, follows the illness policy, and is not rostered to patient areas. Any medical assessment and the return-to-work decision follow the facility policy."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Hand hygiene products",
+    "Tissues for cough etiquette",
+    "Contact details for occupational health"
+  ],
+  "commonErrors": [
+    {
+      "error": "Coming to work unwell so the roster is not disrupted",
+      "prevention": "Follow the illness policy and report early so cover can be arranged."
+    },
+    {
+      "error": "Not reporting a sharps injury because it seemed minor",
+      "prevention": "Report every exposure at once so follow-up is timely."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not give medical advice or clearance to work. Confirm the exclusion periods in the current national guidelines before applying them.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The immunisation directive is named but its text is not part of this lesson. Check the current version before use.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner names the illness signs that stop entry to patient areas",
+    "The learner describes the first two steps after an exposure"
+  ],
+  "documentationEvidence": [
+    "Illness notification to the supervisor, with date and time",
+    "Exposure incident report with the follow-up pathway recorded"
+  ],
+  "summary": [
+    "Do not enter patient areas with a probable infectious illness",
+    "Report exposures at once and follow the post-exposure route",
+    "Vaccination recommendations depend on likely contact with patients or body fluids"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SAH-07-K01",
+      "question": "A cleaner has a fever and a cough before a shift. What does the SA standard expect?",
+      "options": [
+        "Work in low-risk areas only with the window open and the door shut",
+        "Not attend work with an acute probable infection, and follow the illness policy",
+        "Attend and wear a gown instead and keep away from the patients at the bed"
+      ]
+    },
+    {
+      "id": "SAH-07-K02",
+      "question": "What should happen after a sharps injury?",
+      "options": [
+        "Wait to see if symptoms develop and then decide",
+        "Report it promptly and follow the post-exposure route",
+        "Tell the team at the end of the week and then finish the room"
+      ]
+    },
+    {
+      "id": "SAH-07-K03",
+      "question": "What decides the vaccination recommendation for a given cleaner?",
+      "options": [
+        "Only the cleaner's own preference and the cost of the vaccine",
+        "How likely a worker is to touch patients or handle bodily fluids",
+        "The cleaning contractor's preference alone and the cost to the employer"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Cleaning Standard for South Australian Healthcare Facilities (SA Health, 2014, updated 2017), sections 3.6 (illness policy), 3.7 (accidental exposure) and 3.8 (staff immunisation); rights: user-held; reworded (no copying); source priority: the SA state standard overrides informal or conflicting cleaning advice where this lesson relies on it; figures dated 2014 (updated 2017) are historical; URL www.sahealth.sa.gov.au/infectionprevention; date checked 2026-11-02",
+    "cross-checked against F08-L01 (transmission pathways) and HCG-15 (hand hygiene)",
+    "NHMRC 2019 edition exclusion periods: UNCONFIRMED in this pass (2019 edition confirmed as current; periods not read)",
+    "NHMRC, Staying Healthy fever leaflet (6th edition, undated), https://nhmrc.gov.au/sites/default/files/documents/attachments/Staying-Healthy/Fever.pdf, checked 2026-11-02; PARTIAL: the leaflet describes fever as above 38.0 degrees Celsius; it is not an exclusion rule. The 38.4 degree reading in the worked example is a scenario value."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

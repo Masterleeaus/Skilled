@@ -1,0 +1,162 @@
+{
+  "id": "industrial-degreasing-L05",
+  "title": "Solvent, vapour and ignition risks",
+  "courseSlugs": [
+    "commercial"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners and supervisors who may be asked to use solvents or degreasers near heat, electricity or confined spaces.",
+  "prerequisites": [
+    "industrial-degreasing-L02"
+  ],
+  "learningOutcomes": [
+    "Recognise vapour build-up, hot work, ventilation restrictions and fire risk near solvents.",
+    "Refer product selection for solvents to a competent specialist.",
+    "Stop solvent use where the authority, machine state or chemical controls cannot be established."
+  ],
+  "instruction": [
+    {
+      "heading": "Solvents and ignition",
+      "body": "Many solvents give off vapour that can ignite when it meets a heat source, a spark or an electrical fault. Vapour is heavier than air in some cases and can collect in pits and low areas. Ventilation may be restricted in a plant room. Before any solvent is used, identify the ignition sources, the ventilation and any hot work nearby."
+    },
+    {
+      "heading": "A proposal near heat or electricity",
+      "body": "A contractor suggests solvent cleaning near hot equipment and an electrical panel. That is a stop condition. Solvent vapour near these sources is a fire risk, and the cleaner cannot establish that the controls are in place. Withhold the task, record the proposal, and refer to the competent specialist and the site."
+    },
+    {
+      "heading": "Product and record",
+      "body": "Product selection for solvents is referred to a competent chemical specialist, not chosen by the cleaner from the shelf. Check the label and the SDS, and record the product name and the controls that the specialist confirms. Safety details for every chemical, hazardous or not, need to reach all people on site, and they sit on the label and the SDS. The register has to cover hazardous chemicals that are used, handled or kept on site, each entry needs an up-to-date SDS attached, and the register must be easy for workers to reach (Safe Work Australia, no date shown). Check your state or territory regulator for extra rules. This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist."
+    }
+  ],
+  "procedure": [
+    "Identify ignition sources, ventilation restrictions and any hot work nearby.",
+    "Withhold solvent use near hot equipment or electrical panels.",
+    "Refer product selection to the competent specialist.",
+    "Check the label and SDS before any approved product is used.",
+    "Record the proposal, the controls confirmed, and the people notified."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A contractor suggests solvent cleaning near hot equipment and an electrical panel.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Withhold the solvent cleaning. Hot equipment and an electrical panel are ignition sources, and the controls are not established. Record the proposal and refer to the competent specialist and the site supervisor."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved product with label and SDS, only as the specialist confirms.",
+    "Gloves and eye protection as set by the SDS.",
+    "Ventilation as the specialist requires."
+  ],
+  "commonErrors": [
+    {
+      "error": "Using solvent near a hot surface because it is quick.",
+      "prevention": "Withhold solvent use near ignition sources."
+    },
+    {
+      "error": "Choosing a solvent from a shelf.",
+      "prevention": "Refer product selection to the competent specialist."
+    },
+    {
+      "error": "Ignoring restricted ventilation in a plant room.",
+      "prevention": "Check ventilation before any product is used."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not grant a licence, competency or environmental authority for industrial degreasing.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Safety details for every chemical, hazardous or not, need to reach all people on site, and they sit on the label and the SDS. The register has to cover hazardous chemicals that are used, handled or kept on site, each entry needs an up-to-date SDS attached, and the register must be easy for workers to reach (Safe Work Australia, no date shown). Check your state or territory regulator for extra rules.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant any licence, certificate, plant-safety approval or fire-safety approval, and completing it does not make a cleaner a specialist.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Ignition sources identified in the case study.",
+    "Solvent use withheld and the proposal recorded.",
+    "Product selection referred to the specialist."
+  ],
+  "documentationEvidence": [
+    "Proposal and hold record.",
+    "Referral to the competent specialist with the controls named."
+  ],
+  "summary": [
+    "Solvent vapour and heat or electricity make a fire risk.",
+    "Withhold solvent use where the controls cannot be established.",
+    "Refer product selection to the competent specialist."
+  ],
+  "businessFields": [
+    "{{business:materials.approved_products}}",
+    "{{business:safety.required_ppe}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "industrial-degreasing-L05-K01",
+      "question": "A solvent is proposed near hot equipment and an electrical panel. What is correct?",
+      "options": [
+        "Withhold the solvent use and refer to the competent specialist",
+        "Use it quickly and ventilate the area while you work",
+        "Use it away from the panel and the hot pipes on the site"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L05-K02",
+      "question": "Who selects the solvent for an industrial degreasing job?",
+      "options": [
+        "The cleaner from the store shelf",
+        "The competent chemical specialist",
+        "The client, who knows the product best"
+      ]
+    },
+    {
+      "id": "industrial-degreasing-L05-K03",
+      "question": "Why does restricted ventilation matter with solvents?",
+      "options": [
+        "It makes the product colder and easier to use on the job",
+        "It does not matter for most of the tasks on the site",
+        "Vapour can build up and create a fire or exposure risk"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Hazardous chemical records and signs in workplaces: hazardous chemicals register",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register",
+      "pageDate": "no date shown",
+      "checked": "2026-11-03",
+      "covers": "Model WHS duties for registers and SDS; check your state or territory regulator for extra rules. Publisher: Safe Work Australia."
+    }
+  ],
+  "referencesAtStart": "Official sources for this lesson: Safe Work Australia, Hazardous chemical records and signs in workplaces: hazardous chemicals register (no date shown).",
+  "referencesAtEnd": "Check the current rule on these official pages: Safe Work Australia, Hazardous chemical records and signs in workplaces: hazardous chemicals register (no date shown).",
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/industrial-degreasing-L05.json (draft pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory licence, competency and environmental requirements for industrial degreasing and chemical use were not sourced for this lesson.",
+    "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemical-records-and-signs-workplaces/hazardous-chemicals-register (model SDS and register duties; checked 2026-11-02 via NAT-CHEM-01)"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/cleaning-commercial/hardfloor-photo-d1d55e00-03.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    },
+    {
+      "src": "/academy/library/photos/cleaning-commercial/hardfloor-photo-d1d55e00-04.jpg",
+      "alt": "Commercial and office cleaning illustration",
+      "kind": "photo",
+      "origin": "commercial"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "NEW-AQU-01",
+  "title": "Freshwater, brackish, marine and planted systems",
+  "courseSlugs": [
+    "aquarium"
+  ],
+  "moduleTitle": "Revenue and growth",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 45,
+  "audience": "Aquarium maintenance technicians who service freshwater, brackish, marine and planted systems",
+  "prerequisites": [
+    "F01-L01",
+    "F03-L01"
+  ],
+  "learningOutcomes": [
+    "Describe the main aquarium system types (freshwater, brackish, marine, reef, fish-only and planted) and what each one needs from its water and equipment",
+    "Explain why freshwater and marine systems must not share equipment without a cleaning and transfer plan",
+    "Prepare tap water and marine salt mixes as the product label and the owner's plan direct, and confirm marine salinity with a calibrated instrument before use",
+    "Keep aquarium products and pool chemicals apart, and refuse any product that is not approved for the system"
+  ],
+  "referencesAtStart": "Official sources for this lesson: WA DPIRD, Importing and keeping live fish: translocation (no page date shown; page metadata shows 2 October 2024); NSW Department of Primary Industries, Aquarium owners and trade (no date shown); Queensland Government, Your legal obligation for invasive freshwater animals (last updated 28 May 2026); Safe Work Australia, Storing hazardous chemicals (no date shown); Safe Work Australia, WHS duties related to hazardous chemicals (no revision date shown; refers to the model WHS laws created in 2011).",
+  "instruction": [
+    {
+      "heading": "Six common system types",
+      "body": "Aquarium systems are grouped by the water they hold and by the animals and plants they keep. A freshwater system holds water with no added salt. Cold-water freshwater systems run near room temperature, and tropical freshwater systems need a heater. A brackish system sits between the two, with a low level of salt that suits some estuarine and river-mouth fish but not a full marine community. A marine system holds seawater-level salinity made from a salt mix. Within marine keeping, a fish-only system holds fish, perhaps with a few algae-eating or detritus-eating animals, and uses decorative rock, dried coral or artificial items instead of living coral. A reef system is built around living coral and needs more control of its chemistry, lighting and water flow. A planted system can be freshwater, brackish or marine, and it adds plants that depend on light and nutrients. Identify the system type from the owner's plan and from the equipment labels before you start work, because the same product or tool can be correct for one type and wrong for another."
+    },
+    {
+      "heading": "Why systems stay separate",
+      "body": "Freshwater and marine animals are adapted to different salt levels and water chemistry, and a brackish system is a third set of conditions. Nets, siphons, buckets, scrapers, sponges, heaters, test kits and sampling containers can carry organisms, parasites or product residues from one system into another, even when they look clean. Keep each item dedicated to one system, label it, and store it dry. If equipment must move between systems, clean and dry it as the owner's plan directs, and record the move. Do not share a net between a freshwater tank and a marine tank in the same visit."
+    },
+    {
+      "heading": "Preparing water",
+      "body": "Its chlorine or chloramine content, hardness, pH and metal content all differ between suppliers and sometimes within a supply area. Check with the local water utility about what is in the supply before you assume that a conditioner or a water source is right, and test the tap water if the owner's plan asks for it. Use a conditioner that removes chlorine and chloramine, at the dose on its label. For a marine system, dissolve the salt mix in the water and at the temperature that the product instructions give, mix until it is fully dissolved, and allow it to stabilise before use. Check the salinity or specific gravity with a calibrated instrument before the water goes into the tank (see the sampling lesson). Do not estimate salinity by looking at the water or by feel, and do not use amounts copied from another product's label."
+    },
+    {
+      "heading": "Temperature and placement",
+      "body": "Temperature affects how quickly animals use oxygen, how quickly the bacteria in the filter work, and how stressed livestock become when conditions change. Use the livestock plan or a qualified aquatic specialist to set the target. Keep the thermometer away from the heater so that it reads the tank, not the heater. Record the temperature at each visit, and investigate a sudden change before you adjust the heater. Keep the tank out of direct sunlight, which encourages algae and can overheat the water, and away from draughts and doorways."
+    },
+    {
+      "heading": "Products and pool chemicals",
+      "body": "Pool chemicals, including chlorine, pool pH products and algaecides, are never used in an aquarium. Aquarium products are used only where the product label and the owner's instruction allow, and only in the system type named on the label. Some planted systems use liquid nutrients or added carbon dioxide. Those products and gases are used at the rates on their labels and within the owner's plan, and this course does not set those rates. Store aquarium products apart from pool chemicals, as the separation principle for incompatible chemicals on the Safe Work Australia storage page directs (no date shown). Keep them away from food and out of reach of children and pets as good practice, because that page addresses container labelling and says nothing on food storage. Read the safety data sheet for each product, because the storage and handling rules are recorded there, and a business has to keep hazardous chemicals stored safely and share hazard information with its workers (page text refers to the model WHS laws created in 2011; no revision date shown)."
+    }
+  ],
+  "procedure": [
+    "Identify the system type (freshwater, brackish, marine, reef, fish-only or planted) and read the owner's plan before you start work.",
+    "Check each item's label, and dedicate each item to one system.",
+    "Confirm the tap water source and the conditioning method against the owner's plan and the water utility information.",
+    "Condition tap water, and mix marine salt, as the product instructions and the owner's plan direct.",
+    "Confirm marine salinity with a calibrated instrument before any mixed water is added to the tank.",
+    "Store aquarium products apart from pool chemicals, and never use pool chemicals in the aquarium.",
+    "Record the system type, the water source, the conditioning, the mix, the test result and the equipment used."
+  ],
+  "workedExamples": [
+    {
+      "situation": "After cleaning a freshwater tank, a worker is about to use the same net in a marine tank during the same visit.",
+      "decisionPrompt": "What should the worker do?",
+      "reasoning": "The net has been used in a freshwater system. It must not go into the marine system without cleaning and drying as the owner's plan directs, and a net that has moved between systems should be recorded as a transfer. The worker sets the net aside, uses a net dedicated to the marine tank, and records the equipment decision. Moving the net directly could carry organisms or residues into the marine tank."
+    },
+    {
+      "situation": "A client asks for a small amount of pool chlorine to speed up the removal of algae in an aquarium.",
+      "decisionPrompt": "What is the correct response?",
+      "reasoning": "Pool chemicals are not used in an aquarium. The worker declines, explains the risk to the livestock, and refers the algae question to the owner's plan. Any product for algae must be approved for the aquarium system on its label, and the choice is recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Labelled and dedicated nets, siphons and buckets for each system",
+    "Water conditioner that removes chlorine and chloramine, used at the label dose",
+    "Marine salt mix, used as the product instructions direct",
+    "Calibrated salinity or specific gravity instrument for marine systems",
+    "In-date water test kit",
+    "PPE as set by {{business:safety.required_ppe}}"
+  ],
+  "commonErrors": [
+    {
+      "error": "Sharing nets or siphons between freshwater and marine systems.",
+      "prevention": "Dedicate and label equipment to each system, and record any planned transfer."
+    },
+    {
+      "error": "Adding pool chemicals to an aquarium.",
+      "prevention": "Pool chemicals are never used in the aquarium. Refuse the request and record it."
+    },
+    {
+      "error": "Using unconditioned tap water.",
+      "prevention": "Condition tap water as the label and the owner's plan direct."
+    },
+    {
+      "error": "Mixing marine salt by feel.",
+      "prevention": "Follow the product instructions, let the mix stabilise, and test the salinity before use."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Aquarium and pool chemicals must be kept apart, and each must be used only as its label and safety data sheet direct (no date shown). Keep them away from food and out of reach of children and pets as good practice; the food point is not a rule read from the Safe Work Australia page.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Moving live fish between waterways is regulated. The Western Australian page says authority is needed to move fish within the state, and the detail varies by fish type (page metadata dated 2 October 2024, no date in the body). New South Wales restricts keeping, buying, selling and transporting listed prohibited and notifiable species (no date shown), and Queensland bars holding or importing listed prohibited species (last updated 28 May 2026).",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not authorise buying, selling, importing, moving or releasing any animal, plant or live rock. Completing it does not give any permit or authority for those activities.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Check with the water utility. This lesson does not state a single tap-water standard.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The system type is identified and recorded before work starts",
+    "Equipment is labelled and dedicated to each system",
+    "No pool chemical is used in an aquarium",
+    "Marine salinity is confirmed with a calibrated instrument before the water is added"
+  ],
+  "documentationEvidence": [
+    "System type and equipment record",
+    "Water source, conditioning and mix record",
+    "Salinity test result for any marine mix",
+    "Product storage check"
+  ],
+  "summary": [
+    "Freshwater, brackish and marine systems are separate. Treat each one with its own equipment and records.",
+    "Dedicate equipment to a system, and do not share nets or siphons without a cleaning and transfer plan.",
+    "Condition tap water and mix marine salt as the product instructions and the owner's plan direct, then confirm with a test.",
+    "Pool chemicals are never used in an aquarium."
+  ],
+  "businessFields": [
+    "{{business:equipment.assigned_items}}",
+    "{{business:materials.approved_products}}",
+    "{{business:materials.handling_procedure}}",
+    "{{business:materials.storage_procedure}}",
+    "{{business:procedures.approved_sop}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-AQU-01-K01",
+      "question": "A worker has cleaned a freshwater tank and wants to use the same net in a marine tank. What is correct?",
+      "options": [
+        "Use the same net because it looks clean and has been rinsed",
+        "Rinse the net in the marine tank water and then use it straight away",
+        "Set the net aside and use a dedicated net for the marine tank",
+        "Use it only if no fish are present in the marine tank at the time"
+      ]
+    },
+    {
+      "id": "NEW-AQU-01-K02",
+      "question": "Which product is appropriate for an aquarium?",
+      "options": [
+        "Pool chlorine, which is strong and works well in any type of water system you clean",
+        "Pool pH product, which is sold for pools and works in the same way for tanks and spas",
+        "Algaecide from the pool shop, which is cheap and easy to buy in bulk on any day",
+        "An aquarium product approved for the system, used under the owner's instruction and the label"
+      ]
+    },
+    {
+      "id": "NEW-AQU-01-K03",
+      "question": "How should tap water be prepared before entering an aquarium?",
+      "options": [
+        "Conditioned to remove chlorine or chloramine as the owner's plan directs",
+        "Used straight from the tap, since it is already safe for fish",
+        "Boiled and cooled only, which is enough to make the water fine for tanks",
+        "Mixed with pool water, since pool water is treated and suits most aquarium fish"
+      ]
+    }
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Importing and keeping live fish: translocation",
+      "url": "https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation",
+      "pageDate": "No date in the page body; page metadata shows 2 October 2024",
+      "checked": "2026-11-03",
+      "covers": "Open the page and read the section on moving fish within Western Australia. Authority is needed, the approval type depends on the case, and the page covers non-endemic fish. Publisher: Department of Primary Industries and Regional Development (WA)."
+    },
+    {
+      "id": "R2",
+      "title": "Aquarium owners and trade",
+      "url": "https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "NSW Department of Primary Industries, Aquarium owners and trade (no date shown). The page says to check which species are illegal to possess, buy, sell or move; that releasing fish into NSW public waters is illegal without a fish stocking permit under the Fisheries Management Act; that buying fish, plants or live rock from overseas on the internet is illegal; and that dumping an unwanted pet fish is an illegal act. It names the Prevention of Cruelty to Animals Act 1979 for animal welfare. The page uses the word illegal for these points, not warning. Publisher: NSW Department of Primary Industries."
+    },
+    {
+      "id": "R3",
+      "title": "Your legal obligation for invasive freshwater animals",
+      "url": "https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations",
+      "pageDate": "Last updated 28 May 2026",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it refers to the Biosecurity Regulation 2016 for the full list of prohibited species and says whom to contact about a suspected one. It does not name aquarium species or set a release rule for aquarium fish. Publisher: Queensland Government."
+    },
+    {
+      "id": "R4",
+      "title": "Storing hazardous chemicals",
+      "url": "https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals",
+      "pageDate": "No date shown",
+      "checked": "2026-11-03",
+      "covers": "Open the page; it covers keeping incompatible chemicals apart and container labelling, and refers to the guide Managing risks of storing chemicals in the workplace. It does not name acids or oxidisers and does not mention safety data sheets. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R5",
+      "title": "WHS duties related to hazardous chemicals",
+      "url": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemicals/whs-duties-related-hazardous-chemicals",
+      "pageDate": "No revision date shown; page text says the model WHS laws were created in 2011",
+      "checked": "2026-11-03",
+      "covers": "Open the page; the duties described are for a person conducting a business or undertaking (PCBU). It points to the state or territory regulator for worker duties. Publisher: Safe Work Australia."
+    },
+    {
+      "id": "R6",
+      "title": "tap-water composition varies by supply area",
+      "url": "https://guidelines.nhmrc.gov.au/australian-drinking-water-guidelines/part-3/chapter-9/9.5-verification-of-drinking-water-quality/9.5.2-drinking-water-quality-monitoring",
+      "pageDate": "no date or update shown",
+      "checked": "2026-11-03",
+      "covers": "Read through a summary tool (WebFetch), Australian Drinking Water Guidelines section 9.5.2. States that monitoring requirements for non-microbial characteristics vary for each water supply system, and that water quality can change across the distribution system. Does not tell readers to obtain supply-area water quality information from the utility; the lesson's advice to ask the utility is not on this page. Publisher: NHMRC."
+    },
+    {
+      "id": "R7",
+      "title": "target temperature, chemistry and maintenance ranges",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source: no official page on target temperature, chemistry or maintenance ranges was found or fetched in this pass. Set the targets from the owner's plan or a qualified aquatic specialist."
+    },
+    {
+      "id": "R8",
+      "title": "state and territory rules for keeping, moving, releasing, medicating and disposing of aquarium fish",
+      "url": null,
+      "pageDate": "Not applicable",
+      "checked": "2026-11-03",
+      "covers": "Not confirmed by an official source: no official page on state and territory rules outside WA, NSW and QLD was found or fetched in this pass. Check with the relevant state or territory aquatic biosecurity authority."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "SRC-E: Department of Primary Industries and Regional Development (WA), Importing and keeping live fish: translocation, https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation, page dated 2 October 2024, checked 2026-11-02 (as recorded in the existing draft). States that authority is needed to move fish within WA. Does not cover aquarium fish or penalties.",
+    "SRC-A1: Safe Work Australia, Storing hazardous chemicals, https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals, checked 2026-11-02 (as recorded in the existing draft). Used for the general separation principle only.",
+    "Aquarium keeping student presentation (uploaded file c5a0d0ad-367752036, ESS-121), system types and temperature points; rights: reworded (no copying); undated; US units converted to metric.",
+    "Aquarium types reference (uploaded file e65220ee-328158963), system type descriptions; rights: reworded (no copying); undated.",
+    "Retailer freshwater handbook (uploaded file 718107ab-729706926), general conditioning point only; rights: not held by user; reworded (no copying). Brands, prices, staff claims and US figures are not used.",
+    "UNCONFIRMED: tropical and cold-water temperature ranges for Australian use; state and territory rules for keeping, moving, releasing or medicating aquarium fish outside WA; tap-water composition by supply area; target values for each system type.",
+    "R1: Importing and keeping live fish: translocation (Department of Primary Industries and Regional Development (WA)), https://www.dpird.wa.gov.au/businesses/biosecurity/aquatic-biosecurity/importing-and-keeping-live-fish-translocation; page date: No date in the page body; page metadata shows 2 October 2024; read 2026-11-03; status PARTIAL.",
+    "R2: Aquarium owners and trade (NSW Department of Primary Industries), https://www.dpi.nsw.gov.au/dpi/biosecurity/aquatic-biosecurity/aquarium-owners-and-trade; page date: No date shown; read 2026-11-03; status CONFIRMED.",
+    "R3: Your legal obligation for invasive freshwater animals (Queensland Government), https://www.qld.gov.au/environment/plants-animals/animals/pests-diseases/invasive-fish/legal-obligations; page date: Last updated 28 May 2026; read 2026-11-03; status PARTIAL.",
+    "R4: Storing hazardous chemicals (Safe Work Australia), https://safeworkaustralia.gov.au/safety-topic/hazards/chemicals/storing-hazardous-chemicals; page date: No date shown; read 2026-11-03; status PARTIAL.",
+    "R5: WHS duties related to hazardous chemicals (Safe Work Australia), https://www.safeworkaustralia.gov.au/safety-topic/hazards/chemicals/hazardous-chemicals/whs-duties-related-hazardous-chemicals; page date: No revision date shown; page text says the model WHS laws were created in 2011; read 2026-11-03; status PARTIAL.",
+    "R6: UNCONFIRMED, tap-water composition varies by supply area; no official page read in this pass.",
+    "R7: UNCONFIRMED, target temperature, chemistry and maintenance ranges; no official page read in this pass.",
+    "R8: UNCONFIRMED, state and territory rules for keeping, moving, releasing, medicating and disposing of aquarium fish; no official page read in this pass."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-01.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    },
+    {
+      "src": "/academy/library/photos/aquatic/aquarium-photo-55148f31-02.jpg",
+      "alt": "Aquarium maintenance (freshwater and marine) illustration",
+      "kind": "photo",
+      "origin": "aquarium"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "SFS-01",
+  "title": "How a field job moves from request to finished visit",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [],
+  "learningOutcomes": [
+    "Explain the difference between a job, a visit and a worker in the app.",
+    "Describe the order in which a customer request becomes a completed visit.",
+    "Identify which record holds each part of a customer request."
+  ],
+  "instruction": [
+    {
+      "heading": "Why the app keeps separate records",
+      "body": "A field business handles one customer request in several different ways. Someone has to record what the customer wants, when a worker will attend, who that worker is, and what the work costs. If all of this sits in one place, the office loses track of separate trips and the history of a site. The app therefore keeps separate records. The job holds the customer, the site, the scope and the agreed price. A visit is one trip to the site for some or all of that scope. A worker is the person or crew who does the trip."
+    },
+    {
+      "heading": "How the records connect",
+      "body": "One job can have several visits: a first attendance to diagnose, a return to fit parts and a final check, for example. Each visit has its own window, duration and status. Equipment on site is kept as an asset, so a later repair can be traced to the right unit. Once the job's work is finished, the job feeds the service report and the invoice."
+    }
+  ],
+  "procedure": [
+    "Open or create the job from the customer request and check the customer and site details.",
+    "Choose the template so its standard tasks and duration load.",
+    "Create one or more visits against the job and set each window.",
+    "Assign a worker or crew to each visit once it is scheduled.",
+    "Record progress on each task and close each visit with its outcome.",
+    "Check the job's tasks and prices before the invoice step."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A customer reports a broken gate latch and asks for a quote. If the latch needs a new part, a second trip will be needed.",
+      "decisionPrompt": "Which records do you create, and how many visits do you book at the start?",
+      "reasoning": "Create one job for the gate repair with the quote attached. Book the first visit to inspect and fit what is on the van. Book a second visit only if a part has to be ordered. The gate is recorded as an asset so future repairs sit with it."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Putting every trip's details into the job record, so the separate attendances are lost.",
+      "prevention": "Create one visit per trip and keep the job for the overall scope and price."
+    },
+    {
+      "error": "Opening a new job for every return trip.",
+      "prevention": "Add a visit to the existing job unless the scope has really changed."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every visit is linked to exactly one job.",
+    "Each job shows its customer, site and work type before any visit is booked."
+  ],
+  "documentationEvidence": [
+    "Job record with customer, site and work type",
+    "Visit records with windows and outcomes"
+  ],
+  "summary": [
+    "A job is the overall piece of work and holds the agreed price.",
+    "A visit is one trip, and one job can have several visits.",
+    "Workers, areas and assets are separate records that the app matches to visits."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-01-K01",
+      "question": "Which record should hold the agreed scope and price for a customer request?",
+      "options": [
+        "The worker's timesheet for the day",
+        "The job record for that customer and site",
+        "The asset record of the nearest tool"
+      ]
+    },
+    {
+      "id": "SFS-01-K02",
+      "question": "A customer needs a return visit to fit a part. What is the correct record change?",
+      "options": [
+        "Create a second job with a new price",
+        "Add a visit to the existing job",
+        "Delete the first visit and rebook it"
+      ]
+    },
+    {
+      "id": "SFS-01-K03",
+      "question": "Why does the app record installed equipment as an asset?",
+      "options": [
+        "So the equipment can count as a worker's skill",
+        "So later repairs trace back to the exact unit on site",
+        "So the job price is calculated automatically"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 1-3 (overview); pp. 82-95 (jobs); pp. 115-118 (visits); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: job (work order); visit (service appointment); worker (service resource); asset; invoice (outside the guide sections read; UNCONFIRMED) (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

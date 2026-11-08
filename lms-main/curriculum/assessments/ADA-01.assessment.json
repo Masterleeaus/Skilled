@@ -1,0 +1,33 @@
+{
+  "lessonId": "ADA-01",
+  "knowledgeAnswers": [
+    {
+      "id": "ADA-01-K01",
+      "correctIndex": 1,
+      "rationale": "Bulk stock belongs in clean storage, outside the contaminated side. The other options place supplies where contamination lands."
+    },
+    {
+      "id": "ADA-01-K02",
+      "correctIndex": 1,
+      "rationale": "Fresh gloves are needed for the cleaning task. The other options keep contamination on the hands or skip the wipe."
+    },
+    {
+      "id": "ADA-01-K03",
+      "correctIndex": 1,
+      "rationale": "Clean-to-contaminated is the only direction for stock, and contaminated items never return to clean areas. The other options reverse or ignore the rule."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a mock operatory, the learner identifies the clean and contaminated sides and places a restock box on the correct side.",
+    "The learner changes gloves before wiping a mock chair control and states why."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Assessor observation record for the mock operatory",
+    "Completed changeover checklist"
+  ],
+  "stopWorkCriteria": [
+    "Contaminated items are found in clean storage and no supervisor is available",
+    "A treatment is in progress in the room"
+  ]
+}

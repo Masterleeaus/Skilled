@@ -1,0 +1,143 @@
+{
+  "id": "THS-07",
+  "title": "Site risk controls: staff cover, property security and labelling",
+  "courseSlugs": [
+    "commercial",
+    "shortstay"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Supervisors and operations staff who plan rosters and control client property on cleaning sites.",
+  "prerequisites": [
+    "THS-02"
+  ],
+  "learningOutcomes": [
+    "Name the common site risks in the sample: absence, property security, mislabelled items and power loss.",
+    "Choose a control for each risk and explain how it is checked.",
+    "Keep a risk table that is reviewed when the work changes."
+  ],
+  "instruction": [
+    {
+      "heading": "Staff absence",
+      "body": "The sample treats unplanned absence as a serious risk, because a shortage of people leads to unfinished work and complaints. Its control is to plan more people than a job strictly needs, so a relief worker is available. The sample offers a case in which a two-person job is covered by three people. That is one firm's policy, not a standard. Whatever ratio is chosen, the roster must show who the relief worker is and how they are called in."
+    },
+    {
+      "heading": "Property security and labelling",
+      "body": "Where a worker might leave a room door open, the client's property is at risk. The sample's control is a supervisor check after the work is finished, so workers take responsibility for locking rooms before they leave. Items sent for cleaning are also at risk of mix-up and loss. The sample uses a laundry docket checked against the bag contents, and asks owners to mark their items. Use the same logic for any shared item: a record, a check and an identifier."
+    },
+    {
+      "heading": "Power loss and keeping clients informed",
+      "body": "Some risks are outside the business's control, such as a power failure that leaves work incomplete. The sample states that the business must keep the customer informed when this happens, and it names backup power as a control at sites where it is needed. Record each risk in a table with its control, the person who checks it, plus the date it is next reviewed."
+    }
+  ],
+  "procedure": [
+    "List each risk the site has, such as absence, security, labelling and power loss.",
+    "For each risk, write one control and the person who checks it.",
+    "Build the roster so that a relief worker is named for each job that depends on a single person.",
+    "After each job, check the rooms are locked and the client's items are returned and logged.",
+    "Tell the client promptly if a risk, such as a power loss, affects the work.",
+    "Review the risk table when the work or the site changes."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A two-person commercial clean loses one worker to illness on the day. The third person on the roster is not available.",
+      "decisionPrompt": "What should the supervisor do to avoid unfinished work, and what should be recorded?",
+      "reasoning": "The supervisor calls the named relief worker from the roster, reassigns the tasks by priority, and checks that all doors are locked and client items are accounted for. The absence, the cover used and any unfinished area are recorded, and the client is told if the work will be late."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Roster with relief workers named, the risk table, key and item logs. Standard PPE on site."
+  ],
+  "commonErrors": [
+    {
+      "error": "Rostering the minimum number of workers with no relief.",
+      "prevention": "Name a relief worker for every job that depends on one person."
+    },
+    {
+      "error": "Leaving a room unlocked and assuming someone else will check.",
+      "prevention": "Make the last-out check and record it."
+    },
+    {
+      "error": "Not telling the client about a delay.",
+      "prevention": "Inform the client promptly and record the message."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Staffing ratios and security obligations depend on the contract, the site and the law. The sample's ratio is one firm's policy and is not a standard.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Power-loss planning must consider any equipment that needs a backup supply.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The risk table lists each risk with a control, a checker and a review date.",
+    "Each dependent job has a named relief worker on the roster."
+  ],
+  "documentationEvidence": [
+    "Site risk table with review date.",
+    "Roster showing relief workers.",
+    "Last-out and item return log."
+  ],
+  "summary": [
+    "Plan relief for jobs that depend on one person.",
+    "Check rooms and client items before leaving, and record the check.",
+    "Tell the client promptly when a risk affects the work, and review the table when the site changes."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "THS-07-K01",
+      "question": "What is the sample's main control for unplanned absence?",
+      "options": [
+        "Cancel the job and send the client a short note of apology",
+        "Ask clients to cover the work",
+        "Do nothing until the absent worker returns",
+        "Plan relief workers so a job is not left short"
+      ]
+    },
+    {
+      "id": "THS-07-K02",
+      "question": "What does the last-out check achieve on a site?",
+      "options": [
+        "To confirm rooms are locked and client items are accounted for",
+        "To time the workers and to check their breaks for the day",
+        "To replace the roster and to check each worker's hours for the day",
+        "To count the stock and to check the van for the day"
+      ]
+    },
+    {
+      "id": "THS-07-K03",
+      "question": "A power failure leaves a job incomplete. What does the sample require?",
+      "options": [
+        "Hide the delay from the client",
+        "Keep the client informed",
+        "Blame the crew",
+        "Stop all records"
+      ]
+    },
+    {
+      "id": "THS-07-K04",
+      "question": "What is the sample's control for property security after the work is finished?",
+      "options": [
+        "No control, because workers are trusted",
+        "A sign on the door only",
+        "The client holds the keys",
+        "A supervisor check after the work is finished"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Total-Cleaning-and-Housekeeping-Services.txt, subsection 8.3.5 (staff absence risk); rights: user-held; reworded (no copying)",
+    "Total-Cleaning-and-Housekeeping-Services.txt, subsections 8.3.6 and 8.3.2 (property security and item mix-up); rights: user-held; reworded (no copying)",
+    "Total-Cleaning-and-Housekeeping-Services.txt, subsection 8.3.4 (power-loss risk); rights: user-held; reworded (no copying)",
+    "Note: the sample's staffing ratio is one firm's policy example, not a standard. Laundry-specific steps are generalised.",
+    "UNCONFIRMED: staffing, security and electrical obligations were not checked for Australia. UNCONFIRMED: the sample dates from 2012 and was written for a non-Australian operation; its figures and retention periods are not current Australian facts."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

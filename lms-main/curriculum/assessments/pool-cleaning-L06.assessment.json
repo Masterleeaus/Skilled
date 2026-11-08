@@ -1,0 +1,41 @@
+{
+ "lessonId": "pool-cleaning-L06",
+ "knowledgeAnswers": [
+  {
+   "id": "pool-cleaning-L06-K01",
+   "correctIndex": 0,
+   "rationale": "Acids and hypochlorite must be kept apart. Separating them, reporting the storage and checking the SDS and the plan is the correct response. Mixing or hosing down the tray is not."
+  },
+  {
+   "id": "pool-cleaning-L06-K02",
+   "correctIndex": 1,
+   "rationale": "Protecting people comes first. The learner moves people to fresh air and calls the emergency procedure, then records the event. Fixing the fitting alone or resetting the controller is not the first priority."
+  },
+  {
+   "id": "pool-cleaning-L06-K03",
+   "correctIndex": 2,
+   "rationale": "Controller and electrical changes belong to the operator or a qualified person. A contract cleaner refers them."
+  },
+  {
+    "id": "pool-cleaning-L06-K04",
+    "correctIndex": 3,
+    "rationale": "The gas risk from incompatible products section says incompatible products can give off gases that are poisonous, flammable or damaging to materials when they meet."
+  }
+ ],
+ "practicalCriteria": [
+  "Segregation check: on a supplied storage scenario, the learner identifies every container, scoop or spill kit shared between acid and hypochlorite, and records each one. The assessor checks the list against the scenario.",
+  "Leak response: for a supplied active leak, the learner moves people away, does not handle the leak, calls the emergency procedure and writes the event record. The assessor checks the order of actions and the record.",
+  "Labelling: the learner checks that every supplied container is labelled with product name and hazard, and records any that are not. The assessor checks the list."
+ ],
+ "passRule": "Knowledge checks: at least 2 of 3 correct (a reading result only, not verified practical competence). Practical sign-off is separate and is given by assessor review of the practical criteria.",
+ "evidenceRequired": [
+  "Knowledge check score recorded",
+  "Segregation check record and leak or odour event record, saved and dated",
+  "Assessor sign-off on the practical criteria"
+ ],
+ "stopWorkCriteria": [
+  "An active leak or chlorine odour is present in a poorly ventilated area",
+  "The learner is asked to use a shared bucket or scoop for acid and hypochlorite",
+  "The learner is asked to change a dosing controller or rewire a pump"
+ ]
+}

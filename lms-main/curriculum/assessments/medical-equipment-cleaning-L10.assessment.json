@@ -1,0 +1,36 @@
+{
+ "lessonId": "medical-equipment-cleaning-L10",
+ "knowledgeAnswers": [
+  {
+   "id": "medical-equipment-cleaning-L10-K01",
+   "correctIndex": 2,
+   "rationale": "The manufacturer instruction governs what may be wiped and where liquid is excluded. Spraying or soaking a connector breaches the rating."
+  },
+  {
+   "id": "medical-equipment-cleaning-L10-K02",
+   "correctIndex": 0,
+   "rationale": "A damaged cable is a stop condition. The cleaner makes the area safe, leaves the item as found, and reports. Taping or reuse is not acceptable."
+  },
+  {
+   "id": "medical-equipment-cleaning-L10-K03",
+   "correctIndex": 1,
+   "rationale": "Opening a housing is outside a cleaner's role. Options 0 and 1 are within role when the item is on the authorised list and the power state is confirmed."
+  }
+ ],
+ "practicalCriteria": [
+  "Given three supplied item instructions, the learner states the power state, liquid limit and keep-dry areas for each without error.",
+  "Given three supplied scenarios involving heat, a split cable or liquid in a housing, the learner identifies each as a stop condition and gives the report step.",
+  "The learner completes a record for a stopped item with item, observation, time and action taken."
+ ],
+ "passRule": "Practical competence requires facility-observed assessment against the criteria above. A pass on the knowledge checks is not practical competence.",
+ "evidenceRequired": [
+  "Signed instruction reading sheet for three items",
+  "Signed stop-condition identification sheet",
+  "Completed record for a stopped item"
+ ],
+ "stopWorkCriteria": [
+  "Learner sprays, soaks or wipes a connector or keep-dry area without permission",
+  "Learner switches a device on or off to test it, or disconnects a patient-connected item",
+  "Learner tapes, repairs or opens a damaged item or housing"
+ ]
+}

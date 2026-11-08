@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-STN-05",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-STN-05-K01",
+      "correctIndex": 0,
+      "rationale": "The national guidance places personal protective equipment at the bottom of the control order and warns against using it by itself. Engineering controls come first."
+    },
+    {
+      "id": "NEW-STN-05-K02",
+      "correctIndex": 1,
+      "rationale": "The national guidance recommends the quantitative method for full face respirators and powered air purifying respirators. Qualitative testing is for half-face respirators only."
+    },
+    {
+      "id": "NEW-STN-05-K03",
+      "correctIndex": 2,
+      "rationale": "The national guidance expects monitoring to begin as soon as a worker takes on silica work, including at hire, so that early changes in health are picked up."
+    },
+    {
+      "id": "NEW-STN-05-K04",
+      "correctIndex": 2,
+      "rationale": "A fit test is specific to the model and size. The national guidance calls for a fit test when a new make or model is issued, so the worker is tested on the new model before wearing it."
+    },
+    {
+      "id": "NEW-STN-05-K05",
+      "correctIndex": 1,
+      "rationale": "The NT guide names AS/NZS 1716:2012 and AS/NZS 1715:2009 for the Northern Territory. They are confirmed for the local state before they are stated as a requirement."
+    }
+  ],
+  "practicalCriteria": [
+    "Confirms a current fit test for the model and size before a dusty task, from the provider's record",
+    "Carries out a user seal check each time the respirator is put on, following the manufacturer's directions",
+    "Confirms that the health monitoring arrangement, where the risk requires one, is on file before the dusty task starts",
+    "Refuses a dusty task where training, fit testing or the monitoring arrangement is missing, and records the stop"
+  ],
+  "passRule": "Knowledge checks: 4 of 5 correct (80%). Practical sign-off is separate and is not granted by the knowledge check: an assessor must observe every practical criterion and record it. A reading or quiz pass is never presented as verified practical competence.",
+  "evidenceRequired": [
+    "Respirator selection record linked to the risk assessment, with model, class and filter",
+    "Fit-test record with date, model, size and provider",
+    "Health monitoring arrangement on file, or a written note that the risk assessment did not require one"
+  ],
+  "stopWorkCriteria": [
+    "Tight-fitting respirator worn without a current fit test for the model and size",
+    "Training or health monitoring arrangement missing for a dusty task where the risk requires it",
+    "A respirator model changed without a new fit test"
+  ]
+}

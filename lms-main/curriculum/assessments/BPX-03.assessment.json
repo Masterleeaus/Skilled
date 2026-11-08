@@ -1,0 +1,37 @@
+{
+  "lessonId": "BPX-03",
+  "knowledgeAnswers": [
+    {
+      "id": "BPX-03-K01",
+      "correctIndex": 0,
+      "rationale": "The figure comes from invoice records for a past period, so it is a fact for that period."
+    },
+    {
+      "id": "BPX-03-K02",
+      "correctIndex": 2,
+      "rationale": "Sensitivity testing ranks inputs by the change in profit each one causes, so the most sensitive inputs are verified first."
+    },
+    {
+      "id": "BPX-03-K03",
+      "correctIndex": 1,
+      "rationale": "A rate from another country is not evidence for an Australian plan. Leave it out of the projection until checked against a current source."
+    }
+  ],
+  "practicalCriteria": [
+    "Learner completes an assumptions register in which every input has a value, label, basis, source or reason, owner and next check date",
+    "Every borrowed rate is replaced with a sourced value or left out",
+    "Learner ranks inputs by sensitivity from a stated change, and names the top three to verify with dates",
+    "No target is presented as a fact anywhere in the register"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed working document for the lesson, saved with its formulas or calculation notes",
+    "Assessor recalculation or review record",
+    "Knowledge check result (a quiz result is not a practical competence result)"
+  ],
+  "stopWorkCriteria": [
+    "Do not use a borrowed rate in a projection without a source",
+    "Stop and escalate any input that carries a legal or insurance consequence",
+    "Do not share a register containing personal or customer details"
+  ]
+}

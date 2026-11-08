@@ -1,0 +1,35 @@
+{
+ "lessonId": "industrial-degreasing-L02",
+ "knowledgeAnswers": [
+  {
+   "id": "industrial-degreasing-L02-K01",
+   "correctIndex": 0,
+   "rationale": "An unguarded machine is a stop, and speed does not give authority."
+  },
+  {
+   "id": "industrial-degreasing-L02-K02",
+   "correctIndex": 1,
+   "rationale": "Guards keep people away from hazardous parts."
+  },
+  {
+   "id": "industrial-degreasing-L02-K03",
+   "correctIndex": 2,
+   "rationale": "Plant safety is decided by competent people, not the cleaner."
+  }
+ ],
+ "practicalCriteria": [
+  "Classifies zones on a fictional floor plan.",
+  "Treats an unguarded conveyor as a stop in the case study.",
+  "Records the concern and the referral with all required fields."
+ ],
+ "passRule": "Zones classified, unguarded machine treated as a stop, and record complete. Observed in a desk exercise. Not a plant-safety approval.",
+ "evidenceRequired": [
+  "Annotated fictional floor plan",
+  "Concern record"
+ ],
+ "stopWorkCriteria": [
+  "Guard missing or bypassed",
+  "Restricted zone entered",
+  "Cleaning on an unguarded machine"
+ ]
+}

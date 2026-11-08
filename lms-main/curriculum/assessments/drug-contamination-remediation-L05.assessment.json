@@ -1,0 +1,28 @@
+{
+  "lessonId": "drug-contamination-remediation-L05",
+  "knowledgeAnswers": [
+    {
+      "id": "drug-contamination-remediation-L05-K01",
+      "correctIndex": 2,
+      "rationale": "A result covers the place sampled. It does not clear other areas, and it needs competent interpretation."
+    },
+    {
+      "id": "drug-contamination-remediation-L05-K02",
+      "correctIndex": 0,
+      "rationale": "The plan, laboratory and custody, with competent interpretation, are the basis for relying on a result."
+    }
+  ],
+  "practicalCriteria": [
+    "From a fictional result sheet, the learner checks for the plan, laboratory, custody record and coverage, and marks each as present or missing. Pass: all four checks are completed.",
+    "The learner writes a note asking for competent interpretation of a result with a missing custody record. Pass: the note states the result is unverified."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed results checklist (fictional)",
+    "Interpretation request note (fictional)"
+  ],
+  "stopWorkCriteria": [
+    "A result has no documented plan, laboratory or custody record.",
+    "A sample is proposed to be collected by an unqualified person."
+  ]
+}

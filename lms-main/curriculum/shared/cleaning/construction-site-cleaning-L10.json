@@ -1,0 +1,138 @@
+{
+  "id": "construction-site-cleaning-L10",
+  "title": "Equipment inspection and decontamination",
+  "courseSlugs": [
+    "construction",
+    "postcon"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Safety and hazards",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaners who inspect, clean and log equipment used on construction and post-construction sites.",
+  "prerequisites": [
+    "construction-site-cleaning-L05"
+  ],
+  "learningOutcomes": [
+    "Inspect cords, guards, wheels, extraction hoses, seals, filters and labels before use.",
+    "Tag out damaged equipment and stop its use.",
+    "Clean and decontaminate equipment only by the approved procedure for the material collected."
+  ],
+  "instruction": [
+    {
+      "heading": "Inspect before every use",
+      "body": "Before use, inspect the electrical cord, the guards, the wheels, the extraction hoses, the seals, the filters and the labels against the manufacturer's guidance. Check the maintenance status as well. A machine that looks fine may have a torn seal or a blocked filter that you cannot see from the outside, so the inspection covers each part in turn."
+    },
+    {
+      "heading": "Tagging out damaged equipment",
+      "body": "Damaged equipment is tagged out, removed from use and reported. Do not improvise electrical or filtration repairs. A torn extraction seal on a unit with an unknown dust history is tagged out, prevented from further use, and reported for competent inspection. Return to service only after the competent person approves it."
+    },
+    {
+      "heading": "Decontamination by approved method",
+      "body": "Reusable equipment is cleaned and decontaminated only by the approved procedure for the material it actually collected. The method depends on the material, so the cleaner does not choose a method on appearance. Emptying a collector is done only by trained personnel using the manufacturer's method. Preserve the service logs, and report any unsafe disposal or filter change."
+    },
+    {
+      "heading": "Keeping the log",
+      "body": "The equipment log records the inspection result, the equipment identifier, any defect, the quarantine action, the responsible person and the return-to-service approval. A log that is filled in without the inspection is a false record."
+    }
+  ],
+  "procedure": [
+    "Inspect the cord, guards, wheels, hoses, seals, filters and labels before use.",
+    "Tag out and quarantine any damaged equipment, and report it.",
+    "Do not improvise electrical or filtration repairs.",
+    "Clean and decontaminate only by the approved method for the material collected.",
+    "Record the inspection, defect, quarantine and return-to-service approval in the log."
+  ],
+  "workedExamples": [
+    {
+      "situation": "During a pre-start inspection, an extractor seal is torn and the unit has an unknown dust history.",
+      "decisionPrompt": "What do you do?",
+      "reasoning": "Tag the extractor out, prevent its further use, and report it for competent inspection. Do not try to repair the seal yourself. Record the defect, the quarantine and the person informed in the log."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Equipment log and tag-out labels.",
+    "Gloves and eye protection for inspection and cleaning.",
+    "Approved decontamination method and products."
+  ],
+  "commonErrors": [
+    {
+      "error": "Repairing a torn seal with tape to keep the unit running.",
+      "prevention": "Tag out and report. Do not improvise repairs."
+    },
+    {
+      "error": "Choosing a decontamination method by appearance.",
+      "prevention": "Use the method for the material actually collected."
+    },
+    {
+      "error": "Filling in the log before inspecting the equipment.",
+      "prevention": "Record only what has been inspected."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Electrical equipment faults are reported and repaired only by a competent person. Electrical repair is licensed work and this lesson does not grant any electrical licence.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Disposal of contaminated filters and collected material follows the site waste plan (see the debris segregation lesson).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Inspection completed for each part in the simulated pre-start check.",
+    "Damaged equipment tagged out and reported in the simulated task.",
+    "Log completed with the inspection, quarantine and approval fields."
+  ],
+  "documentationEvidence": [
+    "Equipment log entry with inspection result and identifier.",
+    "Tag-out and return-to-service approval record."
+  ],
+  "summary": [
+    "Inspect each part before every use.",
+    "Tag out damaged equipment and report it.",
+    "Decontaminate only by the approved method for the material.",
+    "Log only what has been inspected."
+  ],
+  "businessFields": [
+    "{{business:equipment.inspection_checklist}}",
+    "{{business:equipment.maintenance_schedule}}",
+    "{{business:equipment.assigned_items}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "construction-site-cleaning-L10-K01",
+      "question": "An extractor seal is torn during the pre-start check. What is the right action?",
+      "options": [
+        "Tag the unit out, prevent further use, and report it",
+        "Tape it and keep working until the end of the job",
+        "Replace the seal yourself and then keep working"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L10-K02",
+      "question": "How is a reusable collector decontaminated?",
+      "options": [
+        "By the method that looks cleanest and the one you prefer",
+        "By the approved method for the material actually collected",
+        "By the product that foams the most, for a faster rinse"
+      ]
+    },
+    {
+      "id": "construction-site-cleaning-L10-K03",
+      "question": "When can an equipment log entry be completed?",
+      "options": [
+        "Before the inspection, so the log is complete for the day",
+        "Once the work has started and the equipment is still in use",
+        "After the inspection has been carried out and recorded"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/construction-site-cleaning-L10.json (draft pending SME and jurisdiction review, not technically reviewed)",
+    "UNCONFIRMED: state and territory rules for filter disposal and decontamination of collectors.",
+    "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register (see NAT-CHEM-01)."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

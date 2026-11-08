@@ -1,0 +1,112 @@
+{
+  "id": "SFS-06",
+  "title": "Equipment on site and planned maintenance",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "K",
+  "estimatedMinutes": 30,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-05"
+  ],
+  "learningOutcomes": [
+    "Record equipment at a site as an asset, including parent and child items.",
+    "Set a recurring maintenance plan, giving it a repeat interval and a generation window.",
+    "Explain why a plan must be checked after an asset is replaced."
+  ],
+  "instruction": [
+    {
+      "heading": "Assets",
+      "body": "An asset is a piece of equipment or a system at a customer's site that may need repeat service, such as an air conditioner, a pool pump or a commercial dishwasher. Recording assets gives each later job a history. An asset can sit under a parent, such as a plant room with several units beneath it. The reference guide sets limits on how large these groupings can grow."
+    },
+    {
+      "heading": "Maintenance plans",
+      "body": "A maintenance plan sets how often visits should happen and creates jobs for future visits in batches. It has a start date, an optional end date that matches any contract, a job template, a customer and optionally a site. The frequency and its unit set the gap between visits. The generation window sets how far ahead jobs are created at one time. When a plan covers several assets, you decide between one job covering all of them or one job per asset. Assets lacking rules of their own inherit the plan's rules."
+    }
+  ],
+  "procedure": [
+    "Record each asset at its site with its name, model and location notes.",
+    "Link child items to their parent where equipment sits inside another unit.",
+    "Set up the plan by entering its start date, optional end date and job template.",
+    "Set the frequency and the generation window.",
+    "Attach the assets covered and check which rules apply to each one.",
+    "After any replacement, update the asset record and check the plan points to the new unit."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A strata building has a pool pump and a filter on the same plant. The client wants both serviced every three months.",
+      "decisionPrompt": "Do you create one plan with two assets, or two plans?",
+      "reasoning": "The frequency and template are the same, so one plan with both assets attached is simpler. The filter is linked as a child of the pump, so its service history stays with the equipment it serves."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Replacing an asset by creating a new record but leaving the old one on the plan.",
+      "prevention": "Retire the old asset and point the plan at the new one."
+    },
+    {
+      "error": "Setting a frequency without checking it against the contract's end date.",
+      "prevention": "Check the plan's end date matches the contract term before saving."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Each asset has a site link and a clear name.",
+    "Each maintenance plan has a frequency, a template and a generation window."
+  ],
+  "documentationEvidence": [
+    "Asset register with site and installation notes",
+    "Maintenance plan settings record"
+  ],
+  "summary": [
+    "Assets give each site its equipment history.",
+    "A maintenance plan creates future jobs in batches from a frequency.",
+    "Replacing equipment means updating both the asset and the plan."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-06-K01",
+      "question": "What is an asset in this app?",
+      "options": [
+        "A worker's tool kit with the spare parts, the van stock and the bag",
+        "A piece of equipment at a customer site that may need repeat service",
+        "A customer's payment method on the account, the card and the bank"
+      ]
+    },
+    {
+      "id": "SFS-06-K02",
+      "question": "A client wants a visit every month. Which frequency setting fits?",
+      "options": [
+        "Frequency value 1, unit months",
+        "Frequency value 12, unit days",
+        "Frequency value 3, unit weeks"
+      ]
+    },
+    {
+      "id": "SFS-06-K03",
+      "question": "What does the generation window control?",
+      "options": [
+        "How far ahead jobs are created at one time",
+        "The price of each visit on the invoice",
+        "Which worker is paid for the visit"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 91-95 (maintenance plans); pp. 4-9 (asset limits); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: asset; maintenance plan; job template for recurring visits (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

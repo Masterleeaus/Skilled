@@ -1,0 +1,47 @@
+{
+ "lessonId": "F15-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "F15-L01-K01",
+   "correctIndex": 2,
+   "rationale": "Work outside training or authorisation is stopped and escalated to the supervisor before going further. Continuing in the current clothing or substituting a branded shirt or other item is not an acceptable way to proceed."
+  },
+  {
+   "id": "F15-L01-K02",
+   "correctIndex": 1,
+   "rationale": "Noting the defect, replacing the unsafe item and telling the supervisor is the correct handover. The check-record-escalate step requires a factual handover to the named contact with the item recorded, so the defect is not hidden. Wearing the defective item, hiding it or waiting without telling anyone are not acceptable."
+  },
+  {
+   "id": "F15-L01-K03",
+   "correctIndex": 2,
+   "rationale": "Picking task-specific PPE from the risk assessment, product label and site procedure is the correct decision. PPE is chosen for the task rather than from habit, what is nearest, or a branded shirt. Reusing the same gloves for every product ignores each product's hazard."
+  },
+  {
+   "id": "F15-L01-K04",
+   "correctIndex": 1,
+   "rationale": "A branded shirt is not protection against splashes. Relying on it instead of PPE chosen from the risk assessment, product label and site procedure is the unsafe alternative."
+  },
+  {
+   "id": "F15-L01-K05",
+   "correctIndex": 1,
+   "rationale": "Unsafe clothing is replaced, and the lesson requires replacement before the next hazardous task. Replacement is documented when required."
+  }
+ ],
+ "practicalCriteria": [
+  "Checks the site/task requirements before acting",
+  "Identifies and applies relevant safety and privacy controls",
+  "Communicates professionally and respects authorisation boundaries",
+  "Records the outcome and escalates unresolved issues correctly"
+ ],
+ "passRule": "All safety-critical criteria must be demonstrated; remediate and reassess any missed criterion.",
+ "evidenceRequired": [
+  "Record of procedure step 4: Keep normal uniform separate from protective equipment, and do not treat a branded shirt as splash protection.",
+  "Record of procedure step 6: Replace clothing that is torn, contaminated or unsafe, and note the defect.",
+  "Record of procedure step 7: Keep a spare clean layer where a shift involves changing environments or customer-facing work."
+ ],
+ "stopWorkCriteria": [
+  "Stop work if procedure step 4 is not done: Keep normal uniform separate from protective equipment, and do not treat a branded shirt as splash protection.",
+  "Stop work if procedure step 6 is not done: Replace clothing that is torn, contaminated or unsafe, and note the defect.",
+  "Stop work if procedure step 8 is not done: Stop and ask the supervisor before going further if a task falls outside your training or authority."
+ ]
+}

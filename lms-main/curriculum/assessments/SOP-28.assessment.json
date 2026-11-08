@@ -1,0 +1,39 @@
+{
+ "lessonId": "SOP-28",
+ "knowledgeAnswers": [
+  {
+   "id": "SOP-28-K01",
+   "correctIndex": 1,
+   "rationale": "Stopping, taking the hand out, keeping people away and calling the supervisor is the first action, because the sharp cannot be seen. Reaching in to look, or moving the bin, risks a puncture or spreads the contamination."
+  },
+  {
+   "id": "SOP-28-K02",
+   "correctIndex": 3,
+   "rationale": "A rigid, labelled sharps container is the only option that keeps a sharp contained. General waste, cardboard boxes and washroom bins are not containers for sharps."
+  },
+  {
+   "id": "SOP-28-K03",
+   "correctIndex": 0,
+   "rationale": "An untrained worker makes the area safe, keeps people away and reports. Mopping up, or covering and leaving a spill, are clean-up actions reserved to trained workers under SOP-23 or are unsafe."
+  }
+ ],
+ "practicalCriteria": [
+  "Given a supplied bin with a simulated sharp hidden under material, the candidate stops, keeps the hands out of the bin, and calls the supervisor. Pass condition: no hand enters the bin before the assessor confirms the supervisor has been called, observed by the assessor.",
+  "Given a supplied sharps container and a general waste bag, the candidate places a simulated sharp in the sharps container and confirms it is not in the general waste bag. Pass condition: no simulated sharp is placed in the general waste bag, observed by the assessor.",
+  "Given a supplied injury and near-miss form, the candidate records a simulated needle-stick near miss with the time, place, item, witnesses and first-aid steps. Pass condition: all five fields are completed and the form is passed to the supervisor."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Completed knowledge checks",
+  "Assessor observation record for each practical criterion",
+  "Completed simulated injury and near-miss form",
+  "Assessor note of the trained-worker status shown for the SOP-23 procedure"
+ ],
+ "stopWorkCriteria": [
+  "Candidate reaches into a bin or under furniture to find a sharp",
+  "Candidate places a sharp in general waste",
+  "Candidate handles a body fluid spill without the training for the SOP-23 procedure",
+  "Candidate works with an open cut and no waterproof dressing in place",
+  "Candidate does not report a simulated sharps contact"
+ ]
+}

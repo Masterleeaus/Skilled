@@ -1,0 +1,143 @@
+{
+  "id": "C04-L01",
+  "title": "Food-contact cleaning and sanitising workflow",
+  "courseSlugs": [
+    "residential",
+    "commercial",
+    "bond",
+    "shortstay"
+  ],
+  "moduleTitle": "Group (Cleaning & Hygiene): Workload and cost",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 55,
+  "audience": "Cleaners who clean and sanitise food-contact surfaces in shared kitchens and food-adjacent settings.",
+  "prerequisites": [
+    "kitchen-cleaning-L02",
+    "kitchen-cleaning-L05"
+  ],
+  "learningOutcomes": [
+    "Explain the hazards and quality standards for food-contact surface hygiene.",
+    "Apply the cleaning and sanitising workflow in the correct order, using the label concentration and contact time.",
+    "Stop when a sanitiser is applied over soil, and redo the sequence."
+  ],
+  "instruction": [
+    {
+      "heading": "Confirming what kind of task this is",
+      "body": "A shared kitchen with preparation benches, a sink, a chopping area and food awaiting storage needs a clear decision first: is this routine cleaning, or an authorised food-safety sanitising task that the site has specified? Confirm with the supervisor. Protect the food and utensils before you start, and remove or cover food awaiting storage so that it cannot be contaminated by the work."
+    },
+    {
+      "heading": "The sequence",
+      "body": "Remove or protect the food, and segregate tools by zone. Remove debris, then wash with a suitable detergent. Rinse if the procedure requires it. Apply an approved food-contact sanitiser at the concentration and for the contact time stated on its label. Rinse after sanitising only if the label directs it, and let the surface air-dry, or dry it by an approved method. Document the completion."
+    },
+    {
+      "heading": "Why soil comes first",
+      "body": "A worker who sprays sanitiser over visible crumbs has skipped the most important step. Sanitisers act on clean surfaces, and soil protects micro-organisms and reduces the effect of the product. Stop the sequence, remove the soil, and redo the steps from the beginning. Do not treat the sanitising step as a way to cover soil."
+    },
+    {
+      "heading": "Release and records",
+      "body": "The result is correct sequence, approved product at the right concentration, full contact time, no food contamination, and safe release for use. Release is given by the person the site authorises, and the record shows the product, the concentration, the contact time and the release decision."
+    }
+  ],
+  "procedure": [
+    "Confirm with the supervisor whether the task is routine cleaning or an authorised sanitising task.",
+    "Remove or protect food and segregate tools by zone.",
+    "Remove debris and wash with a suitable detergent, rinsing if required.",
+    "Apply the approved food-contact sanitiser at the label concentration for the full contact time.",
+    "Rinse after sanitising only if the label directs it, then air-dry or dry by an approved method.",
+    "Record the product, concentration, contact time and release decision."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A worker sprays sanitiser over visible crumbs on a preparation bench.",
+      "decisionPrompt": "What is wrong, and what do you do?",
+      "reasoning": "Soil must be removed before sanitising, because the sanitiser cannot work properly on soiled surfaces. Stop, remove the soil, and redo the workflow from the beginning. Record the correction."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved food-contact sanitiser, with label, concentration and SDS available.",
+    "Timer for the contact time.",
+    "Gloves and eye protection as set by the SDS.",
+    "Segregated tools by zone."
+  ],
+  "commonErrors": [
+    {
+      "error": "Sanitising before removing soil.",
+      "prevention": "Clean first, then sanitise, and redo the sequence if the order is wrong."
+    },
+    {
+      "error": "Estimating the concentration or contact time.",
+      "prevention": "Use the label values and a timer."
+    },
+    {
+      "error": "Rinsing after sanitising when the label does not direct it.",
+      "prevention": "Follow the label rinse directions."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Chemicals must be managed under the label, the SDS and, where kept, the hazardous chemicals register.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Correct sequence followed in the simulated bench workflow.",
+    "Label concentration and full contact time observed with a timer.",
+    "No food contamination, and release given only by the authorised person."
+  ],
+  "documentationEvidence": [
+    "Product, concentration, contact time and release record.",
+    "Exceptions, corrective actions and supervisor sign-off."
+  ],
+  "summary": [
+    "Confirm whether the task is routine cleaning or authorised sanitising.",
+    "Remove soil before sanitising, every time.",
+    "Use the label concentration and full contact time.",
+    "Release only through the authorised person, and record it."
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:materials.approved_products}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "C04-L01-K01",
+      "question": "Why must soil be removed before a sanitiser is applied?",
+      "options": [
+        "Because dirt makes the sanitiser smell stronger and slows the mix",
+        "Because the sanitiser needs a dry surface only",
+        "Because soil protects micro-organisms and reduces the product's effect"
+      ]
+    },
+    {
+      "id": "C04-L01-K02",
+      "question": "How do you set the sanitiser concentration and contact time?",
+      "options": [
+        "From the label values, using a timer",
+        "By estimating from experience",
+        "By doubling the concentration for speed"
+      ]
+    },
+    {
+      "id": "C04-L01-K03",
+      "question": "Who gives release for a food-contact surface after sanitising?",
+      "options": [
+        "The cleaner, once the surface looks dry",
+        "The person the site authorises to release it",
+        "The first customer in the room"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Source draft: lessons/ready/C04-L01.json (editorial pass, not technically reviewed)",
+    "UNCONFIRMED: state and territory food safety requirements, approved sanitiser use and inspection requirements for food premises. The operator's food safety program governs the site. This lesson does not confer a food handling qualification.",
+    "UNCONFIRMED: product-specific dilution, dwell time and PPE come from the product label and SDS, which were not sourced here."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

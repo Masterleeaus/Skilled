@@ -1,0 +1,141 @@
+{
+  "id": "fire-smoke-restoration-L05",
+  "title": "Site zoning and occupant protection",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Coordinators, supervisors and trained workers who may be asked about, triage, refer or document cleaning and salvage after a fire or smoke event. Not a qualification or authority to enter a fire-damaged building, release it, or certify it as safe.",
+  "prerequisites": [
+    "fire-smoke-restoration-L01"
+  ],
+  "learningOutcomes": [
+    "Define exclusion zones and access routes with the site controller, and refuse unsupervised passage through restricted areas."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope and authority",
+      "body": "This lesson teaches how to set exclusion zones, plan clean and restricted routes, and protect occupants, including vulnerable occupants. It does not allow occupants or visitors into restricted areas, and it does not replace the release from the controlling authority. Completing it does not give a licence, certificate or approval."
+    },
+    {
+      "heading": "Site zoning and occupant protection",
+      "body": "Define the exclusion areas and make the access decisions with the site controller. Consider vulnerable occupants, adjacent occupied areas and the movement of contaminated materials. A neighbouring tenant may want to walk through a partly damaged corridor to collect medication. The answer is not unsupervised passage. Coordinate a safe alternative with the property manager or emergency services, so that the item is retrieved under supervision or by an authorised person. In training, draw a mock access map that shows the clean route, the restricted zones, the signage and the escalation path to the property manager or an emergency service. Do not allow access through a restricted or unassessed zone."
+    }
+  ],
+  "procedure": [
+    "Agree the exclusion zones and the access route with the site controller, in writing.",
+    "Map the clean route, the restricted zones, the signage and the escalation contact on a site access plan.",
+    "Identify occupants who need extra protection, such as people with respiratory conditions. Record the protective need only, not health details.",
+    "Refuse unsupervised passage through a restricted or unassessed zone.",
+    "Arrange a supervised alternative with the property manager or emergency services, and name the person who will retrieve each item.",
+    "Record the decision, the people told and the time of the next review."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A neighbouring tenant wants to walk through a partly damaged corridor to collect medication.",
+      "decisionPrompt": "What is the response?",
+      "reasoning": "No unsupervised passage. Arrange supervised retrieval through the property manager or an authorised person, and only after the route is confirmed safe for that purpose."
+    },
+    {
+      "situation": "A cleaner proposes to leave a restricted zone open at lunchtime because the site is quiet.",
+      "decisionPrompt": "Is that acceptable?",
+      "reasoning": "No. A quiet site does not change the release status. The zone stays closed until the controlling party changes the decision in writing."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Barrier tape, signage and a printed access plan. These are training props in this lesson.",
+    "Escalation contact list agreed with the site controller."
+  ],
+  "commonErrors": [
+    {
+      "error": "Letting an occupant walk through a partly damaged corridor.",
+      "prevention": "Refuse unsupervised passage. Arrange supervised retrieval."
+    },
+    {
+      "error": "Leaving a restricted zone open because the site is quiet.",
+      "prevention": "Restricted zones stay closed until the controlling party changes the decision in writing."
+    },
+    {
+      "error": "Not asking whether any occupant is more vulnerable.",
+      "prevention": "Ask, record the protective need, and keep health details confidential."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson does not authorise entry to any restricted zone. Completing it does not give a licence, certificate or approval.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Western Australian guidance advises not entering a property until authorities confirm it is safe. The same applies to occupants.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Health information about occupants is personal. Record only the protective need the occupant agrees to share.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner sets exclusion zones and an access route with the site controller.",
+    "The learner refuses unsupervised passage through restricted areas and arranges a supervised alternative."
+  ],
+  "documentationEvidence": [
+    "Access plan showing restricted zones, clean route, signage and escalation contact.",
+    "Retrieval record: item, person, supervisor, time and zone confirmation."
+  ],
+  "summary": [
+    "Set exclusion zones and hold them.",
+    "No unsupervised passage through restricted or unassessed areas.",
+    "Arrange supervised access for occupants who need items."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "fire-smoke-restoration-L05-K01",
+      "question": "A neighbouring tenant wants to walk through a partly damaged corridor to collect medication. What is the response?",
+      "options": [
+        "Let the tenant through quickly with a warning to watch their step, since the path is short and clear",
+        "Refuse all help and tell the tenant to wait, since nothing can be done for the medication until morning",
+        "Refuse unsupervised passage and arrange a supervised alternative with the property manager or emergency services."
+      ]
+    },
+    {
+      "id": "fire-smoke-restoration-L05-K02",
+      "question": "A tenant asks to re-enter a fire-damaged building to collect belongings. What is the correct response?",
+      "options": [
+        "Let them in with a neighbour to watch.",
+        "Do not allow entry until authorities confirm the property is safe. Arrange supervised retrieval if the zone allows it.",
+        "Let them in once the smoke has cleared by sight."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Earlier composite HR05-fire-smoke-restoration.json, instruction section 5 and learning outcome 5; first knowledge check HR05-K05. The earlier composite is internal and not learner-visible (rights: user-held; reworded, no copying).",
+    "Source drafts: fire-smoke-restoration-lesson-05-instruction-pass65.json; fire-smoke-restoration-lesson-05-research-pass64.json; fire-smoke-restoration-lesson-05-assessment-pass66.json (rights: user-held; reworded, no copying).",
+    "Official pages read directly on 2026-11-03 are listed in officialReferences. Dates are the dates shown on each page.",
+    "UNCONFIRMED: rules for occupant re-entry after fire in jurisdictions other than Western Australia. The lesson states only the supervised-access approach.",
+    "Not used for learner text: US, UK and other non-Australian pages named in the earlier composite; Victorian Building and Plumbing Commission page (returned HTTP 403 at link check, not read); other state and territory regulator pages not read."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Asbestos safety after an emergency or disaster",
+      "url": "https://www.wa.gov.au/organisation/worksafe/asbestos-safety-after-emergency-or-disaster",
+      "pageDate": "Last updated: 29 May 2026",
+      "checked": "2026-11-03",
+      "covers": "Read directly 2026-11-03. Do not enter a property until authorities confirm it is safe. Avoid spreading ash or moving debris by sweeping or vacuuming. Never use high-pressure sprays; dampen ash and debris lightly to limit dust. Wear a P2 face mask and protective clothing such as sturdy boots and gloves, even if unsure whether asbestos is present. Contact a competent person or licensed asbestos assessor before clean-up starts. If asbestos is confirmed, a licensed asbestos removalist carries out the clean-up. Urgent removal: notify WorkSafe and submit the notification within 24 hours. Emergency work still requires a clearance. WA guidance only."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": {
+    "heading": "Module authority and restricted work",
+    "body": "Fire-scene release, structural and utility isolation, asbestos assessment and removal, and some waste handling are restricted to competent and, where the law requires, licensed people, and may be controlled by fire investigators, the police, structural engineers, utilities or the building owner. Insurer and owner permission do not replace a release from the authority that controls the site. Where that authority is not identified, do not proceed."
+  },
+  "stopWorkAndReferral": [
+    "Stop and refer when there is unrestricted access to a restricted zone.",
+    "A stop-work decision is correct, so record it and restart only once the competent party confirms the scope in writing."
+  ]
+}

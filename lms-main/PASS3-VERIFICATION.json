@@ -1,0 +1,20 @@
+{
+  "pass": 3,
+  "base": "Titan-Academy-TypeScript-Upgrade-Pass2-Cumulative.zip",
+  "added": [
+    "lms-main/apps/backend/prisma/migrations/20261102000300_academy_course_composition/migration.sql"
+  ],
+  "modified": [
+    "lms-main/apps/backend/prisma/schema.prisma",
+    "lms-main/apps/backend/src/modules/curriculum/curriculum.routes.ts"
+  ],
+  "removed": [],
+  "linesAdded": 73,
+  "linesRemoved": 0,
+  "tests": {
+    "zipIntegrity": "pending",
+    "database": "not run",
+    "typescript": "not run",
+    "sourceAssertions": "passed"
+  }
+}

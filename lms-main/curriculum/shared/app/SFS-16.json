@@ -1,0 +1,111 @@
+{
+  "id": "SFS-16",
+  "title": "Service reports and customer sign-off",
+  "courseSlugs": [],
+  "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)",
+  "layer": "app",
+  "lessonType": "RH",
+  "estimatedMinutes": 25,
+  "audience": "Owners and office staff who schedule, dispatch and record field jobs. No developer knowledge is needed.",
+  "prerequisites": [
+    "SFS-07"
+  ],
+  "learningOutcomes": [
+    "Explain which report template applies to a job or visit.",
+    "Describe what a customer signature records.",
+    "Recognise when a final report file needs a connection."
+  ],
+  "instruction": [
+    {
+      "heading": "What a service report is",
+      "body": "A service report summarises a job or visit in a document the customer and the team can sign. It shows the work done and gives the customer a record of the visit. Workers or the office create the report from the job or visit. The default template should always stay active, because reports can fail to generate without it."
+    },
+    {
+      "heading": "Template choice, sign-off and connection",
+      "body": "Templates are picked in a fixed order: first the one set on the job, next the one on the job's type of work, and last the standard template. Each signature records the signer's role, such as customer or site contact. A report can be previewed offline, but the final file may only be produced after the device reconnects. Check language support for your customers before sending text written right to left."
+    }
+  ],
+  "procedure": [
+    "Confirm the job or visit is complete and its tasks are ticked.",
+    "Choose the report template for the job, or let it fall back in order.",
+    "Create the report and preview it on the device.",
+    "Collect the customer's signature with the correct role recorded.",
+    "Send the document to the customer and keep a copy with the job."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A cleaner completes a bond clean and the customer wants the report sent while still on site, with a signature.",
+      "decisionPrompt": "Does the report need a connection?",
+      "reasoning": "The preview works offline, but the final file may need a connection. Collect the signature on site, then send the report once the device is connected, and record when it was sent."
+    }
+  ],
+  "equipmentAndPpe": [
+    "A device with the Titan Zero Field app, where the lesson uses it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Deactivating the default template.",
+      "prevention": "Keep the default template active at all times."
+    },
+    {
+      "error": "Collecting a signature without recording the signer's role.",
+      "prevention": "Choose the signer role each time a signature is taken."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "This lesson covers app records and office process only. It does not grant, confirm or replace any licence, certificate or authority, and it makes no legal claim.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every completed job has a report on file.",
+    "Every signature has a role and a date."
+  ],
+  "documentationEvidence": [
+    "Report copy filed with the job",
+    "Signature record with role and date"
+  ],
+  "summary": [
+    "A report recaps the visit, and the customer may sign it.",
+    "Templates fall back from the job, to its type of work, to the standard one.",
+    "The final report file may need a connection, even when the preview works offline."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "SFS-16-K01",
+      "question": "A job has no template set, and its work type has none. Which template is used?",
+      "options": [
+        "The standard fallback template",
+        "No template, so no report",
+        "The customer's choice from a list"
+      ]
+    },
+    {
+      "id": "SFS-16-K02",
+      "question": "What does a customer signature record?",
+      "options": [
+        "That the customer acknowledges the work, with the signer's role and date",
+        "That the invoice has been paid in full on the day of the visit and the job",
+        "That the worker holds a licence for the job, the site and the trade"
+      ]
+    },
+    {
+      "id": "SFS-16-K03",
+      "question": "Why should the default template stay active?",
+      "options": [
+        "So reports can still be generated",
+        "So the customer's logo prints",
+        "So workers can change their pay"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Salesforce field service implementation guide, pp. 76-81 (reporting); service report chapter (page numbers not confirmed); rights: not held by user; reworded (no copying)",
+    "Titan Zero Field entity informed: service report; customer sign-off record; job reporting view (proposed; ai-fsm project not found in workspace; UNCONFIRMED)",
+    "Mapping: curriculum/app-basis/SALESFORCE-TO-TITAN-FIELD.md (DRAFT)"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

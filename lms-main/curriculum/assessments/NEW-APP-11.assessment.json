@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-APP-11",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-APP-11-K01",
+      "correctIndex": 0,
+      "rationale": "Warranty terms belong to the manufacturer and depend on the model, and they sit on top of the consumer guarantees that apply automatically. The worker records the question and refers it, without answering from memory."
+    },
+    {
+      "id": "NEW-APP-11-K02",
+      "correctIndex": 1,
+      "rationale": "The accurate statement describes the cleaning standard and the scope limits, without safety, working or warranty assurance."
+    },
+    {
+      "id": "NEW-APP-11-K03",
+      "correctIndex": 2,
+      "rationale": "Photographs are limited to the appliance and its condition, with the data plate in shot, and do not capture private or confidential information."
+    },
+    {
+      "id": "NEW-APP-11-K04",
+      "correctIndex": 3,
+      "rationale": "The worker stops, makes the area safe, photographs and reports the damage without re-fixing it or admitting liability."
+    },
+    {
+      "id": "NEW-APP-11-K05",
+      "correctIndex": 0,
+      "rationale": "A machine in use may hold oil, hot water or live parts. It is shut down under the site procedure before cleaning."
+    }
+  ],
+  "practicalCriteria": [
+    "Confirms the approver, site contact, access and appliance state, and records them",
+    "States the scope limits in plain words without safety, working or warranty assurance",
+    "Photographs the appliance only, with the data plate in shot",
+    "Stops and reports a damage event without admitting liability or re-fixing the item"
+  ],
+  "passRule": "Knowledge checks: at least 4 of 5 correct (80%). Practical sign-off is separate: an assessor observes the practical criteria and records the result. A knowledge pass is not practical competence and does not grant any licence or authority.",
+  "evidenceRequired": [
+    "Name, role and time of each person who confirmed scope and access",
+    "Before photographs and any pre-existing fault record",
+    "Warranty question or damage report with the referral made"
+  ],
+  "stopWorkCriteria": [
+    "Any statement that the appliance is safe or will pass inspection",
+    "Any photograph of screens, paperwork or people",
+    "Any admission of liability on site"
+  ]
+}

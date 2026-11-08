@@ -1,0 +1,157 @@
+{
+  "id": "mould-remediation-L03",
+  "title": "Inspection, concealed damage and escalation",
+  "courseSlugs": [
+    "high-risk"
+  ],
+  "moduleTitle": "High-risk cleaning",
+  "layer": "high-risk",
+  "lessonType": "K",
+  "estimatedMinutes": 15,
+  "audience": "Supervisors, coordinators and trained cleaners who may be asked to triage, refer or document mould-related work in homes, rentals and commercial buildings, under an approved plan. Not a qualification or authority to remediate, demolish, or certify any building or room.",
+  "prerequisites": [
+    "mould-remediation-L02"
+  ],
+  "learningOutcomes": [
+    "Classify a described contamination as simple or complex from recorded facts.",
+    "Identify warning signs of concealed damage and escalate without opening material.",
+    "Record the classification, the facts used and the escalation route."
+  ],
+  "instruction": [
+    {
+      "heading": "Scope of this lesson",
+      "body": "Inspection here is visual and non-invasive. Do not open wall cavities, lift flooring or remove material to look for hidden growth without an approved plan and a competent person. Classification and the decision to use professional help belong to the competent supervisor."
+    },
+    {
+      "heading": "Simple or complex",
+      "body": "The WA Department of Health guideline separates simple contamination from complex contamination. Simple contamination is new, isolated and visible, no greater than one square metre, and has causes that are easy to identify and correct. Complex contamination is larger than one square metre, or is found in multiple rooms or places. It also includes evidence of recurring and persistent mould or dampness, and situations such as HVAC involvement, suspected hidden mould, or other hazards such as asbestos. The guideline calls the one-square-metre size an arbitrary figure, and notes that larger areas may still be handled without professional help. It states that complex contamination typically requires professional help, so the classification decides the escalation route."
+    },
+    {
+      "heading": "Warning signs of concealed damage",
+      "body": "Recurring staining, a musty odour, bulging or softening surfaces, and cold or wet patches on walls are warning signs of concealed damage. Record them and escalate. A request to demolish a sealed cupboard that has recurring staining is not a decision a cleaner can accept. Demolition needs a revised scope, a competent assessment and specialist investigation, and work stops until those are in place."
+    }
+  ],
+  "procedure": [
+    "Inspect visually from outside any cavity, and note the warning signs.",
+    "Estimate the visible extent, and record the rooms or places affected.",
+    "Classify the contamination as simple or complex, using the recorded facts.",
+    "For simple contamination, proceed only within the approved scope.",
+    "For complex contamination, stop and escalate for a site-specific plan with professional help.",
+    "Refer any request to open or demolish material to a competent assessment, and record the referral."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A manager asks for immediate demolition of a sealed cupboard that has recurring staining.",
+      "decisionPrompt": "Can a cleaner accept the instruction?",
+      "reasoning": "No. Demolition needs a revised scope, a competent assessment and specialist investigation. Stop, record the request and issue a referral note."
+    },
+    {
+      "situation": "Mould covers about 40 centimetres square on one wall. It is isolated, and its cause has been identified and can be corrected.",
+      "decisionPrompt": "Is this simple or complex contamination?",
+      "reasoning": "On the guideline's size test it is no greater than one square metre, it is isolated, and its cause is identified and correctable, so it falls in the simple class. The work still follows the approved scope, and the guideline's footnote does not let a cleaner decide alone."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Inspection record sheet with fields for location, extent, warning signs and photographs.",
+    "Torch and camera for visual inspection from outside the cavity.",
+    "Training-only photographs and drawings. No real material is opened in this lesson."
+  ],
+  "commonErrors": [
+    {
+      "error": "Assuming no visible growth means there is no hidden damage.",
+      "prevention": "Record the warning signs and refer."
+    },
+    {
+      "error": "Treating a multi-room problem as simple because one patch is small.",
+      "prevention": "Classify the whole contamination by the guideline's tests, including multiple rooms and recurrence."
+    },
+    {
+      "error": "Opening a cavity to look for growth.",
+      "prevention": "Stop and refer. Do not open cavities without an approved plan."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Classification of contamination and the decision to use professional help belong to the competent supervisor. Completing this lesson does not qualify a worker to make that decision alone.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The one-square-metre threshold comes from the WA Department of Health guideline. Other states and territories set their own guidance, which was not checked for this lesson.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner classifies a described contamination as simple or complex, from the recorded facts.",
+    "The learner identifies warning signs of concealed damage and escalates without opening material.",
+    "The learner records the classification and the escalation route."
+  ],
+  "documentationEvidence": [
+    "Inspection record with location, extent, warning signs and photographs.",
+    "Classification record (simple or complex) with the facts used.",
+    "Escalation and referral record."
+  ],
+  "summary": [
+    "Inspect visually, and do not open material.",
+    "Classify by size, location, recurrence and complexity.",
+    "Complex contamination needs professional help.",
+    "Warning signs of hidden damage trigger a referral."
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "mould-remediation-L03-K01",
+      "question": "Which description fits complex contamination under the WA guideline?",
+      "options": [
+        "Mould larger than one square metre, or found in multiple rooms or places.",
+        "A single new patch of mould, no greater than one square metre, with an obvious cause.",
+        "Any mould at all, in any room, once it has been cleaned."
+      ]
+    },
+    {
+      "id": "mould-remediation-L03-K02",
+      "question": "A manager asks a cleaner to demolish a sealed cupboard with recurring staining today. What is correct?",
+      "options": [
+        "Demolish it, because the manager has authority.",
+        "Stop, record the request and refer it for a revised scope and specialist investigation.",
+        "Open the back panel only, and continue."
+      ]
+    },
+    {
+      "id": "mould-remediation-L03-K03",
+      "question": "Which of these is a warning sign of concealed damage?",
+      "options": [
+        "A clean, dry, freshly vacuumed surface.",
+        "A window that opens easily.",
+        "Recurring staining, a musty odour or softening surfaces."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Internal draft: curriculum/courses/high-risk/HR04-mould-remediation.json, section 3 (reworded; no source text copied).",
+    "WA Department of Health, Guidelines for managing mould and dampness, April 2024 edition, sections 3.4.1, 3.4.2 and footnote, read 2026-11-03 through a page-summary tool."
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Guidelines for managing mould and dampness: related public health risks in buildings (WA Department of Health)",
+      "url": "https://smhs.health.wa.gov.au/~/media/Corp/Documents/Health-for/Mould/Guidelines-for-Managing-Mould-and-Dampness-Related-Public-Health-Risks-in-BuildingsV20.pdf",
+      "pageDate": "April 2024 (version control table); publication code ENV-0014702 MAY'24; no separate last-updated date shown",
+      "checked": "2026-11-03",
+      "covers": "Read through a page-summary tool on 2026-11-03 (PDF, Environmental Health Directorate, WA Department of Health). Section 1.4 sets out a general public health duty, a workplace duty and a residential tenancies duty. Section 2.1 names people with existing respiratory, immunocompromising and allergic conditions, and infants, children and older people. Section 3.2.2 says porous items are often not economically salvageable and must be thrown out. Section 3.3 says the source must be located to address the cause and prevent recurrence. Section 3.4.1 defines simple contamination as new, isolated and visible, no greater than one square metre, with easily identified causes, and its footnote calls the one-square-metre size arbitrary. Section 3.4.2 defines complex contamination as larger than one square metre or found in multiple rooms or places. Section 3.5 states there are no defined quantitative or qualitative exposure thresholds for mould or dampness. Section 4.1 lists containment, drying and source repair as principles. Section 4.2.2 advises scrubbing hard surfaces with soapy water, avoiding dry brushing, cleaning at least 30 to 50 cm beyond the visible mould, removing or discarding porous items that cannot be adequately cleaned, stating that mould is not considered hazardous waste, and not painting, sealing or covering surfaces until dry. Section 4.3 recommends a site-specific plan with professionals for complex contamination, isolation with heavy grade plastic and negative pressure, and evacuation of occupants. Section 4.4 lists no recurrence within two to four weeks after remediation as an indicator of success, recommends the evaluation be done by a different entity, and states there are no legal requirements for a post-remediation assessment. Appendix B recommends a P2 or N95 respirator and says PAPRs should be used for complex remediation. Appendix E says mould can grow within 24 to 48 hours in flood-affected homes."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "moduleAuthority": [
+    {
+      "heading": "Module authority and restricted work",
+      "body": "This module is training content. It does not grant authority to remediate, demolish, disturb building materials, handle contaminated water or waste, or certify that a building, room or occupant area is safe or free of mould or pathogens. Completing this lesson does not give a licence, certificate or approval. Restricted or high-exposure remediation is carried out only by an appropriately qualified and competent professional under an approved plan, and some related work, including asbestos and lead disturbance and certain waste handling, is restricted to licensed or specially authorised people. The owner, manager, tenant or contract may define what work is permitted, but where the contract covers only routine cleaning, that is the limit of the task. Where the controlling authority or the competent supervisor is not identified, stop and refer."
+    }
+  ],
+  "stopWorkAndReferral": [
+    {
+      "heading": "Stop-work and referral rules for this module",
+      "body": "Stop and refer whenever any of these is true: the hazards are unknown or changing; the work is destructive or hazardous and outside the authorised scope; exposure is uncontrolled or the building is unsafe to occupy; supervision, equipment or permissions are insufficient; flood, sewage, asbestos or lead may be present; a worker's PPE or respirator readiness has not been verified; a client asks for a clearance or pathogen-free statement; or a waste route is unauthorised. A stop-work decision is correct. Record it and restart only after the competent supervisor has confirmed the scope in writing."
+    }
+  ]
+}

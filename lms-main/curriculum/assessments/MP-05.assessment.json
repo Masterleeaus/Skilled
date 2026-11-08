@@ -1,0 +1,34 @@
+{
+  "lessonId": "MP-05",
+  "knowledgeAnswers": [
+    {
+      "id": "MP-05-K01",
+      "correctIndex": 1,
+      "rationale": "Each stage has a trigger and a capacity, so the forecast follows the real sequence of the business. Making the figure bigger or skipping cost data are not reasons for stages."
+    },
+    {
+      "id": "MP-05-K02",
+      "correctIndex": 2,
+      "rationale": "The gap between forecast and goal must be named and explained, then closed by a stated action or resolved by changing the goal, with the reason recorded."
+    },
+    {
+      "id": "MP-05-K03",
+      "correctIndex": 0,
+      "rationale": "Adding the segments and checking the sum against the grand total confirms the arithmetic. Brochures, printed pages and opinions do not."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied three-stage data set, the learner builds a stage table with a trigger, a capacity and a revenue figure for each stage, and the assessor checks that each revenue figure equals jobs multiplied by average price, capped at capacity.",
+    "The learner adds supplied segment totals, and the assessor confirms that the sum equals the grand total in the learner's sheet.",
+    "The learner writes a gap note comparing a supplied forecast growth rate with a supplied target, naming the gap and giving either an action or a changed target with the reason."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off stays separate. A quiz pass is not verified practical competence.",
+  "evidenceRequired": [
+    "Stage table with inputs and their sources",
+    "Cross-check sheet showing segment totals and the grand total",
+    "Gap note with decision and date"
+  ],
+  "stopWorkCriteria": [
+    "Stop using any forecast stage whose trigger has not been met."
+  ]
+}

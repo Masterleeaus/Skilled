@@ -1,0 +1,34 @@
+{
+  "lessonId": "NEW-RES-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-RES-01-K01",
+      "correctIndex": 2,
+      "rationale": "Suspected mould is outside routine cleaning."
+    },
+    {
+      "id": "NEW-RES-01-K02",
+      "correctIndex": 0,
+      "rationale": "Excess moisture can remain in the core."
+    },
+    {
+      "id": "NEW-RES-01-K03",
+      "correctIndex": 1,
+      "rationale": "Full drying is required before use."
+    }
+  ],
+  "practicalCriteria": [
+    "Records the condition of a sample mattress before work, including odour and dampness.",
+    "Tests a product on an inconspicuous area and avoids over-wetting.",
+    "Refers a simulated suspected mould patch and does not treat it as routine."
+  ],
+  "passRule": "Condition recorded, test done, moisture controlled, and suspected mould referred. Observed in a supervised simulation.",
+  "evidenceRequired": [
+    "Pre-work condition record",
+    "Referral record"
+  ],
+  "stopWorkCriteria": [
+    "Suspected mould cleaned as routine",
+    "Mattress returned to use while damp"
+  ]
+}

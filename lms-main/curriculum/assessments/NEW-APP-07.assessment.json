@@ -1,0 +1,47 @@
+{
+  "lessonId": "NEW-APP-07",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-APP-07-K01",
+      "correctIndex": 3,
+      "rationale": "A heavy machine with connected hoses needs a second person or suitable equipment, isolation, and the manufacturer's sequence for any disconnection."
+    },
+    {
+      "id": "NEW-APP-07-K02",
+      "correctIndex": 0,
+      "rationale": "Loose handles and panels are not lifting points. The manufacturer's lifting points or base are used."
+    },
+    {
+      "id": "NEW-APP-07-K03",
+      "correctIndex": 1,
+      "rationale": "Avoiding the manual task where the machine does not need to be moved is the first control."
+    },
+    {
+      "id": "NEW-APP-07-K04",
+      "correctIndex": 2,
+      "rationale": "Leads, hoses and drain lines must be free and undamaged, and the machine must be level and stable."
+    },
+    {
+      "id": "NEW-APP-07-K05",
+      "correctIndex": 3,
+      "rationale": "A move that is beyond the team's safe capability is stopped and referred, whatever the appliance type."
+    }
+  ],
+  "practicalCriteria": [
+    "Checks the weight and lifting points before the move",
+    "Moves with the agreed team, signals and direction, using the approved lifting points",
+    "Checks leads, hoses and drain lines after the move",
+    "Stops a move that is beyond the team's safe capability"
+  ],
+  "passRule": "Knowledge checks: at least 4 of 5 correct (80%). Practical sign-off is separate: an assessor observes the practical criteria and records the result. A knowledge pass is not practical competence and does not grant any licence or authority.",
+  "evidenceRequired": [
+    "Weight and lifting point record for each appliance moved",
+    "Record of any refused or referred move",
+    "Post-move check of leads, hoses and drains"
+  ],
+  "stopWorkCriteria": [
+    "Attempting a single-person move of a heavy appliance",
+    "Lifting by a loose handle, door or control panel",
+    "Moving an appliance still connected to a hose, lead or drain"
+  ]
+}

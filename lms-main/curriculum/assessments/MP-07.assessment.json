@@ -1,0 +1,34 @@
+{
+  "lessonId": "MP-07",
+  "knowledgeAnswers": [
+    {
+      "id": "MP-07-K01",
+      "correctIndex": 0,
+      "rationale": "18 divided by 40 is 0.45, or 45%. The distractors are the raw count written as a percentage (18%), the share who were not repeat customers (55%, which is 22 of 40) and an inverted division, 40 over 18 (222%)."
+    },
+    {
+      "id": "MP-07-K02",
+      "correctIndex": 0,
+      "rationale": "A KPI needs a full definition: name, formula, source, owner, target and threshold. A colour, a chart or a competitor link does not define a measure."
+    },
+    {
+      "id": "MP-07-K03",
+      "correctIndex": 0,
+      "rationale": "A rate applied each quarter multiplies, so the yearly result is larger than adding the quarterly rate four times. The distractors state simple addition, no effect, or a result equal to the quarterly rate. The US sample figure that the lesson used to show this was removed (see LOCALISE-LOG.md), so the check now tests the principle only."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a supplied month of booking, survey and invoice records, the learner calculates repeat rate, satisfaction score with response rate, revenue variance and expense ratio, and the assessor checks each figure to one decimal place.",
+    "The learner writes a KPI definition sheet for four measures, each with the seven fields in the lesson, and the assessor confirms that no field is blank.",
+    "The learner calculates the full-year effect of a supplied quarterly target and states whether the stated target is per quarter or per year."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off stays separate. A quiz pass is not verified practical competence.",
+  "evidenceRequired": [
+    "KPI definition sheet",
+    "Monthly calculation sheet with inputs",
+    "Action log for any threshold breach"
+  ],
+  "stopWorkCriteria": [
+    "Stop reporting any satisfaction score that does not show its response count."
+  ]
+}

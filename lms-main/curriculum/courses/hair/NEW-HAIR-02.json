@@ -1,0 +1,204 @@
+{
+  "id": "NEW-HAIR-02",
+  "title": "Client consultation, allergy patch test and consent",
+  "courseSlugs": [
+    "hair"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Mobile hairdressers and barbers who consult clients before colour, bleach or other chemical services",
+  "prerequisites": [
+    "F01-L01",
+    "F14-L01",
+    "F01-L02"
+  ],
+  "learningOutcomes": [
+    "Run a written consultation that records a client's history of reactions, open wounds, infections and skin conditions",
+    "Decide when to stop, postpone or refer a service and explain the decision to the client",
+    "Describe what a patch test record must contain."
+  ],
+  "referencesAtStart": "Official references for this lesson: WA Health, Guideline for the hairdressing industry (last reviewed February 2024); Hair, beauty, tattooing and skin penetration industries (updated 26 October 2026); WorkSafe Victoria, Managing hazardous substances and irritants in the hairdressing and beauty industry (reviewed 12/09/2025).",
+  "instruction": [
+    {
+      "heading": "The consultation is the first safety control",
+      "body": "Before any colour, bleach or chemical service, the hairdresser must find out what the client's skin and scalp are like and whether the client has had a reaction before. A consultation is also where consent is given. In a mobile setting you may be the only trained person in the room, so the consultation must be complete before the chemicals are opened. The questions should be written down, asked the same way for every client, and kept with the job record. Clients should be told what the service involves, including the products used and the time the products will stay on the hair or scalp. Your business's approved procedure for the consultation is recorded as {{business:procedures.approved_sop}}. Follow that document and use this lesson to understand why each question matters."
+    },
+    {
+      "heading": "Health screening, open wounds and when to refer",
+      "body": "The Western Australian hairdressing guideline does not require formal health screening of staff or clients. For a client with an open wound, an infection or a skin condition, the guideline advises that the hairdresser recommend a visit to a general practitioner. If the hairdresser is uncomfortable, the service may go ahead only if they believe they can appropriately provide it around the condition and have processes in place to prevent transmission to other clients. The guideline also says that head lice do not bar a person from a salon. These are WA positions, used here as good practice everywhere. Where a client has an open wound, an infection or an unexplained skin condition, the safe business action is to postpone and refer, and the record should say why. Do not proceed because the client says they feel fine."
+    },
+    {
+      "heading": "Allergy patch tests and their record",
+      "body": "A patch test checks whether a client reacts to a product before a full service. Colour products contain substances such as PPD (paraphenylenediamine) and hydrogen peroxide. WorkSafe Victoria's hairdressing and beauty page (reviewed 12/09/2025) calls PPD and hydrogen peroxide toxic and notes that both are widespread in dye products, and notes that a typical peroxide product holds 7 to 12 per cent hydrogen peroxide, and that stronger mixes carry more hazard. It also names persulphate bleach, which can cause irritation. Follow the product manufacturer's instructions and your business procedure. Record the product, the date, the test site, the time, the result and the client's response. If the client reacts, do not apply the colour. Record the reaction, advise the client to seek medical advice, and do not offer the service again without a new assessment."
+    }
+  ],
+  "procedure": [
+    "Ask the consultation questions in the approved order and record the client's answers on the job record",
+    "Check the scalp and skin for open wounds, infections and conditions, and refer the client to a general practitioner where any are present",
+    "Ask about previous reactions to colour, bleach or other chemical treatments, and record the answers",
+    "Carry out the patch test using the manufacturer's method, if the product instructions call for one, and record the test site, product, time and result",
+    "Explain the service, the products and the processing time, and obtain the client's consent in writing or as the business procedure requires",
+    "Decide whether to proceed, postpone or refer, and record the reason for the decision"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client books a bleach service at her home. She mentions a small cut on the scalp and says she has been treating it herself for two days.",
+      "decisionPrompt": "Should the bleach service go ahead today?",
+      "reasoning": "The WA guideline advises recommending a visit to a general practitioner for a client with an open wound, and allows the service to go ahead only where the operator believes it can be appropriately provided around the condition, with infection-prevention processes in place. A fresh cut on the scalp is an open wound, and the hairdresser cannot judge it. The bleach service should be postponed under the business procedure, and the hairdresser should record the cut, explain the reason and suggest that the client contact a general practitioner. Rebooking should wait until the client can show the wound has been reviewed, or until the business procedure allows a decision after review."
+    },
+    {
+      "situation": "A client has had a colour service at a different salon two months ago and says she does not remember any reaction. This visit is a new colour with a different product.",
+      "decisionPrompt": "Is the old service enough to skip the patch test for this product?",
+      "reasoning": "The previous service involved a different product, so it does not establish the safety of this product. Under the business's procedure, the hairdresser should follow the manufacturer's instructions for the new product and record that the previous service was with a different product. The safe decision is to follow the product's patch-test method and not to rely on the client's memory of an earlier service."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Consultation form, paper or digital, that records the client's answers",
+    "Gloves suitable for the products in use",
+    "Patch test materials as specified by the manufacturer",
+    "Timer for the patch test and processing time",
+    "Clean towels and a barrier for the client's clothing",
+    "Eye protection where the product's instructions require it"
+  ],
+  "commonErrors": [
+    {
+      "error": "Skipping the consultation because the client is a regular and has had colour before.",
+      "prevention": "Complete the consultation at every visit. A regular client's skin, medication or health can change between visits."
+    },
+    {
+      "error": "Continuing the service with an open cut or a visible skin condition because the client asks you to.",
+      "prevention": "Recommend a GP visit, as the WA guideline advises, and postpone where the business procedure requires. Record the decision."
+    },
+    {
+      "error": "Treating a patch test as optional when the product's instructions say it is required.",
+      "prevention": "Follow the product instructions."
+    },
+    {
+      "error": "Recording only 'consultation done' without the answers.",
+      "prevention": "Write the answers, the product name, the test site and the result. A record with no content cannot show what was checked."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The WA hairdressing guideline does not require formal health screening of staff or clients. This is a WA position only.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The Department of Health names the 2019 infection prevention and control guidelines for hair and beauty.",
+      "licenceNotice": false
+    },
+    {
+      "point": "WorkSafe Victoria names PPD, hydrogen peroxide and persulphate bleach as hazards in hairdressing. These hazards are confirmed.",
+      "licenceNotice": false
+    },
+    {
+      "point": "A consultation and patch test record does not register the business or grant any authority to provide chemical services. Registration and notification requirements are covered in “Mobile salon setup, hygiene and tool sterilisation”.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Consultation is recorded for every visit before any chemical is opened",
+    "Every client with an open wound, infection or skin condition is referred or postponed, with the reason recorded",
+    "Patch test is carried out and recorded when the product method requires it, or the reason it was not carried out is recorded",
+    "Consent is recorded in the form the business procedure requires"
+  ],
+  "documentationEvidence": [
+    "Consultation form with the client's answers, the date and the hairdresser's name",
+    "Patch test record with product, site, time, result and client response",
+    "Referral or postponement record, with the reason",
+    "Consent record"
+  ],
+  "summary": [
+    "The consultation is completed before any chemical is opened, and every visit gets one",
+    "Open wounds, infections and skin conditions call for a GP recommendation under the WA guideline; the business procedure decides on postponement",
+    "Completing this lesson does not give clinical authority or a licence to provide any service"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:materials.approved_products}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-HAIR-02-K01",
+      "question": "A client arrives for a colour service with a fresh cut on her scalp. Under the WA hairdressing guideline, what is the advised action?",
+      "options": [
+        "Recommend a visit to a general practitioner first",
+        "Proceed with a lighter product so the cut is not affected",
+        "Proceed, since minor cuts do not stop clients"
+      ]
+    },
+    {
+      "id": "NEW-HAIR-02-K02",
+      "question": "What is the correct status of a claim that every state requires a formal health screening for hairdressing clients?",
+      "options": [
+        "Confirmed, because all states require it under their current hairdressing rules and licensing",
+        "Confirmed for Western Australia only: the WA guideline does not require formal screening",
+        "Confirmed for Victoria, because the 2019 guidelines apply there and every salon must follow them"
+      ]
+    },
+    {
+      "id": "NEW-HAIR-02-K03",
+      "question": "Which record is the minimum a patch test must leave behind to be useful?",
+      "options": [
+        "A tick on the job card saying the test was done at the start of the visit",
+        "The client's verbal agreement recorded in a message on the phone today",
+        "The product name, the test site, the time, the result and the client response"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: WA Health, Guideline for the hairdressing industry (last reviewed February 2024): https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf; Hair, beauty, tattooing and skin penetration industries (updated 26 October 2026): https://health.vic.gov.au/infectious-diseases/hair-beauty-tattooing-and-skin-penetration-industries; WorkSafe Victoria, Managing hazardous substances and irritants in the hairdressing and beauty industry (reviewed 12/09/2025): https://www.worksafe.vic.gov.au/managing-hazardous-substances-and-irritants-hairdressing-and-beauty-industry.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Guideline for the hairdressing industry",
+      "url": "https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf",
+      "pageDate": "Last reviewed February 2024",
+      "checked": "2026-11-03",
+      "covers": "WA Health PDF; mobile operators (13.1), home-based operators (13.2), open wounds (7.3), disinfection (10 and 11). Publisher: WA Health (Chief Health Officer guideline, Public Health Act 2016)."
+    },
+    {
+      "id": "R2",
+      "title": "Hair, beauty, tattooing and skin penetration industries",
+      "url": "https://health.vic.gov.au/infectious-diseases/hair-beauty-tattooing-and-skin-penetration-industries",
+      "pageDate": "Updated 26 October 2026",
+      "checked": "2026-11-03",
+      "covers": "Department of Health Victoria page; names the 2019 infection prevention and control guidelines. Guideline text was not read. Publisher: Department of Health Victoria."
+    },
+    {
+      "id": "R3",
+      "title": "Managing hazardous substances and irritants in the hairdressing and beauty industry",
+      "url": "https://www.worksafe.vic.gov.au/managing-hazardous-substances-and-irritants-hairdressing-and-beauty-industry",
+      "pageDate": "Reviewed 12/09/2025",
+      "checked": "2026-11-03",
+      "covers": "WorkSafe Victoria page; hazard list for dyes, bleach, aerosols, nail products, lash glue and peels. Publisher: WorkSafe Victoria."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "WA Health, Guideline for the hairdressing industry, https://www.health.wa.gov.au/~/media/Corp/Documents/About-us/Public-Health-Act/Guideline-for-the-hairdressing-industry.pdf, last reviewed Feb 2024, checked 2026-11-02 (NAT-HAIR-WA-05)",
+    "Dept of Health Victoria, Hair, beauty, tattooing and skin penetration industries, https://health.vic.gov.au/infectious-diseases/hair-beauty-tattooing-and-skin-penetration-industries, checked 2026-11-02 (HAIR-VIC-08; screening content not read, UNCONFIRMED)",
+    "WorkSafe Victoria, Managing hazardous substances and irritants in the hairdressing and beauty industry, https://www.worksafe.vic.gov.au/managing-hazardous-substances-and-irritants-hairdressing-and-beauty-industry, reviewed 12/09/2025, checked 2026-11-02 (HAIR-VIC-06)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02",
+    "Checked 2026-11-03: official references R1, R2, R3 added in officialReferences. Wording corrected where earlier text differed from the page fetched on this date."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-03.jpg",
+      "alt": "Mobile hairdressing and barbering illustration",
+      "kind": "photo",
+      "origin": "hair"
+    },
+    {
+      "src": "/academy/library/photos/wellbeing-personal/beauty-photo-95f929c8-04.jpg",
+      "alt": "Mobile hairdressing and barbering illustration",
+      "kind": "photo",
+      "origin": "hair"
+    }
+  ]
+}

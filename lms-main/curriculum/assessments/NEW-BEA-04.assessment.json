@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-BEA-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-BEA-04-K01",
+      "correctIndex": 2,
+      "rationale": "A chemical peel is a named hazard. The item must be reviewed before it goes on the menu."
+    },
+    {
+      "id": "NEW-BEA-04-K02",
+      "correctIndex": 0,
+      "rationale": "An add-on carries its own steps. A patch test required by the product instructions must be carried out and recorded with the add-on."
+    },
+    {
+      "id": "NEW-BEA-04-K03",
+      "correctIndex": 1,
+      "rationale": "The package record must link each visit to the services delivered, and each visit must have its own intake and consent record, because a client's health can change between visits."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor checks a sample menu and confirms every item is on the approved service list with a review date",
+    "Assessor checks a sample add-on and confirms that its steps, time and patch test check are recorded",
+    "Assessor checks a sample package and confirms each visit has its own intake and consent record"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Sample approved menu with review date",
+    "Add-on review record",
+    "Sample package record with linked visit records"
+  ],
+  "stopWorkCriteria": [
+    "An injectable treatment appears on the menu or in an add-on",
+    "A service that has not been reviewed is offered to a client"
+  ]
+}

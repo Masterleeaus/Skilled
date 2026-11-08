@@ -1,0 +1,36 @@
+{
+  "lessonId": "PVB-04",
+  "knowledgeAnswers": [
+    {
+      "id": "PVB-04-K01",
+      "correctIndex": 1,
+      "rationale": "SP 02 (Version 3, 26 September 2023), mesh section: a 25 kg weight is applied at any point on the top of a non-boundary mesh panel."
+    },
+    {
+      "id": "PVB-04-K02",
+      "correctIndex": 2,
+      "rationale": "VBA note (2018), doors section: child-resistant doorsets cannot serve as barrier parts around outdoor water."
+    },
+    {
+      "id": "PVB-04-K03",
+      "correctIndex": 1,
+      "rationale": "SP 02 (Version 3, 26 September 2023), indoor pool section: a side-hung door used as part of an indoor pool barrier must swing away from the pool, be self-closing and self-latching, and have a non-climbable zone on its outside."
+    }
+  ],
+  "practicalCriteria": [
+    "On a supplied gate, shows it shuts and latches from rest and after the 25 kg load, and records the result.",
+    "Identifies from a supplied door arrangement whether it opens straight onto an outdoor pool, and records the correction required.",
+    "Checks a supplied side-hung indoor pool door for swing direction, self-closing, self-latching and the non-climbable zone on its outside, and records the result."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Gate test record for the assessed gate",
+    "Door arrangement record",
+    "Assessor observation of the 25 kg test"
+  ],
+  "stopWorkCriteria": [
+    "Gate does not latch itself: do not adjust it as a repair; report and keep the pool closed to small children.",
+    "Door opening straight onto an outdoor pool zone: report and do not accept the barrier.",
+    "Indoor pool side-hung door does not swing away, self-close or self-latch: report and do not accept the barrier."
+  ]
+}

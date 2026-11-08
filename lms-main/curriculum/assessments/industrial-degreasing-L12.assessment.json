@@ -1,0 +1,38 @@
+{
+  "lessonId": "industrial-degreasing-L12",
+  "knowledgeAnswers": [
+    {
+      "id": "industrial-degreasing-L12-K01",
+      "correctIndex": 2,
+      "rationale": "A cleaner does not certify plant or chemical safety or restart. The request is refused, and the decision is referred to the competent person in writing."
+    },
+    {
+      "id": "industrial-degreasing-L12-K02",
+      "correctIndex": 1,
+      "rationale": "A handover lists the work done, the inspections made, the exclusions and the restricted work. A price or a name alone does not record the job."
+    },
+    {
+      "id": "industrial-degreasing-L12-K03",
+      "correctIndex": 2,
+      "rationale": "The handover is complete only when the owner has confirmed the outstanding decisions in writing. A finished clean or the end of the shift does not complete it."
+    }
+  ],
+  "practicalCriteria": [
+    "Writes a fictional handover listing the housekeeping done, the inspections made, every exclusion with its reason, and every restricted item with its decision owner.",
+    "Refuses a simulated certificate request for plant or chemical safety, gives the reason, and refers the request in writing.",
+    "Declines to remove an exclusion at a simulated owner's request without written confirmation that it has been resolved.",
+    "Corrects a simulated error with a single line, initials, date and reason, and does not backfill or replace any record."
+  ],
+  "passRule": "All four practical criteria observed as met in a desk exercise. The knowledge check result is not a practical pass, and this assessment is not a certificate, plant-safety approval or chemical clearance.",
+  "evidenceRequired": [
+    "Fictional handover record with exclusions and decision owners",
+    "Refusal and referral record for the simulated certificate request",
+    "Assessor observation note for each practical criterion"
+  ],
+  "stopWorkCriteria": [
+    "Certificate of plant or chemical safety signed or drafted by the learner",
+    "Exclusions omitted, softened or removed without written owner confirmation",
+    "Record backfilled, replaced or altered without the correction method",
+    "Handover presented as complete while restricted decisions are open"
+  ]
+}

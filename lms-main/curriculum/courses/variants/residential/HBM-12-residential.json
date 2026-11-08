@@ -1,0 +1,174 @@
+{
+  "id": "HBM-12-residential",
+  "title": "Setting your hourly rate and minimum charge for residential cleaning",
+  "courseSlugs": [
+    "residential"
+  ],
+  "moduleTitle": "Shared: Quoting and pricing",
+  "layer": "base",
+  "lessonType": "RH",
+  "estimatedMinutes": 40,
+  "audience": "Owners of small residential cleaning businesses who need a base hourly rate and a minimum charge before they quote.",
+  "prerequisites": [
+    "HBM-01",
+    "HBM-03"
+  ],
+  "learningOutcomes": [
+    "Separate billable hours from non-billable hours, and calculate the time available to bill.",
+    "Calculate a base hourly rate from the owner's own costs and income target, then compare it with local evidence.",
+    "Set a minimum charge for short jobs, and explain it to a client before the visit."
+  ],
+  "instruction": [
+    {
+      "heading": "What moves a house cleaning rate",
+      "body": "The rate depends on the cleaner's skill and reliability, how scarce good cleaners are locally, the range of tasks offered in one visit, and the cost of running the business. A cleaner who books a regular clean with a checklist and a return visit can justify more than one who quotes a bare rate. Use local evidence first, not a national average. The marketplace hourly figures for Airbnb cleaning are a reference (Airtasker, 27 August 2025). The research did not find an Australian average for residential cleaning, so none is used here."
+    },
+    {
+      "heading": "Counting the hours that can be billed",
+      "body": "Paid hours include travel between homes, quoting, admin, marketing, training, equipment care, sick days and leave, and none of these earn a fee. Jobber's general guide puts billable time at about 60 to 80 per cent of working hours. That is not an Australian figure, so check your own log against it. If you can bill 60 of every 100 paid hours, the costs of all 100 hours must come from the 60, so the rate has to be about 1.67 times the rate for a fully billable week (CALC)."
+    },
+    {
+      "heading": "Building the rate from costs and income",
+      "body": "Add the annual running costs (insurance, vehicle, phone, software, cleaning equipment and its upkeep, marketing and accounting) to the income you need, including leave and super if you pay wages. Business.gov.au says on-costs such as super, leave and tax belong in the hourly figure (1 October 2026). Divide the total by billable hours to get the base rate. Business Victoria advises including total overheads in the price and reviewing prices about every three months (no date shown). Confirm the tax treatment of leave and super for your own situation with a registered tax agent."
+    },
+    {
+      "heading": "Setting a minimum charge for short visits",
+      "body": "Travel, set-up, admin and checking do not shrink with a small clean, so a short visit can earn very little. Contractor+ suggests setting the minimum from the full visit cost, divided by one minus the target margin, with the minimum covering travel, set-up and cleanup. Its figures are labelled illustrative and are not used here. Gap: the research did not find an Australian minimum charge for residential cleaning. State the minimum in writing before the visit, and explain it in plain terms."
+    },
+    {
+      "heading": "Review the rate and check it against the market",
+      "body": "Review the rate each quarter, and record each change and its reason. Business Victoria recommends a review about every three months (no date shown). Jobber's cleaning guide advises a yearly price review for inflation and market change (31 March 2026; US-leaning). Check your rate against insured, professional cleaners in your area, not only the cheapest listings."
+    }
+  ],
+  "procedure": [
+    "Estimate the paid working hours in a year, then subtract travel, admin, marketing, training and leave to find billable hours.",
+    "List the annual running costs, including insurance, vehicle, equipment, phone, software and marketing.",
+    "Add the income needed, with leave and tax allowances confirmed by a registered tax agent.",
+    "Divide the total by billable hours to find the base rate.",
+    "Set a minimum charge that covers travel, set-up and admin for a short visit, and state it in writing.",
+    "Review the rate each quarter, and record any change and the reason for it."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A solo cleaner (illustrative) plans for about 1,800 paid hours a year and expects to bill 60 per cent of them, because travel, admin and marketing take the rest. Annual costs and the income needed total $75,000 (illustrative). A short visit costs about $60 in travel, set-up and admin (illustrative).",
+      "decisionPrompt": "What base rate is needed, what would pricing on paid hours give, and what minimum should a short visit carry?",
+      "reasoning": "Billable hours are 1,800 x 0.60, which is 1,080 (CALC). The base rate is $75,000 divided by 1,080, which is $69.44 an hour. Pricing on all 1,800 paid hours would give $41.67 an hour, which underprices the work by about 40 per cent (CALC). The minimum is $60 divided by 0.70, which is $85.71 at a 30 per cent target margin, following the Contractor+ method (figures illustrative). Before the rate is published, compare it with the Airtasker reference for a three-bedroom home ($140 an hour, 27 August 2025). That reference is for a different costing, so it is a sense check and not the rate."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Annual costs and income worksheet",
+    "Log of paid and billable hours for one month",
+    "Price sheet with the base rate and the minimum charge"
+  ],
+  "commonErrors": [
+    {
+      "error": "Setting the rate from a marketplace hourly figure without costing the work.",
+      "prevention": "Build the rate from your costs and billable hours, then compare it with local evidence."
+    },
+    {
+      "error": "Pricing as though every paid hour could be billed.",
+      "prevention": "Subtract travel, admin, marketing, training and leave before you divide."
+    },
+    {
+      "error": "Taking short visits at the standard rate with no minimum.",
+      "prevention": "Set and state a minimum that covers travel, set-up and admin."
+    },
+    {
+      "error": "Assuming Jobber's 60 to 80 per cent billable range applies in Australia.",
+      "prevention": "Use your own log of paid and billable hours for a month."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Price display: a displayed price should show the total including GST (business.gov.au, 18 January 2024). The research did not confirm the rules for minimum or call-out charges, so check current ACCC guidance before you publish a minimum.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Where you employ cleaners, the Cleaning Services Award may set their pay. The Level 1 adult minimum was $25.85 an hour with a 25 per cent casual loading from 1 July 2025 (Fair Work Commission). The 2026-27 rates were not checked.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Tax treatment of leave and super for a sole trader was not confirmed. Confirm it with a registered tax agent before the rate is published.",
+      "licenceNotice": false
+    },
+    {
+      "point": "This lesson does not grant a cleaning licence or insurance. Licence rules for house cleaning were not researched, so check the rules for your state or territory.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Billable hours are calculated from a logged or estimated month, not assumed.",
+    "The base rate is built from the owner's costs and income target, and is compared with local evidence.",
+    "A minimum charge is set and stated before any short job."
+  ],
+  "documentationEvidence": [
+    "Annual costs and income worksheet, with the source and date of each cost",
+    "Billable hours calculation showing the non-billable deductions",
+    "Price sheet showing the base rate, the minimum charge and the review date"
+  ],
+  "summary": [
+    "Price a house clean from billable hours, not paid hours.",
+    "Build the rate from your costs and an income target, then compare it with local evidence.",
+    "Set and state a minimum charge for short visits. Gap: no Australian residential minimum charge was found."
+  ],
+  "businessFields": [
+    "{{business:pricing.pricing_method}}",
+    "{{business:pricing.minimum_charge}}",
+    "{{business:pricing.materials_cost_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "HBM-12-residential-K01",
+      "question": "A cleaner can bill 60 of every 100 paid hours. How should the rate be built?",
+      "options": [
+        "From all paid hours, so the rate looks lower",
+        "From billable hours, so costs and income come from the work that can be billed",
+        "From the rate the nearest competitor advertises this week",
+        "From a national average on a website"
+      ]
+    },
+    {
+      "id": "HBM-12-residential-K02",
+      "question": "Why should a house clean have a minimum charge?",
+      "options": [
+        "Travel, set-up and admin time does not shrink with a small job",
+        "Clients expect every job to cost the same amount",
+        "A minimum charge replaces a written quote",
+        "Short jobs need no set-up time at all"
+      ]
+    },
+    {
+      "id": "HBM-12-residential-K03",
+      "question": "What is the best basis for checking a house cleaning base rate?",
+      "options": [
+        "One national average from a single website",
+        "The cleaner's own costs and billable hours, compared with local evidence",
+        "A friend's rate, without checking your costs",
+        "The first page of a bidding site this week"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "business.gov.au, 'Choose a pricing strategy', https://business.gov.au/products-and-services/choose-a-pricing-strategy, page metadata dated 1 October 2026. Supports: on-costs such as super, leave and tax belong in the hourly figure.",
+    "Jobber Academy, 'What are billable hours', https://getjobber.com/academy/what-are-billable-hours/, published 5 November 2024, last modified 20 July 2026. Supports: billable time is about 60 to 80 per cent of working hours; a general range, not an Australian figure.",
+    "Business Victoria, 'Develop a pricing strategy', https://business.vic.gov.au/business-information/finance/pricing-for-profit/develop-a-pricing-strategy, no date shown. Victoria. Supports: include total overheads and sales costs in the price; review prices about every three months.",
+    "Contractor+, 'Minimum Service Call Charge: A Contractor's Pricing Guide', https://contractorplus.app/blog/minimum-service-call-charge, 23 September 2026. Supports: a minimum can be set from the full visit cost divided by one minus the target margin, and should cover travel, set-up and cleanup. The page labels its figures illustrative; none are used here.",
+    "Airtasker, 'Airbnb cleaning service cost', https://www.airtasker.com/au/costs/airbnb-cleaning/airbnb-cleaning-service-cost, last updated 27 August 2025. Vendor marketplace; the house-cleaning page could not be read. Supports: hourly rates by bedroom count, per-room prices, a regular clean range of $80 to $180, and a guest fee range of $50 to $300 per booking.",
+    "Jobber Academy, 'How Much to Charge for House Cleaning', https://getjobber.com/academy/cleaning/how-much-to-charge-for-house-cleaning/, 31 March 2026 (first published June 2023). US-leaning source. Supports: cleaners often undercount on-costs such as payroll tax, workers' compensation and unpaid travel, which the source puts at 25 to 40 per cent of wages; a profit factor on cost; annual price reviews; a flat or minimum-hours charge for short cleaning jobs.",
+    "Fair Work Commission, Cleaning Services Award (MA000022), https://awards.fairwork.gov.au/MA000022.html, variation effective 1 July 2025. Supports: Level 1 adult minimum hourly rate of $25.85 and a 25 per cent casual loading. The 1 July 2026 position was not checked.",
+    "business.gov.au, 'Display prices', https://business.gov.au/legal/fair-trading/display-prices, page metadata 18 January 2024. Supports: displayed prices should show the total price, including GST.",
+    "Notes: 1,800 paid hours, the $75,000 target, the $60 visit cost and the 30 per cent margin are illustrative. The Jobber cleaning guide is US-leaning and is used for its general method only. Business Victoria's review interval is from an undated page."
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Display prices (business.gov.au)",
+      "url": "https://business.gov.au/legal/fair-trading/display-prices",
+      "pageDate": "page metadata 18 January 2024",
+      "checked": "2026-11-09",
+      "covers": "As recorded in team4-V-residential-bond-cleaning.md (rule R1): displayed prices should show the total price including GST. Does not address minimum or call-out charges. Not re-read for this variant."
+    }
+  ]
+}

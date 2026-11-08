@@ -1,0 +1,129 @@
+{
+  "id": "HSE-03",
+  "title": "Scoring a cleaning audit: room, element and area percentages",
+  "courseSlugs": [
+    "healthcare"
+  ],
+  "moduleTitle": "Shared: Quality and job documentation",
+  "layer": "group",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Cleaning supervisors and auditors who score audits or prepare audit reports in healthcare facilities",
+  "prerequisites": [
+    "HSE-01"
+  ],
+  "learningOutcomes": [
+    "Calculate a room percentage from element scores",
+    "Calculate a functional area average from room percentages",
+    "Check a published total before relying on it"
+  ],
+  "instruction": [
+    {
+      "heading": "The room score",
+      "body": "Each element scores 1 if it is acceptable and 0 when it fails. Elements that are not present in a room are left out of the count. The room percentage is acceptable points divided by achievable points, multiplied by 100. A room with 45 acceptable points against 50 achievable scores 90 per cent."
+    },
+    {
+      "heading": "The area score",
+      "body": "An area's score is the average of its room scores. Average the room percentages, not the raw points, so that rooms with different numbers of applicable elements count equally."
+    },
+    {
+      "heading": "Check the arithmetic before you publish",
+      "body": "Totals can be wrong. The Irish manual's worked example lists six room scores, listed in order as seventy, sixty, sixty-five, seventy, ninety and sixty-five and prints a total of 430. Those values actually add to 420, and their average is 70 per cent. The printed total, and the 71 per cent that followed from it, are therefore wrong. Always re-add the values yourself, and correct any sheet that does not add up before it is saved or reported."
+    },
+    {
+      "heading": "Recording the result",
+      "body": "Record each failed element with its reason and a time for action. Report the area score together with the number of rooms it was calculated from, so that a later reader can check the figure."
+    }
+  ],
+  "procedure": [
+    "Score each element 1 or 0, and mark absent elements as not applicable.",
+    "Add the acceptable scores and the achievable scores for each room.",
+    "Convert each room to a percentage.",
+    "Average the room percentages for the area.",
+    "Re-add the values and check the total before saving the sheet."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A surgical area has rooms scoring seventy, sixty, sixty-five, seventy, ninety and sixty-five. The sheet prints a total of 430.",
+      "decisionPrompt": "What is the correct area score?",
+      "reasoning": "The room values add to 420, so the average is 70 per cent. The printed 430 is an addition error. Correct the sheet and note the correction, so the area score is not reported from the wrong total."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Score sheet",
+    "Calculator or spreadsheet"
+  ],
+  "commonErrors": [
+    {
+      "error": "Averaging raw points instead of room percentages",
+      "prevention": "Convert each room to a percentage, then average those percentages."
+    },
+    {
+      "error": "Copying a printed total without re-adding the values",
+      "prevention": "Always re-add before you publish."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The Irish numbers are used here only to illustrate the method. For SA facilities, the SA audit scoring and pass levels govern (see “Internal audits: how often each area is audited and the pass mark”).",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The learner calculates a room percentage correctly from element scores",
+    "The learner finds the addition error in the worked example"
+  ],
+  "documentationEvidence": [
+    "Score sheet with room totals, percentages and area average, checked by a second person"
+  ],
+  "summary": [
+    "A room percentage is acceptable points over achievable points",
+    "An area score averages its room percentages",
+    "Re-add every total before reporting"
+  ],
+  "businessFields": [],
+  "knowledgeChecks": [
+    {
+      "id": "HSE-03-K01",
+      "question": "A room has 45 acceptable points against 50 achievable. What is its score?",
+      "options": [
+        "45 per cent",
+        "90 per cent",
+        "50 per cent"
+      ]
+    },
+    {
+      "id": "HSE-03-K02",
+      "question": "How is a functional area score calculated?",
+      "options": [
+        "The sum of all element points",
+        "The average of its room percentages",
+        "The highest room score for the day"
+      ]
+    },
+    {
+      "id": "HSE-03-K03",
+      "question": "In the worked example, what do the six room scores actually add to?",
+      "options": [
+        "430",
+        "420",
+        "71"
+      ]
+    },
+    {
+      "id": "HSE-03-K04",
+      "question": "How is an element that is not present in a room treated when the room score is calculated?",
+      "options": [
+        "Scored 1",
+        "Scored 0",
+        "Counted as half a point",
+        "Left out of the count"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "HSE National Cleaning Standards Manual (National Hospitals Office, Ireland, Cleaning Manual for Acute Hospitals, 2006), section 1.14 (the cleaning audit tool, scoring and worked example); rights: user-held; reworded (no copying); Irish source, not the UK Health and Safety Executive; Irish and UK legal and procurement references are not applicable in Australia and are marked UNCONFIRMED; practice content only; no URL in source; date checked 2026-11-02"
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

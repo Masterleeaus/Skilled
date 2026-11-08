@@ -1,0 +1,140 @@
+{
+  "id": "RAS-02",
+  "title": "Walking a site and writing a hazard entry",
+  "courseSlugs": [
+    "commercial",
+    "strata"
+  ],
+  "moduleTitle": "Shared: Workplace safety and risk",
+  "layer": "base",
+  "lessonType": "K",
+  "estimatedMinutes": 35,
+  "audience": "Operatives and supervisors who walk a client site before work starts and write the hazard entries that go into its register.",
+  "prerequisites": [
+    "F02-L01",
+    "F02-L04",
+    "F10-L01"
+  ],
+  "learningOutcomes": [
+    "Define the scope of a site clean, including areas, tasks and exclusions.",
+    "Walk a site in a planned order and note hazards by location and task.",
+    "Write each hazard as one entry that names the task, the place, the people affected and the harm path.",
+    "Record the walk so another person can repeat it."
+  ],
+  "instruction": [
+    {
+      "heading": "Define the scope before the walk",
+      "body": "The scope is the list of areas and tasks the crew is responsible for, and it must be written before the walk so the walk checks the right things. A commercial scope typically separates reception and public-facing spaces, corridors and communal spaces, service spaces behind the public areas, washrooms, kitchens and tea points, meeting rooms, stairs and lift lobbies, stores and waste areas, and office waste handling. Each area should be named in the plain words the client and the crew use. The scope also states exclusions. If specialist work, outdoor work, roof access or high-hazard clean-up is not part of the job, the scope says so, because a hazard outside the scope is handled by someone else and must be referred. Record the client contact and the building facilities team, since the walk and the register will need their input."
+    },
+    {
+      "heading": "Walk the site in a fixed order",
+      "body": "Walk the site in one fixed order, for example from the entry point to the top of the building and back down, so nothing is missed and the route can be repeated. Look up, down and to the sides. Check floor surfaces, lighting in corridors and stairwells, cable runs, traffic routes, equipment storage, waste points, first aid and welfare facilities, emergency exits and assembly points. Ask the site contact about past incidents, unusual visitors, areas that flood, and any tasks that have caused problems before. Separate two kinds of hazard during the walk. Fixed hazards belong to the building, such as a step or a lift lobby layout. Task hazards belong to the cleaning work, such as the chemicals used or a machine that is run near people. Both are entered, but they are controlled by different people, so the entry says which."
+    },
+    {
+      "heading": "Writing one entry per hazard",
+      "body": "Each entry names one hazard, the people who could be affected, and the harm path. A useful entry describes the mechanism rather than the category. Writing chemicals alone is too vague. Writing transfer of a diluted product from an unlabelled bottle during bathroom cleaning tells the reader what the hazard is, where it arises and how harm could follow. Name the people who could be affected, such as the crew, occupants, visitors, contractors or the public, because a control that protects the crew may not protect a passer-by. Describe the existing controls as they actually exist on the day of the walk, not as the policy says they should be. Entries that combine two hazards make the controls muddy, so split them."
+    }
+  ],
+  "procedure": [
+    "Write the scope: included areas, tasks, exclusions, and the names of the client contact and the building facilities team.",
+    "Plan a fixed walking route through the site and keep to it.",
+    "Note each hazard by location and by whether it is a fixed hazard or a task hazard.",
+    "Ask the site contact about past incidents and unusual conditions, and write the answers down.",
+    "Write one entry per hazard, naming the task, place, people affected, harm path and existing controls.",
+    "Refer any hazard that lies outside the scope to the site contact, and record the referral."
+  ],
+  "workedExamples": [
+    {
+      "situation": "A commercial office walk finds a cleaning trolley left across a lift lobby exit route, and a store cupboard holding unlabelled spray bottles.",
+      "decisionPrompt": "Write the entries for both findings in the form used by the register, before any scoring.",
+      "reasoning": "Each finding becomes its own entry. The trolley entry names the hazard as an obstructed exit route, and it lists the crew, occupants and visitors who use the lift lobby as the people affected. The harm path is a person tripping on the trolley or being slowed in an emergency. The bottle entry names the unlabelled product as the hazard, with the harm path as a wrong product being used or two products being mixed by mistake. Scoring follows “Scoring a hazard: likelihood, severity and the risk band”, and the controls follow “Ranking controls and checking residual risk”."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Current scope document and a site plan or floor layout",
+    "Hazard register form or the site file",
+    "Torch for stairwells, store rooms and car parks",
+    "Tablet or notebook for the walk record",
+    "{{business:safety.required_ppe}} for the walk, and {{business:safety.emergency_contact}} written down before entering"
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing one entry that covers the whole building.",
+      "prevention": "Write one entry per hazard, with its own location, people and harm path."
+    },
+    {
+      "error": "Recording a hazard without saying how the harm would happen.",
+      "prevention": "State the mechanism in the entry, for example a slip, a splash, an impact or an exposure."
+    },
+    {
+      "error": "Walking the site alone without the site contact, and not recording why.",
+      "prevention": "Walk with the site contact where possible, or record why the walk was done without them and who was told."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "WARNING: Do not touch unknown items found during the walk, such as needles, unidentified containers or loose electrical parts. Stop, keep others away, tell the site contact and follow “Sharps, body fluids and waste areas”.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Walking a site does not authorise entry to restricted areas, roofs, plant rooms or high-hazard areas. Gain access through the site contact first.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "The scope names included areas and tasks, and states exclusions.",
+    "Each hazard entry names one hazard, the task, the place, the people affected, the harm path and the existing controls.",
+    "Every hazard outside the scope has been referred and the referral is recorded."
+  ],
+  "documentationEvidence": [
+    "Scope statement with exclusions and named contacts",
+    "Site walk record with date, route, people present and hazards noted",
+    "Hazard entries that each follow the one-hazard, one-entry format"
+  ],
+  "summary": [
+    "Define the scope and exclusions before walking the site.",
+    "Walk in a fixed order and separate fixed hazards from task hazards.",
+    "Write one entry per hazard that names the task, place, people affected and harm path.",
+    "Refer hazards outside the scope and record the referral."
+  ],
+  "businessFields": [
+    "{{business:safety.site_hazards}}",
+    "{{business:business.service_area}}",
+    "{{business:safety.emergency_contact}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-02-K01",
+      "question": "Which hazard entry is written in the form the register requires?",
+      "options": [
+        "Chemicals stored in the bathroom cupboard, with no hazard named and no people or task named at all",
+        "Everything in the building is a risk to every person who visits the site and every item in every room",
+        "Transfer of diluted product from an unlabelled bottle during bathroom cleaning, affecting the crew and visitors."
+      ]
+    },
+    {
+      "id": "RAS-02-K02",
+      "question": "During a walk, an operative finds a loose electrical part on a floor near a washroom. What should happen first?",
+      "options": [
+        "Stop, keep others away, tell the site contact and do not handle the item.",
+        "Pick it up with a glove on and then carry on with the walk round the building",
+        "Note it in the register at the end of the week and keep working"
+      ]
+    },
+    {
+      "id": "RAS-02-K03",
+      "question": "A hazard is found in a rooftop plant area that is excluded from the scope. What is the correct action?",
+      "options": [
+        "Enter to check it, since the walk is already underway.",
+        "Refer it to the site contact and record the referral.",
+        "Leave it out of the record because it is not in scope."
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), Scope section and hazard register rows (layout, traffic, waste areas, lifts, stairs); rights: user-held",
+    "UNCONFIRMED: state and territory work health and safety duties on this point were not checked in this pass; confirm with the regulator in the state or territory where the work is done."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

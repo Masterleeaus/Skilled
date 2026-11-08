@@ -1,0 +1,44 @@
+{
+  "lessonId": "NHS-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NHS-04-K01",
+      "correctIndex": 1,
+      "rationale": "Competence is shown by an observed entry for the task. Attendance (option 0) and induction sign-off (option 2) do not show that a specific task can be done to standard."
+    },
+    {
+      "id": "NHS-04-K02",
+      "correctIndex": 1,
+      "rationale": "Induction does not authorise machine work. The cleaner stays off that task until supervised practice is observed and signed off. Options 0 and 2 allocate work without checking it."
+    },
+    {
+      "id": "NHS-04-K03",
+      "correctIndex": 1,
+      "rationale": "A change in product, equipment or procedure, or a defect that suggests a gap, triggers retraining. Training once and never again (option 0) and waiting for a request (option 2) are not adequate."
+    },
+    {
+      "id": "NHS-04-K04",
+      "correctIndex": 3,
+      "rationale": "The keeping the record current section says to record the date, the trainer, the task, the method used, the outcome and the next review."
+    }
+  ],
+  "practicalCriteria": [
+    "Given a new cleaner's induction record and a list of tasks, the learner marks which tasks are authorised and which are not yet authorised, and the assessor checks the marks against the observed-competence entries provided.",
+    "Given a supervised task, the learner observes and corrects a cleaner against the task standard, and records competent, not yet competent, or needs more practice; the assessor checks the entry matches the observed performance.",
+    "Given a product change scenario, the learner identifies that retraining is triggered, schedules the observed practice, and updates the authorised-task list before the method is used on the roster.",
+    "The learner completes a training record with date, trainer, task, method and next review date, as observed on a supplied scenario."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Completed knowledge checks",
+    "Assessor observation record for each practical criterion",
+    "Completed authorised-task list from the scenario",
+    "Completed training record entry from the observed task"
+  ],
+  "stopWorkCriteria": [
+    "Learner allocates a task to a cleaner who has no observed competence entry for it",
+    "Learner records attendance at a session as competence",
+    "Learner allows a changed product or method to be used before retraining is recorded",
+    "Learner keeps a cleaner on a machine or chemical task after a defect or incident without review"
+  ]
+}

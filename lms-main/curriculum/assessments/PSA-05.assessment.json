@@ -1,0 +1,33 @@
+{
+  "lessonId": "PSA-05",
+  "knowledgeAnswers": [
+    {
+      "id": "PSA-05-K01",
+      "correctIndex": 1,
+      "rationale": "Section 6.2 and table 1: outdoor stabilised pools use cyanuric acid at 30 to 50 mg/L."
+    },
+    {
+      "id": "PSA-05-K02",
+      "correctIndex": 2,
+      "rationale": "Section 6.2, section 7.2 and the table 3 note: the regulations prohibit stabilisers at indoor public pools and spas."
+    },
+    {
+      "id": "PSA-05-K03",
+      "correctIndex": 1,
+      "rationale": "Section 6.2 and table 8: above 50 mg/L disinfection slows, and the stabiliser level is brought down by dilution because it is not removed by chlorine."
+    }
+  ],
+  "practicalCriteria": [
+    "For a supplied outdoor public pool, tests cyanuric acid and records whether it is inside the 30 to 50 mg/L range.",
+    "Refuses to add stabiliser to a supplied indoor pool scenario and escalates to the operator."
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Stabiliser test record for the assessed pool",
+    "Assessor observation of the refusal and escalation"
+  ],
+  "stopWorkCriteria": [
+    "Proposal to add stabiliser to an indoor public pool or spa: refuse and escalate.",
+    "Stabiliser above 50 mg/L: do not add product; escalate for dilution."
+  ]
+}

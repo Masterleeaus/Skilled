@@ -1,0 +1,181 @@
+{
+  "id": "NEW-SIT-04",
+  "title": "Visit logs, photos and handover reports",
+  "courseSlugs": [
+    "petsit"
+  ],
+  "moduleTitle": "Workload and cost",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 20,
+  "audience": "Pet sitters who keep visit logs, take photos of animals and prepare handover reports for owners at the end of a sit",
+  "prerequisites": [
+    "F01-L04",
+    "F09-L02",
+    "F01-L02"
+  ],
+  "referencesAtStart": "Official source: Agriculture Victoria, Code of Practice for the Operation of Boarding Establishments (PDF) (revision 1, updated October 2004; printed April 2025), for the record requirements of boarding establishments.",
+  "learningOutcomes": [
+    "Keep a visit log that records each visit, the routine followed, the observations and any concern",
+    "Take and store photos of an animal only under the owner's consent and the business's photo rules",
+    "Prepare a handover report that tells the owner what happened, what was not done, and what to do next"
+  ],
+  "instruction": [
+    {
+      "heading": "The visit log is the evidence of the sit",
+      "body": "A visit log is a dated record of each visit. It should record the arrival and departure time, the routine steps completed, the food and water given, the toilet breaks and walks, any medication dose, the animal's condition, any change from normal behaviour, and any concern raised with the owner or the vet. A visit log written at the end of the day from memory is weaker than one written at the visit. Write the log at the time, using the same format for every visit, so that a gap is easy to see. The business's log format is held in {{business:quality.evidence_requirements}}. Section 9 of the Victorian boarding code sets the records a boarding establishment must keep, including owner contact details, vaccination status and the vet's details. The log is kept in any case as good practice."
+    },
+    {
+      "heading": "Photos: consent first, storage second",
+      "body": "Photos help an owner see that the animal is well. They are also personal information about the owner's home and pet. Take a photo only where the owner has agreed to photos in writing, and never photograph the inside of the home beyond what the owner has agreed to show. Do not post photos of an animal or a home on social media without the owner's written consent. Store photos on a secure device or in a secure system, label each photo with the date and the visit, and delete photos at the end of the period the owner agreed. The business's photo rule is held in {{business:jobs.photo_requirements}}. The business should follow the privacy approach in “Privacy, security and customer property”."
+    },
+    {
+      "heading": "The handover report",
+      "body": "At the end of a sit, the sitter gives the owner a handover report. It should state the dates covered, the routine followed, any change to the routine, the medication given with the times, the observations, any health concern, any call made to the owner or the vet and the advice given, any fault found in the home, and any task not completed with the reason. The report should be factual and should not guess. Where the sitter did not see something, the report should say so. The handover is the point where the owner takes back responsibility, so the report must be clear about what the owner needs to do next, such as booking a vet check or replacing a lock. The handover record is signed or confirmed by the owner, and kept on the client file."
+    }
+  ],
+  "procedure": [
+    "Write the visit log at each visit, with arrival and departure times, routine steps, food, water, toilet breaks and medication",
+    "Record every observation and any change from normal behaviour, and the call made if one was needed",
+    "Take a photo only with the owner's written consent, and label it with the date and visit",
+    "Store photos securely, and delete them at the end of the agreed period",
+    "Prepare the handover report at the end of the sit, covering dates, routine, medication, observations, calls and tasks not completed",
+    "Give the report to the owner, and record the owner's acknowledgement on the client file"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A sitter finishes a two-week sit and realises that several visit logs were written only as 'all good' with no times.",
+      "decisionPrompt": "What should the sitter do before handover?",
+      "reasoning": "The logs lack the times and the detail the owner needs. The sitter should not invent times or details now. The sitter should write the handover report from the logs that exist, state clearly that some visits were not logged in detail, and record what was observed as far as the sitter can recall, marked as recalled. The sitter should note the gap in the report, and should improve the logging method for future sits."
+    },
+    {
+      "situation": "An owner asks the sitter to post a photo of her cat on the business's social media account, and the sitter wants to do so to show the business's work.",
+      "decisionPrompt": "Should the photo be posted?",
+      "reasoning": "The photo is personal information about the owner's pet and home, and it needs the owner's written consent. Posting without consent is not acceptable, even if the owner asked for a photo to be taken. The sitter should ask the owner for written consent, and should not post the photo unless the owner has agreed in writing to the use. The business's photo rule applies."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Visit log form or digital log, with the same format for each visit",
+    "Secure device or system for photos, with labelling and deletion",
+    "Handover report template",
+    "Phone with the log app or the business system"
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing visit logs at the end of the week from memory.",
+      "prevention": "Write each log at the visit, with the time."
+    },
+    {
+      "error": "Posting photos of a client's pet or home without written consent.",
+      "prevention": "Take and use photos only under written consent, and do not post them without it."
+    },
+    {
+      "error": "Writing a handover report that guesses at what happened.",
+      "prevention": "Record what was seen and what was not seen. Mark any recalled detail as recalled."
+    },
+    {
+      "error": "Leaving out a call to the vet or owner from the handover report.",
+      "prevention": "Include every call made, the person called and the advice given."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The record requirements in section 9 of the Victorian boarding code are confirmed for boarding establishments. The log is kept as good practice.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Privacy rules for photos and records of a client's pet and home were not researched. The business's privacy approach in “Privacy, security and customer property” applies.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not register the business or grant any approval for the records to serve as a licence return.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every visit has a log written at the visit, with the times and the routine steps",
+    "Every photo has written owner consent, a date label and a deletion date",
+    "Every handover report covers the dates, routine, medication, observations, calls and tasks not completed",
+    "The owner acknowledges the handover report on the client file"
+  ],
+  "documentationEvidence": [
+    "Visit log for each visit, with times and steps",
+    "Written owner consent for photos, with the agreed use and period",
+    "Handover report, signed or confirmed by the owner",
+    "Record of the photo deletion at the end of the agreed period"
+  ],
+  "summary": [
+    "Write the visit log at the visit, with times and every routine step",
+    "Photos need written owner consent, secure storage and deletion",
+    "The handover report states what happened, what was not seen, and what the owner must do next",
+    "Completing this lesson does not register the business or approve any record as a licence return"
+  ],
+  "referencesAtEnd": "Official source, as listed at the start: Agriculture Victoria, Code of Practice for the Operation of Boarding Establishments (PDF) (revision 1, updated October 2004; printed April 2025).",
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:jobs.photo_requirements}}",
+    "{{business:jobs.signoff_procedure}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:quality.defect_reporting}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-SIT-04-K01",
+      "question": "When should a visit log be written, to be the strongest evidence of the sit?",
+      "options": [
+        "At the end of the week, from memory of the visits",
+        "Only when the owner asks for it at pickup time",
+        "At the visit, with the times and the routine steps"
+      ]
+    },
+    {
+      "id": "NEW-SIT-04-K02",
+      "question": "The owner asks for a photo of the pet to be taken. Under this lesson, what must happen before the photo is posted anywhere?",
+      "options": [
+        "Written owner consent for the specific use",
+        "Nothing, because the owner asked for a photo",
+        "A licence from the council for social media posts"
+      ]
+    },
+    {
+      "id": "NEW-SIT-04-K03",
+      "question": "The sitter did not see a change in the animal's behaviour on one day. What should the handover report say?",
+      "options": [
+        "That the animal was fine all day, to reassure the owner",
+        "That no observation was made on that day, rather than guessing",
+        "That the animal behaved well, based on the sitter's view of the usual pattern"
+      ]
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Agriculture Victoria, Boarding Code (PDF), https://agriculture.vic.gov.au/__data/assets/pdf_file/0018/1173600/Animal-Welfare-CoP-Boarding-Establishments-2025-Web.pdf, checked 2026-11-02 (SIT-VIC-05; sitter application UNCONFIRMED)",
+    "Regulation matrix, curriculum/research/personal/REGULATION-MATRIX-NATIONAL.csv, checked 2026-11-02 (privacy and records rules for sitters UNCONFIRMED)",
+    "Shared lesson references: F01-L04 (job handover and escalation), F09-L02 (inspect systematically), F01-L02 (privacy, security and customer property), within curriculum/lessons/ready"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Code of Practice for the Operation of Boarding Establishments (PDF)",
+      "url": "https://agriculture.vic.gov.au/__data/assets/pdf_file/0018/1173600/Animal-Welfare-CoP-Boarding-Establishments-2025-Web.pdf",
+      "pageDate": "Revision 1, updated October 2004; printed April 2025",
+      "checked": "2026-11-03",
+      "covers": "Read section 9 (records); the code applies to boarding establishments only. Publisher: Agriculture Victoria."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "images": [
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-07.jpg",
+      "alt": "Pet and house sitting illustration",
+      "kind": "photo",
+      "origin": "petsit"
+    },
+    {
+      "src": "/academy/library/photos/pets/dogwalk-photo-2035163b-08.jpg",
+      "alt": "Pet and house sitting illustration",
+      "kind": "photo",
+      "origin": "petsit"
+    }
+  ]
+}

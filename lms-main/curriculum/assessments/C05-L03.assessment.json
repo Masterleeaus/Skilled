@@ -1,0 +1,40 @@
+{
+ "lessonId": "C05-L03",
+ "knowledgeAnswers": [
+  {
+   "id": "C05-L03-K01",
+   "correctIndex": 3,
+   "rationale": "Warning signs such as sparking, damaged insulation or overheating require immediate cessation, and the equipment is isolated and reported. Housings are not opened by workers."
+  },
+  {
+   "id": "C05-L03-K02",
+   "correctIndex": 0,
+   "rationale": "The return-to-service control requires an authorised competent person to assess or repair, and a supervisor to confirm and record clearance before the machine returns to service."
+  },
+  {
+   "id": "C05-L03-K03",
+   "correctIndex": 1,
+   "rationale": "Only trained and authorised operators use equipment, and unauthorised repair is not allowed. An out-of-scope request is referred."
+  },
+  {
+    "id": "C05-L03-K04",
+    "correctIndex": 3,
+    "rationale": "The recognise warning signs section says a burning smell, along with other listed signs, requires immediate cessation."
+  }
+ ],
+ "practicalCriteria": [
+  "Learner inspects a supplied machine and its supply with the set checklist and notes each fault found.",
+  "Learner isolates a supplied machine by switching it off, disconnecting the supply, releasing stored pressure and waiting for moving parts to stop, before any inspection.",
+  "Learner responds to a supervisor-set fault by making the equipment safe, labelling a faulty portable item, referring a fixed-installation fault, and recording the time, symptoms and person notified."
+ ],
+ "passRule": "80% on knowledge checks; practical sign-off separate",
+ "evidenceRequired": [
+  "Simulation record with steps, times, faults found and response",
+  "Supervisor observation record against the criteria"
+ ],
+ "stopWorkCriteria": [
+  "Learner opens or works on a machine while the supply is still connected",
+  "Learner attempts to repair a fixed electrical installation",
+  "Learner relies on the switch alone to isolate equipment"
+ ]
+}

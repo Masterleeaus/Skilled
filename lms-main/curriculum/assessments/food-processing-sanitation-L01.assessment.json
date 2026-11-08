@@ -1,0 +1,40 @@
+{
+ "lessonId": "food-processing-sanitation-L01",
+ "knowledgeAnswers": [
+  {
+   "id": "food-processing-sanitation-L01-K01",
+   "correctIndex": 2,
+   "rationale": "The operator's procedure, the shutdown and the authority are confirmed first."
+  },
+  {
+   "id": "food-processing-sanitation-L01-K02",
+   "correctIndex": 0,
+   "rationale": "Unclear release or ownership is a stop trigger, and no workaround is used."
+  },
+  {
+   "id": "food-processing-sanitation-L01-K03",
+   "correctIndex": 1,
+   "rationale": "Sanitation clearance is the facility's decision."
+  },
+  {
+    "id": "food-processing-sanitation-L01-K04",
+    "correctIndex": 3,
+    "rationale": "The observe without disturbing production section says to mark every restricted space and every unknown hazard on the site plan before any activity is proposed."
+  }
+ ],
+ "practicalCriteria": [
+  "Identifies the authorising supervisor and the task owner on a fictional authorisation sheet.",
+  "Marks restricted spaces and off-limits equipment on a simulated site plan.",
+  "Stops the mock task and records a complete hold and referral with no clearance claim."
+ ],
+ "passRule": "Authority and owner identified, restrictions marked, and hold and referral recorded without a clearance claim. Observed by an assessor in an inert tabletop simulation. Not a site authorisation.",
+ "evidenceRequired": [
+  "Annotated fictional authorisation sheet",
+  "Hold and referral record"
+ ],
+ "stopWorkCriteria": [
+  "Production started before release is signed off",
+  "Task owner unclear",
+  "Clearance claimed without authorisation"
+ ]
+}
