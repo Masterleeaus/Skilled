@@ -1,5 +1,0 @@
-import fs from 'node:fs';import assert from 'node:assert/strict';
-const base=new URL('../',import.meta.url);const data=JSON.parse(fs.readFileSync(new URL('TITAN-ACADEMY-MASTER-IMPROVEMENT-REGISTER.json',base),'utf8'));const md=fs.readFileSync(new URL('TITAN-ACADEMY-MASTER-IMPROVEMENT-REGISTER.md',base),'utf8');
-assert.equal(data.schemaVersion,1);assert.ok(data.items.length>=25);const ids=new Set();let checks=0;
-for(const item of data.items){assert.match(item.id,/^ACA-\d{3}$/);assert.ok(!ids.has(item.id));ids.add(item.id);assert.ok(['P0','P1','P2'].includes(item.priority));assert.ok(['OPEN','IN PROGRESS','BLOCKED','DONE'].includes(item.status));assert.ok(item.action.length>15&&item.acceptance.length>15);assert.ok(md.includes(item.id));checks+=7;}
-assert.ok(data.items.some(x=>x.area==='Curriculum'));assert.ok(data.items.some(x=>x.area==='Security'));assert.ok(data.items.some(x=>x.area==='Database'));console.log(`PASS36 register validation passed: ${data.items.length} items, ${checks+3} assertions`);

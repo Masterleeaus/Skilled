@@ -1,0 +1,1203 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ==========================================================
+// ENUMS
+// ==========================================================
+
+enum Role {
+  ADMIN
+  TEACHER
+  STUDENT
+}
+
+enum CourseLevel {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum EnrollmentStatus {
+  ACTIVE
+  COMPLETED
+  CANCELLED
+}
+
+enum QuestionType {
+  SINGLE_CHOICE
+  MULTIPLE_CHOICE
+  TEXT
+}
+
+enum QuizAttemptStatus {
+  IN_PROGRESS
+  SUBMITTED
+  GRADED
+}
+
+enum SubmissionStatus {
+  SUBMITTED
+  LATE
+  GRADED
+}
+
+enum LiveClassStatus {
+  SCHEDULED
+  LIVE
+  ENDED
+  CANCELLED
+}
+
+enum AttendanceStatus {
+  PRESENT
+  ABSENT
+  LATE
+  EXCUSED
+}
+
+enum NotificationType {
+  INFO
+  ASSIGNMENT
+  QUIZ
+  LIVE_CLASS
+  PAYMENT
+  DISCUSSION
+  SYSTEM
+}
+
+enum PaymentStatus {
+  PENDING
+  SUCCEEDED
+  FAILED
+  REFUNDED
+}
+
+// ==========================================================
+// AUTH
+// ==========================================================
+
+model User {
+  academyCompetenciesAsLearner  AcademyVerifiedCompetency[] @relation("AcademyCompetencyLearner")
+  academyCompetenciesAsAssessor AcademyVerifiedCompetency[] @relation("AcademyCompetencyAssessor")
+  academyMemberships            CompanyMember[]
+  academyAssignments            AcademyTrainingAssignment[] @relation("AcademyAssignedLearner")
+  academyAssignedBy             AcademyTrainingAssignment[] @relation("AcademyAssignmentCreator")
+  id                            String                      @id @default(cuid())
+  email                         String                      @unique
+  passwordHash                  String
+  fullName                      String
+  role                          Role                        @default(STUDENT)
+  avatarUrl                     String?
+  isActive                      Boolean                     @default(true)
+
+  isEmailVerified        Boolean   @default(false)
+  emailVerifyToken       String?
+  emailVerifyExpiresAt   DateTime?
+  resetPasswordToken     String?
+  resetPasswordExpiresAt DateTime?
+
+  deletedAt DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  refreshTokens                 RefreshToken[]
+  coursesTaught                 Course[]                       @relation("TeacherCourses")
+  enrollments                   Enrollment[]
+  lessonProgress                LessonProgress[]
+  quizAttempts                  QuizAttempt[]
+  assignmentSubmissions         AssignmentSubmission[]
+  attendances                   Attendance[]
+  certificates                  Certificate[]
+  notifications                 Notification[]
+  reviews                       Review[]
+  payments                      Payment[]
+  discussionThreads             DiscussionThread[]
+  discussionReplies             DiscussionReply[]
+  auditLogs                     AuditLog[]
+  createdLiveClasses            LiveClass[]                    @relation("LiveClassCreator")
+  createdAssignments            Assignment[]                   @relation("AssignmentCreator")
+  attendanceMarkedBy            Attendance[]                   @relation("AttendanceMarker")
+  academyExternalIdentities     AcademyExternalIdentity[]
+  academyTemplateResponses      AcademyTemplateResponse[]      @relation("AcademyTemplateLearner")
+  academyTemplateSignOffs       AcademyTemplateSignOff[]       @relation("AcademyTemplateSignOffAssessor")
+  academyLessonReviews          AcademyLessonReview[]          @relation("AcademyLessonReviewer")
+  academyPathwayEnrolments      AcademyPathwayEnrolment[]      @relation("AcademyPathwayLearner")
+  academyCourseLessonSelections AcademyCourseLessonSelection[] @relation("AcademyCourseSelectionSaver")
+  academyTutorConversations     AcademyTutorConversation[]     @relation("AcademyTutorLearner")
+
+  @@index([email])
+  @@map("users")
+}
+
+model RefreshToken {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash  String
+  deviceInfo String?
+  isRevoked  Boolean  @default(false)
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+
+  @@index([userId])
+  @@map("refresh_tokens")
+}
+
+// ==========================================================
+// CATALOG
+// ==========================================================
+
+model Category {
+  id       String     @id @default(cuid())
+  name     String
+  slug     String     @unique
+  parentId String?
+  parent   Category?  @relation("CategoryTree", fields: [parentId], references: [id])
+  children Category[] @relation("CategoryTree")
+  courses  Course[]
+
+  deletedAt DateTime?
+  createdAt DateTime  @default(now())
+
+  @@map("categories")
+}
+
+model Course {
+  academyTrainingAssignments AcademyTrainingAssignment[]
+  id                         String                      @id @default(cuid())
+  title                      String
+  slug                       String                      @unique
+  description                String
+  thumbnailUrl               String?
+  categoryId                 String
+  category                   Category                    @relation(fields: [categoryId], references: [id])
+  teacherId                  String
+  teacher                    User                        @relation("TeacherCourses", fields: [teacherId], references: [id])
+  price                      Decimal                     @default(0) @db.Decimal(10, 2)
+  level                      CourseLevel                 @default(BEGINNER)
+  isPublished                Boolean                     @default(false)
+
+  modules                 Module[]
+  enrollments             Enrollment[]
+  quizzes                 Quiz[]
+  assignments             Assignment[]
+  liveClasses             LiveClass[]
+  reviews                 Review[]
+  coupons                 Coupon[]
+  payments                Payment[]
+  discussionThreads       DiscussionThread[]
+  academyLessonSelections AcademyCourseLessonSelection[]
+  academyCourseTracks     AcademyCourseTrack[]
+
+  deletedAt DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@index([slug])
+  @@index([teacherId])
+  @@index([categoryId])
+  @@map("courses")
+}
+
+model Module {
+  id         String @id @default(cuid())
+  courseId   String
+  course     Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  title      String
+  orderIndex Int
+
+  lessons Lesson[]
+  quizzes Quiz[]
+
+  createdAt DateTime @default(now())
+
+  @@index([courseId])
+  @@map("modules")
+}
+
+model Lesson {
+  id            String  @id @default(cuid())
+  moduleId      String
+  module        Module  @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  title         String
+  videoUrl      String?
+  duration      Int?
+  isFreePreview Boolean @default(false)
+  orderIndex    Int
+
+  lessonProgress    LessonProgress[]
+  discussionThreads DiscussionThread[]
+
+  createdAt DateTime @default(now())
+
+  @@index([moduleId])
+  @@map("lessons")
+}
+
+// ==========================================================
+// ENROLLMENT / PROGRESS
+// ==========================================================
+
+model Enrollment {
+  id                 String           @id @default(cuid())
+  studentId          String
+  student            User             @relation(fields: [studentId], references: [id])
+  courseId           String
+  course             Course           @relation(fields: [courseId], references: [id])
+  progressPercentage Float            @default(0)
+  status             EnrollmentStatus @default(ACTIVE)
+  enrolledAt         DateTime         @default(now())
+  completedAt        DateTime?
+  // Licence track chosen at enrolment: "non-licensed" (default) or "licensed". Values are checked in licence-track.ts.
+  licenceTrack       String           @default("non-licensed")
+
+  @@unique([studentId, courseId])
+  @@index([studentId])
+  @@index([courseId])
+  @@map("enrollments")
+}
+
+model LessonProgress {
+  id             String   @id @default(cuid())
+  studentId      String
+  student        User     @relation(fields: [studentId], references: [id])
+  lessonId       String
+  lesson         Lesson   @relation(fields: [lessonId], references: [id])
+  watchedSeconds Int      @default(0)
+  completed      Boolean  @default(false)
+  lastAccessedAt DateTime @default(now())
+
+  @@unique([studentId, lessonId])
+  @@index([studentId])
+  @@index([lessonId])
+  @@map("lesson_progress")
+}
+
+// ==========================================================
+// QUIZZES
+// ==========================================================
+
+model Quiz {
+  id               String  @id @default(cuid())
+  courseId         String
+  course           Course  @relation(fields: [courseId], references: [id])
+  moduleId         String?
+  module           Module? @relation(fields: [moduleId], references: [id])
+  title            String
+  totalMarks       Int
+  passingMarks     Int
+  timeLimitMinutes Int
+  isPublished      Boolean @default(false)
+
+  questions Question[]
+  attempts  QuizAttempt[]
+
+  createdAt DateTime @default(now())
+
+  @@index([courseId])
+  @@map("quizzes")
+}
+
+model Question {
+  id         String       @id @default(cuid())
+  quizId     String
+  quiz       Quiz         @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  text       String
+  type       QuestionType
+  marks      Int
+  orderIndex Int
+
+  options Option[]
+  answers Answer[]
+
+  @@index([quizId])
+  @@map("questions")
+}
+
+model Option {
+  id         String   @id @default(cuid())
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  text       String
+  isCorrect  Boolean  @default(false)
+
+  answers Answer[]
+
+  @@index([questionId])
+  @@map("options")
+}
+
+model QuizAttempt {
+  id            String            @id @default(cuid())
+  studentId     String
+  student       User              @relation(fields: [studentId], references: [id])
+  quizId        String
+  quiz          Quiz              @relation(fields: [quizId], references: [id])
+  startedAt     DateTime          @default(now())
+  submittedAt   DateTime?
+  marksObtained Int?
+  status        QuizAttemptStatus @default(IN_PROGRESS)
+
+  answers Answer[]
+
+  @@index([studentId])
+  @@index([quizId])
+  @@map("quiz_attempts")
+}
+
+model Answer {
+  id                String      @id @default(cuid())
+  attemptId         String
+  attempt           QuizAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId        String
+  question          Question    @relation(fields: [questionId], references: [id])
+  selectedOptionId  String?
+  selectedOptionIds Json?       @map("selected_option_ids")
+  selectedOption    Option?     @relation(fields: [selectedOptionId], references: [id])
+  textAnswer        String?
+  marksObtained     Int?
+
+  @@unique([attemptId, questionId])
+  @@index([attemptId])
+  @@index([questionId])
+  @@map("answers")
+}
+
+// ==========================================================
+// ASSIGNMENTS
+// ==========================================================
+
+model Assignment {
+  id           String   @id @default(cuid())
+  courseId     String
+  course       Course   @relation(fields: [courseId], references: [id])
+  title        String
+  instructions String
+  dueDate      DateTime
+  totalMarks   Int
+  passingMarks Int? // Null on legacy records until explicitly configured by teacher
+  attachments  Json?
+  createdById  String
+  createdBy    User     @relation("AssignmentCreator", fields: [createdById], references: [id])
+
+  submissions AssignmentSubmission[]
+
+  createdAt DateTime @default(now())
+
+  @@index([courseId])
+  @@map("assignments")
+}
+
+model AssignmentSubmission {
+  id            String           @id @default(cuid())
+  assignmentId  String
+  assignment    Assignment       @relation(fields: [assignmentId], references: [id])
+  studentId     String
+  student       User             @relation(fields: [studentId], references: [id])
+  text          String?
+  attachments   Json?
+  submittedAt   DateTime         @default(now())
+  marksObtained Int?
+  feedback      String?
+  status        SubmissionStatus @default(SUBMITTED)
+
+  @@unique([assignmentId, studentId])
+  @@index([assignmentId])
+  @@index([studentId])
+  @@map("assignment_submissions")
+}
+
+// ==========================================================
+// LIVE CLASSES / ATTENDANCE
+// ==========================================================
+
+model LiveClass {
+  id              String          @id @default(cuid())
+  courseId        String
+  course          Course          @relation(fields: [courseId], references: [id])
+  title           String
+  scheduledAt     DateTime
+  durationMinutes Int
+  meetingLink     String?
+  recordingUrl    String?
+  status          LiveClassStatus @default(SCHEDULED)
+  createdById     String
+  createdBy       User            @relation("LiveClassCreator", fields: [createdById], references: [id])
+
+  attendances Attendance[]
+
+  createdAt DateTime @default(now())
+
+  @@index([courseId])
+  @@map("live_classes")
+}
+
+model Attendance {
+  id          String           @id @default(cuid())
+  liveClassId String
+  liveClass   LiveClass        @relation(fields: [liveClassId], references: [id])
+  studentId   String
+  student     User             @relation(fields: [studentId], references: [id])
+  status      AttendanceStatus @default(ABSENT)
+  markedById  String?
+  markedBy    User?            @relation("AttendanceMarker", fields: [markedById], references: [id])
+
+  @@unique([liveClassId, studentId])
+  @@index([liveClassId])
+  @@index([studentId])
+  @@map("attendances")
+}
+
+// ==========================================================
+// CERTIFICATES / NOTIFICATIONS / REVIEWS
+// ==========================================================
+
+model Certificate {
+  id                String   @id @default(cuid())
+  studentId         String
+  student           User     @relation(fields: [studentId], references: [id])
+  courseId          String
+  certificateNumber String   @unique
+  pdfUrl            String
+  issuedAt          DateTime @default(now())
+
+  @@unique([studentId, courseId])
+  @@index([studentId])
+  @@map("certificates")
+}
+
+model Notification {
+  id        String           @id @default(cuid())
+  userId    String
+  user      User             @relation(fields: [userId], references: [id])
+  title     String
+  message   String
+  type      NotificationType @default(INFO)
+  isRead    Boolean          @default(false)
+  createdAt DateTime         @default(now())
+
+  @@index([userId])
+  @@map("notifications")
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  courseId  String
+  course    Course   @relation(fields: [courseId], references: [id])
+  studentId String
+  student   User     @relation(fields: [studentId], references: [id])
+  rating    Int
+  comment   String?
+  createdAt DateTime @default(now())
+
+  @@unique([courseId, studentId])
+  @@index([courseId])
+  @@map("reviews")
+}
+
+// ==========================================================
+// DISCUSSIONS
+// ==========================================================
+
+model DiscussionThread {
+  id         String   @id @default(cuid())
+  courseId   String
+  course     Course   @relation(fields: [courseId], references: [id])
+  lessonId   String?
+  lesson     Lesson?  @relation(fields: [lessonId], references: [id])
+  studentId  String
+  student    User     @relation(fields: [studentId], references: [id])
+  title      String
+  body       String
+  isResolved Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  replies DiscussionReply[]
+
+  @@index([courseId])
+  @@index([lessonId])
+  @@map("discussion_threads")
+}
+
+model DiscussionReply {
+  id        String           @id @default(cuid())
+  threadId  String
+  thread    DiscussionThread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User             @relation(fields: [userId], references: [id])
+  body      String
+  isPinned  Boolean          @default(false)
+  createdAt DateTime         @default(now())
+
+  @@index([threadId])
+  @@map("discussion_replies")
+}
+
+// ==========================================================
+// PAYMENTS / COUPONS
+// ==========================================================
+
+model Coupon {
+  id              String    @id @default(cuid())
+  code            String    @unique
+  discountPercent Int
+  expiresAt       DateTime?
+  usageLimit      Int?
+  courseId        String?
+  course          Course?   @relation(fields: [courseId], references: [id])
+
+  createdAt DateTime @default(now())
+
+  @@map("coupons")
+}
+
+model Payment {
+  id            String        @id @default(cuid())
+  studentId     String
+  student       User          @relation(fields: [studentId], references: [id])
+  courseId      String
+  course        Course        @relation(fields: [courseId], references: [id])
+  amount        Decimal       @db.Decimal(10, 2)
+  provider      String
+  transactionId String        @unique
+  status        PaymentStatus @default(PENDING)
+  paidAt        DateTime?
+  createdAt     DateTime      @default(now())
+  // Licence track the learner chose at checkout. The enrolment created on payment takes this value.
+  licenceTrack  String        @default("non-licensed")
+
+  @@index([studentId])
+  @@index([courseId])
+  @@map("payments")
+}
+
+// ==========================================================
+// AUDIT LOG
+// ==========================================================
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  action    String
+  entity    String
+  entityId  String
+  oldValue  Json?
+  newValue  Json?
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([entity, entityId])
+  @@map("audit_logs")
+}
+
+// Skilled: canonical lesson inventory, independent of legacy course lessons.
+// Briefs are intentionally NOT published as complete instructional content.
+model AcademyContentLesson {
+  id            String   @id @default(cuid())
+  sourceId      String   @unique
+  layer         String
+  serviceGroup  String
+  unit          String
+  title         String
+  objective     String   @db.Text
+  assessment    String   @db.Text
+  contentStatus String   @default("BRIEF")
+  sourceVersion String
+  sourceHash    String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  revisions         AcademyLessonRevision[]
+  placements        AcademyLessonPlacement[]
+  templateResponses AcademyTemplateResponse[]
+
+  @@index([layer, serviceGroup])
+  @@map("academy_content_lessons")
+}
+
+// Pass 1: immutable authored revisions and reusable curriculum composition.
+// The existing LMS Lesson and LessonProgress models remain untouched.
+model AcademyLessonRevision {
+  practicalEvidence AcademyPracticalEvidence[]
+  id                String                     @id @default(cuid())
+  lessonId          String
+  lesson            AcademyContentLesson       @relation(fields: [lessonId], references: [id], onDelete: Restrict)
+  version           Int
+  body              Json
+  contentHash       String
+  status            String                     @default("DRAFT")
+  createdAt         DateTime                   @default(now())
+  publishedAt       DateTime?
+  placements        AcademyLessonPlacement[]
+  completions       AcademyLearnerCompletion[]
+  knowledgeAttempts AcademyKnowledgeAttempt[]
+  knowledgeAnswerKeys AcademyKnowledgeAnswerKey[]
+  lessonReviews     AcademyLessonReview[]
+  templateResponses AcademyTemplateResponse[]
+
+  @@unique([lessonId, version])
+  @@index([lessonId, status])
+  @@map("academy_lesson_revisions")
+}
+
+model AcademyCurriculumTrack {
+  id           String                   @id @default(cuid())
+  slug         String                   @unique
+  title        String
+  scope        String
+  serviceGroup String?
+  status       String                   @default("DRAFT")
+  createdAt    DateTime                 @default(now())
+  updatedAt    DateTime                 @updatedAt
+  placements   AcademyLessonPlacement[]
+  courseTracks AcademyCourseTrack[]
+
+  @@map("academy_curriculum_tracks")
+}
+
+model AcademyLessonPlacement {
+  id         String                 @id @default(cuid())
+  trackId    String
+  track      AcademyCurriculumTrack @relation(fields: [trackId], references: [id], onDelete: Cascade)
+  lessonId   String
+  lesson     AcademyContentLesson   @relation(fields: [lessonId], references: [id], onDelete: Restrict)
+  revisionId String?
+  revision   AcademyLessonRevision? @relation(fields: [revisionId], references: [id], onDelete: Restrict)
+  position   Int
+  required   Boolean                @default(true)
+  createdAt  DateTime               @default(now())
+
+  @@unique([trackId, lessonId])
+  @@unique([trackId, position])
+  @@index([lessonId])
+  @@map("academy_lesson_placements")
+}
+
+// Pass 3: course composition and learner completion for canonical lesson revisions.
+model AcademyCourseTrack {
+  id        String                 @id @default(cuid())
+  courseId  String
+  course    Course                 @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  trackId   String
+  track     AcademyCurriculumTrack @relation(fields: [trackId], references: [id], onDelete: Restrict)
+  position  Int
+  required  Boolean                @default(true)
+  createdAt DateTime               @default(now())
+
+  @@unique([courseId, trackId])
+  @@unique([courseId, position])
+  @@index([trackId])
+  @@map("academy_course_tracks")
+}
+
+// PASS42 course lesson selection. A course with no rows uses its full level CSV (curriculum/levels).
+// Rows are the lessons a scope includes. A scope is one company (companyId set) or the course-wide
+// default (companyId NULL). Saving a selection replaces all rows for its scope only.
+// Learners read their company's rows, then the course-wide rows, then the full level CSV.
+// sourceId is the curriculum lesson ID from the course's level CSV, so it can be checked against the course pool.
+// The course-wide rows need a partial unique index on (courseId, sourceId) WHERE companyId IS NULL. Prisma
+// cannot express it, so it is created in the migration SQL only.
+model AcademyCourseLessonSelection {
+  id             String               @id @default(cuid())
+  courseId       String
+  course         Course               @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  companyId String?
+  company   Company? @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  sourceId       String
+  savedById      String
+  savedBy        User                 @relation("AcademyCourseSelectionSaver", fields: [savedById], references: [id], onDelete: Restrict)
+  savedAt        DateTime             @default(now())
+
+  @@unique([companyId, courseId, sourceId], map: "academy_course_lesson_selections_companyId_courseId_so_key")
+  @@index([courseId, sourceId])
+  @@index([savedById])
+  @@map("academy_course_lesson_selections")
+}
+
+model AcademyLearnerCompletion {
+  id          String                @id @default(cuid())
+  learnerId   String
+  lessonId    String
+  revisionId  String
+  revision    AcademyLessonRevision @relation(fields: [revisionId], references: [id], onDelete: Restrict)
+  completedAt DateTime              @default(now())
+
+  @@unique([learnerId, lessonId, revisionId])
+  @@index([learnerId, lessonId])
+  @@map("academy_learner_completions")
+}
+
+// Pass 6: learner knowledge-check attempts are separate from lesson acknowledgements.
+model AcademyKnowledgeAttempt {
+  id         String                @id @default(cuid())
+  learnerId  String
+  lessonId   String
+  revisionId String
+  revision   AcademyLessonRevision @relation(fields: [revisionId], references: [id], onDelete: Restrict)
+  answers    Json
+  score      Int
+  total      Int
+  passed     Boolean
+  createdAt  DateTime              @default(now())
+
+  @@index([learnerId, revisionId, createdAt])
+  @@map("academy_knowledge_attempts")
+}
+
+// Server-side answer keys for knowledge checks, one row per check on a pinned revision. Never sent to learners.
+// Loaded from curriculum/assessments/<lessonId>.assessment.json by apps/backend/prisma/load-knowledge-answer-keys.ts.
+model AcademyKnowledgeAnswerKey {
+  id           String                @id @default(cuid())
+  revisionId   String
+  revision     AcademyLessonRevision @relation(fields: [revisionId], references: [id], onDelete: Restrict)
+  checkId      String
+  correctIndex Int
+  rationale    String?
+  loadedAt     DateTime              @default(now())
+
+  @@unique([revisionId, checkId])
+  @@map("academy_knowledge_answer_keys")
+}
+
+// Practical assessments require an explicit independent review; no automatic credential issuance.
+model AcademyPracticalEvidence {
+  id               String                      @id @default(cuid())
+  companyId   String?
+  company     Company?        @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  learnerId        String
+  lessonId         String
+  revisionId       String
+  revision         AcademyLessonRevision       @relation(fields: [revisionId], references: [id], onDelete: Restrict)
+  description      String                      @db.Text
+  evidenceUrls     Json
+  status           String                      @default("PENDING")
+  assessorId       String?
+  assessorFeedback String?                     @db.Text
+  reviewedAt       DateTime?
+  createdAt        DateTime                    @default(now())
+  competencies     AcademyVerifiedCompetency[]
+  templateSignOffs AcademyTemplateSignOff[]
+
+  @@index([learnerId, createdAt])
+  @@index([status, createdAt])
+  @@index([companyId, status, createdAt])
+  @@map("academy_practical_evidence")
+}
+
+// Companies are Academy-owned training tenants; external IDs are integration references only.
+model Company {
+  id                     String                         @id @default(cuid())
+  name                   String
+  externalRef            String?                        @unique
+  createdAt              DateTime                       @default(now())
+  memberships            CompanyMember[]
+  practicalEvidence      AcademyPracticalEvidence[]
+  assignments            AcademyTrainingAssignment[]
+  competencies           AcademyVerifiedCompetency[]
+  templateResponses      AcademyTemplateResponse[]
+  pathwayEnrolments      AcademyPathwayEnrolment[]
+  courseLessonSelections AcademyCourseLessonSelection[]
+  tutorConversations     AcademyTutorConversation[]
+  chatbots               AcademyChatbot[]
+  chatbotConversations   AcademyChatbotConversation[]
+  chatbotMessages        AcademyChatbotMessage[]
+
+  @@map("academy_companies")
+}
+
+model CompanyMember {
+  id             String              @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  userId         String
+  user           User                @relation(fields: [userId], references: [id], onDelete: Restrict)
+  role           String              @default("LEARNER") // OWNER, MANAGER, ASSESSOR, LEARNER
+  createdAt      DateTime            @default(now())
+
+  @@unique([companyId, userId])
+  @@index([userId])
+  @@map("academy_company_members")
+}
+
+model AcademyTrainingAssignment {
+  id             String              @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  learnerId      String
+  learner        User                @relation("AcademyAssignedLearner", fields: [learnerId], references: [id], onDelete: Restrict)
+  assignedById   String
+  assignedBy     User                @relation("AcademyAssignmentCreator", fields: [assignedById], references: [id], onDelete: Restrict)
+  courseId       String
+  course         Course              @relation(fields: [courseId], references: [id], onDelete: Restrict)
+  status         String              @default("ASSIGNED")
+  dueAt          DateTime?
+  createdAt      DateTime            @default(now())
+
+  @@unique([companyId, learnerId, courseId], map: "academy_training_assignments_org_learner_course_key")
+  @@index([learnerId, status])
+  @@map("academy_training_assignments")
+}
+
+// Verified practical competencies are company-scoped and require assessor approval.
+model AcademyVerifiedCompetency {
+  id             String                   @id @default(cuid())
+  companyId String
+  company   Company      @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  learnerId      String
+  learner        User                     @relation("AcademyCompetencyLearner", fields: [learnerId], references: [id], onDelete: Restrict)
+  lessonId       String
+  revisionId     String
+  evidenceId     String                   @unique
+  evidence       AcademyPracticalEvidence @relation(fields: [evidenceId], references: [id], onDelete: Restrict)
+  assessorId     String
+  assessor       User                     @relation("AcademyCompetencyAssessor", fields: [assessorId], references: [id], onDelete: Restrict)
+  verifiedAt     DateTime                 @default(now())
+  expiresAt      DateTime?
+
+  @@index([companyId, learnerId])
+  @@index([learnerId, lessonId])
+  @@map("academy_verified_competencies")
+}
+
+// Provisioned identities avoid trusting caller-provided local Academy user IDs.
+model AcademyExternalIdentity {
+  id              String   @id @default(cuid())
+  service         String
+  externalUserRef String
+  companyId  String? // Legacy unscoped identities are deliberately denied until re-provisioned.
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Restrict)
+  createdAt       DateTime @default(now())
+
+  @@unique([service, externalUserRef])
+  @@unique([service, companyId, externalUserRef], map: "academy_external_identities_svc_org_ref_key")
+  @@index([companyId, userId])
+  @@index([userId])
+  @@map("academy_external_identities")
+}
+
+// Durable audit record for successful and denied service access attempts.
+model AcademyIntegrationAudit {
+  id              String   @id @default(cuid())
+  service         String
+  companyRef String?
+  externalUserRef String?
+  outcome         String
+  createdAt       DateTime @default(now())
+
+  @@index([service, createdAt])
+  @@index([companyRef, createdAt])
+  @@map("academy_integration_audit")
+}
+
+// Pass 17: revocable, tenant-bound machine credentials; never store plaintext tokens.
+model AcademyServiceCredential {
+  id              String    @id @default(cuid())
+  service         String
+  companyRef String
+  tokenHash       String    @unique
+  label           String
+  createdAt       DateTime  @default(now())
+  expiresAt       DateTime?
+  revokedAt       DateTime?
+
+  @@index([service, companyRef])
+  @@map("academy_service_credentials")
+}
+
+// Business-specific values supplement canonical lessons; they never overwrite published lesson content.
+model AcademyBusinessLessonField {
+  id              String    @id @default(cuid())
+  companyId  String
+  fieldKey        String
+  value           Json
+  status          String    @default("DRAFT") // DRAFT | APPROVED | RETIRED
+  sourceSystem    String? // e.g. field-services
+  sourceRecordRef String?
+  approvedById    String?
+  approvedAt      DateTime?
+  revision        Int       @default(1)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@unique([companyId, fieldKey], map: "academy_business_lesson_fields_org_key")
+  @@index([companyId, status], map: "academy_business_lesson_fields_org_status_idx")
+  @@map("academy_business_lesson_fields")
+}
+
+// Immutable evidence of the configuration actually presented during training.
+model AcademyLessonContextSnapshot {
+  id               String   @id @default(cuid())
+  companyId   String
+  learnerId        String
+  lessonRevisionId String
+  resolvedFields   Json
+  contentHash      String
+  createdAt        DateTime @default(now())
+
+  @@index([companyId, learnerId, createdAt], map: "academy_lesson_context_snapshots_org_learner_idx")
+  @@map("academy_lesson_context_snapshots")
+}
+
+// Pass 42: assessor review of lesson content. Decisions bind to one immutable revision and its content hash.
+model AcademyLessonReview {
+  id          String                @id @default(cuid())
+  revisionId  String
+  revision    AcademyLessonRevision @relation(fields: [revisionId], references: [id], onDelete: Restrict)
+  contentHash String
+  reviewerId  String
+  reviewer    User                  @relation("AcademyLessonReviewer", fields: [reviewerId], references: [id], onDelete: Restrict)
+  decision    String // APPROVED | REJECTED | CHANGES_REQUESTED
+  notes       String?               @db.Text
+  decidedAt   DateTime              @default(now())
+
+  @@index([revisionId, decidedAt])
+  @@index([reviewerId])
+  @@map("academy_lesson_reviews")
+}
+
+// Pass 42: a learner's fill-in response to one editable template in one template lesson.
+model AcademyTemplateResponse {
+  id             String                     @id @default(cuid())
+  companyId String?
+  company   Company?       @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  learnerId      String
+  learner        User                       @relation("AcademyTemplateLearner", fields: [learnerId], references: [id], onDelete: Restrict)
+  lessonId       String
+  lesson         AcademyContentLesson       @relation(fields: [lessonId], references: [id], onDelete: Restrict)
+  revisionId     String
+  revision       AcademyLessonRevision      @relation(fields: [revisionId], references: [id], onDelete: Restrict)
+  templateId     String
+  fieldValues    Json
+  status         String                     @default("IN_PROGRESS") // IN_PROGRESS | SUBMITTED | SIGNED_OFF
+  submittedAt    DateTime?
+  createdAt      DateTime                   @default(now())
+  updatedAt      DateTime                   @updatedAt
+  signOffs       AcademyTemplateSignOff[]
+  documents      AcademyGeneratedDocument[]
+
+  @@unique([learnerId, lessonId, templateId])
+  @@index([companyId, status])
+  @@index([lessonId, status])
+  @@map("academy_template_responses")
+}
+
+// Pass 42: assessor sign-off of a template response against its rubric. Separate from content review.
+model AcademyTemplateSignOff {
+  id                  String                    @id @default(cuid())
+  templateResponseId  String
+  templateResponse    AcademyTemplateResponse   @relation(fields: [templateResponseId], references: [id], onDelete: Restrict)
+  assessorId          String
+  assessor            User                      @relation("AcademyTemplateSignOffAssessor", fields: [assessorId], references: [id], onDelete: Restrict)
+  decision            String // SIGNED_OFF | CHANGES_REQUESTED
+  rubricResults       Json
+  notes               String?                   @db.Text
+  practicalEvidenceId String?                   @unique
+  practicalEvidence   AcademyPracticalEvidence? @relation(fields: [practicalEvidenceId], references: [id], onDelete: Restrict)
+  decidedAt           DateTime                  @default(now())
+  document            AcademyGeneratedDocument?
+
+  @@index([templateResponseId, decidedAt])
+  @@index([assessorId])
+  @@map("academy_template_sign_offs")
+}
+
+// Pass 42: assembled learner document. Issued only when linked to a SIGNED_OFF sign-off.
+model AcademyGeneratedDocument {
+  id                 String                  @id @default(cuid())
+  templateResponseId String
+  templateResponse   AcademyTemplateResponse @relation(fields: [templateResponseId], references: [id], onDelete: Restrict)
+  version            Int
+  contentHash        String
+  assembled          Json
+  signOffId          String?                 @unique
+  signOff            AcademyTemplateSignOff? @relation(fields: [signOffId], references: [id], onDelete: Restrict)
+  issuedAt           DateTime?
+  createdAt          DateTime                @default(now())
+
+  @@unique([templateResponseId, version])
+  @@map("academy_generated_documents")
+}
+
+// Pass 42: role pathways (PATH-SOLO, PATH-TEAM-MEMBER, PATH-TEAM-OWNER) from curriculum/structure/PATHWAYS.json.
+model AcademyCurriculumPathway {
+  id          String                    @id @default(cuid())
+  code        String                    @unique
+  title       String
+  description String                    @db.Text
+  status      String                    @default("DRAFT")
+  createdAt   DateTime                  @default(now())
+  updatedAt   DateTime                  @updatedAt
+  courses     AcademyPathwayCourse[]
+  enrolments  AcademyPathwayEnrolment[]
+
+  @@map("academy_curriculum_pathways")
+}
+
+// Pass 42: ordered course slugs in a pathway. Base modules and service courses are both rows here.
+model AcademyPathwayCourse {
+  id         String                   @id @default(cuid())
+  pathwayId  String
+  pathway    AcademyCurriculumPathway @relation(fields: [pathwayId], references: [id], onDelete: Cascade)
+  courseSlug String
+  required   Boolean                  @default(true)
+  position   Int
+  createdAt  DateTime                 @default(now())
+
+  @@unique([pathwayId, courseSlug])
+  @@unique([pathwayId, position])
+  @@index([courseSlug])
+  @@map("academy_pathway_courses")
+}
+
+// Pass 42: learner enrolment in a role pathway, optionally scoped to an Academy company.
+model AcademyPathwayEnrolment {
+  id             String                   @id @default(cuid())
+  pathwayId      String
+  pathway        AcademyCurriculumPathway @relation(fields: [pathwayId], references: [id], onDelete: Restrict)
+  learnerId      String
+  learner        User                     @relation("AcademyPathwayLearner", fields: [learnerId], references: [id], onDelete: Restrict)
+  companyId String?
+  company   Company?     @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  status         String                   @default("ACTIVE") // ACTIVE | COMPLETED | WITHDRAWN
+  enrolledAt     DateTime                 @default(now())
+  completedAt    DateTime?
+
+  @@unique([pathwayId, learnerId])
+  @@index([learnerId, status])
+  @@index([companyId, status])
+  @@map("academy_pathway_enrolments")
+}
+
+// Tutor conversations are per learner and per company (the runtime's companyId). Retention: rows older than
+// 30 days (createdAt) are deleted by src/tutor/store/retention.ts. Messages and tool audits carry companyId and
+// reference the conversation through a composite key, so a child row cannot point at another company's conversation.
+model AcademyTutorConversation {
+  id             String                      @id @default(cuid())
+  companyId String
+  company   Company         @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  learnerId      String
+  learner        User                        @relation("AcademyTutorLearner", fields: [learnerId], references: [id], onDelete: Restrict)
+  createdAt      DateTime                    @default(now())
+  updatedAt      DateTime                    @updatedAt
+  messages       AcademyTutorMessage[]
+  toolAudits     AcademyTutorToolAudit[]
+
+  @@unique([companyId, id])
+  @@index([createdAt])
+  @@index([companyId, learnerId, createdAt])
+  @@map("academy_tutor_conversations")
+}
+
+model AcademyTutorMessage {
+  id             String                   @id @default(cuid())
+  companyId String
+  conversationId String
+  conversation   AcademyTutorConversation @relation(fields: [companyId, conversationId], references: [companyId, id], onDelete: Cascade)
+  role           String // system | user | assistant | tool (runtime ChatRole)
+  content        String                   @db.Text
+  createdAt      DateTime                 @default(now())
+
+  @@index([conversationId, createdAt])
+  @@map("academy_tutor_messages")
+}
+
+// One row per ToolAuditEntry written by the runtime's ToolExecutor for a tutor conversation.
+model AcademyTutorToolAudit {
+  id             String                   @id @default(cuid())
+  companyId String
+  conversationId String
+  conversation   AcademyTutorConversation @relation(fields: [companyId, conversationId], references: [companyId, id], onDelete: Cascade)
+  tool           String
+  userId         String? // ToolAuditEntry.user_id stored as text. Deliberately not a foreign key.
+  inputHash      String
+  status         String // success | dry_run | blocked | failed | timed_out
+  durationMs     Int
+  error          String?
+  createdAt      DateTime                 @default(now())
+
+  @@index([conversationId, createdAt])
+  @@index([companyId, createdAt])
+  @@map("academy_tutor_tool_audits")
+}
+
+// ==========================================================
+// TITAN ACADEMY TUTOR CHATBOT (DRAFT, NOT APPLIED)
+// ==========================================================
+// Merged from src/tutor/chatbot/PROPOSED-SCHEMA.prisma. No migration is applied, and the migration SQL is a draft in
+// prisma/migrations-draft/20261108120100_academy_chatbot/. Prisma cannot express the CHECK constraints on ticketStatus,
+// role and contentType; the draft SQL adds them by hand.
+// Tenant key: companyId holds the LMS tenant id as-is (a Company cuid). Each chatbot table has a foreign key
+// from companyId to academy_companies(id), with ON DELETE RESTRICT. See src/tutor/chatbot/CHANGES.md.
+
+model AcademyChatbot {
+  id                  String              @id @default(cuid())
+  companyId           String
+  company        Company @relation(fields: [companyId], references: [id], map: "chatbots_company_fk", onDelete: Restrict)
+  title               String              @db.VarChar(200)
+  language            String              @default("en") @db.VarChar(10)
+  welcomeMessage      String?             @db.Text
+  instructions        String?             @db.Text
+  generativeUiEnabled Boolean             @default(true)
+  active              Boolean             @default(true)
+  createdAt           DateTime            @default(now())
+  updatedAt           DateTime            @default(now())
+
+  conversations AcademyChatbotConversation[]
+
+  @@unique([companyId, id], map: "chatbots_company_id_uidx")
+  @@index([companyId, active], map: "chatbots_company_active_idx")
+  @@map("academy_chatbots")
+}
+
+model AcademyChatbotConversation {
+  id               String              @id @default(cuid())
+  companyId        String
+  company     Company @relation(fields: [companyId], references: [id], map: "chatbot_conversations_company_fk", onDelete: Restrict)
+  chatbotId        String
+  chatbot          AcademyChatbot      @relation(fields: [companyId, chatbotId], references: [companyId, id], map: "chatbot_conversations_company_chatbot_fk")
+  sessionId        String         @db.VarChar(128)
+  channel          String         @default("web") @db.VarChar(32)
+  connectAgentAt   DateTime?
+  isShownOnHistory Boolean        @default(true)
+  ticketStatus     String         @default("new") @db.VarChar(16) // new | closed. CHECK in draft SQL.
+  pinned           Boolean        @default(false)
+  lastActivityAt   DateTime       @default(now())
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @default(now())
+
+  messages AcademyChatbotMessage[]
+
+  @@unique([companyId, id], map: "chatbot_conversations_company_id_uidx")
+  @@index([companyId, lastActivityAt], map: "chatbot_conversations_company_activity_idx")
+  @@index([companyId, sessionId], map: "chatbot_conversations_company_session_idx")
+  @@map("academy_chatbot_conversations")
+}
+
+model AcademyChatbotMessage {
+  id             String                     @id @default(cuid())
+  companyId      String
+  company   Company        @relation(fields: [companyId], references: [id], map: "chatbot_messages_company_fk", onDelete: Restrict)
+  conversationId String
+  conversation   AcademyChatbotConversation @relation(fields: [companyId, conversationId], references: [companyId, id], map: "chatbot_messages_company_conversation_fk")
+  role           String                     @db.VarChar(16) // user | assistant. CHECK in draft SQL.
+  message        String                     @db.Text
+  contentType    String                     @default("text") @db.VarChar(16) // text | titan-ui. CHECK in draft SQL.
+  uiSpec         Json?
+  mediaUrl       String?                    @db.Text
+  mediaName      String?                    @db.Text
+  isInternalNote Boolean                    @default(false)
+  readAt         DateTime?
+  createdAt      DateTime                   @default(now())
+
+  @@index([companyId, conversationId, createdAt], map: "chatbot_messages_company_conversation_idx")
+  @@index([companyId, conversationId, role, readAt], map: "chatbot_messages_unread_idx")
+  @@map("academy_chatbot_messages")
+}
