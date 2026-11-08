@@ -7,12 +7,13 @@ import { BUSINESS_LESSON_FIELDS, isBusinessLessonFieldKey, resolveApprovedBusine
 import { z } from "zod";
 import { prisma } from "../../config/prisma";
 import { authenticate } from "../../middleware/authenticate";
-import { requirePermission } from "../../middleware/permission";
+import { requirePermission, requireRole } from "../../middleware/permission";
 import { sendSuccess } from "../../utils/response";
 import { AppError, ForbiddenError, NotFoundError } from "../../utils/AppError";
 import lessonReviewRoutes from "./lesson-review.routes";
 import superadminLessonRoutes from "./superadmin-lesson.routes";
 import { contentHashOf, createDraftRevision } from "./lesson-review.service";
+import { previewLatestRevision } from "./lesson-preview.service";
 import { assertCompetencyAwardable } from "./assessment-evidence";
 import { buildCourseLessonProgress } from "./completion-report.service";
 import { assertEnrolled } from "../enrollment/enrollment.service";
@@ -169,6 +170,16 @@ router.get("/courses/:courseId/lessons/:lessonId/body", authenticate, run(async 
   if (contentHashOf(placement.revision.body) !== placement.revision.contentHash) throw new AppError("This lesson's published content failed its integrity check. Please contact your training administrator.", 409);
   res.setHeader("Cache-Control", "private, no-store");
   sendSuccess(res, publicLessonBody(placement.revision.body));
+}));
+
+// Admin-only preview of a lesson's latest revision, draft or unapproved, under the admin login. The path takes the lesson's
+// sourceId, as the other lesson routes do. The response is the learner view (answer material stripped) with
+// preview: true and the review status. It approves, publishes and changes nothing; learners cannot reach it.
+router.get("/preview/lessons/:lessonId", authenticate, requireRole("ADMIN"), run(async (req, res) => {
+  const actorId = req.user!.userId;
+  const preview = await previewLatestRevision(param(req, "lessonId"), actorId);
+  res.setHeader("Cache-Control", "private, no-store");
+  sendSuccess(res, { ...preview, body: publicLessonBody(preview.body) });
 }));
 // Learner progress through the shared lessons of one course. Enrolment rules match enrollment.service.
 router.get("/courses/:courseId/progress/me", authenticate, run(async (req, res) => {
