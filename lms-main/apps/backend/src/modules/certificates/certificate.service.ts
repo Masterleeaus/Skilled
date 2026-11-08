@@ -5,13 +5,35 @@ import { AppError, NotFoundError } from "../../utils/AppError";
 import { evaluateCertificateEligibility } from "./certificate-eligibility.service";
 import { minioClient, MINIO_BUCKET, buildObjectKey, STORAGE_FOLDERS } from "../../config/minio";
 
+/**
+ * Display reference printed on the PDF. It has only 32 bits of randomness, so it must never be the key that
+ * the public verify endpoint uses for certificates issued after the verification-token migration.
+ */
 function generateCertificateNumber(): string {
   const year = new Date().getFullYear();
   const random = crypto.randomBytes(4).toString("hex").toUpperCase();
   return `LMS-${year}-${random}`;
 }
 
-async function generateCertificatePdf(studentName: string, courseTitle: string, certNumber: string) {
+/**
+ * Verification key for newly issued certificates: 128 bits from the CSPRNG, base64url (22 characters, no padding).
+ * Only the token shape is public; it is not derived from the learner, course or certificate number.
+ */
+export function generateVerificationToken(): string {
+  return crypto.randomBytes(16).toString("base64url");
+}
+
+/** Shape of a verification token. Anything else is tested against the legacy certificate-number shape. */
+export const VERIFICATION_TOKEN_PATTERN = /^[A-Za-z0-9_-]{22}$/;
+/** Shape of a certificate number issued before tokens existed (`LMS-YYYY-XXXXXXXX`). */
+export const LEGACY_CERTIFICATE_NUMBER_PATTERN = /^LMS-\d{4}-[0-9A-F]{8}$/;
+
+async function generateCertificatePdf(
+  studentName: string,
+  courseTitle: string,
+  certNumber: string,
+  verificationToken: string,
+) {
   const pdfDoc = await PDFDocument.create();
   const page = pdfDoc.addPage([842, 595]); // A4 landscape
   const font = await pdfDoc.embedFont(StandardFonts.HelveticaBold);
@@ -78,6 +100,13 @@ async function generateCertificatePdf(studentName: string, courseTitle: string, 
     font: regularFont,
   });
 
+  page.drawText(`Verification code: ${verificationToken}`, {
+    x: 60,
+    y: 45,
+    size: 10,
+    font: regularFont,
+  });
+
   return pdfDoc.save();
 }
 
@@ -102,10 +131,12 @@ export async function issueCertificate(studentId: string, courseId: string) {
   }
 
   const certificateNumber = generateCertificateNumber();
+  const verificationToken = generateVerificationToken();
   const pdfBytes = await generateCertificatePdf(
     enrollment.student.fullName,
     enrollment.course.title,
     certificateNumber,
+    verificationToken,
   );
 
   const objectKey = buildObjectKey(STORAGE_FOLDERS.certificates, `${certificateNumber}.pdf`);
@@ -115,7 +146,7 @@ export async function issueCertificate(studentId: string, courseId: string) {
 
   try {
     return await prisma.certificate.create({
-      data: { studentId, courseId, certificateNumber, pdfUrl: objectKey },
+      data: { studentId, courseId, certificateNumber, verificationToken, pdfUrl: objectKey },
     });
   } catch (error) {
     // At-least-once queue delivery or concurrent workers: rely on the unique DB index.
@@ -153,12 +184,27 @@ export async function getCertificateDownloadUrl(certificateId: string, studentId
   return minioClient.presignedGetObject(MINIO_BUCKET, certificate.pdfUrl, 60 * 60);
 }
 
-export async function verifyCertificate(certificateNumber: string) {
-  const certificate = await prisma.certificate.findUnique({
-    where: { certificateNumber },
-    include: {
-      student: { select: { fullName: true } },
-    },
+/**
+ * Public verification. `code` is either:
+ *  - a verification token (new certificates): matched on verificationToken only; or
+ *  - a legacy certificate number: matched only on rows whose verificationToken is NULL.
+ * A new certificate therefore cannot be verified by its 32-bit display number.
+ *
+ * The response confirms authenticity and nothing more: the certificate number, the course title and the issue
+ * date. The learner's full name is included only when the learner has opted in (showNameOnVerify).
+ */
+export async function verifyCertificate(code: string) {
+  let where: { verificationToken: string } | { certificateNumber: string; verificationToken: null } | null = null;
+  if (VERIFICATION_TOKEN_PATTERN.test(code)) {
+    where = { verificationToken: code };
+  } else if (LEGACY_CERTIFICATE_NUMBER_PATTERN.test(code)) {
+    where = { certificateNumber: code, verificationToken: null };
+  }
+  if (!where) throw new NotFoundError("Certificate");
+
+  const certificate = await prisma.certificate.findFirst({
+    where,
+    include: { student: { select: { fullName: true } } },
   });
   if (!certificate) throw new NotFoundError("Certificate");
 
@@ -168,9 +214,23 @@ export async function verifyCertificate(certificateNumber: string) {
   });
 
   return {
-    valid: true,
-    studentName: certificate.student.fullName,
-    courseTitle: course?.title,
+    valid: true as const,
+    certificateNumber: certificate.certificateNumber,
+    courseTitle: course?.title ?? null,
     issuedAt: certificate.issuedAt,
+    ...(certificate.showNameOnVerify ? { studentName: certificate.student.fullName } : {}),
   };
+}
+
+/** Learner opt-in: whether the public verify response includes their full name. Default is off. */
+export async function setShowNameOnVerify(certificateId: string, studentId: string, show: boolean) {
+  const certificate = await prisma.certificate.findUnique({ where: { id: certificateId } });
+  if (!certificate) throw new NotFoundError("Certificate");
+  if (certificate.studentId !== studentId) throw new AppError("Not your certificate", 403);
+
+  return prisma.certificate.update({
+    where: { id: certificateId },
+    data: { showNameOnVerify: show },
+    select: { id: true, showNameOnVerify: true },
+  });
 }

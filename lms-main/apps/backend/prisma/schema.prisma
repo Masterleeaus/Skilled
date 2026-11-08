@@ -477,7 +477,13 @@ model Certificate {
   studentId         String
   student           User     @relation(fields: [studentId], references: [id])
   courseId          String
+  // Human-readable reference printed on the PDF. Low entropy (32 bits): never a verification key for new rows.
   certificateNumber String   @unique
+  // 128-bit random, base64url (22 chars). Set on every certificate issued after the verification-token migration.
+  // NULL marks a legacy certificate, which is still verifiable by certificateNumber. See docs/certificate-verification.md.
+  verificationToken String?  @unique
+  // Opt-in: when true, the public verify response includes the learner's full name. Default false.
+  showNameOnVerify  Boolean  @default(false)
   pdfUrl            String
   issuedAt          DateTime @default(now())
 
