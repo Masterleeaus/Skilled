@@ -43,7 +43,11 @@ export function Topbar({ title, backHref, backLabel = "Back" }: TopbarProps) {
 
   return (
     <header className="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 border-b border-neutral-800 px-6 py-4">
-      <div className="flex items-center gap-4">
+      <div className="flex min-w-0 items-center gap-3">
+        <Link href={homeHref} aria-label="SkilledAt.Work dashboard" className="shrink-0 text-sm font-semibold tracking-tight text-neutral-100 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+          SkilledAt.Work
+        </Link>
+        <span aria-hidden="true" className="h-5 w-px bg-neutral-700" />
         {backHref === "back" ? (
           <button onClick={() => router.back()} className="flex items-center gap-1.5 text-sm text-neutral-400 hover:text-neutral-200">
             <ArrowLeft className="h-4 w-4" aria-hidden="true" />{backLabel}
@@ -55,7 +59,7 @@ export function Topbar({ title, backHref, backLabel = "Back" }: TopbarProps) {
             </Link>
           )
         )}
-        <h1 className="text-lg font-semibold">{title}</h1>
+        <h1 className="min-w-0 text-lg font-semibold">{title}</h1>
       </div>
 
       <div ref={menuRef} className="relative flex items-center gap-4 text-sm text-neutral-400">
