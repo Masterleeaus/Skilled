@@ -35,6 +35,15 @@ const envSchema = z.object({
     .min(500 * 1024 * 1024 + 1024 * 1024, "Must hold at least one maximum-size video upload")
     .default(2 * 1024 * 1024 * 1024),
 
+  // Assignment attachment admission control. One maximum submission (5 files of 20MB plus multipart allowance) must always fit.
+  ASSIGNMENT_UPLOAD_MAX_CONCURRENT_PER_USER: z.coerce.number().int().min(1).max(20).default(2),
+  ASSIGNMENT_UPLOAD_MAX_CONCURRENT_GLOBAL: z.coerce.number().int().min(1).max(200).default(8),
+  ASSIGNMENT_UPLOAD_MAX_INFLIGHT_BYTES: z.coerce
+    .number()
+    .int()
+    .min(101 * 1024 * 1024, "Must hold at least one maximum-size assignment submission")
+    .default(512 * 1024 * 1024),
+
   SMTP_HOST: z.string().default("localhost"),
   SMTP_PORT: z.coerce.number().int().min(1).max(65535).default(1025),
   SMTP_FROM: z.string().default("no-reply@lms.local"),
