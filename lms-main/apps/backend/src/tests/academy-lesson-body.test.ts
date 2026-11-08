@@ -162,8 +162,8 @@ describe("lesson body endpoint", () => {
     const placements: Placement[] = res.body.data.tracks.flatMap((t: TrackEntry) => t.track.placements);
     const lessonC = placements.find((p) => p.lesson.sourceId === "TST-C");
     expect(lessonC).toBeDefined();
-    expect(lessonC.revision).toBeNull();
-    expect(lessonC.levelLock ?? null).toBeNull();
+    expect(lessonC?.revision).toBeNull();
+    expect(lessonC?.levelLock ?? null).toBeNull();
   });
 
   it("shows the outline lock with no body for a locked lesson", async () => {

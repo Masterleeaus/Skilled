@@ -129,7 +129,7 @@ describe("licence track choice", () => {
   it("non-licensed outline includes a threshold lesson with its limit text and no licence note", async () => {
     const res = await request(app).get(OUTLINE("non-licensed")).set(auth(ids.learner1));
     const lessonA = placementsOf(res.body).find((p) => p.lesson.sourceId === "TST-A");
-    expect(lessonA.licence).toEqual({ status: "threshold", limit: "Work up to 3 metres high", reason: "Work over this height needs a licence." });
+    expect(lessonA?.licence).toEqual({ status: "threshold", limit: "Work up to 3 metres high", reason: "Work over this height needs a licence." });
     expect(JSON.stringify(res.body)).not.toContain("internal reviewer note");
   });
 
@@ -138,7 +138,7 @@ describe("licence track choice", () => {
       const res = await request(app).get(OUTLINE(track)).set(auth(ids.learner1));
       expect(sourceIdsOf(res.body)).toContain("TST-D");
       const lessonD = placementsOf(res.body).find((p) => p.lesson.sourceId === "TST-D");
-      expect(lessonD.licence).toBeNull();
+      expect(lessonD?.licence).toBeNull();
     }
   });
 
@@ -147,7 +147,7 @@ describe("licence track choice", () => {
     expect(res.body.data.licenceTrack).toBe("licensed");
     expect(sourceIdsOf(res.body)).toEqual(["TST-A", "TST-B", "TST-D"]);
     const lessonB = placementsOf(res.body).find((p) => p.lesson.sourceId === "TST-B");
-    expect(lessonB.licence).toEqual({ status: "required", limit: null, reason: "Gas fitting of any value needs a licensed gasfitter." });
+    expect(lessonB?.licence).toEqual({ status: "required", limit: null, reason: "Gas fitting of any value needs a licensed gasfitter." });
     expect(JSON.stringify(res.body)).not.toContain("WebFetch");
     expect(JSON.stringify(res.body)).not.toContain("Reviewer remark");
   });

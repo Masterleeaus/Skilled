@@ -271,10 +271,25 @@ function isPlainObject(value: unknown): value is Row {
   return value !== null && typeof value === "object" && !Array.isArray(value) && !(value instanceof Date);
 }
 
+/** Narrows an untyped query argument to an object, or undefined when it is not one. */
+function asRow(value: unknown): Row | undefined {
+  return isPlainObject(value) ? value : undefined;
+}
+
+/** Narrows an untyped query argument (skip, take) to a number, or undefined when it is not one. */
+function asNumber(value: unknown): number | undefined {
+  return typeof value === "number" ? value : undefined;
+}
+
+/** The data, create or update payload of a write; an absent payload is an empty object. */
+function dataOf(value: unknown): Row {
+  return asRow(value) ?? {};
+}
+
 /** Prisma compound unique keys (e.g. studentId_courseId) are flattened into plain filters. */
-function normalizeWhere(where: Row | undefined): Row {
+function normalizeWhere(where: unknown): Row {
   const out: Row = {};
-  for (const [key, value] of Object.entries(where ?? {})) {
+  for (const [key, value] of Object.entries(asRow(where) ?? {})) {
     if (key.includes("_") && isPlainObject(value)) Object.assign(out, value);
     else out[key] = value;
   }
@@ -326,7 +341,7 @@ function relatedMany(row: Row, rel: Relation): Row[] {
   return table(rel.model).filter((candidate) => candidate[rel.fk] === row.id);
 }
 
-function matchWhere(row: Row, rawWhere: Row | undefined, model: string): boolean {
+function matchWhere(row: Row, rawWhere: unknown, model: string): boolean {
   const where = normalizeWhere(rawWhere);
   for (const [key, cond] of Object.entries(where)) {
     if (cond === undefined) continue;
@@ -379,18 +394,18 @@ function project(row: Row | null, model: string, args: Row | undefined): Row | n
   if (!row) return null;
   if (args?.select) {
     const out: Row = {};
-    for (const [key, value] of Object.entries(args.select as Row)) {
+    for (const [key, value] of Object.entries(asRow(args.select) ?? {})) {
       if (!value) continue;
-      if (relations[model]?.[key]) out[key] = resolveRelation(row, model, key, value === true ? {} : (value as Row));
+      if (relations[model]?.[key]) out[key] = resolveRelation(row, model, key, value === true ? {} : (asRow(value) ?? {}));
       else out[key] = row[key];
     }
     return out;
   }
   const out: Row = { ...row };
   if (args?.include) {
-    for (const [key, value] of Object.entries(args.include as Row)) {
+    for (const [key, value] of Object.entries(asRow(args.include) ?? {})) {
       if (!value || !relations[model]?.[key]) continue;
-      out[key] = resolveRelation(row, model, key, value === true ? {} : (value as Row));
+      out[key] = resolveRelation(row, model, key, value === true ? {} : (asRow(value) ?? {}));
     }
   }
   return out;
@@ -404,8 +419,9 @@ function resolveRelation(row: Row, model: string, key: string, opts: Row): unkno
   }
   let list = relatedMany(row, rel).filter((item) => matchWhere(item, opts.where, rel.model));
   list = sortRows(list, opts.orderBy);
-  const start = opts.skip ?? 0;
-  if (opts.take !== undefined) list = list.slice(start, start + opts.take);
+  const start = asNumber(opts.skip) ?? 0;
+  const take = asNumber(opts.take);
+  if (take !== undefined) list = list.slice(start, start + take);
   else list = list.slice(start);
   return list.map((item) => project(item, rel.model, opts));
 }
@@ -416,17 +432,18 @@ function findRaw(model: string, args: Row): Row[] {
   if (args.cursor) {
     const index = rows.findIndex((row) => matchWhere(row, args.cursor, model));
     if (index < 0) return [];
-    rows = rows.slice(index + (args.skip ?? 0));
+    rows = rows.slice(index + (asNumber(args.skip) ?? 0));
   } else if (args.skip) {
-    rows = rows.slice(args.skip);
+    rows = rows.slice(asNumber(args.skip) ?? 0);
   }
-  if (args.take !== undefined) rows = rows.slice(0, args.take);
+  const take = asNumber(args.take);
+  if (take !== undefined) rows = rows.slice(0, take);
   return rows;
 }
 
 function applyData(row: Row, data: Row): void {
   for (const [key, value] of Object.entries(data ?? {})) {
-    if (isPlainObject(value) && "increment" in value) row[key] = (row[key] ?? 0) + (value.increment as number);
+    if (isPlainObject(value) && typeof value.increment === "number") row[key] = (asNumber(row[key]) ?? 0) + value.increment;
     else row[key] = value;
   }
 }
@@ -540,15 +557,16 @@ function modelApi(model: string) {
     count: (args: Row = {}) => deferred(() => table(model).filter((row) => matchWhere(row, args.where, model)).length),
     aggregate: (args: Row = {}) =>
       deferred(() => {
-        const result: Row = {};
+        const result: Record<string, Record<string, number | null>> = {};
         const rows = table(model).filter((row) => matchWhere(row, args.where, model));
         for (const [op, fields] of Object.entries(args)) {
           if (op === "where" || !op.startsWith("_") || !isPlainObject(fields)) continue;
-          result[op] = {};
+          const perField: Record<string, number | null> = {};
+          result[op] = perField;
           for (const field of Object.keys(fields)) {
-            const values = rows.map((row) => row[field]).filter((value) => typeof value === "number") as number[];
-            if (op === "_avg") result[op][field] = values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : null;
-            if (op === "_count") result[op][field] = values.length;
+            const values = rows.flatMap((row) => (typeof row[field] === "number" ? [row[field]] : []));
+            if (op === "_avg") perField[field] = values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : null;
+            if (op === "_count") perField[field] = values.length;
           }
         }
         return result;
@@ -561,19 +579,19 @@ function modelApi(model: string) {
           return { count: data.length };
         }),
       ),
-    create: (args: Row) => deferred(() => project(insertRow(model, args.data ?? {}), model, args)),
+    create: (args: Row) => deferred(() => project(insertRow(model, dataOf(args.data)), model, args)),
     update: (args: Row) =>
       deferred(() => {
         const row = findRaw(model, { where: args.where, take: 1 })[0];
         if (!row) throw notFoundError(model);
-        updateRow(model, row, args.data ?? {});
+        updateRow(model, row, dataOf(args.data));
         return project(row, model, args);
       }),
     updateMany: (args: Row) =>
       deferred(() =>
         atomically(() => {
           const rows = findRaw(model, { where: args.where });
-          for (const row of rows) updateRow(model, row, args.data ?? {});
+          for (const row of rows) updateRow(model, row, dataOf(args.data));
           return { count: rows.length };
         }),
       ),
@@ -581,10 +599,10 @@ function modelApi(model: string) {
       deferred(() => {
         const existing = findRaw(model, { where: args.where, take: 1 })[0];
         if (existing) {
-          updateRow(model, existing, args.update ?? {});
+          updateRow(model, existing, dataOf(args.update));
           return project(existing, model, args);
         }
-        return project(insertRow(model, args.create ?? {}), model, args);
+        return project(insertRow(model, dataOf(args.create)), model, args);
       }),
     delete: (args: Row) =>
       deferred(() =>
@@ -629,7 +647,7 @@ async function transaction(arg: unknown): Promise<unknown> {
 const apis = new Map<string, ReturnType<typeof modelApi>>();
 
 export const fakePrisma: FakeNode = new Proxy(
-  {},
+  {} as FakeNode,
   {
     get(_target, property) {
       if (property === "$transaction") return transaction;
@@ -647,6 +665,18 @@ export async function seed(model: string, rows: Row[]): Promise<void> {
 
 export function rows(model: string): Row[] {
   return table(model);
+}
+
+/** Narrows a stored field the test reads as text. Throws when the stored value is not a string. */
+export function stringOf(value: unknown): string {
+  if (typeof value !== "string") throw new TypeError(`expected a string, got ${typeof value}`);
+  return value;
+}
+
+/** Narrows a stored field the test reads as a number. Throws when the stored value is not a number. */
+export function numberOf(value: unknown): number {
+  if (typeof value !== "number") throw new TypeError(`expected a number, got ${typeof value}`);
+  return value;
 }
 
 export function resetFakeDb(): void {

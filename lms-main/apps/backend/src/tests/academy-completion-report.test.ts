@@ -155,7 +155,7 @@ describe("ACA-025 learner completion report", () => {
     const res = await request(app).get(learnerReport(ids.learner1)).set(auth(ids.learner1));
     const summary = res.body.data.courses[0].summary;
     const canonicalCompletions = rows("academyLearnerCompletion").filter((row) => row.learnerId === ids.learner1).length;
-    const canonicalCompetencies = rows("academyVerifiedCompetency").filter((row) => row.learnerId === ids.learner1 && (row.expiresAt === null || row.expiresAt > new Date())).length;
+    const canonicalCompetencies = rows("academyVerifiedCompetency").filter((row) => row.learnerId === ids.learner1 && (row.expiresAt === null || (row.expiresAt instanceof Date && row.expiresAt > new Date()))).length;
 
     expect(summary.requiredAcknowledged + summary.optionalAcknowledged).toBe(canonicalCompletions);
     expect(summary.activeCompetencies).toBe(canonicalCompetencies);
