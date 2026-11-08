@@ -19,7 +19,8 @@
  *
  * Refusals (the lesson is left as it is and a warning is returned, never a guessed value):
  * - A lesson file with no usable file in the index, or a file that carries an answer-key field.
- * - A lesson whose publish throws. Its placements are left as they are.
+ * - A lesson whose publish throws (gate refusal, failed structure check or stale approval). Its placements are left as they
+ *   are, and its title, objective and assessment are not rewritten: those fields are written only after its revision publishes.
  * - A lesson whose assessment file has no approval record matching its exact bytes (sha256, status approved, a named or
  *   known reviewer, a past ISO reviewedAt). Its answer keys are not loaded and the lesson is held. Approvals are read from
  *   ACADEMY_ASSESSMENT_APPROVALS when set, else <root>/assessment-publication-approvals.json.
@@ -285,17 +286,34 @@ async function loadAssessment(root: string, lessonId: string, approvals: Assessm
   }
 }
 
-async function ensureLesson(sourceId: string, fields: LessonFields): Promise<{ id: string; status: string; created: boolean; updated: boolean }> {
+/**
+ * Returns the lesson row, creating it when it is new. A new row is not visible to learners until a placement in a
+ * published track points at a published revision, so its fields can be written here.
+ */
+async function ensureLessonRow(sourceId: string, fields: LessonFields): Promise<{ id: string; created: boolean }> {
   const existing = await prisma.academyContentLesson.findUnique({ where: { sourceId } });
-  if (!existing) {
-    const row = await prisma.academyContentLesson.create({ data: { sourceId, ...fields } });
-    return { id: row.id, status: row.contentStatus, created: true, updated: false };
-  }
+  if (existing) return { id: existing.id, created: false };
+  const row = await prisma.academyContentLesson.create({ data: { sourceId, ...fields } });
+  return { id: row.id, created: true };
+}
+
+/**
+ * Writes the file's title, objective and assessment to an existing lesson, and marks it PUBLISHED. Called only after
+ * its revision has published through the gate. A held lesson keeps the fields it was last published with, because the
+ * outline shows the lesson row's title to learners.
+ */
+async function publishLessonFields(sourceId: string, fields: LessonFields): Promise<{ updated: boolean }> {
+  const existing = await prisma.academyContentLesson.findUnique({ where: { sourceId } });
+  if (!existing) throw new Error(`${sourceId}: lesson row missing when publishing its fields`);
   const current = existing as unknown as Record<string, unknown>;
   const changed = (Object.keys(fields) as Array<keyof LessonFields>).some((key) => current[key] !== fields[key]);
-  if (!changed) return { id: existing.id, status: existing.contentStatus, created: false, updated: false };
-  const row = await prisma.academyContentLesson.update({ where: { sourceId }, data: fields });
-  return { id: row.id, status: row.contentStatus, created: false, updated: true };
+  const statusChanged = existing.contentStatus !== "PUBLISHED";
+  if (!changed && !statusChanged) return { updated: false };
+  await prisma.academyContentLesson.update({
+    where: { sourceId },
+    data: { ...(changed ? fields : {}), contentStatus: "PUBLISHED" },
+  });
+  return { updated: changed };
 }
 
 /**
@@ -457,18 +475,19 @@ export async function publishCurriculumFiles(options: PublishOptions): Promise<P
         continue;
       }
       const fields = lessonFields({ file, structureTitle: placement.lessonTitle, group: course.group, moduleTitle: placement.moduleTitle, passRule: assessment.passRule });
-      const lesson = await ensureLesson(lessonId, fields);
-      if (lesson.created) summary.lessons.created += 1;
-      if (lesson.updated) summary.lessons.updated += 1;
-      const revision = await ensurePublishedRevision(lesson.id, lessonId, file.body, actorId);
+      const row = await ensureLessonRow(lessonId, fields);
+      if (row.created) summary.lessons.created += 1;
+      // The revision goes through the gate first. If it is refused, this throws and the lesson fields stay as they were.
+      const revision = await ensurePublishedRevision(row.id, lessonId, file.body, actorId);
       if (revision.outcome === "new") summary.lessons.newRevisions += 1;
       else if (revision.outcome === "draft") summary.lessons.draftsPublished += 1;
       else summary.lessons.unchanged += 1;
-      if (lesson.status !== "PUBLISHED") await prisma.academyContentLesson.update({ where: { id: lesson.id }, data: { contentStatus: "PUBLISHED" } });
+      const lesson = await publishLessonFields(lessonId, fields);
+      if (lesson.updated) summary.lessons.updated += 1;
       for (const refusal of await syncAnswerKeys(revision.revisionId, file.body, assessment.keys, summary)) {
         summary.warnings.push(`${lessonId} knowledge check ${refusal}`);
       }
-      published.set(lessonId, { dbId: lesson.id, revisionId: revision.revisionId });
+      published.set(lessonId, { dbId: row.id, revisionId: revision.revisionId });
     } catch (error) {
       held.add(lessonId);
       summary.lessons.held += 1;

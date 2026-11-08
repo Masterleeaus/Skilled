@@ -84,11 +84,19 @@ function templateProblem(body: Body): string | null {
   return null;
 }
 
-export function evaluateStructure(body: Body): StructuralResult {
+/**
+ * The lesson's identity, read from its lesson row. The file loader keeps id and title out of the revision body
+ * (they are metadata), so the row is where a publisher-made revision gets its identity.
+ */
+export interface LessonIdentity { sourceId: string; title: string }
+
+export function evaluateStructure(body: Body, identity?: LessonIdentity): StructuralResult {
   const checks: StructuralCheck[] = [];
   const add = (id: string, label: string, problem: string | null) => checks.push({ id, label, passed: problem === null, detail: problem ?? "ok" });
 
-  add("identity", "Lesson has an id and title", isText(body.id) && isText(body.title) ? null : "missing id or title");
+  const bodyHasIdentity = isText(body.id) && isText(body.title);
+  const rowHasIdentity = identity !== undefined && isText(identity.sourceId) && isText(identity.title);
+  add("identity", "Lesson has an id and title", bodyHasIdentity || rowHasIdentity ? null : "missing id or title");
   const hasProcedure = hasItems(body.procedure) && body.procedure.some(isText);
   add("instruction-or-procedure", "Has instruction sections or a procedure", hasInstructionSection(body) || hasProcedure ? null : "no instruction section or procedure step");
   add("summary", "Has a summary", hasItems(body.summary) && body.summary.some(isText) ? null : "no summary");
@@ -126,7 +134,7 @@ export function sortReviewsNewestFirst<T extends { id: string; decidedAt: Date }
   return [...reviews].sort((a, b) => b.decidedAt.getTime() - a.decidedAt.getTime() || (a.id < b.id ? 1 : a.id > b.id ? -1 : 0));
 }
 
-export function evaluatePublicationGate(input: { body: Body; storedHash: string; reviews: ReviewRecord[]; gateEnabled: boolean; authorId: string | null; editorIds?: string[] }): GateEvaluation {
+export function evaluatePublicationGate(input: { body: Body; storedHash: string; reviews: ReviewRecord[]; gateEnabled: boolean; authorId: string | null; editorIds?: string[]; identity?: LessonIdentity }): GateEvaluation {
   const currentHash = contentHashOf(input.body);
   const hashIntegrity = currentHash === input.storedHash;
   const forCurrentHash = sortReviewsNewestFirst(input.reviews.filter((review) => review.contentHash === currentHash));
@@ -135,7 +143,7 @@ export function evaluatePublicationGate(input: { body: Body; storedHash: string;
   // An approval counts only if its reviewer is known to be someone other than the author and every editor of the lesson.
   const independent = input.authorId !== null && latest !== undefined && latest.reviewerId !== input.authorId && !(input.editorIds ?? []).includes(latest.reviewerId);
   const approved = latestDecisionForHash === "APPROVED" && independent;
-  const structure = evaluateStructure(input.body);
+  const structure = evaluateStructure(input.body, input.identity);
 
   const reasons: GateReason[] = [];
   if (!hashIntegrity) reasons.push({ code: "CONTENT_HASH_MISMATCH", message: "Stored content hash does not match the revision body" });
@@ -255,7 +263,8 @@ export async function publishRevision(revisionId: string, actorId: string, env: 
     if (revision.status !== "DRAFT") throw new ForbiddenError("Only drafts can be published");
     const reviews = await tx.academyLessonReview.findMany({ where: { revisionId }, orderBy: [{ decidedAt: "desc" }, { id: "desc" }] });
     const provenance = await provenanceOf(tx, revision);
-    const evaluation = evaluatePublicationGate({ body: revision.body as Body, storedHash: revision.contentHash, reviews, gateEnabled, authorId: provenance.authorId, editorIds: provenance.editorIds });
+    const lesson = await tx.academyContentLesson.findUnique({ where: { id: revision.lessonId }, select: { sourceId: true, title: true } });
+    const evaluation = evaluatePublicationGate({ body: revision.body as Body, storedHash: revision.contentHash, reviews, gateEnabled, authorId: provenance.authorId, editorIds: provenance.editorIds, identity: lesson ?? undefined });
     if (!evaluation.allowed) throw new AppError("Publication blocked by the lesson review gate", 409, evaluation.reasons);
     const updated = await tx.academyLessonRevision.update({ where: { id: revision.id }, data: { status: "PUBLISHED", publishedAt: new Date() } });
     await tx.academyContentLesson.update({ where: { id: revision.lessonId }, data: { contentStatus: "PUBLISHED" } });
@@ -358,7 +367,7 @@ export async function getRevisionForReview(revisionId: string) {
   if (!revision) throw new NotFoundError("Revision");
   const body = revision.body as Body;
   const provenance = await provenanceOf(prisma as unknown as Tx, revision);
-  const gate = evaluatePublicationGate({ body, storedHash: revision.contentHash, reviews: revision.lessonReviews, gateEnabled: publicationGateEnabled(), authorId: provenance.authorId, editorIds: provenance.editorIds });
+  const gate = evaluatePublicationGate({ body, storedHash: revision.contentHash, reviews: revision.lessonReviews, gateEnabled: publicationGateEnabled(), authorId: provenance.authorId, editorIds: provenance.editorIds, identity: revision.lesson });
   return {
     revision: { id: revision.id, lessonId: revision.lessonId, version: revision.version, status: revision.status, contentHash: revision.contentHash, createdAt: revision.createdAt, publishedAt: revision.publishedAt },
     lesson: revision.lesson,
