@@ -247,11 +247,12 @@ describe("#47 one open checkout per learner and course", () => {
     expect(provider.initiate).not.toHaveBeenCalled();
   });
 
-  it("an abandoned claim with no Stripe session is cleared, and its reservation released, before a new checkout starts", async () => {
+  it("an abandoned claim for different options is cleared, and its reservation released, before a new checkout starts", async () => {
+    // Same-options abandoned claims are resumed instead (see payment-checkout-idempotency.test.ts).
     await seedWorld(1);
     await seed("coupon", [{ id: "coupon-stale", code: "STALE", discountPercent: 10, usageLimit: 1, courseId: null, redeemedCount: 1 }]);
     await seed("payment", [
-      { id: "claim-old", studentId: "learner-1", courseId: COURSE, amount: 90, provider: "stripe", transactionId: "checkout-claim:old", status: "PENDING", licenceTrack: "non-licensed", couponId: "coupon-stale", createdAt: new Date(Date.now() - 10 * 60 * 1000) },
+      { id: "claim-old", studentId: "learner-1", courseId: COURSE, amount: 90, provider: "stripe", transactionId: "checkout-claim:old", status: "PENDING", licenceTrack: "licensed", couponId: "coupon-stale", createdAt: new Date(Date.now() - 10 * 60 * 1000) },
     ]);
 
     const result = await initiateCheckout(COURSE, "learner-1", "STALE");

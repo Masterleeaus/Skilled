@@ -21,7 +21,7 @@ export class StripeProvider implements PaymentProvider {
       throw new AppError("Stripe is not configured — set STRIPE_SECRET_KEY in .env", 503);
     }
 
-    const session = await stripe.checkout.sessions.create({
+    const body: Stripe.Checkout.SessionCreateParams = {
       mode: "payment",
       payment_method_types: ["card"],
       line_items: [
@@ -39,7 +39,9 @@ export class StripeProvider implements PaymentProvider {
       // The track rides on the return URL so the success page can open the course on the same track.
       success_url: `${env.CLIENT_URL}/payment/success?session_id={CHECKOUT_SESSION_ID}&track=${encodeURIComponent(params.licenceTrack)}`,
       cancel_url: `${env.CLIENT_URL}/payment/cancelled`,
-    });
+    };
+    // Stripe keeps an idempotency key's result for 24 hours and rejects a reused key with different parameters.
+    const session = await stripe.checkout.sessions.create(body, params.idempotencyKey ? { idempotencyKey: params.idempotencyKey } : undefined);
 
     return { checkoutUrl: session.url!, providerReference: session.id };
   }
