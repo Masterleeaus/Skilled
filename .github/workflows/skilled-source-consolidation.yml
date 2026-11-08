@@ -14,6 +14,9 @@ on:
       - 'lms-main/apps/backend/src/jobs/account-email-content.ts'
       - 'lms-main/apps/backend/src/jobs/email.queue.ts'
       - 'lms-main/apps/backend/src/tests/account-email-content.test.ts'
+      - 'lms-main/apps/backend/prisma/seed.ts'
+      - 'lms-main/apps/backend/prisma/local-demo-seed-guard.ts'
+      - 'lms-main/apps/backend/src/tests/local-demo-seed-guard.test.ts'
       - '.github/workflows/skilled-source-consolidation.yml'
   push:
     branches:
@@ -53,6 +56,9 @@ jobs:
       - name: Verify Skilled security email templates
         working-directory: lms-main
         run: pnpm -C apps/backend exec vitest run src/tests/account-email-content.test.ts
+      - name: Verify destructive seed is confined to local throwaway databases
+        working-directory: lms-main
+        run: pnpm -C apps/backend exec vitest run src/tests/local-demo-seed-guard.test.ts
       - name: Backend typecheck
         working-directory: lms-main
         run: pnpm -C apps/backend exec tsc --noEmit
