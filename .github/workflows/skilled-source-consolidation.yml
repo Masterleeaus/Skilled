@@ -11,6 +11,9 @@ on:
       - 'lms-main/scripts/test-active-source-consolidation.mjs'
       - 'lms-main/apps/backend/prisma/import-titan-curriculum.ts'
       - 'lms-main/apps/backend/src/tests/import-brief-preflight.test.ts'
+      - 'lms-main/apps/backend/src/jobs/account-email-content.ts'
+      - 'lms-main/apps/backend/src/jobs/email.queue.ts'
+      - 'lms-main/apps/backend/src/tests/account-email-content.test.ts'
       - '.github/workflows/skilled-source-consolidation.yml'
   push:
     branches:
@@ -47,6 +50,9 @@ jobs:
       - name: Validate planning-brief import boundary
         working-directory: lms-main
         run: pnpm -C apps/backend exec vitest run src/tests/import-brief-preflight.test.ts src/tests/import-titan-curriculum.test.ts
+      - name: Verify Skilled security email templates
+        working-directory: lms-main
+        run: pnpm -C apps/backend exec vitest run src/tests/account-email-content.test.ts
       - name: Backend typecheck
         working-directory: lms-main
         run: pnpm -C apps/backend exec tsc --noEmit
