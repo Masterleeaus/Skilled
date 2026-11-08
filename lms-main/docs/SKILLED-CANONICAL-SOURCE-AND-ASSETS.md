@@ -67,3 +67,29 @@ pnpm -C apps/backend exec tsx prisma/import-titan-curriculum.ts --validate-only 
 Preflight checks inventory IDs and mandatory fields and prints counts per layer, with `databaseConnected:false`, `writes:0` and `publicationApproved:false`. This is **not** a database diff or approval workflow. Invoking the same CLI **without** `--validate-only` retains the existing transactional draft-import behaviour; do not run it against a production database without an approved change plan. Unknown flags are rejected.
 
 The protected publication and evidence models remain separate. No database schema, migration or existing approvals were modified by this consolidation step.
+
+## Historical canonical-import manifest: verified stale (pass 8)
+
+The committed `curriculum/import/canonical-import-manifest.json` is a **pass42 snapshot of 216 lesson rows**, not the current canonical curriculum. GitHub Actions [run 42529487757](https://github.com/Masterleeaus/Skilled/actions/runs/42529487757) audited its two per-row file hashes and source IDs against the actual repository checkout:
+
+| Observation | Count |
+|---|---:|
+| Entries | 216 |
+| Fully matching entries | 0 |
+| Canonical lesson hash mismatches | 93 |
+| Missing `lessons/ready/` source files | 216 |
+| Path traversal or duplicate identity violations | 0 |
+
+**Do not use this snapshot for new imports.** It has no demonstrated current import compatibility, and its `ready` sources were not found in that checkout. It was intentionally **not** auto-regenerated because the old import generator assumes retired `lessons/ready/` files and could misrepresent current authoring and publication state. Neither the snapshot nor the authored lessons were changed.
+
+Run the read-only check from `lms-main/`:
+
+```sh
+node scripts/audit-canonical-import-manifest.mjs --report build/legacy-import-manifest-audit.json
+node scripts/audit-canonical-import-manifest.mjs --strict
+node --test scripts/test-audit-canonical-import-manifest.mjs
+```
+
+Normal report mode exits successfully while reporting stale conditions; `--strict` fails on any stale/unsafe snapshot and is appropriate before any later migration/import proposal. The independent CI workflow uploads a JSON audit artifact and presents a warning. Its passing status reflects **scanner health**, not manifest freshness.
+
+The separate 221-row planning-brief importer still uses `apps/backend/prisma/curriculum/titan-three-layer-lessons.json` and remains draft-only. Do not confuse the historical 216-row manifest with that inventory. A new manifest format, if required, must be explicitly designed around approved canonical source identity, current lesson revisions and publication gates.
