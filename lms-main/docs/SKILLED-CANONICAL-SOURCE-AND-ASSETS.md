@@ -130,3 +130,25 @@ Caveat: this is a static import/mount boundary scan, not a full proof of runtime
 Issue #72's three competing deployment guides now have explicit roles. [DEPLOYMENT.md](DEPLOYMENT.md) is the canonical release entrypoint and blocking preflight; [INSTALL.md](INSTALL.md) is the dependency and host setup reference; [runbooks/deployment.md](runbooks/deployment.md) is the release/rollback operator checklist. The older [server proposal](../curriculum/research/DEPLOY-RUNBOOK.md) remains in place with an explicit warning that its port and server assumptions were **not verified**.
 
 The consolidation does **not** execute host provisioning, change migrations, alter secret handling or infer that production is ready. CI validates links and required safeguards through `scripts/test-deployment-doc-contract.mjs` and `skilled-deployment-doc-contract.yml`. Any actual release still requires an approved staging rehearsal, curriculum approval gates and live operational verification.
+
+## Active runtime and persisted compatibility baseline (pass 12)
+
+The read-only `scripts/audit-active-compatibility.mjs` inspects current backend source, key models and SQL migration directories. As checked by [GitHub Actions run 42532013054](https://github.com/Masterleeaus/Skilled/actions/runs/42532013054):
+
+- **31 nonempty Prisma migration scripts exist**, not 21 as stated in the older 2026-11-03 host proposal. Two migration names intentionally share prefix `20261102000100`; their complete names are distinct and preserved.
+- The canonical schema contains all 18 named compatibility-critical model anchors, including `User`, `Company`, `CompanyMember`, lesson/review/competency/evidence tables and both persisted tutor-store families.
+- The Express source retains active auth, curriculum, integration, quizzes, courses and certificate mounts. Core account routes remain authenticated and login/reset rate-limited; access JWT verification remains HS256-pinned.
+- Integration requests still require hashed, revocable credentials, explicit per-service company-reference allowlists, mapping external references to local companies and active company membership.
+- Learner body serving retains enrolment, published revisions, file/revision knowledge-check alignment, revision hash integrity and the approved-revision body as the response; the reviewer publishing service still evaluates the publication gate.
+- Tutor routing stays feature-gated and the learner lesson loader still indexes only `courses/` and `shared/` authored sources.
+
+Run from `lms-main/`:
+
+```sh
+node --test scripts/test-audit-active-compatibility.mjs
+node scripts/audit-active-compatibility.mjs --strict --report build/active-compatibility-audit.json
+```
+
+The six regression tests also mutate temporary fixtures to check that removal of a migration, schema model, JWT algorithm pin, tenant allowlist, company association, enrolment gate or revision-only serving is detected. The workflow publishes the audit JSON.
+
+**Limits:** The audit examines source contracts and migration file presence, not live authorization, migration checksums stored in PostgreSQL, transaction behavior or fully compiled call-graph reachability. A passing static audit does not satisfy issue #35 staging rehearsal or issue #34 high-risk expert review. Deleting or renaming persisted tables and migration directories remains prohibited absent a tested compatibility migration coordinated with #68 and #71.
