@@ -28,7 +28,7 @@ function setup(run) {
 
 test('classifies historical paths without treating stored copies as runtime code', () => setup(({ root, repo }) => {
   const audit = inventory({ root, repo });
-  assert.equal(audit.activeSourceFilesChecked, 3);
+  assert.equal(audit.activeSourceFilesChecked, 4);
   assert.equal(audit.archived.find(x => x.label === 'inactive-tutor-chatbot').sourceFiles, 1);
   assert.equal(audit.archived.find(x => x.label === 'retired-converted-lessons').fileCount, 1);
   assert.equal(audit.archived.find(x => x.label === 'legacy-bootstrap').fileCount, 1);
