@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
+import type { Viewport } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+
 export const metadata: Metadata = {
   applicationName: "SkilledAt.Work",
+  metadataBase: siteUrl ? new URL(siteUrl) : undefined,
+  manifest: "/manifest.webmanifest",
   title: {
     default: "Skilled | SkilledAt.Work",
     template: "%s | Skilled",
@@ -12,14 +17,31 @@ export const metadata: Metadata = {
   icons: {
     icon: "/academy/skilled-mark.svg",
     shortcut: "/academy/skilled-mark.svg",
-    apple: "/academy/skilled-mark.svg",
+    apple: "/academy/skilled-apple-touch.png",
   },
   openGraph: {
     title: "SkilledAt.Work",
     description: "Practical learning and skills development for work.",
     siteName: "SkilledAt.Work",
     type: "website",
+    images: [{
+      url: "/academy/skilled-open-graph.png",
+      width: 1200,
+      height: 630,
+      alt: "SkilledAt.Work — practical skills for work",
+    }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "SkilledAt.Work",
+    description: "Practical learning and skills development for work.",
+    images: ["/academy/skilled-open-graph.png"],
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0a0a0a",
+  colorScheme: "dark light",
 };
 
 const noFlashScript = `

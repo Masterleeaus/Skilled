@@ -156,6 +156,7 @@ The backend reads `.env` from its own directory, `apps/backend/`. The dotenv loa
 | Variable | Purpose |
 |---|---|
 | `CLIENT_URL` | Public URL of the frontend. `http://localhost:3000` locally; must be `https://` in production |
+| `NEXT_PUBLIC_SITE_URL` | Public frontend origin used when building absolute share-card URLs. Use `http://localhost:3000` locally and the verified HTTPS frontend origin in production |
 | `DATABASE_URL` | PostgreSQL connection string. Use a local development database; production requires the dedicated `titan_academy` database and role |
 | `REDIS_URL` | Redis, used by the BullMQ email and certificate workers |
 | `JWT_ACCESS_SECRET` | Signs access tokens. At least 10 characters; at least 32 in production |
@@ -200,11 +201,11 @@ These accounts are created by the local seed script (`pnpm prisma:seed`). They a
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@lms.local | Password123! |
-| Teacher | teacher@lms.local | Password123! |
-| Student | student@lms.local | Password123! |
+| Admin | admin@skilled.local | Password123! |
+| Teacher | teacher@skilled.local | Password123! |
+| Student | student@skilled.local | Password123! |
 
-The `@lms.local` domain is a seed identifier kept for compatibility with the existing seed data and tests.
+The `@skilled.local` domain is reserved for local demo seed accounts; it is not a customer email domain.
 
 ---
 

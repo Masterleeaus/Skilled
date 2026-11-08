@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src tests --max-warnings=0",
+    "test:brand": "node --test tests/brand-metadata.test.mjs",
     "test:browser": "node tests/browser/academy-browser-suite.mjs --report ../../build/browser-report.json"
   },
   "dependencies": {

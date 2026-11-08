@@ -98,7 +98,7 @@ async function seed() {
   const admin = await prisma.user.create({
     data: {
       fullName: "Admin User",
-      email: "admin@lms.local",
+      email: "admin@skilled.local",
       passwordHash,
       role: "ADMIN",
       isEmailVerified: true,
@@ -108,7 +108,7 @@ async function seed() {
   const teacher = await prisma.user.create({
     data: {
       fullName: "Teacher One",
-      email: "teacher@lms.local",
+      email: "teacher@skilled.local",
       passwordHash,
       role: "TEACHER",
       isEmailVerified: true,
@@ -118,7 +118,7 @@ async function seed() {
   const student = await prisma.user.create({
     data: {
       fullName: "Student One",
-      email: "student@lms.local",
+      email: "student@skilled.local",
       passwordHash,
       role: "STUDENT",
       isEmailVerified: true,
