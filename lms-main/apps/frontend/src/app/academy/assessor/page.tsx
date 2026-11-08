@@ -143,7 +143,7 @@ function EvidenceReviewCard({ companyId, item, onRecorded }: {
         <div>
           <label htmlFor={notesId} className="block text-sm font-medium">Assessor notes (required)</label>
           <p id={notesHintId} className="text-xs text-slate-400">Record what you observed against each practical criterion. Between {MIN_NOTES} and {MAX_NOTES} characters. The learner sees these notes.</p>
-          <textarea id={notesId} rows={4} maxLength={MAX_NOTES} value={notes} onChange={e => setNotes(e.target.value)} aria-describedby={notesHintId} aria-invalid={formError.startsWith("Enter assessor notes") ? true : undefined} className="mt-1 w-full rounded border border-slate-600 bg-slate-800 p-2 text-sm" />
+          <textarea id={notesId} rows={4} maxLength={MAX_NOTES} value={notes} onChange={e => setNotes(e.target.value)} aria-describedby={formError ? `${notesHintId} ${errorId}` : notesHintId} aria-invalid={formError.startsWith("Enter assessor notes") ? true : undefined} className="mt-1 w-full rounded border border-slate-600 bg-slate-800 p-2 text-sm" />
         </div>
 
         {decision === "APPROVED" && (
