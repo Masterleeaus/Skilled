@@ -1,0 +1,29 @@
+name: skilled-account-flow-brand
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/frontend/src/components/AuthBrand.tsx'
+      - 'lms-main/apps/frontend/src/app/(auth)/**'
+      - 'lms-main/scripts/test-account-flow-branding.mjs'
+      - '.github/workflows/skilled-account-flow-brand.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/apps/frontend/src/components/AuthBrand.tsx'
+      - 'lms-main/apps/frontend/src/app/(auth)/**'
+      - 'lms-main/scripts/test-account-flow-branding.mjs'
+      - '.github/workflows/skilled-account-flow-brand.yml'
+permissions:
+  contents: read
+jobs:
+  account-brand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify onboarding, recovery and current product identity
+        working-directory: lms-main
+        run: node --test scripts/test-account-flow-branding.mjs
