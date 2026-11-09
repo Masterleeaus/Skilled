@@ -48,6 +48,8 @@ jobs:
         run: |
           pnpm lint
           pnpm build
-      - name: Validate backend TypeScript
+      - name: Generate Prisma client and validate backend TypeScript
         working-directory: lms-main/apps/backend
-        run: pnpm exec tsc --noEmit
+        run: |
+          pnpm exec prisma generate
+          pnpm exec tsc --noEmit
