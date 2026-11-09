@@ -49,7 +49,7 @@ export default function NewCoursePage() {
     <div>
       <Topbar title="New Course" backHref="/teacher" backLabel="My Courses" />
 
-      <main className="mx-auto max-w-xl px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-xl px-6 py-8">
         <form onSubmit={handleSubmit((v) => mutation.mutate(v))} className="space-y-4">
           <div>
             <label htmlFor="course-title" className="mb-1 block text-sm text-neutral-300">Title</label>

@@ -29,7 +29,7 @@ export default function PathwaysListPage() {
     <div>
       <Topbar title="Role pathways" />
 
-      <main className="mx-auto max-w-5xl px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-5xl px-6 py-8">
         <p className="mb-6 text-neutral-400">
           A pathway groups the courses for one role. Choose the pathway that matches your work.
         </p>
