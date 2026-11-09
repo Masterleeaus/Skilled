@@ -1,4 +1,4 @@
-# Curriculum quality gate for the Titan Academy LMS.
+# Curriculum quality gate for SkilledAt.Work.
 # The Git repository root is the parent of lms-main/, so this workflow lives here and
 # sets working-directory to lms-main. Runs `pnpm curriculum:ci` (scripts/ci-curriculum-audit.mjs
 # with --fail-on-blocked). It does not approve or change any curriculum content.
@@ -9,6 +9,9 @@ on:
     paths:
       - "lms-main/curriculum/**"
       - "lms-main/scripts/**"
+      - "lms-main/tests/fixtures/assessment-publication/**"
+      - "lms-main/apps/backend/src/modules/curriculum/**"
+      - "lms-main/apps/backend/src/tests/curriculum-*.test.ts"
       - "lms-main/package.json"
       - ".github/workflows/curriculum-ci.yml"
   push:
@@ -17,6 +20,9 @@ on:
     paths:
       - "lms-main/curriculum/**"
       - "lms-main/scripts/**"
+      - "lms-main/tests/fixtures/assessment-publication/**"
+      - "lms-main/apps/backend/src/modules/curriculum/**"
+      - "lms-main/apps/backend/src/tests/curriculum-*.test.ts"
       - "lms-main/package.json"
       - ".github/workflows/curriculum-ci.yml"
   workflow_dispatch:
@@ -66,3 +72,17 @@ jobs:
           path: lms-main/build/curriculum-ci-report.json
           if-no-files-found: warn
           retention-days: 14
+
+  assessment-negative-fixtures:
+    name: Assessment publication negative fixtures
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Reject every malformed assessment fixture
+        run: node lms-main/scripts/test-assessment-publication-negative-fixtures.mjs

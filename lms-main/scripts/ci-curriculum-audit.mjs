@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * CI gate for Titan Academy curriculum structure and normalisation (ACA-020).
+ * CI gate for Skilled curriculum structure and normalisation (ACA-020).
  *
  * Usage:
  *   node scripts/ci-curriculum-audit.mjs                 # check; exit 1 on any failure
@@ -49,6 +49,7 @@ const SELF_TESTS = [
   'scripts/test-reconcile-lesson-formats.mjs',
   'scripts/test-curriculum-review-queue.mjs',
   'scripts/test-assessment-reconciliation.mjs',
+  'scripts/test-assessment-publication-negative-fixtures.mjs',
 ];
 
 const failures = [];
