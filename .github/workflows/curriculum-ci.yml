@@ -9,6 +9,8 @@ on:
     paths:
       - "lms-main/curriculum/**"
       - "lms-main/scripts/**"
+      - "lms-main/tests/fixtures/assessment-malformed/**"
+      - "lms-main/tests/fixtures/assessment-malformed/**"
       - "lms-main/tests/fixtures/assessment-publication/**"
       - "lms-main/apps/backend/src/modules/curriculum/**"
       - "lms-main/apps/backend/src/modules/courses/**"

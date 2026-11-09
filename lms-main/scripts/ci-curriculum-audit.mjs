@@ -49,6 +49,7 @@ const SELF_TESTS = [
   'scripts/test-reconcile-lesson-formats.mjs',
   'scripts/test-curriculum-review-queue.mjs',
   'scripts/test-assessment-reconciliation.mjs',
+  'scripts/test-assessment-malformed.mjs',
   'scripts/test-lesson-normalization-fixtures.mjs',
   'scripts/test-rebuild-curriculum-derived.mjs',
   'scripts/test-assessment-publication-negative-fixtures.mjs',
