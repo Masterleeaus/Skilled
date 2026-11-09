@@ -1,8 +1,9 @@
 /** Ephemeral RSA keys and deterministic identity-token signatures; TEST ONLY. */
 import {generateKeyPairSync,sign} from "node:crypto";
+import type {OidcPublicKey} from "../../modules/auth/central-oidc-verifier";
 export const keyPair=generateKeyPairSync("rsa",{modulusLength:2048});
 const rsa=keyPair.publicKey.export({format:"jwk"});
-export const jwk={kty:"RSA",n:rsa.n!,e:rsa.e!,kid:"test-rsa-key",alg:"RS256",use:"sig"};
+export const jwk:OidcPublicKey={kty:"RSA",n:rsa.n!,e:rsa.e!,kid:"test-rsa-key",alg:"RS256",use:"sig"};
 export const now=Date.parse("2026-11-09T03:00:00Z");
 export const nowSeconds=Math.floor(now/1000);
 export const issuer="https://id.example.test";
