@@ -34,6 +34,7 @@ const checks = [
   'test-reconcile-lesson-formats.mjs',
   'test-lesson-normalization-fixtures.mjs',
   'test-rebuild-curriculum-derived.mjs',
+  'test-assessment-publication-negative-fixtures.mjs',
 ];
 let failed = 0;
 for (const test of checks) {
