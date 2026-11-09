@@ -1,45 +1,43 @@
 # Admin lesson preview: runtime verification, 2026-11-09
 
-Status: **blocked. No runtime request was made.** PostgreSQL (localhost:5432) and Redis (localhost:6379) were not listening during the run, and the task forbids starting them. The backend was never started, so no status codes were recorded for any role.
+Status: **verified against a running backend.** Every expectation held.
 
-## Code under test
+Code under test: `origin/main` at `f9cf64e`, with no code changes on `claude/verify-admin-preview`.
 
-- Base: `origin/main` at `f9cf64e` (`docs: define canonical Skilled main branch and safe mirror synchronization (#39)`).
-- Branch: `claude/verify-admin-preview`, created from `origin/main` with no code changes.
+## Setup
 
-## What was done
+- `pnpm install --frozen-lockfile` and `prisma generate`: done.
+- Test database `lms_preview_test` (owner `titan`): created. `prisma migrate deploy` applied all migrations.
+- Seed: `SEED_CONFIRM_WIPE=1 pnpm -C apps/backend exec tsx prisma/seed.ts` created the three accounts. It creates no academy lessons, by design.
+- Curriculum: `pnpm -C apps/backend curriculum:import` created 221 `AcademyContentLesson` rows, each with one `DRAFT` revision (`sourceVersion` `draft-1`). The test lesson is `U01-01`.
+- Backend: `apps/backend`, `tsx src/server.ts`, with `NODE_ENV=development`, `CLIENT_URL=http://localhost:3000`, `REDIS_URL=redis://localhost:6379`, the `.env.example` JWT secrets, and `DATABASE_URL` pointing at `lms_preview_test`.
 
-1. `git fetch origin` and branch creation: done.
-2. `pnpm install --frozen-lockfile`: done. `pnpm -C apps/backend exec prisma generate`: done.
-3. Test database `lms_preview_test`: not created. `psql` to localhost:5432 returned "Connection refused". `pg_isready` reported no response.
-4. `prisma migrate deploy` and the seed: failed with `P1001: Can't reach database server at localhost:5432`.
-5. Redis at localhost:6379: `redis-cli ping` returned "Connection refused".
-6. Rechecked Postgres after about 60 seconds. Still down.
+## Deviations from the brief
 
-## Static read of the route (not a runtime result)
+- **Port 5071, not 5000.** Port 5000 was held by another session's backend (`agent-a99c383…`). `pkill -f "src/server.ts"` would also have killed that process, so I did not use it. I stopped only my own PIDs.
+- **Health returns 503.** `/api/health` reports `storage: down` because MinIO is not available. Database and Redis report `ok`. This does not affect the preview route.
 
-- `apps/backend/src/modules/curriculum/curriculum.routes.ts`, around line 178: `GET /api/academy/curriculum/preview/lessons/:lessonId` uses `authenticate`, then `requireRole("ADMIN")`. The handler sets `Cache-Control: private, no-store` and returns the preview with `body` passed through `publicLessonBody`.
-- `apps/backend/src/middleware/permission.ts`: `requireRole` returns 401 when there is no `req.user`, and 403 when the role is not in the list. This matches the expected refusals for teacher, learner and unauthenticated, but it has not been exercised.
-- `apps/backend/src/modules/curriculum/lesson-preview.service.ts`: `previewLatestRevision` looks up the lesson by `sourceId`, takes the highest `version` revision, writes a `LESSON_REVISION_PREVIEWED` audit log, and returns `preview: true`. It does not change any status.
-- Seeded accounts (`apps/backend/prisma/seed.ts`): `admin@skilled.local`, `teacher@skilled.local`, `student@skilled.local`. Password not read.
+## Requests and results
 
-## Results by request
+Lesson: `U01-01`. Course for the learner check: `cmw8je99r00057dg3wtx823vz` (published, learner enrolment `ACTIVE`).
 
-| # | Role | Request | Status | `preview: true` | Key body fields |
-|---|------|---------|--------|-----------------|-----------------|
-| 1 | admin | `GET /api/academy/curriculum/preview/lessons/<sourceId>` | not run | not run | not run |
-| 2 | teacher | same | not run | not run | not run |
-| 3 | learner | same | not run | not run | not run |
-| 4 | none | same | not run | not run | not run |
-| 5 | learner | learner body route for a draft lesson | not run | n/a | not run |
+| Role | Request | Status | `preview: true` | Key body fields |
+|---|---|---|---|---|
+| admin (`admin@skilled.local`) | `GET /api/academy/curriculum/preview/lessons/U01-01` | **200** | yes | `lesson.sourceId` = `U01-01`; `revision.status` = `DRAFT`, `version` = 1; `review.approved` = false; `review.publicationGateAllows` = false; `body` present; `Cache-Control: private, no-store` |
+| teacher (`teacher@skilled.local`) | same | **403** `Forbidden` | no | no body |
+| learner (`student@skilled.local`) | same | **403** `Forbidden` | no | no body |
+| unauthenticated | same, no token | **401** `Invalid or expired token` | no | no body |
+| learner | `GET /api/academy/curriculum/courses/<courseId>/lessons/U01-01/body` | **404** `Lesson not found` | n/a | no body |
+
+Other checks:
+
+- The admin preview wrote one audit row: `LESSON_REVISION_PREVIEWED`, with `userId` = the admin's id and `entityId` = the latest revision id.
+- No answer-key fields (`answer`, `correctAnswer`, `answerKey`) appeared in any response body.
+- Admin preview of a missing id (`NOPE-99`) returned **404**, message `Lesson not found not found`. The doubled "not found" is a cosmetic issue in the error text, not a status problem.
 
 ## Not verified
 
-- All runtime behaviour: status codes, the `preview: true` field, the response body, and the audit row.
-- The learner body route refusing a draft lesson (step 4).
-- Whether the backend starts with the `.env.example` JWT secrets and the given `CLIENT_URL`/`REDIS_URL`.
-- Which `sourceId` exists in seeded data.
-
-## To finish
-
-Start PostgreSQL and Redis, then run the steps in the task brief. The database command is `CREATE DATABASE lms_preview_test OWNER titan;`, followed by `prisma migrate deploy` and the seed with `SEED_CONFIRM_WIPE=1`.
+- The learner body route returns 404 for the draft lesson, not 403. The learner check passes because the draft is not served, but the status is 404, which comes from the lesson lookup. I did not check whether a published lesson is served to the learner, which would be the positive control.
+- Teacher and learner preview were checked only with the seeded accounts. Other roles, such as a learner with a different enrolment, were not tested.
+- Storage-dependent routes (MinIO) were not exercised.
+- The backend was stopped with SIGTERM after the checks. Its shutdown behaviour was not checked.
