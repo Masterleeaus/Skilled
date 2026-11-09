@@ -50,15 +50,18 @@ const publicCopy = [
   'apps/frontend/src/app/page.tsx',
   'apps/frontend/src/app/layout.tsx',
   'apps/frontend/src/app/manifest.ts',
-  'apps/backend/src/jobs/email.queue.ts'
+  'apps/backend/src/jobs/account-email-content.ts'
 ];
 for (const file of publicCopy) {
   const source = read(file);
-  assert.doesNotMatch(source, /Titan Academy/i, `outdated public brand in ${file}`);
-  assert.match(source, /Skilled(?:At\.Work)?/, `current brand missing in ${file}`);
+  assert.doesNotMatch(source, /Titan Academy/i, 'Outdated public brand in ' + file);
+  assert.match(source, /Skilled(?:At\.Work)?/, 'Current brand missing in ' + file);
 }
-const emails = read('apps/backend/src/jobs/email.queue.ts');
-assert.match(emails, /subject: "Verify your SkilledAt.Work account"/);
-assert.match(emails, /subject: "Reset your SkilledAt.Work password"/);
-assert.match(emails, /encodeURIComponent\(token\)/, 'token must remain URL encoded');
-console.log(`PASS: ${checked} protected route metadata contracts and ${publicCopy.length} public brand surfaces`);
+const emailQueue = read('apps/backend/src/jobs/email.queue.ts');
+assert.match(emailQueue, /verificationEmailContent\(env\.CLIENT_URL, token\)/);
+assert.match(emailQueue, /resetPasswordEmailContent\(env\.CLIENT_URL, token\)/);
+const emailContent = read('apps/backend/src/jobs/account-email-content.ts');
+assert.match(emailContent, /SKILLED_PRODUCT_NAME = "SkilledAt.Work"/);
+assert.match(emailContent, /url\.searchParams\.set\("token", token\)/, 'token must remain URL encoded');
+assert.match(emailContent, /escapeHtml\(accountLink\(/, 'HTML link must be escaped');
+console.log('PASS: ' + checked + ' protected route metadata contracts and ' + publicCopy.length + ' public brand surfaces');
