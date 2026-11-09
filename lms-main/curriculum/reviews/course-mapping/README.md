@@ -4,9 +4,9 @@
 
 ## Source evidence and scope
 
-Each `SFS-XX.json` record captures the exact Git blob SHA of its canonical source under `curriculum/shared/app/`, the source's title, audience, status, learning outcomes, instruction section count, source reference count and observed course slugs. Every observed `courseSlugs` field was empty when this review inventory was created. The records represent 16 distinct lessons, not duplicates, and all remain `DRAFT`.
+Each `SFS-XX.json` record captures the exact Git blob SHA of its canonical source under `curriculum/shared/app/`, the source's title, proposed module title, exact prerequisites, audience, status, learning outcomes, instruction section count, source reference count and observed course slugs. These fields are checked against the canonical source on every CI run. Every observed `courseSlugs` field was empty when this review inventory was created. The records represent 16 distinct lessons, not duplicates, and all remain `DRAFT`.
 
-They collectively describe a service-business field-operations curriculum: job lifecycles, service areas, hours, job templates and tasks, equipment, visits, scheduling conflicts, dispatch, worker capacity, crews, time sheets, stock, offline work and customer sign-off. Their thematic similarity is *not* evidence of an approved course or track.
+They collectively describe a service-business field-operations curriculum: job lifecycles, service areas, hours, job templates and tasks, equipment, visits, scheduling conflicts, dispatch, worker capacity, crews, time sheets, stock, offline work and customer sign-off. Their thematic similarity is *not* evidence of an approved course or track. A `moduleTitle` containing “proposed module” is not an approved `courseSlug`, and reviewers must not silently turn it into one.
 
 ## Review procedure
 
