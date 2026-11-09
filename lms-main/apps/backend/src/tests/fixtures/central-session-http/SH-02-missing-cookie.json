@@ -1,0 +1,12 @@
+{
+  "id": "missing-cookie",
+  "enabled": true,
+  "method": "GET",
+  "path": "/session",
+  "cookie": "absent",
+  "origin": null,
+  "fetchSite": null,
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 401
+}
