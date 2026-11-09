@@ -64,7 +64,7 @@ test('losing a persisted chatbot model is detected, but it is not treated as an 
 test('changing service tenant allowlisting or membership checks is detected', () => fixture(tmp => {
   edit(tmp, 'src/modules/curriculum/integration.routes.ts',
     s => s.replace('allowedRefs?.includes(credential.companyRef)', 'true')
-      .replace('identity.companyId !== company.id', 'false'));
+      .replace('companyId: company.id, externalUserRef', 'companyId: null, externalUserRef'));
   const audit = inspectCompatibility({ backend: tmp });
   assert.ok(has(audit, 'service-fail-closed'));
   assert.ok(has(audit, 'integration-company'));
