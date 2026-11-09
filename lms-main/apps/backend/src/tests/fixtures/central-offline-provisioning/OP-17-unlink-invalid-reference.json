@@ -1,0 +1,8 @@
+{
+  "name": "17-unlink-invalid-reference",
+  "action": "unlink-identity",
+  "existing": "same",
+  "externalUserRef": "https://identity.example|a|b",
+  "error": "canonical HTTPS",
+  "count": 1
+}

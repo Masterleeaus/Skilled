@@ -1,0 +1,10 @@
+{
+  "name": "20-legacy-field-service-unscoped",
+  "action": "link-identity",
+  "service": "field-services",
+  "externalUserRef": "worker-1",
+  "existing": "unscoped",
+  "expected": "Legacy identity scoped to organisation",
+  "audit": "PROVISION_IDENTITY_SCOPED",
+  "count": 1
+}
