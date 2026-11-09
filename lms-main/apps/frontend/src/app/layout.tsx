@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 // The default is a local placeholder, so no production domain is invented here.
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 const siteName = "SkilledAt.Work";
-const siteDescription = "SkilledAt.Work learning system: Titan Academy training for field and home-service businesses";
+const siteDescription = "SkilledAt.Work workplace training, assessed practical evidence and learning pathways for field and home-service businesses";
 // Placeholder text-only share image (public/icons/README.md), replaced when the Skilled mark is supplied.
 const shareImage = { url: "/icons/og-image-placeholder.png", width: 1200, height: 630, alt: "SkilledAt.Work" };
 

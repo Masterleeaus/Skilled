@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     id: "/",
     name: "SkilledAt.Work",
     short_name: "Skilled",
-    description: "SkilledAt.Work learning system: Titan Academy training for field and home-service businesses",
+    description: "SkilledAt.Work workplace training, assessed practical evidence and learning pathways for field and home-service businesses",
     start_url: "/",
     scope: "/",
     display: "standalone",

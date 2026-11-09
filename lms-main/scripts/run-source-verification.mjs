@@ -6,6 +6,7 @@ import path from 'node:path';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const checks = [
+  'test-skilled-route-metadata.mjs',
   'test-auth-route-contracts.mjs',
   'test-session-lifecycle-contract.mjs',
   'test-quiz-integrity-contract.mjs',
