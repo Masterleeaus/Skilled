@@ -121,7 +121,7 @@ export default function TeacherLiveClassesPage() {
       <Topbar title={course ? `Live Classes — ${course.title}` : "Live Classes"} backHref={`/teacher/courses/${slug}`} backLabel="Back to course" />
       <main className="mx-auto max-w-2xl space-y-6 px-6 py-8">
         <div className="rounded-lg border border-neutral-800 bg-neutral-900 p-4">
-          <h3 className="mb-3 text-sm font-medium">Schedule a new class</h3>
+          <h2 className="mb-3 text-sm font-medium">Schedule a new class</h2>
           <div className="space-y-2">
             <input
               value={title}
