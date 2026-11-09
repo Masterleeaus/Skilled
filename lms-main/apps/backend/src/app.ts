@@ -30,6 +30,7 @@ import { integrationRoutes } from "./modules/curriculum/integration.routes";
 import courseSelectionRoutes from "./modules/course-selection/course-selection.routes";
 import pathwayRoutes from "./modules/pathways/pathway.routes";
 import templateRoutes from "./modules/templates/template.routes";
+import { mountCentralSso } from "./modules/auth/central/central-sso.mount";
 
 export const app = express();
 
@@ -49,6 +50,8 @@ app.use(morgan("combined", { stream: httpLogStream }));
 
 app.use("/api", healthRoute);
 app.use("/api/auth", authRoutes);
+// Central SSO mounts nothing unless CENTRAL_SSO_ENABLED=true (default off). The flag check is inside mountCentralSso.
+mountCentralSso(app, env);
 app.use("/api/categories", categoryRoutes);
 app.use("/api/courses", courseRoutes);
 app.use("/api/courses", moduleRoutes);

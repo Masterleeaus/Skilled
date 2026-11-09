@@ -1,5 +1,6 @@
 import { z } from "zod";
 import dotenv from "dotenv";
+import { centralSsoProblems } from "./central-sso";
 
 dotenv.config();
 
@@ -56,7 +57,28 @@ const envSchema = z.object({
 
   STRIPE_SECRET_KEY: z.string().optional().default(""),
   STRIPE_WEBHOOK_SECRET: z.string().optional().default(""),
+
+  // Central SSO (Titan Central / Logto). OFF by default: the existing email/password login is the rollback path.
+  CENTRAL_SSO_ENABLED: z
+    .string()
+    .default("false")
+    .transform((v) => v === "true"),
+  CENTRAL_SSO_ISSUER: z.string().optional().default(""),
+  CENTRAL_SSO_CLIENT_ID: z.string().optional().default(""),
+  CENTRAL_SSO_CLIENT_SECRET: z.string().optional().default(""),
+  CENTRAL_SSO_JWKS_URI: z.string().optional().default(""),
+  CENTRAL_SSO_REDIRECT_URI: z.string().optional().default(""),
 }).superRefine((values, context) => {
+  for (const message of centralSsoProblems({
+    enabled: values.CENTRAL_SSO_ENABLED,
+    issuer: values.CENTRAL_SSO_ISSUER,
+    clientId: values.CENTRAL_SSO_CLIENT_ID,
+    clientSecret: values.CENTRAL_SSO_CLIENT_SECRET,
+    jwksUri: values.CENTRAL_SSO_JWKS_URI,
+    redirectUri: values.CENTRAL_SSO_REDIRECT_URI,
+  })) {
+    context.addIssue({ code: "custom", path: ["CENTRAL_SSO_ENABLED"], message });
+  }
   if (values.NODE_ENV === "production") {
     // Academy must never silently attach to either existing Titan database.
     try {
