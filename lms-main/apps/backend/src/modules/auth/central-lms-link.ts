@@ -1,10 +1,11 @@
+import {externalCentralRef} from './central-lms-contract';
 /** Resolve a Central identity only through an operator-provisioned,
  * product-local scoped identity. CompanyRef is LMS-owned; callers must
  * independently verify the Central company-to-LMS company relationship.
  */
 export type CentralLmsSubject={issuer:string;subject:string;companyRef:string;verifiedAt:string};
 export type CentralLmsAccount={userId:string;companyId:string;companyRef:string;role:'ADMIN'|'TEACHER'|'STUDENT';membershipRole:string};
-const SUBJECT=/^[^\s\x00-\x1f\x7f]{1,256}$/u;
+const SUBJECT=/^[^\s\x00-\x1f\x7f|]{1,180}$/u;
 function verified(input:unknown,now:number):input is CentralLmsSubject{
  if(!input||typeof input!=='object'||Array.isArray(input))return false;
  const x=input as Record<string,unknown>;
@@ -34,13 +35,15 @@ export function createCentralLmsAccountResolver({
  throw new TypeError('trusted LMS Central identity dependencies required');
  return async(input:unknown):Promise<CentralLmsAccount|null>=>{
   if(!verified(input,clock()))return null;
+  const externalRef=externalCentralRef(input.issuer,input.subject);
+  if(!externalRef)return null;
   try{
    const binding=await resolveCompanyBinding(input.companyRef);
    if(!binding||await authoriseCentral(input)!==true)return null;
    const company=await database.company.findUnique({where:{externalRef:input.companyRef},select:{id:true}});
    if(!company||company.id!==binding)return null;
    const identity=await database.academyExternalIdentity.findUnique({
-    where:{service_externalUserRef:{service:'titan-central',externalUserRef:input.issuer+'|'+input.subject}},
+    where:{service_externalUserRef:{service:'titan-central',externalUserRef:externalRef}},
     select:{userId:true,companyId:true}
    });
    if(!identity||identity.companyId!==company.id)return null;
