@@ -1,0 +1,45 @@
+name: Skilled Central link assertion contract
+
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-link-assertion.ts'
+      - 'lms-main/apps/backend/src/tests/central-link-assertion.test.ts'
+      - 'lms-main/apps/backend/src/tests/fixtures/central-link-assertions/**'
+      - '.github/workflows/skilled-central-link-assertion.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-link-assertion.ts'
+      - 'lms-main/apps/backend/src/tests/central-link-assertion.test.ts'
+      - 'lms-main/apps/backend/src/tests/fixtures/central-link-assertions/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  signed-link:
+    name: Signed Central link assertions
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - name: Install with frozen lockfile
+        working-directory: lms-main
+        run: pnpm install --frozen-lockfile
+      - name: Generate Prisma client
+        working-directory: lms-main/apps/backend
+        run: pnpm exec prisma generate
+      - name: Verify signed-link, Central resolution and tenant identity
+        working-directory: lms-main/apps/backend
+        run: pnpm exec vitest run src/tests/central-link-assertion.test.ts src/tests/central-account-resolution.test.ts src/tests/scoped-identity-policy.test.ts
+      - name: Check backend TypeScript
+        working-directory: lms-main/apps/backend
+        run: pnpm exec tsc --noEmit
