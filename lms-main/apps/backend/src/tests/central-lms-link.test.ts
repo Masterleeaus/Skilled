@@ -5,7 +5,7 @@ const db=()=>({
  company:{findUnique:vi.fn(async()=>({id:'company-1'}))},
  academyExternalIdentity:{findUnique:vi.fn(async()=>({userId:'user-1',companyId:'company-1'}))},
  companyMember:{findUnique:vi.fn(async()=>({role:'LEARNER'}))},
- user:{findUnique:vi.fn(async()=>({id:'user-1',isActive:true,isEmailVerified:true,deletedAt:null}))}
+ user:{findUnique:vi.fn(async()=>({id:'user-1',isActive:true,role:'STUDENT',isEmailVerified:true,deletedAt:null}))}
 });
 const setup=(over:Record<string,unknown>={})=>{
  const database=db(),resolveCompanyBinding=vi.fn(async()=> 'company-1');
@@ -16,7 +16,7 @@ const setup=(over:Record<string,unknown>={})=>{
 describe('LMS current external identity, company, membership and learner status',()=>{
  it('requires matching company and local scoped membership',async()=>{
   const x=setup();
-  expect(await x.resolve(input)).toEqual({userId:'user-1',companyId:'company-1',companyRef:'company-ref',role:'LEARNER'});
+  expect(await x.resolve(input)).toEqual({userId:'user-1',companyId:'company-1',companyRef:'company-ref',role:'STUDENT',membershipRole:'LEARNER'});
   expect(x.database.academyExternalIdentity.findUnique).toHaveBeenCalledWith({
    where:{service_externalUserRef:{service:'titan-central',externalUserRef:input.issuer+'|'+input.subject}},
    select:{userId:true,companyId:true}
@@ -37,7 +37,7 @@ describe('LMS current external identity, company, membership and learner status'
    const x=setup();
    if(field==='identity')x.database.academyExternalIdentity.findUnique.mockResolvedValue({userId:'user-1',companyId:'other'});
    if(field==='membership')x.database.companyMember.findUnique.mockResolvedValue(null as any);
-   if(field==='user')x.database.user.findUnique.mockResolvedValue({id:'user-1',isActive:false,isEmailVerified:true,deletedAt:null});
+   if(field==='user')x.database.user.findUnique.mockResolvedValue({id:'user-1',isActive:false,isEmailVerified:true,deletedAt:null,role:'STUDENT'});
    expect(await x.resolve(input)).toBeNull();
   }
  });
