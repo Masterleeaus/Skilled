@@ -1,0 +1,25 @@
+{
+  "name": "confirm-link",
+  "initial": [
+    {
+      "centralOrganisationId": "central-org-0001",
+      "localAccountId": "skilled-acct-0001",
+      "companyId": "skilled-company-0001",
+      "state": "verified"
+    }
+  ],
+  "commands": [
+    {
+      "action": "link",
+      "centralOrganisationId": "central-org-0001",
+      "localAccountId": "skilled-acct-0001",
+      "companyId": "skilled-company-0001",
+      "actorRef": "operator-01"
+    }
+  ],
+  "expected": [
+    "LINK_CONFIRMED"
+  ],
+  "state": "verified",
+  "audits": 1
+}
