@@ -106,6 +106,7 @@ model User {
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
 
+  centralSessions               SkilledCentralSession[]
   refreshTokens                 RefreshToken[]
   coursesTaught                 Course[]                       @relation("TeacherCourses")
   enrollments                   Enrollment[]
@@ -133,6 +134,28 @@ model User {
 
   @@index([email])
   @@map("users")
+}
+
+/** Revocable, opaque, locally issued Central-derived session. No Logto token is stored. */
+model SkilledCentralSession {
+  id                    String   @id @default(cuid())
+  tokenHash             String   @unique
+  userId                String
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  companyId             String
+  company               Company  @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  centralOrganisationId String
+  localAccountId        String
+  expiresAt             DateTime
+  revokedAt             DateTime?
+  createdAt             DateTime @default(now())
+  lastUsedAt            DateTime?
+
+  @@index([userId, revokedAt])
+  @@index([companyId, revokedAt])
+  @@index([centralOrganisationId, revokedAt])
+  @@index([expiresAt])
+  @@map("skilled_central_sessions")
 }
 
 model RefreshToken {
@@ -829,6 +852,7 @@ model Company {
   name                   String
   externalRef            String?                        @unique
   createdAt              DateTime                       @default(now())
+  centralSessions         SkilledCentralSession[]
   centralCompanyLinks     CentralCompanyLink[]
   memberships            CompanyMember[]
   practicalEvidence      AcademyPracticalEvidence[]
