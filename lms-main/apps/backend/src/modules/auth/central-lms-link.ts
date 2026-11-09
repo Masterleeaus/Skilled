@@ -3,7 +3,7 @@
  * independently verify the Central company-to-LMS company relationship.
  */
 export type CentralLmsSubject={issuer:string;subject:string;companyRef:string;verifiedAt:string};
-export type CentralLmsAccount={userId:string;companyId:string;companyRef:string;role:string};
+export type CentralLmsAccount={userId:string;companyId:string;companyRef:string;role:'ADMIN'|'TEACHER'|'STUDENT';membershipRole:string};
 const SUBJECT=/^[^\s\x00-\x1f\x7f]{1,256}$/u;
 function verified(input:unknown,now:number):input is CentralLmsSubject{
  if(!input||typeof input!=='object'||Array.isArray(input))return false;
@@ -49,9 +49,9 @@ export function createCentralLmsAccountResolver({
    });
    if(!member||typeof member.role!=='string')return null;
    const user=await database.user.findUnique({where:{id:identity.userId},
-    select:{id:true,isActive:true,isEmailVerified:true,deletedAt:true}});
-   if(!user||!user.isActive||!user.isEmailVerified||user.deletedAt)return null;
-   return {userId:user.id,companyId:company.id,companyRef:input.companyRef,role:member.role};
+    select:{id:true,role:true,isActive:true,isEmailVerified:true,deletedAt:true}});
+   if(!user||!user.isActive||!user.isEmailVerified||user.deletedAt||!['ADMIN','TEACHER','STUDENT'].includes(user.role))return null;
+   return {userId:user.id,companyId:company.id,companyRef:input.companyRef,role:user.role,membershipRole:member.role};
   }catch{return null}
  };
 }
