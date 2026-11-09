@@ -25,10 +25,10 @@ From `lms-main/apps/backend` after `pnpm install --frozen-lockfile` and `pnpm ex
 ```sh
 pnpm exec vitest run src/tests/central-lms-contract.test.ts src/tests/central-lms-link.test.ts src/tests/central-lms-session.test.ts src/tests/central-lms-security-*.test.ts
 pnpm exec tsc --noEmit
-pnpm run typecheck:tests
+pnpm exec tsc --project tsconfig.central-lms.json
 ```
 
-GitHub Actions performs the isolated test suite. The unrelated curriculum CI gate still blocks 1,267 assessments and 16 unresolved course mappings; never relax editorial approvals for authentication changes.
+GitHub Actions performs the isolated test suite. The repository-wide `typecheck:tests` currently fails on five pre-existing `import.meta` uses in a CommonJS test-compiler configuration. That unrelated failure is not hidden or claimed fixed; the dedicated Central security suite uses its own scoped typecheck in addition to full backend source typechecking. The unrelated curriculum CI gate still blocks 1,267 assessments and 16 unresolved course mappings; never relax editorial approvals for authentication changes.
 
 ## Outstanding acceptance before issue #71 can be closed
 
