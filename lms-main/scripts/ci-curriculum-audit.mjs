@@ -51,6 +51,7 @@ const SELF_TESTS = [
   'scripts/test-assessment-reconciliation.mjs',
   'scripts/test-lesson-normalization-fixtures.mjs',
   'scripts/test-rebuild-curriculum-derived.mjs',
+  'scripts/test-assessment-publication-negative-fixtures.mjs',
 ];
 
 const failures = [];
