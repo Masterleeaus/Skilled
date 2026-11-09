@@ -10,10 +10,10 @@ export const verifiedInput = () => ({
 export function fixture() {
   const database = {
     company:{findUnique:vi.fn(async()=>({id:'company-a'}))},
-    academyExternalIdentity:{findUnique:vi.fn(async()=>({userId:'user-a',companyId:'company-a'}))},
-    companyMember:{findUnique:vi.fn(async()=>({role:'MANAGER'}))},
+    academyExternalIdentity:{findUnique:vi.fn(async ():Promise<{userId:string;companyId:string}|null>=>({userId:'user-a',companyId:'company-a'}))},
+    companyMember:{findUnique:vi.fn(async ():Promise<{role:string|null}|null>=>({role:'MANAGER'}))},
     user:{findUnique:vi.fn(async()=>({
-      id:'user-a', role:'STUDENT', isActive:true, isEmailVerified:true, deletedAt:null
+      id:'user-a', role:'STUDENT', isActive:true, isEmailVerified:true, deletedAt:null as Date|null
     }))}
   };
   const resolveCompanyBinding = vi.fn(async()=> 'company-a');
