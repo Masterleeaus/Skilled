@@ -1,0 +1,18 @@
+{
+  "name": "19-nested-provenance",
+  "input": {
+    "instruction": [
+      {
+        "source": {
+          "notes": "Titan Academy archived author"
+        }
+      }
+    ]
+  },
+  "expected": [
+    [
+      "/instruction/0/source/notes",
+      "retain-review-provenance"
+    ]
+  ]
+}
