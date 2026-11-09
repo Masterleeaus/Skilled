@@ -37,6 +37,8 @@ jobs:
         working-directory: lms-main
         run: pnpm install --frozen-lockfile
       - name: Validate Prisma schema and generate model client
+        env:
+          DATABASE_URL: postgresql://ci:ci@localhost:5432/skilled_schema_only
         working-directory: lms-main/apps/backend
         run: |
           pnpm exec prisma validate
