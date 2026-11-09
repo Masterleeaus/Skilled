@@ -4,8 +4,8 @@ import { PrismaClient } from "@prisma/client";
 import { z } from "zod";
 
 const schema = z.discriminatedUnion("action", [
-  z.object({ action: z.literal("link-identity"), service: z.enum(["field-services", "ai-workforce"]), externalUserRef: z.string().min(1).max(200), userId: z.string().min(1), companyRef: z.string().min(1).max(200) }).strict(),
-  z.object({ action: z.literal("unlink-identity"), service: z.enum(["field-services", "ai-workforce"]), externalUserRef: z.string().min(1).max(200), userId: z.string().min(1), companyRef: z.string().min(1).max(200) }).strict(),
+  z.object({ action: z.literal("link-identity"), service: z.enum(["field-services", "ai-workforce", "titan-central"]), externalUserRef: z.string().min(1).max(200), userId: z.string().min(1), companyRef: z.string().min(1).max(200) }).strict(),
+  z.object({ action: z.literal("unlink-identity"), service: z.enum(["field-services", "ai-workforce", "titan-central"]), externalUserRef: z.string().min(1).max(200), userId: z.string().min(1), companyRef: z.string().min(1).max(200) }).strict(),
 ]);
 
 export async function provision(raw: unknown, db: PrismaClient): Promise<string> {
