@@ -1,2 +1,5 @@
 # Isolated agent worktrees (local scratch checkouts, not project content)
 .claude/worktrees/
+
+# Agent scratch logs written at the repository root
+.claude/scratch-*.log

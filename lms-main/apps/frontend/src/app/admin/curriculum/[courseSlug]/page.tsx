@@ -25,6 +25,7 @@ export default function SuperadminCurriculumPage() {
   if (!user) return null;
 
   const rows = lessons.data ?? [];
+  const selectedRow = rows.find(row => row.id === selectedId);
   const groups = rows.reduce<Record<string, SuperadminLessonRow[]>>((acc, row) => {
     const key = row.moduleTitle ?? "No module";
     (acc[key] ??= []).push(row);
@@ -75,6 +76,11 @@ export default function SuperadminCurriculumPage() {
             <div role="status">
               {message && <p className="mb-4 rounded border border-green-700/50 bg-green-950/30 p-3 text-sm text-green-200">{message}</p>}
             </div>
+            {selectedRow && selectedRow.status !== "READY" && (
+              <p className="mb-4 rounded border border-amber-700/50 bg-amber-950/30 p-3 text-sm text-amber-200">
+                Preview: this lesson is not approved and learners cannot see it. Review status: Draft.
+              </p>
+            )}
             {selectedId
               ? <SuperadminLessonEditor key={selectedId} lessonId={selectedId} onSaved={setMessage} />
               : <p className="text-neutral-400">Choose a lesson to view and edit it.</p>}
