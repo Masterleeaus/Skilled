@@ -73,9 +73,11 @@ export default function RegisterPage() {
               id="register-full-name"
               {...register("fullName")}
               autoComplete="name"
+              aria-invalid={errors.fullName ? true : undefined}
+              aria-describedby={errors.fullName ? "register-full-name-error" : undefined}
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             />
-            {errors.fullName && <p className="mt-1 text-xs text-red-400">{errors.fullName.message}</p>}
+            {errors.fullName && <p id="register-full-name-error" className="mt-1 text-xs text-red-400">{errors.fullName.message}</p>}
           </div>
 
           <div>
@@ -85,9 +87,11 @@ export default function RegisterPage() {
               {...register("email")}
               type="email"
               autoComplete="email"
+              aria-invalid={errors.email ? true : undefined}
+              aria-describedby={errors.email ? "register-email-error" : undefined}
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             />
-            {errors.email && <p className="mt-1 text-xs text-red-400">{errors.email.message}</p>}
+            {errors.email && <p id="register-email-error" className="mt-1 text-xs text-red-400">{errors.email.message}</p>}
           </div>
 
           <div>
@@ -97,9 +101,11 @@ export default function RegisterPage() {
               {...register("password")}
               type="password"
               autoComplete="new-password"
+              aria-invalid={errors.password ? true : undefined}
+              aria-describedby={errors.password ? "register-password-error" : undefined}
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             />
-            {errors.password && <p className="mt-1 text-xs text-red-400">{errors.password.message}</p>}
+            {errors.password && <p id="register-password-error" className="mt-1 text-xs text-red-400">{errors.password.message}</p>}
           </div>
 
           {serverError && <p className="text-sm text-red-400">{serverError}</p>}
