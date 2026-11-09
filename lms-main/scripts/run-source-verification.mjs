@@ -36,6 +36,12 @@ const checks = [
   'test-lesson-normalization-fixtures.mjs',
   'test-rebuild-curriculum-derived.mjs',
   'test-assessment-publication-negative-fixtures.mjs',
+  'test-audit-active-compatibility.mjs',
+  'test-audit-inactive-source-boundaries.mjs',
+  'test-audit-canonical-import-manifest.mjs',
+  'test-audit-course-art-manifest.mjs',
+  'test-prepare-public-assets.mjs',
+  'test-public-topbar-navigation.mjs',
 ];
 let failed = 0;
 for (const test of checks) {
