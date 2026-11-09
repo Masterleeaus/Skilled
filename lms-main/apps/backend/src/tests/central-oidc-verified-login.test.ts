@@ -5,13 +5,17 @@ describe("full OIDC code-PKCE and verified callback composition",()=>{
  const binding="a".repeat(43);
  it("starts one-use state and signs user identity after code exchange",async()=>{
   let saved:any=null,consumed=false;const fetcher=fakeFetch();
+  const signingFetch=(async(url:RequestInfo|URL,init?:RequestInit)=>{
+   if(String(url).endsWith("/token"))return response({id_token:jwt({nonce:saved.record.nonce})});
+   return fetcher(url,init);
+  }) as typeof fetch;
   const client=createSkilledVerifiedOidcLogin({
    issuer,clientId,clientSecret:"secret-of-at-least-16-characters",
-   redirectUri:"https://skilled.example.test/auth/titan/academy/callback",fetcher,clock:()=>now,
+   redirectUri:"https://skilled.example.test/auth/titan/academy/callback",fetcher:signingFetch,clock:()=>now,
    store:{
     save:async(state,record)=>{saved={state,record};},
     consume:async(state,b)=>{expect(state).toBe(saved.state);expect(b).toBe(binding);consumed=true;
-     return {...saved.record,nonce};}
+     return {...saved.record};}
    }
   });
   const begin=await client.begin({browserBinding:binding});

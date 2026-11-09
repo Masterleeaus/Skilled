@@ -19,18 +19,5 @@ export function createPrismaOidcStateStore(db:Db,key:Buffer,clock=()=>Date.now()
     sealedVerifier:sealOidc(record.verifier,aad(digest,"verifier"),key),
     expiresAt:new Date(record.expiresAt)}});
   },
-  async consume(state:string,binding:string):Promise<PendingState|null>{
-   if(!TOKEN.test(state)||!TOKEN.test(binding))return null;
-   const digest=hash(state);
-   // DELETE RETURNING is atomic in PostgreSQL. Never read then delete separately.
-   const rows=await db.skilledOidcLoginState.deleteMany({where:{
-    stateHash:digest,applicationId:"academy",bindingHash:hash(binding),expiresAt:{gt:new Date(clock())}
-   }});
-   // Prisma deleteMany returns count only, not the deleted row: cannot recover
-   // sealed nonce/verifier with this API. The persisted record must be atomically
-   // consumed via a PostgreSQL DELETE RETURNING adapter instead.
-   if(rows.count===0)return null;
-   throw Error("OIDC state backend requires atomic DELETE RETURNING; no session issued");
-  },
  };
 }
