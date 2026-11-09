@@ -49,6 +49,9 @@ describe("Central session HTTP boundary and CSRF denial",()=>{
       if(fixture.expectedStatus===204){
         expect(revoke).toHaveBeenCalledOnce();
         expect(res.headers["set-cookie"][0]).toContain(`${CENTRAL_SESSION_COOKIE}=;`);
+      }else if(fixture.expectedStatus===503){
+        expect(revoke).toHaveBeenCalledOnce();
+        expect(res.headers["set-cookie"]).toBeUndefined();
       }else expect(revoke).not.toHaveBeenCalled();
       if(fixture.expectedStatus===200){
         expect(res.body).toEqual({authenticated:true,userId:user.userId,companyId:user.companyId,role:"STUDENT"});
