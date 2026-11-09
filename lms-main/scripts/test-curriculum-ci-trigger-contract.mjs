@@ -16,8 +16,9 @@ for (const event of ['pull_request', 'push']) {
   blocks[event] = [...match[1].matchAll(/^      - ["']([^"']+)["']$/gm)].map(m => m[1]);
 }
 function matches(pattern, filename) {
-  const escaped = pattern.replace(/[.+^$()|[\]{}]/g, '\\$&').replace(/\*\*/g, '\\u0001').replace(/\*/g, '[^/]*').replace(/\\u0001/g, '.*');
-  return new RegExp('^' + escaped + '$').test(filename);
+  const escape = (piece) => [...piece].map(char => '.^$+?()[]{}|\\\\'.includes(char) ? '\\\\' + char : char).join('');
+  const expression = pattern.split('**').map(segment => segment.split('*').map(escape).join('[^/]*')).join('.*');
+  return new RegExp('^' + expression + '$').test(filename);
 }
 const required = [
   'lms-main/curriculum/courses/example/lesson.json',
