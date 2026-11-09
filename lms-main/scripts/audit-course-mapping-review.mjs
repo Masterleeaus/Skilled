@@ -30,6 +30,7 @@ export function verifyRecord(record, sourceBytes, expectedId) {
   if (record.sourceBlobSha !== gitBlobSha(sourceBytes)) errors.push('source_changed_review_required');
   const observed = [
     ['sourceTitle', 'title'],
+    ['observedModuleTitle', 'moduleTitle'],
     ['observedStatus', 'status'],
     ['observedLayer', 'layer'],
     ['observedLessonType', 'lessonType'],
@@ -38,6 +39,7 @@ export function verifyRecord(record, sourceBytes, expectedId) {
   for (const [recordField, sourceField] of observed) {
     if (record[recordField] !== source[sourceField]) errors.push('evidence_drift_' + recordField);
   }
+  if (!Array.isArray(record.observedPrerequisites) || JSON.stringify(record.observedPrerequisites) !== JSON.stringify(source.prerequisites ?? [])) errors.push('prerequisites_changed');
   if (JSON.stringify(record.observedCourseSlugs) !== JSON.stringify(source.courseSlugs)) errors.push('course_slugs_changed');
   if (JSON.stringify(record.observedLearningOutcomes) !== JSON.stringify(source.learningOutcomes)) errors.push('learning_outcomes_changed');
   if (record.observedInstructionSectionCount !== source.instruction?.length) errors.push('instruction_count_changed');
@@ -55,6 +57,7 @@ export function verifyRecord(record, sourceBytes, expectedId) {
     if (typeof record.rationale !== 'string' || record.rationale.trim().length < 20) errors.push('missing_review_rationale');
     if (!Array.isArray(record.proposedCourseSlugs)) errors.push('invalid_proposed_courses');
     if (record.decision === 'approved' && record.proposedCourseSlugs.length === 0) errors.push('approved_without_course');
+    if (record.decision === 'approved' && record.proposedCourseSlugs.some(slug => typeof slug !== 'string' || slug.length < 2 || slug !== slug.trim())) errors.push('invalid_course_slug');
     if (record.decision === 'excluded' && record.proposedCourseSlugs.length !== 0) errors.push('excluded_but_placed');
     // This report cannot approve a curriculum placement into the publisher.
   }
