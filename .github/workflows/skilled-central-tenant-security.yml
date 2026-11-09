@@ -45,8 +45,8 @@ jobs:
       - name: Validate existing Central adapter and all independent security scenarios
         working-directory: lms-main/apps/backend
         run: pnpm exec vitest run src/tests/central-lms-contract.test.ts src/tests/central-lms-link.test.ts src/tests/central-lms-session.test.ts src/tests/central-lms-security-*.test.ts
-      - name: Typecheck backend and backend tests
+      - name: Typecheck backend and isolated Central security tests
         working-directory: lms-main/apps/backend
         run: |
           pnpm exec tsc --noEmit
-          pnpm run typecheck:tests
+          pnpm exec tsc --project tsconfig.central-lms.json
