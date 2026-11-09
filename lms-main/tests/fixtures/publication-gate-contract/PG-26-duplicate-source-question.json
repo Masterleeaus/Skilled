@@ -1,0 +1,27 @@
+{
+  "name": "duplicate-source-question",
+  "expectedApproved": false,
+  "expectedReason": "question_mapping_duplicate_question_id",
+  "lessonPatch": {
+    "knowledgeChecks": [
+      {
+        "id": "Q1",
+        "question": "Select safe action",
+        "options": [
+          "Stop",
+          "Continue",
+          "Escalate"
+        ]
+      },
+      {
+        "id": "Q1",
+        "question": "Repeat question",
+        "options": [
+          "Stop",
+          "Continue",
+          "Escalate"
+        ]
+      }
+    ]
+  }
+}

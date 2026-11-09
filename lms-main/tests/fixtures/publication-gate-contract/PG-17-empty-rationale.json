@@ -1,0 +1,14 @@
+{
+  "name": "empty-rationale",
+  "expectedApproved": false,
+  "expectedReason": "missing_rationale",
+  "assessmentPatch": {
+    "knowledgeAnswers": [
+      {
+        "id": "Q1",
+        "correctIndex": 0,
+        "rationale": ""
+      }
+    ]
+  }
+}

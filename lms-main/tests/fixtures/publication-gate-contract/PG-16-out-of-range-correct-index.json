@@ -1,0 +1,14 @@
+{
+  "name": "out-of-range-correct-index",
+  "expectedApproved": false,
+  "expectedReason": "question_mapping_answer_out_of_range",
+  "assessmentPatch": {
+    "knowledgeAnswers": [
+      {
+        "id": "Q1",
+        "correctIndex": 99,
+        "rationale": "Correct"
+      }
+    ]
+  }
+}

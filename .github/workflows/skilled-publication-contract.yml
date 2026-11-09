@@ -1,0 +1,35 @@
+name: Skilled publication gate contract
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/skilled-publication-contract.yml'
+      - 'lms-main/scripts/validate-assessment-publication.mjs'
+      - 'lms-main/scripts/reconcile-assessment-questions.mjs'
+      - 'lms-main/scripts/test-assessment-publication-contract.mjs'
+      - 'lms-main/tests/fixtures/publication-gate-contract/**'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/skilled-publication-contract.yml'
+      - 'lms-main/scripts/validate-assessment-publication.mjs'
+      - 'lms-main/scripts/reconcile-assessment-questions.mjs'
+      - 'lms-main/scripts/test-assessment-publication-contract.mjs'
+      - 'lms-main/tests/fixtures/publication-gate-contract/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  strict-approval-contract:
+    name: Clean and blocked assessment fixture contract
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run all 28 approval cases through the real validator
+        run: node lms-main/scripts/test-assessment-publication-contract.mjs

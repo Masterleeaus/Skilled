@@ -1,0 +1,19 @@
+{
+  "name": "duplicate-answer-key-id",
+  "expectedApproved": false,
+  "expectedReason": "duplicate_or_missing_answer_id",
+  "assessmentPatch": {
+    "knowledgeAnswers": [
+      {
+        "id": "Q1",
+        "correctIndex": 0,
+        "rationale": "Correct"
+      },
+      {
+        "id": "Q1",
+        "correctIndex": 0,
+        "rationale": "Correct"
+      }
+    ]
+  }
+}

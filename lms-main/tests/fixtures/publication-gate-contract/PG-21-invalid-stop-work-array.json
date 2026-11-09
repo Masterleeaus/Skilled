@@ -1,0 +1,8 @@
+{
+  "name": "invalid-stop-work-array",
+  "expectedApproved": false,
+  "expectedReason": "invalid_stop_work_criteria",
+  "assessmentPatch": {
+    "stopWorkCriteria": "unknown"
+  }
+}

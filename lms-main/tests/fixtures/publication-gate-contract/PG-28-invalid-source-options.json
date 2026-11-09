@@ -1,0 +1,16 @@
+{
+  "name": "invalid-source-options",
+  "expectedApproved": false,
+  "expectedReason": "question_mapping_invalid_options",
+  "lessonPatch": {
+    "knowledgeChecks": [
+      {
+        "id": "Q1",
+        "question": "Select safe action",
+        "options": [
+          "Only one"
+        ]
+      }
+    ]
+  }
+}
