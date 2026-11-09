@@ -1,4 +1,6 @@
-# Titan Academy server deployment runbook (checklist item O)
+# Historical Titan Academy server deployment proposal (checklist item O)
+
+> **ARCHIVED OPERATOR REFERENCE — NOT CURRENT DEPLOYMENT AUTHORITY.** This document records an unverified 2026-11-03 host-specific proposal. Use [SkilledAt.Work's current deployment entrypoint](../../docs/DEPLOYMENT.md) and [release gates](../../docs/runbooks/deployment.md) for any future release. Historical database names, ports, service names and paths are examples until independently verified on the intended host. Do not execute its provisioning steps without an explicit reviewed host-specific plan.
 
 Status: written from the repository on 2026-11-03. Nothing in this file has been run on a server. Every command below is a checklist to follow, not a record that it was done.
 
