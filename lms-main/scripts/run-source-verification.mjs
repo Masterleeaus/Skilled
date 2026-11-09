@@ -42,6 +42,11 @@ const checks = [
   'test-audit-course-art-manifest.mjs',
   'test-prepare-public-assets.mjs',
   'test-public-topbar-navigation.mjs',
+  'test-account-flow-branding.mjs',
+  'test-active-source-consolidation.mjs',
+  'test-audit-public-product-identity.mjs',
+  'test-skilled-public-brand.mjs',
+  'test-deployment-doc-contract.mjs',
 ];
 let failed = 0;
 for (const test of checks) {
