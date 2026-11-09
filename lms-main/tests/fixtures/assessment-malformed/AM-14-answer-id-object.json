@@ -1,0 +1,15 @@
+{
+  "scenario": "answer-id-object",
+  "expectedReason": "invalid_answer_id",
+  "payload": {
+    "knowledgeAnswers": [
+      {
+        "id": {
+          "bad": true
+        },
+        "correctIndex": 0,
+        "rationale": "Safe"
+      }
+    ]
+  }
+}
