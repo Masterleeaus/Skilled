@@ -222,14 +222,16 @@ model Module {
 }
 
 model Lesson {
-  id            String  @id @default(cuid())
-  moduleId      String
-  module        Module  @relation(fields: [moduleId], references: [id], onDelete: Cascade)
-  title         String
-  videoUrl      String?
-  duration      Int?
-  isFreePreview Boolean @default(false)
-  orderIndex    Int
+  id              String  @id @default(cuid())
+  moduleId        String
+  module          Module  @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  title           String
+  videoUrl        String?
+  // Private MinIO key of a WebVTT caption file, under the same managed prefix as videoUrl. Null when there are no captions.
+  captionTrackKey String?
+  duration        Int?
+  isFreePreview   Boolean @default(false)
+  orderIndex      Int
 
   lessonProgress    LessonProgress[]
   discussionThreads DiscussionThread[]
