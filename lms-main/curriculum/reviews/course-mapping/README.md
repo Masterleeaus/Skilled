@@ -29,3 +29,7 @@ node scripts/audit-course-mapping-review.mjs --fail-on-unresolved
 The first two commands should pass when every evidence snapshot is valid, even though 16 decisions are pending. The last command is expected to **fail closed** until every mapping decision is reviewed. CI uploads the item-level report and never writes approvals. A passing evidence-audit CI job does **not** mean issue #20 or curriculum publication is complete.
 
 This inventory is separate from `curriculum/lesson-review-queue.json` and `curriculum/lesson-normalization-index.json`. Both generated files may currently be stale and must be reconciled after source changes; this inventory cannot be used to bypass their gate.
+
+## Derived-file reconciliation (9 November 2026)
+
+The dedicated GitHub Actions reconciliation job regenerated `curriculum/lesson-normalization-index.json`, `curriculum/lesson-review-queue.json` and `curriculum/lesson-review-queue.csv` directly from the canonical authoring source and committed only these three derived files to this review branch. The generation job ran the existing normalization and queue self-tests before committing. Editorial decisions remain unresolved, all source lessons are unchanged, and the assessment approval gate remains blocked until qualified review. The generated commit is not an editorial approval; after merge, CI must revalidate against the final source tip.
