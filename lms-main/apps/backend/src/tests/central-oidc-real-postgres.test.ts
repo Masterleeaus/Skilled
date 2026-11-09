@@ -1,18 +1,18 @@
 import {describe,it,expect,beforeAll,afterAll} from "vitest";
-import {PrismaClient} from "@prisma/client";
+import type {PrismaClient} from "@prisma/client";
 import {randomBytes} from "node:crypto";
 import {createDurableOidcState} from "../modules/auth/central-oidc-state-adapter";
 import {createExpiredOidcStatePruner} from "../modules/auth/central-oidc-state-prune";
 import {hash} from "../modules/auth/central-oidc-crypto";
 const suite=process.env.SKILLED_OIDC_PG_TEST==="1"?describe:describe.skip;
 suite("real PostgreSQL OIDC state is single-use across concurrent connections",()=>{
- const a=new PrismaClient(),b=new PrismaClient();
+ let a:PrismaClient,b:PrismaClient;
  const key=Buffer.alloc(32,13);
  const state=()=>randomBytes(32).toString("base64url");
  const binding=()=>randomBytes(32).toString("base64url");
  const nonce=()=>randomBytes(32).toString("base64url");
  const expires=()=>Date.now()+180000;
- beforeAll(async()=>{await a.$connect();await b.$connect()});
+ beforeAll(async()=>{const client=await import("@prisma/client");a=new client.PrismaClient();b=new client.PrismaClient();await a.$connect();await b.$connect()});
  afterAll(async()=>{await a.skilledOidcLoginState.deleteMany({});await a.$disconnect();await b.$disconnect()});
  it("one session stores no plaintext and consumes secrets once",async()=>{
   const s=state(),browser=binding(),n=nonce(),v=nonce(),due=expires();
