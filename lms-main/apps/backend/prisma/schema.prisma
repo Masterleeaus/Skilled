@@ -829,6 +829,7 @@ model Company {
   name                   String
   externalRef            String?                        @unique
   createdAt              DateTime                       @default(now())
+  centralCompanyLinks     CentralCompanyLink[]
   memberships            CompanyMember[]
   practicalEvidence      AcademyPracticalEvidence[]
   assignments            AcademyTrainingAssignment[]
@@ -842,6 +843,42 @@ model Company {
   chatbotMessages        AcademyChatbotMessage[]
 
   @@map("academy_companies")
+}
+
+
+/**
+ * Skilled's local, operator-controlled account endpoint binding.
+ * Central remains the authority for subjects, membership, entitlement and link revisions.
+ * This is NOT a second Central identity registry; it only proves which Skilled
+ * company/account corresponds to a Central organisation for local membership checks.
+ */
+model CentralCompanyLink {
+  id                    String   @id @default(cuid())
+  centralOrganisationId String   @unique
+  localAccountId        String   @unique
+  companyId             String   @unique
+  company               Company  @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  state                 String   @default("verified")
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  @@index([state])
+  @@map("skilled_central_company_links")
+}
+
+// Append-only operator audit of local account binding decisions.
+model CentralCompanyLinkAudit {
+  id                    String   @id @default(cuid())
+  centralOrganisationId String
+  localAccountId        String
+  companyId             String
+  actorRef              String
+  outcome               String
+  createdAt             DateTime @default(now())
+
+  @@index([centralOrganisationId, createdAt])
+  @@index([companyId, createdAt])
+  @@map("skilled_central_company_link_audits")
 }
 
 model CompanyMember {
