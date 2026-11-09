@@ -30,16 +30,27 @@ export function reconcile(assessment, converted){
  const checks=Array.isArray(converted?.knowledgeChecks)?converted.knowledgeChecks:[];
  const answers=Array.isArray(assessment?.knowledgeAnswers)?assessment.knowledgeAnswers:[];
  const byId=new Map();
- for(const q of checks){if(byId.has(q.id))findings.push({code:'duplicate_question_id',id:q.id});byId.set(q.id,q);}
+ for(const q of checks){
+  if(!q||typeof q!=='object'||Array.isArray(q)||typeof q.id!=='string'||!q.id.trim()){
+   findings.push({code:'invalid_question_entry'});
+   continue;
+  }
+  if(byId.has(q.id))findings.push({code:'duplicate_question_id',id:q.id});
+  byId.set(q.id,q);
+ }
  for(const a of answers){
+  if(!a||typeof a!=='object'||Array.isArray(a)||typeof a.id!=='string'||!a.id.trim()){
+   findings.push({code:'invalid_answer_entry'});
+   continue;
+  }
   const q=byId.get(a.id);
   if(!q){findings.push({code:'unmatched_answer',id:a.id});continue;}
   if(typeof q.question!=='string'||!q.question.trim())findings.push({code:'empty_question',id:a.id});
   if(!Array.isArray(q.options)||q.options.length<2||q.options.some(o=>typeof o!=='string'||!o.trim()))findings.push({code:'invalid_options',id:a.id});
   else if(!Number.isInteger(a.correctIndex)||a.correctIndex<0||a.correctIndex>=q.options.length)findings.push({code:'answer_out_of_range',id:a.id,optionCount:q.options.length});
  }
- const answerIds=new Set(answers.map(a=>a.id));
- for(const q of checks)if(!answerIds.has(q.id))findings.push({code:'question_without_answer',id:q.id});
+ const answerIds=new Set(answers.filter(a=>a&&typeof a==='object'&&!Array.isArray(a)&&typeof a.id==='string').map(a=>a.id));
+ for(const q of checks)if(q&&typeof q==='object'&&!Array.isArray(q)&&typeof q.id==='string'&&!answerIds.has(q.id))findings.push({code:'question_without_answer',id:q.id});
  if(!converted)findings.push({code:'missing_converted_lesson'});
  return findings;
 }
