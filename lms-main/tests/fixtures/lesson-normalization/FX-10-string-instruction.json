@@ -1,0 +1,12 @@
+{
+  "caseId": "FX-10",
+  "description": "Top-level instruction string instead of array",
+  "overrides": {
+    "instruction": "Read the instructions"
+  },
+  "remove": [],
+  "expectedBlockers": [
+    "no usable instructional sections"
+  ],
+  "expectedPriority": "P0"
+}

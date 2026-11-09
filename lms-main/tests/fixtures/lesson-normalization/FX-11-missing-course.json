@@ -1,0 +1,12 @@
+{
+  "caseId": "FX-11",
+  "description": "Missing verified course association",
+  "overrides": {},
+  "remove": [
+    "courseSlugs"
+  ],
+  "expectedBlockers": [
+    "course mapping requires review"
+  ],
+  "expectedPriority": "P2"
+}
