@@ -45,6 +45,8 @@ const checks = [
   'test-account-flow-branding.mjs',
   'test-active-source-consolidation.mjs',
   'test-audit-public-product-identity.mjs',
+  'test-audit-curriculum-brand.mjs',
+  'test-curriculum-brand-fixtures.mjs',
   'test-skilled-public-brand.mjs',
   'test-deployment-doc-contract.mjs',
 ];

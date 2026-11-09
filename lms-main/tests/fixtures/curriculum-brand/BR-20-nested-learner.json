@@ -1,0 +1,22 @@
+{
+  "name": "20-nested-learner",
+  "input": {
+    "modules": [
+      {
+        "sections": [
+          {
+            "workedExamples": [
+              "Titan Academy example"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "expected": [
+    [
+      "/modules/0/sections/0/workedExamples/0",
+      "learner-visible-review"
+    ]
+  ]
+}

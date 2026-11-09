@@ -1,0 +1,48 @@
+name: skilled-curriculum-brand-inventory
+on:
+  pull_request:
+    paths:
+      - 'lms-main/scripts/audit-curriculum-brand.mjs'
+      - 'lms-main/scripts/test-audit-curriculum-brand.mjs'
+      - 'lms-main/scripts/test-curriculum-brand-fixtures.mjs'
+      - 'lms-main/tests/fixtures/curriculum-brand/**'
+      - 'lms-main/curriculum/courses/**'
+      - 'lms-main/curriculum/shared/**'
+      - 'lms-main/curriculum/structure/**'
+      - '.github/workflows/skilled-curriculum-brand-inventory.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/scripts/audit-curriculum-brand.mjs'
+      - 'lms-main/scripts/test-audit-curriculum-brand.mjs'
+      - 'lms-main/scripts/test-curriculum-brand-fixtures.mjs'
+      - 'lms-main/tests/fixtures/curriculum-brand/**'
+      - 'lms-main/curriculum/courses/**'
+      - 'lms-main/curriculum/shared/**'
+      - 'lms-main/curriculum/structure/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  brand-inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate classification and source-location contracts
+        working-directory: lms-main
+        run: |
+          node --test scripts/test-audit-curriculum-brand.mjs
+          node --test scripts/test-curriculum-brand-fixtures.mjs
+      - name: Produce read-only canonical curriculum brand evidence
+        working-directory: lms-main
+        run: node scripts/audit-curriculum-brand.mjs --report build/issue-86-brand-inventory.json
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: issue-86-brand-inventory
+          path: lms-main/build/issue-86-brand-inventory.json
+          if-no-files-found: warn
