@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "noEmit": true, "rootDir": "src" },
+  "include": [
+    "src/config/central-sso.ts",
+    "src/modules/auth/central/central-errors.ts",
+    "src/modules/auth/central/central-oidc.ts",
+    "src/modules/auth/central/central-id-token.ts",
+    "src/modules/auth/central/central-state.ts",
+    "src/tests/central-sso-oidc.test.ts",
+    "src/tests/central-oidc-*.test.ts",
+    "src/tests/support/central-sso-fixtures.ts"
+  ],
+  "exclude": ["node_modules","dist"]
+}
