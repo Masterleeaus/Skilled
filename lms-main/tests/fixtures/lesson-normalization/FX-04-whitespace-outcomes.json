@@ -1,0 +1,15 @@
+{
+  "caseId": "FX-04",
+  "description": "Whitespace is not a measurable outcome",
+  "overrides": {
+    "learningOutcomes": [
+      " ",
+      "\t"
+    ]
+  },
+  "remove": [],
+  "expectedBlockers": [
+    "no explicit learning outcomes"
+  ],
+  "expectedPriority": "P1"
+}
