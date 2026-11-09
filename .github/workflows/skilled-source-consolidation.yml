@@ -17,6 +17,8 @@ on:
       - 'lms-main/apps/backend/prisma/seed.ts'
       - 'lms-main/apps/backend/prisma/local-demo-seed-guard.ts'
       - 'lms-main/apps/backend/src/tests/local-demo-seed-guard.test.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-*.ts'
+      - 'lms-main/apps/backend/src/tests/central-*.test.ts'
       - '.github/workflows/skilled-source-consolidation.yml'
   push:
     branches:
@@ -61,7 +63,7 @@ jobs:
         run: pnpm -C apps/backend exec vitest run src/tests/local-demo-seed-guard.test.ts
       - name: Verify Central tenant-scoped identity resolver
         working-directory: lms-main
-        run: pnpm -C apps/backend exec vitest run src/tests/central-identity-resolver.test.ts src/tests/central-session-revalidation.test.ts src/tests/central-access-contract.test.ts
+        run: pnpm -C apps/backend exec vitest run src/tests/central-identity-resolver.test.ts src/tests/central-session-revalidation.test.ts src/tests/central-access-contract.test.ts src/tests/central-verified-access-bridge.test.ts
       - name: Backend typecheck
         working-directory: lms-main
         run: pnpm -C apps/backend exec tsc --noEmit
