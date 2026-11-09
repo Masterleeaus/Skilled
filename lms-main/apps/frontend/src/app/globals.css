@@ -126,6 +126,10 @@ body {
 :root.light .border-white {
   border-color: var(--color-fg-strong);
 }
+/* Primary buttons are white on a white page in the light theme (bg-white rounded-lg). Give them the strong border token so their edge is visible (3.4:1 on white). Fill and text are unchanged. */
+:root.light .bg-white.rounded-lg {
+  border: 1px solid var(--color-border-strong);
+}
 :root.light .accent-white {
   accent-color: var(--color-fg-strong);
 }
