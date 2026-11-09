@@ -35,7 +35,7 @@ export default function VerifyEmailPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center px-4">
+    <main id="main-content" tabIndex={-1} className="flex min-h-screen items-center justify-center px-4">
       <section className="w-full max-w-sm space-y-5 text-center">
         <h1 className="text-2xl font-semibold">Verify your email</h1>
         {status === "checking" && <p role="status">Checking link...</p>}

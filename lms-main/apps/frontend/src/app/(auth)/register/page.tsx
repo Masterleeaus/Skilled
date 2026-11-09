@@ -44,7 +44,7 @@ export default function RegisterPage() {
 
   if (done) {
     return (
-      <main className="flex min-h-screen items-center justify-center px-4">
+      <main id="main-content" tabIndex={-1} className="flex min-h-screen items-center justify-center px-4">
         <div className="max-w-sm text-center">
           <h1 className="text-xl font-semibold">Check your email</h1>
           <p className="mt-2 text-sm text-neutral-400">
@@ -59,7 +59,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center px-4">
+    <main id="main-content" tabIndex={-1} className="flex min-h-screen items-center justify-center px-4">
       <div className="w-full max-w-sm space-y-6">
         <div>
           <h1 className="text-2xl font-semibold">Create your account</h1>

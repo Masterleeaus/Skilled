@@ -65,12 +65,12 @@ export function Topbar({ title, backHref, backLabel = "Back" }: TopbarProps) {
           Dashboard
         </Link>
 
-        <button onClick={() => setMenuOpen((v) => !v)} aria-expanded={menuOpen} className="hover:text-neutral-200">
+        <button onClick={() => setMenuOpen((v) => !v)} aria-expanded={menuOpen} aria-haspopup="true" aria-controls="account-menu" aria-label="Account menu" className="hover:text-neutral-200">
           {user?.fullName} ▾
         </button>
 
         {menuOpen && (
-          <div className="absolute right-0 top-8 z-10 w-40 rounded-lg border border-neutral-800 bg-neutral-900 py-1 shadow-lg">
+          <div id="account-menu" aria-label="Account options" className="absolute right-0 top-8 z-10 w-40 rounded-lg border border-neutral-800 bg-neutral-900 py-1 shadow-lg">
             <Link
               href="/profile"
               onClick={() => setMenuOpen(false)}

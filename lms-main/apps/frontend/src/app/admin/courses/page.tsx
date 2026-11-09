@@ -22,7 +22,7 @@ export default function AdminCoursesPage() {
     <div>
       <Topbar title="All Courses" />
       <AdminNav />
-      <main className="mx-auto max-w-4xl px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-4xl px-6 py-8">
         {isLoading && <p className="text-neutral-400">Loading...</p>}
         {isError && <p role="alert" className="text-amber-300">The course list could not be loaded.</p>}
 

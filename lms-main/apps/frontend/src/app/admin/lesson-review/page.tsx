@@ -23,7 +23,7 @@ export default function LessonReviewQueuePage() {
     <>
       <Topbar title="Lesson review" />
       <AdminNav />
-      <main className="mx-auto max-w-5xl space-y-5 px-6 py-7 text-slate-100">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-5xl space-y-5 px-6 py-7 text-slate-100">
         <h1 className="text-xl font-semibold">Review queue</h1>
         <p className="text-sm text-slate-400">
           Draft lesson revisions that do not yet have an approval for their current content. Approval applies only to the content hash shown on the review page. Publishing is blocked until a reviewer approves that exact content and it passes the structural checks.
