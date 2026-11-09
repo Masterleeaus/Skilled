@@ -1,0 +1,3 @@
+import {it,expect} from "vitest";
+import {withFixture} from "./central-session-postgres.fixture";
+it("real PostgreSQL Central sessions: rotation-race",async()=>withFixture(async f=>{const first=await f.store.create(f.a);const separate=new (await import("@prisma/client")).PrismaClient();await separate.$connect();try{const [a,b]=await Promise.allSettled([f.store.create(f.a,first.token),f.make(separate).create(f.a,first.token)]);expect([a,b].filter(x=>x.status==="fulfilled")).toHaveLength(1);expect(await f.db.skilledCentralSession.count({where:{userId:f.a.userId,revokedAt:null}})).toBe(1);}finally{await separate.$disconnect();}}));

@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "noEmit": true
+  },
+  "include": [
+    "src/modules/auth/central-session-store.ts",
+    "src/tests/central-session-postgres.fixture.ts",
+    "src/tests/central-session-pg-*.test.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
