@@ -32,6 +32,13 @@ jobs:
       - name: Validate all 16 source-linked review records
         working-directory: lms-main
         run: node scripts/audit-course-mapping-review.mjs --report build/course-mapping-review-audit.json
+      - name: Prove pending course placements fail closed
+        working-directory: lms-main
+        run: |
+          if node scripts/audit-course-mapping-review.mjs --fail-on-unresolved; then
+            echo "::error::Pending editorial decisions unexpectedly passed strict mode"
+            exit 1
+          fi
       - name: Preserve item-level report even if blocked
         if: always()
         uses: actions/upload-artifact@v4
