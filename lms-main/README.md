@@ -11,7 +11,7 @@ The codebase was started from an inherited full-stack LMS (see [Origin and licen
 > - `prisma validate` and `prisma generate` pass.
 > - Backend `tsc` and frontend `next build` pass. Frontend lint passes.
 > - Migrations apply to an empty PostgreSQL 16 database with no drift.
-> - Backend unit tests pass, with 7 test files skipped (see [Testing and Quality Gates](#testing-and-quality-gates)).
+> - Backend unit tests pass, with 9 test files skipped (see [Testing and Quality Gates](#testing-and-quality-gates)).
 > - Repository source verification passes 26/26.
 >
 > Not verified: the full stack with MinIO, the browser suite, and live API flows. See the register (ACA-001 to ACA-004, ACA-018).
@@ -237,7 +237,7 @@ A lesson acknowledgement in these reports is a learning record. It is not a veri
 
 ## Testing and Quality Gates
 
-The figures in this section are from the 2026-11-08 fresh install check. The older results in [`PASS42/QUALITY-ops.md`](PASS42/QUALITY-ops.md) are historical and do not describe the current state.
+The figures in this section are from the 2026-11-08 fresh install check, except the Vitest counts, which are from the 2026-11-09 run. The older results in [`PASS42/QUALITY-ops.md`](PASS42/QUALITY-ops.md) are historical and do not describe the current state.
 
 ```bash
 # Backend unit tests (Vitest). Integration suites skip unless real services are configured (see below)
@@ -258,11 +258,11 @@ pnpm curriculum:ci
 
 The Academy backend suites run against an in-memory Prisma double. They exercise the real services and routers, but they do not replace testing against PostgreSQL (register ACA-003). The browser suite verifies the lesson player UI against a mocked API. It does not verify the live API (register ACA-019).
 
-A fresh `vitest run` in `apps/backend` reports **33 test files passed, 7 skipped** and **532 tests passed, 75 skipped**.
+A fresh `vitest run` in `apps/backend` reports **61 test files passed, 9 skipped** (70 files) and **928 tests passed, 114 skipped** (2026-11-09, after `prisma generate`). Without the generated Prisma client, 27 files fail to load with `Cannot find module '.prisma/client/default'`, and the run reports 502 tests passed, 103 skipped.
 
 ### Backend tests that skip by default
 
-A bare run has no PostgreSQL or Redis. The seven skipped files are gated by `describeWithServices` in [`apps/backend/src/tests/integration/harness.ts`](apps/backend/src/tests/integration/harness.ts). That helper skips a suite unless `DATABASE_URL` and `REDIS_URL` both point at real services. The default placeholders point at `127.0.0.1:1`, where nothing listens.
+A bare run has no PostgreSQL or Redis. The nine skipped files are gated by `describeWithServices` in [`apps/backend/src/tests/integration/harness.ts`](apps/backend/src/tests/integration/harness.ts). That helper skips a suite unless `DATABASE_URL` and `REDIS_URL` both point at real services. The default placeholders point at `127.0.0.1:1`, where nothing listens.
 
 | Skipped file | Group | Needs |
 |---|---|---|
@@ -273,6 +273,8 @@ A bare run has no PostgreSQL or Redis. The seven skipped files are gated by `des
 | `src/tests/integration/identity-linking.test.ts` | ACA-028 identity linking | PostgreSQL and Redis |
 | `src/tests/integration/credential-lifecycle.test.ts` | ACA-017 credential rotation, revocation and expiry | PostgreSQL and Redis |
 | `src/tests/integration/learner-status.test.ts` | ACA-016 inactive and deleted learner rejection | PostgreSQL and Redis |
+| `src/tests/integration/curriculum-tenant-isolation.test.ts` | ACA-004 curriculum APIs and service credentials (38 tests) | PostgreSQL and Redis |
+| `src/tests/integration/payment-checkout-concurrency.test.ts` | Checkout claims under concurrent requests | PostgreSQL and Redis |
 
 To run them, set `DATABASE_URL` to a disposable local PostgreSQL database with the migrations applied, and set `REDIS_URL` to a local Redis. The harness refuses to run unless the database host is `localhost` or `127.0.0.1` and the database name contains `test`, because these suites delete rows. Never point them at a shared or production database.
 
