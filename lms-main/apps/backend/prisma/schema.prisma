@@ -1294,3 +1294,17 @@ model AcademyChatbotMessage {
   @@index([companyId, conversationId, role, readAt], map: "chatbot_messages_unread_idx")
   @@map("academy_chatbot_messages")
 }
+
+/** One-use, application-scoped OIDC state; PKCE + nonce are sealed with AES-256-GCM. */
+model SkilledOidcLoginState {
+  stateHash       String   @id
+  applicationId   String
+  bindingHash     String
+  sealedVerifier  String
+  sealedNonce     String
+  expiresAt       DateTime
+  createdAt       DateTime @default(now())
+
+  @@index([expiresAt])
+  @@map("skilled_oidc_login_states")
+}
