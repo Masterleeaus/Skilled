@@ -1,0 +1,41 @@
+name: Central SSO adapter focused tests
+on:
+  push:
+    branches: [feat/central-product-oidc-adapter-pass25]
+  pull_request:
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-lms-*.ts'
+      - 'lms-main/apps/backend/src/tests/central-lms-*.test.ts'
+      - 'lms-main/apps/backend/prisma/provision-titan-integration.ts'
+      - '.github/workflows/central-oidc-adapter.yml'
+permissions:
+  contents: read
+jobs:
+  adapter-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: lms-main
+    env:
+      NODE_ENV: test
+      CLIENT_URL: http://localhost:3000
+      DATABASE_URL: postgresql://testing:testing@localhost:5432/lms_test
+      REDIS_URL: redis://localhost:6379/0
+      JWT_ACCESS_SECRET: ci-test-access-secret-only-not-real
+      JWT_REFRESH_SECRET: ci-test-refresh-secret-only-not-real
+      MINIO_ACCESS_KEY: test-minio
+      MINIO_SECRET_KEY: ci-test-minio-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+      - name: Run isolated Skilled account binding and session tests
+        run: pnpm --filter @lms/backend exec vitest run src/tests/central-lms-link.test.ts src/tests/central-lms-session.test.ts src/tests/central-lms-contract.test.ts
