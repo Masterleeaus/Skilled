@@ -1,0 +1,48 @@
+# One-shot reconciliation on the dedicated issue-20 branch. Never publishes curriculum.
+name: skilled-reconcile-derived-curriculum
+on:
+  push:
+    branches:
+      - fix/issue-20-sfs-mapping-review-records-20261109
+    paths:
+      - ".github/workflows/skilled-reconcile-derived-curriculum.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: skilled-reconcile-derived-curriculum
+  cancel-in-progress: false
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Regenerate derived files from canonical source only
+        working-directory: lms-main
+        run: |
+          node scripts/reconcile-lesson-formats.mjs
+          node scripts/build-curriculum-review-queue.mjs
+      - name: Verify generated queue and normalization have no drift
+        working-directory: lms-main
+        run: |
+          node --test scripts/test-reconcile-lesson-formats.mjs scripts/test-curriculum-review-queue.mjs
+      - name: Commit only regenerated derived artefacts to the PR branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = "refs/heads/fix/issue-20-sfs-mapping-review-records-20261109"
+          git add -- lms-main/curriculum/lesson-normalization-index.json lms-main/curriculum/lesson-review-queue.json lms-main/curriculum/lesson-review-queue.csv
+          if git diff --cached --quiet; then
+            echo "Already synchronized"
+            exit 0
+          fi
+          git diff --cached --name-only
+          git -c user.name="Skilled CI" -c user.email="actions@users.noreply.github.com" commit -m "chore(curriculum): regenerate derived index and review queues from canonical drafts"
+          git push origin HEAD:refs/heads/fix/issue-20-sfs-mapping-review-records-20261109
