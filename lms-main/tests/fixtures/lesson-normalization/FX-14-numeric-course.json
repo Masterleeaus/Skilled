@@ -1,0 +1,15 @@
+{
+  "caseId": "FX-14",
+  "description": "Non-string course slug",
+  "overrides": {
+    "courseSlugs": [
+      123,
+      null
+    ]
+  },
+  "remove": [],
+  "expectedBlockers": [
+    "course mapping requires review"
+  ],
+  "expectedPriority": "P2"
+}
