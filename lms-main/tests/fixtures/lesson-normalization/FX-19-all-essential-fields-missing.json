@@ -1,0 +1,19 @@
+{
+  "caseId": "FX-19",
+  "description": "No identity, teaching, outcomes, or mapping",
+  "overrides": {
+    "id": "",
+    "title": "",
+    "learningOutcomes": [],
+    "instruction": [],
+    "courseSlugs": []
+  },
+  "remove": [],
+  "expectedBlockers": [
+    "missing identity/title",
+    "no explicit learning outcomes",
+    "no usable instructional sections",
+    "course mapping requires review"
+  ],
+  "expectedPriority": "P0"
+}
