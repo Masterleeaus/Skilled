@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": "src"
+  },
+  "include": [
+    "src/modules/auth/central-lms-*.ts",
+    "src/tests/central-lms-*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
