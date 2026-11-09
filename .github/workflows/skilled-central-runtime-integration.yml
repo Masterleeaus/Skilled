@@ -1,0 +1,51 @@
+name: Skilled Central verified runtime integration
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-runtime-*.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-fresh-access.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-subject-lookup.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-decision-compare.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-current-decision.ts'
+      - 'lms-main/apps/backend/src/tests/central-runtime-*.test.ts'
+      - 'lms-main/apps/backend/src/tests/support/central-runtime-fixture.ts'
+      - '.github/workflows/skilled-central-runtime-integration.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-runtime-*.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-fresh-access.ts'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  central-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - name: Frozen workspace install
+        working-directory: lms-main
+        run: pnpm install --frozen-lockfile
+      - name: Generate Prisma client and validate schema
+        working-directory: lms-main/apps/backend
+        env:
+          DATABASE_URL: postgresql://ci:ci@localhost:5432/skilled_schema_only
+        run: |
+          pnpm exec prisma validate
+          pnpm exec prisma generate
+      - name: Exercise Central authorization and local session composition
+        working-directory: lms-main/apps/backend
+        run: |
+          pnpm exec vitest run src/tests/central-runtime-*.test.ts src/tests/central-session-store.test.ts src/tests/central-account-resolution.test.ts src/tests/central-decision-transport-valid.test.ts
+      - name: Backend TypeScript validation
+        working-directory: lms-main/apps/backend
+        run: pnpm exec tsc --noEmit
