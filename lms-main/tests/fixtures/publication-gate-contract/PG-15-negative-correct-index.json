@@ -1,0 +1,14 @@
+{
+  "name": "negative-correct-index",
+  "expectedApproved": false,
+  "expectedReason": "invalid_answer_index",
+  "assessmentPatch": {
+    "knowledgeAnswers": [
+      {
+        "id": "Q1",
+        "correctIndex": -1,
+        "rationale": "Correct"
+      }
+    ]
+  }
+}

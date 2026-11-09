@@ -1,0 +1,8 @@
+{
+  "name": "unapproved-status",
+  "expectedApproved": false,
+  "expectedReason": "missing_or_stale_human_approval",
+  "approvalPatch": {
+    "status": "pending"
+  }
+}

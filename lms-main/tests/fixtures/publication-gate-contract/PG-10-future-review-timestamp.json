@@ -1,0 +1,8 @@
+{
+  "name": "future-review-timestamp",
+  "expectedApproved": false,
+  "expectedReason": "missing_or_stale_human_approval",
+  "approvalPatch": {
+    "reviewedAt": "2099-01-01T00:00:00Z"
+  }
+}
