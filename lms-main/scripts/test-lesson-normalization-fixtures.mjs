@@ -51,5 +51,5 @@ for(const filename of fixtures){
     counts[fixture.expectedPriority]++;
   }
 }
-assert.deepEqual(counts,{P0:9,P1:4,P2:4,clean:2});
+assert.deepEqual(counts,{P0:10,P1:4,P2:4,clean:2});
 console.log(`PASS: ${fixtures.length} normalized lesson scenarios; ${counts.P0} P0, ${counts.P1} P1, ${counts.P2} P2, ${counts.clean} clean drafts; no inferred approvals`);
