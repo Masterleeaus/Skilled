@@ -5,7 +5,11 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {reconcile,authoringLesson} from './reconcile-assessment-questions.mjs';
-const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+// A test-only fixture root can be selected explicitly for isolated negative-gate checks.
+// Production invocations that omit the flag always read the canonical curriculum.
+const rootFlag=process.argv.slice(2).find(arg=>arg.startsWith('--curriculum-root='));
+if(rootFlag==='--curriculum-root=')throw new Error('curriculum root cannot be empty');
+const root=rootFlag?path.resolve(rootFlag.slice('--curriculum-root='.length)):path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base=path.join(root,'curriculum/assessments');
 const files=fs.readdirSync(base).filter(n=>n.endsWith('.assessment.json')).sort();
 const approvalsPath=process.env.ACADEMY_ASSESSMENT_APPROVALS || path.join(root,'curriculum/assessment-publication-approvals.json');
