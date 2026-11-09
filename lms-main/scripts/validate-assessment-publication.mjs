@@ -5,7 +5,10 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {reconcile,authoringLesson} from './reconcile-assessment-questions.mjs';
-const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+// Explicit fixture roots are for isolated CLI regression tests only; the default is canonical source.
+const rootArg=process.argv.slice(2).find(arg=>arg.startsWith('--curriculum-root='));
+if(rootArg==='--curriculum-root=')throw new Error('curriculum root cannot be empty');
+const root=rootArg?path.resolve(rootArg.slice('--curriculum-root='.length)):path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base=path.join(root,'curriculum/assessments');
 const files=fs.readdirSync(base).filter(n=>n.endsWith('.assessment.json')).sort();
 const approvalsPath=process.env.ACADEMY_ASSESSMENT_APPROVALS || path.join(root,'curriculum/assessment-publication-approvals.json');
