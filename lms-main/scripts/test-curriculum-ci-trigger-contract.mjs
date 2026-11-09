@@ -16,7 +16,7 @@ for (const event of ['pull_request', 'push']) {
   blocks[event] = [...match[1].matchAll(/^      - ["']([^"']+)["']$/gm)].map(m => m[1]);
 }
 function matches(pattern, filename) {
-  const escape = (piece) => [...piece].map(char => '.^$+?()[]{}|\\\\'.includes(char) ? '\\\\' + char : char).join('');
+  const escape = (piece) => [...piece].map(char => '.^$+?()[]{}|\\'.includes(char) ? '\\' + char : char).join('');
   const expression = pattern.split('**').map(segment => segment.split('*').map(escape).join('[^/]*')).join('.*');
   return new RegExp('^' + expression + '$').test(filename);
 }
