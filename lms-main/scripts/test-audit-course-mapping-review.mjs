@@ -38,6 +38,8 @@ test('source mapping is tied to the exact lesson and file', () => {
 });
 test('source metadata tampering requires refreshed review', () => {
   assert.ok(errors({ sourceTitle: 'Different title' }).includes('evidence_drift_sourceTitle'));
+  assert.ok(errors({ observedModuleTitle: 'Falsely approved module' }).includes('evidence_drift_observedModuleTitle'));
+  assert.ok(errors({ observedPrerequisites: ['unverified-prerequisite'] }).includes('prerequisites_changed'));
   assert.ok(errors({ observedCourseSlugs: ['arbitrary'] }).includes('course_slugs_changed'));
   assert.ok(errors({ observedLearningOutcomes: [] }).includes('learning_outcomes_changed'));
   assert.ok(errors({ observedInstructionSectionCount: 0 }).includes('instruction_count_changed'));
@@ -49,6 +51,7 @@ test('decision requires documented reviewer and rationale', () => {
   assert.ok(invalid.includes('invalid_review_date'));
   assert.ok(invalid.includes('missing_review_rationale'));
   assert.ok(errors({ decision: 'approved', reviewer: 'Qualified Reviewer', reviewedAt: '2026-11-09T00:00:00Z', rationale: 'Placement verified with authoritative course inventory.', proposedCourseSlugs: [] }).includes('approved_without_course'));
+  assert.ok(errors({ decision: 'approved', reviewer: 'Qualified Reviewer', reviewedAt: '2026-11-09T00:00:00Z', rationale: 'Confirmed with an authoritative curriculum owner and registry.', proposedCourseSlugs: [' ']}).includes('invalid_course_slug'));
   assert.ok(errors({ decision: 'excluded', reviewer: 'Qualified Reviewer', reviewedAt: '2026-11-09T00:00:00Z', rationale: 'Confirmed not suitable for any currently approved course.', proposedCourseSlugs: ['course'] }).includes('excluded_but_placed'));
 });
 test('valid reviewer decision still does not publish lesson', () => {
