@@ -44,6 +44,7 @@ try {
     };
     const payload=fixture.payload;
     const doc=payload&&typeof payload==='object'&&!Array.isArray(payload)?{...base,...payload}:payload;
+    if(fixture.scenario==='missing-lesson-id')delete doc.lessonId;
     const inputFile=path.join(assessmentDir,id+'.assessment.json');
     fs.writeFileSync(inputFile,JSON.stringify(doc,null,2)+'\n');
     const report=path.join(temp,'report-'+filename);
