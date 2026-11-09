@@ -72,8 +72,11 @@ function videoMime(objectKey: string): string {
   return "video/mp4";
 }
 
-/** Stream small byte windows for browser seeking. No public object-storage ports. */
-export async function streamPrivateVideo(req: Request, res: Response, objectKey: string) {
+/**
+ * Stream small byte windows for browser seeking. No public object-storage ports.
+ * contentType overrides the video MIME guess; caption tracks pass text/vtt.
+ */
+export async function streamPrivateVideo(req: Request, res: Response, objectKey: string, contentType?: string) {
   if (!/^videos\/[a-zA-Z0-9_-]+(?:\.[a-zA-Z0-9]+)?$/.test(objectKey)) {
     throw new AppError("Invalid private video object", 404);
   }
@@ -92,7 +95,7 @@ export async function streamPrivateVideo(req: Request, res: Response, objectKey:
   }
   const { start, end, partial } = selected;
   res.status(partial ? 206 : 200);
-  res.setHeader("Content-Type", videoMime(objectKey));
+  res.setHeader("Content-Type", contentType ?? videoMime(objectKey));
   res.setHeader("Content-Disposition", "inline");
   res.setHeader("Content-Length", String(end - start + 1));
   if (partial) res.setHeader("Content-Range", `bytes ${start}-${end}/${size}`);

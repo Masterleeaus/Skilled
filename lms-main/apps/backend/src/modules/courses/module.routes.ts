@@ -11,6 +11,7 @@ import {
   reserveVideoUploadSlot,
   verifyUploadedVideo,
 } from "./video-upload.service";
+import { receiveCaptionFile, uploadLessonCaptionTrack } from "./caption-track.service";
 import {
   createModuleSchema,
   updateModuleSchema,
@@ -222,8 +223,33 @@ router.post(
   },
 );
 
-// Both grant issuance and media delivery recheck the CURRENT user's access.
-async function authorizedVideoForUser(lessonId: string, userId: string) {
+router.post(
+  "/lessons/:lessonId/captions",
+  authenticate,
+  requirePermission("course:update:own"),
+  authorizeVideoUpload,
+  receiveCaptionFile,
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      if (!req.file) throw new AppError("No caption file provided", 400);
+
+      // The content must be WebVTT before anything is stored. The previous caption object is removed after the commit.
+      const objectKey = await uploadLessonCaptionTrack(req.file);
+      const lesson = await lessonService.attachUploadedLessonCaptions(
+        param(req, "lessonId"),
+        objectKey,
+        req.user!.userId,
+        req.user!.role,
+      );
+      return sendSuccess(res, lesson, "Captions uploaded");
+    } catch (err) {
+      next(err);
+    }
+  },
+);
+
+// Both grant issuance and media delivery recheck the CURRENT user's access. Returns the lesson when the caller may watch it.
+async function authorizedLessonMedia(lessonId: string, userId: string, key: "videoUrl" | "captionTrackKey") {
   const { isEnrolled } = await import("../enrollment/enrollment.service");
   const user = await prisma.user.findUnique({
     where: { id: userId },
@@ -236,7 +262,7 @@ async function authorizedVideoForUser(lessonId: string, userId: string) {
     where: { id: lessonId },
     include: { module: { select: { courseId: true } } },
   });
-  if (!lesson?.videoUrl) throw new AppError("Video not found", 404);
+  if (!lesson?.[key]) throw new AppError(key === "videoUrl" ? "Video not found" : "Captions not found", 404);
 
   if (user.role === "STUDENT") {
     const course = await prisma.course.findUnique({
@@ -250,7 +276,7 @@ async function authorizedVideoForUser(lessonId: string, userId: string) {
   } else {
     await assertCourseOwnership(lesson.module.courseId, userId, user.role);
   }
-  return lesson.videoUrl;
+  return lesson;
 }
 
 router.get(
@@ -258,7 +284,7 @@ router.get(
   authenticate,
   async (req: Request<{ lessonId: string }>, res: Response, next: NextFunction) => {
     try {
-      await authorizedVideoForUser(req.params.lessonId, req.user!.userId);
+      const lesson = await authorizedLessonMedia(req.params.lessonId, req.user!.userId, "videoUrl");
       res.cookie(PLAYBACK_COOKIE, createPlaybackGrant(req.params.lessonId, req.user!.userId), {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production",
@@ -268,7 +294,9 @@ router.get(
       });
       res.setHeader("Cache-Control", "private, no-store");
       res.setHeader("Referrer-Policy", "no-referrer");
-      return sendSuccess(res, { url: `/api/courses/lessons/${encodeURIComponent(req.params.lessonId)}/video/stream` });
+      const base = `/api/courses/lessons/${encodeURIComponent(req.params.lessonId)}/video/stream`;
+      // The captions path sits under the stream path, so the same grant cookie is sent with it.
+      return sendSuccess(res, { url: base, captionsUrl: lesson.captionTrackKey ? `${base}/captions` : null });
     } catch (err) {
       next(err);
     }
@@ -285,8 +313,24 @@ router.get(
       const token = req.cookies?.[PLAYBACK_COOKIE];
       if (typeof token !== "string") throw new AppError("Video grant required", 401);
       const userId = verifyPlaybackGrant(token, req.params.lessonId);
-      const objectKey = await authorizedVideoForUser(req.params.lessonId, userId);
-      await streamPrivateVideo(req, res, objectKey);
+      const lesson = await authorizedLessonMedia(req.params.lessonId, userId, "videoUrl");
+      await streamPrivateVideo(req, res, lesson.videoUrl!);
+    } catch (err) {
+      next(err);
+    }
+  },
+);
+
+// WebVTT caption track. Same grant cookie and per-request access check as the video stream.
+router.get(
+  "/lessons/:lessonId/video/stream/captions",
+  async (req: Request<{ lessonId: string }>, res: Response, next: NextFunction) => {
+    try {
+      const token = req.cookies?.[PLAYBACK_COOKIE];
+      if (typeof token !== "string") throw new AppError("Video grant required", 401);
+      const userId = verifyPlaybackGrant(token, req.params.lessonId);
+      const lesson = await authorizedLessonMedia(req.params.lessonId, userId, "captionTrackKey");
+      await streamPrivateVideo(req, res, lesson.captionTrackKey!, "text/vtt; charset=utf-8");
     } catch (err) {
       next(err);
     }
