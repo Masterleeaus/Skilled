@@ -93,7 +93,7 @@
 - **Source:** `scripts/reconcile-lesson-formats.mjs`
 - **Done only when:** Publish path refuses all unapproved drafts
 - **Verification:** PARTIAL (2026-11-08): publication gates merged (PR #61); curriculum-publication-paths unit tests pass. Not verified against PostgreSQL. `pnpm curriculum:ci` exits 1 on main. **Owner:** Unassigned.
-- **Evidence (2026-11-08):** PR #61 (gate every curriculum publish path; hold fields until the revision publishes) merged. The Vitest run on 1fbf352 (41 files passed, 7 skipped; 623 tests passed, 75 skipped) includes curriculum-publication-paths.test.ts and curriculum-publisher.test.ts. `pnpm curriculum:ci` on 1fbf352 fails with `[assessment-gate] 1267 assessments are blocked from publication`, which is the gate refusing unapproved answer keys. Structurally incomplete lessons depend on ACA-005 to ACA-007.
+- **Evidence (2026-11-08):** PR #61 (gate every curriculum publish path; hold fields until the revision publishes) merged. The Vitest run on main f9cf64e on 2026-11-09 (61 files passed, 9 skipped; 928 tests passed, 114 skipped, after `prisma generate`) includes curriculum-publication-paths.test.ts and curriculum-publisher.test.ts. `pnpm curriculum:ci` on 1fbf352 fails with `[assessment-gate] 1267 assessments are blocked from publication`, which is the gate refusing unapproved answer keys. Structurally incomplete lessons depend on ACA-005 to ACA-007.
 
 ### ACA-009 — Import normalized lessons idempotently into canonical content library
 - **Source:** `curriculum/lesson-normalization-index.json`
@@ -166,7 +166,7 @@
 - **Source:** `README.md`
 - **Done only when:** Accurate Titan Academy documentation, legal attribution retained
 - **Verification:** PARTIAL (2026-11-08): copy audit written and changes applied on this branch. Stays IN PROGRESS until the audit is merged and the owner confirms the email brand. **Owner:** Unassigned.
-- **Evidence (2026-11-08):** `lms-main/docs/PRODUCT-COPY-AUDIT-2026-11-08.md` lists each change by file: landing copy, metadata description, origin and licence on the credits page, learner wording in the role label and two API messages, and seed display text. Retained: SkilledAt.Work brand (OWNER-DECISIONS, 2026-11-04), email subjects, `@lms.local` identifiers and the `SMTP_FROM` default. Backend tsc, tsc test config, lint and Vitest (623 passed, 75 skipped) and frontend lint and tsc exit 0 on the branch.
+- **Evidence (2026-11-08):** `lms-main/docs/PRODUCT-COPY-AUDIT-2026-11-08.md` lists each change by file: landing copy, metadata description, origin and licence on the credits page, learner wording in the role label and two API messages, and seed display text. Retained: SkilledAt.Work brand (OWNER-DECISIONS, 2026-11-04), email subjects, `@lms.local` identifiers and the `SMTP_FROM` default. Backend tsc, tsc test config, lint and Vitest (928 passed, 114 skipped; 61 files passed, 9 skipped; main f9cf64e, 2026-11-09) and frontend lint and tsc exit 0 on the branch.
 
 ### ACA-022 — Create environment-specific deployment, secrets and recovery runbooks
 - **Source:** `.env.example`
@@ -267,9 +267,9 @@ Reconciled to main `1fbf352`. The JSON twin carries the same statuses and the `r
 
 **Status changes** (OPEN to IN PROGRESS unless noted): ACA-008, ACA-012, ACA-013, ACA-014, ACA-015, ACA-016, ACA-019, ACA-020, ACA-021 (audit doc as evidence), ACA-022, ACA-023, ACA-025, ACA-026 and ACA-028. ACA-002 stays DONE. No item was marked DONE beyond ACA-002.
 
-**Test results on main (2026-11-08)**
+**Test results on main (2026-11-08; Vitest counts refreshed 2026-11-09)**
 
-- Backend Vitest: 41 files passed, 7 skipped; 623 tests passed, 75 skipped. This matches the baseline.
+- Backend Vitest (main f9cf64e, 2026-11-09, after `prisma generate`): 61 files passed, 9 skipped; 928 tests passed, 114 skipped. Without the generated Prisma client, 27 files fail to load (`Cannot find module '.prisma/client/default'`) and the run reports 502 passed, 103 skipped.
 - `node scripts/test-master-improvement-register.mjs` passes.
 - `pnpm curriculum:ci` exits 1 on main: `index-drift` (the lesson-normalization index is stale) and `assessment-gate` (1267 assessments are blocked from publication). The CI workflow therefore fails on main. The index is not regenerated here because curriculum content is out of scope.
 - Static contract scripts that fail on main: `test-auth-route-contracts.mjs` and `test-session-lifecycle-contract.mjs` (refresh checks, ACA-016), `test-payment-security-contract.mjs`, `test-course-publication-access.mjs` (module import), and `test-video-upload-safety.mjs` (module import). These are not fixed here.
