@@ -7,6 +7,7 @@ import { z } from "zod";
 import { prisma } from "../../config/prisma";
 import { logger } from "../../config/logger";
 import { filterToFinishedLevels } from "../levels/level.service";
+import { resolveScopedIdentity } from "./integration-identity-policy";
 
 export const integrationRoutes = Router();
 type Caller = "field-services" | "ai-workforce";
@@ -90,11 +91,15 @@ integrationRoutes.get("/organisations/:externalOrganisationRef/learners/:externa
     // Boundary: externalOrganisationRef (external company reference) maps to the internal companyId here. Everything below uses company.id as the companyId.
     const company = await prisma.company.findUnique({ where: { externalRef: externalOrganisationRef }, select: { id: true } });
     if (!company) { await audit("NOT_FOUND_ORGANISATION"); res.status(404).json({ message: "Organisation not found" }); return; }
-    const identity = await prisma.academyExternalIdentity.findUnique({
-      where: { service_externalUserRef: { service: service.caller, externalUserRef } }, select: { userId: true, companyId: true },
-    });
-    if (!identity || identity.companyId !== company.id) { await audit("NOT_FOUND_IDENTITY"); res.status(404).json({ message: "Learner not found" }); return; }
-    const learnerId = identity.userId;
+    // Query by internal companyId from the trusted company mapping, not a client tenant ID.
+    // An ambiguous identity or legacy NULL companyId fails closed; never pick the first global match.
+    const learnerId = await resolveScopedIdentity(
+      { service: service.caller, companyId: company.id, externalUserRef },
+      (where) => prisma.academyExternalIdentity.findMany({
+        where, select: { userId: true }, take: 2,
+      }),
+    );
+    if (!learnerId) { await audit("NOT_FOUND_IDENTITY"); res.status(404).json({ message: "Learner not found" }); return; }
     // Revoked/deactivated Academy accounts must never be represented as currently eligible workers.
     // Same account rule as curriculum.routes.ts activeAccountWhere: active, email verified and not soft-deleted (copied locally, helper not exported).
     const learner = await prisma.user.findUnique({

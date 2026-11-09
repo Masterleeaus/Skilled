@@ -1,0 +1,17 @@
+{
+  "case": "tenant-id-substitution",
+  "query": {
+    "service": "field-services",
+    "companyId": "company-a",
+    "externalUserRef": "company-b"
+  },
+  "rows": [
+    {
+      "service": "field-services",
+      "companyId": "company-b",
+      "externalUserRef": "company-b",
+      "userId": "learner-b"
+    }
+  ],
+  "expectedUserId": null
+}
