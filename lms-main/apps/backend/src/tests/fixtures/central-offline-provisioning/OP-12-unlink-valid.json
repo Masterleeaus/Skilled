@@ -1,0 +1,9 @@
+{
+  "name": "12-unlink-valid",
+  "action": "unlink-identity",
+  "existing": "same",
+  "expected": "Identity revoked",
+  "audit": "PROVISION_IDENTITY_REVOKED",
+  "count": 0,
+  "checkSessions": true
+}
