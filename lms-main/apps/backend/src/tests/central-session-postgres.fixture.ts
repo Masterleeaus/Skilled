@@ -1,7 +1,7 @@
 /** Database-backed two-tenant Central session fixture, confined to disposable CI Postgres.
  * Every scenario gets unique identities; cleanup never touches other fixtures.
  */
-import {randomUUID} from "node:crypto";
+import {randomUUID,randomBytes} from "node:crypto";
 import {PrismaClient} from "@prisma/client";
 import {createSkilledCentralSessionStore} from "../modules/auth/central-session-store";
 export type Fixture = Awaited<ReturnType<typeof createFixture>>;
@@ -26,7 +26,7 @@ export async function createFixture(){
  let sequence=0;
  const verify=async()=>allowed;
  const make=(client:PrismaClient=db)=>createSkilledCentralSessionStore(client,verify,{
-  randomToken:()=>String(++sequence).padStart(64,"a"),ttlSeconds:3600
+  randomToken:()=>randomBytes(32).toString("base64url")+"-"+String(++sequence),ttlSeconds:3600
  });
  const store=make();
  const dispose=async()=>{
