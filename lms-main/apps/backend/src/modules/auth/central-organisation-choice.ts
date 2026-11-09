@@ -12,6 +12,7 @@ export function createCentralOrganisationSelector(
   if(!identity||identity.issuer!==issuer||identity.applicationId!=="academy"||
    typeof identity.subject!=="string"||!OPAQUE.test(identity.subject))return null;
   const externalUserRef=externalCentralRef(issuer,identity.subject);
+  if(!externalUserRef)return null;
   const rows=await db.academyExternalIdentity.findMany({
    where:{service:"titan-central",externalUserRef,companyId:{not:null}},
    select:{companyId:true,userId:true},take:3,
