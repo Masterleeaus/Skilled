@@ -52,7 +52,7 @@ export default function StudentDetailPage() {
             </div>
 
             <div className="mt-6">
-              <h3 className="mb-2 text-sm font-medium text-neutral-300">Quiz Attempts</h3>
+              <h2 className="mb-2 text-sm font-medium text-neutral-300">Quiz Attempts</h2>
               <div className="space-y-2">
                 {detail.quizAttempts.map((a) => (
                   <div
@@ -72,7 +72,7 @@ export default function StudentDetailPage() {
             </div>
 
             <div className="mt-6">
-              <h3 className="mb-2 text-sm font-medium text-neutral-300">Assignment Submissions</h3>
+              <h2 className="mb-2 text-sm font-medium text-neutral-300">Assignment Submissions</h2>
               <div className="space-y-2">
                 {detail.submissions.map((s) => (
                   <div key={s.id} className="rounded-lg border border-neutral-800 bg-neutral-900 p-3 text-sm">
