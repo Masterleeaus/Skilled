@@ -9,9 +9,12 @@ import type { VerifiedIdentity,TrustedDecisionEnvelope } from "./central-verifie
 
 const ID=/^[A-Za-z0-9:_-]{1,200}$/;
 const REQUEST=/^[A-Za-z0-9_-]{32,128}$/;
+const CENTRAL_UUID=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 type ClientConfig={
   endpoint:string; bearerToken:string; expectedIssuer:string; expectedAudience:string;
   fetcher?:typeof fetch; timeoutMs?:number; generateRequestId?:()=>string;
+  /** Required by Central service decision v1. Never supplied by a browser. */
+  resolveCentralOrganisationId?:(verified:VerifiedIdentity)=>Promise<string|null>;
 };
 function trustedEndpoint(value:string):boolean {
  try {
@@ -52,6 +55,15 @@ export function createAuthenticatedCentralDecisionClient(config:ClientConfig):
      typeof verified.subject!=="string"||!ID.test(verified.subject))return null;
   const requestId=nextId();
   if(typeof requestId!=="string"||!REQUEST.test(requestId))return null;
+  // The legacy client may omit this for older unit contracts; the new Central
+  // service endpoint mandates a privately resolved internal organisation UUID.
+  let organisationId:string|undefined;
+  if(config.resolveCentralOrganisationId){
+   try{const selected=await config.resolveCentralOrganisationId(verified);
+    if(typeof selected!=="string"||!CENTRAL_UUID.test(selected))return null;
+    organisationId=selected;
+   }catch{return null;}
+  }
   let response:Response;
   try {
    response=await fetcher(config.endpoint,{
@@ -59,7 +71,7 @@ export function createAuthenticatedCentralDecisionClient(config:ClientConfig):
     headers:{"accept":"application/json","content-type":"application/json",
      "authorization":"Bearer "+config.bearerToken,"cache-control":"no-store"},
     body:JSON.stringify({applicationId:"academy",issuer:verified.issuer,
-     subject:verified.subject,requestId})
+     subject:verified.subject,requestId,...(organisationId?{organisationId}:{})})
    });
    if(!response.ok||response.redirected||response.status!==200||
       response.headers.get("content-type")?.split(";")[0].trim().toLowerCase()!=="application/json")return null;
