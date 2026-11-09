@@ -36,6 +36,6 @@ test('homepage current product copy uses SkilledAt.Work without erasing historic
   assert.doesNotMatch(home, /Titan Academy/i);
   const credits = readFileSync(resolve(root, 'apps/frontend/src/app/credits/page.tsx'), 'utf8');
   assert.match(credits, /Titan Academy began from an inherited MIT-licensed/);
-  assert.match(credits, /SkilledAt\\.Work deployment/);
+  assert.match(credits, /SkilledAt\.Work deployment/);
   assert.doesNotMatch(credits, /not verified for Titan Academy/i);
 });
