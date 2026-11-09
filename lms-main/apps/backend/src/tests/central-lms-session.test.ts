@@ -1,6 +1,6 @@
 import {describe,it,expect,vi} from 'vitest';
 import {createCentralLmsSessionIssuer} from '../modules/auth/central-lms-session';
-const account={userId:'user-1',companyId:'company-1',companyRef:'ref-1',role:'STUDENT'};
+const account={userId:'user-1',companyId:'company-1',companyRef:'ref-1',role:'STUDENT' as const,membershipRole:'LEARNER'};
 const setup=(resolve=async()=>account,fail=false)=>{
  const updates=vi.fn(async()=>({count:fail?0:1}));
  const create=vi.fn(async()=>({id:'refresh'}));
