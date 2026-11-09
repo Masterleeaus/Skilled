@@ -1,0 +1,66 @@
+name: Skilled curriculum derived reconciliation
+on:
+  push:
+    branches:
+      - fix/skilled-derived-curriculum-reconciliation-pass-04-20261109
+    paths:
+      - '.github/workflows/skilled-curriculum-reconcile.yml'
+      - 'lms-main/scripts/rebuild-curriculum-derived.mjs'
+      - 'lms-main/scripts/test-rebuild-curriculum-derived.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile-derived:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Regenerate only derived curriculum files
+        working-directory: lms-main
+        run: node scripts/rebuild-curriculum-derived.mjs --write | tee ../curriculum-derived-reconciliation-report.json
+      - name: Check reproducibility, editorial hold and source integrity
+        working-directory: lms-main
+        run: |
+          node scripts/rebuild-curriculum-derived.mjs --check
+          node scripts/test-rebuild-curriculum-derived.mjs
+          node scripts/test-curriculum-review-queue.mjs
+          node scripts/test-reconcile-lesson-formats.mjs
+          node scripts/test-audit-curriculum.mjs
+      - name: Fail on unexpected changed files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --name-only | while read -r file; do
+            case "$file" in
+              lms-main/curriculum/lesson-normalization-index.json|lms-main/curriculum/lesson-review-queue.json|lms-main/curriculum/lesson-review-queue.csv) ;;
+              *) echo "Unexpected modified source: $file" >&2; exit 1 ;;
+            esac
+          done
+      - name: Commit derived artifacts to this review branch only
+        if: github.event_name == 'push' && github.ref == 'refs/heads/fix/skilled-derived-curriculum-reconciliation-pass-04-20261109'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- lms-main/curriculum/lesson-normalization-index.json lms-main/curriculum/lesson-review-queue.json lms-main/curriculum/lesson-review-queue.csv
+          if git diff --cached --quiet; then
+            echo "All derived files already match canonical sources"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore(curriculum): refresh draft index and editorial queue from unchanged sources"
+            git push origin HEAD:fix/skilled-derived-curriculum-reconciliation-pass-04-20261109
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: skilled-curriculum-reconciliation
+          path: curriculum-derived-reconciliation-report.json
+          if-no-files-found: warn
