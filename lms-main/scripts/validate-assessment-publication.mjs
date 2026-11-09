@@ -38,7 +38,11 @@ for(const filename of files){
    reasons.push('invalid_answer_entry');
    continue;
   }
-  if(typeof answer.id!=='string'||!answer.id.trim())reasons.push('invalid_answer_id');
+  if(typeof answer.id!=='string'||!answer.id.trim()){
+   reasons.push('invalid_answer_id');
+   // Preserve the established refusal category consumed by older CI and review reports.
+   reasons.push('duplicate_or_missing_answer_id');
+  }
   else if(ids.has(answer.id))reasons.push('duplicate_or_missing_answer_id');
   else ids.add(answer.id);
   if(!Number.isInteger(answer.correctIndex)||answer.correctIndex<0)reasons.push('invalid_answer_index');
