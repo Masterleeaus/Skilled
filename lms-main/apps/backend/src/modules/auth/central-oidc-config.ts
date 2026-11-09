@@ -15,6 +15,10 @@ export function parseSkilledOidcConfig(vars:Record<string,string|undefined>):Ski
  if(!HTTPS.test(issuer)||!clientId||clientId.length>256||clientSecret.length<32||
   !keyEncoded||key.length!==32||key.toString("base64")!==keyEncoded)
   throw TypeError("Skilled OIDC configuration incomplete");
+ const provider=new URL(issuer);
+ if(provider.username||provider.password||provider.search||provider.hash||
+    provider.pathname!=="/"||provider.hostname.length===0)
+   throw TypeError("OIDC issuer must be a credential-free HTTPS origin");
  const target=new URL(redirectUri);
  if(target.protocol!=="https:"||target.username||target.password||target.search||target.hash||
   target.pathname!=="/auth/titan/academy/callback")
