@@ -90,7 +90,7 @@ export default function LoginPage() {
             disabled={submitting}
             className="w-full rounded-lg bg-white py-2 text-sm font-medium text-neutral-900 transition hover:bg-neutral-200 disabled:opacity-50"
           >
-            {submitting ? "Logging in..." : "Log in"}
+            {submitting ? "Signing in..." : "Sign In"}
           </button>
         </form>
         <Link href="/forgot-password" className="block text-sm underline">Forgot your password?</Link>
