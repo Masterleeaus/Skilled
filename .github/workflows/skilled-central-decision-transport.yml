@@ -1,0 +1,43 @@
+name: Skilled authenticated Central decision contract
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-decision-transport.ts'
+      - 'lms-main/apps/backend/src/tests/central-decision-transport*'
+      - 'lms-main/apps/backend/tsconfig.central-decision.json'
+      - '.github/workflows/skilled-central-decision-transport.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-decision-transport.ts'
+      - 'lms-main/apps/backend/src/tests/central-decision-transport*'
+      - 'lms-main/apps/backend/tsconfig.central-decision.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  decision-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - working-directory: lms-main
+        run: pnpm install --frozen-lockfile
+      - working-directory: lms-main/apps/backend
+        run: pnpm exec prisma generate
+      - name: Verify authenticated Central decision transport security
+        working-directory: lms-main/apps/backend
+        run: pnpm exec vitest run src/tests/central-decision-transport-*.test.ts
+      - name: Typecheck source and trusted decision tests
+        working-directory: lms-main/apps/backend
+        run: |
+          pnpm exec tsc --noEmit
+          pnpm exec tsc --project tsconfig.central-decision.json
