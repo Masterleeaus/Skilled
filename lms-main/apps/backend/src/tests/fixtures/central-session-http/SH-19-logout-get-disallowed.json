@@ -1,0 +1,12 @@
+{
+  "id": "logout-get-disallowed",
+  "enabled": true,
+  "method": "GET",
+  "path": "/logout",
+  "cookie": "good",
+  "origin": null,
+  "fetchSite": null,
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 405
+}

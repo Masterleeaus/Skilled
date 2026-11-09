@@ -1,0 +1,12 @@
+{
+  "id": "empty-cookie",
+  "enabled": true,
+  "method": "GET",
+  "path": "/session",
+  "cookie": "empty",
+  "origin": null,
+  "fetchSite": null,
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 401
+}

@@ -1,0 +1,12 @@
+{
+  "id": "logout-opaque-null",
+  "enabled": true,
+  "method": "POST",
+  "path": "/logout",
+  "cookie": "empty",
+  "origin": "https://skilled.example.test",
+  "fetchSite": "same-origin",
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 401
+}
