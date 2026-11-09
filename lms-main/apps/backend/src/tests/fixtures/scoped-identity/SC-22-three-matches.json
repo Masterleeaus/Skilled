@@ -1,0 +1,29 @@
+{
+  "case": "three-matches",
+  "query": {
+    "service": "field-services",
+    "companyId": "company-a",
+    "externalUserRef": "worker-1"
+  },
+  "rows": [
+    {
+      "service": "field-services",
+      "companyId": "company-a",
+      "externalUserRef": "worker-1",
+      "userId": "learner-a"
+    },
+    {
+      "service": "field-services",
+      "companyId": "company-a",
+      "externalUserRef": "worker-1",
+      "userId": "learner-b"
+    },
+    {
+      "service": "field-services",
+      "companyId": "company-a",
+      "externalUserRef": "worker-1",
+      "userId": "learner-c"
+    }
+  ],
+  "expectedUserId": null
+}
