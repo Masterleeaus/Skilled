@@ -62,7 +62,7 @@ export function createCentralAccessHttpTransport(config: CentralAccessHttpConfig
   if (typeof fetcher !== "function") throw new Error("missing trusted HTTP implementation");
   return async request => {
     if (!request || request.audience !== "urn:titan-central:product:lms" ||
-        request.issuer !== origin ||
+        typeof request.issuer !== "string" || !/^https:\/\/[^/?#]+$/.test(request.issuer) ||
         !UUID.test(request.organisationRef) ||
         !/^[A-Za-z0-9:_-]{1,200}$/.test(request.subject)) {
       throw new Error("central transport request rejected");
