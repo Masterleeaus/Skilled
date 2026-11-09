@@ -1,8 +1,8 @@
 /**
- * Fixed, host-only session cookie for a Skilled-owned Central-derived session.
+ * Fixed Central-compatible host-only session cookie for a Skilled-owned Central-derived session.
  * Does not hold a Logto/ID token. Use only on HTTPS (including local TLS tests).
  */
-export const CENTRAL_SESSION_COOKIE = "__Host-academy_sid";
+export const CENTRAL_SESSION_COOKIE = "academy_sid";
 export const CENTRAL_SESSION_TTL_SECONDS = 3600;
 const TOKEN=/^[A-Za-z0-9_-]{43,128}$/;
 export function validCentralSessionToken(value:unknown):value is string{
