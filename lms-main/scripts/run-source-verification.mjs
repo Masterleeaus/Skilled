@@ -32,6 +32,7 @@ const checks = [
   'test-curriculum-review-queue.mjs',
   'test-master-improvement-register.mjs',
   'test-reconcile-lesson-formats.mjs',
+  'test-lesson-normalization-fixtures.mjs',
 ];
 let failed = 0;
 for (const test of checks) {
