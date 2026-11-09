@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "noEmit": true, "rootDir": "src" },
+  "include": [
+    "src/modules/auth/central-verified-completion.ts",
+    "src/modules/auth/central-verified-handoff.ts",
+    "src/tests/central-verified-completion.fixture.ts",
+    "src/tests/central-verified-completion-*.test.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
