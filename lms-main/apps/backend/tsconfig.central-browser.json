@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": "src"
+  },
+  "include": [
+    "src/modules/auth/central-browser-lifecycle.ts",
+    "src/tests/central-browser-lifecycle.fixture.ts",
+    "src/tests/central-browser-*.test.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
