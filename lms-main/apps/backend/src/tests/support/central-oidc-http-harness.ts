@@ -1,8 +1,8 @@
 import express from "express";
 import request from "supertest";
 import {vi} from "vitest";
-import {createSkilledCentralOidcRouter} from "../modules/auth/central-oidc-http";
-import type {VerifiedCentralDecision} from "../modules/auth/central-verified-handoff";
+import {createSkilledCentralOidcRouter} from "../../modules/auth/central-oidc-http";
+import type {VerifiedCentralDecision} from "../../modules/auth/central-verified-handoff";
 export const START="/auth/titan/academy/start";
 export const CALLBACK="/auth/titan/academy/callback";
 export const GOOD_QUERY="?state=statetoken123456&code=codetoken123456";
