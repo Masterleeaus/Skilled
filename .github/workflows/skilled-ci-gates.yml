@@ -1,0 +1,152 @@
+# Required CI gates for the SkilledAt.Work academy backend and contract scripts (issue #149).
+# Runs on every pull request and on pushes to main, with no path filter, so these gates
+# cannot be skipped by a change that touches none of the listed paths. Any failing step
+# fails the check. The repository root is the parent of lms-main/, so each job sets
+# working-directory to lms-main.
+name: skilled-ci-gates
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: skilled-ci-gates-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  contract-scripts:
+    name: Contract scripts
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: lms-main
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm 10
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+
+      - name: Set up Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+
+      - name: Install dependencies (frozen lockfile)
+        run: pnpm install --frozen-lockfile
+
+      - name: Auth route contracts
+        run: node scripts/test-auth-route-contracts.mjs
+
+      - name: Session lifecycle contract
+        run: node scripts/test-session-lifecycle-contract.mjs
+
+      - name: Payment security contract
+        run: node scripts/test-payment-security-contract.mjs
+
+      - name: Course publication access
+        run: node scripts/test-course-publication-access.mjs
+
+      - name: Video upload safety
+        run: node scripts/test-video-upload-safety.mjs
+
+  academy-backend-gates:
+    name: Academy backend gates and test typecheck
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: lms-main
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm 10
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+
+      - name: Set up Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+
+      - name: Install dependencies (frozen lockfile)
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate Prisma client
+        working-directory: lms-main/apps/backend
+        run: pnpm exec prisma generate
+
+      - name: Academy backend tests
+        run: pnpm test:academy:backend
+
+      - name: Typecheck backend tests
+        run: pnpm --filter @lms/backend run typecheck:tests
+
+  backend-vitest:
+    name: Backend vitest (with PostgreSQL)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: skilled_tenant_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d skilled_tenant_ci"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/skilled_tenant_ci
+      # Enables the real PostgreSQL central-session tests, which throw without it.
+      SKILLED_CENTRAL_SESSION_PG_TEST: "1"
+    defaults:
+      run:
+        working-directory: lms-main
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm 10
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+
+      - name: Set up Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+
+      - name: Install dependencies (frozen lockfile)
+        run: pnpm install --frozen-lockfile
+
+      - name: Provision disposable PostgreSQL database from Prisma schema
+        working-directory: lms-main/apps/backend
+        run: |
+          pnpm exec prisma validate
+          pnpm exec prisma generate
+          pnpm exec prisma db push --skip-generate
+
+      - name: Full backend vitest run
+        run: pnpm --filter @lms/backend exec vitest run
