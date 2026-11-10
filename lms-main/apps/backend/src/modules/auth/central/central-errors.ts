@@ -7,7 +7,9 @@ export type CentralAuthReason =
   | "invalid_token_response"
   | "invalid_identity_token"
   | "nonce_mismatch"
-  | "login_unavailable";
+  | "login_unavailable"
+  | "discovery_unavailable"
+  | "discovery_invalid";
 
 export class CentralAuthError extends Error {
   constructor(readonly reason: CentralAuthReason) {
