@@ -17,14 +17,14 @@ Placeholders in angle brackets (for example `<set-in-secret-store>`) are values 
 
 | Item | Requirement | Source |
 |---|---|---|
-| Node.js | 20 or later | root `package.json` `engines` |
-| pnpm | 10.0.0 | root `package.json` `packageManager` |
+| Node.js | 22 | CI workflows (`node-version: 22`) and verification evidence. Root `package.json` `engines` is `>=20`, a floor only |
+| pnpm | 10.0.0, exact | root `package.json` `packageManager`; CI `pnpm/action-setup` pins `version: 10.0.0` |
 | PostgreSQL | 16, on a dedicated Academy instance | `DEPLOY-RUNBOOK.md` section 1 |
 | Redis | Required. Version not confirmed; the compose candidate uses 7.4 | `DEPLOY-RUNBOOK.md` section 2 |
 | Object storage | MinIO or S3-compatible, with a bucket | `apps/backend/src/config/minio.ts` |
 | SMTP | Required for account emails | `apps/backend/src/jobs/email.worker.ts` |
 
-Node 22 and pnpm 10.0.0 are what the repository's verification evidence used (`DEPLOY-RUNBOOK.md` section 3). Node 20 is the minimum the repository declares.
+Install Node 22 and pnpm 10.0.0. Node 22 is the version CI and the verification evidence (`DEPLOY-RUNBOOK.md` section 3) use. The `engines` field allows Node 20 and later, but Node 20 is not a tested target. Use the pnpm version from `packageManager` through Corepack (section 2), not a globally installed pnpm of another version.
 
 Do not use `docker-compose.local-dev.yml` on a server. It publishes port 5432 and uses development credentials (`DEPLOY-RUNBOOK.md` section 0). The repository has no default `docker-compose.yml`, so every Compose command must name its file with `-f`. An unqualified `docker compose up` finds no file in this repository.
 
@@ -33,10 +33,12 @@ Do not use `docker-compose.local-dev.yml` on a server. It publishes port 5432 an
 Run from the repository root:
 
 ```bash
+corepack enable              # makes `pnpm` run the version pinned in package.json (10.0.0)
+pnpm -v                      # should print 10.0.0
 pnpm install --frozen-lockfile
 ```
 
-`--frozen-lockfile` stops the install if it would change `pnpm-lock.yaml`. Do not run the legacy scripts. They are kept as `docs/legacy-bootstrap/1-init.stub.sh` and `docs/legacy-bootstrap/2-setup.stub.sh`, and both exit with an error on purpose.
+`corepack enable` ships with Node 22. It makes the `pnpm` command use the exact version in `packageManager`, so a different globally installed pnpm does not change the install. `--frozen-lockfile` stops the install if it would change `pnpm-lock.yaml`. Do not run the legacy scripts. They are kept as `docs/legacy-bootstrap/1-init.stub.sh` and `docs/legacy-bootstrap/2-setup.stub.sh`, and both exit with an error on purpose.
 
 ## 3. Configure the environment
 
