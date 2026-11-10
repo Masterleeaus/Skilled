@@ -24,7 +24,13 @@ export default function StudentDashboard() {
       <Topbar title="My Courses" />
 
       <main id="main-content" tabIndex={-1} className="mx-auto max-w-5xl px-6 py-8">
-        <div className="mb-6 flex justify-end">
+        <div className="mb-6 flex justify-end gap-3">
+          <Link
+            href="/student/certificates"
+            className="rounded-lg border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-100 hover:border-neutral-500"
+          >
+            My certificates
+          </Link>
           <Link
             href="/courses"
             className="rounded-lg bg-white px-4 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-200"
