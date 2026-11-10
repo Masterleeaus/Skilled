@@ -44,6 +44,10 @@ const envSchema = z.object({
     .min(101 * 1024 * 1024, "Must hold at least one maximum-size assignment submission")
     .default(512 * 1024 * 1024),
 
+  // Global per-client-IP ceiling across every API request, on top of the per-route limiters. /api/health is exempt.
+  API_RATE_LIMIT_WINDOW_MS: z.coerce.number().int().min(1000).max(24 * 60 * 60 * 1000).default(15 * 60 * 1000),
+  API_RATE_LIMIT_MAX: z.coerce.number().int().min(1).max(1_000_000).default(1000),
+
   SMTP_HOST: z.string().default("localhost"),
   SMTP_PORT: z.coerce.number().int().min(1).max(65535).default(1025),
   SMTP_FROM: z.string().default("no-reply@lms.local"),
