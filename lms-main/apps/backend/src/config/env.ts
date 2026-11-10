@@ -3,17 +3,23 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const envSchema = z.object({
+// Every environment uses the same minimums, including development. The development
+// templates (apps/backend/.env.example) already meet them, so there is no dev exception.
+export const JWT_SECRET_MIN_LENGTH = 32;
+
+export const envSchema = z.object({
   NODE_ENV: z.enum(["development", "production", "test"]).default("development"),
   PORT: z.coerce.number().int().min(1).max(65535).default(5000),
   HOST: z.string().default("127.0.0.1"),
   CLIENT_URL: z.string().url(),
 
   DATABASE_URL: z.string().min(1, "DATABASE_URL is required"),
+  // Connection URL without credentials, for example redis://127.0.0.1:6379. The password goes in REDIS_PASSWORD.
   REDIS_URL: z.string().min(1, "REDIS_URL is required"),
+  REDIS_PASSWORD: z.string().optional().default(""),
 
-  JWT_ACCESS_SECRET: z.string().min(10, "JWT_ACCESS_SECRET too short"),
-  JWT_REFRESH_SECRET: z.string().min(10, "JWT_REFRESH_SECRET too short"),
+  JWT_ACCESS_SECRET: z.string().min(JWT_SECRET_MIN_LENGTH, `JWT_ACCESS_SECRET must be at least ${JWT_SECRET_MIN_LENGTH} characters`),
+  JWT_REFRESH_SECRET: z.string().min(JWT_SECRET_MIN_LENGTH, `JWT_REFRESH_SECRET must be at least ${JWT_SECRET_MIN_LENGTH} characters`),
   JWT_ACCESS_EXPIRES: z.string().default("15m"),
   JWT_REFRESH_EXPIRES: z.string().default("30d"),
 
@@ -57,6 +63,20 @@ const envSchema = z.object({
   STRIPE_SECRET_KEY: z.string().optional().default(""),
   STRIPE_WEBHOOK_SECRET: z.string().optional().default(""),
 }).superRefine((values, context) => {
+  if (values.JWT_ACCESS_SECRET === values.JWT_REFRESH_SECRET) {
+    context.addIssue({ code: "custom", path: ["JWT_REFRESH_SECRET"], message: "JWT_ACCESS_SECRET and JWT_REFRESH_SECRET must be different" });
+  }
+  try {
+    const redis = new URL(values.REDIS_URL);
+    if (!["redis:", "rediss:"].includes(redis.protocol)) {
+      context.addIssue({ code: "custom", path: ["REDIS_URL"], message: "REDIS_URL must use the redis:// or rediss:// scheme" });
+    }
+    if (redis.username !== "" || redis.password !== "") {
+      context.addIssue({ code: "custom", path: ["REDIS_URL"], message: "REDIS_URL must not contain credentials; set REDIS_PASSWORD instead" });
+    }
+  } catch {
+    context.addIssue({ code: "custom", path: ["REDIS_URL"], message: "Invalid Redis connection URL" });
+  }
   if (values.NODE_ENV === "production") {
     // Academy must never silently attach to either existing Titan database.
     try {
@@ -71,10 +91,6 @@ const envSchema = z.object({
     }
     if (!values.CLIENT_URL.startsWith("https://")) {
       context.addIssue({ code: "custom", path: ["CLIENT_URL"], message: "Production frontend must use HTTPS" });
-    }
-    if (values.JWT_ACCESS_SECRET.length < 32 || values.JWT_REFRESH_SECRET.length < 32 ||
-        values.JWT_ACCESS_SECRET === values.JWT_REFRESH_SECRET) {
-      context.addIssue({ code: "custom", path: ["JWT_ACCESS_SECRET"], message: "Production JWT secrets must be independent and at least 32 characters" });
     }
     if (!!values.STRIPE_SECRET_KEY !== !!values.STRIPE_WEBHOOK_SECRET) {
       context.addIssue({ code: "custom", path: ["STRIPE_WEBHOOK_SECRET"], message: "Production Stripe requires both secret and webhook signature key, or neither" });
