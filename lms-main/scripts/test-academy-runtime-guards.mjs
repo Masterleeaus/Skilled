@@ -18,7 +18,7 @@ function db(url) {
 }
 check(app.includes('app.set("trust proxy", "loopback")'), 'Apache proxy trust scoped to loopback');
 check(env.includes('Production requires the dedicated titan_academy database and role'), 'production database-target startup guard exists');
-check(env.includes('Production JWT secrets must be independent'), 'production signing key guard exists');
+check(env.includes('JWT_ACCESS_SECRET and JWT_REFRESH_SECRET must be different'), 'signing key independence guard exists');
 check(env.includes('Production frontend must use HTTPS'), 'production frontend TLS guard exists');
 check(env.includes('Production Stripe requires both secret'), 'production Stripe pair guard exists');
 const valid = db('postgresql://titan_academy:super-unique-SECRET@127.0.0.1:5432/titan_academy?schema=public');

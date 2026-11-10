@@ -19,9 +19,10 @@ Names only. The "Requirement" column comes from `apps/backend/src/config/env.ts`
 | Variable | Purpose | Requirement |
 |---|---|---|
 | `DATABASE_URL` | PostgreSQL connection | Required |
-| `REDIS_URL` | Redis connection (queues, cache) | Required |
-| `JWT_ACCESS_SECRET` | Signs access tokens | Required, at least 10 characters; use a long random value |
-| `JWT_REFRESH_SECRET` | Signs refresh tokens | Required, at least 10 characters; must differ from the access secret |
+| `REDIS_URL` | Redis connection without credentials (queues, cache) | Required; a password in the URL is refused at start-up |
+| `REDIS_PASSWORD` | Redis AUTH password | Required when Redis has AUTH enabled; never put it in `REDIS_URL` |
+| `JWT_ACCESS_SECRET` | Signs access tokens | Required, at least 32 characters in every environment; use a long random value |
+| `JWT_REFRESH_SECRET` | Signs refresh tokens | Required, at least 32 characters in every environment; must differ from the access secret |
 | `JWT_ACCESS_EXPIRES`, `JWT_REFRESH_EXPIRES` | Token lifetimes (not secret) | Optional, defaults `15m` and `30d` |
 | `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY` | Object storage credentials | Required |
 | `MINIO_ENDPOINT`, `MINIO_PORT`, `MINIO_BUCKET`, `MINIO_USE_SSL` | Object storage location (not secret) | Optional |
