@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src tests --max-warnings=0",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/unit/*.test.ts",
     "verify:metadata": "node scripts/verify-metadata.mjs",
     "test:browser":"node tests/browser/academy-browser-suite.mjs --report ../../build/browser-report.json"
   },
