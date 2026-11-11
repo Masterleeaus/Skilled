@@ -100,7 +100,7 @@ export default function NewQuizPage() {
   return (
     <div>
       <Topbar title="New Quiz" backHref="back" backLabel="Back to course" />
-      <main className="mx-auto max-w-2xl space-y-6 px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-2xl space-y-6 px-6 py-8">
         {!quizId ? (
           <div className="space-y-4">
             <input

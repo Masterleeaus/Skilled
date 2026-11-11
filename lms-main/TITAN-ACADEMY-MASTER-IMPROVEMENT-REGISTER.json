@@ -91,7 +91,7 @@
       "acceptance": "Publish path refuses all unapproved drafts",
       "status": "IN PROGRESS",
       "verification": "PARTIAL (2026-11-08): publication gates merged (PR #61); curriculum-publication-paths unit tests pass. Not verified against PostgreSQL. `pnpm curriculum:ci` exits 1 on main.",
-      "evidence": "PR #61 (gate every curriculum publish path; hold fields until the revision publishes) merged. The Vitest run on 1fbf352 (41 files passed, 7 skipped; 623 tests passed, 75 skipped) includes curriculum-publication-paths.test.ts and curriculum-publisher.test.ts. `pnpm curriculum:ci` on 1fbf352 fails with `[assessment-gate] 1267 assessments are blocked from publication`, which is the gate refusing unapproved answer keys. Structurally incomplete lessons depend on ACA-005 to ACA-007.",
+      "evidence": "PR #61 (gate every curriculum publish path; hold fields until the revision publishes) merged. The Vitest run on main f9cf64e on 2026-11-09 (61 files passed, 9 skipped; 928 tests passed, 114 skipped, after `prisma generate`) includes curriculum-publication-paths.test.ts and curriculum-publisher.test.ts. `pnpm curriculum:ci` on 1fbf352 fails with `[assessment-gate] 1267 assessments are blocked from publication`, which is the gate refusing unapproved answer keys. Structurally incomplete lessons depend on ACA-005 to ACA-007.",
       "owner": "Unassigned"
     },
     {
@@ -242,7 +242,7 @@
       "acceptance": "Accurate Titan Academy documentation, legal attribution retained",
       "status": "IN PROGRESS",
       "verification": "PARTIAL (2026-11-08): copy audit written and changes applied on this branch. Stays IN PROGRESS until the audit is merged and the owner confirms the email brand.",
-      "evidence": "`lms-main/docs/PRODUCT-COPY-AUDIT-2026-11-08.md` lists each change by file: landing copy, metadata description, origin and licence on the credits page, learner wording in the role label and two API messages, and seed display text. Retained: SkilledAt.Work brand (OWNER-DECISIONS, 2026-11-04), email subjects, `@lms.local` identifiers and the `SMTP_FROM` default. Backend tsc, tsc test config, lint and Vitest (623 passed, 75 skipped) and frontend lint and tsc exit 0 on the branch.",
+      "evidence": "`lms-main/docs/PRODUCT-COPY-AUDIT-2026-11-08.md` lists each change by file: landing copy, metadata description, origin and licence on the credits page, learner wording in the role label and two API messages, and seed display text. Retained: SkilledAt.Work brand (OWNER-DECISIONS, 2026-11-04), email subjects, `@lms.local` identifiers and the `SMTP_FROM` default. Backend tsc, tsc test config, lint and Vitest (928 passed, 114 skipped; 61 files passed, 9 skipped; main f9cf64e, 2026-11-09) and frontend lint and tsc exit 0 on the branch.",
       "owner": "Unassigned"
     },
     {
@@ -451,7 +451,7 @@
       "64": "Bound video upload concurrency and validate video content (#49, #51 lesson part). No ACA item changed.",
       "65": "Ignore local agent worktrees under .claude/worktrees. No ACA item changed."
     },
-    "testRun": "Backend Vitest: 41 files passed, 7 skipped; 623 tests passed, 75 skipped (same as baseline). Backend tsc (both configs), backend lint, frontend lint and frontend tsc exit 0.",
+    "testRun": "Backend Vitest (main f9cf64e, 2026-11-09, after prisma generate): 61 files passed, 9 skipped; 928 tests passed, 114 skipped. Backend tsc (both configs), backend lint, frontend lint and frontend tsc exit 0.",
     "staticChecksFailingOnMain": [
       "scripts/test-auth-route-contracts.mjs: AssertionError 'Refresh validates active verified user' (ACA-016)",
       "scripts/test-session-lifecycle-contract.mjs: AssertionError 'account state checked on refresh' (ACA-016)",

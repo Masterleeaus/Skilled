@@ -1,0 +1,12 @@
+{
+  "id": "logout-cross-site",
+  "enabled": true,
+  "method": "POST",
+  "path": "/logout",
+  "cookie": "good",
+  "origin": "https://skilled.example.test",
+  "fetchSite": "cross-site",
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 403
+}

@@ -78,7 +78,8 @@ export function inspectCompatibility({ backend = base } = {}) {
   check('service-fail-closed', integration.includes('parseServiceScopes(process.env.INTEGRATION_SERVICE_SCOPES)') &&
     integration.includes('allowedRefs?.includes(credential.companyRef)'), 'mandatory service allowlist');
   check('integration-company', integration.includes('externalRef: externalOrganisationRef') &&
-    integration.includes('identity.companyId !== company.id'), 'external to internal company boundary');
+    /resolveScopedIdentity\(\s*\{\s*service:\s*service\.caller,\s*companyId:\s*company\.id,\s*externalUserRef\s*\}/.test(integration),
+    'external company reference must resolve a scoped learner identity via internal company ID');
   check('integration-membership', integration.includes('companyId_userId: { companyId: company.id, userId: learnerId }'),
     'membership verification');
   check('integration-credential', integration.includes('tokenHash') && integration.includes('revokedAt') &&

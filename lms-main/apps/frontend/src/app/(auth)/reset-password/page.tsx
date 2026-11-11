@@ -35,7 +35,7 @@ export default function ResetPasswordPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center px-4">
+    <main id="main-content" tabIndex={-1} className="flex min-h-screen items-center justify-center px-4">
       <section className="w-full max-w-sm space-y-5">
         <AuthBrand />
         <h1 className="text-2xl font-semibold">Choose a new password</h1>

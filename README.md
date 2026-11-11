@@ -1,9 +1,18 @@
 # SkilledAt.Work
 
-The canonical application workspace is [`lms-main/`](lms-main/), with the active frontend in `lms-main/apps/frontend/` and API/database code in `lms-main/apps/backend/`.
+Repository for **SkilledAt.Work** (short name: **Skilled**). The current application and curriculum live in `lms-main/`; branding assets and media libraries live in `brand/` and `library/`.
 
-Course source and the reviewed publication process live in `lms-main/curriculum/`. Canonical images live in the repository-root [`brand/`](brand/) and [`library/`](library/) folders. Frontend `predev` and `prebuild` scripts copy those images into the Next.js public asset tree; that generated tree is not an independent source.
+## Canonical source and branch synchronization
 
-Start with [the workspace README](lms-main/README.md) and [canonical source and asset guidance](lms-main/docs/SKILLED-CANONICAL-SOURCE-AND-ASSETS.md). The [consolidation inventory](lms-main/docs/CONSOLIDATION-INVENTORY-2026-11-08.md) distinguishes active code from historical records, archived imports and unmounted prototypes.
+- **`Main` is the GitHub default and integration branch.** Branch names are case-sensitive; target `Main` for pull requests.
+- Preserve unique work before removing any historical or feature branch.
+- Canonical images live in repository-root `brand/` and `library/`; frontend `predev` and `prebuild` copy them into the generated public asset tree.
+- See [canonical source and asset guidance](lms-main/docs/SKILLED-CANONICAL-SOURCE-AND-ASSETS.md) for active and archived source boundaries.
 
-**Status:** Not verified for production deployment. Root historical ZIP archives remain as provenance; do not treat them as the active source or deploy them instead of the workspace.
+## Working on the application
+
+See [the LMS development guide](lms-main/README.md) for build, test and deployment prerequisites. The root is an archive/media container as well as a source repository; do not treat historical source copies or generated indexes as the authoritative running application.
+
+## Content safety
+
+Curriculum source, assessment evidence and editorial approvals must be preserved. Changes to learner-visible content need fresh revision hashes and qualified review where required. A successful source commit is **not** a publication approval.

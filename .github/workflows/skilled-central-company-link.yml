@@ -1,0 +1,51 @@
+name: Skilled Central company binding integration
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/backend/prisma/schema.prisma'
+      - 'lms-main/apps/backend/prisma/migrations/20261109140000_skilled_central_company_links/**'
+      - 'lms-main/apps/backend/src/modules/auth/central-company-link-provisioning.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-prisma-readers.ts'
+      - 'lms-main/apps/backend/src/tests/central-company-provisioning.test.ts'
+      - 'lms-main/apps/backend/src/tests/fixtures/central-company-provisioning/**'
+      - '.github/workflows/skilled-central-company-link.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/apps/backend/prisma/schema.prisma'
+      - 'lms-main/apps/backend/prisma/migrations/20261109140000_skilled_central_company_links/**'
+      - 'lms-main/apps/backend/src/modules/auth/central-company-link-provisioning.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-prisma-readers.ts'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  company-link:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - name: Install frozen workspace
+        working-directory: lms-main
+        run: pnpm install --frozen-lockfile
+      - name: Validate Prisma schema and generate model client
+        env:
+          DATABASE_URL: postgresql://ci:ci@localhost:5432/skilled_schema_only
+        working-directory: lms-main/apps/backend
+        run: |
+          pnpm exec prisma validate
+          pnpm exec prisma generate
+      - name: Test real mapping read adapter, operator lifecycle and existing identity boundaries
+        working-directory: lms-main/apps/backend
+        run: pnpm exec vitest run src/tests/central-company-provisioning.test.ts src/tests/central-account-resolution.test.ts src/tests/central-link-assertion.test.ts src/tests/scoped-identity-policy.test.ts
+      - name: Backend TypeScript
+        working-directory: lms-main/apps/backend
+        run: pnpm exec tsc --noEmit

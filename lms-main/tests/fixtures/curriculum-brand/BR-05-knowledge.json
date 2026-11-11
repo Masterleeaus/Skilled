@@ -1,0 +1,16 @@
+{
+  "name": "05-knowledge",
+  "input": {
+    "knowledgeChecks": [
+      {
+        "question": "In Titan Academy, which step?"
+      }
+    ]
+  },
+  "expected": [
+    [
+      "/knowledgeChecks/0/question",
+      "learner-visible-review"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "caseId": "FX-08",
+  "description": "Whitespace instruction body",
+  "overrides": {
+    "instruction": [
+      {
+        "heading": "Step",
+        "body": "  "
+      }
+    ]
+  },
+  "remove": [],
+  "expectedBlockers": [
+    "no usable instructional sections"
+  ],
+  "expectedPriority": "P0"
+}

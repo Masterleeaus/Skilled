@@ -29,7 +29,7 @@ export default function RosterPage() {
   return (
     <div>
       <Topbar title={course ? `Students — ${course.title}` : "Students"} backHref={`/teacher/courses/${slug}`} backLabel="Back to course" />
-      <main className="mx-auto max-w-4xl px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-4xl px-6 py-8">
         {isLoading && <p className="text-neutral-400">Loading...</p>}
         {roster?.length === 0 && <p className="text-neutral-400">No students enrolled yet.</p>}
 

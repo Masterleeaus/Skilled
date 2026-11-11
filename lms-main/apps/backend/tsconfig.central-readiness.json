@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "noEmit": true
+  },
+  "include": [
+    "src/modules/auth/central-runtime-feature.ts",
+    "src/tests/central-readiness-admission.fixture.ts",
+    "src/tests/central-readiness-*.test.ts",
+    "src/tests/central-runtime-enabled-guard.test.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

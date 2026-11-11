@@ -17,6 +17,7 @@ on:
       - ".github/workflows/skilled-public-brand.yml"
   push:
     branches:
+      - Main
       - main
     paths:
       - "lms-main/apps/frontend/src/app/**"

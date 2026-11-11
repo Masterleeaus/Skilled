@@ -1,0 +1,17 @@
+{
+  "case": "second-service-allowed",
+  "query": {
+    "service": "ai-workforce",
+    "companyId": "company-a",
+    "externalUserRef": "worker-1"
+  },
+  "rows": [
+    {
+      "service": "ai-workforce",
+      "companyId": "company-a",
+      "externalUserRef": "worker-1",
+      "userId": "learner-a"
+    }
+  ],
+  "expectedUserId": "learner-a"
+}

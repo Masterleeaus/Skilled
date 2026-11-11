@@ -22,6 +22,7 @@ on:
       - '.github/workflows/skilled-source-consolidation.yml'
   push:
     branches:
+      - Main
       - main
     paths:
       - 'lms-main/scripts/test-active-source-consolidation.mjs'

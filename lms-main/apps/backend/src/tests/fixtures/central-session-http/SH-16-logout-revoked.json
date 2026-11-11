@@ -1,0 +1,12 @@
+{
+  "id": "logout-revoked",
+  "enabled": true,
+  "method": "POST",
+  "path": "/logout",
+  "cookie": "good",
+  "origin": "https://skilled.example.test",
+  "fetchSite": "same-origin",
+  "authenticated": false,
+  "revoked": true,
+  "expectedStatus": 401
+}

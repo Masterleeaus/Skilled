@@ -11,15 +11,22 @@ import type {
 // API version this integration was written against. The SDK types accept only its own latest version,
 // so the pinned string is cast here; the value sent to Stripe is unchanged.
 const STRIPE_API_VERSION = "2024-06-20" as string;
-const stripe = new Stripe(env.STRIPE_SECRET_KEY || "sk_test_placeholder", {
-  apiVersion: STRIPE_API_VERSION as Stripe.LatestApiVersion,
-});
+// The client exists only when a secret key is configured. Production startup requires the key (config/env.ts), so
+// without one every Stripe call fails closed with 503 and no request is ever made with a placeholder key.
+const stripe: Stripe | null = env.STRIPE_SECRET_KEY
+  ? new Stripe(env.STRIPE_SECRET_KEY, { apiVersion: STRIPE_API_VERSION as Stripe.LatestApiVersion })
+  : null;
+
+function stripeClient(): Stripe {
+  if (!stripe) {
+    throw new AppError("Stripe is not configured — set STRIPE_SECRET_KEY in .env", 503);
+  }
+  return stripe;
+}
 
 export class StripeProvider implements PaymentProvider {
   async initiate(params: InitiatePaymentParams): Promise<InitiatePaymentResult> {
-    if (!env.STRIPE_SECRET_KEY) {
-      throw new AppError("Stripe is not configured — set STRIPE_SECRET_KEY in .env", 503);
-    }
+    const client = stripeClient();
 
     const body: Stripe.Checkout.SessionCreateParams = {
       mode: "payment",
@@ -41,14 +48,13 @@ export class StripeProvider implements PaymentProvider {
       cancel_url: `${env.CLIENT_URL}/payment/cancelled`,
     };
     // Stripe keeps an idempotency key's result for 24 hours and rejects a reused key with different parameters.
-    const session = await stripe.checkout.sessions.create(body, params.idempotencyKey ? { idempotencyKey: params.idempotencyKey } : undefined);
+    const session = await client.checkout.sessions.create(body,params.idempotencyKey ? { idempotencyKey: params.idempotencyKey } : undefined);
 
     return { checkoutUrl: session.url!, providerReference: session.id };
   }
 
   async verify(providerReference: string): Promise<VerifyPaymentResult> {
-    if (!env.STRIPE_SECRET_KEY) throw new AppError("Stripe is not configured", 503);
-    const session = await stripe.checkout.sessions.retrieve(providerReference);
+    const session = await stripeClient().checkout.sessions.retrieve(providerReference);
 
     const status =
       session.payment_status === "paid"
@@ -69,10 +75,11 @@ export class StripeProvider implements PaymentProvider {
   }
 
   async refund(providerReference: string): Promise<void> {
-    const session = await stripe.checkout.sessions.retrieve(providerReference);
+    const client = stripeClient();
+    const session = await client.checkout.sessions.retrieve(providerReference);
     if (!session.payment_intent) throw new AppError("No payment intent found for refund", 400);
 
-    await stripe.refunds.create({
+    await client.refunds.create({
       payment_intent: session.payment_intent as string,
     });
   }

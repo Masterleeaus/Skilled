@@ -37,7 +37,7 @@ jobs:
             node --input-type=module -e '
               import fs from "node:fs";
               const a=JSON.parse(fs.readFileSync("build/legacy-import-manifest-audit.json","utf8"));
-              const report=["### Historical import manifest audit", "", 
+              const report=["### Historical import manifest audit", "",
                 "| Measure | Result |", "|---|---:|",
                 "| Entries | "+a.entries+" |", "| Fully matching | "+a.matches+" |",
                 "| Stale hashes | "+a.stale+" |", "| Missing files | "+a.missing+" |",

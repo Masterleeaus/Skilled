@@ -38,7 +38,7 @@ export default function ProfilePage() {
   return (
     <div>
       <Topbar title="My Profile" backHref={homeHref} backLabel="Dashboard" />
-      <main className="mx-auto max-w-md px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-md px-6 py-8">
         {isLoading && <p className="text-neutral-400">Loading...</p>}
 
         {profile && (

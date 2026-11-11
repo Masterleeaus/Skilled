@@ -1,0 +1,27 @@
+{
+  "name": "unanswered-source-question",
+  "expectedApproved": false,
+  "expectedReason": "question_mapping_question_without_answer",
+  "lessonPatch": {
+    "knowledgeChecks": [
+      {
+        "id": "Q1",
+        "question": "Select safe action",
+        "options": [
+          "Stop",
+          "Continue",
+          "Escalate"
+        ]
+      },
+      {
+        "id": "Q2",
+        "question": "Another question",
+        "options": [
+          "Stop",
+          "Continue",
+          "Escalate"
+        ]
+      }
+    ]
+  }
+}

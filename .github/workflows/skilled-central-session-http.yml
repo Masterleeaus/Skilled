@@ -1,0 +1,50 @@
+name: Skilled Central session HTTP boundary
+
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-session-*.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-verified-handoff.ts'
+      - 'lms-main/apps/backend/src/tests/central-session-http.test.ts'
+      - 'lms-main/apps/backend/src/tests/fixtures/central-session-http/**'
+      - '.github/workflows/skilled-central-session-http.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-session-*.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-verified-handoff.ts'
+      - 'lms-main/apps/backend/src/tests/central-session-http.test.ts'
+      - 'lms-main/apps/backend/src/tests/fixtures/central-session-http/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  session-http:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - name: Install dependencies
+        working-directory: lms-main
+        run: pnpm install --frozen-lockfile
+      - name: Generate Prisma and validate schema
+        working-directory: lms-main/apps/backend
+        env:
+          DATABASE_URL: postgresql://ci:ci@localhost:5432/skilled_schema_only
+        run: |
+          pnpm exec prisma validate
+          pnpm exec prisma generate
+      - name: Test Central HTTP, session store and company lifecycle
+        working-directory: lms-main/apps/backend
+        run: pnpm exec vitest run src/tests/central-session-http.test.ts src/tests/central-session-store.test.ts src/tests/central-company-provisioning.test.ts
+      - name: Typecheck backend
+        working-directory: lms-main/apps/backend
+        run: pnpm exec tsc --noEmit

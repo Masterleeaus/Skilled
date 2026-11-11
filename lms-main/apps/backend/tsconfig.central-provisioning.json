@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "noEmit": true
+  },
+  "include": [
+    "prisma/provision-titan-integration.ts",
+    "src/tests/central-offline-provisioning.test.ts",
+    "src/modules/auth/central-lms-contract.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

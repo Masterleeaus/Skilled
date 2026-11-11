@@ -59,6 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: noFlashScript }} />
       </head>
       <body className="antialiased">
+        <a href="#main-content" className="sr-only fixed left-4 top-4 z-[100] rounded-lg bg-white px-4 py-3 font-semibold text-neutral-900 shadow-lg focus:not-sr-only focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-blue-600">Skip to main content</a>
         <Providers>{children}</Providers>
       </body>
     </html>

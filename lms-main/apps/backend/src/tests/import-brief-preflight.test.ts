@@ -6,7 +6,7 @@ import { join, resolve } from "node:path";
 
 const backend = resolve(import.meta.dirname, "../..");
 function preflight(args: string[]) {
-  return spawnSync("pnpm", ["exec", "tsx", "prisma/import-titan-curriculum.ts", ...args], {
+  return spawnSync(process.execPath, ["--import", "tsx", "prisma/import-titan-curriculum.ts", ...args], {
     cwd: backend,
     env: { ...process.env, DATABASE_URL: "postgresql://invalid:invalid@127.0.0.1:1/no_database" },
     encoding: "utf8",

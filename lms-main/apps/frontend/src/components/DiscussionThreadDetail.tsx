@@ -49,7 +49,7 @@ export function DiscussionThreadDetail() {
   return (
     <div>
       <Topbar title={thread.title} backHref="back" backLabel="Back to discussions" />
-      <main className="mx-auto max-w-2xl space-y-4 px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-2xl space-y-4 px-6 py-8">
         <div className="rounded-lg border border-neutral-800 bg-neutral-900 p-4">
           <p className="text-sm text-neutral-300">{thread.body}</p>
           <p className="mt-2 text-xs text-neutral-500">

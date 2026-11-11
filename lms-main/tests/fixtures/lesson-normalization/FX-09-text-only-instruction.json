@@ -1,0 +1,17 @@
+{
+  "caseId": "FX-09",
+  "description": "Instruction entry with unsupported text field",
+  "overrides": {
+    "instruction": [
+      {
+        "heading": "Step",
+        "text": "Unverified content"
+      }
+    ]
+  },
+  "remove": [],
+  "expectedBlockers": [
+    "no usable instructional sections"
+  ],
+  "expectedPriority": "P0"
+}

@@ -1,0 +1,17 @@
+{
+  "case": "empty-ref",
+  "query": {
+    "service": "field-services",
+    "companyId": "company-a",
+    "externalUserRef": ""
+  },
+  "rows": [
+    {
+      "service": "field-services",
+      "companyId": "company-a",
+      "externalUserRef": "",
+      "userId": "learner-a"
+    }
+  ],
+  "expectedUserId": null
+}

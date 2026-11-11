@@ -49,16 +49,18 @@ export default function NewCoursePage() {
     <div>
       <Topbar title="New Course" backHref="/teacher" backLabel="My Courses" />
 
-      <main className="mx-auto max-w-xl px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-xl px-6 py-8">
         <form onSubmit={handleSubmit((v) => mutation.mutate(v))} className="space-y-4">
           <div>
             <label htmlFor="course-title" className="mb-1 block text-sm text-neutral-300">Title</label>
             <input
               id="course-title"
               {...register("title")}
+              aria-invalid={errors.title ? true : undefined}
+              aria-describedby={errors.title ? "course-title-error" : undefined}
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             />
-            {errors.title && <p className="mt-1 text-xs text-red-400">{errors.title.message}</p>}
+            {errors.title && <p id="course-title-error" className="mt-1 text-xs text-red-400">{errors.title.message}</p>}
           </div>
 
           <div>
@@ -67,10 +69,12 @@ export default function NewCoursePage() {
               id="course-description"
               {...register("description")}
               rows={4}
+              aria-invalid={errors.description ? true : undefined}
+              aria-describedby={errors.description ? "course-description-error" : undefined}
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             />
             {errors.description && (
-              <p className="mt-1 text-xs text-red-400">{errors.description.message}</p>
+              <p id="course-description-error" className="mt-1 text-xs text-red-400">{errors.description.message}</p>
             )}
           </div>
 
@@ -79,6 +83,8 @@ export default function NewCoursePage() {
             <select
               id="course-category"
               {...register("categoryId")}
+              aria-invalid={errors.categoryId ? true : undefined}
+              aria-describedby={errors.categoryId ? "course-category-error" : undefined}
               className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
             >
               <option value="">Select a category</option>
@@ -89,7 +95,7 @@ export default function NewCoursePage() {
               ))}
             </select>
             {errors.categoryId && (
-              <p className="mt-1 text-xs text-red-400">{errors.categoryId.message}</p>
+              <p id="course-category-error" className="mt-1 text-xs text-red-400">{errors.categoryId.message}</p>
             )}
           </div>
 

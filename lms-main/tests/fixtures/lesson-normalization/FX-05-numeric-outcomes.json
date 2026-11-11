@@ -1,0 +1,16 @@
+{
+  "caseId": "FX-05",
+  "description": "Non-string outcome entries are invalid",
+  "overrides": {
+    "learningOutcomes": [
+      22,
+      null,
+      false
+    ]
+  },
+  "remove": [],
+  "expectedBlockers": [
+    "no explicit learning outcomes"
+  ],
+  "expectedPriority": "P1"
+}
