@@ -24,7 +24,7 @@ describe("bound Central service client composes operator registry and existing t
   const fetcher=vi.fn(async (_url:string,init:RequestInit)=>{
    const q=JSON.parse(init.body as string);
    return mockedResponse({issuer,subject:identity.subject,requestId:q.requestId,
-    decision:{...decision,organisationId:"other-logto-org"}});
+    decision:{...decision,organisationId:"11111111-1111-4111-8111-111111111111"}});
   });
   const client=createSkilledCentralServiceDecision({db:stubDb(),
    endpoint:"https://central.example.test/v1/integrations/academy/decision",issuer,audience,

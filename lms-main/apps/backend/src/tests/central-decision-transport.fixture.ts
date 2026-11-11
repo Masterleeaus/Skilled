@@ -9,7 +9,7 @@ export const principal:VerifiedIdentity={
 export const logtoOrganisationId="logto-org-0001";
 export const centralOrganisationId="00000000-0000-4000-8000-000000000001";
 export const decision={
- allowed:true,applicationId:"academy",organisationId:logtoOrganisationId,
+ allowed:true,applicationId:"academy",organisationId:centralOrganisationId,
  localUserId:"skilled-user-0001",localAccountId:"account-0001",
  membershipRevision:1,entitlementRevision:1,linkRevision:1
 };

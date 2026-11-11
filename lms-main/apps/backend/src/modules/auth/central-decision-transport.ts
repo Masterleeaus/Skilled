@@ -39,15 +39,22 @@ function trustedEndpoint(value:string):boolean {
 function exactKeys(value:Record<string,unknown>,fields:string[]):boolean {
  return Object.keys(value).sort().join("|")===fields.sort().join("|");
 }
+/** Central issues short-lived decisions; reject malformed, expired, or excessively long grants. */
+function validDecisionExpiry(value:unknown):boolean {
+ if(typeof value!=="string"||!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(value))return false;
+ const expiry=Date.parse(value),now=Date.now();
+ return Number.isFinite(expiry)&&expiry>now&&expiry-now<=300_000;
+}
 function boundedDecision(value:unknown):value is CentralDecision {
  if(!value||typeof value!=="object"||Array.isArray(value))return false;
  const x=value as Record<string,unknown>;
  return exactKeys(x,["allowed","applicationId","organisationId","localUserId","localAccountId",
-  "membershipRevision","entitlementRevision","linkRevision"]) &&
+  "membershipRevision","entitlementRevision","linkRevision",...(Object.hasOwn(x,"expiresAt")?["expiresAt"]:[])]) &&
   x.allowed===true && x.applicationId==="academy" &&
   [x.organisationId,x.localUserId,x.localAccountId].every(v=>typeof v==="string"&&ID.test(v)) &&
   [x.membershipRevision,x.entitlementRevision,x.linkRevision].every(v=>
-   typeof v==="number"&&Number.isSafeInteger(v)&&v>=0);
+   typeof v==="number"&&Number.isSafeInteger(v)&&v>=0) &&
+  (!Object.hasOwn(x,"expiresAt") || validDecisionExpiry(x.expiresAt));
 }
 /** Builds a one-to-one resolver from operator-provided pairs. Duplicates and malformed values fail at construction. */
 export function createCentralOrganisationRegistry(
@@ -108,9 +115,12 @@ export function createAuthenticatedCentralDecisionClient(config:ClientConfig):Ce
    if(!exactKeys(envelope,["issuer","subject","requestId","decision"])||
       envelope.issuer!==verified.issuer || envelope.subject!==verified.subject ||
       envelope.requestId!==requestId || !boundedDecision(envelope.decision))return null;
-   // The decision is returned for the Logto organisation that was asked about, never for another one.
-   if(envelope.decision.organisationId!==logtoOrganisationId)return null;
-   return {issuer:verified.issuer,subject:verified.subject,decision:envelope.decision};
+   // The request carried the mapped Central internal organisation UUID, so the decision must name that same UUID
+   // (not the Logto organisation ID, which is a different namespace). Any other organisation is refused.
+   if(envelope.decision.organisationId.toLowerCase()!==organisationId.toLowerCase())return null;
+   // expiresAt is validated above and stripped here: it is transport metadata, not part of the trusted grant.
+   const {expiresAt:_expiresAt,...bounded}=envelope.decision as CentralDecision & {expiresAt?:string};
+   return {issuer:verified.issuer,subject:verified.subject,decision:bounded};
   }catch{return null;}
  };
 }
