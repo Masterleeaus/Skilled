@@ -5,7 +5,9 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assessmentDir = path.join(root, 'curriculum/assessments');
-const lessonDirs = ['curriculum/lessons', 'curriculum/converted-lessons', 'curriculum/specialist-courses', 'curriculum/lesson-drafts'];
+// Lesson sources live in curriculum/courses/<course>/ and curriculum/shared/<area>/ (see curriculum/SCHEMA.md and
+// scripts/ci-curriculum-audit.mjs). The older directories are kept so their matches are not lost.
+const lessonDirs = ['curriculum/courses', 'curriculum/shared', 'curriculum/lessons', 'curriculum/converted-lessons', 'curriculum/specialist-courses', 'curriculum/lesson-drafts'];
 const files = fs.readdirSync(assessmentDir).filter(f => f.endsWith('.assessment.json')).sort();
 const issues = [], entries = [], seen = new Set();
 const counts = {};
