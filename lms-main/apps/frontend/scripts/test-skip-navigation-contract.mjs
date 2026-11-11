@@ -13,7 +13,7 @@ const routes = [
   '(auth)/reset-password','(auth)/verify-email','academy/assessor',
   'admin/courses','admin/lesson-review','admin/users','courses',
   'pathways','profile','student/assignments/[assignmentId]','student',
-  'student/quizzes/[quizId]','teacher/courses/[slug]/assignments/new',
+  'student/certificates','student/quizzes/[quizId]','teacher/courses/[slug]/assignments/new',
   'teacher/courses/[slug]/quizzes/new','teacher/courses/[slug]/students',
   'teacher/courses/new','teacher',
 ];

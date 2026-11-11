@@ -123,8 +123,8 @@ lms-main/
 ## Getting Started
 
 ### Prerequisites
-- Node.js 20 or later
-- pnpm 10 or later
+- Node.js 22 (the version CI and the verification evidence use; the root `package.json` `engines` field sets `>=20` as a floor)
+- pnpm 10.0.0, exactly, as pinned by the root `packageManager` field. Use Corepack so this version is used; see Setup.
 - Docker (for Postgres, Redis, MinIO and Mailhog)
 
 ### Setup
@@ -133,6 +133,8 @@ lms-main/
 git clone <repository-url> titan-academy
 cd titan-academy
 
+corepack enable              # makes `pnpm` run the version pinned in package.json (10.0.0)
+pnpm -v                      # should print 10.0.0
 pnpm install
 
 cp apps/backend/.env.example apps/backend/.env   # then set every secret; see docs/runbooks/secrets-handling.md

@@ -20,7 +20,7 @@ check(app.includes('app.set("trust proxy", "loopback")'), 'Apache proxy trust sc
 check(env.includes('Production requires the dedicated titan_academy database and role'), 'production database-target startup guard exists');
 check(env.includes('JWT_ACCESS_SECRET and JWT_REFRESH_SECRET must be different'), 'signing key independence guard exists');
 check(env.includes('Production frontend must use HTTPS'), 'production frontend TLS guard exists');
-check(env.includes('Production Stripe requires both secret'), 'production Stripe pair guard exists');
+check(env.includes('Production checkout requires STRIPE_SECRET_KEY') && env.includes('Production checkout requires STRIPE_WEBHOOK_SECRET'), 'production checkout requires both Stripe keys');
 const valid = db('postgresql://titan_academy:super-unique-SECRET@127.0.0.1:5432/titan_academy?schema=public');
 check(valid.status === 0, 'safe Academy target accepted');
 check(valid.stdout.includes('VERIFIED'), 'safe target reported');

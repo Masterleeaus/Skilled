@@ -92,8 +92,12 @@ export const envSchema = z.object({
     if (!values.CLIENT_URL.startsWith("https://")) {
       context.addIssue({ code: "custom", path: ["CLIENT_URL"], message: "Production frontend must use HTTPS" });
     }
-    if (!!values.STRIPE_SECRET_KEY !== !!values.STRIPE_WEBHOOK_SECRET) {
-      context.addIssue({ code: "custom", path: ["STRIPE_WEBHOOK_SECRET"], message: "Production Stripe requires both secret and webhook signature key, or neither" });
+    // Checkout is always on in production, so Stripe must be fully configured. Partial or absent config fails startup.
+    if (!values.STRIPE_SECRET_KEY.trim()) {
+      context.addIssue({ code: "custom", path: ["STRIPE_SECRET_KEY"], message: "Production checkout requires STRIPE_SECRET_KEY" });
+    }
+    if (!values.STRIPE_WEBHOOK_SECRET.trim()) {
+      context.addIssue({ code: "custom", path: ["STRIPE_WEBHOOK_SECRET"], message: "Production checkout requires STRIPE_WEBHOOK_SECRET" });
     }
   }
   if (!!values.SMTP_USER !== !!values.SMTP_PASSWORD) {
