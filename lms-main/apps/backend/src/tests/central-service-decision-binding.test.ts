@@ -32,7 +32,7 @@ describe("bound Central service client composes operator registry and existing t
   expect(await client(identity)).toBeNull();expect(fetcher).toHaveBeenCalledOnce();
  });
  it("fails closed before HTTP when the trusted local selector is unavailable",async()=>{
-  const db=stubDb();db.academyExternalIdentity.findMany.mockRejectedValueOnce(new Error("unavailable"));
+  const db=stubDb();vi.mocked(db.academyExternalIdentity.findMany).mockRejectedValueOnce(new Error("unavailable"));
   const fetcher=vi.fn(async()=>mockedResponse({}));
   const client=createSkilledCentralServiceDecision({db,
    endpoint:"https://central.example.test/v1/integrations/academy/decision",issuer,audience,

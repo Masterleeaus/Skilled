@@ -1,6 +1,6 @@
 /** Shared PostgreSQL one-use state. A delete-before-return prevents replay across workers. */
 import type {PrismaClient} from "@prisma/client";
-import {hash,sealOidc,openOidc} from "./central-oidc-crypto";
+import { hash, sealOidc } from "./central-oidc-crypto";
 type Db=Pick<PrismaClient,"skilledOidcLoginState">;
 const TOKEN=/^[A-Za-z0-9_-]{43}$/;
 export type PendingState={nonce:string;verifier:string;bindingHash:string;expiresAt:number};

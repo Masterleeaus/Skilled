@@ -40,7 +40,7 @@ describe("Central OIDC discovery alignment", () => {
   it("caches successful discovery and does not cache failures", async () => {
     const counter = { discovery: 0 };
     let up = false;
-    const fetcher = (async (input: string | URL | Request) => {
+    const fetcher = (async (_input: string | URL | Request) => {
       counter.discovery += 1;
       if (!up) return new Response("down", { status: 503 });
       return json(discoveryMetadata());
