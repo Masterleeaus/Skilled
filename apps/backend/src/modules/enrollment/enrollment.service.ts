@@ -144,7 +144,7 @@ export async function getStudentDetailForCourse(courseId: string, studentId: str
     }),
   ]);
 
-  if (!student || !enrollment) throw new NotFoundError("Student enrollment");
+  if (!student || !enrollment) throw new NotFoundError("Learner enrollment");
 
   return { student, enrollment, quizAttempts, submissions };
 }

@@ -1,0 +1,47 @@
+name: Skilled Central account-resolution contract
+
+on:
+  pull_request:
+    paths:
+      - 'apps/backend/src/modules/auth/central-account-resolution.ts'
+      - 'apps/backend/src/tests/central-account-resolution.test.ts'
+      - 'apps/backend/src/tests/fixtures/central-account-resolution/**'
+      - '.github/workflows/skilled-central-account-contract.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/backend/src/modules/auth/central-account-resolution.ts'
+      - 'apps/backend/src/tests/central-account-resolution.test.ts'
+      - 'apps/backend/src/tests/fixtures/central-account-resolution/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  central-local-resolution:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - name: Frozen dependency installation
+        working-directory: .
+        run: pnpm install --frozen-lockfile
+      - name: Generate Prisma types
+        working-directory: apps/backend
+        run: pnpm exec prisma generate
+      - name: Verify Central account and existing scope rules
+        working-directory: apps/backend
+        run: |
+          pnpm exec vitest run src/tests/central-account-resolution.test.ts src/tests/scoped-identity-policy.test.ts src/tests/verify-external-identity.test.ts
+      - name: Backend TypeScript check
+        working-directory: apps/backend
+        run: pnpm exec tsc --noEmit

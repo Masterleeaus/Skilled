@@ -15,7 +15,138 @@
   --color-foreground: var(--foreground);
 }
 
+/* Dark theme: text-neutral-500 is 4.2:1 on the dark background, below WCAG AA 4.5:1 for small text. Lighten it in dark mode only. */
+:root:not(.light) .text-neutral-500 {
+  color: #8c8c8c;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+/*
+ * Light theme token pass (issue #33, audit F-04).
+ *
+ * Components are written dark first: they use neutral-* and slate-* utilities for text and surfaces that
+ * assume a dark background. Under :root.light those utilities are remapped here, so no component markup
+ * changes and the dark theme is untouched. Targets: body text 4.5:1 and UI borders 3:1 on the light surfaces
+ * (WCAG 1.4.3, 1.4.11). Contrast values were checked with the WCAG formula; see docs/ACCESSIBILITY-AUDIT-2026-11-08.md.
+ */
+:root.light {
+  --color-fg-strong: #171717; /* 17.9:1 on white */
+  --color-fg-secondary: #404040; /* 10.4:1 on white */
+  --color-fg-muted: #525252; /* 7.8:1 on white, 6.5:1 on the raised surface */
+  --color-fg-subtle: #5c5c5c; /* 6.7:1 on white, 5.6:1 on the raised surface */
+  --color-surface: #f5f5f5;
+  --color-surface-raised: #ebebeb;
+  --color-surface-sunken: #e0e0e0;
+  --color-border-strong: #8c8c8c; /* 3.4:1 on white */
+}
+
+/* Text: light greys become dark greys. */
+:root.light .text-white,
+:root.light .text-neutral-100,
+:root.light .text-neutral-200,
+:root.light .text-slate-100,
+:root.light .text-slate-200,
+:root.light .text-amber-50,
+:root.light .hover\:text-neutral-100:hover,
+:root.light .hover\:text-neutral-200:hover,
+:root.light .hover\:text-white:hover {
+  color: var(--color-fg-strong);
+}
+:root.light .text-neutral-300,
+:root.light .text-slate-300,
+:root.light .hover\:text-neutral-300:hover {
+  color: var(--color-fg-secondary);
+}
+:root.light .text-neutral-400,
+:root.light .text-slate-400 {
+  color: var(--color-fg-muted);
+}
+:root.light .text-neutral-500 {
+  color: var(--color-fg-subtle);
+}
+
+/* Status text on light surfaces: the 200 to 400 tints are too pale on white. */
+:root.light .text-red-300,
+:root.light .text-red-400 {
+  color: #b91c1c; /* 6.5:1 */
+}
+:root.light .text-green-200,
+:root.light .text-green-300,
+:root.light .text-green-400 {
+  color: #166534; /* 7.1:1 */
+}
+:root.light .text-amber-200,
+:root.light .text-amber-300 {
+  color: #92400e; /* 7.1:1 */
+}
+:root.light .text-blue-300 {
+  color: #1e40af; /* 8.7:1 */
+}
+:root.light .text-emerald-300 {
+  color: #065f46; /* 7.5:1 */
+}
+
+/* Surfaces: the dark card, input and selected-row backgrounds become light. Inputs sit on white with a border. */
+:root.light .bg-neutral-950 {
+  background-color: #ffffff;
+}
+:root.light .bg-neutral-900,
+:root.light .bg-slate-900,
+:root.light .hover\:bg-neutral-900:hover {
+  background-color: var(--color-surface);
+}
+:root.light .bg-neutral-800,
+:root.light .bg-slate-800,
+:root.light .bg-neutral-800\/60,
+:root.light .hover\:bg-neutral-800:hover {
+  background-color: var(--color-surface-raised);
+}
+:root.light .bg-slate-700,
+:root.light .bg-neutral-700\/50 {
+  background-color: var(--color-surface-sunken);
+}
+:root.light .bg-amber-950 {
+  background-color: #fffbeb; /* amber-50: the warning notice keeps its tint with dark text */
+}
+
+/* Borders: dark borders become a mid grey that meets 3:1 against white. */
+:root.light .border-neutral-600,
+:root.light .border-neutral-700,
+:root.light .border-neutral-800,
+:root.light .border-slate-600,
+:root.light .border-slate-700,
+:root.light .border-slate-800,
+:root.light .hover\:border-neutral-600:hover {
+  border-color: var(--color-border-strong);
+}
+:root.light .border-white {
+  border-color: var(--color-fg-strong);
+}
+/* Primary buttons are white on a white page in the light theme (bg-white rounded-lg). Give them the strong border token so their edge is visible (3.4:1 on white). Fill and text are unchanged. */
+:root.light .bg-white.rounded-lg {
+  border: 1px solid var(--color-border-strong);
+}
+:root.light .accent-white {
+  accent-color: var(--color-fg-strong);
+}
+
+/* Focus indicators: white and light rings disappear on white. */
+:root.light .outline-white,
+:root.light .focus-visible\:outline-white:focus-visible {
+  outline-color: var(--color-fg-strong);
+}
+:root.light .ring-neutral-400,
+:root.light .focus-visible\:ring-neutral-400:focus-visible {
+  --tw-ring-color: var(--color-fg-muted);
+}
+
+/* Solid coloured buttons inherit the foreground, which is dark in the light theme. Keep their label white. */
+:root.light .bg-blue-700,
+:root.light .bg-emerald-700,
+:root.light .bg-green-800 {
+  color: #ffffff;
 }

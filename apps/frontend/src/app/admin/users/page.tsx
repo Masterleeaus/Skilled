@@ -48,12 +48,13 @@ function UserRow({ u }: { u: AdminUser }) {
       </td>
       <td className="py-3 pr-4">
         <select
+          aria-label={`Role for ${u.fullName}`}
           value={u.role}
           disabled={isSelf || roleMutation.isPending}
           onChange={(e) => roleMutation.mutate(e.target.value as AdminUser["role"])}
           className="rounded-lg border border-neutral-800 bg-neutral-950 px-2 py-1 text-sm disabled:opacity-50"
         >
-          <option value="STUDENT">Student</option>
+          <option value="STUDENT">Learner</option>
           <option value="TEACHER">Teacher</option>
           {u.role === "ADMIN" && <option value="ADMIN">Admin</option>}
         </select>
@@ -105,8 +106,10 @@ export default function AdminUsersPage() {
     <div>
       <Topbar title="Users" />
       <AdminNav />
-      <main className="mx-auto max-w-3xl px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-3xl px-6 py-8">
         <input
+          type="search"
+          aria-label="Search users by name or email"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search by name or email..."
@@ -122,7 +125,7 @@ export default function AdminUsersPage() {
                 <th className="pb-2 font-normal">User</th>
                 <th className="pb-2 font-normal">Role</th>
                 <th className="pb-2 font-normal">Status</th>
-                <th className="pb-2 font-normal"></th>
+                <th scope="col" className="pb-2 font-normal">Actions</th>
               </tr>
             </thead>
             <tbody>

@@ -16,7 +16,9 @@ let assertions = 0;
 function check(condition, label) { assert.ok(condition, label); assertions++; }
 check(/verifyAndCompletePayment\(providerReference: string, requestingStudentId\?: string\)/.test(service), 'payment supports user ownership');
 check(/payment.studentId !== requestingStudentId/.test(service), 'payment enforces owner');
-check(/await prisma\.\$transaction\(\[/.test(service), 'zero-price enrollment and receipt atomic');
+// The zero-price path runs enrolment, receipt and coupon reservation in one interactive transaction.
+const zeroPriceBlock = service.split('if (amount === 0) {')[1].split('return { free: true as const };')[0];
+check(/await prisma\.\$transaction\(async \(tx\) =>/.test(zeroPriceBlock) && zeroPriceBlock.includes('tx.enrollment.create(') && zeroPriceBlock.includes('tx.payment.create('), 'zero-price enrollment and receipt atomic');
 check(/result.studentId !== payment.studentId/.test(service), 'student matches signed session metadata');
 check(/result.courseId !== payment.courseId/.test(service), 'course matches signed session metadata');
 check(/result.currency.toLowerCase\(\) !== "usd"/.test(service), 'currency checked');

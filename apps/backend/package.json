@@ -1,5 +1,5 @@
 {
-  "name": "@skilled/backend",
+  "name": "@lms/backend",
   "version": "1.0.0",
   "private": true,
   "main": "dist/server.js",
@@ -14,7 +14,7 @@
     "prisma:migrate": "prisma migrate dev",
     "prisma:deploy": "prisma migrate deploy",
     "prisma:seed": "tsx prisma/seed.ts",
-    "lint": "eslint src",
+    "lint": "eslint src tests --max-warnings=0",
     "test": "vitest run; vitest_status=$?; tsx --test 'tests/**/*.test.{mjs,cjs}'; node_status=$?; [ $vitest_status -eq 0 ] && [ $node_status -eq 0 ]",
     "test:node": "tsx --test 'tests/**/*.test.{mjs,cjs}'",
     "test:watch": "vitest",
@@ -49,7 +49,8 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@eslint/js": "10.0.1",
+    "@eslint/js": "^9.39.5",
+    "@lms/eslint-config": "workspace:*",
     "@types/bcrypt": "6.0.0",
     "@types/cookie-parser": "1.4.10",
     "@types/cors": "2.8.19",
@@ -61,7 +62,7 @@
     "@types/supertest": "6.0.2",
     "@typescript-eslint/eslint-plugin": "8.64.0",
     "@typescript-eslint/parser": "8.64.0",
-    "eslint": "10.7.0",
+    "eslint": "^9.39.5",
     "prisma": "6.19.3",
     "supertest": "7.0.0",
     "tsx": "4.23.1",

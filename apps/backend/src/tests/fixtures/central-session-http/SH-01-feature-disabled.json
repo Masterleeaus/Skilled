@@ -1,0 +1,12 @@
+{
+  "id": "feature-disabled",
+  "enabled": false,
+  "method": "GET",
+  "path": "/session",
+  "cookie": "good",
+  "origin": null,
+  "fetchSite": null,
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 404
+}

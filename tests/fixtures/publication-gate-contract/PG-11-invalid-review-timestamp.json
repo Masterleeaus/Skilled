@@ -1,0 +1,8 @@
+{
+  "name": "invalid-review-timestamp",
+  "expectedApproved": false,
+  "expectedReason": "missing_or_stale_human_approval",
+  "approvalPatch": {
+    "reviewedAt": "2025-99-99T00:00:00Z"
+  }
+}

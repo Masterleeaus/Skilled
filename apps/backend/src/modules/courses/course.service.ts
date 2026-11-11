@@ -167,13 +167,13 @@ export async function setPublishStatus(
   return updated;
 }
 
-/** MinIO object keys of every lesson video under the course. Read-only: nothing is deleted or stored. */
+/** MinIO object keys of every lesson video and caption track under the course. Read-only: nothing is deleted or stored. */
 export async function listCourseVideoObjectKeys(courseId: string): Promise<string[]> {
   const lessons = await prisma.lesson.findMany({
-    where: { module: { courseId }, videoUrl: { not: null } },
-    select: { videoUrl: true },
+    where: { module: { courseId } },
+    select: { videoUrl: true, captionTrackKey: true },
   });
-  return lessons.flatMap((lesson) => (lesson.videoUrl ? [lesson.videoUrl] : []));
+  return lessons.flatMap((lesson) => [lesson.videoUrl, lesson.captionTrackKey].filter((key): key is string => !!key));
 }
 
 export async function deleteCourse(courseId: string, userId: string, role: Role) {

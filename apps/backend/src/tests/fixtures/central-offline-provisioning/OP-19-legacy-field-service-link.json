@@ -1,0 +1,9 @@
+{
+  "name": "19-legacy-field-service-link",
+  "action": "link-identity",
+  "service": "field-services",
+  "externalUserRef": "worker-1",
+  "expected": "Identity linked",
+  "audit": "PROVISION_IDENTITY_CREATED",
+  "count": 1
+}

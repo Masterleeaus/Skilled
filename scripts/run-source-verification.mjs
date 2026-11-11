@@ -6,6 +6,7 @@ import path from 'node:path';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const checks = [
+  'test-skilled-route-metadata.mjs',
   'test-auth-route-contracts.mjs',
   'test-session-lifecycle-contract.mjs',
   'test-quiz-integrity-contract.mjs',
@@ -32,6 +33,23 @@ const checks = [
   'test-curriculum-review-queue.mjs',
   'test-master-improvement-register.mjs',
   'test-reconcile-lesson-formats.mjs',
+  'test-lesson-normalization-fixtures.mjs',
+  'test-rebuild-curriculum-derived.mjs',
+  'test-assessment-publication-negative-fixtures.mjs',
+  'test-audit-active-compatibility.mjs',
+  'test-audit-inactive-source-boundaries.mjs',
+  'test-audit-canonical-import-manifest.mjs',
+  'test-audit-course-art-manifest.mjs',
+  'test-prepare-public-assets.mjs',
+  'test-public-topbar-navigation.mjs',
+  'test-account-flow-branding.mjs',
+  'test-active-source-consolidation.mjs',
+  'test-audit-public-product-identity.mjs',
+  'test-audit-curriculum-brand.mjs',
+  'test-curriculum-brand-fixtures.mjs',
+  'test-skilled-public-brand.mjs',
+  'test-deployment-doc-contract.mjs',
+  'test-env-template-contract.mjs',
 ];
 let failed = 0;
 for (const test of checks) {

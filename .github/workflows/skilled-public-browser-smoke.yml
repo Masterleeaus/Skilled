@@ -1,0 +1,55 @@
+name: Skilled public browser smoke
+on:
+  pull_request:
+    paths:
+      - 'apps/frontend/**'
+      - 'packages/**'
+      - 'scripts/browser-public-smoke.mjs'
+      - 'scripts/prepare-public-assets.mjs'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+      - '.github/workflows/skilled-public-browser-smoke.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/frontend/**'
+      - 'packages/**'
+      - 'scripts/browser-public-smoke.mjs'
+      - 'scripts/prepare-public-assets.mjs'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+      - '.github/workflows/skilled-public-browser-smoke.yml'
+permissions:
+  contents: read
+jobs:
+  public-browser:
+    runs-on: ubuntu-24.04
+    container: mcr.microsoft.com/playwright:v1.63.0-noble
+    timeout-minutes: 20
+    env:
+      NEXT_TELEMETRY_DISABLED: '1'
+      NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3212
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm -C apps/backend exec prisma generate --schema prisma/schema.prisma
+      - run: pnpm -C apps/frontend build
+      - run: node apps/frontend/scripts/verify-metadata.mjs
+      - name: Install browser driver matching the container
+        run: npm install --prefix "$RUNNER_TEMP/pw" playwright@1.63.0
+      - name: Require desktop and mobile public-page rendering
+        env:
+          NODE_PATH: ${{ runner.temp }}/pw/node_modules
+        shell: bash
+        run: |
+          pnpm -C apps/frontend exec next start --hostname 127.0.0.1 --port 3212 > "$RUNNER_TEMP/skilled-public-server.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          node --input-type=module -e 'for(let n=0;n<60;n++){try{if((await fetch("http://127.0.0.1:3212")).ok)process.exit(0)}catch{}await new Promise(r=>setTimeout(r,1000))}process.exit(1)'
+          node scripts/browser-public-smoke.mjs

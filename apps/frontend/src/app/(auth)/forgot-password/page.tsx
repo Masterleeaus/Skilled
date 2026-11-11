@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import Link from "next/link";
+import { AuthBrand } from "@/components/AuthBrand";
 import { forgotPassword } from "@/lib/auth.api";
 
 export default function ForgotPasswordPage() {
@@ -25,8 +26,9 @@ export default function ForgotPasswordPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center px-4">
+    <main id="main-content" tabIndex={-1} className="flex min-h-screen items-center justify-center px-4">
       <section className="w-full max-w-sm space-y-5">
+        <AuthBrand />
         <h1 className="text-2xl font-semibold">Reset your password</h1>
         {sent ? (
           <p role="status" className="text-sm text-neutral-300">

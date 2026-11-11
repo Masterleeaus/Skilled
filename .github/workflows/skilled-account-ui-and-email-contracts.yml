@@ -1,0 +1,59 @@
+name: skilled-account-ui-and-email-contracts
+on:
+  pull_request:
+    paths:
+      - 'apps/frontend/src/components/Topbar.tsx'
+      - 'apps/frontend/src/lib/dashboard-link.ts'
+      - 'apps/backend/src/jobs/**'
+      - 'apps/backend/src/tests/account-email-content.test.ts'
+      - 'scripts/test-public-topbar-navigation.mjs'
+      - 'scripts/test-skilled-route-metadata.mjs'
+      - '.github/workflows/skilled-account-ui-and-email-contracts.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/frontend/src/components/Topbar.tsx'
+      - 'apps/frontend/src/lib/dashboard-link.ts'
+      - 'apps/backend/src/jobs/**'
+      - 'apps/backend/src/tests/account-email-content.test.ts'
+      - 'scripts/test-public-topbar-navigation.mjs'
+      - 'scripts/test-skilled-route-metadata.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - working-directory: .
+        run: |
+          node --test scripts/test-public-topbar-navigation.mjs
+          node scripts/test-skilled-route-metadata.mjs
+  build-and-email-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - working-directory: .
+        run: pnpm install --frozen-lockfile
+      - working-directory: apps/backend
+        run: |
+          pnpm exec prisma generate
+          pnpm exec vitest run src/tests/account-email-content.test.ts
+          pnpm exec tsc --noEmit
+      - working-directory: apps/frontend
+        run: |
+          pnpm lint
+          pnpm build

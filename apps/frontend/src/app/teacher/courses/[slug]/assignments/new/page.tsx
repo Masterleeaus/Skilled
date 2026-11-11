@@ -38,7 +38,7 @@ export default function NewAssignmentPage() {
   return (
     <div>
       <Topbar title="New Assignment" backHref="back" backLabel="Back to course" />
-      <main className="mx-auto max-w-xl space-y-4 px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-xl space-y-4 px-6 py-8">
         <input
           value={title}
           onChange={(e) => setTitle(e.target.value)}
@@ -54,8 +54,9 @@ export default function NewAssignmentPage() {
         />
         <div className="grid grid-cols-2 gap-4">
           <div>
-            <label className="mb-1 block text-xs text-neutral-400">Due date</label>
+            <label htmlFor="assignment-due-date" className="mb-1 block text-xs text-neutral-400">Due date</label>
             <input
+              id="assignment-due-date"
               type="date"
               value={dueDate}
               onChange={(e) => setDueDate(e.target.value)}
@@ -63,8 +64,9 @@ export default function NewAssignmentPage() {
             />
           </div>
           <div>
-            <label className="mb-1 block text-xs text-neutral-400">Total marks</label>
+            <label htmlFor="assignment-total-marks" className="mb-1 block text-xs text-neutral-400">Total marks</label>
             <input
+              id="assignment-total-marks"
               type="number"
               value={totalMarks}
               onChange={(e) => setTotalMarks(Number(e.target.value))}
@@ -73,8 +75,8 @@ export default function NewAssignmentPage() {
           </div>
         </div>
         <div>
-          <label className="mb-1 block text-xs text-neutral-400">Minimum passing marks</label>
-          <input type="number" min={1} max={totalMarks} value={passingMarks}
+          <label htmlFor="assignment-passing-marks" className="mb-1 block text-xs text-neutral-400">Minimum passing marks</label>
+          <input id="assignment-passing-marks" type="number" min={1} max={totalMarks} value={passingMarks}
             onChange={(e) => setPassingMarks(Number(e.target.value))}
             className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500" />
           <p className="mt-1 text-xs text-neutral-500">Required for certificate eligibility.</p>

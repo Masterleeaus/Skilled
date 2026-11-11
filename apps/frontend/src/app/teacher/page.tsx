@@ -21,7 +21,7 @@ export default function TeacherDashboard() {
     <div>
       <Topbar title="My Courses" />
 
-      <main className="mx-auto max-w-5xl px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-5xl px-6 py-8">
         <div className="mb-6 flex items-center justify-between">
           <p className="text-sm text-neutral-400">{data?.pagination.total ?? 0} course(s)</p>
           <Link
@@ -42,7 +42,7 @@ export default function TeacherDashboard() {
               className="flex items-center justify-between rounded-xl border border-neutral-800 bg-neutral-900 p-4 transition hover:border-neutral-600"
             >
               <div>
-                <h3 className="font-medium">{course.title}</h3>
+                <h2 className="font-medium">{course.title}</h2>
                 <p className="mt-1 text-sm text-neutral-400">{course.category.name}</p>
               </div>
               <div className="flex items-center gap-4 text-sm text-neutral-400">

@@ -1,0 +1,12 @@
+{
+  "id": "duplicate-cookie",
+  "enabled": true,
+  "method": "GET",
+  "path": "/session",
+  "cookie": "duplicate",
+  "origin": null,
+  "fetchSite": null,
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 401
+}

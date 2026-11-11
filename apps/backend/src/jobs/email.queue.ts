@@ -1,6 +1,7 @@
 import { Queue } from "bullmq";
 import { bullConnection } from "../config/redis";
 import { env } from "../config/env";
+import { verificationEmailContent, resetPasswordEmailContent } from "./account-email-content";
 
 export interface EmailJobData {
   to: string;
@@ -19,19 +20,15 @@ const emailJobOptions = {
 };
 
 export async function sendVerificationEmail(to: string, token: string) {
-  const link = `${env.CLIENT_URL}/verify-email?token=${encodeURIComponent(token)}`;
   await emailQueue.add("verify-email", {
     to,
-    subject: "Verify your Skilled account",
-    html: `<p>Welcome to SkilledAt.Work.</p><p>Click to verify your email: <a href="${link}">${link}</a></p><p>This link expires in 24 hours.</p><p>SkilledAt.Work</p>`,
+    ...verificationEmailContent(env.CLIENT_URL, token),
   }, emailJobOptions);
 }
 
 export async function sendResetPasswordEmail(to: string, token: string) {
-  const link = `${env.CLIENT_URL}/reset-password?token=${encodeURIComponent(token)}`;
   await emailQueue.add("reset-password", {
     to,
-    subject: "Reset your Skilled password",
-    html: `<p>A password reset was requested for your SkilledAt.Work account.</p><p>Click to reset your password: <a href="${link}">${link}</a></p><p>This link expires in 1 hour. If you did not request the reset, you can ignore this email.</p><p>SkilledAt.Work</p>`,
+    ...resetPasswordEmailContent(env.CLIENT_URL, token),
   }, emailJobOptions);
 }

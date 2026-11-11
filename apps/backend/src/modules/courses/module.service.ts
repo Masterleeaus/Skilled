@@ -3,6 +3,7 @@ import { prisma } from "../../config/prisma";
 import { AppError, NotFoundError } from "../../utils/AppError";
 import { assertCourseOwnership } from "./course.service";
 import type { CreateModuleInput } from "./module.validators";
+import { removeVideoObjects } from "./video-upload.service";
 
 export async function createModule(
   courseId: string,
@@ -100,5 +101,14 @@ export async function deleteModule(moduleId: string, userId: string, role: Role)
   if (!module) throw new NotFoundError("Module");
 
   await assertCourseOwnership(module.courseId, userId, role);
-  await prisma.module.delete({ where: { id: moduleId } }); // hard delete — no soft-delete on Module per schema
+  // Lesson rows are removed by the cascade. Their video and caption keys are read under a row lock in the same transaction
+  // as the delete, so a concurrent video replacement cannot be missed.
+  const videoKeys = await prisma.$transaction(async (tx) => {
+    const lessons = await tx.$queryRaw<Array<{ videoUrl: string | null; captionTrackKey: string | null }>>`
+      SELECT "videoUrl", "captionTrackKey" FROM "lessons" WHERE "moduleId" = ${moduleId} FOR UPDATE`;
+    await tx.module.delete({ where: { id: moduleId } }); // hard delete — no soft-delete on Module per schema
+    return lessons.flatMap((lesson) => [lesson.videoUrl, lesson.captionTrackKey]);
+  });
+  // The rows are gone. Only now are the objects removed, so a rolled-back delete keeps every video.
+  await removeVideoObjects(videoKeys);
 }

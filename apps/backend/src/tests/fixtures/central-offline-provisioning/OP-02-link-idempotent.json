@@ -1,0 +1,8 @@
+{
+  "name": "02-link-idempotent",
+  "action": "link-identity",
+  "existing": "same",
+  "expected": "Identity already linked to requested user",
+  "audit": "PROVISION_IDENTITY_CONFIRMED",
+  "count": 1
+}

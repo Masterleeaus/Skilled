@@ -7,12 +7,13 @@ import { BUSINESS_LESSON_FIELDS, isBusinessLessonFieldKey, resolveApprovedBusine
 import { z } from "zod";
 import { prisma } from "../../config/prisma";
 import { authenticate } from "../../middleware/authenticate";
-import { requirePermission } from "../../middleware/permission";
+import { requirePermission, requireRole } from "../../middleware/permission";
 import { sendSuccess } from "../../utils/response";
 import { AppError, ForbiddenError, NotFoundError } from "../../utils/AppError";
 import lessonReviewRoutes from "./lesson-review.routes";
 import superadminLessonRoutes from "./superadmin-lesson.routes";
 import { contentHashOf, createDraftRevision } from "./lesson-review.service";
+import { previewLatestRevision } from "./lesson-preview.service";
 import { assertCompetencyAwardable } from "./assessment-evidence";
 import { buildCourseLessonProgress } from "./completion-report.service";
 import { assertEnrolled } from "../enrollment/enrollment.service";
@@ -170,6 +171,16 @@ router.get("/courses/:courseId/lessons/:lessonId/body", authenticate, run(async 
   res.setHeader("Cache-Control", "private, no-store");
   sendSuccess(res, publicLessonBody(placement.revision.body));
 }));
+
+// Admin-only preview of a lesson's latest revision, draft or unapproved, under the admin login. The path takes the lesson's
+// sourceId, as the other lesson routes do. The response is the learner view (answer material stripped) with
+// preview: true and the review status. It approves, publishes and changes nothing; learners cannot reach it.
+router.get("/preview/lessons/:lessonId", authenticate, requireRole("ADMIN"), run(async (req, res) => {
+  const actorId = req.user!.userId;
+  const preview = await previewLatestRevision(param(req, "lessonId"), actorId);
+  res.setHeader("Cache-Control", "private, no-store");
+  sendSuccess(res, { ...preview, body: publicLessonBody(preview.body) });
+}));
 // Learner progress through the shared lessons of one course. Enrolment rules match enrollment.service.
 router.get("/courses/:courseId/progress/me", authenticate, run(async (req, res) => {
   const learnerId = req.user?.userId;
@@ -231,6 +242,16 @@ export function knowledgeChecksAgree(fileBody: unknown, revisionBody: unknown): 
 }
 
 // Knowledge-check keys must never be delivered to the learner through course outlines.
+/**
+ * Snapshot hash over the resolved business fields and the rendered body. Postgres jsonb does not keep object key
+ * order, so the fields are hashed in sorted key order: the hash taken at presentation must match the one
+ * recomputed from the stored (jsonb) fields on read. Body key order is already fixed by the revision's jsonb.
+ */
+export function snapshotContentHash(revisionId: string, fields: Record<string, unknown>, body: unknown): string {
+  const sortedFields = Object.fromEntries(Object.keys(fields).sort().map(key => [key, fields[key]]));
+  return createHash("sha256").update(JSON.stringify({ revisionId, fields: sortedFields, body })).digest("hex");
+}
+
 export function publicLessonBody(body: unknown): unknown {
   // Recursively strip assessment keys, including nested sections and legacy formats.
   // Only server-side grading is permitted to access answer material.
@@ -527,7 +548,7 @@ router.post("/companies/:companyId/lessons/:revisionId/context", authenticate, r
     return value;
   };
   const body = render(publicBody);
-  const contentHash = createHash("sha256").update(JSON.stringify({ revisionId: revision.id, fields, body })).digest("hex");
+  const contentHash = snapshotContentHash(revision.id, fields, body);
   const snapshot = await prisma.academyLessonContextSnapshot.create({ data: { companyId, learnerId, lessonRevisionId: revision.id, resolvedFields: JSON.parse(JSON.stringify(fields)), contentHash } });
   sendSuccess(res, { lessonRevisionId: revision.id, body, contextSnapshotId: snapshot.id, contentHash });
 }));
@@ -593,7 +614,7 @@ router.get("/companies/:companyId/lesson-context-snapshots/:snapshotId", authent
     return value;
   };
   const body = render(publicLessonBody(revision.body));
-  const contentHash = createHash("sha256").update(JSON.stringify({ revisionId: revision.id, fields, body })).digest("hex");
+  const contentHash = snapshotContentHash(revision.id, fields as Record<string, unknown>, body);
   if (contentHash !== snapshot.contentHash) throw new ForbiddenError("Lesson snapshot integrity verification failed");
   sendSuccess(res, { contextSnapshotId: snapshot.id, companyId, lessonRevisionId: revision.id, presentedAt: snapshot.createdAt, contentHash, body });
 }));

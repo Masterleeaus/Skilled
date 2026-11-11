@@ -80,7 +80,7 @@ res=await run('HEAD','bytes=0-3');check(res.statusCode===206&&res.body===''&&res
 res=await run('GET','bytes=50-55');check(res.statusCode===416&&res.headers['content-range']==='bytes */16','Unsatisfiable range returns 416');
 await assert.rejects(()=>run('GET','bytes=0-1').then(()=>streamPrivateVideo({method:'GET',headers:{}},new MockResponse(),'certificates/private.pdf')),e=>e.status===404);checks++;
 const route=readFileSync(resolve(root,'apps/backend/src/modules/courses/module.routes.ts'),'utf8');
-check(route.includes('await authorizedVideoForUser(req.params.lessonId, userId)'), 'Every stream validates database access');
+check(route.includes('await authorizedLessonMedia(req.params.lessonId, userId, "videoUrl")'), 'Every stream validates database access');
 check(route.includes('httpOnly: true'), 'Grant stored HttpOnly');
 check(route.includes('sameSite: "strict"'), 'Cookie same-site strict');
 check(route.includes('maxAge: 60 * 60 * 1000'), 'Cookie expiry matches grant expiry');

@@ -1,0 +1,46 @@
+name: skilled-accessibility-route-verification
+on:
+  pull_request:
+    paths:
+      - 'apps/frontend/src/**'
+      - 'apps/frontend/scripts/test-skip-navigation-contract.mjs'
+      - '.github/workflows/skilled-accessibility-route-verification.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/frontend/src/**'
+      - 'apps/frontend/scripts/test-skip-navigation-contract.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node apps/frontend/scripts/test-skip-navigation-contract.mjs
+  frontend-verification:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - name: Install frozen lockfile
+        working-directory: .
+        run: pnpm install --frozen-lockfile
+      - name: Check frontend lint and build
+        working-directory: apps/frontend
+        run: |
+          pnpm lint
+          pnpm build

@@ -1,0 +1,35 @@
+name: skilled-assessment-negative-fixtures
+on:
+  pull_request:
+    paths:
+      - 'tests/fixtures/assessment-publication/**'
+      - 'scripts/test-assessment-publication-negative-fixtures.mjs'
+      - 'scripts/validate-assessment-publication.mjs'
+      - 'scripts/ci-curriculum-audit.mjs'
+      - '.github/workflows/skilled-assessment-negative-fixtures.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'tests/fixtures/assessment-publication/**'
+      - 'scripts/test-assessment-publication-negative-fixtures.mjs'
+      - 'scripts/validate-assessment-publication.mjs'
+      - 'scripts/ci-curriculum-audit.mjs'
+      - '.github/workflows/skilled-assessment-negative-fixtures.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  fail-closed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate 20 malformed assessment cases are rejected
+        working-directory: .
+        run: node scripts/test-assessment-publication-negative-fixtures.mjs
+      - name: Confirm default curriculum validator is unchanged
+        working-directory: .
+        run: node scripts/test-assessment-publication.mjs

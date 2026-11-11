@@ -1,36 +1,41 @@
-/** Idempotent, non-destructive Skilled curriculum brief import. */
+/**
+ * Idempotent, revision-safe Titan Academy curriculum brief import (ACA-009).
+ *
+ * Usage (from apps/backend):
+ *   pnpm curriculum:import                       # reads prisma/curriculum/titan-three-layer-lessons.json
+ *   tsx prisma/import-titan-curriculum.ts --source <path>   # reads another copy of the same inventory format
+ *
+ * Policy and identity rules: docs/CURRICULUM-IMPORT-IDENTITY-AND-CONFLICT-POLICY.md (repo lms-main/docs).
+ * The logic lives in curriculum-brief-import.ts so that tests can run it without a file or a database.
+ */
 import { PrismaClient } from '@prisma/client';
-import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { applyBriefImport, validateBriefInventory } from './curriculum-brief-import';
 
-const prisma = new PrismaClient();
-const source = resolve(dirname(fileURLToPath(import.meta.url)), 'curriculum/titan-three-layer-lessons.json');
-type Brief = { id:string; layer:string; service_group:string; unit:string; title:string; objective:string; assessment:string; status:string };
-const payload = JSON.parse(readFileSync(source, 'utf8')) as { version:string; lessons:Brief[] };
+const defaultSource = resolve(dirname(fileURLToPath(import.meta.url)), 'curriculum/titan-three-layer-lessons.json');
+
+function sourcePath(argv: string[]): string {
+  const index = argv.indexOf('--source');
+  if (index === -1) return defaultSource;
+  const value = argv[index + 1];
+  if (!value || value.startsWith('--')) throw new Error('--source needs a file path');
+  return resolve(value);
+}
 
 async function main() {
-  if (!Array.isArray(payload.lessons) || payload.lessons.length === 0) throw new Error('No lessons in inventory');
-  const seen = new Set<string>();
-  let created=0, updated=0, unchanged=0, protectedCount=0;
-  for (const row of payload.lessons) {
-    if (!row.id || !row.title || !row.layer || !row.unit || !row.objective) throw new Error(`Invalid brief ${row.id}`);
-    if (seen.has(row.id)) throw new Error(`Duplicate source ID ${row.id}`);
-    seen.add(row.id);
-    const content = {layer:row.layer, serviceGroup:row.service_group, unit:row.unit, title:row.title, objective:row.objective, assessment:row.assessment};
-    const sourceHash = createHash('sha256').update(JSON.stringify(content)).digest('hex');
-    const current = await prisma.academyContentLesson.findUnique({where:{sourceId:row.id}});
-    if (!current) {
-      await prisma.academyContentLesson.create({data:{sourceId:row.id, ...content, sourceVersion:payload.version, sourceHash, contentStatus:'BRIEF'}});
-      created++;
-    } else if (current.sourceHash === sourceHash) unchanged++;
-    else if (current.contentStatus !== 'BRIEF') protectedCount++;
-    else {
-      await prisma.academyContentLesson.update({where:{sourceId:row.id},data:{...content, sourceVersion:payload.version, sourceHash}});
-      updated++;
-    }
+  const inventory = validateBriefInventory(JSON.parse(readFileSync(sourcePath(process.argv.slice(2)), 'utf8')));
+  const prisma = new PrismaClient();
+  try {
+    const stats = await applyBriefImport(prisma, inventory);
+    console.log(JSON.stringify({ sourceVersion: inventory.version, ...stats }));
+  } finally {
+    await prisma.$disconnect();
   }
-  console.log(JSON.stringify({total:seen.size,created,updated,unchanged,protected:protectedCount}));
 }
-main().catch(error=>{console.error(error);process.exitCode=1}).finally(async()=>prisma.$disconnect());
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

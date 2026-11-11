@@ -106,6 +106,7 @@ model User {
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
 
+  centralSessions               SkilledCentralSession[]
   refreshTokens                 RefreshToken[]
   coursesTaught                 Course[]                       @relation("TeacherCourses")
   enrollments                   Enrollment[]
@@ -133,6 +134,28 @@ model User {
 
   @@index([email])
   @@map("users")
+}
+
+/** Revocable, opaque, locally issued Central-derived session. No Logto token is stored. */
+model SkilledCentralSession {
+  id                    String   @id @default(cuid())
+  tokenHash             String   @unique
+  userId                String
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  companyId             String
+  company               Company  @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  centralOrganisationId String
+  localAccountId        String
+  expiresAt             DateTime
+  revokedAt             DateTime?
+  createdAt             DateTime @default(now())
+  lastUsedAt            DateTime?
+
+  @@index([userId, revokedAt])
+  @@index([companyId, revokedAt])
+  @@index([centralOrganisationId, revokedAt])
+  @@index([expiresAt])
+  @@map("skilled_central_sessions")
 }
 
 model RefreshToken {
@@ -222,14 +245,16 @@ model Module {
 }
 
 model Lesson {
-  id            String  @id @default(cuid())
-  moduleId      String
-  module        Module  @relation(fields: [moduleId], references: [id], onDelete: Cascade)
-  title         String
-  videoUrl      String?
-  duration      Int?
-  isFreePreview Boolean @default(false)
-  orderIndex    Int
+  id              String  @id @default(cuid())
+  moduleId        String
+  module          Module  @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  title           String
+  videoUrl        String?
+  // Private MinIO key of a WebVTT caption file, under the same managed prefix as videoUrl. Null when there are no captions.
+  captionTrackKey String?
+  duration        Int?
+  isFreePreview   Boolean @default(false)
+  orderIndex      Int
 
   lessonProgress    LessonProgress[]
   discussionThreads DiscussionThread[]
@@ -238,6 +263,20 @@ model Lesson {
 
   @@index([moduleId])
   @@map("lessons")
+}
+
+// Durable queue of lesson video objects that still need to be removed from object storage.
+// A row is written when an immediate removal fails, and is cleared (completedAt set) once the object is gone.
+model VideoObjectCleanup {
+  id          String    @id @default(cuid())
+  objectKey   String    @unique
+  attempts    Int       @default(0)
+  lastError   String?
+  createdAt   DateTime  @default(now())
+  completedAt DateTime?
+
+  @@index([completedAt, createdAt])
+  @@map("video_object_cleanup")
 }
 
 // ==========================================================
@@ -463,7 +502,13 @@ model Certificate {
   studentId         String
   student           User     @relation(fields: [studentId], references: [id])
   courseId          String
+  // Human-readable reference printed on the PDF. Low entropy (32 bits): never a verification key for new rows.
   certificateNumber String   @unique
+  // 128-bit random, base64url (22 chars). Set on every certificate issued after the verification-token migration.
+  // NULL marks a legacy certificate, which is still verifiable by certificateNumber. See docs/certificate-verification.md.
+  verificationToken String?  @unique
+  // Opt-in: when true, the public verify response includes the learner's full name. Default false.
+  showNameOnVerify  Boolean  @default(false)
   pdfUrl            String
   issuedAt          DateTime @default(now())
 
@@ -807,6 +852,8 @@ model Company {
   name                   String
   externalRef            String?                        @unique
   createdAt              DateTime                       @default(now())
+  centralSessions         SkilledCentralSession[]
+  centralCompanyLinks     CentralCompanyLink[]
   memberships            CompanyMember[]
   practicalEvidence      AcademyPracticalEvidence[]
   assignments            AcademyTrainingAssignment[]
@@ -820,6 +867,42 @@ model Company {
   chatbotMessages        AcademyChatbotMessage[]
 
   @@map("academy_companies")
+}
+
+
+/**
+ * Skilled's local, operator-controlled account endpoint binding.
+ * Central remains the authority for subjects, membership, entitlement and link revisions.
+ * This is NOT a second Central identity registry; it only proves which Skilled
+ * company/account corresponds to a Central organisation for local membership checks.
+ */
+model CentralCompanyLink {
+  id                    String   @id @default(cuid())
+  centralOrganisationId String   @unique
+  localAccountId        String   @unique
+  companyId             String   @unique
+  company               Company  @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  state                 String   @default("verified")
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  @@index([state])
+  @@map("skilled_central_company_links")
+}
+
+// Append-only operator audit of local account binding decisions.
+model CentralCompanyLinkAudit {
+  id                    String   @id @default(cuid())
+  centralOrganisationId String
+  localAccountId        String
+  companyId             String
+  actorRef              String
+  outcome               String
+  createdAt             DateTime @default(now())
+
+  @@index([centralOrganisationId, createdAt])
+  @@index([companyId, createdAt])
+  @@map("skilled_central_company_link_audits")
 }
 
 model CompanyMember {
@@ -1210,4 +1293,18 @@ model AcademyChatbotMessage {
   @@index([companyId, conversationId, createdAt], map: "chatbot_messages_company_conversation_idx")
   @@index([companyId, conversationId, role, readAt], map: "chatbot_messages_unread_idx")
   @@map("academy_chatbot_messages")
+}
+
+/** One-use, application-scoped OIDC state; PKCE + nonce are sealed with AES-256-GCM. */
+model SkilledOidcLoginState {
+  stateHash       String   @id
+  applicationId   String
+  bindingHash     String
+  sealedVerifier  String
+  sealedNonce     String
+  expiresAt       DateTime
+  createdAt       DateTime @default(now())
+
+  @@index([expiresAt])
+  @@map("skilled_oidc_login_states")
 }

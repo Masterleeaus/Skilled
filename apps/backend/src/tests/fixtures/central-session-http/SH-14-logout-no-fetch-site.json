@@ -1,0 +1,12 @@
+{
+  "id": "logout-no-fetch-site",
+  "enabled": true,
+  "method": "POST",
+  "path": "/logout",
+  "cookie": "good",
+  "origin": "https://skilled.example.test",
+  "fetchSite": null,
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 403
+}

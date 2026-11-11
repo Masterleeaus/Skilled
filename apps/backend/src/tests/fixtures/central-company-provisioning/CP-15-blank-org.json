@@ -1,0 +1,18 @@
+{
+  "name": "blank-org",
+  "initial": [],
+  "commands": [
+    {
+      "action": "link",
+      "centralOrganisationId": "",
+      "localAccountId": "skilled-acct-0001",
+      "companyId": "skilled-company-0001",
+      "actorRef": "operator-01"
+    }
+  ],
+  "expected": [
+    "INVALID_COMMAND"
+  ],
+  "state": null,
+  "audits": 0
+}

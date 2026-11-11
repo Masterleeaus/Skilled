@@ -1,0 +1,58 @@
+name: skilled-central-oidc-unmounted-protocol
+on:
+  pull_request:
+    paths:
+      - 'apps/backend/src/config/central-sso.ts'
+      - 'apps/backend/src/modules/auth/central/**'
+      - 'apps/backend/src/tests/central-sso-oidc.test.ts'
+      - 'apps/backend/src/tests/central-oidc-*.test.ts'
+      - 'apps/backend/src/tests/support/central-sso-fixtures.ts'
+      - 'apps/backend/tsconfig.central-oidc.json'
+      - '.github/workflows/skilled-central-oidc-unmounted-protocol.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/backend/src/config/central-sso.ts'
+      - 'apps/backend/src/modules/auth/central/**'
+      - 'apps/backend/src/tests/central-sso-oidc.test.ts'
+      - 'apps/backend/src/tests/central-oidc-*.test.ts'
+      - 'apps/backend/src/tests/support/central-sso-fixtures.ts'
+      - 'apps/backend/tsconfig.central-oidc.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  protocol:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NODE_ENV: test
+      CLIENT_URL: http://localhost:3000
+      DATABASE_URL: postgresql://testing:testing@localhost:5432/lms_test
+      REDIS_URL: redis://localhost:6379/0
+      JWT_ACCESS_SECRET: ci-test-access-secret-only-not-real
+      JWT_REFRESH_SECRET: ci-test-refresh-secret-only-not-real
+      MINIO_ACCESS_KEY: test-minio
+      MINIO_SECRET_KEY: ci-test-minio-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - name: Install from frozen lockfile
+        working-directory: .
+        run: pnpm install --frozen-lockfile
+      - name: Verify signed ID token, S256 PKCE and state replay protocols
+        working-directory: apps/backend
+        run: pnpm exec vitest run src/tests/central-sso-oidc.test.ts src/tests/central-oidc-*.test.ts
+      - name: Typecheck production backend and isolated protocol
+        working-directory: apps/backend
+        run: |
+          pnpm exec prisma generate
+          pnpm exec tsc --noEmit
+          pnpm exec tsc --project tsconfig.central-oidc.json

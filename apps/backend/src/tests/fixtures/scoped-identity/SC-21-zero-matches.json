@@ -1,0 +1,10 @@
+{
+  "case": "zero-matches",
+  "query": {
+    "service": "field-services",
+    "companyId": "company-a",
+    "externalUserRef": "worker-1"
+  },
+  "rows": [],
+  "expectedUserId": null
+}

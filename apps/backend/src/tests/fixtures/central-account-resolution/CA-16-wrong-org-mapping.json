@@ -1,0 +1,9 @@
+{
+  "name": "wrong-org-mapping",
+  "changes": {
+    "mapping": {
+      "centralOrganisationId": "other-org"
+    }
+  },
+  "expectedAllowed": false
+}

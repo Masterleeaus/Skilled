@@ -1,0 +1,12 @@
+{
+  "caseId": "FX-02",
+  "description": "Missing learningOutcomes field",
+  "overrides": {},
+  "remove": [
+    "learningOutcomes"
+  ],
+  "expectedBlockers": [
+    "no explicit learning outcomes"
+  ],
+  "expectedPriority": "P1"
+}

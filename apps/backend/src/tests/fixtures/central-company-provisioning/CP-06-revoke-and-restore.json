@@ -1,0 +1,33 @@
+{
+  "name": "revoke-and-restore",
+  "initial": [
+    {
+      "centralOrganisationId": "central-org-0001",
+      "localAccountId": "skilled-acct-0001",
+      "companyId": "skilled-company-0001",
+      "state": "verified"
+    }
+  ],
+  "commands": [
+    {
+      "action": "revoke",
+      "centralOrganisationId": "central-org-0001",
+      "localAccountId": "skilled-acct-0001",
+      "companyId": "skilled-company-0001",
+      "actorRef": "operator-01"
+    },
+    {
+      "action": "link",
+      "centralOrganisationId": "central-org-0001",
+      "localAccountId": "skilled-acct-0001",
+      "companyId": "skilled-company-0001",
+      "actorRef": "operator-01"
+    }
+  ],
+  "expected": [
+    "LINK_REVOKED",
+    "LINK_REVERIFIED"
+  ],
+  "state": "verified",
+  "audits": 2
+}

@@ -1,5 +1,6 @@
-# Curriculum quality gate for Skilled.
-# The application workspace lives at the repository root. Runs `pnpm curriculum:ci` (scripts/ci-curriculum-audit.mjs
+# Curriculum quality gate for SkilledAt.Work.
+# The Git repository root is the parent of , so this workflow lives here and
+# sets working-directory to the repository root. Runs `pnpm curriculum:ci` (scripts/ci-curriculum-audit.mjs
 # with --fail-on-blocked). It does not approve or change any curriculum content.
 name: curriculum-ci
 
@@ -7,17 +8,42 @@ on:
   pull_request:
     paths:
       - "curriculum/**"
-      - "scripts/**"
+      - "scripts/*curriculum*.mjs"
+      - "scripts/*assessment*.mjs"
+      - "scripts/*lesson-normalization*.mjs"
+      - "scripts/reconcile-lesson-formats.mjs"
+      - "apps/backend/src/modules/curriculum/**"
+      - "apps/backend/src/modules/courses/**"
+      - "apps/backend/src/modules/quizzes/**"
+      - "apps/backend/src/tests/academy-*.test.ts"
+      - "apps/backend/prisma/**"
       - "package.json"
+      - ".github/workflows/skilled-assessment-negative-fixtures.yml"
+      - "tests/fixtures/assessment-malformed/**"
+      - "tests/fixtures/assessment-publication/**"
       - ".github/workflows/curriculum-ci.yml"
+      - ".github/workflows/curriculum-ci-trigger-contract.yml"
   push:
     branches:
       - main
+      - Main
     paths:
       - "curriculum/**"
-      - "scripts/**"
+      - "scripts/*curriculum*.mjs"
+      - "scripts/*assessment*.mjs"
+      - "scripts/*lesson-normalization*.mjs"
+      - "scripts/reconcile-lesson-formats.mjs"
+      - "apps/backend/src/modules/curriculum/**"
+      - "apps/backend/src/modules/courses/**"
+      - "apps/backend/src/modules/quizzes/**"
+      - "apps/backend/src/tests/academy-*.test.ts"
+      - "apps/backend/prisma/**"
       - "package.json"
+      - ".github/workflows/skilled-assessment-negative-fixtures.yml"
+      - "tests/fixtures/assessment-malformed/**"
+      - "tests/fixtures/assessment-publication/**"
       - ".github/workflows/curriculum-ci.yml"
+      - ".github/workflows/curriculum-ci-trigger-contract.yml"
   workflow_dispatch:
 
 permissions:
@@ -53,6 +79,12 @@ jobs:
 
       - name: Install dependencies (frozen lockfile)
         run: pnpm install --frozen-lockfile
+
+      - name: Verify all publishing-sensitive changes trigger CI
+        run: node --test scripts/test-curriculum-ci-trigger-contract.mjs
+
+      - name: Verify all malformed assessment fixtures fail closed
+        run: node scripts/test-assessment-publication-negative-fixtures.mjs
 
       - name: Run curriculum CI gate
         run: pnpm curriculum:ci

@@ -5,14 +5,15 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useAuthStore } from "@/store/auth.store";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { SkilledWordmark } from "@/components/SkilledWordmark";
 
 const features = [
-  { icon: "📚", title: "Learn practical skills", text: "Clear lessons and course pathways built around real work." },
-  { icon: "✓", title: "Show what you know", text: "Knowledge checks help learners and trainers see progress." },
-  { icon: "✦", title: "Build verified capability", text: "Submit practical evidence for review by an assessor." },
+  { icon: "🎓", title: "Curriculum lessons", text: "Lessons are versioned. Only published revisions reach learners, and drafts stay in review until a person approves them." },
+  { icon: "📝", title: "Knowledge checks", text: "Questions are graded on the server with an 80% pass mark. Answer keys are never sent to learners." },
+  { icon: "🛠️", title: "Practical evidence", text: "Learners submit evidence and an assessor in the organisation approves or rejects it. Approval creates a competency that can expire. Acknowledging a lesson never creates one." },
+  { icon: "🏢", title: "Organisation training", text: "Managers assign courses to members of their organisation and follow their progress." },
+  { icon: "🧭", title: "Business-specific context", text: "Managers set field values for their business. Only approved values appear in lessons, saved as immutable snapshots with integrity checks." },
+  { icon: "📊", title: "Completion reports", text: "Completion reports for a learner or an organisation, based on recorded lesson, check and competency evidence." },
 ];
-
 export default function HomePage() {
   const router = useRouter();
   const { user } = useAuthStore();
@@ -27,69 +28,69 @@ export default function HomePage() {
   if (user) return null;
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
-      <header className="flex items-center justify-between border-b border-slate-800 px-5 py-4 sm:px-8">
-        <SkilledWordmark />
-        <nav aria-label="Main navigation" className="flex items-center gap-4 text-sm">
+    <div className="min-h-screen">
+      <header className="flex items-center justify-between border-b border-neutral-800 px-6 py-4">
+        <span className="text-lg font-semibold">SkilledAt.Work</span>
+        <nav className="flex items-center gap-4 text-sm">
           <ThemeToggle />
-          <Link href="/courses" className="hidden text-slate-300 hover:text-white sm:block">
-            Explore courses
+          <Link href="/courses" className="text-neutral-400 hover:text-neutral-200">
+            Browse Courses
           </Link>
-          <Link href="/login" className="text-slate-300 hover:text-white">
+          <Link href="/login" className="text-neutral-400 hover:text-neutral-200">
             Log in
           </Link>
           <Link
             href="/register"
-            className="rounded-lg bg-emerald-400 px-4 py-2 font-semibold text-slate-950 transition hover:bg-emerald-300"
+            className="rounded-lg bg-white px-4 py-1.5 font-medium text-neutral-900 hover:bg-neutral-200"
           >
             Get started
           </Link>
         </nav>
       </header>
 
-      <main>
-        <section className="mx-auto max-w-5xl px-6 py-24 text-center sm:py-32">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">SkilledAt.Work</p>
-          <h1 className="mx-auto mt-5 max-w-3xl text-4xl font-semibold tracking-tight sm:text-6xl">
-            Practical learning for the work you do.
-          </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-            Build job-ready knowledge, follow a clear learning path, and show your skills through evidence-backed progress.
-          </p>
-          <div className="mt-9 flex flex-wrap justify-center gap-3">
-            <Link
-              href="/courses"
-              className="rounded-lg bg-emerald-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-emerald-300"
-            >
-              Explore courses
-            </Link>
-            <Link
-              href="/register"
-              className="rounded-lg border border-slate-700 px-6 py-3 text-sm font-medium text-slate-100 transition hover:bg-slate-900"
-            >
-              Create an account
-            </Link>
-          </div>
-        </section>
+      <section className="mx-auto max-w-3xl px-6 py-24 text-center">
+        <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
+          Practical training for field and home-service teams
+        </h1>
+        <p className="mx-auto mt-4 max-w-xl text-neutral-400">
+          Skilled brings together curriculum lessons, knowledge checks, practical evidence reviewed by
+          an assessor, and business-specific context. Managers assign training to their organisation.
+        </p>
+        <div className="mt-8 flex justify-center gap-3">
+          <Link
+            href="/register"
+            className="rounded-lg bg-white px-6 py-2.5 text-sm font-medium text-neutral-900 hover:bg-neutral-200"
+          >
+            Create account
+          </Link>
+          <Link
+            href="/courses"
+            className="rounded-lg border border-neutral-700 px-6 py-2.5 text-sm hover:bg-neutral-900"
+          >
+            Browse courses
+          </Link>
+        </div>
+      </section>
 
-        <section aria-label="How Skilled helps" className="mx-auto grid max-w-5xl gap-4 px-6 pb-24 sm:grid-cols-3">
-          {features.map((feature) => (
-            <article key={feature.title} className="rounded-2xl border border-slate-800 bg-slate-900/70 p-6">
-              <span aria-hidden="true" className="grid h-10 w-10 place-items-center rounded-xl bg-slate-800 text-lg text-emerald-300">
-                {feature.icon}
-              </span>
-              <h2 className="mt-5 font-semibold">{feature.title}</h2>
-              <p className="mt-2 text-sm leading-6 text-slate-400">{feature.text}</p>
-            </article>
+      <section className="mx-auto max-w-5xl px-6 pb-24">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {features.map((f) => (
+            <div key={f.title} className="rounded-xl border border-neutral-800 bg-neutral-900 p-5">
+              <div className="text-2xl">{f.icon}</div>
+              <h3 className="mt-3 font-medium">{f.title}</h3>
+              <p className="mt-1 text-sm text-neutral-400">{f.text}</p>
+            </div>
           ))}
-        </section>
-      </main>
+        </div>
+      </section>
 
-      <footer className="flex flex-col items-center justify-between gap-3 border-t border-slate-800 px-6 py-6 text-xs text-slate-500 sm:flex-row sm:px-8">
-        <span>SkilledAt.Work · Practical skills for work</span>
-        <Link href="/credits" className="underline decoration-slate-700 underline-offset-4 hover:text-slate-300">
-          Credits and disclosures
-        </Link>
+      <footer className="border-t border-neutral-800 px-6 py-8 text-center text-xs text-neutral-500">
+        <p>Built with Next.js, Express, PostgreSQL, and Redis.</p>
+        <p className="mt-2">
+          <Link href="/credits" className="underline hover:text-neutral-300">
+            Credits and disclosures
+          </Link>
+        </p>
       </footer>
     </div>
   );

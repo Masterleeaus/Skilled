@@ -2,14 +2,23 @@
 import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
 import { z } from "zod";
+import { externalCentralRef } from "../src/modules/auth/central-lms-contract";
 
 const schema = z.discriminatedUnion("action", [
-  z.object({ action: z.literal("link-identity"), service: z.enum(["field-services", "ai-workforce"]), externalUserRef: z.string().min(1).max(200), userId: z.string().min(1), companyRef: z.string().min(1).max(200) }).strict(),
-  z.object({ action: z.literal("unlink-identity"), service: z.enum(["field-services", "ai-workforce"]), externalUserRef: z.string().min(1).max(200), userId: z.string().min(1), companyRef: z.string().min(1).max(200) }).strict(),
+  z.object({ action: z.literal("link-identity"), service: z.enum(["field-services", "ai-workforce", "titan-central"]), externalUserRef: z.string().min(1).max(200), userId: z.string().min(1), companyRef: z.string().min(1).max(200) }).strict(),
+  z.object({ action: z.literal("unlink-identity"), service: z.enum(["field-services", "ai-workforce", "titan-central"]), externalUserRef: z.string().min(1).max(200), userId: z.string().min(1), companyRef: z.string().min(1).max(200) }).strict(),
 ]);
 
 export async function provision(raw: unknown, db: PrismaClient): Promise<string> {
   const input = schema.parse(raw);
+  if (input.service === "titan-central") {
+    const separator = input.externalUserRef.indexOf("|");
+    const issuer = separator >= 0 ? input.externalUserRef.slice(0, separator) : "";
+    const subject = separator >= 0 ? input.externalUserRef.slice(separator + 1) : "";
+    if (externalCentralRef(issuer, subject) !== input.externalUserRef) {
+      throw new Error("Central identity must use a canonical HTTPS issuer|subject reference");
+    }
+  }
   return db.$transaction(async (tx) => {
     if (input.action === "link-identity") {
       const company = await tx.company.findUnique({ where: { externalRef: input.companyRef }, select: { id: true } });
@@ -19,6 +28,10 @@ export async function provision(raw: unknown, db: PrismaClient): Promise<string>
       const existing = await tx.academyExternalIdentity.findUnique({ where: { service_externalUserRef: { service: input.service, externalUserRef: input.externalUserRef } } });
       if (existing && (existing.userId !== input.userId || (existing.companyId && existing.companyId !== company.id))) throw new Error("External identity linked to another user or organisation; manual reconciliation required");
       // A legacy unscoped row (companyId NULL) for this same learner is bound to the company. This is a write, so it is audited as such.
+      // Central never inherits a legacy unscoped identity; ownership requires separate reconciliation.
+      if (input.service === "titan-central" && existing && !existing.companyId) {
+        throw new Error("Central identity has no scoped company; manual reconciliation required");
+      }
       const scoped = Boolean(existing && !existing.companyId);
       if (!existing) await tx.academyExternalIdentity.create({ data: { service: input.service, externalUserRef: input.externalUserRef, userId: input.userId, companyId: company.id } });
       else if (scoped) await tx.academyExternalIdentity.update({ where: { id: existing.id }, data: { companyId: company.id } });
@@ -31,7 +44,21 @@ export async function provision(raw: unknown, db: PrismaClient): Promise<string>
     const existing = await tx.academyExternalIdentity.findUnique({ where: { service_externalUserRef: { service: input.service, externalUserRef: input.externalUserRef } } });
     // Legacy unscoped rows (companyId NULL) can be removed by the same learner so operators can clear them.
     if (!existing || existing.userId !== input.userId || (existing.companyId && existing.companyId !== company.id)) throw new Error("Identity not linked to specified user and organisation");
+    if (input.service === "titan-central" && !existing.companyId) {
+      throw new Error("Unscoped Central identity cannot be revoked without manual ownership review");
+    }
     await tx.academyExternalIdentity.delete({ where: { id: existing.id } });
+    if (input.service === "titan-central") {
+      // Revoke only Central-derived credentials for this exact learner/company; preserve password sessions.
+      await tx.refreshToken.updateMany({
+        where: { userId: input.userId, deviceInfo: "titan-central-sso:" + company.id, isRevoked: false },
+        data: { isRevoked: true }
+      });
+      await tx.skilledCentralSession.updateMany({
+        where: { userId: input.userId, companyId: company.id, revokedAt: null },
+        data: { revokedAt: new Date() }
+      });
+    }
     await tx.academyIntegrationAudit.create({ data: { service: input.service, companyRef: input.companyRef, externalUserRef: input.externalUserRef, outcome: "PROVISION_IDENTITY_REVOKED" } });
     return "Identity revoked";
   });

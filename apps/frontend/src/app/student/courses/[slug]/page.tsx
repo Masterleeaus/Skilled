@@ -9,7 +9,7 @@ import {
   fetchCourseBySlug,
   fetchCourseProgress,
   markLessonProgress,
-  fetchLessonVideoUrl,
+  fetchLessonMedia,
   type Lesson,
 } from "@/lib/course-detail.api";
 import { fetchQuizzesForCourse } from "@/lib/quiz.api";
@@ -18,8 +18,9 @@ import { Topbar } from "@/components/Topbar";
 import { SharedCurriculumPlayer } from "@/components/SharedCurriculumPlayer";
 import { BrandImage } from "@/components/BrandImage";
 import { LicenceTrackChooser } from "@/components/LicenceTrackChooser";
+import { outlineHasLessons } from "@/components/TrackOutline";
 import { useLicenceTrack } from "@/hooks/useLicenceTrack";
-import { fetchAcademyCourseProgress, fetchLicenceTrackSummary, type LicenceTrack } from "@/lib/curriculum.api";
+import { fetchAcademyCourseProgress, fetchCurriculumOutline, fetchLicenceTrackSummary, type LicenceTrack } from "@/lib/curriculum.api";
 import { fetchMyEnrollments, setEnrolmentLicenceTrack } from "@/lib/enrollment.api";
 import { getBrand } from "@/lib/academy-brand";
 
@@ -29,6 +30,7 @@ export default function CoursePlayerPage() {
   const queryClient = useQueryClient();
   const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
+  const [captionsUrl, setCaptionsUrl] = useState<string | null>(null);
   const latestLessonRequest = useRef(0);
   // The licence track requested by the URL (?track=). The server ignores it for an enrolled learner, so the saved track below governs.
   const [track, setTrack] = useLicenceTrack();
@@ -96,8 +98,20 @@ export default function CoursePlayerPage() {
     enabled: !!course && track === "non-licensed",
     retry: false,
   });
+  // The academy outline for the non-licensed track. Same key as SharedCurriculumPlayer, so it is one request.
+  // When it lists no lessons, the legacy lesson list is shown in the sidebar, and the legacy progress is used.
+  const academyOutline = useQuery({
+    queryKey: ["academy-outline", course?.id, track],
+    queryFn: () => fetchCurriculumOutline(course!.id, track),
+    enabled: !!course && track === "non-licensed",
+    retry: false,
+  });
+  const academyEmpty = track === "non-licensed" && academyOutline.isSuccess && !outlineHasLessons(academyOutline.data);
+  const showLegacyLessons = track === "licensed" || academyEmpty;
+  const legacyLessonTotal = course ? course.modules.reduce((sum, m) => sum + m.lessons.length, 0) : undefined;
+
   const progressPercent =
-    track === "non-licensed"
+    track === "non-licensed" && !academyEmpty
       ? trackProgress.data?.completionPercent ?? 0
       : progress?.enrollment.progressPercentage ?? 0;
 
@@ -126,12 +140,19 @@ export default function CoursePlayerPage() {
     const requestId = ++latestLessonRequest.current;
     setActiveLesson(lesson);
     setVideoUrl(null);
+    setCaptionsUrl(null);
     if (lesson.videoUrl) {
       try {
-        const url = await fetchLessonVideoUrl(lesson.id);
-        if (requestId === latestLessonRequest.current) setVideoUrl(url);
+        const media = await fetchLessonMedia(lesson.id);
+        if (requestId === latestLessonRequest.current) {
+          setVideoUrl(media.url);
+          setCaptionsUrl(media.captionsUrl);
+        }
       } catch {
-        if (requestId === latestLessonRequest.current) setVideoUrl(null);
+        if (requestId === latestLessonRequest.current) {
+          setVideoUrl(null);
+          setCaptionsUrl(null);
+        }
       }
     }
   }
@@ -155,6 +176,7 @@ export default function CoursePlayerPage() {
           summary={licenceSummary.data}
           isLoading={licenceSummary.isLoading}
           isError={licenceSummary.isError}
+          countFallback={academyEmpty ? legacyLessonTotal : undefined}
         />
         {switchNote && <p role="status" className="mt-2 text-sm text-neutral-300">{switchNote}</p>}
       </div>
@@ -174,7 +196,14 @@ export default function CoursePlayerPage() {
             />
           )}
           <div className="mb-4">
-            <div className="h-1.5 w-full overflow-hidden rounded-full bg-neutral-800">
+            <div
+              role="progressbar"
+              aria-label="Course progress"
+              aria-valuemin={0}
+              aria-valuemax={100}
+              aria-valuenow={progressPercent}
+              className="h-1.5 w-full overflow-hidden rounded-full bg-neutral-800"
+            >
               <div
                 className="h-full rounded-full bg-white"
                 style={{ width: `${progressPercent}%` }}
@@ -185,8 +214,8 @@ export default function CoursePlayerPage() {
             </p>
           </div>
 
-          {/* The legacy module list is not shown on the non-licensed track: it cannot be filtered by licence. */}
-          {track === "licensed" && course.modules.map((mod) => (
+          {/* The legacy module list is not shown on the non-licensed track while the academy lists lessons: it cannot be filtered by licence. */}
+          {showLegacyLessons && course.modules.map((mod) => (
             <div key={mod.id} className="mb-4">
               <h3 className="mb-2 text-sm font-medium text-neutral-300">{mod.title}</h3>
               <div className="space-y-1">
@@ -219,13 +248,13 @@ export default function CoursePlayerPage() {
               href={`/student/courses/${slug}/live-classes`}
               className="block rounded-lg px-3 py-2 text-sm text-neutral-300 hover:bg-neutral-900"
             >
-              📅 Live Classes
+              <span aria-hidden="true">📅</span> Live Classes
             </Link>
             <Link
               href={`/student/courses/${slug}/discussions`}
               className="block rounded-lg px-3 py-2 text-sm text-neutral-300 hover:bg-neutral-900"
             >
-              💬 Discussions
+              <span aria-hidden="true">💬</span> Discussions
             </Link>
           </div>
 
@@ -274,10 +303,10 @@ export default function CoursePlayerPage() {
             <div className="max-w-3xl">
               <h2 className="text-xl font-semibold">{activeLesson.title}</h2>
 
-              {/* TODO(ACA-023 item 5): lesson videos have no caption track and the lesson schema has no track field.
-                  Captions are not added here. Confirm captions exist for each published video, then add track support. See fix-accessibility.md. */}
               {videoUrl ? (
-                <video controls className="mt-4 w-full rounded-lg" src={videoUrl} />
+                <video controls className="mt-4 w-full rounded-lg" src={videoUrl}>
+                  {captionsUrl && <track kind="captions" src={captionsUrl} srcLang="en" label="English" />}
+                </video>
               ) : (
                 <div className="mt-4 flex aspect-video items-center justify-center rounded-lg bg-neutral-900 text-neutral-500">
                   No video attached to this lesson

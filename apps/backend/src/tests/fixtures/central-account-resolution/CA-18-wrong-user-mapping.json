@@ -1,0 +1,9 @@
+{
+  "name": "wrong-user-mapping",
+  "changes": {
+    "mapping": {
+      "localUserId": "wrong-user"
+    }
+  },
+  "expectedAllowed": false
+}

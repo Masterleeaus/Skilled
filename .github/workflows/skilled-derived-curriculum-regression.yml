@@ -1,0 +1,51 @@
+name: skilled-derived-curriculum-regression
+on:
+  pull_request:
+    paths:
+      - 'tests/fixtures/lesson-normalization/**'
+      - 'scripts/rebuild-curriculum-derived.mjs'
+      - 'scripts/test-rebuild-curriculum-derived.mjs'
+      - 'scripts/test-lesson-normalization-fixtures.mjs'
+      - 'scripts/reconcile-lesson-formats.mjs'
+      - 'scripts/build-curriculum-review-queue.mjs'
+      - 'curriculum/lesson-normalization-index.json'
+      - 'curriculum/lesson-review-queue.json'
+      - 'curriculum/lesson-review-queue.csv'
+      - '.github/workflows/skilled-derived-curriculum-regression.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'tests/fixtures/lesson-normalization/**'
+      - 'scripts/rebuild-curriculum-derived.mjs'
+      - 'scripts/test-rebuild-curriculum-derived.mjs'
+      - 'scripts/test-lesson-normalization-fixtures.mjs'
+      - 'scripts/reconcile-lesson-formats.mjs'
+      - 'scripts/build-curriculum-review-queue.mjs'
+      - 'curriculum/lesson-normalization-index.json'
+      - 'curriculum/lesson-review-queue.json'
+      - 'curriculum/lesson-review-queue.csv'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify all 20 malformed authoring fixtures fail closed
+        working-directory: .
+        run: node scripts/test-lesson-normalization-fixtures.mjs
+      - name: Verify generated normalization index and editorial queue against source
+        working-directory: .
+        run: |
+          node scripts/test-rebuild-curriculum-derived.mjs
+          node scripts/rebuild-curriculum-derived.mjs --check
+      - name: Verify immutable source and draft publication holds
+        working-directory: .
+        run: |
+          node scripts/test-reconcile-lesson-formats.mjs
+          node scripts/test-curriculum-review-queue.mjs

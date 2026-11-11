@@ -1,0 +1,12 @@
+{
+  "caseId": "FX-06",
+  "description": "Missing instruction field",
+  "overrides": {},
+  "remove": [
+    "instruction"
+  ],
+  "expectedBlockers": [
+    "no usable instructional sections"
+  ],
+  "expectedPriority": "P0"
+}

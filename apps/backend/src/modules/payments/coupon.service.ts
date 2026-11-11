@@ -55,11 +55,9 @@ export async function validateCoupon(code: string, courseId: string) {
  *  - Kept: the reservation stays counted when the payment SUCCEEDS, and when it is REFUNDED (a refund does not
  *    restore the coupon).
  *  - Released: a PENDING payment that becomes FAILED gives its reservation back, exactly once (see
- *    releasePendingCheckout in payment.service.ts). A checkout becomes FAILED when Stripe fails to create its session,
- *    when its session is seen as expired, or when an abandoned claim is cleared.
- *  - Known lag: Stripe sends no webhook here for an expired session, so an abandoned checkout keeps its reservation
- *    until the learner retries checkout or verifies that payment. An expiry sweep or a checkout.session.expired
- *    handler would close that gap; neither exists yet.
+ *    releasePendingCheckout in payment.service.ts). A checkout becomes FAILED when Stripe refuses to create its session,
+ *    when Stripe reports its session expired (checkout.session.expired webhook, or the expiry sweep), or when an
+ *    abandoned claim is replaced by a checkout with different options.
  */
 export async function reserveCouponRedemption(tx: CouponTx, coupon: { id: string; usageLimit: number | null }): Promise<void> {
   const reserved = await tx.coupon.updateMany({

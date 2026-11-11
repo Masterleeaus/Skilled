@@ -2,6 +2,7 @@ import type { Request, Response } from "express";
 import Stripe from "stripe";
 import { env } from "../../config/env";
 import { logger } from "../../config/logger";
+import { NotFoundError } from "../../utils/AppError";
 import { verifyAndCompletePayment } from "./payment.service";
 
 /** Only Stripe-signed checkout sessions are eligible for webhook fulfillment. */
@@ -23,11 +24,25 @@ export async function handleStripeWebhook(req: Request, res: Response) {
     return res.status(400).json({ success: false, message: "Invalid webhook signature" });
   }
 
+  const session = event.data.object as Stripe.Checkout.Session;
+
+  if (event.type === "checkout.session.expired") {
+    // Settles the PENDING claim: verifyAndCompletePayment re-reads the session from Stripe and releases its coupon
+    // reservation once, only if Stripe reports it expired unpaid. A session with no claim row has nothing to release.
+    try {
+      await verifyAndCompletePayment(session.id);
+      return res.status(200).json({ received: true });
+    } catch (error) {
+      if (error instanceof NotFoundError) return res.status(200).json({ received: true });
+      logger.error(`Stripe expiry handling failed for ${session.id}: ${String(error)}`);
+      return res.status(503).json({ success: false, message: "Expiry handling pending" });
+    }
+  }
+
   if (event.type !== "checkout.session.completed" &&
       event.type !== "checkout.session.async_payment_succeeded") {
     return res.status(200).json({ received: true });
   }
-  const session = event.data.object as Stripe.Checkout.Session;
   if (session.payment_status !== "paid") {
     return res.status(200).json({ received: true });
   }

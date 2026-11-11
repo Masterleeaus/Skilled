@@ -38,14 +38,16 @@ export default function ProfilePage() {
   return (
     <div>
       <Topbar title="My Profile" backHref={homeHref} backLabel="Dashboard" />
-      <main className="mx-auto max-w-md px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-md px-6 py-8">
         {isLoading && <p className="text-neutral-400">Loading...</p>}
 
         {profile && (
           <div className="space-y-4">
             <div>
-              <label className="mb-1 block text-sm text-neutral-300">Full name</label>
+              <label htmlFor="profile-full-name" className="mb-1 block text-sm text-neutral-300">Full name</label>
               <input
+                id="profile-full-name"
+                autoComplete="name"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
                 className="w-full rounded-lg border border-neutral-800 bg-neutral-900 px-3 py-2 text-sm outline-none focus:border-neutral-500"
@@ -53,8 +55,9 @@ export default function ProfilePage() {
             </div>
 
             <div>
-              <label className="mb-1 block text-sm text-neutral-300">Email</label>
+              <label htmlFor="profile-email" className="mb-1 block text-sm text-neutral-300">Email</label>
               <input
+                id="profile-email"
                 value={profile.email}
                 disabled
                 className="w-full rounded-lg border border-neutral-800 bg-neutral-950 px-3 py-2 text-sm text-neutral-500"
@@ -62,8 +65,9 @@ export default function ProfilePage() {
             </div>
 
             <div>
-              <label className="mb-1 block text-sm text-neutral-300">Role</label>
+              <label htmlFor="profile-role" className="mb-1 block text-sm text-neutral-300">Role</label>
               <input
+                id="profile-role"
                 value={profile.role}
                 disabled
                 className="w-full rounded-lg border border-neutral-800 bg-neutral-950 px-3 py-2 text-sm text-neutral-500"

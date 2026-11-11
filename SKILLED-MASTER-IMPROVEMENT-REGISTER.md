@@ -1,6 +1,6 @@
 # Skilled — Master Improvement Register
 
-**Baseline:** Pass 52 cumulative (static, unverified). **Status:** open recommendations, not verified fixes. This is the single consolidated handoff register; do not mark completed without evidence.
+**Baseline:** Pass 52 cumulative (static, unverified); reconciled to main 1fbf352 on 2026-11-08 (issue #41). **Status:** open recommendations, not verified fixes. This is the single consolidated handoff register; do not mark completed without evidence.
 
 ## Priority key
 
@@ -28,35 +28,35 @@
 | ACA-005 | P0 | Curriculum | Reconcile 15 drafts lacking usable instructional sections | OPEN |
 | ACA-006 | P0 | Curriculum | Map 42 unmapped lessons to approved courses | OPEN |
 | ACA-007 | P0 | Curriculum | Review 21 lessons without explicit learning outcomes | OPEN |
-| ACA-008 | P0 | Publishing | Block publication of unreviewed and structurally incomplete lessons | OPEN |
+| ACA-008 | P0 | Publishing | Block publication of unreviewed and structurally incomplete lessons | IN PROGRESS |
 | ACA-009 | P1 | Curriculum | Import normalized lessons idempotently into canonical content library | OPEN |
 | ACA-010 | P1 | Curriculum | Reconcile 221 briefs against 216 expanded drafts without equating inventories | OPEN |
 | ACA-011 | P1 | Curriculum | Review transfer classifications and incorrect cross-service reuse | OPEN |
-| ACA-012 | P1 | Assessments | Map assessment evidence to each required lesson and course | OPEN |
-| ACA-013 | P1 | Assessments | Validate practical competency award only after assessor approval | OPEN |
-| ACA-014 | P1 | Learner | Test full course enrolment, completion and progress calculation | OPEN |
-| ACA-015 | P1 | Learner | Test contextual lesson snapshot history and integrity checks | OPEN |
-| ACA-016 | P1 | Identity | Verify inactive and deleted learner integration rejection | OPEN |
+| ACA-012 | P1 | Assessments | Map assessment evidence to each required lesson and course | IN PROGRESS |
+| ACA-013 | P1 | Assessments | Validate practical competency award only after assessor approval | IN PROGRESS |
+| ACA-014 | P1 | Learner | Test full course enrolment, completion and progress calculation | IN PROGRESS |
+| ACA-015 | P1 | Learner | Test contextual lesson snapshot history and integrity checks | IN PROGRESS |
+| ACA-016 | P1 | Identity | Verify inactive and deleted learner integration rejection | IN PROGRESS |
 | ACA-017 | P1 | Operations | Exercise credential rotation, revocation and expiry | OPEN |
 | ACA-018 | P1 | Integration | Connect Field Services and AI Workforce contract test environments | OPEN |
-| ACA-019 | P1 | Quality | Add browser-based lesson player and manager context regression tests | OPEN |
-| ACA-020 | P1 | Quality | Run curriculum structural and normalization audits in CI | OPEN |
-| ACA-021 | P2 | Product | Replace inherited portfolio LMS product documentation and branding | DONE |
-| ACA-022 | P2 | Deployment | Create environment-specific deployment, secrets and recovery runbooks | OPEN |
-| ACA-023 | P2 | Accessibility | Audit course player keyboard, screen reader and responsive usage | OPEN |
+| ACA-019 | P1 | Quality | Add browser-based lesson player and manager context regression tests | IN PROGRESS |
+| ACA-020 | P1 | Quality | Run curriculum structural and normalization audits in CI | IN PROGRESS |
+| ACA-021 | P2 | Product | Replace inherited portfolio LMS product documentation and branding | IN PROGRESS |
+| ACA-022 | P2 | Deployment | Create environment-specific deployment, secrets and recovery runbooks | IN PROGRESS |
+| ACA-023 | P2 | Accessibility | Audit course player keyboard, screen reader and responsive usage | IN PROGRESS |
 | ACA-024 | P2 | Content | Expert review high-risk safety, licensing and regulated work content | OPEN |
-| ACA-025 | P2 | Reporting | Build evidence-backed learner and organisation completion reports | OPEN |
-| ACA-026 | P0 | Governance | Preserve source-draft status and do not auto-publish normalized material | OPEN |
+| ACA-025 | P2 | Reporting | Build evidence-backed learner and organisation completion reports | IN PROGRESS |
+| ACA-026 | P0 | Governance | Preserve source-draft status and do not auto-publish normalized material | IN PROGRESS |
 | ACA-027 | P1 | Database | Inspect same-prefix migration ordering and dependencies | OPEN |
-| ACA-028 | P1 | Security | Audit external identity uniqueness and organisation linking lifecycle | OPEN |
+| ACA-028 | P1 | Security | Audit external identity uniqueness and organisation linking lifecycle | IN PROGRESS |
 
 ## Acceptance criteria and source anchors
 
 ### ACA-001 — Install locked dependencies and compile backend and frontend
 - **Source:** `apps/backend/tsconfig.json`
 - **Done only when:** Dependency-enabled clean CI build passes
-- **Verification:** PARTIAL (2026-11-08): install, lint, typecheck and build verified locally; clean CI build not yet run. **Owner:** Unassigned.
-- **Evidence (2026-11-08):** In a fresh worktree from origin/main (03dec3e), `pnpm install --frozen-lockfile`, `pnpm -C apps/backend lint`, `pnpm -C apps/frontend lint`, `pnpm -C apps/backend build` (tsc) and `pnpm -C apps/frontend build` (Next.js) all exit 0. Merged PRs: #14 (install, backend lint, tsc --noEmit), #31 (backend lint rules), #32 (test typecheck, 46 to 0 errors). Not yet verified: a clean build run in CI; no workflow runs it (see ACA-020).
+- **Verification:** PARTIAL (2026-11-08): install, lint, typecheck and build verified locally; clean CI build not yet run. Re-run on main 1fbf352 on 2026-11-08: backend and frontend lint, backend tsc (app and test configs) and frontend tsc exit 0. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** In a fresh worktree from origin/main (03dec3e), `pnpm install --frozen-lockfile`, `pnpm -C apps/backend lint`, `pnpm -C apps/frontend lint`, `pnpm -C apps/backend build` (tsc) and `pnpm -C apps/frontend build` (Next.js) all exit 0. Merged PRs: #12 and #13 (start without MinIO, install docs), #14 (install, backend lint, tsc --noEmit), #31 (backend lint rules), #32 (test typecheck, 46 to 0 errors). Not yet verified: a clean build run in CI; no workflow runs it (see ACA-020).
 
 ### ACA-002 — Validate Prisma schema and generated client
 - **Source:** `apps/backend/prisma/schema.prisma`
@@ -92,7 +92,8 @@
 ### ACA-008 — Block publication of unreviewed and structurally incomplete lessons
 - **Source:** `scripts/reconcile-lesson-formats.mjs`
 - **Done only when:** Publish path refuses all unapproved drafts
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): publication gates merged (PR #61); curriculum-publication-paths unit tests pass. Not verified against PostgreSQL. `pnpm curriculum:ci` exits 1 on main. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** PR #61 (gate every curriculum publish path; hold fields until the revision publishes) merged. The Vitest run on main f9cf64e on 2026-11-09 (61 files passed, 9 skipped; 928 tests passed, 114 skipped, after `prisma generate`) includes curriculum-publication-paths.test.ts and curriculum-publisher.test.ts. `pnpm curriculum:ci` on 1fbf352 fails with `[assessment-gate] 1267 assessments are blocked from publication`, which is the gate refusing unapproved answer keys. Structurally incomplete lessons depend on ACA-005 to ACA-007.
 
 ### ACA-009 — Import normalized lessons idempotently into canonical content library
 - **Source:** `curriculum/lesson-normalization-index.json`
@@ -112,27 +113,32 @@
 ### ACA-012 — Map assessment evidence to each required lesson and course
 - **Source:** `curriculum/planning/ASSESSMENT-AUDIT.md`
 - **Done only when:** Coverage report includes questions, keys, rubric, pass and evidence
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): evidence-mapping unit tests pass; no coverage report for every required lesson and course. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `apps/backend/src/tests/aca-012-013-assessment-evidence.test.ts` passed in the 2026-11-08 Vitest run (real curriculum router, in-memory Prisma double). It covers lesson-to-evidence mapping, course incompleteness and the coverage report. `scripts/test-assessment-publication.mjs` (14 gate assertions) and `scripts/test-assessment-inventory.mjs` (16 assertions) exit 0. Coverage for every required lesson remains open.
 
 ### ACA-013 — Validate practical competency award only after assessor approval
 - **Source:** `apps/backend/src/modules/curriculum/`
 - **Done only when:** Negative and positive integration tests pass
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): positive and negative award tests pass against an in-memory Prisma double. No PostgreSQL integration run. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `aca-012-013-assessment-evidence.test.ts` (competency award from approved evidence) passed on 1fbf352. Its cases include refusal for pending, rejected and self-approved evidence, and an allowed award for evidence approved by the acting assessor. Not run against a database.
 
 ### ACA-014 — Test full course enrolment, completion and progress calculation
 - **Source:** `apps/backend/src/modules/curriculum/`
 - **Done only when:** Browser and API tests agree on required/optional completion
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): enrolment and progress unit tests pass; browser and API agreement not tested. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `academy-enrolment-progress.test.ts` and `academy-course-progress.test.ts` passed in the 2026-11-08 Vitest run (in-memory Prisma double). Browser tests of required and optional completion are not run (see ACA-019).
 
 ### ACA-015 — Test contextual lesson snapshot history and integrity checks
 - **Source:** `apps/backend/src/modules/curriculum/`
 - **Done only when:** Historical snapshot hashes verified and access isolated
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): snapshot history unit tests pass; no run against PostgreSQL. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `academy-snapshot-history.test.ts` passed in the 2026-11-08 Vitest run. Its cases cover an immutable snapshot whose hash matches an independent recomputation, no answer keys in presented bodies, and refusal of unpublished revisions and out-of-assignment lessons. Not run against a database.
 
 ### ACA-016 — Verify inactive and deleted learner integration rejection
 - **Source:** `apps/backend/src/modules/curriculum/integration.routes.ts`
 - **Done only when:** Revoked learners yield no skills in integration tests
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): deleted-account checks have passing unit tests. The integration test is skipped without PostgreSQL and Redis. Two static refresh contract scripts fail on main. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** PR #58 (deleted-account checks on login and refresh, #45 and #52) merged. `account-lifecycle.test.ts` passed in the 2026-11-08 Vitest run. `apps/backend/src/tests/integration/learner-status.test.ts` is skipped without services. `scripts/test-session-lifecycle-contract.mjs` (`account state checked on refresh`) and `scripts/test-auth-route-contracts.mjs` (`Refresh validates active verified user`) exit 1 on 1fbf352.
 
 ### ACA-017 — Exercise credential rotation, revocation and expiry
 - **Source:** `apps/backend/prisma/manage-titan-credentials.ts`
@@ -147,27 +153,32 @@
 ### ACA-019 — Add browser-based lesson player and manager context regression tests
 - **Source:** `apps/frontend/`
 - **Done only when:** Headless browser test suite passes in CI
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): browser suite present but not run in CI or in this reconcile. Frontend lint, tsc and source checks pass. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `apps/frontend/tests/browser/academy-browser-suite.mjs` (PASS42) exists. It mocks the API and needs Playwright and axe. It is not wired into CI. On 1fbf352, the four `apps/frontend/scripts/verify-*.mjs` source checks exit 0, and frontend lint and tsc exit 0.
 
 ### ACA-020 — Run curriculum structural and normalization audits in CI
 - **Source:** `scripts/`
 - **Done only when:** CI blocks regressions and emits review report
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): the curriculum CI workflow is merged (PR #59). The gate fails on main, so it is not green. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** PR #59 added `.github/workflows/curriculum-ci.yml`, which runs `pnpm curriculum:ci` with `--fail-on-blocked` and uploads the report. A local run on 1fbf352 exits 1 with `[index-drift] curriculum/lesson-normalization-index.json is stale` and `[assessment-gate] 1267 assessments are blocked from publication`. No CI run was inspected. Five static contract scripts also fail on main (see the 2026-11-08 reconciliation section).
 
 ### ACA-021 — Replace inherited portfolio LMS product documentation and branding
-- **Source:** `README.md`, frontend app shell, email templates, repository structure
+- **Source:** `README.md`
 - **Done only when:** Accurate SkilledAt.Work documentation, legal attribution retained
-- **Verification:** COMPLETED in the Skilled rebrand/consolidation branch. Public identity, workspace layout and asset serving are updated; archive reconciliation is documented; compatibility-sensitive identifiers and historical records are retained.
+- **Verification:** PARTIAL (2026-11-08): copy audit written and changes applied on this branch. Stays IN PROGRESS until the audit is merged and the owner confirms the email brand. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `lms-main/docs/PRODUCT-COPY-AUDIT-2026-11-08.md` lists each change by file: landing copy, metadata description, origin and licence on the credits page, learner wording in the role label and two API messages, and seed display text. Retained: SkilledAt.Work brand (OWNER-DECISIONS, 2026-11-04), email subjects, `@lms.local` identifiers and the `SMTP_FROM` default. Backend tsc, tsc test config, lint and Vitest (928 passed, 114 skipped; 61 files passed, 9 skipped; main f9cf64e, 2026-11-09) and frontend lint and tsc exit 0 on the branch.
 
 ### ACA-022 — Create environment-specific deployment, secrets and recovery runbooks
 - **Source:** `.env.example`
 - **Done only when:** Staging restore and deploy rehearsal documented
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): deployment, recovery and secrets runbooks and the production env template exist. The recovery runbook states 'documented, not rehearsed'. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `docs/runbooks/deployment.md`, `recovery.md` and `secrets-handling.md` are on main, and `.env.production.example` was added with PR #59. `recovery.md` records 'documented, not rehearsed'. No staging restore or deploy rehearsal has been run.
 
 ### ACA-023 — Audit course player keyboard, screen reader and responsive usage
 - **Source:** `apps/frontend/`
 - **Done only when:** Accessibility checks and manual review pass
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): the browser suite includes an axe-based audit, but it was not run in this reconcile and no manual review is recorded. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `apps/frontend/tests/browser/academy-browser-suite.mjs` covers the ACA-023 accessibility audit per its header. It needs Playwright and axe and was not run here. Keyboard, screen-reader and responsive review is not recorded.
 
 ### ACA-024 — Expert review high-risk safety, licensing and regulated work content
 - **Source:** `curriculum/research/`
@@ -177,22 +188,26 @@
 ### ACA-025 — Build evidence-backed learner and organisation completion reports
 - **Source:** `apps/backend/src/modules/curriculum/`
 - **Done only when:** Reports reconcile with canonical progress and competency records
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): completion-report and withholding tests pass. Reconciliation with canonical progress and competency records is not verified against a database. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `completion-report-withholding.test.ts` and `completion-report-assignment-timing.test.ts` passed in the 2026-11-08 Vitest run. The report routes are listed in README 'API Overview'.
 
 ### ACA-026 — Preserve source-draft status and do not auto-publish normalized material
 - **Source:** `curriculum/lesson-normalization-index.json`
 - **Done only when:** All source drafts remain review-gated
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): publication gating merged (PR #61) and the static review-gate checks pass. Expert review is not done (see ACA-024). **Owner:** Unassigned.
+- **Evidence (2026-11-08):** PR #61 merged. `scripts/test-reconcile-lesson-formats.mjs` (12 assertions, including review-gate) and `scripts/test-curriculum-review-queue.mjs` exit 0 on 1fbf352. Owner trial approvals in `PASS42/TRIAL-smoke.md` are not an expert review.
 
 ### ACA-027 — Inspect same-prefix migration ordering and dependencies
 - **Source:** `apps/backend/prisma/migrations/`
 - **Done only when:** Clean staging migration ordering confirmed
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** NOT VERIFIED. A static migration readiness check passes; clean staging migration ordering has not been run. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** `scripts/test-migration-readiness.mjs` (8 assertions) exits 0 on 1fbf352. This is a static check only.
 
 ### ACA-028 — Audit external identity uniqueness and organisation linking lifecycle
 - **Source:** `apps/backend/prisma/schema.prisma`
 - **Done only when:** Cross-org identity tests and migration policy documented
-- **Verification:** NOT VERIFIED. **Owner:** Unassigned.
+- **Verification:** PARTIAL (2026-11-08): the org-unique migration is on main. Identity-linking tests need PostgreSQL and are skipped. **Owner:** Unassigned.
+- **Evidence (2026-11-08):** Migration `20261108100000_academy_external_identity_org_unique` is on main, with the preflight `apps/backend/prisma/preflight-20261108100000-external-identity-scope.sql`. `apps/backend/src/tests/integration/identity-linking.test.ts` is skipped without PostgreSQL and Redis. Not applied to a database in this reconcile.
 
 ## Maintenance rules
 
@@ -237,3 +252,29 @@ This register update is logged in `/home/claude/tasks/fix-register.md` (static, 
 4. Accidental write: `PASS42/INTEGRATION-identity.md` says a `CREATE DATABASE` ran on another PostgreSQL instance by mistake and was then dropped.
 5. ACA-020: marked DONE in `PASS42/QUALITY-ops.md` with no CI pipeline to wire into.
 6. Owner trial approvals: `PASS42/TRIAL-smoke.md` says every lesson revision in the scratch trial was approved by the owner and states these are not an expert review; relevant to ACA-024 and ACA-026.
+
+## Reconciliation 2026-11-08 (issue #41)
+
+Reconciled to main `1fbf352`. The JSON twin carries the same statuses and the `reconciliation20261108` block.
+
+**Merged PRs since the last reconcile and their effect on this register**
+
+- #12, #13, #14, #31, #32 relate to ACA-001 (install, lint, typecheck and docs). ACA-001 stays IN PROGRESS: the clean CI build is not run.
+- #58 (deleted-account checks, #45 and #52) relates to ACA-016. ACA-016 is IN PROGRESS.
+- #59 added the curriculum CI workflow (ACA-020), the production env template and the runbooks (ACA-022), and this register. ACA-020 and ACA-022 are IN PROGRESS.
+- #61 (publication gates, #16) relates to ACA-008 and ACA-026. Both are IN PROGRESS.
+- #53, #60, #62, #63, #64 and #65 do not change an ACA item.
+
+**Status changes** (OPEN to IN PROGRESS unless noted): ACA-008, ACA-012, ACA-013, ACA-014, ACA-015, ACA-016, ACA-019, ACA-020, ACA-021 (audit doc as evidence), ACA-022, ACA-023, ACA-025, ACA-026 and ACA-028. ACA-002 stays DONE. No item was marked DONE beyond ACA-002.
+
+**Test results on main (2026-11-08; Vitest counts refreshed 2026-11-09)**
+
+- Backend Vitest (main f9cf64e, 2026-11-09, after `prisma generate`): 61 files passed, 9 skipped; 928 tests passed, 114 skipped. Without the generated Prisma client, 27 files fail to load (`Cannot find module '.prisma/client/default'`) and the run reports 502 passed, 103 skipped.
+- `node scripts/test-master-improvement-register.mjs` passes.
+- `pnpm curriculum:ci` exits 1 on main: `index-drift` (the lesson-normalization index is stale) and `assessment-gate` (1267 assessments are blocked from publication). The CI workflow therefore fails on main. The index is not regenerated here because curriculum content is out of scope.
+- Static contract scripts that fail on main: `test-auth-route-contracts.mjs` and `test-session-lifecycle-contract.mjs` (refresh checks, ACA-016), `test-payment-security-contract.mjs`, `test-course-publication-access.mjs` (module import), and `test-video-upload-safety.mjs` (module import). These are not fixed here.
+
+**Conflicts resolved or updated**
+
+- Conflict 1 (ACA-014): `academy-course-progress.test.ts` passes on 1fbf352, so the progress route check passes in the Vitest suite. The browser and API agreement is still open.
+- Conflict 5 (ACA-020): the CI workflow now exists (PR #59), but the gate fails on main. ACA-020 is IN PROGRESS, not DONE.

@@ -42,6 +42,8 @@ type ForeignKey = {
 
 const relations: Record<string, Record<string, Relation>> = {
   user: {},
+  // schema: RefreshToken.user (userId -> users.id), used by the refresh path's include.
+  refreshToken: { user: { model: "user", fk: "userId" } },
   course: {
     modules: { model: "module", fk: "courseId", many: true },
   },
@@ -129,6 +131,8 @@ const PARTIAL_UNIQUES: Record<string, Unique[]> = {
 
 // Column defaults mirrored from the schema for fields the code under test relies on.
 const defaults: Record<string, () => Row> = {
+  // schema: isRevoked Boolean @default(false), createdAt @default(now())
+  refreshToken: () => ({ isRevoked: false, deviceInfo: null, createdAt: new Date() }),
   enrollment: () => ({ progressPercentage: 0, status: "ACTIVE", enrolledAt: new Date(), completedAt: null, licenceTrack: "non-licensed" }),
   payment: () => ({ licenceTrack: "non-licensed" }),
   lessonProgress: () => ({ watchedSeconds: 0, completed: false, lastAccessedAt: new Date() }),

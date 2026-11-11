@@ -4,11 +4,11 @@
 
 The repository root is the single pnpm workspace and application base. Backend, frontend, shared packages, curriculum, operations scripts, and project documentation live together at the root. The former `lms-main/` wrapper directory is removed.
 
-Course artwork and lesson media live at `apps/frontend/public/academy/brand/` and `apps/frontend/public/academy/library/`. This matches the existing `/academy/brand/...` and `/academy/library/...` URLs in the frontend and makes those assets available through Next.js static serving. The app's manifests continue to identify the same 1,495 asset files.
+Course artwork and lesson media are served from `apps/frontend/public/academy/brand/` and `apps/frontend/public/academy/library/`. Canonical sources remain in repository-root `brand/` and `library/`; the frontend predev/prebuild asset preparation verifies and copies them to public/academy. This matches the existing `/academy/brand/...` and `/academy/library/...` URLs in the frontend and makes those assets available through Next.js static serving. The app's manifests continue to identify the same 1,495 asset files.
 
 ## Archive reconciliation
 
-The six uploaded ZIPs were compared against their extracted files before removal from the active source tree:
+The original consolidation branch recorded these archive comparisons. The current reconciliation retains the six original ZIPs as provenance:
 
 | Archive | SHA-256 | Reconciliation |
 |---|---|---|
@@ -19,7 +19,7 @@ The six uploaded ZIPs were compared against their extracted files before removal
 | `9d7e2a65-part-05-images.zip` | `30ab7b4f3b30e0e6075efead9b426ba5b401102be7c3bb841b8c0570c6706284` | All 506 files match the extracted assets byte-for-byte. |
 | `2037e4b8-part-01-code-and-curriculum.zip` | `786d5fc654e3a193108879ca32ea4a8f5e6bad698b542c7b9701aa83e032c0fb` | Older source snapshot. Of 3,419 files, 3,405 paths were already present; 50 existing files differ and the current repository versions are retained. Fourteen archive-only entries include generated dependency/build output, an unused npm lockfile, guarded bootstrap scripts, and an obsolete development Compose file. |
 
-The image archives contained 1,495 files in total and contributed no unique asset files. The older code archive was not extracted over the current workspace: doing so would replace newer code and deployment safeguards. Its guarded bootstrap originals are retained under `docs/legacy-bootstrap/`, and the supported local development Compose file remains in the source tree. The ZIPs are removed from the active repository because they duplicated the merged sources; their original blobs remain in Git history.
+The image archives contained 1,495 files in total and contributed no unique asset files. The older code archive was not extracted over the current workspace: doing so would replace newer code and deployment safeguards. Its guarded bootstrap originals are retained under `docs/legacy-bootstrap/`, and the supported local development Compose file remains in the source tree. The current reconciliation retains these original ZIPs and canonical assets. Generated public media is not a separate editable source.
 
 ## Brand and compatibility
 
@@ -30,3 +30,12 @@ The existing `titan_academy` database, `/api/titan/integration` endpoint, video 
 ## Local commands
 
 Run workspace commands from the repository root, for example `pnpm install --frozen-lockfile`, `pnpm dev`, `pnpm build`, and `pnpm curriculum:ci`. Existing deployment and database safeguards in the runbooks still apply.
+
+
+## Reconciliation verification
+
+The current Main workspace was moved without replacing newer code with the older branch snapshot. Stable `@lms/*` package identities remain for dependency compatibility. Current shared ESLint configuration, transactional email builders, cleanup workers, authentication and publication protections are retained.
+
+Local verification: frozen pnpm install, Prisma generation, backend/frontend/test TypeScript checks, lint on changed TypeScript, production frontend build, all 11 built metadata checks, 130 source checks, and 1,589 backend tests passed. Backend runs skipped 122 service-dependent cases; PostgreSQL CI remains required. A checksum comparison covered 2,908 curriculum/migration files; only the import-builder script and historical deployment document changed. Assessment data and applied migration SQL are unchanged.
+
+Local Chromium cannot create its required Unix socket in the task sandbox. The required public browser CI uses a pinned Playwright container and verifies six public desktop/mobile page renders, no horizontal overflow, manifest identity and install-icon delivery. Browser verification is pending on the final GitHub head. Curriculum publication approvals are not inferred from code or build success.

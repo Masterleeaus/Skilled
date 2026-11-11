@@ -1,0 +1,12 @@
+{
+  "caseId": "FX-15",
+  "description": "Missing canonical lesson id",
+  "overrides": {},
+  "remove": [
+    "id"
+  ],
+  "expectedBlockers": [
+    "missing identity/title"
+  ],
+  "expectedPriority": "P0"
+}

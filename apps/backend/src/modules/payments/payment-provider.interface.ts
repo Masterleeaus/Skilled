@@ -6,6 +6,11 @@ export interface InitiatePaymentParams {
   studentEmail: string;
   /** The licence track chosen at checkout. Returned in the success URL and the session metadata. */
   licenceTrack: string;
+  /**
+   * Optional idempotency key for the provider's create call. The checkout service passes the claimed payment row id,
+   * so a retried create for the same claim returns the session the first attempt made instead of a second one.
+   */
+  idempotencyKey?: string;
 }
 
 export interface InitiatePaymentResult {

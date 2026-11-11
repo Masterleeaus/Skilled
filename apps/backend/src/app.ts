@@ -8,6 +8,7 @@ import cookieParser from "cookie-parser";
 import { env } from "./config/env";
 import { httpLogStream } from "./config/logger";
 import { errorHandler, notFoundHandler } from "./middleware/errorHandler";
+import { createGlobalRateLimiter } from "./middleware/globalRateLimit";
 
 import healthRoute from "./routes/health.route";
 import authRoutes from "./modules/auth/auth.routes";
@@ -30,6 +31,7 @@ import { integrationRoutes } from "./modules/curriculum/integration.routes";
 import courseSelectionRoutes from "./modules/course-selection/course-selection.routes";
 import pathwayRoutes from "./modules/pathways/pathway.routes";
 import templateRoutes from "./modules/templates/template.routes";
+import { mountCentralSso } from "./modules/auth/central/central-sso.mount";
 
 export const app = express();
 
@@ -46,9 +48,14 @@ app.post("/api/payments/stripe/webhook", express.raw({ type: "application/json",
 app.use(express.json({ limit: "1mb" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("combined", { stream: httpLogStream }));
+// Global per-IP ceiling for every request. It sits after the Stripe webhook, which is deliberately not throttled.
+// Per-route limiters on individual routers still apply on top of it. /api/health is exempt.
+app.use(createGlobalRateLimiter({ windowMs: env.API_RATE_LIMIT_WINDOW_MS, limit: env.API_RATE_LIMIT_MAX }));
 
 app.use("/api", healthRoute);
 app.use("/api/auth", authRoutes);
+// Central SSO mounts nothing unless CENTRAL_SSO_ENABLED=true (default off). The flag check is inside mountCentralSso.
+mountCentralSso(app, env);
 app.use("/api/categories", categoryRoutes);
 app.use("/api/courses", courseRoutes);
 app.use("/api/courses", moduleRoutes);

@@ -1,19 +1,19 @@
 # SkilledAt.Work
 
-> **Skilled** is the short name for SkilledAt.Work.
+The repository root is the pnpm workspace. Use `apps/backend`, `apps/frontend`, `packages` and `curriculum` directly. `Main` is the case-sensitive GitHub default branch. Canonical media remains in `brand/` and `library/`; frontend predev/prebuild prepares its public copies. See [consolidation details](docs/REPOSITORY-CONSOLIDATION.md).
 
-> **Production safety:** This repository contains a separately staged, unverified production candidate. **Do not run** `docker compose up` or inherited bootstrap scripts on an existing DirectAdmin server. The original developer Compose configuration is saved as `docker-compose.local-dev.yml` and is not suitable for production. See [deployment preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md).
+> **SkilledAt.Work production safety (Pass 43):** This repository contains a separately staged, unverified production candidate. **Do not run** `docker compose up` or inherited bootstrap scripts on an existing DirectAdmin server. The original developer Compose configuration is saved as `docker-compose.local-dev.yml` and is not suitable for production. See [Academy production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md).
 
-Skilled is a training platform for field and home-service businesses. It combines a course and learner base with curriculum composition, knowledge checks, practical evidence and assessor review, organisation-scoped training, and business-specific lesson context with immutable presentation snapshots.
+SkilledAt.Work is a training platform for field and home-service businesses. It combines a course and learner base with curriculum composition, knowledge checks, practical evidence and assessor review, organisation-scoped training, and business-specific lesson context with immutable presentation snapshots.
 
-The platform was consolidated from an inherited full-stack learning system (see [Origin and licence](#origin-and-licence)). Some retained modules have not been re-verified for Skilled. Verification status for every open item is tracked in [`SKILLED-MASTER-IMPROVEMENT-REGISTER.md`](SKILLED-MASTER-IMPROVEMENT-REGISTER.md).
+The codebase was started from an inherited full-stack LMS (see [Origin and licence](#origin-and-licence)). Inherited modules are kept where SkilledAt.Work still uses them. Their behaviour is not re-verified for SkilledAt.Work. Verification status for every open item is tracked in [`SKILLED-MASTER-IMPROVEMENT-REGISTER.md`](SKILLED-MASTER-IMPROVEMENT-REGISTER.md).
 
 > **Status (2026-11-08): not production-verified.** The fresh install check verified:
 > - Frozen-lockfile install passes (`pnpm install --frozen-lockfile`).
 > - `prisma validate` and `prisma generate` pass.
 > - Backend `tsc` and frontend `next build` pass. Frontend lint passes.
 > - Migrations apply to an empty PostgreSQL 16 database with no drift.
-> - Backend unit tests pass, with 7 test files skipped (see [Testing and Quality Gates](#testing-and-quality-gates)).
+> - Backend unit tests pass, with 9 test files skipped (see [Testing and Quality Gates](#testing-and-quality-gates)).
 > - Repository source verification passes 26/26.
 >
 > Not verified: the full stack with MinIO, the browser suite, and live API flows. See the register (ACA-001 to ACA-004, ACA-018).
@@ -37,14 +37,13 @@ The platform was consolidated from an inherited full-stack learning system (see 
 - [API Overview](#api-overview)
 - [Testing and Quality Gates](#testing-and-quality-gates)
 - [Documentation](#documentation)
-- [Repository consolidation](#repository-consolidation)
 - [Origin and licence](#origin-and-licence)
 
 ---
 
 ## Overview
 
-Skilled delivers training that a business can configure without changing the canonical lesson content:
+SkilledAt.Work delivers training that a business can configure without changing the canonical lesson content:
 
 - **Canonical lessons and revisions.** Lesson content is versioned. Only published revisions reach learners. Curriculum drafts stay in review until a human approves them.
 - **Tracks and course composition.** Published tracks are attached to courses. Each placement is marked required or optional.
@@ -59,7 +58,7 @@ Skilled delivers training that a business can configure without changing the can
 
 ## Features
 
-### Skilled learning
+### Academy additions
 - Curriculum tracks, lesson revisions and placements, with publication gates
 - Learner acknowledgements, separate from practical competency
 - Server-graded knowledge checks (80% pass threshold)
@@ -69,7 +68,7 @@ Skilled delivers training that a business can configure without changing the can
 - Organisation-scoped lesson context snapshots with history paging and integrity checks
 - Evidence-backed learner and organisation completion reports
 
-### Learning platform capabilities
+### Inherited LMS base (retained where used)
 - Course, module and lesson management, with video upload
 - Enrolment and per-lesson progress tracking
 - Quizzes with auto-grading for single-choice questions
@@ -99,7 +98,7 @@ Skilled delivers training that a business can configure without changing the can
 ## Folder Structure
 
 ```
-skilled/ (repository root)
+
 ├── apps/
 │   ├── backend/
 │   │   ├── src/
@@ -112,7 +111,6 @@ skilled/ (repository root)
 │   │   └── scripts/              # verification scripts
 │   └── frontend/
 │       ├── src/                  # App Router pages, typed API clients, stores, components
-│       ├── public/academy/       # Course artwork and lesson media served by the app
 │       ├── scripts/              # source-level UI checks
 │       └── tests/browser/        # Playwright browser suite for the lesson player (mocked API)
 ├── curriculum/                   # lesson drafts, normalisation index, assessment files, CI baseline
@@ -127,16 +125,18 @@ skilled/ (repository root)
 ## Getting Started
 
 ### Prerequisites
-- Node.js 20 or later
-- pnpm 10 or later
+- Node.js 22 (the version CI and the verification evidence use; the root `package.json` `engines` field sets `>=20` as a floor)
+- pnpm 10.0.0, exactly, as pinned by the root `packageManager` field. Use Corepack so this version is used; see Setup.
 - Docker (for Postgres, Redis, MinIO and Mailhog)
 
 ### Setup
 
 ```bash
-git clone <repository-url> skilled
-cd skilled
+git clone <repository-url> titan-academy
+cd titan-academy
 
+corepack enable              # makes `pnpm` run the version pinned in package.json (10.0.0)
+pnpm -v                      # should print 10.0.0
 pnpm install
 
 cp apps/backend/.env.example apps/backend/.env   # then set every secret; see docs/runbooks/secrets-handling.md
@@ -156,11 +156,11 @@ The backend reads `.env` from its own directory, `apps/backend/`. The dotenv loa
 | Variable | Purpose |
 |---|---|
 | `CLIENT_URL` | Public URL of the frontend. `http://localhost:3000` locally; must be `https://` in production |
-| `NEXT_PUBLIC_SITE_URL` | Public frontend origin used when building absolute share-card URLs. Use `http://localhost:3000` locally and the verified HTTPS frontend origin in production |
 | `DATABASE_URL` | PostgreSQL connection string. Use a local development database; production requires the dedicated `titan_academy` database and role |
-| `REDIS_URL` | Redis, used by the BullMQ email and certificate workers |
-| `JWT_ACCESS_SECRET` | Signs access tokens. At least 10 characters; at least 32 in production |
-| `JWT_REFRESH_SECRET` | Signs refresh tokens. Must differ from `JWT_ACCESS_SECRET` in production |
+| `REDIS_URL` | Redis, used by the BullMQ email and certificate workers. Host and port only; credentials are refused |
+| `REDIS_PASSWORD` | Redis AUTH password, optional. Passed separately from `REDIS_URL` |
+| `JWT_ACCESS_SECRET` | Signs access tokens. At least 32 characters in every environment |
+| `JWT_REFRESH_SECRET` | Signs refresh tokens. At least 32 characters in every environment; must differ from `JWT_ACCESS_SECRET` |
 | `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY` | Credentials for MinIO object storage (uploads) |
 
 Other variables (server port, MinIO endpoint and bucket, SMTP, token lifetimes, Stripe keys, curriculum directory) have defaults. They are defined in `apps/backend/src/config/env.ts`.
@@ -205,7 +205,7 @@ These accounts are created by the local seed script (`pnpm prisma:seed`). They a
 | Teacher | teacher@skilled.local | Password123! |
 | Student | student@skilled.local | Password123! |
 
-The `@skilled.local` domain is reserved for local demo seed accounts; it is not a customer email domain.
+The `@skilled.local` domain is a seed identifier. Databases seeded before this change still hold the old `@lms.local` accounts and must be re-seeded to get the new addresses.
 
 ---
 
@@ -242,7 +242,7 @@ A lesson acknowledgement in these reports is a learning record. It is not a veri
 
 ## Testing and Quality Gates
 
-The figures in this section are from the 2026-11-08 fresh install check. The older results in [`PASS42/QUALITY-ops.md`](PASS42/QUALITY-ops.md) are historical and do not describe the current state.
+The figures in this section are from the 2026-11-08 fresh install check, except the Vitest counts, which are from the 2026-11-09 run. The older results in [`PASS42/QUALITY-ops.md`](PASS42/QUALITY-ops.md) are historical and do not describe the current state.
 
 ```bash
 # Backend unit tests (Vitest). Integration suites skip unless real services are configured (see below)
@@ -263,11 +263,11 @@ pnpm curriculum:ci
 
 The Academy backend suites run against an in-memory Prisma double. They exercise the real services and routers, but they do not replace testing against PostgreSQL (register ACA-003). The browser suite verifies the lesson player UI against a mocked API. It does not verify the live API (register ACA-019).
 
-A fresh `vitest run` in `apps/backend` reports **33 test files passed, 7 skipped** and **532 tests passed, 75 skipped**.
+A fresh `vitest run` in `apps/backend` reports **61 test files passed, 9 skipped** (70 files) and **928 tests passed, 114 skipped** (2026-11-09, after `prisma generate`). Without the generated Prisma client, 27 files fail to load with `Cannot find module '.prisma/client/default'`, and the run reports 502 tests passed, 103 skipped.
 
 ### Backend tests that skip by default
 
-A bare run has no PostgreSQL or Redis. The seven skipped files are gated by `describeWithServices` in [`apps/backend/src/tests/integration/harness.ts`](apps/backend/src/tests/integration/harness.ts). That helper skips a suite unless `DATABASE_URL` and `REDIS_URL` both point at real services. The default placeholders point at `127.0.0.1:1`, where nothing listens.
+A bare run has no PostgreSQL or Redis. The nine skipped files are gated by `describeWithServices` in [`apps/backend/src/tests/integration/harness.ts`](apps/backend/src/tests/integration/harness.ts). That helper skips a suite unless `DATABASE_URL` and `REDIS_URL` both point at real services. The default placeholders point at `127.0.0.1:1`, where nothing listens.
 
 | Skipped file | Group | Needs |
 |---|---|---|
@@ -278,6 +278,8 @@ A bare run has no PostgreSQL or Redis. The seven skipped files are gated by `des
 | `src/tests/integration/identity-linking.test.ts` | ACA-028 identity linking | PostgreSQL and Redis |
 | `src/tests/integration/credential-lifecycle.test.ts` | ACA-017 credential rotation, revocation and expiry | PostgreSQL and Redis |
 | `src/tests/integration/learner-status.test.ts` | ACA-016 inactive and deleted learner rejection | PostgreSQL and Redis |
+| `src/tests/integration/curriculum-tenant-isolation.test.ts` | ACA-004 curriculum APIs and service credentials (38 tests) | PostgreSQL and Redis |
+| `src/tests/integration/payment-checkout-concurrency.test.ts` | Checkout claims under concurrent requests | PostgreSQL and Redis |
 
 To run them, set `DATABASE_URL` to a disposable local PostgreSQL database with the migrations applied, and set `REDIS_URL` to a local Redis. The harness refuses to run unless the database host is `localhost` or `127.0.0.1` and the database name contains `test`, because these suites delete rows. Never point them at a shared or production database.
 
@@ -295,16 +297,11 @@ The inherited `pass22` check (`apps/backend/tests/pass22-inactive-identity.test.
 - [`SKILLED-CLEANING-LESSONS.md`](SKILLED-CLEANING-LESSONS.md): cleaning vertical lesson notes
 - [`docs/runbooks/`](docs/runbooks/): deployment, secrets handling and recovery
 - [`docs/FIELD_SERVICES_CONTEXT_SYNC.md`](docs/FIELD_SERVICES_CONTEXT_SYNC.md): Field Services context synchronisation contract
-- [`SKILLED-INTEGRATION-PROVISIONING.md`](SKILLED-INTEGRATION-PROVISIONING.md): external identity provisioning
-
-## Repository consolidation
-
-The source of truth is the repository root. Artwork and lesson media are served from `apps/frontend/public/academy/`. See [`docs/REPOSITORY-CONSOLIDATION.md`](docs/REPOSITORY-CONSOLIDATION.md) for the source/archive reconciliation and the compatibility-sensitive identifiers intentionally retained.
 
 ---
 
 ## Origin and licence
 
-Skilled began from an inherited MIT-licensed full-stack LMS. Its original author is Farrukh Ali Khan. The copyright notice is retained in [`LICENSE`](LICENSE), as the MIT licence requires.
+SkilledAt.Work began from an inherited MIT-licensed full-stack LMS. Its original author is Farrukh Ali Khan. The copyright notice is retained in [`LICENSE`](LICENSE), as the MIT licence requires.
 
 Released under the [MIT License](LICENSE).

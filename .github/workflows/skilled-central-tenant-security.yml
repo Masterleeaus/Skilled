@@ -1,0 +1,52 @@
+name: skilled-central-tenant-security
+on:
+  pull_request:
+    paths:
+      - 'apps/backend/src/modules/auth/central-lms-*.ts'
+      - 'apps/backend/src/tests/central-lms-*.ts'
+      - '.github/workflows/skilled-central-tenant-security.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/backend/src/modules/auth/central-lms-*.ts'
+      - 'apps/backend/src/tests/central-lms-*.ts'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NODE_ENV: test
+      CLIENT_URL: http://localhost:3000
+      DATABASE_URL: postgresql://testing:testing@localhost:5432/lms_test
+      REDIS_URL: redis://localhost:6379/0
+      JWT_ACCESS_SECRET: ci-test-access-secret-only-not-real
+      JWT_REFRESH_SECRET: ci-test-refresh-secret-only-not-real
+      MINIO_ACCESS_KEY: test-minio
+      MINIO_SECRET_KEY: ci-test-minio-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - name: Install reproducibly
+        working-directory: .
+        run: pnpm install --frozen-lockfile
+      - name: Generate backend types
+        working-directory: apps/backend
+        run: pnpm exec prisma generate
+      - name: Validate existing Central adapter and all independent security scenarios
+        working-directory: apps/backend
+        run: pnpm exec vitest run src/tests/central-lms-contract.test.ts src/tests/central-lms-link.test.ts src/tests/central-lms-session.test.ts src/tests/central-lms-security-*.test.ts
+      - name: Typecheck backend and isolated Central security tests
+        working-directory: apps/backend
+        run: |
+          pnpm exec tsc --noEmit
+          pnpm exec tsc --project tsconfig.central-lms.json

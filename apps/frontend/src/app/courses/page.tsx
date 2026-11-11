@@ -21,8 +21,10 @@ export default function BrowseCoursesPage() {
   return (
     <div>
       <Topbar title="Browse Courses" />
-      <main className="mx-auto max-w-5xl px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-5xl px-6 py-8">
         <input
+          type="search"
+          aria-label="Search courses"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search courses..."

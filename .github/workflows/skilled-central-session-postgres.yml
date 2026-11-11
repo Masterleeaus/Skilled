@@ -1,0 +1,67 @@
+name: Skilled Central multi-tenant PostgreSQL sessions
+on:
+  pull_request:
+    paths:
+      - 'apps/backend/src/modules/auth/central-session-store.ts'
+      - 'apps/backend/src/tests/central-session-pg-*.test.ts'
+      - 'apps/backend/src/tests/central-session-postgres.fixture.ts'
+      - 'apps/backend/tsconfig.central-session-pg.json'
+      - '.github/workflows/skilled-central-session-postgres.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/backend/src/modules/auth/central-session-store.ts'
+      - 'apps/backend/src/tests/central-session-pg-*.test.ts'
+      - 'apps/backend/src/tests/central-session-postgres.fixture.ts'
+      - 'apps/backend/tsconfig.central-session-pg.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tenant-isolation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: skilled_tenant_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d skilled_tenant_ci"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/skilled_tenant_ci
+      SKILLED_CENTRAL_SESSION_PG_TEST: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - name: Install immutable dependencies
+        working-directory: .
+        run: pnpm install --frozen-lockfile
+      - name: Provision disposable PostgreSQL database from actual Prisma schema
+        working-directory: apps/backend
+        run: |
+          pnpm exec prisma validate
+          pnpm exec prisma generate
+          pnpm exec prisma db push --skip-generate
+      - name: Real two-tenant session, revocation and concurrent rotation checks
+        working-directory: apps/backend
+        run: pnpm exec vitest run src/tests/central-session-pg-*.test.ts --maxWorkers=4
+      - name: Typecheck production backend and test fixture
+        working-directory: apps/backend
+        run: |
+          pnpm exec tsc --noEmit
+          pnpm exec tsc --project tsconfig.central-session-pg.json

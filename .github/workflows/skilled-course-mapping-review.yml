@@ -1,0 +1,49 @@
+name: skilled-course-mapping-review
+on:
+  pull_request:
+    paths:
+      - "curriculum/shared/app/SFS-*.json"
+      - "curriculum/reviews/course-mapping/**"
+      - "scripts/audit-course-mapping-review.mjs"
+      - "scripts/test-audit-course-mapping-review.mjs"
+      - ".github/workflows/skilled-course-mapping-review.yml"
+  push:
+    branches: [Main, main]
+    paths:
+      - "curriculum/shared/app/SFS-*.json"
+      - "curriculum/reviews/course-mapping/**"
+      - "scripts/audit-course-mapping-review.mjs"
+      - "scripts/test-audit-course-mapping-review.mjs"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run reviewer evidence regression tests
+        working-directory: .
+        run: node --test scripts/test-audit-course-mapping-review.mjs
+      - name: Validate all 16 source-linked review records
+        working-directory: .
+        run: node scripts/audit-course-mapping-review.mjs --report build/course-mapping-review-audit.json
+      - name: Prove pending course placements fail closed
+        working-directory: .
+        run: |
+          if node scripts/audit-course-mapping-review.mjs --fail-on-unresolved; then
+            echo "::error::Pending editorial decisions unexpectedly passed strict mode"
+            exit 1
+          fi
+      - name: Preserve item-level report even if blocked
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: skilled-course-mapping-review
+          path: build/course-mapping-review-audit.json
+          retention-days: 30
+          if-no-files-found: warn

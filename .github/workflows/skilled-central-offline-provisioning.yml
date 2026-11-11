@@ -1,0 +1,55 @@
+name: skilled-central-offline-provisioning
+on:
+  pull_request:
+    paths:
+      - 'apps/backend/prisma/provision-titan-integration.ts'
+      - 'apps/backend/src/tests/central-offline-provisioning.test.ts'
+      - 'apps/backend/src/tests/fixtures/central-offline-provisioning/**'
+      - 'apps/backend/tsconfig.central-provisioning.json'
+      - '.github/workflows/skilled-central-offline-provisioning.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/backend/prisma/provision-titan-integration.ts'
+      - 'apps/backend/src/tests/central-offline-provisioning.test.ts'
+      - 'apps/backend/src/tests/fixtures/central-offline-provisioning/**'
+      - 'apps/backend/tsconfig.central-provisioning.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline-provisioning:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NODE_ENV: test
+      CLIENT_URL: http://localhost:3000
+      DATABASE_URL: postgresql://testing:testing@localhost:5432/lms_test
+      REDIS_URL: redis://localhost:6379/0
+      JWT_ACCESS_SECRET: ci-test-access-secret-only-not-real
+      JWT_REFRESH_SECRET: ci-test-refresh-secret-only-not-real
+      MINIO_ACCESS_KEY: test-minio
+      MINIO_SECRET_KEY: ci-test-minio-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - working-directory: .
+        run: pnpm install --frozen-lockfile
+      - name: Generate Prisma client
+        working-directory: apps/backend
+        run: pnpm exec prisma generate
+      - name: Verify all 20 offline provisioning scenarios
+        working-directory: apps/backend
+        run: pnpm exec vitest run src/tests/central-offline-provisioning.test.ts
+      - name: Verify backend code and provisioning contract types
+        working-directory: apps/backend
+        run: |
+          pnpm exec tsc --noEmit
+          pnpm exec tsc --project tsconfig.central-provisioning.json

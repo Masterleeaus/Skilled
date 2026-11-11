@@ -1,0 +1,66 @@
+name: skilled-auth-discussion-consolidation
+on:
+  pull_request:
+    paths:
+      - 'apps/frontend/src/app/(auth)/**'
+      - 'apps/frontend/src/app/student/courses/**'
+      - 'apps/frontend/src/app/teacher/courses/**'
+      - 'apps/frontend/src/components/AuthBrand.tsx'
+      - 'apps/frontend/src/components/DiscussionThreadDetail.tsx'
+      - 'scripts/test-account-flow-branding.mjs'
+      - 'scripts/test-active-source-consolidation.mjs'
+      - 'scripts/audit-public-product-identity.mjs'
+      - 'scripts/test-audit-public-product-identity.mjs'
+      - 'scripts/test-skilled-public-brand.mjs'
+      - 'scripts/test-deployment-doc-contract.mjs'
+      - 'docs/**'
+      - '.github/workflows/skilled-auth-discussion-consolidation.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/frontend/src/**'
+      - 'scripts/test-account-flow-branding.mjs'
+      - 'scripts/test-active-source-consolidation.mjs'
+      - 'scripts/audit-public-product-identity.mjs'
+      - 'scripts/test-audit-public-product-identity.mjs'
+      - 'scripts/test-skilled-public-brand.mjs'
+      - 'scripts/test-deployment-doc-contract.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - working-directory: .
+        run: |
+          node --test scripts/test-account-flow-branding.mjs
+          node --test scripts/test-active-source-consolidation.mjs
+          node --test scripts/test-audit-public-product-identity.mjs
+          node --test scripts/test-skilled-public-brand.mjs
+          node --test scripts/test-deployment-doc-contract.mjs
+          node scripts/audit-public-product-identity.mjs --strict
+  application-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - working-directory: .
+        run: pnpm install --frozen-lockfile
+      - working-directory: apps/frontend
+        run: |
+          pnpm lint
+          pnpm build

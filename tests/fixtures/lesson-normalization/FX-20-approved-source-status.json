@@ -1,0 +1,10 @@
+{
+  "caseId": "FX-20",
+  "description": "A source approval status does not authorize normalized publication",
+  "overrides": {
+    "status": "APPROVED"
+  },
+  "remove": [],
+  "expectedBlockers": [],
+  "expectedPriority": null
+}

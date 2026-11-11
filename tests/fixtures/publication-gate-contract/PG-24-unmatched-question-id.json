@@ -1,0 +1,14 @@
+{
+  "name": "unmatched-question-id",
+  "expectedApproved": false,
+  "expectedReason": "question_mapping_unmatched_answer",
+  "assessmentPatch": {
+    "knowledgeAnswers": [
+      {
+        "id": "Q2",
+        "correctIndex": 0,
+        "rationale": "Correct"
+      }
+    ]
+  }
+}

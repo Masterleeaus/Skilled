@@ -1,4 +1,6 @@
-# Skilled deployment runbook
+# SkilledAt.Work — release and rollback runbook
+
+> **Canonical release entrypoint:** [Skilled deployment guide](../DEPLOYMENT.md). This runbook sets release gates; it does not verify provisioned hosts. A separate [historical server checklist](../../curriculum/research/DEPLOY-RUNBOOK.md) is unverified and must not override these gates.
 
 Owner: to be assigned. Status: **documented, not rehearsed**. The staging restore and deploy rehearsal in this runbook has not been performed (register ACA-022). Do not treat any step here as proven until the rehearsal log exists.
 
