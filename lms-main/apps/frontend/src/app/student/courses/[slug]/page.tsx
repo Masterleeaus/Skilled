@@ -9,7 +9,7 @@ import {
   fetchCourseBySlug,
   fetchCourseProgress,
   markLessonProgress,
-  fetchLessonVideoUrl,
+  fetchLessonMedia,
   type Lesson,
 } from "@/lib/course-detail.api";
 import { fetchQuizzesForCourse } from "@/lib/quiz.api";
@@ -30,6 +30,7 @@ export default function CoursePlayerPage() {
   const queryClient = useQueryClient();
   const [activeLesson, setActiveLesson] = useState<Lesson | null>(null);
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
+  const [captionsUrl, setCaptionsUrl] = useState<string | null>(null);
   const latestLessonRequest = useRef(0);
   // The licence track requested by the URL (?track=). The server ignores it for an enrolled learner, so the saved track below governs.
   const [track, setTrack] = useLicenceTrack();
@@ -139,12 +140,19 @@ export default function CoursePlayerPage() {
     const requestId = ++latestLessonRequest.current;
     setActiveLesson(lesson);
     setVideoUrl(null);
+    setCaptionsUrl(null);
     if (lesson.videoUrl) {
       try {
-        const url = await fetchLessonVideoUrl(lesson.id);
-        if (requestId === latestLessonRequest.current) setVideoUrl(url);
+        const media = await fetchLessonMedia(lesson.id);
+        if (requestId === latestLessonRequest.current) {
+          setVideoUrl(media.url);
+          setCaptionsUrl(media.captionsUrl);
+        }
       } catch {
-        if (requestId === latestLessonRequest.current) setVideoUrl(null);
+        if (requestId === latestLessonRequest.current) {
+          setVideoUrl(null);
+          setCaptionsUrl(null);
+        }
       }
     }
   }
@@ -295,10 +303,10 @@ export default function CoursePlayerPage() {
             <div className="max-w-3xl">
               <h2 className="text-xl font-semibold">{activeLesson.title}</h2>
 
-              {/* TODO(ACA-023 item 5): lesson videos have no caption track and the lesson schema has no track field.
-                  Captions are not added here. Confirm captions exist for each published video, then add track support. See fix-accessibility.md. */}
               {videoUrl ? (
-                <video controls className="mt-4 w-full rounded-lg" src={videoUrl} />
+                <video controls className="mt-4 w-full rounded-lg" src={videoUrl}>
+                  {captionsUrl && <track kind="captions" src={captionsUrl} srcLang="en" label="English" />}
+                </video>
               ) : (
                 <div className="mt-4 flex aspect-video items-center justify-center rounded-lg bg-neutral-900 text-neutral-500">
                   No video attached to this lesson

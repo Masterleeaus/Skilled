@@ -1,0 +1,26 @@
+{
+  "name": "create-and-revoke",
+  "initial": [],
+  "commands": [
+    {
+      "action": "link",
+      "centralOrganisationId": "central-org-0001",
+      "localAccountId": "skilled-acct-0001",
+      "companyId": "skilled-company-0001",
+      "actorRef": "operator-01"
+    },
+    {
+      "action": "revoke",
+      "centralOrganisationId": "central-org-0001",
+      "localAccountId": "skilled-acct-0001",
+      "companyId": "skilled-company-0001",
+      "actorRef": "operator-01"
+    }
+  ],
+  "expected": [
+    "LINK_CREATED",
+    "LINK_REVOKED"
+  ],
+  "state": "revoked",
+  "audits": 2
+}

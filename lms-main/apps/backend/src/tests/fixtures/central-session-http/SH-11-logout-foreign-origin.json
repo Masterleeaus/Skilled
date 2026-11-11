@@ -1,0 +1,12 @@
+{
+  "id": "logout-foreign-origin",
+  "enabled": true,
+  "method": "POST",
+  "path": "/logout",
+  "cookie": "good",
+  "origin": "https://attacker.example.test",
+  "fetchSite": "same-origin",
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 403
+}

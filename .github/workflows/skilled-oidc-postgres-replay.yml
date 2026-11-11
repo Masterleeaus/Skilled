@@ -1,0 +1,70 @@
+name: Skilled OIDC PostgreSQL replay integration
+
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-oidc-*.ts'
+      - 'lms-main/apps/backend/src/tests/central-oidc-runtime-*.test.ts'
+      - 'lms-main/apps/backend/prisma/migrations/20261109160000_skilled_oidc_state/**'
+      - '.github/workflows/skilled-oidc-postgres-replay.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-oidc-state-*.ts'
+      - 'lms-main/apps/backend/src/modules/auth/central-oidc-authorized-provider.ts'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real-postgres-oidc-state:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: skilled_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d skilled_ci"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/skilled_ci
+      SKILLED_OIDC_PG_TEST: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - name: Install frozen dependencies
+        working-directory: lms-main
+        run: pnpm install --frozen-lockfile
+      - name: Validate Prisma schema, generate client
+        working-directory: lms-main/apps/backend
+        run: |
+          pnpm exec prisma validate
+          pnpm exec prisma generate
+      - name: Apply isolated additive OIDC state migration to test PostgreSQL
+        run: |
+          psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -f lms-main/apps/backend/prisma/migrations/20261109160000_skilled_oidc_state/migration.sql
+      - name: Verify PostgreSQL one-use state and concurrent replay denial
+        working-directory: lms-main/apps/backend
+        run: pnpm exec vitest run src/tests/central-oidc-real-postgres.test.ts
+      - name: Verify runtime state, configuration and callback tests
+        working-directory: lms-main/apps/backend
+        env:
+          SKILLED_OIDC_PG_TEST: "0"
+        run: pnpm exec vitest run src/tests/central-oidc-runtime-*.test.ts src/tests/central-oidc-verified-login.test.ts
+      - name: Backend TypeScript check
+        working-directory: lms-main/apps/backend
+        run: pnpm exec tsc --noEmit

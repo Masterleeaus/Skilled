@@ -43,7 +43,7 @@ export default function AssessorPracticalEvidencePage() {
 
   return <>
     <Topbar title="Practical evidence review" />
-    <main className="mx-auto max-w-4xl space-y-6 px-6 py-7 text-slate-100">
+    <main id="main-content" tabIndex={-1} className="mx-auto max-w-4xl space-y-6 px-6 py-7 text-slate-100">
       <p className="text-sm text-slate-300">
         Review practical evidence submitted by learners. Approving evidence creates a verified competency. A knowledge check result is not practical evidence.
       </p>

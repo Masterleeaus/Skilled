@@ -5,7 +5,10 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {reconcile,authoringLesson} from './reconcile-assessment-questions.mjs';
-const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+// Explicit fixture roots are for isolated CLI regression tests only; the default is canonical source.
+const rootArg=process.argv.slice(2).find(arg=>arg.startsWith('--curriculum-root='));
+if(rootArg==='--curriculum-root=')throw new Error('curriculum root cannot be empty');
+const root=rootArg?path.resolve(rootArg.slice('--curriculum-root='.length)):path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const base=path.join(root,'curriculum/assessments');
 const files=fs.readdirSync(base).filter(n=>n.endsWith('.assessment.json')).sort();
 const approvalsPath=process.env.ACADEMY_ASSESSMENT_APPROVALS || path.join(root,'curriculum/assessment-publication-approvals.json');
@@ -23,21 +26,36 @@ for(const filename of files){
  const file=path.join(base,filename),bytes=fs.readFileSync(file),sha256=crypto.createHash('sha256').update(bytes).digest('hex');
  const reasons=[];let a;
  try{a=JSON.parse(bytes);}catch{reasons.push('invalid_json');records.push({filename,sha256,status:'blocked',reasons});continue;}
+ if(!a||typeof a!=='object'||Array.isArray(a)){
+  records.push({filename,sha256,status:'blocked',reasons:['invalid_assessment_shape']});
+  continue;
+ }
+ if(typeof a.lessonId!=='string'||!a.lessonId.trim())reasons.push('invalid_lesson_id');
  if(a.lessonId!==filename.replace('.assessment.json',''))reasons.push('identity_mismatch');
  if(!Array.isArray(a.knowledgeAnswers)||!a.knowledgeAnswers.length)reasons.push('missing_answer_keys');
  else {const ids=new Set();for(const answer of a.knowledgeAnswers){
-  if(!answer.id||ids.has(answer.id))reasons.push('duplicate_or_missing_answer_id');ids.add(answer.id);
+  if(!answer||typeof answer!=='object'||Array.isArray(answer)){
+   reasons.push('invalid_answer_entry');
+   continue;
+  }
+  if(typeof answer.id!=='string'||!answer.id.trim()){
+   reasons.push('invalid_answer_id');
+   // Preserve the established refusal category consumed by older CI and review reports.
+   reasons.push('duplicate_or_missing_answer_id');
+  }
+  else if(ids.has(answer.id))reasons.push('duplicate_or_missing_answer_id');
+  else ids.add(answer.id);
   if(!Number.isInteger(answer.correctIndex)||answer.correctIndex<0)reasons.push('invalid_answer_index');
-  if(!answer.rationale?.trim())reasons.push('missing_rationale');
+  if(typeof answer.rationale!=='string'||!answer.rationale.trim())reasons.push('missing_rationale');
  }}
  if(!Array.isArray(a.practicalCriteria)||!a.practicalCriteria.some(x=>typeof x==='string'&&x.trim()))reasons.push('missing_practical_criteria');
- if(!a.passRule?.trim()||/^NOT SET$/i.test(a.passRule.trim()))reasons.push('unconfigured_pass_rule');
+ if(typeof a.passRule!=='string'||!a.passRule.trim()||/^NOT SET$/i.test(a.passRule.trim()))reasons.push('unconfigured_pass_rule');
  if(!Array.isArray(a.evidenceRequired))reasons.push('invalid_evidence_requirements');
  if(!Array.isArray(a.stopWorkCriteria))reasons.push('invalid_stop_work_criteria');
- const found=authoringLesson(root,a.lessonId);
+ const found=typeof a.lessonId==='string'?authoringLesson(root,a.lessonId):null;
  const converted=found?found.json:null;
  for(const finding of reconcile(a,converted))reasons.push('question_mapping_'+finding.code);
- const approval=Object.hasOwn(approvals,a.lessonId)?approvals[a.lessonId]:undefined;
+ const approval=typeof a.lessonId==='string'&&Object.hasOwn(approvals,a.lessonId)?approvals[a.lessonId]:undefined;
  if(!approval||approval.sha256!==sha256||approval.status!=='approved'||!validReviewer(approval.reviewer)||!validReviewedAt(approval.reviewedAt))reasons.push('missing_or_stale_human_approval');
  records.push({lessonId:a.lessonId,filename,sha256,status:reasons.length?'blocked':'approved',reasons:[...new Set(reasons)]});
 }

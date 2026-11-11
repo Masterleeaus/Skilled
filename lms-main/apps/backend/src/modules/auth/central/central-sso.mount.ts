@@ -4,7 +4,7 @@
  */
 import type { Express } from "express";
 import type { Env } from "../../../config/env";
-import { centralSsoProblems, CENTRAL_SSO_CALLBACK_PATH } from "../../../config/central-sso";
+import { centralSsoProblems, CENTRAL_SSO_CALLBACK_PATH, CENTRAL_SSO_START_PATH } from "../../../config/central-sso";
 import { prisma } from "../../../config/prisma";
 import { redis } from "../../../config/redis";
 import { logger } from "../../../config/logger";
@@ -33,7 +33,7 @@ export function mountCentralSso(app: Express, env: Env): boolean {
     verifyIdToken: createCentralIdTokenVerifier({ issuer: settings.issuer, clientId: settings.clientId, jwksUri: settings.jwksUri }),
   });
   app.use(
-    "/api/auth/central",
+    CENTRAL_SSO_START_PATH.slice(0, -"/start".length),
     createCentralSsoRouter({
       db: prisma,
       oidc,

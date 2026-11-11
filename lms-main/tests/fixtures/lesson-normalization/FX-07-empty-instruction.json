@@ -1,0 +1,12 @@
+{
+  "caseId": "FX-07",
+  "description": "Empty instruction array",
+  "overrides": {
+    "instruction": []
+  },
+  "remove": [],
+  "expectedBlockers": [
+    "no usable instructional sections"
+  ],
+  "expectedPriority": "P0"
+}

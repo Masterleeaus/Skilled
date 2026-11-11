@@ -1,0 +1,12 @@
+{
+  "id": "valid-status",
+  "enabled": true,
+  "method": "GET",
+  "path": "/session",
+  "cookie": "good",
+  "origin": null,
+  "fetchSite": null,
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 200
+}

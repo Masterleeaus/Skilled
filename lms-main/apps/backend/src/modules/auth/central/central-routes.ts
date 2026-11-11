@@ -1,5 +1,5 @@
 /**
- * Central SSO browser routes: GET /api/auth/central/start and GET /api/auth/central/callback.
+ * Central SSO browser routes: GET /auth/titan/academy/start and GET /auth/titan/academy/callback.
  *
  * On success the callback creates an ordinary Skilled refresh session (same table, same cookie, same rotation and
  * logout as email/password login) and redirects to the frontend. The frontend's existing mount-time

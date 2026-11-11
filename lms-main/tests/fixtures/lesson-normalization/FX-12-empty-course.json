@@ -1,0 +1,12 @@
+{
+  "caseId": "FX-12",
+  "description": "Empty course association list",
+  "overrides": {
+    "courseSlugs": []
+  },
+  "remove": [],
+  "expectedBlockers": [
+    "course mapping requires review"
+  ],
+  "expectedPriority": "P2"
+}

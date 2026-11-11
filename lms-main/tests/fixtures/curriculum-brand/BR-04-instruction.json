@@ -1,0 +1,17 @@
+{
+  "name": "04-instruction",
+  "input": {
+    "instruction": [
+      {
+        "heading": "Titan Academy orientation",
+        "body": "Proceed"
+      }
+    ]
+  },
+  "expected": [
+    [
+      "/instruction/0/heading",
+      "learner-visible-review"
+    ]
+  ]
+}

@@ -38,7 +38,7 @@ export default function NewAssignmentPage() {
   return (
     <div>
       <Topbar title="New Assignment" backHref="back" backLabel="Back to course" />
-      <main className="mx-auto max-w-xl space-y-4 px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-xl space-y-4 px-6 py-8">
         <input
           value={title}
           onChange={(e) => setTitle(e.target.value)}

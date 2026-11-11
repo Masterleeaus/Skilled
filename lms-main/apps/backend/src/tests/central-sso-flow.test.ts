@@ -30,7 +30,7 @@ import { linkCentralIdentity, unlinkCentralIdentity, resolveCentralLogin, type C
 import { CentralLinkError } from "../modules/auth/central/central-errors";
 import { mountCentralSso } from "../modules/auth/central/central-sso.mount";
 import { errorHandler, notFoundHandler } from "../middleware/errorHandler";
-import { centralSsoProblems, type CentralSsoSettings } from "../config/central-sso";
+import { centralSsoProblems, CENTRAL_SSO_START_PATH, type CentralSsoSettings } from "../config/central-sso";
 import {
   ISSUER, CLIENT_ID, CLIENT_SECRET, JWKS_URI, REDIRECT_URI, createSigningKey, createFakeCentral, idClaims,
   type SigningKey, type FakeCentral,
@@ -85,7 +85,7 @@ function buildApp(central: FakeCentral) {
     fetcher: central.fetcher,
     verifyIdToken,
   });
-  app.use("/api/auth/central", createCentralSsoRouter({ db, oidc, afterLoginUrl: CLIENT_URL }));
+  app.use(CENTRAL_SSO_START_PATH.slice(0, -"/start".length), createCentralSsoRouter({ db, oidc, afterLoginUrl: CLIENT_URL }));
   app.use("/api/auth", authRoutes);
   return app;
 }
@@ -96,7 +96,7 @@ async function signInThroughCentral(
   central: FakeCentral,
   options: { overrides?: Record<string, unknown>; signWith?: SigningKey } = {},
 ) {
-  const start = await request(app).get("/api/auth/central/start");
+  const start = await request(app).get("/auth/titan/academy/start");
   expect(start.status).toBe(302);
   const location = String(start.headers.location);
   const binding = cookieFrom(start, BINDING_COOKIE);
@@ -107,7 +107,7 @@ async function signInThroughCentral(
   const idTokenClaims = options.overrides ? idClaims(url.searchParams.get("nonce") ?? "", options.overrides) : undefined;
   const code = central.issueCode(location, { idTokenClaims, signWith: options.signWith });
   const callback = await request(app)
-    .get(`/api/auth/central/callback?state=${encodeURIComponent(state)}&code=${encodeURIComponent(code)}`)
+    .get(`/auth/titan/academy/callback?state=${encodeURIComponent(state)}&code=${encodeURIComponent(code)}`)
     .set("Cookie", binding as string);
   return { start, callback, session: cookieFrom(callback, SESSION_COOKIE), location, state, code, binding: binding as string };
 }
@@ -122,9 +122,9 @@ describe("Central SSO configuration", () => {
     expect(centralSsoProblems(valid)).toEqual([]);
     expect(centralSsoProblems({ ...valid, issuer: "http://id.central.test" }).length).toBeGreaterThan(0);
     expect(centralSsoProblems({ ...valid, redirectUri: "https://academy.test/auth/callback" })).toContain(
-      "CENTRAL_SSO_REDIRECT_URI must end with /api/auth/central/callback",
+      "CENTRAL_SSO_REDIRECT_URI must end with /auth/titan/academy/callback",
     );
-    expect(centralSsoProblems({ ...valid, redirectUri: "https://academy.test/api/auth/central/callback?x=1" })).not.toEqual([]);
+    expect(centralSsoProblems({ ...valid, redirectUri: "https://academy.test/auth/titan/academy/callback?x=1" })).not.toEqual([]);
     expect(centralSsoProblems({ ...valid, clientSecret: "short" })).not.toEqual([]);
   });
 
@@ -140,8 +140,8 @@ describe("Central SSO configuration", () => {
     app.use("/api/auth", authRoutes);
     app.use(notFoundHandler);
     app.use(errorHandler);
-    expect((await request(app).get("/api/auth/central/start")).status).toBe(404);
-    expect((await request(app).get("/api/auth/central/callback?state=x&code=y")).status).toBe(404);
+    expect((await request(app).get("/auth/titan/academy/start")).status).toBe(404);
+    expect((await request(app).get("/auth/titan/academy/callback?state=x&code=y")).status).toBe(404);
     // Same answer as before this change: an unknown account gets the generic credentials error.
     const login = await request(app).post("/api/auth/login").send({ email: "nobody@skilled.test", password: "Password123!" });
     expect(login.status).toBe(401);
@@ -158,6 +158,19 @@ describe("Central SSO configuration", () => {
     const app = express();
     const incomplete = { ...env, CENTRAL_SSO_ENABLED: true, CENTRAL_SSO_ISSUER: "http://id.central.test", CENTRAL_SSO_CLIENT_ID: "", CENTRAL_SSO_CLIENT_SECRET: "short", CENTRAL_SSO_JWKS_URI: "", CENTRAL_SSO_REDIRECT_URI: "" } as typeof env;
     expect(() => mountCentralSso(app, incomplete)).toThrow(/Central SSO is misconfigured/);
+  });
+
+  it("mounts the reconciled callback path through production wiring and keeps the old path absent", async () => {
+    const app = express();
+    app.use(cookieParser());
+    expect(mountCentralSso(app, { ...env, CENTRAL_SSO_ENABLED: true,
+      CENTRAL_SSO_ISSUER: ISSUER, CENTRAL_SSO_CLIENT_ID: CLIENT_ID,
+      CENTRAL_SSO_CLIENT_SECRET: CLIENT_SECRET, CENTRAL_SSO_JWKS_URI: JWKS_URI,
+      CENTRAL_SSO_REDIRECT_URI: REDIRECT_URI })).toBe(true);
+    const callback = await request(app).get("/auth/titan/academy/callback");
+    expect(callback.status).toBe(400);
+    expect(callback.body).toEqual({ error: "invalid_callback" });
+    expect((await request(app).get("/api/auth/central/callback")).status).toBe(404);
   });
 });
 
@@ -178,7 +191,7 @@ describe("Central SSO sign-in with the flag on", () => {
     expect(bindingSet).toMatch(/HttpOnly/);
     expect(bindingSet).toMatch(/Secure/);
     expect(bindingSet).toMatch(/SameSite=Lax/);
-    expect(bindingSet).toContain("Path=/api/auth/central/callback");
+    expect(bindingSet).toContain("Path=/auth/titan/academy/callback");
 
     expect(callback.status).toBe(303);
     expect(callback.headers.location).toBe(CLIENT_URL);
@@ -296,13 +309,13 @@ describe("Central SSO sign-in with the flag on", () => {
 
   it("never takes an organisation or account from the browser", async () => {
     const app = buildApp(central);
-    const start = await request(app).get("/api/auth/central/start");
+    const start = await request(app).get("/auth/titan/academy/start");
     const binding = cookieFrom(start, BINDING_COOKIE) as string;
     const location = String(start.headers.location);
     const state = new URL(location).searchParams.get("state") as string;
     const code = central.issueCode(location);
     const tampered = await request(app)
-      .get(`/api/auth/central/callback?state=${state}&code=${code}&organisation=central-org-b&userId=learner-b`)
+      .get(`/auth/titan/academy/callback?state=${state}&code=${code}&organisation=central-org-b&userId=learner-b`)
       .set("Cookie", binding);
     expect(tampered.status).toBe(400);
     expect(tampered.body.error).toBe("invalid_callback");
@@ -339,15 +352,15 @@ describe("Central SSO sign-in with the flag on", () => {
     expect(first.callback.status).toBe(303);
 
     const replay = await request(app)
-      .get(`/api/auth/central/callback?state=${first.state}&code=${first.code}`)
+      .get(`/auth/titan/academy/callback?state=${first.state}&code=${first.code}`)
       .set("Cookie", first.binding);
     expect(replay.status).toBe(401);
     expect(replay.body.error).toBe("login_failed");
 
-    const noBinding = await request(app).get(`/api/auth/central/callback?state=${first.state}&code=x`);
+    const noBinding = await request(app).get(`/auth/titan/academy/callback?state=${first.state}&code=x`);
     expect(noBinding.status).toBe(400);
 
-    const providerError = await request(app).get("/api/auth/central/callback?error=access_denied&state=abc").set("Cookie", first.binding);
+    const providerError = await request(app).get("/auth/titan/academy/callback?error=access_denied&state=abc").set("Cookie", first.binding);
     expect(providerError.status).toBe(401);
     expect(providerError.body.error).toBe("identity_provider_rejected");
     expect(setCookieFor(providerError, BINDING_COOKIE)).toMatch(/Max-Age=0|Expires=/);

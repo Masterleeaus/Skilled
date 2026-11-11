@@ -1,0 +1,12 @@
+{
+  "id": "status-put-disallowed",
+  "enabled": true,
+  "method": "PUT",
+  "path": "/session",
+  "cookie": "good",
+  "origin": "https://skilled.example.test",
+  "fetchSite": "same-origin",
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 405
+}

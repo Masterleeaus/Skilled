@@ -1,0 +1,17 @@
+{
+  "case": "legacy-unscoped",
+  "query": {
+    "service": "field-services",
+    "companyId": "company-a",
+    "externalUserRef": "worker-1"
+  },
+  "rows": [
+    {
+      "service": "field-services",
+      "companyId": null,
+      "externalUserRef": "worker-1",
+      "userId": "learner-a"
+    }
+  ],
+  "expectedUserId": null
+}

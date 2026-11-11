@@ -1,0 +1,77 @@
+name: Skilled compatibility SSO regression
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central/**'
+      - 'lms-main/apps/backend/src/config/central-sso.ts'
+      - 'lms-main/apps/backend/src/config/env.ts'
+      - 'lms-main/apps/backend/src/app.ts'
+      - 'lms-main/apps/backend/src/tests/central-sso-*'
+      - 'lms-main/apps/backend/src/tests/support/central-sso-fixtures.ts'
+      - '.github/workflows/skilled-central-sso-compat.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central/**'
+      - 'lms-main/apps/backend/src/config/central-sso.ts'
+      - 'lms-main/apps/backend/src/config/env.ts'
+      - 'lms-main/apps/backend/src/app.ts'
+      - 'lms-main/apps/backend/src/tests/central-sso-*'
+      - '.github/workflows/skilled-central-sso-compat.yml'
+permissions:
+  contents: read
+jobs:
+  compatibility-sso:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: ci-only-disposable
+          POSTGRES_DB: skilled_sso_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres -d skilled_sso_test"
+          --health-interval 5s --health-timeout 5s --health-retries 20
+      redis:
+        image: redis:7-alpine
+        ports: ['6379:6379']
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s --health-timeout 5s --health-retries 20
+    env:
+      DATABASE_URL: postgresql://postgres:ci-only-disposable@localhost:5432/skilled_sso_test
+      REDIS_URL: redis://127.0.0.1:6379
+      NODE_ENV: test
+    defaults:
+      run:
+        working-directory: lms-main
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+      - name: Prepare disposable PostgreSQL schema
+        working-directory: lms-main/apps/backend
+        run: |
+          pnpm exec prisma validate
+          pnpm exec prisma generate
+          pnpm exec prisma db push --skip-generate
+      - name: Verify links on PostgreSQL, native session lifecycle and stronger OIDC rules
+        working-directory: lms-main/apps/backend
+        run: pnpm exec vitest run src/tests/central-sso-*.test.ts src/tests/central-oidc-*.test.ts src/tests/env-*.test.ts
+      - name: Typecheck production source and tests
+        working-directory: lms-main/apps/backend
+        run: |
+          pnpm exec tsc --noEmit
+          pnpm exec tsc -p tsconfig.test.json
+      - name: Verify deployment template coverage
+        run: node scripts/test-env-template-contract.mjs

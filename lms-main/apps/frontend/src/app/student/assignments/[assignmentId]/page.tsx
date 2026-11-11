@@ -34,7 +34,7 @@ export default function SubmitAssignmentPage() {
   return (
     <div>
       <Topbar title="Assignment" backHref="back" backLabel="Back to course" />
-      <main className="mx-auto max-w-xl px-6 py-8">
+      <main id="main-content" tabIndex={-1} className="mx-auto max-w-xl px-6 py-8">
         {submission && (
           <div className="mb-6 rounded-lg border border-neutral-800 bg-neutral-900 p-4">
             <p className="text-sm text-neutral-400">

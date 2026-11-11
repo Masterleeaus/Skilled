@@ -1,0 +1,52 @@
+name: Skilled Central deployment admission safety
+on:
+  pull_request:
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-runtime-feature.ts'
+      - 'lms-main/apps/backend/src/tests/central-readiness-*'
+      - 'lms-main/apps/backend/tsconfig.central-readiness.json'
+      - '.github/workflows/skilled-central-readiness-admission.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'lms-main/apps/backend/src/modules/auth/central-runtime-feature.ts'
+      - 'lms-main/apps/backend/src/tests/central-readiness-*'
+      - 'lms-main/apps/backend/tsconfig.central-readiness.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  admission:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NODE_ENV: test
+      DATABASE_URL: postgresql://testing:testing@localhost:5432/lms_test
+      REDIS_URL: redis://localhost:6379/0
+      JWT_ACCESS_SECRET: ci-test-access-secret-only-not-real
+      JWT_REFRESH_SECRET: ci-test-refresh-secret-only-not-real
+      CLIENT_URL: http://localhost:3000
+      MINIO_ACCESS_KEY: test-minio
+      MINIO_SECRET_KEY: ci-test-minio-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: lms-main/pnpm-lock.yaml
+      - working-directory: lms-main
+        run: pnpm install --frozen-lockfile
+      - working-directory: lms-main/apps/backend
+        run: pnpm exec prisma generate
+      - name: Verify deployment admission cannot be spoofed
+        working-directory: lms-main/apps/backend
+        run: pnpm exec vitest run src/tests/central-readiness-*.test.ts src/tests/central-runtime-enabled-guard.test.ts
+      - name: Typecheck backend and independent admission scenarios
+        working-directory: lms-main/apps/backend
+        run: |
+          pnpm exec tsc --noEmit
+          pnpm exec tsc --project tsconfig.central-readiness.json

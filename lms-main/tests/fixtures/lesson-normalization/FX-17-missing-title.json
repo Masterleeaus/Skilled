@@ -1,0 +1,12 @@
+{
+  "caseId": "FX-17",
+  "description": "Missing learner lesson title",
+  "overrides": {},
+  "remove": [
+    "title"
+  ],
+  "expectedBlockers": [
+    "missing identity/title"
+  ],
+  "expectedPriority": "P0"
+}

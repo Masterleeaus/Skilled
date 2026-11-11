@@ -1,0 +1,12 @@
+{
+  "id": "logout-missing-origin",
+  "enabled": true,
+  "method": "POST",
+  "path": "/logout",
+  "cookie": "good",
+  "origin": null,
+  "fetchSite": "same-origin",
+  "authenticated": true,
+  "revoked": true,
+  "expectedStatus": 403
+}

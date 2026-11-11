@@ -4,17 +4,23 @@ import { centralSsoProblems } from "./central-sso";
 
 dotenv.config();
 
-const envSchema = z.object({
+// Every environment uses the same minimums, including development. The development
+// templates (apps/backend/.env.example) already meet them, so there is no dev exception.
+export const JWT_SECRET_MIN_LENGTH = 32;
+
+export const envSchema = z.object({
   NODE_ENV: z.enum(["development", "production", "test"]).default("development"),
   PORT: z.coerce.number().int().min(1).max(65535).default(5000),
   HOST: z.string().default("127.0.0.1"),
   CLIENT_URL: z.string().url(),
 
   DATABASE_URL: z.string().min(1, "DATABASE_URL is required"),
+  // Connection URL without credentials, for example redis://127.0.0.1:6379. The password goes in REDIS_PASSWORD.
   REDIS_URL: z.string().min(1, "REDIS_URL is required"),
+  REDIS_PASSWORD: z.string().optional().default(""),
 
-  JWT_ACCESS_SECRET: z.string().min(10, "JWT_ACCESS_SECRET too short"),
-  JWT_REFRESH_SECRET: z.string().min(10, "JWT_REFRESH_SECRET too short"),
+  JWT_ACCESS_SECRET: z.string().min(JWT_SECRET_MIN_LENGTH, `JWT_ACCESS_SECRET must be at least ${JWT_SECRET_MIN_LENGTH} characters`),
+  JWT_REFRESH_SECRET: z.string().min(JWT_SECRET_MIN_LENGTH, `JWT_REFRESH_SECRET must be at least ${JWT_SECRET_MIN_LENGTH} characters`),
   JWT_ACCESS_EXPIRES: z.string().default("15m"),
   JWT_REFRESH_EXPIRES: z.string().default("30d"),
 
@@ -45,6 +51,10 @@ const envSchema = z.object({
     .min(101 * 1024 * 1024, "Must hold at least one maximum-size assignment submission")
     .default(512 * 1024 * 1024),
 
+  // Global per-client-IP ceiling across every API request, on top of the per-route limiters. /api/health is exempt.
+  API_RATE_LIMIT_WINDOW_MS: z.coerce.number().int().min(1000).max(24 * 60 * 60 * 1000).default(15 * 60 * 1000),
+  API_RATE_LIMIT_MAX: z.coerce.number().int().min(1).max(1_000_000).default(1000),
+
   SMTP_HOST: z.string().default("localhost"),
   SMTP_PORT: z.coerce.number().int().min(1).max(65535).default(1025),
   SMTP_FROM: z.string().default("no-reply@lms.local"),
@@ -69,6 +79,20 @@ const envSchema = z.object({
   CENTRAL_SSO_JWKS_URI: z.string().optional().default(""),
   CENTRAL_SSO_REDIRECT_URI: z.string().optional().default(""),
 }).superRefine((values, context) => {
+  if (values.JWT_ACCESS_SECRET === values.JWT_REFRESH_SECRET) {
+    context.addIssue({ code: "custom", path: ["JWT_REFRESH_SECRET"], message: "JWT_ACCESS_SECRET and JWT_REFRESH_SECRET must be different" });
+  }
+  try {
+    const redis = new URL(values.REDIS_URL);
+    if (!["redis:", "rediss:"].includes(redis.protocol)) {
+      context.addIssue({ code: "custom", path: ["REDIS_URL"], message: "REDIS_URL must use the redis:// or rediss:// scheme" });
+    }
+    if (redis.username !== "" || redis.password !== "") {
+      context.addIssue({ code: "custom", path: ["REDIS_URL"], message: "REDIS_URL must not contain credentials; set REDIS_PASSWORD instead" });
+    }
+  } catch {
+    context.addIssue({ code: "custom", path: ["REDIS_URL"], message: "Invalid Redis connection URL" });
+  }
   for (const message of centralSsoProblems({
     enabled: values.CENTRAL_SSO_ENABLED,
     issuer: values.CENTRAL_SSO_ISSUER,
@@ -94,12 +118,12 @@ const envSchema = z.object({
     if (!values.CLIENT_URL.startsWith("https://")) {
       context.addIssue({ code: "custom", path: ["CLIENT_URL"], message: "Production frontend must use HTTPS" });
     }
-    if (values.JWT_ACCESS_SECRET.length < 32 || values.JWT_REFRESH_SECRET.length < 32 ||
-        values.JWT_ACCESS_SECRET === values.JWT_REFRESH_SECRET) {
-      context.addIssue({ code: "custom", path: ["JWT_ACCESS_SECRET"], message: "Production JWT secrets must be independent and at least 32 characters" });
+    // Checkout is always on in production, so Stripe must be fully configured. Partial or absent config fails startup.
+    if (!values.STRIPE_SECRET_KEY.trim()) {
+      context.addIssue({ code: "custom", path: ["STRIPE_SECRET_KEY"], message: "Production checkout requires STRIPE_SECRET_KEY" });
     }
-    if (!!values.STRIPE_SECRET_KEY !== !!values.STRIPE_WEBHOOK_SECRET) {
-      context.addIssue({ code: "custom", path: ["STRIPE_WEBHOOK_SECRET"], message: "Production Stripe requires both secret and webhook signature key, or neither" });
+    if (!values.STRIPE_WEBHOOK_SECRET.trim()) {
+      context.addIssue({ code: "custom", path: ["STRIPE_WEBHOOK_SECRET"], message: "Production checkout requires STRIPE_WEBHOOK_SECRET" });
     }
   }
   if (!!values.SMTP_USER !== !!values.SMTP_PASSWORD) {

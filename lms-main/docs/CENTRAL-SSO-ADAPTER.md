@@ -20,7 +20,7 @@ existing, linked account. This is source-complete and tested against fakes. It i
 | Authorization Code + PKCE | `modules/auth/central/central-oidc.ts` | Per-login state, nonce and S256 verifier. One-use state. Token exchange with client credentials. |
 | One-use state store | `modules/auth/central/central-state.ts` | Redis `SET NX PX` and `GETDEL`. In-memory double for tests only. |
 | Identity link and resolution | `modules/auth/central/central-link.ts` | Verified link between a Central subject and a Skilled account. |
-| Browser routes | `modules/auth/central/central-routes.ts` | `GET /api/auth/central/start` and `GET /api/auth/central/callback`. |
+| Browser routes | `modules/auth/central/central-routes.ts` | `GET /auth/titan/academy/start` and `GET /auth/titan/academy/callback`. |
 | Mount | `modules/auth/central/central-sso.mount.ts`, called from `app.ts` | Mounts only when the flag is on. |
 
 ### Mapping model (no migration)
@@ -43,10 +43,10 @@ from the database on every authenticated request, and `CompanyMember.role` is re
 
 ## Login flow
 
-1. `GET /api/auth/central/start` creates a random binding, stores `{nonce, verifier, bindingHash}` under the
+1. `GET /auth/titan/academy/start` creates a random binding, stores `{nonce, verifier, bindingHash}` under the
    SHA-256 digest of a random `state` with a 5 minute TTL, sets the binding cookie, and redirects (302) to the
    Central authorize endpoint with `response_type=code`, `scope=openid profile email`, `code_challenge_method=S256`.
-2. Central redirects to `GET /api/auth/central/callback?state=…&code=…`.
+2. Central redirects to `GET /auth/titan/academy/callback?state=…&code=…`.
 3. The callback accepts only `state`, `code`, `error` and `error_description`, each once. It requires the binding
    cookie. It consumes the state atomically (one use) and checks expiry and the binding hash. It makes no network
    call before that.
@@ -68,24 +68,23 @@ Neither response reveals whether a Skilled account exists.
 
 | Setting | Value |
 |---|---|
-| Registered redirect URI | `https://<academy-api-origin>/api/auth/central/callback` (exact string, https, no query) |
-| Path in code | `/api/auth/central/callback`. Validation refuses any redirect URI that does not end with this path. |
+| Registered redirect URI | `https://<academy-api-origin>/auth/titan/academy/callback` (exact string, https, no query) |
+| Path in code | `/auth/titan/academy/callback`. Validation refuses any redirect URI that does not end with this path. |
 | Client type | Confidential (client secret, Basic authentication at the token endpoint) |
 | Grant and PKCE | `authorization_code` with `S256` |
 | Scopes | `openid profile email` |
 | Post-logout | Not implemented. Logout is local only (see Limitations). |
 
-**Conflict to resolve before registration.** The Central documents disagree with each other and with the Central
-adapter code:
+**Reconciled source contract.** The adapter now uses `/auth/titan/academy/start` and
+`/auth/titan/academy/callback`, matching the newer reviewed OIDC adapter contract in `config/central-sso.ts`.
+Provider endpoints come from validated OIDC discovery; the older derived endpoint implementation is not restored.
+Historical registration documents may still name `/auth/callback`; operators must verify the actual provider
+registration before enabling this adapter. Merging source does not register or enable a provider.
 
-- `PASS05_APPLICATION_REGISTRATION.md`, `PASS06_SSO_REGISTRATION_GATE.md` and `PASS08` name
-  `https://academy.titanzero.io/auth/callback`.
-- `apps/control-api/src/oidc-http-adapter.mjs` uses `/auth/titan/academy/callback`.
-- `packages/control-plane/src/applications.ts` records `/auth/callback`.
-
-Skilled implements `/api/auth/central/callback`, which matches none of them. The owner must choose one path, and
-the Central registration and this code must then agree. Changing the path means changing
-`CENTRAL_SSO_CALLBACK_PATH` in `config/central-sso.ts`.
+This compatibility adapter uses `CENTRAL_SSO_*` and the raw-subject legacy account links described above.
+It remains disabled by default. It is separate from the newer `SKILLED_CENTRAL_OIDC_*` runtime and issuer-bound
+canonical link workflow; their link rows must not be treated as interchangeable. The live authority and
+revocation acceptance criteria below remain prerequisites for rollout.
 
 ## Configuration
 
