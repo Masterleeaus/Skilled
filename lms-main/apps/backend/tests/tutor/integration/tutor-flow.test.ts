@@ -67,9 +67,16 @@ const TUTOR_ENV = [
 ];
 
 type ProviderFn = (url: string, callNumber: number) => Response;
+type ChatBody = {
+  reply?: string;
+  citations?: { document_id: string }[];
+  error?: string;
+  reason?: string;
+  message?: string;
+};
 type Rig = {
-  calls: { url: string; body: any }[];
-  ask(learner: string, message: string): Promise<{ status: number; text: string; body: any }>;
+  calls: { url: string; body: { messages: { content: string }[] } }[];
+  ask(learner: string, message: string): Promise<{ status: number; text: string; body: ChatBody }>;
 };
 
 // ---------------------------------------------------------------------------
@@ -166,7 +173,7 @@ async function withRig({ providers = openAiAnswers, env = {} }: { providers?: Pr
           body: JSON.stringify({ message }),
         });
         const text = await res.text();
-        let body: any = null;
+        let body: ChatBody | null = null;
         try {
           body = JSON.parse(text);
         } catch {
@@ -372,7 +379,7 @@ describe('tutor integration', () => {
 
   it('7. tenant isolation: a learner of org-1 cannot read or write a conversation stored for org-2', async () => {
     stubPrisma.resetDb();
-    const store = new PrismaTutorStore(stubPrisma.prisma as any);
+    const store = new PrismaTutorStore(stubPrisma.prisma);
 
     const org2Conversation = await store.createConversation({ companyId: 'org-2', learnerId: 'learner-b' });
     await store.appendMessage({ companyId: 'org-2', conversationId: org2Conversation.id, role: 'user', content: 'org-2 private question' });
@@ -417,7 +424,7 @@ describe('tutor integration', () => {
     seed(db.conversations, { id: 'c-old-org2', companyId: 'org-2', learnerId: 'learner-b', createdAt: ago(45) });
     seed(db.messages, { id: 'm-old-org2', companyId: 'org-2', conversationId: 'c-old-org2', role: 'user', content: 'old2', createdAt: ago(45) });
 
-    const result = await purgeExpiredTutorData(stubPrisma.prisma as any, { now });
+    const result = await purgeExpiredTutorData(stubPrisma.prisma, { now });
 
     expect(db.conversations.map((c) => c.id)).toStrictEqual(['c-edge', 'c-new']);
     expect(db.messages.map((m) => m.id)).toStrictEqual(['m-edge', 'm-new']);
@@ -442,7 +449,7 @@ describe('tutor integration', () => {
       expect(mountLine ?? '').toMatch(/^if \(process\.env\.TUTOR_ENABLED === "true"\) require\("\.\/tutor\/route\/tutor-wiring\.js"\)/);
 
       // With the flag off, mountTutorRouter() registers nothing. Its dependencies must not be touched.
-      const untouched: any = new Proxy({}, {
+      const untouched = new Proxy({}, {
         get() {
           throw new Error('a tutor dependency was touched while the flag is off');
         },

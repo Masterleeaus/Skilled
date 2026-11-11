@@ -4,7 +4,7 @@ export function sanitizedOidcFields(input:Record<string,unknown>){
  const safe:Record<string,string|number|boolean>={};
  for(const [key,value] of Object.entries(input)){
   if(SECRET.test(key))continue;
-  if(typeof value==="string"){if(value.length>100||/[\r\n\x00-\x1f]/.test(value))continue;safe[key]=value;}
+  if(typeof value==="string"){if(value.length>100||/\p{Cc}/u.test(value))continue;safe[key]=value;}
   else if(typeof value==="boolean"||typeof value==="number"&&Number.isFinite(value))safe[key]=value;
  }
  return safe;

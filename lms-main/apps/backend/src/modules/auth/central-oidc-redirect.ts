@@ -5,6 +5,6 @@ export function trustedRedirect(raw:unknown,origins:readonly string[]):string|nu
 }
 export function afterLogin(raw:unknown):string|null{
  if(typeof raw!=="string"||raw.length>1024||!raw.startsWith("/")||raw.startsWith("//")||
- /[\\\r\n\x00-\x1f\x7f]/.test(raw))return null;
+ /[\\\p{Cc}]/u.test(raw))return null;
  try{const u=new URL(raw,"https://skilled.invalid");return u.origin==="https://skilled.invalid"?raw:null;}catch{return null}
 }
