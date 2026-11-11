@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { validateLocalDemoSeedTarget } from "../../prisma/local-demo-seed-guard";
 
 const local = "postgresql://demo:secret@127.0.0.1:5544/skilled_demo";
-const env = (DATABASE_URL = local, NODE_ENV = "development") => ({ DATABASE_URL, NODE_ENV });
+const env = (DATABASE_URL = local, NODE_ENV = "development"): NodeJS.ProcessEnv => ({ DATABASE_URL, NODE_ENV });
 const check = (environment = env(), args = ["--confirm-wipe"]) =>
   validateLocalDemoSeedTarget(environment, args);
 
