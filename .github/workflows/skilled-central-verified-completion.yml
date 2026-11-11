@@ -2,16 +2,16 @@ name: Skilled verified Central completion
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-verified-completion.ts'
-      - 'lms-main/apps/backend/src/tests/central-verified-completion*'
-      - 'lms-main/apps/backend/tsconfig.central-completion.json'
+      - 'apps/backend/src/modules/auth/central-verified-completion.ts'
+      - 'apps/backend/src/tests/central-verified-completion*'
+      - 'apps/backend/tsconfig.central-completion.json'
       - '.github/workflows/skilled-central-verified-completion.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-verified-completion.ts'
-      - 'lms-main/apps/backend/src/tests/central-verified-completion*'
-      - 'lms-main/apps/backend/tsconfig.central-completion.json'
+      - 'apps/backend/src/modules/auth/central-verified-completion.ts'
+      - 'apps/backend/src/tests/central-verified-completion*'
+      - 'apps/backend/tsconfig.central-completion.json'
   workflow_dispatch:
 permissions:
   contents: read
@@ -37,17 +37,17 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
-      - working-directory: lms-main
+          cache-dependency-path: pnpm-lock.yaml
+      - working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Generate Prisma client
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec prisma generate
       - name: Run trusted completion fail-closed suite
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-verified-completion-*.test.ts
       - name: Typecheck backend and completion contract
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec tsc --noEmit
           pnpm exec tsc --project tsconfig.central-completion.json

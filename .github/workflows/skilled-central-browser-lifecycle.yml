@@ -2,16 +2,16 @@ name: Skilled Central browser lifecycle HTTP
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-browser-lifecycle.ts'
-      - 'lms-main/apps/backend/src/tests/central-browser-*'
-      - 'lms-main/apps/backend/tsconfig.central-browser.json'
+      - 'apps/backend/src/modules/auth/central-browser-lifecycle.ts'
+      - 'apps/backend/src/tests/central-browser-*'
+      - 'apps/backend/tsconfig.central-browser.json'
       - '.github/workflows/skilled-central-browser-lifecycle.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-browser-lifecycle.ts'
-      - 'lms-main/apps/backend/src/tests/central-browser-*'
-      - 'lms-main/apps/backend/tsconfig.central-browser.json'
+      - 'apps/backend/src/modules/auth/central-browser-lifecycle.ts'
+      - 'apps/backend/src/tests/central-browser-*'
+      - 'apps/backend/tsconfig.central-browser.json'
   workflow_dispatch:
 permissions:
   contents: read
@@ -37,16 +37,16 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
-      - working-directory: lms-main
+          cache-dependency-path: pnpm-lock.yaml
+      - working-directory: .
         run: pnpm install --frozen-lockfile
-      - working-directory: lms-main/apps/backend
+      - working-directory: apps/backend
         run: pnpm exec prisma generate
       - name: Exercise unmounted HTTP start, callback, session and logout
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-browser-*.test.ts
       - name: Verify backend and lifecycle types
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec tsc --noEmit
           pnpm exec tsc --project tsconfig.central-browser.json

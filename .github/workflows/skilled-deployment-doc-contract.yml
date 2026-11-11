@@ -2,22 +2,22 @@ name: skilled-deployment-doc-contract
 on:
   pull_request:
     paths:
-      - 'lms-main/docs/DEPLOYMENT.md'
-      - 'lms-main/docs/SKILLED-CANONICAL-SOURCE-AND-ASSETS.md'
-      - 'lms-main/docs/INSTALL.md'
-      - 'lms-main/docs/runbooks/deployment.md'
-      - 'lms-main/curriculum/research/DEPLOY-RUNBOOK.md'
-      - 'lms-main/scripts/test-deployment-doc-contract.mjs'
+      - 'docs/DEPLOYMENT.md'
+      - 'docs/SKILLED-CANONICAL-SOURCE-AND-ASSETS.md'
+      - 'docs/INSTALL.md'
+      - 'docs/runbooks/deployment.md'
+      - 'curriculum/research/DEPLOY-RUNBOOK.md'
+      - 'scripts/test-deployment-doc-contract.mjs'
       - '.github/workflows/skilled-deployment-doc-contract.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/docs/DEPLOYMENT.md'
-      - 'lms-main/docs/SKILLED-CANONICAL-SOURCE-AND-ASSETS.md'
-      - 'lms-main/docs/INSTALL.md'
-      - 'lms-main/docs/runbooks/deployment.md'
-      - 'lms-main/curriculum/research/DEPLOY-RUNBOOK.md'
-      - 'lms-main/scripts/test-deployment-doc-contract.mjs'
+      - 'docs/DEPLOYMENT.md'
+      - 'docs/SKILLED-CANONICAL-SOURCE-AND-ASSETS.md'
+      - 'docs/INSTALL.md'
+      - 'docs/runbooks/deployment.md'
+      - 'curriculum/research/DEPLOY-RUNBOOK.md'
+      - 'scripts/test-deployment-doc-contract.mjs'
       - '.github/workflows/skilled-deployment-doc-contract.yml'
 permissions:
   contents: read
@@ -31,5 +31,5 @@ jobs:
         with:
           node-version: 22
       - name: Validate the consolidated deployment runbooks and source links
-        working-directory: lms-main
+        working-directory: .
         run: node --test scripts/test-deployment-doc-contract.mjs

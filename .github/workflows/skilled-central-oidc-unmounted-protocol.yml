@@ -2,22 +2,22 @@ name: skilled-central-oidc-unmounted-protocol
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/config/central-sso.ts'
-      - 'lms-main/apps/backend/src/modules/auth/central/**'
-      - 'lms-main/apps/backend/src/tests/central-sso-oidc.test.ts'
-      - 'lms-main/apps/backend/src/tests/central-oidc-*.test.ts'
-      - 'lms-main/apps/backend/src/tests/support/central-sso-fixtures.ts'
-      - 'lms-main/apps/backend/tsconfig.central-oidc.json'
+      - 'apps/backend/src/config/central-sso.ts'
+      - 'apps/backend/src/modules/auth/central/**'
+      - 'apps/backend/src/tests/central-sso-oidc.test.ts'
+      - 'apps/backend/src/tests/central-oidc-*.test.ts'
+      - 'apps/backend/src/tests/support/central-sso-fixtures.ts'
+      - 'apps/backend/tsconfig.central-oidc.json'
       - '.github/workflows/skilled-central-oidc-unmounted-protocol.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/config/central-sso.ts'
-      - 'lms-main/apps/backend/src/modules/auth/central/**'
-      - 'lms-main/apps/backend/src/tests/central-sso-oidc.test.ts'
-      - 'lms-main/apps/backend/src/tests/central-oidc-*.test.ts'
-      - 'lms-main/apps/backend/src/tests/support/central-sso-fixtures.ts'
-      - 'lms-main/apps/backend/tsconfig.central-oidc.json'
+      - 'apps/backend/src/config/central-sso.ts'
+      - 'apps/backend/src/modules/auth/central/**'
+      - 'apps/backend/src/tests/central-sso-oidc.test.ts'
+      - 'apps/backend/src/tests/central-oidc-*.test.ts'
+      - 'apps/backend/src/tests/support/central-sso-fixtures.ts'
+      - 'apps/backend/tsconfig.central-oidc.json'
   workflow_dispatch:
 permissions:
   contents: read
@@ -43,15 +43,15 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install from frozen lockfile
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Verify signed ID token, S256 PKCE and state replay protocols
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-sso-oidc.test.ts src/tests/central-oidc-*.test.ts
       - name: Typecheck production backend and isolated protocol
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec prisma generate
           pnpm exec tsc --noEmit

@@ -2,16 +2,16 @@ name: Skilled Central browser security hardening
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-browser-lifecycle.ts'
-      - 'lms-main/apps/backend/src/tests/central-browser-lifecycle.fixture.ts'
-      - 'lms-main/apps/backend/src/tests/central-browser-guard-*'
-      - 'lms-main/apps/backend/src/tests/central-browser-*'
+      - 'apps/backend/src/modules/auth/central-browser-lifecycle.ts'
+      - 'apps/backend/src/tests/central-browser-lifecycle.fixture.ts'
+      - 'apps/backend/src/tests/central-browser-guard-*'
+      - 'apps/backend/src/tests/central-browser-*'
       - '.github/workflows/skilled-central-browser-security.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-browser-lifecycle.ts'
-      - 'lms-main/apps/backend/src/tests/central-browser-*'
+      - 'apps/backend/src/modules/auth/central-browser-lifecycle.ts'
+      - 'apps/backend/src/tests/central-browser-*'
   workflow_dispatch:
 permissions:
   contents: read
@@ -37,16 +37,16 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
-      - working-directory: lms-main
+          cache-dependency-path: pnpm-lock.yaml
+      - working-directory: .
         run: pnpm install --frozen-lockfile
-      - working-directory: lms-main/apps/backend
+      - working-directory: apps/backend
         run: pnpm exec prisma generate
       - name: Verify all original browser tests and new redirect/cookie abuse cases
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-browser-*.test.ts
       - name: Strict backend and browser contract typecheck
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec tsc --noEmit
           pnpm exec tsc --project tsconfig.central-browser.json

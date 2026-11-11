@@ -2,15 +2,15 @@ name: skilled-canonical-import-inventory
 on:
   pull_request:
     paths:
-      - 'lms-main/scripts/audit-canonical-import-manifest.mjs'
-      - 'lms-main/scripts/test-audit-canonical-import-manifest.mjs'
-      - 'lms-main/curriculum/import/canonical-import-manifest.json'
+      - 'scripts/audit-canonical-import-manifest.mjs'
+      - 'scripts/test-audit-canonical-import-manifest.mjs'
+      - 'curriculum/import/canonical-import-manifest.json'
       - '.github/workflows/skilled-canonical-import-inventory.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/scripts/audit-canonical-import-manifest.mjs'
-      - 'lms-main/scripts/test-audit-canonical-import-manifest.mjs'
+      - 'scripts/audit-canonical-import-manifest.mjs'
+      - 'scripts/test-audit-canonical-import-manifest.mjs'
       - '.github/workflows/skilled-canonical-import-inventory.yml'
 permissions:
   contents: read
@@ -24,14 +24,14 @@ jobs:
         with:
           node-version: 22
       - name: Test manifest integrity scanner
-        working-directory: lms-main
+        working-directory: .
         run: node --test scripts/test-audit-canonical-import-manifest.mjs
       - name: Report historical import manifest freshness (read-only)
-        working-directory: lms-main
+        working-directory: .
         run: node scripts/audit-canonical-import-manifest.mjs --report build/legacy-import-manifest-audit.json
       - name: Surface stale import snapshot status
         if: always()
-        working-directory: lms-main
+        working-directory: .
         run: |
           if [ -f build/legacy-import-manifest-audit.json ]; then
             node --input-type=module -e '
@@ -52,5 +52,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: historical-import-manifest-audit
-          path: lms-main/build/legacy-import-manifest-audit.json
+          path: build/legacy-import-manifest-audit.json
           if-no-files-found: warn

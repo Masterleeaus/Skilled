@@ -2,18 +2,18 @@ name: skilled-course-mapping-review
 on:
   pull_request:
     paths:
-      - "lms-main/curriculum/shared/app/SFS-*.json"
-      - "lms-main/curriculum/reviews/course-mapping/**"
-      - "lms-main/scripts/audit-course-mapping-review.mjs"
-      - "lms-main/scripts/test-audit-course-mapping-review.mjs"
+      - "curriculum/shared/app/SFS-*.json"
+      - "curriculum/reviews/course-mapping/**"
+      - "scripts/audit-course-mapping-review.mjs"
+      - "scripts/test-audit-course-mapping-review.mjs"
       - ".github/workflows/skilled-course-mapping-review.yml"
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - "lms-main/curriculum/shared/app/SFS-*.json"
-      - "lms-main/curriculum/reviews/course-mapping/**"
-      - "lms-main/scripts/audit-course-mapping-review.mjs"
-      - "lms-main/scripts/test-audit-course-mapping-review.mjs"
+      - "curriculum/shared/app/SFS-*.json"
+      - "curriculum/reviews/course-mapping/**"
+      - "scripts/audit-course-mapping-review.mjs"
+      - "scripts/test-audit-course-mapping-review.mjs"
   workflow_dispatch:
 permissions:
   contents: read
@@ -27,13 +27,13 @@ jobs:
         with:
           node-version: 22
       - name: Run reviewer evidence regression tests
-        working-directory: lms-main
+        working-directory: .
         run: node --test scripts/test-audit-course-mapping-review.mjs
       - name: Validate all 16 source-linked review records
-        working-directory: lms-main
+        working-directory: .
         run: node scripts/audit-course-mapping-review.mjs --report build/course-mapping-review-audit.json
       - name: Prove pending course placements fail closed
-        working-directory: lms-main
+        working-directory: .
         run: |
           if node scripts/audit-course-mapping-review.mjs --fail-on-unresolved; then
             echo "::error::Pending editorial decisions unexpectedly passed strict mode"
@@ -44,6 +44,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: skilled-course-mapping-review
-          path: lms-main/build/course-mapping-review-audit.json
+          path: build/course-mapping-review-audit.json
           retention-days: 30
           if-no-files-found: warn

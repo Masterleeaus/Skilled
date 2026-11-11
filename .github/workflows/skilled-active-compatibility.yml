@@ -2,24 +2,24 @@ name: skilled-active-compatibility
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/prisma/schema.prisma'
-      - 'lms-main/apps/backend/prisma/migrations/**'
-      - 'lms-main/apps/backend/src/app.ts'
-      - 'lms-main/apps/backend/src/middleware/**'
-      - 'lms-main/apps/backend/src/modules/auth/**'
-      - 'lms-main/apps/backend/src/modules/curriculum/**'
-      - 'lms-main/scripts/audit-active-compatibility.mjs'
-      - 'lms-main/scripts/test-audit-active-compatibility.mjs'
+      - 'apps/backend/prisma/schema.prisma'
+      - 'apps/backend/prisma/migrations/**'
+      - 'apps/backend/src/app.ts'
+      - 'apps/backend/src/middleware/**'
+      - 'apps/backend/src/modules/auth/**'
+      - 'apps/backend/src/modules/curriculum/**'
+      - 'scripts/audit-active-compatibility.mjs'
+      - 'scripts/test-audit-active-compatibility.mjs'
       - '.github/workflows/skilled-active-compatibility.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/prisma/**'
-      - 'lms-main/apps/backend/src/app.ts'
-      - 'lms-main/apps/backend/src/modules/auth/**'
-      - 'lms-main/apps/backend/src/modules/curriculum/**'
-      - 'lms-main/scripts/audit-active-compatibility.mjs'
-      - 'lms-main/scripts/test-audit-active-compatibility.mjs'
+      - 'apps/backend/prisma/**'
+      - 'apps/backend/src/app.ts'
+      - 'apps/backend/src/modules/auth/**'
+      - 'apps/backend/src/modules/curriculum/**'
+      - 'scripts/audit-active-compatibility.mjs'
+      - 'scripts/test-audit-active-compatibility.mjs'
       - '.github/workflows/skilled-active-compatibility.yml'
 permissions:
   contents: read
@@ -33,15 +33,15 @@ jobs:
         with:
           node-version: 22
       - name: Regression-test compatibility boundaries
-        working-directory: lms-main
+        working-directory: .
         run: node --test scripts/test-audit-active-compatibility.mjs
       - name: Check exact current source boundaries
-        working-directory: lms-main
+        working-directory: .
         run: node scripts/audit-active-compatibility.mjs --strict --report build/active-compatibility-audit.json
       - name: Publish compatibility audit
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: skilled-active-compatibility
-          path: lms-main/build/active-compatibility-audit.json
+          path: build/active-compatibility-audit.json
           if-no-files-found: warn

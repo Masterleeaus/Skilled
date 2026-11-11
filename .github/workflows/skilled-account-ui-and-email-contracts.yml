@@ -2,22 +2,22 @@ name: skilled-account-ui-and-email-contracts
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/frontend/src/components/Topbar.tsx'
-      - 'lms-main/apps/frontend/src/lib/dashboard-link.ts'
-      - 'lms-main/apps/backend/src/jobs/**'
-      - 'lms-main/apps/backend/src/tests/account-email-content.test.ts'
-      - 'lms-main/scripts/test-public-topbar-navigation.mjs'
-      - 'lms-main/scripts/test-skilled-route-metadata.mjs'
+      - 'apps/frontend/src/components/Topbar.tsx'
+      - 'apps/frontend/src/lib/dashboard-link.ts'
+      - 'apps/backend/src/jobs/**'
+      - 'apps/backend/src/tests/account-email-content.test.ts'
+      - 'scripts/test-public-topbar-navigation.mjs'
+      - 'scripts/test-skilled-route-metadata.mjs'
       - '.github/workflows/skilled-account-ui-and-email-contracts.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/frontend/src/components/Topbar.tsx'
-      - 'lms-main/apps/frontend/src/lib/dashboard-link.ts'
-      - 'lms-main/apps/backend/src/jobs/**'
-      - 'lms-main/apps/backend/src/tests/account-email-content.test.ts'
-      - 'lms-main/scripts/test-public-topbar-navigation.mjs'
-      - 'lms-main/scripts/test-skilled-route-metadata.mjs'
+      - 'apps/frontend/src/components/Topbar.tsx'
+      - 'apps/frontend/src/lib/dashboard-link.ts'
+      - 'apps/backend/src/jobs/**'
+      - 'apps/backend/src/tests/account-email-content.test.ts'
+      - 'scripts/test-public-topbar-navigation.mjs'
+      - 'scripts/test-skilled-route-metadata.mjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -29,7 +29,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - working-directory: lms-main
+      - working-directory: .
         run: |
           node --test scripts/test-public-topbar-navigation.mjs
           node scripts/test-skilled-route-metadata.mjs
@@ -45,15 +45,15 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
-      - working-directory: lms-main
+          cache-dependency-path: pnpm-lock.yaml
+      - working-directory: .
         run: pnpm install --frozen-lockfile
-      - working-directory: lms-main/apps/backend
+      - working-directory: apps/backend
         run: |
           pnpm exec prisma generate
           pnpm exec vitest run src/tests/account-email-content.test.ts
           pnpm exec tsc --noEmit
-      - working-directory: lms-main/apps/frontend
+      - working-directory: apps/frontend
         run: |
           pnpm lint
           pnpm build

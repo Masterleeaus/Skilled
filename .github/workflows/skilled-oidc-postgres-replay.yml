@@ -3,15 +3,15 @@ name: Skilled OIDC PostgreSQL replay integration
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-oidc-*.ts'
-      - 'lms-main/apps/backend/src/tests/central-oidc-runtime-*.test.ts'
-      - 'lms-main/apps/backend/prisma/migrations/20261109160000_skilled_oidc_state/**'
+      - 'apps/backend/src/modules/auth/central-oidc-*.ts'
+      - 'apps/backend/src/tests/central-oidc-runtime-*.test.ts'
+      - 'apps/backend/prisma/migrations/20261109160000_skilled_oidc_state/**'
       - '.github/workflows/skilled-oidc-postgres-replay.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-oidc-state-*.ts'
-      - 'lms-main/apps/backend/src/modules/auth/central-oidc-authorized-provider.ts'
+      - 'apps/backend/src/modules/auth/central-oidc-state-*.ts'
+      - 'apps/backend/src/modules/auth/central-oidc-authorized-provider.ts'
   workflow_dispatch:
 permissions:
   contents: read
@@ -45,26 +45,26 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install frozen dependencies
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Validate Prisma schema, generate client
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec prisma validate
           pnpm exec prisma generate
       - name: Apply isolated additive OIDC state migration to test PostgreSQL
         run: |
-          psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -f lms-main/apps/backend/prisma/migrations/20261109160000_skilled_oidc_state/migration.sql
+          psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -f apps/backend/prisma/migrations/20261109160000_skilled_oidc_state/migration.sql
       - name: Verify PostgreSQL one-use state and concurrent replay denial
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-oidc-real-postgres.test.ts
       - name: Verify runtime state, configuration and callback tests
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         env:
           SKILLED_OIDC_PG_TEST: "0"
         run: pnpm exec vitest run src/tests/central-oidc-runtime-*.test.ts src/tests/central-oidc-verified-login.test.ts
       - name: Backend TypeScript check
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec tsc --noEmit

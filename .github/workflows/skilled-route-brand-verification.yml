@@ -2,16 +2,16 @@ name: skilled-route-brand-verification
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/frontend/src/**'
-      - 'lms-main/apps/backend/src/jobs/email.queue.ts'
-      - 'lms-main/scripts/test-skilled-route-metadata.mjs'
+      - 'apps/frontend/src/**'
+      - 'apps/backend/src/jobs/email.queue.ts'
+      - 'scripts/test-skilled-route-metadata.mjs'
       - '.github/workflows/skilled-route-brand-verification.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/frontend/src/**'
-      - 'lms-main/apps/backend/src/jobs/email.queue.ts'
-      - 'lms-main/scripts/test-skilled-route-metadata.mjs'
+      - 'apps/frontend/src/**'
+      - 'apps/backend/src/jobs/email.queue.ts'
+      - 'scripts/test-skilled-route-metadata.mjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 22
       - name: Assert 22 private route layouts and branded public/email copy
-        working-directory: lms-main
+        working-directory: .
         run: node scripts/test-skilled-route-metadata.mjs
   frontend-build:
     runs-on: ubuntu-latest
@@ -39,17 +39,17 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install dependencies (frozen lockfile)
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Validate frontend lint and build
-        working-directory: lms-main/apps/frontend
+        working-directory: apps/frontend
         run: |
           pnpm lint
           pnpm build
       - name: Generate Prisma client and validate backend TypeScript
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec prisma generate
           pnpm exec tsc --noEmit

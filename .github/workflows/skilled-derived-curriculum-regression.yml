@@ -2,28 +2,28 @@ name: skilled-derived-curriculum-regression
 on:
   pull_request:
     paths:
-      - 'lms-main/tests/fixtures/lesson-normalization/**'
-      - 'lms-main/scripts/rebuild-curriculum-derived.mjs'
-      - 'lms-main/scripts/test-rebuild-curriculum-derived.mjs'
-      - 'lms-main/scripts/test-lesson-normalization-fixtures.mjs'
-      - 'lms-main/scripts/reconcile-lesson-formats.mjs'
-      - 'lms-main/scripts/build-curriculum-review-queue.mjs'
-      - 'lms-main/curriculum/lesson-normalization-index.json'
-      - 'lms-main/curriculum/lesson-review-queue.json'
-      - 'lms-main/curriculum/lesson-review-queue.csv'
+      - 'tests/fixtures/lesson-normalization/**'
+      - 'scripts/rebuild-curriculum-derived.mjs'
+      - 'scripts/test-rebuild-curriculum-derived.mjs'
+      - 'scripts/test-lesson-normalization-fixtures.mjs'
+      - 'scripts/reconcile-lesson-formats.mjs'
+      - 'scripts/build-curriculum-review-queue.mjs'
+      - 'curriculum/lesson-normalization-index.json'
+      - 'curriculum/lesson-review-queue.json'
+      - 'curriculum/lesson-review-queue.csv'
       - '.github/workflows/skilled-derived-curriculum-regression.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/tests/fixtures/lesson-normalization/**'
-      - 'lms-main/scripts/rebuild-curriculum-derived.mjs'
-      - 'lms-main/scripts/test-rebuild-curriculum-derived.mjs'
-      - 'lms-main/scripts/test-lesson-normalization-fixtures.mjs'
-      - 'lms-main/scripts/reconcile-lesson-formats.mjs'
-      - 'lms-main/scripts/build-curriculum-review-queue.mjs'
-      - 'lms-main/curriculum/lesson-normalization-index.json'
-      - 'lms-main/curriculum/lesson-review-queue.json'
-      - 'lms-main/curriculum/lesson-review-queue.csv'
+      - 'tests/fixtures/lesson-normalization/**'
+      - 'scripts/rebuild-curriculum-derived.mjs'
+      - 'scripts/test-rebuild-curriculum-derived.mjs'
+      - 'scripts/test-lesson-normalization-fixtures.mjs'
+      - 'scripts/reconcile-lesson-formats.mjs'
+      - 'scripts/build-curriculum-review-queue.mjs'
+      - 'curriculum/lesson-normalization-index.json'
+      - 'curriculum/lesson-review-queue.json'
+      - 'curriculum/lesson-review-queue.csv'
   workflow_dispatch:
 permissions:
   contents: read
@@ -37,15 +37,15 @@ jobs:
         with:
           node-version: 22
       - name: Verify all 20 malformed authoring fixtures fail closed
-        working-directory: lms-main
+        working-directory: .
         run: node scripts/test-lesson-normalization-fixtures.mjs
       - name: Verify generated normalization index and editorial queue against source
-        working-directory: lms-main
+        working-directory: .
         run: |
           node scripts/test-rebuild-curriculum-derived.mjs
           node scripts/rebuild-curriculum-derived.mjs --check
       - name: Verify immutable source and draft publication holds
-        working-directory: lms-main
+        working-directory: .
         run: |
           node scripts/test-reconcile-lesson-formats.mjs
           node scripts/test-curriculum-review-queue.mjs

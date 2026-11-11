@@ -4,18 +4,18 @@ on:
   pull_request:
     paths:
       - '.github/workflows/skilled-publication-contract.yml'
-      - 'lms-main/scripts/validate-assessment-publication.mjs'
-      - 'lms-main/scripts/reconcile-assessment-questions.mjs'
-      - 'lms-main/scripts/test-assessment-publication-contract.mjs'
-      - 'lms-main/tests/fixtures/publication-gate-contract/**'
+      - 'scripts/validate-assessment-publication.mjs'
+      - 'scripts/reconcile-assessment-questions.mjs'
+      - 'scripts/test-assessment-publication-contract.mjs'
+      - 'tests/fixtures/publication-gate-contract/**'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
       - '.github/workflows/skilled-publication-contract.yml'
-      - 'lms-main/scripts/validate-assessment-publication.mjs'
-      - 'lms-main/scripts/reconcile-assessment-questions.mjs'
-      - 'lms-main/scripts/test-assessment-publication-contract.mjs'
-      - 'lms-main/tests/fixtures/publication-gate-contract/**'
+      - 'scripts/validate-assessment-publication.mjs'
+      - 'scripts/reconcile-assessment-questions.mjs'
+      - 'scripts/test-assessment-publication-contract.mjs'
+      - 'tests/fixtures/publication-gate-contract/**'
   workflow_dispatch:
 
 permissions:
@@ -32,4 +32,4 @@ jobs:
         with:
           node-version: 22
       - name: Run all 28 approval cases through the real validator
-        run: node lms-main/scripts/test-assessment-publication-contract.mjs
+        run: node scripts/test-assessment-publication-contract.mjs

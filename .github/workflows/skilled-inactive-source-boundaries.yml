@@ -2,16 +2,16 @@ name: skilled-inactive-source-boundaries
 on:
   pull_request:
     paths:
-      - 'lms-main/scripts/audit-inactive-source-boundaries.mjs'
-      - 'lms-main/scripts/test-audit-inactive-source-boundaries.mjs'
-      - 'lms-main/apps/backend/src/app.ts'
+      - 'scripts/audit-inactive-source-boundaries.mjs'
+      - 'scripts/test-audit-inactive-source-boundaries.mjs'
+      - 'apps/backend/src/app.ts'
       - '.github/workflows/skilled-inactive-source-boundaries.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/scripts/audit-inactive-source-boundaries.mjs'
-      - 'lms-main/scripts/test-audit-inactive-source-boundaries.mjs'
-      - 'lms-main/apps/backend/src/app.ts'
+      - 'scripts/audit-inactive-source-boundaries.mjs'
+      - 'scripts/test-audit-inactive-source-boundaries.mjs'
+      - 'apps/backend/src/app.ts'
       - '.github/workflows/skilled-inactive-source-boundaries.yml'
 permissions:
   contents: read
@@ -25,15 +25,15 @@ jobs:
         with:
           node-version: 22
       - name: Test source classification and guarded module reachability
-        working-directory: lms-main
+        working-directory: .
         run: node --test scripts/test-audit-inactive-source-boundaries.mjs
       - name: Inspect real repository and fail on new archived source imports
-        working-directory: lms-main
+        working-directory: .
         run: node scripts/audit-inactive-source-boundaries.mjs --strict --report build/inactive-source-boundaries.json
       - name: Archive evidence report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: inactive-source-boundaries
-          path: lms-main/build/inactive-source-boundaries.json
+          path: build/inactive-source-boundaries.json
           if-no-files-found: warn
