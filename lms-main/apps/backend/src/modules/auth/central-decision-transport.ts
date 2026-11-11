@@ -11,7 +11,7 @@ import type { VerifiedIdentity,TrustedDecisionEnvelope } from "./central-verifie
 
 const ID=/^[A-Za-z0-9:_-]{1,200}$/;
 const REQUEST=/^[A-Za-z0-9_-]{32,128}$/;
-const CENTRAL_ORG_UUID=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
+const CENTRAL_ORG_UUID=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 /** Path fixed by the Central contract. Any other path is refused at construction. */
 export const CENTRAL_DECISION_PATH="/v1/integrations/academy/decision";
@@ -58,10 +58,10 @@ export function createCentralOrganisationRegistry(
  for(const pair of pairs){
   if(!ID.test(pair.logtoOrganisationId)||!CENTRAL_ORG_UUID.test(pair.centralOrganisationId))
    throw new TypeError("Invalid Central organisation registry entry");
-  if(byLogto.has(pair.logtoOrganisationId)||seenCentral.has(pair.centralOrganisationId))
+  if(byLogto.has(pair.logtoOrganisationId)||seenCentral.has(pair.centralOrganisationId.toLowerCase()))
    throw new TypeError("Duplicate Central organisation registry entry");
   byLogto.set(pair.logtoOrganisationId,pair.centralOrganisationId);
-  seenCentral.add(pair.centralOrganisationId);
+  seenCentral.add(pair.centralOrganisationId.toLowerCase());
  }
  return (logtoOrganisationId)=>byLogto.get(logtoOrganisationId)??null;
 }
@@ -84,7 +84,8 @@ export function createAuthenticatedCentralDecisionClient(config:ClientConfig):Ce
      typeof verified.subject!=="string"||!ID.test(verified.subject)||
      typeof logtoOrganisationId!=="string"||!ID.test(logtoOrganisationId))return null;
   // Fail closed before any network call when the organisation is not in the operator registry.
-  const organisationId=config.resolveCentralOrganisationId(logtoOrganisationId);
+  let organisationId:string|null;
+  try{organisationId=config.resolveCentralOrganisationId(logtoOrganisationId);}catch{return null;}
   if(typeof organisationId!=="string"||!CENTRAL_ORG_UUID.test(organisationId))return null;
   const requestId=nextId();
   if(typeof requestId!=="string"||!REQUEST.test(requestId))return null;

@@ -5,7 +5,7 @@
  * This service NEVER provisions Central records or authenticates web sessions.
  * Product signing key stays in the server-only operator configuration.
  */
-import { randomBytes, sign, type KeyObject } from "node:crypto";
+import { createPrivateKey, randomBytes, sign, type KeyObject } from "node:crypto";
 
 export const CENTRAL_LINK_ASSERTION_AUDIENCE = "titan-central";
 export const CENTRAL_LINK_ASSERTION_TYPE = "titan-link+jwt";
@@ -94,4 +94,34 @@ export async function signSkilledCentralLinkAssertion(
   // Never include email, companyId, role, credential material, or display names.
   const signingInput = `${encode(header)}.${encode(claims)}`;
   return `${signingInput}.${sign(null, Buffer.from(signingInput, "ascii"), options.key).toString("base64url")}`;
+}
+
+/** Operator configuration names. The private key is read from server configuration only; it is never in the repository. */
+export const CENTRAL_LINK_SIGNING_ENV = {
+  key: "SKILLED_CENTRAL_LINK_SIGNING_KEY",
+  kid: "SKILLED_CENTRAL_LINK_SIGNING_KID",
+} as const;
+
+/**
+ * Loads the Ed25519 signing key from configuration. The key is base64 of a PKCS#8 DER private key.
+ * Returns null when no key is configured, so signing stays unavailable. Malformed configuration throws
+ * with a message that never includes the key material.
+ */
+export function loadCentralLinkSigningOptions(
+  env: Readonly<Record<string, string | undefined>>,
+): { key: KeyObject; kid: string } | null {
+  const encoded = env[CENTRAL_LINK_SIGNING_ENV.key];
+  if (encoded === undefined || encoded === "") return null;
+  const kid = env[CENTRAL_LINK_SIGNING_ENV.kid] ?? "";
+  if (!KID.test(kid)) throw new TypeError(`${CENTRAL_LINK_SIGNING_ENV.kid} must be a key identifier`);
+  let key: KeyObject;
+  try {
+    key = createPrivateKey({ key: Buffer.from(encoded, "base64"), format: "der", type: "pkcs8" });
+  } catch {
+    throw new TypeError(`${CENTRAL_LINK_SIGNING_ENV.key} must be a base64 PKCS#8 private key`);
+  }
+  if (key.type !== "private" || key.asymmetricKeyType !== "ed25519") {
+    throw new TypeError(`${CENTRAL_LINK_SIGNING_ENV.key} must be an Ed25519 private key`);
+  }
+  return { key, kid };
 }

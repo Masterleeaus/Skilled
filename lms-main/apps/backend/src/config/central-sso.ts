@@ -3,8 +3,10 @@
  * so env.ts and the auth modules can share it. The feature flag CENTRAL_SSO_ENABLED is OFF by default; when it
  * is off, no setting is required and nothing here affects the existing email/password login.
  */
-export const CENTRAL_SSO_START_PATH = "/api/auth/central/start";
-export const CENTRAL_SSO_CALLBACK_PATH = "/api/auth/central/callback";
+// Exact route paths from Central's applications registry (packages/control-plane/src/applications.ts):
+// oidcStartPath('academy') and oidcCallbackPath('academy'). The redirect URI registered in Central must end with the callback path.
+export const CENTRAL_SSO_START_PATH = "/auth/titan/academy/start";
+export const CENTRAL_SSO_CALLBACK_PATH = "/auth/titan/academy/callback";
 
 export interface CentralSsoSettings {
   enabled: boolean;

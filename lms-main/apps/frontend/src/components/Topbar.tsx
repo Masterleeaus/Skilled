@@ -3,11 +3,14 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useQuery } from "@tanstack/react-query";
 import { useAuthStore } from "@/store/auth.store";
 import { logout as logoutApi } from "@/lib/auth.api";
+import { fetchAcademyMemberships } from "@/lib/curriculum.api";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { ArrowLeft } from "lucide-react";
 import { dashboardHref } from "@/lib/dashboard-link";
+import { roleNavLinks } from "@/lib/nav-links";
 
 interface TopbarProps {
   title: string;
@@ -20,6 +23,13 @@ export function Topbar({ title, backHref, backLabel = "Back" }: TopbarProps) {
   const { user, logout } = useAuthStore();
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
+  const memberships = useQuery({
+    queryKey: ["academy-memberships"],
+    queryFn: fetchAcademyMemberships,
+    enabled: !!user,
+    retry: false,
+  });
+  const navLinks = roleNavLinks(user, memberships.data ?? []);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -78,6 +88,11 @@ export function Topbar({ title, backHref, backLabel = "Back" }: TopbarProps) {
             <Link href={homeHref} className="hover:text-neutral-200">
               Dashboard
             </Link>
+            {navLinks.map((link) => (
+              <Link key={link.href} href={link.href} className="hover:text-neutral-200">
+                {link.label}
+              </Link>
+            ))}
             <button
               type="button"
               onClick={() => setMenuOpen((v) => !v)}
