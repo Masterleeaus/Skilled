@@ -40,7 +40,7 @@ function boundedDecision(value:unknown):value is CentralDecision {
 }
 /** Central issues short-lived decisions; reject malformed, expired, or excessively long grants. */
 function validDecisionExpiry(value:unknown):boolean {
- if(typeof value!=="string"||!/^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$/.test(value))return false;
+ if(typeof value!=="string"||!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(value))return false;
  const expiry=Date.parse(value),now=Date.now();
  return Number.isFinite(expiry)&&expiry>now&&expiry-now<=300_000;
 }
