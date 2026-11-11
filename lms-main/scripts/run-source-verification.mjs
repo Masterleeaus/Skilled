@@ -49,6 +49,7 @@ const checks = [
   'test-curriculum-brand-fixtures.mjs',
   'test-skilled-public-brand.mjs',
   'test-deployment-doc-contract.mjs',
+  'test-env-template-contract.mjs',
 ];
 let failed = 0;
 for (const test of checks) {
