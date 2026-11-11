@@ -8,7 +8,14 @@ import {
   type LinkAssertionRequest, type SkilledLocalLinkAuthority,
 } from "../modules/auth/central-link-assertion";
 
-type Fixture = { name: string; changes: Record<string, any>; expectedAllowed: boolean };
+type Fixture = {
+  name: string;
+  changes: {
+    accountAllowed?: boolean; organisationAllowed?: boolean; memberAllowed?: boolean; invalidKey?: boolean;
+    kid?: string; nonce?: string; ttlSeconds?: number; request?: Partial<LinkAssertionRequest>;
+  };
+  expectedAllowed: boolean;
+};
 const fixturesRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), "fixtures/central-link-assertions");
 const fixtures = readdirSync(fixturesRoot).filter(n => /^LA-\d{2}-.*\.json$/.test(n)).sort();
 if (fixtures.length !== 26) throw new Error("Expected 26 signed-link regression fixtures");

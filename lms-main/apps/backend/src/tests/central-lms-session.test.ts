@@ -4,7 +4,7 @@ const account={userId:'user-1',companyId:'company-1',companyRef:'ref-1',role:'ST
 const setup=(resolve: (selection:unknown)=>Promise<typeof account|null> = async()=>account,fail=false)=>{
  const updates=vi.fn(async()=>({count:fail?0:1}));
  const create=vi.fn(async()=>({id:'refresh'}));
- const transaction=vi.fn(async(fn:(tx:any)=>Promise<void>)=>fn({refreshToken:{updateMany:updates,create}}));
+ const transaction=vi.fn(async(fn:(tx:{refreshToken:{updateMany:typeof updates;create:typeof create}})=>Promise<void>)=>fn({refreshToken:{updateMany:updates,create}}));
  return {issue:createCentralLmsSessionIssuer({resolve,transaction}),updates,create,transaction};
 };
 describe('LMS native revocable refresh issuance',()=>{

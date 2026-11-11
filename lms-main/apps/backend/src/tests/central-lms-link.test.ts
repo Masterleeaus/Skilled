@@ -4,7 +4,7 @@ const input={issuer:'https://issuer.example',subject:'sub-123',companyRef:'compa
 const db=()=>({
  company:{findUnique:vi.fn(async()=>({id:'company-1'}))},
  academyExternalIdentity:{findUnique:vi.fn(async()=>({userId:'user-1',companyId:'company-1'}))},
- companyMember:{findUnique:vi.fn(async()=>({role:'LEARNER'}))},
+ companyMember:{findUnique:vi.fn(async():Promise<{role:string}|null>=>({role:'LEARNER'}))},
  user:{findUnique:vi.fn(async()=>({id:'user-1',isActive:true,role:'STUDENT',isEmailVerified:true,deletedAt:null}))}
 });
 const setup=(over:Record<string,unknown>={})=>{
@@ -36,7 +36,7 @@ describe('LMS current external identity, company, membership and learner status'
   for(const field of ['identity','membership','user']){
    const x=setup();
    if(field==='identity')x.database.academyExternalIdentity.findUnique.mockResolvedValue({userId:'user-1',companyId:'other'});
-   if(field==='membership')x.database.companyMember.findUnique.mockResolvedValue(null as any);
+   if(field==='membership')x.database.companyMember.findUnique.mockResolvedValue(null);
    if(field==='user')x.database.user.findUnique.mockResolvedValue({id:'user-1',isActive:false,isEmailVerified:true,deletedAt:null,role:'STUDENT'});
    expect(await x.resolve(input)).toBeNull();
   }

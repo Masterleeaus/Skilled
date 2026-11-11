@@ -3,6 +3,7 @@ import {Router} from "express";
 import {createSkilledCentralOidcRouter} from "./central-oidc-http";
 import {createSkilledCentralSessionHttp} from "./central-session-http";
 import type {VerifiedCentralDecision} from "./central-verified-handoff";
+import type {CentralHttpSessions} from "./central-session-http";
 type Identity=VerifiedCentralDecision["principal"];
 type Decision=VerifiedCentralDecision["decision"];
 export function createCentralRuntimeRouter(input:{
@@ -11,7 +12,7 @@ export function createCentralRuntimeRouter(input:{
  complete:(x:{browserBinding:string;code:string;state:string})=>Promise<Identity>};
  decide:(identity:Identity)=>Promise<{issuer:string;subject:string;decision:Decision}|null>;
  handoff:(v:VerifiedCentralDecision)=>Promise<{cookie:string}|null>;
- sessions:{authenticate:(token:string)=>Promise<any>;revoke:(token:string)=>Promise<boolean>};
+ sessions:CentralHttpSessions;
 }){
  if(!input||typeof input.decide!=="function")throw TypeError("Central router dependencies missing");
  const router=Router();

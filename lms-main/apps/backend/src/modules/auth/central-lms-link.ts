@@ -5,7 +5,7 @@ import {externalCentralRef} from './central-lms-contract';
  */
 export type CentralLmsSubject={issuer:string;subject:string;companyRef:string;verifiedAt:string};
 export type CentralLmsAccount={userId:string;companyId:string;companyRef:string;role:'ADMIN'|'TEACHER'|'STUDENT';membershipRole:string};
-const SUBJECT=/^[^\s\x00-\x1f\x7f|]{1,180}$/u;
+const SUBJECT=/^[^\s\p{Cc}|]{1,180}$/u;
 function verified(input:unknown,now:number):input is CentralLmsSubject{
  if(!input||typeof input!=='object'||Array.isArray(input))return false;
  const x=input as Record<string,unknown>;
@@ -21,10 +21,10 @@ export function createCentralLmsAccountResolver({
  database,resolveCompanyBinding,authoriseCentral,clock=()=>Date.now()
 }:{
  database:{
-  company:{findUnique:(q:unknown)=>Promise<any>};
-  academyExternalIdentity:{findUnique:(q:unknown)=>Promise<any>};
-  companyMember:{findUnique:(q:unknown)=>Promise<any>};
-  user:{findUnique:(q:unknown)=>Promise<any>};
+  company:{findUnique:(q:unknown)=>Promise<{id:string}|null>};
+  academyExternalIdentity:{findUnique:(q:unknown)=>Promise<{userId:string;companyId:string}|null>};
+  companyMember:{findUnique:(q:unknown)=>Promise<{role:unknown}|null>};
+  user:{findUnique:(q:unknown)=>Promise<{id:string;role:string;isActive:boolean;isEmailVerified:boolean;deletedAt:unknown}|null>};
  };
  resolveCompanyBinding:(companyRef:string)=>Promise<string|null>;
  authoriseCentral:(identity:CentralLmsSubject)=>Promise<boolean>;
@@ -54,7 +54,7 @@ export function createCentralLmsAccountResolver({
    const user=await database.user.findUnique({where:{id:identity.userId},
     select:{id:true,role:true,isActive:true,isEmailVerified:true,deletedAt:true}});
    if(!user||!user.isActive||!user.isEmailVerified||user.deletedAt||!['ADMIN','TEACHER','STUDENT'].includes(user.role))return null;
-   return {userId:user.id,companyId:company.id,companyRef:input.companyRef,role:user.role,membershipRole:member.role};
+   return {userId:user.id,companyId:company.id,companyRef:input.companyRef,role:user.role as CentralLmsAccount["role"],membershipRole:member.role};
   }catch{return null}
  };
 }

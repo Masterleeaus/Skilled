@@ -123,8 +123,8 @@ lms-main/
 ## Getting Started
 
 ### Prerequisites
-- Node.js 20 or later
-- pnpm 10 or later
+- Node.js 22 (the version CI and the verification evidence use; the root `package.json` `engines` field sets `>=20` as a floor)
+- pnpm 10.0.0, exactly, as pinned by the root `packageManager` field. Use Corepack so this version is used; see Setup.
 - Docker (for Postgres, Redis, MinIO and Mailhog)
 
 ### Setup
@@ -133,6 +133,8 @@ lms-main/
 git clone <repository-url> titan-academy
 cd titan-academy
 
+corepack enable              # makes `pnpm` run the version pinned in package.json (10.0.0)
+pnpm -v                      # should print 10.0.0
 pnpm install
 
 cp apps/backend/.env.example apps/backend/.env   # then set every secret; see docs/runbooks/secrets-handling.md
@@ -153,9 +155,10 @@ The backend reads `.env` from its own directory, `apps/backend/`. The dotenv loa
 |---|---|
 | `CLIENT_URL` | Public URL of the frontend. `http://localhost:3000` locally; must be `https://` in production |
 | `DATABASE_URL` | PostgreSQL connection string. Use a local development database; production requires the dedicated `titan_academy` database and role |
-| `REDIS_URL` | Redis, used by the BullMQ email and certificate workers |
-| `JWT_ACCESS_SECRET` | Signs access tokens. At least 10 characters; at least 32 in production |
-| `JWT_REFRESH_SECRET` | Signs refresh tokens. Must differ from `JWT_ACCESS_SECRET` in production |
+| `REDIS_URL` | Redis, used by the BullMQ email and certificate workers. Host and port only; credentials are refused |
+| `REDIS_PASSWORD` | Redis AUTH password, optional. Passed separately from `REDIS_URL` |
+| `JWT_ACCESS_SECRET` | Signs access tokens. At least 32 characters in every environment |
+| `JWT_REFRESH_SECRET` | Signs refresh tokens. At least 32 characters in every environment; must differ from `JWT_ACCESS_SECRET` |
 | `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY` | Credentials for MinIO object storage (uploads) |
 
 Other variables (server port, MinIO endpoint and bucket, SMTP, token lifetimes, Stripe keys, curriculum directory) have defaults. They are defined in `apps/backend/src/config/env.ts`.

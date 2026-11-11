@@ -33,7 +33,7 @@ function cookie(header:unknown,name:string):string|null{
  }
  return value;
 }
-const fail=(res:{status:(n:number)=>any;json:(v:unknown)=>unknown},status=401)=>
+const fail=(res:{status:(n:number)=>{json:(v:unknown)=>unknown}},status=401)=>
  res.status(status).json({success:false,message:"Central session unavailable"});
 const isSameOrigin=(request:Request,origin:string)=>{
  const header=request.headers.origin;

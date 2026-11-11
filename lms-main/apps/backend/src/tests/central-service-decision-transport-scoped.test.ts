@@ -1,6 +1,6 @@
 import {describe,it,expect,vi} from "vitest";
-import {createAuthenticatedCentralDecisionClient} from "../modules/auth/central-decision-transport";
-import {issuer,audience,identity,decision,orgUuid,mockedResponse} from "./support/central-service-decision-fixture";
+import {createAuthenticatedCentralDecisionClient,createCentralOrganisationRegistry} from "../modules/auth/central-decision-transport";
+import {issuer,audience,identity,decision,org,orgUuid,mockedResponse} from "./support/central-service-decision-fixture";
 const endpoint="https://central.example.test/v1/integrations/academy/decision";
 const token="t".repeat(64);
 describe("Skilled request meets new Central server-to-server decision contract",()=>{
@@ -15,17 +15,17 @@ describe("Skilled request meets new Central server-to-server decision contract",
   const client=createAuthenticatedCentralDecisionClient({
    endpoint,bearerToken:token,expectedIssuer:issuer,expectedAudience:audience,
    fetcher:fetcher as never,generateRequestId:()=> "r".repeat(43),
-   resolveCentralOrganisationId:async()=>orgUuid,
+   resolveCentralOrganisationId:createCentralOrganisationRegistry([{logtoOrganisationId:org,centralOrganisationId:orgUuid}]),
   });
-  expect(await client(identity)).toEqual({issuer,subject:identity.subject,decision});
+  expect(await client(identity,org)).toEqual({issuer,subject:identity.subject,decision});
   expect(fetcher).toHaveBeenCalledOnce();
  });
  it("refuses missing UUID before any HTTP request",async()=>{
   const fetcher=vi.fn(async()=>mockedResponse(null));
   const client=createAuthenticatedCentralDecisionClient({
    endpoint,bearerToken:token,expectedIssuer:issuer,expectedAudience:audience,
-   fetcher:fetcher as never,resolveCentralOrganisationId:async()=>null,
+   fetcher:fetcher as never,resolveCentralOrganisationId:createCentralOrganisationRegistry([]),
   });
-  expect(await client(identity)).toBeNull();expect(fetcher).not.toHaveBeenCalled();
+  expect(await client(identity,org)).toBeNull();expect(fetcher).not.toHaveBeenCalled();
  });
 });

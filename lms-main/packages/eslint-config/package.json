@@ -1,0 +1,18 @@
+{
+  "name": "@lms/eslint-config",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "peerDependencies": {
+    "eslint": "^9.39.5"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.39.5",
+    "@typescript-eslint/eslint-plugin": "8.64.0",
+    "@typescript-eslint/parser": "8.64.0"
+  }
+}

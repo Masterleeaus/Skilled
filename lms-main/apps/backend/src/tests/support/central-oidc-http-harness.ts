@@ -13,7 +13,8 @@ export const decision:VerifiedCentralDecision["decision"]={
  allowed:true,applicationId:"academy",organisationId:"central-org-0001",localUserId:"skilled-user-0001",
  localAccountId:"skilled-account-0001",membershipRevision:1,entitlementRevision:1,linkRevision:1,
 };
-export function makeApp(changes:Record<string,any>={}){
+type HarnessChanges={redirect?:string;completionError?:boolean;principal?:VerifiedCentralDecision["principal"];authorizeError?:boolean;authorized?:boolean;decision?:VerifiedCentralDecision["decision"];handoffError?:boolean;sessionDenied?:boolean;cookie?:string;enabled?:boolean;limiter?:never};
+export function makeApp(changes:HarnessChanges={}){
  const login={
   begin:vi.fn(async()=>({authorizationUrl:changes.redirect??"https://id.example.test/authorize?client_id=academy"})),
   complete:vi.fn(async()=>{if(changes.completionError)throw Error("OIDC denied");return changes.principal??principal;}),

@@ -25,6 +25,8 @@ const required = [
   'lms-main/curriculum/assessments/example.assessment.json',
   'lms-main/curriculum/lesson-normalization-index.json',
   'lms-main/curriculum/ci/curriculum-ci-baseline.json',
+  'lms-main/tests/fixtures/assessment-malformed/example.assessment.json',
+  'lms-main/tests/fixtures/assessment-publication/example.assessment.json',
   'lms-main/scripts/ci-curriculum-audit.mjs',
   'lms-main/scripts/validate-assessment-publication.mjs',
   'lms-main/scripts/reconcile-lesson-formats.mjs',
@@ -40,17 +42,18 @@ const required = [
   'lms-main/apps/backend/prisma/migrations/20261108140000_certificate_verification_token/migration.sql',
   'lms-main/apps/backend/src/tests/academy-enrolment-progress.test.ts',
   'lms-main/package.json',
+  '.github/workflows/skilled-assessment-negative-fixtures.yml',
   '.github/workflows/curriculum-ci.yml',
   '.github/workflows/curriculum-ci-trigger-contract.yml',
 ];
 for (const event of ['pull_request', 'push']) {
-  test(event + ': all 21 publication-sensitive paths trigger CI', () => {
+  test(event + ': all curriculum-owned paths trigger CI', () => {
     for (const filename of required) {
       assert.ok(blocks[event].some(p => matches(p, filename)), event + ' does not cover ' + filename);
     }
   });
   test(event + ': unrelated source changes do not trigger curriculum gate', () => {
-    for (const filename of ['README.md', 'brand/logo.svg', 'library/example.jpg', 'lms-main/apps/frontend/public/icon.png']) {
+    for (const filename of ['README.md', 'brand/logo.svg', 'library/example.jpg', 'lms-main/apps/frontend/public/icon.png', 'lms-main/apps/backend/src/tests/example.test.ts', 'lms-main/scripts/test-env-template-contract.mjs']) {
       assert.ok(!blocks[event].some(p => matches(p, filename)), 'Unexpected CI trigger: ' + filename);
     }
   });
@@ -67,4 +70,8 @@ test('failed checks retain JSON report for review, never publish approvals', () 
   assert.match(workflow, /if: always\(\)/);
   assert.match(workflow, /path: lms-main\/build\/curriculum-ci-report\.json/);
   assert.doesNotMatch(workflow, /--write-baseline|auto.?approv|publish-assessments/i);
+});
+
+test('curriculum pushes cover the capitalised default branch', () => {
+  assert.match(workflow, /branches:\n      - main\n      - Main/);
 });

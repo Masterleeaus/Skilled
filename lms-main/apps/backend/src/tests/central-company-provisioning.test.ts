@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import type { PrismaClient } from "@prisma/client";
 import { describe, expect, it } from "vitest";
 import { fakePrisma, resetFakeDb, rows, seed } from "./support/fake-prisma";
-import { applyCentralLinkCommand, CentralLinkConflict } from "../modules/auth/central-company-link-provisioning";
+import { applyCentralLinkCommand } from "../modules/auth/central-company-link-provisioning";
 import { createPrismaCentralAccountReaders, createPrismaSkilledLinkAuthority } from "../modules/auth/central-prisma-readers";
 import { resolveSkilledCentralAccount, type CentralDecision } from "../modules/auth/central-account-resolution";
 

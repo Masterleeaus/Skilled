@@ -6,7 +6,7 @@ export const CENTRAL_LMS_SERVICE='titan-central' as const;
 export type CentralLmsMapping={issuer:string;subject:string;companyRef:string;userId:string};
 export function externalCentralRef(issuer:unknown,subject:unknown):string|null{
  if(typeof issuer!=='string'||typeof subject!=='string'||subject.length<1||subject.length>180||
- /[\s\x00-\x1f\x7f|]/u.test(subject))return null;
+ /[\s\p{Cc}|]/u.test(subject))return null;
  try{const url=new URL(issuer);if(url.protocol!=='https:'||url.username||url.password||
  url.search||url.hash||!(issuer===url.origin||issuer===url.href))return null}
  catch{return null}

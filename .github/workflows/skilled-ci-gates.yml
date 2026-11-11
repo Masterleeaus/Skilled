@@ -1,5 +1,5 @@
 # Required CI gates for the SkilledAt.Work academy backend and contract scripts (issue #149).
-# Runs on every pull request and on pushes to main, with no path filter, so these gates
+# Runs on every pull request and on pushes to Main or main, with no path filter, so these gates
 # cannot be skipped by a change that touches none of the listed paths. Any failing step
 # fails the check. The repository root is the parent of lms-main/, so each job sets
 # working-directory to lms-main.
@@ -10,6 +10,7 @@ on:
   push:
     branches:
       - main
+      - Main
   workflow_dispatch:
 
 permissions:
