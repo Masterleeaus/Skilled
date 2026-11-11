@@ -20,4 +20,23 @@ describe("bound Central service client composes operator registry and existing t
    serverCredential:"s".repeat(64),centralOrganisationRegistryJson:registry,fetcher:fetcher as never});
   expect(await client(identity)).toBeNull();expect(fetcher).not.toHaveBeenCalled();
  });
+ it("rejects a response for another organisation despite matching issuer and request",async()=>{
+  const fetcher=vi.fn(async (_url:string,init:RequestInit)=>{
+   const q=JSON.parse(init.body as string);
+   return mockedResponse({issuer,subject:identity.subject,requestId:q.requestId,
+    decision:{...decision,organisationId:"11111111-1111-4111-8111-111111111111"}});
+  });
+  const client=createSkilledCentralServiceDecision({db:stubDb(),
+   endpoint:"https://central.example.test/v1/integrations/academy/decision",issuer,audience,
+   serverCredential:"s".repeat(64),centralOrganisationRegistryJson:registry,fetcher:fetcher as never});
+  expect(await client(identity)).toBeNull();expect(fetcher).toHaveBeenCalledOnce();
+ });
+ it("fails closed before HTTP when the trusted local selector is unavailable",async()=>{
+  const db=stubDb();vi.mocked(db.academyExternalIdentity.findMany).mockRejectedValueOnce(new Error("unavailable"));
+  const fetcher=vi.fn(async()=>mockedResponse({}));
+  const client=createSkilledCentralServiceDecision({db,
+   endpoint:"https://central.example.test/v1/integrations/academy/decision",issuer,audience,
+   serverCredential:"s".repeat(64),centralOrganisationRegistryJson:registry,fetcher:fetcher as never});
+  expect(await client(identity)).toBeNull();expect(fetcher).not.toHaveBeenCalled();
+ });
 });
