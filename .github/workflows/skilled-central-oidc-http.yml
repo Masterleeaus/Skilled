@@ -2,15 +2,15 @@ name: Skilled verified OIDC HTTP handoff
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-oidc-*.ts'
-      - 'lms-main/apps/backend/src/tests/central-oidc-*.test.ts'
-      - 'lms-main/apps/backend/src/tests/support/central-oidc-http-harness.ts'
+      - 'apps/backend/src/modules/auth/central-oidc-*.ts'
+      - 'apps/backend/src/tests/central-oidc-*.test.ts'
+      - 'apps/backend/src/tests/support/central-oidc-http-harness.ts'
       - '.github/workflows/skilled-central-oidc-http.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-oidc-*.ts'
-      - 'lms-main/apps/backend/src/tests/central-oidc-*.test.ts'
+      - 'apps/backend/src/modules/auth/central-oidc-*.ts'
+      - 'apps/backend/src/tests/central-oidc-*.test.ts'
   workflow_dispatch:
 permissions:
   contents: read
@@ -27,21 +27,21 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install frozen dependencies
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Validate Prisma and generate client
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         env:
           DATABASE_URL: postgresql://ci:ci@localhost:5432/skilled_schema_only
         run: |
           pnpm exec prisma validate
           pnpm exec prisma generate
       - name: Exercise OIDC callback bridge and existing verified session behavior
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec vitest run src/tests/central-oidc-*.test.ts src/tests/central-session-http.test.ts src/tests/central-account-resolution.test.ts
       - name: Typecheck backend
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec tsc --noEmit

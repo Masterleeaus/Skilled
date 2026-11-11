@@ -1,8 +1,8 @@
 # Required CI gates for the SkilledAt.Work academy backend and contract scripts (issue #149).
 # Runs on every pull request and on pushes to Main or main, with no path filter, so these gates
 # cannot be skipped by a change that touches none of the listed paths. Any failing step
-# fails the check. The repository root is the parent of lms-main/, so each job sets
-# working-directory to lms-main.
+# fails the check. The repository root is the parent of , so each job sets
+# working-directory to the repository root.
 name: skilled-ci-gates
 
 on:
@@ -27,7 +27,7 @@ jobs:
     timeout-minutes: 15
     defaults:
       run:
-        working-directory: lms-main
+        working-directory: .
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -42,7 +42,7 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies (frozen lockfile)
         run: pnpm install --frozen-lockfile
@@ -68,7 +68,7 @@ jobs:
     timeout-minutes: 20
     defaults:
       run:
-        working-directory: lms-main
+        working-directory: .
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -83,13 +83,13 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies (frozen lockfile)
         run: pnpm install --frozen-lockfile
 
       - name: Generate Prisma client
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec prisma generate
 
       - name: Academy backend tests
@@ -122,7 +122,7 @@ jobs:
       SKILLED_CENTRAL_SESSION_PG_TEST: "1"
     defaults:
       run:
-        working-directory: lms-main
+        working-directory: .
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -137,13 +137,13 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies (frozen lockfile)
         run: pnpm install --frozen-lockfile
 
       - name: Provision disposable PostgreSQL database from Prisma schema
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec prisma validate
           pnpm exec prisma generate

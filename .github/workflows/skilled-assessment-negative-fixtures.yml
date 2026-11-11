@@ -2,18 +2,18 @@ name: skilled-assessment-negative-fixtures
 on:
   pull_request:
     paths:
-      - 'lms-main/tests/fixtures/assessment-publication/**'
-      - 'lms-main/scripts/test-assessment-publication-negative-fixtures.mjs'
-      - 'lms-main/scripts/validate-assessment-publication.mjs'
-      - 'lms-main/scripts/ci-curriculum-audit.mjs'
+      - 'tests/fixtures/assessment-publication/**'
+      - 'scripts/test-assessment-publication-negative-fixtures.mjs'
+      - 'scripts/validate-assessment-publication.mjs'
+      - 'scripts/ci-curriculum-audit.mjs'
       - '.github/workflows/skilled-assessment-negative-fixtures.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/tests/fixtures/assessment-publication/**'
-      - 'lms-main/scripts/test-assessment-publication-negative-fixtures.mjs'
-      - 'lms-main/scripts/validate-assessment-publication.mjs'
-      - 'lms-main/scripts/ci-curriculum-audit.mjs'
+      - 'tests/fixtures/assessment-publication/**'
+      - 'scripts/test-assessment-publication-negative-fixtures.mjs'
+      - 'scripts/validate-assessment-publication.mjs'
+      - 'scripts/ci-curriculum-audit.mjs'
       - '.github/workflows/skilled-assessment-negative-fixtures.yml'
   workflow_dispatch:
 permissions:
@@ -28,8 +28,8 @@ jobs:
         with:
           node-version: 22
       - name: Validate 20 malformed assessment cases are rejected
-        working-directory: lms-main
+        working-directory: .
         run: node scripts/test-assessment-publication-negative-fixtures.mjs
       - name: Confirm default curriculum validator is unchanged
-        working-directory: lms-main
+        working-directory: .
         run: node scripts/test-assessment-publication.mjs

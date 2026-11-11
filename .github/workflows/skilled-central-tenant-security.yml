@@ -2,14 +2,14 @@ name: skilled-central-tenant-security
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-lms-*.ts'
-      - 'lms-main/apps/backend/src/tests/central-lms-*.ts'
+      - 'apps/backend/src/modules/auth/central-lms-*.ts'
+      - 'apps/backend/src/tests/central-lms-*.ts'
       - '.github/workflows/skilled-central-tenant-security.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-lms-*.ts'
-      - 'lms-main/apps/backend/src/tests/central-lms-*.ts'
+      - 'apps/backend/src/modules/auth/central-lms-*.ts'
+      - 'apps/backend/src/tests/central-lms-*.ts'
   workflow_dispatch:
 permissions:
   contents: read
@@ -35,18 +35,18 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install reproducibly
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Generate backend types
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec prisma generate
       - name: Validate existing Central adapter and all independent security scenarios
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-lms-contract.test.ts src/tests/central-lms-link.test.ts src/tests/central-lms-session.test.ts src/tests/central-lms-security-*.test.ts
       - name: Typecheck backend and isolated Central security tests
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec tsc --noEmit
           pnpm exec tsc --project tsconfig.central-lms.json

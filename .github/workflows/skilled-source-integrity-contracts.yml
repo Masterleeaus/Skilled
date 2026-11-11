@@ -2,24 +2,24 @@ name: skilled-source-integrity-contracts
 on:
   pull_request:
     paths:
-      - 'lms-main/scripts/audit-active-compatibility.mjs'
-      - 'lms-main/scripts/test-audit-active-compatibility.mjs'
-      - 'lms-main/scripts/audit-inactive-source-boundaries.mjs'
-      - 'lms-main/scripts/test-audit-inactive-source-boundaries.mjs'
-      - 'lms-main/scripts/audit-canonical-import-manifest.mjs'
-      - 'lms-main/scripts/test-audit-canonical-import-manifest.mjs'
-      - 'lms-main/scripts/audit-course-art-manifest.mjs'
-      - 'lms-main/scripts/test-audit-course-art-manifest.mjs'
-      - 'lms-main/scripts/prepare-public-assets.mjs'
-      - 'lms-main/scripts/test-prepare-public-assets.mjs'
+      - 'scripts/audit-active-compatibility.mjs'
+      - 'scripts/test-audit-active-compatibility.mjs'
+      - 'scripts/audit-inactive-source-boundaries.mjs'
+      - 'scripts/test-audit-inactive-source-boundaries.mjs'
+      - 'scripts/audit-canonical-import-manifest.mjs'
+      - 'scripts/test-audit-canonical-import-manifest.mjs'
+      - 'scripts/audit-course-art-manifest.mjs'
+      - 'scripts/test-audit-course-art-manifest.mjs'
+      - 'scripts/prepare-public-assets.mjs'
+      - 'scripts/test-prepare-public-assets.mjs'
       - '.github/workflows/skilled-source-integrity-contracts.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/scripts/audit-*.mjs'
-      - 'lms-main/scripts/test-audit-*.mjs'
-      - 'lms-main/scripts/prepare-public-assets.mjs'
-      - 'lms-main/scripts/test-prepare-public-assets.mjs'
+      - 'scripts/audit-*.mjs'
+      - 'scripts/test-audit-*.mjs'
+      - 'scripts/prepare-public-assets.mjs'
+      - 'scripts/test-prepare-public-assets.mjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -31,9 +31,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - working-directory: lms-main
+      - working-directory: .
         run: node --test scripts/test-audit-active-compatibility.mjs
-      - working-directory: lms-main
+      - working-directory: .
         run: node scripts/audit-active-compatibility.mjs --strict
   source-boundaries:
     runs-on: ubuntu-latest
@@ -42,9 +42,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - working-directory: lms-main
+      - working-directory: .
         run: node --test scripts/test-audit-inactive-source-boundaries.mjs
-      - working-directory: lms-main
+      - working-directory: .
         run: node scripts/audit-inactive-source-boundaries.mjs --strict
   historical-import:
     runs-on: ubuntu-latest
@@ -53,15 +53,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - working-directory: lms-main
+      - working-directory: .
         run: node --test scripts/test-audit-canonical-import-manifest.mjs
-      - working-directory: lms-main
+      - working-directory: .
         run: node scripts/audit-canonical-import-manifest.mjs --report build/import-provenance.json
       - if: always()
         uses: actions/upload-artifact@v4
         with:
           name: import-provenance-report
-          path: lms-main/build/import-provenance.json
+          path: build/import-provenance.json
   course-art:
     runs-on: ubuntu-latest
     steps:
@@ -69,9 +69,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - working-directory: lms-main
+      - working-directory: .
         run: node --test scripts/test-audit-course-art-manifest.mjs
-      - working-directory: lms-main
+      - working-directory: .
         run: node scripts/audit-course-art-manifest.mjs --strict
   asset-safety:
     runs-on: ubuntu-latest
@@ -80,5 +80,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - working-directory: lms-main
+      - working-directory: .
         run: node --test scripts/test-prepare-public-assets.mjs

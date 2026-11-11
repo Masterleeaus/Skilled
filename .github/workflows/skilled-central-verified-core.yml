@@ -2,16 +2,16 @@ name: Skilled cryptographically verified OIDC core
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/prisma/schema.prisma'
-      - 'lms-main/apps/backend/prisma/migrations/20261109160000_skilled_oidc_state/**'
-      - 'lms-main/apps/backend/src/modules/auth/central-oidc-*.ts'
-      - 'lms-main/apps/backend/src/tests/central-oidc-*.test.ts'
+      - 'apps/backend/prisma/schema.prisma'
+      - 'apps/backend/prisma/migrations/20261109160000_skilled_oidc_state/**'
+      - 'apps/backend/src/modules/auth/central-oidc-*.ts'
+      - 'apps/backend/src/tests/central-oidc-*.test.ts'
       - '.github/workflows/skilled-central-verified-core.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/prisma/schema.prisma'
-      - 'lms-main/apps/backend/src/modules/auth/central-oidc-*.ts'
+      - 'apps/backend/prisma/schema.prisma'
+      - 'apps/backend/src/modules/auth/central-oidc-*.ts'
   workflow_dispatch:
 permissions:
   contents: read
@@ -28,20 +28,20 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install frozen dependencies
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Generate and validate Prisma
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         env:
           DATABASE_URL: postgresql://ci:ci@localhost:5432/skilled_schema_only
         run: |
           pnpm exec prisma validate
           pnpm exec prisma generate
       - name: Test cryptographic verifier and browser integration
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-oidc-*.test.ts src/tests/central-session-http.test.ts src/tests/central-account-resolution.test.ts
       - name: Backend TypeScript
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec tsc --noEmit

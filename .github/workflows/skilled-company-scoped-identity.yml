@@ -3,18 +3,18 @@ name: skilled-company-scoped-identity-verification
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/modules/curriculum/integration.routes.ts'
-      - 'lms-main/apps/backend/src/modules/curriculum/integration-identity-policy.ts'
-      - 'lms-main/apps/backend/src/tests/scoped-identity-policy.test.ts'
-      - 'lms-main/apps/backend/src/tests/fixtures/scoped-identity/**'
+      - 'apps/backend/src/modules/curriculum/integration.routes.ts'
+      - 'apps/backend/src/modules/curriculum/integration-identity-policy.ts'
+      - 'apps/backend/src/tests/scoped-identity-policy.test.ts'
+      - 'apps/backend/src/tests/fixtures/scoped-identity/**'
       - '.github/workflows/skilled-company-scoped-identity.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/modules/curriculum/integration.routes.ts'
-      - 'lms-main/apps/backend/src/modules/curriculum/integration-identity-policy.ts'
-      - 'lms-main/apps/backend/src/tests/scoped-identity-policy.test.ts'
-      - 'lms-main/apps/backend/src/tests/fixtures/scoped-identity/**'
+      - 'apps/backend/src/modules/curriculum/integration.routes.ts'
+      - 'apps/backend/src/modules/curriculum/integration-identity-policy.ts'
+      - 'apps/backend/src/tests/scoped-identity-policy.test.ts'
+      - 'apps/backend/src/tests/fixtures/scoped-identity/**'
   workflow_dispatch:
 
 permissions:
@@ -32,17 +32,17 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install frozen workspace dependencies
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Generate Prisma model client
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec prisma generate
       - name: Exercise scoped identity policy and API contract
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec vitest run src/tests/scoped-identity-policy.test.ts src/tests/verify-aca-016-identity-read-path.test.ts src/tests/verify-external-identity.test.ts
       - name: Backend TypeScript check
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec tsc --noEmit

@@ -3,16 +3,16 @@ name: Skilled Central account-resolution contract
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-account-resolution.ts'
-      - 'lms-main/apps/backend/src/tests/central-account-resolution.test.ts'
-      - 'lms-main/apps/backend/src/tests/fixtures/central-account-resolution/**'
+      - 'apps/backend/src/modules/auth/central-account-resolution.ts'
+      - 'apps/backend/src/tests/central-account-resolution.test.ts'
+      - 'apps/backend/src/tests/fixtures/central-account-resolution/**'
       - '.github/workflows/skilled-central-account-contract.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-account-resolution.ts'
-      - 'lms-main/apps/backend/src/tests/central-account-resolution.test.ts'
-      - 'lms-main/apps/backend/src/tests/fixtures/central-account-resolution/**'
+      - 'apps/backend/src/modules/auth/central-account-resolution.ts'
+      - 'apps/backend/src/tests/central-account-resolution.test.ts'
+      - 'apps/backend/src/tests/fixtures/central-account-resolution/**'
   workflow_dispatch:
 
 permissions:
@@ -31,17 +31,17 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Frozen dependency installation
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Generate Prisma types
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec prisma generate
       - name: Verify Central account and existing scope rules
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec vitest run src/tests/central-account-resolution.test.ts src/tests/scoped-identity-policy.test.ts src/tests/verify-external-identity.test.ts
       - name: Backend TypeScript check
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec tsc --noEmit

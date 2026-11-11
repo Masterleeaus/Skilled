@@ -5,15 +5,15 @@ on:
     paths:
       - ".github/workflows/curriculum-ci.yml"
       - ".github/workflows/curriculum-ci-trigger-contract.yml"
-      - "lms-main/scripts/test-curriculum-ci-trigger-contract.mjs"
-      - "lms-main/package.json"
+      - "scripts/test-curriculum-ci-trigger-contract.mjs"
+      - "package.json"
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
       - ".github/workflows/curriculum-ci.yml"
       - ".github/workflows/curriculum-ci-trigger-contract.yml"
-      - "lms-main/scripts/test-curriculum-ci-trigger-contract.mjs"
-      - "lms-main/package.json"
+      - "scripts/test-curriculum-ci-trigger-contract.mjs"
+      - "package.json"
   workflow_dispatch:
 permissions:
   contents: read
@@ -27,4 +27,4 @@ jobs:
         with:
           node-version: 22
       - name: Assert all curriculum publication surfaces activate CI
-        run: node --test lms-main/scripts/test-curriculum-ci-trigger-contract.mjs
+        run: node --test scripts/test-curriculum-ci-trigger-contract.mjs

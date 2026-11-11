@@ -2,18 +2,18 @@ name: Skilled Central multi-tenant PostgreSQL sessions
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-session-store.ts'
-      - 'lms-main/apps/backend/src/tests/central-session-pg-*.test.ts'
-      - 'lms-main/apps/backend/src/tests/central-session-postgres.fixture.ts'
-      - 'lms-main/apps/backend/tsconfig.central-session-pg.json'
+      - 'apps/backend/src/modules/auth/central-session-store.ts'
+      - 'apps/backend/src/tests/central-session-pg-*.test.ts'
+      - 'apps/backend/src/tests/central-session-postgres.fixture.ts'
+      - 'apps/backend/tsconfig.central-session-pg.json'
       - '.github/workflows/skilled-central-session-postgres.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/backend/src/modules/auth/central-session-store.ts'
-      - 'lms-main/apps/backend/src/tests/central-session-pg-*.test.ts'
-      - 'lms-main/apps/backend/src/tests/central-session-postgres.fixture.ts'
-      - 'lms-main/apps/backend/tsconfig.central-session-pg.json'
+      - 'apps/backend/src/modules/auth/central-session-store.ts'
+      - 'apps/backend/src/tests/central-session-pg-*.test.ts'
+      - 'apps/backend/src/tests/central-session-postgres.fixture.ts'
+      - 'apps/backend/tsconfig.central-session-pg.json'
   workflow_dispatch:
 permissions:
   contents: read
@@ -47,21 +47,21 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install immutable dependencies
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Provision disposable PostgreSQL database from actual Prisma schema
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec prisma validate
           pnpm exec prisma generate
           pnpm exec prisma db push --skip-generate
       - name: Real two-tenant session, revocation and concurrent rotation checks
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-session-pg-*.test.ts --maxWorkers=4
       - name: Typecheck production backend and test fixture
-        working-directory: lms-main/apps/backend
+        working-directory: apps/backend
         run: |
           pnpm exec tsc --noEmit
           pnpm exec tsc --project tsconfig.central-session-pg.json

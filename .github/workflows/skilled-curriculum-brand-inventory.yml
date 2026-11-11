@@ -2,24 +2,24 @@ name: skilled-curriculum-brand-inventory
 on:
   pull_request:
     paths:
-      - 'lms-main/scripts/audit-curriculum-brand.mjs'
-      - 'lms-main/scripts/test-audit-curriculum-brand.mjs'
-      - 'lms-main/scripts/test-curriculum-brand-fixtures.mjs'
-      - 'lms-main/tests/fixtures/curriculum-brand/**'
-      - 'lms-main/curriculum/courses/**'
-      - 'lms-main/curriculum/shared/**'
-      - 'lms-main/curriculum/structure/**'
+      - 'scripts/audit-curriculum-brand.mjs'
+      - 'scripts/test-audit-curriculum-brand.mjs'
+      - 'scripts/test-curriculum-brand-fixtures.mjs'
+      - 'tests/fixtures/curriculum-brand/**'
+      - 'curriculum/courses/**'
+      - 'curriculum/shared/**'
+      - 'curriculum/structure/**'
       - '.github/workflows/skilled-curriculum-brand-inventory.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/scripts/audit-curriculum-brand.mjs'
-      - 'lms-main/scripts/test-audit-curriculum-brand.mjs'
-      - 'lms-main/scripts/test-curriculum-brand-fixtures.mjs'
-      - 'lms-main/tests/fixtures/curriculum-brand/**'
-      - 'lms-main/curriculum/courses/**'
-      - 'lms-main/curriculum/shared/**'
-      - 'lms-main/curriculum/structure/**'
+      - 'scripts/audit-curriculum-brand.mjs'
+      - 'scripts/test-audit-curriculum-brand.mjs'
+      - 'scripts/test-curriculum-brand-fixtures.mjs'
+      - 'tests/fixtures/curriculum-brand/**'
+      - 'curriculum/courses/**'
+      - 'curriculum/shared/**'
+      - 'curriculum/structure/**'
   workflow_dispatch:
 permissions:
   contents: read
@@ -33,16 +33,16 @@ jobs:
         with:
           node-version: 22
       - name: Validate classification and source-location contracts
-        working-directory: lms-main
+        working-directory: .
         run: |
           node --test scripts/test-audit-curriculum-brand.mjs
           node --test scripts/test-curriculum-brand-fixtures.mjs
       - name: Produce read-only canonical curriculum brand evidence
-        working-directory: lms-main
+        working-directory: .
         run: node scripts/audit-curriculum-brand.mjs --report build/issue-86-brand-inventory.json
       - if: always()
         uses: actions/upload-artifact@v4
         with:
           name: issue-86-brand-inventory
-          path: lms-main/build/issue-86-brand-inventory.json
+          path: build/issue-86-brand-inventory.json
           if-no-files-found: warn

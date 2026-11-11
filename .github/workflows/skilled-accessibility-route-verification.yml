@@ -2,14 +2,14 @@ name: skilled-accessibility-route-verification
 on:
   pull_request:
     paths:
-      - 'lms-main/apps/frontend/src/**'
-      - 'lms-main/apps/frontend/scripts/test-skip-navigation-contract.mjs'
+      - 'apps/frontend/src/**'
+      - 'apps/frontend/scripts/test-skip-navigation-contract.mjs'
       - '.github/workflows/skilled-accessibility-route-verification.yml'
   push:
-    branches: [main]
+    branches: [Main, main]
     paths:
-      - 'lms-main/apps/frontend/src/**'
-      - 'lms-main/apps/frontend/scripts/test-skip-navigation-contract.mjs'
+      - 'apps/frontend/src/**'
+      - 'apps/frontend/scripts/test-skip-navigation-contract.mjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node lms-main/apps/frontend/scripts/test-skip-navigation-contract.mjs
+      - run: node apps/frontend/scripts/test-skip-navigation-contract.mjs
   frontend-verification:
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -35,12 +35,12 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: lms-main/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
       - name: Install frozen lockfile
-        working-directory: lms-main
+        working-directory: .
         run: pnpm install --frozen-lockfile
       - name: Check frontend lint and build
-        working-directory: lms-main/apps/frontend
+        working-directory: apps/frontend
         run: |
           pnpm lint
           pnpm build
