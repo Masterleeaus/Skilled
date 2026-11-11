@@ -8,35 +8,19 @@ on:
   pull_request:
     paths:
       - "lms-main/curriculum/**"
-      - "lms-main/scripts/**"
-      - "lms-main/tests/fixtures/assessment-malformed/**"
       - "lms-main/tests/fixtures/assessment-malformed/**"
       - "lms-main/tests/fixtures/assessment-publication/**"
-      - "lms-main/apps/backend/src/modules/curriculum/**"
-      - "lms-main/apps/backend/src/modules/courses/**"
-      - "lms-main/apps/backend/src/modules/quizzes/**"
-      - "lms-main/apps/backend/src/tests/**"
-      - "lms-main/apps/backend/prisma/**"
-      - "lms-main/package.json"
       - ".github/workflows/curriculum-ci.yml"
       - ".github/workflows/curriculum-ci-trigger-contract.yml"
-      - ".github/workflows/skilled-assessment-negative-fixtures.yml"
   push:
     branches:
       - main
     paths:
       - "lms-main/curriculum/**"
-      - "lms-main/scripts/**"
+      - "lms-main/tests/fixtures/assessment-malformed/**"
       - "lms-main/tests/fixtures/assessment-publication/**"
-      - "lms-main/apps/backend/src/modules/curriculum/**"
-      - "lms-main/apps/backend/src/modules/courses/**"
-      - "lms-main/apps/backend/src/modules/quizzes/**"
-      - "lms-main/apps/backend/src/tests/**"
-      - "lms-main/apps/backend/prisma/**"
-      - "lms-main/package.json"
       - ".github/workflows/curriculum-ci.yml"
       - ".github/workflows/curriculum-ci-trigger-contract.yml"
-      - ".github/workflows/skilled-assessment-negative-fixtures.yml"
   workflow_dispatch:
 
 permissions:

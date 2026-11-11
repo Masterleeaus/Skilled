@@ -25,32 +25,19 @@ const required = [
   'lms-main/curriculum/assessments/example.assessment.json',
   'lms-main/curriculum/lesson-normalization-index.json',
   'lms-main/curriculum/ci/curriculum-ci-baseline.json',
-  'lms-main/scripts/ci-curriculum-audit.mjs',
-  'lms-main/scripts/validate-assessment-publication.mjs',
-  'lms-main/scripts/reconcile-lesson-formats.mjs',
-  'lms-main/scripts/test-assessment-publication.mjs',
-  'lms-main/apps/backend/src/modules/curriculum/curriculum-publisher.ts',
-  'lms-main/apps/backend/src/modules/curriculum/curriculum.routes.ts',
-  'lms-main/apps/backend/src/modules/curriculum/lesson-review.service.ts',
-  'lms-main/apps/backend/src/modules/courses/lesson.service.ts',
-  'lms-main/apps/backend/src/modules/courses/course.service.ts',
-  'lms-main/apps/backend/src/modules/quizzes/quiz.routes.ts',
-  'lms-main/apps/backend/prisma/schema.prisma',
-  'lms-main/apps/backend/prisma/seed.ts',
-  'lms-main/apps/backend/prisma/migrations/20261108140000_certificate_verification_token/migration.sql',
-  'lms-main/apps/backend/src/tests/academy-enrolment-progress.test.ts',
-  'lms-main/package.json',
+  'lms-main/tests/fixtures/assessment-malformed/example.assessment.json',
+  'lms-main/tests/fixtures/assessment-publication/example.assessment.json',
   '.github/workflows/curriculum-ci.yml',
   '.github/workflows/curriculum-ci-trigger-contract.yml',
 ];
 for (const event of ['pull_request', 'push']) {
-  test(event + ': all 21 publication-sensitive paths trigger CI', () => {
+  test(event + ': all curriculum-owned paths trigger CI', () => {
     for (const filename of required) {
       assert.ok(blocks[event].some(p => matches(p, filename)), event + ' does not cover ' + filename);
     }
   });
   test(event + ': unrelated source changes do not trigger curriculum gate', () => {
-    for (const filename of ['README.md', 'brand/logo.svg', 'library/example.jpg', 'lms-main/apps/frontend/public/icon.png']) {
+    for (const filename of ['README.md', 'brand/logo.svg', 'library/example.jpg', 'lms-main/apps/frontend/public/icon.png', 'lms-main/apps/backend/src/tests/example.test.ts', 'lms-main/apps/backend/prisma/schema.prisma', 'lms-main/apps/backend/src/modules/courses/course.service.ts', 'lms-main/scripts/ci-curriculum-audit.mjs', 'lms-main/package.json']) {
       assert.ok(!blocks[event].some(p => matches(p, filename)), 'Unexpected CI trigger: ' + filename);
     }
   });
