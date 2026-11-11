@@ -31,11 +31,18 @@ function boundedDecision(value:unknown):value is CentralDecision {
  if(!value||typeof value!=="object"||Array.isArray(value))return false;
  const x=value as Record<string,unknown>;
  return exactKeys(x,["allowed","applicationId","organisationId","localUserId","localAccountId",
-  "membershipRevision","entitlementRevision","linkRevision"]) &&
+  "membershipRevision","entitlementRevision","linkRevision",...(Object.hasOwn(x,"expiresAt")?["expiresAt"]:[])]) &&
   x.allowed===true && x.applicationId==="academy" &&
   [x.organisationId,x.localUserId,x.localAccountId].every(v=>typeof v==="string"&&ID.test(v)) &&
   [x.membershipRevision,x.entitlementRevision,x.linkRevision].every(v=>
-   typeof v==="number"&&Number.isSafeInteger(v)&&v>=0);
+   typeof v==="number"&&Number.isSafeInteger(v)&&v>=0) &&
+  (!Object.hasOwn(x,"expiresAt") || validDecisionExpiry(x.expiresAt));
+}
+/** Central issues short-lived decisions; reject malformed, expired, or excessively long grants. */
+function validDecisionExpiry(value:unknown):boolean {
+ if(typeof value!=="string"||!/^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z$/.test(value))return false;
+ const expiry=Date.parse(value),now=Date.now();
+ return Number.isFinite(expiry)&&expiry>now&&expiry-now<=300_000;
 }
 export function createAuthenticatedCentralDecisionClient(config:ClientConfig):
   (verified:VerifiedIdentity)=>Promise<TrustedDecisionEnvelope|null> {
@@ -83,7 +90,8 @@ export function createAuthenticatedCentralDecisionClient(config:ClientConfig):
    if(!exactKeys(envelope,["issuer","subject","requestId","decision"])||
       envelope.issuer!==verified.issuer || envelope.subject!==verified.subject ||
       envelope.requestId!==requestId || !boundedDecision(envelope.decision))return null;
-   return {issuer:verified.issuer,subject:verified.subject,decision:envelope.decision};
+   const {expiresAt: _expiresAt,...bounded}=envelope.decision as CentralDecision & {expiresAt?:string};
+   return {issuer:verified.issuer,subject:verified.subject,decision:bounded};
   }catch{return null;}
  };
 }
