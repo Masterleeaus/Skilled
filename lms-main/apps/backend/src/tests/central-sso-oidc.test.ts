@@ -5,7 +5,7 @@ import { createCentralOidcClient, sha256Base64url, digestState } from "../module
 import { createMemoryCentralStateStore, createRedisCentralStateStore, type CentralRedisLike } from "../modules/auth/central/central-state";
 import { CentralAuthError } from "../modules/auth/central/central-errors";
 import {
-  ISSUER, CLIENT_ID, CLIENT_SECRET, JWKS_URI, REDIRECT_URI, createSigningKey, createFakeCentral, idClaims, signToken,
+  ISSUER, CLIENT_ID, CLIENT_SECRET, JWKS_URI, REDIRECT_URI, createSigningKey, createFakeCentral, fetchWithDiscovery, idClaims, signToken,
   type SigningKey, type FakeCentral,
 } from "./support/central-sso-fixtures";
 
@@ -98,7 +98,7 @@ describe("Central ID token verification", () => {
 describe("Central Authorization Code + PKCE client", () => {
   it("builds an authorization request with exact redirect URI, S256 challenge, state and nonce", async () => {
     const store = createMemoryCentralStateStore();
-    const oidc = createCentralOidcClient({ settings, store, verifyIdToken: async () => { throw new Error("unused"); } });
+    const oidc = createCentralOidcClient({ settings, store, fetcher: fetchWithDiscovery(async () => { throw new Error("unused"); }), verifyIdToken: async () => { throw new Error("unused"); } });
     const { authorizationUrl } = await oidc.begin(BINDING);
     const url = new URL(authorizationUrl);
     expect(url.origin + url.pathname).toBe(`${ISSUER}/oidc/auth`);
@@ -167,7 +167,7 @@ describe("Central Authorization Code + PKCE client", () => {
     central.tokenStatus = 400;
     await expect(oidc.complete({ ...(await attempt()), browserBinding: BINDING })).rejects.toMatchObject({ reason: "token_exchange_rejected" });
     central.tokenStatus = 200;
-    const unreachable = createCentralOidcClient({ settings, store, verifyIdToken, fetcher: (async () => { throw new Error("socket reset"); }) as typeof fetch });
+    const unreachable = createCentralOidcClient({ settings, store, verifyIdToken, fetcher: fetchWithDiscovery(async () => { throw new Error("socket reset"); }) });
     await expect(unreachable.complete({ ...(await attempt()), browserBinding: BINDING })).rejects.toMatchObject({ reason: "token_exchange_unavailable" });
   });
 
@@ -198,7 +198,7 @@ describe("Central Authorization Code + PKCE client", () => {
 
   it("rejects malformed state, binding and code values before touching the store", async () => {
     const store = createMemoryCentralStateStore();
-    const oidc = createCentralOidcClient({ settings, store, verifyIdToken: async () => { throw new Error("unused"); } });
+    const oidc = createCentralOidcClient({ settings, store, fetcher: fetchWithDiscovery(async () => { throw new Error("unused"); }), verifyIdToken: async () => { throw new Error("unused"); } });
     await expect(oidc.complete({ state: "short", code: "c", browserBinding: BINDING })).rejects.toMatchObject({ reason: "state_invalid" });
     await expect(oidc.begin("too-short")).rejects.toMatchObject({ reason: "binding_invalid" });
   });
