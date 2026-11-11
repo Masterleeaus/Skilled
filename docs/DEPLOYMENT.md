@@ -18,7 +18,7 @@ The old server checklist must not override later code, verified platform configu
 ## Mandatory preflight — in this order
 
 1. **Host isolation.** Prove the target host, isolated database, Redis instance, object storage, SMTP and secrets belong to the intended environment. Do not touch another installed product or existing database. The historical proposal's port numbers are not evidence of current provisioned services.
-2. **Frozen source and dependencies.** Record the exact Git commit and run `pnpm install --frozen-lockfile` from `lms-main/`. Preserve lockfile and third-party licences.
+2. **Frozen source and dependencies.** Record the exact Git commit and run `pnpm install --frozen-lockfile` from ``. Preserve lockfile and third-party licences.
 3. **Database safeguards.** Obtain a recoverable backup and verify restore on staging. Use the dedicated database-target preflight and Prisma `validate`/`migrate status`. Apply migrations **only on an approved target** using `prisma migrate deploy`; never use `prisma migrate dev` or run the demo seed on shared infrastructure.
 4. **Build inputs.** Generate Prisma Client; check backend and frontend TypeScript, unit tests and browser smoke tests. Production frontend builds require the correct `NEXT_PUBLIC_API_URL` and public site origin before build, since these values may be baked into output.
 5. **Public image assets.** The tracked `brand/` and `library/` folders must be present at repository root. Frontend `prebuild` copies their **1,495 current tracked assets** to `apps/frontend/public/academy/`. Verify the copy with `node scripts/prepare-public-assets.mjs --check`; package those assets with the deployed Next.js output.
@@ -28,7 +28,7 @@ The old server checklist must not override later code, verified platform configu
 
 ## Local read-only verification commands
 
-Run only from `lms-main/`, on a complete source checkout:
+Run only from ``, on a complete source checkout:
 
 ```sh
 node scripts/prepare-public-assets.mjs --check

@@ -1,0 +1,47 @@
+name: skilled-active-compatibility
+on:
+  pull_request:
+    paths:
+      - 'apps/backend/prisma/schema.prisma'
+      - 'apps/backend/prisma/migrations/**'
+      - 'apps/backend/src/app.ts'
+      - 'apps/backend/src/middleware/**'
+      - 'apps/backend/src/modules/auth/**'
+      - 'apps/backend/src/modules/curriculum/**'
+      - 'scripts/audit-active-compatibility.mjs'
+      - 'scripts/test-audit-active-compatibility.mjs'
+      - '.github/workflows/skilled-active-compatibility.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/backend/prisma/**'
+      - 'apps/backend/src/app.ts'
+      - 'apps/backend/src/modules/auth/**'
+      - 'apps/backend/src/modules/curriculum/**'
+      - 'scripts/audit-active-compatibility.mjs'
+      - 'scripts/test-audit-active-compatibility.mjs'
+      - '.github/workflows/skilled-active-compatibility.yml'
+permissions:
+  contents: read
+jobs:
+  compatibility:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Regression-test compatibility boundaries
+        working-directory: .
+        run: node --test scripts/test-audit-active-compatibility.mjs
+      - name: Check exact current source boundaries
+        working-directory: .
+        run: node scripts/audit-active-compatibility.mjs --strict --report build/active-compatibility-audit.json
+      - name: Publish compatibility audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: skilled-active-compatibility
+          path: build/active-compatibility-audit.json
+          if-no-files-found: warn

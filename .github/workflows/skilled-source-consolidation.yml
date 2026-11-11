@@ -1,0 +1,73 @@
+name: skilled-source-consolidation
+on:
+  pull_request:
+    paths:
+      - 'apps/frontend/src/components/DiscussionThreadDetail.tsx'
+      - 'apps/frontend/src/app/student/courses/**'
+      - 'apps/frontend/src/app/teacher/courses/**'
+      - 'apps/backend/src/utils/token.ts'
+      - 'apps/backend/src/modules/auth/token.utils.ts'
+      - 'apps/backend/tests/permissions.ts'
+      - 'scripts/test-active-source-consolidation.mjs'
+      - 'apps/backend/prisma/import-titan-curriculum.ts'
+      - 'apps/backend/src/tests/import-brief-preflight.test.ts'
+      - 'apps/backend/src/jobs/account-email-content.ts'
+      - 'apps/backend/src/jobs/email.queue.ts'
+      - 'apps/backend/src/tests/account-email-content.test.ts'
+      - 'apps/backend/prisma/seed.ts'
+      - 'apps/backend/prisma/local-demo-seed-guard.ts'
+      - 'apps/backend/src/tests/local-demo-seed-guard.test.ts'
+      - 'apps/backend/src/modules/auth/central-*.ts'
+      - 'apps/backend/src/tests/central-*.test.ts'
+      - '.github/workflows/skilled-source-consolidation.yml'
+  push:
+    branches:
+      - Main
+      - main
+    paths:
+      - 'scripts/test-active-source-consolidation.mjs'
+      - 'apps/frontend/src/components/DiscussionThreadDetail.tsx'
+      - '.github/workflows/skilled-source-consolidation.yml'
+permissions:
+  contents: read
+jobs:
+  source-consolidation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.0.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - name: Install frozen dependencies
+        working-directory: .
+        run: pnpm install --frozen-lockfile
+      - name: Source consolidation contract
+        working-directory: .
+        run: node --test scripts/test-active-source-consolidation.mjs
+      - name: Generate Prisma client from the canonical schema
+        working-directory: .
+        run: pnpm -C apps/backend exec prisma generate --schema prisma/schema.prisma
+      - name: Validate planning-brief import boundary
+        working-directory: .
+        run: pnpm -C apps/backend exec vitest run src/tests/import-brief-preflight.test.ts src/tests/import-titan-curriculum.test.ts
+      - name: Verify Skilled security email templates
+        working-directory: .
+        run: pnpm -C apps/backend exec vitest run src/tests/account-email-content.test.ts
+      - name: Verify destructive seed is confined to local throwaway databases
+        working-directory: .
+        run: pnpm -C apps/backend exec vitest run src/tests/local-demo-seed-guard.test.ts
+      - name: Verify Central tenant-scoped identity resolver
+        working-directory: .
+        run: pnpm -C apps/backend exec vitest run src/tests/central-identity-resolver.test.ts src/tests/central-session-revalidation.test.ts src/tests/central-access-contract.test.ts src/tests/central-verified-access-bridge.test.ts src/tests/central-access-http-transport.test.ts
+      - name: Backend typecheck
+        working-directory: .
+        run: pnpm -C apps/backend exec tsc --noEmit
+      - name: Frontend typecheck
+        working-directory: .
+        run: pnpm -C apps/frontend exec tsc --noEmit

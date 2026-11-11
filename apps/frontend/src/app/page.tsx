@@ -53,7 +53,7 @@ export default function HomePage() {
           Practical training for field and home-service teams
         </h1>
         <p className="mx-auto mt-4 max-w-xl text-neutral-400">
-          Skilled brings together curriculum lessons, knowledge checks, practical evidence reviewed by
+          SkilledAt.Work brings together curriculum lessons, knowledge checks, practical evidence reviewed by
           an assessor, and business-specific context. Managers assign training to their organisation.
         </p>
         <div className="mt-8 flex justify-center gap-3">

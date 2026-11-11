@@ -7,7 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     id: "/",
     name: "SkilledAt.Work",
     short_name: "Skilled",
-    description: "SkilledAt.Work workplace training, assessed practical evidence and learning pathways for field and home-service businesses",
+    description: "SkilledAt.Work — practical training, assessment and skills development for field and home-service businesses",
     start_url: "/",
     scope: "/",
     display: "standalone",

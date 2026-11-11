@@ -32,7 +32,7 @@ test('manifest and built-metadata verifier match the public description exactly'
 
 test('homepage current product copy uses SkilledAt.Work without erasing historical attribution', () => {
   const home = readFileSync(resolve(root, 'apps/frontend/src/app/page.tsx'), 'utf8');
-  assert.match(home, /Skilled brings together curriculum lessons/);
+  assert.match(home, /SkilledAt\.Work brings together curriculum lessons/);
   assert.doesNotMatch(home, /Titan Academy/i);
   const credits = readFileSync(resolve(root, 'apps/frontend/src/app/credits/page.tsx'), 'utf8');
   assert.match(credits, /SkilledAt\.Work began from an inherited MIT-licensed/);

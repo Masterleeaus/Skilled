@@ -1,0 +1,83 @@
+name: skilled-public-brand
+on:
+  pull_request:
+    paths:
+      - "apps/frontend/src/app/**"
+      - "apps/frontend/src/components/**"
+      - "apps/backend/src/jobs/account-email-content.ts"
+      - "scripts/audit-public-product-identity.mjs"
+      - "scripts/test-audit-public-product-identity.mjs"
+      - "scripts/audit-course-art-manifest.mjs"
+      - "scripts/test-audit-course-art-manifest.mjs"
+      - "apps/frontend/src/lib/academy-brand.manifest.json"
+      - "scripts/test-skilled-public-brand.mjs"
+      - "scripts/prepare-public-assets.mjs"
+      - "scripts/test-prepare-public-assets.mjs"
+      - "apps/frontend/package.json"
+      - ".github/workflows/skilled-public-brand.yml"
+  push:
+    branches:
+      - Main
+      - main
+    paths:
+      - "apps/frontend/src/app/**"
+      - "apps/frontend/src/components/**"
+      - "apps/backend/src/jobs/account-email-content.ts"
+      - "scripts/audit-public-product-identity.mjs"
+      - "scripts/test-audit-public-product-identity.mjs"
+      - "scripts/audit-course-art-manifest.mjs"
+      - "scripts/test-audit-course-art-manifest.mjs"
+      - "apps/frontend/src/lib/academy-brand.manifest.json"
+      - "scripts/test-skilled-public-brand.mjs"
+      - ".github/workflows/skilled-public-brand.yml"
+permissions:
+  contents: read
+jobs:
+  public-brand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify canonical asset preparation behavior
+        working-directory: .
+        run: node --test scripts/test-prepare-public-assets.mjs
+
+      - name: Materialise tracked images and verify output parity
+        working-directory: .
+        run: |
+          node scripts/prepare-public-assets.mjs
+          node scripts/prepare-public-assets.mjs --check
+
+      - name: Validate public product metadata contract
+        working-directory: .
+        run: node --test scripts/test-skilled-public-brand.mjs
+
+      - name: Verify current product naming across active UI and account email
+        working-directory: .
+        run: |
+          node --test scripts/test-audit-public-product-identity.mjs
+          node scripts/audit-public-product-identity.mjs --strict --report build/public-identity-audit.json
+
+      - name: Verify canonical course-art manifest URLs
+        working-directory: .
+        run: |
+          node --test scripts/test-audit-course-art-manifest.mjs
+          node scripts/audit-course-art-manifest.mjs --strict --report build/course-art-manifest-audit.json
+
+      - name: Upload course-art manifest audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: skilled-course-art-manifest-audit
+          path: build/course-art-manifest-audit.json
+          if-no-files-found: warn
+
+      - name: Upload active public identity audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: skilled-public-identity-audit
+          path: build/public-identity-audit.json
+          if-no-files-found: warn

@@ -1,0 +1,32 @@
+name: skilled-account-flow-brand
+on:
+  pull_request:
+    paths:
+      - 'apps/frontend/src/components/AuthBrand.tsx'
+      - 'apps/frontend/src/app/(auth)/**'
+      - 'scripts/test-account-flow-branding.mjs'
+      - 'scripts/test-public-topbar-navigation.mjs'
+      - 'apps/frontend/src/components/Topbar.tsx'
+      - 'apps/frontend/src/lib/dashboard-link.ts'
+      - '.github/workflows/skilled-account-flow-brand.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'apps/frontend/src/components/AuthBrand.tsx'
+      - 'apps/frontend/src/app/(auth)/**'
+      - 'scripts/test-account-flow-branding.mjs'
+      - '.github/workflows/skilled-account-flow-brand.yml'
+permissions:
+  contents: read
+jobs:
+  account-brand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify onboarding, recovery and current product identity
+        working-directory: .
+        run: node --test scripts/test-account-flow-branding.mjs scripts/test-public-topbar-navigation.mjs

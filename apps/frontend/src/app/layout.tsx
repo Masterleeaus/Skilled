@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 // The default is a local placeholder, so no production domain is invented here.
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 const siteName = "SkilledAt.Work";
-const siteDescription = "SkilledAt.Work workplace training, assessed practical evidence and learning pathways for field and home-service businesses";
+const siteDescription = "SkilledAt.Work — practical training, assessment and skills development for field and home-service businesses";
 // Repository-owned Skilled install and share artwork.
 const shareImage = { url: "/academy/skilled-open-graph.png", width: 1200, height: 630, alt: "SkilledAt.Work" };
 

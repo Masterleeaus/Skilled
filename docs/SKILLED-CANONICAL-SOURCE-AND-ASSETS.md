@@ -6,20 +6,20 @@ This document records source ownership for issue #72. It supplements the detaile
 
 | Capability | Canonical tracked source | Status |
 |---|---|---|
-| Browser and learner/admin interfaces | `lms-main/apps/frontend/src/` | Active Next.js application |
-| API and service authorization | `lms-main/apps/backend/src/` | Active Express application |
-| Persistence and migrations | `lms-main/apps/backend/prisma/` | Active **until** Central #68 migration is agreed |
-| Canonical authored curriculum | `lms-main/curriculum/courses/`, `shared/` | Requires lesson-level review/approval |
-| Derived lesson index | `lms-main/curriculum/lesson-normalization-index.json` | Regenerate with `node scripts/reconcile-lesson-formats.mjs`; never edit manually |
+| Browser and learner/admin interfaces | `apps/frontend/src/` | Active Next.js application |
+| API and service authorization | `apps/backend/src/` | Active Express application |
+| Persistence and migrations | `apps/backend/prisma/` | Active **until** Central #68 migration is agreed |
+| Canonical authored curriculum | `curriculum/courses/`, `shared/` | Requires lesson-level review/approval |
+| Derived lesson index | `curriculum/lesson-normalization-index.json` | Regenerate with `node scripts/reconcile-lesson-formats.mjs`; never edit manually |
 | Training visuals | `brand/`, `library/` at repository root | Canonical tracked images |
-| Frontend public visuals | `lms-main/apps/frontend/public/academy/` | **Generated copy**; gitignored, not canonical |
+| Frontend public visuals | `apps/frontend/public/academy/` | **Generated copy**; gitignored, not canonical |
 | Archived compressed imports | Root historical ZIPs | Source provenance only; do not build or install from them |
-| Historical pass reports | `lms-main/PASS*`, `docs/legacy-bootstrap/` | Provenance/reference, not active executable setup |
-| Inactive package placeholder | `lms-main/packages/shared/` | Do not remove until workspace/lockfile migrations are reviewed |
+| Historical pass reports | `PASS*`, `docs/legacy-bootstrap/` | Provenance/reference, not active executable setup |
+| Inactive package placeholder | `packages/shared/` | Do not remove until workspace/lockfile migrations are reviewed |
 
 ## Repeatable asset materialisation
 
-Run from `lms-main/`:
+Run from ``:
 
 ```sh
 node scripts/prepare-public-assets.mjs
@@ -57,7 +57,7 @@ The repository retains **two non-interchangeable paths**:
 1. `apps/backend/prisma/import-titan-curriculum.ts` imports **planning briefs** from `apps/backend/prisma/curriculum/titan-three-layer-lessons.json`. It writes `AcademyContentLesson` metadata and `DRAFT` revisions under the separate inventory marker `titan-three-layer-lessons`; it cannot publish a course, track or revision. The historical filename and marker remain for compatibility.
 2. `apps/backend/src/modules/curriculum/file-lesson-loader.ts` indexes canonical authored lessons under `curriculum/courses/*/*.json` and `curriculum/shared/**/*.json`. Learner body routes still require authentication, enrolment, an eligible published course/track/placement/revision, matching knowledge checks and the revision content hash. A file alone grants no learner access.
 
-**Safe database-free import preflight** (from `lms-main/`):
+**Safe database-free import preflight** (from ``):
 
 ```sh
 pnpm -C apps/backend exec tsx prisma/import-titan-curriculum.ts --validate-only
@@ -82,7 +82,7 @@ The committed `curriculum/import/canonical-import-manifest.json` is a **pass42 s
 
 **Do not use this snapshot for new imports.** It has no demonstrated current import compatibility, and its `ready` sources were not found in that checkout. It was intentionally **not** auto-regenerated because the old import generator assumes retired `lessons/ready/` files and could misrepresent current authoring and publication state. Neither the snapshot nor the authored lessons were changed.
 
-Run the read-only check from `lms-main/`:
+Run the read-only check from ``:
 
 ```sh
 node scripts/audit-canonical-import-manifest.mjs --report build/legacy-import-manifest-audit.json
@@ -142,7 +142,7 @@ The read-only `scripts/audit-active-compatibility.mjs` inspects current backend 
 - Learner body serving retains enrolment, published revisions, file/revision knowledge-check alignment, revision hash integrity and the approved-revision body as the response; the reviewer publishing service still evaluates the publication gate.
 - Tutor routing stays feature-gated and the learner lesson loader still indexes only `courses/` and `shared/` authored sources.
 
-Run from `lms-main/`:
+Run from ``:
 
 ```sh
 node --test scripts/test-audit-active-compatibility.mjs
@@ -191,7 +191,7 @@ The authenticated shared `components/Topbar.tsx` now displays a compact accessib
 
 The read-only `scripts/audit-public-product-identity.mjs` checks active frontend `src/app/**` and `src/components/**` TypeScript/JavaScript, plus the canonical `apps/backend/src/jobs/account-email-content.ts`. It reports obsolete Titan Academy product text, missing authenticated header identity and transactional email identity drift. It allows only the explicit historical MIT-origin sentence in `src/app/credits/page.tsx`; it does **not** rewrite archived lessons, legal attribution, identifiers, images or database schema.
 
-Run from `lms-main/`:
+Run from ``:
 
 ```sh
 node --test scripts/test-audit-public-product-identity.mjs
@@ -208,7 +208,7 @@ An independent read-only audit, `scripts/audit-course-art-manifest.mjs`, checks 
 
 The strict GitHub Actions [asset manifest audit](https://github.com/Masterleeaus/Skilled/actions/runs/42535075770) verified **43 course entries, 491 referenced assets and zero broken source references**. Six regression tests passed. The public brand workflow runs both this check and the existing copy/hash parity test, then uploads a JSON report.
 
-Run locally from `lms-main/`:
+Run locally from ``:
 
 ```sh
 node --test scripts/test-audit-course-art-manifest.mjs

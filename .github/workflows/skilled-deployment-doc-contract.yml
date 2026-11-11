@@ -1,0 +1,35 @@
+name: skilled-deployment-doc-contract
+on:
+  pull_request:
+    paths:
+      - 'docs/DEPLOYMENT.md'
+      - 'docs/SKILLED-CANONICAL-SOURCE-AND-ASSETS.md'
+      - 'docs/INSTALL.md'
+      - 'docs/runbooks/deployment.md'
+      - 'curriculum/research/DEPLOY-RUNBOOK.md'
+      - 'scripts/test-deployment-doc-contract.mjs'
+      - '.github/workflows/skilled-deployment-doc-contract.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'docs/DEPLOYMENT.md'
+      - 'docs/SKILLED-CANONICAL-SOURCE-AND-ASSETS.md'
+      - 'docs/INSTALL.md'
+      - 'docs/runbooks/deployment.md'
+      - 'curriculum/research/DEPLOY-RUNBOOK.md'
+      - 'scripts/test-deployment-doc-contract.mjs'
+      - '.github/workflows/skilled-deployment-doc-contract.yml'
+permissions:
+  contents: read
+jobs:
+  documentation-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate the consolidated deployment runbooks and source links
+        working-directory: .
+        run: node --test scripts/test-deployment-doc-contract.mjs
