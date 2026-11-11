@@ -10,7 +10,25 @@ export const CLIENT_ID = "skilled-academy-test-client";
 export const CLIENT_SECRET = "central-test-secret-0123456789";
 export const JWKS_URI = "https://id.central.test/oidc/jwks";
 export const TOKEN_URI = "https://id.central.test/oidc/token";
-export const REDIRECT_URI = "https://academy.test/api/auth/central/callback";
+export const REDIRECT_URI = "https://academy.test/auth/titan/academy/callback";
+export const AUTHORIZE_URI = `${ISSUER}/oidc/auth`;
+export const DISCOVERY_URI = `${ISSUER}/.well-known/openid-configuration`;
+
+/** Provider metadata as Central's oidc-login.mjs expects it: endpoints come from here, never from the issuer path. */
+export function discoveryMetadata(): Record<string, unknown> {
+  return { issuer: ISSUER, authorization_endpoint: AUTHORIZE_URI, token_endpoint: TOKEN_URI, jwks_uri: JWKS_URI };
+}
+
+/** Serves the discovery document and delegates every other request to onOther. */
+export function fetchWithDiscovery(onOther: (url: string, init?: RequestInit) => Promise<Response>): typeof fetch {
+  return (async (input: string | URL | Request, init?: RequestInit) => {
+    const url = typeof input === "string" ? input : input instanceof URL ? input.href : input.url;
+    if (url === DISCOVERY_URI) {
+      return new Response(JSON.stringify(discoveryMetadata()), { status: 200, headers: { "content-type": "application/json" } });
+    }
+    return onOther(url, init);
+  }) as typeof fetch;
+}
 
 export interface SigningKey {
   kid: string;
@@ -76,6 +94,7 @@ export function createFakeCentral(initialKeys: SigningKey[]): FakeCentral {
     fetcher: (async (input: string | URL | Request, init?: RequestInit) => {
       const url = typeof input === "string" ? input : input instanceof URL ? input.href : input.url;
       const json = (status: number, body: unknown) => new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json" } });
+      if (url === DISCOVERY_URI) return json(200, discoveryMetadata());
       if (url === JWKS_URI) {
         central.jwksRequests += 1;
         return json(200, { keys: keys.map((key) => key.jwk) });

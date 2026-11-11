@@ -34,7 +34,7 @@ export default function CreditsPage() {
           Origin and licence
         </h2>
         <p className="text-neutral-300">
-          Titan Academy began from an inherited MIT-licensed full-stack learning management system,
+          SkilledAt.Work began from an inherited MIT-licensed full-stack learning management system,
           written by Farrukh Ali Khan. The copyright notice is kept in the LICENSE file of the source
           code, as the MIT licence requires.
         </p>

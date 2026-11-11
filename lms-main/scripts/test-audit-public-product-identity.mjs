@@ -31,7 +31,7 @@ test('tracked active UI and account email contain no unapproved obsolete product
 
 test('historical attribution stays visible in credits', () => {
   const credits = readFileSync(resolve(root,'apps/frontend/src/app/credits/page.tsx'),'utf8');
-  assert.match(credits,/Titan Academy began from an inherited MIT-licensed/);
+  assert.match(credits,/SkilledAt\.Work began from an inherited MIT-licensed/);
   assert.match(credits,/Farrukh Ali Khan/);
 });
 
