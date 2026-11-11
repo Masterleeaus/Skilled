@@ -155,9 +155,10 @@ The backend reads `.env` from its own directory, `apps/backend/`. The dotenv loa
 |---|---|
 | `CLIENT_URL` | Public URL of the frontend. `http://localhost:3000` locally; must be `https://` in production |
 | `DATABASE_URL` | PostgreSQL connection string. Use a local development database; production requires the dedicated `titan_academy` database and role |
-| `REDIS_URL` | Redis, used by the BullMQ email and certificate workers |
-| `JWT_ACCESS_SECRET` | Signs access tokens. At least 10 characters; at least 32 in production |
-| `JWT_REFRESH_SECRET` | Signs refresh tokens. Must differ from `JWT_ACCESS_SECRET` in production |
+| `REDIS_URL` | Redis, used by the BullMQ email and certificate workers. Host and port only; credentials are refused |
+| `REDIS_PASSWORD` | Redis AUTH password, optional. Passed separately from `REDIS_URL` |
+| `JWT_ACCESS_SECRET` | Signs access tokens. At least 32 characters in every environment |
+| `JWT_REFRESH_SECRET` | Signs refresh tokens. At least 32 characters in every environment; must differ from `JWT_ACCESS_SECRET` |
 | `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY` | Credentials for MinIO object storage (uploads) |
 
 Other variables (server port, MinIO endpoint and bucket, SMTP, token lifetimes, Stripe keys, curriculum directory) have defaults. They are defined in `apps/backend/src/config/env.ts`.

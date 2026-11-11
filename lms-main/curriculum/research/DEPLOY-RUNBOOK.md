@@ -67,8 +67,9 @@ Checklist:
 
 1. Install Redis for the Academy only. The Redis version is **UNCONFIRMED**. The repository's dependency candidate, `docker-compose.academy-deps.yml`, pins `redis:7.4-alpine` for a container, which is not the same as a native install.
 2. Bind Redis to loopback only, require a password, and enable append-only persistence. The compose candidate uses `--requirepass` and `--appendonly yes`. Use a port of the owner's choice in place of `<REDIS_PORT>`. The candidate's default is 16379, which is not confirmed for the server.
-3. Put the password in the secret store and build the URL with the placeholder form:
-   `REDIS_URL=redis://:<REDIS_PASSWORD>@127.0.0.1:<REDIS_PORT>`
+3. Put the password in the secret store. Set the host and port in `REDIS_URL` and the password in its own variable. Do not put the password in the URL; `env.ts` refuses it:
+   `REDIS_URL=redis://127.0.0.1:<REDIS_PORT>`
+   `REDIS_PASSWORD=<REDIS_PASSWORD>`
 4. Check the connection without printing the password, by passing it through an environment variable:
    ```bash
    REDISCLI_AUTH="$REDIS_PASSWORD_FROM_SECRET_STORE" redis-cli -h 127.0.0.1 -p <REDIS_PORT> ping
@@ -114,9 +115,10 @@ Names and placeholders only:
 | `HOST` | No (default `127.0.0.1`) | `127.0.0.1` |
 | `CLIENT_URL` | Yes | `https://<FRONTEND_ORIGIN>`. Production requires HTTPS. |
 | `DATABASE_URL` | Yes | `postgresql://titan_academy:<DB_PASSWORD>@127.0.0.1:5433/titan_academy?schema=public`. Production requires the database and user to be `titan_academy`. The port is not checked by `env.ts`. |
-| `REDIS_URL` | Yes | `redis://:<REDIS_PASSWORD>@127.0.0.1:<REDIS_PORT>` |
-| `JWT_ACCESS_SECRET` | Yes | `<JWT_ACCESS_SECRET>`. Production requires at least 32 characters. |
-| `JWT_REFRESH_SECRET` | Yes | `<JWT_REFRESH_SECRET>`. At least 32 characters in production, and different from the access secret. |
+| `REDIS_URL` | Yes | `redis://127.0.0.1:<REDIS_PORT>`. No credentials in the URL. |
+| `REDIS_PASSWORD` | Yes, with Redis AUTH | `<REDIS_PASSWORD>` |
+| `JWT_ACCESS_SECRET` | Yes | `<JWT_ACCESS_SECRET>`. At least 32 characters in every environment. |
+| `JWT_REFRESH_SECRET` | Yes | `<JWT_REFRESH_SECRET>`. At least 32 characters in every environment, and different from the access secret. |
 | `JWT_ACCESS_EXPIRES` | No (default `15m`) | `15m` |
 | `JWT_REFRESH_EXPIRES` | No (default `30d`) | `30d` |
 | `MINIO_ENDPOINT` | No (default `localhost`) | `<MINIO_HOST>` |
