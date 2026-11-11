@@ -1,0 +1,21 @@
+{
+  "id": "LMS-LA-V01",
+  "description": "Skilled-signed link assertion; verified by Central's LinkAssertionVerifier",
+  "kid": "lms-2026-11",
+  "publicJwk": {
+    "kty": "OKP",
+    "crv": "Ed25519",
+    "x": "FhZEl7K_p5rjCAk7xQzkKbHnbpXIk0_KjbSsri5iXvE"
+  },
+  "token": "eyJhbGciOiJFZERTQSIsInR5cCI6InRpdGFuLWxpbmsrand0Iiwia2lkIjoibG1zLTIwMjYtMTEifQ.eyJpc3MiOiJsbXMiLCJhdWQiOiJ0aXRhbi1jZW50cmFsIiwic3ViIjoidXNyX3ZlY3RvcmxtczAxIiwib3JnIjoib3JnX3ZlY3RvcmxtczAxIiwibHUiOiJsbXMtdXNlci0wMDAxIiwibGEiOiJsbXMtYWNjdC0wMDAxIiwibm9uY2UiOiJRazN2VDl4TG1OMnBSOHNXNHlaMWFCIiwiaWF0IjoxNzk0MzUwMDA5LCJleHAiOjE3OTQzNTAxMjl9.r5dAfrh8jCKeu9cI9dOZpU_F4gQUTqtLcpFlqjvV2leQRJRkI_ezGE4TgDDRPdy1WdijbFMcfuo-tivQ1mo8Cw",
+  "now": "2026-11-10T22:33:29.872Z",
+  "request": {
+    "logtoSubject": "usr_vectorlms01",
+    "logtoOrganisationId": "org_vectorlms01",
+    "localUserId": "lms-user-0001",
+    "localAccountId": "lms-acct-0001",
+    "companyId": "lms-company-0001"
+  },
+  "expectedAudience": "titan-central",
+  "expectedIssuer": "lms"
+}

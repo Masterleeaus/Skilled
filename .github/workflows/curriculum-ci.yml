@@ -8,6 +8,17 @@ on:
   pull_request:
     paths:
       - "lms-main/curriculum/**"
+      - "lms-main/scripts/*curriculum*.mjs"
+      - "lms-main/scripts/*assessment*.mjs"
+      - "lms-main/scripts/*lesson-normalization*.mjs"
+      - "lms-main/scripts/reconcile-lesson-formats.mjs"
+      - "lms-main/apps/backend/src/modules/curriculum/**"
+      - "lms-main/apps/backend/src/modules/courses/**"
+      - "lms-main/apps/backend/src/modules/quizzes/**"
+      - "lms-main/apps/backend/src/tests/academy-*.test.ts"
+      - "lms-main/apps/backend/prisma/**"
+      - "lms-main/package.json"
+      - ".github/workflows/skilled-assessment-negative-fixtures.yml"
       - "lms-main/tests/fixtures/assessment-malformed/**"
       - "lms-main/tests/fixtures/assessment-publication/**"
       - ".github/workflows/curriculum-ci.yml"
@@ -15,8 +26,20 @@ on:
   push:
     branches:
       - main
+      - Main
     paths:
       - "lms-main/curriculum/**"
+      - "lms-main/scripts/*curriculum*.mjs"
+      - "lms-main/scripts/*assessment*.mjs"
+      - "lms-main/scripts/*lesson-normalization*.mjs"
+      - "lms-main/scripts/reconcile-lesson-formats.mjs"
+      - "lms-main/apps/backend/src/modules/curriculum/**"
+      - "lms-main/apps/backend/src/modules/courses/**"
+      - "lms-main/apps/backend/src/modules/quizzes/**"
+      - "lms-main/apps/backend/src/tests/academy-*.test.ts"
+      - "lms-main/apps/backend/prisma/**"
+      - "lms-main/package.json"
+      - ".github/workflows/skilled-assessment-negative-fixtures.yml"
       - "lms-main/tests/fixtures/assessment-malformed/**"
       - "lms-main/tests/fixtures/assessment-publication/**"
       - ".github/workflows/curriculum-ci.yml"

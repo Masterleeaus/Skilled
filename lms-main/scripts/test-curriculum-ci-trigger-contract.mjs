@@ -27,6 +27,22 @@ const required = [
   'lms-main/curriculum/ci/curriculum-ci-baseline.json',
   'lms-main/tests/fixtures/assessment-malformed/example.assessment.json',
   'lms-main/tests/fixtures/assessment-publication/example.assessment.json',
+  'lms-main/scripts/ci-curriculum-audit.mjs',
+  'lms-main/scripts/validate-assessment-publication.mjs',
+  'lms-main/scripts/reconcile-lesson-formats.mjs',
+  'lms-main/scripts/test-assessment-publication.mjs',
+  'lms-main/apps/backend/src/modules/curriculum/curriculum-publisher.ts',
+  'lms-main/apps/backend/src/modules/curriculum/curriculum.routes.ts',
+  'lms-main/apps/backend/src/modules/curriculum/lesson-review.service.ts',
+  'lms-main/apps/backend/src/modules/courses/lesson.service.ts',
+  'lms-main/apps/backend/src/modules/courses/course.service.ts',
+  'lms-main/apps/backend/src/modules/quizzes/quiz.routes.ts',
+  'lms-main/apps/backend/prisma/schema.prisma',
+  'lms-main/apps/backend/prisma/seed.ts',
+  'lms-main/apps/backend/prisma/migrations/20261108140000_certificate_verification_token/migration.sql',
+  'lms-main/apps/backend/src/tests/academy-enrolment-progress.test.ts',
+  'lms-main/package.json',
+  '.github/workflows/skilled-assessment-negative-fixtures.yml',
   '.github/workflows/curriculum-ci.yml',
   '.github/workflows/curriculum-ci-trigger-contract.yml',
 ];
@@ -37,7 +53,7 @@ for (const event of ['pull_request', 'push']) {
     }
   });
   test(event + ': unrelated source changes do not trigger curriculum gate', () => {
-    for (const filename of ['README.md', 'brand/logo.svg', 'library/example.jpg', 'lms-main/apps/frontend/public/icon.png', 'lms-main/apps/backend/src/tests/example.test.ts', 'lms-main/apps/backend/prisma/schema.prisma', 'lms-main/apps/backend/src/modules/courses/course.service.ts', 'lms-main/scripts/ci-curriculum-audit.mjs', 'lms-main/package.json']) {
+    for (const filename of ['README.md', 'brand/logo.svg', 'library/example.jpg', 'lms-main/apps/frontend/public/icon.png', 'lms-main/apps/backend/src/tests/example.test.ts', 'lms-main/scripts/test-env-template-contract.mjs']) {
       assert.ok(!blocks[event].some(p => matches(p, filename)), 'Unexpected CI trigger: ' + filename);
     }
   });
@@ -54,4 +70,8 @@ test('failed checks retain JSON report for review, never publish approvals', () 
   assert.match(workflow, /if: always\(\)/);
   assert.match(workflow, /path: lms-main\/build\/curriculum-ci-report\.json/);
   assert.doesNotMatch(workflow, /--write-baseline|auto.?approv|publish-assessments/i);
+});
+
+test('curriculum pushes cover the capitalised default branch', () => {
+  assert.match(workflow, /branches:\n      - main\n      - Main/);
 });
