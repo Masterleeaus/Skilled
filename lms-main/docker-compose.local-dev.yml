@@ -1,3 +1,8 @@
+# LOCAL DEVELOPMENT ONLY. Do NOT run this file on a server or any shared host.
+# It uses default credentials (lms/lms, minioadmin/minioadmin), publishes ports
+# on all interfaces, and makes the storage bucket anonymously downloadable.
+# Server and shared environments must use a separately managed Compose setup
+# with secrets supplied from a private env file outside the repository.
 services:
   postgres:
     image: postgres:16-alpine
@@ -30,7 +35,9 @@ services:
       retries: 10
 
   minio:
-    image: minio/minio:latest
+    # Pinned release tag (not latest). No digest could be resolved from the
+    # build sandbox; add an @sha256 digest once verified against the registry.
+    image: minio/minio:RELEASE.2025-04-22T22-12-26Z
     restart: "no"
     command: server /data --console-address ":9001"
     environment:
@@ -48,7 +55,8 @@ services:
       retries: 10
 
   minio-init:
-    image: minio/mc:latest
+    # Pinned release tag (not latest), taken from the repo's MinIO pin; no digest resolved here.
+    image: minio/mc:RELEASE.2025-04-16T18-13-26Z
     depends_on:
       minio:
         condition: service_healthy

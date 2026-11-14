@@ -25,7 +25,10 @@ services:
       - no-new-privileges:true
 
   academy-minio:
-    image: minio/minio:latest # Resolve and pin a tested digest before production rollout.
+    # Pinned release tag (not latest). Before production rollout, resolve the
+    # registry digest for this tag and pin it as image@sha256:... ; it could not
+    # be resolved from the build sandbox.
+    image: minio/minio:RELEASE.2025-04-22T22-12-26Z
     restart: unless-stopped
     command: server /data --console-address ":9001"
     environment:
