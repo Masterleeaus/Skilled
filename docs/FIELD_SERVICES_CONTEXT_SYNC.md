@@ -1,5 +1,7 @@
 # Field Services → Academy lesson context: draft-only sync
 
+> **Not part of this release.** The Field Services sync is not implemented and is not shipped in this release (tracked in issue #165). Nothing below runs in production. The route is absent, and the UI does not sync data from Field Services. This document is a design contract for future work only.
+
 Status (static, unverified, 8 Nov 2026): this route is **not mounted** in `apps/backend/src`. The integration router exposes only the skills read route. `apps/backend/src/tests/integration/contract.test.ts` asserts this sync path is absent. The text below describes the intended contract, not a running endpoint.
 
 Intended route: `POST /api/titan/integration/organisations/:externalOrganisationRef/business-fields/sync`. It would sit under the existing Titan integration router prefix. Use a **server-side** Field Services service credential provisioned for the exact external organisation reference, with headers `x-titan-service: field-services` and `Authorization: Bearer <secret>`.

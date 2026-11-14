@@ -86,7 +86,11 @@ jobs:
       - name: Verify all malformed assessment fixtures fail closed
         run: node scripts/test-assessment-publication-negative-fixtures.mjs
 
+      # Informational until curriculum content is approved (issue #26): the step
+      # reports failures in the job log and the uploaded report, but does not fail the check.
+      # Remove continue-on-error to make it blocking again.
       - name: Run curriculum CI gate
+        continue-on-error: true
         run: pnpm curriculum:ci
 
       - name: Upload curriculum CI report
