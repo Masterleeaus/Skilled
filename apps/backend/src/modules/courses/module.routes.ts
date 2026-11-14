@@ -23,6 +23,7 @@ import {
 import { AppError } from "../../utils/AppError";
 import { prisma } from "../../config/prisma";
 import { assertCourseOwnership } from "./course.service";
+import { cookieOptions } from "../../utils/cookie-options";
 import { createPlaybackGrant, verifyPlaybackGrant, PLAYBACK_COOKIE, playbackCookiePath, streamPrivateVideo } from "./video-playback.service";
 
 // mergeParams lets us read :courseId from the parent router mount
@@ -285,13 +286,12 @@ router.get(
   async (req: Request<{ lessonId: string }>, res: Response, next: NextFunction) => {
     try {
       const lesson = await authorizedLessonMedia(req.params.lessonId, req.user!.userId, "videoUrl");
-      res.cookie(PLAYBACK_COOKIE, createPlaybackGrant(req.params.lessonId, req.user!.userId), {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === "production",
+      // Strict, not lax: the grant is only ever needed by same-site player requests, never a cross-site navigation.
+      res.cookie(PLAYBACK_COOKIE, createPlaybackGrant(req.params.lessonId, req.user!.userId), cookieOptions({
         sameSite: "strict",
         path: playbackCookiePath(req.params.lessonId),
-        maxAge: 60 * 60 * 1000,
-      });
+        maxAgeMs: 60 * 60 * 1000,
+      }));
       res.setHeader("Cache-Control", "private, no-store");
       res.setHeader("Referrer-Policy", "no-referrer");
       const base = `/api/courses/lessons/${encodeURIComponent(req.params.lessonId)}/video/stream`;
