@@ -2,6 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import { z } from "zod";
 import { sendSuccess } from "../../utils/response";
 import * as authService from "./auth.service";
+import { clearRefreshCookie, setRefreshCookie, REFRESH_COOKIE } from "./auth-cookies";
 import {
   registerSchema,
   loginSchema,
@@ -16,17 +17,7 @@ const updateProfileSchema = z.object({
   avatarUrl: z.string().url().optional(),
 });
 
-const REFRESH_COOKIE = "refreshToken";
 const isProd = process.env.NODE_ENV === "production";
-
-function setRefreshCookie(res: Response, token: string) {
-  res.cookie(REFRESH_COOKIE, token, {
-    httpOnly: true,
-    secure: isProd,
-    sameSite: "lax",
-    maxAge: 30 * 24 * 60 * 60 * 1000,
-  });
-}
 
 export async function register(req: Request, res: Response, next: NextFunction) {
   try {
@@ -54,7 +45,7 @@ export async function login(req: Request, res: Response, next: NextFunction) {
     const deviceInfo = req.headers["user-agent"];
     const result = await authService.loginUser(input, deviceInfo);
 
-    setRefreshCookie(res, result.refreshToken);
+    setRefreshCookie(res, result.refreshToken, isProd);
     return sendSuccess(res, { accessToken: result.accessToken, user: result.user }, "Login successful");
   } catch (err) {
     next(err);
@@ -68,7 +59,7 @@ export async function refresh(req: Request, res: Response, next: NextFunction) {
     const result = await authService.refreshAccessToken(token);
     if (cookieToken) {
       // Browser session: keep the rotated credential in an HttpOnly cookie.
-      setRefreshCookie(res, result.refreshToken);
+      setRefreshCookie(res, result.refreshToken, isProd);
       return sendSuccess(res, { accessToken: result.accessToken }, "Token refreshed");
     }
     // Explicit body-token clients must receive their replacement credential.
@@ -82,7 +73,7 @@ export async function logout(req: Request, res: Response, next: NextFunction) {
   try {
     const token = req.cookies?.[REFRESH_COOKIE] ?? req.body?.refreshToken;
     if (token) await authService.logoutDevice(token);
-    res.clearCookie(REFRESH_COOKIE);
+    clearRefreshCookie(res, isProd);
     return sendSuccess(res, null, "Logged out");
   } catch (err) {
     next(err);
@@ -92,7 +83,7 @@ export async function logout(req: Request, res: Response, next: NextFunction) {
 export async function logoutAll(req: Request, res: Response, next: NextFunction) {
   try {
     await authService.logoutAllDevices(req.user!.userId);
-    res.clearCookie(REFRESH_COOKIE);
+    clearRefreshCookie(res, isProd);
     return sendSuccess(res, null, "Logged out from all devices");
   } catch (err) {
     next(err);

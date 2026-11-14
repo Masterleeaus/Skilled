@@ -13,6 +13,8 @@ export const envSchema = z.object({
   PORT: z.coerce.number().int().min(1).max(65535).default(5000),
   HOST: z.string().default("127.0.0.1"),
   CLIENT_URL: z.string().url(),
+  // Comma-separated origins allowed to send state-changing auth requests. Empty means the CLIENT_URL origin.
+  AUTH_ALLOWED_ORIGINS: z.string().default(""),
 
   DATABASE_URL: z.string().min(1, "DATABASE_URL is required"),
   // Connection URL without credentials, for example redis://127.0.0.1:6379. The password goes in REDIS_PASSWORD.
