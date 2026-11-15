@@ -319,7 +319,18 @@
     ],
     "footer": "Keep on the staff file. Contact {{business:business.support_email}}."
   },
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-08-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: Does completing a training course show competency for an authorised task?",
+      "options": [
+        "Yes, attendance is competency",
+        "No. Competency is observed by a named person, using a stated method, and recorded separately",
+        "Yes, if the trainer signs the induction topic",
+        "Only if the person holds a licence"
+      ]
+    }
+  ],
   "status": "DRAFT",
   "sourceReferences": [
     "Team brief for template lessons TPL-01 to TPL-11, item 8 (Staff onboarding and induction record); no external source used; rights: reworded (no copying)"

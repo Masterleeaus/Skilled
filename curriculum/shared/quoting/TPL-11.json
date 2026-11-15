@@ -324,7 +324,18 @@
     ],
     "footer": "Pricing method: {{business:pricing.pricing_method}}."
   },
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-11-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: Which formula gives gross margin on price?",
+      "options": [
+        "(price minus cost) divided by cost",
+        "(price minus cost) divided by price",
+        "cost divided by price",
+        "price multiplied by cost"
+      ]
+    }
+  ],
   "status": "DRAFT",
   "sourceReferences": [
     "Team brief for template lessons TPL-01 to TPL-11, item 11 (Pricing and margin worksheet); rights: reworded (no copying)",

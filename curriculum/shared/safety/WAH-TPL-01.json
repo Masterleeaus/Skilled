@@ -454,7 +454,18 @@
       }
     }
   ],
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "WAH-TPL-01-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: A worker writes \"rescue: ambulance\" in the rescue field. What happens?",
+      "options": [
+        "The record is accepted, since emergency services can be called",
+        "The work proceeds, and the rescue plan is completed on the day",
+        "The record is returned for correction, and the job does not proceed until a trained rescuer, a method and equipment on site are named",
+        "The worker signs a note saying the rescue will be arranged later"
+      ]
+    }
+  ],
   "outputDocument": {
     "title": "{{business:business.name}} height-work authorisation record",
     "format": "form",

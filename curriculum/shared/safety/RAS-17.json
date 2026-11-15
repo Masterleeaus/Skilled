@@ -334,7 +334,18 @@
     ],
     "footer": "Keep the signed copy with the site file. Filing and retention: {{business:quality.evidence_requirements}}."
   },
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "RAS-17-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: What does a signature on the briefing record show?",
+      "options": [
+        "That the controls have been verified on site",
+        "That the site is safe for work to start",
+        "That a briefing took place; controls are verified on site separately",
+        "That the residual score can be lowered"
+      ]
+    }
+  ],
   "status": "DRAFT",
   "sourceReferences": [
     "Risk Assessment for Cleaning Services (document SS071-RA Rev 00, dated 1 October 2023), Risk Matrix Table A.1 and Table A.2, the hazard register column structure, document control and the toolbox talk operative briefing record; rights: user-held. Blank form structure only; no sample entries or scores are carried into the template.",

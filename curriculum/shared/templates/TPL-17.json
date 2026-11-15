@@ -331,7 +331,18 @@
       }
     }
   ],
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-17-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: What does each competitor entry in the analysis contain?",
+      "options": [
+        "Its private financial accounts",
+        "Its staff's opinions",
+        "Only observable points, each with a date",
+        "Estimates of its market share"
+      ]
+    }
+  ],
   "outputDocument": {
     "title": "{{business:business.display_name}} market, customer and competitor analysis",
     "format": "plan",

@@ -349,7 +349,18 @@
       }
     }
   ],
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-16-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: How should a financial target in the business plan be shown?",
+      "options": [
+        "As revenue only",
+        "With jobs, average job value, and an assumption with its check date",
+        "As a figure copied from a competitor's plan",
+        "As a single total for the year"
+      ]
+    }
+  ],
   "outputDocument": {
     "title": "{{business:business.display_name}} business plan",
     "format": "plan",

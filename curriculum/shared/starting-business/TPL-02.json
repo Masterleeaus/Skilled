@@ -338,7 +338,18 @@
     ],
     "footer": "Figures are worked from the owner's own costs. Contact {{business:business.support_email}}."
   },
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-02-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: How is break-even jobs per month calculated?",
+      "options": [
+        "Monthly income target divided by average job value",
+        "Monthly income target, including the buffer, divided by contribution per job after materials and travel, rounded up",
+        "Personal costs alone divided by weekly hours",
+        "Business costs multiplied by the tax set-aside"
+      ]
+    }
+  ],
   "status": "DRAFT",
   "sourceReferences": [
     "Team brief for template lessons TPL-01 to TPL-11, item 2 (Freedom and cash plan); no external source used; rights: reworded (no copying)"

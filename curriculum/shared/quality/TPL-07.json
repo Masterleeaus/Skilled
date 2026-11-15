@@ -343,7 +343,18 @@
     ],
     "footer": "Incident reporting procedure: {{business:safety.incident_reporting_procedure}}."
   },
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-07-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: What must the report record for each witness?",
+      "options": [
+        "Only their name, once the report is closed",
+        "Their opinion of the cause as the main finding",
+        "Their contact details, whether they agree to be contacted, and a statement in their own words",
+        "Nothing, unless the business asks for it"
+      ]
+    }
+  ],
   "status": "DRAFT",
   "sourceReferences": [
     "Team brief for template lessons TPL-01 to TPL-11, item 7 (Incident and damage report); no external source used; rights: reworded (no copying)"

@@ -344,7 +344,18 @@
     ],
     "footer": "Escalation route: {{business:customers.complaint_escalation}}."
   },
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-10-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: A customer complains. What comes before the response is written?",
+      "options": [
+        "Send an apology and a refund",
+        "Blame the customer's conduct",
+        "Check the facts against the job record and other sources",
+        "Wait for the customer to raise it in writing"
+      ]
+    }
+  ],
   "status": "DRAFT",
   "sourceReferences": [
     "Team brief for template lessons TPL-01 to TPL-11, item 10 (Customer complaint log and response); no external source used; rights: reworded (no copying)"

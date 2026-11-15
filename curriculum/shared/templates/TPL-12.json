@@ -390,7 +390,18 @@
       }
     }
   ],
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-12-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: What must each product or environmental claim in a proposal have?",
+      "options": [
+        "A strong adjective, such as best",
+        "An evidence item the client can request, or the claim is removed",
+        "A reference from a current client",
+        "A statement that others widely use it"
+      ]
+    }
+  ],
   "outputDocument": {
     "title": "{{business:business.display_name}} proposal",
     "format": "document",

@@ -341,7 +341,18 @@
     ],
     "footer": "Contact {{business:business.support_phone}} or {{business:business.support_email}}."
   },
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-04-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: How should each inclusion in a quote be written?",
+      "options": [
+        "Bundled with other work into one line, to keep the quote short",
+        "As its own row, so each row is something the price covers and can be checked on site",
+        "As a general phrase such as full clean",
+        "Left out and agreed verbally"
+      ]
+    }
+  ],
   "status": "DRAFT",
   "sourceReferences": [
     "Team brief for template lessons TPL-01 to TPL-11, item 4 (Quote and proposal); rights: reworded (no copying). Specific points are sourced below.",

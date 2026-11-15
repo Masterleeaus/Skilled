@@ -360,7 +360,18 @@
       }
     }
   ],
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-15-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: A payment term is not yet checked against state or territory rules. What should the schedule do?",
+      "options": [
+        "Enter the term and mark it checked",
+        "Copy the term from a non-Australian form",
+        "Leave the term blank, with a named check, until it is checked",
+        "Include a late fee by default"
+      ]
+    }
+  ],
   "outputDocument": {
     "title": "{{business:business.name}} payment and overdue account schedule",
     "format": "contract",

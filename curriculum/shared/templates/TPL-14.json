@@ -331,7 +331,18 @@
       }
     }
   ],
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-14-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: How is an access code handled in the site brief?",
+      "options": [
+        "Written in full in the brief",
+        "Written in the team's shared note",
+        "Recorded as where the access detail is kept, not the code itself",
+        "Printed on the client's invoice"
+      ]
+    }
+  ],
   "outputDocument": {
     "title": "{{business:business.name}} site brief and access sheet",
     "format": "form",

@@ -339,7 +339,18 @@
     ],
     "footer": "Keep with the job record. Sign-off procedure: {{business:jobs.signoff_procedure}}."
   },
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-06-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: A hazard found at pre-start cannot be controlled. What happens?",
+      "options": [
+        "Record it, and do not start the affected task until it is controlled or a decision is recorded",
+        "Start the task and record the hazard at completion",
+        "Start the task, since the customer has signed the quote",
+        "Ask the customer to sign the checklist and continue"
+      ]
+    }
+  ],
   "status": "DRAFT",
   "sourceReferences": [
     "Team brief for template lessons TPL-01 to TPL-11, item 6 (Job checklist and sign-off); no external source used; rights: reworded (no copying)"

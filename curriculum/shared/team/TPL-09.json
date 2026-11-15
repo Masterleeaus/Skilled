@@ -312,7 +312,18 @@
     ],
     "footer": "Confidential personnel record. Contact {{business:business.support_email}}."
   },
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-09-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: What must each rating in a performance review be linked to?",
+      "options": [
+        "The person's personality",
+        "A single event that stood out",
+        "Dated, sourced evidence for the review period",
+        "The manager's general impression"
+      ]
+    }
+  ],
   "status": "DRAFT",
   "sourceReferences": [
     "Team brief for template lessons TPL-01 to TPL-11, item 9 (Staff performance review); no external source used; rights: reworded (no copying)"

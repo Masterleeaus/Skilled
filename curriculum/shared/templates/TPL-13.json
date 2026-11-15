@@ -422,7 +422,18 @@
       }
     }
   ],
-  "knowledgeChecks": [],
+  "knowledgeChecks": [
+    {
+      "id": "TPL-13-K01",
+      "question": "DRAFT - NEEDS EXPERT CHECK: What must each notice period in the service agreement be?",
+      "options": [
+        "A period stated in hours that the team can keep",
+        "A whole number of days that the business's roster can meet",
+        "Whatever the client prefers, agreed by phone",
+        "A period copied from a non-Australian form"
+      ]
+    }
+  ],
   "outputDocument": {
     "title": "{{business:business.name}} client service agreement",
     "format": "contract",
