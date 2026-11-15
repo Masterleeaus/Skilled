@@ -36,7 +36,7 @@ jobs:
   public-brand:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Set up Node 22
         uses: ./.github/actions/setup-node-pnpm
         with:
@@ -70,7 +70,7 @@ jobs:
 
       - name: Upload course-art manifest audit
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: skilled-course-art-manifest-audit
           path: build/course-art-manifest-audit.json
@@ -78,7 +78,7 @@ jobs:
 
       - name: Upload active public identity audit
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: skilled-public-identity-audit
           path: build/public-identity-audit.json
