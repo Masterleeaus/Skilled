@@ -2,8 +2,13 @@ import { Router } from "express";
 import rateLimit from "express-rate-limit";
 import * as authController from "./auth.controller";
 import { authenticate } from "../../middleware/authenticate";
+import { createOriginGuard, parseOriginAllowlist } from "../../middleware/origin-guard";
+import { env } from "../../config/env";
 
 const router = Router();
+
+// CSRF: reject cross-origin state-changing requests before any auth handler runs.
+router.use(createOriginGuard(parseOriginAllowlist(env.AUTH_ALLOWED_ORIGINS, env.CLIENT_URL)));
 
 // Section 11: rate limiting on auth routes
 const authLimiter = rateLimit({

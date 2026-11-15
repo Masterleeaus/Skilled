@@ -79,7 +79,7 @@ Checklist:
 ## 3. Node 22 and pnpm
 
 Requirements from the repository:
-- Root `package.json`: `"engines": { "node": ">=20" }`. The Node 22 requirement comes from the owner's checklist, not from a repository pin. There is no `.nvmrc`.
+- Root `package.json` and `apps/backend/package.json`: `"engines": { "node": ">=22" }`. Node 22 is the server target. There is no `.nvmrc`.
 - `"packageManager": "pnpm@10.0.0"` in the root `package.json`.
 - The verification evidence in `PASS42/VERIFY-evidence.md` was produced with Node v22.23.4 and pnpm 10.0.0.
 - `docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md` recorded Node 20.20.2 and pnpm 9.12.0 on the server at that time. Those are historical observations and need rechecking.
@@ -110,7 +110,7 @@ Names and placeholders only:
 
 | Variable | Required | Placeholder or rule |
 |---|---|---|
-| `NODE_ENV` | Yes (defaults to `development`) | `production` |
+| `NODE_ENV` | Yes. Not defaulted: startup is refused when it is unset and `CLIENT_URL` is HTTPS or `DATABASE_URL` names `titan_academy` | `production` |
 | `PORT` | No (default `5000`) | `<BACKEND_PORT>`. The 5002 candidate in the docs is **UNCONFIRMED**. |
 | `HOST` | No (default `127.0.0.1`) | `127.0.0.1` |
 | `CLIENT_URL` | Yes | `https://<FRONTEND_ORIGIN>`. Production requires HTTPS. |
@@ -355,7 +355,7 @@ These are gathered here so the owner can close them:
 1. The PostgreSQL 16 initdb, port 5433 and service commands given to the owner outside the repository (section 1).
 2. The PostgreSQL 16 binary path and service unit name on the server (section 1).
 3. The Redis version and native installation method, and the Redis port (section 2).
-4. The Node 22 installation method. The repository only requires Node 20 or later (section 3).
+4. The Node 22 installation method. The repository requires Node 22 or later (section 3).
 5. The backend port, `<BACKEND_PORT>`. The docs mention 5002 as a candidate that was not verified (section 4).
 6. The location of the private environment file on the server (section 4).
 7. The valid values of `ACADEMY_PUBLICATION_GATE` and the production setting (section 4).

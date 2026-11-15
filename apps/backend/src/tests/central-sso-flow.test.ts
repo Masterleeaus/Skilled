@@ -115,6 +115,7 @@ async function signInThroughCentral(
 describe("Central SSO configuration", () => {
   const valid: CentralSsoSettings = {
     enabled: true, issuer: ISSUER, clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, jwksUri: JWKS_URI, redirectUri: REDIRECT_URI,
+    audience: "urn:test:product:lms",
   };
 
   it("requires nothing while the flag is off, and reports every problem when it is on", () => {
@@ -166,7 +167,7 @@ describe("Central SSO configuration", () => {
     expect(mountCentralSso(app, { ...env, CENTRAL_SSO_ENABLED: true,
       CENTRAL_SSO_ISSUER: ISSUER, CENTRAL_SSO_CLIENT_ID: CLIENT_ID,
       CENTRAL_SSO_CLIENT_SECRET: CLIENT_SECRET, CENTRAL_SSO_JWKS_URI: JWKS_URI,
-      CENTRAL_SSO_REDIRECT_URI: REDIRECT_URI })).toBe(true);
+      CENTRAL_SSO_REDIRECT_URI: REDIRECT_URI, CENTRAL_LMS_AUDIENCE: "urn:test:product:lms" })).toBe(true);
     const callback = await request(app).get("/auth/titan/academy/callback");
     expect(callback.status).toBe(400);
     expect(callback.body).toEqual({ error: "invalid_callback" });
