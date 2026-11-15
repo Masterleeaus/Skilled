@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "description": "Derived preview/index only. Original lesson drafts unchanged. No publication approval.",
-  "total": 1016,
+  "total": 1022,
   "formats": {
-    "full-authoring": 1016
+    "full-authoring": 1022
   },
   "blockers": {
     "course mapping requires review": 16
@@ -4502,6 +4502,228 @@
         {
           "heading": "Record the measurements and the referral",
           "body": "Record the measured height from the finished surface, the gaps through the balustrade, and the fixing method, with photographs and the date. Record which person the matter was referred to and what was asked. A Queensland government guideline dated March 2017 gives a barrier of at least 1 metre and a maximum gap of 125 mm for decks or balconies more than 1 metre above ground. It is older guidance, so check the current NCC rule before relying on it. Do not rebuild a balustrade to a target height without the referral outcome. A balustrade that is measured and referred is more useful to the owner than one that is changed without a record."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-01",
+      "title": "Dog training scope, authority and client agreements",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-01.json",
+      "sourceHash": "c136a9e6a0cabe7ca080bdac2201aa6c69b07af6f39d1bff86ce747c53fc419f",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Describe the training this business offers and the behaviour work it refers out",
+        "Complete a written client agreement before the first session",
+        "State whether the business has checked its state and council registration position, and where the answer is recorded"
+      ],
+      "instructionSections": [
+        {
+          "heading": "What this business trains, and what it does not",
+          "body": "This business teaches owners and their dogs everyday skills, such as walking on a lead, settling, recall and manners around other dogs. It does not diagnose or treat aggression, fear, or other behaviour problems. When a client asks for that work, the trainer does not start a programme. The trainer records the request, explains the referral route in the lesson on session records, and refers the client to {{business:safety.escalation_contact}} or to a qualified professional the business has named."
+        },
+        {
+          "heading": "The written client agreement",
+          "body": "Before the first session, the client signs an agreement. It names the dog, its age, its vaccination and vet details, and any known bite, medical or behaviour history that the owner has disclosed. It states that the owner remains responsible for the dog at all times, that the owner must tell the trainer about any change in the dog's health, and that the trainer may stop a session if the procedure requires it. It also lists the emergency contact from {{business:safety.emergency_contact}}. An agreement that is not signed is not a booking. The trainer does not begin work on an unsigned agreement."
+        },
+        {
+          "heading": "Registration and licence position",
+          "body": "In Victoria, the Agriculture Victoria list of domestic animal business types (page dated no date shown) names dog training establishments as one type. The page is a list of types. It is not, on its own, a statement of what a given business must do. Whether a dog trainer who works in a client's home, in a park or in a hired hall must register, hold a permit or hold any licence is not confirmed in this draft for any state or council. Before taking a booking, the business must check the position for {{business:compliance.jurisdiction}} and record the answer in {{business:compliance.licence_requirements}}. This lesson does not grant registration, a permit or a licence."
+        },
+        {
+          "heading": "Employees and workers compensation",
+          "body": "If the business employs anyone, WorkSafe Victoria's guidance (last updated 19 May 2026) says that a business is generally required to register for WorkCover once it employs workers. A sole trader who employs nobody else generally does not need to register. Confirm the position for the business in its own circumstances, and record the result in {{business:compliance.policy_reference}}."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-02",
+      "title": "Reading dog welfare and stress before a session",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-02.json",
+      "sourceHash": "e2d1108ddf802cd62e86cdbaee427cb4d8e4c6c7b68ee50a5d48b6ea176fd9da",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Record a dog's observed behaviour before and during a session without diagnosing it",
+        "Apply the business's stop rule when a dog shows signs that the procedure names",
+        "Explain why the owner is asked about changes in health before work starts"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Welfare comes before the training plan",
+          "body": "A trainer does not run a session with a dog that the trainer has not assessed. Before each session, the trainer asks the owner about changes since the last visit, such as illness, a new medication, a change in routine, or a new household member. The trainer then watches the dog for a short settling period. The purpose is to decide whether the dog is ready to train that day, and whether the planned exercises suit it. If the owner reports a change in health, the trainer follows the business's procedure, which may mean postponing the session and asking the owner to see a vet."
+        },
+        {
+          "heading": "Observing without diagnosing",
+          "body": "The trainer records what the dog does. Examples include turning away from the trainer, leaving the area, refusing a request it has previously done, or staying close to the owner. The trainer writes the observation in plain words, with the time and the activity that happened just before it. The trainer does not turn an observation into a diagnosis of pain, fear or illness. Where the observation raises a welfare concern, the trainer applies the stop rule below and refers the owner to a vet or to the business's named professional."
+        },
+        {
+          "heading": "The stop rule",
+          "body": "The business sets a stop rule in {{business:procedures.approved_sop}}. Under the rule, the trainer ends the exercise, and may end the session, when the dog shows a sign listed in the procedure, when the owner asks to stop, or when the trainer is not sure how to read the dog. Ending the session is a normal outcome and is not a failure. The trainer records the reason, the time and what was done next, and tells the owner what happened in the session."
+        },
+        {
+          "heading": "Welfare law is not set out in this lesson",
+          "body": "Animal welfare duties for dogs in training are set by state law and may be shaped by council rules. The legal duties for each state are UNCONFIRMED in this draft, and this lesson does not state them. Where the business's procedure and the law differ, the stricter requirement applies, and the owner or the business must check the position with the relevant state regulator before relying on the procedure."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-03",
+      "title": "Reward-based training and avoiding aversive methods",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-03.json",
+      "sourceHash": "88d02e22f4978b76b9140be368ba2721963414e09d116a29024dc7eca3828882",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Describe the reward-based method this business uses to teach a new behaviour",
+        "Name the equipment on the approved list and state why an item not on the list is excluded",
+        "Explain why aversive methods are not taught, and what is unconfirmed about their legal status"
+      ],
+      "instructionSections": [
+        {
+          "heading": "The approach this course teaches",
+          "body": "This course teaches training based on rewarding the behaviour the trainer wants. The trainer breaks a skill into small steps, marks the moment the dog does the wanted behaviour, and gives a reward the dog values. The trainer repeats the step until the dog does it reliably, then adds distance, distraction or time. The trainer changes one thing at a time, so that the dog and the owner can see what is working. The business records each step in the session record so that progress can be checked."
+        },
+        {
+          "heading": "Aversive methods are not taught here",
+          "body": "Aversive methods are methods that rely on pain, fear, physical force, intimidation or punishment to change a behaviour. This course does not teach them, and the business does not use them. Examples include choke, prong and electric or shock devices, and methods that frighten or hurt a dog as a consequence of a behaviour. Owners sometimes ask for these methods. The trainer explains that the business does not use them and offers a reward-based plan instead."
+        },
+        {
+          "heading": "What the law says about aversive methods is not set out here",
+          "body": "Some aversive methods may be restricted by state animal welfare law or by council rules. The restriction, and which state or council it applies in, is UNCONFIRMED in this draft. This lesson does not say that any method is legal or illegal. Expert review must confirm the position before the course is published. Until then, the business's rule is simply that these methods are not used."
+        },
+        {
+          "heading": "Equipment on the approved list",
+          "body": "The business keeps a list of approved equipment in {{business:equipment.primary_tool}}. Items on the list are chosen because they fit the reward-based method, and are checked before each session. An item not on the list is not used, even if the owner brings it. The trainer records any owner request to use other equipment, and the answer given."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-04",
+      "title": "Bite risk and handling during sessions",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-04.json",
+      "sourceHash": "8daa3ca389fcf924b51e7fce5cf70c56a854a6581fdd7971781d0aef795983f7",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Apply the handling procedure in the approved SOP at the start, during and at the end of a session",
+        "Report a bite or near miss under the business's incident procedure",
+        "State where bite liability is UNCONFIRMED and what the business's cover depends on"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Handling is set by the approved procedure",
+          "body": "The trainer handles each dog under {{business:procedures.approved_sop}}. The procedure sets how the dog is greeted, how it is lead-walked, how it is held at the start and end of a session, and when the trainer must ask the owner to take over. The trainer does not improvise a new handling method during a session. If the procedure does not cover a situation, the trainer stops that exercise and records the gap for the business to review."
+        },
+        {
+          "heading": "Planning for risk before the session",
+          "body": "Before the session, the trainer checks the space, the other dogs and people present, and the dog's history in the client file. The trainer decides whether the session can run safely in that space with the people and dogs present. If it cannot, the trainer moves the session, splits the group, or postpones it. Group sessions have a maximum size set by the business in {{business:procedures.approved_sop}}. This course does not set that number."
+        },
+        {
+          "heading": "Bites and near misses",
+          "body": "If a dog bites a person or another dog, or nearly does so, the trainer follows {{business:safety.incident_reporting_procedure}} and calls the emergency contact in {{business:safety.emergency_contact}} if anyone needs help. The trainer records the time, the people and dogs involved, what happened just before, and the first aid given. The trainer does not discuss fault with the owner at the time of the incident. The owner is told that the business will follow up."
+        },
+        {
+          "heading": "Liability and cover",
+          "body": "A bite can create liability for the owner of the dog and, in some cases, for the business. How liability is shared is UNCONFIRMED in this draft and goes to expert review. The business's cover depends on its insurance policy. The amounts and terms are set in {{business:compliance.policy_reference}}, and this lesson does not state them. The trainer does not promise any owner that the business will pay a bite claim."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-05",
+      "title": "Venues, group classes and council conditions",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-05.json",
+      "sourceHash": "defd0e8f8f136b4bff468929e22c3055485b5d34bcf1c820e374b0116b26f8f8",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Check the venue owner's permission and any council condition before a class is advertised",
+        "Set a maximum group size and check it against the approved procedure before each class",
+        "State when a Working with Children Check question arises, and that the answer is decided by the business"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Permission before the advertisement",
+          "body": "A trainer must have the venue owner's permission before advertising a class at that venue. The permission is written, and it states the days, times, the number of dogs, and any conditions the venue sets, such as cleaning, noise or waste. A public place may have its own council conditions. The trainer checks the council's rules for that place, and records the answer and its date. The business does not advertise a venue until the check is recorded."
+        },
+        {
+          "heading": "Group size",
+          "body": "The business sets a maximum number of dogs in each class in {{business:procedures.approved_sop}}. This course does not give a number. The number must fit the venue's space and the trainer's ability to watch every dog and handler at once. If a booking would take a class over the maximum, the trainer does not take the booking, or it moves to a second class."
+        },
+        {
+          "heading": "Council conditions in public places",
+          "body": "Council rules for training or exercising dogs on public land differ from one council to another. This course does not state any council's rule. Before a class in a public place, the business checks the council's rule for that place and records the answer. Where the council's rule sets a limit on dog numbers or a requirement for insurance, the business follows the stricter limit or requirement. The business's own insurance policy may also set conditions, recorded in {{business:compliance.policy_reference}}."
+        },
+        {
+          "heading": "Children at classes",
+          "body": "Some classes have children as clients or as attendees with their families. In Victoria, the government's Working with Children Check page (updated per page, 12 October 2026) lists coaching or private tuition specifically for children as a category that needs a check, and it does not list pet care. Whether a dog training class falls in a listed category is for the business to decide with the regulator. This lesson does not decide that question. The business records its answer, and any check it decides is needed, in {{business:compliance.licence_requirements}}."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-06",
+      "title": "Session records, progress and referral",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-06.json",
+      "sourceHash": "a0df052dd0268c6842807e78ebbf2ef06c37569614f07eb6ac92a5d7a50a11a3",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Complete a session record with the date, dog, steps, observations and any incident",
+        "Describe progress in terms the owner can check against the steps recorded",
+        "Refer a client to the named professional when a request is outside scope, and record the referral"
+      ],
+      "instructionSections": [
+        {
+          "heading": "What a session record holds",
+          "body": "Each session has a record. It holds the date, the dog, the owner, the steps planned and completed, the equipment used, the owner's health report, the observations, any stop and the reason for it, and any incident. The trainer writes the record at the end of the session, while the details are still clear. A record is a plain account of what happened. It does not contain opinions about the owner's character or conclusions about the dog's condition."
+        },
+        {
+          "heading": "Reporting progress to the owner",
+          "body": "Progress is reported against the steps in the session record. The trainer tells the owner which step the dog now does reliably, which step is still being built, and what the next step is. The trainer does not promise a result or a time frame that the record does not support. Where the owner asks about a behaviour outside the business's scope, the trainer does not answer as an expert on the question and refers the owner as set out below."
+        },
+        {
+          "heading": "Keeping records",
+          "body": "The business keeps session records for the period set in {{business:quality.evidence_requirements}}. Records are kept securely and are available to the owner on request. The business does not share a client's record with a third party except as its privacy procedure allows. The privacy lesson in the base course sets the rules for who may see a record."
+        },
+        {
+          "heading": "Referral when a request is outside scope",
+          "body": "When a request is outside the business's scope, the trainer does three things. The trainer says clearly what the business does not cover. The trainer gives the owner the referral route, which is set by the business and names {{business:safety.escalation_contact}} for welfare and behaviour concerns. The trainer records the request, the date and the referral given. The trainer does not begin a programme that the business has not approved for that request, and does not claim that the referral will solve the problem."
         }
       ],
       "reviewBlockers": [],
