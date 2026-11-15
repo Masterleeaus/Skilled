@@ -30,7 +30,33 @@ export async function createThread(input: CreateThreadInput, userId: string, rol
   });
 }
 
-export async function listThreadsForCourse(courseId: string, lessonId?: string) {
+/**
+ * Reading threads and replies needs the same course access as taking part, plus a published course. Admins and the
+ * course's teacher can read it, and enrolled students can read it on a published course. An unpublished course returns
+ * 404 to everyone else, matching listModules.
+ */
+async function assertCanReadCourseDiscussions(courseId: string, userId: string, role: Role) {
+  const course = await prisma.course.findUnique({
+    where: { id: courseId, deletedAt: null },
+    select: { teacherId: true, isPublished: true },
+  });
+  if (!course) throw new NotFoundError("Course");
+
+  if (role === "ADMIN") return;
+  if (role === "TEACHER" && course.teacherId === userId) return;
+  if (!course.isPublished) throw new NotFoundError("Course");
+  if (role === "STUDENT" && (await isEnrolled(userId, courseId))) return;
+
+  throw new ForbiddenError("You must be enrolled to view discussions");
+}
+
+export async function listThreadsForCourse(
+  courseId: string,
+  userId: string,
+  role: Role,
+  lessonId?: string,
+) {
+  await assertCanReadCourseDiscussions(courseId, userId, role);
   return prisma.discussionThread.findMany({
     where: { courseId, ...(lessonId && { lessonId }) },
     orderBy: { createdAt: "desc" },
@@ -41,7 +67,7 @@ export async function listThreadsForCourse(courseId: string, lessonId?: string) 
   });
 }
 
-export async function getThread(threadId: string) {
+export async function getThread(threadId: string, userId: string, role: Role) {
   const thread = await prisma.discussionThread.findUnique({
     where: { id: threadId },
     include: {
@@ -53,6 +79,7 @@ export async function getThread(threadId: string) {
     },
   });
   if (!thread) throw new NotFoundError("Thread");
+  await assertCanReadCourseDiscussions(thread.courseId, userId, role);
   return thread;
 }
 

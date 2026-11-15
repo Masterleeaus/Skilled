@@ -1,16 +1,18 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
 import { submitKnowledgeCheck } from "@/lib/curriculum.api";
 type Question = { question: string; options: string[] };
 export function CurriculumKnowledgeCheck({ body, lessonId, revisionId }: { body: Record<string, unknown>; lessonId: string; revisionId: string }) {
+  // Keyed by lesson and revision: a new one starts with no answers and no grading result.
+  return <KnowledgeCheckForm key={`${lessonId}|${revisionId}`} body={body} lessonId={lessonId} revisionId={revisionId} />;
+}
+
+function KnowledgeCheckForm({ body, lessonId, revisionId }: { body: Record<string, unknown>; lessonId: string; revisionId: string }) {
   const raw = Array.isArray(body.knowledgeChecks) ? body.knowledgeChecks : body.knowledgeCheck;
   const questions: Question[] = Array.isArray(raw) ? raw.filter((q): q is Question => !!q && typeof q === "object" && typeof q.question === "string" && Array.isArray(q.options) && q.options.every((v: unknown) => typeof v === "string")) : [];
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const attempt = useMutation({ mutationFn: () => submitKnowledgeCheck(lessonId, revisionId, questions.map((_, i) => answers[i])) });
-  // reset is bound once per mutation observer, so listing it in deps does not re-run the effect.
-  const resetAttempt = attempt.reset;
-  useEffect(() => { setAnswers({}); resetAttempt(); }, [revisionId, lessonId, resetAttempt]);
   if (!questions.length) return null;
   // ACA-023 item 8: Submit explains why it is unavailable. The helper text is linked with aria-describedby.
   const unanswered = questions.some((_, i) => answers[i] === undefined);
