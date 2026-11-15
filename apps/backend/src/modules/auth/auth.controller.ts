@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { z } from "zod";
 import { sendSuccess } from "../../utils/response";
+import { cookieOptions, clearCookieOptions } from "../../utils/cookie-options";
 import * as authService from "./auth.service";
 import {
   registerSchema,
@@ -17,15 +18,15 @@ const updateProfileSchema = z.object({
 });
 
 const REFRESH_COOKIE = "refreshToken";
-const isProd = process.env.NODE_ENV === "production";
+// Lifetime of the browser refresh cookie. Unchanged; see docs/security/cookies-and-csrf.md.
+const REFRESH_COOKIE_MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000;
 
 function setRefreshCookie(res: Response, token: string) {
-  res.cookie(REFRESH_COOKIE, token, {
-    httpOnly: true,
-    secure: isProd,
-    sameSite: "lax",
-    maxAge: 30 * 24 * 60 * 60 * 1000,
-  });
+  res.cookie(REFRESH_COOKIE, token, cookieOptions({ maxAgeMs: REFRESH_COOKIE_MAX_AGE_MS }));
+}
+
+function clearRefreshCookie(res: Response) {
+  res.clearCookie(REFRESH_COOKIE, clearCookieOptions());
 }
 
 export async function register(req: Request, res: Response, next: NextFunction) {
@@ -82,7 +83,7 @@ export async function logout(req: Request, res: Response, next: NextFunction) {
   try {
     const token = req.cookies?.[REFRESH_COOKIE] ?? req.body?.refreshToken;
     if (token) await authService.logoutDevice(token);
-    res.clearCookie(REFRESH_COOKIE);
+    clearRefreshCookie(res);
     return sendSuccess(res, null, "Logged out");
   } catch (err) {
     next(err);
@@ -92,7 +93,7 @@ export async function logout(req: Request, res: Response, next: NextFunction) {
 export async function logoutAll(req: Request, res: Response, next: NextFunction) {
   try {
     await authService.logoutAllDevices(req.user!.userId);
-    res.clearCookie(REFRESH_COOKIE);
+    clearRefreshCookie(res);
     return sendSuccess(res, null, "Logged out from all devices");
   } catch (err) {
     next(err);

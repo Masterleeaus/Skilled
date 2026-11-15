@@ -9,6 +9,7 @@
  */
 import { randomBytes } from "node:crypto";
 import { Router } from "express";
+import { cookieOptions } from "../../../utils/cookie-options";
 import rateLimit from "express-rate-limit";
 import { CENTRAL_SSO_CALLBACK_PATH } from "../../../config/central-sso";
 import type { CentralDb } from "./central-link";
@@ -33,13 +34,9 @@ export interface CentralRouterDeps {
   logger?: (event: string, fields: Record<string, string | number | boolean>) => void;
 }
 
-const bindingCookie = (maxAge?: number) => ({
-  httpOnly: true,
-  secure: true,
-  sameSite: "lax" as const,
-  path: CENTRAL_SSO_CALLBACK_PATH,
-  ...(maxAge === undefined ? {} : { maxAge }),
-});
+// Always Secure: Central SSO only runs over HTTPS. Lax is required so the binding survives the IdP redirect back.
+const bindingCookie = (maxAge?: number) =>
+  cookieOptions({ secure: true, sameSite: "lax", path: CENTRAL_SSO_CALLBACK_PATH, maxAgeMs: maxAge });
 
 export function createCentralSsoRouter({ db, oidc, afterLoginUrl, logger = () => {} }: CentralRouterDeps): Router {
   const router = Router();
@@ -127,13 +124,12 @@ export function createCentralSsoRouter({ db, oidc, afterLoginUrl, logger = () =>
     logger("central_login_succeeded", { outcome: "allow" });
 
     res.clearCookie(BINDING_COOKIE, bindingCookie());
-    res.cookie(SESSION_COOKIE, raw, {
-      httpOnly: true,
+    res.cookie(SESSION_COOKIE, raw, cookieOptions({
       secure: true,
       sameSite: "lax",
       path: SESSION_COOKIE_PATH,
-      maxAge: Math.max(0, expiresAt.getTime() - Date.now()),
-    });
+      maxAgeMs: Math.max(0, expiresAt.getTime() - Date.now()),
+    }));
     res.redirect(303, afterLoginUrl);
   });
 
