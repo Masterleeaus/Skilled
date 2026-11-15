@@ -17,6 +17,7 @@ check(/127\.0\.0\.1:\$\{ACADEMY_MINIO_PORT/.test(compose), 'MinIO must publish l
 check(!/minioadmin|POSTGRES_PASSWORD:\s*lms/i.test(compose), 'No shared default passwords');
 check(/ACADEMY_REDIS_PASSWORD:\?/.test(compose), 'Redis password required');
 check(/ACADEMY_MINIO_ROOT_PASSWORD:\?/.test(compose), 'MinIO password required');
+check(/image:\s*minio\/minio:(?!latest\b)[^\s#]+/.test(compose) && !/minio\/minio:latest/.test(compose), 'MinIO image must be a pinned release, not latest (#169)');
 check(/prisma\.user\.findUnique/.test(auth), 'Authentication must read live user state');
 check(/isActive/.test(auth) && /isEmailVerified/.test(auth) && /deletedAt/.test(auth), 'Authentication must enforce account status');
 check(/role:\s*user\.role/.test(auth), 'Authorization uses server-side role');
