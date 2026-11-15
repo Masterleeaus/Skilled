@@ -1,36 +1,36 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { AuthBrand } from "@/components/AuthBrand";
 import { verifyEmail } from "@/lib/auth.api";
+import { useLocationSearch } from "@/hooks/useLocationSearch";
 
 type Status = "checking" | "ready" | "working" | "verified" | "error";
 
+const MISSING_TOKEN = "Your verification link does not contain a token.";
+
 export default function VerifyEmailPage() {
-  const [token, setToken] = useState("");
-  const [status, setStatus] = useState<Status>("checking");
-  const [error, setError] = useState("");
+  // The URL is read after hydration. Until the page has submitted, the status follows the token in the link.
+  const search = useLocationSearch();
+  const token = search === null ? "" : (new URLSearchParams(search).get("token") ?? "").trim();
+  const [flow, setFlow] = useState<Status>("checking");
+  const [submitError, setSubmitError] = useState("");
   const submitted = useRef(false);
 
-  useEffect(() => {
-    const fromUrl = new URLSearchParams(window.location.search).get("token")?.trim() ?? "";
-    setToken(fromUrl);
-    setStatus(fromUrl ? "ready" : "error");
-    if (!fromUrl) setError("Your verification link does not contain a token.");
-  }, []);
-
+  const status: Status = flow === "checking" && search !== null ? (token ? "ready" : "error") : flow;
+  const error = flow === "checking" && search !== null && !token ? MISSING_TOKEN : submitError;
   async function submit() {
     if (!token || submitted.current) return;
     submitted.current = true;
-    setStatus("working");
-    setError("");
+    setFlow("working");
+    setSubmitError("");
     try {
       await verifyEmail(token);
-      setStatus("verified");
+      setFlow("verified");
     } catch {
-      setError("The verification link is invalid, expired or has already been used.");
-      setStatus("error");
+      setSubmitError("The verification link is invalid, expired or has already been used.");
+      setFlow("error");
       submitted.current = false;
     }
   }

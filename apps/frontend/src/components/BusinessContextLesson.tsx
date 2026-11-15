@@ -13,7 +13,12 @@ export function BusinessContextLesson({ revisionId }: { revisionId: string }) {
   const [view, setView] = useState<LessonContextDetail | null>(null);
   const [cursor, setCursor] = useState<string | undefined>();
   const [history, setHistory] = useState<LessonContextSnapshot[]>([]);
-  useEffect(() => { setCompanyId(""); setView(null); setCursor(undefined); setHistory([]); }, [revisionId]);
+  // A new lesson revision clears the selection and history. This runs during render, not in an effect.
+  const [shownRevision, setShownRevision] = useState(revisionId);
+  if (revisionId !== shownRevision) {
+    setShownRevision(revisionId);
+    setCompanyId(""); setView(null); setCursor(undefined); setHistory([]);
+  }
   const companies = memberships.data ?? [];
   const selectedOrg = companyId || (companies.length === 1 ? companies[0].companyId : "");
   const historyQuery = useQuery({ queryKey: ["academy-context-history", selectedOrg, revisionId, cursor], queryFn: () => fetchContextHistory(selectedOrg, revisionId, cursor), enabled: !!selectedOrg, retry: false });

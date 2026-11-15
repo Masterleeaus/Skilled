@@ -1,7 +1,8 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback } from "react";
 import { DEFAULT_LICENCE_TRACK, type LicenceTrack } from "@/lib/curriculum.api";
+import { useLocationSearch } from "@/hooks/useLocationSearch";
 
 const TRACKS: readonly LicenceTrack[] = ["non-licensed", "licensed"];
 const LICENCE_TRACK_EVENT = "licence-track-change";
@@ -17,22 +18,13 @@ const LICENCE_TRACK_EVENT = "licence-track-change";
  *   the server returns (outline response), not this hook's value, and must not treat the URL as a choice.
  */
 export function useLicenceTrack(): [LicenceTrack, (next: LicenceTrack) => void] {
-  const [track, setTrackState] = useState<LicenceTrack>(DEFAULT_LICENCE_TRACK);
-
-  useEffect(() => {
-    const value = new URLSearchParams(window.location.search).get("track");
-    if (value && (TRACKS as readonly string[]).includes(value)) setTrackState(value as LicenceTrack);
-  }, []);
-
-  // Other components on the same page that use this hook follow a change made here.
-  useEffect(() => {
-    const onChange = (event: Event) => setTrackState((event as CustomEvent<LicenceTrack>).detail);
-    window.addEventListener(LICENCE_TRACK_EVENT, onChange);
-    return () => window.removeEventListener(LICENCE_TRACK_EVENT, onChange);
-  }, []);
+  // The track lives in the URL. Every instance re-reads it when setTrack announces a change.
+  const search = useLocationSearch(LICENCE_TRACK_EVENT);
+  const requested = search === null ? null : new URLSearchParams(search).get("track");
+  const track: LicenceTrack =
+    requested && (TRACKS as readonly string[]).includes(requested) ? (requested as LicenceTrack) : DEFAULT_LICENCE_TRACK;
 
   const setTrack = useCallback((next: LicenceTrack) => {
-    setTrackState(next);
     const url = new URL(window.location.href);
     url.searchParams.set("track", next);
     window.history.replaceState(window.history.state, "", url.toString());
