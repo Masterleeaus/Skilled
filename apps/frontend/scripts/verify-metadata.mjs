@@ -1,6 +1,5 @@
 // Verifies the browser install and share metadata contract (issue #85) against the built app.
 // Offline: reads .next/ output and public/ files only. Run `pnpm -C apps/frontend build` first.
-// Icon and share-image checks fail until the Skilled mark is added under public/ and declared in the manifest and layout.
 import { existsSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import assert from "node:assert/strict";
