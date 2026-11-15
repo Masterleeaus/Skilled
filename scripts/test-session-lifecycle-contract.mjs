@@ -22,7 +22,7 @@ check(refresh.includes('consumed.count !== 1'), 'concurrent reuse rejected');
 check(refresh.includes('tx.refreshToken.create'), 'rotated credential persisted atomically');
 check(refresh.includes('deviceInfo: stored.deviceInfo'), 'device metadata retained');
 check(refresh.includes('refreshToken: rotatedToken'), 'replacement token returned to controller');
-check(controller.includes('setRefreshCookie(res, result.refreshToken)'), 'browser receives replacement HttpOnly cookie');
+check(controller.includes('setRefreshCookie(res, result.refreshToken, isProd)'), 'browser receives replacement HttpOnly cookie');
 check(controller.includes('return sendSuccess(res, result, "Token refreshed")'), 'body-token client receives replacement token');
 check(controller.includes('req.body?.refreshToken'), 'logout supports cookie-only request with no body');
 check(routes.includes('router.post("/refresh", refreshLimiter') && routes.includes('router.post("/reset-password", authLimiter') && routes.includes('router.post("/verify-email", authLimiter'), 'refresh/recovery routes are rate-limited');
