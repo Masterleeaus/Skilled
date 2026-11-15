@@ -78,6 +78,8 @@ export const envSchema = z.object({
   CENTRAL_SSO_CLIENT_SECRET: z.string().optional().default(""),
   CENTRAL_SSO_JWKS_URI: z.string().optional().default(""),
   CENTRAL_SSO_REDIRECT_URI: z.string().optional().default(""),
+  // LMS audience from the Central operator. Required when CENTRAL_SSO_ENABLED=true; also used by service calls.
+  CENTRAL_LMS_AUDIENCE: z.string().optional().default(""),
 }).superRefine((values, context) => {
   if (values.JWT_ACCESS_SECRET === values.JWT_REFRESH_SECRET) {
     context.addIssue({ code: "custom", path: ["JWT_REFRESH_SECRET"], message: "JWT_ACCESS_SECRET and JWT_REFRESH_SECRET must be different" });
@@ -100,6 +102,7 @@ export const envSchema = z.object({
     clientSecret: values.CENTRAL_SSO_CLIENT_SECRET,
     jwksUri: values.CENTRAL_SSO_JWKS_URI,
     redirectUri: values.CENTRAL_SSO_REDIRECT_URI,
+    audience: values.CENTRAL_LMS_AUDIENCE,
   })) {
     context.addIssue({ code: "custom", path: ["CENTRAL_SSO_ENABLED"], message });
   }
