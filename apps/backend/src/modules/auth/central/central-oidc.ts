@@ -29,7 +29,7 @@ export interface CentralStateStore {
 }
 
 export interface CentralOidcOptions {
-  settings: Pick<CentralSsoSettings, "issuer" | "clientId" | "clientSecret" | "redirectUri">;
+  settings: Pick<CentralSsoSettings, "issuer" | "clientId" | "clientSecret" | "redirectUri" | "audience">;
   store: CentralStateStore;
   verifyIdToken: IdTokenVerifier;
   fetcher?: typeof fetch;
@@ -56,11 +56,11 @@ function sameDigest(a: string, b: string): boolean {
   return left.length === right.length && timingSafeEqual(left, right);
 }
 
-const DISCOVERY_SUFFIX = "/.well-known/openid-configuration";
+export const DISCOVERY_SUFFIX = "/.well-known/openid-configuration";
 const DISCOVERY_CACHE_MS = 300_000;
 const MAX_DISCOVERY_BYTES = 65_536;
 
-interface Endpoints {
+export interface Endpoints {
   authorizationEndpoint: string;
   tokenEndpoint: string;
 }
@@ -89,7 +89,7 @@ async function readBoundedText(response: Response, maxBytes: number): Promise<st
 }
 
 /** Fetches and validates the provider metadata. Endpoints must share the issuer's origin and carry no credentials, query or fragment. */
-async function discover(
+export async function discover(
   fetcher: typeof fetch,
   discoveryUrl: string,
   issuer: string,
@@ -193,6 +193,8 @@ export function createCentralOidcClient({
         code_challenge: sha256Base64url(verifier),
         code_challenge_method: "S256",
       };
+      // The LMS audience is operator-supplied (CENTRAL_LMS_AUDIENCE). The ID token audience check stays on the client ID.
+      if (settings.audience) params.audience = settings.audience;
       for (const [key, value] of Object.entries(params)) url.searchParams.set(key, value);
       return { authorizationUrl: url.href, expiresAt };
     },
