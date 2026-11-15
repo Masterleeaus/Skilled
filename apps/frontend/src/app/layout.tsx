@@ -7,8 +7,8 @@ import { Providers } from "./providers";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 const siteName = "SkilledAt.Work";
 const siteDescription = "SkilledAt.Work — practical training, assessment and skills development for field and home-service businesses";
-// Repository-owned Skilled install and share artwork.
-const shareImage = { url: "/academy/skilled-open-graph.png", width: 1200, height: 630, alt: "SkilledAt.Work" };
+// SkilledAt.Work share image from the brand pack, see public/icons/README.md.
+const shareImage = { url: "/icons/og-image.png", width: 1200, height: 630, alt: "SkilledAt.Work" };
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [
-      { url: "/academy/skilled-icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/academy/skilled-icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: "/academy/skilled-apple-touch.png",
   },
