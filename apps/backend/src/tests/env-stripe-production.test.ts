@@ -15,6 +15,7 @@ const productionBase = {
   MINIO_ACCESS_KEY: "fixture-minio-access",
   MINIO_SECRET_KEY: "fixture-minio-secret",
   SMTP_TLS_MODE: "starttls",
+  MINIO_USE_SSL: "true",
 };
 
 function issuePaths(input: Record<string, string>): string[] {
@@ -54,6 +55,32 @@ describe("production Stripe configuration", () => {
 
   it("does not require Stripe outside production", () => {
     const result = envSchema.safeParse({ ...productionBase, NODE_ENV: "development", STRIPE_SECRET_KEY: "", STRIPE_WEBHOOK_SECRET: "" });
+
+    expect(result.success).toBe(true);
+  });
+});
+
+describe("production object storage TLS", () => {
+  const stripeConfigured = { STRIPE_SECRET_KEY: "sk_test_fixture_key", STRIPE_WEBHOOK_SECRET: "whsec_fixture_secret" };
+
+  it("accepts production when MINIO_USE_SSL=true", () => {
+    expect(issuePaths({ ...stripeConfigured, MINIO_USE_SSL: "true" })).toEqual([]);
+  });
+
+  it("rejects production when MINIO_USE_SSL is false", () => {
+    expect(issuePaths({ ...stripeConfigured, MINIO_USE_SSL: "false" })).toEqual(["MINIO_USE_SSL"]);
+  });
+
+  it("rejects production when MINIO_USE_SSL is left at its default", () => {
+    const { MINIO_USE_SSL: _unused, ...withoutSsl } = productionBase;
+    const result = envSchema.safeParse({ ...withoutSsl, ...stripeConfigured });
+
+    expect(result.success).toBe(false);
+    expect(result.success || result.error.issues.map((issue) => issue.path.join("."))).toEqual(["MINIO_USE_SSL"]);
+  });
+
+  it("allows MINIO_USE_SSL=false outside production", () => {
+    const result = envSchema.safeParse({ ...productionBase, NODE_ENV: "development", MINIO_USE_SSL: "false" });
 
     expect(result.success).toBe(true);
   });
