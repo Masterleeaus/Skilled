@@ -8,8 +8,23 @@ dotenv.config();
 // templates (apps/backend/.env.example) already meet them, so there is no dev exception.
 export const JWT_SECRET_MIN_LENGTH = 32;
 
-export const envSchema = z.object({
-  NODE_ENV: z.enum(["development", "production", "test"]).default("development"),
+/**
+ * True when the configuration describes a production-like deployment: an HTTPS frontend origin, or the dedicated
+ * titan_academy database. Used to refuse startup when NODE_ENV was left unset.
+ */
+function looksLikeProduction(values: { CLIENT_URL: unknown; DATABASE_URL: unknown }): boolean {
+  if (typeof values.CLIENT_URL === "string" && values.CLIENT_URL.startsWith("https://")) return true;
+  if (typeof values.DATABASE_URL !== "string") return false;
+  try {
+    return decodeURIComponent(new URL(values.DATABASE_URL).pathname.slice(1)) === "titan_academy";
+  } catch {
+    return false;
+  }
+}
+
+const envObjectSchema = z.object({
+  // No default: an unset NODE_ENV would turn off every production check. See the superRefine below.
+  NODE_ENV: z.enum(["development", "production", "test"]).optional(),
   PORT: z.coerce.number().int().min(1).max(65535).default(5000),
   HOST: z.string().default("127.0.0.1"),
   CLIENT_URL: z.string().url(),
@@ -83,6 +98,13 @@ export const envSchema = z.object({
   // LMS audience from the Central operator. Required when CENTRAL_SSO_ENABLED=true; also used by service calls.
   CENTRAL_LMS_AUDIENCE: z.string().optional().default(""),
 }).superRefine((values, context) => {
+  if (values.NODE_ENV === undefined && looksLikeProduction(values)) {
+    context.addIssue({
+      code: "custom",
+      path: ["NODE_ENV"],
+      message: "NODE_ENV must be set explicitly for a production-like deployment. It is not defaulted, because development turns off the production checks",
+    });
+  }
   if (values.JWT_ACCESS_SECRET === values.JWT_REFRESH_SECRET) {
     context.addIssue({ code: "custom", path: ["JWT_REFRESH_SECRET"], message: "JWT_ACCESS_SECRET and JWT_REFRESH_SECRET must be different" });
   }
@@ -142,12 +164,22 @@ export const envSchema = z.object({
   }
 });
 
+// An unset NODE_ENV that did not look like production runs as development, as before. Say so at startup.
+export const envSchema = envObjectSchema.transform((values) => ({
+  ...values,
+  NODE_ENV: values.NODE_ENV ?? ("development" as const),
+}));
+
 const parsed = envSchema.safeParse(process.env);
 
 if (!parsed.success) {
   console.error("❌ Invalid environment variables:");
   console.error(parsed.error.flatten().fieldErrors);
   process.exit(1);
+}
+
+if (process.env.NODE_ENV === undefined) {
+  console.warn("⚠️ NODE_ENV is not set; running as development. Set NODE_ENV=production for a production deployment.");
 }
 
 export const env = parsed.data;
