@@ -13,6 +13,8 @@ export const envSchema = z.object({
   PORT: z.coerce.number().int().min(1).max(65535).default(5000),
   HOST: z.string().default("127.0.0.1"),
   CLIENT_URL: z.string().url(),
+  // Comma-separated origins allowed to send state-changing auth requests. Empty means the CLIENT_URL origin.
+  AUTH_ALLOWED_ORIGINS: z.string().default(""),
 
   DATABASE_URL: z.string().min(1, "DATABASE_URL is required"),
   // Connection URL without credentials, for example redis://127.0.0.1:6379. The password goes in REDIS_PASSWORD.
@@ -78,6 +80,8 @@ export const envSchema = z.object({
   CENTRAL_SSO_CLIENT_SECRET: z.string().optional().default(""),
   CENTRAL_SSO_JWKS_URI: z.string().optional().default(""),
   CENTRAL_SSO_REDIRECT_URI: z.string().optional().default(""),
+  // LMS audience from the Central operator. Required when CENTRAL_SSO_ENABLED=true; also used by service calls.
+  CENTRAL_LMS_AUDIENCE: z.string().optional().default(""),
 }).superRefine((values, context) => {
   if (values.JWT_ACCESS_SECRET === values.JWT_REFRESH_SECRET) {
     context.addIssue({ code: "custom", path: ["JWT_REFRESH_SECRET"], message: "JWT_ACCESS_SECRET and JWT_REFRESH_SECRET must be different" });
@@ -100,6 +104,7 @@ export const envSchema = z.object({
     clientSecret: values.CENTRAL_SSO_CLIENT_SECRET,
     jwksUri: values.CENTRAL_SSO_JWKS_URI,
     redirectUri: values.CENTRAL_SSO_REDIRECT_URI,
+    audience: values.CENTRAL_LMS_AUDIENCE,
   })) {
     context.addIssue({ code: "custom", path: ["CENTRAL_SSO_ENABLED"], message });
   }

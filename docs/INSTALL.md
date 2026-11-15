@@ -17,14 +17,14 @@ Placeholders in angle brackets (for example `<set-in-secret-store>`) are values 
 
 | Item | Requirement | Source |
 |---|---|---|
-| Node.js | 22 | CI workflows (`node-version: 22`) and verification evidence. Root `package.json` `engines` is `>=20`, a floor only |
+| Node.js | 22 | CI workflows (`node-version: 22`), verification evidence, and the `engines` field (`>=22`) in the root and `apps/backend` `package.json` files |
 | pnpm | 10.0.0, exact | root `package.json` `packageManager`; CI `pnpm/action-setup` pins `version: 10.0.0` |
 | PostgreSQL | 16, on a dedicated Academy instance | `DEPLOY-RUNBOOK.md` section 1 |
 | Redis | Required. Version not confirmed; the compose candidate uses 7.4 | `DEPLOY-RUNBOOK.md` section 2 |
 | Object storage | MinIO or S3-compatible, with a bucket | `apps/backend/src/config/minio.ts` |
 | SMTP | Required for account emails | `apps/backend/src/jobs/email.worker.ts` |
 
-Install Node 22 and pnpm 10.0.0. Node 22 is the version CI and the verification evidence (`DEPLOY-RUNBOOK.md` section 3) use. The `engines` field allows Node 20 and later, but Node 20 is not a tested target. Use the pnpm version from `packageManager` through Corepack (section 2), not a globally installed pnpm of another version.
+Install Node 22 and pnpm 10.0.0. Node 22 is the version CI and the verification evidence (`DEPLOY-RUNBOOK.md` section 3) use. The `engines` field requires Node 22 or later. Node 20 is not a supported target. Use the pnpm version from `packageManager` through Corepack (section 2), not a globally installed pnpm of another version.
 
 Do not use `docker-compose.local-dev.yml` on a server. It publishes port 5432 and uses development credentials (`DEPLOY-RUNBOOK.md` section 0). The repository has no default `docker-compose.yml`, so every Compose command must name its file with `-f`. An unqualified `docker compose up` finds no file in this repository.
 

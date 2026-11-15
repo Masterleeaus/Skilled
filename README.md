@@ -125,7 +125,7 @@ SkilledAt.Work delivers training that a business can configure without changing 
 ## Getting Started
 
 ### Prerequisites
-- Node.js 22 (the version CI and the verification evidence use; the root `package.json` `engines` field sets `>=20` as a floor)
+- Node.js 22 (the server target: CI, the verification evidence, and the `engines` field in the root and `apps/backend` `package.json` files, all `>=22`)
 - pnpm 10.0.0, exactly, as pinned by the root `packageManager` field. Use Corepack so this version is used; see Setup.
 - Docker (for Postgres, Redis, MinIO and Mailhog)
 
@@ -296,7 +296,7 @@ The inherited `pass22` check (`apps/backend/tests/pass22-inactive-identity.test.
 - [`SKILLED-CURRICULUM-IMPORT.md`](SKILLED-CURRICULUM-IMPORT.md): curriculum import behaviour
 - [`SKILLED-CLEANING-LESSONS.md`](SKILLED-CLEANING-LESSONS.md): cleaning vertical lesson notes
 - [`docs/runbooks/`](docs/runbooks/): deployment, secrets handling and recovery
-- [`docs/FIELD_SERVICES_CONTEXT_SYNC.md`](docs/FIELD_SERVICES_CONTEXT_SYNC.md): Field Services context synchronisation contract
+- [`docs/FIELD_SERVICES_CONTEXT_SYNC.md`](docs/FIELD_SERVICES_CONTEXT_SYNC.md): Field Services context synchronisation contract. **Not part of this release** (issue #165); the sync is not implemented.
 
 ---
 
