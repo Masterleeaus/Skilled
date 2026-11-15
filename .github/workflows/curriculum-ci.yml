@@ -1,7 +1,7 @@
 # Curriculum quality gate for SkilledAt.Work.
 # The Git repository root is the parent of , so this workflow lives here and
-# sets working-directory to the repository root. Runs `pnpm curriculum:ci` (scripts/ci-curriculum-audit.mjs
-# with --fail-on-blocked). It does not approve or change any curriculum content.
+# sets working-directory to the repository root. The blocking step runs scripts/ci-curriculum-audit.mjs
+# (structure, index drift, ratchet, self-tests). It does not approve or change any curriculum content.
 name: curriculum-ci
 
 on:
@@ -71,10 +71,20 @@ jobs:
       - name: Verify all malformed assessment fixtures fail closed
         run: node scripts/test-assessment-publication-negative-fixtures.mjs
 
-      # Informational until curriculum content is approved (issue #26): the step
-      # reports failures in the job log and the uploaded report, but does not fail the check.
-      # Remove continue-on-error to make it blocking again.
+      # Blocking (issue #26): structure, normalisation index drift, the known-gap ratchet and
+      # self-tests fail the check. The 1267 assessments still blocked by missing human approvals
+      # are NOT part of this step (see the informational step below) so main stays green until
+      # reviewers record approvals. Known blocked fixtures must fail this gate (next step).
       - name: Run curriculum CI gate
+        run: node scripts/ci-curriculum-audit.mjs --report build/curriculum-ci-report.json
+
+      - name: Verify known blocked curriculum fixtures fail the gate
+        run: node --test scripts/test-curriculum-ci-fixture-gate.mjs
+
+      # Informational: the strict `pnpm curriculum:ci` (--fail-on-blocked) fails while assessments
+      # lack matching human approval records. Remove continue-on-error once every assessment is
+      # approved (owner decision, recorded under "Decisions" in the PR).
+      - name: Report assessments blocked from publication (strict, informational)
         continue-on-error: true
         run: pnpm curriculum:ci
 

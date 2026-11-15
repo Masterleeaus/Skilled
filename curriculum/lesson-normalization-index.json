@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "description": "Derived preview/index only. Original lesson drafts unchanged. No publication approval.",
-  "total": 1020,
+  "total": 1036,
   "formats": {
-    "full-authoring": 1020
+    "full-authoring": 1036
   },
   "blockers": {
     "course mapping requires review": 16
@@ -4509,10 +4509,232 @@
       "originalStatus": "DRAFT"
     },
     {
+      "id": "NEW-DTR-01",
+      "title": "Dog training scope, authority and client agreements",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-01.json",
+      "sourceHash": "c136a9e6a0cabe7ca080bdac2201aa6c69b07af6f39d1bff86ce747c53fc419f",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Describe the training this business offers and the behaviour work it refers out",
+        "Complete a written client agreement before the first session",
+        "State whether the business has checked its state and council registration position, and where the answer is recorded"
+      ],
+      "instructionSections": [
+        {
+          "heading": "What this business trains, and what it does not",
+          "body": "This business teaches owners and their dogs everyday skills, such as walking on a lead, settling, recall and manners around other dogs. It does not diagnose or treat aggression, fear, or other behaviour problems. When a client asks for that work, the trainer does not start a programme. The trainer records the request, explains the referral route in the lesson on session records, and refers the client to {{business:safety.escalation_contact}} or to a qualified professional the business has named."
+        },
+        {
+          "heading": "The written client agreement",
+          "body": "Before the first session, the client signs an agreement. It names the dog, its age, its vaccination and vet details, and any known bite, medical or behaviour history that the owner has disclosed. It states that the owner remains responsible for the dog at all times, that the owner must tell the trainer about any change in the dog's health, and that the trainer may stop a session if the procedure requires it. It also lists the emergency contact from {{business:safety.emergency_contact}}. An agreement that is not signed is not a booking. The trainer does not begin work on an unsigned agreement."
+        },
+        {
+          "heading": "Registration and licence position",
+          "body": "In Victoria, the Agriculture Victoria list of domestic animal business types (page dated no date shown) names dog training establishments as one type. The page is a list of types. It is not, on its own, a statement of what a given business must do. Whether a dog trainer who works in a client's home, in a park or in a hired hall must register, hold a permit or hold any licence is not confirmed in this draft for any state or council. Before taking a booking, the business must check the position for {{business:compliance.jurisdiction}} and record the answer in {{business:compliance.licence_requirements}}. This lesson does not grant registration, a permit or a licence."
+        },
+        {
+          "heading": "Employees and workers compensation",
+          "body": "If the business employs anyone, WorkSafe Victoria's guidance (last updated 19 May 2026) says that a business is generally required to register for WorkCover once it employs workers. A sole trader who employs nobody else generally does not need to register. Confirm the position for the business in its own circumstances, and record the result in {{business:compliance.policy_reference}}."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-02",
+      "title": "Reading dog welfare and stress before a session",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-02.json",
+      "sourceHash": "e2d1108ddf802cd62e86cdbaee427cb4d8e4c6c7b68ee50a5d48b6ea176fd9da",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Record a dog's observed behaviour before and during a session without diagnosing it",
+        "Apply the business's stop rule when a dog shows signs that the procedure names",
+        "Explain why the owner is asked about changes in health before work starts"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Welfare comes before the training plan",
+          "body": "A trainer does not run a session with a dog that the trainer has not assessed. Before each session, the trainer asks the owner about changes since the last visit, such as illness, a new medication, a change in routine, or a new household member. The trainer then watches the dog for a short settling period. The purpose is to decide whether the dog is ready to train that day, and whether the planned exercises suit it. If the owner reports a change in health, the trainer follows the business's procedure, which may mean postponing the session and asking the owner to see a vet."
+        },
+        {
+          "heading": "Observing without diagnosing",
+          "body": "The trainer records what the dog does. Examples include turning away from the trainer, leaving the area, refusing a request it has previously done, or staying close to the owner. The trainer writes the observation in plain words, with the time and the activity that happened just before it. The trainer does not turn an observation into a diagnosis of pain, fear or illness. Where the observation raises a welfare concern, the trainer applies the stop rule below and refers the owner to a vet or to the business's named professional."
+        },
+        {
+          "heading": "The stop rule",
+          "body": "The business sets a stop rule in {{business:procedures.approved_sop}}. Under the rule, the trainer ends the exercise, and may end the session, when the dog shows a sign listed in the procedure, when the owner asks to stop, or when the trainer is not sure how to read the dog. Ending the session is a normal outcome and is not a failure. The trainer records the reason, the time and what was done next, and tells the owner what happened in the session."
+        },
+        {
+          "heading": "Welfare law is not set out in this lesson",
+          "body": "Animal welfare duties for dogs in training are set by state law and may be shaped by council rules. The legal duties for each state are UNCONFIRMED in this draft, and this lesson does not state them. Where the business's procedure and the law differ, the stricter requirement applies, and the owner or the business must check the position with the relevant state regulator before relying on the procedure."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-03",
+      "title": "Reward-based training and avoiding aversive methods",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-03.json",
+      "sourceHash": "88d02e22f4978b76b9140be368ba2721963414e09d116a29024dc7eca3828882",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Describe the reward-based method this business uses to teach a new behaviour",
+        "Name the equipment on the approved list and state why an item not on the list is excluded",
+        "Explain why aversive methods are not taught, and what is unconfirmed about their legal status"
+      ],
+      "instructionSections": [
+        {
+          "heading": "The approach this course teaches",
+          "body": "This course teaches training based on rewarding the behaviour the trainer wants. The trainer breaks a skill into small steps, marks the moment the dog does the wanted behaviour, and gives a reward the dog values. The trainer repeats the step until the dog does it reliably, then adds distance, distraction or time. The trainer changes one thing at a time, so that the dog and the owner can see what is working. The business records each step in the session record so that progress can be checked."
+        },
+        {
+          "heading": "Aversive methods are not taught here",
+          "body": "Aversive methods are methods that rely on pain, fear, physical force, intimidation or punishment to change a behaviour. This course does not teach them, and the business does not use them. Examples include choke, prong and electric or shock devices, and methods that frighten or hurt a dog as a consequence of a behaviour. Owners sometimes ask for these methods. The trainer explains that the business does not use them and offers a reward-based plan instead."
+        },
+        {
+          "heading": "What the law says about aversive methods is not set out here",
+          "body": "Some aversive methods may be restricted by state animal welfare law or by council rules. The restriction, and which state or council it applies in, is UNCONFIRMED in this draft. This lesson does not say that any method is legal or illegal. Expert review must confirm the position before the course is published. Until then, the business's rule is simply that these methods are not used."
+        },
+        {
+          "heading": "Equipment on the approved list",
+          "body": "The business keeps a list of approved equipment in {{business:equipment.primary_tool}}. Items on the list are chosen because they fit the reward-based method, and are checked before each session. An item not on the list is not used, even if the owner brings it. The trainer records any owner request to use other equipment, and the answer given."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-04",
+      "title": "Bite risk and handling during sessions",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-04.json",
+      "sourceHash": "8daa3ca389fcf924b51e7fce5cf70c56a854a6581fdd7971781d0aef795983f7",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Apply the handling procedure in the approved SOP at the start, during and at the end of a session",
+        "Report a bite or near miss under the business's incident procedure",
+        "State where bite liability is UNCONFIRMED and what the business's cover depends on"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Handling is set by the approved procedure",
+          "body": "The trainer handles each dog under {{business:procedures.approved_sop}}. The procedure sets how the dog is greeted, how it is lead-walked, how it is held at the start and end of a session, and when the trainer must ask the owner to take over. The trainer does not improvise a new handling method during a session. If the procedure does not cover a situation, the trainer stops that exercise and records the gap for the business to review."
+        },
+        {
+          "heading": "Planning for risk before the session",
+          "body": "Before the session, the trainer checks the space, the other dogs and people present, and the dog's history in the client file. The trainer decides whether the session can run safely in that space with the people and dogs present. If it cannot, the trainer moves the session, splits the group, or postpones it. Group sessions have a maximum size set by the business in {{business:procedures.approved_sop}}. This course does not set that number."
+        },
+        {
+          "heading": "Bites and near misses",
+          "body": "If a dog bites a person or another dog, or nearly does so, the trainer follows {{business:safety.incident_reporting_procedure}} and calls the emergency contact in {{business:safety.emergency_contact}} if anyone needs help. The trainer records the time, the people and dogs involved, what happened just before, and the first aid given. The trainer does not discuss fault with the owner at the time of the incident. The owner is told that the business will follow up."
+        },
+        {
+          "heading": "Liability and cover",
+          "body": "A bite can create liability for the owner of the dog and, in some cases, for the business. How liability is shared is UNCONFIRMED in this draft and goes to expert review. The business's cover depends on its insurance policy. The amounts and terms are set in {{business:compliance.policy_reference}}, and this lesson does not state them. The trainer does not promise any owner that the business will pay a bite claim."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-05",
+      "title": "Venues, group classes and council conditions",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-05.json",
+      "sourceHash": "defd0e8f8f136b4bff468929e22c3055485b5d34bcf1c820e374b0116b26f8f8",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Check the venue owner's permission and any council condition before a class is advertised",
+        "Set a maximum group size and check it against the approved procedure before each class",
+        "State when a Working with Children Check question arises, and that the answer is decided by the business"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Permission before the advertisement",
+          "body": "A trainer must have the venue owner's permission before advertising a class at that venue. The permission is written, and it states the days, times, the number of dogs, and any conditions the venue sets, such as cleaning, noise or waste. A public place may have its own council conditions. The trainer checks the council's rules for that place, and records the answer and its date. The business does not advertise a venue until the check is recorded."
+        },
+        {
+          "heading": "Group size",
+          "body": "The business sets a maximum number of dogs in each class in {{business:procedures.approved_sop}}. This course does not give a number. The number must fit the venue's space and the trainer's ability to watch every dog and handler at once. If a booking would take a class over the maximum, the trainer does not take the booking, or it moves to a second class."
+        },
+        {
+          "heading": "Council conditions in public places",
+          "body": "Council rules for training or exercising dogs on public land differ from one council to another. This course does not state any council's rule. Before a class in a public place, the business checks the council's rule for that place and records the answer. Where the council's rule sets a limit on dog numbers or a requirement for insurance, the business follows the stricter limit or requirement. The business's own insurance policy may also set conditions, recorded in {{business:compliance.policy_reference}}."
+        },
+        {
+          "heading": "Children at classes",
+          "body": "Some classes have children as clients or as attendees with their families. In Victoria, the government's Working with Children Check page (updated per page, 12 October 2026) lists coaching or private tuition specifically for children as a category that needs a check, and it does not list pet care. Whether a dog training class falls in a listed category is for the business to decide with the regulator. This lesson does not decide that question. The business records its answer, and any check it decides is needed, in {{business:compliance.licence_requirements}}."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-DTR-06",
+      "title": "Session records, progress and referral",
+      "sourceFile": "curriculum/courses/dog-training/NEW-DTR-06.json",
+      "sourceHash": "a0df052dd0268c6842807e78ebbf2ef06c37569614f07eb6ac92a5d7a50a11a3",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "dog-training"
+      ],
+      "learningOutcomes": [
+        "Complete a session record with the date, dog, steps, observations and any incident",
+        "Describe progress in terms the owner can check against the steps recorded",
+        "Refer a client to the named professional when a request is outside scope, and record the referral"
+      ],
+      "instructionSections": [
+        {
+          "heading": "What a session record holds",
+          "body": "Each session has a record. It holds the date, the dog, the owner, the steps planned and completed, the equipment used, the owner's health report, the observations, any stop and the reason for it, and any incident. The trainer writes the record at the end of the session, while the details are still clear. A record is a plain account of what happened. It does not contain opinions about the owner's character or conclusions about the dog's condition."
+        },
+        {
+          "heading": "Reporting progress to the owner",
+          "body": "Progress is reported against the steps in the session record. The trainer tells the owner which step the dog now does reliably, which step is still being built, and what the next step is. The trainer does not promise a result or a time frame that the record does not support. Where the owner asks about a behaviour outside the business's scope, the trainer does not answer as an expert on the question and refers the owner as set out below."
+        },
+        {
+          "heading": "Keeping records",
+          "body": "The business keeps session records for the period set in {{business:quality.evidence_requirements}}. Records are kept securely and are available to the owner on request. The business does not share a client's record with a third party except as its privacy procedure allows. The privacy lesson in the base course sets the rules for who may see a record."
+        },
+        {
+          "heading": "Referral when a request is outside scope",
+          "body": "When a request is outside the business's scope, the trainer does three things. The trainer says clearly what the business does not cover. The trainer gives the owner the referral route, which is set by the business and names {{business:safety.escalation_contact}} for welfare and behaviour concerns. The trainer records the request, the date and the referral given. The trainer does not begin a programme that the business has not approved for that request, and does not claim that the referral will solve the problem."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
       "id": "NEW-DOG-01",
       "title": "Dog walking scope, keys and home access",
       "sourceFile": "curriculum/courses/dogwalk/NEW-DOG-01.json",
-      "sourceHash": "255e4936f3a65b0db09e09e3e0961088aef1b0c71917f566dc36128782ca4155",
+      "sourceHash": "8463a51559a450800f16344eea3bbc0c61548f5cd57e0c2b9ef05f34383521a4",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -4545,7 +4767,7 @@
       "id": "NEW-DOG-02",
       "title": "Dog handling, leash and group walking",
       "sourceFile": "curriculum/courses/dogwalk/NEW-DOG-02.json",
-      "sourceHash": "76f18e249ca38ea09efdc6bae354a47ebeb4d447f533238b5880e731807a02f8",
+      "sourceHash": "c0ad52d72a48d6c80c71483b29a28d8ea14b234c06698237148c61abef1838c5",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -4578,7 +4800,7 @@
       "id": "NEW-DOG-03",
       "title": "Bite prevention and emergency response",
       "sourceFile": "curriculum/courses/dogwalk/NEW-DOG-03.json",
-      "sourceHash": "36b4ff97b2d097e5b8bdf4f593bb6d17f3f769d36241dda45c2a8d89b556d4cf",
+      "sourceHash": "d95dc41fa005ea9cb2436fcbd5c5a3f6037f75ddc03cdd3b1c611648fcf97970",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -4611,7 +4833,7 @@
       "id": "NEW-DOG-04",
       "title": "Pet taxi: vehicle restraint and transport",
       "sourceFile": "curriculum/courses/dogwalk/NEW-DOG-04.json",
-      "sourceHash": "1551bb91b4fe589a72795bd462502dac403f7dd1a3a6a7ba6e23095b552ece26",
+      "sourceHash": "72875a10bb088286a216db10fbc1564c8fe61c0750ea0ed07e14f46d3075c979",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -4644,7 +4866,7 @@
       "id": "NEW-DOG-05",
       "title": "Pet first aid and emergency vet referral",
       "sourceFile": "curriculum/courses/dogwalk/NEW-DOG-05.json",
-      "sourceHash": "958540919e9437a6c31dd7131e3ff3e27cc35143029ba7fbc2fb6acb89ff6239",
+      "sourceHash": "eddce34990a49f2cc5fedda5e2d192981aa68a41ed95fdb877845b38487e8f2d",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -4677,7 +4899,7 @@
       "id": "NEW-DOG-06",
       "title": "Route planning, bookings and walk records",
       "sourceFile": "curriculum/courses/dogwalk/NEW-DOG-06.json",
-      "sourceHash": "17c93216a93826db34f3a7692f689dd9fe2d8462f97f67ee3186ea98440b8c6e",
+      "sourceHash": "31efa1716045e909ee298932fd01ee87f6f5b0337ff26a76f3bfe334fc93932f",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -5627,7 +5849,7 @@
       "id": "NEW-GRO-01",
       "title": "Animal handling, restraint and calm handling",
       "sourceFile": "curriculum/courses/groom/NEW-GRO-01.json",
-      "sourceHash": "6154249fa327e85c763c8e041dd57dfcd8d1ad6227be8a7dbba06a31ee605452",
+      "sourceHash": "425f974cce8db8e17d7824da824908035ead0d84f2dcf1ecf5c9b6867a9d34d4",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -5659,7 +5881,7 @@
       "id": "NEW-GRO-02",
       "title": "Coat and skin checks; refer abnormal findings",
       "sourceFile": "curriculum/courses/groom/NEW-GRO-02.json",
-      "sourceHash": "330d23ac698f963e24ca55cb1f8fd134fed8013d8fd5f99e4f189d464705b8ce",
+      "sourceHash": "4f20f51976787f4bf9852bb1dd763ae2e44327d2c95b7c85efa385373697eeaf",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -5692,7 +5914,7 @@
       "id": "NEW-GRO-03",
       "title": "Pet-safe grooming products and dilution",
       "sourceFile": "curriculum/courses/groom/NEW-GRO-03.json",
-      "sourceHash": "5b79e73d2c945a19ee2eff7d00154edf526ba6e4957e4980be95dd9ceb992bc2",
+      "sourceHash": "38331401fc1372f0b7a8342e24a9fff4991b1ab66e09fa6870678bd9dde96caf",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -5725,7 +5947,7 @@
       "id": "NEW-GRO-04",
       "title": "Dryer, clipper and equipment safety",
       "sourceFile": "curriculum/courses/groom/NEW-GRO-04.json",
-      "sourceHash": "87efdf9b466957af75b06a6fc65385778227d2c745a3d3d3f942f6ff9df8eed3",
+      "sourceHash": "213a415482ca846200989eef07acb03a2af563f1bfbbf17041dba3a54b8c7c9d",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -5758,7 +5980,7 @@
       "id": "NEW-GRO-05",
       "title": "Grooming bookings and recurring packages",
       "sourceFile": "curriculum/courses/groom/NEW-GRO-05.json",
-      "sourceHash": "d6ee0f3edbb5747c26a8cf6acc0e7f767071d5d44b4af012d9e94bb6c927f09d",
+      "sourceHash": "e9fef4e914fa9d75143e8c88191dcbefcd6ea15a5de1934e202f0640eded3bac",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -10781,6 +11003,187 @@
       "originalStatus": "DRAFT"
     },
     {
+      "id": "NEW-MUA-01",
+      "title": "Makeup artistry scope and the skin-penetration boundary",
+      "sourceFile": "curriculum/courses/makeup-artistry/NEW-MUA-01.json",
+      "sourceHash": "aaaf9fe290b9ad71f6394d426f12937875bbabb1d3916a2fe76965661e3ba3b3",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "makeup-artistry"
+      ],
+      "learningOutcomes": [
+        "Explain why permanent and semi-permanent makeup are outside this course",
+        "Decide whether a proposed service is inside the approved service list",
+        "Name the check to make before adding any service that may involve skin penetration"
+      ],
+      "instructionSections": [
+        {
+          "heading": "What this course covers and what it leaves out",
+          "body": "This course covers temporary makeup: applying makeup for events, portraits, photography and everyday wear, at a client's home, a venue or a studio. Permanent makeup and semi-permanent makeup put pigment into the skin, which is skin penetration. Tattooing is also skin penetration. Injectable cosmetic treatments are excluded from this course as well. None of these services is taught here, and no lesson in this course gives authority to offer them. The Victorian Department of Health states that hairdressing and temporary make-up application businesses must follow the Infection prevention and control guidelines for hair, beauty, tattooing and skin penetration industries (2019). That guideline covers the wider group of services, including services that do involve skin penetration. Whether a particular skin-penetration service needs registration, a licence or a council permit depends on the state, territory and council. This course does not set that position, and a student must check it separately before offering any such service."
+        },
+        {
+          "heading": "Why the service list has to be written down",
+          "body": "A therapist or artist who works from a written list of approved services can decline an out-of-scope request without guessing. The list should name each service, the products used for it, the place it is performed, and the date the business last reviewed it. A request for a service that is not on the list is declined, and the decline is recorded. Verbal promises to a client are not a substitute for the list. A service that looks minor, such as a brow shape or a body glitter application, still needs to be checked against the list, because the skin-penetration question depends on what is done to the skin, not on how small the service looks."
+        },
+        {
+          "heading": "Checking a proposed new service",
+          "body": "Before a new service is added, the business owner works through four questions. First, does the service involve breaking the skin, placing pigment or any other substance beneath it, or injecting anything? If yes, it is outside this course. Second, is there a state, territory or council position on that kind of service at the location where it would be done? The answer must be recorded with its source and date. Third, does each product used for the service have a current safety data sheet held by the business? Fourth, has the owner added the service to the approved list with a review date? A service is only offered once all four questions have a recorded answer. If any answer is missing, the service stays off the menu."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-MUA-02",
+      "title": "Product safety: safety data sheets, the hazards register and ingredient labels",
+      "sourceFile": "curriculum/courses/makeup-artistry/NEW-MUA-02.json",
+      "sourceHash": "81e0ce05bc78dd84f1898d6742c96711b7a84f9522ff898c658826f362b6066f",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "makeup-artistry"
+      ],
+      "learningOutcomes": [
+        "Explain what a safety data sheet is for and where it is kept",
+        "Describe the hazards register an employer must keep, and what it lists",
+        "Identify a product-use rule from a named source, and state where it applies"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Safety data sheets for every product",
+          "body": "A safety data sheet, usually called an SDS, describes the hazards of a product and the controls for using it safely. WorkSafe Victoria states that employers must obtain a current SDS for each hazardous substance or product, normally from the supplier, and that workers who may be exposed must be able to get to it easily. In a makeup kit or a salon, that means a folder or a digital copy that the artist can open at the appointment, not a copy kept only in the office. An SDS can be out of date when a supplier changes a formula. Each time a product is bought in a new formulation, the SDS for that formulation is requested and filed, and the old one is removed from the working set."
+        },
+        {
+          "heading": "The hazards register",
+          "body": "WorkSafe Victoria states that employers must keep a register that lists all the products used at the workplace. For each product the register records the product identifier and the SDS it relates to. The register is a working document. A product that is added to the kit goes on the register before its first use, and a product that is discarded or no longer used is removed with a note of the date. A business that has a register but no current SDS for a listed product has not met the requirement, so the two records have to be checked together."
+        },
+        {
+          "heading": "Product rules that come from a named source",
+          "body": "Some product rules are set out by a named source and must be applied as written. WorkSafe Victoria's guidance on hairdressing and beauty products says that aerosol hair colours must not be used on eyelashes or eyebrows. The same guidance covers products used for eyelash extensions, which are outside this course, and names the controls for their adhesive, including gloves, masks and eye protection. A makeup artist must check the SDS for every product on the kit, and must not apply a product in a way that its SDS or the source rules out. Where a source is silent on a point, the artist does not assume the point is allowed. The artist asks the supplier, or leaves the product out of that service."
+        },
+        {
+          "heading": "Ingredient labels and the labelling standard",
+          "body": "The ACCC, through Product Safety Australia, administers a mandatory cosmetic ingredient labelling standard. The page states that the standard helps consumers identify ingredients they may be allergic or sensitive to, and lets them compare products at the point of sale. The ingredient list on a product is therefore one of the first checks for a client with a known sensitivity. UNCONFIRMED in this draft: the exact format rules of the standard, such as language, order and where the list must appear, which were not read from the current ACCC text. The regulator for chemicals in cosmetic ingredients, the Australian Industrial Chemicals Introduction Scheme, was not reached for this draft. A reviewer must check both before this lesson is approved."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-MUA-03",
+      "title": "Allergy awareness, preventive testing and when to refer",
+      "sourceFile": "curriculum/courses/makeup-artistry/NEW-MUA-03.json",
+      "sourceHash": "e7c9921c38ec400b0529478135ae8422f3d5e6b10588be737959575997cb293d",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "makeup-artistry"
+      ],
+      "learningOutcomes": [
+        "Name the ingredient groups most often linked to cosmetic allergy",
+        "Carry out a preventive test on a new product, and state how long to observe it",
+        "Recognise when a client should be referred to a health professional, and stop using the product"
+      ],
+      "instructionSections": [
+        {
+          "heading": "How cosmetic allergy is recognised",
+          "body": "Cosmetic allergy is an allergic reaction to an ingredient in a product applied to the skin. The reaction is usually a rash or redness in the area of contact, sometimes with itching or swelling. DermNet states that cosmetic allergy is diagnosed by patch testing, using a standard set of allergens and a cosmetics set. A makeup artist does not perform patch testing as a diagnosis, and a client who has a reaction is referred to a health professional who can do one. The makeup artist's role is to ask about known allergies and previous reactions, to avoid products that contain a known allergen for that client, and to run a preventive test on any new product before it is used on the client."
+        },
+        {
+          "heading": "The ingredients most often involved",
+          "body": "DermNet lists fragrances as the most common cause of cosmetic allergy, followed by preservatives, and then paraphenylenediamine, which is found in many permanent hair dyes. The same page lists lanolin, propolis, thiomersal and cobalt as other allergens that appear in cosmetic reactions. A client who has reacted to one of these ingredients needs a product list checked for the ingredient before any product is applied. The ingredient list on the product, and the safety data sheet, are the starting points for that check."
+        },
+        {
+          "heading": "The preventive test before first use",
+          "body": "DermNet advises placing a small sample of a new product on the inner wrist or elbow, and watching the area for a reaction over 24 to 48 hours. The test is a screening step. A product that passes it can still cause a reaction, and a product that fails it must not be used on the client. For this course, the preventive test is done at least 24 hours before the first use, and the result is recorded with the product name, the date and the area tested. Where a client has a known allergy or a history of skin reactions, the test is done with a product the client has been told about, and the client is asked to report any reaction before the appointment."
+        },
+        {
+          "heading": "Timing of a reaction, and what to do",
+          "body": "DermNet states that allergic contact dermatitis usually appears more than 12 hours after exposure, and that it often peaks around 48 hours. A reaction that appears during the appointment, such as burning, swelling or spreading redness, is a reason to stop the product, remove it from the skin with the product's own instructions, and refer the client to a health professional. The artist does not give medical advice, and does not recommend a treatment for the reaction. The product is removed from use for that client and recorded on the booking, with the product name, the batch if known, the time of the reaction and the action taken."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-MUA-04",
+      "title": "Hygiene for makeup application: shared products, applicators and tools",
+      "sourceFile": "curriculum/courses/makeup-artistry/NEW-MUA-04.json",
+      "sourceHash": "5161b69e993ba057f9445f74b2345d3b4175e7867368c6ec532da41bfd16cd68",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "makeup-artistry"
+      ],
+      "learningOutcomes": [
+        "Explain how makeup application can spread infection between clients",
+        "Take product from a shared container without contaminating it or passing contamination to the next client",
+        "Name the Victorian guideline that applies to make-up application, and the parts of it this draft has not yet confirmed"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Why makeup application needs an infection control plan",
+          "body": "The Victorian Department of Health states that make-up application can transmit infection. Product pots, pencils, brushes and sponges move from one client's face to the next, and a contaminated product can carry an infection from one person to another. Hygiene for makeup work is therefore a planned routine, not a one-off clean at the end of the day. The plan covers how product is taken from a container, which tools are single-use, which are cleaned and disinfected between clients, and how the kit is stored and transported between bookings."
+        },
+        {
+          "heading": "The governing guideline for Victoria",
+          "body": "The Victorian Department of Health states that hairdressing and temporary make-up application businesses must follow the Infection prevention and control guidelines for hair, beauty, tattooing and skin penetration industries (2019). That guideline is the source for the detailed rules on cleaning, disinfection and single-use items in Victoria. The text of that guideline was not read for this draft. The specific rules on make-up applicators, shared pots and reusable tools are therefore UNCONFIRMED here, and the lesson must not be approved until a reviewer has read the guideline and checked the rules below against it."
+        },
+        {
+          "heading": "Taking product from a shared container",
+          "body": "The WA Department of Health advises that product in a tub, such as makeup, powder or cream, is removed from stock with a clean single-use applicator. The same guidance says that applicator must not be used on another client, and must not be dipped back into the original container. Leftover product is discarded rather than returned to the container. The WA page is practice guidance from another state. This course adopts the approach as the minimum standard for shared pots until the Victorian guideline is confirmed. The rule does not change for a pot the artist owns, because the next client is still at risk."
+        },
+        {
+          "heading": "Tools that are reused",
+          "body": "Where a tool is reused, it is cleaned and disinfected between clients, using the method the governing guideline sets. The WA guidance states that reusable containers must be cleaned and disinfected between clients. Which brushes, sponges and other applicators may be reused, and which must be single-use, is UNCONFIRMED in this draft. A business chooses a single-use or a disinfect-and-dry approach for each tool on its kit, writes the choice on the approved kit list, and applies it at every appointment. A tool that has touched broken skin, blood or another body fluid is not reused on any client."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-MUA-05",
+      "title": "Client consultation, product records and the reaction record",
+      "sourceFile": "curriculum/courses/makeup-artistry/NEW-MUA-05.json",
+      "sourceHash": "00d125b2b438be1f4b4a1e26197ae6f2bb7ad7cf81280b772fa71bcd61f156d1",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "makeup-artistry"
+      ],
+      "learningOutcomes": [
+        "Run a consultation that captures a client's allergies, previous reactions and skin conditions that need referral",
+        "Record each product used on a client, with the information needed to trace a reaction",
+        "Complete a reaction record and refer the client where needed"
+      ],
+      "instructionSections": [
+        {
+          "heading": "The consultation before the first appointment",
+          "body": "A consultation before the first appointment gives the artist the information needed to choose safe products. The artist asks about known allergies to cosmetics, fragrances or any ingredient, previous reactions to makeup or skin products, and any skin condition the client has, such as a current rash, broken skin or a condition the client's doctor is treating. Where a client reports a condition that needs medical advice, the artist does not offer a view on it, and suggests the client speaks to a health professional before the appointment. The answers are recorded on the client's file, dated, and checked again before each appointment."
+        },
+        {
+          "heading": "Recording each product used",
+          "body": "For each appointment, the artist records the products used on the client. The record gives the product name, the brand, the batch or lot number if the product has one, the date of the appointment, and the area of use. A product that was patch tested is recorded with the test date and result, as set out in the preventive test lesson. A record that names only the kit, such as eye look or bridal palette, does not allow a reaction to be traced to a product, so the individual products must be listed. The product record is kept with the client's file, and is available if the client later reports a reaction."
+        },
+        {
+          "heading": "The reaction record",
+          "body": "When a client reports a reaction, the artist records what the client reported, the product or products involved, the batch if known, the time of the reaction, the action taken and the referral given. The product is withdrawn from use for that client, and the artist does not apply it again. The record is written at the time of the event, or as soon as possible after it, and it is signed or initialled by the artist. A reaction record is not a diagnosis. The artist records what was observed and reported, and the client's health professional makes any diagnosis."
+        },
+        {
+          "heading": "Keeping records and the open questions",
+          "body": "The business keeps client records in a way that can be found and used if a reaction is reported later. The period for which these records must be kept, and any privacy rules that apply to them, depend on the state or territory and on the business's own policy. Neither was confirmed for this draft. UNCONFIRMED: the retention period and the privacy requirements for client records of this kind. A reviewer must confirm them before the lesson is approved."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
       "id": "NEW-MAS-01",
       "title": "Massage scope, contraindications and referral",
       "sourceFile": "curriculum/courses/massage/NEW-MAS-01.json",
@@ -11415,6 +11818,171 @@
       "originalStatus": "DRAFT"
     },
     {
+      "id": "NEW-NAI-01",
+      "title": "Mobile nail scope and state, council and registration boundaries",
+      "sourceFile": "curriculum/courses/mobile-nails/NEW-NAI-01.json",
+      "sourceHash": "29ad971c806679ba70aa677c8567aaf3d037c96cff754c7c1dde57c603171427",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "mobile-nails"
+      ],
+      "learningOutcomes": [
+        "Explain why cosmetic injectables and tattooing are outside this course",
+        "Identify which registration, licence or council classification may apply to a nail service in the state or council where the visit takes place",
+        "Decide whether a proposed nail service is on the approved service list before it is offered"
+      ],
+      "instructionSections": [
+        {
+          "heading": "What is excluded from this course",
+          "body": "Cosmetic injectables, including botulinum toxin and dermal fillers, are excluded from the mobile nail course, as they are from the mobile beauty course. Tattooing, semi-permanent make-up and body piercing are also outside this course. Whether a business offering those services needs a licence or is restricted depends on the state and council, and this course does not cover it. No lesson in this course gives authority to offer any excluded service. A client's request for an excluded service is declined on scope grounds and recorded."
+        },
+        {
+          "heading": "Registration and classification differ by place",
+          "body": "Nail services are not treated the same way in every state and territory. In Victoria, the Department of Health lists beauty therapy among services that must register under the Public Health and Wellbeing Act 2008. The registration is of premises and is handled through the council. The same Department page exempts mobile beauty therapists from registration, but the exemption does not extend to the principal place of business, and the position for mobile nail work specifically has not been confirmed for this course. Macedon Ranges Shire Council places nail services in its high-risk group, which needs periodic renewal and a fee. That classification belongs to one council and does not set the position for any other council. In the Northern Territory, the registration list includes artificial nails and manicures and pedicures, and the registration lasts one year. In other states and territories the position for mobile nail work has not been read for this course and is marked UNCONFIRMED in the sources. Before any nail service is added to the menu, check the list that applies at each location the business visits."
+        },
+        {
+          "heading": "Using the approved service list",
+          "body": "The business keeps one approved service list. Each nail service on it has a short description, the products it uses, the steps it includes and the registration or classification it was checked against. A service that is not on the list is not offered, even if the technician has done it before or the client asks for it. Nail-art add-ons, extensions and removals are treated as separate entries when they involve different products, time or risk. The approved list is held in {{business:services.service_description}}. Each entry is reviewed when the products, the law or the council position changes."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-NAI-02",
+      "title": "Nail products, acrylics and dip powders: hazards and safety data sheets",
+      "sourceFile": "curriculum/courses/mobile-nails/NEW-NAI-02.json",
+      "sourceHash": "b5e8bf7a5ab660a38fc23e30d5d1ee264faefb9e02519476797c875c698e92a7",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "mobile-nails"
+      ],
+      "learningOutcomes": [
+        "Name the nail product types that WorkSafe Victoria identifies as a hazard in the beauty industry",
+        "Find and read the safety data sheet for a product and state the controls it requires",
+        "Explain why each product in the kit must be on a register and have a current safety data sheet held at the visit"
+      ],
+      "instructionSections": [
+        {
+          "heading": "The product types that carry a named hazard",
+          "body": "WorkSafe Victoria's guidance for the hairdressing and beauty industry names nail acrylics and dip powders as products that can give off mists and dust during use. Those airborne particles and vapours are the reason the product's safety data sheet and the workplace controls matter at every visit, not only at the start of a job. The guidance also names eyelash extension glue and chemical peels, which are outside this course, and those are covered in the mobile beauty course. The guidance does not list every chemical in a nail product, and this lesson does not state the contents of any product. The technician must read the safety data sheet for each product in use, because the contents differ between brands and between formulas of the same brand."
+        },
+        {
+          "heading": "Reading a safety data sheet",
+          "body": "A safety data sheet describes a product's hazards, the first aid steps, the handling and storage requirements, and the personal protective equipment the product needs. The business must hold a current safety data sheet for every product it uses, and it must be accessible at the place where the product is used. WorkSafe Victoria's guidance on safety data sheets (reviewed 30 July 2022) requires an up-to-date sheet for every product. When a technician takes a product to a client's home, the sheet for that product must travel with the kit, either as a paper copy or in a form that can be opened without a network connection. The technician reads the handling section before the first use of a new product and follows the controls it lists. A product whose sheet cannot be found is not used until the sheet is obtained from the supplier."
+        },
+        {
+          "heading": "Keeping a register and applying controls",
+          "body": "WorkSafe's safety basics guidance (reviewed 30 July 2022) states that the employer needs a register listing every hazardous substance on site. For a mobile business, the register is the list of products in each kit or vehicle, with the safety data sheet location for each. Controls are chosen from the safety data sheet and the risk assessment for the visit, and they may include ventilation, the use of the product in the amount the service needs, and the personal protective equipment the sheet names. Mists and dust from acrylics and dip powders are a reason to keep the product containers closed when not in use, to avoid pouring or filing over the client's skin or the floor where dust can be breathed, and to check the room's ventilation before the work starts. The specific controls for each product are set by its sheet and by the business's approved procedure, held in {{business:procedures.approved_sop}}."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-NAI-03",
+      "title": "UV and LED curing lamps: manufacturer instructions and open questions",
+      "sourceFile": "curriculum/courses/mobile-nails/NEW-NAI-03.json",
+      "sourceHash": "33f4d91c41247b71f3bf3afd5fab1ad6872d58d56aca4b074298dab20b33ab93",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "mobile-nails"
+      ],
+      "learningOutcomes": [
+        "Locate the manufacturer's instructions and the product's safety data sheet for each lamp and product in use",
+        "Describe the set-up and handling steps the manufacturer's instructions require for the lamp in use",
+        "State which UV and LED exposure duties are not yet confirmed for this course, and what must be done before relying on any limit"
+      ],
+      "instructionSections": [
+        {
+          "heading": "What this lesson does and does not establish",
+          "body": "Many nail services use a UV or LED lamp to cure a gel or similar product. This lesson explains how to find and follow the manufacturer's instructions for the lamp and the product. It does not set an exposure limit, a session length, a distance or a safe frequency, because no source for those has been read for this course. Where a figure appears on a manufacturer's sheet, the technician follows that sheet for that lamp and product, and records it. Any general statement about lamp exposure, such as a duty to protect the skin or eyes, must be taken from a confirmed source before it is written into the business's procedure. Until then it is marked UNCONFIRMED."
+        },
+        {
+          "heading": "Setting up for a lamp at a client's location",
+          "body": "Before the lamp is switched on, the technician checks the lamp's manual for the power supply, the lamp type and the curing time the product manufacturer gives. The lamp is placed on a stable surface away from the client's bedding, clothing and water. Cables are kept clear of the work area so that they do not trip the technician or the client. The technician confirms that the lamp is the one approved for the products in the kit, and that its manual is held in the kit. Any lamp with a damaged housing, cable or switch is not used, and the technician records the fault and removes the lamp from service until it has been checked."
+        },
+        {
+          "heading": "Recording lamps and the questions still open",
+          "body": "The business keeps a record of each lamp in use, with the make, model, the manual's location and the date of the last check. The record also notes the products the lamp is used with, and their safety data sheets. The following points are UNCONFIRMED for this course and must be resolved from a source before the business relies on them: whether UV and LED exposure from curing lamps is covered by any state or national duty that applies to a mobile nail business; what protection, if any, the client's eyes and skin need during curing; and whether any specific limit on exposure applies in any location the business visits. The business records the open questions in its procedure review, and does not present an answer to them to clients."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-NAI-04",
+      "title": "Hygiene and infection control for nail implements and work surfaces",
+      "sourceFile": "curriculum/courses/mobile-nails/NEW-NAI-04.json",
+      "sourceHash": "30975d9c4313563f1966fbaaa6885f5e5d4fd217636dba8636873e0f125a3100",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "mobile-nails"
+      ],
+      "learningOutcomes": [
+        "Explain why the Victorian Department of Health treats beauty procedures as a route for infection and points to its infection prevention guidelines",
+        "Describe the cleaning and storage steps the approved procedure requires for each type of implement",
+        "Identify which implement-handling steps are not yet sourced and must be confirmed against the Victorian guideline before use"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Why infection control applies to nail work",
+          "body": "The Victorian Department of Health states that beauty procedures can transmit infection and that its infection prevention and control guidelines for the personal care and body art industries apply to them (landing page reviewed as part of the regulation matrix; the 2019 guidelines were not read in full for this course). Nail work involves cutting, filing and pushing the skin around the nail, and the implements used for it can carry organisms from one client to the next if they are not cleaned and handled correctly. This lesson sets out the duty to control infection. The specific steps for each implement must come from the approved procedure, which is written from the Victorian guideline once it has been read."
+        },
+        {
+          "heading": "Cleaning, disinfecting and storing implements",
+          "body": "The business keeps a list of every implement used in nail work, and records for each one whether it is single-use or reusable. Single-use items are discarded after the client is served and are not reused. Reusable items are cleaned before disinfection and disinfected before storage, using the products and contact times the approved procedure names. Whether a particular implement, such as a metal file, a cuticle tool or a buffer, must be cleaned, disinfected or discarded after each client is UNCONFIRMED for this course, because the Victorian guideline has not been read in full. Until it is confirmed, the business's procedure treats any implement that has broken the skin or has been used on a client as requiring cleaning and disinfection before the next use, and as a single-use item where it cannot be cleaned. Disinfectants are used at the concentration and contact time on the product label and the safety data sheet, and are stored as those sheets direct."
+        },
+        {
+          "heading": "Work surfaces, the kit and waste at a client's location",
+          "body": "A mobile technician sets up a clean area at each visit: a table or surface cleaned before use, a clean towel or paper barrier under the client's hands or feet, and the implements laid out on a clean tray. The kit is cleaned after each visit and stored closed. Used single-use items and used towels go into a sealed waste bag that is taken away from the client's home, and sharp waste goes into a puncture-resistant container. Waste handling must follow the business procedure and local council requirements, which are UNCONFIRMED for this course. Hand hygiene at each visit, and gloves where the procedure requires them, are part of the same control."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-NAI-05",
+      "title": "Client consent, allergy checks and nail contraindications",
+      "sourceFile": "curriculum/courses/mobile-nails/NEW-NAI-05.json",
+      "sourceHash": "b2e54d81d13b0f02f58c53c2a57e2c08020c72b4230e62c8633086a655100c5d",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "mobile-nails"
+      ],
+      "learningOutcomes": [
+        "Describe the consent and history steps the approved intake form requires before any nail service",
+        "Identify the signs that mean a nail service should not go ahead, and the steps to take when they appear",
+        "State which screening and contraindication content is UNCONFIRMED for this course and must be sourced before it is used"
+      ],
+      "instructionSections": [
+        {
+          "heading": "Consent and the intake form",
+          "body": "Before any nail service, the technician takes the client's consent and a short history on the business's intake form. The form records the services requested, the products to be used, any allergy the client has reported, any medical condition the business has chosen to ask about, and any medication the client says affects the skin or nails. The client signs or confirms the form before the service starts, and the technician keeps the record with the visit. A form is not a substitute for a conversation: where the client's answers raise a concern, the technician stops and considers whether the service can go ahead. The content of the approved intake form is held in {{business:procedures.approved_sop}}, and it is not set by this lesson, because the screening content for nail services in Victoria has not been read in full."
+        },
+        {
+          "heading": "Signs that a service should not go ahead",
+          "body": "A nail service does not go ahead where the client's skin or nails show signs that the service would worsen, spread or hide a problem, or where the client's answers on the intake form raise a concern the technician cannot resolve. Examples the business may list include an open wound, broken or infected skin in the area to be worked on, redness, swelling or heat, and a nail condition the technician is not trained to assess. Whether a particular sign is a contraindication for a particular service is UNCONFIRMED for this course. The technician does not diagnose the cause of a sign. The technician declines the service, records what was seen in plain terms, and advises the client to seek advice from a health professional where the business's procedure says so."
+        },
+        {
+          "heading": "Allergy and product patch checks",
+          "body": "A client who reports an allergy to a product, or a reaction to a previous nail service, is not given that product until the business has checked the product's ingredients against the report and has decided how the service can go ahead. The business's procedure states whether a patch test is required for each product, and how long before the service it must be done. Whether a patch test for nail products is required in Victoria, and the timing and method for it, are UNCONFIRMED for this course. Where a product is changed, or a client reports a reaction, the technician records it on the client's file and reviews the product before the next visit. Skin reactions after a service are recorded and reported as the incident procedure directs."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
       "id": "NEW-PNT-01",
       "title": "Surface preparation and washing",
       "sourceFile": "curriculum/courses/painting/NEW-PNT-01.json",
@@ -11659,7 +12227,7 @@
       "id": "NEW-SIT-01",
       "title": "House-sitting scope, keys and security checks",
       "sourceFile": "curriculum/courses/petsit/NEW-SIT-01.json",
-      "sourceHash": "c6a5e6ac7ed7ef19ea7a134af69e07b1db376640d0c23561fe1fd45bd953bfb4",
+      "sourceHash": "b8eb06c38efaf068624027f04c9e8c648be38337bde8b5a12ed95d125987f825",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -11692,7 +12260,7 @@
       "id": "NEW-SIT-02",
       "title": "Pet routines, feeding and medication",
       "sourceFile": "curriculum/courses/petsit/NEW-SIT-02.json",
-      "sourceHash": "149c9ec7e65450cb66bb70d243b3f1bc80898df60cb538c5a6f86544b5462343",
+      "sourceHash": "ccef98e2d6fbeadf0c6901a330009302457feb5c100846aafd31d885787332e8",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -11725,7 +12293,7 @@
       "id": "NEW-SIT-03",
       "title": "Emergency contacts and vet authority",
       "sourceFile": "curriculum/courses/petsit/NEW-SIT-03.json",
-      "sourceHash": "9c36d703ee712acbe03ddc57a7cc04d396e1d657fe056bf90cb2077a99a2ff18",
+      "sourceHash": "1de9a41eebfc75e405e8100fc9b3300fe4c31b1bbc17082b35767108941bdb4d",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -11758,7 +12326,7 @@
       "id": "NEW-SIT-04",
       "title": "Visit logs, photos and handover reports",
       "sourceFile": "curriculum/courses/petsit/NEW-SIT-04.json",
-      "sourceHash": "f5a1774521616ab9b3dafe5d0aefe9db57ba0dd851984a6c1ad6330ff78de701",
+      "sourceHash": "d60720603ef855b7ed8e95fe632fbcf5554dce5186018c0ef5d81c761d66becd",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
@@ -11791,7 +12359,7 @@
       "id": "NEW-SIT-05",
       "title": "Pricing and extended stays",
       "sourceFile": "curriculum/courses/petsit/NEW-SIT-05.json",
-      "sourceHash": "7b8a9a5cbbc7c3e3af0e434c21d4983bb7450b6132196e6bf4c7e8484897e067",
+      "sourceHash": "589e2bc7921c55952f0f1a63e2be3a562af42c2360d7a2cbee8804b6ee39a411",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [

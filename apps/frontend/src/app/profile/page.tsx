@@ -1,7 +1,7 @@
 "use client";
 
 import { apiErrorMessage } from "@/lib/api-error";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useAuthStore } from "@/store/auth.store";
 import { fetchMe, updateProfile } from "@/lib/auth.api";
@@ -18,9 +18,12 @@ export default function ProfilePage() {
     enabled: !!user,
   });
 
-  useEffect(() => {
+  // When the loaded profile changes, copy its name into the field during render (not in an effect).
+  const [syncedProfile, setSyncedProfile] = useState(profile);
+  if (profile !== syncedProfile) {
+    setSyncedProfile(profile);
     if (profile) setFullName(profile.fullName);
-  }, [profile]);
+  }
 
   const mutation = useMutation({
     mutationFn: () => updateProfile({ fullName }),

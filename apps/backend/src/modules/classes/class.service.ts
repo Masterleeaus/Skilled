@@ -1,6 +1,6 @@
 import { Role, LiveClassStatus } from "@prisma/client";
 import { prisma } from "../../config/prisma";
-import { AppError, NotFoundError } from "../../utils/AppError";
+import { AppError, ForbiddenError, NotFoundError } from "../../utils/AppError";
 import { assertCourseOwnership } from "../courses/course.service";
 import { isEnrolled } from "../enrollment/enrollment.service";
 import type { CreateLiveClassInput, MarkAttendanceInput } from "./class.validators";
@@ -10,7 +10,27 @@ export async function createLiveClass(input: CreateLiveClassInput, userId: strin
   return prisma.liveClass.create({ data: { ...input, createdById: userId } });
 }
 
-export async function listLiveClassesForCourse(courseId: string) {
+/**
+ * Meeting links and recording URLs are for course staff and enrolled learners only. Admins, and the teacher who owns
+ * the course, can read them. A student can read them only on a published course in which they are enrolled. Everyone
+ * else is refused, so the join data is never returned to them.
+ */
+export async function assertCanViewCourseLiveClasses(courseId: string, userId: string, role: Role) {
+  const course = await prisma.course.findUnique({
+    where: { id: courseId, deletedAt: null },
+    select: { teacherId: true, isPublished: true },
+  });
+  if (!course) throw new NotFoundError("Course");
+
+  if (role === "ADMIN") return;
+  if (role === "TEACHER" && course.teacherId === userId) return;
+  if (role === "STUDENT" && course.isPublished && (await isEnrolled(userId, courseId))) return;
+
+  throw new ForbiddenError("You must be enrolled in this course to view its live classes");
+}
+
+export async function listLiveClassesForCourse(courseId: string, userId: string, role: Role) {
+  await assertCanViewCourseLiveClasses(courseId, userId, role);
   return prisma.liveClass.findMany({ where: { courseId }, orderBy: { scheduledAt: "asc" } });
 }
 
