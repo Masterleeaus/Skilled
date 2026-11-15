@@ -11,6 +11,8 @@ export const CLIENT_SECRET = "central-test-secret-0123456789";
 export const JWKS_URI = "https://id.central.test/oidc/jwks";
 export const TOKEN_URI = "https://id.central.test/oidc/token";
 export const REDIRECT_URI = "https://academy.test/auth/titan/academy/callback";
+/** Fake LMS audience for tests. The real value is operator-supplied (CENTRAL_LMS_AUDIENCE). */
+export const AUDIENCE = "urn:test:product:lms";
 export const AUTHORIZE_URI = `${ISSUER}/oidc/auth`;
 export const DISCOVERY_URI = `${ISSUER}/.well-known/openid-configuration`;
 

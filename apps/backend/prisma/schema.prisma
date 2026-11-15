@@ -165,6 +165,8 @@ model RefreshToken {
   tokenHash  String
   deviceInfo String?
   isRevoked  Boolean  @default(false)
+  // Set when this token was rotated into a successor. A rotated token presented again is a replay.
+  replacedAt DateTime?
   expiresAt  DateTime
   createdAt  DateTime @default(now())
 
@@ -778,6 +780,9 @@ model AcademyCourseLessonSelection {
 
 model AcademyLearnerCompletion {
   id          String                @id @default(cuid())
+  // Tenant scope. NULL = organisation not determinable; such rows are never returned to learners.
+  companyId   String?
+  company     Company?              @relation(fields: [companyId], references: [id], onDelete: Restrict)
   learnerId   String
   lessonId    String
   revisionId  String
@@ -786,12 +791,16 @@ model AcademyLearnerCompletion {
 
   @@unique([learnerId, lessonId, revisionId])
   @@index([learnerId, lessonId])
+  @@index([companyId, learnerId])
   @@map("academy_learner_completions")
 }
 
 // Pass 6: learner knowledge-check attempts are separate from lesson acknowledgements.
 model AcademyKnowledgeAttempt {
   id         String                @id @default(cuid())
+  // Tenant scope. NULL = organisation not determinable; such rows are never returned to learners.
+  companyId  String?
+  company    Company?              @relation(fields: [companyId], references: [id], onDelete: Restrict)
   learnerId  String
   lessonId   String
   revisionId String
@@ -803,6 +812,7 @@ model AcademyKnowledgeAttempt {
   createdAt  DateTime              @default(now())
 
   @@index([learnerId, revisionId, createdAt])
+  @@index([companyId, learnerId])
   @@map("academy_knowledge_attempts")
 }
 
@@ -856,6 +866,8 @@ model Company {
   centralCompanyLinks     CentralCompanyLink[]
   memberships            CompanyMember[]
   practicalEvidence      AcademyPracticalEvidence[]
+  learnerCompletions     AcademyLearnerCompletion[]
+  knowledgeAttempts      AcademyKnowledgeAttempt[]
   assignments            AcademyTrainingAssignment[]
   competencies           AcademyVerifiedCompetency[]
   templateResponses      AcademyTemplateResponse[]
