@@ -18,19 +18,28 @@ router.post("/threads", authenticate, async (req: Request, res: Response, next: 
   }
 });
 
-router.get("/course/:courseId", async (req: Request, res: Response, next: NextFunction) => {
+router.get("/course/:courseId", authenticate, async (req: Request, res: Response, next: NextFunction) => {
   try {
     const lessonId = query(req, "lessonId");
-    const threads = await discussionService.listThreadsForCourse(param(req, "courseId"), lessonId);
+    const threads = await discussionService.listThreadsForCourse(
+      param(req, "courseId"),
+      req.user!.userId,
+      req.user!.role,
+      lessonId,
+    );
     return sendSuccess(res, threads);
   } catch (err) {
     next(err);
   }
 });
 
-router.get("/threads/:threadId", async (req: Request, res: Response, next: NextFunction) => {
+router.get("/threads/:threadId", authenticate, async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const thread = await discussionService.getThread(param(req, "threadId"));
+    const thread = await discussionService.getThread(
+      param(req, "threadId"),
+      req.user!.userId,
+      req.user!.role,
+    );
     return sendSuccess(res, thread);
   } catch (err) {
     next(err);

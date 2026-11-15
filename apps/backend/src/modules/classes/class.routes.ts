@@ -24,9 +24,13 @@ router.post(
   },
 );
 
-router.get("/course/:courseId", async (req: Request, res: Response, next: NextFunction) => {
+router.get("/course/:courseId", authenticate, async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const classes = await classService.listLiveClassesForCourse(param(req, "courseId"));
+    const classes = await classService.listLiveClassesForCourse(
+      param(req, "courseId"),
+      req.user!.userId,
+      req.user!.role,
+    );
     return sendSuccess(res, classes);
   } catch (err) {
     next(err);
