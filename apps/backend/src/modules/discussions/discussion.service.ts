@@ -5,15 +5,22 @@ import { isEnrolled } from "../enrollment/enrollment.service";
 import type { CreateThreadInput } from "./discussion.validators";
 
 async function assertCanParticipate(courseId: string, userId: string, role: Role) {
+  // A signed-in user or an old enrolment must never author content in a
+  // deleted course. Students may write only to a published course they are
+  // still enrolled in; the owning teacher and admins may prepare draft forums.
+  const course = await prisma.course.findUnique({
+    where: { id: courseId, deletedAt: null },
+    select: { teacherId: true, isPublished: true },
+  });
+  if (!course) throw new NotFoundError("Course");
   if (role === "ADMIN") return;
   if (role === "TEACHER") {
-    const course = await prisma.course.findUnique({ where: { id: courseId } });
-    if (course?.teacherId === userId) return;
+    if (course.teacherId === userId) return;
     throw new ForbiddenError("You do not teach this course");
   }
-  // STUDENT
-  const enrolled = await isEnrolled(userId, courseId);
-  if (!enrolled) throw new ForbiddenError("You must be enrolled to participate in discussions");
+  if (!course.isPublished) throw new NotFoundError("Course");
+  if (role === "STUDENT" && (await isEnrolled(userId, courseId))) return;
+  throw new ForbiddenError("You must be enrolled to participate in discussions");
 }
 
 export async function createThread(input: CreateThreadInput, userId: string, role: Role) {
@@ -68,6 +75,15 @@ export async function listThreadsForCourse(
 }
 
 export async function getThread(threadId: string, userId: string, role: Role) {
+  // Read only the owning course first. Unauthorised callers must never load
+  // thread bodies, reply text, or author profiles into the application.
+  const reference = await prisma.discussionThread.findUnique({
+    where: { id: threadId },
+    select: { courseId: true },
+  });
+  if (!reference) throw new NotFoundError("Thread");
+  await assertCanReadCourseDiscussions(reference.courseId, userId, role);
+
   const thread = await prisma.discussionThread.findUnique({
     where: { id: threadId },
     include: {
@@ -78,8 +94,8 @@ export async function getThread(threadId: string, userId: string, role: Role) {
       },
     },
   });
-  if (!thread) throw new NotFoundError("Thread");
-  await assertCanReadCourseDiscussions(thread.courseId, userId, role);
+  // A thread moved or removed during an access check must fail closed.
+  if (!thread || thread.courseId !== reference.courseId) throw new NotFoundError("Thread");
   return thread;
 }
 
@@ -111,6 +127,10 @@ export async function pinReply(replyId: string, userId: string, role: Role) {
 export async function resolveThread(threadId: string, userId: string, role: Role) {
   const thread = await prisma.discussionThread.findUnique({ where: { id: threadId } });
   if (!thread) throw new NotFoundError("Thread");
+
+  // Even a TEACHER must teach the thread's course; ownership of an arbitrary
+  // thread ID or a generic staff role is never sufficient to resolve it.
+  await assertCanParticipate(thread.courseId, userId, role);
 
   const isOwner = thread.studentId === userId;
   const isStaff = role === "ADMIN" || role === "TEACHER";
