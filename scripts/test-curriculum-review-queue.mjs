@@ -8,7 +8,7 @@ import {createQueue,csv} from './build-curriculum-review-queue.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const index=buildIndex();const queue=createQueue(index);
 let count=0;const check=(condition,message)=>{assert.ok(condition,message);count++};
-check(index.total===1021,'all 1021 drafts indexed');
+check(index.total===1037,'all 1037 drafts indexed');
 check(queue.summary.requiringReview===index.lessons.filter(x=>x.reviewBlockers.length).length,'queue includes exactly blocked lessons');
 check(queue.summary.byPriority.P0+queue.summary.byPriority.P1+queue.summary.byPriority.P2===queue.lessons.length,'priority totals reconcile');
 check(queue.lessons.every(x=>x.publicationApproved===false&&x.reviewStatus==='needs-human-review'),'no auto-approval');

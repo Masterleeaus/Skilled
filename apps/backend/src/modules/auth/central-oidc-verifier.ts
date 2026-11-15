@@ -20,7 +20,7 @@ export function verifyOidcIdToken(jwt:unknown,keys:readonly OidcPublicKey[],opts
  const matches=keys.filter(k=>k.kid===head.kid&&k.kty==="RSA"&&
   (!k.use||k.use==="sig")&&(!k.alg||k.alg==="RS256"));
  if(matches.length!==1)throw Error("Invalid ID token");
- let verified=false;
+ let verified:boolean;
  try{verified=verifyRsa("RSA-SHA256",Buffer.from(p[0]+"."+p[1],"ascii"),
  createPublicKey({key:matches[0] as never,format:"jwk"}),Buffer.from(p[2],"base64url"));}catch{verified=false;}
  if(!verified)throw Error("Invalid ID token");
