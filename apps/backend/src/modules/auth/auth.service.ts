@@ -10,6 +10,7 @@ import {
 } from "./token.utils";
 import type { RegisterInput, LoginInput } from "./auth.validators";
 import { sendVerificationEmail, sendResetPasswordEmail } from "../../jobs/email.queue";
+import { logger } from "../../config/logger";
 
 const SALT_ROUNDS = 12;
 const EMAIL_TOKEN_TTL_MS = 24 * 60 * 60 * 1000; // 24h
@@ -44,11 +45,40 @@ async function revokeAllRefreshTokens(userId: string) {
   });
 }
 
+/**
+ * Stored form of a one-time token (email verification, password reset). New rows hold the digest with this prefix.
+ * Rows written before the change hold the raw token with no prefix. They expire within 24 hours (verification)
+ * or 1 hour (reset), so the legacy branch below only serves links that were already in flight at deploy time.
+ */
+const DIGEST_PREFIX = "sha256:";
+const digestForm = (token: string) => `${DIGEST_PREFIX}${hashToken(token)}`;
+
+/**
+ * Matches the row for a presented verification token. A digest-form row matches the digest of the presented value.
+ * A legacy row matches the raw value. A stored digest cannot be presented back: it carries the prefix, so the legacy
+ * branch excludes it, and the digest branch would only match the digest of the presented value.
+ */
+const verificationTokenMatch = (presented: string) => ({
+  OR: [
+    { emailVerifyToken: digestForm(presented) },
+    { emailVerifyToken: presented, NOT: { emailVerifyToken: { startsWith: DIGEST_PREFIX } } },
+  ],
+});
+
+/** Same rule as verificationTokenMatch, for password-reset tokens. */
+const resetTokenMatch = (presented: string) => ({
+  OR: [
+    { resetPasswordToken: digestForm(presented) },
+    { resetPasswordToken: presented, NOT: { resetPasswordToken: { startsWith: DIGEST_PREFIX } } },
+  ],
+});
+
 export async function registerUser(input: RegisterInput) {
   const existing = await prisma.user.findUnique({ where: { email: input.email } });
   if (existing) throw new AppError("Email already registered", 409);
 
   const passwordHash = await bcrypt.hash(input.password, SALT_ROUNDS);
+  // The emailed token is random; only its SHA-256 digest is stored, so a database read cannot replay a link.
   const emailVerifyToken = generateShortToken();
 
   const user = await prisma.user.create({
@@ -57,7 +87,7 @@ export async function registerUser(input: RegisterInput) {
       email: input.email,
       passwordHash,
       role: "STUDENT",
-      emailVerifyToken,
+      emailVerifyToken: digestForm(emailVerifyToken),
       emailVerifyExpiresAt: new Date(Date.now() + EMAIL_TOKEN_TTL_MS),
     },
   });
@@ -69,12 +99,12 @@ export async function registerUser(input: RegisterInput) {
 
 export async function verifyEmail(token: string) {
   const user = await prisma.user.findFirst({
-    where: { emailVerifyToken: token, emailVerifyExpiresAt: { gt: new Date() } },
+    where: { ...verificationTokenMatch(token), emailVerifyExpiresAt: { gt: new Date() } },
   });
   if (!user) throw new AppError("Invalid or expired verification token", 400);
 
   const consumed = await prisma.user.updateMany({
-    where: { id: user.id, emailVerifyToken: token, emailVerifyExpiresAt: { gt: new Date() } },
+    where: { id: user.id, ...verificationTokenMatch(token), emailVerifyExpiresAt: { gt: new Date() } },
     data: { isEmailVerified: true, emailVerifyToken: null, emailVerifyExpiresAt: null },
   });
   if (consumed.count !== 1) throw new AppError("Invalid or expired verification token", 400);
@@ -111,12 +141,21 @@ export async function loginUser(input: LoginInput, deviceInfo?: string) {
 /** Rotate refresh credentials on each use to prevent replay of a stolen token. */
 export async function refreshAccessToken(refreshTokenRaw: string) {
   const hash = hashToken(refreshTokenRaw);
+  // Rotated rows stay in the table (revoked, with replacedAt set), so a replay is recognised here.
   const stored = await prisma.refreshToken.findFirst({
-    where: { tokenHash: hash, isRevoked: false, expiresAt: { gt: new Date() } },
+    where: { tokenHash: hash },
     include: { user: true },
   });
 
   if (!stored) throw new UnauthorizedError("Invalid or expired refresh token");
+  if (stored.replacedAt) {
+    // A token that was already rotated has been presented again, so a copy of it exists outside this device.
+    // Revoke every live refresh credential of the user, which ends the whole session family, then refuse.
+    logger.warn("Refresh token replay detected; revoking all sessions for the user", { userId: stored.userId });
+    await revokeAllRefreshTokens(stored.userId);
+    throw new UnauthorizedError("Invalid or expired refresh token");
+  }
+  if (stored.isRevoked || stored.expiresAt <= new Date()) throw new UnauthorizedError("Invalid or expired refresh token");
   if (!isAccountEligible(stored.user)) {
     // A deleted account keeps no live sessions. Revoke what it holds, then refuse.
     if (stored.user.deletedAt) await revokeAllRefreshTokens(stored.userId);
@@ -130,7 +169,7 @@ export async function refreshAccessToken(refreshTokenRaw: string) {
   await prisma.$transaction(async (tx) => {
     const consumed = await tx.refreshToken.updateMany({
       where: { id: stored.id, tokenHash: hash, isRevoked: false, expiresAt: { gt: new Date() } },
-      data: { isRevoked: true },
+      data: { isRevoked: true, replacedAt: new Date() },
     });
     if (consumed.count !== 1) throw new UnauthorizedError("Refresh token already used");
     await tx.refreshToken.create({
@@ -172,11 +211,12 @@ export async function forgotPassword(email: string) {
   // Soft-deleted accounts get no reset link.
   if (!user || user.deletedAt) return;
 
+  // Only the SHA-256 digest is stored. The raw token exists in the email and in the request that presents it.
   const resetToken = generateShortToken();
   await prisma.user.update({
     where: { id: user.id },
     data: {
-      resetPasswordToken: resetToken,
+      resetPasswordToken: digestForm(resetToken),
       resetPasswordExpiresAt: new Date(Date.now() + RESET_TOKEN_TTL_MS),
     },
   });
@@ -186,7 +226,7 @@ export async function forgotPassword(email: string) {
 
 export async function resetPassword(token: string, newPassword: string) {
   const user = await prisma.user.findFirst({
-    where: { resetPasswordToken: token, resetPasswordExpiresAt: { gt: new Date() } },
+    where: { ...resetTokenMatch(token), resetPasswordExpiresAt: { gt: new Date() } },
   });
   if (!user || user.deletedAt) throw new AppError("Invalid or expired reset token", 400);
 
@@ -194,7 +234,7 @@ export async function resetPassword(token: string, newPassword: string) {
 
   await prisma.$transaction(async (tx) => {
     const consumed = await tx.user.updateMany({
-      where: { id: user.id, deletedAt: null, resetPasswordToken: token, resetPasswordExpiresAt: { gt: new Date() } },
+      where: { id: user.id, deletedAt: null, ...resetTokenMatch(token), resetPasswordExpiresAt: { gt: new Date() } },
       data: {
         passwordHash,
         resetPasswordToken: null,

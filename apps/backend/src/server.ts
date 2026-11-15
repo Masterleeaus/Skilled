@@ -7,7 +7,7 @@ import { logger } from "./config/logger";
 import { initializeStorage } from "./config/minio";
 import { cleanupStaleVideoUploads } from "./modules/courses/video-upload.service";
 import { prisma } from "./config/prisma";
-import { redis, bullConnection } from "./config/redis";
+import { redis } from "./config/redis";
 import { emailQueue } from "./jobs/email.queue";
 import { certificateQueue } from "./jobs/certificate.queue";
 
@@ -44,7 +44,7 @@ async function shutdown() {
       httpServer.close((error) => error ? reject(error) : resolve());
     });
     await Promise.all([emailQueue.close(), certificateQueue.close()]);
-    await Promise.all([prisma.$disconnect(), redis.quit(), bullConnection.connection.quit()]);
+    await Promise.all([prisma.$disconnect(), redis.quit()]);
   } catch (error) {
     logger.error("Academy API shutdown failed", error);
     process.exitCode = 1;
