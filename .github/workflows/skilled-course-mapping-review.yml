@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Set up Node 22
         uses: ./.github/actions/setup-node-pnpm
         with:
@@ -43,7 +43,7 @@ jobs:
           fi
       - name: Preserve item-level report even if blocked
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: skilled-course-mapping-review
           path: build/course-mapping-review-audit.json

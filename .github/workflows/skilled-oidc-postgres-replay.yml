@@ -37,7 +37,7 @@ jobs:
       DATABASE_URL: postgresql://postgres:postgres@localhost:5432/skilled_ci
       SKILLED_OIDC_PG_TEST: "1"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Set up Node 22 and pnpm 10
         uses: ./.github/actions/setup-node-pnpm
       - name: Install frozen dependencies
