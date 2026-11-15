@@ -112,7 +112,7 @@ const MAX_EXPIRES_IN_SECONDS = 86_400;
  */
 export function isTenantLikeKey(key: string): boolean {
   const normalised = key.normalize("NFKC").toLowerCase();
-  if (/[^\x00-\x7f]/.test(normalised)) return true;
+  if (/[\u0080-\u{10FFFF}]/u.test(normalised)) return true;
   return TENANT_KEY.test(normalised.replace(SEPARATORS_AND_INVISIBLES, ""));
 }
 
