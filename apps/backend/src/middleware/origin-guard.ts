@@ -39,7 +39,7 @@ export function createOriginGuard(allowedOrigins: readonly string[]) {
       next();
       return;
     }
-    let normalised: string | null = null;
+    let normalised: string | null;
     try {
       normalised = new URL(origin).origin;
     } catch {
