@@ -85,9 +85,11 @@ const relations: Record<string, Record<string, Relation>> = {
   },
   academyLearnerCompletion: {
     revision: { model: "academyLessonRevision", fk: "revisionId" },
+    company: { model: "company", fk: "companyId" },
   },
   academyKnowledgeAttempt: {
     revision: { model: "academyLessonRevision", fk: "revisionId" },
+    company: { model: "company", fk: "companyId" },
   },
   academyKnowledgeAnswerKey: {
     revision: { model: "academyLessonRevision", fk: "revisionId" },
