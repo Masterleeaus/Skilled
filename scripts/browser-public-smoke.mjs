@@ -25,7 +25,7 @@ try {
       assert.equal(response.status(), 200);
       const manifest = await response.json();
       assert.equal(manifest.name, 'SkilledAt.Work');
-      assert.equal(manifest.icons.length, 3);
+      assert.equal(manifest.icons.length, 2);
       for (const icon of manifest.icons) {
         const asset = await context.request.get(origin + icon.src);
         assert.equal(asset.status(), 200, icon.src);

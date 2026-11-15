@@ -1,0 +1,33 @@
+{
+  "lessonId": "NEW-MUA-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-MUA-02-K01",
+      "correctIndex": 1,
+      "rationale": "WorkSafe Victoria requires a current SDS for each hazardous product, accessible to workers who may be exposed."
+    },
+    {
+      "id": "NEW-MUA-02-K02",
+      "correctIndex": 2,
+      "rationale": "The product goes on the hazards register before its first use."
+    },
+    {
+      "id": "NEW-MUA-02-K03",
+      "correctIndex": 0,
+      "rationale": "WorkSafe Victoria states that aerosol hair colours must not be used on eyelashes or eyebrows."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor checks that the candidate can open the current SDS for a named kit product and read its control section",
+    "Assessor checks the hazards register entry for a named product against its SDS"
+  ],
+  "passRule": "NOT SET",
+  "evidenceRequired": [
+    "Hazards register extract with identifier and SDS for each product",
+    "Dated SDS for the named product"
+  ],
+  "stopWorkCriteria": [
+    "A kit product is used with no current SDS on hand",
+    "A product is used for a purpose its SDS or named source rules out"
+  ]
+}

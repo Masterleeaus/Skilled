@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import {
   downloadTemplateDocument,
@@ -48,12 +48,15 @@ function TemplateCard({ lessonId, revisionId, template, onChanged }: { lessonId:
   const [downloading, setDownloading] = useState(false);
 
   // Re-read the saved copy when the server status changes (submit, changes requested, sign-off).
+  // The check runs during render, so the copy is replaced in the same render (not in an effect).
   const serverKey = `${status}|${template.response?.submittedAt ?? ""}|${template.document?.id ?? ""}`;
-  useEffect(() => {
+  const syncKey = `${serverKey}|${template.templateId}`;
+  const [shownKey, setShownKey] = useState(syncKey);
+  if (syncKey !== shownKey) {
+    setShownKey(syncKey);
     setForm(initialFormValues(fields, template.response?.fieldValues));
     setFieldErrors({});
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [serverKey, template.templateId]);
+  }
 
   const onError = (error: unknown, fallback: string) => {
     const errors = fieldErrorsFrom(error);

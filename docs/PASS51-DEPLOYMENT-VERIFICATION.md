@@ -5,7 +5,7 @@ Status: source-side safety controls verified; full production build and live dat
 ## What this pass provides
 
 1. `node scripts/check-academy-database-target.mjs` reads DATABASE_URL and rejects any database/role other than `titan_academy` / `titan_academy` on loopback. It does not open a database connection, print a password, execute SQL or run migrations. This guard is intended to run immediately **before** any Academy-only Prisma migration command, not as a replacement for migration review.
-2. `node scripts/academy-runtime-smoke.mjs https://academy.titanzero.io` checks frontend HTML, `/api/health` (PostgreSQL, Redis and object storage), and the public `/api/courses` API. It makes only unauthenticated GET requests. It returns nonzero on a failed check.
+2. `node scripts/academy-runtime-smoke.mjs https://skilledat.work` checks frontend HTML, `/api/health` (PostgreSQL, Redis and object storage), and the public `/api/courses` API. It makes only unauthenticated GET requests. It returns nonzero on a failed check.
 3. The backend additionally rejects production misconfiguration: wrong database/role, non-HTTPS CLIENT_URL, short or duplicate JWT secrets, and partially configured Stripe credentials.
 4. Express trusts forwarded client IPs only from loopback proxy addresses. The backend should still be bound to `127.0.0.1` and protected by Apache.
 
@@ -27,7 +27,7 @@ node scripts/check-academy-database-target.mjs
 The DB guard will fail if DATABASE_URL is absent. Do not paste secrets into chat, command history, or reports. The server preflight is read-only, but it may report current infrastructure problems. After a correctly configured application is running:
 
 ```bash
-node scripts/academy-runtime-smoke.mjs https://academy.titanzero.io
+node scripts/academy-runtime-smoke.mjs https://skilledat.work
 ```
 
 Do not run `prisma migrate reset`, `prisma db push --force-reset` or any inherited development Compose stack. Review and back up before migrations. Existing Field and Desk databases, containers, process files and Apache virtual hosts are out of scope.

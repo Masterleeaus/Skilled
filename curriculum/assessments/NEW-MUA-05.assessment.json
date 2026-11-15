@@ -1,0 +1,33 @@
+{
+  "lessonId": "NEW-MUA-05",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-MUA-05-K01",
+      "correctIndex": 1,
+      "rationale": "A record of each product by name, batch if available, date and area lets a reaction be traced to the product."
+    },
+    {
+      "id": "NEW-MUA-05-K02",
+      "correctIndex": 2,
+      "rationale": "The product is withdrawn for that client, and the reaction is recorded."
+    },
+    {
+      "id": "NEW-MUA-05-K03",
+      "correctIndex": 0,
+      "rationale": "The artist refers the client to a health professional and records the referral; the artist gives no medical advice."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor reviews a consultation record and confirms it captures allergies, previous reactions and referral needs",
+    "Assessor checks a product record traces each product used on a simulated client by name and area"
+  ],
+  "passRule": "NOT SET",
+  "evidenceRequired": [
+    "Consultation record for a simulated client",
+    "Product record for a simulated appointment"
+  ],
+  "stopWorkCriteria": [
+    "A product is used on a client whose allergy record has not been checked",
+    "A reported reaction is not recorded"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "NEW-DTR-02",
+  "title": "Reading dog welfare and stress before a session",
+  "courseSlugs": [
+    "dog-training"
+  ],
+  "moduleTitle": "Animal welfare",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Dog trainers who run classes or private sessions and need a routine for deciding whether a dog is ready to train",
+  "prerequisites": [
+    "NEW-DTR-01"
+  ],
+  "learningOutcomes": [
+    "Record a dog's observed behaviour before and during a session without diagnosing it",
+    "Apply the business's stop rule when a dog shows signs that the procedure names",
+    "Explain why the owner is asked about changes in health before work starts"
+  ],
+  "instruction": [
+    {
+      "heading": "Welfare comes before the training plan",
+      "body": "A trainer does not run a session with a dog that the trainer has not assessed. Before each session, the trainer asks the owner about changes since the last visit, such as illness, a new medication, a change in routine, or a new household member. The trainer then watches the dog for a short settling period. The purpose is to decide whether the dog is ready to train that day, and whether the planned exercises suit it. If the owner reports a change in health, the trainer follows the business's procedure, which may mean postponing the session and asking the owner to see a vet."
+    },
+    {
+      "heading": "Observing without diagnosing",
+      "body": "The trainer records what the dog does. Examples include turning away from the trainer, leaving the area, refusing a request it has previously done, or staying close to the owner. The trainer writes the observation in plain words, with the time and the activity that happened just before it. The trainer does not turn an observation into a diagnosis of pain, fear or illness. Where the observation raises a welfare concern, the trainer applies the stop rule below and refers the owner to a vet or to the business's named professional."
+    },
+    {
+      "heading": "The stop rule",
+      "body": "The business sets a stop rule in {{business:procedures.approved_sop}}. Under the rule, the trainer ends the exercise, and may end the session, when the dog shows a sign listed in the procedure, when the owner asks to stop, or when the trainer is not sure how to read the dog. Ending the session is a normal outcome and is not a failure. The trainer records the reason, the time and what was done next, and tells the owner what happened in the session."
+    },
+    {
+      "heading": "Welfare law is not set out in this lesson",
+      "body": "Animal welfare duties for dogs in training are set by state law and may be shaped by council rules. The legal duties for each state are UNCONFIRMED in this draft, and this lesson does not state them. Where the business's procedure and the law differ, the stricter requirement applies, and the owner or the business must check the position with the relevant state regulator before relying on the procedure."
+    }
+  ],
+  "procedure": [
+    "Ask the owner about any change in health, medication, routine or household since the last session, and record the answer",
+    "Watch the dog through a settling period before the first exercise",
+    "Record observations in plain words, with the time and the activity before each one",
+    "Apply the stop rule in the approved procedure when a listed sign appears",
+    "Record the reason for any stop, what was done next, and tell the owner",
+    "Refer the owner to a vet or the named professional when a welfare concern is raised, and record the referral"
+  ],
+  "workedExamples": [
+    {
+      "situation": "An owner says the dog has been unwell since a vet visit two days ago. The dog arrives for a private session and keeps moving away from the trainer.",
+      "decisionPrompt": "Should the session go ahead?",
+      "reasoning": "The owner has reported a change in health, and the dog is showing an observation that the trainer has recorded. The trainer does not diagnose the cause. Under the procedure, the trainer postpones the session, asks the owner to check with the vet, and records the owner's report and the observation. The owner is told why the session did not go ahead."
+    },
+    {
+      "situation": "During a group class, a dog begins to turn its head away each time a new dog approaches. The owner says the dog is fine and asks the trainer to continue.",
+      "decisionPrompt": "What does the trainer do?",
+      "reasoning": "The trainer records the observation and checks the stop rule. The owner's wish to continue does not override the rule. The trainer removes the dog from the exercise, records the reason and the time, and offers the owner a later private session."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Session record sheet with fields for owner report, observation and stop reason",
+    "Copy of the approved stop rule in the session area"
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing an observation as a diagnosis, such as calling the dog in pain.",
+      "prevention": "Write what the dog did, and refer any health question to a vet."
+    },
+    {
+      "error": "Continuing a session because the owner asks, when the stop rule applies.",
+      "prevention": "The stop rule is applied first. Record the reason and explain the decision to the owner."
+    },
+    {
+      "error": "Skipping the health question at the start of a session because the owner has booked before.",
+      "prevention": "Ask at every session and record the answer."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The legal welfare duties for dogs in training are UNCONFIRMED in this draft for each state and council, and this lesson does not state them. Expert review is required.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The stop rule is a business procedure. It is not a legal definition of welfare or of when a dog must not train.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every session starts with a recorded health and change check with the owner",
+    "Every stop is recorded with the reason, the time and what happened next",
+    "No observation is recorded as a diagnosis"
+  ],
+  "documentationEvidence": [
+    "Session record with owner health report and observations",
+    "Stop record with reason, time and follow-up",
+    "Referral record where a vet or named professional was recommended"
+  ],
+  "summary": [
+    "Welfare is checked before the training plan starts",
+    "The trainer records observations and does not diagnose",
+    "The stop rule is applied, and the stop is recorded"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:quality.evidence_requirements}}"
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: animal welfare duties for dogs in training, by state and council; no welfare source was read for this draft",
+    "UNCONFIRMED: the stop rule and observation list are business procedure only, not a statement of animal welfare law"
+  ],
+  "officialReferences": [],
+  "reviewStatus": "NOT REVIEWED"
+}

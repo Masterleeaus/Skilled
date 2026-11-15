@@ -5,43 +5,44 @@ import Link from "next/link";
 import { api } from "@/lib/api-client";
 import { fetchMyEnrollments } from "@/lib/enrollment.api";
 import { useRequireAuth } from "@/hooks/useRequireAuth";
+import { useLocationSearch } from "@/hooks/useLocationSearch";
 
 type PaymentState = "checking" | "paid" | "pending" | "failed";
 
 /** Stripe redirect is informational; Academy still validates payment server-side. */
 export default function PaymentSuccessPage() {
   const { user } = useRequireAuth(["STUDENT"]);
-  const [state, setState] = useState<PaymentState>("checking");
+  const search = useLocationSearch();
+  const sessionId = search === null ? null : new URLSearchParams(search).get("session_id");
+  const sessionIdValid = !!sessionId && /^cs_(test_|live_)[a-zA-Z0-9]+$/.test(sessionId);
+  const [checkState, setCheckState] = useState<PaymentState>("checking");
   const [courseHref, setCourseHref] = useState<string | null>(null);
+  // A missing or malformed session id fails immediately, without a server check.
+  const state: PaymentState = search !== null && !sessionIdValid ? "failed" : checkState;
 
   useEffect(() => {
-    if (!user) return;
-    const sessionId = new URLSearchParams(window.location.search).get("session_id");
-    if (!sessionId || !/^cs_(test_|live_)[a-zA-Z0-9]+$/.test(sessionId)) {
-      setState("failed");
-      return;
-    }
+    if (!user || !sessionId || !sessionIdValid) return;
     let cancelled = false;
     async function checkPayment(verifiedSessionId: string) {
       try {
         const { data } = await api.get(`/payments/verify/${encodeURIComponent(verifiedSessionId)}`);
         if (cancelled) return;
         if (data.data?.status !== "SUCCEEDED") {
-          setState("pending");
+          setCheckState("pending");
           return;
         }
-        setState("paid");
+        setCheckState("paid");
         const enrollments = await fetchMyEnrollments();
         if (cancelled) return;
         const match = enrollments.find((entry) => entry.course.id === data.data.courseId);
         if (match) setCourseHref(`/student/courses/${encodeURIComponent(match.course.slug)}?track=${encodeURIComponent(match.licenceTrack)}`);
       } catch {
-        if (!cancelled) setState("failed");
+        if (!cancelled) setCheckState("failed");
       }
     }
     void checkPayment(sessionId);
     return () => { cancelled = true; };
-  }, [user]);
+  }, [user, sessionId, sessionIdValid]);
 
   if (!user) return null;
   return (

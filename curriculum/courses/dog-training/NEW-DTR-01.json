@@ -1,0 +1,143 @@
+{
+  "id": "NEW-DTR-01",
+  "title": "Dog training scope, authority and client agreements",
+  "courseSlugs": [
+    "dog-training"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Dog trainers who run classes or private sessions with a dog and its owner, in a home, a business venue or a public place",
+  "prerequisites": [
+    "F01-L01",
+    "F01-L02"
+  ],
+  "learningOutcomes": [
+    "Describe the training this business offers and the behaviour work it refers out",
+    "Complete a written client agreement before the first session",
+    "State whether the business has checked its state and council registration position, and where the answer is recorded"
+  ],
+  "instruction": [
+    {
+      "heading": "What this business trains, and what it does not",
+      "body": "This business teaches owners and their dogs everyday skills, such as walking on a lead, settling, recall and manners around other dogs. It does not diagnose or treat aggression, fear, or other behaviour problems. When a client asks for that work, the trainer does not start a programme. The trainer records the request, explains the referral route in the lesson on session records, and refers the client to {{business:safety.escalation_contact}} or to a qualified professional the business has named."
+    },
+    {
+      "heading": "The written client agreement",
+      "body": "Before the first session, the client signs an agreement. It names the dog, its age, its vaccination and vet details, and any known bite, medical or behaviour history that the owner has disclosed. It states that the owner remains responsible for the dog at all times, that the owner must tell the trainer about any change in the dog's health, and that the trainer may stop a session if the procedure requires it. It also lists the emergency contact from {{business:safety.emergency_contact}}. An agreement that is not signed is not a booking. The trainer does not begin work on an unsigned agreement."
+    },
+    {
+      "heading": "Registration and licence position",
+      "body": "In Victoria, the Agriculture Victoria list of domestic animal business types (page dated no date shown) names dog training establishments as one type. The page is a list of types. It is not, on its own, a statement of what a given business must do. Whether a dog trainer who works in a client's home, in a park or in a hired hall must register, hold a permit or hold any licence is not confirmed in this draft for any state or council. Before taking a booking, the business must check the position for {{business:compliance.jurisdiction}} and record the answer in {{business:compliance.licence_requirements}}. This lesson does not grant registration, a permit or a licence."
+    },
+    {
+      "heading": "Employees and workers compensation",
+      "body": "If the business employs anyone, WorkSafe Victoria's guidance (last updated 19 May 2026) says that a business is generally required to register for WorkCover once it employs workers. A sole trader who employs nobody else generally does not need to register. Confirm the position for the business in its own circumstances, and record the result in {{business:compliance.policy_reference}}."
+    }
+  ],
+  "procedure": [
+    "Describe the classes and private sessions the business offers, and list the behaviour requests it refers out",
+    "Confirm the registration, permit and licence position for the business's state and council, and record it in the compliance record",
+    "Confirm the WorkCover position if the business employs anyone",
+    "Send the client agreement before the first session and check that it is signed",
+    "Record the dog's health, vaccination and history details in the client file",
+    "Do not start work on a booking until the signed agreement is on file"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client asks a trainer to help with a dog that has bitten a visitor twice. The trainer is asked to start private sessions the same week.",
+      "decisionPrompt": "Can the trainer take the booking as a standard training session?",
+      "reasoning": "A bite history is a behaviour problem outside the scope of everyday skills training in this course. The trainer does not take the booking as a standard session. The trainer records the request, explains that the business does not treat aggression, and refers the client to the business's named professional. The bite history is recorded in the client file and the trainer checks the bite procedure in the handling lesson before any contact with the dog."
+    },
+    {
+      "situation": "A trainer offers group classes in a hired community hall and has never checked whether the hire or the business needs a permit.",
+      "decisionPrompt": "What must happen before the next class is advertised?",
+      "reasoning": "The registration and permit position is not confirmed for this activity in this draft. The trainer must check the state and council position for the venue, record the answer, and confirm the venue's own conditions. The trainer should not advertise the class until the check is recorded and the answer is known."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Client agreement template, signed by the owner before the first session",
+    "Client file with the dog's health, vaccination and history details",
+    "Compliance record showing the registration, permit and licence check and its date"
+  ],
+  "commonErrors": [
+    {
+      "error": "Starting a session before the client agreement is signed.",
+      "prevention": "Make the signed agreement a condition of the booking and check it before the first session."
+    },
+    {
+      "error": "Treating a list of business types as proof that no registration applies.",
+      "prevention": "Record the check for the specific state and council, and say where the answer is unconfirmed."
+    },
+    {
+      "error": "Taking on behaviour work that the business does not cover.",
+      "prevention": "Refer out at the point of request, and record the referral."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The Agriculture Victoria list of domestic animal business types (no date shown) names dog training establishments. Whether a particular dog training activity needs registration or a permit is UNCONFIRMED in this draft and goes to expert review.",
+      "licenceNotice": true
+    },
+    {
+      "point": "WorkSafe Victoria's WorkCover guidance (last updated 19 May 2026) says registration is generally required once a business employs workers. Confirm the position for the business.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Council permits for public places are council-specific. This lesson does not state any council's rule.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any registration, permit, licence or insurance cover.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every booking has a signed client agreement on file before the first session",
+    "Every behaviour request outside scope is recorded and referred out",
+    "The registration, permit and licence check for the business is recorded with its date"
+  ],
+  "documentationEvidence": [
+    "Signed client agreement for each dog",
+    "Referral record for each request outside scope",
+    "Registration, permit and licence check record with date and source"
+  ],
+  "summary": [
+    "The business trains everyday skills and refers out behaviour work",
+    "No booking starts without a signed agreement",
+    "The registration position is checked for the specific state and council, and recorded"
+  ],
+  "businessFields": [
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Agriculture Victoria, Domestic animal businesses (no date shown); recorded in REGULATION-MATRIX DOG-VIC-01, checked 2026-11-02. The page fetch returned HTTP 403 on 2026-11-15, so the page was not re-read in this draft; rights: public government page, reworded",
+    "WorkSafe Victoria, Do I need to register for WorkCover insurance? (last updated 19 May 2026); recorded in REGULATION-MATRIX PT-VIC-07, checked 2026-11-02; rights: public government page, reworded",
+    "UNCONFIRMED: registration and permit position for dog training in other states and councils; not read in this draft"
+  ],
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Agriculture Victoria, Domestic animal businesses",
+      "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/domestic-animal-businesses",
+      "pageDate": "no date shown",
+      "checked": "2026-11-02",
+      "covers": "Lists dog training establishments as a domestic animal business type. Recorded from the repo matrix (DOG-VIC-01); the 2026-11-15 fetch returned 403 and the page was not re-read."
+    },
+    {
+      "id": "R2",
+      "title": "WorkSafe Victoria, Do I need to register for WorkCover insurance?",
+      "url": "https://www.worksafe.vic.gov.au/pdf/do-i-need-register-workcover-insurance",
+      "pageDate": "Last updated 19 May 2026",
+      "checked": "2026-11-02",
+      "covers": "Registration is generally required when a business employs workers. Recorded from the repo matrix (PT-VIC-07); not re-read in this draft."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}
