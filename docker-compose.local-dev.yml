@@ -1,3 +1,5 @@
+# LOCAL DEVELOPMENT ONLY. Uses development credentials and anonymous-download test setup.
+# Never deploy this file to a server. Server stack: docker-compose.academy-deps.yml (#169).
 services:
   postgres:
     image: postgres:16-alpine
