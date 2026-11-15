@@ -114,12 +114,12 @@ describe("Central SSO route paths", () => {
     expect(CENTRAL_SSO_CALLBACK_PATH).toBe("/auth/titan/academy/callback");
     const problems = centralSsoProblems({
       enabled: true, issuer: ISSUER, clientId: CLIENT_ID, clientSecret: CLIENT_SECRET,
-      jwksUri: `${ISSUER}/oidc/jwks`, redirectUri: REDIRECT_URI,
+      jwksUri: `${ISSUER}/oidc/jwks`, redirectUri: REDIRECT_URI, audience: "urn:test:product:lms",
     });
     expect(problems).toEqual([]);
     expect(centralSsoProblems({
       enabled: true, issuer: ISSUER, clientId: CLIENT_ID, clientSecret: CLIENT_SECRET,
-      jwksUri: `${ISSUER}/oidc/jwks`, redirectUri: "https://academy.test/api/auth/central/callback",
+      jwksUri: `${ISSUER}/oidc/jwks`, redirectUri: "https://academy.test/api/auth/central/callback", audience: "urn:test:product:lms",
     })).toContain("CENTRAL_SSO_REDIRECT_URI must end with /auth/titan/academy/callback");
   });
 });

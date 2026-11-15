@@ -4,6 +4,7 @@ import { Prisma } from "@prisma/client";
 import { AppError } from "../utils/AppError";
 import { sendError } from "../utils/response";
 import { logger } from "../config/logger";
+import { redactUrlQuery } from "./httpRequestLog";
 
 // 5xx messages can carry operator hints or internal paths (for example configuration instructions), so production
 // clients get generic copy for them. Development keeps the original message for debugging.
@@ -28,7 +29,7 @@ export function errorHandler(
   // Known operational errors
   if (err instanceof AppError) {
     if (!err.isOperational || err.statusCode >= 500) {
-      logger.error(`${req.method} ${req.originalUrl} - ${err.message}`, { stack: err.stack });
+      logger.error(`${req.method} ${redactUrlQuery(req.originalUrl)} - ${err.message}`, { stack: err.stack });
     }
     if (err.statusCode >= 500 && process.env.NODE_ENV === "production") {
       return sendError(res, serverErrorMessage(err.statusCode), err.statusCode);
@@ -60,7 +61,7 @@ export function errorHandler(
 
   // Unknown/unexpected errors
   const message = err instanceof Error ? err.message : "Internal server error";
-  logger.error(`${req.method} ${req.originalUrl} - ${message}`, {
+  logger.error(`${req.method} ${redactUrlQuery(req.originalUrl)} - ${message}`, {
     stack: err instanceof Error ? err.stack : undefined,
   });
 
