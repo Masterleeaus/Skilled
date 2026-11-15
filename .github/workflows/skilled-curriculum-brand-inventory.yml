@@ -29,9 +29,11 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          node-version: 22
+          install-pnpm: "false"
+          cache: "false"
       - name: Validate classification and source-location contracts
         working-directory: .
         run: |

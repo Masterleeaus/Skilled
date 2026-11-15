@@ -28,9 +28,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          node-version: 22
+          install-pnpm: "false"
+          cache: "false"
       - working-directory: .
         run: node --test scripts/test-audit-active-compatibility.mjs
       - working-directory: .
@@ -39,9 +41,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          node-version: 22
+          install-pnpm: "false"
+          cache: "false"
       - working-directory: .
         run: node --test scripts/test-audit-inactive-source-boundaries.mjs
       - working-directory: .
@@ -50,9 +54,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          node-version: 22
+          install-pnpm: "false"
+          cache: "false"
       - working-directory: .
         run: node --test scripts/test-audit-canonical-import-manifest.mjs
       - working-directory: .
@@ -66,9 +72,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          node-version: 22
+          install-pnpm: "false"
+          cache: "false"
       - working-directory: .
         run: node --test scripts/test-audit-course-art-manifest.mjs
       - working-directory: .
@@ -77,8 +85,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          node-version: 22
+          install-pnpm: "false"
+          cache: "false"
       - working-directory: .
         run: node --test scripts/test-prepare-public-assets.mjs
