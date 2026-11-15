@@ -23,6 +23,8 @@ export const metadata: Metadata = {
   },
   title: siteName,
   description: siteDescription,
+  // Not indexed yet. Search engines must not list any page until the owner lifts this (see src/app/robots.ts).
+  robots: { index: false, follow: false, googleBot: { index: false, follow: false } },
   appleWebApp: { capable: true, title: "Skilled" },
   openGraph: {
     type: "website",
