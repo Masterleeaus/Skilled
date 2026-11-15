@@ -27,6 +27,8 @@ The example file is `lms-main/deploy/central/runtime.env.example`. It contains p
 | `SKILLED_CENTRAL_OIDC_STATE_KEY` | `central-oidc-config.ts` | Base64 of exactly 32 bytes. |
 | `TITAN_SKILLED_DECISION_BEARER` (lands with #158, PR #184) | `central-decision-transport.ts` | Server-held Central service credential, 32 to 1024 characters. Empty means the decision client stays unmounted. |
 | `TITAN_SKILLED_DECISION_ENDPOINT` (lands with #158, PR #184) | `central-decision-transport.ts` | Exact HTTPS URL ending in `/v1/integrations/academy/decision`. |
+| `SKILLED_CENTRAL_LINK_SIGNING_KEY` (issue #204) | `central-link-assertion.ts` | Base64 of the Ed25519 PKCS#8 DER private key that signs account-link assertions. Server-only. Absent means signing is unavailable. Never committed. |
+| `SKILLED_CENTRAL_LINK_SIGNING_KID` (issue #204) | `central-link-assertion.ts` | Key identifier placed in the assertion header. Must match the public key registered with Central. Letters, digits, `.`, `_`, `-`, up to 64 characters. |
 | `SKILLED_CENTRAL_SESSION_PG_TEST` | Test suite only | Set to `1` only against a disposable CI database. Never in runtime. |
 
 The Central issuer and client ID used by the decision client are the same values as the OIDC settings above.
@@ -36,7 +38,7 @@ The Central issuer and client ID used by the decision client are the same values
 - The LMS OIDC client secret, the LMS state key and the decision bearer are three separate secrets. None may be reused for another.
 - Central holds its own copy of the decision bearer as a verifier. The LMS holds only the value it presents. Rotation is operator-managed.
 - The LMS tenant allowlist is the operator-held registry of Logto organisation ID to Central internal organisation UUID (see the mapping below). It is kept in LMS configuration. It is not read from Central's registry, a request or a token.
-- The link-assertion signing key (issue #163) is a further separate secret. It is named when #163 lands, and it is never placed in this repository.
+- The link-assertion signing key (issues #163 and #204) is a further separate secret, named by `SKILLED_CENTRAL_LINK_SIGNING_KEY` and `SKILLED_CENTRAL_LINK_SIGNING_KID`. It is never placed in this repository. Only its public key goes to Central.
 
 ## Account mapping
 

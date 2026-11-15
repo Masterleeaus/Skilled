@@ -16,6 +16,13 @@ export interface CentralSsoSettings {
   jwksUri: string;
   /** Exact redirect URI registered with the identity provider. Must end with CENTRAL_SSO_CALLBACK_PATH. */
   redirectUri: string;
+  /** LMS audience from the Central operator (CENTRAL_LMS_AUDIENCE). Required when enabled. */
+  audience?: string;
+}
+
+/** Exact audience value is operator-supplied. Printable, no whitespace, bounded length. */
+export function isValidAudience(value: unknown): value is string {
+  return typeof value === "string" && value.length > 0 && value.length <= 200 && /^[\x21-\x7e]+$/.test(value);
 }
 
 /** https only, no userinfo, query or fragment. Local http is deliberately not accepted for this flow. */
@@ -40,6 +47,7 @@ export function centralSsoProblems(settings: CentralSsoSettings): string[] {
     problems.push(`CENTRAL_SSO_REDIRECT_URI must end with ${CENTRAL_SSO_CALLBACK_PATH}`);
   }
   if (!settings.clientId || settings.clientId.length > 200) problems.push("CENTRAL_SSO_CLIENT_ID is required");
+  if (!isValidAudience(settings.audience)) problems.push("CENTRAL_LMS_AUDIENCE is required (printable, no spaces, max 200)");
   if (settings.clientSecret.length < 16 || settings.clientSecret.length > 512) {
     problems.push("CENTRAL_SSO_CLIENT_SECRET must be 16 to 512 characters");
   }
