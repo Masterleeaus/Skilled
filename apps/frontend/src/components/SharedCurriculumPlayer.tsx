@@ -55,11 +55,10 @@ export function SharedCurriculumPlayer({ courseId, courseSlug }: { courseId: str
   // The track the server applied. An enrolled learner gets their saved track whatever ?track= says, so this is what the page shows.
   const track: LicenceTrack = outline.data?.licenceTrack ?? requestedTrack;
   // Clear the open lesson when the loaded list no longer has it (for example, a required lesson after switching to Non-licensed).
-  useEffect(() => {
-    if (!selected || !outline.data) return;
-    const listed = outline.data.tracks.some(t => t.track.placements.some(p => p.id === selected.id));
-    if (!listed) setSelected(null);
-  }, [outline.data, selected]);
+  // Runs during render (not in an effect): React re-renders at once with the cleared selection.
+  if (selected && outline.data && !outline.data.tracks.some(t => t.track.placements.some(p => p.id === selected.id))) {
+    setSelected(null);
+  }
   // ACA-023 item 2: after a lesson is chosen from the list or by Previous/Next, focus moves to its heading.
   const headingRef = useRef<HTMLHeadingElement>(null);
   const focusHeadingOnSelect = useRef(false);

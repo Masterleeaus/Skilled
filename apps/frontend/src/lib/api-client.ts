@@ -46,7 +46,8 @@ api.interceptors.response.use(
       } catch (refreshError) {
         queue.splice(0).forEach((waiter) => waiter.reject(refreshError));
         useAuthStore.getState().logout();
-        window.location.href = "/login";
+        // Full-page replace (outside React): the protected page does not stay in history after a forced logout.
+        window.location.replace("/login");
         return Promise.reject(refreshError);
       } finally {
         isRefreshing = false;
