@@ -16,8 +16,8 @@ The credential is never read from a request, a browser value or a token. It is s
 
 ## Behaviour
 
-- Request: `{applicationId:"academy", issuer, subject, organisationId, requestId}`. `organisationId` is the Central UUID from the registry. An unmapped organisation returns `null` before any network call.
-- Response: accepted only for HTTP 200, JSON, at most 16 KiB, no redirect, exact top-level and decision fields, `allowed: true`, matching `issuer`, `subject` and `requestId`, and `decision.organisationId` equal to the Logto organisation that was asked about.
+- Request: `{applicationId:"academy", issuer, subject, requestId}`. The body carries no organisation (the #209 contract forbids it). The Logto organisation is resolved through the operator registry to the Central UUID before any network call, and an unmapped organisation returns `null` without a request.
+- Response: accepted only for HTTP 200, JSON, at most 16 KiB, no redirect, exact top-level and decision fields, `allowed: true`, matching `issuer`, `subject` and `requestId`, and `decision.organisationId` equal to the Central UUID that the registry maps to the verified Logto organisation.
 - Every other outcome (400, 401, 403, 503, network error, timeout, malformed body) returns `null`. The caller treats `null` as a denial.
 - Timeout 4 seconds by default (500 ms to 10 s allowed). Redirects are refused.
 

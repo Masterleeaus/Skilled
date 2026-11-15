@@ -1,10 +1,10 @@
 import {describe,it,expect,vi} from "vitest";
 import {createSkilledCentralServiceDecision} from "../modules/auth/central-service-decision-binding";
-import {identity,decision,issuer,audience,registry,orgUuid,stubDb,mockedResponse} from "./support/central-service-decision-fixture";
+import {identity,decision,issuer,audience,registry,stubDb,mockedResponse} from "./support/central-service-decision-fixture";
 describe("bound Central service client composes operator registry and existing transport",()=>{
  it("end-to-end request uses scope and validates response",async()=>{
   const fetcher=vi.fn(async (_url:string,init:RequestInit)=>{
-   const q=JSON.parse(init.body as string);expect(q.organisationId).toBe(orgUuid);
+   const q=JSON.parse(init.body as string);expect(q).not.toHaveProperty("organisationId");
    return mockedResponse({issuer,subject:identity.subject,requestId:q.requestId,decision});
   });
   const client=createSkilledCentralServiceDecision({db:stubDb(),

@@ -8,7 +8,7 @@ describe("Skilled request meets new Central server-to-server decision contract",
   const fetcher=vi.fn(async (_url:string,init:RequestInit)=>{
    const request=JSON.parse(init.body as string);
    expect(request).toEqual({applicationId:"academy",issuer,subject:identity.subject,
-    requestId:"r".repeat(43),organisationId:orgUuid});
+    requestId:"r".repeat(43)});
    expect((init.headers as Record<string,string>).authorization).toBe("Bearer "+token);
    return mockedResponse({issuer,subject:identity.subject,requestId:request.requestId,decision});
   });

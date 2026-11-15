@@ -102,8 +102,11 @@ export function createAuthenticatedCentralDecisionClient(config:ClientConfig):Ce
     method:"POST",redirect:"error",signal:AbortSignal.timeout(timeoutMs),
     headers:{"accept":"application/json","content-type":"application/json",
      "authorization":"Bearer "+config.bearerToken,"cache-control":"no-store"},
+    // The body carries no organisation (the #209 contract forbids it). Central decides for the verified subject;
+    // the organisation it names is checked against the registry-mapped UUID below, so a decision for any other
+    // organisation is refused.
     body:JSON.stringify({applicationId:"academy",issuer:verified.issuer,
-     subject:verified.subject,organisationId,requestId})
+     subject:verified.subject,requestId})
    });
    if(!response.ok||response.redirected||response.status!==200||
       response.headers.get("content-type")?.split(";")[0].trim().toLowerCase()!=="application/json")return null;
@@ -115,8 +118,8 @@ export function createAuthenticatedCentralDecisionClient(config:ClientConfig):Ce
    if(!exactKeys(envelope,["issuer","subject","requestId","decision"])||
       envelope.issuer!==verified.issuer || envelope.subject!==verified.subject ||
       envelope.requestId!==requestId || !boundedDecision(envelope.decision))return null;
-   // The request carried the mapped Central internal organisation UUID, so the decision must name that same UUID
-   // (not the Logto organisation ID, which is a different namespace). Any other organisation is refused.
+   // The decision must name the Central internal organisation UUID that the operator registry maps to the verified
+   // Logto organisation (not the Logto organisation ID, which is a different namespace). Any other organisation is refused.
    if(envelope.decision.organisationId.toLowerCase()!==organisationId.toLowerCase())return null;
    // expiresAt is validated above and stripped here: it is transport metadata, not part of the trusted grant.
    const {expiresAt:_expiresAt,...bounded}=envelope.decision as CentralDecision & {expiresAt?:string};

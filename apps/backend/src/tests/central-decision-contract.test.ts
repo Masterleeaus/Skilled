@@ -10,15 +10,16 @@ const credential="server-credential-".repeat(4);
 const resolver=createCentralOrganisationRegistry([{logtoOrganisationId,centralOrganisationId}]);
 
 describe("Central service-decision request", () => {
-  it("sends exactly the contract fields, with the Central internal organisation UUID and no browser-supplied claims", async () => {
+  it("sends exactly the contract fields, with no organisation in the body and no browser-supplied claims", async () => {
     const h=harness();
     await h.make()(principal);
     const [uri,init]=h.fetcher.mock.calls[0] as [string,RequestInit];
     expect(uri).toBe(`https://central.example.test${CENTRAL_DECISION_PATH}`);
     const body=JSON.parse(String(init.body));
-    expect(Object.keys(body).sort()).toEqual(["applicationId","issuer","organisationId","requestId","subject"]);
-    expect(body).toEqual({applicationId:"academy",issuer:principal.issuer,subject:principal.subject,organisationId:centralOrganisationId,requestId});
-    expect(body.organisationId).not.toBe(logtoOrganisationId);
+    expect(Object.keys(body).sort()).toEqual(["applicationId","issuer","requestId","subject"]);
+    expect(body).toEqual({applicationId:"academy",issuer:principal.issuer,subject:principal.subject,requestId});
+    expect(JSON.stringify(body)).not.toContain(centralOrganisationId);
+    expect(JSON.stringify(body)).not.toContain(logtoOrganisationId);
     expect(JSON.stringify(body)).not.toContain(credential);
   });
 
