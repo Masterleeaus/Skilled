@@ -68,6 +68,10 @@ const envObjectSchema = z.object({
     .min(101 * 1024 * 1024, "Must hold at least one maximum-size assignment submission")
     .default(512 * 1024 * 1024),
 
+  // File logs under the logs/ folder rotate when they reach LOG_FILE_MAX_BYTES. LOG_FILE_MAX_FILES bounds the rotated copies kept per file.
+  LOG_FILE_MAX_BYTES: z.coerce.number().int().min(64 * 1024).max(1024 * 1024 * 1024).default(10 * 1024 * 1024),
+  LOG_FILE_MAX_FILES: z.coerce.number().int().min(1).max(100).default(5),
+
   // Global per-client-IP ceiling across every API request, on top of the per-route limiters. /api/health is exempt.
   API_RATE_LIMIT_WINDOW_MS: z.coerce.number().int().min(1000).max(24 * 60 * 60 * 1000).default(15 * 60 * 1000),
   API_RATE_LIMIT_MAX: z.coerce.number().int().min(1).max(1_000_000).default(1000),
