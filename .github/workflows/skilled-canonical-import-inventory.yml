@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Set up Node 22
         uses: ./.github/actions/setup-node-pnpm
         with:
@@ -51,7 +51,7 @@ jobs:
           fi
       - name: Upload report even if the scanner fails
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: historical-import-manifest-audit
           path: build/legacy-import-manifest-audit.json
