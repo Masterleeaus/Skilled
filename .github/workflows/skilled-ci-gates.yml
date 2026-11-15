@@ -53,6 +53,15 @@ jobs:
       - name: Video upload safety
         run: node scripts/test-video-upload-safety.mjs
 
+      - name: Local development env template and README contract
+        run: node --test scripts/test-local-install-env-contract.mjs
+
+      - name: Production environment template coverage
+        run: node scripts/test-env-template-contract.mjs
+
+      - name: Deployment documentation contract
+        run: node --test scripts/test-deployment-doc-contract.mjs
+
   academy-backend-gates:
     name: Academy backend gates and test typecheck
     runs-on: ubuntu-latest
