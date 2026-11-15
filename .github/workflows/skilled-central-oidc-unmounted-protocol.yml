@@ -35,7 +35,7 @@ jobs:
       MINIO_ACCESS_KEY: test-minio
       MINIO_SECRET_KEY: ci-test-minio-secret
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Set up Node 22 and pnpm 10
         uses: ./.github/actions/setup-node-pnpm
       - name: Install from frozen lockfile
