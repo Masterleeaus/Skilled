@@ -30,7 +30,7 @@ jobs:
         working-directory: .
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Node 22 and pnpm 10
         uses: ./.github/actions/setup-node-pnpm
@@ -62,7 +62,7 @@ jobs:
         working-directory: .
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Node 22 and pnpm 10
         uses: ./.github/actions/setup-node-pnpm
@@ -107,7 +107,7 @@ jobs:
         working-directory: .
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Node 22 and pnpm 10
         uses: ./.github/actions/setup-node-pnpm

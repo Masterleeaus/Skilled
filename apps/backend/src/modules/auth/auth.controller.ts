@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from "express";
 import { z } from "zod";
 import { sendSuccess } from "../../utils/response";
-import { cookieOptions, clearCookieOptions } from "../../utils/cookie-options";
 import * as authService from "./auth.service";
+import { clearRefreshCookie, setRefreshCookie, REFRESH_COOKIE } from "./auth-cookies";
 import {
   registerSchema,
   loginSchema,
@@ -17,17 +17,7 @@ const updateProfileSchema = z.object({
   avatarUrl: z.string().url().optional(),
 });
 
-const REFRESH_COOKIE = "refreshToken";
-// Lifetime of the browser refresh cookie. Unchanged; see docs/security/cookies-and-csrf.md.
-const REFRESH_COOKIE_MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000;
-
-function setRefreshCookie(res: Response, token: string) {
-  res.cookie(REFRESH_COOKIE, token, cookieOptions({ maxAgeMs: REFRESH_COOKIE_MAX_AGE_MS }));
-}
-
-function clearRefreshCookie(res: Response) {
-  res.clearCookie(REFRESH_COOKIE, clearCookieOptions());
-}
+const isProd = process.env.NODE_ENV === "production";
 
 export async function register(req: Request, res: Response, next: NextFunction) {
   try {
@@ -55,7 +45,7 @@ export async function login(req: Request, res: Response, next: NextFunction) {
     const deviceInfo = req.headers["user-agent"];
     const result = await authService.loginUser(input, deviceInfo);
 
-    setRefreshCookie(res, result.refreshToken);
+    setRefreshCookie(res, result.refreshToken, isProd);
     return sendSuccess(res, { accessToken: result.accessToken, user: result.user }, "Login successful");
   } catch (err) {
     next(err);
@@ -69,7 +59,7 @@ export async function refresh(req: Request, res: Response, next: NextFunction) {
     const result = await authService.refreshAccessToken(token);
     if (cookieToken) {
       // Browser session: keep the rotated credential in an HttpOnly cookie.
-      setRefreshCookie(res, result.refreshToken);
+      setRefreshCookie(res, result.refreshToken, isProd);
       return sendSuccess(res, { accessToken: result.accessToken }, "Token refreshed");
     }
     // Explicit body-token clients must receive their replacement credential.
@@ -83,7 +73,7 @@ export async function logout(req: Request, res: Response, next: NextFunction) {
   try {
     const token = req.cookies?.[REFRESH_COOKIE] ?? req.body?.refreshToken;
     if (token) await authService.logoutDevice(token);
-    clearRefreshCookie(res);
+    clearRefreshCookie(res, isProd);
     return sendSuccess(res, null, "Logged out");
   } catch (err) {
     next(err);
@@ -93,7 +83,7 @@ export async function logout(req: Request, res: Response, next: NextFunction) {
 export async function logoutAll(req: Request, res: Response, next: NextFunction) {
   try {
     await authService.logoutAllDevices(req.user!.userId);
-    clearRefreshCookie(res);
+    clearRefreshCookie(res, isProd);
     return sendSuccess(res, null, "Logged out from all devices");
   } catch (err) {
     next(err);
