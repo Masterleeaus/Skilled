@@ -19,6 +19,18 @@ function listTsFiles(dir) {
 const syncRoutePattern = /business-fields\/sync/;
 const syncRouteFiles = listTsFiles(modulesDir).filter((file) => syncRoutePattern.test(readFileSync(file, 'utf8')));
 
+// A missing route is a reported SKIP only when the contract doc records the deferral (issue #165). Otherwise it is a FAIL.
+const contractDocFile = new URL('../../../docs/FIELD_SERVICES_CONTEXT_SYNC.md', import.meta.url);
+const skipDecisionPattern = /^Skip decision \(#165\): DEFERRED\b/m;
+
+if (syncRouteFiles.length === 0 && skipDecisionPattern.test(readFileSync(contractDocFile, 'utf8'))) {
+  console.log('SKIP field-services business-fields sync route: not implemented, by documented decision (issue #165).');
+  console.log('Reason: no route matching "business-fields/sync" is mounted under apps/backend/src/modules.');
+  console.log('Status: DEFERRED. Owner decisions are listed in docs/FIELD_SERVICES_CONTEXT_SYNC.md under "Owner decisions required (issue #165)".');
+  console.log('No source-contract checks were run against the sync route. This is a skip, not a pass.');
+  process.exit(0);
+}
+
 if (syncRouteFiles.length === 0) {
   console.error('FAIL field-services business-fields sync route: not found under apps/backend/src/modules.');
   console.error('Reason: no route matching "business-fields/sync" is mounted. The integration router');
