@@ -1,0 +1,113 @@
+{
+  "id": "NEW-DTR-03",
+  "title": "Reward-based training and avoiding aversive methods",
+  "courseSlugs": [
+    "dog-training"
+  ],
+  "moduleTitle": "Training methods",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Dog trainers who choose the methods, equipment and cues they use in classes and private sessions",
+  "prerequisites": [
+    "NEW-DTR-02"
+  ],
+  "learningOutcomes": [
+    "Describe the reward-based method this business uses to teach a new behaviour",
+    "Name the equipment on the approved list and state why an item not on the list is excluded",
+    "Explain why aversive methods are not taught, and what is unconfirmed about their legal status"
+  ],
+  "instruction": [
+    {
+      "heading": "The approach this course teaches",
+      "body": "This course teaches training based on rewarding the behaviour the trainer wants. The trainer breaks a skill into small steps, marks the moment the dog does the wanted behaviour, and gives a reward the dog values. The trainer repeats the step until the dog does it reliably, then adds distance, distraction or time. The trainer changes one thing at a time, so that the dog and the owner can see what is working. The business records each step in the session record so that progress can be checked."
+    },
+    {
+      "heading": "Aversive methods are not taught here",
+      "body": "Aversive methods are methods that rely on pain, fear, physical force, intimidation or punishment to change a behaviour. This course does not teach them, and the business does not use them. Examples include choke, prong and electric or shock devices, and methods that frighten or hurt a dog as a consequence of a behaviour. Owners sometimes ask for these methods. The trainer explains that the business does not use them and offers a reward-based plan instead."
+    },
+    {
+      "heading": "What the law says about aversive methods is not set out here",
+      "body": "Some aversive methods may be restricted by state animal welfare law or by council rules. The restriction, and which state or council it applies in, is UNCONFIRMED in this draft. This lesson does not say that any method is legal or illegal. Expert review must confirm the position before the course is published. Until then, the business's rule is simply that these methods are not used."
+    },
+    {
+      "heading": "Equipment on the approved list",
+      "body": "The business keeps a list of approved equipment in {{business:equipment.primary_tool}}. Items on the list are chosen because they fit the reward-based method, and are checked before each session. An item not on the list is not used, even if the owner brings it. The trainer records any owner request to use other equipment, and the answer given."
+    }
+  ],
+  "procedure": [
+    "Break the skill into small steps and write the first step in the session plan",
+    "Mark the wanted behaviour at the moment it happens and give the reward the dog values",
+    "Repeat the step until the dog does it reliably, then change one thing at a time",
+    "Check each item of equipment against the approved list before the session",
+    "If an owner asks for an aversive method, explain that the business does not use it, and offer a reward-based plan",
+    "Record the steps completed, the equipment used and any owner request in the session record"
+  ],
+  "workedExamples": [
+    {
+      "situation": "An owner asks the trainer to use a choke chain to stop a dog pulling on the lead, because a friend said it works.",
+      "decisionPrompt": "What does the trainer do?",
+      "reasoning": "The choke chain is an aversive device and is not used in this course. The trainer explains that the business uses a reward-based plan for loose-lead walking, starts the plan in the session, and records the owner's request and the answer given. The trainer does not use the chain, even for one session."
+    },
+    {
+      "situation": "A dog learns to sit when a hand signal is given, but stops responding when the trainer moves to another room.",
+      "decisionPrompt": "What should the trainer change?",
+      "reasoning": "The trainer has added a new place without first building the behaviour there. The trainer returns to an earlier step in the same place, rewards the sit, and adds the new place in a small step, changing only one thing. The change and the result are recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved equipment list, dated and held by the business",
+    "Reward items chosen with the owner and recorded in the session record",
+    "Lead and harness from the approved list"
+  ],
+  "commonErrors": [
+    {
+      "error": "Adding a new place or distraction before the dog does the behaviour reliably in the first place.",
+      "prevention": "Return to the last reliable step and change one thing at a time."
+    },
+    {
+      "error": "Using an item of equipment that is not on the approved list because the owner brought it.",
+      "prevention": "Check each item against the list before the session and record the owner's request."
+    },
+    {
+      "error": "Describing an aversive method as safe or lawful.",
+      "prevention": "Describe it only as a method the business does not use. Its legal status is UNCONFIRMED in this draft."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Aversive methods are excluded from this course. Their legal status, including any state or council restriction, is UNCONFIRMED in this draft and goes to expert review.",
+      "licenceNotice": false
+    },
+    {
+      "point": "The approved equipment list is a business decision. It is not a statement of which equipment is lawful.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every session plan uses small, named steps",
+    "Every item of equipment used is on the approved list and is recorded",
+    "Every owner request for an aversive method is recorded, with the answer given"
+  ],
+  "documentationEvidence": [
+    "Session record with steps completed and equipment used",
+    "Record of owner requests for aversive methods and the answer given",
+    "Approved equipment list with its date"
+  ],
+  "summary": [
+    "Training is reward-based and changes one thing at a time",
+    "Aversive methods are not taught or used, and their legal status is unconfirmed",
+    "Only approved equipment is used, and every use is recorded"
+  ],
+  "businessFields": [
+    "{{business:equipment.primary_tool}}",
+    "{{business:procedures.approved_sop}}"
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: state and council restrictions on aversive training methods; no welfare or training source was read for this draft",
+    "UNCONFIRMED: the reward-based method described is business practice, not a cited technique source"
+  ],
+  "officialReferences": [],
+  "reviewStatus": "NOT REVIEWED"
+}
