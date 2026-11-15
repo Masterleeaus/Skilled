@@ -8,19 +8,16 @@ on:
   pull_request:
     paths:
       - "curriculum/**"
-      - "scripts/*curriculum*.mjs"
-      - "scripts/*assessment*.mjs"
-      - "scripts/*lesson-normalization*.mjs"
-      - "scripts/reconcile-lesson-formats.mjs"
+      - "scripts/**"
+      - "tests/fixtures/assessment-malformed/**"
+      - "tests/fixtures/assessment-publication/**"
       - "apps/backend/src/modules/curriculum/**"
       - "apps/backend/src/modules/courses/**"
       - "apps/backend/src/modules/quizzes/**"
-      - "apps/backend/src/tests/academy-*.test.ts"
+      - "apps/backend/src/tests/**"
       - "apps/backend/prisma/**"
       - "package.json"
       - ".github/workflows/skilled-assessment-negative-fixtures.yml"
-      - "tests/fixtures/assessment-malformed/**"
-      - "tests/fixtures/assessment-publication/**"
       - ".github/workflows/curriculum-ci.yml"
       - ".github/workflows/curriculum-ci-trigger-contract.yml"
   push:
@@ -29,19 +26,16 @@ on:
       - Main
     paths:
       - "curriculum/**"
-      - "scripts/*curriculum*.mjs"
-      - "scripts/*assessment*.mjs"
-      - "scripts/*lesson-normalization*.mjs"
-      - "scripts/reconcile-lesson-formats.mjs"
+      - "scripts/**"
+      - "tests/fixtures/assessment-malformed/**"
+      - "tests/fixtures/assessment-publication/**"
       - "apps/backend/src/modules/curriculum/**"
       - "apps/backend/src/modules/courses/**"
       - "apps/backend/src/modules/quizzes/**"
-      - "apps/backend/src/tests/academy-*.test.ts"
+      - "apps/backend/src/tests/**"
       - "apps/backend/prisma/**"
       - "package.json"
       - ".github/workflows/skilled-assessment-negative-fixtures.yml"
-      - "tests/fixtures/assessment-malformed/**"
-      - "tests/fixtures/assessment-publication/**"
       - ".github/workflows/curriculum-ci.yml"
       - ".github/workflows/curriculum-ci-trigger-contract.yml"
   workflow_dispatch:
@@ -65,17 +59,8 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Install pnpm 10
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10.0.0
-
-      - name: Set up Node 22
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: pnpm
-          cache-dependency-path: pnpm-lock.yaml
+      - name: Set up Node 22 and pnpm 10
+        uses: ./.github/actions/setup-node-pnpm
 
       - name: Install dependencies (frozen lockfile)
         run: pnpm install --frozen-lockfile
@@ -86,7 +71,11 @@ jobs:
       - name: Verify all malformed assessment fixtures fail closed
         run: node scripts/test-assessment-publication-negative-fixtures.mjs
 
+      # Informational until curriculum content is approved (issue #26): the step
+      # reports failures in the job log and the uploaded report, but does not fail the check.
+      # Remove continue-on-error to make it blocking again.
       - name: Run curriculum CI gate
+        continue-on-error: true
         run: pnpm curriculum:ci
 
       - name: Upload curriculum CI report

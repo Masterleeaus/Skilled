@@ -29,9 +29,11 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          node-version: 22
+          install-pnpm: "false"
+          cache: "false"
       - name: Regression-test compatibility boundaries
         working-directory: .
         run: node --test scripts/test-audit-active-compatibility.mjs

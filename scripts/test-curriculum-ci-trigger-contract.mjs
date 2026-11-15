@@ -53,7 +53,7 @@ for (const event of ['pull_request', 'push']) {
     }
   });
   test(event + ': unrelated source changes do not trigger curriculum gate', () => {
-    for (const filename of ['README.md', 'brand/logo.svg', 'library/example.jpg', 'apps/frontend/public/icon.png', 'apps/backend/src/tests/example.test.ts', 'scripts/test-env-template-contract.mjs']) {
+    for (const filename of ['README.md', 'brand/logo.svg', 'library/example.jpg', 'apps/frontend/public/icon.png', 'apps/frontend/src/App.tsx']) {
       assert.ok(!blocks[event].some(p => matches(p, filename)), 'Unexpected CI trigger: ' + filename);
     }
   });

@@ -1,0 +1,47 @@
+name: Set up Node and pnpm
+description: >
+  Installs pnpm (optional), then Node.js with the pnpm store cache keyed on
+  pnpm-lock.yaml (optional). Run after actions/checkout, in the same order the
+  workflows used before. Install steps stay in each workflow.
+inputs:
+  node-version:
+    description: Node.js major version.
+    required: false
+    default: "22"
+  pnpm-version:
+    description: pnpm version installed by pnpm/action-setup.
+    required: false
+    default: "10.0.0"
+  install-pnpm:
+    description: >
+      "true" installs pnpm before Node. Must be "true" when cache is "true",
+      because setup-node reads the pnpm store path.
+    required: false
+    default: "true"
+  cache:
+    description: >
+      "true" caches the pnpm store, keyed on pnpm-lock.yaml.
+    required: false
+    default: "true"
+runs:
+  using: composite
+  steps:
+    - name: Install pnpm
+      if: inputs.install-pnpm == 'true'
+      uses: pnpm/action-setup@v4
+      with:
+        version: ${{ inputs.pnpm-version }}
+
+    - name: Set up Node with pnpm cache
+      if: inputs.cache == 'true'
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ inputs.node-version }}
+        cache: pnpm
+        cache-dependency-path: pnpm-lock.yaml
+
+    - name: Set up Node
+      if: inputs.cache != 'true'
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ inputs.node-version }}

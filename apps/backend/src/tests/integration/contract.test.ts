@@ -142,6 +142,7 @@ describeWithServices("contract drift checks against the documented partner shape
   });
 
   it.skip("field-services sync contract: documented business-fields push (OPEN: route not implemented)", () => {
-    // Intentionally skipped. Enable once the route exists and the owner confirms the payload and error shapes.
+    // Intentionally skipped: deferred by documented decision (issue #165), see docs/FIELD_SERVICES_CONTEXT_SYNC.md
+    // "Owner decisions required". Enable once the route exists and the owner confirms the payload and error shapes.
   });
 });
