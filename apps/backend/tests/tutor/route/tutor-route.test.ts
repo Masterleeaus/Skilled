@@ -181,7 +181,7 @@ async function post(url, { auth, body, raw, contentType = 'application/json' } =
   const payload = raw !== undefined ? raw : body === undefined ? undefined : JSON.stringify(body);
   const res = await fetch(`${url}/api/tutor`, { method: 'POST', headers, body: payload });
   const text = await res.text();
-  let json = null;
+  let json;
   try {
     json = JSON.parse(text);
   } catch {
