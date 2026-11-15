@@ -1,0 +1,129 @@
+{
+  "id": "NEW-DTR-05",
+  "title": "Venues, group classes and council conditions",
+  "courseSlugs": [
+    "dog-training"
+  ],
+  "moduleTitle": "Venues and group classes",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Dog trainers who run group classes in halls, parks, clubs or other venues, or who train in public places",
+  "prerequisites": [
+    "NEW-DTR-01",
+    "NEW-DTR-04"
+  ],
+  "learningOutcomes": [
+    "Check the venue owner's permission and any council condition before a class is advertised",
+    "Set a maximum group size and check it against the approved procedure before each class",
+    "State when a Working with Children Check question arises, and that the answer is decided by the business"
+  ],
+  "instruction": [
+    {
+      "heading": "Permission before the advertisement",
+      "body": "A trainer must have the venue owner's permission before advertising a class at that venue. The permission is written, and it states the days, times, the number of dogs, and any conditions the venue sets, such as cleaning, noise or waste. A public place may have its own council conditions. The trainer checks the council's rules for that place, and records the answer and its date. The business does not advertise a venue until the check is recorded."
+    },
+    {
+      "heading": "Group size",
+      "body": "The business sets a maximum number of dogs in each class in {{business:procedures.approved_sop}}. This course does not give a number. The number must fit the venue's space and the trainer's ability to watch every dog and handler at once. If a booking would take a class over the maximum, the trainer does not take the booking, or it moves to a second class."
+    },
+    {
+      "heading": "Council conditions in public places",
+      "body": "Council rules for training or exercising dogs on public land differ from one council to another. This course does not state any council's rule. Before a class in a public place, the business checks the council's rule for that place and records the answer. Where the council's rule sets a limit on dog numbers or a requirement for insurance, the business follows the stricter limit or requirement. The business's own insurance policy may also set conditions, recorded in {{business:compliance.policy_reference}}."
+    },
+    {
+      "heading": "Children at classes",
+      "body": "Some classes have children as clients or as attendees with their families. In Victoria, the government's Working with Children Check page (updated per page, 12 October 2026) lists coaching or private tuition specifically for children as a category that needs a check, and it does not list pet care. Whether a dog training class falls in a listed category is for the business to decide with the regulator. This lesson does not decide that question. The business records its answer, and any check it decides is needed, in {{business:compliance.licence_requirements}}."
+    }
+  ],
+  "procedure": [
+    "Get written permission from the venue owner before advertising the class",
+    "Check the council rule for any public place, and record the answer and its date",
+    "Set the group size from the approved procedure, and check it before each class",
+    "Confirm that the venue's conditions are met before the class starts",
+    "If children attend, record the check decided by the business for Working with Children Checks",
+    "Keep the permission, the council check and the group size record on file"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A trainer wants to run a weekend class in a council park. The park has no sign about dog training, and the trainer has a verbal okay from a park user.",
+      "decisionPrompt": "Can the class be advertised?",
+      "reasoning": "A verbal okay from a park user is not the council's permission. The trainer checks the council's rule for the park, records the answer and its date, and gets any permission the rule requires before advertising. Until then, the class is not advertised."
+    },
+    {
+      "situation": "A class is booked at twelve dogs, and the approved group size is eight.",
+      "decisionPrompt": "What does the trainer do?",
+      "reasoning": "The booking is over the approved maximum. The trainer splits the class into two sessions within the maximum, or declines the extra bookings, and records the decision."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Written venue permission, dated and signed by the venue owner",
+    "Council rule check record for each public place used",
+    "Group size record for each class"
+  ],
+  "commonErrors": [
+    {
+      "error": "Advertising a class at a venue before the permission is in writing.",
+      "prevention": "Get written permission and check the council rule before any advertisement."
+    },
+    {
+      "error": "Taking bookings over the approved group size.",
+      "prevention": "Check the group size before each booking and split the class where needed."
+    },
+    {
+      "error": "Deciding that a Working with Children Check does not apply because the classes are for dogs.",
+      "prevention": "Record the business's decision on whether children attend and whether a check applies, with the source."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Council rules for dog training in public places are council-specific. This course does not state any council's rule, and each check must be recorded.",
+      "licenceNotice": true
+    },
+    {
+      "point": "The Victorian Working with Children Check categories (vic.gov.au, updated per page) list coaching or private tuition specifically for children. Pet care is not listed. Whether a dog training class falls in a listed category is UNCONFIRMED and is for the business to decide with the regulator.",
+      "licenceNotice": true
+    },
+    {
+      "point": "This lesson does not grant any venue permission, council permit, registration or check clearance.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every venue has written permission on file before a class is advertised",
+    "Every public place has a recorded council rule check with its date",
+    "Every class is within the approved group size"
+  ],
+  "documentationEvidence": [
+    "Written venue permission for each venue",
+    "Council rule check record for each public place, with date",
+    "Group size record and any booking split decision"
+  ],
+  "summary": [
+    "Venue permission is written and comes before advertising",
+    "Council rules are checked for each public place and recorded",
+    "Group size stays within the approved maximum, and the Working with Children Check question is decided and recorded"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:compliance.licence_requirements}}"
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "vic.gov.au, Who requires WWC clearance (updated 12 Oct 2026, per page); recorded in REGULATION-MATRIX PT-VIC-05, checked 2026-11-02; rights: public government page, reworded",
+    "UNCONFIRMED: council rules for dog training in public places; no council page was read for this draft",
+    "UNCONFIRMED: whether a dog training class falls in a listed Working with Children Check category"
+  ],
+  "officialReferences": [
+    {
+      "id": "R3",
+      "title": "vic.gov.au, Who requires WWC clearance",
+      "url": "https://www.vic.gov.au/who-requires-WWC-clearance",
+      "pageDate": "Updated 12 Oct 2026 (per page)",
+      "checked": "2026-11-02",
+      "covers": "Lists categories needing a Working with Children Check, including coaching or private tuition specifically for children; pet care is not listed. Recorded from the repo matrix (PT-VIC-05); not re-read in this draft."
+    }
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

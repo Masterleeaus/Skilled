@@ -1,0 +1,113 @@
+{
+  "id": "NEW-DTR-06",
+  "title": "Session records, progress and referral",
+  "courseSlugs": [
+    "dog-training"
+  ],
+  "moduleTitle": "Records and referral",
+  "layer": "business",
+  "lessonType": "W",
+  "estimatedMinutes": 30,
+  "audience": "Dog trainers who keep session records, report progress to owners and refer clients when a request is outside the business's scope",
+  "prerequisites": [
+    "NEW-DTR-01",
+    "NEW-DTR-02"
+  ],
+  "learningOutcomes": [
+    "Complete a session record with the date, dog, steps, observations and any incident",
+    "Describe progress in terms the owner can check against the steps recorded",
+    "Refer a client to the named professional when a request is outside scope, and record the referral"
+  ],
+  "instruction": [
+    {
+      "heading": "What a session record holds",
+      "body": "Each session has a record. It holds the date, the dog, the owner, the steps planned and completed, the equipment used, the owner's health report, the observations, any stop and the reason for it, and any incident. The trainer writes the record at the end of the session, while the details are still clear. A record is a plain account of what happened. It does not contain opinions about the owner's character or conclusions about the dog's condition."
+    },
+    {
+      "heading": "Reporting progress to the owner",
+      "body": "Progress is reported against the steps in the session record. The trainer tells the owner which step the dog now does reliably, which step is still being built, and what the next step is. The trainer does not promise a result or a time frame that the record does not support. Where the owner asks about a behaviour outside the business's scope, the trainer does not answer as an expert on the question and refers the owner as set out below."
+    },
+    {
+      "heading": "Keeping records",
+      "body": "The business keeps session records for the period set in {{business:quality.evidence_requirements}}. Records are kept securely and are available to the owner on request. The business does not share a client's record with a third party except as its privacy procedure allows. The privacy lesson in the base course sets the rules for who may see a record."
+    },
+    {
+      "heading": "Referral when a request is outside scope",
+      "body": "When a request is outside the business's scope, the trainer does three things. The trainer says clearly what the business does not cover. The trainer gives the owner the referral route, which is set by the business and names {{business:safety.escalation_contact}} for welfare and behaviour concerns. The trainer records the request, the date and the referral given. The trainer does not begin a programme that the business has not approved for that request, and does not claim that the referral will solve the problem."
+    }
+  ],
+  "procedure": [
+    "Complete the session record at the end of each session, before the next booking",
+    "Record the steps planned and completed, the observations and any stop with its reason",
+    "Report progress to the owner against the recorded steps, and state the next step",
+    "When a request is outside scope, state the limit, give the referral route, and record it",
+    "File the record in the client file within the time set by the business",
+    "Check the file at the end of each month for missing entries, and correct them through the business's procedure"
+  ],
+  "workedExamples": [
+    {
+      "situation": "An owner asks the trainer whether her dog's sudden aggression at the park will go away with training, and asks for a guarantee.",
+      "decisionPrompt": "What does the trainer say and record?",
+      "reasoning": "Sudden aggression is outside the business's scope. The trainer does not guarantee an outcome or diagnose the cause. The trainer states the limit, gives the owner the referral route to the named professional and to a vet, and records the request, the date and the referral. The trainer does not begin a training programme for aggression."
+    },
+    {
+      "situation": "A session record is left blank for the steps completed because the trainer was busy at the end of a long day.",
+      "decisionPrompt": "What should happen?",
+      "reasoning": "A blank record is a gap in the client file. The trainer completes it as soon as possible from memory, marks it as completed late with the date, and follows the business's correction procedure. The trainer does not leave the record blank or fill it in with guesses presented as facts."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Session record form or digital equivalent",
+    "Referral record form with the named professional's contact details"
+  ],
+  "commonErrors": [
+    {
+      "error": "Writing opinions about the owner or conclusions about the dog's condition in the session record.",
+      "prevention": "Record what happened, in plain words, and keep conclusions out of the record."
+    },
+    {
+      "error": "Promising an outcome or a time frame that the record does not support.",
+      "prevention": "Report progress against the recorded steps only."
+    },
+    {
+      "error": "Leaving a referral unrecorded because the request seemed minor.",
+      "prevention": "Record every request outside scope and the referral given."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Record retention periods and any legal duty to keep a particular record are set by the business's policy and are UNCONFIRMED in this draft for each state.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Referral to a named professional does not transfer responsibility for the dog to that professional, and the business must keep its own records of the referral.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every session has a complete record before the next booking",
+    "Every progress report matches the steps in the record",
+    "Every request outside scope has a recorded referral"
+  ],
+  "documentationEvidence": [
+    "Completed session record for each session",
+    "Progress report against recorded steps",
+    "Referral record for each request outside scope"
+  ],
+  "summary": [
+    "The session record is plain, complete and filed on time",
+    "Progress is reported against the recorded steps only",
+    "Requests outside scope are stated, referred and recorded"
+  ],
+  "businessFields": [
+    "{{business:quality.evidence_requirements}}",
+    "{{business:safety.escalation_contact}}"
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: legal record-keeping duties for dog training businesses by state; no source was read for this draft",
+    "Business procedure only: session record fields, progress reporting and referral route are the business's own rules, not a cited source"
+  ],
+  "officialReferences": [],
+  "reviewStatus": "NOT REVIEWED"
+}
