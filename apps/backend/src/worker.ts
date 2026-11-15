@@ -3,7 +3,7 @@ import { startCertificateWorker } from "./jobs/certificate.worker";
 import { emailQueue } from "./jobs/email.queue";
 import { certificateQueue } from "./jobs/certificate.queue";
 import { prisma } from "./config/prisma";
-import { redis, bullConnection } from "./config/redis";
+import { redis } from "./config/redis";
 import { env } from "./config/env";
 import { logger } from "./config/logger";
 import { drainVideoObjectCleanup } from "./modules/courses/video-upload.service";
@@ -50,7 +50,7 @@ async function start() {
       await videoCleanupRun;
       await Promise.all([email.close(), certificate.close()]);
       await Promise.all([emailQueue.close(), certificateQueue.close()]);
-      await Promise.all([prisma.$disconnect(), redis.quit(), bullConnection.connection.quit()]);
+      await Promise.all([prisma.$disconnect(), redis.quit()]);
       process.exitCode = 0;
     } catch (error) {
       logger.error("Academy worker shutdown failed", error);
@@ -65,6 +65,6 @@ start().catch((error) => {
   logger.error("Skilled workers failed to start", error);
   process.exitCode = 1;
   // Redis/BullMQ may have open handles even when startup fails.
-  void Promise.allSettled([redis.disconnect(), bullConnection.connection.disconnect()]);
+  void Promise.allSettled([redis.disconnect()]);
   process.exit(1);
 });

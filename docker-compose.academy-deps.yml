@@ -25,7 +25,7 @@ services:
       - no-new-privileges:true
 
   academy-minio:
-    image: minio/minio:latest # Resolve and pin a tested digest before production rollout.
+    image: minio/minio:RELEASE.2025-04-22T22-12-26Z # Tested release (same as local-dev). Still to pin by digest before production rollout (#169).
     restart: unless-stopped
     command: server /data --console-address ":9001"
     environment:
