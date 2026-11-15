@@ -31,12 +31,10 @@ jobs:
       NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3212
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
+      - name: Set up Node 22 and pnpm 10
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          version: 10.0.0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
+          cache: "false"
       - run: pnpm install --frozen-lockfile
       - run: pnpm -C apps/backend exec prisma generate --schema prisma/schema.prisma
       - run: pnpm -C apps/frontend build

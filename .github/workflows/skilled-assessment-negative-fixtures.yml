@@ -24,9 +24,11 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          node-version: 22
+          install-pnpm: "false"
+          cache: "false"
       - name: Validate 20 malformed assessment cases are rejected
         working-directory: .
         run: node scripts/test-assessment-publication-negative-fixtures.mjs

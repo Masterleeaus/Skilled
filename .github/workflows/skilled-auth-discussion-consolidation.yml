@@ -34,9 +34,11 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
         with:
-          node-version: 22
+          install-pnpm: "false"
+          cache: "false"
       - working-directory: .
         run: |
           node --test scripts/test-account-flow-branding.mjs
@@ -50,14 +52,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 10.0.0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: pnpm
-          cache-dependency-path: pnpm-lock.yaml
+      - name: Set up Node 22 and pnpm 10
+        uses: ./.github/actions/setup-node-pnpm
       - working-directory: .
         run: pnpm install --frozen-lockfile
       - working-directory: apps/frontend
