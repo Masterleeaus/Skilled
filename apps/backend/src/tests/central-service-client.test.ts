@@ -138,6 +138,20 @@ describe("central service client-credentials token (#209)", () => {
     expect(tokenCall!.init.redirect).toBe("error");
   });
 
+  it("requests and accepts the production LMS audience when the operator configures it", async () => {
+    const productAudience = "urn:titan-central:product:lms";
+    const clock = { now: 1_900_000_000_000 };
+    const { central } = clientFor({ nowMs: clock.now, audience: productAudience }, clock);
+    const client = createCentralServiceClient({
+      config: { ...config, audience: productAudience },
+      fetcher: central.fetcher as unknown as typeof fetch,
+      clock: () => clock.now,
+    });
+    await client.getAccessToken();
+    const tokenCall = central.calls.find((c) => c.url === TOKEN_URL);
+    expect(new URLSearchParams(String(tokenCall!.init.body)).get("audience")).toBe(productAudience);
+  });
+
   it("takes the token endpoint from discovery and never hard-codes it", async () => {
     const clock = { now: 1_900_000_000_000 };
     const central = fakeCentral({ nowMs: clock.now }, clock);
@@ -268,6 +282,30 @@ describe("central service API calls (#209)", () => {
     await expect(
       client.request({ method: "POST", path: "/v1/example", body: [{ organisation_id: "x" }] }),
     ).rejects.toMatchObject({ reason: "tenant_parameter_refused" });
+    expect(central.calls.some((c) => c.url.startsWith(ISSUER + "/v1/"))).toBe(false);
+  });
+
+  it("refuses tenant-like keys that are not spelled with the exact default names", async () => {
+    const clock = { now: 1_900_000_000_000 };
+    const { client, central } = clientFor({ nowMs: clock.now }, clock);
+    const refusedQueries: Array<Record<string, string>> = [{ organisationRef: "x" }, { org_id: "x" }, { orgId: "x" }, { cohortSize: "3" }];
+    for (const query of refusedQueries) {
+      await expect(client.request({ method: "GET", path: "/v1/example", query })).rejects.toMatchObject({
+        reason: "tenant_parameter_refused",
+      });
+    }
+    await expect(
+      client.request({ method: "POST", path: "/v1/example", body: { organisationRef: "x" } }),
+    ).rejects.toMatchObject({ reason: "tenant_parameter_refused" });
+    expect(central.calls.some((c) => c.url.startsWith(ISSUER + "/v1/"))).toBe(false);
+  });
+
+  it("refuses a body on GET before any network call", async () => {
+    const clock = { now: 1_900_000_000_000 };
+    const { client, central } = clientFor({ nowMs: clock.now }, clock);
+    await expect(client.request({ method: "GET", path: "/v1/example", body: { learnerRef: "abc" } })).rejects.toMatchObject({
+      reason: "invalid_request",
+    });
     expect(central.calls.some((c) => c.url.startsWith(ISSUER + "/v1/"))).toBe(false);
   });
 
