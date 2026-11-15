@@ -19,6 +19,7 @@ import { buildCourseLessonProgress } from "./completion-report.service";
 import { assertEnrolled } from "../enrollment/enrollment.service";
 import { assertLessonOpen, getLearnerLevelView, isLevelGateExempt, resolveLevelLocks } from "../levels/level.service";
 import { loadSavedSelection } from "../course-selection/course-selection.service";
+import { learnerCompanyIds, resolveLearnerRowCompany } from "./learner-company";
 import { assertLicenceTrackAllows, licenceIndexForTrack, licenceNoticeOf, licenceStatusOf, licenceTrackExcludes, licenceTrackExclusionError, resolveLicenceTrack, savedLicenceTrack, summariseLicenceTracks } from "./licence-track";
 
 const router = Router();
@@ -214,7 +215,14 @@ router.post("/completions", authenticate, run(async (req, res) => {
   if (!savedTracks.some(track => !licenceTrackExcludes(track, status))) throw licenceTrackExclusionError("non-licensed");
   await assertLessonOpen({ userId: learnerId, role: req.user?.role ?? "" }, input.lessonId);
   // Completion is a learning acknowledgement, not an assessed competency or credential.
-  const completion = await prisma.academyLearnerCompletion.upsert({ where: { learnerId_lessonId_revisionId: { learnerId, lessonId: input.lessonId, revisionId: input.revisionId } }, create: { learnerId, lessonId: input.lessonId, revisionId: input.revisionId }, update: {} });
+  const companyId = await resolveLearnerRowCompany(learnerId, assigning.map(a => a.courseId));
+  const completion = await prisma.academyLearnerCompletion.upsert({ where: { learnerId_lessonId_revisionId: { learnerId, lessonId: input.lessonId, revisionId: input.revisionId } }, create: { learnerId, lessonId: input.lessonId, revisionId: input.revisionId, companyId }, update: {} });
+  // An existing row stored without an organisation is filled in once one is determinable. A stored company is never changed.
+  if (companyId && !completion.companyId) {
+    await prisma.academyLearnerCompletion.updateMany({ where: { learnerId, lessonId: input.lessonId, revisionId: input.revisionId, companyId: null }, data: { companyId } });
+    sendSuccess(res, { ...completion, companyId });
+    return;
+  }
   sendSuccess(res, completion);
 }));
 // The caller's own level status across every enrolled course. There is no learner parameter, so no other learner can be requested.
@@ -224,10 +232,13 @@ router.get("/levels/me", authenticate, run(async (req, res) => {
   const { levels, ungatedLessonCount } = await getLearnerLevelView(learnerId);
   sendSuccess(res, { levels, ungatedLessonCount });
 }));
+// Rows are limited to the learner's own organisations. Rows with no organisation (NULL) never match the IN filter.
 router.get("/completions/me", authenticate, run(async (req, res) => {
   const learnerId = (req as Request & { user?: { userId?: string } }).user?.userId;
   if (!learnerId) throw new ForbiddenError("Authenticated learner required");
-  sendSuccess(res, await prisma.academyLearnerCompletion.findMany({ where: { learnerId }, orderBy: { completedAt: "desc" } }));
+  const companyIds = await learnerCompanyIds(learnerId);
+  if (!companyIds.length) { sendSuccess(res, []); return; }
+  sendSuccess(res, await prisma.academyLearnerCompletion.findMany({ where: { learnerId, companyId: { in: companyIds } }, orderBy: { completedAt: "desc" } }));
 }));
 
 // The learner-visible part of each knowledge check (no answer data). Two bodies agree only when these match in order.
@@ -275,8 +286,9 @@ router.post("/knowledge-checks/attempts", authenticate, run(async (req, res) => 
   if (!revision || revision.lessonId !== input.lessonId || revision.status !== "PUBLISHED") throw new ForbiddenError("Published matching revision required");
   await assertLessonOpen({ userId: learnerId, role: req.user?.role ?? "" }, input.lessonId);
   const enrollments = await prisma.enrollment.findMany({ where: { studentId: learnerId, status: "ACTIVE", course: { isPublished: true } }, select: { courseId: true } });
-  const eligible = await prisma.academyCourseTrack.findFirst({ where: { courseId: { in: enrollments.map(e => e.courseId) }, track: { status: "PUBLISHED", placements: { some: { lessonId: input.lessonId, revisionId: input.revisionId } } } } });
-  if (!eligible) throw new ForbiddenError("Knowledge check is not assigned through an active enrolled course");
+  const eligible = await prisma.academyCourseTrack.findMany({ where: { courseId: { in: enrollments.map(e => e.courseId) }, track: { status: "PUBLISHED", placements: { some: { lessonId: input.lessonId, revisionId: input.revisionId } } } }, select: { courseId: true } });
+  if (!eligible.length) throw new ForbiddenError("Knowledge check is not assigned through an active enrolled course");
+  const companyId = await resolveLearnerRowCompany(learnerId, eligible.map(e => e.courseId));
   // Answer keys are server-side only (academy_knowledge_answer_keys, per revision and check ID). The stored body never holds one.
   const questions = knowledgeCheckList(revision.body) as Array<Record<string, unknown>>;
   if (!questions.length || questions.length > 50 || questions.length !== input.answers.length) throw new ForbiddenError("Answer count does not match the knowledge check");
@@ -293,13 +305,15 @@ router.post("/knowledge-checks/attempts", authenticate, run(async (req, res) => 
   const score = questions.filter((q, i) => keys.get(q.id as string)!.correctIndex === input.answers[i]).length;
   const total = questions.length;
   const passed = score / total >= 0.8;
-  const attempt = await prisma.academyKnowledgeAttempt.create({ data: { learnerId, lessonId: input.lessonId, revisionId: input.revisionId, answers: input.answers, score, total, passed } });
+  const attempt = await prisma.academyKnowledgeAttempt.create({ data: { learnerId, companyId, lessonId: input.lessonId, revisionId: input.revisionId, answers: input.answers, score, total, passed } });
   sendSuccess(res, { id: attempt.id, score, total, passed, createdAt: attempt.createdAt });
 }));
 router.get("/knowledge-checks/attempts/me", authenticate, run(async (req, res) => {
   const learnerId = (req as Request & { user?: { userId?: string } }).user?.userId;
   if (!learnerId) throw new ForbiddenError("Authenticated learner required");
-  sendSuccess(res, await prisma.academyKnowledgeAttempt.findMany({ where: { learnerId }, select: { id: true, lessonId: true, revisionId: true, score: true, total: true, passed: true, createdAt: true }, orderBy: { createdAt: "desc" }, take: 100 }));
+  const companyIds = await learnerCompanyIds(learnerId);
+  if (!companyIds.length) { sendSuccess(res, []); return; }
+  sendSuccess(res, await prisma.academyKnowledgeAttempt.findMany({ where: { learnerId, companyId: { in: companyIds } }, select: { id: true, lessonId: true, revisionId: true, score: true, total: true, passed: true, createdAt: true }, orderBy: { createdAt: "desc" }, take: 100 }));
 }));
 
 // Practical evidence is not a verified competency until an authorised assessor reviews it.
