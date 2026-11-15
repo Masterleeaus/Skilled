@@ -37,6 +37,13 @@ test("page metadata connects install, origin, Apple and social-card surfaces", (
   assert.deepEqual(pngSize("icons/og-image.png"), [1200, 630]);
 });
 
+test("production frontend is not indexed: noindex meta and disallow-all robots.txt", () => {
+  const robotsRoute = readFileSync(path.join(frontend, "src/app/robots.ts"), "utf8");
+  assert.match(layout, /robots:\s*\{\s*index:\s*false,\s*follow:\s*false/);
+  assert.match(robotsRoute, /userAgent:\s*"\*"/);
+  assert.match(robotsRoute, /disallow:\s*"\/"/);
+});
+
 test("local demo identities use the Skilled reserved domain", () => {
   const seed = readFileSync(path.resolve(frontend, "../backend/prisma/seed.ts"), "utf8");
   for (const role of ["admin", "teacher", "student"]) assert.ok(seed.includes(`${role}@skilled.local`));
