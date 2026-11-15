@@ -10,6 +10,7 @@ import {
 } from "./token.utils";
 import type { RegisterInput, LoginInput } from "./auth.validators";
 import { sendVerificationEmail, sendResetPasswordEmail } from "../../jobs/email.queue";
+import { logger } from "../../config/logger";
 
 const SALT_ROUNDS = 12;
 const EMAIL_TOKEN_TTL_MS = 24 * 60 * 60 * 1000; // 24h
@@ -111,12 +112,21 @@ export async function loginUser(input: LoginInput, deviceInfo?: string) {
 /** Rotate refresh credentials on each use to prevent replay of a stolen token. */
 export async function refreshAccessToken(refreshTokenRaw: string) {
   const hash = hashToken(refreshTokenRaw);
+  // Rotated rows stay in the table (revoked, with replacedAt set), so a replay is recognised here.
   const stored = await prisma.refreshToken.findFirst({
-    where: { tokenHash: hash, isRevoked: false, expiresAt: { gt: new Date() } },
+    where: { tokenHash: hash },
     include: { user: true },
   });
 
   if (!stored) throw new UnauthorizedError("Invalid or expired refresh token");
+  if (stored.replacedAt) {
+    // A token that was already rotated has been presented again, so a copy of it exists outside this device.
+    // Revoke every live refresh credential of the user, which ends the whole session family, then refuse.
+    logger.warn("Refresh token replay detected; revoking all sessions for the user", { userId: stored.userId });
+    await revokeAllRefreshTokens(stored.userId);
+    throw new UnauthorizedError("Invalid or expired refresh token");
+  }
+  if (stored.isRevoked || stored.expiresAt <= new Date()) throw new UnauthorizedError("Invalid or expired refresh token");
   if (!isAccountEligible(stored.user)) {
     // A deleted account keeps no live sessions. Revoke what it holds, then refuse.
     if (stored.user.deletedAt) await revokeAllRefreshTokens(stored.userId);
@@ -130,7 +140,7 @@ export async function refreshAccessToken(refreshTokenRaw: string) {
   await prisma.$transaction(async (tx) => {
     const consumed = await tx.refreshToken.updateMany({
       where: { id: stored.id, tokenHash: hash, isRevoked: false, expiresAt: { gt: new Date() } },
-      data: { isRevoked: true },
+      data: { isRevoked: true, replacedAt: new Date() },
     });
     if (consumed.count !== 1) throw new UnauthorizedError("Refresh token already used");
     await tx.refreshToken.create({

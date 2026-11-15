@@ -165,6 +165,8 @@ model RefreshToken {
   tokenHash  String
   deviceInfo String?
   isRevoked  Boolean  @default(false)
+  // Set when this token was rotated into a successor. A rotated token presented again is a replay.
+  replacedAt DateTime?
   expiresAt  DateTime
   createdAt  DateTime @default(now())
 
