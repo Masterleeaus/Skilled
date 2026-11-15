@@ -7,6 +7,6 @@ n=normalize(mk({id:'source-1',learning_outcomes:['Check hazards'],instructional_
 assert.equal(n.instructionSections[0].heading,'Safety');assert(n.reviewBlockers.includes('course mapping requires review'));
 n=normalize({id:'sample-L01',title:'Sample',status:'draft',content:{learner:{id:'sample-L01',title:'Sample',courseIds:['one'],learningOutcomes:['Know'],instructionSections:[{body:'Text'}]}}},'sample-L01.json');
 assert.equal(n.format,'native-learner');assert.equal(n.reviewBlockers.length,0);assert.equal(n.publicationApproved,false);
-const index=buildIndex();assert.equal(index.total,1016);assert.equal(index.formats['full-authoring'],1016);
+const index=buildIndex();assert.equal(index.total,1020);assert.equal(index.formats['full-authoring'],1020);
 assert.equal(index.lessons.filter(l=>l.publicationApproved).length,0);
-console.log('PASS: 12 format, provenance, review-gate and 1016-file reconciliation assertions');
+console.log('PASS: 12 format, provenance, review-gate and 1020-file reconciliation assertions');
