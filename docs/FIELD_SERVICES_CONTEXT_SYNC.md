@@ -1,5 +1,7 @@
 # Field Services → Academy lesson context: draft-only sync
 
+> **Not part of this release.** The Field Services sync is not implemented and is not shipped in this release (tracked in issue #165). Nothing below runs in production. The route is absent, and the UI does not sync data from Field Services. This document is a design contract for future work only.
+
 Status (static, unverified, 8 Nov 2026): this route is **not mounted** in `apps/backend/src`. The integration router exposes only the skills read route. `apps/backend/src/tests/integration/contract.test.ts` asserts this sync path is absent. The text below describes the intended contract, not a running endpoint.
 
 Skip decision (#165): DEFERRED. The route is intentionally not implemented. It needs owner decisions on the response and error shapes, and cross-service work on the Field Services push producer, before it can be built and tested. See "Owner decisions required" at the end of this document. The skipped test in `contract.test.ts` stays skipped until those decisions are recorded.
