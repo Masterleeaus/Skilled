@@ -28,3 +28,23 @@ node scripts/audit-curriculum-brand.mjs --report build/issue-86-brand-inventory.
 The **20 distinct negative/positive fixture records** cover learner text, provenance, unknown fields, JSON pointers, different casing, hyphenated names, multiple hits, nested values and non-matches. The GitHub workflow publishes the current report as an artifact. `--fail-on-learner` is reserved for the post-review remediation gate; enabling it before authorized editorial decisions could conflate an inventory with approval.
 
 This report does not claim that the 16 unresolved course mappings or 1,267 assessment approvals are complete. Issue #86 stays open until reviewed content changes, derived hashes and publication checks have been reconciled.
+
+## Line-level inventory (2026-11-15)
+
+`curriculum/ci/ISSUE-86-LINE-INVENTORY.csv` records every case-insensitive `titan` line under `curriculum/` (782 lines in 57 files, from `grep -rIin titan curriculum`). Columns: file, line, classification, learner_visible, rationale, excerpt.
+
+Summary of classes:
+
+- `provenance-retain` (38): dated "Titan Academy base source draft ..." notes in `sourceReferences`/metadata of `curriculum/shared/*.json`. Not learner copy per the audit script. Retained as provenance. The renderer must be checked before this is treated as settled (`learner_visible = no-verify-render`).
+- `other-product-reference-retain` (16): "Titan Zero Field" in `curriculum/shared/app/SFS-*.json`. This names a separate field-service app, not Academy branding.
+- `technical-identifier-retain` (1): `titan-academy.pathways/1` schema ID in `curriculum/structure/PATHWAYS.json`. Changing it is a schema change, not copy.
+- `asset-attribution-retain` (660): icon manifest file names and brand-asset provenance.
+- `internal-authoring-retain` (67): planning, research, integration and CI documents. Not learner-visible.
+
+Findings:
+
+- `curriculum/courses/` contains no `titan` matches on current `Main`. The 20 course files named in the issue are not present in this form.
+- The derived `curriculum/lesson-normalization-index.json` has no `titan` matches. It was not edited.
+- No learner-visible Academy wording was found in canonical curriculum JSON. Phrases such as "any Titan Academy lesson" were not found on `Main`.
+
+No lesson, course, publication approval, content hash or derived index was changed. Any learner-visible change still needs human editorial review and approval, so it is not made here.

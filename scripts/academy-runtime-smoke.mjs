@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /** Read-only post-deployment smoke test: no credentials, writes or privileged access. */
-const input = process.argv[2] || 'https://academy.titanzero.io';
+const input = process.argv[2] || 'https://skilledat.work';
 let origin;
 try {
   const u = new URL(input);
@@ -8,7 +8,7 @@ try {
   if (u.protocol !== 'https:' && !(u.protocol === 'http:' && ['127.0.0.1','localhost','[::1]'].includes(u.hostname))) throw new Error('HTTPS required for public targets');
   origin = u.origin;
 } catch {
-  console.error('Usage: node scripts/academy-runtime-smoke.mjs https://academy.titanzero.io');
+  console.error('Usage: node scripts/academy-runtime-smoke.mjs https://skilledat.work');
   console.error('HTTP permitted only for loopback local testing. No credentials or query parameters.');
   process.exit(2);
 }

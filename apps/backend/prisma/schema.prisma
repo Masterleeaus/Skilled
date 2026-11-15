@@ -142,8 +142,8 @@ model SkilledCentralSession {
   tokenHash             String   @unique
   userId                String
   user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  companyId             String
-  company               Company  @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId             String @map("company_id")
+  company               Company  @relation(map: "skilled_central_sessions_company_fk", fields: [companyId], references: [id], onDelete: Restrict)
   centralOrganisationId String
   localAccountId        String
   expiresAt             DateTime
@@ -152,7 +152,7 @@ model SkilledCentralSession {
   lastUsedAt            DateTime?
 
   @@index([userId, revokedAt])
-  @@index([companyId, revokedAt])
+  @@index([companyId, revokedAt], map: "skilled_central_sessions_companyId_revokedAt_idx")
   @@index([centralOrganisationId, revokedAt])
   @@index([expiresAt])
   @@map("skilled_central_sessions")
@@ -765,8 +765,8 @@ model AcademyCourseLessonSelection {
   id             String               @id @default(cuid())
   courseId       String
   course         Course               @relation(fields: [courseId], references: [id], onDelete: Cascade)
-  companyId String?
-  company   Company? @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId String? @map("company_id")
+  company   Company? @relation(map: "academy_course_lesson_selections_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   sourceId       String
   savedById      String
   savedBy        User                 @relation("AcademyCourseSelectionSaver", fields: [savedById], references: [id], onDelete: Restrict)
@@ -781,8 +781,8 @@ model AcademyCourseLessonSelection {
 model AcademyLearnerCompletion {
   id          String                @id @default(cuid())
   // Tenant scope. NULL = organisation not determinable; such rows are never returned to learners.
-  companyId   String?
-  company     Company?              @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId   String? @map("company_id")
+  company     Company?              @relation(map: "academy_learner_completions_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   learnerId   String
   lessonId    String
   revisionId  String
@@ -791,7 +791,7 @@ model AcademyLearnerCompletion {
 
   @@unique([learnerId, lessonId, revisionId])
   @@index([learnerId, lessonId])
-  @@index([companyId, learnerId])
+  @@index([companyId, learnerId], map: "academy_learner_completions_companyId_learnerId_idx")
   @@map("academy_learner_completions")
 }
 
@@ -799,8 +799,8 @@ model AcademyLearnerCompletion {
 model AcademyKnowledgeAttempt {
   id         String                @id @default(cuid())
   // Tenant scope. NULL = organisation not determinable; such rows are never returned to learners.
-  companyId  String?
-  company    Company?              @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId  String? @map("company_id")
+  company    Company?              @relation(map: "academy_knowledge_attempts_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   learnerId  String
   lessonId   String
   revisionId String
@@ -812,7 +812,7 @@ model AcademyKnowledgeAttempt {
   createdAt  DateTime              @default(now())
 
   @@index([learnerId, revisionId, createdAt])
-  @@index([companyId, learnerId])
+  @@index([companyId, learnerId], map: "academy_knowledge_attempts_companyId_learnerId_idx")
   @@map("academy_knowledge_attempts")
 }
 
@@ -834,8 +834,8 @@ model AcademyKnowledgeAnswerKey {
 // Practical assessments require an explicit independent review; no automatic credential issuance.
 model AcademyPracticalEvidence {
   id               String                      @id @default(cuid())
-  companyId   String?
-  company     Company?        @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId   String? @map("company_id")
+  company     Company?        @relation(map: "academy_practical_evidence_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   learnerId        String
   lessonId         String
   revisionId       String
@@ -852,7 +852,7 @@ model AcademyPracticalEvidence {
 
   @@index([learnerId, createdAt])
   @@index([status, createdAt])
-  @@index([companyId, status, createdAt])
+  @@index([companyId, status, createdAt], map: "academy_practical_evidence_companyId_status_createdAt_idx")
   @@map("academy_practical_evidence")
 }
 
@@ -877,6 +877,8 @@ model Company {
   chatbots               AcademyChatbot[]
   chatbotConversations   AcademyChatbotConversation[]
   chatbotMessages        AcademyChatbotMessage[]
+  templateSignOffs       AcademyTemplateSignOff[]
+  templateDocuments      AcademyGeneratedDocument[]
 
   @@map("academy_companies")
 }
@@ -892,8 +894,8 @@ model CentralCompanyLink {
   id                    String   @id @default(cuid())
   centralOrganisationId String   @unique
   localAccountId        String   @unique
-  companyId             String   @unique
-  company               Company  @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId             String @map("company_id")   @unique(map: "skilled_central_company_links_companyId_key")
+  company               Company  @relation(map: "skilled_central_company_links_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   state                 String   @default("verified")
   createdAt             DateTime @default(now())
   updatedAt             DateTime @updatedAt
@@ -907,34 +909,34 @@ model CentralCompanyLinkAudit {
   id                    String   @id @default(cuid())
   centralOrganisationId String
   localAccountId        String
-  companyId             String
+  companyId             String @map("company_id")
   actorRef              String
   outcome               String
   createdAt             DateTime @default(now())
 
   @@index([centralOrganisationId, createdAt])
-  @@index([companyId, createdAt])
+  @@index([companyId, createdAt], map: "skilled_central_company_link_audits_companyId_createdAt_idx")
   @@map("skilled_central_company_link_audits")
 }
 
 model CompanyMember {
   id             String              @id @default(cuid())
-  companyId String
-  company   Company @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId String @map("company_id")
+  company   Company @relation(map: "academy_company_members_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   userId         String
   user           User                @relation(fields: [userId], references: [id], onDelete: Restrict)
   role           String              @default("LEARNER") // OWNER, MANAGER, ASSESSOR, LEARNER
   createdAt      DateTime            @default(now())
 
-  @@unique([companyId, userId])
+  @@unique([companyId, userId], map: "academy_company_members_companyId_userId_key")
   @@index([userId])
   @@map("academy_company_members")
 }
 
 model AcademyTrainingAssignment {
   id             String              @id @default(cuid())
-  companyId String
-  company   Company @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId String @map("company_id")
+  company   Company @relation(map: "academy_training_assignments_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   learnerId      String
   learner        User                @relation("AcademyAssignedLearner", fields: [learnerId], references: [id], onDelete: Restrict)
   assignedById   String
@@ -953,8 +955,8 @@ model AcademyTrainingAssignment {
 // Verified practical competencies are company-scoped and require assessor approval.
 model AcademyVerifiedCompetency {
   id             String                   @id @default(cuid())
-  companyId String
-  company   Company      @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId String @map("company_id")
+  company   Company      @relation(map: "academy_verified_competencies_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   learnerId      String
   learner        User                     @relation("AcademyCompetencyLearner", fields: [learnerId], references: [id], onDelete: Restrict)
   lessonId       String
@@ -966,7 +968,7 @@ model AcademyVerifiedCompetency {
   verifiedAt     DateTime                 @default(now())
   expiresAt      DateTime?
 
-  @@index([companyId, learnerId])
+  @@index([companyId, learnerId], map: "academy_verified_competencies_companyId_learnerId_idx")
   @@index([learnerId, lessonId])
   @@map("academy_verified_competencies")
 }
@@ -976,14 +978,14 @@ model AcademyExternalIdentity {
   id              String   @id @default(cuid())
   service         String
   externalUserRef String
-  companyId  String? // Legacy unscoped identities are deliberately denied until re-provisioned.
+  companyId  String? @map("company_id") // Legacy unscoped identities are deliberately denied until re-provisioned.
   userId          String
   user            User     @relation(fields: [userId], references: [id], onDelete: Restrict)
   createdAt       DateTime @default(now())
 
   @@unique([service, externalUserRef])
   @@unique([service, companyId, externalUserRef], map: "academy_external_identities_svc_org_ref_key")
-  @@index([companyId, userId])
+  @@index([companyId, userId], map: "academy_external_identities_companyId_userId_idx")
   @@index([userId])
   @@map("academy_external_identities")
 }
@@ -1020,7 +1022,7 @@ model AcademyServiceCredential {
 // Business-specific values supplement canonical lessons; they never overwrite published lesson content.
 model AcademyBusinessLessonField {
   id              String    @id @default(cuid())
-  companyId  String
+  companyId  String @map("company_id")
   fieldKey        String
   value           Json
   status          String    @default("DRAFT") // DRAFT | APPROVED | RETIRED
@@ -1040,7 +1042,7 @@ model AcademyBusinessLessonField {
 // Immutable evidence of the configuration actually presented during training.
 model AcademyLessonContextSnapshot {
   id               String   @id @default(cuid())
-  companyId   String
+  companyId   String @map("company_id")
   learnerId        String
   lessonRevisionId String
   resolvedFields   Json
@@ -1071,8 +1073,8 @@ model AcademyLessonReview {
 // Pass 42: a learner's fill-in response to one editable template in one template lesson.
 model AcademyTemplateResponse {
   id             String                     @id @default(cuid())
-  companyId String?
-  company   Company?       @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId String? @map("company_id")
+  company   Company?       @relation(map: "academy_template_responses_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   learnerId      String
   learner        User                       @relation("AcademyTemplateLearner", fields: [learnerId], references: [id], onDelete: Restrict)
   lessonId       String
@@ -1089,7 +1091,7 @@ model AcademyTemplateResponse {
   documents      AcademyGeneratedDocument[]
 
   @@unique([learnerId, lessonId, templateId])
-  @@index([companyId, status])
+  @@index([companyId, status], map: "academy_template_responses_companyId_status_idx")
   @@index([lessonId, status])
   @@map("academy_template_responses")
 }
@@ -1108,9 +1110,13 @@ model AcademyTemplateSignOff {
   practicalEvidence   AcademyPracticalEvidence? @relation(fields: [practicalEvidenceId], references: [id], onDelete: Restrict)
   decidedAt           DateTime                  @default(now())
   document            AcademyGeneratedDocument?
+  // Tenant company copied from the parent template response. Nullable only for legacy rows (see migration 20261115120000).
+  companyId           String?
+  company             Company?                  @relation(fields: [companyId], references: [id], onDelete: Restrict)
 
   @@index([templateResponseId, decidedAt])
   @@index([assessorId])
+  @@index([companyId, templateResponseId])
   @@map("academy_template_sign_offs")
 }
 
@@ -1126,8 +1132,12 @@ model AcademyGeneratedDocument {
   signOff            AcademyTemplateSignOff? @relation(fields: [signOffId], references: [id], onDelete: Restrict)
   issuedAt           DateTime?
   createdAt          DateTime                @default(now())
+  // Tenant company copied from the parent template response. Nullable only for legacy rows (see migration 20261115120000).
+  companyId          String?
+  company            Company?                @relation(fields: [companyId], references: [id], onDelete: Restrict)
 
   @@unique([templateResponseId, version])
+  @@index([companyId, templateResponseId])
   @@map("academy_generated_documents")
 }
 
@@ -1169,15 +1179,15 @@ model AcademyPathwayEnrolment {
   pathway        AcademyCurriculumPathway @relation(fields: [pathwayId], references: [id], onDelete: Restrict)
   learnerId      String
   learner        User                     @relation("AcademyPathwayLearner", fields: [learnerId], references: [id], onDelete: Restrict)
-  companyId String?
-  company   Company?     @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId String? @map("company_id")
+  company   Company?     @relation(map: "academy_pathway_enrolments_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   status         String                   @default("ACTIVE") // ACTIVE | COMPLETED | WITHDRAWN
   enrolledAt     DateTime                 @default(now())
   completedAt    DateTime?
 
   @@unique([pathwayId, learnerId])
   @@index([learnerId, status])
-  @@index([companyId, status])
+  @@index([companyId, status], map: "academy_pathway_enrolments_companyId_status_idx")
   @@map("academy_pathway_enrolments")
 }
 
@@ -1186,8 +1196,8 @@ model AcademyPathwayEnrolment {
 // reference the conversation through a composite key, so a child row cannot point at another company's conversation.
 model AcademyTutorConversation {
   id             String                      @id @default(cuid())
-  companyId String
-  company   Company         @relation(fields: [companyId], references: [id], onDelete: Restrict)
+  companyId String @map("company_id")
+  company   Company         @relation(map: "academy_tutor_conversations_companyId_fkey", fields: [companyId], references: [id], onDelete: Restrict)
   learnerId      String
   learner        User                        @relation("AcademyTutorLearner", fields: [learnerId], references: [id], onDelete: Restrict)
   createdAt      DateTime                    @default(now())
@@ -1195,17 +1205,17 @@ model AcademyTutorConversation {
   messages       AcademyTutorMessage[]
   toolAudits     AcademyTutorToolAudit[]
 
-  @@unique([companyId, id])
+  @@unique([companyId, id], map: "academy_tutor_conversations_companyId_id_key")
   @@index([createdAt])
-  @@index([companyId, learnerId, createdAt])
+  @@index([companyId, learnerId, createdAt], map: "academy_tutor_conversations_companyId_learnerId_createdAt_idx")
   @@map("academy_tutor_conversations")
 }
 
 model AcademyTutorMessage {
   id             String                   @id @default(cuid())
-  companyId String
+  companyId String @map("company_id")
   conversationId String
-  conversation   AcademyTutorConversation @relation(fields: [companyId, conversationId], references: [companyId, id], onDelete: Cascade)
+  conversation   AcademyTutorConversation @relation(map: "academy_tutor_messages_companyId_conversationId_fkey", fields: [companyId, conversationId], references: [companyId, id], onDelete: Cascade)
   role           String // system | user | assistant | tool (runtime ChatRole)
   content        String                   @db.Text
   createdAt      DateTime                 @default(now())
@@ -1217,9 +1227,9 @@ model AcademyTutorMessage {
 // One row per ToolAuditEntry written by the runtime's ToolExecutor for a tutor conversation.
 model AcademyTutorToolAudit {
   id             String                   @id @default(cuid())
-  companyId String
+  companyId String @map("company_id")
   conversationId String
-  conversation   AcademyTutorConversation @relation(fields: [companyId, conversationId], references: [companyId, id], onDelete: Cascade)
+  conversation   AcademyTutorConversation @relation(map: "academy_tutor_tool_audits_companyId_conversationId_fkey", fields: [companyId, conversationId], references: [companyId, id], onDelete: Cascade)
   tool           String
   userId         String? // ToolAuditEntry.user_id stored as text. Deliberately not a foreign key.
   inputHash      String
@@ -1229,7 +1239,7 @@ model AcademyTutorToolAudit {
   createdAt      DateTime                 @default(now())
 
   @@index([conversationId, createdAt])
-  @@index([companyId, createdAt])
+  @@index([companyId, createdAt], map: "academy_tutor_tool_audits_companyId_createdAt_idx")
   @@map("academy_tutor_tool_audits")
 }
 
@@ -1244,7 +1254,7 @@ model AcademyTutorToolAudit {
 
 model AcademyChatbot {
   id                  String              @id @default(cuid())
-  companyId           String
+  companyId           String @map("company_id")
   company        Company @relation(fields: [companyId], references: [id], map: "chatbots_company_fk", onDelete: Restrict)
   title               String              @db.VarChar(200)
   language            String              @default("en") @db.VarChar(10)
@@ -1264,7 +1274,7 @@ model AcademyChatbot {
 
 model AcademyChatbotConversation {
   id               String              @id @default(cuid())
-  companyId        String
+  companyId        String @map("company_id")
   company     Company @relation(fields: [companyId], references: [id], map: "chatbot_conversations_company_fk", onDelete: Restrict)
   chatbotId        String
   chatbot          AcademyChatbot      @relation(fields: [companyId, chatbotId], references: [companyId, id], map: "chatbot_conversations_company_chatbot_fk")
@@ -1288,7 +1298,7 @@ model AcademyChatbotConversation {
 
 model AcademyChatbotMessage {
   id             String                     @id @default(cuid())
-  companyId      String
+  companyId      String @map("company_id")
   company   Company        @relation(fields: [companyId], references: [id], map: "chatbot_messages_company_fk", onDelete: Restrict)
   conversationId String
   conversation   AcademyChatbotConversation @relation(fields: [companyId, conversationId], references: [companyId, id], map: "chatbot_messages_company_conversation_fk")
