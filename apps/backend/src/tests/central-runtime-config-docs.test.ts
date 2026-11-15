@@ -12,6 +12,7 @@ const doc = readFileSync(path.join(lmsRoot, "docs/SKILLED-CENTRAL-RUNTIME-CONFIG
 const codeFiles = [
   "src/modules/auth/central-oidc-config.ts",
   "src/modules/auth/central-decision-transport.ts",
+  "src/modules/auth/central-link-assertion.ts",
 ].map((f) => readFileSync(path.resolve(here, "../..", f), "utf8")).join("\n");
 
 const entries = example

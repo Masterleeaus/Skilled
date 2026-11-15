@@ -23,6 +23,7 @@ export function mountCentralSso(app: Express, env: Env): boolean {
     clientSecret: env.CENTRAL_SSO_CLIENT_SECRET,
     jwksUri: env.CENTRAL_SSO_JWKS_URI,
     redirectUri: env.CENTRAL_SSO_REDIRECT_URI,
+    audience: env.CENTRAL_LMS_AUDIENCE,
   };
   const problems = centralSsoProblems(settings);
   if (problems.length > 0) throw new Error(`Central SSO is misconfigured: ${problems.join("; ")}`);
