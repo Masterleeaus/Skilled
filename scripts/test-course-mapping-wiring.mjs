@@ -19,9 +19,9 @@ const parseCsv = (text) => text.split(/\r?\n/).filter(Boolean).map((line) => {
   out.push(cur); return out;
 });
 
-// Verticals wired by this change. Tutoring (#152) has no lesson drafts yet and is intentionally not listed.
+// Verticals wired by this change, including tutoring (#152) shell lessons.
 const COURSES = {
-  'mobile-nails': 5, 'dog-training': 6, 'nutrition-consult': 5, 'shortstay-host': 4, 'makeup-artistry': 5,
+  'mobile-nails': 5, 'dog-training': 6, 'nutrition-consult': 5, 'shortstay-host': 4, 'makeup-artistry': 5, tutoring: 5,
 };
 
 const draftsBySlug = {};
