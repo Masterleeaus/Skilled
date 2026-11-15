@@ -23,6 +23,8 @@ export interface RevisionRecord { id: string; lessonId: string; status: string; 
 export interface DocumentRecord {
   id: string;
   templateResponseId: string;
+  /** Tenant company copied from the parent response when the document is created. */
+  companyId: string | null;
   version: number;
   contentHash: string;
   assembled: unknown;
@@ -33,6 +35,8 @@ export interface DocumentRecord {
 export interface SignOffRecord {
   id: string;
   templateResponseId: string;
+  /** Tenant company copied from the parent response when the sign-off is created. */
+  companyId: string | null;
   assessorId: string;
   decision: string;
   rubricResults: unknown;
