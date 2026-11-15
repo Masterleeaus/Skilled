@@ -5,38 +5,10 @@
  * publishable false under SkilledAt.Work V3.0). planPlacements() skips them, so no track or course placement is written
  * for them until the owner removes the slug from this list after verification.
  *
- * Source: /home/claude/work/cost-rule/passed.json (entries with verdict UNCLEAR, owner_override true). 31 slugs.
+ * Status: the owner approved all skilled courses on 2026-11-15 and removed the 31 slugs that were held here. The list is
+ * kept, empty, so the hold mechanism in planPlacements() stays available. This approval is the owner's statement; no
+ * expert sign-off document exists in the repo.
+ *
+ * Source of the removed entries: /home/claude/work/cost-rule/passed.json (verdict UNCLEAR, owner_override true). 31 slugs.
  */
-export const UNVERIFIED_COURSES_HOLD_LIST: readonly string[] = [
-  "appliance",
-  "beauty",
-  "commercial-and-office-cleaning",
-  "dogwalk",
-  "flat-pack-and-fixture-installation",
-  "furniture",
-  "garden-maintenance-and-clean-ups",
-  "groom",
-  "hair",
-  "handyman",
-  "healthcare-cleaning",
-  "high-risk",
-  "irrigation-servicing",
-  "landscaping",
-  "locksmith-and-door-installation",
-  "medical-equipment-cleaning",
-  "painting",
-  "petsit",
-  "plastering",
-  "pond",
-  "pool",
-  "pressure-cleaning-all-heights",
-  "pt",
-  "real-estate-portfolio-management",
-  "roof-soft-washing",
-  "solar-panel-cleaning",
-  "stone",
-  "tiling",
-  "timber",
-  "window-cleaning-all-heights",
-  "yoga",
-];
+export const UNVERIFIED_COURSES_HOLD_LIST: readonly string[] = [];

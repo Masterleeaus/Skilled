@@ -1,21 +1,20 @@
 "use client";
 
-import { useEffect, useState, type FormEvent } from "react";
+import { useState, type FormEvent } from "react";
 import Link from "next/link";
 import { AuthBrand } from "@/components/AuthBrand";
 import { resetPassword } from "@/lib/auth.api";
+import { useLocationSearch } from "@/hooks/useLocationSearch";
 
 export default function ResetPasswordPage() {
-  const [token, setToken] = useState<string | null>(null);
+  // null until the browser has read the URL (the "checking" state).
+  const search = useLocationSearch();
+  const token = search === null ? null : (new URLSearchParams(search).get("token") ?? "").trim();
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
   const [working, setWorking] = useState(false);
   const [complete, setComplete] = useState(false);
   const [error, setError] = useState("");
-
-  useEffect(() => {
-    setToken(new URLSearchParams(window.location.search).get("token")?.trim() ?? "");
-  }, []);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();

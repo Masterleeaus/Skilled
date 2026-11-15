@@ -95,7 +95,9 @@ export interface CentralServiceClient {
   request(input: CentralServiceRequest): Promise<Response>;
 }
 
-const TENANT_KEY = /^(organi[sz]ation(_?id)?|tenant(_?id)?|cohort(_?id)?)$/i;
+// Any key that names an organisation, tenant or cohort, in any casing or spelling, is refused. Central takes the tenant
+// from the verified token only, so a near-miss name such as organisationRef or org_id must not reach the network.
+const TENANT_KEY = /organi[sz]ation|tenant|cohort|^org(_?id)?$/i;
 const SAFE_PATH = /^\/[A-Za-z0-9_.~/-]{1,512}$/;
 const DISCOVERY_CACHE_MS = 300_000;
 const MAX_TOKEN_RESPONSE_BYTES = 16_384;
@@ -215,6 +217,8 @@ export function createCentralServiceClient({
 
   async function request({ method, path, query, body }: CentralServiceRequest): Promise<Response> {
     if (method !== "GET" && method !== "POST") throw new CentralServiceError("invalid_request");
+    // A GET has no body. Refusing it here keeps fetch's TypeError from being reported as api_unavailable.
+    if (method === "GET" && body !== undefined) throw new CentralServiceError("invalid_request");
     if (typeof path !== "string" || !SAFE_PATH.test(path) || path.includes("//")) throw new CentralServiceError("invalid_request");
     if (query !== undefined && (typeof query !== "object" || query === null)) throw new CentralServiceError("invalid_request");
     const queryKeys = Object.keys(query ?? {});
