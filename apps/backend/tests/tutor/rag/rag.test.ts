@@ -310,7 +310,10 @@ test('retrieveChunks with the platform id returns ranked curriculum passages end
 test('real curriculum builds with the same rules (skipped when the curriculum folder is absent)', { skip: !existsSync(path.join(REAL_ROOT, 'courses')) }, async () => {
   const strict = createCurriculumRetrievalStore({ allowRawFileIndex: true, curriculumRoot: REAL_ROOT });
   const withDrafts = createCurriculumRetrievalStore({ allowRawFileIndex: true, curriculumRoot: REAL_ROOT, includeDrafts: true });
-  assert.equal(strict.report.lessons_indexed + strict.report.lessons_excluded_draft, withDrafts.report.lessons_indexed);
+  // Draft lessons with no text (empty shells) are excluded in strict mode but counted as
+  // lessons_without_text when drafts are included, so add that difference back.
+  const draftsWithoutText = withDrafts.report.lessons_without_text - strict.report.lessons_without_text;
+  assert.equal(strict.report.lessons_indexed + strict.report.lessons_excluded_draft, withDrafts.report.lessons_indexed + draftsWithoutText);
   assert.ok(withDrafts.report.lessons_indexed > 0);
   const hits = await withDrafts.findCandidates({ companyId: PLATFORM, terms: ['hygiene'], limit: 1000 });
   assert.ok(hits.length > 0);
