@@ -4,6 +4,7 @@ import { AppError, UnauthorizedError, NotFoundError } from "../../utils/AppError
 import {
   signAccessToken,
   generateRefreshToken,
+  generateFamilyId,
   hashToken,
   generateShortToken,
   refreshExpiryDate,
@@ -44,6 +45,14 @@ async function revokeAllRefreshTokens(userId: string) {
   });
 }
 
+/** Revokes every live credential in one rotation chain. Used when a retired credential is presented again. */
+async function revokeRefreshFamily(familyId: string) {
+  await prisma.refreshToken.updateMany({
+    where: { familyId, isRevoked: false },
+    data: { isRevoked: true },
+  });
+}
+
 export async function registerUser(input: RegisterInput) {
   const existing = await prisma.user.findUnique({ where: { email: input.email } });
   if (existing) throw new AppError("Email already registered", 409);
@@ -57,7 +66,7 @@ export async function registerUser(input: RegisterInput) {
       email: input.email,
       passwordHash,
       role: "STUDENT",
-      emailVerifyToken,
+      emailVerifyToken: hashToken(emailVerifyToken),
       emailVerifyExpiresAt: new Date(Date.now() + EMAIL_TOKEN_TTL_MS),
     },
   });
@@ -68,13 +77,14 @@ export async function registerUser(input: RegisterInput) {
 }
 
 export async function verifyEmail(token: string) {
+  const tokenHash = hashToken(token);
   const user = await prisma.user.findFirst({
-    where: { emailVerifyToken: token, emailVerifyExpiresAt: { gt: new Date() } },
+    where: { emailVerifyToken: tokenHash, emailVerifyExpiresAt: { gt: new Date() } },
   });
   if (!user) throw new AppError("Invalid or expired verification token", 400);
 
   const consumed = await prisma.user.updateMany({
-    where: { id: user.id, emailVerifyToken: token, emailVerifyExpiresAt: { gt: new Date() } },
+    where: { id: user.id, emailVerifyToken: tokenHash, emailVerifyExpiresAt: { gt: new Date() } },
     data: { isEmailVerified: true, emailVerifyToken: null, emailVerifyExpiresAt: null },
   });
   if (consumed.count !== 1) throw new AppError("Invalid or expired verification token", 400);
@@ -96,6 +106,7 @@ export async function loginUser(input: LoginInput, deviceInfo?: string) {
     data: {
       userId: user.id,
       tokenHash: hash,
+      familyId: generateFamilyId(),
       deviceInfo: deviceInfo ?? "unknown",
       expiresAt: refreshExpiryDate(),
     },
@@ -108,15 +119,25 @@ export async function loginUser(input: LoginInput, deviceInfo?: string) {
   };
 }
 
-/** Rotate refresh credentials on each use to prevent replay of a stolen token. */
+/**
+ * Rotate refresh credentials on each use. Every credential in a rotation chain shares a familyId. A credential
+ * that was already rotated away is being presented again: that is reuse, so the whole family is revoked. A stolen
+ * copy then cannot keep a session alive alongside the legitimate one.
+ */
 export async function refreshAccessToken(refreshTokenRaw: string) {
   const hash = hashToken(refreshTokenRaw);
+  // Revoked rows are matched too: finding one here is reuse, not an ordinary miss.
   const stored = await prisma.refreshToken.findFirst({
-    where: { tokenHash: hash, isRevoked: false, expiresAt: { gt: new Date() } },
+    where: { tokenHash: hash },
     include: { user: true },
   });
 
   if (!stored) throw new UnauthorizedError("Invalid or expired refresh token");
+  if (stored.isRevoked) {
+    await revokeRefreshFamily(stored.familyId);
+    throw new UnauthorizedError("Invalid or expired refresh token");
+  }
+  if (stored.expiresAt <= new Date()) throw new UnauthorizedError("Invalid or expired refresh token");
   if (!isAccountEligible(stored.user)) {
     // A deleted account keeps no live sessions. Revoke what it holds, then refuse.
     if (stored.user.deletedAt) await revokeAllRefreshTokens(stored.userId);
@@ -126,22 +147,32 @@ export async function refreshAccessToken(refreshTokenRaw: string) {
   const { raw: rotatedToken, hash: rotatedHash } = generateRefreshToken();
   // The conditional write is our replay guard: concurrent requests cannot
   // both consume the same credential. Creation is in the same transaction so
-  // a failed insert does not revoke an otherwise valid session.
-  await prisma.$transaction(async (tx) => {
+  // a failed insert does not revoke an otherwise valid session. A request that
+  // loses the race has presented a credential that was just rotated, which is
+  // reuse. The family is revoked after the transaction returns, because a throw
+  // inside it would roll the revocation back.
+  const outcome = await prisma.$transaction(async (tx) => {
     const consumed = await tx.refreshToken.updateMany({
       where: { id: stored.id, tokenHash: hash, isRevoked: false, expiresAt: { gt: new Date() } },
       data: { isRevoked: true },
     });
-    if (consumed.count !== 1) throw new UnauthorizedError("Refresh token already used");
+    if (consumed.count !== 1) return "reused" as const;
     await tx.refreshToken.create({
       data: {
         userId: stored.userId,
         tokenHash: rotatedHash,
+        familyId: stored.familyId,
         deviceInfo: stored.deviceInfo,
         expiresAt: refreshExpiryDate(),
       },
     });
+    return "rotated" as const;
   });
+
+  if (outcome === "reused") {
+    await revokeRefreshFamily(stored.familyId);
+    throw new UnauthorizedError("Invalid or expired refresh token");
+  }
 
   return {
     accessToken: signAccessToken({ userId: stored.user.id, role: stored.user.role }),
@@ -176,7 +207,7 @@ export async function forgotPassword(email: string) {
   await prisma.user.update({
     where: { id: user.id },
     data: {
-      resetPasswordToken: resetToken,
+      resetPasswordToken: hashToken(resetToken),
       resetPasswordExpiresAt: new Date(Date.now() + RESET_TOKEN_TTL_MS),
     },
   });
@@ -185,8 +216,9 @@ export async function forgotPassword(email: string) {
 }
 
 export async function resetPassword(token: string, newPassword: string) {
+  const tokenHash = hashToken(token);
   const user = await prisma.user.findFirst({
-    where: { resetPasswordToken: token, resetPasswordExpiresAt: { gt: new Date() } },
+    where: { resetPasswordToken: tokenHash, resetPasswordExpiresAt: { gt: new Date() } },
   });
   if (!user || user.deletedAt) throw new AppError("Invalid or expired reset token", 400);
 
@@ -194,7 +226,7 @@ export async function resetPassword(token: string, newPassword: string) {
 
   await prisma.$transaction(async (tx) => {
     const consumed = await tx.user.updateMany({
-      where: { id: user.id, deletedAt: null, resetPasswordToken: token, resetPasswordExpiresAt: { gt: new Date() } },
+      where: { id: user.id, deletedAt: null, resetPasswordToken: tokenHash, resetPasswordExpiresAt: { gt: new Date() } },
       data: {
         passwordHash,
         resetPasswordToken: null,
