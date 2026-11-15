@@ -7,7 +7,7 @@ import tls from "node:tls";
 
 const frontendPort = Number(process.env.ACADEMY_FRONTEND_PORT ?? 3004);
 const backendPort = Number(process.env.ACADEMY_BACKEND_PORT ?? 5002);
-const domain = process.env.ACADEMY_DOMAIN ?? "academy.titanzero.io";
+const domain = process.env.ACADEMY_DOMAIN ?? "skilledat.work";
 
 function probe(command, args) {
   try {
