@@ -156,6 +156,10 @@ const envObjectSchema = z.object({
   if (!!values.SMTP_USER !== !!values.SMTP_PASSWORD) {
     context.addIssue({ code: "custom", path: ["SMTP_PASSWORD"], message: "SMTP_USER and SMTP_PASSWORD must be supplied together" });
   }
+  // Object storage carries uploads and private video. Production must reach it over TLS; there is no exception.
+  if (values.NODE_ENV === "production" && !values.MINIO_USE_SSL) {
+    context.addIssue({ code: "custom", path: ["MINIO_USE_SSL"], message: "Production object storage must use TLS: set MINIO_USE_SSL=true" });
+  }
   if (values.NODE_ENV === "production" && values.SMTP_TLS_MODE === "none") {
     context.addIssue({ code: "custom", path: ["SMTP_TLS_MODE"], message: "Production SMTP must use STARTTLS or implicit TLS" });
   }
