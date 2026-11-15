@@ -115,6 +115,7 @@ export class TemplateService {
       const previous = await tx.latestDocument(response.id);
       const document = await tx.createDocument({
         templateResponseId: response.id,
+        companyId: response.companyId,
         version: (previous?.version ?? 0) + 1,
         contentHash: assembled.contentHash,
         assembled: assembled.document,
@@ -182,6 +183,7 @@ export class TemplateService {
       const decidedAt = new Date();
       const signOff = await tx.createSignOff({
         templateResponseId: response.id,
+        companyId: response.companyId,
         assessorId,
         decision: input.decision,
         rubricResults: input.rubricResults,
@@ -241,7 +243,8 @@ export class TemplateService {
       return companyId;
     }
     const memberships = await this.store.listMemberships(learnerId);
-    if (memberships.length === 0) return null;
+    // Fail closed: a template response is tenant data, so it must always carry a company.
+    if (memberships.length === 0) throw new ForbiddenError("Organisation membership required");
     if (memberships.length === 1) return memberships[0].companyId;
     throw new ValidationError([{ fieldId: "companyId", message: "is required when you belong to more than one organisation" }], "Choose an organisation");
   }

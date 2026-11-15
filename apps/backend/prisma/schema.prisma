@@ -877,6 +877,8 @@ model Company {
   chatbots               AcademyChatbot[]
   chatbotConversations   AcademyChatbotConversation[]
   chatbotMessages        AcademyChatbotMessage[]
+  templateSignOffs       AcademyTemplateSignOff[]
+  templateDocuments      AcademyGeneratedDocument[]
 
   @@map("academy_companies")
 }
@@ -1108,9 +1110,13 @@ model AcademyTemplateSignOff {
   practicalEvidence   AcademyPracticalEvidence? @relation(fields: [practicalEvidenceId], references: [id], onDelete: Restrict)
   decidedAt           DateTime                  @default(now())
   document            AcademyGeneratedDocument?
+  // Tenant company copied from the parent template response. Nullable only for legacy rows (see migration 20261115120000).
+  companyId           String?
+  company             Company?                  @relation(fields: [companyId], references: [id], onDelete: Restrict)
 
   @@index([templateResponseId, decidedAt])
   @@index([assessorId])
+  @@index([companyId, templateResponseId])
   @@map("academy_template_sign_offs")
 }
 
@@ -1126,8 +1132,12 @@ model AcademyGeneratedDocument {
   signOff            AcademyTemplateSignOff? @relation(fields: [signOffId], references: [id], onDelete: Restrict)
   issuedAt           DateTime?
   createdAt          DateTime                @default(now())
+  // Tenant company copied from the parent template response. Nullable only for legacy rows (see migration 20261115120000).
+  companyId          String?
+  company            Company?                @relation(fields: [companyId], references: [id], onDelete: Restrict)
 
   @@unique([templateResponseId, version])
+  @@index([companyId, templateResponseId])
   @@map("academy_generated_documents")
 }
 
