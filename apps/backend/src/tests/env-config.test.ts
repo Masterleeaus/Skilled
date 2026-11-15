@@ -74,3 +74,37 @@ describe("Redis configuration keeps the password out of REDIS_URL", () => {
     expect(template).toMatch(/^REDIS_PASSWORD="/m);
   });
 });
+
+describe("NODE_ENV is never defaulted for a production-like deployment", () => {
+  const productionLike = { CLIENT_URL: "https://academy.example.test" };
+  const titanDatabase = { DATABASE_URL: "postgresql://titan_academy:fixture@127.0.0.1:5433/titan_academy?schema=public" };
+
+  it("refuses an unset NODE_ENV when CLIENT_URL is HTTPS", () => {
+    expect(failingPaths(parse(productionLike))).toContain("NODE_ENV");
+  });
+
+  it("refuses an unset NODE_ENV when DATABASE_URL names the titan_academy database", () => {
+    expect(failingPaths(parse(titanDatabase))).toContain("NODE_ENV");
+  });
+
+  it("accepts an unset NODE_ENV for a local HTTP configuration and runs it as development", () => {
+    const result = parse();
+    expect(result.success).toBe(true);
+    expect(result.success && result.data.NODE_ENV).toBe("development");
+  });
+
+  it("accepts an explicit NODE_ENV=development for an HTTPS origin", () => {
+    const result = parse({ ...productionLike, NODE_ENV: "development" });
+    expect(result.success).toBe(true);
+    expect(result.success && result.data.NODE_ENV).toBe("development");
+  });
+
+  it("keeps the production checks when NODE_ENV=production is set explicitly", () => {
+    expect(failingPaths(parse({ ...productionLike, NODE_ENV: "production" }))).toContain("DATABASE_URL");
+  });
+
+  it("the production template sets NODE_ENV explicitly", () => {
+    const template = readFileSync(path.resolve(__dirname, "../../../../.env.production.example"), "utf8");
+    expect(template).toMatch(/^NODE_ENV="production"$/m);
+  });
+});
