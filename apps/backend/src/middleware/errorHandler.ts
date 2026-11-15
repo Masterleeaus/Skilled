@@ -5,6 +5,19 @@ import { AppError } from "../utils/AppError";
 import { sendError } from "../utils/response";
 import { logger } from "../config/logger";
 
+// 5xx messages can carry operator hints or internal paths (for example configuration instructions), so production
+// clients get generic copy for them. Development keeps the original message for debugging.
+function serverErrorMessage(statusCode: number): string {
+  return statusCode === 503 ? "Service temporarily unavailable. Try again later." : "Internal server error";
+}
+
+// Body parser and other HTTP-layer errors (oversized body, malformed JSON) carry a 4xx status that is safe to return.
+function clientErrorStatus(err: unknown): number | undefined {
+  if (typeof err !== "object" || err === null) return undefined;
+  const { status, expose } = err as { status?: unknown; expose?: unknown };
+  return expose === true && typeof status === "number" && status >= 400 && status < 500 ? status : undefined;
+}
+
 export function errorHandler(
   err: unknown,
   req: Request,
@@ -16,6 +29,9 @@ export function errorHandler(
   if (err instanceof AppError) {
     if (!err.isOperational || err.statusCode >= 500) {
       logger.error(`${req.method} ${req.originalUrl} - ${err.message}`, { stack: err.stack });
+    }
+    if (err.statusCode >= 500 && process.env.NODE_ENV === "production") {
+      return sendError(res, serverErrorMessage(err.statusCode), err.statusCode);
     }
     return sendError(res, err.message, err.statusCode, err.errors);
   }
@@ -35,6 +51,11 @@ export function errorHandler(
     if (err.code === "P2025") {
       return sendError(res, "Record not found", 404);
     }
+  }
+
+  const httpStatus = clientErrorStatus(err);
+  if (httpStatus !== undefined) {
+    return sendError(res, err instanceof Error ? err.message : "Bad request", httpStatus);
   }
 
   // Unknown/unexpected errors
