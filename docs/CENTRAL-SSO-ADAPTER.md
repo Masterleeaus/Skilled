@@ -96,11 +96,30 @@ revocation acceptance criteria below remain prerequisites for rollout.
 | `CENTRAL_SSO_CLIENT_SECRET` | yes | 16 to 512 characters. Secret store only. Never in a ZIP, repository or browser. |
 | `CENTRAL_SSO_JWKS_URI` | yes | Exact https JWKS URL. Set explicitly; the JWKS path is not assumed. |
 | `CENTRAL_SSO_REDIRECT_URI` | yes | Exact registered callback URI (see above). |
+| `CENTRAL_LMS_AUDIENCE` | yes | LMS audience from the Central operator. Sent as `audience` on the authorization request. Printable, no spaces, max 200. Also used for service calls. |
 
 With the flag on and any value invalid, the service fails at startup. It does not start half-configured.
 
 Also required and already present: `CLIENT_URL` (post-login destination), `DATABASE_URL`, `REDIS_URL` (state
 store), `JWT_ACCESS_SECRET`, `JWT_REFRESH_SECRET`.
+
+## Service calls, feature flags and outbox events (#208, #209)
+
+Source-complete and tested against fakes. None of it is mounted or wired to a live Central.
+
+- `modules/central/central-service-client.ts`: client-credentials token (`grant_type=client_credentials`, `audience` set to `CENTRAL_LMS_AUDIENCE`, Basic client authentication). The token endpoint comes from discovery. A token whose `aud` is not the LMS audience, or that is expired, is refused and never cached. Tokens are cached and refreshed 60 seconds before expiry. Organisation, tenant and cohort parameters are refused in query or body before any network call. Config: `CENTRAL_SSO_ISSUER`, `CENTRAL_SERVICE_CLIENT_ID`, `CENTRAL_SERVICE_CLIENT_SECRET`, `CENTRAL_LMS_AUDIENCE`.
+- `modules/central/central-flags.ts`: `readFlag(name, declaredDefault, options)`. Every read has a local default. Resolution: organisation, then rollout, then global, then the default. Unreachable, slow or wrong-typed answers fall to the next source or the default. No source is wired in production, so reads return their defaults.
+- `modules/central/central-events.ts`: verifies `v1=` HMAC-SHA256 over `timestamp.eventId.rawBody` (headers `x-central-event-id`, `x-central-event-timestamp`, `x-central-event-signature`). Rejects unsigned, stale (over 300 s), future-dated, tampered and id-mismatched events. The idempotent handler runs once per event id. Config: `CENTRAL_EVENTS_HMAC_SECRET` (32 to 512 characters).
+
+**Unverified against Central (confirm before wiring):**
+
+- The authorization and client-credentials parameter name for the audience (`audience` is used; Logto also offers `resource`).
+- The event signing scheme and header names. Central's `docs/EVENTS.md` is not in this repository.
+- The flag read endpoint. It is a contract only in Central, so no call is made.
+- Event ordering per tenant. No sequence field is named by the contract yet.
+- The idempotency store is in-memory. Production needs a durable unique-key table, which needs a reviewed migration.
+- No route accepts outbox events yet. Mounting one needs the delivery URL from Central.
+- Global logout is not implemented in Central (see Limitations).
 
 ## Creating and removing links
 

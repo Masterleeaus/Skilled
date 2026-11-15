@@ -8,11 +8,28 @@ dotenv.config();
 // templates (apps/backend/.env.example) already meet them, so there is no dev exception.
 export const JWT_SECRET_MIN_LENGTH = 32;
 
-export const envSchema = z.object({
-  NODE_ENV: z.enum(["development", "production", "test"]).default("development"),
+/**
+ * True when the configuration describes a production-like deployment: an HTTPS frontend origin, or the dedicated
+ * titan_academy database. Used to refuse startup when NODE_ENV was left unset.
+ */
+function looksLikeProduction(values: { CLIENT_URL: unknown; DATABASE_URL: unknown }): boolean {
+  if (typeof values.CLIENT_URL === "string" && values.CLIENT_URL.startsWith("https://")) return true;
+  if (typeof values.DATABASE_URL !== "string") return false;
+  try {
+    return decodeURIComponent(new URL(values.DATABASE_URL).pathname.slice(1)) === "titan_academy";
+  } catch {
+    return false;
+  }
+}
+
+const envObjectSchema = z.object({
+  // No default: an unset NODE_ENV would turn off every production check. See the superRefine below.
+  NODE_ENV: z.enum(["development", "production", "test"]).optional(),
   PORT: z.coerce.number().int().min(1).max(65535).default(5000),
   HOST: z.string().default("127.0.0.1"),
   CLIENT_URL: z.string().url(),
+  // Comma-separated origins allowed to send state-changing auth requests. Empty means the CLIENT_URL origin.
+  AUTH_ALLOWED_ORIGINS: z.string().default(""),
 
   DATABASE_URL: z.string().min(1, "DATABASE_URL is required"),
   // Connection URL without credentials, for example redis://127.0.0.1:6379. The password goes in REDIS_PASSWORD.
@@ -51,6 +68,10 @@ export const envSchema = z.object({
     .min(101 * 1024 * 1024, "Must hold at least one maximum-size assignment submission")
     .default(512 * 1024 * 1024),
 
+  // File logs under the logs/ folder rotate when they reach LOG_FILE_MAX_BYTES. LOG_FILE_MAX_FILES bounds the rotated copies kept per file.
+  LOG_FILE_MAX_BYTES: z.coerce.number().int().min(64 * 1024).max(1024 * 1024 * 1024).default(10 * 1024 * 1024),
+  LOG_FILE_MAX_FILES: z.coerce.number().int().min(1).max(100).default(5),
+
   // Global per-client-IP ceiling across every API request, on top of the per-route limiters. /api/health is exempt.
   API_RATE_LIMIT_WINDOW_MS: z.coerce.number().int().min(1000).max(24 * 60 * 60 * 1000).default(15 * 60 * 1000),
   API_RATE_LIMIT_MAX: z.coerce.number().int().min(1).max(1_000_000).default(1000),
@@ -78,7 +99,16 @@ export const envSchema = z.object({
   CENTRAL_SSO_CLIENT_SECRET: z.string().optional().default(""),
   CENTRAL_SSO_JWKS_URI: z.string().optional().default(""),
   CENTRAL_SSO_REDIRECT_URI: z.string().optional().default(""),
+  // LMS audience from the Central operator. Required when CENTRAL_SSO_ENABLED=true; also used by service calls.
+  CENTRAL_LMS_AUDIENCE: z.string().optional().default(""),
 }).superRefine((values, context) => {
+  if (values.NODE_ENV === undefined && looksLikeProduction(values)) {
+    context.addIssue({
+      code: "custom",
+      path: ["NODE_ENV"],
+      message: "NODE_ENV must be set explicitly for a production-like deployment. It is not defaulted, because development turns off the production checks",
+    });
+  }
   if (values.JWT_ACCESS_SECRET === values.JWT_REFRESH_SECRET) {
     context.addIssue({ code: "custom", path: ["JWT_REFRESH_SECRET"], message: "JWT_ACCESS_SECRET and JWT_REFRESH_SECRET must be different" });
   }
@@ -100,6 +130,7 @@ export const envSchema = z.object({
     clientSecret: values.CENTRAL_SSO_CLIENT_SECRET,
     jwksUri: values.CENTRAL_SSO_JWKS_URI,
     redirectUri: values.CENTRAL_SSO_REDIRECT_URI,
+    audience: values.CENTRAL_LMS_AUDIENCE,
   })) {
     context.addIssue({ code: "custom", path: ["CENTRAL_SSO_ENABLED"], message });
   }
@@ -129,6 +160,10 @@ export const envSchema = z.object({
   if (!!values.SMTP_USER !== !!values.SMTP_PASSWORD) {
     context.addIssue({ code: "custom", path: ["SMTP_PASSWORD"], message: "SMTP_USER and SMTP_PASSWORD must be supplied together" });
   }
+  // Object storage carries uploads and private video. Production must reach it over TLS; there is no exception.
+  if (values.NODE_ENV === "production" && !values.MINIO_USE_SSL) {
+    context.addIssue({ code: "custom", path: ["MINIO_USE_SSL"], message: "Production object storage must use TLS: set MINIO_USE_SSL=true" });
+  }
   if (values.NODE_ENV === "production" && values.SMTP_TLS_MODE === "none") {
     context.addIssue({ code: "custom", path: ["SMTP_TLS_MODE"], message: "Production SMTP must use STARTTLS or implicit TLS" });
   }
@@ -137,12 +172,22 @@ export const envSchema = z.object({
   }
 });
 
+// An unset NODE_ENV that did not look like production runs as development, as before. Say so at startup.
+export const envSchema = envObjectSchema.transform((values) => ({
+  ...values,
+  NODE_ENV: values.NODE_ENV ?? ("development" as const),
+}));
+
 const parsed = envSchema.safeParse(process.env);
 
 if (!parsed.success) {
   console.error("❌ Invalid environment variables:");
   console.error(parsed.error.flatten().fieldErrors);
   process.exit(1);
+}
+
+if (process.env.NODE_ENV === undefined) {
+  console.warn("⚠️ NODE_ENV is not set; running as development. Set NODE_ENV=production for a production deployment.");
 }
 
 export const env = parsed.data;
