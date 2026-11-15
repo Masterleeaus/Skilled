@@ -7,14 +7,16 @@ import { createPublicKey, verify as verifySignature, type KeyObject } from "node
 import { CentralAuthError } from "./central-errors";
 
 /** RSA public key in JWK form, as published by the identity provider's JWKS. */
-interface RsaJwk {
+// A type alias (not an interface) so it is assignable to Node's JsonWebKey,
+// which has an index signature under @types/node 22.
+type RsaJwk = {
   kty: "RSA";
   kid: string;
   n: string;
   e: string;
   use?: string;
   alg?: string;
-}
+};
 
 export interface VerifiedIdToken {
   sub: string;
