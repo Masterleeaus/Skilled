@@ -1,0 +1,158 @@
+{
+  "id": "NEW-NAI-05",
+  "title": "Client consent, allergy checks and nail contraindications",
+  "courseSlugs": [
+    "mobile-nails"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Mobile nail technicians who take a client's consent and history before a nail service at the client's location",
+  "prerequisites": [
+    "NEW-NAI-01",
+    "NEW-NAI-04"
+  ],
+  "learningOutcomes": [
+    "Describe the consent and history steps the approved intake form requires before any nail service",
+    "Identify the signs that mean a nail service should not go ahead, and the steps to take when they appear",
+    "State which screening and contraindication content is UNCONFIRMED for this course and must be sourced before it is used"
+  ],
+  "referencesAtStart": "Official references for this lesson: Department of Health Victoria (personal care and body art guidelines, not read in full for this course). Screening and contraindication content is UNCONFIRMED until that guideline is read.",
+  "instruction": [
+    {
+      "heading": "Consent and the intake form",
+      "body": "Before any nail service, the technician takes the client's consent and a short history on the business's intake form. The form records the services requested, the products to be used, any allergy the client has reported, any medical condition the business has chosen to ask about, and any medication the client says affects the skin or nails. The client signs or confirms the form before the service starts, and the technician keeps the record with the visit. A form is not a substitute for a conversation: where the client's answers raise a concern, the technician stops and considers whether the service can go ahead. The content of the approved intake form is held in {{business:procedures.approved_sop}}, and it is not set by this lesson, because the screening content for nail services in Victoria has not been read in full."
+    },
+    {
+      "heading": "Signs that a service should not go ahead",
+      "body": "A nail service does not go ahead where the client's skin or nails show signs that the service would worsen, spread or hide a problem, or where the client's answers on the intake form raise a concern the technician cannot resolve. Examples the business may list include an open wound, broken or infected skin in the area to be worked on, redness, swelling or heat, and a nail condition the technician is not trained to assess. Whether a particular sign is a contraindication for a particular service is UNCONFIRMED for this course. The technician does not diagnose the cause of a sign. The technician declines the service, records what was seen in plain terms, and advises the client to seek advice from a health professional where the business's procedure says so."
+    },
+    {
+      "heading": "Allergy and product patch checks",
+      "body": "A client who reports an allergy to a product, or a reaction to a previous nail service, is not given that product until the business has checked the product's ingredients against the report and has decided how the service can go ahead. The business's procedure states whether a patch test is required for each product, and how long before the service it must be done. Whether a patch test for nail products is required in Victoria, and the timing and method for it, are UNCONFIRMED for this course. Where a product is changed, or a client reports a reaction, the technician records it on the client's file and reviews the product before the next visit. Skin reactions after a service are recorded and reported as the incident procedure directs."
+    }
+  ],
+  "procedure": [
+    "Take the client's consent and history on the intake form before any service starts",
+    "Ask about allergies and about any product reaction the client has had before",
+    "Check each product named in the service against the client's reported allergies",
+    "Inspect the skin and nails in the area to be worked on, and record what is seen in plain terms",
+    "Stop and decline the service where a sign, answer or product concern cannot be resolved under the procedure",
+    "Record the decision, the reason and the advice given to the client",
+    "After the service, record any reaction and follow the incident reporting procedure"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A client's intake form says she reacted to a nail product at a salon last year. She now asks for the same product.",
+      "decisionPrompt": "What should the technician do before the service?",
+      "reasoning": "The reported reaction is a concern the technician must resolve before using the product. The technician checks the product's ingredients against the reported reaction, follows the business's patch test rule for the product, and does not use the product if the concern is not resolved. The service may go ahead with a different product on the approved list, if the client agrees and the product is checked first. The decision, the reason and the advice given are recorded."
+    },
+    {
+      "situation": "At a home visit, a client has a small cut on the cuticle of the finger to be worked on. She says it does not hurt.",
+      "decisionPrompt": "Should the service go ahead on that finger?",
+      "reasoning": "Broken skin in the area to be worked on is a sign the business lists as a reason not to go ahead on that area. The technician does not work on the broken skin. The technician records the cut, advises the client to seek advice from a health professional where the procedure says so, and offers to work on other fingers only if the approved procedure allows it. Whether a cut of this kind is a contraindication for every nail service is UNCONFIRMED, so the business's procedure governs."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Intake form for consent and history, held on paper or offline",
+    "List of the products in the kit, with their ingredients and safety data sheets",
+    "Record of each client's reported allergies and product reactions",
+    "Gloves where the approved procedure requires them"
+  ],
+  "commonErrors": [
+    {
+      "error": "Starting the service before the intake form is signed or confirmed.",
+      "prevention": "Take consent and history first. Do not start the service until the form is complete."
+    },
+    {
+      "error": "Using a product the client has reported a reaction to because the client asks for it.",
+      "prevention": "Check the ingredients and the business's patch test rule. Do not use the product unless the concern is resolved."
+    },
+    {
+      "error": "Diagnosing a skin or nail sign rather than recording it and declining.",
+      "prevention": "Record what is seen in plain terms, decline where the procedure says so, and advise the client to seek advice."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The Department of Health Victoria states that beauty procedures can transmit infection and that its infection prevention guidelines apply. The screening, contraindication and patch-test content of those guidelines has not been read for this course.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Whether a patch test is required for nail products in Victoria or elsewhere, and the timing and method: UNCONFIRMED for this course.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Contraindications for specific nail services: UNCONFIRMED for this course. Do not state a contraindication as fact until it is sourced.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not qualify a technician to assess medical conditions, and does not authorise any treatment of broken or infected skin.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every client has a signed or confirmed intake form before any service",
+    "Every product is checked against the client's reported allergies before use",
+    "Every declined service is recorded with the reason and the advice given",
+    "Every screening or contraindication point not yet sourced is recorded as UNCONFIRMED"
+  ],
+  "documentationEvidence": [
+    "Intake form with consent, history and allergy answers, signed or confirmed",
+    "Record of product checks and any patch test required by the procedure",
+    "Record of each declined service, the reason and the advice given",
+    "Record of any reaction after a service, and the incident report"
+  ],
+  "summary": [
+    "Consent and history come first, on the approved intake form",
+    "A service does not go ahead where a sign or answer cannot be resolved",
+    "Products are checked against reported allergies before use",
+    "Screening and contraindication content is UNCONFIRMED until the Victorian guideline is read"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:materials.approved_products}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-NAI-05-K01",
+      "question": "When should the intake form be completed for a mobile nail service?",
+      "options": [
+        "After the service, when the client has time to read it",
+        "Before the service starts, and before any product is applied",
+        "Only if the client asks for a written record"
+      ]
+    },
+    {
+      "id": "NEW-NAI-05-K02",
+      "question": "A client has an open cut on the finger to be worked on. What is the correct action?",
+      "options": [
+        "Work on the finger carefully and cover the cut",
+        "Do not work on the broken skin, record it, and advise the client to seek advice where the procedure says so",
+        "Apply a product to the cut to help it heal"
+      ]
+    }
+  ],
+  "referencesAtEnd": "Official references, end of lesson: the Department of Health Victoria guideline, as listed in officialReferences.",
+  "officialReferences": [
+    {
+      "id": "R1",
+      "title": "Health guidelines for personal care and body art industries",
+      "url": "https://www.health.vic.gov.au/publications/health-guidelines-for-personal-care-and-body-art-industries",
+      "pageDate": "No date shown",
+      "checked": "2026-11-02",
+      "covers": "Victorian guideline (2019). Screening, contraindication and patch-test content not read for this course (MBEAU-VIC-05). Publisher: Department of Health Victoria."
+    }
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "R1 Department of Health Victoria, personal care and body art guidelines (2019); screening, contraindication and patch-test content not read. Rights: not held by user; reworded (no copying). Checked 2026-11-02 via MBEAU-VIC-05",
+    "Patch test requirement and timing for nail products: UNCONFIRMED",
+    "Contraindications for specific nail services: UNCONFIRMED"
+  ],
+  "reviewStatus": "NOT REVIEWED",
+  "requiresExpertReview": true
+}
