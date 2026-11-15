@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "generatedFor": [
+    "#17",
+    "#19",
+    "#20",
+    "#21",
+    "#24"
+  ],
+  "sourceDrafts": 1274,
+  "issue20UnmappedLessons": {
+    "count": 16,
+    "items": [
+      {
+        "id": "SFS-01",
+        "file": "curriculum/shared/app/SFS-01.json",
+        "title": "How a field job moves from request to finished visit",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-02",
+        "file": "curriculum/shared/app/SFS-02.json",
+        "title": "Service areas and their assigned workers",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-03",
+        "file": "curriculum/shared/app/SFS-03.json",
+        "title": "Opening hours, blocks and shifts",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-04",
+        "file": "curriculum/shared/app/SFS-04.json",
+        "title": "Job templates for repeat work",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-05",
+        "file": "curriculum/shared/app/SFS-05.json",
+        "title": "Jobs and their task lines",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-06",
+        "file": "curriculum/shared/app/SFS-06.json",
+        "title": "Equipment on site and planned maintenance",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-07",
+        "file": "curriculum/shared/app/SFS-07.json",
+        "title": "Visits: booking and status",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-08",
+        "file": "curriculum/shared/app/SFS-08.json",
+        "title": "Scheduling rules: priority, emergencies and dependencies",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-09",
+        "file": "curriculum/shared/app/SFS-09.json",
+        "title": "Changing the schedule: clashes, grouping and gaps",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-10",
+        "file": "curriculum/shared/app/SFS-10.json",
+        "title": "Dispatch: sending visits to workers",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-11",
+        "file": "curriculum/shared/app/SFS-11.json",
+        "title": "Workers: capacity, efficiency and preferences",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-12",
+        "file": "curriculum/shared/app/SFS-12.json",
+        "title": "Crews: working as a group",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-13",
+        "file": "curriculum/shared/app/SFS-13.json",
+        "title": "Time sheets, absences and daily routes",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-14",
+        "file": "curriculum/shared/app/SFS-14.json",
+        "title": "Parts and stock on the job",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-15",
+        "file": "curriculum/shared/app/SFS-15.json",
+        "title": "Working without signal in the field app",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      },
+      {
+        "id": "SFS-16",
+        "file": "curriculum/shared/app/SFS-16.json",
+        "title": "Service reports and customer sign-off",
+        "moduleTitle": "App: Field service operations (proposed module; not in curriculum/structure yet)"
+      }
+    ]
+  },
+  "issue19OutcomeGaps": {
+    "count": 0,
+    "items": []
+  },
+  "issue17SectionGaps": {
+    "count": 0,
+    "items": []
+  },
+  "issue24Classifications": {
+    "source": "curriculum/planning/LESSON-REUSE-CLASSIFICATION.csv",
+    "columns": [
+      "id",
+      "family",
+      "title",
+      "decision",
+      "target"
+    ],
+    "rows": 487,
+    "fieldCountMismatches": 0,
+    "columnsWithReviewerOrRationale": [],
+    "reviewedRows": 0,
+    "decisions": {
+      "General": 219,
+      "Specific": 85,
+      "Adapt": 99,
+      "Exclude": 84
+    },
+    "idsNotInCurrentDrafts": [
+      "F05-L04",
+      "C03-L02",
+      "F07-L02",
+      "F07-L04",
+      "C04-L02",
+      "F16-L02",
+      "F16-L04",
+      "F16-L05",
+      "F16-L06",
+      "F17-L06",
+      "F19-L02",
+      "F19-L03",
+      "F19-L04",
+      "S12-L01",
+      "S12-L02",
+      "S12-L04",
+      "S12-L05",
+      "S12-L06",
+      "S12-L07",
+      "F14-L03",
+      "F14-L06",
+      "S14-L01",
+      "S14-L02",
+      "S14-L06",
+      "additional-specialist-services-L02",
+      "additional-specialist-services-L03",
+      "additional-specialist-services-L05",
+      "additional-specialist-services-L06",
+      "additional-specialist-services-L07",
+      "additional-specialist-services-L08",
+      "additional-specialist-services-L09",
+      "additional-specialist-services-L11",
+      "aged-care-infection-control-L11",
+      "car-detailing-L05",
+      "car-detailing-L11",
+      "construction-site-cleaning-L09",
+      "construction-site-cleaning-L12",
+      "custom-eco-cleaning-products-L01",
+      "custom-eco-cleaning-products-L02",
+      "custom-eco-cleaning-products-L04",
+      "custom-eco-cleaning-products-L05",
+      "custom-eco-cleaning-products-L06",
+      "custom-eco-cleaning-products-L07",
+      "custom-eco-cleaning-products-L08",
+      "custom-eco-cleaning-products-L09",
+      "custom-eco-cleaning-products-L11",
+      "custom-eco-cleaning-products-L12",
+      "food-processing-sanitation-L02",
+      "food-processing-sanitation-L03",
+      "food-processing-sanitation-L04",
+      "food-processing-sanitation-L05",
+      "food-processing-sanitation-L06",
+      "food-processing-sanitation-L07",
+      "food-processing-sanitation-L11",
+      "garden-cleanups-L03",
+      "garden-cleanups-L05",
+      "high-access-window-cleaning-L07",
+      "industrial-degreasing-L04",
+      "industrial-degreasing-L07",
+      "industrial-degreasing-L08",
+      "industrial-degreasing-L11",
+      "kitchen-cleaning-L01",
+      "kitchen-cleaning-L03",
+      "kitchen-cleaning-L04",
+      "kitchen-cleaning-L12",
+      "kitchen-exhaust-L07",
+      "laboratory-cleaning-L03",
+      "laboratory-cleaning-L05",
+      "laboratory-cleaning-L07",
+      "laboratory-cleaning-L08",
+      "laboratory-cleaning-L11",
+      "medical-dental-clinic-L01",
+      "medical-dental-clinic-L02",
+      "medical-dental-clinic-L03",
+      "medical-dental-clinic-L04",
+      "medical-dental-clinic-L05",
+      "medical-dental-clinic-L06",
+      "medical-dental-clinic-L08",
+      "medical-dental-clinic-L10",
+      "medical-dental-clinic-L11",
+      "medical-dental-clinic-L12",
+      "medical-equipment-cleaning-L05",
+      "pool-cleaning-L05",
+      "pressure-cleaning-L07",
+      "pressure-cleaning-L08",
+      "property-maintenance-L01",
+      "property-maintenance-L07",
+      "roof-cleaning-soft-washing-L02",
+      "roof-cleaning-soft-washing-L04",
+      "roof-cleaning-soft-washing-L06",
+      "roof-cleaning-soft-washing-L10",
+      "solar-panel-cleaning-L03",
+      "solar-panel-cleaning-L04",
+      "solar-panel-cleaning-L06",
+      "warehouse-deep-cleaning-L07",
+      "warehouse-deep-cleaning-L09",
+      "warehouse-deep-cleaning-L11",
+      "warehouse-deep-cleaning-L12",
+      "F18-L03",
+      "F20-L01",
+      "F20-L02",
+      "F20-L03",
+      "F20-L04"
+    ]
+  },
+  "issue21Reconciliation": {
+    "source": "curriculum/planning/BRIEF-DRAFT-RECONCILIATION.csv",
+    "rows": 434,
+    "recordTypes": {
+      "POSSIBLE": 3,
+      "BRIEF_ONLY": 218,
+      "DRAFT_ONLY": 213
+    },
+    "uniqueBriefIdsListed": 221,
+    "uniqueDraftIdsListed": 216,
+    "confirmedMatches": 0,
+    "note": "Rows marked POSSIBLE are not counted as matches. Brief-side and draft-side totals are reported, not merged."
+  },
+  "humanReviewRequired": true
+}
