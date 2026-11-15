@@ -110,7 +110,7 @@ Names and placeholders only:
 
 | Variable | Required | Placeholder or rule |
 |---|---|---|
-| `NODE_ENV` | Yes (defaults to `development`) | `production` |
+| `NODE_ENV` | Yes. Not defaulted: startup is refused when it is unset and `CLIENT_URL` is HTTPS or `DATABASE_URL` names `titan_academy` | `production` |
 | `PORT` | No (default `5000`) | `<BACKEND_PORT>`. The 5002 candidate in the docs is **UNCONFIRMED**. |
 | `HOST` | No (default `127.0.0.1`) | `127.0.0.1` |
 | `CLIENT_URL` | Yes | `https://<FRONTEND_ORIGIN>`. Production requires HTTPS. |
