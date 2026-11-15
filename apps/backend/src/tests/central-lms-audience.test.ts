@@ -74,12 +74,13 @@ describe("sign-in authorization request carries the LMS audience (#205)", () => 
     const { authorizationUrl } = await client.begin(BINDING);
     const url = new URL(authorizationUrl);
     expect(url.origin + url.pathname).toBe(ISSUER + "/oidc/auth");
-    expect(url.searchParams.get("audience")).toBe(AUDIENCE);
+    expect(url.searchParams.get("resource")).toBe(AUDIENCE);
+    expect(url.searchParams.has("audience")).toBe(false);
     expect(url.searchParams.get("code_challenge_method")).toBe("S256");
     expect(url.searchParams.get("client_id")).toBe(valid.clientId);
   });
 
-  it("omits the audience parameter when no audience is configured", async () => {
+  it("omits the resource parameter when no audience is configured", async () => {
     const client = createCentralOidcClient({
       settings: { ...valid, audience: undefined },
       store: memoryStore(),
@@ -89,6 +90,7 @@ describe("sign-in authorization request carries the LMS audience (#205)", () => 
       fetcher: discoveryFetcher(),
     });
     const { authorizationUrl } = await client.begin(BINDING);
+    expect(new URL(authorizationUrl).searchParams.has("resource")).toBe(false);
     expect(new URL(authorizationUrl).searchParams.has("audience")).toBe(false);
   });
 });

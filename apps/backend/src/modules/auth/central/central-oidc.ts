@@ -193,8 +193,9 @@ export function createCentralOidcClient({
         code_challenge: sha256Base64url(verifier),
         code_challenge_method: "S256",
       };
-      // The LMS audience is operator-supplied (CENTRAL_LMS_AUDIENCE). The ID token audience check stays on the client ID.
-      if (settings.audience) params.audience = settings.audience;
+      // The LMS audience is operator-supplied (CENTRAL_LMS_AUDIENCE) and is sent as the `resource` parameter, not `audience`.
+      // The ID token audience check stays on the client ID.
+      if (settings.audience) params.resource = settings.audience;
       for (const [key, value] of Object.entries(params)) url.searchParams.set(key, value);
       return { authorizationUrl: url.href, expiresAt };
     },

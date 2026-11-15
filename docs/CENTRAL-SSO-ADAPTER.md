@@ -96,7 +96,7 @@ revocation acceptance criteria below remain prerequisites for rollout.
 | `CENTRAL_SSO_CLIENT_SECRET` | yes | 16 to 512 characters. Secret store only. Never in a ZIP, repository or browser. |
 | `CENTRAL_SSO_JWKS_URI` | yes | Exact https JWKS URL. Set explicitly; the JWKS path is not assumed. |
 | `CENTRAL_SSO_REDIRECT_URI` | yes | Exact registered callback URI (see above). |
-| `CENTRAL_LMS_AUDIENCE` | yes | LMS audience from the Central operator. Sent as `audience` on the authorization request. Printable, no spaces, max 200. Also used for service calls. |
+| `CENTRAL_LMS_AUDIENCE` | yes | LMS audience from the Central operator. Sent as `resource` on the authorization request (owner decision; staging proof still needed). Printable, no spaces, max 200. Also used for service calls. |
 
 With the flag on and any value invalid, the service fails at startup. It does not start half-configured.
 
@@ -113,7 +113,7 @@ Source-complete and tested against fakes. None of it is mounted or wired to a li
 
 **Unverified against Central (confirm before wiring):**
 
-- The authorization and client-credentials parameter name for the audience (`audience` is used; Logto also offers `resource`).
+- The client-credentials token request still names the audience as `audience`. The authorization request sends `resource`. Both parameter names need staging proof against Logto; Central's docs/CONFIG.md does not state either.
 - The event signing scheme and header names. Central's `docs/EVENTS.md` is not in this repository.
 - The flag read endpoint. It is a contract only in Central, so no call is made.
 - Event ordering per tenant. No sequence field is named by the contract yet.
