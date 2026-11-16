@@ -38,6 +38,12 @@ jobs:
       - name: Install dependencies (frozen lockfile)
         run: pnpm install --frozen-lockfile
 
+      - name: Validate ESLint 10 workspace and lockfile contract (issue #303)
+        run: node --test scripts/test-eslint-workspace-contract.mjs
+
+      - name: Lint backend and frontend with shared config
+        run: pnpm run lint
+
       - name: Auth route contracts
         run: node scripts/test-auth-route-contracts.mjs
 
