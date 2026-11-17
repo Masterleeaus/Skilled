@@ -9,11 +9,9 @@ import { execFileSync } from 'node:child_process';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const read=(p)=>readFileSync(join(root,p),'utf8');
 const require=createRequire(import.meta.url);
-let ts;
-try { ts=require(join(root,'apps/backend/node_modules/typescript')); }
-catch { ts=require(dirname(dirname(realpathSync(execFileSync('which',['tsc'],{encoding:'utf8'}).trim())))); }
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
 const service=read('apps/backend/src/modules/courses/course.service.ts');
-const compiled=ts.transpileModule(service,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+const compiled=transpileToCommonJs(service);
 const routes=read('apps/backend/src/modules/courses/course.routes.ts');
 const client=read('apps/frontend/src/lib/course-detail.api.ts');
 const pages=resolve(root,'apps/frontend/src/app/teacher');

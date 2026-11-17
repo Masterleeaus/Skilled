@@ -9,14 +9,10 @@ import { createRequire } from 'node:module';
 import { execFileSync } from 'node:child_process';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
-let ts;
-try { ts = require(join(root, 'apps/backend/node_modules/typescript')); }
-catch { ts = require(dirname(dirname(realpathSync(execFileSync('which', ['tsc'], { encoding: 'utf8' }).trim())))); }
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
 const filename = join(root, 'apps/backend/src/modules/certificates/certificate-eligibility.service.ts');
 const source = readFileSync(filename, 'utf8');
-const compiled = ts.transpileModule(source, {
-  compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
-}).outputText;
+const compiled = transpileToCommonJs(source);
 let checks = 0;
 function check(actual, expected, label) { assert.deepEqual(actual, expected, label); checks++; }
 const scenario = {

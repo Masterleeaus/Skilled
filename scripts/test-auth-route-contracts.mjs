@@ -8,11 +8,9 @@ import { createRequire } from 'node:module';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = f => readFileSync(path.join(root, f), 'utf8');
 const require = createRequire(import.meta.url);
-const ts = require(path.join(root, 'apps/backend/node_modules/typescript'));
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
 const emailModule = { exports: {} };
-const emailCode = ts.transpileModule(read('apps/backend/src/jobs/account-email-content.ts'), {
-  compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
-}).outputText;
+const emailCode = transpileToCommonJs(read('apps/backend/src/jobs/account-email-content.ts'));
 new Function('module', 'exports', emailCode)(emailModule, emailModule.exports);
 const mail = read('apps/backend/src/jobs/email.queue.ts');
 const api = read('apps/frontend/src/lib/auth.api.ts');

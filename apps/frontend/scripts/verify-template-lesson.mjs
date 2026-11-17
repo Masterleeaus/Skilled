@@ -7,7 +7,7 @@ import { dirname, join, resolve } from "node:path";
 import assert from "node:assert/strict";
 
 const require = createRequire(import.meta.url);
-const ts = require("typescript");
+import { transpileToCommonJs } from "../../../scripts/ts-transpile-helper.mjs";
 const srcRoot = resolve(new URL("../src/", import.meta.url).pathname);
 const cache = new Map();
 
@@ -20,10 +20,7 @@ function loadResolved(base) {
 
 function loadFile(file) {
   if (cache.has(file)) return cache.get(file).exports;
-  const { outputText } = ts.transpileModule(readFileSync(file, "utf8"), {
-    fileName: file,
-    compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, target: ts.ScriptTarget.ES2020, esModuleInterop: true },
-  });
+  const outputText = transpileToCommonJs(readFileSync(file, "utf8"), { fileName: file, jsx: file.endsWith(".tsx"), target: "es2020", esModuleInterop: true });
   const module = { exports: {} };
   cache.set(file, module);
   const localRequire = (specifier) => {
