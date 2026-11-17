@@ -1,3 +1,4 @@
+import { createPrismaAdapter } from "../src/config/prisma-adapter";
 /**
  * Idempotent, revision-safe Titan Academy curriculum brief import (ACA-009).
  *
@@ -61,7 +62,7 @@ async function main() {
     }));
     return;
   }
-  const prisma = new PrismaClient();
+  const prisma = new PrismaClient({ adapter: createPrismaAdapter() });
   try {
     const stats = await applyBriefImport(prisma, inventory);
     console.log(JSON.stringify({ sourceVersion: inventory.version, ...stats }));

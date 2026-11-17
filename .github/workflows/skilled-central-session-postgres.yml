@@ -50,7 +50,7 @@ jobs:
         run: |
           pnpm exec prisma validate
           pnpm exec prisma generate
-          pnpm exec prisma db push --skip-generate
+          pnpm exec prisma db push
       - name: Real two-tenant session, revocation and concurrent rotation checks
         working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-session-pg-*.test.ts --maxWorkers=4

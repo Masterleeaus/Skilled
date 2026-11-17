@@ -58,7 +58,7 @@ jobs:
         run: |
           pnpm exec prisma validate
           pnpm exec prisma generate
-          pnpm exec prisma db push --skip-generate
+          pnpm exec prisma db push
       - name: Verify links on PostgreSQL, native session lifecycle and stronger OIDC rules
         working-directory: apps/backend
         run: pnpm exec vitest run src/tests/central-sso-*.test.ts src/tests/central-oidc-*.test.ts src/tests/env-*.test.ts

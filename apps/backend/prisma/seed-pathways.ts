@@ -1,3 +1,4 @@
+import { createPrismaAdapter } from "../src/config/prisma-adapter";
 /**
  * Seeds the three role pathways from curriculum/structure/PATHWAYS.json. Idempotent.
  * Run from apps/backend: npx tsx prisma/seed-pathways.ts
@@ -8,7 +9,7 @@ import { resolve } from "node:path";
 import { PathwaysFile, seedPathways } from "../src/modules/pathways/pathway.seed";
 
 const source = resolve(__dirname, "../../../curriculum/structure/PATHWAYS.json");
-const prisma = new PrismaClient();
+const prisma = new PrismaClient({ adapter: createPrismaAdapter() });
 
 async function main() {
   const file = JSON.parse(readFileSync(source, "utf8")) as PathwaysFile;

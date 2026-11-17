@@ -1,3 +1,4 @@
+import { createPrismaAdapter } from "../src/config/prisma-adapter";
 /** Trusted offline provisioning. Never expose as a public API. */
 import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
@@ -65,7 +66,7 @@ export async function provision(raw: unknown, db: PrismaClient): Promise<string>
 }
 
 if (require.main === module) {
-  const db = new PrismaClient();
+  const db = new PrismaClient({ adapter: createPrismaAdapter() });
   (async () => {
     // Read JSON from stdin rather than argv so sensitive identifiers do not enter shell history.
     let input = "";

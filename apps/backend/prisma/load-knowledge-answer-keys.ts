@@ -1,3 +1,4 @@
+import { createPrismaAdapter } from "../src/config/prisma-adapter";
 /**
  * Loads server-side knowledge-check answer keys for every PUBLISHED lesson revision (PASS43).
  * Keys come from curriculum/assessments/<sourceId>.assessment.json, matched by lesson ID and check ID.
@@ -19,7 +20,7 @@ import { approvalProblem, parseApprovalRecords, type ApprovalRecords } from "../
 
 const curriculumRoot = resolve(__dirname, "../../../curriculum");
 const assessmentsDir = resolve(curriculumRoot, "assessments");
-const prisma = new PrismaClient();
+const prisma = new PrismaClient({ adapter: createPrismaAdapter() });
 
 /** Keys for one lesson file, or the reason the file is held. A held file loads no keys. */
 interface AssessmentState { keys: Map<string, AnswerKey> | null; hold: string | null }
