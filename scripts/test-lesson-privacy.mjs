@@ -9,16 +9,14 @@ import { execFileSync } from 'node:child_process';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const read=f=>readFileSync(join(root,f),'utf8');
 const require=createRequire(import.meta.url);
-let ts;
-try {ts=require(join(root,'apps/backend/node_modules/typescript'));}
-catch {ts=require(dirname(dirname(realpathSync(execFileSync('which',['tsc'],{encoding:'utf8'}).trim()))));}
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
 let checks=0;
 const check=(value,message)=>{assert.ok(value,message);checks++;};
 class NotFoundError extends Error {}
 let course={isPublished:false,deletedAt:null}, listings=0;
 const prisma={course:{findUnique:async()=>course},module:{findMany:async()=>{listings++;return [{id:'module'}];}}};
 const source=read('apps/backend/src/modules/courses/module.service.ts');
-const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+const compiled=transpileToCommonJs(source);
 const module={exports:{}};
 new Function('require','module','exports',compiled)((id)=>{
  if(id.endsWith('config/prisma'))return {prisma};
