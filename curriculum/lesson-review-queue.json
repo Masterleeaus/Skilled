@@ -4,109 +4,17 @@
   "policy": "Editorial queue only. No publication approvals or invented teaching content.",
   "summary": {
     "totalDrafts": 1046,
-    "requiringReview": 21,
+    "requiringReview": 16,
     "byPriority": {
-      "P0": 5,
+      "P0": 0,
       "P1": 0,
       "P2": 16
     },
     "byIssue": {
-      "no explicit learning outcomes": 5,
-      "no usable instructional sections": 5,
       "course mapping requires review": 16
     }
   },
   "lessons": [
-    {
-      "id": "NEW-TUT-01",
-      "title": "Tutoring scope, authority and qualifications",
-      "sourceFile": "curriculum/courses/tutoring/NEW-TUT-01.json",
-      "sourceHash": "e283d4a9455578a7c881505eecb184dae3a02bd2661294d5c8e98bb5f40a3c56",
-      "format": "full-authoring",
-      "priority": "P0",
-      "issues": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
-      ],
-      "suggestedAction": [
-        "Author measurable outcomes aligned to the original source and assessor requirements",
-        "Author and subject-matter-review genuine instructional content; do not fabricate from metadata"
-      ],
-      "reviewStatus": "needs-human-review",
-      "publicationApproved": false
-    },
-    {
-      "id": "NEW-TUT-02",
-      "title": "Working with children: checks, supervision and reporting",
-      "sourceFile": "curriculum/courses/tutoring/NEW-TUT-02.json",
-      "sourceHash": "863b1356b855ae152da4909e29e1938dc250c79d62843464ad153153a85bc33d",
-      "format": "full-authoring",
-      "priority": "P0",
-      "issues": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
-      ],
-      "suggestedAction": [
-        "Author measurable outcomes aligned to the original source and assessor requirements",
-        "Author and subject-matter-review genuine instructional content; do not fabricate from metadata"
-      ],
-      "reviewStatus": "needs-human-review",
-      "publicationApproved": false
-    },
-    {
-      "id": "NEW-TUT-03",
-      "title": "Pricing, contracts and growing a tutoring business",
-      "sourceFile": "curriculum/courses/tutoring/NEW-TUT-03.json",
-      "sourceHash": "ccbf5588eca9fb2c69092415e5280001bc9c4946d4ce634f4ea641a06ebc2628",
-      "format": "full-authoring",
-      "priority": "P0",
-      "issues": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
-      ],
-      "suggestedAction": [
-        "Author measurable outcomes aligned to the original source and assessor requirements",
-        "Author and subject-matter-review genuine instructional content; do not fabricate from metadata"
-      ],
-      "reviewStatus": "needs-human-review",
-      "publicationApproved": false
-    },
-    {
-      "id": "NEW-TUT-04",
-      "title": "Safe premises and home visits",
-      "sourceFile": "curriculum/courses/tutoring/NEW-TUT-04.json",
-      "sourceHash": "8e9908efc3f01838a1c572d497bfa044352989a6899bfc6c0df01a9eba98af9d",
-      "format": "full-authoring",
-      "priority": "P0",
-      "issues": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
-      ],
-      "suggestedAction": [
-        "Author measurable outcomes aligned to the original source and assessor requirements",
-        "Author and subject-matter-review genuine instructional content; do not fabricate from metadata"
-      ],
-      "reviewStatus": "needs-human-review",
-      "publicationApproved": false
-    },
-    {
-      "id": "NEW-TUT-05",
-      "title": "Incident records, complaints and safeguarding response",
-      "sourceFile": "curriculum/courses/tutoring/NEW-TUT-05.json",
-      "sourceHash": "6387410516cb58b7ea3e97c37f00bd120aa9bae22a36511956b1bd4f1a73ba23",
-      "format": "full-authoring",
-      "priority": "P0",
-      "issues": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
-      ],
-      "suggestedAction": [
-        "Author measurable outcomes aligned to the original source and assessor requirements",
-        "Author and subject-matter-review genuine instructional content; do not fabricate from metadata"
-      ],
-      "reviewStatus": "needs-human-review",
-      "publicationApproved": false
-    },
     {
       "id": "SFS-01",
       "title": "How a field job moves from request to finished visit",

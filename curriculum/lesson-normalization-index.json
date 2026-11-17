@@ -6,8 +6,6 @@
     "full-authoring": 1046
   },
   "blockers": {
-    "no explicit learning outcomes": 5,
-    "no usable instructional sections": 5,
     "course mapping requires review": 16
   },
   "lessons": [
@@ -17529,18 +17527,36 @@
       "id": "NEW-TUT-01",
       "title": "Tutoring scope, authority and qualifications",
       "sourceFile": "curriculum/courses/tutoring/NEW-TUT-01.json",
-      "sourceHash": "e283d4a9455578a7c881505eecb184dae3a02bd2661294d5c8e98bb5f40a3c56",
+      "sourceHash": "8f168ba0f7d57c5ebe4d24455f6abb227b14dadc569bd1ea1eef4fc9c0759612",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
         "tutoring"
       ],
-      "learningOutcomes": [],
-      "instructionSections": [],
-      "reviewBlockers": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
+      "learningOutcomes": [
+        "Describe what a tutor may and may not teach, and where the tutor's role stops and the school or the family's role starts.",
+        "Identify the kinds of qualification, registration or check that may apply to a tutoring role, and explain why the rule depends on the state or territory and on the work being done.",
+        "Record a written scope agreement with the client before the first session."
       ],
+      "instructionSections": [
+        {
+          "heading": "What the engagement covers",
+          "body": "A tutoring engagement is defined by its subject, the year level or skill, the goal the client has set, the place where sessions happen, and how often they run. Write each of these down before the first session. The tutor teaches the agreed subject to the agreed level and does not decide the school curriculum, change the learner's assessment tasks, or set goals the client has not agreed. If the client asks for something outside the agreement, such as help with a school assignment in a different subject, record the request and agree the change in writing before taking it on."
+        },
+        {
+          "heading": "Qualifications, registrations and checks",
+          "body": "Some tutoring roles need a teaching qualification, a registration, a working-with-children check, or insurance. Whether any of these apply depends on the state or territory, the setting (a private home, a tutoring centre, or an online session), the age of the learners, and whether the tutor works through an employer or on their own. This lesson does not state those requirements. Treat each one as UNCONFIRMED until the rule for the exact role has been checked against the current official source and recorded with the date checked. Keep the evidence of each qualification and check on file."
+        },
+        {
+          "heading": "The scope agreement",
+          "body": "Put the scope agreement in writing and have the client, or the parent or guardian of a learner under 18, sign or accept it through the business's recorded channel. It should state the subject and level, the goal, the session length and frequency, the location, who must be present for sessions with a minor, how progress is reported, and how either party can end the arrangement. Keep a copy with the client record. Review the agreement when the goal, the learner or the setting changes."
+        },
+        {
+          "heading": "When to decline or refer",
+          "body": "Some requests fall outside a tutor's role. These include diagnosing a learning or medical condition, giving legal or financial advice, and taking charge of a learner who has no adult supervision. Where a request falls outside the role, decline it in writing, or refer the client to the professional who can help, such as the learner's teacher, a psychologist or a speech pathologist. Record the request, the decision and the reason for it."
+        }
+      ],
+      "reviewBlockers": [],
       "publicationApproved": false,
       "originalStatus": "DRAFT"
     },
@@ -17548,18 +17564,36 @@
       "id": "NEW-TUT-02",
       "title": "Working with children: checks, supervision and reporting",
       "sourceFile": "curriculum/courses/tutoring/NEW-TUT-02.json",
-      "sourceHash": "863b1356b855ae152da4909e29e1938dc250c79d62843464ad153153a85bc33d",
+      "sourceHash": "f96615aa7d5f9ea434561ffaef0dd2224bdd046cbc422b0680b4fffc819242f2",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
         "tutoring"
       ],
-      "learningOutcomes": [],
-      "instructionSections": [],
-      "reviewBlockers": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
+      "learningOutcomes": [
+        "Explain why the check, supervision and reporting duties for a tutor depend on the jurisdiction and the role, and why this lesson does not state them for any state or territory.",
+        "Apply the supervision arrangement that the business owner and the expert reviewer have approved for the setting, and record it for each session.",
+        "Describe the steps to take when a child discloses harm or raises a concern, and identify who must be told."
       ],
+      "instructionSections": [
+        {
+          "heading": "Checks before contact with children",
+          "body": "Before a tutor works with a child, confirm whether a working-with-children check or an equivalent clearance is required for the role and the state or territory. Record the check type, the reference, the issue date and the expiry date, and set a reminder to renew before expiry. Do not begin unsupervised work with a child until the required check is confirmed. Where a check is not required, record the rule that was checked and the source it came from. The categories of check, and whether online or private-home tutoring falls under them, are UNCONFIRMED in this lesson."
+        },
+        {
+          "heading": "Supervision during sessions",
+          "body": "Plan each session so that the learner is never alone with the tutor where the business rules forbid it. Typical arrangements are a parent or guardian in the home, a session in a room with a door that stays open or a window onto a common area, or an online session with a second adult present. Record who was present, the start and finish times, and where the session took place. Supervision ratios and the arrangement for each setting are set by the business owner and confirmed by the expert reviewer. Keep all contact with a learner inside the business's recorded channel. Do not exchange private messages or social media contact with a learner."
+        },
+        {
+          "heading": "Mandatory reporting",
+          "body": "In some states and territories, certain adults must report a reasonable suspicion of child abuse or neglect to the child protection authority. Whether a tutor is one of those adults depends on the jurisdiction and the role, and this must be confirmed before the tutor starts work. Where a child is in immediate danger, call emergency services first. Where a concern is raised, write down the child's words as they were said, the date and time, and what was seen. Do not question the child beyond what is needed to understand what they said. Tell the business owner and follow the reporting route confirmed by the reviewer."
+        },
+        {
+          "heading": "Keeping the records",
+          "body": "Keep attendance, supervision and check records in the business's recorded system, with access limited to people who need them. Do not keep copies of a child's personal documents unless the business rules and the applicable law allow it. The retention period for these records is UNCONFIRMED and must be set by the business owner with the reviewer."
+        }
+      ],
+      "reviewBlockers": [],
       "publicationApproved": false,
       "originalStatus": "DRAFT"
     },
@@ -17567,18 +17601,36 @@
       "id": "NEW-TUT-03",
       "title": "Pricing, contracts and growing a tutoring business",
       "sourceFile": "curriculum/courses/tutoring/NEW-TUT-03.json",
-      "sourceHash": "ccbf5588eca9fb2c69092415e5280001bc9c4946d4ce634f4ea641a06ebc2628",
+      "sourceHash": "dc94f1e3c9d5a848498851496cd507eddf63f4798f8cf833e53eb90fcd6f71ce",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
         "tutoring"
       ],
-      "learningOutcomes": [],
-      "instructionSections": [],
-      "reviewBlockers": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
+      "learningOutcomes": [
+        "Set a session price and a package price that cover the tutor's preparation, travel, reporting and administration as well as teaching time, and show the client what each price includes.",
+        "Write cancellation, late-arrival and make-up terms, and get the client to accept them in writing before the first session.",
+        "Describe what an invoice must show, and set out a referral arrangement that the business can record and check."
       ],
+      "instructionSections": [
+        {
+          "heading": "Working out a session price",
+          "body": "A session price must cover more than the time spent with the learner. Add the time for preparation, marking, writing progress notes, travel and administration to the teaching time. For example, a tutor who teaches for one hour, prepares for thirty minutes and writes notes for fifteen minutes is working for one hour and forty-five minutes for that session, and the price should reflect that. Compare the rate with local rates taken from a published source, and record the source and the date checked. Do not set a price by copying a competitor's advertised rate without checking what that rate includes."
+        },
+        {
+          "heading": "Cancellation and make-up terms",
+          "body": "Write down the notice needed to cancel or move a session, what counts as a late cancellation or a no-show, whether a make-up session is offered, and how payment is treated in each case. The client should accept these terms in writing before the first session, and the accepted version should be kept with the client record. Whether these terms fit consumer law in the state or territory is UNCONFIRMED in this lesson and must be checked before the terms are used."
+        },
+        {
+          "heading": "Invoices and payment records",
+          "body": "Each invoice should show the business name and contact details, the client's name, the date, the service provided, the number of sessions, the rate, any amount due, and the payment terms. Whether the invoice must also carry a registration or tax number, or be issued as a tax invoice, depends on the tax registration of the business and is UNCONFIRMED here. Check it with the business's accountant or the official tax source. Record each payment against the invoice it pays, and keep the record for the period the business rules set."
+        },
+        {
+          "heading": "Referrals",
+          "body": "Ask for a referral only from a client who has been satisfied with the service, and record where each new client came from. Do not offer a payment, discount or gift for a referral until the wording, the cost and any tax treatment have been confirmed. Do not make promises about a learner's results in any marketing, including referral messages. Describe what the service does and what it includes."
+        }
+      ],
+      "reviewBlockers": [],
       "publicationApproved": false,
       "originalStatus": "DRAFT"
     },
@@ -17586,18 +17638,32 @@
       "id": "NEW-TUT-04",
       "title": "Safe premises and home visits",
       "sourceFile": "curriculum/courses/tutoring/NEW-TUT-04.json",
-      "sourceHash": "8e9908efc3f01838a1c572d497bfa044352989a6899bfc6c0df01a9eba98af9d",
+      "sourceHash": "c32cf80fb98db964acdcf60779b50b1127ed38c938d99e6740da4df9dcfceee4",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
         "tutoring"
       ],
-      "learningOutcomes": [],
-      "instructionSections": [],
-      "reviewBlockers": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
+      "learningOutcomes": [
+        "Identify hazards at a teaching premises or a home visit and decide whether a session can go ahead safely.",
+        "Follow a check-in and check-out routine for each home visit, and make sure someone outside the session knows where the tutor is.",
+        "Describe the immediate steps for an injury, a fire or a medical event during a session, and record what happened afterwards."
       ],
+      "instructionSections": [
+        {
+          "heading": "Checking the premises before the first session",
+          "body": "Before the first session, walk through the room where teaching will happen and the route to the exit. Look for blocked exits, trip hazards such as loose cables or rugs, unsafe power points, heaters or fires that are not guarded, animals that may need to be secured, and any locked or unsafe areas. Ask the client or parent to point out hazards the tutor may not know about. Do not teach in a room where an exit is blocked. Record the check, the date, the name of the person who gave access, and any hazard found and what was done about it."
+        },
+        {
+          "heading": "Home visits and travel",
+          "body": "Before each home visit, send the business owner or a named contact the address, the time of arrival and the expected finish time. On arrival, record the time and confirm the session is going ahead. On leaving, record the time and tell the contact the visit is finished. If the client does not answer, if the adult who should be present is absent, or if the setting becomes unsafe, leave and record the reason. Plan the route and parking in advance, and keep a charged phone with the emergency contact saved."
+        },
+        {
+          "heading": "Emergencies during a session",
+          "body": "In an emergency, make sure the people present are safe, then call emergency services. In Australia the number is 000. Give the address clearly and follow the instructions from the call handler. Whether first-aid training or a first-aid kit is required for the role is UNCONFIRMED in this lesson and must be checked. Once the emergency has been dealt with, tell the business owner, and write an incident record following the steps in NEW-TUT-05."
+        }
+      ],
+      "reviewBlockers": [],
       "publicationApproved": false,
       "originalStatus": "DRAFT"
     },
@@ -17605,18 +17671,36 @@
       "id": "NEW-TUT-05",
       "title": "Incident records, complaints and safeguarding response",
       "sourceFile": "curriculum/courses/tutoring/NEW-TUT-05.json",
-      "sourceHash": "6387410516cb58b7ea3e97c37f00bd120aa9bae22a36511956b1bd4f1a73ba23",
+      "sourceHash": "fa6c969211ae296412891f291c227fa4509e0391ca46f131eeb55227c5e74e90",
       "format": "full-authoring",
       "sourceLessonId": null,
       "courseIds": [
         "tutoring"
       ],
-      "learningOutcomes": [],
-      "instructionSections": [],
-      "reviewBlockers": [
-        "no explicit learning outcomes",
-        "no usable instructional sections"
+      "learningOutcomes": [
+        "Write an incident record that states the facts, the time, the people involved and the action taken, without guesses or opinion.",
+        "Handle a complaint through a set route, by acknowledging it, checking the facts and recording the outcome.",
+        "Respond to a safeguarding concern by following the reporting route and sharing information only with the people who need it."
       ],
+      "instructionSections": [
+        {
+          "heading": "What an incident record contains",
+          "body": "An incident record should give the date and time, the place, the people involved, what was seen or heard, what was done in response, and who was told. Keep facts separate from opinions, and write the words used by any person as closely as possible. Do not alter a record after it has been written. If something needs correcting or adding later, make a dated addition that shows who wrote it. Sign and date each record at the time it is made."
+        },
+        {
+          "heading": "Handling a complaint",
+          "body": "Acknowledge each complaint in writing within the time the business has stated. Listen to the complaint, check the facts against the session record, and decide what can be done within the scope the business has set. Do not promise a refund, a discount or a remedy unless the business owner has approved it in writing. Record the complaint, the facts checked, the outcome and the reply sent. If the client is not satisfied, explain how the complaint can be escalated, and record that too."
+        },
+        {
+          "heading": "Responding to a safeguarding concern",
+          "body": "A safeguarding concern may come from a disclosure by a child, something the tutor has seen, or a statement by an adult. If a child is in immediate danger, call emergency services first. Do not promise a child that what they tell you will be kept secret. Record the child's words as they were said, with the date and time. Do not question the child beyond what is needed to understand what was said. Tell the business owner at once and follow the reporting route confirmed by the expert reviewer, as set out in NEW-TUT-02."
+        },
+        {
+          "heading": "Keeping records private",
+          "body": "Keep incident, complaint and safeguarding records in the business's recorded system, with access limited to people who need them to act on the record. Do not discuss a safeguarding concern with the client or the wider family unless the reporting route requires it. How long these records must be kept, and what privacy rules apply to them, are UNCONFIRMED in this lesson and must be set by the business owner with the reviewer."
+        }
+      ],
+      "reviewBlockers": [],
       "publicationApproved": false,
       "originalStatus": "DRAFT"
     },
