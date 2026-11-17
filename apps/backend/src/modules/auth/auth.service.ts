@@ -133,6 +133,32 @@ export async function verifyEmail(token: string) {
   if (consumed.count !== 1) throw new AppError("Invalid or expired verification token", 400);
 }
 
+/**
+ * Issues a fresh verification token for an unverified account. Writing the new hash over the single stored column
+ * is what invalidates the previous link. Returns nothing: the caller answers the same way whatever happened here.
+ */
+export async function resendVerificationEmail(email: string) {
+  const user = await prisma.user.findUnique({ where: { email } });
+  // Unknown, deleted and already verified accounts get no token and no email.
+  if (!user || user.deletedAt || user.isEmailVerified) return;
+
+  const verifyToken = generateShortToken();
+  await prisma.user.update({
+    where: { id: user.id },
+    data: {
+      emailVerifyToken: hashToken(verifyToken),
+      emailVerifyExpiresAt: new Date(Date.now() + EMAIL_TOKEN_TTL_MS),
+    },
+  });
+
+  try {
+    await sendVerificationEmail(user.email, verifyToken);
+  } catch (err) {
+    // The token is already stored, so a retry can succeed. Log the error type only, never the address or token.
+    console.error("resend-verification: email enqueue failed", err instanceof Error ? err.name : "unknown");
+  }
+}
+
 export async function loginUser(input: LoginInput, deviceInfo?: string) {
   const user = await prisma.user.findUnique({ where: { email: input.email } });
   if (!user) throw new UnauthorizedError("Invalid email or password");
