@@ -163,6 +163,7 @@ model RefreshToken {
   userId     String
   user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   tokenHash  String
+  familyId   String   @default(cuid())
   deviceInfo String?
   isRevoked  Boolean  @default(false)
   // Set when this token was rotated into a successor. A rotated token presented again is a replay.
@@ -171,6 +172,7 @@ model RefreshToken {
   createdAt  DateTime @default(now())
 
   @@index([userId])
+  @@index([familyId])
   @@map("refresh_tokens")
 }
 

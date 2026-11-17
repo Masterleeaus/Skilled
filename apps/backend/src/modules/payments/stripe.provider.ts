@@ -30,7 +30,7 @@ export class StripeProvider implements PaymentProvider {
 
     const body: Stripe.Checkout.SessionCreateParams = {
       mode: "payment",
-      payment_method_types: ["card"],
+      allowed_payment_method_types: ["card"],
       line_items: [
         {
           price_data: {
