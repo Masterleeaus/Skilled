@@ -6,6 +6,7 @@ on:
       - 'apps/backend/src/tests/central-session-pg-*.test.ts'
       - 'apps/backend/src/tests/central-session-postgres.fixture.ts'
       - 'apps/backend/tsconfig.central-session-pg.json'
+      - '.github/actions/setup-node-pnpm/action.yml'
       - '.github/workflows/skilled-central-session-postgres.yml'
   push:
     branches: [Main, main]
@@ -14,6 +15,7 @@ on:
       - 'apps/backend/src/tests/central-session-pg-*.test.ts'
       - 'apps/backend/src/tests/central-session-postgres.fixture.ts'
       - 'apps/backend/tsconfig.central-session-pg.json'
+      - '.github/actions/setup-node-pnpm/action.yml'
   workflow_dispatch:
 permissions:
   contents: read
