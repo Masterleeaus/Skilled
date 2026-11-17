@@ -146,7 +146,7 @@ export async function resendVerificationEmail(email: string) {
   await prisma.user.update({
     where: { id: user.id },
     data: {
-      emailVerifyToken: hashToken(verifyToken),
+      emailVerifyToken: digestForm(verifyToken),
       emailVerifyExpiresAt: new Date(Date.now() + EMAIL_TOKEN_TTL_MS),
     },
   });

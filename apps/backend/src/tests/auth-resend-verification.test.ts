@@ -59,6 +59,12 @@ function unverifiedRow(overrides: Partial<Row> = {}): Row {
 /** Matches the subset of Prisma where-clauses the verification queries use: equality and a gt on dates. */
 function matches(row: Row, where: Record<string, unknown>): boolean {
   return Object.entries(where).every(([key, value]) => {
+    if (key === "OR") return (value as Record<string, unknown>[]).some((clause) => matches(row, clause));
+    if (key === "NOT") return !matches(row, value as Record<string, unknown>);
+    if (value && typeof value === "object" && "startsWith" in value) {
+      const current = row[key as keyof Row];
+      return typeof current === "string" && current.startsWith((value as { startsWith: string }).startsWith);
+    }
     if (value && typeof value === "object" && "gt" in value) {
       const current = row[key as keyof Row];
       return current instanceof Date && current > (value as { gt: Date }).gt;
@@ -144,7 +150,7 @@ describe("resendVerificationEmail (service)", () => {
     const raw = vi.mocked(sendVerificationEmail).mock.calls[0][1] as string;
     expect(raw).toMatch(/^[0-9a-f]{64}$/);
     expect(row.emailVerifyToken).not.toBe(raw);
-    expect(row.emailVerifyToken).toBe(hashToken(raw));
+    expect(row.emailVerifyToken).toBe(`sha256:${hashToken(raw)}`);
     expect(row.emailVerifyExpiresAt!.getTime()).toBeGreaterThanOrEqual(before + DAY_MS);
     expect(row.emailVerifyExpiresAt!.getTime()).toBeLessThanOrEqual(Date.now() + DAY_MS);
     expect(vi.mocked(sendVerificationEmail).mock.calls[0][0]).toBe("pending@example.com");
@@ -174,7 +180,7 @@ describe("resendVerificationEmail (service)", () => {
     await expect(resendVerificationEmail("pending@example.com")).resolves.toBeUndefined();
 
     const raw = vi.mocked(sendVerificationEmail).mock.calls[0][1] as string;
-    expect(row.emailVerifyToken).toBe(hashToken(raw));
+    expect(row.emailVerifyToken).toBe(`sha256:${hashToken(raw)}`);
     const logged = JSON.stringify(errorSpy.mock.calls);
     expect(logged).not.toContain(raw);
     expect(logged).not.toContain("pending@example.com");
