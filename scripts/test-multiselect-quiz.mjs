@@ -15,10 +15,8 @@ const migration = readFileSync(join(root, 'apps/backend/prisma/migrations/202611
 const frontend = readFileSync(join(root, 'apps/frontend/src/app/student/quizzes/[quizId]/page.tsx'), 'utf8');
 const validator = readFileSync(join(root, 'apps/backend/src/modules/quizzes/quiz.validators.ts'), 'utf8');
 const require = createRequire(import.meta.url);
-let ts;
-try { ts = require(join(root, 'apps/backend/node_modules/typescript')); }
-catch { ts = require(dirname(dirname(realpathSync(execFileSync('which',['tsc'],{encoding:'utf8'}).trim())))); }
-const js = ts.transpileModule(source, { compilerOptions: {module:ts.ModuleKind.CommonJS, target:ts.ScriptTarget.ES2022} }).outputText;
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
+const js = transpileToCommonJs(source);
 let checks = 0;
 const check = (test, message) => { assert.ok(test, message); checks++; };
 check(schema.includes('selectedOptionIds Json?       @map("selected_option_ids")'), 'Prisma JSON selectedOptionIds field');

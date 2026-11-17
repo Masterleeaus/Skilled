@@ -10,13 +10,11 @@ import { createRequire } from 'node:module';
 import { execFileSync } from 'node:child_process';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
-let ts;
-try { ts = require(join(root, 'apps/backend/node_modules/typescript')); }
-catch { ts = require(dirname(dirname(realpathSync(execFileSync('which', ['tsc'], { encoding: 'utf8' }).trim())))); }
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
 const source = readFileSync(join(root, 'apps/backend/src/modules/courses/video-upload.service.ts'), 'utf8');
 const routes = readFileSync(join(root, 'apps/backend/src/modules/courses/module.routes.ts'), 'utf8');
 const lessonSource = readFileSync(join(root, 'apps/backend/src/modules/courses/lesson.service.ts'), 'utf8');
-const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, esModuleInterop: true } }).outputText;
+const compiled = transpileToCommonJs(source, { esModuleInterop: true });
 let assertions = 0;
 function check(ok, msg) { assert.ok(ok, msg); assertions++; }
 let storageConfig, uploadedBytes, shouldFail = false;
