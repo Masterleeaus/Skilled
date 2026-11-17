@@ -1,3 +1,4 @@
+import { createPrismaAdapter } from "../src/config/prisma-adapter";
 import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcrypt";
@@ -26,7 +27,7 @@ try {
 }
 console.log(`Local demo target database: host=${target.host} name=${target.name}`);
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient({ adapter: createPrismaAdapter() });
 
 const DEMO_PASSWORD = "Password123!";
 

@@ -4,6 +4,7 @@ import { AppError, UnauthorizedError, NotFoundError } from "../../utils/AppError
 import {
   signAccessToken,
   generateRefreshToken,
+  generateFamilyId,
   hashToken,
   generateShortToken,
   refreshExpiryDate,
@@ -15,6 +16,14 @@ import { logger } from "../../config/logger";
 const SALT_ROUNDS = 12;
 const EMAIL_TOKEN_TTL_MS = 24 * 60 * 60 * 1000; // 24h
 const RESET_TOKEN_TTL_MS = 60 * 60 * 1000; // 1h
+
+/**
+ * Grace window for concurrent refreshes. Several tabs of one browser send the same refresh cookie at nearly the
+ * same moment. A rotated credential presented again inside this window is treated as a concurrent refresh, not as
+ * theft: it gets a fresh credential in the same family and the family stays alive. Presentations after the window
+ * are reuse and revoke the family. Default 5 seconds; lower it to tighten reuse detection, or set 0 to disable.
+ */
+export const REFRESH_REUSE_GRACE_MS = 5_000;
 
 /** The fields every token-issuing path reads. Matches the columns checked by authenticate middleware. */
 export interface AccountEligibilityFields {
@@ -43,6 +52,20 @@ async function revokeAllRefreshTokens(userId: string) {
     where: { userId, isRevoked: false },
     data: { isRevoked: true },
   });
+}
+
+/** Revokes every live credential in one rotation chain. Used when a retired credential is presented again. */
+async function revokeRefreshFamily(familyId: string) {
+  await prisma.refreshToken.updateMany({
+    where: { familyId, isRevoked: false },
+    data: { isRevoked: true },
+  });
+}
+
+/** True when a rotated credential was rotated recently enough to count as a concurrent refresh. */
+function withinReuseGrace(replacedAt: Date | null | undefined): boolean {
+  if (!replacedAt) return false;
+  return Date.now() - replacedAt.getTime() <= REFRESH_REUSE_GRACE_MS;
 }
 
 /**
@@ -110,6 +133,32 @@ export async function verifyEmail(token: string) {
   if (consumed.count !== 1) throw new AppError("Invalid or expired verification token", 400);
 }
 
+/**
+ * Issues a fresh verification token for an unverified account. Writing the new hash over the single stored column
+ * is what invalidates the previous link. Returns nothing: the caller answers the same way whatever happened here.
+ */
+export async function resendVerificationEmail(email: string) {
+  const user = await prisma.user.findUnique({ where: { email } });
+  // Unknown, deleted and already verified accounts get no token and no email.
+  if (!user || user.deletedAt || user.isEmailVerified) return;
+
+  const verifyToken = generateShortToken();
+  await prisma.user.update({
+    where: { id: user.id },
+    data: {
+      emailVerifyToken: digestForm(verifyToken),
+      emailVerifyExpiresAt: new Date(Date.now() + EMAIL_TOKEN_TTL_MS),
+    },
+  });
+
+  try {
+    await sendVerificationEmail(user.email, verifyToken);
+  } catch (err) {
+    // The token is already stored, so a retry can succeed. Log the error type only, never the address or token.
+    console.error("resend-verification: email enqueue failed", err instanceof Error ? err.name : "unknown");
+  }
+}
+
 export async function loginUser(input: LoginInput, deviceInfo?: string) {
   const user = await prisma.user.findUnique({ where: { email: input.email } });
   if (!user) throw new UnauthorizedError("Invalid email or password");
@@ -126,6 +175,7 @@ export async function loginUser(input: LoginInput, deviceInfo?: string) {
     data: {
       userId: user.id,
       tokenHash: hash,
+      familyId: generateFamilyId(),
       deviceInfo: deviceInfo ?? "unknown",
       expiresAt: refreshExpiryDate(),
     },
@@ -138,49 +188,115 @@ export async function loginUser(input: LoginInput, deviceInfo?: string) {
   };
 }
 
-/** Rotate refresh credentials on each use to prevent replay of a stolen token. */
+/**
+ * Issues a fresh credential in an existing family for a concurrent refresh inside the grace window. The successor
+ * issued by the first request cannot be returned again (only its hash is stored), so this creates a sibling. Both
+ * stay in the family. If the family has no live credential left, it was already revoked by another reuse, so it is
+ * not revived here.
+ */
+async function issueGraceSuccessor(stored: {
+  userId: string;
+  familyId: string;
+  deviceInfo: string | null;
+  user: { id: string; role: Parameters<typeof signAccessToken>[0]["role"] };
+}) {
+  const live = await prisma.refreshToken.count({
+    where: { familyId: stored.familyId, isRevoked: false, expiresAt: { gt: new Date() } },
+  });
+  if (live === 0) {
+    await revokeRefreshFamily(stored.familyId);
+    throw new UnauthorizedError("Invalid or expired refresh token");
+  }
+
+  const { raw: siblingToken, hash: siblingHash } = generateRefreshToken();
+  await prisma.refreshToken.create({
+    data: {
+      userId: stored.userId,
+      tokenHash: siblingHash,
+      familyId: stored.familyId,
+      deviceInfo: stored.deviceInfo,
+      expiresAt: refreshExpiryDate(),
+    },
+  });
+
+  return {
+    accessToken: signAccessToken({ userId: stored.user.id, role: stored.user.role }),
+    refreshToken: siblingToken,
+  };
+}
+
+/**
+ * Rotate refresh credentials on each use. Every credential in a rotation chain shares a familyId. A credential
+ * that was already rotated away is being presented again: that is reuse, so the whole family is revoked. A stolen
+ * copy then cannot keep a session alive alongside the legitimate one. A rotated credential presented again within
+ * REFRESH_REUSE_GRACE_MS is a concurrent refresh and is not treated as reuse.
+ */
 export async function refreshAccessToken(refreshTokenRaw: string) {
   const hash = hashToken(refreshTokenRaw);
-  // Rotated rows stay in the table (revoked, with replacedAt set), so a replay is recognised here.
+  // Revoked rows are matched too: finding one here is reuse, unless it is inside the grace window.
   const stored = await prisma.refreshToken.findFirst({
     where: { tokenHash: hash },
     include: { user: true },
   });
 
   if (!stored) throw new UnauthorizedError("Invalid or expired refresh token");
-  if (stored.replacedAt) {
-    // A token that was already rotated has been presented again, so a copy of it exists outside this device.
-    // Revoke every live refresh credential of the user, which ends the whole session family, then refuse.
-    logger.warn("Refresh token replay detected; revoking all sessions for the user", { userId: stored.userId });
-    await revokeAllRefreshTokens(stored.userId);
+
+  const inGrace = stored.isRevoked && withinReuseGrace(stored.replacedAt);
+  if (stored.isRevoked && !inGrace) {
+    // Only a rotated credential presented again is reuse. A logged-out credential is refused, and logout is not a
+    // rotation, so it revokes nothing.
+    if (stored.replacedAt) {
+      logger.warn("Refresh token reuse detected; revoking token family", { userId: stored.userId });
+      await revokeRefreshFamily(stored.familyId);
+    }
     throw new UnauthorizedError("Invalid or expired refresh token");
   }
-  if (stored.isRevoked || stored.expiresAt <= new Date()) throw new UnauthorizedError("Invalid or expired refresh token");
+  if (stored.expiresAt <= new Date()) throw new UnauthorizedError("Invalid or expired refresh token");
   if (!isAccountEligible(stored.user)) {
     // A deleted account keeps no live sessions. Revoke what it holds, then refuse.
     if (stored.user.deletedAt) await revokeAllRefreshTokens(stored.userId);
     throw new UnauthorizedError("Invalid or expired refresh token");
   }
 
+  if (inGrace) return issueGraceSuccessor(stored);
+
   const { raw: rotatedToken, hash: rotatedHash } = generateRefreshToken();
   // The conditional write is our replay guard: concurrent requests cannot
   // both consume the same credential. Creation is in the same transaction so
-  // a failed insert does not revoke an otherwise valid session.
-  await prisma.$transaction(async (tx) => {
+  // a failed insert does not revoke an otherwise valid session. A request that
+  // loses the race has presented a credential that was just rotated by a
+  // concurrent request, so it is inside the grace window. The family is revoked
+  // after the transaction returns, because a throw inside it would roll the
+  // revocation back.
+  const outcome = await prisma.$transaction(async (tx) => {
     const consumed = await tx.refreshToken.updateMany({
       where: { id: stored.id, tokenHash: hash, isRevoked: false, expiresAt: { gt: new Date() } },
       data: { isRevoked: true, replacedAt: new Date() },
     });
-    if (consumed.count !== 1) throw new UnauthorizedError("Refresh token already used");
+    if (consumed.count !== 1) return "reused" as const;
     await tx.refreshToken.create({
       data: {
         userId: stored.userId,
         tokenHash: rotatedHash,
+        familyId: stored.familyId,
         deviceInfo: stored.deviceInfo,
         expiresAt: refreshExpiryDate(),
       },
     });
+    return "rotated" as const;
   });
+
+  if (outcome === "reused") {
+    // Lost the race to a concurrent request. Only the winner's rotation stamped replacedAt, so it decides.
+    const current = await prisma.refreshToken.findUnique({
+      where: { id: stored.id },
+      select: { replacedAt: true },
+    });
+    if (withinReuseGrace(current?.replacedAt ?? null)) return issueGraceSuccessor(stored);
+    logger.warn("Refresh token reuse detected; revoking token family", { userId: stored.userId });
+    await revokeRefreshFamily(stored.familyId);
+    throw new UnauthorizedError("Invalid or expired refresh token");
+  }
 
   return {
     accessToken: signAccessToken({ userId: stored.user.id, role: stored.user.role }),

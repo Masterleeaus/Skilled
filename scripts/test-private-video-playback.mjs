@@ -9,11 +9,9 @@ import { execFileSync } from 'node:child_process';
 import { Readable, Writable } from 'node:stream';
 const require = createRequire(import.meta.url);
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-let ts;
-try {ts = require(resolve(root,'apps/backend/node_modules/typescript'));}
-catch {ts = require(dirname(dirname(realpathSync(execFileSync('which',['tsc'],{encoding:'utf8'}).trim()))));}
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
 const source = readFileSync(resolve(root,'apps/backend/src/modules/courses/video-playback.service.ts'), 'utf8');
-const compiled = ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText;
+const compiled = transpileToCommonJs(source, { esModuleInterop: true });
 let checks=0; const check=(condition,msg)=>{assert.ok(condition,msg);checks++;};
 class AppError extends Error { constructor(msg, status){super(msg);this.status=status;} }
 let signedClaims, verificationOptions;
@@ -81,9 +79,11 @@ res=await run('GET','bytes=50-55');check(res.statusCode===416&&res.headers['cont
 await assert.rejects(()=>run('GET','bytes=0-1').then(()=>streamPrivateVideo({method:'GET',headers:{}},new MockResponse(),'certificates/private.pdf')),e=>e.status===404);checks++;
 const route=readFileSync(resolve(root,'apps/backend/src/modules/courses/module.routes.ts'),'utf8');
 check(route.includes('await authorizedLessonMedia(req.params.lessonId, userId, "videoUrl")'), 'Every stream validates database access');
-check(route.includes('httpOnly: true'), 'Grant stored HttpOnly');
+// HttpOnly now comes from the shared cookieOptions helper, which the route calls.
+const cookieHelper = readFileSync(resolve(root,'apps/backend/src/utils/cookie-options.ts'),'utf8');
+check(route.includes('cookieOptions({') && cookieHelper.includes('httpOnly: true'), 'Grant stored HttpOnly');
 check(route.includes('sameSite: "strict"'), 'Cookie same-site strict');
-check(route.includes('maxAge: 60 * 60 * 1000'), 'Cookie expiry matches grant expiry');
+check(route.includes('maxAgeMs: 60 * 60 * 1000'), 'Cookie expiry matches grant expiry');
 check(route.includes('path: playbackCookiePath(req.params.lessonId)'), 'Response uses per-lesson path');
 check(!route.includes('getVideoPresignedUrl'), 'No presigned internal object URL exposed');
 console.log(`PASS: ${checks} executable private-video grants, range streaming and access-control assertions`);

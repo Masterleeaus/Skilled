@@ -25,19 +25,8 @@ check(/CREATE UNIQUE INDEX "answers_attemptId_questionId_key"/.test(migration), 
 check(/WHERE "status" = 'IN_PROGRESS'/.test(migration), 'partial active attempt uniqueness');
 check((preflight.match(/HAVING COUNT\(\*\) > 1/g) || []).length === 2, 'two duplicate preflight checks');
 
-let typescript;
-try {
-  const req = createRequire(import.meta.url);
-  try { typescript = req(join(root, 'apps/backend/node_modules/typescript')); }
-  catch {
-    const tsc = realpathSync(execFileSync('which', ['tsc'], {encoding: 'utf8'}).trim());
-    typescript = req(dirname(dirname(tsc)));
-  }
-} catch {
-  console.log(`PASS: ${checks} source and migration assertions; runtime mock execution SKIPPED (TypeScript compiler unavailable)`);
-  process.exit(0);
-}
-const js = typescript.transpileModule(source, {compilerOptions:{module:typescript.ModuleKind.CommonJS,target:typescript.ScriptTarget.ES2022}}).outputText;
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
+const js = transpileToCommonJs(source);
 class AppError extends Error { constructor(message, statusCode=400){super(message);this.statusCode=statusCode;} }
 class ForbiddenError extends AppError {}
 class NotFoundError extends AppError {}

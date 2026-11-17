@@ -31,7 +31,20 @@ export async function assertCanViewCourseLiveClasses(courseId: string, userId: s
 
 export async function listLiveClassesForCourse(courseId: string, userId: string, role: Role) {
   await assertCanViewCourseLiveClasses(courseId, userId, role);
-  return prisma.liveClass.findMany({ where: { courseId }, orderBy: { scheduledAt: "asc" } });
+  const classes = await prisma.liveClass.findMany({ where: { courseId }, orderBy: { scheduledAt: "asc" } });
+
+  // Keep the session's scheduling metadata visible to authorised learners, but never
+  // return a usable join URL after it has ended or been cancelled. A cancelled
+  // recording must not be disclosed as an accidental attachment.
+  return classes.map((liveClass) => {
+    if (liveClass.status === "CANCELLED") {
+      return { ...liveClass, meetingLink: null, recordingUrl: null };
+    }
+    if (liveClass.status === "ENDED") {
+      return { ...liveClass, meetingLink: null };
+    }
+    return liveClass;
+  });
 }
 
 async function getLiveClassOrThrow(id: string) {

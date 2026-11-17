@@ -8,11 +8,9 @@ import { createRequire } from 'node:module';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = f => readFileSync(path.join(root, f), 'utf8');
 const require = createRequire(import.meta.url);
-const ts = require(path.join(root, 'apps/backend/node_modules/typescript'));
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
 const emailModule = { exports: {} };
-const emailCode = ts.transpileModule(read('apps/backend/src/jobs/account-email-content.ts'), {
-  compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
-}).outputText;
+const emailCode = transpileToCommonJs(read('apps/backend/src/jobs/account-email-content.ts'));
 new Function('module', 'exports', emailCode)(emailModule, emailModule.exports);
 const mail = read('apps/backend/src/jobs/email.queue.ts');
 const api = read('apps/frontend/src/lib/auth.api.ts');
@@ -47,6 +45,8 @@ check(login.includes('href="/forgot-password"'), 'Login links to recovery');
 check(registration.includes('registerUser(values)'), 'Registration uses restricted API payload');
 check(validators.includes('z.literal("STUDENT").optional()'), 'Public registration schema restricts assigned roles');
 check(authService.includes('role: "STUDENT"'), 'Service forces unprivileged role');
+check(routes.includes('router.post("/resend-verification", resendIpLimiter, resendEmailLimiter, authController.resendVerification)'), 'Resend verification route is limited per IP and per email');
+check(authService.includes('if (!user || user.deletedAt || user.isEmailVerified) return;'), 'Resend verification issues nothing for unknown, deleted or verified accounts');
 // Account state is checked through the shared eligibility helper, which requires not deleted, active and verified.
 check(authService.split('export async function refreshAccessToken(')[1].includes('isAccountEligible(stored.user)') && authService.includes('return !user.deletedAt && user.isActive && user.isEmailVerified;'), 'Refresh validates active verified user');
 console.log(`PASS: ${count} static account-recovery and registration security route assertions`);

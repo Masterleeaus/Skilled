@@ -9,13 +9,9 @@ import { createRequire } from 'node:module';
 import { execFileSync } from 'node:child_process';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
-let ts;
-try { ts = require(join(root,'apps/backend/node_modules/typescript')); }
-catch { ts = require(dirname(dirname(realpathSync(execFileSync('which',['tsc'],{ encoding:'utf8' }).trim())))); }
+import { transpileToCommonJs } from './ts-transpile-helper.mjs';
 const file = (p) => readFileSync(join(root,p),'utf8');
-const compile = (src) => ts.transpileModule(src, {
-  compilerOptions: { module:ts.ModuleKind.CommonJS, target:ts.ScriptTarget.ES2022 },
-}).outputText;
+const compile = (src) => transpileToCommonJs(src);
 let checks=0;
 const check=(cond,label)=>{assert.ok(cond,label); checks++;};
 class AppError extends Error { constructor(message,status=400){super(message);this.status=status;} }

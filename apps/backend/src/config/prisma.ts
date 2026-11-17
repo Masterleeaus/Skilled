@@ -1,4 +1,5 @@
 import { PrismaClient } from "@prisma/client";
+import { createPrismaAdapter } from "./prisma-adapter";
 import { logger } from "./logger";
 
 declare global {
@@ -12,6 +13,7 @@ const softDeleteData = (model: string) => (model === "User" ? { deletedAt: new D
 
 function createPrismaClient() {
   const client = new PrismaClient({
+    adapter: createPrismaAdapter(),
     log: [
       { emit: "event", level: "error" },
       { emit: "event", level: "warn" },
