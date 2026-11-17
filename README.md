@@ -1,5 +1,8 @@
 # SkilledAt.Work
 
+> **Titan Zero suite:** SkilledAt.Work is the training app upgrade. It is available with every Titan Zero plugin, alongside the AI Assistant and AI Agent Team upgrades and the other three app upgrades (SuperchargedAt.Work, SortedAt.Work and ScheduledAt.Work). The description below is the repository's existing text. Its production status note still applies.
+
+
 The repository root is the pnpm workspace. Use `apps/backend`, `apps/frontend`, `packages` and `curriculum` directly. `Main` is the case-sensitive GitHub default branch. Canonical media remains in `brand/` and `library/`; frontend predev/prebuild prepares its public copies. See [consolidation details](docs/REPOSITORY-CONSOLIDATION.md).
 
 > **SkilledAt.Work production safety (Pass 43):** This repository contains a separately staged, unverified production candidate. **Do not run** `docker compose up` or inherited bootstrap scripts on an existing DirectAdmin server. The original developer Compose configuration is saved as `docker-compose.local-dev.yml` and is not suitable for production. See [Academy production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md).
