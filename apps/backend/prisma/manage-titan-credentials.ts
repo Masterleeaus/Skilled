@@ -1,7 +1,8 @@
+import { createPrismaAdapter } from "../src/config/prisma-adapter";
 /** Operator-only CLI. JSON stdin: {action:"create"|"revoke"|"rotate"|"list",service,companyRef,label?,days?,id?} */
 import { randomBytes, createHash } from "node:crypto";
 import { PrismaClient } from "@prisma/client";
-const prisma = new PrismaClient();
+const prisma = new PrismaClient({ adapter: createPrismaAdapter() });
 async function main() {
   const chunks: Buffer[] = [];
   for await (const chunk of process.stdin) chunks.push(Buffer.from(chunk));

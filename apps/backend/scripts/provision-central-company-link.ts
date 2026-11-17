@@ -1,3 +1,4 @@
+import { createPrismaAdapter } from "../src/config/prisma-adapter";
 /** Offline operator CLI. Authenticated shell/operator access required.
  * Reads one JSON command from stdin; never invoked from a browser endpoint.
  */
@@ -12,7 +13,7 @@ async function main(){
     input+=part.toString();
     if(input.length>4096)throw new Error("Input too large");
   }
-  const db=new PrismaClient();
+  const db=new PrismaClient({ adapter: createPrismaAdapter() });
   try{
     const result=await applyCentralLinkCommand(JSON.parse(input),db);
     console.log(JSON.stringify({outcome:result}));

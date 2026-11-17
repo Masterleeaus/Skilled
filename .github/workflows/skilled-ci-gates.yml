@@ -135,7 +135,7 @@ jobs:
         run: |
           pnpm exec prisma validate
           pnpm exec prisma generate
-          pnpm exec prisma db push --skip-generate
+          pnpm exec prisma db push
 
       - name: Full backend vitest run
         run: pnpm --filter @lms/backend exec vitest run

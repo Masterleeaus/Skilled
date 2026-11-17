@@ -1,3 +1,4 @@
+import { createPrismaAdapter } from "../config/prisma-adapter";
 /** Database-backed two-tenant Central session fixture, confined to disposable CI Postgres.
  * Every scenario gets unique identities; cleanup never touches other fixtures.
  */
@@ -6,7 +7,7 @@ import {PrismaClient} from "@prisma/client";
 import {createSkilledCentralSessionStore} from "../modules/auth/central-session-store";
 export type Fixture = Awaited<ReturnType<typeof createFixture>>;
 export async function createFixture(){
- const db=new PrismaClient();
+ const db=new PrismaClient({ adapter: createPrismaAdapter() });
  await db.$connect();
  const id=randomUUID();
  const a={userId:"user-"+id,companyId:"company-a-"+id,centralOrganisationId:"org-a-"+id,localAccountId:"account-a-"+id};
