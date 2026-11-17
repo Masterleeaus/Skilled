@@ -31,8 +31,16 @@ export function hashToken(raw: string) {
   return crypto.createHash("sha256").update(raw).digest("hex");
 }
 
+/** Starts a new refresh-token family. Rotations inherit it; reuse of any member revokes the whole family. */
+export function generateFamilyId() {
+  return crypto.randomUUID();
+}
+
+/**
+ * Raw value for email links (verification, password reset). Only hashToken(raw) is stored, so a database read
+ * cannot be used to follow a link. The 256-bit random value does not need a slow hash.
+ */
 export function generateShortToken() {
-  // used for email verification / password reset links
   return crypto.randomBytes(32).toString("hex");
 }
 

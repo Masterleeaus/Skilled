@@ -7,6 +7,7 @@ import {
   registerSchema,
   loginSchema,
   verifyEmailSchema,
+  resendVerificationSchema,
   forgotPasswordSchema,
   resetPasswordSchema,
   refreshTokenSchema,
@@ -34,6 +35,17 @@ export async function verifyEmail(req: Request, res: Response, next: NextFunctio
     const { token } = verifyEmailSchema.parse(req.body);
     await authService.verifyEmail(token);
     return sendSuccess(res, null, "Email verified successfully");
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function resendVerification(req: Request, res: Response, next: NextFunction) {
+  try {
+    const { email } = resendVerificationSchema.parse(req.body);
+    await authService.resendVerificationEmail(email);
+    // Same answer for unknown, verified and unverified accounts, so the route does not reveal which emails exist.
+    return sendSuccess(res, null, "If that account is awaiting verification, a new link has been sent", 202);
   } catch (err) {
     next(err);
   }
