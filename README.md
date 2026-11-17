@@ -1,310 +1,78 @@
-# SkilledAt.Work
+# SkilledAt.Work — training, curriculum, assessment and workforce competency
 
-> **Titan Zero suite:** SkilledAt.Work is the training app upgrade. It is available with every Titan Zero plugin, alongside the AI Assistant and AI Agent Team upgrades and the other three app upgrades (SuperchargedAt.Work, SortedAt.Work and ScheduledAt.Work). The description below is the repository's existing text. Its production status note still applies.
+**Repository:** `Masterleeaus/Skilled` · **Default branch:** case-sensitive `Main` · **Documentation review:** 18 November 2026
 
+Skilled is Titan Zero's training and verified competency application for service businesses. It combines an inherited LMS, versioned curriculum content, enrolment/progress, assessments, practical evidence, instructor and assessor workflows, organisation-scoped training and integrations for dispatch eligibility.
 
-The repository root is the pnpm workspace. Use `apps/backend`, `apps/frontend`, `packages` and `curriculum` directly. `Main` is the case-sensitive GitHub default branch. Canonical media remains in `brand/` and `library/`; frontend predev/prebuild prepares its public copies. See [consolidation details](docs/REPOSITORY-CONSOLIDATION.md).
+**Repository status:** source and targeted CI functionality are evidenced; the **complete integrated production deployment is not certified**. Do not confuse passing backend or curriculum checks with approved content, correct real-company permissions, configured billing and staging cutover.
 
-> **SkilledAt.Work production safety (Pass 43):** This repository contains a separately staged, unverified production candidate. **Do not run** `docker compose up` or inherited bootstrap scripts on an existing DirectAdmin server. The original developer Compose configuration is saved as `docker-compose.local-dev.yml` and is not suitable for production. See [Academy production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md).
+## Roles, workflows and capability boundaries
 
-SkilledAt.Work is a training platform for field and home-service businesses. It combines a course and learner base with curriculum composition, knowledge checks, practical evidence and assessor review, organisation-scoped training, and business-specific lesson context with immutable presentation snapshots.
+| Area | Intended functionality | Source/evidence caveat |
+| --- | --- | --- |
+| Curriculum | Vertical-specific lessons, tracks, revisions, review, publication and quality checks | Unmapped drafts and regulated-topic review remain open ([#17](https://github.com/Masterleeaus/Skilled/issues/17), [#20](https://github.com/Masterleeaus/Skilled/issues/20), [#34](https://github.com/Masterleeaus/Skilled/issues/34)) |
+| Learning | Courses, modules, progress, quizzes, assignments, class participation, certificates | Full learner/browser/assessor acceptance remains open ([#9](https://github.com/Masterleeaus/Skilled/issues/9), [#298](https://github.com/Masterleeaus/Skilled/issues/298)) |
+| Verified skills | Evidence, assessor review, approved/expiring competencies, training eligibility | Competency dispatch crosswalk is an interface requirement, **not** a fully deployed integration ([#311](https://github.com/Masterleeaus/Skilled/issues/311)) |
+| Organisation learning | Tenant-scoped enrolments, staff assignments, manager reports and coaching recommendations | Cross-company and revocation tests required ([#297](https://github.com/Masterleeaus/Skilled/issues/297), [#312](https://github.com/Masterleeaus/Skilled/issues/312)) |
+| Front Desk knowledge | Published revision access, service-vertical FAQs and scoped competency results | [#310](https://github.com/Masterleeaus/Skilled/issues/310), [#314](https://github.com/Masterleeaus/Skilled/issues/314) |
 
-The codebase was started from an inherited full-stack LMS (see [Origin and licence](#origin-and-licence)). Inherited modules are kept where SkilledAt.Work still uses them. Their behaviour is not re-verified for SkilledAt.Work. Verification status for every open item is tracked in [`SKILLED-MASTER-IMPROVEMENT-REGISTER.md`](SKILLED-MASTER-IMPROVEMENT-REGISTER.md).
+Skilled **owns learning outcomes and competencies**. Sorted owns jobs and determines authorized assignment using the verified competence contract; Scheduled owns bookings; Supercharged owns communications; Central owns shared identity, company and release coordination. An AI answer or course acknowledgement **never automatically becomes an assessed competency**.
 
-> **Status (2026-11-08): not production-verified.** The fresh install check verified:
-> - Frozen-lockfile install passes (`pnpm install --frozen-lockfile`).
-> - `prisma validate` and `prisma generate` pass.
-> - Backend `tsc` and frontend `next build` pass. Frontend lint passes.
-> - Migrations apply to an empty PostgreSQL 16 database with no drift.
-> - Backend unit tests pass, with 9 test files skipped (see [Testing and Quality Gates](#testing-and-quality-gates)).
-> - Repository source verification passes 26/26.
->
-> Not verified: the full stack with MinIO, the browser suite, and live API flows. See the register (ACA-001 to ACA-004, ACA-018).
+## Source and project layout
 
-![Node](https://img.shields.io/badge/node-%3E%3D20-339933?logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
+| Path | Contents |
+| --- | --- |
+| `apps/frontend/` | Next.js 16 frontend, learner/manager UI, browser tests and prepared brand assets |
+| `apps/backend/` | Express 5/TypeScript service, Prisma 6, REST APIs, auth, learning/assessment and worker logic |
+| `packages/eslint-config/`, `packages/shared/` | ESLint 10 baseline and shared workspace code |
+| `curriculum/` | Drafts, verified lesson sources, mappings, quality reports and licence/reuse evidence |
+| `brand/`, `library/` | Canonical source media; build copies belong to frontend public assets |
+| `docs/`, `scripts/` | Integration/runbooks, curriculum audits and source verification |
+| `docker-compose.local-dev.yml` | **Local-only** dependencies; not a DirectAdmin/production installer |
 
----
+The inherited LMS and legacy Titan Academy names may remain in internal identifiers or source history. Customer-visible product identity is SkilledAt.Work; **do not break storage keys and API compatibility to achieve cosmetic naming**.
 
-## Table of Contents
+## Development environment
 
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Folder Structure](#folder-structure)
-- [Getting Started](#getting-started)
-- [Demo Accounts](#demo-accounts)
-- [API Overview](#api-overview)
-- [Testing and Quality Gates](#testing-and-quality-gates)
-- [Documentation](#documentation)
-- [Origin and licence](#origin-and-licence)
-
----
-
-## Overview
-
-SkilledAt.Work delivers training that a business can configure without changing the canonical lesson content:
-
-- **Canonical lessons and revisions.** Lesson content is versioned. Only published revisions reach learners. Curriculum drafts stay in review until a human approves them.
-- **Tracks and course composition.** Published tracks are attached to courses. Each placement is marked required or optional.
-- **Knowledge checks.** Learners answer questions, and the server grades them. Answer keys are never sent to learners.
-- **Practical evidence.** Learners submit evidence. An assessor in the organisation approves or rejects it. Approval creates a verified competency that can expire. Acknowledging a lesson never creates a competency.
-- **Organisation training.** Managers assign courses to members of their organisation.
-- **Business-specific context.** Managers set field values. Only approved values appear in learner lessons. Each presentation is saved as an immutable snapshot with a content hash, and the hash is re-verified when the snapshot is read.
-- **Integration.** Service credentials and external identities are provisioned per organisation. Integration routes are tenant-scoped and audited.
-- **Completion reports.** Managers and assessors can read evidence-backed completion reports for a learner or an organisation (see [API Overview](#api-overview)).
-
----
-
-## Features
-
-### Academy additions
-- Curriculum tracks, lesson revisions and placements, with publication gates
-- Learner acknowledgements, separate from practical competency
-- Server-graded knowledge checks (80% pass threshold)
-- Practical evidence submission, assessor review and expiring competencies
-- Organisation membership, roles (owner, manager, assessor, learner) and training assignments
-- Business lesson fields with draft, approve and retire states
-- Organisation-scoped lesson context snapshots with history paging and integrity checks
-- Evidence-backed learner and organisation completion reports
-
-### Inherited LMS base (retained where used)
-- Course, module and lesson management, with video upload
-- Enrolment and per-lesson progress tracking
-- Quizzes with auto-grading for single-choice questions
-- Assignments, live classes, attendance and certificates
-- Payments with Stripe provider abstraction and coupons
-- Discussion threads, reviews and an admin analytics and audit view
-- JWT access tokens with revocable refresh tokens, role-based access control, rate limiting, soft delete, centralised error handling and structured logging
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| **Frontend** | Next.js 15 (App Router), TypeScript, Tailwind CSS v4, Zustand, TanStack Query, React Hook Form + Zod |
-| **Backend** | Node.js, Express 5, TypeScript, Prisma ORM |
-| **Database** | PostgreSQL 16 (Prisma migrations under `apps/backend/prisma/migrations`) |
-| **Cache / Queue** | Redis, BullMQ (email and certificate workers) |
-| **Object storage** | MinIO (S3-compatible) |
-| **Auth** | JWT (access and refresh), bcrypt, per-device session revocation |
-| **Payments** | Stripe (test mode), provider-abstracted |
-| **Testing** | Vitest, Supertest, Playwright (Chromium), axe-core |
-| **Infrastructure** | Docker Compose (Postgres, Redis, MinIO, Mailhog), pnpm workspaces |
-
----
-
-## Folder Structure
-
-```
-
-├── apps/
-│   ├── backend/
-│   │   ├── src/
-│   │   │   ├── modules/          # feature slices: auth, courses, quizzes, curriculum (Academy), ...
-│   │   │   ├── middleware/       # authentication, RBAC, centralised error handler
-│   │   │   ├── jobs/             # BullMQ processors (email, certificates)
-│   │   │   ├── config/           # env validation, logger, Prisma, Redis, MinIO clients
-│   │   │   └── tests/            # Vitest and Supertest suites (Academy suites use an in-memory Prisma double)
-│   │   ├── prisma/               # schema, migrations, seed and curriculum import scripts
-│   │   └── scripts/              # verification scripts
-│   └── frontend/
-│       ├── src/                  # App Router pages, typed API clients, stores, components
-│       ├── scripts/              # source-level UI checks
-│       └── tests/browser/        # Playwright browser suite for the lesson player (mocked API)
-├── curriculum/                   # lesson drafts, normalisation index, assessment files, CI baseline
-├── scripts/                      # curriculum audits, reconciliation and the curriculum CI gate
-├── docs/runbooks/                # deployment, secrets and recovery runbooks
-├── packages/shared/              # cross-app shared code (reserved)
-└── docker-compose.local-dev.yml  # Historical LOCAL development services only
-```
-
----
-
-## Getting Started
-
-### Prerequisites
-- Node.js 22 (the server target: CI, the verification evidence, and the `engines` field in the root and `apps/backend` `package.json` files, all `>=22`)
-- pnpm 10.0.0, exactly, as pinned by the root `packageManager` field. Use Corepack so this version is used; see Setup.
-- Docker (for Postgres, Redis, MinIO and Mailhog)
-
-### Setup
+The root `package.json` pins **pnpm 10.0.0**, requires **Node.js 22+**, and coordinates frontend/backend work. Use a disposable PostgreSQL, Redis and MinIO environment:
 
 ```bash
-git clone <repository-url> titan-academy
-cd titan-academy
-
-corepack enable              # makes `pnpm` run the version pinned in package.json (10.0.0)
-pnpm -v                      # should print 10.0.0
-pnpm install
-
-cp apps/backend/.env.example apps/backend/.env   # then set every secret; see docs/runbooks/secrets-handling.md
-
-# start infrastructure
-docker compose -f docker-compose.local-dev.yml up -d  # LOCAL DEVELOPMENT ONLY; NOT PRODUCTION
-
+corepack enable
+pnpm install --frozen-lockfile
+# Local development only, never on an existing DirectAdmin production server:
+docker compose -f docker-compose.local-dev.yml up -d
+cp apps/backend/.env.example apps/backend/.env
 cd apps/backend
-pnpm prisma:generate
-pnpm prisma:deploy           # applies the existing migrations; creates none
-pnpm prisma:seed
+pnpm exec prisma generate
+pnpm exec prisma migrate deploy
 pnpm dev
 ```
 
-The backend reads `.env` from its own directory, `apps/backend/`. The dotenv loader reads it from the directory the process starts in, so start the backend from `apps/backend`, as above. `.env` is git-ignored. Set at least these variables:
+Configure the backend-local `.env` securely for development. In another terminal, run `pnpm --filter @lms/frontend dev` from the repository root. For real deployment consult [docs/INSTALL.md](docs/INSTALL.md), [production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md) and [secrets runbook](docs/runbooks/secrets-handling.md). **Never execute `prisma migrate dev`, `db push`, local Compose bootstrap or `prisma migrate reset` against a customer database.**
 
-| Variable | Purpose |
-|---|---|
-| `CLIENT_URL` | Public URL of the frontend. `http://localhost:3000` locally; must be `https://` in production |
-| `DATABASE_URL` | PostgreSQL connection string. Use a local development database; production requires the dedicated `titan_academy` database and role |
-| `REDIS_URL` | Redis, used by the BullMQ email and certificate workers. Host and port only; credentials are refused |
-| `REDIS_PASSWORD` | Redis AUTH password, optional. Passed separately from `REDIS_URL` |
-| `JWT_ACCESS_SECRET` | Signs access tokens. At least 32 characters in every environment |
-| `JWT_REFRESH_SECRET` | Signs refresh tokens. At least 32 characters in every environment; must differ from `JWT_ACCESS_SECRET` |
-| `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY` | Credentials for MinIO object storage (uploads) |
-
-Other variables (server port, MinIO endpoint and bucket, SMTP, token lifetimes, Stripe keys, curriculum directory) have defaults. They are defined in `apps/backend/src/config/env.ts`.
-
-For a production or staging environment, start from the placeholder map in `.env.production.example` and follow [docs/INSTALL.md](docs/INSTALL.md). Do not use `apps/backend/.env.example` or `apps/frontend/.env.example` on a server.
-
-> **Developer note:** `pnpm prisma:migrate` runs `prisma migrate dev`. It is interactive, can reset the database, and is only for creating a new migration after you change `schema.prisma`. Do not use it to install or upgrade.
-
-In a second terminal:
+### Required quality gates
 
 ```bash
-cd apps/frontend
-echo 'NEXT_PUBLIC_API_URL="http://localhost:5000/api"' > .env.local
-pnpm dev
-```
-
-| Service | URL |
-|---|---|
-| Frontend | http://localhost:3000 |
-| Backend API | http://localhost:5000 |
-| Mailhog (local email) | http://localhost:8025 |
-| MinIO console | http://localhost:9001 (local development credentials only) |
-
-### Existing databases
-
-Before running `pnpm prisma:deploy` against a database that already contains data:
-
-1. Read [`apps/backend/prisma/PREFLIGHT-ORDER.md`](apps/backend/prisma/PREFLIGHT-ORDER.md) for the order of steps.
-2. Review the four preflight scripts in `apps/backend/prisma/` before migrating: `preflight-20261108090000-company-rename.sql`, `preflight-20261108100000-external-identity-scope.sql`, `preflight-20261108100100-course-tracks-fk.sql` and `preflight-20261108100200-training-assignment-index-name.sql`.
-
-Environment-specific guidance is in [`docs/runbooks/`](docs/runbooks/).
-
----
-
-## Demo Accounts
-
-These accounts are created by the local seed script (`pnpm prisma:seed`). They are for local development only. Do not seed them into a shared or production environment. All accounts share one password, which must never be reused.
-
-| Role | Email | Password |
-|---|---|---|
-| Admin | admin@skilled.local | Password123! |
-| Teacher | teacher@skilled.local | Password123! |
-| Student | student@skilled.local | Password123! |
-
-The `@skilled.local` domain is a seed identifier. Databases seeded before this change still hold the old `@lms.local` accounts and must be re-seeded to get the new addresses.
-
----
-
-## API Overview
-
-Route modules live in `apps/backend/src/modules/*/*.routes.ts`. Every response uses the envelope `{ "success": true, "message": "...", "data": {} }`.
-
-| Base path | Purpose |
-|---|---|
-| `/api/auth` | Register, login, refresh, logout, email verification, password reset |
-| `/api/courses` | Course, module and lesson management, video upload |
-| `/api/enrollments` | Enrolment, progress tracking, course roster |
-| `/api/quizzes` | Quiz builder, attempts, auto-grading |
-| `/api/assignments` | Assignments, submissions, grading |
-| `/api/classes` | Live class scheduling and attendance |
-| `/api/certificates` | Certificate issuance and public verification |
-| `/api/payments` | Stripe checkout and coupons |
-| `/api/discussions` | Course Q&A threads and replies |
-| `/api/admin` | User management and platform analytics |
-| `/api/audit-logs` | Platform audit trail |
-| `/api/academy/curriculum` | Academy tracks, lessons, outlines, completions, knowledge checks, practical evidence, organisations, business fields, lesson context snapshots, and completion reports |
-| `/api/titan/integration` | Service-to-service skill verification (credential-scoped) |
-
-Completion reports (ACA-025):
-
-| Route | Access |
-|---|---|
-| `GET /api/academy/curriculum/companies/:companyId/completion-reports/learners/:learnerId` | The learner, or an owner, manager or assessor of the same organisation |
-| `GET /api/academy/curriculum/companies/:companyId/completion-reports` | Owners and managers of the organisation |
-
-A lesson acknowledgement in these reports is a learning record. It is not a verified competency or a certificate.
-
----
-
-## Testing and Quality Gates
-
-The figures in this section are from the 2026-11-08 fresh install check, except the Vitest counts, which are from the 2026-11-09 run. The older results in [`PASS42/QUALITY-ops.md`](PASS42/QUALITY-ops.md) are historical and do not describe the current state.
-
-```bash
-# Backend unit tests (Vitest). Integration suites skip unless real services are configured (see below)
-cd apps/backend && pnpm exec vitest run
-
-# Academy backend suites (no database required; uses an in-memory Prisma double)
+pnpm run lint
+pnpm run build
 pnpm test:academy:backend
-
-# Repository source verification
 pnpm test:source
-
-# Lesson player browser suite (starts next dev on port 3100 with a mocked API)
-cd apps/frontend && node tests/browser/academy-browser-suite.mjs --report ../../build/browser-report.json
-
-# Curriculum structure and normalisation gate (fails on structural breaks and on regressions)
 pnpm curriculum:ci
+pnpm --filter @lms/backend exec vitest run
+node --test scripts/test-eslint-workspace-contract.mjs
 ```
 
-The Academy backend suites run against an in-memory Prisma double. They exercise the real services and routers, but they do not replace testing against PostgreSQL (register ACA-003). The browser suite verifies the lesson player UI against a mocked API. It does not verify the live API (register ACA-019).
+The [required Skilled CI gates](.github/workflows/skilled-ci-gates.yml) install from the frozen lockfile, run **both application lints**, ESLint major-drift regression tests, auth/publication contracts, backend tests/test typecheck and real disposable PostgreSQL-backed Vitest. The narrow ESLint drift issue [#303](https://github.com/Masterleeaus/Skilled/issues/303) was closed with exact-head passing CI; this does **not** close tenant-staging or curriculum-approval work.
 
-A fresh `vitest run` in `apps/backend` reports **61 test files passed, 9 skipped** (70 files) and **928 tests passed, 114 skipped** (2026-11-09, after `prisma generate`). Without the generated Prisma client, 27 files fail to load with `Cannot find module '.prisma/client/default'`, and the run reports 502 tests passed, 103 skipped.
+## Shared Titan deployment target
 
-### Backend tests that skip by default
+[Central ADR-009](https://github.com/Masterleeaus/Central/blob/main/TITAN_ARCHITECTURE_DECISIONS.md) specifies a single physical shared PostgreSQL database, `company_id` membership, centrally ordered migrations, distinct least-privilege product credentials and Logto-backed Central OIDC in **integrated mode**. Legacy separate Prisma database/locally minted JWT flows may be necessary for development or compatibility but are not an approved second unified production login. Full migration and Central integration remain tracked in [#68](https://github.com/Masterleeaus/Skilled/issues/68), [#71](https://github.com/Masterleeaus/Skilled/issues/71), [#210](https://github.com/Masterleeaus/Skilled/issues/210).
 
-A bare run has no PostgreSQL or Redis. The nine skipped files are gated by `describeWithServices` in [`apps/backend/src/tests/integration/harness.ts`](apps/backend/src/tests/integration/harness.ts). That helper skips a suite unless `DATABASE_URL` and `REDIS_URL` both point at real services. The default placeholders point at `127.0.0.1:1`, where nothing listens.
+## Current issue-driven acceptance priorities
 
-| Skipped file | Group | Needs |
-|---|---|---|
-| `src/tests/auth.test.ts` | Auth flow | PostgreSQL and Redis |
-| `src/tests/health.test.ts` | `GET /api/health` | PostgreSQL and Redis |
-| `src/tests/integration/contract.test.ts` | Consumer contracts for `field-services` and `ai-workforce`, and documented-shape drift checks | PostgreSQL and Redis. One case is an explicit `it.skip` (the business-fields push route is not implemented) |
-| `src/tests/integration/cross-tenant.test.ts` | ACA-004 cross-tenant access to the skills API | PostgreSQL and Redis |
-| `src/tests/integration/identity-linking.test.ts` | ACA-028 identity linking | PostgreSQL and Redis |
-| `src/tests/integration/credential-lifecycle.test.ts` | ACA-017 credential rotation, revocation and expiry | PostgreSQL and Redis |
-| `src/tests/integration/learner-status.test.ts` | ACA-016 inactive and deleted learner rejection | PostgreSQL and Redis |
-| `src/tests/integration/curriculum-tenant-isolation.test.ts` | ACA-004 curriculum APIs and service credentials (38 tests) | PostgreSQL and Redis |
-| `src/tests/integration/payment-checkout-concurrency.test.ts` | Checkout claims under concurrent requests | PostgreSQL and Redis |
+- **Security and authorization:** [#300](https://github.com/Masterleeaus/Skilled/issues/300) discussion routes and [#301](https://github.com/Masterleeaus/Skilled/issues/301) live-class join/recording disclosures have source-level protections and focused HTTP tests; complete deployed real-company/tenancy review before closure.
+- **Migration and release:** [#302](https://github.com/Masterleeaus/Skilled/issues/302) reversible migration review; [#299](https://github.com/Masterleeaus/Skilled/issues/299) conflicting PR reconciliation; [#35](https://github.com/Masterleeaus/Skilled/issues/35) disaster recovery/runbooks.
+- **Curriculum:** new draft courses [#194–#199](https://github.com/Masterleeaus/Skilled/issues?q=is%3Aissue+is%3Aopen+label%3Acurriculum) and course mappings/reviews must remain **unpublished** until outcomes, safety, accessibility, licence and specialist reviews are complete.
+- **Governance:** [all open issues](https://github.com/Masterleeaus/Skilled/issues?q=is%3Aissue+is%3Aopen) and [legacy closure review #320](https://github.com/Masterleeaus/Skilled/issues/320).
 
-To run them, set `DATABASE_URL` to a disposable local PostgreSQL database with the migrations applied, and set `REDIS_URL` to a local Redis. The harness refuses to run unless the database host is `localhost` or `127.0.0.1` and the database name contains `test`, because these suites delete rows. Never point them at a shared or production database.
-
-The skip count is not evidence of integration coverage. A run with skips shows that the enabled tests passed. It does not show that the contract, cross-tenant, credential, identity or learner-status checks ran.
-
-The inherited `pass22` check (`apps/backend/tests/pass22-inactive-identity.test.cjs`) is a source-level Node script. Vitest does not pick it up, because its include pattern matches only `.test.ts` files. `pnpm test` in `apps/backend` runs it with `tsx --test` after Vitest. Its result is not part of the 2026-11-08 install check.
-
----
-
-## Documentation
-
-- [`SKILLED-MASTER-IMPROVEMENT-REGISTER.md`](SKILLED-MASTER-IMPROVEMENT-REGISTER.md): open items and acceptance criteria
-- [`SKILLED-PASS1.md`](SKILLED-PASS1.md), [`SKILLED-PASS2.md`](SKILLED-PASS2.md): curriculum composition passes
-- [`SKILLED-CURRICULUM-IMPORT.md`](SKILLED-CURRICULUM-IMPORT.md): curriculum import behaviour
-- [`SKILLED-CLEANING-LESSONS.md`](SKILLED-CLEANING-LESSONS.md): cleaning vertical lesson notes
-- [`docs/runbooks/`](docs/runbooks/): deployment, secrets handling and recovery
-- [`docs/FIELD_SERVICES_CONTEXT_SYNC.md`](docs/FIELD_SERVICES_CONTEXT_SYNC.md): Field Services context synchronisation contract. **Not part of this release** (issue #165); the sync is not implemented.
-
----
-
-## Origin and licence
-
-SkilledAt.Work began from an inherited MIT-licensed full-stack LMS. Its original author is Farrukh Ali Khan. The copyright notice is retained in [`LICENSE`](LICENSE), as the MIT licence requires.
-
-Released under the [MIT License](LICENSE).
+Never infer the status of a course from its title alone. Approvals and checked tasks must have verifiable lesson/source/test evidence. Preserve inherited LMS licence and curriculum attribution; see [curriculum/licence/README.md](curriculum/licence/README.md).
