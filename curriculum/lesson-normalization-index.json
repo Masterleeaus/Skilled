@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "description": "Derived preview/index only. Original lesson drafts unchanged. No publication approval.",
-  "total": 1032,
+  "total": 1037,
   "formats": {
-    "full-authoring": 1032
+    "full-authoring": 1037
   },
   "blockers": {
     "course mapping requires review": 16
@@ -11976,6 +11976,228 @@
         {
           "heading": "Allergy and product patch checks",
           "body": "A client who reports an allergy to a product, or a reaction to a previous nail service, is not given that product until the business has checked the product's ingredients against the report and has decided how the service can go ahead. The business's procedure states whether a patch test is required for each product, and how long before the service it must be done. Whether a patch test for nail products is required in Victoria, and the timing and method for it, are UNCONFIRMED for this course. Where a product is changed, or a client reports a reaction, the technician records it on the client's file and reviews the product before the next visit. Skin reactions after a service are recorded and reported as the incident procedure directs."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-NUT-01",
+      "title": "Scope of practice, protected titles and referral boundaries",
+      "sourceFile": "curriculum/courses/nutrition-consult/NEW-NUT-01.json",
+      "sourceHash": "6474c3c26e393a4a1029d057c7b1f9960d9ba0608f8231d23f093c5a0daa5958",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "nutrition-consult"
+      ],
+      "learningOutcomes": [
+        "Describe the difference between general eating-habit support and the clinical work that belongs to a registered health professional.",
+        "Identify the titles you must not use unless you hold the qualification and registration they require.",
+        "Recognise the client situations that must be referred on rather than handled in a general consult.",
+        "State the limits of a consult clearly to a client before any plan is discussed."
+      ],
+      "instructionSections": [
+        {
+          "heading": "What this course covers and what it does not",
+          "body": "This course covers general information about everyday eating and habit support: shopping, planning, cooking routines, portion awareness at a general level, and helping a client set realistic habit goals. It does not cover diagnosing a condition, treating a disease, prescribing a diet for a medical problem, ordering or interpreting clinical tests, or advising on medication. Those activities sit with registered health professionals. The line between general support and clinical nutrition care is the most important boundary in this course. Where exactly that line falls in your jurisdiction is a question for the qualified reviewer named for this course, and this draft does not settle it. Until the reviewer has confirmed the boundary, treat every client question about a health condition as outside general consulting."
+        },
+        {
+          "heading": "Protected titles and how you describe yourself",
+          "body": "Some titles related to nutrition are restricted. Words such as dietitian and nutritionist may be protected, and the rules differ by country and by state or territory. The protected status, the exact wording allowed, and any registration body that applies have not been confirmed in this draft and are an open question for the qualified reviewer. Until that review is complete, do not use the words dietitian, nutritionist or any close variant in a course title, a business name, a website, a business card, a social media profile or a client message, unless you hold the qualification and registration that the title requires. Describe the service in plain words, such as general eating-habit support, and say clearly what it does not include. Do not imply that completing this course gives you a title, a registration or authority to give clinical advice."
+        },
+        {
+          "heading": "Client situations that need referral",
+          "body": "Some client situations are outside general consulting and must be referred on before any plan is discussed. These include a diagnosed medical condition that diet is expected to manage or treat, a current medication where food or supplements may interact, pregnancy or breastfeeding, a child or adolescent, a request for a therapeutic or medically supervised diet, a history of or current concern about an eating disorder, and any client who describes symptoms they have not yet had checked. The full list, the referral route and the wording of the referral are not confirmed in this draft. Treat this list as a working guide that the qualified reviewer must confirm or replace. When in doubt, pause the consult and refer. Referral is a safe outcome and is not a failure of the service."
+        },
+        {
+          "heading": "Stating the limits of the service",
+          "body": "At the first contact, tell the client what the service is and is not. Say that you provide general information and habit support, that you do not diagnose or treat, that you do not prescribe diets for medical conditions, and that you will refer them to a health professional when a question is outside your scope. Record that you gave this explanation and that the client understood it. This protects the client, who knows what to expect, and it protects you, because the boundary was stated before any advice was given. Do not let a client's request for a quick answer override the limit. A short, clear statement at the start is better than an apology later."
+        },
+        {
+          "heading": "Verification and escalation",
+          "body": "A supervisor or the qualified reviewer should check that the service description, the title wording and the referral list match what the business is allowed to offer. A competent practitioner can name the titles they must not use, explain the boundary between general support and clinical care, list the referral situations and state the limits at the first contact. Escalate to the business owner and the qualified reviewer any request that asks you to use a restricted title, to manage a medical condition, or to offer a diet for a client with a referral situation."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-NUT-02",
+      "title": "Client intake, consent and privacy",
+      "sourceFile": "curriculum/courses/nutrition-consult/NEW-NUT-02.json",
+      "sourceHash": "25f29e6b3586f11e5863bd706b853ecafb027c43f64f7c04c9c1e42888f4b845",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "nutrition-consult"
+      ],
+      "learningOutcomes": [
+        "Explain the purpose of each item in the intake form and leave out items the consult does not need.",
+        "Obtain and record informed consent before collecting health-related information.",
+        "Describe how a client can withdraw consent and what happens to their information when they do.",
+        "Stop an intake and refer when the answers show a referral situation."
+      ],
+      "instructionSections": [
+        {
+          "heading": "Why intake comes before advice",
+          "body": "The intake is the point where you learn enough to decide whether the consult is in scope. It is also the point where the client shares information that can be sensitive, such as health history, medication, pregnancy, weight history and food habits. Collect only what the consult needs to decide the scope and to plan general habit support. Each question should have a reason you can state to the client. A long form that asks for everything creates privacy risk and can make clients feel judged before they have started."
+        },
+        {
+          "heading": "Asking for consent in plain words",
+          "body": "Before the client answers health-related questions, explain what you are asking, why you are asking, who will see the answers, how long they will be kept and how the client can stop. Use plain words and allow time for questions. Record the consent with the date and the client's acknowledgement. Consent should be free: the client must be able to decline a question and still receive the information that the service offers, unless the question is needed to decide scope. The exact consent and record-keeping rules that apply to the business are UNCONFIRMED in this draft and must be confirmed under the business's privacy policy and by the reviewer."
+        },
+        {
+          "heading": "What to ask and what to leave out",
+          "body": "Ask about general goals, typical meals and routines, cooking facilities, budget and time for food, food preferences and allergies, and any diagnosed condition, medication or pregnancy that affects the scope decision. Do not require a body weight, a measurement or a weight history to start. If a client offers these, record them only where they are needed for the stated purpose, and do not comment on them in a way that could shame the client. Do not ask about past dieting, compensatory behaviours or food rules as a way of building a plan. Those questions belong to the referral and screening decision, and the screening approach is not confirmed in this draft."
+        },
+        {
+          "heading": "Storing and sharing client information",
+          "body": "Store the intake in the business's approved system, with access limited to the people who need it. Do not keep health information on a personal phone, in a chat thread or in an unlocked notebook. Share it only with the client's agreement, or where the law requires it, and only with the people named in the consent. Keep the record for the period the business's policy sets. The retention period and the legal basis for storage are UNCONFIRMED in this draft and must be confirmed by the reviewer."
+        },
+        {
+          "heading": "Withdrawing consent",
+          "body": "A client can withdraw consent at any time. When they do, stop collecting new information, tell them what will happen to the information already held, and follow the business's process for deleting or restricting it. Record the withdrawal and the date. If the client withdraws because they are unhappy with how the consult went, treat that as feedback and follow the complaints route. Do not pressure the client to stay."
+        },
+        {
+          "heading": "Verification and escalation",
+          "body": "A supervisor should check the intake form against the stated purposes and the consent wording. A competent practitioner can explain each question, obtain and record consent before sensitive questions, store the record correctly and stop an intake when a referral situation appears. Escalate any intake that reveals a referral situation, any request from a third party for the client's information, and any suspected breach of the stored record."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-NUT-03",
+      "title": "Recognising risk signals and making a referral",
+      "sourceFile": "curriculum/courses/nutrition-consult/NEW-NUT-03.json",
+      "sourceHash": "4f5852f3008757efa74f4bfdf5755c29df24a50f76d9c253880fd493ded7ed47",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "nutrition-consult"
+      ],
+      "learningOutcomes": [
+        "Describe the kinds of client statements that call for a pause and a referral.",
+        "Respond to a client who discloses distress about food, weight or body in a neutral, non-judgmental way.",
+        "Follow the referral and escalation route without diagnosing the client.",
+        "Record a concern and the action taken, using the client's own words where appropriate."
+      ],
+      "instructionSections": [
+        {
+          "heading": "Why this lesson is different",
+          "body": "A general habit consult can be the first place where a client talks about a problem with food, weight or body image. The practitioner is not a clinician and must not diagnose. The practitioner is responsible for noticing when a conversation has moved beyond general support, for pausing the work and for referring the client to someone who can assess them. This lesson describes how to respond. It does not provide a screening tool, and it does not tell you whether a client has any condition. The list of signals below is a working guide only. The qualified reviewer, who should be a clinician with eating-disorder experience, must confirm, change or replace it before the course is published. Its content is UNCONFIRMED in this draft."
+        },
+        {
+          "heading": "Kinds of statements that call for a pause",
+          "body": "Statements that call for a pause include a client describing eating in secret, strict rules that they feel unable to break, guilt or fear after eating, self-induced vomiting or laxative or diuretic use, compulsive or punishing exercise, a sudden or unexplained change in weight they report, fainting or dizziness they report, a request to be told how to lose weight quickly and a sense of hopelessness about their body. Pregnancy, a current medication, a diagnosed condition, a child or young person, and a history of an eating disorder are also referral situations, as set out in the first lesson. The list is a working guide. It is not a checklist to score, and one statement does not prove a condition. Your task is to notice, pause and refer."
+        },
+        {
+          "heading": "Responding to a disclosure",
+          "body": "When a client discloses distress, stay calm and listen. Thank them for telling you. Use neutral language that does not blame food or the client. Do not argue with how the client feels about their body, and do not say that their concern is not serious. Do not promise that the problem can be fixed by changing the diet. Say that a health professional can help them understand what they are experiencing, and that you want them to get that support. Ask what support they already have, if that feels right to them, and do not press for detail they have not offered. Do not diagnose, and do not name a condition unless a health professional has done so."
+        },
+        {
+          "heading": "Making the referral",
+          "body": "Pause the general consult. Tell the client that you will not continue the habit plan until they have spoken with a suitable health professional, and explain the reason in plain words. Give the referral route that the business has confirmed, such as a general practitioner or another registered health professional, and encourage the client to make contact. Do not give a diagnosis, a diet or a supplement in place of the referral. If the client asks what to do next, point to the referral route and to the business's escalation contact. Where a client describes an immediate danger to their health or safety, follow the emergency procedure in the business's safety plan and contact emergency services without delay."
+        },
+        {
+          "heading": "Recording and escalating a concern",
+          "body": "Record the date, what the client said in their own words where appropriate, what you said in reply, the action you took and the referral made. Keep the note factual and avoid labels such as the name of any condition. Escalate to the business owner and the qualified reviewer any concern you are not sure how to handle, any case that involves a child or a person at immediate risk, and any repeated concern across sessions. The referral route, the escalation contacts and the wording of the referral letter are not confirmed in this draft and must be supplied by the business and checked by the reviewer."
+        },
+        {
+          "heading": "Verification and escalation",
+          "body": "A supervisor or the qualified reviewer should check the referral route and the escalation contacts before any client is seen. A competent practitioner can name the statements that call for a pause, respond to a disclosure without judgment, pause and refer without diagnosing, and record the concern and the action. Escalate immediately where a client is at risk of harm. Do not attempt to resolve a risk situation alone."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-NUT-04",
+      "title": "Talking about food, bodies and results without making promises",
+      "sourceFile": "curriculum/courses/nutrition-consult/NEW-NUT-04.json",
+      "sourceHash": "98d840d5032a968922d57a628480e5b6bd4c164bfb1898c7c54b70bf3dc73f32",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "nutrition-consult"
+      ],
+      "learningOutcomes": [
+        "Explain why a promise of weight loss, a timeline or a guaranteed result must not be made.",
+        "Rewrite a claim so that it describes the service honestly and does not promise an outcome.",
+        "Describe how to talk about bodies, food and progress without moral labels or body-shaming.",
+        "Apply the rules for testimonials, before-and-after images and product recommendations."
+      ],
+      "instructionSections": [
+        {
+          "heading": "Results are not promised",
+          "body": "Weight change, body shape and health outcomes depend on many factors that a consultant cannot control or predict, including the client's health, medication, sleep, stress, activity and circumstances. For that reason this course does not teach you to promise weight loss, to give a timeline, to guarantee a result or to say that a plan will work for everyone. Describe what the service offers, such as general information, habit support and a review of progress against goals the client has chosen, and let the client decide what they want to achieve. The evidence for specific approaches, and the wording of any statement about outcomes, is UNCONFIRMED in this draft and must be checked by the qualified reviewer before it is used."
+        },
+        {
+          "heading": "Rewriting claims that promise outcomes",
+          "body": "Many nutrition claims are written as promises: lose ten kilos in six weeks, melt fat, boost metabolism, detox the body. Do not use those phrases, and do not write a variant of them. Describe the service in terms of what you do and what the client does. For example, say that the service helps clients build habits they choose, and that progress is reviewed together. Avoid words that imply a guaranteed result, a special secret or a shortcut. Consumer and advertising rules may apply to these statements. The applicable rules are UNCONFIRMED in this draft and the reviewer must confirm them before any marketing text is published."
+        },
+        {
+          "heading": "Talking about bodies and food without judgement",
+          "body": "Language about food and bodies can shape how a client feels about themselves. Avoid labels that describe foods as good or bad, clients as good or bad for eating, and bodies as problems to be fixed. Use neutral descriptions, focus on habits the client can practise, and celebrate progress in the terms the client sets. Do not compare a client with another client or with an image. Do not comment on a client's appearance as a way of marking progress. Respect that the client may have a different goal from the one you would suggest."
+        },
+        {
+          "heading": "Testimonials, before-and-after images and products",
+          "body": "A testimonial or a before-and-after image is a claim about results and must be treated as one. Do not use a client's story, photograph or measurements in marketing unless the client has given informed, written consent for that specific use, the image or story has been checked for accuracy, and the reviewer has confirmed that it does not make an outcome claim. Do not recommend, sell or endorse supplements, meal products or other products in this course. If a client asks about a product, refer them to a suitable health professional. The rules that apply to testimonials and product endorsements are UNCONFIRMED in this draft."
+        },
+        {
+          "heading": "Verification and escalation",
+          "body": "A supervisor or the reviewer should check every marketing item and standard message template before it is used. A competent practitioner can explain why a promise cannot be made, rewrite an outcome claim into an honest service description, talk about food and bodies without judgement and refuse to use testimonials or product endorsements without the required checks. Escalate any request for a guarantee, any before-and-after use that has not been checked, and any product endorsement request."
+        }
+      ],
+      "reviewBlockers": [],
+      "publicationApproved": false,
+      "originalStatus": "DRAFT"
+    },
+    {
+      "id": "NEW-NUT-05",
+      "title": "Session records, review points and handover to a health professional",
+      "sourceFile": "curriculum/courses/nutrition-consult/NEW-NUT-05.json",
+      "sourceHash": "469d68c2ed942735dc0908757bccb9f1180e48e2485e192eabaaf5b8615e9300",
+      "format": "full-authoring",
+      "sourceLessonId": null,
+      "courseIds": [
+        "nutrition-consult"
+      ],
+      "learningOutcomes": [
+        "Write a session note that records what was discussed, what the client chose and what was referred, without clinical labels.",
+        "Set review points and stop points with the client for each habit goal.",
+        "Prepare a handover to a health professional with the client's consent and only the information that is needed.",
+        "Describe how records are kept, shared and retained under the business policy."
+      ],
+      "instructionSections": [
+        {
+          "heading": "Why records matter in a general consult",
+          "body": "A short, accurate session note protects the client and the practitioner. It shows what was discussed, what the client chose to work on, what was explained about the limits of the service and whether any referral was made. A good note is factual and written in plain words. It does not diagnose, it does not repeat rumours or assumptions, and it does not record more health detail than the client has agreed to share and the purpose requires."
+        },
+        {
+          "heading": "Writing a session note",
+          "body": "Record the date, the duration and who was present. Note the goals the client chose, the habits agreed for the next period and the review date. Record any limits statement given and any referral discussed. Where the client used a particular phrase about their feelings or experience, you may quote it, but keep quotations short and relevant. Avoid labels such as the name of a condition, a judgement about the client's character or a comment about their body. Sign or initial the note in the approved system the same day."
+        },
+        {
+          "heading": "Setting review points and stop points",
+          "body": "For each habit goal, agree a review point, usually a date or number of sessions, when the client and the practitioner look at what has happened and decide whether to continue, change or stop the habit. Agree stop points as well. A stop point is a sign that the habit plan should pause and the client should see a health professional, such as a new symptom, a new medication, a pregnancy, distress about food or a change the client did not expect. Record the review and stop points in the session note and show them to the client. Do not set a target for weight loss or a timeline for an outcome."
+        },
+        {
+          "heading": "Handover to a health professional",
+          "body": "When a referral is made, prepare a handover only with the client's informed consent. Share the information that the receiving professional needs for the referral, such as the reason for referral and the relevant general goals, and nothing else. Use the business's approved referral template where one exists. Do not send a full record without the client's agreement and a stated purpose. Record that the handover was made, what was shared, the date and to whom. The handover template, and the rules for sharing health information, are UNCONFIRMED in this draft and must be confirmed by the reviewer."
+        },
+        {
+          "heading": "Storage, access and retention",
+          "body": "Keep session records in the approved system, with access limited to the people who need them for the service. Do not keep copies on personal devices or in messages. Follow the retention period set by the business policy, and follow the process for correcting or deleting records when a client asks. The retention period and the legal requirements for records are UNCONFIRMED in this draft and must be confirmed by the reviewer."
+        },
+        {
+          "heading": "Verification and escalation",
+          "body": "A supervisor should check a sample of session notes and handover records against this lesson. A competent practitioner can write a factual session note, set review and stop points, prepare a consented handover with only the needed information and keep records in the approved system. Escalate any request to share records with a third party, any record that suggests the client is at risk and any note that contains information the client has not agreed to share."
         }
       ],
       "reviewBlockers": [],
