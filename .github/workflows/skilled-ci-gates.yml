@@ -38,6 +38,12 @@ jobs:
       - name: Install dependencies (frozen lockfile)
         run: pnpm install --frozen-lockfile
 
+      - name: Validate ESLint 10 workspace and lockfile contract (issue #303)
+        run: node --test scripts/test-eslint-workspace-contract.mjs
+
+      - name: Lint backend and frontend with shared config
+        run: pnpm run lint
+
       - name: Auth route contracts
         run: node scripts/test-auth-route-contracts.mjs
 
@@ -52,6 +58,15 @@ jobs:
 
       - name: Video upload safety
         run: node scripts/test-video-upload-safety.mjs
+
+      - name: Local development env template and README contract
+        run: node --test scripts/test-local-install-env-contract.mjs
+
+      - name: Production environment template coverage
+        run: node scripts/test-env-template-contract.mjs
+
+      - name: Deployment documentation contract
+        run: node --test scripts/test-deployment-doc-contract.mjs
 
   academy-backend-gates:
     name: Academy backend gates and test typecheck

@@ -111,6 +111,50 @@ describe("GET /api/classes/course/:courseId access (#301)", () => {
     expect(JSON.stringify(res.body)).not.toContain(SECRET_LINK);
   });
 
+  it("does not disclose meeting links or recordings for cancelled sessions", async () => {
+    const headers = seedUser("student-enrolled", "STUDENT");
+    db.liveClasses[0].status = "CANCELLED";
+    const res = await request(app).get(`/api/classes/course/${COURSE}`).set(headers);
+
+    expect(res.status).toBe(200);
+    expect(res.body.data[0].status).toBe("CANCELLED");
+    expect(res.body.data[0].title).toBe("Week 1");
+    expect(res.body.data[0].meetingLink).toBeNull();
+    expect(res.body.data[0].recordingUrl).toBeNull();
+    expect(JSON.stringify(res.body)).not.toContain(SECRET_LINK);
+    expect(JSON.stringify(res.body)).not.toContain(SECRET_RECORDING);
+  });
+
+  it("returns an ended recording to an enrolled student without an obsolete join link", async () => {
+    const headers = seedUser("student-enrolled", "STUDENT");
+    db.liveClasses[0].status = "ENDED";
+    const res = await request(app).get(`/api/classes/course/${COURSE}`).set(headers);
+
+    expect(res.status).toBe(200);
+    expect(res.body.data[0].meetingLink).toBeNull();
+    expect(res.body.data[0].recordingUrl).toBe(SECRET_RECORDING);
+  });
+
+  it("authorises the course owner and administrators, not unrelated teachers", async () => {
+    const owner = seedUser("teacher-owner", "TEACHER");
+    const other = seedUser("teacher-other", "TEACHER");
+    const admin = seedUser("administrator", "ADMIN");
+    expect((await request(app).get(`/api/classes/course/${COURSE}`).set(owner)).status).toBe(200);
+    const forbidden = await request(app).get(`/api/classes/course/${COURSE}`).set(other);
+    expect(forbidden.status).toBe(403);
+    expect(forbidden.text).not.toContain(SECRET_LINK);
+    expect((await request(app).get(`/api/classes/course/${COURSE}`).set(admin)).status).toBe(200);
+  });
+
+  it("refuses a revoked enrollment, including access to a recording", async () => {
+    const headers = seedUser("student-enrolled", "STUDENT");
+    db.enrollments.splice(0, 1);
+    const res = await request(app).get(`/api/classes/course/${COURSE}`).set(headers);
+
+    expect(res.status).toBe(403);
+    expect(JSON.stringify(res.body)).not.toContain(SECRET_RECORDING);
+  });
+
   it("returns the join data to an enrolled student (control case)", async () => {
     const headers = seedUser("student-enrolled", "STUDENT");
     const res = await request(app).get(`/api/classes/course/${COURSE}`).set(headers);
