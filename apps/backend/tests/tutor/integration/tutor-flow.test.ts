@@ -173,7 +173,7 @@ async function withRig({ providers = openAiAnswers, env = {} }: { providers?: Pr
           body: JSON.stringify({ message }),
         });
         const text = await res.text();
-        let body: ChatBody | null = null;
+        let body: ChatBody | null;
         try {
           body = JSON.parse(text);
         } catch {

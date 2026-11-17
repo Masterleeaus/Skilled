@@ -26,8 +26,8 @@ The private key is not in this repository. Central holds only the public key, in
 - `src/tests/fixtures/central-link-assertion-vectors/LMS-LA-V01.json` holds a token signed by this signer and the public key only.
   Central's `LinkAssertionVerifier` accepted it when it was recorded (result: `productId: "lms"`).
 - `src/tests/central-link-assertion-vector.test.ts` checks the signature, the exact header and claims, the claim rules, and the key loader.
-- Central's own tests generate their keys at run time. They have no fixed vectors yet. Central issue #71 is expected to provide shared vectors.
-  When it does, replace `LMS-LA-V01.json` with those vectors.
+- `src/tests/fixtures/central-link-assertion-vectors/central-canonical-lms.json` is a copy of Central's canonical Skilled vectors (`skilled-link-assertions/canonical-signed.json`, 26 cases with expected outcomes and a public key).
+- `src/tests/central-link-assertion-conformance.test.ts` checks every canonical case against the LINKING.md wire rules (typ, alg, iss, aud, signature, lifetime, nonce, identifiers, kid). It also checks the signer's boundary values and exact bytes with a fixed test seed.
 
 ## Open
 

@@ -319,4 +319,29 @@ describe("TemplateService", () => {
     expect(queue.map(item => item.learnerId)).toEqual([LEARNER_A]);
     expect(queue[0].rubric).toHaveLength(2);
   });
+
+  describe("tenant scope of sign-offs and documents", () => {
+    it("copies the response company onto the document and the sign-off", async () => {
+      await submitAsA();
+      const response = store.responses[0];
+      const result = await service.signOff(ASSESSOR, ORG, response.id, { decision: "SIGNED_OFF", rubricResults: rubricAllMet });
+      expect(store.documents[0].companyId).toBe(ORG);
+      expect(store.signOffs.find(row => row.id === result.signOffId)?.companyId).toBe(ORG);
+    });
+
+    it("keeps a second company from signing off or seeing another company's document", async () => {
+      await submitAsA();
+      const response = store.responses[0];
+      await expect(service.signOff(ASSESSOR, OTHER_ORG, response.id, { decision: "SIGNED_OFF", rubricResults: rubricAllMet }))
+        .rejects.toBeInstanceOf(NotFoundError);
+      expect(store.signOffs).toHaveLength(0);
+      expect(store.documents[0].companyId).toBe(ORG);
+    });
+
+    it("refuses to create a template response for a learner with no organisation", async () => {
+      store.grant("loner", LESSON, REVISION);
+      await expect(service.saveDraft("loner", { ...key, companyId: undefined, fieldValues: valid })).rejects.toBeInstanceOf(ForbiddenError);
+      expect(store.responses.some(row => row.learnerId === "loner")).toBe(false);
+    });
+  });
 });

@@ -1,0 +1,119 @@
+{
+  "id": "NEW-DTR-04",
+  "title": "Bite risk and handling during sessions",
+  "courseSlugs": [
+    "dog-training"
+  ],
+  "moduleTitle": "Safety and bite risk",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Dog trainers who handle dogs, use leads and work near other dogs and people in classes and private sessions",
+  "prerequisites": [
+    "NEW-DTR-02"
+  ],
+  "learningOutcomes": [
+    "Apply the handling procedure in the approved SOP at the start, during and at the end of a session",
+    "Report a bite or near miss under the business's incident procedure",
+    "State where bite liability is UNCONFIRMED and what the business's cover depends on"
+  ],
+  "instruction": [
+    {
+      "heading": "Handling is set by the approved procedure",
+      "body": "The trainer handles each dog under {{business:procedures.approved_sop}}. The procedure sets how the dog is greeted, how it is lead-walked, how it is held at the start and end of a session, and when the trainer must ask the owner to take over. The trainer does not improvise a new handling method during a session. If the procedure does not cover a situation, the trainer stops that exercise and records the gap for the business to review."
+    },
+    {
+      "heading": "Planning for risk before the session",
+      "body": "Before the session, the trainer checks the space, the other dogs and people present, and the dog's history in the client file. The trainer decides whether the session can run safely in that space with the people and dogs present. If it cannot, the trainer moves the session, splits the group, or postpones it. Group sessions have a maximum size set by the business in {{business:procedures.approved_sop}}. This course does not set that number."
+    },
+    {
+      "heading": "Bites and near misses",
+      "body": "If a dog bites a person or another dog, or nearly does so, the trainer follows {{business:safety.incident_reporting_procedure}} and calls the emergency contact in {{business:safety.emergency_contact}} if anyone needs help. The trainer records the time, the people and dogs involved, what happened just before, and the first aid given. The trainer does not discuss fault with the owner at the time of the incident. The owner is told that the business will follow up."
+    },
+    {
+      "heading": "Liability and cover",
+      "body": "A bite can create liability for the owner of the dog and, in some cases, for the business. How liability is shared is UNCONFIRMED in this draft and goes to expert review. The business's cover depends on its insurance policy. The amounts and terms are set in {{business:compliance.policy_reference}}, and this lesson does not state them. The trainer does not promise any owner that the business will pay a bite claim."
+    }
+  ],
+  "procedure": [
+    "Check the space, the people and dogs present, and the dog's history before the session",
+    "Greet and handle the dog as the approved procedure sets",
+    "Stop the exercise and move to the approved procedure if the dog or a person shows a risk",
+    "If a bite or near miss happens, give first aid, call the emergency contact, and secure the other dogs",
+    "Record the incident using the business's incident procedure within the time it sets",
+    "Tell the owner that the business will follow up, and do not discuss fault at the scene"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A group class has eight dogs in a hired hall. One dog begins to guard a toy and snaps at a dog that comes near.",
+      "decisionPrompt": "What happens next?",
+      "reasoning": "The trainer stops the group exercise, separates the dogs under the approved procedure, and checks that no person is in reach. The trainer records the near miss, the time and what happened just before. The group size is reviewed against the approved maximum, and the owner is told that the business will follow up."
+    },
+    {
+      "situation": "A dog bites an assistant during a private session. The assistant has a small puncture and says they are fine.",
+      "decisionPrompt": "What must the trainer record?",
+      "reasoning": "A bite is reported under the incident procedure even when the injury looks minor. The trainer gives first aid, records the injury, the time, the dog's owner and what happened just before, and follows the business's reporting time. The trainer does not decide on the spot that the incident is not reportable."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Lead and harness from the approved equipment list",
+    "First aid kit checked against the business's list",
+    "Incident record form"
+  ],
+  "commonErrors": [
+    {
+      "error": "Improvising a handling method when the procedure does not cover the situation.",
+      "prevention": "Stop the exercise, record the gap, and let the business review it."
+    },
+    {
+      "error": "Treating a near miss as too minor to record.",
+      "prevention": "Record every bite and near miss under the incident procedure."
+    },
+    {
+      "error": "Promising an owner that the business will cover a bite claim.",
+      "prevention": "State that cover depends on the policy, and refer the owner to the business."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "How liability for a dog bite is shared between the owner, the trainer and the business is UNCONFIRMED in this draft. Expert review is required before publication.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Insurance cover and its terms are set by the business's policy. This lesson does not state any cover amount.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Incident reporting timing and any reporting to a regulator are set by the business's procedure and are UNCONFIRMED for each state in this draft.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every session starts with a recorded risk check of the space and the dogs present",
+    "Every bite or near miss is recorded under the incident procedure within its time",
+    "No owner is promised cover or payment in any incident"
+  ],
+  "documentationEvidence": [
+    "Session risk check record",
+    "Incident record for each bite or near miss, with time and first aid given",
+    "Record of follow-up with the owner"
+  ],
+  "summary": [
+    "Handling follows the approved procedure, and is not improvised",
+    "Every bite and near miss is recorded and followed up",
+    "Liability and cover are unconfirmed in this draft, and expert review is required"
+  ],
+  "businessFields": [
+    "{{business:procedures.approved_sop}}",
+    "{{business:safety.incident_reporting_procedure}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:compliance.policy_reference}}"
+  ],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "UNCONFIRMED: dog bite liability for owners, trainers and businesses; no source was read for this draft",
+    "UNCONFIRMED: state reporting requirements for dog bites; no source was read for this draft"
+  ],
+  "officialReferences": [],
+  "reviewStatus": "NOT REVIEWED"
+}

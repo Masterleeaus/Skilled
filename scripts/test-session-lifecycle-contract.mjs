@@ -27,7 +27,7 @@ check(controller.includes('return sendSuccess(res, result, "Token refreshed")'),
 check(controller.includes('req.body?.refreshToken'), 'logout supports cookie-only request with no body');
 check(routes.includes('router.post("/refresh", refreshLimiter') && routes.includes('router.post("/reset-password", authLimiter') && routes.includes('router.post("/verify-email", authLimiter'), 'refresh/recovery routes are rate-limited');
 const reset = src.split('export async function resetPassword(')[1].split('export async function getUserProfile(')[0];
-check(reset.includes('tx.user.updateMany') && reset.includes('resetPasswordToken: token') && reset.includes('consumed.count !== 1'), 'reset token single-use guarded');
+check(reset.includes('tx.user.updateMany') && reset.includes('resetTokenMatch(token)') && reset.includes('consumed.count !== 1'), 'reset token single-use guarded');
 check(reset.includes('tx.refreshToken.updateMany'), 'password reset revokes sessions transactionally');
 const verify = src.split('export async function verifyEmail(')[1].split('export async function loginUser(')[0];
 check(verify.includes('prisma.user.updateMany') && verify.includes('consumed.count !== 1'), 'email verify token single-use guarded');

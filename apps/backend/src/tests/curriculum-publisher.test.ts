@@ -14,6 +14,7 @@ vi.mock("../config/prisma", async () => ({ prisma: (await import("./support/fake
 
 import { numberOf, resetFakeDb, rows, seed } from "./support/fake-prisma";
 import { buildFileLessonIndex } from "../modules/curriculum/file-lesson-loader";
+import { UNVERIFIED_COURSES_HOLD_LIST } from "../modules/curriculum/unverified-courses-hold-list";
 import {
   findAnswerKeyField,
   planPlacements,
@@ -388,16 +389,17 @@ describe("pure planning", () => {
     expect(findAnswerKeyField({ knowledgeChecks: [{ id: "K1", question: "Q", options: ["a", "b"] }] })).toBeNull();
   });
 
-  it("skips a course on the unverified courses hold list, with a warning, and keeps the other courses", () => {
+  it("places every course when the unverified courses hold list is empty, with no hold warning", () => {
+    expect(UNVERIFIED_COURSES_HOLD_LIST).toEqual([]);
     const plan = planPlacements({
       courses: [
-        { slug: "appliance", title: "Held", group: "G", modules: [{ module: "A", lessons: [{ id: "H1", title: "" }] }] },
+        { slug: "appliance", title: "Approved", group: "G", modules: [{ module: "A", lessons: [{ id: "H1", title: "" }] }] },
         { slug: "tst-x", title: "X", group: "G", modules: [{ module: "A", lessons: [{ id: "L1", title: "" }] }] },
       ],
     });
-    expect(plan.courses.map((c) => c.slug)).toEqual(["tst-x"]);
-    expect(plan.courses.flatMap((c) => c.placements.map((p) => p.lessonId))).toEqual(["L1"]);
-    expect(plan.warnings.join("\n")).toMatch(/appliance is on the unverified courses hold list/);
+    expect(plan.courses.map((c) => c.slug)).toEqual(["appliance", "tst-x"]);
+    expect(plan.courses.flatMap((c) => c.placements.map((p) => p.lessonId))).toEqual(["H1", "L1"]);
+    expect(plan.warnings.join("\n")).not.toMatch(/unverified courses hold list/);
   });
 
   it("rejects a structure file with no courses array", () => {

@@ -2,6 +2,7 @@ import { describe, it, expect, vi, afterEach } from "vitest";
 import {
   createCentralServiceClient,
   loadCentralServiceConfig,
+  isTenantLikeKey,
   CentralServiceError,
 } from "../modules/central/central-service-client";
 
@@ -138,6 +139,20 @@ describe("central service client-credentials token (#209)", () => {
     expect(tokenCall!.init.redirect).toBe("error");
   });
 
+  it("requests and accepts the production LMS audience when the operator configures it", async () => {
+    const productAudience = "urn:titan-central:product:lms";
+    const clock = { now: 1_900_000_000_000 };
+    const { central } = clientFor({ nowMs: clock.now, audience: productAudience }, clock);
+    const client = createCentralServiceClient({
+      config: { ...config, audience: productAudience },
+      fetcher: central.fetcher as unknown as typeof fetch,
+      clock: () => clock.now,
+    });
+    await client.getAccessToken();
+    const tokenCall = central.calls.find((c) => c.url === TOKEN_URL);
+    expect(new URLSearchParams(String(tokenCall!.init.body)).get("audience")).toBe(productAudience);
+  });
+
   it("takes the token endpoint from discovery and never hard-codes it", async () => {
     const clock = { now: 1_900_000_000_000 };
     const central = fakeCentral({ nowMs: clock.now }, clock);
@@ -271,6 +286,30 @@ describe("central service API calls (#209)", () => {
     expect(central.calls.some((c) => c.url.startsWith(ISSUER + "/v1/"))).toBe(false);
   });
 
+  it("refuses tenant-like keys that are not spelled with the exact default names", async () => {
+    const clock = { now: 1_900_000_000_000 };
+    const { client, central } = clientFor({ nowMs: clock.now }, clock);
+    const refusedQueries: Array<Record<string, string>> = [{ organisationRef: "x" }, { org_id: "x" }, { orgId: "x" }, { cohortSize: "3" }];
+    for (const query of refusedQueries) {
+      await expect(client.request({ method: "GET", path: "/v1/example", query })).rejects.toMatchObject({
+        reason: "tenant_parameter_refused",
+      });
+    }
+    await expect(
+      client.request({ method: "POST", path: "/v1/example", body: { organisationRef: "x" } }),
+    ).rejects.toMatchObject({ reason: "tenant_parameter_refused" });
+    expect(central.calls.some((c) => c.url.startsWith(ISSUER + "/v1/"))).toBe(false);
+  });
+
+  it("refuses a body on GET before any network call", async () => {
+    const clock = { now: 1_900_000_000_000 };
+    const { client, central } = clientFor({ nowMs: clock.now }, clock);
+    await expect(client.request({ method: "GET", path: "/v1/example", body: { learnerRef: "abc" } })).rejects.toMatchObject({
+      reason: "invalid_request",
+    });
+    expect(central.calls.some((c) => c.url.startsWith(ISSUER + "/v1/"))).toBe(false);
+  });
+
   it("allows a POST body without tenant keys", async () => {
     const clock = { now: 1_900_000_000_000 };
     const { client, central } = clientFor({ nowMs: clock.now }, clock);
@@ -285,6 +324,57 @@ describe("central service API calls (#209)", () => {
     for (const path of ["https://evil.test/v1/x", "//evil.test/v1/x", "/v1/x?organisation_id=1"]) {
       await expect(client.request({ method: "GET", path })).rejects.toMatchObject({ reason: "invalid_request" });
     }
+  });
+
+  it.each([
+    "org-id", "org.id", "org id", "org_id", "orgId", "OrgID", "org.ref", "org-ref", "orgRef", "ORG_REF", "org",
+    "organisation", "organization", "organisationRef", "organization.id", "ORGANISATION_ID",
+    "tenant", "tenantId", "tenant-id", "tenant.id", "Tenant_Key",
+    "cohort", "cohortId", "cohort.size", "COHORT-SIZE",
+    "organiſation", "organiſationRef", "ｏｒｇ．ｉｄ", "ＯＲＧ_ＩＤ", "orgID​", "org­id", "tenant‌id",
+    "оrgid", // Cyrillic о: not NFKC-equivalent, so refused as a non-ASCII key
+  ])("refuses the tenant-like query key %j before any network call", async (key) => {
+    const clock = { now: 1_900_000_000_000 };
+    const { client, central } = clientFor({ nowMs: clock.now }, clock);
+    await expect(client.request({ method: "GET", path: "/v1/example", query: { [key]: "x" } })).rejects.toMatchObject({
+      reason: "tenant_parameter_refused",
+    });
+    expect(central.calls.some((c) => c.url.startsWith(ISSUER + "/v1/"))).toBe(false);
+    expect(central.issued()).toBe(0);
+  });
+
+  it.each([
+    "org-id", "org.id", "orgRef", "org_ref", "organiſation", "tenant.id", "cohort-size", "ＯＲＧＩＤ", "оrgid",
+  ])("refuses the tenant-like body key %j in a POST body before any network call", async (key) => {
+    const clock = { now: 1_900_000_000_000 };
+    const { client, central } = clientFor({ nowMs: clock.now }, clock);
+    await expect(client.request({ method: "POST", path: "/v1/example", body: { [key]: "x" } })).rejects.toMatchObject({
+      reason: "tenant_parameter_refused",
+    });
+    await expect(
+      client.request({ method: "POST", path: "/v1/example", body: { filter: { items: [{ [key]: "x" }] } } }),
+    ).rejects.toMatchObject({ reason: "tenant_parameter_refused" });
+    expect(central.calls.some((c) => c.url.startsWith(ISSUER + "/v1/"))).toBe(false);
+    expect(central.issued()).toBe(0);
+  });
+
+  it.each(["limit", "cursor", "learnerRef", "learner_ref", "skillName", "sortBy", "orgchartNote"])(
+    "allows the legitimate key %j in the query and body",
+    async (key) => {
+      const clock = { now: 1_900_000_000_000 };
+      const { client, central } = clientFor({ nowMs: clock.now }, clock);
+      await client.request({ method: "GET", path: "/v1/example", query: { [key]: "5" } });
+      await client.request({ method: "POST", path: "/v1/example", body: { [key]: "5" } });
+      const calls = central.calls.filter((c) => c.url.startsWith(ISSUER + "/v1/example"));
+      expect(calls).toHaveLength(2);
+    },
+  );
+
+  it("isTenantLikeKey normalises before matching and keeps legitimate names clear", () => {
+    expect(isTenantLikeKey("ORG.ID")).toBe(true);
+    expect(isTenantLikeKey("organiſationRef")).toBe(true);
+    expect(isTenantLikeKey("learnerRef")).toBe(false);
+    expect(isTenantLikeKey("limit")).toBe(false);
   });
 
   it("drops the cached token after a 401 so the next call fetches a new one", async () => {

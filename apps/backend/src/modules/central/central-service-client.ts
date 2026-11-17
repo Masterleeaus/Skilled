@@ -95,18 +95,32 @@ export interface CentralServiceClient {
   request(input: CentralServiceRequest): Promise<Response>;
 }
 
-const TENANT_KEY = /^(organi[sz]ation(_?id)?|tenant(_?id)?|cohort(_?id)?)$/i;
+// Central takes the tenant from the verified token only, so any key that names an organisation, tenant or cohort must
+// not reach the network. Keys are normalised first (NFKC, lowercase, separators removed) so that casing, dotted,
+// hyphenated, spaced and camel forms, and compatibility lookalikes such as "organiſation", all reduce to one spelling.
+const TENANT_KEY = /organi[sz]ation|tenant|cohort|^org(id|ref)?$/;
+const SEPARATORS_AND_INVISIBLES = /[^a-z0-9]/g;
 const SAFE_PATH = /^\/[A-Za-z0-9_.~/-]{1,512}$/;
 const DISCOVERY_CACHE_MS = 300_000;
 const MAX_TOKEN_RESPONSE_BYTES = 16_384;
 const MAX_TOKEN_LENGTH = 8192;
 const MAX_EXPIRES_IN_SECONDS = 86_400;
 
+/**
+ * True when a key names a tenant parameter in any spelling. Non-ASCII keys are refused outright after normalisation:
+ * Central's parameters are ASCII, and a leftover non-ASCII character is the only way a lookalike can get past.
+ */
+export function isTenantLikeKey(key: string): boolean {
+  const normalised = key.normalize("NFKC").toLowerCase();
+  if (/[\u0080-\u{10FFFF}]/u.test(normalised)) return true;
+  return TENANT_KEY.test(normalised.replace(SEPARATORS_AND_INVISIBLES, ""));
+}
+
 /** Walks a JSON value and reports whether any object key names a tenant parameter. Bounded depth. */
 function containsTenantKey(value: unknown, depth = 0): boolean {
   if (depth > 16 || value === null || typeof value !== "object") return false;
   if (Array.isArray(value)) return value.some((item) => containsTenantKey(item, depth + 1));
-  return Object.entries(value).some(([key, child]) => TENANT_KEY.test(key) || containsTenantKey(child, depth + 1));
+  return Object.entries(value).some(([key, child]) => isTenantLikeKey(key) || containsTenantKey(child, depth + 1));
 }
 
 function decodeUnverifiedClaims(token: string): Record<string, unknown> {
@@ -215,10 +229,12 @@ export function createCentralServiceClient({
 
   async function request({ method, path, query, body }: CentralServiceRequest): Promise<Response> {
     if (method !== "GET" && method !== "POST") throw new CentralServiceError("invalid_request");
+    // A GET has no body. Refusing it here keeps fetch's TypeError from being reported as api_unavailable.
+    if (method === "GET" && body !== undefined) throw new CentralServiceError("invalid_request");
     if (typeof path !== "string" || !SAFE_PATH.test(path) || path.includes("//")) throw new CentralServiceError("invalid_request");
     if (query !== undefined && (typeof query !== "object" || query === null)) throw new CentralServiceError("invalid_request");
     const queryKeys = Object.keys(query ?? {});
-    if (queryKeys.some((key) => TENANT_KEY.test(key)) || containsTenantKey(body)) {
+    if (queryKeys.some(isTenantLikeKey) || containsTenantKey(body)) {
       throw new CentralServiceError("tenant_parameter_refused");
     }
     const url = new URL(path, origin);
