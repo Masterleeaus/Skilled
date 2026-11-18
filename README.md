@@ -76,3 +76,9 @@ The [required Skilled CI gates](.github/workflows/skilled-ci-gates.yml) install 
 - **Governance:** [all open issues](https://github.com/Masterleeaus/Skilled/issues?q=is%3Aissue+is%3Aopen) and [legacy closure review #320](https://github.com/Masterleeaus/Skilled/issues/320).
 
 Never infer the status of a course from its title alone. Approvals and checked tasks must have verifiable lesson/source/test evidence. Preserve inherited LMS licence and curriculum attribution; see [curriculum/licence/README.md](curriculum/licence/README.md).
+
+## Find every README and developer guide
+
+- **[Complete README directory](docs/README_DIRECTORY.md)** — direct links to every README-style file in this repository, including component, test, vendor and historical documentation.
+- **[Documentation index](docs/README.md)** — curated entry point to the main technical guides and developer workflows.
+- **[Seven-repository platform map](https://github.com/Masterleeaus/Central/blob/main/docs/PLATFORM_MAP.md)** — cross-product architecture, ownership and integration boundaries.
