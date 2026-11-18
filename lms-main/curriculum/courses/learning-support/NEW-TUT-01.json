@@ -1,0 +1,134 @@
+{
+  "id": "NEW-TUT-01",
+  "title": "Tutoring scope: what the service covers and what it does not",
+  "courseSlugs": [
+    "learning-support"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Tutors and learning-support staff who offer one-to-one or small-group study help to school-age learners",
+  "prerequisites": [
+    "F01-L01"
+  ],
+  "learningOutcomes": [
+    "Explain what the tutoring service covers and what it does not cover",
+    "Decline requests for diagnosis, assessment of a learning disability or guaranteed exam results",
+    "State what consent a learner under 18 needs before the first session"
+  ],
+  "instruction": [
+    {
+      "heading": "What the service covers",
+      "body": "Tutoring in this course is study support: helping a learner practise skills in a subject, plan study time, understand a topic the learner has been taught, and prepare for a test the learner set. The tutor works from the learner's own work and the subject outline the family has provided. The service is not a school, does not replace teaching and is not a formal assessment."
+    },
+    {
+      "heading": "What the service does not cover",
+      "body": "A tutor does not diagnose a learning, health or behavioural condition, does not assess whether a learner has a learning disability, and does not recommend medication or therapy. If a family asks for these, the tutor says it is outside the service and suggests they speak with the learner's school or a qualified professional. The tutor does not promise a grade, a score or entry to a school or course."
+    },
+    {
+      "heading": "Consent and enrolment for learners under 18",
+      "body": "Before the first session, the business records the enrolment with the learner's name, age, school year, subjects, the parent or guardian's name and contact details, and written consent from the parent or guardian for sessions and for any communication. Who may give consent, and what must be recorded, depends on the family situation and the business policy. UNCONFIRMED: no official source has been fetched for this point in this draft. A child-safety reviewer must confirm it before approval."
+    }
+  ],
+  "procedure": [
+    "Check the request against the service scope before accepting a booking",
+    "Decline any request for diagnosis, assessment or guaranteed results, and say what is offered instead",
+    "Record the enrolment and parent or guardian consent before the first session",
+    "Confirm the learner's goals in writing with the parent or guardian, in plain words",
+    "Put any request outside scope in the decline record, with the date and the reason"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A parent asks the tutor to confirm whether her son has dyslexia, and to guarantee that he will pass the next English exam after twelve sessions.",
+      "decisionPrompt": "What does the tutor say, and what goes on the record?",
+      "reasoning": "Diagnosis and a guaranteed result are outside the service. The tutor explains the scope, suggests the parent talk to the school or a qualified professional about the concern, and offers study support with honest goals. The decline and the offer are recorded."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Enrolment form with parent or guardian consent section",
+    "Written service scope statement",
+    "Decline record template"
+  ],
+  "commonErrors": [
+    {
+      "error": "Offering a diagnosis because the tutor has noticed a difficulty.",
+      "prevention": "Describe what was observed and refer to the school or a qualified professional."
+    },
+    {
+      "error": "Promising an exam result to win a booking.",
+      "prevention": "Set goals about skills and practice, not guaranteed outcomes."
+    },
+    {
+      "error": "Starting sessions before consent is recorded.",
+      "prevention": "Do not start until the enrolment and consent are on file."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "The service does not diagnose, assess or treat any condition. Refer concerns to the school or a qualified professional.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Completing this lesson does not give a working-with-children check, registration, certificate or authority to work with children.",
+      "licenceNotice": true
+    }
+  ],
+  "qualityStandard": [
+    "Every enrolment has parent or guardian consent on file before the first session",
+    "No diagnosis, guaranteed result or accreditation claim is made in any message or listing",
+    "Each decline is recorded with the reason and the offer made"
+  ],
+  "documentationEvidence": [
+    "Signed enrolment and consent",
+    "Written service scope statement, with review date",
+    "Decline record for any out-of-scope request"
+  ],
+  "summary": [
+    "Tutoring is study support, not diagnosis, assessment or a school",
+    "Results are not guaranteed and claims are not made",
+    "Learners under 18 need recorded parent or guardian consent before the first session"
+  ],
+  "businessFields": [
+    "{{business:services.service_description}}",
+    "{{business:compliance.policy_reference}}",
+    "{{business:customers.communication_policy}}",
+    "{{business:staff.authorised_tasks}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-TUT-01-K01",
+      "question": "A parent asks the tutor to diagnose a learning difficulty. What is the correct response?",
+      "options": [
+        "Give a diagnosis based on the session notes",
+        "Explain that diagnosis is outside the service and suggest the school or a qualified professional",
+        "Guess a likely cause to help the family"
+      ]
+    },
+    {
+      "id": "NEW-TUT-01-K02",
+      "question": "What must be on file before the first session with a learner under 18?",
+      "options": [
+        "A photo of the learner",
+        "Enrolment details and parent or guardian consent",
+        "A guaranteed exam result"
+      ]
+    },
+    {
+      "id": "NEW-TUT-01-K03",
+      "question": "Which statement about results is acceptable?",
+      "options": [
+        "Every learner will pass the exam",
+        "Goals are set around skills and practice, with no guaranteed result",
+        "A higher grade is certain after ten sessions"
+      ]
+    }
+  ],
+  "officialReferences": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Authored from the consolidated course plan in issue 198 (draft only, planning source #152). Not checked against any regulator page.",
+    "UNCONFIRMED: no official source has been fetched for this point in this draft. A child-safety reviewer must confirm it before approval."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}

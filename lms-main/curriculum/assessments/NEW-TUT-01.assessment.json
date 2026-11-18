@@ -1,0 +1,33 @@
+{
+  "lessonId": "NEW-TUT-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-TUT-01-K01",
+      "correctIndex": 1,
+      "rationale": "Diagnosis is outside the service. The tutor refers the family."
+    },
+    {
+      "id": "NEW-TUT-01-K02",
+      "correctIndex": 1,
+      "rationale": "Enrolment and parent or guardian consent are recorded before the first session."
+    },
+    {
+      "id": "NEW-TUT-01-K03",
+      "correctIndex": 1,
+      "rationale": "Results are not guaranteed. Goals are about skills and practice."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor presents an out-of-scope request and observes the candidate decline, refer and record it",
+    "Assessor checks the enrolment form for parent or guardian consent before a session is booked"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate. Child-safety content needs a reviewer before approval.",
+  "evidenceRequired": [
+    "Recorded decline with reason and date",
+    "Completed enrolment and consent form"
+  ],
+  "stopWorkCriteria": [
+    "The candidate gives a diagnosis or a guaranteed result",
+    "The candidate starts a session with a learner under 18 before consent is recorded"
+  ]
+}

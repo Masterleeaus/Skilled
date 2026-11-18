@@ -1,0 +1,35 @@
+{
+  "lessonId": "NEW-TUT-04",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-TUT-04-K01",
+      "correctIndex": 1,
+      "rationale": "Learner information stays on business systems."
+    },
+    {
+      "id": "NEW-TUT-04-K02",
+      "correctIndex": 1,
+      "rationale": "An unsafe session is stopped, the tutor leaves in the agreed way, and the stop is recorded."
+    },
+    {
+      "id": "NEW-TUT-04-K03",
+      "correctIndex": 1,
+      "rationale": "The location follows the policy and the record."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor checks the session set-up record for a home session against the policy",
+    "Assessor observes the candidate stop a simulated unsafe session and record the reason"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Session location record",
+    "Session stop record for one simulated stop",
+    "Evidence that learner notes are stored on the business system"
+  ],
+  "stopWorkCriteria": [
+    "The candidate starts a session in a location not agreed in the policy",
+    "The candidate keeps learner information on a personal device",
+    "The candidate continues an unsafe session"
+  ]
+}
