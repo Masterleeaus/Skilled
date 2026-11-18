@@ -39,7 +39,7 @@ The root `package.json` pins **pnpm 10.0.0**, requires **Node.js 22+**, and coor
 ```bash
 corepack enable
 pnpm install --frozen-lockfile
-# Local development only, never on an existing DirectAdmin production server:
+# LOCAL DEVELOPMENT ONLY, never on an existing DirectAdmin production server:
 docker compose -f docker-compose.local-dev.yml up -d
 cp apps/backend/.env.example apps/backend/.env
 cd apps/backend
@@ -48,7 +48,13 @@ pnpm exec prisma migrate deploy
 pnpm dev
 ```
 
-Configure the backend-local `.env` securely for development. In another terminal, run `pnpm --filter @lms/frontend dev` from the repository root. For real deployment consult [docs/INSTALL.md](docs/INSTALL.md), [production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md) and [secrets runbook](docs/runbooks/secrets-handling.md). **Never execute `prisma migrate dev`, `db push`, local Compose bootstrap or `prisma migrate reset` against a customer database.**
+Configure the backend-local `.env` securely for development. Create the frontend environment file once, from the repository root:
+
+```bash
+cd apps/frontend && cp .env.example .env.local && cd ../..
+```
+
+Set `NEXT_PUBLIC_API_URL` in `apps/frontend/.env.local` to the backend `/api` URL. This local setup is not suitable for production, and production deployment is not verified by these steps. In another terminal, run `pnpm --filter @lms/frontend dev` from the repository root. For real deployment consult [docs/INSTALL.md](docs/INSTALL.md), [production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md) and [secrets runbook](docs/runbooks/secrets-handling.md). **Never execute `prisma migrate dev`, `db push`, local Compose bootstrap or `prisma migrate reset` against a customer database.**
 
 ### Required quality gates
 
