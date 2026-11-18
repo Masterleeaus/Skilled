@@ -32,4 +32,4 @@ State measurable expected behaviour, including edge cases and failure handling.
 - Manual or staging verification:
 - Residual risks / follow-up issues:
 
-**Closure policy:** All Markdown checklist tasks must be marked `[x]` only with credible implementation and verification evidence. Issues closed with unchecked tasks or without any checklist are automatically reopened by the repository's issue-completion guard.
+**Closure policy:** A ticked task means done, duplicated elsewhere, superseded, or no longer relevant. Tick a task as done only with credible implementation and verification evidence; tick it as duplicated, superseded or no longer relevant only with a link to the issue or PR that covers it. Issues closed with unticked tasks or without any checklist are automatically reopened by the repository's issue-completion guard.
