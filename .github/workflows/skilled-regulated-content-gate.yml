@@ -1,0 +1,39 @@
+name: skilled-regulated-content-gate
+on:
+  pull_request:
+    paths:
+      - 'curriculum/**'
+      - 'scripts/regulated-content-lib.mjs'
+      - 'scripts/build-regulated-inventory.mjs'
+      - 'scripts/validate-regulated-content.mjs'
+      - 'scripts/test-regulated-content-gate.mjs'
+      - '.github/workflows/skilled-regulated-content-gate.yml'
+  push:
+    branches: [Main, main]
+    paths:
+      - 'curriculum/**'
+      - 'scripts/regulated-content-lib.mjs'
+      - 'scripts/build-regulated-inventory.mjs'
+      - 'scripts/validate-regulated-content.mjs'
+      - 'scripts/test-regulated-content-gate.mjs'
+      - '.github/workflows/skilled-regulated-content-gate.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regulated-content-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - name: Set up Node 22
+        uses: ./.github/actions/setup-node-pnpm
+        with:
+          install-pnpm: "false"
+          cache: "false"
+      - name: Regression and negative/security tests for the regulated-content gate
+        working-directory: .
+        run: node scripts/test-regulated-content-gate.mjs
+      - name: Inventory is current and the review register is structurally valid
+        working-directory: .
+        run: node scripts/validate-regulated-content.mjs
