@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-SSH-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-SSH-02-K01",
+      "correctIndex": 1,
+      "rationale": "The listing states the feature as it is, so the guest is not misled."
+    },
+    {
+      "id": "NEW-SSH-02-K02",
+      "correctIndex": 1,
+      "rationale": "A price outside the owner limit needs the owner's approval first."
+    },
+    {
+      "id": "NEW-SSH-02-K03",
+      "correctIndex": 1,
+      "rationale": "A factual reply is given once, and false claims go through the platform process. Inducements and public arguments are not used."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor gives a property record and asks the candidate to mark which listing claims need a limit stated",
+    "Assessor checks a price change record for date, reason and owner-limit check",
+    "Assessor reviews a draft review reply for factual content and absence of any inducement"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Listing claim check against the property record",
+    "Price change log for one change",
+    "Review reply draft"
+  ],
+  "stopWorkCriteria": [
+    "A listing claim is published without a property record entry",
+    "A price is changed outside the owner limit without approval",
+    "A review is answered with an offer of money or a free night"
+  ]
+}

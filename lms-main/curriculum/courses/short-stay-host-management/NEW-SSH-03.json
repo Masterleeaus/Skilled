@@ -1,0 +1,135 @@
+{
+  "id": "NEW-SSH-03",
+  "title": "Guest access, keys, emergencies and incident escalation",
+  "courseSlugs": [
+    "short-stay-host-management"
+  ],
+  "moduleTitle": "Safety and hazards",
+  "layer": "business",
+  "lessonType": "RH",
+  "estimatedMinutes": 30,
+  "audience": "Short-stay hosts who manage guest arrival, keys and access codes and respond to incidents at a property",
+  "prerequisites": [
+    "F01-L01"
+  ],
+  "learningOutcomes": [
+    "Set up guest access so that codes and keys are changed between stays and not shared beyond the stay",
+    "Respond to an emergency at a property by making the scene safe and contacting the right service",
+    "Escalate damage, loss and safety incidents to the owner with a written record"
+  ],
+  "instruction": [
+    {
+      "heading": "Access between stays",
+      "body": "Every guest gets their own access code or key, and it is changed or deactivated when the stay ends. Keys are not left in the property or in a lock box that other guests can reach without a code. The host keeps a list of who has access, and removes the access of cleaners or contractors when they no longer need it. Access records are kept private and not shared in listings or messages."
+    },
+    {
+      "heading": "Emergencies",
+      "body": "If there is a fire, a gas smell, flooding, a medical emergency or a threat to anyone, the first step is to make people safe and call the emergency service that fits the situation. The host does not enter a dangerous area to check. After the emergency, the host records what happened and tells the owner. Emergency contact numbers are posted in the property in a place guests can see."
+    },
+    {
+      "heading": "Escalation and records",
+      "body": "Damage, lost property and safety incidents go to the owner in writing on the same day. The record has the date, time, what was seen, photos taken with the guest's consent where needed, and who was told. The host does not decide liability, does not agree a settlement with a guest and does not promise a refund for damage. Those decisions belong to the owner. How any dispute is handled depends on the platform and the law, which are not confirmed in this lesson. UNCONFIRMED: no official source has been fetched for this point in this draft. A reviewer must confirm it before approval."
+    }
+  ],
+  "procedure": [
+    "Create a unique access code or key for each guest and set its end time",
+    "Deactivate or change the access code at checkout and record the change",
+    "In an emergency, make the area safe, move people away from danger and call the emergency service",
+    "Do not enter an area that is smoky, flooded or has a gas smell",
+    "Record the incident in writing and tell the owner the same day"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A guest calls at 10pm to say there is a strong gas smell in the kitchen. The host is 40 minutes away.",
+      "decisionPrompt": "What is the first step, and what does the host do next?",
+      "reasoning": "The host tells the guest to leave the property and not to use switches or flames, and calls the emergency service and the gas provider number on the posted emergency sheet. The host does not drive into a gas-filled room. Afterwards, the host records the incident and tells the owner in writing."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Access code or key register with start and end times",
+    "Emergency contact sheet posted in the property",
+    "Incident record template",
+    "Photo consent note for any photo taken in the property"
+  ],
+  "commonErrors": [
+    {
+      "error": "Reusing a guest access code for the next stay.",
+      "prevention": "Create and deactivate a code for each stay, and record each change."
+    },
+    {
+      "error": "Entering a property with a gas smell to check.",
+      "prevention": "Leave, call the emergency service and the gas provider on the posted sheet."
+    },
+    {
+      "error": "Agreeing a refund for damage without the owner.",
+      "prevention": "Record the incident and escalate. The owner decides the outcome."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Emergency response is a call to the emergency service and the people at risk come first. This lesson does not replace emergency training or first aid training.",
+      "licenceNotice": false
+    },
+    {
+      "point": "Rules on guest privacy, photos and incident reporting vary by location and are not confirmed in this lesson. UNCONFIRMED: no official source has been fetched for this point in this draft. A reviewer must confirm it before approval.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every guest access code or key has a recorded start and end time",
+    "An emergency is handled by calling the emergency service first",
+    "Every incident has a written record sent to the owner the same day"
+  ],
+  "documentationEvidence": [
+    "Access register with start and end times",
+    "Emergency contact sheet check record",
+    "Incident record with date, time and who was told"
+  ],
+  "summary": [
+    "Access is set per stay and removed at checkout",
+    "In an emergency, people come first and the emergency service is called",
+    "Incidents are recorded and escalated to the owner; the host does not decide liability"
+  ],
+  "businessFields": [
+    "{{business:customers.access_instructions}}",
+    "{{business:safety.emergency_contact}}",
+    "{{business:safety.escalation_contact}}",
+    "{{business:safety.incident_reporting_procedure}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-SSH-03-K01",
+      "question": "When should a guest's access code be deactivated?",
+      "options": [
+        "Never, so it can be reused",
+        "At the end of the stay, and the change is recorded",
+        "Only if the guest asks"
+      ]
+    },
+    {
+      "id": "NEW-SSH-03-K02",
+      "question": "A guest reports a gas smell. What is the first step?",
+      "options": [
+        "Enter the kitchen and open the windows",
+        "Make people leave the area and call the emergency service",
+        "Wait until the morning and check"
+      ]
+    },
+    {
+      "id": "NEW-SSH-03-K03",
+      "question": "A guest has broken a window. Who decides whether the guest pays?",
+      "options": [
+        "The host, on the day",
+        "The owner, after a written record of the incident",
+        "The guest, by choice"
+      ]
+    }
+  ],
+  "officialReferences": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Authored from the course plan for issue 192 (short-stay host management). Not checked against any regulator or platform page.",
+    "UNCONFIRMED: no official source has been fetched for this point in this draft. A reviewer must confirm it before approval."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}
