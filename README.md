@@ -48,7 +48,17 @@ pnpm exec prisma migrate deploy
 pnpm dev
 ```
 
-Configure the backend-local `.env` securely for development. In another terminal, run `pnpm --filter @lms/frontend dev` from the repository root. For real deployment consult [docs/INSTALL.md](docs/INSTALL.md), [production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md) and [secrets runbook](docs/runbooks/secrets-handling.md). **Never execute `prisma migrate dev`, `db push`, local Compose bootstrap or `prisma migrate reset` against a customer database.**
+**LOCAL DEVELOPMENT ONLY.** This setup is not suitable for production and is not production verified.
+
+Frontend (second terminal):
+
+```bash
+cp apps/frontend/.env.example apps/frontend/.env.local
+cd apps/frontend
+pnpm dev
+```
+
+Configure the backend-local `.env` and the frontend `.env.local` securely for development. Run `pnpm --filter @lms/frontend dev` from the repository root if you prefer. For real deployment consult [docs/INSTALL.md](docs/INSTALL.md), [production preflight](docs/ACADEMY-PASS43-DEPLOYMENT-PREFLIGHT.md) and [secrets runbook](docs/runbooks/secrets-handling.md). **Never execute `prisma migrate dev`, `db push`, local Compose bootstrap or `prisma migrate reset` against a customer database.**
 
 ### Required quality gates
 
