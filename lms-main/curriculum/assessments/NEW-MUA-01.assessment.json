@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-MUA-01",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-MUA-01-K01",
+      "correctIndex": 1,
+      "rationale": "Permanent eyeliner is skin penetration and is outside the course. A signed consent form does not change the scope."
+    },
+    {
+      "id": "NEW-MUA-01-K02",
+      "correctIndex": 1,
+      "rationale": "A patch test is done before use for new products or higher-risk clients, and the result is recorded."
+    },
+    {
+      "id": "NEW-MUA-01-K03",
+      "correctIndex": 1,
+      "rationale": "A patch test gives information for that client. It is not a guarantee and does not replace the intake."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor presents a request for a permanent service and observes the candidate decline, record it and offer an approved alternative",
+    "Assessor checks that the candidate completes the allergy intake and records a patch-test decision for a new product",
+    "Assessor checks that consent covers the products and any photos before work starts"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Record of the declined request, with reason and date",
+    "Completed intake and consent form",
+    "Patch-test log entry"
+  ],
+  "stopWorkCriteria": [
+    "The candidate offers or begins a permanent or skin-penetrating service",
+    "The candidate applies a new product without a patch-test decision",
+    "The client reports a reaction and the candidate continues"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "lessonId": "NEW-NAL-02",
+  "knowledgeAnswers": [
+    {
+      "id": "NEW-NAL-02-K01",
+      "correctIndex": 1,
+      "rationale": "Reusable instruments are cleaned and disinfected after every client."
+    },
+    {
+      "id": "NEW-NAL-02-K02",
+      "correctIndex": 1,
+      "rationale": "Disinfection does not work on debris. Clean, dry, then disinfect."
+    },
+    {
+      "id": "NEW-NAL-02-K03",
+      "correctIndex": 1,
+      "rationale": "Files and buffers that cannot be verified as clean are single-use. Metal instruments are reusable."
+    }
+  ],
+  "practicalCriteria": [
+    "Assessor observes the candidate clean, dry and disinfect one reusable instrument in the correct order, and time the contact period",
+    "Assessor checks the clean station before and after one simulated visit",
+    "Assessor checks that a used file is discarded and not returned to the tray"
+  ],
+  "passRule": "80% on knowledge checks; practical sign-off separate",
+  "evidenceRequired": [
+    "Instrument cleaning and disinfection log",
+    "Photograph or observation record of the clean station",
+    "Disinfectant label available for the assessor"
+  ],
+  "stopWorkCriteria": [
+    "A used instrument is returned to the clean tray without cleaning",
+    "A cracked or pitted instrument is used",
+    "A single-use file is used on a second client"
+  ]
+}

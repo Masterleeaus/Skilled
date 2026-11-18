@@ -1,0 +1,137 @@
+{
+  "id": "NEW-MUA-01",
+  "title": "Makeup artistry scope and skin-contact boundaries",
+  "courseSlugs": [
+    "makeup-artistry"
+  ],
+  "moduleTitle": "Scope and authority",
+  "layer": "business",
+  "lessonType": "K",
+  "estimatedMinutes": 25,
+  "audience": "Mobile makeup artists who work on events, photo shoots and bridal appointments at a client location",
+  "prerequisites": [
+    "F01-L01"
+  ],
+  "learningOutcomes": [
+    "Decide whether a requested service is inside the makeup artistry scope of this course",
+    "Explain why permanent makeup, cosmetic tattooing and injectables are outside this course",
+    "Record consent and a patch-test decision before using a new product on a client"
+  ],
+  "instruction": [
+    {
+      "heading": "What this course covers",
+      "body": "Makeup artistry in this course means temporary cosmetic application: foundation, powder, eye and lip colour, contouring and setting, carried out at the client location for an event, a shoot or a bridal appointment. Applying product to intact skin with brushes, sponges and applicators, and removing it, is inside the scope. Anything that breaks the skin, places material under the skin or changes the skin permanently is outside this course."
+    },
+    {
+      "heading": "Where the lines fall",
+      "body": "Permanent makeup, semi-permanent cosmetic tattooing and cosmetic injectables all involve skin penetration or long-lasting change. Several states and councils treat these as separate and higher-risk services with their own registration or licence rules. This course does not teach them, does not give authority to offer them, and does not say how they are done. Whether a business needs a registration or licence depends on the state, territory and council. UNCONFIRMED: no official source has been fetched for this point in this draft. A reviewer must confirm it before approval."
+    },
+    {
+      "heading": "Consent and patch testing",
+      "body": "Before any product touches a client, the artist asks about allergies, previous reactions to cosmetics, medical skin conditions and any product the client is already using. For a new product, or a client with a reaction history, a patch test is done in advance and the result is written down. The artist does not apply a product where the client has a known reaction to an ingredient, and does not treat a patch test as a guarantee that no reaction will happen."
+    }
+  ],
+  "procedure": [
+    "Check the requested service against the approved service list for the business",
+    "Stop and decline any service that breaks the skin, places material under the skin or is permanent, and record the decline",
+    "Ask the allergy and skin-condition questions and record the answers before the first product is used",
+    "Carry out a patch test for any new product or any client with a reaction history, and record the time and result",
+    "Obtain written consent that covers the products to be used and the photos, if any, that will be taken"
+  ],
+  "workedExamples": [
+    {
+      "situation": "A bride asks for permanent eyeliner to be done at her home on the morning of the wedding, and asks whether the makeup artist can add it to the booking.",
+      "decisionPrompt": "Is permanent eyeliner inside this course, and what does the artist do next?",
+      "reasoning": "Permanent eyeliner is skin penetration and is outside the course. The artist declines on scope grounds, does not quote for it, records the request, and offers the approved temporary eye makeup instead. Any question about a permanent service goes to a separate business decision with its own registration check."
+    }
+  ],
+  "equipmentAndPpe": [
+    "Approved product list held with the booking record",
+    "Single-use applicators and sponges",
+    "Clean brush set with a cleaning kit",
+    "Safety data sheet for each product in use",
+    "Patch-test log and consent form"
+  ],
+  "commonErrors": [
+    {
+      "error": "Adding a permanent service to the menu because a client asks for it.",
+      "prevention": "Permanent and skin-penetrating services are outside the course. Decline and record the request."
+    },
+    {
+      "error": "Treating a patch test as proof that a product is safe for everyone.",
+      "prevention": "A patch test lowers the risk for that client only. Stop at the first sign of reaction and do not continue."
+    },
+    {
+      "error": "Starting work before the consent and allergy questions are answered.",
+      "prevention": "Complete the intake first. Record the answers on the booking."
+    }
+  ],
+  "safetyAndRegulatory": [
+    {
+      "point": "Permanent makeup, cosmetic tattooing and injectables are excluded from this course. This lesson does not grant authority to offer any of them.",
+      "licenceNotice": true
+    },
+    {
+      "point": "Registration and licence rules for beauty and cosmetic services differ by state, territory and council. UNCONFIRMED: no official source has been fetched for this point in this draft. A reviewer must confirm it before approval.",
+      "licenceNotice": false
+    }
+  ],
+  "qualityStandard": [
+    "Every service offered is on the approved list with a review date",
+    "A patch-test decision is recorded before any new product is used",
+    "No permanent or skin-penetrating service is offered, advertised or quoted under this course"
+  ],
+  "documentationEvidence": [
+    "Approved service list with review date",
+    "Consent and allergy intake, signed or confirmed",
+    "Patch-test log with date, product and result",
+    "Record of any declined request"
+  ],
+  "summary": [
+    "Makeup artistry in this course is temporary, non-penetrating application",
+    "Permanent makeup and injectables are outside the course and are declined",
+    "Allergy questions, patch tests and written consent come before first use"
+  ],
+  "businessFields": [
+    "{{business:services.service_description}}",
+    "{{business:compliance.jurisdiction}}",
+    "{{business:compliance.licence_requirements}}",
+    "{{business:customers.communication_policy}}"
+  ],
+  "knowledgeChecks": [
+    {
+      "id": "NEW-MUA-01-K01",
+      "question": "A client asks a makeup artist to add permanent eyeliner during a booking. What is the correct action under this course?",
+      "options": [
+        "Add it as an extra service and quote a price",
+        "Decline on scope grounds, record the request and offer approved temporary makeup",
+        "Carry it out if the client has signed a consent form"
+      ]
+    },
+    {
+      "id": "NEW-MUA-01-K02",
+      "question": "When should a patch test be done for a product?",
+      "options": [
+        "Only after a client reports a reaction",
+        "In advance, for any new product or a client with a reaction history, with the result recorded",
+        "Once a year for every client"
+      ]
+    },
+    {
+      "id": "NEW-MUA-01-K03",
+      "question": "Which statement about a patch test is correct?",
+      "options": [
+        "It guarantees the product is safe for the client",
+        "It lowers the risk for that client only and does not guarantee safety",
+        "It replaces the need for an allergy intake"
+      ]
+    }
+  ],
+  "officialReferences": [],
+  "status": "DRAFT",
+  "sourceReferences": [
+    "Authored from the course plan for issue 190 (personal services). Not checked against any regulator page.",
+    "UNCONFIRMED: no official source has been fetched for this point in this draft. A reviewer must confirm it before approval."
+  ],
+  "reviewStatus": "NOT REVIEWED"
+}
