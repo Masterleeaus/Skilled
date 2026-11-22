@@ -219,3 +219,16 @@ These are open. Check each one before relying on the install:
 6. The PostgreSQL binary path, service unit name, Redis version and port, Node installation method, backend port, and the location of the private environment file are not confirmed by the repository (`DEPLOY-RUNBOOK.md` section 10).
 7. Migrations have not been recorded as applied on PostgreSQL 16 for the Academy database (`DEPLOY-RUNBOOK.md` section 5).
 8. `docs/runbooks/deployment.md` states that its steps are documented but not rehearsed.
+
+## 13. Fresh-checkout setup smoke record (2026-11-18)
+
+Recorded for [issue #2](https://github.com/Masterleeaus/Skilled/issues/2). Scope: a disposable local checkout of `Main` at `41007b6`, with throwaway PostgreSQL 16 and Redis 7 on localhost. No live, staging or production service was used.
+
+1. Copied `apps/backend/.env.example` to `apps/backend/.env` and `apps/frontend/.env.example` to `apps/frontend/.env.local`, unchanged.
+2. `pnpm install --frozen-lockfile` for `@lms/backend` and `@lms/frontend` completed.
+3. `pnpm exec prisma generate` and `pnpm exec prisma migrate deploy` completed against a local `lms` database, applying every migration.
+4. `apps/backend/src/config/env.ts` loaded the template without validation errors.
+5. The backend started on port 5000. `GET /api/health` reported `database: ok` and `redis: ok`. `storage` was `down` because no MinIO was running locally. The API logs say it keeps starting in that case.
+6. `next dev` on port 3000 returned HTTP 200 for `/`.
+
+Not covered: MinIO upload paths, SMTP delivery and a full browser sign-in. Those need the local Compose services.
